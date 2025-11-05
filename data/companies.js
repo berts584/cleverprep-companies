@@ -1370,5 +1370,362 @@ export const companies = {
       'Why Visa over competitors?'
     ],
     relatedCompanies: ['mastercard', 'american-express', 'paypal', 'stripe']
+  },
+  'mckinsey': {
+    name: 'McKinsey & Company',
+    tagline: 'Get your personalized McKinsey & Company prep package in 10 minutes - $59',
+    industry: 'Consulting',
+    headquarters: 'New York, NY',
+    description: 'McKinsey & Company is a global management consulting firm serving leading businesses, governments, and institutions. McKinsey interviews are known for being extremely rigorous, emphasizing case interviews, problem-solving frameworks, and the "McKinsey way" of structured thinking.',
+    interviewTips: [
+      'Master case interview frameworks (profitability, market entry, M&A)',
+      'Practice mental math and quick calculations',
+      'Use MECE (Mutually Exclusive, Collectively Exhaustive) principles',
+      'Prepare compelling personal experience stories',
+      'Demonstrate structured thinking and hypothesis-driven approach'
+    ],
+    whatTheyLookFor: [
+      'Problem-solving ability',
+      'Structured thinking',
+      'Communication and presence',
+      'Leadership potential',
+      'Achievement orientation'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Resume Screen',
+        description: 'Application review focusing on achievements and leadership'
+      },
+      {
+        step: 2,
+        title: 'First Round (2 interviews)',
+        description: 'Two 1-hour case interviews with consultants or engagement managers'
+      },
+      {
+        step: 3,
+        title: 'Final Round (3 interviews)',
+        description: 'Three case interviews including partner/principal level'
+      },
+      {
+        step: 4,
+        title: 'Offer Decision',
+        description: 'Decision typically within a few days'
+      }
+    ],
+    questions: [
+      'How many gas stations are there in the United States?',
+      'A retail client is experiencing declining profits. What would you investigate?',
+      'Should a pharmaceutical company enter the Chinese market?',
+      'How would you help a struggling airline increase profitability?',
+      'Estimate the market size for electric vehicles in Europe'
+    ],
+    relatedCompanies: ['bcg', 'bain', 'deloitte', 'pwc']
+  },
+  'bcg': {
+    name: 'Boston Consulting Group',
+    tagline: 'Get your personalized Boston Consulting Group prep package in 10 minutes - $59',
+    industry: 'Consulting',
+    headquarters: 'Boston, MA',
+    description: 'Boston Consulting Group (BCG) is a global management consulting firm and one of the most prestigious strategy consulting firms. BCG interviews focus on case-solving ability, creativity in problem-solving, and cultural fit with their collaborative environment.',
+    interviewTips: [
+      'Practice both traditional and creative case approaches',
+      'Show genuine curiosity and ask clarifying questions',
+      'Demonstrate business intuition and hypothesis testing',
+      'Prepare for behavioral questions on teamwork and impact',
+      'Familiarize yourself with BCG frameworks and methodologies'
+    ],
+    whatTheyLookFor: [
+      'Analytical excellence',
+      'Creativity and innovation',
+      'Entrepreneurial spirit',
+      'Collaboration and teamwork',
+      'Passion and authenticity'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application & Online Test',
+        description: 'Resume submission and potential online case or test'
+      },
+      {
+        step: 2,
+        title: 'First Round Interviews',
+        description: 'Two 45-minute case interviews'
+      },
+      {
+        step: 3,
+        title: 'Final Round Interviews',
+        description: 'Three interviews including partner level'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Offer decision communicated quickly'
+      }
+    ],
+    questions: [
+      'A private equity firm is considering acquiring a coffee chain. Should they do it?',
+      'How would you help a telecom company respond to new competition?',
+      'Estimate the number of weddings per year in the UK',
+      'A luxury hotel brand wants to expand to Asia. What should they consider?',
+      'How many smartphones are sold globally each year?'
+    ],
+    relatedCompanies: ['mckinsey', 'bain', 'deloitte', 'accenture']
+  },
+  'bain': {
+    name: 'Bain & Company',
+    tagline: 'Get your personalized Bain & Company prep package in 10 minutes - $59',
+    industry: 'Consulting',
+    headquarters: 'Boston, MA',
+    description: 'Bain & Company is a top-tier management consulting firm known for its results-oriented approach and strong culture. Bain interviews emphasize case performance, cultural fit, and the "Bainie" personality of being smart, collaborative, and down-to-earth.',
+    interviewTips: [
+      'Show enthusiasm and positive energy throughout',
+      'Practice written case interviews (unique to Bain)',
+      'Demonstrate teamwork and collaborative problem-solving',
+      'Prepare examples of impact and results from experiences',
+      'Be authentic and show genuine interest in consulting'
+    ],
+    whatTheyLookFor: [
+      'Smart and analytical',
+      'Team-oriented and friendly',
+      'Results-driven mindset',
+      'Adaptability and learning agility',
+      'Cultural fit ("Bainie" personality)'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application Review',
+        description: 'Resume and cover letter evaluation'
+      },
+      {
+        step: 2,
+        title: 'First Round (2 interviews)',
+        description: 'Two case interviews, may include written case'
+      },
+      {
+        step: 3,
+        title: 'Final Round (3 interviews)',
+        description: 'Three interviews with consultants and partners'
+      },
+      {
+        step: 4,
+        title: 'Offer Decision',
+        description: 'Typically receive decision same day or next day'
+      }
+    ],
+    questions: [
+      'A grocery store chain is losing market share. How would you help?',
+      'Should a software company acquire a competitor?',
+      'How many pizzas are delivered in New York City on a Friday night?',
+      'A client in the automotive industry wants to launch an EV. What should they know?',
+      'Estimate the revenue of Starbucks'
+    ],
+    relatedCompanies: ['mckinsey', 'bcg', 'deloitte', 'pwc']
+  },
+  'deloitte': {
+    name: 'Deloitte',
+    tagline: 'Get your personalized Deloitte prep package in 10 minutes - $59',
+    industry: 'Consulting',
+    headquarters: 'London, UK / New York, NY',
+    description: 'Deloitte is one of the "Big Four" professional services firms, offering audit, consulting, tax, and advisory services. Deloitte Consulting interviews assess case-solving ability, behavioral competencies, and alignment with their values of integrity and collaboration.',
+    interviewTips: [
+      'Prepare for both case and behavioral questions',
+      'Understand Deloitte\'s service lines and recent work',
+      'Show interest in specific industries or practice areas',
+      'Demonstrate strong communication and presentation skills',
+      'Research their commitment to diversity and social impact'
+    ],
+    whatTheyLookFor: [
+      'Problem-solving skills',
+      'Leadership potential',
+      'Collaboration and teamwork',
+      'Integrity and ethics',
+      'Client service mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Resume submission and online assessments'
+      },
+      {
+        step: 2,
+        title: 'First Round Interview',
+        description: 'Case interview and behavioral questions'
+      },
+      {
+        step: 3,
+        title: 'Final Round / Superday',
+        description: 'Multiple interviews with senior consultants and partners'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Decision typically within 1-2 weeks'
+      }
+    ],
+    questions: [
+      'A manufacturing client wants to reduce costs by 20%. How would you approach this?',
+      'Walk me through a time you led a team through a challenge',
+      'How many electric vehicle charging stations are needed in California?',
+      'A hospital system wants to improve patient satisfaction. What would you recommend?',
+      'Why Deloitte over other consulting firms?'
+    ],
+    relatedCompanies: ['pwc', 'ey', 'accenture', 'kpmg']
+  },
+  'pwc': {
+    name: 'PwC',
+    tagline: 'Get your personalized PwC prep package in 10 minutes - $59',
+    industry: 'Consulting',
+    headquarters: 'London, UK',
+    description: 'PricewaterhouseCoopers (PwC) is a global professional services network and one of the Big Four firms. PwC interviews evaluate analytical ability through cases, behavioral fit, and commitment to building trust and delivering sustained outcomes.',
+    interviewTips: [
+      'Prepare for case interviews and competency-based questions',
+      'Understand PwC\'s values and The New Equation strategy',
+      'Show interest in digital transformation and technology',
+      'Demonstrate leadership and initiative in examples',
+      'Research industry-specific challenges PwC addresses'
+    ],
+    whatTheyLookFor: [
+      'Analytical and problem-solving skills',
+      'Leadership and initiative',
+      'Team collaboration',
+      'Adaptability to change',
+      'Professional integrity'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application & Online Tests',
+        description: 'Submit application and complete online assessments'
+      },
+      {
+        step: 2,
+        title: 'First Interview',
+        description: 'Case study and behavioral interview'
+      },
+      {
+        step: 3,
+        title: 'Assessment Center / Final Round',
+        description: 'Group exercises, case interviews, and partner interview'
+      },
+      {
+        step: 4,
+        title: 'Offer Decision',
+        description: 'Receive decision within 1-2 weeks'
+      }
+    ],
+    questions: [
+      'A retail client is considering expanding online. What factors should they consider?',
+      'Describe a time you had to influence without authority',
+      'How would you estimate the market for cloud computing services?',
+      'A financial services client wants to improve efficiency. Where would you start?',
+      'Why consulting and why PwC?'
+    ],
+    relatedCompanies: ['deloitte', 'ey', 'kpmg', 'accenture']
+  },
+  'ey': {
+    name: 'EY',
+    tagline: 'Get your personalized EY prep package in 10 minutes - $59',
+    industry: 'Consulting',
+    headquarters: 'London, UK',
+    description: 'EY (Ernst & Young) is a multinational professional services firm and one of the Big Four. EY Consulting interviews focus on problem-solving capability, behavioral competencies, and alignment with their purpose of building a better working world.',
+    interviewTips: [
+      'Prepare structured approaches to case problems',
+      'Demonstrate interest in EY\'s technology and innovation focus',
+      'Show examples of building relationships and teams',
+      'Understand EY\'s industry sectors and service offerings',
+      'Practice competency-based behavioral questions'
+    ],
+    whatTheyLookFor: [
+      'Problem-solving excellence',
+      'Relationship building',
+      'Strategic thinking',
+      'Adaptability and resilience',
+      'Commitment to quality'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Resume and online assessment submission'
+      },
+      {
+        step: 2,
+        title: 'Video Interview',
+        description: 'Pre-recorded or live behavioral interview'
+      },
+      {
+        step: 3,
+        title: 'Assessment Day',
+        description: 'Case study, group exercise, and partner interview'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision communicated'
+      }
+    ],
+    questions: [
+      'A technology client wants to enter a new market. How would you advise them?',
+      'Tell me about a time you solved a complex problem',
+      'Estimate the size of the global consulting market',
+      'How would you help a client improve their supply chain?',
+      'Why EY and why this service line?'
+    ],
+    relatedCompanies: ['pwc', 'deloitte', 'kpmg', 'accenture']
+  },
+  'accenture': {
+    name: 'Accenture',
+    tagline: 'Get your personalized Accenture prep package in 10 minutes - $59',
+    industry: 'Consulting',
+    headquarters: 'Dublin, Ireland',
+    description: 'Accenture is a global professional services company providing strategy, consulting, technology, and operations services. Accenture interviews emphasize problem-solving, technology aptitude, and alignment with their values of client value creation, one global network, and respect for the individual.',
+    interviewTips: [
+      'Prepare for both case and behavioral interviews',
+      'Show interest in technology and digital transformation',
+      'Demonstrate adaptability and continuous learning',
+      'Understand Accenture\'s industry and functional practices',
+      'Practice articulating your unique value proposition'
+    ],
+    whatTheyLookFor: [
+      'Problem-solving and analytical skills',
+      'Technology orientation',
+      'Client focus',
+      'Collaboration across cultures',
+      'Growth mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application & Screening',
+        description: 'Online application and resume review'
+      },
+      {
+        step: 2,
+        title: 'Online Assessment',
+        description: 'Aptitude tests and video interview'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds',
+        description: 'Case and behavioral interviews with consultants and managers'
+      },
+      {
+        step: 4,
+        title: 'Offer Decision',
+        description: 'Final review and offer extended'
+      }
+    ],
+    questions: [
+      'How would you help a bank implement a digital transformation?',
+      'Describe a project where you had to learn a new skill quickly',
+      'Estimate the number of data centers needed for a cloud provider',
+      'A client wants to improve customer experience. What would you do?',
+      'Why Accenture over other technology consulting firms?'
+    ],
+    relatedCompanies: ['deloitte', 'ibm', 'capgemini', 'cognizant']
   }
 }
