@@ -809,5 +809,566 @@ export const companies = {
       'Tell me about a time you worked in a team'
     ],
     relatedCompanies: ['jpmorgan', 'morgan-stanley', 'bank-of-america', 'citigroup']
+  },
+  'jpmorgan': {
+    name: 'JPMorgan Chase',
+    tagline: 'Get your personalized JPMorgan Chase prep package in 10 minutes - $59',
+    industry: 'Finance',
+    headquarters: 'New York, NY',
+    description: 'JPMorgan Chase is the largest bank in the United States and a global leader in investment banking, financial services, and asset management. Interviews focus on technical finance knowledge, problem-solving, and cultural alignment with their values of teamwork and excellence.',
+    interviewTips: [
+      'Prepare for both technical and behavioral questions',
+      'Understand JPMorgan\'s business segments and recent deals',
+      'Practice financial modeling and accounting questions',
+      'Show genuine interest in finance and markets',
+      'Demonstrate strong communication and teamwork skills'
+    ],
+    whatTheyLookFor: [
+      'Strong analytical skills',
+      'Team player mentality',
+      'Passion for financial markets',
+      'Professional communication',
+      'Problem-solving abilities'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application & HireVue',
+        description: 'Submit resume and complete video interview'
+      },
+      {
+        step: 2,
+        title: 'Superday Interview',
+        description: '4-6 back-to-back interviews with different team members'
+      },
+      {
+        step: 3,
+        title: 'Technical & Behavioral Questions',
+        description: 'Mix of finance technical, fit questions, and case studies'
+      },
+      {
+        step: 4,
+        title: 'Offer Decision',
+        description: 'Receive decision within 1-2 weeks'
+      }
+    ],
+    questions: [
+      'Walk me through a DCF model',
+      'Why investment banking?',
+      'Tell me about a recent deal JPMorgan was involved in',
+      'How would you value a company?',
+      'What makes you interested in JPMorgan?'
+    ],
+    relatedCompanies: ['goldman-sachs', 'morgan-stanley', 'bank-of-america', 'citigroup']
+  },
+  'morgan-stanley': {
+    name: 'Morgan Stanley',
+    tagline: 'Get your personalized Morgan Stanley prep package in 10 minutes - $59',
+    industry: 'Finance',
+    headquarters: 'New York, NY',
+    description: 'Morgan Stanley is a leading global financial services firm providing investment banking, securities, wealth management, and investment management. Their interviews emphasize technical excellence, cultural fit, and commitment to putting clients first.',
+    interviewTips: [
+      'Research Morgan Stanley\'s recent transactions and news',
+      'Practice valuation methods (DCF, comps, precedent)',
+      'Prepare thoughtful questions about the firm',
+      'Demonstrate strong work ethic and humility',
+      'Be ready to discuss market trends and opinions'
+    ],
+    whatTheyLookFor: [
+      'Intellectual curiosity',
+      'Strong quantitative skills',
+      'Client-first mentality',
+      'Team collaboration',
+      'Professional maturity'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application & HireVue',
+        description: 'Online application and video interview'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Superday',
+        description: '3-5 rounds of interviews with team members'
+      },
+      {
+        step: 4,
+        title: 'Final Review',
+        description: 'Decision communicated within 1-2 weeks'
+      }
+    ],
+    questions: [
+      'Why Morgan Stanley over competitors?',
+      'Walk me through your investment thesis on a stock',
+      'Explain how LBO modeling works',
+      'What interests you about this division?',
+      'Describe a time you worked under pressure'
+    ],
+    relatedCompanies: ['goldman-sachs', 'jpmorgan', 'bank-of-america', 'citigroup']
+  },
+  'bank-of-america': {
+    name: 'Bank of America',
+    tagline: 'Get your personalized Bank of America prep package in 10 minutes - $59',
+    industry: 'Finance',
+    headquarters: 'Charlotte, NC',
+    description: 'Bank of America is one of the world\'s largest financial institutions serving individual consumers, small businesses, and large corporations. Their interview process assesses technical knowledge, leadership potential, and alignment with their culture of responsible growth.',
+    interviewTips: [
+      'Understand Bank of America\'s corporate values',
+      'Prepare for technical finance and accounting questions',
+      'Show examples of leadership and teamwork',
+      'Research their ESG and community initiatives',
+      'Be ready to discuss your career goals'
+    ],
+    whatTheyLookFor: [
+      'Leadership potential',
+      'Analytical mindset',
+      'Ethical decision-making',
+      'Collaborative approach',
+      'Long-term commitment'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Assessment',
+        description: 'Application and initial screening'
+      },
+      {
+        step: 2,
+        title: 'HireVue Interview',
+        description: 'Video interview with behavioral questions'
+      },
+      {
+        step: 3,
+        title: 'Superday',
+        description: 'Multiple rounds of interviews with team'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer extended'
+      }
+    ],
+    questions: [
+      'Why Bank of America?',
+      'How do you value a bank?',
+      'Walk me through the three financial statements',
+      'Tell me about a leadership experience',
+      'What\'s your understanding of our business model?'
+    ],
+    relatedCompanies: ['jpmorgan', 'wells-fargo', 'citigroup', 'goldman-sachs']
+  },
+  'citigroup': {
+    name: 'Citigroup',
+    tagline: 'Get your personalized Citigroup prep package in 10 minutes - $59',
+    industry: 'Finance',
+    headquarters: 'New York, NY',
+    description: 'Citigroup is a global banking and financial services corporation with operations in over 160 countries. Citi interviews focus on technical competency, global mindset, and cultural fit with their collaborative and diverse environment.',
+    interviewTips: [
+      'Emphasize your interest in global markets',
+      'Prepare for technical questions on finance and markets',
+      'Show cultural awareness and adaptability',
+      'Research Citi\'s international presence',
+      'Demonstrate strong communication skills'
+    ],
+    whatTheyLookFor: [
+      'Global perspective',
+      'Technical proficiency',
+      'Cultural awareness',
+      'Integrity and ethics',
+      'Collaborative mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application Review',
+        description: 'Submit application and resume'
+      },
+      {
+        step: 2,
+        title: 'HireVue Interview',
+        description: 'Recorded video interview'
+      },
+      {
+        step: 3,
+        title: 'Assessment Center / Superday',
+        description: '3-5 interviews with various team members'
+      },
+      {
+        step: 4,
+        title: 'Final Decision',
+        description: 'Offer communicated within 2 weeks'
+      }
+    ],
+    questions: [
+      'Why Citi and why this division?',
+      'How would you analyze emerging market risk?',
+      'Walk me through a merger model',
+      'What makes you a good fit for our culture?',
+      'Describe a time you worked across cultures'
+    ],
+    relatedCompanies: ['jpmorgan', 'bank-of-america', 'goldman-sachs', 'morgan-stanley']
+  },
+  'wells-fargo': {
+    name: 'Wells Fargo',
+    tagline: 'Get your personalized Wells Fargo prep package in 10 minutes - $59',
+    industry: 'Finance',
+    headquarters: 'San Francisco, CA',
+    description: 'Wells Fargo is a diversified financial services company providing banking, investment, mortgage, and consumer finance services. Interviews emphasize ethical decision-making, customer focus, and technical competence in financial services.',
+    interviewTips: [
+      'Understand Wells Fargo\'s commitment to ethics and compliance',
+      'Prepare for scenario-based ethical questions',
+      'Show customer-centric thinking',
+      'Research their recent initiatives and changes',
+      'Demonstrate attention to risk management'
+    ],
+    whatTheyLookFor: [
+      'Ethical judgment',
+      'Customer service orientation',
+      'Risk awareness',
+      'Teamwork and collaboration',
+      'Continuous learning mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Submit resume and complete application'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Panel Interview',
+        description: '2-4 rounds with hiring managers and team members'
+      },
+      {
+        step: 4,
+        title: 'Background Check & Offer',
+        description: 'Final steps and offer decision'
+      }
+    ],
+    questions: [
+      'How would you handle an ethical dilemma?',
+      'Why Wells Fargo?',
+      'Describe your understanding of banking regulation',
+      'Tell me about a time you improved a process',
+      'How do you prioritize customer needs?'
+    ],
+    relatedCompanies: ['bank-of-america', 'jpmorgan', 'us-bank', 'pnc']
+  },
+  'blackrock': {
+    name: 'BlackRock',
+    tagline: 'Get your personalized BlackRock prep package in 10 minutes - $59',
+    industry: 'Finance',
+    headquarters: 'New York, NY',
+    description: 'BlackRock is the world\'s largest asset manager with over $10 trillion in assets under management. BlackRock interviews focus on investment knowledge, analytical skills, and cultural fit with their innovative and technology-driven approach to investing.',
+    interviewTips: [
+      'Understand asset management and portfolio theory',
+      'Research BlackRock\'s technology platform (Aladdin)',
+      'Prepare investment ideas and market views',
+      'Show interest in sustainable investing (ESG)',
+      'Demonstrate analytical and quantitative skills'
+    ],
+    whatTheyLookFor: [
+      'Investment acumen',
+      'Quantitative abilities',
+      'Technology aptitude',
+      'Risk management skills',
+      'Fiduciary mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application & Assessment',
+        description: 'Online application and potential assessment test'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Final Round Interviews',
+        description: '3-5 interviews including case studies'
+      },
+      {
+        step: 4,
+        title: 'Offer Decision',
+        description: 'Final review and offer'
+      }
+    ],
+    questions: [
+      'What\'s your investment thesis on a current market trend?',
+      'How would you build a diversified portfolio?',
+      'Why asset management over investment banking?',
+      'Explain the efficient market hypothesis',
+      'What role does technology play in investing?'
+    ],
+    relatedCompanies: ['vanguard', 'fidelity', 'state-street', 'wellington']
+  },
+  'vanguard': {
+    name: 'Vanguard',
+    tagline: 'Get your personalized Vanguard prep package in 10 minutes - $59',
+    industry: 'Finance',
+    headquarters: 'Malvern, PA',
+    description: 'Vanguard is one of the world\'s largest investment management companies known for pioneering low-cost index investing. Vanguard interviews emphasize alignment with their client-first philosophy, analytical abilities, and collaborative culture.',
+    interviewTips: [
+      'Understand Vanguard\'s unique ownership structure',
+      'Prepare to discuss passive vs active investing',
+      'Show alignment with putting clients first',
+      'Demonstrate long-term thinking',
+      'Research their index fund innovations'
+    ],
+    whatTheyLookFor: [
+      'Client-centric values',
+      'Analytical thinking',
+      'Humility and teamwork',
+      'Long-term orientation',
+      'Investment knowledge'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Submit resume and application'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation about background and fit'
+      },
+      {
+        step: 3,
+        title: 'Onsite Interviews',
+        description: '3-4 behavioral and technical interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Decision typically within 2 weeks'
+      }
+    ],
+    questions: [
+      'Why Vanguard over other asset managers?',
+      'What\'s your view on passive vs active investing?',
+      'How would you explain index funds to a client?',
+      'Describe a time you put someone else\'s needs first',
+      'What attracts you to the investment industry?'
+    ],
+    relatedCompanies: ['blackrock', 'fidelity', 'schwab', 'state-street']
+  },
+  'schwab': {
+    name: 'Charles Schwab',
+    tagline: 'Get your personalized Charles Schwab prep package in 10 minutes - $59',
+    industry: 'Finance',
+    headquarters: 'Westlake, TX',
+    description: 'Charles Schwab is a leading brokerage and banking services firm focused on democratizing investing. Schwab interviews assess client service orientation, technical knowledge, and alignment with their mission to empower investors.',
+    interviewTips: [
+      'Emphasize customer service and empathy',
+      'Understand retail brokerage and wealth management',
+      'Show interest in financial technology',
+      'Prepare for scenario-based questions',
+      'Research Schwab\'s acquisition of TD Ameritrade'
+    ],
+    whatTheyLookFor: [
+      'Client service excellence',
+      'Integrity and trust',
+      'Financial knowledge',
+      'Problem-solving skills',
+      'Team collaboration'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application Submission',
+        description: 'Apply online with resume'
+      },
+      {
+        step: 2,
+        title: 'Recruiter Phone Screen',
+        description: 'Initial screening conversation'
+      },
+      {
+        step: 3,
+        title: 'Hiring Manager Interview',
+        description: 'Technical and behavioral interview'
+      },
+      {
+        step: 4,
+        title: 'Final Interview & Offer',
+        description: 'Meet with additional team members'
+      }
+    ],
+    questions: [
+      'How would you help a client who is risk-averse?',
+      'Why Charles Schwab?',
+      'Explain different investment vehicles',
+      'Describe a time you exceeded customer expectations',
+      'What trends do you see in retail investing?'
+    ],
+    relatedCompanies: ['vanguard', 'fidelity', 'td-ameritrade', 'etrade']
+  },
+  'capital-one': {
+    name: 'Capital One',
+    tagline: 'Get your personalized Capital One prep package in 10 minutes - $59',
+    industry: 'Finance',
+    headquarters: 'McLean, VA',
+    description: 'Capital One is a bank holding company specializing in credit cards, auto loans, banking, and savings accounts. Known for their technology-forward approach, Capital One interviews emphasize analytical problem-solving, data-driven thinking, and innovation.',
+    interviewTips: [
+      'Prepare for case interviews and analytical questions',
+      'Show strong quantitative and problem-solving skills',
+      'Understand their digital banking innovations',
+      'Demonstrate data analysis abilities',
+      'Research their tech culture and engineering practices'
+    ],
+    whatTheyLookFor: [
+      'Analytical thinking',
+      'Data-driven decision making',
+      'Innovation mindset',
+      'Problem-solving creativity',
+      'Tech-forward approach'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Submit application and resume'
+      },
+      {
+        step: 2,
+        title: 'Power Day',
+        description: '3-5 case and behavioral interviews'
+      },
+      {
+        step: 3,
+        title: 'Case Studies',
+        description: 'Business case analysis and presentation'
+      },
+      {
+        step: 4,
+        title: 'Offer Decision',
+        description: 'Final review and offer'
+      }
+    ],
+    questions: [
+      'Estimate the number of ATMs in the US',
+      'How would you improve Capital One\'s mobile app?',
+      'Walk me through how you\'d analyze credit risk',
+      'Why Capital One over traditional banks?',
+      'Solve this market sizing problem'
+    ],
+    relatedCompanies: ['jpmorgan', 'american-express', 'discover', 'synchrony']
+  },
+  'american-express': {
+    name: 'American Express',
+    tagline: 'Get your personalized American Express prep package in 10 minutes - $59',
+    industry: 'Finance',
+    headquarters: 'New York, NY',
+    description: 'American Express is a global payments and travel company known for its premium charge cards and customer service excellence. Amex interviews focus on customer obsession, relationship building, and alignment with their service-oriented culture.',
+    interviewTips: [
+      'Emphasize customer service and relationship building',
+      'Understand the payments industry landscape',
+      'Show examples of going above and beyond',
+      'Research Amex\'s brand positioning and premium services',
+      'Demonstrate problem-solving for customer issues'
+    ],
+    whatTheyLookFor: [
+      'Customer obsession',
+      'Relationship building skills',
+      'Premium service mindset',
+      'Problem-solving abilities',
+      'Brand alignment'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Apply through career portal'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Recruiter conversation about background'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds',
+        description: '2-4 interviews with team members'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and offer decision'
+      }
+    ],
+    questions: [
+      'Why American Express?',
+      'How would you handle a dissatisfied customer?',
+      'What differentiates Amex from Visa and Mastercard?',
+      'Describe a time you exceeded expectations',
+      'How would you attract millennials to our platform?'
+    ],
+    relatedCompanies: ['visa', 'mastercard', 'capital-one', 'discover']
+  },
+  'visa': {
+    name: 'Visa',
+    tagline: 'Get your personalized Visa prep package in 10 minutes - $59',
+    industry: 'Finance',
+    headquarters: 'San Francisco, CA',
+    description: 'Visa is a global payments technology company that enables electronic payments around the world. Visa interviews assess technical knowledge of payments, innovation mindset, and ability to think globally about financial technology.',
+    interviewTips: [
+      'Understand the payments ecosystem deeply',
+      'Show interest in fintech innovation',
+      'Prepare for technical and product questions',
+      'Research Visa\'s global network and technology',
+      'Demonstrate cross-cultural awareness'
+    ],
+    whatTheyLookFor: [
+      'Payments knowledge',
+      'Innovation mindset',
+      'Global perspective',
+      'Technical aptitude',
+      'Strategic thinking'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application & Screen',
+        description: 'Online application and initial screening'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Technical and behavioral questions'
+      },
+      {
+        step: 3,
+        title: 'Onsite Interviews',
+        description: '3-5 rounds with team members'
+      },
+      {
+        step: 4,
+        title: 'Final Review',
+        description: 'Team decision and offer'
+      }
+    ],
+    questions: [
+      'How does Visa make money?',
+      'What trends are shaping the payments industry?',
+      'How would you approach expanding into a new market?',
+      'Explain the difference between issuer and acquirer',
+      'Why Visa over competitors?'
+    ],
+    relatedCompanies: ['mastercard', 'american-express', 'paypal', 'stripe']
   }
 }
