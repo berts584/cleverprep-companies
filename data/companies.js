@@ -1727,5 +1727,515 @@ export const companies = {
       'Why Accenture over other technology consulting firms?'
     ],
     relatedCompanies: ['deloitte', 'ibm', 'capgemini', 'cognizant']
+  },
+  'procter-gamble': {
+    name: 'Procter & Gamble',
+    tagline: 'Get your personalized Procter & Gamble prep package in 10 minutes - $59',
+    industry: 'Consumer Goods',
+    headquarters: 'Cincinnati, OH',
+    description: 'Procter & Gamble (P&G) is one of the world\'s largest consumer goods companies with iconic brands like Tide, Pampers, and Gillette. P&G interviews emphasize brand management thinking, leadership through the P&G Leadership Framework, and data-driven decision making in consumer marketing.',
+    interviewTips: [
+      'Understand P&G\'s brand portfolio and categories',
+      'Prepare examples using the STAR method with leadership focus',
+      'Show data-driven thinking and analytical skills',
+      'Demonstrate consumer insights and brand management knowledge',
+      'Research P&G\'s purpose, values, and principles (PVP)'
+    ],
+    whatTheyLookFor: [
+      'Leadership and ownership',
+      'Consumer-centric thinking',
+      'Analytical and strategic mindset',
+      'Innovation and creativity',
+      'Collaboration and teamwork'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Submit resume highlighting leadership experiences'
+      },
+      {
+        step: 2,
+        title: 'Online Assessments',
+        description: 'Reasoning tests and situational judgment tests'
+      },
+      {
+        step: 3,
+        title: 'First Round Interview',
+        description: 'Behavioral interview focused on leadership examples'
+      },
+      {
+        step: 4,
+        title: 'Final Round Interviews',
+        description: '2-3 interviews with hiring managers and team members'
+      }
+    ],
+    questions: [
+      'Tell me about a time you led a team to achieve a goal',
+      'How would you increase market share for a P&G brand?',
+      'Describe a situation where you used data to make a decision',
+      'Why do you want to work in consumer goods?',
+      'How would you improve the customer experience for one of our products?'
+    ],
+    relatedCompanies: ['unilever', 'coca-cola', 'pepsico', 'nike']
+  },
+  'nike': {
+    name: 'Nike',
+    tagline: 'Get your personalized Nike prep package in 10 minutes - $59',
+    industry: 'Consumer Goods',
+    headquarters: 'Beaverton, OR',
+    description: 'Nike is the world\'s leading athletic footwear and apparel company, known for innovation and brand excellence. Nike interviews emphasize passion for sport, creativity, consumer insights, and alignment with their mission to bring inspiration and innovation to every athlete.',
+    interviewTips: [
+      'Show genuine passion for sports and the Nike brand',
+      'Understand Nike\'s brand positioning and competitors',
+      'Prepare examples of innovation and creative problem-solving',
+      'Demonstrate knowledge of retail and e-commerce trends',
+      'Research Nike\'s sustainability initiatives and values'
+    ],
+    whatTheyLookFor: [
+      'Passion for sport and brand',
+      'Innovation mindset',
+      'Consumer obsession',
+      'Collaboration across teams',
+      'Drive for results'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application Review',
+        description: 'Submit resume and portfolio if applicable'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter or hiring manager'
+      },
+      {
+        step: 3,
+        title: 'Panel Interviews',
+        description: 'Multiple rounds with team members and managers'
+      },
+      {
+        step: 4,
+        title: 'Final Decision',
+        description: 'Offer decision typically within 1-2 weeks'
+      }
+    ],
+    questions: [
+      'Why Nike and not Adidas or Under Armour?',
+      'How would you improve the Nike app experience?',
+      'Tell me about a time you drove innovation',
+      'What\'s your favorite Nike product and why?',
+      'How would you market a new sneaker to Gen Z?'
+    ],
+    relatedCompanies: ['adidas', 'lululemon', 'under-armour', 'puma']
+  },
+  'coca-cola': {
+    name: 'Coca-Cola',
+    tagline: 'Get your personalized Coca-Cola prep package in 10 minutes - $59',
+    industry: 'Consumer Goods',
+    headquarters: 'Atlanta, GA',
+    description: 'The Coca-Cola Company is the world\'s largest beverage company with over 500 brands. Coca-Cola interviews focus on brand management, marketing excellence, global mindset, and alignment with their values of leadership, collaboration, integrity, accountability, and passion.',
+    interviewTips: [
+      'Understand Coca-Cola\'s brand portfolio and strategy',
+      'Show global perspective and cultural awareness',
+      'Prepare marketing and brand management examples',
+      'Demonstrate knowledge of beverage industry trends',
+      'Research their sustainability commitments and initiatives'
+    ],
+    whatTheyLookFor: [
+      'Marketing and brand expertise',
+      'Global mindset',
+      'Consumer insights',
+      'Leadership and collaboration',
+      'Passion for beverages and brands'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Submit resume through career portal'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Screening with recruiter or hiring manager'
+      },
+      {
+        step: 3,
+        title: 'Assessment & Interviews',
+        description: 'Potential case study and behavioral interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer extended'
+      }
+    ],
+    questions: [
+      'How would you launch a new beverage in a competitive market?',
+      'Why Coca-Cola?',
+      'Describe a successful marketing campaign you admire',
+      'How would you respond to health-conscious consumer trends?',
+      'Tell me about a time you worked across cultures or regions'
+    ],
+    relatedCompanies: ['pepsico', 'procter-gamble', 'nestle', 'unilever']
+  },
+  'pepsico': {
+    name: 'PepsiCo',
+    tagline: 'Get your personalized PepsiCo prep package in 10 minutes - $59',
+    industry: 'Consumer Goods',
+    headquarters: 'Purchase, NY',
+    description: 'PepsiCo is a global food and beverage leader with brands including Pepsi, Lay\'s, Gatorade, and Quaker. PepsiCo interviews assess commercial acumen, agility, consumer-centric thinking, and cultural fit with their focus on performance with purpose.',
+    interviewTips: [
+      'Know PepsiCo\'s food and beverage portfolio well',
+      'Prepare examples showing agility and adaptability',
+      'Demonstrate commercial and business acumen',
+      'Show understanding of health and wellness trends',
+      'Research pep+ (PepsiCo Positive) sustainability initiative'
+    ],
+    whatTheyLookFor: [
+      'Commercial acumen',
+      'Agility and adaptability',
+      'Consumer focus',
+      'Results orientation',
+      'Collaborative leadership'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application Submission',
+        description: 'Apply online with resume'
+      },
+      {
+        step: 2,
+        title: 'Initial Interview',
+        description: 'Phone or video interview with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Hiring Manager Interview',
+        description: 'In-depth behavioral and technical interview'
+      },
+      {
+        step: 4,
+        title: 'Final Interviews',
+        description: 'Panel interviews with team and leadership'
+      }
+    ],
+    questions: [
+      'How would you grow market share for a mature snack brand?',
+      'Why PepsiCo over Coca-Cola?',
+      'Describe a time you adapted quickly to change',
+      'How would you address health concerns about sugary beverages?',
+      'Tell me about a successful sales or marketing initiative you led'
+    ],
+    relatedCompanies: ['coca-cola', 'mondelez', 'nestle', 'kraft-heinz']
+  },
+  'walmart': {
+    name: 'Walmart',
+    tagline: 'Get your personalized Walmart prep package in 10 minutes - $59',
+    industry: 'Retail',
+    headquarters: 'Bentonville, AR',
+    description: 'Walmart is the world\'s largest retailer operating thousands of stores globally. Walmart interviews focus on retail operations, customer service excellence, data-driven decision making, and alignment with their culture of service to customers, respect for individuals, and striving for excellence.',
+    interviewTips: [
+      'Understand retail operations and supply chain basics',
+      'Show customer-first mentality with specific examples',
+      'Demonstrate data analysis and problem-solving skills',
+      'Research Walmart\'s e-commerce and technology initiatives',
+      'Prepare examples of efficiency and cost savings'
+    ],
+    whatTheyLookFor: [
+      'Customer service orientation',
+      'Operational excellence',
+      'Data-driven thinking',
+      'Leadership and initiative',
+      'Adaptability to retail environment'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Submit application through Walmart careers'
+      },
+      {
+        step: 2,
+        title: 'Assessment Tests',
+        description: 'Situational judgment and skills assessments'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds',
+        description: 'Behavioral interviews with managers'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and job offer'
+      }
+    ],
+    questions: [
+      'How would you improve the in-store customer experience?',
+      'Describe a time you improved a process or saved costs',
+      'Why do you want to work in retail?',
+      'How would you handle an understaffed busy day?',
+      'What\'s your view on Walmart\'s competition with Amazon?'
+    ],
+    relatedCompanies: ['target', 'costco', 'amazon', 'kroger']
+  },
+  'target': {
+    name: 'Target',
+    tagline: 'Get your personalized Target prep package in 10 minutes - $59',
+    industry: 'Retail',
+    headquarters: 'Minneapolis, MN',
+    description: 'Target is a leading general merchandise retailer known for design-forward products and exceptional guest experience. Target interviews emphasize guest service, brand love, innovation, and cultural fit with their inclusive and trend-focused retail environment.',
+    interviewTips: [
+      'Show passion for Target\'s brand and guest experience',
+      'Understand Target\'s positioning vs Walmart and Amazon',
+      'Prepare examples of customer service excellence',
+      'Demonstrate knowledge of retail trends and e-commerce',
+      'Research Target\'s owned brands and collaborations'
+    ],
+    whatTheyLookFor: [
+      'Guest-centric mindset',
+      'Brand passion',
+      'Teamwork and collaboration',
+      'Adaptability and flexibility',
+      'Drive for results'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply online for specific role'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'In-Person/Virtual Interview',
+        description: 'Behavioral interview with hiring manager'
+      },
+      {
+        step: 4,
+        title: 'Final Decision',
+        description: 'Offer extended after background check'
+      }
+    ],
+    questions: [
+      'Why Target over other retailers?',
+      'How would you handle a difficult guest situation?',
+      'Describe a time you went above and beyond for a customer',
+      'What\'s your favorite Target product and why?',
+      'How would you improve Target\'s omnichannel experience?'
+    ],
+    relatedCompanies: ['walmart', 'costco', 'macys', 'kohls']
+  },
+  'costco': {
+    name: 'Costco',
+    tagline: 'Get your personalized Costco prep package in 10 minutes - $59',
+    industry: 'Retail',
+    headquarters: 'Issaquah, WA',
+    description: 'Costco Wholesale is a membership-based warehouse club known for bulk products and exceptional employee treatment. Costco interviews focus on customer service, teamwork, operational efficiency, and cultural fit with their employee-first, member-focused philosophy.',
+    interviewTips: [
+      'Understand Costco\'s membership model and value proposition',
+      'Show strong work ethic and reliability',
+      'Prepare examples of teamwork and helping others',
+      'Demonstrate customer service orientation',
+      'Research Costco\'s employee benefits and culture'
+    ],
+    whatTheyLookFor: [
+      'Strong work ethic',
+      'Team player attitude',
+      'Customer service skills',
+      'Reliability and punctuality',
+      'Positive attitude'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply online or in-store'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Brief screening call'
+      },
+      {
+        step: 3,
+        title: 'In-Person Interview',
+        description: 'Interview with warehouse manager or department lead'
+      },
+      {
+        step: 4,
+        title: 'Offer & Onboarding',
+        description: 'Job offer and training begins'
+      }
+    ],
+    questions: [
+      'Why do you want to work at Costco?',
+      'How would you handle a long line of frustrated customers?',
+      'Tell me about a time you worked as part of a team',
+      'What does excellent customer service mean to you?',
+      'How would you handle heavy physical work and long shifts?'
+    ],
+    relatedCompanies: ['walmart', 'target', 'sams-club', 'bjs']
+  },
+  'home-depot': {
+    name: 'Home Depot',
+    tagline: 'Get your personalized Home Depot prep package in 10 minutes - $59',
+    industry: 'Retail',
+    headquarters: 'Atlanta, GA',
+    description: 'The Home Depot is the world\'s largest home improvement retailer. Home Depot interviews emphasize customer service, product knowledge, problem-solving, and alignment with their values of taking care of people, giving back, doing the right thing, and building strong relationships.',
+    interviewTips: [
+      'Show DIY or home improvement knowledge and passion',
+      'Prepare customer service examples',
+      'Demonstrate problem-solving and resourcefulness',
+      'Understand home improvement retail and products',
+      'Research Home Depot\'s community involvement'
+    ],
+    whatTheyLookFor: [
+      'Customer service excellence',
+      'Product knowledge or willingness to learn',
+      'Problem-solving ability',
+      'Teamwork and collaboration',
+      'Reliability and accountability'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply online for position'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial phone conversation'
+      },
+      {
+        step: 3,
+        title: 'In-Store Interview',
+        description: 'Meet with store manager or department supervisor'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and job offer'
+      }
+    ],
+    questions: [
+      'Why Home Depot?',
+      'How would you help a customer who doesn\'t know what they need?',
+      'Describe your experience with home improvement or DIY',
+      'Tell me about a time you solved a problem creatively',
+      'How would you handle multiple customers needing help?'
+    ],
+    relatedCompanies: ['lowes', 'menards', 'tractor-supply', 'ace-hardware']
+  },
+  'mcdonalds': {
+    name: 'McDonald\'s',
+    tagline: 'Get your personalized McDonald\'s prep package in 10 minutes - $59',
+    industry: 'Retail',
+    headquarters: 'Chicago, IL',
+    description: 'McDonald\'s is the world\'s leading quick-service restaurant chain. McDonald\'s interviews assess customer service skills, teamwork, adaptability, and cultural fit with their fast-paced restaurant environment focused on quality, service, cleanliness, and value.',
+    interviewTips: [
+      'Show enthusiasm for fast-paced customer service',
+      'Demonstrate flexibility and adaptability',
+      'Prepare examples of working under pressure',
+      'Emphasize teamwork and communication',
+      'Understand McDonald\'s service standards and values'
+    ],
+    whatTheyLookFor: [
+      'Customer service skills',
+      'Teamwork and communication',
+      'Adaptability to fast pace',
+      'Positive attitude',
+      'Reliability and punctuality'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply online or in-store'
+      },
+      {
+        step: 2,
+        title: 'Interview',
+        description: 'Meet with restaurant manager'
+      },
+      {
+        step: 3,
+        title: 'Assessment',
+        description: 'May include scenario-based questions'
+      },
+      {
+        step: 4,
+        title: 'Offer & Training',
+        description: 'Job offer and training begins quickly'
+      }
+    ],
+    questions: [
+      'Why do you want to work at McDonald\'s?',
+      'How would you handle a rush with impatient customers?',
+      'Describe a time you worked as part of a team',
+      'What does good customer service mean to you?',
+      'How do you handle stressful situations?'
+    ],
+    relatedCompanies: ['burger-king', 'wendys', 'chipotle', 'starbucks']
+  },
+  'starbucks': {
+    name: 'Starbucks',
+    tagline: 'Get your personalized Starbucks prep package in 10 minutes - $59',
+    industry: 'Retail',
+    headquarters: 'Seattle, WA',
+    description: 'Starbucks is the world\'s leading coffeehouse chain known for premium coffee and customer experience. Starbucks interviews focus on customer connection, passion for coffee, teamwork, and alignment with their mission to inspire and nurture the human spirit.',
+    interviewTips: [
+      'Show genuine passion for coffee and the Starbucks experience',
+      'Prepare examples of exceptional customer service',
+      'Demonstrate teamwork and communication skills',
+      'Understand Starbucks culture and values',
+      'Research their community involvement and partner benefits'
+    ],
+    whatTheyLookFor: [
+      'Customer connection skills',
+      'Passion for coffee and brand',
+      'Teamwork and positivity',
+      'Adaptability to busy environment',
+      'Integrity and respect'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply online for barista or other role'
+      },
+      {
+        step: 2,
+        title: 'Initial Interview',
+        description: 'Meet with shift supervisor or store manager'
+      },
+      {
+        step: 3,
+        title: 'Second Interview',
+        description: 'May have follow-up with district manager'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Job offer and onboarding'
+      }
+    ],
+    questions: [
+      'Why Starbucks?',
+      'Describe a time you made a customer\'s day',
+      'How would you handle a long line of customers during morning rush?',
+      'What\'s your favorite Starbucks drink?',
+      'Tell me about a time you worked with a difficult team member'
+    ],
+    relatedCompanies: ['dunkin', 'peets-coffee', 'panera', 'chipotle']
   }
 }
