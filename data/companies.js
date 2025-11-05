@@ -2237,5 +2237,413 @@ export const companies = {
       'Tell me about a time you worked with a difficult team member'
     ],
     relatedCompanies: ['dunkin', 'peets-coffee', 'panera', 'chipotle']
+  },
+  'pfizer': {
+    name: 'Pfizer',
+    tagline: 'Get your personalized Pfizer prep package in 10 minutes - $59',
+    industry: 'Healthcare',
+    headquarters: 'New York, NY',
+    description: 'Pfizer is a leading biopharmaceutical company discovering, developing, and manufacturing healthcare products. Pfizer interviews emphasize scientific knowledge, regulatory understanding, patient focus, and alignment with their purpose of breakthroughs that change patients\' lives.',
+    interviewTips: [
+      'Demonstrate strong scientific and technical knowledge',
+      'Understand drug development and clinical trial processes',
+      'Show awareness of FDA regulations and compliance',
+      'Prepare examples of patient-centered thinking',
+      'Research Pfizer\'s pipeline and recent innovations'
+    ],
+    whatTheyLookFor: [
+      'Scientific expertise',
+      'Patient-centric mindset',
+      'Regulatory knowledge',
+      'Innovation and research skills',
+      'Collaborative approach'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application Review',
+        description: 'Submit resume highlighting scientific experience'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter or hiring manager'
+      },
+      {
+        step: 3,
+        title: 'Technical Interview',
+        description: 'In-depth discussion of technical expertise and experience'
+      },
+      {
+        step: 4,
+        title: 'Panel Interview',
+        description: 'Meet with team members and leadership'
+      }
+    ],
+    questions: [
+      'Explain the drug development process from discovery to market',
+      'How would you handle a clinical trial setback?',
+      'Describe your experience with regulatory submissions',
+      'Why Pfizer and why pharmaceuticals?',
+      'How do you ensure patient safety in your work?'
+    ],
+    relatedCompanies: ['moderna', 'johnson-johnson', 'merck', 'abbvie']
+  },
+  'johnson-johnson': {
+    name: 'Johnson & Johnson',
+    tagline: 'Get your personalized Johnson & Johnson prep package in 10 minutes - $59',
+    industry: 'Healthcare',
+    headquarters: 'New Brunswick, NJ',
+    description: 'Johnson & Johnson is a global healthcare company with pharmaceuticals, medical devices, and consumer health products. J&J interviews focus on scientific knowledge, leadership through their Credo values, innovation, and commitment to improving human health worldwide.',
+    interviewTips: [
+      'Study Johnson & Johnson\'s Credo and values deeply',
+      'Prepare examples demonstrating the Credo in action',
+      'Understand their diverse healthcare portfolio',
+      'Show innovation and problem-solving in healthcare',
+      'Research their global health initiatives'
+    ],
+    whatTheyLookFor: [
+      'Alignment with Credo values',
+      'Scientific and healthcare expertise',
+      'Innovation mindset',
+      'Leadership potential',
+      'Global health perspective'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Submit application through J&J careers portal'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Screening with recruiter or hiring manager'
+      },
+      {
+        step: 3,
+        title: 'Behavioral & Technical Interviews',
+        description: 'Multiple rounds focusing on Credo and expertise'
+      },
+      {
+        step: 4,
+        title: 'Final Decision',
+        description: 'Offer decision typically within 2 weeks'
+      }
+    ],
+    questions: [
+      'Tell me about the J&J Credo and what it means to you',
+      'How would you improve a medical device for patient outcomes?',
+      'Describe a time you put patients or customers first',
+      'What healthcare trend excites you most?',
+      'How do you approach innovation in healthcare?'
+    ],
+    relatedCompanies: ['pfizer', 'abbvie', 'medtronic', 'boston-scientific']
+  },
+  'unitedhealth': {
+    name: 'UnitedHealth Group',
+    tagline: 'Get your personalized UnitedHealth Group prep package in 10 minutes - $59',
+    industry: 'Healthcare',
+    headquarters: 'Minnetonka, MN',
+    description: 'UnitedHealth Group is a diversified healthcare company including UnitedHealthcare and Optum. UnitedHealth interviews assess healthcare knowledge, data analytics skills, operational thinking, and commitment to making healthcare work better for everyone.',
+    interviewTips: [
+      'Understand health insurance and benefits administration',
+      'Show data-driven decision making abilities',
+      'Demonstrate knowledge of healthcare systems',
+      'Prepare examples of improving healthcare access or quality',
+      'Research UnitedHealth\'s business segments'
+    ],
+    whatTheyLookFor: [
+      'Healthcare industry knowledge',
+      'Analytical and data skills',
+      'Operational excellence',
+      'Member/patient focus',
+      'Innovation in healthcare delivery'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application Submission',
+        description: 'Apply through careers website'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial recruiter conversation'
+      },
+      {
+        step: 3,
+        title: 'Virtual/Onsite Interview',
+        description: 'Behavioral and technical interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and offer decision'
+      }
+    ],
+    questions: [
+      'How would you improve healthcare affordability?',
+      'Explain value-based care and its importance',
+      'Describe your experience with healthcare data analytics',
+      'Why UnitedHealth Group?',
+      'How would you address healthcare disparities?'
+    ],
+    relatedCompanies: ['anthem', 'cigna', 'humana', 'cvs-health']
+  },
+  'cvs-health': {
+    name: 'CVS Health',
+    tagline: 'Get your personalized CVS Health prep package in 10 minutes - $59',
+    industry: 'Healthcare',
+    headquarters: 'Woonsocket, RI',
+    description: 'CVS Health is an integrated healthcare company including pharmacy, health insurance (Aetna), and care delivery. CVS interviews focus on healthcare knowledge, customer service, operational excellence, and commitment to helping people on their path to better health.',
+    interviewTips: [
+      'Understand pharmacy operations and healthcare retail',
+      'Show customer service and patient care focus',
+      'Demonstrate knowledge of healthcare integration',
+      'Prepare examples of improving health outcomes',
+      'Research CVS\'s community health initiatives'
+    ],
+    whatTheyLookFor: [
+      'Patient-centered care',
+      'Healthcare and pharmacy knowledge',
+      'Operational efficiency',
+      'Customer service excellence',
+      'Teamwork and collaboration'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Apply for specific role'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Initial screening conversation'
+      },
+      {
+        step: 3,
+        title: 'In-Person/Virtual Interview',
+        description: 'Behavioral and technical questions'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and job offer'
+      }
+    ],
+    questions: [
+      'How would you counsel a patient about medication adherence?',
+      'Why pharmacy and why CVS Health?',
+      'Describe a time you improved a healthcare process',
+      'How do you handle high-pressure pharmacy situations?',
+      'What role does the pharmacist play in modern healthcare?'
+    ],
+    relatedCompanies: ['walgreens', 'unitedhealth', 'rite-aid', 'cigna']
+  },
+  'moderna': {
+    name: 'Moderna',
+    tagline: 'Get your personalized Moderna prep package in 10 minutes - $59',
+    industry: 'Healthcare',
+    headquarters: 'Cambridge, MA',
+    description: 'Moderna is a biotechnology company pioneering messenger RNA (mRNA) therapeutics and vaccines. Moderna interviews emphasize scientific innovation, mRNA platform knowledge, passion for transformative medicine, and alignment with their mission to deliver on the promise of mRNA.',
+    interviewTips: [
+      'Understand mRNA technology and platform deeply',
+      'Show passion for cutting-edge biotechnology',
+      'Demonstrate scientific rigor and innovation',
+      'Prepare examples of problem-solving in research',
+      'Research Moderna\'s pipeline beyond COVID vaccines'
+    ],
+    whatTheyLookFor: [
+      'Scientific excellence',
+      'Innovation and creativity',
+      'mRNA platform knowledge',
+      'Passion for transformative medicine',
+      'Collaborative research mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application Review',
+        description: 'Submit CV highlighting scientific background'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial technical and fit conversation'
+      },
+      {
+        step: 3,
+        title: 'Scientific Presentation',
+        description: 'Present research or technical work to team'
+      },
+      {
+        step: 4,
+        title: 'Onsite Interviews',
+        description: 'Multiple technical and behavioral interviews'
+      }
+    ],
+    questions: [
+      'Explain how mRNA vaccines work at a molecular level',
+      'What excites you about mRNA therapeutics beyond vaccines?',
+      'Describe a challenging research problem you solved',
+      'Why Moderna over traditional pharma companies?',
+      'How do you approach experimental design and troubleshooting?'
+    ],
+    relatedCompanies: ['pfizer', 'biontech', 'novavax', 'curevac']
+  },
+  'abbvie': {
+    name: 'AbbVie',
+    tagline: 'Get your personalized AbbVie prep package in 10 minutes - $59',
+    industry: 'Healthcare',
+    headquarters: 'North Chicago, IL',
+    description: 'AbbVie is a global biopharmaceutical company focused on immunology, oncology, neuroscience, and other therapeutic areas. AbbVie interviews assess scientific knowledge, commercial acumen, patient focus, and alignment with their mission to make a remarkable impact on patients\' lives.',
+    interviewTips: [
+      'Understand AbbVie\'s therapeutic areas and key products',
+      'Show both scientific and commercial awareness',
+      'Demonstrate patient-centered thinking',
+      'Prepare examples of driving results and innovation',
+      'Research their pipeline and recent acquisitions'
+    ],
+    whatTheyLookFor: [
+      'Scientific and therapeutic knowledge',
+      'Commercial mindset',
+      'Patient focus',
+      'Results orientation',
+      'Collaborative leadership'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through AbbVie careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Screening with recruiter or hiring manager'
+      },
+      {
+        step: 3,
+        title: 'Panel Interviews',
+        description: 'Multiple interviews with team and leadership'
+      },
+      {
+        step: 4,
+        title: 'Offer Decision',
+        description: 'Final review and offer'
+      }
+    ],
+    questions: [
+      'How would you launch a new immunology drug?',
+      'Explain AbbVie\'s focus areas and why they matter',
+      'Describe your experience in drug development or commercialization',
+      'How do you balance scientific innovation with commercial success?',
+      'Why AbbVie over other biopharma companies?'
+    ],
+    relatedCompanies: ['pfizer', 'johnson-johnson', 'bristol-myers-squibb', 'amgen']
+  },
+  'merck': {
+    name: 'Merck',
+    tagline: 'Get your personalized Merck prep package in 10 minutes - $59',
+    industry: 'Healthcare',
+    headquarters: 'Rahway, NJ',
+    description: 'Merck is a leading global biopharmaceutical company known as MSD outside the US and Canada. Merck interviews focus on scientific excellence, innovation in drug discovery, patient outcomes, and commitment to using the power of leading-edge science to save and improve lives.',
+    interviewTips: [
+      'Demonstrate strong scientific foundation',
+      'Understand oncology and vaccine development',
+      'Show commitment to patient outcomes',
+      'Prepare examples of scientific problem-solving',
+      'Research Merck\'s legacy and current pipeline'
+    ],
+    whatTheyLookFor: [
+      'Scientific rigor',
+      'Innovation in drug discovery',
+      'Patient-centric approach',
+      'Collaborative research',
+      'Ethical standards'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application Submission',
+        description: 'Apply online with CV'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Technical Interviews',
+        description: 'In-depth scientific and behavioral interviews'
+      },
+      {
+        step: 4,
+        title: 'Final Round',
+        description: 'Meet with senior leadership and team'
+      }
+    ],
+    questions: [
+      'Explain your research experience and key findings',
+      'How does Keytruda work as a cancer immunotherapy?',
+      'Describe a time you overcame a scientific challenge',
+      'Why pharmaceutical research at Merck?',
+      'How do you stay current with scientific literature?'
+    ],
+    relatedCompanies: ['pfizer', 'bristol-myers-squibb', 'roche', 'novartis']
+  },
+  'bristol-myers-squibb': {
+    name: 'Bristol Myers Squibb',
+    tagline: 'Get your personalized Bristol Myers Squibb prep package in 10 minutes - $59',
+    industry: 'Healthcare',
+    headquarters: 'New York, NY',
+    description: 'Bristol Myers Squibb is a global biopharmaceutical company focused on discovering, developing, and delivering innovative medicines for serious diseases. BMS interviews emphasize scientific expertise, passion for patients, integrity, and alignment with their mission to transform patients\' lives through science.',
+    interviewTips: [
+      'Understand oncology, immunology, and cardiovascular focus',
+      'Show passion for transforming patients\' lives',
+      'Demonstrate scientific depth and breadth',
+      'Prepare examples showing integrity and ethics',
+      'Research BMS\'s oncology portfolio and pipeline'
+    ],
+    whatTheyLookFor: [
+      'Scientific excellence',
+      'Passion for patients',
+      'Integrity and quality',
+      'Innovation mindset',
+      'Collaborative approach'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit application online'
+      },
+      {
+        step: 2,
+        title: 'Initial Screen',
+        description: 'Phone conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds',
+        description: 'Technical and behavioral interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer extended'
+      }
+    ],
+    questions: [
+      'How do checkpoint inhibitors work in cancer treatment?',
+      'Describe your experience with clinical trials or drug development',
+      'Tell me about a time you demonstrated scientific integrity',
+      'Why Bristol Myers Squibb?',
+      'How would you approach precision medicine in oncology?'
+    ],
+    relatedCompanies: ['merck', 'abbvie', 'pfizer', 'roche']
   }
 }
