@@ -4350,5 +4350,791 @@ export const companies = {
       'Why do you want to work in insurance?'
     ],
     relatedCompanies: ['state-farm', 'progressive', 'geico', 'travelers']
+  },
+
+  // Professional Services - Big 4 (completing the set)
+  'kpmg': {
+    name: 'KPMG',
+    tagline: 'Get your personalized KPMG prep package in 10 minutes - $59',
+    industry: 'Professional Services',
+    headquarters: 'New York, NY',
+    description: 'KPMG is one of the Big Four accounting firms, providing audit, tax, and advisory services to clients globally. KPMG interviews focus on technical accounting knowledge, case studies, behavioral fit, and demonstration of professional judgment and business acumen.',
+    interviewTips: [
+      'Prepare for technical accounting questions (GAAP, IFRS)',
+      'Practice case studies focused on audit or advisory scenarios',
+      'Understand KPMG\'s industry specializations and service lines',
+      'Show strong analytical and problem-solving skills',
+      'Research KPMG\'s values and culture of collaboration'
+    ],
+    whatTheyLookFor: [
+      'Technical accounting expertise',
+      'Analytical and critical thinking',
+      'Professional judgment',
+      'Team collaboration skills',
+      'Client service orientation'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Submit resume and transcripts'
+      },
+      {
+        step: 2,
+        title: 'Online Assessments',
+        description: 'Aptitude tests and situational judgment'
+      },
+      {
+        step: 3,
+        title: 'First Round Interview',
+        description: 'Behavioral and fit questions with recruiter or manager'
+      },
+      {
+        step: 4,
+        title: 'Final Round (Superday)',
+        description: '2-3 interviews with technical questions and case studies'
+      }
+    ],
+    questions: [
+      'Walk me through the three financial statements',
+      'How would you audit inventory for a manufacturing client?',
+      'What\'s the difference between GAAP and IFRS?',
+      'Tell me about a time you worked on a complex team project',
+      'Why KPMG over the other Big 4 firms?'
+    ],
+    relatedCompanies: ['deloitte', 'pwc', 'ey', 'accenture']
+  },
+
+  // Retail Industry (expansion)
+  'lowes': {
+    name: 'Lowe\'s',
+    tagline: 'Get your personalized Lowe\'s prep package in 10 minutes - $59',
+    industry: 'Retail',
+    headquarters: 'Mooresville, NC',
+    description: 'Lowe\'s is a leading home improvement retailer serving DIY customers and professional contractors. Known for store operations, omnichannel strategy, supply chain excellence, and focus on Pro customer segment with specialized services and delivery.',
+    interviewTips: [
+      'Understand home improvement retail and Pro customer segment',
+      'Learn about omnichannel strategy and digital initiatives',
+      'Be prepared to discuss customer service scenarios',
+      'Show knowledge of supply chain and merchandising',
+      'Research Lowe\'s values and community involvement'
+    ],
+    whatTheyLookFor: [
+      'Customer service excellence',
+      'Retail operations knowledge',
+      'Problem-solving abilities',
+      'Teamwork and collaboration',
+      'Safety-conscious mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Apply through Lowe\'s careers portal'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'In-Person Interview',
+        description: 'Behavioral questions and situational scenarios'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and job offer'
+      }
+    ],
+    questions: [
+      'How would you handle a customer who received the wrong product?',
+      'Describe your experience with retail operations',
+      'What do you know about Lowe\'s Pro customer program?',
+      'Tell me about a time you exceeded customer expectations',
+      'Why do you want to work at Lowe\'s?'
+    ],
+    relatedCompanies: ['home-depot', 'target', 'walmart', 'tractor-supply']
+  },
+
+  'best-buy': {
+    name: 'Best Buy',
+    tagline: 'Get your personalized Best Buy prep package in 10 minutes - $59',
+    industry: 'Retail',
+    headquarters: 'Richfield, MN',
+    description: 'Best Buy is the leading electronics retailer in North America, known for Geek Squad tech support, omnichannel shopping experience, and product expertise. Best Buy emphasizes customer service, tech knowledge, digital transformation, and in-home services.',
+    interviewTips: [
+      'Show passion for technology and consumer electronics',
+      'Understand Geek Squad services and Total Tech support',
+      'Be prepared for customer service scenarios',
+      'Demonstrate product knowledge and sales aptitude',
+      'Research Best Buy\'s digital transformation journey'
+    ],
+    whatTheyLookFor: [
+      'Technology enthusiasm',
+      'Customer service skills',
+      'Sales and relationship building',
+      'Problem-solving abilities',
+      'Team collaboration'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit application online'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Initial screening with hiring manager'
+      },
+      {
+        step: 3,
+        title: 'In-Store Interview',
+        description: 'Behavioral questions and role-play scenarios'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and job offer'
+      }
+    ],
+    questions: [
+      'How would you help a customer choose between two laptops?',
+      'What technology trends excite you most?',
+      'Describe a time you solved a technical problem',
+      'How would you upsell a protection plan?',
+      'Why Best Buy over online retailers like Amazon?'
+    ],
+    relatedCompanies: ['apple', 'amazon', 'target', 'micro-center']
+  },
+
+  'kroger': {
+    name: 'Kroger',
+    tagline: 'Get your personalized Kroger prep package in 10 minutes - $59',
+    industry: 'Retail',
+    headquarters: 'Cincinnati, OH',
+    description: 'Kroger is America\'s largest supermarket chain by revenue, operating multiple banner brands including Kroger, Ralph\'s, Fred Meyer, and Harris Teeter. Known for supply chain excellence, private label brands (Simple Truth), digital innovation, and data analytics through 84.51°.',
+    interviewTips: [
+      'Understand grocery retail operations and merchandising',
+      'Learn about Kroger\'s digital initiatives and delivery partnerships',
+      'Be prepared to discuss supply chain and inventory management',
+      'Show customer service focus and food safety knowledge',
+      'Research Kroger\'s private label brands and strategy'
+    ],
+    whatTheyLookFor: [
+      'Customer-first mindset',
+      'Retail operations expertise',
+      'Supply chain knowledge',
+      'Data-driven decision making',
+      'Food safety awareness'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Kroger careers site'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Recruiter conversation about background'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (1-2)',
+        description: 'Behavioral and situational questions'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and offer'
+      }
+    ],
+    questions: [
+      'How would you handle a food safety incident?',
+      'Describe your experience with inventory management',
+      'What do you know about Kroger\'s digital strategy?',
+      'How would you improve customer checkout experience?',
+      'Tell me about a time you worked in a fast-paced environment'
+    ],
+    relatedCompanies: ['albertsons', 'publix', 'safeway', 'whole-foods']
+  },
+
+  // Technology Industry (expansion)
+  'ibm': {
+    name: 'IBM',
+    tagline: 'Get your personalized IBM prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Armonk, NY',
+    description: 'IBM is a global technology and consulting leader, known for enterprise solutions, cloud computing (Red Hat), AI (Watson), quantum computing, and IT services. IBM has pivoted from hardware to software, cloud, and hybrid cloud solutions for enterprises.',
+    interviewTips: [
+      'Understand IBM\'s hybrid cloud strategy and Red Hat acquisition',
+      'Learn about Watson AI and quantum computing initiatives',
+      'Be prepared for technical deep-dives and system design',
+      'Show knowledge of enterprise technology and consulting',
+      'Research IBM\'s transformation and innovation focus'
+    ],
+    whatTheyLookFor: [
+      'Technical expertise in cloud or AI',
+      'Problem-solving and analytical skills',
+      'Enterprise consulting mindset',
+      'Innovation and learning agility',
+      'Client relationship skills'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Submit resume through IBM careers'
+      },
+      {
+        step: 2,
+        title: 'Online Assessment',
+        description: 'Coding challenges or aptitude tests'
+      },
+      {
+        step: 3,
+        title: 'Phone/Video Interviews (1-2 rounds)',
+        description: 'Technical and behavioral questions'
+      },
+      {
+        step: 4,
+        title: 'Final Interview',
+        description: 'Onsite or virtual panel interview'
+      }
+    ],
+    questions: [
+      'Explain cloud computing to a non-technical person',
+      'How would you design a distributed caching system?',
+      'What excites you about IBM\'s hybrid cloud strategy?',
+      'Describe your experience with enterprise software',
+      'How do you stay current with technology trends?'
+    ],
+    relatedCompanies: ['accenture', 'oracle', 'microsoft', 'red-hat']
+  },
+
+  'intel': {
+    name: 'Intel',
+    tagline: 'Get your personalized Intel prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Santa Clara, CA',
+    description: 'Intel is a global leader in semiconductor chip manufacturing, known for processors that power PCs, servers, and data centers. Intel focuses on process technology, chip design, manufacturing excellence, and expansion into GPUs, AI accelerators, and foundry services.',
+    interviewTips: [
+      'Understand semiconductor manufacturing and Moore\'s Law',
+      'Learn about Intel\'s process nodes and manufacturing technology',
+      'Be prepared for technical questions on hardware or design',
+      'Show knowledge of chip architecture and performance',
+      'Research Intel\'s strategy in AI, data center, and foundry'
+    ],
+    whatTheyLookFor: [
+      'Technical depth in hardware/chip design',
+      'Problem-solving abilities',
+      'Manufacturing and process expertise',
+      'Innovation mindset',
+      'Collaboration across teams'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Intel careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Technical Interviews (2-3 rounds)',
+        description: 'Deep technical questions and problem-solving'
+      },
+      {
+        step: 4,
+        title: 'Final Decision',
+        description: 'Hiring committee review and offer'
+      }
+    ],
+    questions: [
+      'Explain how a CPU executes instructions',
+      'What do you know about Intel\'s process technology roadmap?',
+      'How would you optimize chip performance vs power consumption?',
+      'Describe your experience with hardware design or manufacturing',
+      'What are the biggest challenges facing semiconductor industry?'
+    ],
+    relatedCompanies: ['amd', 'nvidia', 'qualcomm', 'tsmc']
+  },
+
+  'cisco': {
+    name: 'Cisco',
+    tagline: 'Get your personalized Cisco prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'San Jose, CA',
+    description: 'Cisco is the global leader in networking hardware, software, and telecommunications equipment. Cisco provides routers, switches, security solutions, collaboration tools (Webex), and is pivoting to software, security, and recurring revenue through subscriptions.',
+    interviewTips: [
+      'Understand networking fundamentals (TCP/IP, routing, switching)',
+      'Learn about Cisco\'s product portfolio and certifications',
+      'Be prepared for technical questions on network design',
+      'Show knowledge of cybersecurity and cloud networking',
+      'Research Cisco\'s transformation to software and subscriptions'
+    ],
+    whatTheyLookFor: [
+      'Networking technical expertise',
+      'Problem-solving skills',
+      'Customer focus',
+      'Innovation and adaptability',
+      'Collaboration abilities'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Cisco careers portal'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial technical and behavioral questions'
+      },
+      {
+        step: 3,
+        title: 'Technical Interviews (2-4 rounds)',
+        description: 'Network design, troubleshooting, coding'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Hiring manager approval and offer'
+      }
+    ],
+    questions: [
+      'Explain the difference between a router and a switch',
+      'How would you troubleshoot network connectivity issues?',
+      'What do you know about Cisco\'s security portfolio?',
+      'Design a network for a multi-location enterprise',
+      'Why Cisco over other networking vendors?'
+    ],
+    relatedCompanies: ['juniper', 'arista', 'palo-alto', 'fortinet']
+  },
+
+  // Media & Entertainment (expansion)
+  'paramount': {
+    name: 'Paramount',
+    tagline: 'Get your personalized Paramount prep package in 10 minutes - $59',
+    industry: 'Media & Entertainment',
+    headquarters: 'New York, NY',
+    description: 'Paramount (formerly ViacomCBS) is a global media and entertainment company with brands including CBS, MTV, Nickelodeon, Comedy Central, Paramount Pictures, and Paramount+ streaming. Known for content creation, linear TV, and streaming transformation.',
+    interviewTips: [
+      'Understand Paramount\'s portfolio of brands and content',
+      'Learn about Paramount+ streaming strategy',
+      'Be prepared to discuss media industry trends',
+      'Show passion for entertainment and storytelling',
+      'Research Paramount\'s approach to traditional vs streaming'
+    ],
+    whatTheyLookFor: [
+      'Passion for media and entertainment',
+      'Creative thinking',
+      'Business acumen',
+      'Adaptability to industry change',
+      'Collaborative mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume and cover letter'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Behavioral and role-specific questions'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'What\'s your favorite Paramount content and why?',
+      'How would you grow Paramount+ subscribers?',
+      'What challenges does traditional TV face?',
+      'Describe a creative project you led or contributed to',
+      'Why Paramount over other media companies?'
+    ],
+    relatedCompanies: ['warner-bros-discovery', 'nbcuniversal', 'disney', 'netflix']
+  },
+
+  'nbcuniversal': {
+    name: 'NBCUniversal',
+    tagline: 'Get your personalized NBCUniversal prep package in 10 minutes - $59',
+    industry: 'Media & Entertainment',
+    headquarters: 'New York, NY',
+    description: 'NBCUniversal is a leading media and entertainment company owned by Comcast, with assets including NBC broadcast network, Universal Pictures, theme parks, and Peacock streaming service. Known for news, sports, entertainment programming, and theatrical releases.',
+    interviewTips: [
+      'Understand NBCUniversal\'s diverse portfolio (TV, film, parks)',
+      'Learn about Peacock streaming service strategy',
+      'Be prepared to discuss content strategy and distribution',
+      'Show passion for media, entertainment, or journalism',
+      'Research NBCUniversal\'s relationship with Comcast parent'
+    ],
+    whatTheyLookFor: [
+      'Passion for media and storytelling',
+      'Creative and analytical balance',
+      'Collaboration skills',
+      'Industry knowledge',
+      'Adaptability and innovation'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through NBCUniversal careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Recruiter screening conversation'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Behavioral and functional interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and job offer'
+      }
+    ],
+    questions: [
+      'What NBCUniversal content do you consume regularly?',
+      'How would you improve Peacock\'s competitive position?',
+      'What trends are shaping the media landscape?',
+      'Describe your experience in media or entertainment',
+      'Why NBCUniversal specifically?'
+    ],
+    relatedCompanies: ['disney', 'warner-bros-discovery', 'paramount', 'fox']
+  },
+
+  // Industrial & Manufacturing (new category)
+  'ge': {
+    name: 'General Electric',
+    tagline: 'Get your personalized GE prep package in 10 minutes - $59',
+    industry: 'Industrial & Manufacturing',
+    headquarters: 'Boston, MA',
+    description: 'General Electric (GE) is a global industrial conglomerate focused on aviation, healthcare technologies, and power. After restructuring, GE emphasizes engineering excellence, innovation, and industrial leadership in jet engines (GE Aviation), medical imaging, and energy solutions.',
+    interviewTips: [
+      'Understand GE\'s business units and restructuring',
+      'Learn about GE Aviation and healthcare technology',
+      'Be prepared for technical engineering questions',
+      'Show knowledge of industrial manufacturing and Six Sigma',
+      'Research GE\'s leadership development programs'
+    ],
+    whatTheyLookFor: [
+      'Engineering excellence',
+      'Problem-solving and analytical skills',
+      'Leadership potential',
+      'Innovation mindset',
+      'Global perspective'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through GE careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial recruiter conversation'
+      },
+      {
+        step: 3,
+        title: 'Technical Interviews (2-3 rounds)',
+        description: 'Engineering questions and behavioral scenarios'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Explain the engineering principles behind jet engines',
+      'How would you improve manufacturing efficiency?',
+      'What do you know about GE\'s restructuring?',
+      'Describe a complex technical project you led',
+      'Why GE over other industrial companies?'
+    ],
+    relatedCompanies: ['honeywell', 'siemens', 'united-technologies', '3m']
+  },
+
+  '3m': {
+    name: '3M',
+    tagline: 'Get your personalized 3M prep package in 10 minutes - $59',
+    industry: 'Industrial & Manufacturing',
+    headquarters: 'St. Paul, MN',
+    description: '3M is a diversified technology and manufacturing company known for innovation across multiple industries including adhesives, abrasives, healthcare, safety equipment, and consumer products (Post-it Notes, Scotch tape). Known for 15% innovation time and culture of experimentation.',
+    interviewTips: [
+      'Understand 3M\'s culture of innovation and 15% time',
+      'Learn about diverse product portfolio and technologies',
+      'Be prepared to discuss problem-solving and creativity',
+      'Show knowledge of manufacturing and product development',
+      'Research 3M\'s commitment to sustainability'
+    ],
+    whatTheyLookFor: [
+      'Innovation and creativity',
+      'Technical expertise',
+      'Problem-solving abilities',
+      'Collaboration skills',
+      'Entrepreneurial mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Apply through 3M careers portal'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Recruiter screening and initial questions'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Technical and behavioral interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and job offer'
+      }
+    ],
+    questions: [
+      'Tell me about an innovative solution you developed',
+      'How would you approach a new product development challenge?',
+      'What do you know about 3M\'s innovation culture?',
+      'Describe your experience with manufacturing processes',
+      'Why 3M over other diversified manufacturers?'
+    ],
+    relatedCompanies: ['ge', 'honeywell', 'dupont', 'dow']
+  },
+
+  'caterpillar': {
+    name: 'Caterpillar',
+    tagline: 'Get your personalized Caterpillar prep package in 10 minutes - $59',
+    industry: 'Industrial & Manufacturing',
+    headquarters: 'Irving, TX',
+    description: 'Caterpillar is the world\'s leading manufacturer of construction and mining equipment, diesel engines, and industrial gas turbines. Known for heavy equipment excellence, global dealer network, equipment technology, and financial services through Cat Financial.',
+    interviewTips: [
+      'Understand heavy equipment and construction industry',
+      'Learn about Caterpillar\'s product lines and technologies',
+      'Be prepared to discuss engineering and manufacturing',
+      'Show knowledge of global supply chain and dealer network',
+      'Research Caterpillar\'s digital transformation initiatives'
+    ],
+    whatTheyLookFor: [
+      'Engineering and technical skills',
+      'Problem-solving abilities',
+      'Global mindset',
+      'Safety consciousness',
+      'Customer focus'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Caterpillar careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Interviews (2-3 rounds)',
+        description: 'Technical and behavioral questions'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and job offer'
+      }
+    ],
+    questions: [
+      'How would you improve reliability of heavy equipment?',
+      'Describe your experience with mechanical engineering',
+      'What do you know about construction equipment industry?',
+      'How would you approach a complex design problem?',
+      'Why Caterpillar specifically?'
+    ],
+    relatedCompanies: ['john-deere', 'komatsu', 'volvo-ce', 'cummins']
+  },
+
+  // Food & Beverage (expansion)
+  'mondelez': {
+    name: 'Mondelez International',
+    tagline: 'Get your personalized Mondelez prep package in 10 minutes - $59',
+    industry: 'Food & Beverage',
+    headquarters: 'Chicago, IL',
+    description: 'Mondelez International is a global snacking powerhouse with iconic brands including Oreo, Cadbury, Toblerone, Ritz, and Trident. Spun off from Kraft Foods, Mondelez focuses on snacks, chocolate, and biscuits with strong international presence and emerging market growth.',
+    interviewTips: [
+      'Understand Mondelez\'s snacking portfolio and brands',
+      'Learn about international markets and growth strategy',
+      'Be prepared to discuss consumer insights and brand management',
+      'Show knowledge of supply chain and manufacturing',
+      'Research Mondelez\'s sustainability commitments (Cocoa Life)'
+    ],
+    whatTheyLookFor: [
+      'Brand management skills',
+      'International business mindset',
+      'Consumer insights expertise',
+      'Results orientation',
+      'Innovation and growth focus'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Mondelez careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Recruiter conversation about background'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Behavioral and case-based interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and compensation'
+      }
+    ],
+    questions: [
+      'How would you grow Oreo sales in a new market?',
+      'Describe your experience with brand management',
+      'What consumer trends are shaping snacking?',
+      'How would you balance global brands with local preferences?',
+      'Why Mondelez over other CPG companies?'
+    ],
+    relatedCompanies: ['mars', 'nestle', 'hershey', 'kraft-heinz']
+  },
+
+  'general-mills': {
+    name: 'General Mills',
+    tagline: 'Get your personalized General Mills prep package in 10 minutes - $59',
+    industry: 'Food & Beverage',
+    headquarters: 'Minneapolis, MN',
+    description: 'General Mills is a leading global food company with beloved brands including Cheerios, Häagen-Dazs, Betty Crocker, Nature Valley, and Blue Buffalo pet food. Known for cereal dominance, packaged foods innovation, brand marketing excellence, and consumer insights.',
+    interviewTips: [
+      'Understand General Mills\' brand portfolio across categories',
+      'Learn about the pet food business (Blue Buffalo)',
+      'Be prepared to discuss consumer trends and innovation',
+      'Show knowledge of marketing and brand management',
+      'Research General Mills\' sustainability initiatives'
+    ],
+    whatTheyLookFor: [
+      'Marketing and brand expertise',
+      'Consumer-centric thinking',
+      'Innovation mindset',
+      'Analytical skills',
+      'Collaboration abilities'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through General Mills careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial recruiter conversation'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Behavioral and case study interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Hiring decision and offer'
+      }
+    ],
+    questions: [
+      'How would you revitalize a declining cereal brand?',
+      'Describe your experience with consumer packaged goods',
+      'What trends are impacting breakfast foods?',
+      'How would you approach a new product launch?',
+      'Why General Mills specifically?'
+    ],
+    relatedCompanies: ['kellogg', 'post', 'conagra', 'campbell']
+  },
+
+  'chipotle': {
+    name: 'Chipotle Mexican Grill',
+    tagline: 'Get your personalized Chipotle prep package in 10 minutes - $59',
+    industry: 'Food & Beverage',
+    headquarters: 'Newport Beach, CA',
+    description: 'Chipotle is a leading fast-casual restaurant chain known for customizable burritos, bowls, and tacos made with responsibly sourced ingredients. Chipotle emphasizes Food with Integrity, digital ordering innovation, employee development through Cultivate programs, and operational excellence.',
+    interviewTips: [
+      'Understand Chipotle\'s Food with Integrity mission',
+      'Learn about digital ordering and delivery strategy',
+      'Be prepared to discuss restaurant operations',
+      'Show passion for food quality and customer service',
+      'Research Chipotle\'s employee development programs'
+    ],
+    whatTheyLookFor: [
+      'Operational excellence',
+      'Customer service focus',
+      'Leadership potential',
+      'Cultural fit with values',
+      'Ability to work in fast-paced environment'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply online through Chipotle careers'
+      },
+      {
+        step: 2,
+        title: 'Phone/Video Interview',
+        description: 'Initial screening with recruiter'
+      },
+      {
+        step: 3,
+        title: 'In-Person Interview',
+        description: 'Behavioral questions and restaurant tour'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and job offer'
+      }
+    ],
+    questions: [
+      'What does Food with Integrity mean to you?',
+      'How would you handle a busy lunch rush?',
+      'Describe a time you provided excellent customer service',
+      'What do you know about Chipotle\'s digital strategy?',
+      'Why do you want to work at Chipotle?'
+    ],
+    relatedCompanies: ['panera', 'sweetgreen', 'cava', 'shake-shack']
   }
 }
