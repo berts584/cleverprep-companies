@@ -2900,5 +2900,515 @@ export const companies = {
       'What do you know about submarine or combat vehicle systems?'
     ],
     relatedCompanies: ['lockheed-martin', 'northrop-grumman', 'bae-systems', 'huntington-ingalls']
+  },
+  'exxonmobil': {
+    name: 'ExxonMobil',
+    tagline: 'Get your personalized ExxonMobil prep package in 10 minutes - $59',
+    industry: 'Energy',
+    headquarters: 'Spring, TX',
+    description: 'ExxonMobil is one of the world\'s largest publicly traded international oil and gas companies. ExxonMobil interviews emphasize technical engineering excellence, safety culture, operational discipline, and commitment to meeting global energy needs responsibly.',
+    interviewTips: [
+      'Demonstrate strong engineering fundamentals (petroleum, chemical, mechanical)',
+      'Show commitment to safety and operational excellence',
+      'Understand oil & gas industry and energy markets',
+      'Prepare examples of problem-solving in complex environments',
+      'Research ExxonMobil\'s operations and low-carbon solutions'
+    ],
+    whatTheyLookFor: [
+      'Technical engineering expertise',
+      'Safety-first mindset',
+      'Operational excellence',
+      'Problem-solving abilities',
+      'Long-term career commitment'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application Review',
+        description: 'Submit resume highlighting technical background'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Technical Interview',
+        description: 'In-depth technical and behavioral assessment'
+      },
+      {
+        step: 4,
+        title: 'Panel Interview',
+        description: 'Meet with hiring managers and team'
+      }
+    ],
+    questions: [
+      'Explain the oil refining process',
+      'How would you improve safety in an offshore drilling operation?',
+      'Describe a complex engineering problem you solved',
+      'Why the energy industry and why ExxonMobil?',
+      'How do you approach risk management in operations?'
+    ],
+    relatedCompanies: ['chevron', 'shell', 'bp', 'conocophillips']
+  },
+  'chevron': {
+    name: 'Chevron',
+    tagline: 'Get your personalized Chevron prep package in 10 minutes - $59',
+    industry: 'Energy',
+    headquarters: 'San Ramon, CA',
+    description: 'Chevron is a global energy company involved in oil and gas exploration, production, and refining. Chevron interviews focus on technical competence, safety leadership, operational excellence, and alignment with their values of integrity, partnership, and protecting people and the environment.',
+    interviewTips: [
+      'Show strong technical foundation in engineering',
+      'Demonstrate safety leadership and awareness',
+      'Understand upstream, downstream, and midstream operations',
+      'Prepare examples of teamwork and collaboration',
+      'Research Chevron\'s approach to lower carbon energy'
+    ],
+    whatTheyLookFor: [
+      'Technical excellence',
+      'Safety and environmental commitment',
+      'Integrity and ethics',
+      'Collaborative mindset',
+      'Results-driven approach'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Submit resume and application'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Screening with recruiter or hiring manager'
+      },
+      {
+        step: 3,
+        title: 'Technical Assessment',
+        description: 'Technical and behavioral interviews'
+      },
+      {
+        step: 4,
+        title: 'Final Interview',
+        description: 'Meet with leadership team'
+      }
+    ],
+    questions: [
+      'How would you optimize production in an oil field?',
+      'Describe your experience with process safety management',
+      'Tell me about a time you improved operational efficiency',
+      'Why Chevron?',
+      'How do you balance energy production with environmental responsibility?'
+    ],
+    relatedCompanies: ['exxonmobil', 'conocophillips', 'shell', 'bp']
+  },
+  'conocophillips': {
+    name: 'ConocoPhillips',
+    tagline: 'Get your personalized ConocoPhillips prep package in 10 minutes - $59',
+    industry: 'Energy',
+    headquarters: 'Houston, TX',
+    description: 'ConocoPhillips is an independent exploration and production company focused on finding and producing oil and natural gas. ConocoPhillips interviews emphasize technical capabilities, safety culture, operational discipline, and fit with their values of safety, people, integrity, and excellence.',
+    interviewTips: [
+      'Understand exploration and production (E&P) operations',
+      'Show strong reservoir engineering or geoscience knowledge',
+      'Demonstrate safety leadership and commitment',
+      'Prepare technical examples from oil & gas experience',
+      'Research ConocoPhillips\' portfolio and strategic priorities'
+    ],
+    whatTheyLookFor: [
+      'Technical E&P expertise',
+      'Safety and operational focus',
+      'Problem-solving skills',
+      'Team collaboration',
+      'Adaptability and resilience'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit application online'
+      },
+      {
+        step: 2,
+        title: 'Initial Screen',
+        description: 'Phone conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Technical Interview',
+        description: 'Deep dive into technical skills'
+      },
+      {
+        step: 4,
+        title: 'Final Round',
+        description: 'Interviews with team and leadership'
+      }
+    ],
+    questions: [
+      'Explain reservoir characterization and modeling',
+      'How would you evaluate a potential drilling location?',
+      'Describe a time you worked on a cross-functional team',
+      'Why exploration and production?',
+      'How do you ensure safety in high-risk operations?'
+    ],
+    relatedCompanies: ['exxonmobil', 'chevron', 'occidental', 'marathon']
+  },
+  'schlumberger': {
+    name: 'Schlumberger',
+    tagline: 'Get your personalized Schlumberger prep package in 10 minutes - $59',
+    industry: 'Energy',
+    headquarters: 'Houston, TX',
+    description: 'Schlumberger is the world\'s largest oilfield services company providing technology and expertise to the oil and gas industry. Schlumberger interviews assess technical competence, adaptability, global mindset, and fit with their culture of innovation, collaboration, and meritocracy.',
+    interviewTips: [
+      'Demonstrate technical expertise in relevant field',
+      'Show willingness to work internationally and relocate',
+      'Understand oilfield services and technology',
+      'Prepare for technical problem-solving questions',
+      'Research Schlumberger\'s digital solutions and innovations'
+    ],
+    whatTheyLookFor: [
+      'Technical and engineering skills',
+      'Global mobility and adaptability',
+      'Innovation mindset',
+      'Customer focus',
+      'Team collaboration'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application Review',
+        description: 'Submit resume and indicate mobility preference'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Technical Assessment',
+        description: 'In-depth technical evaluation'
+      },
+      {
+        step: 4,
+        title: 'Final Interview',
+        description: 'Meet with management team'
+      }
+    ],
+    questions: [
+      'Explain well logging and formation evaluation',
+      'How would you troubleshoot a drilling issue?',
+      'Describe your experience with field operations',
+      'Are you willing to work internationally?',
+      'How do you approach technical challenges in the field?'
+    ],
+    relatedCompanies: ['halliburton', 'baker-hughes', 'weatherford', 'nai']
+  },
+  'verizon': {
+    name: 'Verizon',
+    tagline: 'Get your personalized Verizon prep package in 10 minutes - $59',
+    industry: 'Telecommunications',
+    headquarters: 'New York, NY',
+    description: 'Verizon is a leading telecommunications company providing wireless, fiber, and 5G network services. Verizon interviews focus on customer service excellence, technical knowledge of telecom infrastructure, innovation mindset, and cultural fit with their commitment to connecting people and communities.',
+    interviewTips: [
+      'Understand telecommunications and network technology',
+      'Show customer service orientation and empathy',
+      'Demonstrate knowledge of 5G and fiber networks',
+      'Prepare examples of problem-solving under pressure',
+      'Research Verizon\'s network leadership and innovations'
+    ],
+    whatTheyLookFor: [
+      'Customer focus',
+      'Technical competence',
+      'Innovation mindset',
+      'Team collaboration',
+      'Integrity and accountability'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Apply through Verizon careers portal'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial recruiter conversation'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds',
+        description: 'Behavioral and technical interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and offer decision'
+      }
+    ],
+    questions: [
+      'How does 5G technology differ from 4G?',
+      'Describe a time you resolved a customer issue',
+      'How would you improve network reliability?',
+      'Why telecommunications and why Verizon?',
+      'Tell me about a time you worked with emerging technology'
+    ],
+    relatedCompanies: ['att', 't-mobile', 'sprint', 'us-cellular']
+  },
+  'att': {
+    name: 'AT&T',
+    tagline: 'Get your personalized AT&T prep package in 10 minutes - $59',
+    industry: 'Telecommunications',
+    headquarters: 'Dallas, TX',
+    description: 'AT&T is a leading telecommunications and media company providing wireless, broadband, and entertainment services. AT&T interviews assess customer service skills, technical knowledge, adaptability, and alignment with their focus on connecting people to greater possibilities.',
+    interviewTips: [
+      'Show strong customer service and communication skills',
+      'Understand wireless and broadband technology',
+      'Demonstrate flexibility and adaptability',
+      'Prepare examples of teamwork and collaboration',
+      'Research AT&T\'s fiber and 5G expansion'
+    ],
+    whatTheyLookFor: [
+      'Customer service excellence',
+      'Technical aptitude',
+      'Adaptability to change',
+      'Team player attitude',
+      'Problem-solving skills'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply online for role'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Initial screening conversation'
+      },
+      {
+        step: 3,
+        title: 'In-Person/Virtual Interview',
+        description: 'Behavioral and situational questions'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and job offer'
+      }
+    ],
+    questions: [
+      'How would you handle an angry customer?',
+      'Why AT&T?',
+      'Describe your experience with technology or sales',
+      'Tell me about a time you exceeded expectations',
+      'How do you stay motivated in a fast-paced environment?'
+    ],
+    relatedCompanies: ['verizon', 't-mobile', 'comcast', 'spectrum']
+  },
+  't-mobile': {
+    name: 'T-Mobile',
+    tagline: 'Get your personalized T-Mobile prep package in 10 minutes - $59',
+    industry: 'Telecommunications',
+    headquarters: 'Bellevue, WA',
+    description: 'T-Mobile is a wireless network operator known for its "Un-carrier" approach to customer service. T-Mobile interviews emphasize customer passion, innovation, challenging the status quo, and cultural fit with their energetic and disruptive brand personality.',
+    interviewTips: [
+      'Show enthusiasm and passion for the T-Mobile brand',
+      'Demonstrate customer obsession with examples',
+      'Be prepared to discuss innovation and disruption',
+      'Show energy and positive attitude',
+      'Research T-Mobile\'s Un-carrier initiatives and 5G network'
+    ],
+    whatTheyLookFor: [
+      'Customer passion',
+      'Innovation mindset',
+      'Energetic personality',
+      'Challenger mentality',
+      'Team collaboration'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply online'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Interview',
+        description: 'Meet with hiring manager and team'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Job offer and onboarding'
+      }
+    ],
+    questions: [
+      'Why T-Mobile over Verizon or AT&T?',
+      'Describe a time you went above and beyond for a customer',
+      'How would you sell a T-Mobile plan?',
+      'What does "Un-carrier" mean to you?',
+      'Tell me about a time you challenged the status quo'
+    ],
+    relatedCompanies: ['verizon', 'att', 'sprint', 'metro']
+  },
+  'comcast': {
+    name: 'Comcast',
+    tagline: 'Get your personalized Comcast prep package in 10 minutes - $59',
+    industry: 'Telecommunications & Media',
+    headquarters: 'Philadelphia, PA',
+    description: 'Comcast is a global media and technology company providing cable, internet, and entertainment through Xfinity and NBCUniversal. Comcast interviews assess customer service abilities, technical knowledge, sales skills, and fit with their focus on innovation and connectivity.',
+    interviewTips: [
+      'Show strong customer service orientation',
+      'Understand cable, internet, and streaming technology',
+      'Demonstrate sales or technical support experience',
+      'Prepare for scenario-based customer questions',
+      'Research Comcast\'s Xfinity and NBCUniversal businesses'
+    ],
+    whatTheyLookFor: [
+      'Customer service skills',
+      'Technical aptitude',
+      'Sales ability',
+      'Problem-solving mindset',
+      'Team collaboration'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Comcast careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial recruiter call'
+      },
+      {
+        step: 3,
+        title: 'Interview',
+        description: 'Behavioral and situational interview'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and offer'
+      }
+    ],
+    questions: [
+      'How would you explain our internet plans to a customer?',
+      'Describe a time you resolved a technical issue',
+      'Why Comcast?',
+      'How do you handle difficult customers?',
+      'Tell me about your sales or customer service experience'
+    ],
+    relatedCompanies: ['charter', 'cox', 'att', 'verizon']
+  },
+  'disney': {
+    name: 'Disney',
+    tagline: 'Get your personalized Disney prep package in 10 minutes - $59',
+    industry: 'Media & Entertainment',
+    headquarters: 'Burbank, CA',
+    description: 'The Walt Disney Company is a global entertainment and media conglomerate with parks, films, streaming (Disney+), and consumer products. Disney interviews emphasize creativity, storytelling, guest service excellence, passion for the brand, and alignment with their mission to entertain, inform, and inspire.',
+    interviewTips: [
+      'Show genuine passion for Disney and storytelling',
+      'Demonstrate creativity and innovation',
+      'Prepare examples of exceptional guest/customer service',
+      'Understand Disney\'s diverse business segments',
+      'Research Disney+ streaming strategy and content'
+    ],
+    whatTheyLookFor: [
+      'Passion for Disney brand',
+      'Creativity and innovation',
+      'Guest service excellence',
+      'Storytelling ability',
+      'Collaborative spirit'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Disney careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds',
+        description: 'Behavioral interviews with team'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and offer decision'
+      }
+    ],
+    questions: [
+      'Why Disney?',
+      'Describe a time you created magic for a customer',
+      'What\'s your favorite Disney story and why?',
+      'How would you improve the Disney+ experience?',
+      'Tell me about a time you worked on a creative project'
+    ],
+    relatedCompanies: ['warner-bros', 'universal', 'paramount', 'netflix']
+  },
+  'warner-bros-discovery': {
+    name: 'Warner Bros Discovery',
+    tagline: 'Get your personalized Warner Bros Discovery prep package in 10 minutes - $59',
+    industry: 'Media & Entertainment',
+    headquarters: 'New York, NY',
+    description: 'Warner Bros Discovery is a global media and entertainment company with iconic brands including HBO, CNN, Discovery, and Warner Bros studios. WBD interviews focus on media expertise, content strategy, innovation in streaming, and cultural fit with their portfolio of premium brands.',
+    interviewTips: [
+      'Understand the media and streaming landscape',
+      'Show passion for content and storytelling',
+      'Demonstrate knowledge of HBO Max and Discovery+',
+      'Prepare examples of innovation and creativity',
+      'Research WBD\'s brand portfolio and strategy'
+    ],
+    whatTheyLookFor: [
+      'Media industry knowledge',
+      'Content and storytelling passion',
+      'Strategic thinking',
+      'Innovation mindset',
+      'Collaborative approach'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume and portfolio if applicable'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds',
+        description: 'Behavioral and role-specific interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer'
+      }
+    ],
+    questions: [
+      'How would you grow subscribers for HBO Max?',
+      'What\'s your favorite WBD content and why?',
+      'Describe your experience in media or entertainment',
+      'How do you see streaming evolving?',
+      'Tell me about a creative project you led'
+    ],
+    relatedCompanies: ['disney', 'paramount', 'nbcuniversal', 'netflix']
   }
 }
