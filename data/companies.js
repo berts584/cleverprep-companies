@@ -4881,5 +4881,1051 @@ export const companies = {
       'Why do you want to work at Chipotle?'
     ],
     relatedCompanies: ['panera', 'sweetgreen', 'cava', 'shake-shack']
+  },
+
+  // Semiconductors (new industry)
+  'nvidia': {
+    name: 'NVIDIA',
+    tagline: 'Get your personalized NVIDIA prep package in 10 minutes - $59',
+    industry: 'Semiconductors',
+    headquarters: 'Santa Clara, CA',
+    description: 'NVIDIA is the global leader in GPU technology, powering AI, gaming, data centers, and autonomous vehicles. Known for CUDA, GeForce gaming GPUs, and dominance in AI chips. NVIDIA interviews emphasize technical depth, innovation, and passion for accelerated computing.',
+    interviewTips: [
+      'Understand GPU architecture and parallel computing fundamentals',
+      'Learn about CUDA, AI training/inference, and NVIDIA\'s product lines',
+      'Be prepared for deep technical questions on hardware or software',
+      'Show passion for graphics, gaming, or AI applications',
+      'Research NVIDIA\'s role in generative AI and data centers'
+    ],
+    whatTheyLookFor: [
+      'Deep technical expertise',
+      'Innovation and problem-solving',
+      'Passion for accelerated computing',
+      'Collaboration across disciplines',
+      'Research and publication track record (for some roles)'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through NVIDIA careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Technical Interviews (3-5 rounds)',
+        description: 'Deep technical problems, coding, architecture'
+      },
+      {
+        step: 4,
+        title: 'Final Decision',
+        description: 'Hiring committee review and offer'
+      }
+    ],
+    questions: [
+      'Explain how a GPU differs from a CPU architecturally',
+      'How would you optimize matrix multiplication on a GPU?',
+      'What do you know about CUDA programming?',
+      'Design a system for distributed AI training',
+      'Why NVIDIA over other semiconductor companies?'
+    ],
+    relatedCompanies: ['amd', 'intel', 'qualcomm', 'arm']
+  },
+
+  'amd': {
+    name: 'AMD',
+    tagline: 'Get your personalized AMD prep package in 10 minutes - $59',
+    industry: 'Semiconductors',
+    headquarters: 'Santa Clara, CA',
+    description: 'AMD (Advanced Micro Devices) is a leading semiconductor company designing high-performance CPUs and GPUs. Known for Ryzen processors, Radeon graphics, EPYC server chips, and competing with Intel and NVIDIA. AMD emphasizes innovation, technical excellence, and customer focus.',
+    interviewTips: [
+      'Understand AMD\'s product portfolio (Ryzen, EPYC, Radeon)',
+      'Learn about x86 architecture and GPU technologies',
+      'Be prepared for technical questions on chip design or verification',
+      'Show knowledge of competitive landscape (Intel, NVIDIA)',
+      'Research AMD\'s gaming and data center strategies'
+    ],
+    whatTheyLookFor: [
+      'Technical depth in hardware or software',
+      'Problem-solving abilities',
+      'Passion for high-performance computing',
+      'Teamwork and collaboration',
+      'Innovation mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Apply through AMD careers portal'
+      },
+      {
+        step: 2,
+        title: 'Recruiter Screen',
+        description: 'Initial phone conversation'
+      },
+      {
+        step: 3,
+        title: 'Technical Interviews (2-4 rounds)',
+        description: 'Role-specific technical questions'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and compensation'
+      }
+    ],
+    questions: [
+      'Explain the difference between CPU and GPU architectures',
+      'How would you approach processor performance optimization?',
+      'What do you know about AMD\'s chiplet design?',
+      'Describe your experience with hardware design or verification',
+      'Why AMD specifically?'
+    ],
+    relatedCompanies: ['nvidia', 'intel', 'qualcomm', 'xilinx']
+  },
+
+  'qualcomm': {
+    name: 'Qualcomm',
+    tagline: 'Get your personalized Qualcomm prep package in 10 minutes - $59',
+    industry: 'Semiconductors',
+    headquarters: 'San Diego, CA',
+    description: 'Qualcomm is a global leader in wireless technology and mobile chips, powering most Android smartphones. Known for Snapdragon processors, 5G technology, licensing business model, and wireless innovations. Qualcomm interviews focus on wireless expertise, technical skills, and innovation.',
+    interviewTips: [
+      'Understand wireless technologies (5G, LTE, Wi-Fi)',
+      'Learn about Snapdragon processors and mobile SoCs',
+      'Be prepared for technical questions on RF, signal processing, or embedded systems',
+      'Show knowledge of mobile industry and Android ecosystem',
+      'Research Qualcomm\'s licensing and IP business model'
+    ],
+    whatTheyLookFor: [
+      'Wireless and RF expertise',
+      'Embedded systems knowledge',
+      'Innovation and patents',
+      'Problem-solving skills',
+      'Collaboration abilities'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Qualcomm careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Onsite Interviews (3-4 rounds)',
+        description: 'Technical deep-dives and team fit'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer'
+      }
+    ],
+    questions: [
+      'Explain how 5G differs from LTE',
+      'How would you optimize power consumption in a mobile SoC?',
+      'What do you know about Qualcomm\'s licensing business?',
+      'Describe your experience with wireless systems',
+      'Why Qualcomm over other mobile chip companies?'
+    ],
+    relatedCompanies: ['mediatek', 'broadcom', 'samsung', 'apple']
+  },
+
+  'broadcom': {
+    name: 'Broadcom',
+    tagline: 'Get your personalized Broadcom prep package in 10 minutes - $59',
+    industry: 'Semiconductors',
+    headquarters: 'San Jose, CA',
+    description: 'Broadcom is a global technology leader designing, developing, and supplying semiconductors and infrastructure software. Known for networking chips, broadband solutions, wireless connectivity, and enterprise software (VMware acquisition). Broadcom emphasizes technical excellence and innovation.',
+    interviewTips: [
+      'Understand Broadcom\'s diverse product portfolio',
+      'Learn about networking, wireless, and broadband technologies',
+      'Be prepared for technical questions on chip design or networking',
+      'Show knowledge of enterprise software (VMware)',
+      'Research Broadcom\'s acquisition strategy'
+    ],
+    whatTheyLookFor: [
+      'Technical expertise in semiconductors or software',
+      'Problem-solving abilities',
+      'Innovation and IP development',
+      'Teamwork skills',
+      'Adaptability to diverse products'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Broadcom careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial technical conversation'
+      },
+      {
+        step: 3,
+        title: 'Technical Interviews (2-3 rounds)',
+        description: 'In-depth technical questions'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Hiring decision and compensation'
+      }
+    ],
+    questions: [
+      'Explain how Ethernet switching works',
+      'How would you design a high-speed networking chip?',
+      'What do you know about Broadcom\'s product lines?',
+      'Describe your experience with semiconductor design',
+      'Why Broadcom?'
+    ],
+    relatedCompanies: ['marvell', 'cisco', 'nvidia', 'intel']
+  },
+
+  'texas-instruments': {
+    name: 'Texas Instruments',
+    tagline: 'Get your personalized Texas Instruments prep package in 10 minutes - $59',
+    industry: 'Semiconductors',
+    headquarters: 'Dallas, TX',
+    description: 'Texas Instruments (TI) is a global semiconductor company focusing on analog chips and embedded processors. Known for operational excellence, long product lifecycles, diverse applications (automotive, industrial, personal electronics), and engineering culture.',
+    interviewTips: [
+      'Understand analog and embedded processing technologies',
+      'Learn about TI\'s focus on industrial and automotive markets',
+      'Be prepared for technical questions on circuit design or embedded systems',
+      'Show knowledge of manufacturing and operational excellence',
+      'Research TI\'s long-term customer relationships'
+    ],
+    whatTheyLookFor: [
+      'Analog circuit design expertise',
+      'Embedded systems knowledge',
+      'Problem-solving and innovation',
+      'Quality and reliability focus',
+      'Customer-centric mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Submit resume through TI careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Onsite Interviews (2-3 rounds)',
+        description: 'Technical questions and team meetings'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and job offer'
+      }
+    ],
+    questions: [
+      'Explain how an op-amp works',
+      'How would you design a power management IC?',
+      'What do you know about TI\'s analog products?',
+      'Describe your experience with embedded systems',
+      'Why Texas Instruments?'
+    ],
+    relatedCompanies: ['analog-devices', 'maxim', 'microchip', 'infineon']
+  },
+
+  // Fintech & Payments (new industry)
+  'paypal': {
+    name: 'PayPal',
+    tagline: 'Get your personalized PayPal prep package in 10 minutes - $59',
+    industry: 'Fintech',
+    headquarters: 'San Jose, CA',
+    description: 'PayPal is a leading digital payments platform enabling online money transfers and serving as an electronic alternative to traditional payment methods. Parent company of Venmo. PayPal interviews focus on technical skills, product thinking, and fintech innovation.',
+    interviewTips: [
+      'Understand digital payments ecosystem and fraud prevention',
+      'Learn about PayPal\'s product suite (Venmo, Braintree, Xoom)',
+      'Be prepared for system design and scalability questions',
+      'Show knowledge of fintech regulations and compliance',
+      'Research PayPal\'s strategy in peer-to-peer payments'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in payments or security',
+      'Product and customer focus',
+      'Data-driven decision making',
+      'Innovation mindset',
+      'Collaboration abilities'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through PayPal careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Recruiter and technical screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual/Onsite Interviews (3-4 rounds)',
+        description: 'Coding, system design, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Design a payment processing system',
+      'How would you detect fraudulent transactions?',
+      'What challenges does PayPal face from competitors?',
+      'Explain how you would scale a payments platform',
+      'Why PayPal over other fintech companies?'
+    ],
+    relatedCompanies: ['stripe', 'square', 'adyen', 'visa']
+  },
+
+  'block': {
+    name: 'Block (Square)',
+    tagline: 'Get your personalized Block prep package in 10 minutes - $59',
+    industry: 'Fintech',
+    headquarters: 'San Francisco, CA',
+    description: 'Block (formerly Square) provides payment and financial services for sellers and individuals. Known for Square point-of-sale, Cash App, Bitcoin integration, and empowering small businesses. Block emphasizes innovation, accessibility, and building tools for economic empowerment.',
+    interviewTips: [
+      'Understand Block\'s product ecosystem (Square, Cash App, Afterpay)',
+      'Learn about small business and consumer fintech needs',
+      'Be prepared for coding and system design questions',
+      'Show passion for financial inclusion and accessibility',
+      'Research Block\'s approach to cryptocurrency'
+    ],
+    whatTheyLookFor: [
+      'Technical skills and product thinking',
+      'Customer empathy',
+      'Innovation and creativity',
+      'Collaboration and communication',
+      'Mission alignment with economic empowerment'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Block careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Recruiter and initial technical screen'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-5 rounds)',
+        description: 'Coding, design, and behavioral rounds'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'Design Cash App\'s peer-to-peer payment system',
+      'How would you improve the seller onboarding experience?',
+      'What do you think about Block\'s Bitcoin strategy?',
+      'Build a fraud detection system for payments',
+      'Why Block specifically?'
+    ],
+    relatedCompanies: ['stripe', 'paypal', 'shopify', 'coinbase']
+  },
+
+  'robinhood': {
+    name: 'Robinhood',
+    tagline: 'Get your personalized Robinhood prep package in 10 minutes - $59',
+    industry: 'Fintech',
+    headquarters: 'Menlo Park, CA',
+    description: 'Robinhood is a financial services company pioneering commission-free trading and democratizing finance for all. Known for mobile-first investing app, crypto trading, and attracting retail investors. Robinhood interviews emphasize technical skills, product sense, and mission alignment.',
+    interviewTips: [
+      'Understand commission-free trading model and payment for order flow',
+      'Learn about trading systems, market data, and financial regulations',
+      'Be prepared for coding, system design, and scalability questions',
+      'Show passion for democratizing finance',
+      'Research Robinhood\'s challenges and controversies'
+    ],
+    whatTheyLookFor: [
+      'Strong technical skills',
+      'Product and customer focus',
+      'Resilience and adaptability',
+      'Mission-driven mindset',
+      'Compliance and risk awareness'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Robinhood careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, system design, and behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Design a real-time stock trading system',
+      'How would you handle high traffic during market volatility?',
+      'What\'s your view on Robinhood\'s business model?',
+      'Build a feature for crypto trading',
+      'Why Robinhood?'
+    ],
+    relatedCompanies: ['webull', 'etrade', 'schwab', 'coinbase']
+  },
+
+  'coinbase': {
+    name: 'Coinbase',
+    tagline: 'Get your personalized Coinbase prep package in 10 minutes - $59',
+    industry: 'Fintech',
+    headquarters: 'San Francisco, CA',
+    description: 'Coinbase is the leading cryptocurrency exchange platform in the United States, making crypto accessible and trusted. Known for secure exchange, institutional services, blockchain infrastructure, and regulatory compliance. Coinbase emphasizes mission, innovation, and building the cryptoeconomy.',
+    interviewTips: [
+      'Understand cryptocurrency, blockchain, and Web3 concepts',
+      'Learn about Coinbase\'s products (exchange, wallet, institutional)',
+      'Be prepared for coding and distributed systems questions',
+      'Show passion for crypto and decentralization',
+      'Research regulatory challenges and Coinbase\'s approach'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in distributed systems',
+      'Crypto/blockchain knowledge and passion',
+      'Security and compliance mindset',
+      'Mission alignment',
+      'Adaptability in fast-changing industry'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Coinbase careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and culture screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-5 rounds)',
+        description: 'Coding, architecture, and behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'Explain how blockchain consensus works',
+      'Design a cryptocurrency exchange architecture',
+      'How would you secure user wallets?',
+      'What\'s your view on crypto regulation?',
+      'Why Coinbase specifically?'
+    ],
+    relatedCompanies: ['kraken', 'binance', 'gemini', 'circle']
+  },
+
+  // Enterprise SaaS
+  'workday': {
+    name: 'Workday',
+    tagline: 'Get your personalized Workday prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Pleasanton, CA',
+    description: 'Workday is a leading provider of enterprise cloud applications for finance, HR, and planning. Known for unified cloud platform, modern UX, continuous innovation, and customer success focus. Workday interviews emphasize technical skills, enterprise software understanding, and culture fit.',
+    interviewTips: [
+      'Understand enterprise SaaS and cloud architecture',
+      'Learn about Workday\'s HCM and Finance products',
+      'Be prepared for technical questions and system design',
+      'Show knowledge of enterprise sales and customer success',
+      'Research Workday\'s culture and values'
+    ],
+    whatTheyLookFor: [
+      'Technical expertise in cloud/SaaS',
+      'Enterprise software experience',
+      'Customer-centric mindset',
+      'Collaboration and teamwork',
+      'Innovation and adaptability'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Workday careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Recruiter and technical screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Technical, behavioral, and role-specific'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer'
+      }
+    ],
+    questions: [
+      'Design a multi-tenant SaaS architecture',
+      'How would you ensure data security in a cloud HR system?',
+      'What challenges does Workday face from competitors?',
+      'Explain your experience with enterprise software',
+      'Why Workday?'
+    ],
+    relatedCompanies: ['oracle', 'sap', 'servicenow', 'adp']
+  },
+
+  'servicenow': {
+    name: 'ServiceNow',
+    tagline: 'Get your personalized ServiceNow prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Santa Clara, CA',
+    description: 'ServiceNow is a leading digital workflow platform for enterprise service management. Known for IT service management (ITSM), workflow automation across departments, and Now Platform. ServiceNow emphasizes innovation, customer workflows, and platform thinking.',
+    interviewTips: [
+      'Understand ITSM and workflow automation concepts',
+      'Learn about ServiceNow\'s Now Platform and applications',
+      'Be prepared for technical and system design questions',
+      'Show knowledge of enterprise IT and digital transformation',
+      'Research ServiceNow\'s expansion beyond IT'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in cloud/platform development',
+      'Enterprise software understanding',
+      'Problem-solving abilities',
+      'Customer focus',
+      'Innovation mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through ServiceNow careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Recruiter and technical screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, architecture, and behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Hiring decision and compensation'
+      }
+    ],
+    questions: [
+      'Design a workflow automation system',
+      'How would you scale a multi-tenant platform?',
+      'What do you know about ServiceNow\'s ITSM products?',
+      'Explain incident management best practices',
+      'Why ServiceNow over other enterprise platforms?'
+    ],
+    relatedCompanies: ['workday', 'salesforce', 'atlassian', 'pagerduty']
+  },
+
+  'snowflake': {
+    name: 'Snowflake',
+    tagline: 'Get your personalized Snowflake prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Bozeman, MT',
+    description: 'Snowflake is a cloud data platform enabling data storage, processing, and analytics. Known for data warehouse innovation, separation of storage and compute, multi-cloud architecture, and data sharing. Snowflake interviews focus on technical depth, data expertise, and growth mindset.',
+    interviewTips: [
+      'Understand data warehousing and cloud architecture',
+      'Learn about Snowflake\'s architecture and differentiation',
+      'Be prepared for SQL, data modeling, and system design',
+      'Show knowledge of analytics and data engineering',
+      'Research Snowflake\'s multi-cloud strategy'
+    ],
+    whatTheyLookFor: [
+      'Data platform and cloud expertise',
+      'Strong technical skills',
+      'Problem-solving abilities',
+      'Customer focus',
+      'Growth and innovation mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Snowflake careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (4-5 rounds)',
+        description: 'Technical deep-dives and team fit'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'Explain Snowflake\'s architecture and how it differs from traditional databases',
+      'Design a data pipeline for real-time analytics',
+      'Write SQL to solve a complex query problem',
+      'How would you optimize query performance?',
+      'Why Snowflake?'
+    ],
+    relatedCompanies: ['databricks', 'bigquery', 'redshift', 'dbt']
+  },
+
+  // Hospitality & Hotels (new industry)
+  'marriott': {
+    name: 'Marriott International',
+    tagline: 'Get your personalized Marriott prep package in 10 minutes - $59',
+    industry: 'Hospitality',
+    headquarters: 'Bethesda, MD',
+    description: 'Marriott International is the world\'s largest hotel company with 30+ brands including Marriott, Ritz-Carlton, Westin, and Sheraton. Known for hospitality excellence, Marriott Bonvoy loyalty program, and service culture. Interviews emphasize customer service, operations, and cultural fit.',
+    interviewTips: [
+      'Understand Marriott\'s brand portfolio and positioning',
+      'Learn about Marriott Bonvoy loyalty program',
+      'Be prepared for customer service scenarios',
+      'Show passion for hospitality and guest experience',
+      'Research Marriott\'s culture and service standards'
+    ],
+    whatTheyLookFor: [
+      'Customer service excellence',
+      'Hospitality passion',
+      'Teamwork and collaboration',
+      'Operational excellence',
+      'Cultural fit with service values'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Marriott careers portal'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Initial screening conversation'
+      },
+      {
+        step: 3,
+        title: 'In-Person Interview',
+        description: 'Behavioral questions and property tour'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and job offer'
+      }
+    ],
+    questions: [
+      'How would you handle an unhappy guest?',
+      'Why do you want to work in hospitality?',
+      'Describe a time you provided exceptional service',
+      'What do you know about Marriott\'s brands?',
+      'How would you prioritize competing guest requests?'
+    ],
+    relatedCompanies: ['hilton', 'hyatt', 'ihg', 'accor']
+  },
+
+  'hilton': {
+    name: 'Hilton',
+    tagline: 'Get your personalized Hilton prep package in 10 minutes - $59',
+    industry: 'Hospitality',
+    headquarters: 'McLean, VA',
+    description: 'Hilton is a leading global hospitality company with 18 brands including Hilton Hotels, Waldorf Astoria, DoubleTree, and Hampton. Known for Hilton Honors loyalty program, service culture, and team member focus. Interviews emphasize hospitality passion, service mindset, and teamwork.',
+    interviewTips: [
+      'Understand Hilton\'s brand portfolio (luxury to economy)',
+      'Learn about Hilton Honors and guest loyalty',
+      'Be prepared for situational and behavioral questions',
+      'Show genuine passion for hospitality industry',
+      'Research Hilton\'s commitment to team members'
+    ],
+    whatTheyLookFor: [
+      'Guest service orientation',
+      'Positive attitude',
+      'Teamwork skills',
+      'Problem-solving abilities',
+      'Hospitality passion'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit application online'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Interview',
+        description: 'In-person behavioral interview'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer'
+      }
+    ],
+    questions: [
+      'Tell me about a time you went above and beyond for a guest',
+      'How would you handle a guest complaint?',
+      'Why Hilton specifically?',
+      'What does hospitality mean to you?',
+      'Describe your experience with customer service'
+    ],
+    relatedCompanies: ['marriott', 'hyatt', 'ihg', 'four-seasons']
+  },
+
+  'hyatt': {
+    name: 'Hyatt Hotels Corporation',
+    tagline: 'Get your personalized Hyatt prep package in 10 minutes - $59',
+    industry: 'Hospitality',
+    headquarters: 'Chicago, IL',
+    description: 'Hyatt is a global hospitality company known for upscale and luxury hotels including Park Hyatt, Grand Hyatt, and Hyatt Regency. Emphasizes care, empathy, and creating extraordinary experiences. Interviews focus on service excellence, empathy, and cultural alignment.',
+    interviewTips: [
+      'Understand Hyatt\'s purpose-driven culture',
+      'Learn about different Hyatt brands and positioning',
+      'Be prepared to demonstrate empathy and care',
+      'Show examples of exceptional service experiences',
+      'Research World of Hyatt loyalty program'
+    ],
+    whatTheyLookFor: [
+      'Empathy and care',
+      'Guest service passion',
+      'Teamwork and respect',
+      'Integrity and humility',
+      'Continuous improvement mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Hyatt careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Screening with recruiter'
+      },
+      {
+        step: 3,
+        title: 'In-Person Interview',
+        description: 'Behavioral questions and property visit'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and offer'
+      }
+    ],
+    questions: [
+      'How do you demonstrate care for others?',
+      'Tell me about a time you created a memorable experience',
+      'How would you handle a difficult guest situation?',
+      'Why do you want to work at Hyatt?',
+      'What does hospitality mean to you?'
+    ],
+    relatedCompanies: ['marriott', 'hilton', 'four-seasons', 'ritz-carlton']
+  },
+
+  // On-Demand/Delivery
+  'doordash': {
+    name: 'DoorDash',
+    tagline: 'Get your personalized DoorDash prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'San Francisco, CA',
+    description: 'DoorDash is the leading food delivery platform in the United States, connecting consumers with local restaurants and stores. Known for logistics optimization, marketplace dynamics, and Dasher gig economy. Interviews emphasize technical skills, product thinking, and operational mindset.',
+    interviewTips: [
+      'Understand marketplace dynamics and three-sided platform',
+      'Learn about logistics optimization and delivery algorithms',
+      'Be prepared for coding and system design questions',
+      'Show knowledge of gig economy and operations',
+      'Research DoorDash\'s expansion beyond food'
+    ],
+    whatTheyLookFor: [
+      'Technical and analytical skills',
+      'Product and operations thinking',
+      'Data-driven decision making',
+      'Scrappiness and resourcefulness',
+      'Customer obsession'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through DoorDash careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Recruiter and technical screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, analytics, product, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Design DoorDash\'s delivery routing algorithm',
+      'How would you reduce delivery times?',
+      'Analyze a product metric problem for DoorDash',
+      'How do you balance Dasher, restaurant, and customer needs?',
+      'Why DoorDash?'
+    ],
+    relatedCompanies: ['uber-eats', 'grubhub', 'instacart', 'postmates']
+  },
+
+  'instacart': {
+    name: 'Instacart',
+    tagline: 'Get your personalized Instacart prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'San Francisco, CA',
+    description: 'Instacart is the leading online grocery delivery and pickup service in North America, partnering with retailers. Known for same-day delivery, shopper gig economy, and grocery technology. Interviews focus on technical skills, operational thinking, and product sense.',
+    interviewTips: [
+      'Understand online grocery and retail partnerships',
+      'Learn about Instacart\'s shopper model and logistics',
+      'Be prepared for coding, analytics, and system design',
+      'Show knowledge of grocery retail and consumer behavior',
+      'Research Instacart\'s advertising and enterprise solutions'
+    ],
+    whatTheyLookFor: [
+      'Technical and analytical skills',
+      'Operations and logistics thinking',
+      'Product sense',
+      'Data-driven mindset',
+      'Customer empathy'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Instacart careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, design, product, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'Design Instacart\'s order batching system',
+      'How would you improve shopper efficiency?',
+      'Analyze metrics for grocery delivery',
+      'What challenges does Instacart face?',
+      'Why Instacart specifically?'
+    ],
+    relatedCompanies: ['doordash', 'gopuff', 'shipt', 'amazon-fresh']
+  },
+
+  'ebay': {
+    name: 'eBay',
+    tagline: 'Get your personalized eBay prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'San Jose, CA',
+    description: 'eBay is a global e-commerce marketplace connecting millions of buyers and sellers. Known for auctions, collectibles, C2C commerce, seller ecosystem, and trust & safety. Interviews emphasize technical skills, marketplace understanding, and product thinking.',
+    interviewTips: [
+      'Understand marketplace dynamics and two-sided networks',
+      'Learn about eBay\'s seller tools and services',
+      'Be prepared for coding and system design questions',
+      'Show knowledge of e-commerce and trust/safety',
+      'Research eBay\'s focus on enthusiast categories'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in scalable systems',
+      'Marketplace and e-commerce understanding',
+      'Product sense',
+      'Data-driven thinking',
+      'Customer and seller empathy'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through eBay careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, system design, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer'
+      }
+    ],
+    questions: [
+      'Design eBay\'s search ranking algorithm',
+      'How would you detect fraudulent listings?',
+      'Improve the seller onboarding experience',
+      'What differentiates eBay from Amazon?',
+      'Why eBay?'
+    ],
+    relatedCompanies: ['etsy', 'mercari', 'poshmark', 'amazon']
+  },
+
+  // Gaming & Interactive Entertainment (new industry)
+  'ea': {
+    name: 'Electronic Arts (EA)',
+    tagline: 'Get your personalized EA prep package in 10 minutes - $59',
+    industry: 'Gaming',
+    headquarters: 'Redwood City, CA',
+    description: 'Electronic Arts is a leading global interactive entertainment company, developing and publishing games including FIFA, Madden, Apex Legends, The Sims, and Battlefield. Known for sports franchises, live services, and creative excellence. Interviews emphasize technical skills, creativity, and gaming passion.',
+    interviewTips: [
+      'Show genuine passion for EA games and gaming',
+      'Understand game development pipelines and technologies',
+      'Be prepared for technical questions (coding, graphics, engines)',
+      'Demonstrate creativity and problem-solving',
+      'Research EA\'s live services and sports franchises'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in game development',
+      'Gaming passion and knowledge',
+      'Creativity and innovation',
+      'Collaboration and teamwork',
+      'Player-first mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume and portfolio through EA careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Interviews (2-4 rounds)',
+        description: 'Technical, portfolio review, team fit'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer'
+      }
+    ],
+    questions: [
+      'What\'s your favorite EA game and why?',
+      'How would you improve player retention in a live service game?',
+      'Describe your experience with game engines (Unity, Unreal)',
+      'Design a matchmaking system for multiplayer',
+      'Why EA specifically?'
+    ],
+    relatedCompanies: ['activision-blizzard', 'ubisoft', 'take-two', 'riot-games']
+  },
+
+  'activision-blizzard': {
+    name: 'Activision Blizzard',
+    tagline: 'Get your personalized Activision Blizzard prep package in 10 minutes - $59',
+    industry: 'Gaming',
+    headquarters: 'Santa Monica, CA',
+    description: 'Activision Blizzard is one of the world\'s largest gaming companies with franchises including Call of Duty, World of Warcraft, Overwatch, Diablo, and Candy Crush. Known for iconic IPs, esports, and player communities. Now part of Microsoft. Interviews emphasize gaming passion, technical skills, and creativity.',
+    interviewTips: [
+      'Show deep passion for Activision Blizzard games',
+      'Understand game design, development, and live operations',
+      'Be prepared for technical or creative portfolio questions',
+      'Demonstrate knowledge of player communities and esports',
+      'Research the Microsoft acquisition and implications'
+    ],
+    whatTheyLookFor: [
+      'Gaming passion and knowledge',
+      'Technical or creative excellence',
+      'Player-centric thinking',
+      'Collaboration skills',
+      'Innovation and quality focus'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply with resume and portfolio'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Initial screening with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-4)',
+        description: 'Technical/creative assessment and team fit'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and job offer'
+      }
+    ],
+    questions: [
+      'What\'s your favorite Activision Blizzard game and how would you improve it?',
+      'How would you design a new feature for Call of Duty?',
+      'Describe your experience with game development or design',
+      'What makes a great multiplayer experience?',
+      'Why Activision Blizzard?'
+    ],
+    relatedCompanies: ['ea', 'riot-games', 'epic-games', 'ubisoft']
   }
 }
