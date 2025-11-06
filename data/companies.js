@@ -2645,5 +2645,260 @@ export const companies = {
       'How would you approach precision medicine in oncology?'
     ],
     relatedCompanies: ['merck', 'abbvie', 'pfizer', 'roche']
+  },
+  'boeing': {
+    name: 'Boeing',
+    tagline: 'Get your personalized Boeing prep package in 10 minutes - $59',
+    industry: 'Aerospace & Defense',
+    headquarters: 'Arlington, VA',
+    description: 'Boeing is the world\'s largest aerospace company and leading manufacturer of commercial jetliners and defense, space, and security systems. Boeing interviews emphasize engineering excellence, safety culture, program management, and alignment with their values of safety, quality, and integrity.',
+    interviewTips: [
+      'Demonstrate strong engineering fundamentals and technical depth',
+      'Show commitment to safety and quality in all work',
+      'Understand aerospace engineering and manufacturing processes',
+      'Prepare for behavioral questions using STAR method',
+      'Research Boeing\'s commercial and defense product lines'
+    ],
+    whatTheyLookFor: [
+      'Engineering excellence',
+      'Safety-first mindset',
+      'Problem-solving abilities',
+      'Team collaboration',
+      'Integrity and ethics'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application Review',
+        description: 'Submit resume highlighting technical experience'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Technical Interview',
+        description: 'In-depth technical and behavioral questions'
+      },
+      {
+        step: 4,
+        title: 'Panel Interview',
+        description: 'Meet with hiring manager and team members'
+      }
+    ],
+    questions: [
+      'Explain the principles of flight and aerodynamics',
+      'How would you improve safety in aircraft manufacturing?',
+      'Describe a complex engineering problem you solved',
+      'What do you know about Boeing\'s 787 Dreamliner?',
+      'How do you ensure quality in engineering design?'
+    ],
+    relatedCompanies: ['lockheed-martin', 'airbus', 'northrop-grumman', 'raytheon']
+  },
+  'lockheed-martin': {
+    name: 'Lockheed Martin',
+    tagline: 'Get your personalized Lockheed Martin prep package in 10 minutes - $59',
+    industry: 'Aerospace & Defense',
+    headquarters: 'Bethesda, MD',
+    description: 'Lockheed Martin is a global security and aerospace company specializing in advanced defense technologies. Lockheed interviews focus on technical expertise, security clearance eligibility, program management skills, and commitment to national security and innovation.',
+    interviewTips: [
+      'Be prepared to discuss security clearance eligibility',
+      'Demonstrate technical expertise in your domain',
+      'Show understanding of defense and security challenges',
+      'Prepare examples of complex program or project management',
+      'Research Lockheed\'s major programs (F-35, space systems, missiles)'
+    ],
+    whatTheyLookFor: [
+      'Technical and engineering excellence',
+      'Security clearance eligibility',
+      'Program management skills',
+      'Innovation mindset',
+      'Commitment to national security'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application & Clearance Check',
+        description: 'Submit application and indicate clearance status'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial technical and fit conversation'
+      },
+      {
+        step: 3,
+        title: 'Technical Interview',
+        description: 'Deep dive into technical skills and experience'
+      },
+      {
+        step: 4,
+        title: 'Final Interview',
+        description: 'Meet with leadership and team'
+      }
+    ],
+    questions: [
+      'Describe your experience with defense systems or aerospace',
+      'How would you approach designing a secure communications system?',
+      'Tell me about a time you managed a complex technical project',
+      'What interests you about working in defense?',
+      'How do you stay current with emerging technologies?'
+    ],
+    relatedCompanies: ['boeing', 'northrop-grumman', 'raytheon', 'general-dynamics']
+  },
+  'northrop-grumman': {
+    name: 'Northrop Grumman',
+    tagline: 'Get your personalized Northrop Grumman prep package in 10 minutes - $59',
+    industry: 'Aerospace & Defense',
+    headquarters: 'Falls Church, VA',
+    description: 'Northrop Grumman is a leading global aerospace and defense technology company. Northrop Grumman interviews assess technical capabilities, security clearance eligibility, systems engineering knowledge, and cultural fit with their mission-driven focus on protecting freedom.',
+    interviewTips: [
+      'Understand systems engineering and integration',
+      'Show passion for defense and space missions',
+      'Be prepared for security clearance discussions',
+      'Demonstrate technical problem-solving abilities',
+      'Research Northrop\'s autonomous systems and space capabilities'
+    ],
+    whatTheyLookFor: [
+      'Systems engineering expertise',
+      'Technical innovation',
+      'Security clearance eligibility',
+      'Mission-driven mindset',
+      'Collaborative approach'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application Submission',
+        description: 'Apply with resume and clearance information'
+      },
+      {
+        step: 2,
+        title: 'Recruiter Screen',
+        description: 'Initial phone conversation'
+      },
+      {
+        step: 3,
+        title: 'Technical Interviews',
+        description: 'Multiple rounds of technical assessment'
+      },
+      {
+        step: 4,
+        title: 'Hiring Decision',
+        description: 'Final interview and offer'
+      }
+    ],
+    questions: [
+      'Explain systems engineering and your experience with it',
+      'How would you approach integrating multiple defense systems?',
+      'Describe a technically challenging project you led',
+      'Why Northrop Grumman and why defense?',
+      'What do you know about autonomous systems?'
+    ],
+    relatedCompanies: ['lockheed-martin', 'boeing', 'raytheon', 'general-dynamics']
+  },
+  'raytheon': {
+    name: 'Raytheon Technologies',
+    tagline: 'Get your personalized Raytheon Technologies prep package in 10 minutes - $59',
+    industry: 'Aerospace & Defense',
+    headquarters: 'Arlington, VA',
+    description: 'Raytheon Technologies is an aerospace and defense company providing advanced systems and services for commercial, military, and government customers. RTX interviews emphasize technical expertise, innovation, security awareness, and alignment with their focus on advancing aerospace and defense.',
+    interviewTips: [
+      'Demonstrate technical depth in your engineering discipline',
+      'Understand missile systems, radar, or cybersecurity',
+      'Show innovation and continuous improvement mindset',
+      'Prepare for clearance-related questions',
+      'Research Raytheon\'s Collins Aerospace and Pratt & Whitney divisions'
+    ],
+    whatTheyLookFor: [
+      'Technical expertise',
+      'Innovation and R&D capabilities',
+      'Security clearance eligibility',
+      'Systems thinking',
+      'Customer focus'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Online Application',
+        description: 'Submit application and technical background'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Technical screening conversation'
+      },
+      {
+        step: 3,
+        title: 'Technical Assessment',
+        description: 'In-depth technical interviews'
+      },
+      {
+        step: 4,
+        title: 'Final Round',
+        description: 'Meet with hiring team and leadership'
+      }
+    ],
+    questions: [
+      'Explain how radar systems work',
+      'How would you improve missile defense technology?',
+      'Describe your experience with embedded systems or signal processing',
+      'Why work in defense technology?',
+      'Tell me about a time you innovated on a technical solution'
+    ],
+    relatedCompanies: ['lockheed-martin', 'northrop-grumman', 'boeing', 'bae-systems']
+  },
+  'general-dynamics': {
+    name: 'General Dynamics',
+    tagline: 'Get your personalized General Dynamics prep package in 10 minutes - $59',
+    industry: 'Aerospace & Defense',
+    headquarters: 'Reston, VA',
+    description: 'General Dynamics is a global aerospace and defense company with business units in marine systems, combat systems, information technology, and mission systems. GD interviews focus on engineering capabilities, program management, security clearance, and commitment to supporting national defense.',
+    interviewTips: [
+      'Understand military systems and defense contracting',
+      'Show strong engineering and technical fundamentals',
+      'Demonstrate program or project management experience',
+      'Be ready to discuss security clearance status',
+      'Research GD\'s business units (Electric Boat, NASSCO, Land Systems, IT)'
+    ],
+    whatTheyLookFor: [
+      'Engineering excellence',
+      'Program management skills',
+      'Security clearance capability',
+      'Government contracting knowledge',
+      'Team collaboration'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume with clearance information'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial recruiter or manager conversation'
+      },
+      {
+        step: 3,
+        title: 'Technical Interview',
+        description: 'Technical and behavioral assessment'
+      },
+      {
+        step: 4,
+        title: 'Final Interview',
+        description: 'Meet with team and offer decision'
+      }
+    ],
+    questions: [
+      'Describe your experience with defense systems or government contracts',
+      'How would you manage a complex defense program?',
+      'Tell me about a technical challenge you overcame',
+      'Why General Dynamics?',
+      'What do you know about submarine or combat vehicle systems?'
+    ],
+    relatedCompanies: ['lockheed-martin', 'northrop-grumman', 'bae-systems', 'huntington-ingalls']
   }
 }
