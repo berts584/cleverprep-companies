@@ -73,10 +73,10 @@ export default async function CompanyPage({ params }) {
               CleverPrep
             </a>
             <div className="flex gap-6 text-sm">
-              <a href="https://cleverprep.com/how-it-works" className="text-gray-600 hover:text-gray-900 transition-colors">
+              <a href="https://cleverprep.com" className="text-gray-600 hover:text-gray-900 transition-colors">
                 How It Works
               </a>
-              <a href="https://cleverprep.com/pricing" className="text-gray-600 hover:text-gray-900 transition-colors">
+              <a href="https://cleverprep.com" className="text-gray-600 hover:text-gray-900 transition-colors">
                 Pricing
               </a>
               <Link href="/companies" className="text-gray-600 hover:text-gray-900 transition-colors">
@@ -273,7 +273,7 @@ export default async function CompanyPage({ params }) {
             </p>
           </div>
           <a
-            href={`https://cleverprep.com/purchase?company=${resolvedParams.slug}`}
+            href="https://cleverprep.com"
             className="inline-block bg-white text-blue-600 px-10 py-4 rounded-lg text-lg font-bold hover:bg-blue-50 hover:shadow-lg transition-all whitespace-nowrap transform hover:scale-105"
           >
             Get Personalized Interview Prep
