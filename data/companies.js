@@ -6397,5 +6397,423 @@ export const companies = {
       'Why Illumina specifically?'
     ],
     relatedCompanies: ['pacific-biosciences', 'oxford-nanopore', 'thermo-fisher', '10x-genomics']
+  },
+
+  // E-commerce Platforms
+  'shopify': {
+    name: 'Shopify',
+    tagline: 'Get your personalized Shopify prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Ottawa, Canada (US: San Francisco, CA)',
+    description: 'Shopify is a leading e-commerce platform enabling merchants to create online stores and sell products. Known for empowering entrepreneurs, commerce tools, developer ecosystem, and point-of-sale. Interviews emphasize technical skills, product thinking, and merchant focus.',
+    interviewTips: [
+      'Understand e-commerce and merchant pain points',
+      'Learn about Shopify\'s platform, apps, and developer ecosystem',
+      'Be prepared for coding and system design questions',
+      'Show passion for entrepreneurship and small business',
+      'Research Shopify\'s commerce operating system vision'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in full-stack or specialized areas',
+      'Product and merchant empathy',
+      'Problem-solving abilities',
+      'Entrepreneurial mindset',
+      'Collaborative approach'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Shopify careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Recruiter and technical screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, system design, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Design a product recommendation system for e-commerce',
+      'How would you scale checkout processing for Black Friday?',
+      'Build a feature to help merchants increase sales',
+      'What challenges do small businesses face in e-commerce?',
+      'Why Shopify?'
+    ],
+    relatedCompanies: ['woocommerce', 'bigcommerce', 'square', 'amazon']
+  },
+
+  'etsy': {
+    name: 'Etsy',
+    tagline: 'Get your personalized Etsy prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Brooklyn, NY',
+    description: 'Etsy is a global marketplace for unique, handmade, vintage items and craft supplies, connecting creative entrepreneurs with buyers. Known for supporting makers, sustainable commerce, community, and mission-driven values. Interviews emphasize creativity, impact, and technical skills.',
+    interviewTips: [
+      'Understand Etsy\'s mission to keep commerce human',
+      'Learn about the seller and buyer communities',
+      'Be prepared for coding and product design questions',
+      'Show passion for creativity, crafts, or sustainability',
+      'Research Etsy\'s values and B Corp certification'
+    ],
+    whatTheyLookFor: [
+      'Technical skills and creativity',
+      'Mission alignment with values',
+      'Community and seller empathy',
+      'Problem-solving abilities',
+      'Collaboration and inclusion'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Etsy careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Recruiter conversation'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Technical, behavioral, and values fit'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'How would you improve search relevance for handmade items?',
+      'Design a feature to help new sellers get discovered',
+      'What makes Etsy different from other marketplaces?',
+      'How would you balance buyer and seller needs?',
+      'Why Etsy specifically?'
+    ],
+    relatedCompanies: ['ebay', 'poshmark', 'mercari', 'depop']
+  },
+
+  'wayfair': {
+    name: 'Wayfair',
+    tagline: 'Get your personalized Wayfair prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Boston, MA',
+    description: 'Wayfair is a leading online retailer for home goods and furniture, offering millions of products. Known for data-driven personalization, logistics innovation, visual search, and customer experience. Interviews emphasize technical skills, e-commerce operations, and data analytics.',
+    interviewTips: [
+      'Understand e-commerce at scale and supply chain logistics',
+      'Learn about Wayfair\'s data science and personalization',
+      'Be prepared for coding, system design, and analytics questions',
+      'Show knowledge of home goods retail and customer behavior',
+      'Research Wayfair\'s technology initiatives and innovation'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in engineering or data science',
+      'Analytical and data-driven thinking',
+      'E-commerce and operations mindset',
+      'Problem-solving abilities',
+      'Customer focus'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Wayfair careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, system design, or analytics case'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Design a recommendation system for furniture',
+      'How would you optimize last-mile delivery for large items?',
+      'Analyze customer return patterns and suggest improvements',
+      'Build a visual search feature for home decor',
+      'Why Wayfair?'
+    ],
+    relatedCompanies: ['overstock', 'houzz', 'ikea', 'amazon']
+  },
+
+  'carvana': {
+    name: 'Carvana',
+    tagline: 'Get your personalized Carvana prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Tempe, AZ',
+    description: 'Carvana is an e-commerce platform for buying and selling used cars, pioneering online car sales with car vending machines. Known for disrupting traditional car dealerships, end-to-end digital experience, and vehicle reconditioning. Interviews focus on innovation, operations, and customer experience.',
+    interviewTips: [
+      'Understand online used car sales and financing',
+      'Learn about Carvana\'s vending machines and delivery model',
+      'Be prepared for technical or operational questions',
+      'Show knowledge of automotive retail disruption',
+      'Research Carvana\'s reconditioning and inspection process'
+    ],
+    whatTheyLookFor: [
+      'Innovation and disruption mindset',
+      'Technical or operational skills',
+      'Customer experience focus',
+      'Problem-solving in complex operations',
+      'Adaptability in fast-paced environment'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Carvana careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Initial screening conversation'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Technical, operational, or behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer'
+      }
+    ],
+    questions: [
+      'How would you improve the online car buying experience?',
+      'Design a vehicle inspection and reconditioning system',
+      'What challenges does Carvana face versus traditional dealers?',
+      'How would you optimize logistics for vehicle delivery?',
+      'Why Carvana?'
+    ],
+    relatedCompanies: ['vroom', 'carmax', 'shift', 'truecar']
+  },
+
+  // Social Media & Communication
+  'snap': {
+    name: 'Snap Inc.',
+    tagline: 'Get your personalized Snap prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Santa Monica, CA',
+    description: 'Snap is the company behind Snapchat, a camera and messaging app with disappearing content, AR filters, and Stories. Known for Gen Z dominance, augmented reality innovation, Spectacles hardware, and Discover content. Interviews emphasize technical skills, creativity, and product thinking.',
+    interviewTips: [
+      'Understand Snapchat\'s unique features (Stories, Lenses, Discover)',
+      'Learn about augmented reality and computer vision',
+      'Be prepared for coding and system design questions',
+      'Show creativity and understanding of Gen Z users',
+      'Research Snap\'s advertising business and AR strategy'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in mobile, AR, or computer vision',
+      'Creativity and innovation',
+      'Product sense for social features',
+      'Understanding of young users',
+      'Collaborative approach'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Snap careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Recruiter and technical screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-5 rounds)',
+        description: 'Coding, system design, product, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer'
+      }
+    ],
+    questions: [
+      'Design Snapchat\'s disappearing message system',
+      'How would you build an AR filter that tracks faces?',
+      'Improve engagement for Discover content',
+      'What makes Snapchat different from Instagram?',
+      'Why Snap?'
+    ],
+    relatedCompanies: ['meta', 'tiktok', 'pinterest', 'discord']
+  },
+
+  'pinterest': {
+    name: 'Pinterest',
+    tagline: 'Get your personalized Pinterest prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'San Francisco, CA',
+    description: 'Pinterest is a visual discovery platform for finding ideas, inspiration, and products through pins and boards. Known for shopping intent, visual search, creator ecosystem, and positive community. Interviews emphasize technical skills, product thinking, and creator empathy.',
+    interviewTips: [
+      'Understand Pinterest\'s visual discovery and shopping use cases',
+      'Learn about computer vision, recommendation systems, and ads',
+      'Be prepared for coding and machine learning questions',
+      'Show knowledge of creator economy and inspiration',
+      'Research Pinterest\'s focus on positive content and inclusivity'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in ML, computer vision, or full-stack',
+      'Product sense for visual platforms',
+      'Creator and user empathy',
+      'Problem-solving abilities',
+      'Inclusive and positive mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Pinterest careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, ML/systems, product, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'Design Pinterest\'s recommendation algorithm',
+      'How would you build visual search for similar products?',
+      'Improve creator monetization on Pinterest',
+      'What differentiates Pinterest from Instagram?',
+      'Why Pinterest?'
+    ],
+    relatedCompanies: ['instagram', 'etsy', 'houzz', 'reddit']
+  },
+
+  'reddit': {
+    name: 'Reddit',
+    tagline: 'Get your personalized Reddit prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'San Francisco, CA',
+    description: 'Reddit is a social news aggregation and discussion platform with thousands of communities (subreddits). Known for authentic conversations, user-generated content, voting system, AMAs, and internet culture. Interviews emphasize technical skills, community understanding, and product sense.',
+    interviewTips: [
+      'Understand Reddit\'s community structure and moderation',
+      'Learn about content ranking, voting systems, and feed algorithms',
+      'Be prepared for coding and system design questions',
+      'Show knowledge of internet culture and community dynamics',
+      'Research Reddit\'s advertising and Premium business'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in scalable systems',
+      'Community and user empathy',
+      'Product thinking for discussion platforms',
+      'Problem-solving abilities',
+      'Understanding of Reddit culture'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Reddit careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Recruiter and technical screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, system design, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Design Reddit\'s voting and ranking algorithm',
+      'How would you combat spam and trolling?',
+      'Build a feature to improve community discovery',
+      'What makes Reddit unique among social platforms?',
+      'Why Reddit?'
+    ],
+    relatedCompanies: ['discord', 'twitter', 'quora', 'stack-overflow']
+  },
+
+  'discord': {
+    name: 'Discord',
+    tagline: 'Get your personalized Discord prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'San Francisco, CA',
+    description: 'Discord is a communication platform for communities, gaming, and groups with voice, video, and text chat. Known for low-latency voice, server-based communities, gaming origins, and expanding to broader use cases. Interviews emphasize technical skills, community focus, and real-time systems.',
+    interviewTips: [
+      'Understand real-time communication and voice technology',
+      'Learn about Discord\'s server structure and community features',
+      'Be prepared for coding and distributed systems questions',
+      'Show passion for gaming or online communities',
+      'Research Discord\'s monetization (Nitro, Server Boosts)'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in real-time systems or voice tech',
+      'Community and gaming understanding',
+      'Problem-solving in distributed systems',
+      'Product sense for communication tools',
+      'Collaborative mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Discord careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and cultural screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, architecture, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'Design Discord\'s voice chat architecture',
+      'How would you reduce latency for real-time communication?',
+      'Build a feature to help communities grow',
+      'What challenges does Discord face in scaling?',
+      'Why Discord?'
+    ],
+    relatedCompanies: ['slack', 'teamspeak', 'zoom', 'reddit']
   }
 }
