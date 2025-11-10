@@ -589,8 +589,917 @@ export const rolePageContent = {
         { companyName: "Deloitte", companySlug: "deloitte", industry: "Consulting" }
       ]
     }
+  },
+  'amazon': {
+    'software-engineer': {
+      roleDescription: "Software Development Engineers at Amazon build and own services that power everything from retail and AWS to Alexa and Prime Video. You'll work in a fast-paced environment with a strong bias for action, designing scalable distributed systems and writing production code that serves millions of customers. Amazon's culture emphasizes ownership, customer obsession, and data-driven decision making.",
+      responsibilities: [
+        "Design and build scalable, distributed systems and services",
+        "Own features end-to-end from design through deployment and operations",
+        "Write high-quality, maintainable code with comprehensive testing",
+        "Participate in code reviews and architectural discussions",
+        "Monitor systems, debug issues, and implement operational excellence"
+      ],
+      growthOpportunities: [
+        "Work on services serving millions of customers globally",
+        "Ownership of systems with direct customer impact",
+        "Cross-team mobility within Amazon's diverse business units",
+        "Path to Principal Engineer or management track",
+        "Exposure to AWS and cutting-edge cloud technologies"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "90-minute coding assessment with 2 algorithm problems and work simulation exercises testing Amazon's Leadership Principles.",
+          duration: "90 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Screen",
+          description: "45-minute technical interview with coding and behavioral questions focused on Leadership Principles.",
+          duration: "45 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual or On-site Loop",
+          description: "4-5 rounds including coding (2-3 rounds), system design (1 round), and behavioral/LP questions (all rounds).",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Bar Raiser Round",
+          description: "Interview with a Bar Raiser (interviewer from different team) who ensures Amazon's hiring standards. This is typically the most challenging round."
+        }
+      ],
+      technicalQuestions: [
+        "Design Amazon's inventory management system. How would you handle millions of items across fulfillment centers?",
+        "Implement a function to find the top K most viewed products in the last hour.",
+        "Given a list of package dependencies, determine a valid installation order.",
+        "Design a rate limiter for Amazon's API Gateway.",
+        "Write a function to validate parentheses/brackets in an expression.",
+        "How would you design Amazon's recommendation engine?",
+        "Implement a function to find the median of a stream of numbers.",
+        "Design a distributed cache system like Amazon ElastiCache.",
+        "Given a 2D grid representing a warehouse, find the shortest path to pick all items in an order.",
+        "How would you design Amazon Prime Video's content delivery system?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you disagreed with your manager. (Have Backbone; Disagree and Commit)",
+        "Give an example of when you took a calculated risk. (Bias for Action)",
+        "Describe a time you failed. What did you learn? (Learn and Be Curious)",
+        "Tell me about the most complex problem you've solved. (Dive Deep)",
+        "Give an example of when you delivered results despite obstacles. (Deliver Results)",
+        "Describe a time you went above and beyond for a customer. (Customer Obsession)",
+        "Tell me about a time you simplified a complex process. (Invent and Simplify)",
+        "Give an example of when you made a decision with incomplete information. (Bias for Action)"
+      ],
+      whatTheyLookFor: [
+        "Alignment with Amazon's 16 Leadership Principles",
+        "Strong coding skills in at least one language (Java, Python, C++)",
+        "System design and scalability mindset",
+        "Ownership mentality and bias for action",
+        "Customer-first thinking in technical decisions",
+        "Ability to deliver results under pressure",
+        "Clear communication and collaboration skills",
+        "Data-driven problem solving"
+      ],
+      interviewTips: [
+        "Study Amazon's 16 Leadership Principles - prepare STAR stories for each",
+        "Every interview round includes behavioral LP questions - prepare 8-10 detailed stories",
+        "Focus on ownership and delivery - Amazon values getting things done",
+        "For system design, emphasize scalability and operational excellence",
+        "Practice LeetCode medium/hard problems - Amazon favors algorithm questions",
+        "Understand distributed systems concepts (caching, load balancing, databases)",
+        "Be ready to discuss trade-offs and data-driven decision making",
+        "Show customer obsession in your examples and technical decisions"
+      ],
+      salary: {
+        min: 115000,
+        max: 180000
+      },
+      compensation: [
+        "Sign-on bonus ($20-50K typically, vesting over 2 years)",
+        "Restricted Stock Units (RSUs) with non-linear vesting (5/15/40/40)",
+        "Performance-based annual raises and stock refreshers",
+        "Comprehensive health benefits",
+        "401(k) with company match",
+        "Employee discount and Amazon Prime membership"
+      ],
+      dayInLife: {
+        overview: "Amazon SDEs work in fast-paced teams with strong ownership culture. You'll spend time coding, reviewing, on-call rotations, and operational responsibilities. The day varies between building new features and maintaining production systems.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Quick 15-minute sync on sprint progress, blockers, and on-call issues"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Code Development",
+            description: "Deep work on feature implementation or bug fixes with local testing"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Design Review",
+            description: "Review design document for upcoming feature with team and stakeholders"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "Grab lunch from cafeteria or nearby options"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Code Review",
+            description: "Review teammates' pull requests and address feedback on your own code"
+          },
+          {
+            time: "2:30 PM",
+            activity: "On-call Duty",
+            description: "Respond to production alerts, debug issues, and deploy fixes if needed"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Sprint Planning",
+            description: "Estimate and commit to work for next sprint with team"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Operational Review",
+            description: "Check metrics, alarms, and operational health of your service"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+      ]
+    },
+    'product-manager': {
+      roleDescription: "Product Managers at Amazon are customer-obsessed leaders who define product vision and drive execution. You'll own the product roadmap, work closely with engineering and design teams, and use data to make decisions. Amazon PMs operate with high autonomy and are expected to 'think big' while maintaining operational excellence.",
+      responsibilities: [
+        "Define product vision, strategy, and roadmap aligned with business goals",
+        "Write detailed PRDs (Product Requirement Documents) and press releases",
+        "Gather and prioritize product requirements from customers and stakeholders",
+        "Work with engineering teams to deliver features on schedule",
+        "Analyze metrics and customer feedback to iterate on products"
+      ],
+      growthOpportunities: [
+        "Ownership of products serving millions of Amazon customers",
+        "Exposure to diverse business units (Retail, AWS, Devices, etc.)",
+        "Path to Senior PM, Principal PM, or GM roles",
+        "Access to Amazon's data and scale for product decisions",
+        "Opportunity to launch new products and businesses"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45-minute conversation covering product sense, analytical skills, and Leadership Principles with specific examples.",
+          duration: "45 minutes"
+        },
+        {
+          step: 2,
+          title: "Product Design Round",
+          description: "Design a product or feature. Demonstrate customer obsession and structured thinking.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Technical Round",
+          description: "Discuss technical concepts, APIs, databases, or solve a technical problem. PMs need technical credibility.",
+          duration: "60 minutes"
+        },
+        {
+          step: 4,
+          title: "Analytical/Metrics Round",
+          description: "Solve a business problem using data. Define metrics, analyze trends, make recommendations.",
+          duration: "60 minutes"
+        },
+        {
+          step: 5,
+          title: "Bar Raiser + Leadership",
+          description: "Deep dive into Leadership Principles with Bar Raiser. Expect tough behavioral questions.",
+          duration: "60 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve Amazon Prime membership?",
+        "Design a feature to reduce shopping cart abandonment.",
+        "Should Amazon enter the grocery delivery market? (before Whole Foods acquisition)",
+        "How would you prioritize features for Alexa's next release?",
+        "If product page conversions dropped 5%, how would you investigate?",
+        "Design a returns experience for Amazon customers.",
+        "How would you measure success for Amazon's Subscribe & Save?",
+        "Should Amazon build a social shopping feature?",
+        "How would you improve the search experience on Amazon.com?",
+        "Estimate the market size for Amazon Business (B2B marketplace)."
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you had to make a decision with incomplete data. (Bias for Action)",
+        "Give an example of when you made a customer-first decision that hurt short-term metrics. (Customer Obsession)",
+        "Describe a time you challenged the status quo. (Think Big)",
+        "Tell me about your biggest product failure. What did you learn? (Learn and Be Curious)",
+        "Give an example of when you had to influence without authority. (Earn Trust)",
+        "Describe a situation where you had to disagree with leadership. (Have Backbone)",
+        "Tell me about a time you delivered results despite constraints. (Deliver Results)",
+        "Give an example of when you dove deep into data to solve a problem. (Dive Deep)"
+      ],
+      whatTheyLookFor: [
+        "Customer obsession and user-first thinking",
+        "Data-driven decision making and analytical rigor",
+        "Technical depth and credibility with engineering teams",
+        "Ownership mindset and bias for action",
+        "Strong written and verbal communication (6-pagers, PRDs)",
+        "Strategic thinking balanced with execution",
+        "Demonstrated results and delivery track record",
+        "Alignment with all 16 Leadership Principles"
+      ],
+      interviewTips: [
+        "Master Amazon's Leadership Principles - prepare detailed STAR stories",
+        "Practice writing PR/FAQ documents (Amazon's 6-pager format)",
+        "Be ready to discuss metrics in depth - Amazon is very data-driven",
+        "Show customer obsession in every answer - bring customer examples",
+        "Understand Amazon's business model and recent product launches",
+        "For product design, start with customer pain points, not features",
+        "Prepare technical questions - Amazon PMs need engineering credibility",
+        "Have strong opinions backed by data, but be willing to 'disagree and commit'"
+      ],
+      salary: {
+        min: 130000,
+        max: 190000
+      },
+      compensation: [
+        "Sign-on bonus ($25-60K over 2 years)",
+        "Restricted Stock Units with 5/15/40/40 vesting schedule",
+        "Annual performance-based raises and stock refreshers",
+        "Comprehensive health and wellness benefits",
+        "Relocation assistance if applicable",
+        "Employee discounts and Prime membership"
+      ],
+      dayInLife: {
+        overview: "Amazon PMs balance strategic planning with tactical execution. You'll spend time with customers, analyze data, write documents, align stakeholders, and work closely with engineering teams to ship products.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Customer Research",
+            description: "Review customer feedback from support tickets and user research sessions"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Sprint Planning",
+            description: "Prioritize backlog and commit to features with engineering team"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Metrics Deep Dive",
+            description: "Analyze product metrics, A/B test results, and business KPIs"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Working Lunch",
+            description: "Grab lunch while working on PRD or 6-pager document"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Leadership Review",
+            description: "Present product strategy and results to director or VP"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Design Review",
+            description: "Review UX mocks and prototypes with design team"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Stakeholder Sync",
+            description: "Align with marketing, ops, and business teams on product launch"
+          },
+          {
+            time: "6:00 PM",
+            activity: "Document Writing",
+            description: "Write or revise PR/FAQ for upcoming product review meeting"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Amazon use machine learning, statistical analysis, and big data technologies to solve complex business problems. You'll work on everything from product recommendations and pricing optimization to fraud detection and supply chain forecasting. Amazon's scale provides unique opportunities to impact millions of customers through data-driven solutions.",
+      responsibilities: [
+        "Build machine learning models to solve business problems",
+        "Analyze large datasets to extract insights and drive decisions",
+        "Design and analyze A/B tests and experiments",
+        "Partner with product and engineering teams to implement ML solutions",
+        "Communicate complex technical findings to non-technical stakeholders"
+      ],
+      growthOpportunities: [
+        "Work with massive datasets and cutting-edge ML technologies",
+        "Apply ML to diverse problems across retail, AWS, and devices",
+        "Path to Principal Data Scientist or ML engineering roles",
+        "Access to AWS's ML infrastructure and tools",
+        "Opportunity to publish research and innovate in ML/AI"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "Technical discussion covering statistics, ML concepts, and past projects. Includes behavioral LP questions.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "ML/Statistics Round",
+          description: "Deep dive into ML algorithms, model selection, evaluation metrics, and statistical concepts.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Coding Round",
+          description: "Solve data manipulation and algorithm problems in Python or R. May include SQL queries.",
+          duration: "60 minutes"
+        },
+        {
+          step: 4,
+          title: "Case Study/Applied ML",
+          description: "Solve a business problem using data science. Design experiment, choose metrics, and present solution.",
+          duration: "60 minutes"
+        },
+        {
+          step: 5,
+          title: "Bar Raiser + Behavioral",
+          description: "Leadership Principles deep dive with examples of customer obsession and data-driven decisions.",
+          duration: "60 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "How would you build a product recommendation system for Amazon?",
+        "Explain the bias-variance tradeoff and how it applies to model selection.",
+        "Design an experiment to test a new pricing strategy. What metrics would you use?",
+        "How would you detect fraudulent transactions on Amazon?",
+        "Explain XGBoost and when you would use it over other algorithms.",
+        "Given imbalanced classes in fraud detection, how would you handle it?",
+        "How would you forecast demand for a new product with limited historical data?",
+        "Design a search ranking algorithm for Amazon.com.",
+        "Explain how you would validate a machine learning model in production.",
+        "How would you identify which products to show in 'Customers also bought' section?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time when your model didn't perform as expected. (Learn and Be Curious)",
+        "Describe a situation where you used data to influence a business decision. (Dive Deep)",
+        "Give an example of when you had to explain complex technical concepts to non-technical stakeholders. (Earn Trust)",
+        "Tell me about a time you disagreed with the approach to a data science problem. (Have Backbone)",
+        "Describe your most impactful project. How did it affect customers? (Customer Obsession)",
+        "Give an example of when you had to deliver results with limited data. (Bias for Action)",
+        "Tell me about a time you improved an existing ML system. (Invent and Simplify)",
+        "Describe a situation where you had to prioritize multiple competing projects. (Deliver Results)"
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in statistics and machine learning",
+        "Programming skills in Python/R and SQL",
+        "Experience with large-scale data processing (Spark, Hadoop)",
+        "Ability to translate business problems into ML solutions",
+        "Clear communication of technical concepts",
+        "Customer-focused approach to data science",
+        "Track record of delivering impactful projects",
+        "Alignment with Amazon's Leadership Principles"
+      ],
+      interviewTips: [
+        "Review ML fundamentals: supervised/unsupervised learning, common algorithms, evaluation metrics",
+        "Practice coding in Python - be comfortable with pandas, numpy, and basic algorithms",
+        "Prepare examples of end-to-end ML projects you've completed",
+        "Study A/B testing methodology and experimental design",
+        "Understand how to work with imbalanced datasets and missing data",
+        "Be ready to discuss trade-offs in model selection and deployment",
+        "Show business impact in your project examples, not just technical details",
+        "Prepare LP stories that demonstrate data-driven decision making"
+      ],
+      salary: {
+        min: 125000,
+        max: 190000
+      },
+      compensation: [
+        "Sign-on bonus ($20-50K over 2 years)",
+        "Restricted Stock Units with non-linear vesting",
+        "Annual performance bonuses and stock refreshers",
+        "Comprehensive health benefits",
+        "AWS credits for personal projects",
+        "Conference and education budget"
+      ],
+      dayInLife: {
+        overview: "Amazon Data Scientists balance model development with business partnership. You'll analyze data, build ML models, run experiments, and work closely with product and engineering teams to deploy solutions that impact customers.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Model Performance Review",
+            description: "Check production metrics and model performance dashboards"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Data Analysis",
+            description: "Explore customer behavior data to identify opportunities for ML solutions"
+          },
+          {
+            time: "11:30 AM",
+            activity: "A/B Test Review",
+            description: "Analyze experiment results and prepare recommendations"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learning",
+            description: "Attend ML tech talk or grab lunch with team"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Model Development",
+            description: "Feature engineering and model training for recommendation system"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Stakeholder Meeting",
+            description: "Present insights and ML solution proposal to product team"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Code Review",
+            description: "Review ML code from teammates and collaborate on model improvements"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
+      ]
+    }
+  },
+  'meta': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Meta build products used by billions across Facebook, Instagram, WhatsApp, and Reality Labs. You'll work on highly scalable systems, ship code that impacts users globally, and solve unique technical challenges at massive scale. Meta emphasizes impact, innovation, and moving fast with a strong engineering culture.",
+      responsibilities: [
+        "Design, develop, test, and deploy scalable applications and systems",
+        "Build new features and improve existing products across Meta's family of apps",
+        "Collaborate with cross-functional teams (PM, Design, Data Science)",
+        "Participate in code reviews and maintain high code quality standards",
+        "Optimize performance and scalability of distributed systems"
+      ],
+      growthOpportunities: [
+        "Impact billions of users across Facebook, Instagram, WhatsApp",
+        "Work on cutting-edge technologies (AR/VR, AI, distributed systems)",
+        "Hackathons and innovation time for new ideas",
+        "Career progression to Staff/Principal Engineer or management",
+        "Access to world-class mentorship and learning resources"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Technical Phone Screen",
+          description: "45-minute coding interview on data structures and algorithms. Focus on problem-solving approach and code quality.",
+          duration: "45 minutes"
+        },
+        {
+          step: 2,
+          title: "Virtual On-site (Ninja Interview)",
+          description: "Two 45-minute coding rounds focusing on algorithms, data structures, and problem-solving.",
+          duration: "90 minutes total"
+        },
+        {
+          step: 3,
+          title: "Full Virtual/On-site Loop",
+          description: "4 interviews: 2 coding rounds, 1 system design (for senior roles), 1 behavioral round assessing Meta's values.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee",
+          description: "All feedback is reviewed by hiring committee. Team matching happens after approval."
+        }
+      ],
+      technicalQuestions: [
+        "Implement a function to clone a graph with deep copy.",
+        "Design the News Feed ranking algorithm for Facebook.",
+        "Given a binary tree, serialize and deserialize it.",
+        "Implement a rate limiter that allows X requests per Y seconds.",
+        "Design Instagram's architecture. How would you scale to billions of users?",
+        "Find the minimum window substring containing all characters of another string.",
+        "How would you design WhatsApp's message delivery system?",
+        "Implement a data structure for autocomplete suggestions.",
+        "Design a system to detect and prevent spam on Facebook.",
+        "Given a stream of data, find the top K trending topics."
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you challenged the status quo and proposed a better solution.",
+        "Describe your most technically complex project. What was your role?",
+        "Give an example of when you had to make a decision with incomplete information.",
+        "Tell me about a time you failed. How did you handle it?",
+        "Describe a situation where you had to collaborate with a difficult teammate.",
+        "What's the most innovative feature you've built? How did you come up with it?",
+        "Tell me about a time you had to learn a new technology quickly.",
+        "Give an example of when you went above and beyond to deliver results."
+      ],
+      whatTheyLookFor: [
+        "Strong coding and problem-solving skills",
+        "Ability to think about scale and performance",
+        "Clean, maintainable code with good design patterns",
+        "Meta values: Move Fast, Be Bold, Focus on Impact, Be Open, Build Social Value",
+        "Communication and collaboration skills",
+        "Passion for building products that connect people",
+        "Growth mindset and learning agility",
+        "Ability to navigate ambiguity and prioritize"
+      ],
+      interviewTips: [
+        "Practice LeetCode medium/hard problems - Meta emphasizes strong coding fundamentals",
+        "Study system design at scale - think about serving billions of users",
+        "Communicate your thought process clearly - explain before coding",
+        "Write clean, production-quality code during interviews",
+        "Understand Meta's products deeply - use Facebook, Instagram, WhatsApp actively",
+        "Research Meta's engineering blog and recent technical innovations",
+        "Be ready to discuss trade-offs in scalability, performance, and user experience",
+        "Show passion for building products that bring people together"
+      ],
+      salary: {
+        min: 125000,
+        max: 200000
+      },
+      compensation: [
+        "Significant RSU grants (often higher than base for experienced engineers)",
+        "Refresher grants to keep total comp competitive",
+        "Sign-on bonus ($50-100K+ for experienced candidates)",
+        "Semi-annual performance bonuses",
+        "Comprehensive health, dental, and vision benefits",
+        "Free meals, transportation, and on-campus amenities"
+      ],
+      dayInLife: {
+        overview: "Meta engineers work in fast-paced, impact-driven teams. You'll ship code frequently, participate in hack-a-thons, and collaborate closely with PMs and designers. The culture emphasizes moving fast and building products users love.",
+        schedule: [
+          {
+            time: "10:00 AM",
+            activity: "Team Standup",
+            description: "Quick sync on project status and blockers with team"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Code Review",
+            description: "Review teammates' diffs (Meta's code review system) and get feedback on yours"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Feature Development",
+            description: "Deep work on new feature for Instagram Stories"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Free Lunch",
+            description: "Enjoy lunch at one of Meta's cafeterias with teammates"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Design Review",
+            description: "Discuss technical design for upcoming infrastructure project"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Coding Session",
+            description: "Continue development and write unit/integration tests"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Weekly Sync",
+            description: "Update PM and designer on progress and discuss next sprint priorities"
+          },
+          {
+            time: "6:00 PM",
+            activity: "Hackathon Planning",
+            description: "Brainstorm ideas with team for upcoming company hackathon"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+      ]
+    },
+    'product-manager': {
+      roleDescription: "Product Managers at Meta shape products that connect billions of people globally. You'll define product vision for Facebook, Instagram, WhatsApp, or Reality Labs, working with world-class designers and engineers. Meta PMs are strategic, data-driven, and deeply user-focused, with strong emphasis on impact and innovation.",
+      responsibilities: [
+        "Define product strategy and vision for your product area",
+        "Lead cross-functional teams to ship impactful features",
+        "Use data and user research to inform product decisions",
+        "Set and track success metrics for product initiatives",
+        "Communicate product strategy to leadership and stakeholders"
+      ],
+      growthOpportunities: [
+        "Shape products used by billions globally",
+        "Work on cutting-edge areas like AR/VR, AI, and social connectivity",
+        "Fast career growth to Senior PM, Group PM, or Director roles",
+        "Collaborate with top talent in product, design, and engineering",
+        "Exposure to diverse products across Meta's family of apps"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "30-minute conversation about your background, interest in Meta, and basic product sense.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Product Sense Interview",
+          description: "Design a product or improve an existing one. Focus on user needs and impact.",
+          duration: "45 minutes"
+        },
+        {
+          step: 3,
+          title: "Execution Interview",
+          description: "Demonstrate ability to ship products. Discuss metrics, prioritization, and getting things done.",
+          duration: "45 minutes"
+        },
+        {
+          step: 4,
+          title: "Product Strategy",
+          description: "Think big picture about product direction, market opportunities, and long-term vision.",
+          duration: "45 minutes"
+        },
+        {
+          step: 5,
+          title: "Behavioral/Leadership",
+          description: "Assess alignment with Meta's values through behavioral examples.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve Facebook Groups?",
+        "Design a dating app for Meta (became Facebook Dating).",
+        "How would you measure the success of Instagram Reels?",
+        "Should Meta build a professional networking product? Why or why not?",
+        "If Facebook engagement dropped 10%, how would you diagnose and fix it?",
+        "Design a feature to help small businesses grow on Instagram.",
+        "How would you monetize WhatsApp while keeping the user experience free?",
+        "Design a privacy-focused messaging feature for young adults.",
+        "How would you increase time spent on Facebook News Feed?",
+        "What metrics would you use to measure Instagram Stories' success?"
+      ],
+      behavioralQuestions: [
+        "Tell me about your most impactful product. How did it affect users?",
+        "Describe a time you had to make a product decision with incomplete data.",
+        "Give an example of when you disagreed with your engineering team.",
+        "Tell me about a product that failed. What did you learn?",
+        "Describe how you prioritize when you have competing stakeholder demands.",
+        "Give an example of when you moved fast and had to iterate based on feedback.",
+        "Tell me about a time you built something innovative or outside the box.",
+        "Describe a situation where you had to influence without authority."
+      ],
+      whatTheyLookFor: [
+        "Product sense and user empathy for global audience",
+        "Data-driven decision making with strong analytical skills",
+        "Bias for action and ability to move fast",
+        "Strategic thinking balanced with execution excellence",
+        "Strong communication and leadership skills",
+        "Alignment with Meta values (Move Fast, Be Bold, Focus on Impact)",
+        "Technical depth to collaborate effectively with engineers",
+        "Track record of shipping impactful products"
+      ],
+      interviewTips: [
+        "Use Meta's products daily - understand Facebook, Instagram, WhatsApp deeply",
+        "Practice product design frameworks - start with user pain points",
+        "Be ready to discuss metrics in depth - DAU, engagement, retention, etc.",
+        "Show impact in your examples - how did your work affect millions of users?",
+        "Research Meta's strategy, recent product launches, and competitive landscape",
+        "Demonstrate data-driven thinking with specific metrics and experiments",
+        "Show you can move fast - Meta values speed and iteration",
+        "Prepare questions about Meta's product areas and future direction"
+      ],
+      salary: {
+        min: 145000,
+        max: 220000
+      },
+      compensation: [
+        "Large RSU grants (significant portion of total comp)",
+        "Annual refresher grants based on performance",
+        "Sign-on bonus ($50-100K+ for experienced PMs)",
+        "Semi-annual performance bonuses",
+        "Comprehensive benefits package",
+        "Free meals, gym, transportation, and campus perks"
+      ],
+      dayInLife: {
+        overview: "Meta PMs balance strategic vision with rapid execution. You'll analyze data, align stakeholders, work closely with design and engineering, and ship features that impact billions of users globally.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Product Metrics Review",
+            description: "Deep dive into dashboards tracking your product's key metrics"
+          },
+          {
+            time: "10:30 AM",
+            activity: "User Research Synthesis",
+            description: "Review latest user research findings with UX researcher"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Design Review",
+            description: "Provide feedback on design mocks for upcoming feature"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Team Lunch",
+            description: "Grab free lunch with cross-functional team members"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Sprint Planning",
+            description: "Prioritize backlog and plan next two-week sprint with eng team"
+          },
+          {
+            time: "3:00 PM",
+            activity: "A/B Test Analysis",
+            description: "Analyze experiment results and decide whether to ship feature"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Leadership Review",
+            description: "Present product strategy and results to director/VP"
+          },
+          {
+            time: "6:00 PM",
+            activity: "Product Doc Writing",
+            description: "Write product spec for Q2 roadmap items"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Meta use advanced analytics and machine learning to understand user behavior, improve products, and drive business decisions across Facebook, Instagram, WhatsApp, and Reality Labs. You'll work at unprecedented scale, analyzing billions of interactions daily to create impact for users and the business.",
+      responsibilities: [
+        "Build machine learning models to improve products and user experience",
+        "Design and analyze large-scale experiments (A/B tests)",
+        "Extract insights from massive datasets to inform product strategy",
+        "Partner with product and engineering teams to deploy ML solutions",
+        "Develop metrics and dashboards to track product health"
+      ],
+      growthOpportunities: [
+        "Work with unique datasets at billions-of-users scale",
+        "Apply ML/AI to cutting-edge problems in social, AR/VR, and AI",
+        "Career growth to Staff/Principal Data Scientist or ML Engineer",
+        "Collaborate with top researchers and engineers",
+        "Opportunity to publish research and advance the field"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Technical Phone Screen",
+          description: "45-minute interview covering SQL, statistics, and discussion of past projects.",
+          duration: "45 minutes"
+        },
+        {
+          step: 2,
+          title: "SQL/Coding Round",
+          description: "Solve data manipulation problems using SQL. May include Python/R coding.",
+          duration: "45 minutes"
+        },
+        {
+          step: 3,
+          title: "Statistics/ML Round",
+          description: "Deep dive into statistical concepts, ML algorithms, and experimental design.",
+          duration: "45 minutes"
+        },
+        {
+          step: 4,
+          title: "Product Analytics/Case",
+          description: "Analyze a product problem, design metrics, interpret data, and make recommendations.",
+          duration: "45 minutes"
+        },
+        {
+          step: 5,
+          title: "Behavioral Round",
+          description: "Assess alignment with Meta values and past collaboration examples.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "How would you build a recommendation system for Facebook News Feed?",
+        "Design an experiment to test a new feature on Instagram. What metrics would you use?",
+        "How would you detect fake accounts on Facebook at scale?",
+        "Explain how you would model user engagement across Facebook's family of apps.",
+        "If Instagram engagement dropped suddenly, how would you investigate?",
+        "Design a content ranking algorithm for WhatsApp Status.",
+        "How would you measure the impact of Instagram Reels on overall engagement?",
+        "Build a model to predict which users are likely to churn.",
+        "How would you optimize ad targeting while respecting user privacy?",
+        "Design an A/B test to evaluate a new Facebook Groups feature."
+      ],
+      behavioralQuestions: [
+        "Tell me about your most impactful data science project. How did it affect the business?",
+        "Describe a time when your analysis led to a counterintuitive insight.",
+        "Give an example of when you had to explain complex technical results to non-technical stakeholders.",
+        "Tell me about a time you disagreed with a product decision based on data.",
+        "Describe a situation where you had to work with messy or incomplete data.",
+        "Give an example of when you moved fast to deliver insights under tight deadlines.",
+        "Tell me about a time your model or analysis didn't work as expected.",
+        "Describe how you collaborate with product managers and engineers."
+      ],
+      whatTheyLookFor: [
+        "Strong statistical and ML fundamentals",
+        "SQL expertise and data manipulation skills",
+        "Experience with large-scale data analysis",
+        "Ability to design and analyze experiments",
+        "Product sense and business acumen",
+        "Clear communication of technical concepts",
+        "Impact-driven mindset aligned with Meta values",
+        "Collaboration skills across PM, Eng, and Research teams"
+      ],
+      interviewTips: [
+        "Master SQL - be very comfortable with complex queries, joins, and window functions",
+        "Review statistics fundamentals: hypothesis testing, confidence intervals, p-values",
+        "Study A/B testing methodology and common pitfalls (Simpson's paradox, network effects)",
+        "Practice product analytics cases - think about metrics and user behavior",
+        "Understand Meta's products and how data drives product decisions",
+        "Be ready to discuss trade-offs in ML model selection and evaluation",
+        "Prepare examples of insights that drove business impact",
+        "Show passion for using data to improve products for billions of users"
+      ],
+      salary: {
+        min: 135000,
+        max: 205000
+      },
+      compensation: [
+        "Significant RSU grants as major component of total comp",
+        "Annual refresher grants to maintain comp competitiveness",
+        "Sign-on bonus ($30-80K for experienced candidates)",
+        "Semi-annual performance bonuses",
+        "Comprehensive health and wellness benefits",
+        "Free meals, gym, commuter benefits, and campus amenities"
+      ],
+      dayInLife: {
+        overview: "Meta Data Scientists work at the intersection of data, product, and engineering. Your day includes analyzing experiments, building models, extracting insights, and collaborating with cross-functional teams to ship data-driven products.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Experiment Review",
+            description: "Analyze A/B test results from Instagram Reels feature launch"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Dashboard Review",
+            description: "Check product health metrics and investigate any anomalies"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Data Deep Dive",
+            description: "SQL analysis to understand user engagement patterns"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Team Lunch",
+            description: "Grab lunch at campus cafe with fellow data scientists"
+          },
+          {
+            time: "2:00 PM",
+            activity: "ML Model Development",
+            description: "Build and train content ranking model in Python"
+          },
+          {
+            time: "3:30 PM",
+            activity: "PM Sync",
+            description: "Present analysis insights to inform product roadmap decisions"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Code Review",
+            description: "Review teammates' analysis code and models"
+          },
+          {
+            time: "6:00 PM",
+            activity: "Research Time",
+            description: "Explore new ML techniques or read recent research papers"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" }
+      ]
+    }
   }
 }
 
-// For other test companies (Amazon, Meta), we can add more roles here
-// This is a starting point with 3 companies × multiple roles
+// Content for Amazon and Meta now complete
+// Total companies with role content: 5 (Google, Goldman Sachs, McKinsey, Amazon, Meta)
