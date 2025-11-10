@@ -385,12 +385,17 @@ export async function generateMetadata({ params }) {
 }
 
 export function generateStaticParams() {
-  // Start with test companies for initial implementation
-  const testCompanies = ['google', 'goldman-sachs', 'mckinsey', 'amazon', 'meta']
+  // Tech companies expansion - focus on top tech companies first
+  const techCompanies = ['google', 'amazon', 'meta', 'apple', 'microsoft', 'netflix']
+
+  // Finance and consulting companies
+  const financeConsultingCompanies = ['goldman-sachs', 'mckinsey']
+
+  const allCompanies = [...techCompanies, ...financeConsultingCompanies]
 
   const params = []
 
-  testCompanies.forEach(companySlug => {
+  allCompanies.forEach(companySlug => {
     const company = companies[companySlug]
     if (!company) return
 
