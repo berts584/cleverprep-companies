@@ -65,11 +65,33 @@ export default async function CompanyPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
 
+      {/* Top Navigation Bar */}
+      <nav className="bg-white border-b border-gray-200 shadow-sm">
+        <div className="max-w-6xl mx-auto px-6 py-4">
+          <div className="flex justify-between items-center">
+            <a href="https://cleverprep.com" className="text-xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
+              CleverPrep
+            </a>
+            <div className="flex gap-6 text-sm">
+              <a href="https://cleverprep.com/how-it-works" className="text-gray-600 hover:text-gray-900 transition-colors">
+                How It Works
+              </a>
+              <a href="https://cleverprep.com/pricing" className="text-gray-600 hover:text-gray-900 transition-colors">
+                Pricing
+              </a>
+              <Link href="/companies" className="text-gray-600 hover:text-gray-900 transition-colors">
+                Companies
+              </Link>
+            </div>
+          </div>
+        </div>
+      </nav>
+
       {/* Header with Gradient */}
       <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white py-16 shadow-lg">
         <div className="max-w-4xl mx-auto px-4">
           <nav className="text-sm mb-6 opacity-90">
-            <Link href="/" className="hover:underline">Home</Link>
+            <a href="https://cleverprep.com" className="hover:underline">CleverPrep</a>
             {' > '}
             <Link href="/companies" className="hover:underline">Companies</Link>
             {' > '}
@@ -117,7 +139,7 @@ export default async function CompanyPage({ params }) {
                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-gray-900">2,400+ Success Stories</h3>
+              <h3 className="text-xl font-bold mb-2 text-gray-900">2,400+ CleverPrep Alumni</h3>
               <p className="text-gray-600">Candidates who landed their dream role with our prep</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-xl text-center border border-gray-200">
@@ -223,6 +245,21 @@ export default async function CompanyPage({ params }) {
         )}
 
       </div>
+
+      {/* Footer */}
+      <footer className="bg-gray-50 py-8 border-t border-gray-200">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <p className="text-gray-700 font-semibold mb-2">A CleverPrep Interview Guide</p>
+          <p className="text-gray-600 text-sm mb-4">© 2024 CleverPrep - Helping candidates land their dream jobs</p>
+          <div className="flex justify-center gap-4 text-sm text-gray-600">
+            <a href="https://cleverprep.com/privacy" className="hover:text-gray-900 transition-colors">Privacy</a>
+            <span>|</span>
+            <a href="https://cleverprep.com/terms" className="hover:text-gray-900 transition-colors">Terms</a>
+            <span>|</span>
+            <a href="https://cleverprep.com/contact" className="hover:text-gray-900 transition-colors">Contact</a>
+          </div>
+        </div>
+      </footer>
 
       {/* Enhanced Sticky CTA Bar */}
       <div className="fixed bottom-0 left-0 right-0 bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-2xl border-t-4 border-blue-800 z-50">
