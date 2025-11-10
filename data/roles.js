@@ -174,12 +174,137 @@ export const roles = {
       currency: 'USD'
     },
     industries: ['Technology', 'E-commerce', 'Consumer Goods', 'Retail']
+  },
+  'engineering-manager': {
+    name: 'Engineering Manager',
+    description: 'Lead and mentor engineering teams while maintaining technical excellence. Balance hands-on technical work with people management, including hiring, performance reviews, and career development. Set technical direction and ensure team delivers high-quality software on schedule.',
+    focusAreas: [
+      'Team leadership and mentorship',
+      'Technical strategy and architecture',
+      'Project planning and delivery',
+      'Hiring and talent development',
+      'Stakeholder communication'
+    ],
+    keySkills: [
+      'People management and coaching',
+      'Technical depth in software engineering',
+      'Agile/Scrum leadership',
+      'Strategic thinking and planning',
+      'Communication and influence',
+      'Conflict resolution'
+    ],
+    salaryRange: {
+      min: 140000,
+      max: 250000,
+      currency: 'USD'
+    },
+    industries: ['Technology', 'Finance', 'E-commerce']
+  },
+  'machine-learning-engineer': {
+    name: 'Machine Learning Engineer',
+    description: 'Design, build, and deploy machine learning models and systems at scale. Bridge the gap between data science and software engineering, focusing on productionizing ML models, building ML infrastructure, and optimizing model performance.',
+    focusAreas: [
+      'ML model development and deployment',
+      'ML infrastructure and pipelines',
+      'Model optimization and scaling',
+      'Feature engineering',
+      'Production ML systems'
+    ],
+    keySkills: [
+      'Python, TensorFlow, PyTorch',
+      'Machine learning algorithms and frameworks',
+      'MLOps and model deployment',
+      'Distributed computing (Spark, Ray)',
+      'Cloud ML platforms (AWS SageMaker, GCP Vertex AI)',
+      'Software engineering best practices'
+    ],
+    salaryRange: {
+      min: 130000,
+      max: 220000,
+      currency: 'USD'
+    },
+    industries: ['Technology', 'Finance', 'E-commerce', 'Healthcare']
+  },
+  'devops-engineer': {
+    name: 'DevOps Engineer',
+    description: 'Build and maintain infrastructure, CI/CD pipelines, and deployment systems. Automate processes, ensure system reliability, and bridge development and operations teams. Focus on scalability, security, and operational excellence.',
+    focusAreas: [
+      'CI/CD pipeline development',
+      'Infrastructure as Code (IaC)',
+      'Container orchestration (Kubernetes)',
+      'Cloud infrastructure management',
+      'System reliability and monitoring'
+    ],
+    keySkills: [
+      'Docker, Kubernetes, and containerization',
+      'Cloud platforms (AWS, GCP, Azure)',
+      'Infrastructure as Code (Terraform, CloudFormation)',
+      'Scripting (Python, Bash, Go)',
+      'CI/CD tools (Jenkins, GitLab CI, CircleCI)',
+      'Monitoring and observability (Prometheus, Grafana)'
+    ],
+    salaryRange: {
+      min: 110000,
+      max: 190000,
+      currency: 'USD'
+    },
+    industries: ['Technology', 'Finance', 'E-commerce', 'Cloud Services']
+  },
+  'security-engineer': {
+    name: 'Security Engineer',
+    description: 'Protect systems, networks, and data from security threats. Implement security controls, conduct vulnerability assessments, respond to incidents, and build secure systems. Work across teams to ensure security best practices are followed.',
+    focusAreas: [
+      'Application security and secure coding',
+      'Infrastructure and network security',
+      'Threat detection and response',
+      'Security architecture and design',
+      'Compliance and risk management'
+    ],
+    keySkills: [
+      'Security tools (SIEM, IDS/IPS, WAF)',
+      'Penetration testing and vulnerability assessment',
+      'Cryptography and authentication',
+      'Cloud security (AWS, GCP, Azure)',
+      'Scripting and automation (Python, Go)',
+      'Security frameworks (NIST, ISO 27001)'
+    ],
+    salaryRange: {
+      min: 120000,
+      max: 210000,
+      currency: 'USD'
+    },
+    industries: ['Technology', 'Finance', 'Healthcare', 'Cybersecurity']
+  },
+  'technical-program-manager': {
+    name: 'Technical Program Manager',
+    description: 'Drive complex technical programs across multiple teams and stakeholders. Define program strategy, manage dependencies, mitigate risks, and ensure successful delivery. Combine technical depth with program management expertise to ship large-scale initiatives.',
+    focusAreas: [
+      'Program planning and execution',
+      'Cross-team coordination',
+      'Risk management',
+      'Technical strategy and roadmaps',
+      'Stakeholder communication'
+    ],
+    keySkills: [
+      'Program/project management',
+      'Technical understanding and credibility',
+      'Stakeholder management',
+      'Agile and waterfall methodologies',
+      'Communication and leadership',
+      'Risk assessment and mitigation'
+    ],
+    salaryRange: {
+      min: 130000,
+      max: 210000,
+      currency: 'USD'
+    },
+    industries: ['Technology', 'E-commerce', 'Cloud Services']
   }
 }
 
 // Mapping of which roles are relevant for which industries
 export const rolesByIndustry = {
-  'Technology': ['software-engineer', 'product-manager', 'data-scientist', 'business-analyst', 'marketing-manager'],
+  'Technology': ['software-engineer', 'product-manager', 'data-scientist', 'business-analyst', 'marketing-manager', 'engineering-manager', 'machine-learning-engineer', 'devops-engineer', 'security-engineer', 'technical-program-manager'],
   'Finance': ['software-engineer', 'data-scientist', 'business-analyst', 'investment-banking-analyst'],
   'Consulting': ['management-consultant', 'business-analyst', 'data-scientist'],
   'Investment Banking': ['investment-banking-analyst', 'business-analyst'],
