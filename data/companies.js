@@ -6815,5 +6815,997 @@ export const companies = {
       'Why Discord?'
     ],
     relatedCompanies: ['slack', 'teamspeak', 'zoom', 'reddit']
+  },
+
+  // Enterprise Software (expansion)
+  'atlassian': {
+    name: 'Atlassian',
+    tagline: 'Get your personalized Atlassian prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Sydney, Australia (US: San Francisco, CA)',
+    description: 'Atlassian is a leading provider of collaboration and productivity software for teams, including Jira, Confluence, Trello, and Bitbucket. Known for developer tools, agile workflows, remote-first culture, and empowering teams. Interviews emphasize technical skills, collaboration, and values alignment.',
+    interviewTips: [
+      'Understand Atlassian\'s product suite (Jira, Confluence, Trello)',
+      'Learn about agile development and team collaboration',
+      'Be prepared for coding and system design questions',
+      'Show experience with developer tools or workflows',
+      'Research Atlassian\'s values and remote-first culture'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in software development',
+      'Collaboration and teamwork',
+      'Product thinking for developer tools',
+      'Values alignment (Open company, no bullshit)',
+      'Problem-solving abilities'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Atlassian careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Recruiter and technical screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, system design, values, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Design a real-time collaboration system like Confluence',
+      'How would you improve Jira\'s performance for large projects?',
+      'Build a feature for agile sprint planning',
+      'What makes Atlassian different from competitors?',
+      'Why Atlassian?'
+    ],
+    relatedCompanies: ['gitlab', 'github', 'asana', 'monday']
+  },
+
+  'zoom': {
+    name: 'Zoom Video Communications',
+    tagline: 'Get your personalized Zoom prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'San Jose, CA',
+    description: 'Zoom is a leading video conferencing and virtual meeting platform that became essential during remote work transformation. Known for ease of use, reliability, Zoom Rooms, and expanding into unified communications. Interviews emphasize technical skills, customer obsession, and delivering happiness.',
+    interviewTips: [
+      'Understand video conferencing technology and WebRTC',
+      'Learn about Zoom\'s products (Meetings, Phone, Rooms, Webinars)',
+      'Be prepared for coding and distributed systems questions',
+      'Show passion for customer experience and reliability',
+      'Research Zoom\'s culture of care and delivering happiness'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in video/audio or distributed systems',
+      'Customer obsession',
+      'Problem-solving under scale',
+      'Collaboration and care',
+      'Innovation mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Zoom careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, architecture, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'Design a scalable video conferencing system',
+      'How would you reduce latency in video calls?',
+      'Optimize bandwidth usage for poor network conditions',
+      'What challenges does Zoom face in global scaling?',
+      'Why Zoom?'
+    ],
+    relatedCompanies: ['microsoft-teams', 'webex', 'google-meet', 'discord']
+  },
+
+  'slack': {
+    name: 'Slack',
+    tagline: 'Get your personalized Slack prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'San Francisco, CA',
+    description: 'Slack is a business communication platform organizing team conversations into channels, now part of Salesforce. Known for replacing email, integrations ecosystem, remote work enablement, and workplace productivity. Interviews emphasize technical skills, empathy, and craft.',
+    interviewTips: [
+      'Understand workplace communication and collaboration',
+      'Learn about Slack\'s channels, apps, and integrations',
+      'Be prepared for coding and system design questions',
+      'Show empathy for users and attention to craft',
+      'Research Slack\'s integration with Salesforce'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in distributed systems or mobile',
+      'Empathy and user focus',
+      'Craft and attention to detail',
+      'Collaboration abilities',
+      'Problem-solving skills'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Slack careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Recruiter and technical screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, system design, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Design Slack\'s message delivery system',
+      'How would you implement search across millions of messages?',
+      'Build a feature for better async communication',
+      'What makes Slack unique as a communication tool?',
+      'Why Slack?'
+    ],
+    relatedCompanies: ['microsoft-teams', 'discord', 'zoom', 'mattermost']
+  },
+
+  'databricks': {
+    name: 'Databricks',
+    tagline: 'Get your personalized Databricks prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'San Francisco, CA',
+    description: 'Databricks is a unified data analytics platform built on Apache Spark, enabling data engineering, ML, and analytics. Known for lakehouse architecture, Delta Lake, collaborative notebooks, and simplifying big data. Interviews emphasize technical depth, data expertise, and innovation.',
+    interviewTips: [
+      'Understand Apache Spark and distributed computing',
+      'Learn about lakehouse architecture and Delta Lake',
+      'Be prepared for coding, data engineering, or ML questions',
+      'Show knowledge of big data and analytics workflows',
+      'Research Databricks\' unified analytics approach'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in distributed systems or data',
+      'Deep understanding of Spark or big data',
+      'Problem-solving in complex systems',
+      'Innovation and research mindset',
+      'Collaboration abilities'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Databricks careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (4-5 rounds)',
+        description: 'Coding, system design, data/ML deep-dive'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'Explain Apache Spark\'s architecture and RDDs',
+      'Design a data lakehouse architecture',
+      'How would you optimize a slow Spark job?',
+      'What is Delta Lake and why is it important?',
+      'Why Databricks?'
+    ],
+    relatedCompanies: ['snowflake', 'confluent', 'cloudera', 'spark']
+  },
+
+  'splunk': {
+    name: 'Splunk',
+    tagline: 'Get your personalized Splunk prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'San Francisco, CA',
+    description: 'Splunk is a platform for searching, monitoring, and analyzing machine-generated data for operational intelligence, security, and observability. Known for log analysis, SIEM, IT operations, and turning data into doing. Interviews emphasize technical skills, data expertise, and problem-solving.',
+    interviewTips: [
+      'Understand log analysis and observability concepts',
+      'Learn about Splunk\'s platform and use cases (SIEM, IT ops, DevOps)',
+      'Be prepared for coding and data analysis questions',
+      'Show knowledge of security and operational monitoring',
+      'Research Splunk\'s mission to make data accessible and actionable'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in data or security',
+      'Analytical thinking',
+      'Problem-solving abilities',
+      'Customer focus',
+      'Innovation mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Splunk careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, system design, domain expertise'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Design a log aggregation and search system',
+      'How would you detect anomalies in time-series data?',
+      'Explain how Splunk processes and indexes data',
+      'What are common use cases for SIEM?',
+      'Why Splunk?'
+    ],
+    relatedCompanies: ['datadog', 'elastic', 'new-relic', 'sumo-logic']
+  },
+
+  // Consumer Electronics & Streaming
+  'hp': {
+    name: 'HP Inc.',
+    tagline: 'Get your personalized HP prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Palo Alto, CA',
+    description: 'HP Inc. is a leading provider of personal computers, printers, and printing supplies. Separated from Hewlett Packard Enterprise in 2015, HP focuses on consumer and commercial PCs, innovative printing solutions, and 3D printing. Interviews emphasize technical skills, innovation, and customer focus.',
+    interviewTips: [
+      'Understand PC and printer technology',
+      'Learn about HP\'s product lines and innovation initiatives',
+      'Be prepared for technical or operational questions',
+      'Show knowledge of consumer electronics and supply chain',
+      'Research HP\'s sustainability commitments'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in hardware or software',
+      'Innovation mindset',
+      'Customer focus',
+      'Operational excellence',
+      'Collaboration abilities'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through HP careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Technical and behavioral interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and job offer'
+      }
+    ],
+    questions: [
+      'How would you improve printer efficiency and reduce costs?',
+      'Describe your experience with hardware or product development',
+      'What trends are shaping the PC market?',
+      'How would you approach sustainability in electronics?',
+      'Why HP?'
+    ],
+    relatedCompanies: ['dell', 'lenovo', 'canon', 'epson']
+  },
+
+  'dell': {
+    name: 'Dell Technologies',
+    tagline: 'Get your personalized Dell prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Round Rock, TX',
+    description: 'Dell Technologies is a multinational technology company providing PCs, servers, storage, networking, and enterprise solutions. Known for direct sales model, enterprise infrastructure (EMC acquisition), and comprehensive IT portfolio. Interviews emphasize technical skills, customer solutions, and business acumen.',
+    interviewTips: [
+      'Understand Dell\'s product portfolio (PCs, servers, storage)',
+      'Learn about enterprise IT infrastructure and solutions',
+      'Be prepared for technical or sales-oriented questions',
+      'Show knowledge of supply chain and direct sales model',
+      'Research Dell\'s EMC acquisition and enterprise focus'
+    ],
+    whatTheyLookFor: [
+      'Technical or sales expertise',
+      'Customer solution orientation',
+      'Business acumen',
+      'Collaboration skills',
+      'Innovation mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Dell careers portal'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Recruiter screening conversation'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Technical, behavioral, or sales scenarios'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and job offer'
+      }
+    ],
+    questions: [
+      'How would you design a data center infrastructure solution?',
+      'Describe Dell\'s competitive advantages',
+      'What trends are impacting enterprise IT?',
+      'How would you approach a complex customer requirement?',
+      'Why Dell Technologies?'
+    ],
+    relatedCompanies: ['hp', 'lenovo', 'cisco', 'hpe']
+  },
+
+  'sony': {
+    name: 'Sony',
+    tagline: 'Get your personalized Sony prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Tokyo, Japan (US: San Diego, CA)',
+    description: 'Sony is a global conglomerate in electronics, gaming, entertainment, and financial services. Known for PlayStation, consumer electronics (TVs, cameras), music, movies, and image sensors. Interviews emphasize technical skills, creativity, and passion for Sony products.',
+    interviewTips: [
+      'Understand Sony\'s diverse business units (gaming, electronics, entertainment)',
+      'Learn about PlayStation and gaming technology',
+      'Be prepared for technical or creative questions',
+      'Show passion for Sony products and entertainment',
+      'Research Sony\'s innovation in imaging and sensors'
+    ],
+    whatTheyLookFor: [
+      'Technical or creative expertise',
+      'Passion for gaming or entertainment',
+      'Innovation mindset',
+      'Global perspective',
+      'Collaboration abilities'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Sony careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Initial screening conversation'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Technical, creative, or behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and job offer'
+      }
+    ],
+    questions: [
+      'What excites you about PlayStation or Sony products?',
+      'How would you improve the gaming experience?',
+      'Describe your experience with consumer electronics',
+      'What makes Sony unique in the market?',
+      'Why Sony?'
+    ],
+    relatedCompanies: ['microsoft-xbox', 'nintendo', 'samsung', 'panasonic']
+  },
+
+  'roku': {
+    name: 'Roku',
+    tagline: 'Get your personalized Roku prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'San Jose, CA',
+    description: 'Roku is a leading streaming platform providing streaming devices and operating system for smart TVs. Known for pioneering streaming, ad-supported Roku Channel, platform business model, and democratizing TV. Interviews emphasize technical skills, product thinking, and streaming expertise.',
+    interviewTips: [
+      'Understand streaming technology and Roku\'s platform',
+      'Learn about Roku OS, devices, and advertising business',
+      'Be prepared for coding and system design questions',
+      'Show knowledge of streaming industry and cord-cutting',
+      'Research Roku\'s platform and content strategy'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in streaming or platforms',
+      'Product sense for TV and entertainment',
+      'Data-driven thinking',
+      'Innovation mindset',
+      'Collaboration abilities'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Roku careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, system design, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Design a video streaming architecture',
+      'How would you improve content discovery on Roku?',
+      'Optimize video buffering and quality adaptation',
+      'What differentiates Roku from competitors?',
+      'Why Roku?'
+    ],
+    relatedCompanies: ['amazon-fire-tv', 'apple-tv', 'chromecast', 'netflix']
+  },
+
+  // Financial Services & Real Estate Tech
+  'fidelity': {
+    name: 'Fidelity Investments',
+    tagline: 'Get your personalized Fidelity prep package in 10 minutes - $59',
+    industry: 'Financial Services',
+    headquarters: 'Boston, MA',
+    description: 'Fidelity Investments is one of the largest asset managers and financial services companies, offering brokerage, retirement, wealth management, and mutual funds. Known for customer service, research, and technology innovation in finance. Interviews emphasize financial knowledge, technical skills, and customer focus.',
+    interviewTips: [
+      'Understand investment products and retirement planning',
+      'Learn about Fidelity\'s services and technology platforms',
+      'Be prepared for financial or technical questions',
+      'Show customer service orientation',
+      'Research Fidelity\'s culture and values'
+    ],
+    whatTheyLookFor: [
+      'Financial knowledge and expertise',
+      'Technical skills for tech roles',
+      'Customer service excellence',
+      'Analytical thinking',
+      'Integrity and trust'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Fidelity careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Technical, behavioral, or case studies'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and job offer'
+      }
+    ],
+    questions: [
+      'Explain different types of retirement accounts (401k, IRA, Roth)',
+      'How would you help a client plan for retirement?',
+      'What do you know about Fidelity\'s mutual funds?',
+      'Describe your experience with financial services',
+      'Why Fidelity?'
+    ],
+    relatedCompanies: ['vanguard', 'schwab', 'blackrock', 'state-street']
+  },
+
+  'td-ameritrade': {
+    name: 'TD Ameritrade',
+    tagline: 'Get your personalized TD Ameritrade prep package in 10 minutes - $59',
+    industry: 'Financial Services',
+    headquarters: 'Omaha, NE',
+    description: 'TD Ameritrade is a leading online brokerage firm providing trading and investing services, now part of Charles Schwab. Known for thinkorswim platform, options trading, education, and trader-focused tools. Interviews emphasize financial knowledge, technical skills, and customer service.',
+    interviewTips: [
+      'Understand trading, investing, and brokerage operations',
+      'Learn about thinkorswim platform and trading tools',
+      'Be prepared for financial markets or technical questions',
+      'Show knowledge of options, stocks, and ETFs',
+      'Research TD Ameritrade\'s acquisition by Schwab'
+    ],
+    whatTheyLookFor: [
+      'Financial markets knowledge',
+      'Technical or analytical skills',
+      'Customer service orientation',
+      'Problem-solving abilities',
+      'Compliance awareness'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through TD Ameritrade careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Recruiter screening conversation'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Behavioral and technical interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer'
+      }
+    ],
+    questions: [
+      'Explain how options trading works',
+      'How would you help a novice trader learn the platform?',
+      'What do you know about thinkorswim?',
+      'Describe the regulatory environment for brokerages',
+      'Why TD Ameritrade?'
+    ],
+    relatedCompanies: ['schwab', 'etrade', 'interactive-brokers', 'robinhood']
+  },
+
+  'etrade': {
+    name: 'E*TRADE',
+    tagline: 'Get your personalized E*TRADE prep package in 10 minutes - $59',
+    industry: 'Financial Services',
+    headquarters: 'New York, NY',
+    description: 'E*TRADE is an online brokerage firm providing trading, investing, and banking services, now owned by Morgan Stanley. Known for pioneering online trading, mobile platforms, and empowering individual investors. Interviews emphasize financial knowledge, technology, and customer focus.',
+    interviewTips: [
+      'Understand online trading and brokerage services',
+      'Learn about E*TRADE\'s platforms and product offerings',
+      'Be prepared for financial or technical questions',
+      'Show customer service orientation',
+      'Research E*TRADE\'s integration with Morgan Stanley'
+    ],
+    whatTheyLookFor: [
+      'Financial services knowledge',
+      'Technical skills for tech roles',
+      'Customer-centric mindset',
+      'Analytical abilities',
+      'Compliance and ethics'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through E*TRADE careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial recruiter conversation'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Behavioral and functional interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and job offer'
+      }
+    ],
+    questions: [
+      'How would you explain market orders vs limit orders?',
+      'Describe your experience with financial markets',
+      'What makes E*TRADE competitive in online brokerage?',
+      'How do you stay informed about market trends?',
+      'Why E*TRADE?'
+    ],
+    relatedCompanies: ['schwab', 'td-ameritrade', 'fidelity', 'robinhood']
+  },
+
+  'zillow': {
+    name: 'Zillow',
+    tagline: 'Get your personalized Zillow prep package in 10 minutes - $59',
+    industry: 'Real Estate Technology',
+    headquarters: 'Seattle, WA',
+    description: 'Zillow is a leading real estate marketplace and technology company providing home listings, valuations (Zestimates), and services. Known for transforming real estate with data and technology, empowering consumers, and marketplace innovation. Interviews emphasize technical skills, product thinking, and data expertise.',
+    interviewTips: [
+      'Understand real estate markets and Zillow\'s business model',
+      'Learn about Zestimate algorithm and data science',
+      'Be prepared for coding, ML, or analytics questions',
+      'Show knowledge of marketplace dynamics',
+      'Research Zillow\'s evolution and iBuying experience'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in engineering or data science',
+      'Product sense for marketplaces',
+      'Data-driven thinking',
+      'Customer empathy',
+      'Innovation mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Zillow careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, ML/analytics, system design, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Design Zillow\'s home valuation algorithm (Zestimate)',
+      'How would you improve search relevance for home listings?',
+      'Build a recommendation system for buyers',
+      'What challenges does Zillow face in the market?',
+      'Why Zillow?'
+    ],
+    relatedCompanies: ['redfin', 'realtor', 'compass', 'opendoor']
+  },
+
+  'redfin': {
+    name: 'Redfin',
+    tagline: 'Get your personalized Redfin prep package in 10 minutes - $59',
+    industry: 'Real Estate Technology',
+    headquarters: 'Seattle, WA',
+    description: 'Redfin is a technology-powered real estate brokerage offering lower commissions, salaried agents, and better customer experience. Known for disrupting traditional brokerages, data transparency, and combining technology with service. Interviews emphasize technical skills, customer focus, and mission alignment.',
+    interviewTips: [
+      'Understand Redfin\'s brokerage model and value proposition',
+      'Learn about real estate technology and customer pain points',
+      'Be prepared for coding or operational questions',
+      'Show passion for improving customer experience',
+      'Research Redfin\'s approach to agent compensation'
+    ],
+    whatTheyLookFor: [
+      'Technical or operational skills',
+      'Customer obsession',
+      'Mission alignment with transparency',
+      'Problem-solving abilities',
+      'Collaboration and teamwork'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Redfin careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Recruiter and technical screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Technical, behavioral, and values fit'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'How would you improve the home buying process?',
+      'Design a feature to match buyers with agents',
+      'What differentiates Redfin from traditional brokerages?',
+      'Analyze conversion rates for home tours',
+      'Why Redfin?'
+    ],
+    relatedCompanies: ['zillow', 'compass', 'opendoor', 'offerpad']
+  },
+
+  // Travel & HR/Payroll
+  'booking': {
+    name: 'Booking.com',
+    tagline: 'Get your personalized Booking.com prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Amsterdam, Netherlands (US: New York, NY)',
+    description: 'Booking.com is a leading online travel platform for booking accommodations, flights, and experiences globally. Part of Booking Holdings, known for extensive inventory, data-driven optimization, experimentation culture, and customer focus. Interviews emphasize technical skills, data expertise, and global mindset.',
+    interviewTips: [
+      'Understand online travel and accommodation booking',
+      'Learn about Booking.com\'s experimentation and A/B testing culture',
+      'Be prepared for coding, data, or product questions',
+      'Show global perspective and cultural awareness',
+      'Research Booking Holdings\' portfolio (Priceline, Kayak, OpenTable)'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in engineering or data',
+      'Data-driven decision making',
+      'Experimentation mindset',
+      'Global collaboration',
+      'Customer focus'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Booking.com careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, system design, analytics, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Design a hotel search and ranking system',
+      'How would you run an A/B test for pricing changes?',
+      'Optimize conversion rates for bookings',
+      'What challenges does Booking.com face globally?',
+      'Why Booking.com?'
+    ],
+    relatedCompanies: ['expedia', 'airbnb', 'tripadvisor', 'kayak']
+  },
+
+  'expedia': {
+    name: 'Expedia Group',
+    tagline: 'Get your personalized Expedia prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Seattle, WA',
+    description: 'Expedia Group is a leading online travel company with brands including Expedia, Hotels.com, Vrbo, Orbitz, and Trivago. Known for comprehensive travel services, loyalty programs, and technology platform. Interviews emphasize technical skills, product thinking, and travel passion.',
+    interviewTips: [
+      'Understand online travel and Expedia\'s brand portfolio',
+      'Learn about travel technology and marketplace dynamics',
+      'Be prepared for coding and system design questions',
+      'Show passion for travel and customer experience',
+      'Research Expedia Rewards and loyalty programs'
+    ],
+    whatTheyLookFor: [
+      'Technical skills in engineering or product',
+      'Travel passion and customer empathy',
+      'Problem-solving abilities',
+      'Data-driven thinking',
+      'Collaboration skills'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Expedia careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Coding, design, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'Design a flight search and booking system',
+      'How would you personalize travel recommendations?',
+      'Build a feature for flexible date searching',
+      'What differentiates Expedia from competitors?',
+      'Why Expedia?'
+    ],
+    relatedCompanies: ['booking', 'airbnb', 'tripadvisor', 'priceline']
+  },
+
+  'tripadvisor': {
+    name: 'TripAdvisor',
+    tagline: 'Get your personalized TripAdvisor prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Needham, MA',
+    description: 'TripAdvisor is the world\'s largest travel guidance platform with reviews, recommendations, and bookings. Known for user-generated content, travel community, comprehensive reviews, and helping travelers plan trips. Interviews emphasize technical skills, community understanding, and product sense.',
+    interviewTips: [
+      'Understand user-generated content and review platforms',
+      'Learn about TripAdvisor\'s community and trust mechanisms',
+      'Be prepared for coding or product questions',
+      'Show passion for travel and helping travelers',
+      'Research TripAdvisor\'s business model and monetization'
+    ],
+    whatTheyLookFor: [
+      'Technical or product skills',
+      'Community and user empathy',
+      'Trust and safety awareness',
+      'Data-driven thinking',
+      'Travel passion'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through TripAdvisor careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Recruiter and technical screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Technical, product, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer'
+      }
+    ],
+    questions: [
+      'How would you detect fake reviews?',
+      'Design a recommendation system for restaurants',
+      'Improve traveler trust in user reviews',
+      'What makes TripAdvisor unique in travel?',
+      'Why TripAdvisor?'
+    ],
+    relatedCompanies: ['yelp', 'google-maps', 'expedia', 'booking']
+  },
+
+  'adp': {
+    name: 'ADP (Automatic Data Processing)',
+    tagline: 'Get your personalized ADP prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Roseland, NJ',
+    description: 'ADP is a leading provider of human capital management (HCM) software and payroll processing services. Known for payroll expertise, HR solutions, compliance, and serving businesses of all sizes. Interviews emphasize technical skills, customer service, and domain knowledge.',
+    interviewTips: [
+      'Understand payroll processing and HR software',
+      'Learn about ADP\'s product portfolio and services',
+      'Be prepared for technical or operational questions',
+      'Show customer service orientation',
+      'Research compliance and tax regulations knowledge'
+    ],
+    whatTheyLookFor: [
+      'Technical or domain expertise',
+      'Customer service excellence',
+      'Attention to detail and accuracy',
+      'Problem-solving abilities',
+      'Compliance awareness'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through ADP careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial recruiter conversation'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Technical, behavioral, or scenario-based'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and job offer'
+      }
+    ],
+    questions: [
+      'How does payroll processing work?',
+      'Describe your experience with HR or payroll systems',
+      'How would you handle a payroll discrepancy?',
+      'What compliance challenges do employers face?',
+      'Why ADP?'
+    ],
+    relatedCompanies: ['paychex', 'paylocity', 'workday', 'gusto']
+  },
+
+  'paychex': {
+    name: 'Paychex',
+    tagline: 'Get your personalized Paychex prep package in 10 minutes - $59',
+    industry: 'Technology',
+    headquarters: 'Rochester, NY',
+    description: 'Paychex is a leading provider of payroll, HR, and benefits outsourcing solutions for small to medium-sized businesses. Known for serving SMBs, personalized service, comprehensive HR solutions, and technology platforms. Interviews emphasize customer service, domain knowledge, and relationship skills.',
+    interviewTips: [
+      'Understand small business payroll and HR needs',
+      'Learn about Paychex\'s services and technology',
+      'Be prepared for customer service or technical questions',
+      'Show empathy for small business challenges',
+      'Research Paychex\'s approach to SMB market'
+    ],
+    whatTheyLookFor: [
+      'Customer service excellence',
+      'Payroll or HR knowledge',
+      'Relationship building skills',
+      'Problem-solving abilities',
+      'Attention to detail'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Paychex careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Recruiter screening conversation'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Behavioral and functional interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and job offer'
+      }
+    ],
+    questions: [
+      'How would you help a small business owner with payroll?',
+      'Describe your experience with SMBs or HR services',
+      'What challenges do small businesses face with compliance?',
+      'How do you build trust with clients?',
+      'Why Paychex?'
+    ],
+    relatedCompanies: ['adp', 'gusto', 'square-payroll', 'quickbooks-payroll']
   }
 }
