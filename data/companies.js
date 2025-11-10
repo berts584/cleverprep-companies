@@ -5927,5 +5927,475 @@ export const companies = {
       'Why Activision Blizzard?'
     ],
     relatedCompanies: ['ea', 'riot-games', 'epic-games', 'ubisoft']
+  },
+
+  // Cybersecurity (new industry)
+  'palo-alto-networks': {
+    name: 'Palo Alto Networks',
+    tagline: 'Get your personalized Palo Alto Networks prep package in 10 minutes - $59',
+    industry: 'Cybersecurity',
+    headquarters: 'Santa Clara, CA',
+    description: 'Palo Alto Networks is a global cybersecurity leader providing next-generation firewalls, cloud security, and threat intelligence. Known for innovative security platforms, AI-powered threat detection, and comprehensive security operations. Interviews emphasize security expertise, technical skills, and problem-solving.',
+    interviewTips: [
+      'Understand network security and firewall technologies',
+      'Learn about Palo Alto\'s product portfolio (firewalls, Prisma, Cortex)',
+      'Be prepared for technical questions on security threats and mitigation',
+      'Show knowledge of cloud security and zero trust architecture',
+      'Research cybersecurity trends and threat landscape'
+    ],
+    whatTheyLookFor: [
+      'Cybersecurity expertise',
+      'Technical problem-solving skills',
+      'Threat intelligence knowledge',
+      'Customer security mindset',
+      'Innovation and adaptability'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Palo Alto Networks careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Technical Interviews (2-4 rounds)',
+        description: 'Security scenarios, system design, coding'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Explain how a next-generation firewall differs from traditional firewalls',
+      'How would you detect and prevent a zero-day attack?',
+      'Design a cloud security architecture',
+      'What do you know about threat intelligence and IOCs?',
+      'Why Palo Alto Networks?'
+    ],
+    relatedCompanies: ['crowdstrike', 'fortinet', 'cisco', 'zscaler']
+  },
+
+  'crowdstrike': {
+    name: 'CrowdStrike',
+    tagline: 'Get your personalized CrowdStrike prep package in 10 minutes - $59',
+    industry: 'Cybersecurity',
+    headquarters: 'Austin, TX',
+    description: 'CrowdStrike is a leading cloud-native endpoint security company pioneering AI-powered threat detection and response. Known for Falcon platform, threat hunting, incident response, and protecting against nation-state adversaries. Interviews focus on security knowledge, technical skills, and mission alignment.',
+    interviewTips: [
+      'Understand endpoint detection and response (EDR) concepts',
+      'Learn about CrowdStrike\'s Falcon platform and cloud architecture',
+      'Be prepared for threat hunting and incident response scenarios',
+      'Show knowledge of advanced persistent threats (APTs)',
+      'Research CrowdStrike\'s threat intelligence reports'
+    ],
+    whatTheyLookFor: [
+      'Endpoint security expertise',
+      'Threat hunting skills',
+      'Technical depth in security',
+      'Mission-driven mindset',
+      'Collaborative problem-solving'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through CrowdStrike careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Technical and cultural screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Security scenarios, technical deep-dives, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'Explain how EDR differs from traditional antivirus',
+      'How would you investigate a suspected breach?',
+      'Describe the MITRE ATT&CK framework',
+      'What makes CrowdStrike\'s approach unique?',
+      'Tell me about a security incident you handled'
+    ],
+    relatedCompanies: ['palo-alto-networks', 'sentinelone', 'carbon-black', 'microsoft']
+  },
+
+  'fortinet': {
+    name: 'Fortinet',
+    tagline: 'Get your personalized Fortinet prep package in 10 minutes - $59',
+    industry: 'Cybersecurity',
+    headquarters: 'Sunnyvale, CA',
+    description: 'Fortinet is a global leader in cybersecurity solutions, providing firewalls, SD-WAN, secure access, and security operations. Known for FortiGate firewalls, integrated security fabric, and performance. Interviews emphasize networking security knowledge, technical skills, and customer focus.',
+    interviewTips: [
+      'Understand network security and FortiGate firewall technology',
+      'Learn about SD-WAN and secure access service edge (SASE)',
+      'Be prepared for technical questions on routing, VPNs, and security',
+      'Show knowledge of security fabric and integrated approach',
+      'Research Fortinet\'s certifications (NSE program)'
+    ],
+    whatTheyLookFor: [
+      'Network security expertise',
+      'Technical depth in firewalls and routing',
+      'Customer success orientation',
+      'Problem-solving abilities',
+      'Continuous learning mindset'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Fortinet careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial technical conversation'
+      },
+      {
+        step: 3,
+        title: 'Technical Interviews (2-3 rounds)',
+        description: 'Networking and security questions'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Explain how FortiGate firewalls work',
+      'How would you configure a site-to-site VPN?',
+      'What is SD-WAN and how does Fortinet implement it?',
+      'Describe a network security design for a distributed enterprise',
+      'Why Fortinet?'
+    ],
+    relatedCompanies: ['palo-alto-networks', 'cisco', 'juniper', 'checkpoint']
+  },
+
+  'okta': {
+    name: 'Okta',
+    tagline: 'Get your personalized Okta prep package in 10 minutes - $59',
+    industry: 'Cybersecurity',
+    headquarters: 'San Francisco, CA',
+    description: 'Okta is a leading identity and access management (IAM) platform enabling secure authentication and authorization for applications. Known for single sign-on (SSO), multi-factor authentication (MFA), and workforce/customer identity. Interviews focus on identity security, technical skills, and customer empathy.',
+    interviewTips: [
+      'Understand identity and access management concepts',
+      'Learn about SSO, MFA, SAML, OAuth, and OpenID Connect',
+      'Be prepared for technical questions on authentication flows',
+      'Show knowledge of zero trust security and identity-first approach',
+      'Research Okta\'s Workforce Identity Cloud and Customer Identity'
+    ],
+    whatTheyLookFor: [
+      'Identity security expertise',
+      'Technical depth in authentication protocols',
+      'Customer-centric mindset',
+      'Problem-solving skills',
+      'Collaborative approach'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through Okta careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Recruiter and technical screening'
+      },
+      {
+        step: 3,
+        title: 'Virtual Interviews (3-4 rounds)',
+        description: 'Technical, system design, behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'Explain how OAuth 2.0 works',
+      'How would you design a multi-tenant SSO system?',
+      'What are the security considerations for MFA?',
+      'Describe SAML authentication flow',
+      'Why Okta over other identity providers?'
+    ],
+    relatedCompanies: ['auth0', 'ping-identity', 'microsoft', 'onelogin']
+  },
+
+  // Pharmaceuticals & Biotech (expansion)
+  'eli-lilly': {
+    name: 'Eli Lilly and Company',
+    tagline: 'Get your personalized Eli Lilly prep package in 10 minutes - $59',
+    industry: 'Healthcare',
+    headquarters: 'Indianapolis, IN',
+    description: 'Eli Lilly is a global pharmaceutical company discovering and delivering medicines for diabetes, oncology, immunology, and neuroscience. Known for insulin products, weight-loss drugs (Mounjaro, Zepbound), and Alzheimer\'s treatments. Interviews emphasize scientific knowledge, patient focus, and innovation.',
+    interviewTips: [
+      'Understand Eli Lilly\'s therapeutic areas and pipeline',
+      'Learn about diabetes, obesity, and Alzheimer\'s drug development',
+      'Be prepared for scientific and technical questions',
+      'Show patient-centered mindset and healthcare passion',
+      'Research Eli Lilly\'s commitment to access and affordability'
+    ],
+    whatTheyLookFor: [
+      'Scientific and technical expertise',
+      'Patient focus and empathy',
+      'Innovation mindset',
+      'Collaborative teamwork',
+      'Integrity and ethical standards'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Eli Lilly careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-4)',
+        description: 'Scientific, technical, and behavioral interviews'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer'
+      }
+    ],
+    questions: [
+      'Explain the mechanism of action for GLP-1 receptor agonists',
+      'How would you approach clinical trial design for an Alzheimer\'s drug?',
+      'What do you know about Eli Lilly\'s diabetes portfolio?',
+      'Describe regulatory considerations in drug development',
+      'Why Eli Lilly?'
+    ],
+    relatedCompanies: ['novo-nordisk', 'pfizer', 'merck', 'abbvie']
+  },
+
+  'astrazeneca': {
+    name: 'AstraZeneca',
+    tagline: 'Get your personalized AstraZeneca prep package in 10 minutes - $59',
+    industry: 'Healthcare',
+    headquarters: 'Cambridge, UK (US: Wilmington, DE)',
+    description: 'AstraZeneca is a global biopharmaceutical company focusing on oncology, cardiovascular, respiratory, and immunology. Known for innovative medicines, COVID-19 vaccine, and precision medicine approach. Interviews emphasize scientific knowledge, global mindset, and patient impact.',
+    interviewTips: [
+      'Understand AstraZeneca\'s focus on oncology and respiratory',
+      'Learn about precision medicine and biomarkers',
+      'Be prepared for scientific and clinical questions',
+      'Show global perspective and cultural awareness',
+      'Research AstraZeneca\'s sustainability commitments'
+    ],
+    whatTheyLookFor: [
+      'Scientific excellence',
+      'Patient-centered approach',
+      'Global collaboration skills',
+      'Innovation and R&D mindset',
+      'Ethical standards'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Apply through AstraZeneca careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Recruiter and initial screening'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Scientific, behavioral, and competency-based'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Background check and job offer'
+      }
+    ],
+    questions: [
+      'Explain your understanding of precision oncology',
+      'How would you approach developing a targeted cancer therapy?',
+      'What do you know about AstraZeneca\'s respiratory portfolio?',
+      'Describe the drug approval process with regulatory agencies',
+      'Why AstraZeneca?'
+    ],
+    relatedCompanies: ['roche', 'novartis', 'gsk', 'bristol-myers-squibb']
+  },
+
+  'gilead': {
+    name: 'Gilead Sciences',
+    tagline: 'Get your personalized Gilead prep package in 10 minutes - $59',
+    industry: 'Healthcare',
+    headquarters: 'Foster City, CA',
+    description: 'Gilead Sciences is a biopharmaceutical company pioneering treatments for HIV/AIDS, viral hepatitis, oncology, and inflammatory diseases. Known for breakthrough antiviral drugs, Truvada for PrEP, and commitment to global health. Interviews focus on scientific knowledge, innovation, and patient advocacy.',
+    interviewTips: [
+      'Understand Gilead\'s focus on HIV, hepatitis, and oncology',
+      'Learn about antiviral drug development and mechanisms',
+      'Be prepared for scientific and clinical questions',
+      'Show passion for addressing unmet medical needs',
+      'Research Gilead\'s access programs and global health initiatives'
+    ],
+    whatTheyLookFor: [
+      'Scientific expertise in virology or oncology',
+      'Patient advocacy mindset',
+      'Innovation and problem-solving',
+      'Collaboration skills',
+      'Global health perspective'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Gilead careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Initial conversation with recruiter'
+      },
+      {
+        step: 3,
+        title: 'Interview Rounds (2-3)',
+        description: 'Scientific, technical, and behavioral'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and offer'
+      }
+    ],
+    questions: [
+      'Explain how antiretroviral therapy works for HIV',
+      'How would you approach developing a cure for hepatitis C?',
+      'What do you know about Gilead\'s oncology pipeline?',
+      'Describe challenges in global drug access',
+      'Why Gilead specifically?'
+    ],
+    relatedCompanies: ['viiv-healthcare', 'abbvie', 'merck', 'gsk']
+  },
+
+  'regeneron': {
+    name: 'Regeneron Pharmaceuticals',
+    tagline: 'Get your personalized Regeneron prep package in 10 minutes - $59',
+    industry: 'Healthcare',
+    headquarters: 'Tarrytown, NY',
+    description: 'Regeneron is a leading biotechnology company discovering and developing medicines for serious diseases using proprietary technologies. Known for Eylea (ophthalmology), Dupixent (immunology), and monoclonal antibody platform. Interviews emphasize scientific innovation, research excellence, and collaboration.',
+    interviewTips: [
+      'Understand Regeneron\'s proprietary platforms (VelocImmune, VelociGene)',
+      'Learn about monoclonal antibodies and biologics',
+      'Be prepared for deep scientific and technical questions',
+      'Show research experience and publication record',
+      'Research Regeneron\'s therapeutic areas and pipeline'
+    ],
+    whatTheyLookFor: [
+      'Scientific excellence and research track record',
+      'Innovation and creativity',
+      'Collaborative research mindset',
+      'Problem-solving in complex biology',
+      'Commitment to patients'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume and publication list'
+      },
+      {
+        step: 2,
+        title: 'Phone Interview',
+        description: 'Scientific discussion with recruiter or scientist'
+      },
+      {
+        step: 3,
+        title: 'Onsite Interviews (3-5 rounds)',
+        description: 'Scientific seminars, technical discussions, team meetings'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final decision and compensation'
+      }
+    ],
+    questions: [
+      'Explain your research experience and key findings',
+      'How do monoclonal antibodies work therapeutically?',
+      'What do you know about Regeneron\'s VelocImmune platform?',
+      'Describe your approach to experimental design',
+      'Why Regeneron?'
+    ],
+    relatedCompanies: ['amgen', 'genentech', 'biogen', 'abbvie']
+  },
+
+  'illumina': {
+    name: 'Illumina',
+    tagline: 'Get your personalized Illumina prep package in 10 minutes - $59',
+    industry: 'Healthcare',
+    headquarters: 'San Diego, CA',
+    description: 'Illumina is the global leader in DNA sequencing and array-based technologies, enabling genomic research and precision medicine. Known for next-generation sequencing (NGS) platforms, revolutionizing genomics, and supporting cancer research and diagnostics. Interviews emphasize technical skills, innovation, and scientific passion.',
+    interviewTips: [
+      'Understand DNA sequencing technologies and NGS principles',
+      'Learn about Illumina\'s sequencing platforms and applications',
+      'Be prepared for technical questions on genomics and bioinformatics',
+      'Show passion for genomics and precision medicine',
+      'Research Illumina\'s role in cancer genomics and clinical sequencing'
+    ],
+    whatTheyLookFor: [
+      'Technical expertise in genomics or biology',
+      'Innovation and problem-solving',
+      'Scientific rigor',
+      'Collaborative mindset',
+      'Passion for genomics impact'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Application',
+        description: 'Submit resume through Illumina careers'
+      },
+      {
+        step: 2,
+        title: 'Phone Screen',
+        description: 'Technical and behavioral screening'
+      },
+      {
+        step: 3,
+        title: 'Onsite Interviews (3-4 rounds)',
+        description: 'Technical, scientific, and team fit'
+      },
+      {
+        step: 4,
+        title: 'Offer',
+        description: 'Final approval and offer'
+      }
+    ],
+    questions: [
+      'Explain how next-generation sequencing works',
+      'How would you analyze genomic data for cancer mutations?',
+      'What do you know about Illumina\'s sequencing platforms?',
+      'Describe applications of genomics in precision medicine',
+      'Why Illumina specifically?'
+    ],
+    relatedCompanies: ['pacific-biosciences', 'oxford-nanopore', 'thermo-fisher', '10x-genomics']
   }
 }
