@@ -245,40 +245,6 @@ export default async function RolePage({ params }) {
           </ul>
         </section>
 
-        {/* Salary & Compensation */}
-        <section className="mb-16 bg-gray-50 -mx-4 px-4 py-12 sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent">
-          <h2 className="text-3xl font-bold mb-6 text-gray-900">Salary & Compensation</h2>
-          <div className="bg-white p-8 rounded-xl border border-gray-200">
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-4 flex items-center">
-                  <svg className="w-6 h-6 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  Base Salary
-                </h3>
-                <p className="text-3xl font-bold text-gray-900 mb-2">
-                  ${content.salary.min.toLocaleString()} - ${content.salary.max.toLocaleString()}
-                </p>
-                <p className="text-gray-600">Annual base salary range</p>
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-4">Additional Compensation:</h3>
-                <ul className="space-y-3">
-                  {content.compensation.map((item, index) => (
-                    <li key={index} className="flex items-start text-gray-700">
-                      <svg className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                      </svg>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Day in the Life */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-6 text-gray-900">A Day in the Life</h2>
