@@ -1,7 +1,7 @@
 export const companies = {
   'google': {
     name: 'Google',
-    tagline: 'Get your personalized Google prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Mountain View, CA',
     description: 'Google is a global technology leader known for its search engine, cloud computing, advertising technologies, and innovative products. Google interviews are known for being highly competitive and focused on algorithmic problem-solving and system design.',
@@ -52,7 +52,7 @@ export const companies = {
   },
   'apple': {
     name: 'Apple',
-    tagline: 'Get your personalized Apple prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Cupertino, CA',
     description: 'Apple is a pioneering technology company known for iPhone, Mac, iPad, and innovative consumer electronics. Apple interviews focus on technical depth, product thinking, and attention to detail in hardware and software engineering.',
@@ -103,7 +103,7 @@ export const companies = {
   },
   'microsoft': {
     name: 'Microsoft',
-    tagline: 'Get your personalized Microsoft prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Redmond, WA',
     description: 'Microsoft is a global leader in software, cloud computing (Azure), and enterprise solutions. Microsoft interviews emphasize technical fundamentals, system design, and cultural fit within their collaborative environment.',
@@ -154,7 +154,7 @@ export const companies = {
   },
   'amazon': {
     name: 'Amazon',
-    tagline: 'Get your personalized Amazon prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Seattle, WA',
     description: 'Amazon is the world\'s largest e-commerce and cloud computing company. Amazon interviews heavily emphasize their 16 Leadership Principles, along with technical problem-solving and system design skills.',
@@ -205,7 +205,7 @@ export const companies = {
   },
   'meta': {
     name: 'Meta',
-    tagline: 'Get your personalized Meta prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Menlo Park, CA',
     description: 'Meta (formerly Facebook) is a social technology company building the future of connection through Facebook, Instagram, WhatsApp, and VR/AR. Meta interviews focus on coding, system design, and behavioral competencies.',
@@ -256,7 +256,7 @@ export const companies = {
   },
   'netflix': {
     name: 'Netflix',
-    tagline: 'Get your personalized Netflix prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Los Gatos, CA',
     description: 'Netflix is the world\'s leading streaming entertainment service. Netflix interviews are known for emphasizing cultural fit, senior-level thinking, and their unique "freedom and responsibility" culture.',
@@ -307,7 +307,7 @@ export const companies = {
   },
   'salesforce': {
     name: 'Salesforce',
-    tagline: 'Get your personalized Salesforce prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
     description: 'Salesforce is the world\'s leading customer relationship management (CRM) platform. Salesforce interviews focus on technical skills, cultural values (Ohana), and understanding of cloud-based enterprise software.',
@@ -358,7 +358,7 @@ export const companies = {
   },
   'oracle': {
     name: 'Oracle',
-    tagline: 'Get your personalized Oracle prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Austin, TX',
     description: 'Oracle is a global leader in database technology, cloud solutions, and enterprise software. Oracle interviews emphasize technical depth, especially in databases, systems, and enterprise architecture.',
@@ -409,7 +409,7 @@ export const companies = {
   },
   'adobe': {
     name: 'Adobe',
-    tagline: 'Get your personalized Adobe prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Jose, CA',
     description: 'Adobe is a leader in creative software, digital media, and marketing solutions. Adobe interviews assess technical abilities, creativity, product thinking, and cultural alignment with their innovative spirit.',
@@ -460,7 +460,7 @@ export const companies = {
   },
   'uber': {
     name: 'Uber',
-    tagline: 'Get your personalized Uber prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
     description: 'Uber is a global mobility and delivery platform. Uber interviews focus on technical problem-solving, system design for large-scale systems, and cultural values around customer obsession and innovation.',
@@ -511,7 +511,7 @@ export const companies = {
   },
   'airbnb': {
     name: 'Airbnb',
-    tagline: 'Get your personalized Airbnb prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
     description: 'Airbnb is a global platform for unique stays and experiences. Airbnb interviews are known for rigorous evaluation of coding skills, system design, and strong emphasis on core values and cultural fit.',
@@ -562,7 +562,7 @@ export const companies = {
   },
   'lyft': {
     name: 'Lyft',
-    tagline: 'Get your personalized Lyft prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
     description: 'Lyft is a ridesharing platform focused on improving people\'s lives through transportation. Lyft interviews assess technical skills, problem-solving, and cultural fit with their community-focused values.',
@@ -613,7 +613,7 @@ export const companies = {
   },
   'spotify': {
     name: 'Spotify',
-    tagline: 'Get your personalized Spotify prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'New York, NY',
     description: 'Spotify is the world\'s largest music streaming service. Spotify interviews focus on technical skills, product thinking, and cultural fit with their innovative and music-passionate environment.',
@@ -664,7 +664,7 @@ export const companies = {
   },
   'stripe': {
     name: 'Stripe',
-    tagline: 'Get your personalized Stripe prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
     description: 'Stripe is a financial infrastructure platform for the internet. Stripe interviews are rigorous, focusing on technical depth, product thinking, and building for developers and businesses.',
@@ -715,7 +715,7 @@ export const companies = {
   },
   'goldman-sachs': {
     name: 'Goldman Sachs',
-    tagline: 'Get your personalized Goldman Sachs prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Finance',
     headquarters: 'New York, NY',
     description: 'Goldman Sachs is a leading global investment banking, securities and investment management firm. Goldman Sachs interviews are rigorous and focus on technical knowledge, analytical skills, and cultural fit.',
@@ -761,7 +761,7 @@ export const companies = {
   },
   'jpmorgan': {
     name: 'JPMorgan Chase',
-    tagline: 'Get your personalized JPMorgan Chase prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Finance',
     headquarters: 'New York, NY',
     description: 'JPMorgan Chase is the largest bank in the United States and a global leader in investment banking, financial services, and asset management. Interviews focus on technical finance knowledge, problem-solving, and cultural alignment with their values of teamwork and excellence.',
@@ -812,7 +812,7 @@ export const companies = {
   },
   'morgan-stanley': {
     name: 'Morgan Stanley',
-    tagline: 'Get your personalized Morgan Stanley prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Finance',
     headquarters: 'New York, NY',
     description: 'Morgan Stanley is a leading global financial services firm providing investment banking, securities, wealth management, and investment management. Their interviews emphasize technical excellence, cultural fit, and commitment to putting clients first.',
@@ -863,7 +863,7 @@ export const companies = {
   },
   'bank-of-america': {
     name: 'Bank of America',
-    tagline: 'Get your personalized Bank of America prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Finance',
     headquarters: 'Charlotte, NC',
     description: 'Bank of America is one of the world\'s largest financial institutions serving individual consumers, small businesses, and large corporations. Their interview process assesses technical knowledge, leadership potential, and alignment with their culture of responsible growth.',
@@ -914,7 +914,7 @@ export const companies = {
   },
   'citigroup': {
     name: 'Citigroup',
-    tagline: 'Get your personalized Citigroup prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Finance',
     headquarters: 'New York, NY',
     description: 'Citigroup is a global banking and financial services corporation with operations in over 160 countries. Citi interviews focus on technical competency, global mindset, and cultural fit with their collaborative and diverse environment.',
@@ -965,7 +965,7 @@ export const companies = {
   },
   'wells-fargo': {
     name: 'Wells Fargo',
-    tagline: 'Get your personalized Wells Fargo prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Finance',
     headquarters: 'San Francisco, CA',
     description: 'Wells Fargo is a diversified financial services company providing banking, investment, mortgage, and consumer finance services. Interviews emphasize ethical decision-making, customer focus, and technical competence in financial services.',
@@ -1016,7 +1016,7 @@ export const companies = {
   },
   'blackrock': {
     name: 'BlackRock',
-    tagline: 'Get your personalized BlackRock prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Finance',
     headquarters: 'New York, NY',
     description: 'BlackRock is the world\'s largest asset manager with over $10 trillion in assets under management. BlackRock interviews focus on investment knowledge, analytical skills, and cultural fit with their innovative and technology-driven approach to investing.',
@@ -1067,7 +1067,7 @@ export const companies = {
   },
   'vanguard': {
     name: 'Vanguard',
-    tagline: 'Get your personalized Vanguard prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Finance',
     headquarters: 'Malvern, PA',
     description: 'Vanguard is one of the world\'s largest investment management companies known for pioneering low-cost index investing. Vanguard interviews emphasize alignment with their client-first philosophy, analytical abilities, and collaborative culture.',
@@ -1118,7 +1118,7 @@ export const companies = {
   },
   'schwab': {
     name: 'Charles Schwab',
-    tagline: 'Get your personalized Charles Schwab prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Finance',
     headquarters: 'Westlake, TX',
     description: 'Charles Schwab is a leading brokerage and banking services firm focused on democratizing investing. Schwab interviews assess client service orientation, technical knowledge, and alignment with their mission to empower investors.',
@@ -1169,7 +1169,7 @@ export const companies = {
   },
   'capital-one': {
     name: 'Capital One',
-    tagline: 'Get your personalized Capital One prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Finance',
     headquarters: 'McLean, VA',
     description: 'Capital One is a bank holding company specializing in credit cards, auto loans, banking, and savings accounts. Known for their technology-forward approach, Capital One interviews emphasize analytical problem-solving, data-driven thinking, and innovation.',
@@ -1220,7 +1220,7 @@ export const companies = {
   },
   'american-express': {
     name: 'American Express',
-    tagline: 'Get your personalized American Express prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Finance',
     headquarters: 'New York, NY',
     description: 'American Express is a global payments and travel company known for its premium charge cards and customer service excellence. Amex interviews focus on customer obsession, relationship building, and alignment with their service-oriented culture.',
@@ -1271,7 +1271,7 @@ export const companies = {
   },
   'visa': {
     name: 'Visa',
-    tagline: 'Get your personalized Visa prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Finance',
     headquarters: 'San Francisco, CA',
     description: 'Visa is a global payments technology company that enables electronic payments around the world. Visa interviews assess technical knowledge of payments, innovation mindset, and ability to think globally about financial technology.',
@@ -1322,7 +1322,7 @@ export const companies = {
   },
   'mckinsey': {
     name: 'McKinsey & Company',
-    tagline: 'Get your personalized McKinsey & Company prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Consulting',
     headquarters: 'New York, NY',
     description: 'McKinsey & Company is a global management consulting firm serving leading businesses, governments, and institutions. McKinsey interviews are known for being extremely rigorous, emphasizing case interviews, problem-solving frameworks, and the "McKinsey way" of structured thinking.',
@@ -1373,7 +1373,7 @@ export const companies = {
   },
   'bcg': {
     name: 'Boston Consulting Group',
-    tagline: 'Get your personalized Boston Consulting Group prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Consulting',
     headquarters: 'Boston, MA',
     description: 'Boston Consulting Group (BCG) is a global management consulting firm and one of the most prestigious strategy consulting firms. BCG interviews focus on case-solving ability, creativity in problem-solving, and cultural fit with their collaborative environment.',
@@ -1424,7 +1424,7 @@ export const companies = {
   },
   'bain': {
     name: 'Bain & Company',
-    tagline: 'Get your personalized Bain & Company prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Consulting',
     headquarters: 'Boston, MA',
     description: 'Bain & Company is a top-tier management consulting firm known for its results-oriented approach and strong culture. Bain interviews emphasize case performance, cultural fit, and the "Bainie" personality of being smart, collaborative, and down-to-earth.',
@@ -1475,7 +1475,7 @@ export const companies = {
   },
   'deloitte': {
     name: 'Deloitte',
-    tagline: 'Get your personalized Deloitte prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Consulting',
     headquarters: 'London, UK / New York, NY',
     description: 'Deloitte is one of the "Big Four" professional services firms, offering audit, consulting, tax, and advisory services. Deloitte Consulting interviews assess case-solving ability, behavioral competencies, and alignment with their values of integrity and collaboration.',
@@ -1526,7 +1526,7 @@ export const companies = {
   },
   'pwc': {
     name: 'PwC',
-    tagline: 'Get your personalized PwC prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Consulting',
     headquarters: 'London, UK',
     description: 'PricewaterhouseCoopers (PwC) is a global professional services network and one of the Big Four firms. PwC interviews evaluate analytical ability through cases, behavioral fit, and commitment to building trust and delivering sustained outcomes.',
@@ -1577,7 +1577,7 @@ export const companies = {
   },
   'ey': {
     name: 'EY',
-    tagline: 'Get your personalized EY prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Consulting',
     headquarters: 'London, UK',
     description: 'EY (Ernst & Young) is a multinational professional services firm and one of the Big Four. EY Consulting interviews focus on problem-solving capability, behavioral competencies, and alignment with their purpose of building a better working world.',
@@ -1628,7 +1628,7 @@ export const companies = {
   },
   'accenture': {
     name: 'Accenture',
-    tagline: 'Get your personalized Accenture prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Consulting',
     headquarters: 'Dublin, Ireland',
     description: 'Accenture is a global professional services company providing strategy, consulting, technology, and operations services. Accenture interviews emphasize problem-solving, technology aptitude, and alignment with their values of client value creation, one global network, and respect for the individual.',
@@ -1679,7 +1679,7 @@ export const companies = {
   },
   'procter-gamble': {
     name: 'Procter & Gamble',
-    tagline: 'Get your personalized Procter & Gamble prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Consumer Goods',
     headquarters: 'Cincinnati, OH',
     description: 'Procter & Gamble (P&G) is one of the world\'s largest consumer goods companies with iconic brands like Tide, Pampers, and Gillette. P&G interviews emphasize brand management thinking, leadership through the P&G Leadership Framework, and data-driven decision making in consumer marketing.',
@@ -1730,7 +1730,7 @@ export const companies = {
   },
   'nike': {
     name: 'Nike',
-    tagline: 'Get your personalized Nike prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Consumer Goods',
     headquarters: 'Beaverton, OR',
     description: 'Nike is the world\'s leading athletic footwear and apparel company, known for innovation and brand excellence. Nike interviews emphasize passion for sport, creativity, consumer insights, and alignment with their mission to bring inspiration and innovation to every athlete.',
@@ -1781,7 +1781,7 @@ export const companies = {
   },
   'walmart': {
     name: 'Walmart',
-    tagline: 'Get your personalized Walmart prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Retail',
     headquarters: 'Bentonville, AR',
     description: 'Walmart is the world\'s largest retailer operating thousands of stores globally. Walmart interviews focus on retail operations, customer service excellence, data-driven decision making, and alignment with their culture of service to customers, respect for individuals, and striving for excellence.',
@@ -1832,7 +1832,7 @@ export const companies = {
   },
   'target': {
     name: 'Target',
-    tagline: 'Get your personalized Target prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Retail',
     headquarters: 'Minneapolis, MN',
     description: 'Target is a leading general merchandise retailer known for design-forward products and exceptional guest experience. Target interviews emphasize guest service, brand love, innovation, and cultural fit with their inclusive and trend-focused retail environment.',
@@ -1883,7 +1883,7 @@ export const companies = {
   },
   'costco': {
     name: 'Costco',
-    tagline: 'Get your personalized Costco prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Retail',
     headquarters: 'Issaquah, WA',
     description: 'Costco Wholesale is a membership-based warehouse club known for bulk products and exceptional employee treatment. Costco interviews focus on customer service, teamwork, operational efficiency, and cultural fit with their employee-first, member-focused philosophy.',
@@ -1934,7 +1934,7 @@ export const companies = {
   },
   'home-depot': {
     name: 'Home Depot',
-    tagline: 'Get your personalized Home Depot prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Retail',
     headquarters: 'Atlanta, GA',
     description: 'The Home Depot is the world\'s largest home improvement retailer. Home Depot interviews emphasize customer service, product knowledge, problem-solving, and alignment with their values of taking care of people, giving back, doing the right thing, and building strong relationships.',
@@ -1985,7 +1985,7 @@ export const companies = {
   },
   'pfizer': {
     name: 'Pfizer',
-    tagline: 'Get your personalized Pfizer prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Healthcare',
     headquarters: 'New York, NY',
     description: 'Pfizer is a leading biopharmaceutical company discovering, developing, and manufacturing healthcare products. Pfizer interviews emphasize scientific knowledge, regulatory understanding, patient focus, and alignment with their purpose of breakthroughs that change patients\' lives.',
@@ -2036,7 +2036,7 @@ export const companies = {
   },
   'johnson-johnson': {
     name: 'Johnson & Johnson',
-    tagline: 'Get your personalized Johnson & Johnson prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Healthcare',
     headquarters: 'New Brunswick, NJ',
     description: 'Johnson & Johnson is a global healthcare company with pharmaceuticals, medical devices, and consumer health products. J&J interviews focus on scientific knowledge, leadership through their Credo values, innovation, and commitment to improving human health worldwide.',
@@ -2087,7 +2087,7 @@ export const companies = {
   },
   'unitedhealth': {
     name: 'UnitedHealth Group',
-    tagline: 'Get your personalized UnitedHealth Group prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Healthcare',
     headquarters: 'Minnetonka, MN',
     description: 'UnitedHealth Group is a diversified healthcare company including UnitedHealthcare and Optum. UnitedHealth interviews assess healthcare knowledge, data analytics skills, operational thinking, and commitment to making healthcare work better for everyone.',
@@ -2138,7 +2138,7 @@ export const companies = {
   },
   'cvs-health': {
     name: 'CVS Health',
-    tagline: 'Get your personalized CVS Health prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Healthcare',
     headquarters: 'Woonsocket, RI',
     description: 'CVS Health is an integrated healthcare company including pharmacy, health insurance (Aetna), and care delivery. CVS interviews focus on healthcare knowledge, customer service, operational excellence, and commitment to helping people on their path to better health.',
@@ -2189,7 +2189,7 @@ export const companies = {
   },
   'moderna': {
     name: 'Moderna',
-    tagline: 'Get your personalized Moderna prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Healthcare',
     headquarters: 'Cambridge, MA',
     description: 'Moderna is a biotechnology company pioneering messenger RNA (mRNA) therapeutics and vaccines. Moderna interviews emphasize scientific innovation, mRNA platform knowledge, passion for transformative medicine, and alignment with their mission to deliver on the promise of mRNA.',
@@ -2240,7 +2240,7 @@ export const companies = {
   },
   'abbvie': {
     name: 'AbbVie',
-    tagline: 'Get your personalized AbbVie prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Healthcare',
     headquarters: 'North Chicago, IL',
     description: 'AbbVie is a global biopharmaceutical company focused on immunology, oncology, neuroscience, and other therapeutic areas. AbbVie interviews assess scientific knowledge, commercial acumen, patient focus, and alignment with their mission to make a remarkable impact on patients\' lives.',
@@ -2291,7 +2291,7 @@ export const companies = {
   },
   'merck': {
     name: 'Merck',
-    tagline: 'Get your personalized Merck prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Healthcare',
     headquarters: 'Rahway, NJ',
     description: 'Merck is a leading global biopharmaceutical company known as MSD outside the US and Canada. Merck interviews focus on scientific excellence, innovation in drug discovery, patient outcomes, and commitment to using the power of leading-edge science to save and improve lives.',
@@ -2342,7 +2342,7 @@ export const companies = {
   },
   'bristol-myers-squibb': {
     name: 'Bristol Myers Squibb',
-    tagline: 'Get your personalized Bristol Myers Squibb prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Healthcare',
     headquarters: 'New York, NY',
     description: 'Bristol Myers Squibb is a global biopharmaceutical company focused on discovering, developing, and delivering innovative medicines for serious diseases. BMS interviews emphasize scientific expertise, passion for patients, integrity, and alignment with their mission to transform patients\' lives through science.',
@@ -2393,7 +2393,7 @@ export const companies = {
   },
   'boeing': {
     name: 'Boeing',
-    tagline: 'Get your personalized Boeing prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Aerospace & Defense',
     headquarters: 'Arlington, VA',
     description: 'Boeing is the world\'s largest aerospace company and leading manufacturer of commercial jetliners and defense, space, and security systems. Boeing interviews emphasize engineering excellence, safety culture, program management, and alignment with their values of safety, quality, and integrity.',
@@ -2444,7 +2444,7 @@ export const companies = {
   },
   'lockheed-martin': {
     name: 'Lockheed Martin',
-    tagline: 'Get your personalized Lockheed Martin prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Aerospace & Defense',
     headquarters: 'Bethesda, MD',
     description: 'Lockheed Martin is a global security and aerospace company specializing in advanced defense technologies. Lockheed interviews focus on technical expertise, security clearance eligibility, program management skills, and commitment to national security and innovation.',
@@ -2495,7 +2495,7 @@ export const companies = {
   },
   'northrop-grumman': {
     name: 'Northrop Grumman',
-    tagline: 'Get your personalized Northrop Grumman prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Aerospace & Defense',
     headquarters: 'Falls Church, VA',
     description: 'Northrop Grumman is a leading global aerospace and defense technology company. Northrop Grumman interviews assess technical capabilities, security clearance eligibility, systems engineering knowledge, and cultural fit with their mission-driven focus on protecting freedom.',
@@ -2546,7 +2546,7 @@ export const companies = {
   },
   'raytheon': {
     name: 'Raytheon Technologies',
-    tagline: 'Get your personalized Raytheon Technologies prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Aerospace & Defense',
     headquarters: 'Arlington, VA',
     description: 'Raytheon Technologies is an aerospace and defense company providing advanced systems and services for commercial, military, and government customers. RTX interviews emphasize technical expertise, innovation, security awareness, and alignment with their focus on advancing aerospace and defense.',
@@ -2597,7 +2597,7 @@ export const companies = {
   },
   'general-dynamics': {
     name: 'General Dynamics',
-    tagline: 'Get your personalized General Dynamics prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Aerospace & Defense',
     headquarters: 'Reston, VA',
     description: 'General Dynamics is a global aerospace and defense company with business units in marine systems, combat systems, information technology, and mission systems. GD interviews focus on engineering capabilities, program management, security clearance, and commitment to supporting national defense.',
@@ -2648,7 +2648,7 @@ export const companies = {
   },
   'exxonmobil': {
     name: 'ExxonMobil',
-    tagline: 'Get your personalized ExxonMobil prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Energy',
     headquarters: 'Spring, TX',
     description: 'ExxonMobil is one of the world\'s largest publicly traded international oil and gas companies. ExxonMobil interviews emphasize technical engineering excellence, safety culture, operational discipline, and commitment to meeting global energy needs responsibly.',
@@ -2699,7 +2699,7 @@ export const companies = {
   },
   'chevron': {
     name: 'Chevron',
-    tagline: 'Get your personalized Chevron prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Energy',
     headquarters: 'San Ramon, CA',
     description: 'Chevron is a global energy company involved in oil and gas exploration, production, and refining. Chevron interviews focus on technical competence, safety leadership, operational excellence, and alignment with their values of integrity, partnership, and protecting people and the environment.',
@@ -2750,7 +2750,7 @@ export const companies = {
   },
   'conocophillips': {
     name: 'ConocoPhillips',
-    tagline: 'Get your personalized ConocoPhillips prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Energy',
     headquarters: 'Houston, TX',
     description: 'ConocoPhillips is an independent exploration and production company focused on finding and producing oil and natural gas. ConocoPhillips interviews emphasize technical capabilities, safety culture, operational discipline, and fit with their values of safety, people, integrity, and excellence.',
@@ -2801,7 +2801,7 @@ export const companies = {
   },
   'schlumberger': {
     name: 'Schlumberger',
-    tagline: 'Get your personalized Schlumberger prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Energy',
     headquarters: 'Houston, TX',
     description: 'Schlumberger is the world\'s largest oilfield services company providing technology and expertise to the oil and gas industry. Schlumberger interviews assess technical competence, adaptability, global mindset, and fit with their culture of innovation, collaboration, and meritocracy.',
@@ -2852,7 +2852,7 @@ export const companies = {
   },
   'verizon': {
     name: 'Verizon',
-    tagline: 'Get your personalized Verizon prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Telecommunications',
     headquarters: 'New York, NY',
     description: 'Verizon is a leading telecommunications company providing wireless, fiber, and 5G network services. Verizon interviews focus on customer service excellence, technical knowledge of telecom infrastructure, innovation mindset, and cultural fit with their commitment to connecting people and communities.',
@@ -2903,7 +2903,7 @@ export const companies = {
   },
   'att': {
     name: 'AT&T',
-    tagline: 'Get your personalized AT&T prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Telecommunications',
     headquarters: 'Dallas, TX',
     description: 'AT&T is a leading telecommunications and media company providing wireless, broadband, and entertainment services. AT&T interviews assess customer service skills, technical knowledge, adaptability, and alignment with their focus on connecting people to greater possibilities.',
@@ -2954,7 +2954,7 @@ export const companies = {
   },
   't-mobile': {
     name: 'T-Mobile',
-    tagline: 'Get your personalized T-Mobile prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Telecommunications',
     headquarters: 'Bellevue, WA',
     description: 'T-Mobile is a wireless network operator known for its "Un-carrier" approach to customer service. T-Mobile interviews emphasize customer passion, innovation, challenging the status quo, and cultural fit with their energetic and disruptive brand personality.',
@@ -3005,7 +3005,7 @@ export const companies = {
   },
   'comcast': {
     name: 'Comcast',
-    tagline: 'Get your personalized Comcast prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Telecommunications & Media',
     headquarters: 'Philadelphia, PA',
     description: 'Comcast is a global media and technology company providing cable, internet, and entertainment through Xfinity and NBCUniversal. Comcast interviews assess customer service abilities, technical knowledge, sales skills, and fit with their focus on innovation and connectivity.',
@@ -3056,7 +3056,7 @@ export const companies = {
   },
   'disney': {
     name: 'Disney',
-    tagline: 'Get your personalized Disney prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Media & Entertainment',
     headquarters: 'Burbank, CA',
     description: 'The Walt Disney Company is a global entertainment and media conglomerate with parks, films, streaming (Disney+), and consumer products. Disney interviews emphasize creativity, storytelling, guest service excellence, passion for the brand, and alignment with their mission to entertain, inform, and inspire.',
@@ -3107,7 +3107,7 @@ export const companies = {
   },
   'warner-bros-discovery': {
     name: 'Warner Bros Discovery',
-    tagline: 'Get your personalized Warner Bros Discovery prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Media & Entertainment',
     headquarters: 'New York, NY',
     description: 'Warner Bros Discovery is a global media and entertainment company with iconic brands including HBO, CNN, Discovery, and Warner Bros studios. WBD interviews focus on media expertise, content strategy, innovation in streaming, and cultural fit with their portfolio of premium brands.',
@@ -3160,7 +3160,7 @@ export const companies = {
   // Automotive Industry
   'ford': {
     name: 'Ford Motor Company',
-    tagline: 'Get your personalized Ford prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Automotive',
     headquarters: 'Dearborn, MI',
     description: 'Ford is one of America\'s oldest automakers, manufacturing iconic vehicles like the F-150 and Mustang. Ford is transitioning to electric vehicles with models like the F-150 Lightning and Mustang Mach-E, while maintaining its legacy in manufacturing excellence.',
@@ -3212,7 +3212,7 @@ export const companies = {
 
   'gm': {
     name: 'General Motors',
-    tagline: 'Get your personalized GM prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Automotive',
     headquarters: 'Detroit, MI',
     description: 'General Motors is a global automaker with brands including Chevrolet, GMC, Cadillac, and Buick. GM is investing heavily in electric vehicles with the Ultium platform and autonomous driving through Cruise, positioning itself as a leader in future mobility.',
@@ -3264,7 +3264,7 @@ export const companies = {
 
   'tesla': {
     name: 'Tesla',
-    tagline: 'Get your personalized Tesla prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Automotive',
     headquarters: 'Austin, TX',
     description: 'Tesla is the leader in electric vehicles and clean energy, known for innovation in battery technology, autonomous driving, and manufacturing. Tesla\'s mission to accelerate the world\'s transition to sustainable energy drives its culture of rapid innovation and high performance.',
@@ -3316,7 +3316,7 @@ export const companies = {
 
   'rivian': {
     name: 'Rivian',
-    tagline: 'Get your personalized Rivian prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Automotive',
     headquarters: 'Irvine, CA',
     description: 'Rivian is an electric vehicle startup focused on adventure vehicles, including the R1T pickup truck and R1S SUV. Backed by Amazon and Ford, Rivian combines outdoor lifestyle with cutting-edge EV technology and sustainability.',
@@ -3368,7 +3368,7 @@ export const companies = {
 
   'stellantis': {
     name: 'Stellantis',
-    tagline: 'Get your personalized Stellantis prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Automotive',
     headquarters: 'Auburn Hills, MI',
     description: 'Stellantis is a global automotive corporation formed by the merger of Fiat Chrysler and PSA Group, encompassing brands like Jeep, Ram, Dodge, Chrysler, Peugeot, and more. Stellantis combines heritage brands with modern EV and technology strategies.',
@@ -3421,7 +3421,7 @@ export const companies = {
   // Food & Beverage Industry
   'coca-cola': {
     name: 'The Coca-Cola Company',
-    tagline: 'Get your personalized Coca-Cola prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Food & Beverage',
     headquarters: 'Atlanta, GA',
     description: 'The Coca-Cola Company is the world\'s largest beverage company, with iconic brands including Coca-Cola, Sprite, Fanta, and Dasani. Known for brand management excellence, global distribution, and marketing innovation.',
@@ -3473,7 +3473,7 @@ export const companies = {
 
   'pepsico': {
     name: 'PepsiCo',
-    tagline: 'Get your personalized PepsiCo prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Food & Beverage',
     headquarters: 'Purchase, NY',
     description: 'PepsiCo is a global food and beverage leader with brands including Pepsi, Frito-Lay, Gatorade, Tropicana, and Quaker. Known for portfolio diversity combining beverages and snacks, strong supply chain, and innovation in better-for-you products.',
@@ -3525,7 +3525,7 @@ export const companies = {
 
   'mcdonalds': {
     name: 'McDonald\'s',
-    tagline: 'Get your personalized McDonald\'s prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Food & Beverage',
     headquarters: 'Chicago, IL',
     description: 'McDonald\'s is the world\'s leading quick-service restaurant chain, serving millions daily across 100+ countries. Known for operational excellence, franchise model, real estate strategy, and digital innovation including mobile ordering and delivery.',
@@ -3577,7 +3577,7 @@ export const companies = {
 
   'starbucks': {
     name: 'Starbucks',
-    tagline: 'Get your personalized Starbucks prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Food & Beverage',
     headquarters: 'Seattle, WA',
     description: 'Starbucks is the world\'s largest coffeehouse chain, known for premium coffee, customer experience, and creating the "third place" between home and work. Starbucks emphasizes partner (employee) culture, digital innovation with mobile ordering, and global expansion in China.',
@@ -3629,7 +3629,7 @@ export const companies = {
 
   'kraft-heinz': {
     name: 'Kraft Heinz',
-    tagline: 'Get your personalized Kraft Heinz prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Food & Beverage',
     headquarters: 'Chicago, IL',
     description: 'Kraft Heinz is one of the largest food and beverage companies globally, with iconic brands including Kraft, Heinz, Oscar Mayer, Philadelphia, and Planters. Known for supply chain excellence, manufacturing scale, and brand portfolio management.',
@@ -3682,7 +3682,7 @@ export const companies = {
   // Transportation & Logistics Industry
   'fedex': {
     name: 'FedEx',
-    tagline: 'Get your personalized FedEx prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Transportation & Logistics',
     headquarters: 'Memphis, TN',
     description: 'FedEx is a global leader in express shipping and logistics, pioneering overnight delivery. FedEx operates multiple business units including Express, Ground, Freight, and Logistics, with a massive air fleet and sophisticated network optimization.',
@@ -3734,7 +3734,7 @@ export const companies = {
 
   'ups': {
     name: 'UPS',
-    tagline: 'Get your personalized UPS prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Transportation & Logistics',
     headquarters: 'Atlanta, GA',
     description: 'UPS (United Parcel Service) is the world\'s largest package delivery company and a leader in supply chain management. UPS is known for operational efficiency, route optimization (ORION system), and comprehensive logistics solutions.',
@@ -3786,7 +3786,7 @@ export const companies = {
 
   'delta': {
     name: 'Delta Air Lines',
-    tagline: 'Get your personalized Delta prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Transportation & Logistics',
     headquarters: 'Atlanta, GA',
     description: 'Delta is one of the world\'s largest airlines, known for operational reliability, customer service, and its Atlanta hub. Delta emphasizes on-time performance, premium cabin products, and partnerships including SkyTeam alliance and joint ventures.',
@@ -3838,7 +3838,7 @@ export const companies = {
 
   'united': {
     name: 'United Airlines',
-    tagline: 'Get your personalized United prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Transportation & Logistics',
     headquarters: 'Chicago, IL',
     description: 'United Airlines is a major American airline with one of the world\'s most comprehensive global route networks. United focuses on connecting people worldwide, operational performance, and premium products including Polaris business class.',
@@ -3890,7 +3890,7 @@ export const companies = {
 
   'southwest': {
     name: 'Southwest Airlines',
-    tagline: 'Get your personalized Southwest prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Transportation & Logistics',
     headquarters: 'Dallas, TX',
     description: 'Southwest Airlines is America\'s largest low-cost carrier, known for its point-to-point network, no change fees, bags fly free policy, and legendary employee culture. Southwest emphasizes operational efficiency, profitability, and fun, friendly service.',
@@ -3943,7 +3943,7 @@ export const companies = {
   // Insurance Industry
   'state-farm': {
     name: 'State Farm',
-    tagline: 'Get your personalized State Farm prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Insurance',
     headquarters: 'Bloomington, IL',
     description: 'State Farm is the largest property and casualty insurance provider in the United States. Known for its agent-based distribution model, State Farm offers auto, home, life insurance, and banking services with the tagline "Like a Good Neighbor."',
@@ -3995,7 +3995,7 @@ export const companies = {
 
   'progressive': {
     name: 'Progressive',
-    tagline: 'Get your personalized Progressive prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Insurance',
     headquarters: 'Mayfield Village, OH',
     description: 'Progressive is a leading auto insurance company known for innovation in pricing, technology, and direct-to-consumer marketing. Progressive pioneered usage-based insurance with Snapshot and emphasizes data analytics, customer experience, and the iconic Flo advertising campaign.',
@@ -4047,7 +4047,7 @@ export const companies = {
 
   'allstate': {
     name: 'Allstate',
-    tagline: 'Get your personalized Allstate prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Insurance',
     headquarters: 'Northbrook, IL',
     description: 'Allstate is one of the largest insurance companies in the United States, offering auto, home, life insurance, and protection products. Known for the "You\'re in Good Hands" slogan, Allstate combines agent distribution with direct channels and emphasizes customer protection.',
@@ -4100,7 +4100,7 @@ export const companies = {
   // Professional Services - Big 4 (completing the set)
   'kpmg': {
     name: 'KPMG',
-    tagline: 'Get your personalized KPMG prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Professional Services',
     headquarters: 'New York, NY',
     description: 'KPMG is one of the Big Four accounting firms, providing audit, tax, and advisory services to clients globally. KPMG interviews focus on technical accounting knowledge, case studies, behavioral fit, and demonstration of professional judgment and business acumen.',
@@ -4153,7 +4153,7 @@ export const companies = {
   // Retail Industry (expansion)
   'lowes': {
     name: 'Lowe\'s',
-    tagline: 'Get your personalized Lowe\'s prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Retail',
     headquarters: 'Mooresville, NC',
     description: 'Lowe\'s is a leading home improvement retailer serving DIY customers and professional contractors. Known for store operations, omnichannel strategy, supply chain excellence, and focus on Pro customer segment with specialized services and delivery.',
@@ -4205,7 +4205,7 @@ export const companies = {
 
   'best-buy': {
     name: 'Best Buy',
-    tagline: 'Get your personalized Best Buy prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Retail',
     headquarters: 'Richfield, MN',
     description: 'Best Buy is the leading electronics retailer in North America, known for Geek Squad tech support, omnichannel shopping experience, and product expertise. Best Buy emphasizes customer service, tech knowledge, digital transformation, and in-home services.',
@@ -4257,7 +4257,7 @@ export const companies = {
 
   'kroger': {
     name: 'Kroger',
-    tagline: 'Get your personalized Kroger prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Retail',
     headquarters: 'Cincinnati, OH',
     description: 'Kroger is America\'s largest supermarket chain by revenue, operating multiple banner brands including Kroger, Ralph\'s, Fred Meyer, and Harris Teeter. Known for supply chain excellence, private label brands (Simple Truth), digital innovation, and data analytics through 84.51°.',
@@ -4310,7 +4310,7 @@ export const companies = {
   // Technology Industry (expansion)
   'ibm': {
     name: 'IBM',
-    tagline: 'Get your personalized IBM prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Armonk, NY',
     description: 'IBM is a global technology and consulting leader, known for enterprise solutions, cloud computing (Red Hat), AI (Watson), quantum computing, and IT services. IBM has pivoted from hardware to software, cloud, and hybrid cloud solutions for enterprises.',
@@ -4362,7 +4362,7 @@ export const companies = {
 
   'intel': {
     name: 'Intel',
-    tagline: 'Get your personalized Intel prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Santa Clara, CA',
     description: 'Intel is a global leader in semiconductor chip manufacturing, known for processors that power PCs, servers, and data centers. Intel focuses on process technology, chip design, manufacturing excellence, and expansion into GPUs, AI accelerators, and foundry services.',
@@ -4414,7 +4414,7 @@ export const companies = {
 
   'cisco': {
     name: 'Cisco',
-    tagline: 'Get your personalized Cisco prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Jose, CA',
     description: 'Cisco is the global leader in networking hardware, software, and telecommunications equipment. Cisco provides routers, switches, security solutions, collaboration tools (Webex), and is pivoting to software, security, and recurring revenue through subscriptions.',
@@ -4467,7 +4467,7 @@ export const companies = {
   // Media & Entertainment (expansion)
   'paramount': {
     name: 'Paramount',
-    tagline: 'Get your personalized Paramount prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Media & Entertainment',
     headquarters: 'New York, NY',
     description: 'Paramount (formerly ViacomCBS) is a global media and entertainment company with brands including CBS, MTV, Nickelodeon, Comedy Central, Paramount Pictures, and Paramount+ streaming. Known for content creation, linear TV, and streaming transformation.',
@@ -4519,7 +4519,7 @@ export const companies = {
 
   'nbcuniversal': {
     name: 'NBCUniversal',
-    tagline: 'Get your personalized NBCUniversal prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Media & Entertainment',
     headquarters: 'New York, NY',
     description: 'NBCUniversal is a leading media and entertainment company owned by Comcast, with assets including NBC broadcast network, Universal Pictures, theme parks, and Peacock streaming service. Known for news, sports, entertainment programming, and theatrical releases.',
@@ -4572,7 +4572,7 @@ export const companies = {
   // Industrial & Manufacturing (new category)
   'ge': {
     name: 'General Electric',
-    tagline: 'Get your personalized GE prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Industrial & Manufacturing',
     headquarters: 'Boston, MA',
     description: 'General Electric (GE) is a global industrial conglomerate focused on aviation, healthcare technologies, and power. After restructuring, GE emphasizes engineering excellence, innovation, and industrial leadership in jet engines (GE Aviation), medical imaging, and energy solutions.',
@@ -4624,7 +4624,7 @@ export const companies = {
 
   '3m': {
     name: '3M',
-    tagline: 'Get your personalized 3M prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Industrial & Manufacturing',
     headquarters: 'St. Paul, MN',
     description: '3M is a diversified technology and manufacturing company known for innovation across multiple industries including adhesives, abrasives, healthcare, safety equipment, and consumer products (Post-it Notes, Scotch tape). Known for 15% innovation time and culture of experimentation.',
@@ -4676,7 +4676,7 @@ export const companies = {
 
   'caterpillar': {
     name: 'Caterpillar',
-    tagline: 'Get your personalized Caterpillar prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Industrial & Manufacturing',
     headquarters: 'Irving, TX',
     description: 'Caterpillar is the world\'s leading manufacturer of construction and mining equipment, diesel engines, and industrial gas turbines. Known for heavy equipment excellence, global dealer network, equipment technology, and financial services through Cat Financial.',
@@ -4729,7 +4729,7 @@ export const companies = {
   // Food & Beverage (expansion)
   'mondelez': {
     name: 'Mondelez International',
-    tagline: 'Get your personalized Mondelez prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Food & Beverage',
     headquarters: 'Chicago, IL',
     description: 'Mondelez International is a global snacking powerhouse with iconic brands including Oreo, Cadbury, Toblerone, Ritz, and Trident. Spun off from Kraft Foods, Mondelez focuses on snacks, chocolate, and biscuits with strong international presence and emerging market growth.',
@@ -4781,7 +4781,7 @@ export const companies = {
 
   'general-mills': {
     name: 'General Mills',
-    tagline: 'Get your personalized General Mills prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Food & Beverage',
     headquarters: 'Minneapolis, MN',
     description: 'General Mills is a leading global food company with beloved brands including Cheerios, Häagen-Dazs, Betty Crocker, Nature Valley, and Blue Buffalo pet food. Known for cereal dominance, packaged foods innovation, brand marketing excellence, and consumer insights.',
@@ -4833,7 +4833,7 @@ export const companies = {
 
   'chipotle': {
     name: 'Chipotle Mexican Grill',
-    tagline: 'Get your personalized Chipotle prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Food & Beverage',
     headquarters: 'Newport Beach, CA',
     description: 'Chipotle is a leading fast-casual restaurant chain known for customizable burritos, bowls, and tacos made with responsibly sourced ingredients. Chipotle emphasizes Food with Integrity, digital ordering innovation, employee development through Cultivate programs, and operational excellence.',
@@ -4886,7 +4886,7 @@ export const companies = {
   // Semiconductors (new industry)
   'nvidia': {
     name: 'NVIDIA',
-    tagline: 'Get your personalized NVIDIA prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Semiconductors',
     headquarters: 'Santa Clara, CA',
     description: 'NVIDIA is the global leader in GPU technology, powering AI, gaming, data centers, and autonomous vehicles. Known for CUDA, GeForce gaming GPUs, and dominance in AI chips. NVIDIA interviews emphasize technical depth, innovation, and passion for accelerated computing.',
@@ -4938,7 +4938,7 @@ export const companies = {
 
   'amd': {
     name: 'AMD',
-    tagline: 'Get your personalized AMD prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Semiconductors',
     headquarters: 'Santa Clara, CA',
     description: 'AMD (Advanced Micro Devices) is a leading semiconductor company designing high-performance CPUs and GPUs. Known for Ryzen processors, Radeon graphics, EPYC server chips, and competing with Intel and NVIDIA. AMD emphasizes innovation, technical excellence, and customer focus.',
@@ -4990,7 +4990,7 @@ export const companies = {
 
   'qualcomm': {
     name: 'Qualcomm',
-    tagline: 'Get your personalized Qualcomm prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Semiconductors',
     headquarters: 'San Diego, CA',
     description: 'Qualcomm is a global leader in wireless technology and mobile chips, powering most Android smartphones. Known for Snapdragon processors, 5G technology, licensing business model, and wireless innovations. Qualcomm interviews focus on wireless expertise, technical skills, and innovation.',
@@ -5042,7 +5042,7 @@ export const companies = {
 
   'broadcom': {
     name: 'Broadcom',
-    tagline: 'Get your personalized Broadcom prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Semiconductors',
     headquarters: 'San Jose, CA',
     description: 'Broadcom is a global technology leader designing, developing, and supplying semiconductors and infrastructure software. Known for networking chips, broadband solutions, wireless connectivity, and enterprise software (VMware acquisition). Broadcom emphasizes technical excellence and innovation.',
@@ -5094,7 +5094,7 @@ export const companies = {
 
   'texas-instruments': {
     name: 'Texas Instruments',
-    tagline: 'Get your personalized Texas Instruments prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Semiconductors',
     headquarters: 'Dallas, TX',
     description: 'Texas Instruments (TI) is a global semiconductor company focusing on analog chips and embedded processors. Known for operational excellence, long product lifecycles, diverse applications (automotive, industrial, personal electronics), and engineering culture.',
@@ -5147,7 +5147,7 @@ export const companies = {
   // Fintech & Payments (new industry)
   'paypal': {
     name: 'PayPal',
-    tagline: 'Get your personalized PayPal prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Fintech',
     headquarters: 'San Jose, CA',
     description: 'PayPal is a leading digital payments platform enabling online money transfers and serving as an electronic alternative to traditional payment methods. Parent company of Venmo. PayPal interviews focus on technical skills, product thinking, and fintech innovation.',
@@ -5199,7 +5199,7 @@ export const companies = {
 
   'block': {
     name: 'Block (Square)',
-    tagline: 'Get your personalized Block prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Fintech',
     headquarters: 'San Francisco, CA',
     description: 'Block (formerly Square) provides payment and financial services for sellers and individuals. Known for Square point-of-sale, Cash App, Bitcoin integration, and empowering small businesses. Block emphasizes innovation, accessibility, and building tools for economic empowerment.',
@@ -5251,7 +5251,7 @@ export const companies = {
 
   'robinhood': {
     name: 'Robinhood',
-    tagline: 'Get your personalized Robinhood prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Fintech',
     headquarters: 'Menlo Park, CA',
     description: 'Robinhood is a financial services company pioneering commission-free trading and democratizing finance for all. Known for mobile-first investing app, crypto trading, and attracting retail investors. Robinhood interviews emphasize technical skills, product sense, and mission alignment.',
@@ -5303,7 +5303,7 @@ export const companies = {
 
   'coinbase': {
     name: 'Coinbase',
-    tagline: 'Get your personalized Coinbase prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Fintech',
     headquarters: 'San Francisco, CA',
     description: 'Coinbase is the leading cryptocurrency exchange platform in the United States, making crypto accessible and trusted. Known for secure exchange, institutional services, blockchain infrastructure, and regulatory compliance. Coinbase emphasizes mission, innovation, and building the cryptoeconomy.',
@@ -5356,7 +5356,7 @@ export const companies = {
   // Enterprise SaaS
   'workday': {
     name: 'Workday',
-    tagline: 'Get your personalized Workday prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Pleasanton, CA',
     description: 'Workday is a leading provider of enterprise cloud applications for finance, HR, and planning. Known for unified cloud platform, modern UX, continuous innovation, and customer success focus. Workday interviews emphasize technical skills, enterprise software understanding, and culture fit.',
@@ -5408,7 +5408,7 @@ export const companies = {
 
   'servicenow': {
     name: 'ServiceNow',
-    tagline: 'Get your personalized ServiceNow prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Santa Clara, CA',
     description: 'ServiceNow is a leading digital workflow platform for enterprise service management. Known for IT service management (ITSM), workflow automation across departments, and Now Platform. ServiceNow emphasizes innovation, customer workflows, and platform thinking.',
@@ -5460,7 +5460,7 @@ export const companies = {
 
   'snowflake': {
     name: 'Snowflake',
-    tagline: 'Get your personalized Snowflake prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Bozeman, MT',
     description: 'Snowflake is a cloud data platform enabling data storage, processing, and analytics. Known for data warehouse innovation, separation of storage and compute, multi-cloud architecture, and data sharing. Snowflake interviews focus on technical depth, data expertise, and growth mindset.',
@@ -5513,7 +5513,7 @@ export const companies = {
   // Hospitality & Hotels (new industry)
   'marriott': {
     name: 'Marriott International',
-    tagline: 'Get your personalized Marriott prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Hospitality',
     headquarters: 'Bethesda, MD',
     description: 'Marriott International is the world\'s largest hotel company with 30+ brands including Marriott, Ritz-Carlton, Westin, and Sheraton. Known for hospitality excellence, Marriott Bonvoy loyalty program, and service culture. Interviews emphasize customer service, operations, and cultural fit.',
@@ -5565,7 +5565,7 @@ export const companies = {
 
   'hilton': {
     name: 'Hilton',
-    tagline: 'Get your personalized Hilton prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Hospitality',
     headquarters: 'McLean, VA',
     description: 'Hilton is a leading global hospitality company with 18 brands including Hilton Hotels, Waldorf Astoria, DoubleTree, and Hampton. Known for Hilton Honors loyalty program, service culture, and team member focus. Interviews emphasize hospitality passion, service mindset, and teamwork.',
@@ -5617,7 +5617,7 @@ export const companies = {
 
   'hyatt': {
     name: 'Hyatt Hotels Corporation',
-    tagline: 'Get your personalized Hyatt prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Hospitality',
     headquarters: 'Chicago, IL',
     description: 'Hyatt is a global hospitality company known for upscale and luxury hotels including Park Hyatt, Grand Hyatt, and Hyatt Regency. Emphasizes care, empathy, and creating extraordinary experiences. Interviews focus on service excellence, empathy, and cultural alignment.',
@@ -5670,7 +5670,7 @@ export const companies = {
   // On-Demand/Delivery
   'doordash': {
     name: 'DoorDash',
-    tagline: 'Get your personalized DoorDash prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
     description: 'DoorDash is the leading food delivery platform in the United States, connecting consumers with local restaurants and stores. Known for logistics optimization, marketplace dynamics, and Dasher gig economy. Interviews emphasize technical skills, product thinking, and operational mindset.',
@@ -5722,7 +5722,7 @@ export const companies = {
 
   'instacart': {
     name: 'Instacart',
-    tagline: 'Get your personalized Instacart prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
     description: 'Instacart is the leading online grocery delivery and pickup service in North America, partnering with retailers. Known for same-day delivery, shopper gig economy, and grocery technology. Interviews focus on technical skills, operational thinking, and product sense.',
@@ -5774,7 +5774,7 @@ export const companies = {
 
   'ebay': {
     name: 'eBay',
-    tagline: 'Get your personalized eBay prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Jose, CA',
     description: 'eBay is a global e-commerce marketplace connecting millions of buyers and sellers. Known for auctions, collectibles, C2C commerce, seller ecosystem, and trust & safety. Interviews emphasize technical skills, marketplace understanding, and product thinking.',
@@ -5827,7 +5827,7 @@ export const companies = {
   // Gaming & Interactive Entertainment (new industry)
   'ea': {
     name: 'Electronic Arts (EA)',
-    tagline: 'Get your personalized EA prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Gaming',
     headquarters: 'Redwood City, CA',
     description: 'Electronic Arts is a leading global interactive entertainment company, developing and publishing games including FIFA, Madden, Apex Legends, The Sims, and Battlefield. Known for sports franchises, live services, and creative excellence. Interviews emphasize technical skills, creativity, and gaming passion.',
@@ -5879,7 +5879,7 @@ export const companies = {
 
   'activision-blizzard': {
     name: 'Activision Blizzard',
-    tagline: 'Get your personalized Activision Blizzard prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Gaming',
     headquarters: 'Santa Monica, CA',
     description: 'Activision Blizzard is one of the world\'s largest gaming companies with franchises including Call of Duty, World of Warcraft, Overwatch, Diablo, and Candy Crush. Known for iconic IPs, esports, and player communities. Now part of Microsoft. Interviews emphasize gaming passion, technical skills, and creativity.',
@@ -5932,7 +5932,7 @@ export const companies = {
   // Cybersecurity (new industry)
   'palo-alto-networks': {
     name: 'Palo Alto Networks',
-    tagline: 'Get your personalized Palo Alto Networks prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Cybersecurity',
     headquarters: 'Santa Clara, CA',
     description: 'Palo Alto Networks is a global cybersecurity leader providing next-generation firewalls, cloud security, and threat intelligence. Known for innovative security platforms, AI-powered threat detection, and comprehensive security operations. Interviews emphasize security expertise, technical skills, and problem-solving.',
@@ -5984,7 +5984,7 @@ export const companies = {
 
   'crowdstrike': {
     name: 'CrowdStrike',
-    tagline: 'Get your personalized CrowdStrike prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Cybersecurity',
     headquarters: 'Austin, TX',
     description: 'CrowdStrike is a leading cloud-native endpoint security company pioneering AI-powered threat detection and response. Known for Falcon platform, threat hunting, incident response, and protecting against nation-state adversaries. Interviews focus on security knowledge, technical skills, and mission alignment.',
@@ -6036,7 +6036,7 @@ export const companies = {
 
   'fortinet': {
     name: 'Fortinet',
-    tagline: 'Get your personalized Fortinet prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Cybersecurity',
     headquarters: 'Sunnyvale, CA',
     description: 'Fortinet is a global leader in cybersecurity solutions, providing firewalls, SD-WAN, secure access, and security operations. Known for FortiGate firewalls, integrated security fabric, and performance. Interviews emphasize networking security knowledge, technical skills, and customer focus.',
@@ -6088,7 +6088,7 @@ export const companies = {
 
   'okta': {
     name: 'Okta',
-    tagline: 'Get your personalized Okta prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Cybersecurity',
     headquarters: 'San Francisco, CA',
     description: 'Okta is a leading identity and access management (IAM) platform enabling secure authentication and authorization for applications. Known for single sign-on (SSO), multi-factor authentication (MFA), and workforce/customer identity. Interviews focus on identity security, technical skills, and customer empathy.',
@@ -6141,7 +6141,7 @@ export const companies = {
   // Pharmaceuticals & Biotech (expansion)
   'eli-lilly': {
     name: 'Eli Lilly and Company',
-    tagline: 'Get your personalized Eli Lilly prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Healthcare',
     headquarters: 'Indianapolis, IN',
     description: 'Eli Lilly is a global pharmaceutical company discovering and delivering medicines for diabetes, oncology, immunology, and neuroscience. Known for insulin products, weight-loss drugs (Mounjaro, Zepbound), and Alzheimer\'s treatments. Interviews emphasize scientific knowledge, patient focus, and innovation.',
@@ -6193,7 +6193,7 @@ export const companies = {
 
   'astrazeneca': {
     name: 'AstraZeneca',
-    tagline: 'Get your personalized AstraZeneca prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Healthcare',
     headquarters: 'Cambridge, UK (US: Wilmington, DE)',
     description: 'AstraZeneca is a global biopharmaceutical company focusing on oncology, cardiovascular, respiratory, and immunology. Known for innovative medicines, COVID-19 vaccine, and precision medicine approach. Interviews emphasize scientific knowledge, global mindset, and patient impact.',
@@ -6245,7 +6245,7 @@ export const companies = {
 
   'gilead': {
     name: 'Gilead Sciences',
-    tagline: 'Get your personalized Gilead prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Healthcare',
     headquarters: 'Foster City, CA',
     description: 'Gilead Sciences is a biopharmaceutical company pioneering treatments for HIV/AIDS, viral hepatitis, oncology, and inflammatory diseases. Known for breakthrough antiviral drugs, Truvada for PrEP, and commitment to global health. Interviews focus on scientific knowledge, innovation, and patient advocacy.',
@@ -6297,7 +6297,7 @@ export const companies = {
 
   'regeneron': {
     name: 'Regeneron Pharmaceuticals',
-    tagline: 'Get your personalized Regeneron prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Healthcare',
     headquarters: 'Tarrytown, NY',
     description: 'Regeneron is a leading biotechnology company discovering and developing medicines for serious diseases using proprietary technologies. Known for Eylea (ophthalmology), Dupixent (immunology), and monoclonal antibody platform. Interviews emphasize scientific innovation, research excellence, and collaboration.',
@@ -6349,7 +6349,7 @@ export const companies = {
 
   'illumina': {
     name: 'Illumina',
-    tagline: 'Get your personalized Illumina prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Healthcare',
     headquarters: 'San Diego, CA',
     description: 'Illumina is the global leader in DNA sequencing and array-based technologies, enabling genomic research and precision medicine. Known for next-generation sequencing (NGS) platforms, revolutionizing genomics, and supporting cancer research and diagnostics. Interviews emphasize technical skills, innovation, and scientific passion.',
@@ -6402,7 +6402,7 @@ export const companies = {
   // E-commerce Platforms
   'shopify': {
     name: 'Shopify',
-    tagline: 'Get your personalized Shopify prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Ottawa, Canada (US: San Francisco, CA)',
     description: 'Shopify is a leading e-commerce platform enabling merchants to create online stores and sell products. Known for empowering entrepreneurs, commerce tools, developer ecosystem, and point-of-sale. Interviews emphasize technical skills, product thinking, and merchant focus.',
@@ -6454,7 +6454,7 @@ export const companies = {
 
   'etsy': {
     name: 'Etsy',
-    tagline: 'Get your personalized Etsy prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Brooklyn, NY',
     description: 'Etsy is a global marketplace for unique, handmade, vintage items and craft supplies, connecting creative entrepreneurs with buyers. Known for supporting makers, sustainable commerce, community, and mission-driven values. Interviews emphasize creativity, impact, and technical skills.',
@@ -6506,7 +6506,7 @@ export const companies = {
 
   'wayfair': {
     name: 'Wayfair',
-    tagline: 'Get your personalized Wayfair prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Boston, MA',
     description: 'Wayfair is a leading online retailer for home goods and furniture, offering millions of products. Known for data-driven personalization, logistics innovation, visual search, and customer experience. Interviews emphasize technical skills, e-commerce operations, and data analytics.',
@@ -6558,7 +6558,7 @@ export const companies = {
 
   'carvana': {
     name: 'Carvana',
-    tagline: 'Get your personalized Carvana prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Tempe, AZ',
     description: 'Carvana is an e-commerce platform for buying and selling used cars, pioneering online car sales with car vending machines. Known for disrupting traditional car dealerships, end-to-end digital experience, and vehicle reconditioning. Interviews focus on innovation, operations, and customer experience.',
@@ -6611,7 +6611,7 @@ export const companies = {
   // Social Media & Communication
   'snap': {
     name: 'Snap Inc.',
-    tagline: 'Get your personalized Snap prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Santa Monica, CA',
     description: 'Snap is the company behind Snapchat, a camera and messaging app with disappearing content, AR filters, and Stories. Known for Gen Z dominance, augmented reality innovation, Spectacles hardware, and Discover content. Interviews emphasize technical skills, creativity, and product thinking.',
@@ -6663,7 +6663,7 @@ export const companies = {
 
   'pinterest': {
     name: 'Pinterest',
-    tagline: 'Get your personalized Pinterest prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
     description: 'Pinterest is a visual discovery platform for finding ideas, inspiration, and products through pins and boards. Known for shopping intent, visual search, creator ecosystem, and positive community. Interviews emphasize technical skills, product thinking, and creator empathy.',
@@ -6715,7 +6715,7 @@ export const companies = {
 
   'reddit': {
     name: 'Reddit',
-    tagline: 'Get your personalized Reddit prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
     description: 'Reddit is a social news aggregation and discussion platform with thousands of communities (subreddits). Known for authentic conversations, user-generated content, voting system, AMAs, and internet culture. Interviews emphasize technical skills, community understanding, and product sense.',
@@ -6767,7 +6767,7 @@ export const companies = {
 
   'discord': {
     name: 'Discord',
-    tagline: 'Get your personalized Discord prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
     description: 'Discord is a communication platform for communities, gaming, and groups with voice, video, and text chat. Known for low-latency voice, server-based communities, gaming origins, and expanding to broader use cases. Interviews emphasize technical skills, community focus, and real-time systems.',
@@ -6820,7 +6820,7 @@ export const companies = {
   // Enterprise Software (expansion)
   'atlassian': {
     name: 'Atlassian',
-    tagline: 'Get your personalized Atlassian prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Sydney, Australia (US: San Francisco, CA)',
     description: 'Atlassian is a leading provider of collaboration and productivity software for teams, including Jira, Confluence, Trello, and Bitbucket. Known for developer tools, agile workflows, remote-first culture, and empowering teams. Interviews emphasize technical skills, collaboration, and values alignment.',
@@ -6872,7 +6872,7 @@ export const companies = {
 
   'zoom': {
     name: 'Zoom Video Communications',
-    tagline: 'Get your personalized Zoom prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Jose, CA',
     description: 'Zoom is a leading video conferencing and virtual meeting platform that became essential during remote work transformation. Known for ease of use, reliability, Zoom Rooms, and expanding into unified communications. Interviews emphasize technical skills, customer obsession, and delivering happiness.',
@@ -6924,7 +6924,7 @@ export const companies = {
 
   'slack': {
     name: 'Slack',
-    tagline: 'Get your personalized Slack prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
     description: 'Slack is a business communication platform organizing team conversations into channels, now part of Salesforce. Known for replacing email, integrations ecosystem, remote work enablement, and workplace productivity. Interviews emphasize technical skills, empathy, and craft.',
@@ -6976,7 +6976,7 @@ export const companies = {
 
   'databricks': {
     name: 'Databricks',
-    tagline: 'Get your personalized Databricks prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
     description: 'Databricks is a unified data analytics platform built on Apache Spark, enabling data engineering, ML, and analytics. Known for lakehouse architecture, Delta Lake, collaborative notebooks, and simplifying big data. Interviews emphasize technical depth, data expertise, and innovation.',
@@ -7028,7 +7028,7 @@ export const companies = {
 
   'splunk': {
     name: 'Splunk',
-    tagline: 'Get your personalized Splunk prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
     description: 'Splunk is a platform for searching, monitoring, and analyzing machine-generated data for operational intelligence, security, and observability. Known for log analysis, SIEM, IT operations, and turning data into doing. Interviews emphasize technical skills, data expertise, and problem-solving.',
@@ -7081,7 +7081,7 @@ export const companies = {
   // Consumer Electronics & Streaming
   'hp': {
     name: 'HP Inc.',
-    tagline: 'Get your personalized HP prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Palo Alto, CA',
     description: 'HP Inc. is a leading provider of personal computers, printers, and printing supplies. Separated from Hewlett Packard Enterprise in 2015, HP focuses on consumer and commercial PCs, innovative printing solutions, and 3D printing. Interviews emphasize technical skills, innovation, and customer focus.',
@@ -7133,7 +7133,7 @@ export const companies = {
 
   'dell': {
     name: 'Dell Technologies',
-    tagline: 'Get your personalized Dell prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Round Rock, TX',
     description: 'Dell Technologies is a multinational technology company providing PCs, servers, storage, networking, and enterprise solutions. Known for direct sales model, enterprise infrastructure (EMC acquisition), and comprehensive IT portfolio. Interviews emphasize technical skills, customer solutions, and business acumen.',
@@ -7185,7 +7185,7 @@ export const companies = {
 
   'sony': {
     name: 'Sony',
-    tagline: 'Get your personalized Sony prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Tokyo, Japan (US: San Diego, CA)',
     description: 'Sony is a global conglomerate in electronics, gaming, entertainment, and financial services. Known for PlayStation, consumer electronics (TVs, cameras), music, movies, and image sensors. Interviews emphasize technical skills, creativity, and passion for Sony products.',
@@ -7237,7 +7237,7 @@ export const companies = {
 
   'roku': {
     name: 'Roku',
-    tagline: 'Get your personalized Roku prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'San Jose, CA',
     description: 'Roku is a leading streaming platform providing streaming devices and operating system for smart TVs. Known for pioneering streaming, ad-supported Roku Channel, platform business model, and democratizing TV. Interviews emphasize technical skills, product thinking, and streaming expertise.',
@@ -7290,7 +7290,7 @@ export const companies = {
   // Financial Services & Real Estate Tech
   'fidelity': {
     name: 'Fidelity Investments',
-    tagline: 'Get your personalized Fidelity prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Financial Services',
     headquarters: 'Boston, MA',
     description: 'Fidelity Investments is one of the largest asset managers and financial services companies, offering brokerage, retirement, wealth management, and mutual funds. Known for customer service, research, and technology innovation in finance. Interviews emphasize financial knowledge, technical skills, and customer focus.',
@@ -7342,7 +7342,7 @@ export const companies = {
 
   'td-ameritrade': {
     name: 'TD Ameritrade',
-    tagline: 'Get your personalized TD Ameritrade prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Financial Services',
     headquarters: 'Omaha, NE',
     description: 'TD Ameritrade is a leading online brokerage firm providing trading and investing services, now part of Charles Schwab. Known for thinkorswim platform, options trading, education, and trader-focused tools. Interviews emphasize financial knowledge, technical skills, and customer service.',
@@ -7394,7 +7394,7 @@ export const companies = {
 
   'etrade': {
     name: 'E*TRADE',
-    tagline: 'Get your personalized E*TRADE prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Financial Services',
     headquarters: 'New York, NY',
     description: 'E*TRADE is an online brokerage firm providing trading, investing, and banking services, now owned by Morgan Stanley. Known for pioneering online trading, mobile platforms, and empowering individual investors. Interviews emphasize financial knowledge, technology, and customer focus.',
@@ -7446,7 +7446,7 @@ export const companies = {
 
   'zillow': {
     name: 'Zillow',
-    tagline: 'Get your personalized Zillow prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Real Estate Technology',
     headquarters: 'Seattle, WA',
     description: 'Zillow is a leading real estate marketplace and technology company providing home listings, valuations (Zestimates), and services. Known for transforming real estate with data and technology, empowering consumers, and marketplace innovation. Interviews emphasize technical skills, product thinking, and data expertise.',
@@ -7498,7 +7498,7 @@ export const companies = {
 
   'redfin': {
     name: 'Redfin',
-    tagline: 'Get your personalized Redfin prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Real Estate Technology',
     headquarters: 'Seattle, WA',
     description: 'Redfin is a technology-powered real estate brokerage offering lower commissions, salaried agents, and better customer experience. Known for disrupting traditional brokerages, data transparency, and combining technology with service. Interviews emphasize technical skills, customer focus, and mission alignment.',
@@ -7551,7 +7551,7 @@ export const companies = {
   // Travel & HR/Payroll
   'booking': {
     name: 'Booking.com',
-    tagline: 'Get your personalized Booking.com prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Amsterdam, Netherlands (US: New York, NY)',
     description: 'Booking.com is a leading online travel platform for booking accommodations, flights, and experiences globally. Part of Booking Holdings, known for extensive inventory, data-driven optimization, experimentation culture, and customer focus. Interviews emphasize technical skills, data expertise, and global mindset.',
@@ -7603,7 +7603,7 @@ export const companies = {
 
   'expedia': {
     name: 'Expedia Group',
-    tagline: 'Get your personalized Expedia prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Seattle, WA',
     description: 'Expedia Group is a leading online travel company with brands including Expedia, Hotels.com, Vrbo, Orbitz, and Trivago. Known for comprehensive travel services, loyalty programs, and technology platform. Interviews emphasize technical skills, product thinking, and travel passion.',
@@ -7655,7 +7655,7 @@ export const companies = {
 
   'tripadvisor': {
     name: 'TripAdvisor',
-    tagline: 'Get your personalized TripAdvisor prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Needham, MA',
     description: 'TripAdvisor is the world\'s largest travel guidance platform with reviews, recommendations, and bookings. Known for user-generated content, travel community, comprehensive reviews, and helping travelers plan trips. Interviews emphasize technical skills, community understanding, and product sense.',
@@ -7707,7 +7707,7 @@ export const companies = {
 
   'adp': {
     name: 'ADP (Automatic Data Processing)',
-    tagline: 'Get your personalized ADP prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Roseland, NJ',
     description: 'ADP is a leading provider of human capital management (HCM) software and payroll processing services. Known for payroll expertise, HR solutions, compliance, and serving businesses of all sizes. Interviews emphasize technical skills, customer service, and domain knowledge.',
@@ -7759,7 +7759,7 @@ export const companies = {
 
   'paychex': {
     name: 'Paychex',
-    tagline: 'Get your personalized Paychex prep package in 10 minutes - $59',
+    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
     industry: 'Technology',
     headquarters: 'Rochester, NY',
     description: 'Paychex is a leading provider of payroll, HR, and benefits outsourcing solutions for small to medium-sized businesses. Known for serving SMBs, personalized service, comprehensive HR solutions, and technology platforms. Interviews emphasize customer service, domain knowledge, and relationship skills.',
