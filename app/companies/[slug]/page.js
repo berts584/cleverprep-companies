@@ -1,5 +1,6 @@
 import { companies } from '@/data/companies'
 import Link from 'next/link'
+import CompanyLogo from '@/app/components/CompanyLogo'
 
 // Add 'async' here
 export default async function CompanyPage({ params }) {
@@ -74,10 +75,13 @@ export default async function CompanyPage({ params }) {
             {' > '}
             <span>{company.name}</span>
           </nav>
-          <h1 className="text-5xl font-bold mb-6">
+          <div className="flex justify-center mb-6">
+            <CompanyLogo companyName={company.name} />
+          </div>
+          <h1 className="text-5xl font-bold mb-6 text-center">
             {company.name} Interview Prep
           </h1>
-          <p className="text-xl leading-relaxed opacity-95">
+          <p className="text-xl leading-relaxed opacity-95 text-center">
             {company.tagline}
           </p>
         </div>
