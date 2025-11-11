@@ -44,16 +44,6 @@ export default async function RolePage({ params }) {
             '@type': 'PostalAddress',
             'addressLocality': company.headquarters
           }
-        },
-        'baseSalary': {
-          '@type': 'MonetaryAmount',
-          'currency': role.salaryRange.currency,
-          'value': {
-            '@type': 'QuantitativeValue',
-            'minValue': content.salary.min,
-            'maxValue': content.salary.max,
-            'unitText': 'YEAR'
-          }
         }
       },
       {
