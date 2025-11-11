@@ -6522,10 +6522,1077 @@ export const rolePageContent = {
         { companyName: "Google", companySlug: "google", industry: "Technology" }
       ]
     }
+  },
+
+  // Priority 3B: Oracle
+  'oracle': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Oracle build enterprise software and cloud infrastructure powering businesses worldwide. You'll work on database systems, cloud services, applications, and Java ecosystem products serving Fortune 500 companies. Engineers tackle complex enterprise challenges at massive scale in a company with decades of software engineering expertise.",
+
+      responsibilities: [
+        "Design and build enterprise-grade database and cloud infrastructure",
+        "Develop features for Oracle Cloud Infrastructure (OCI) services",
+        "Work on Oracle Database, MySQL, or Java ecosystem products",
+        "Build SaaS applications for ERP, HCM, and business applications",
+        "Optimize performance for large-scale enterprise deployments",
+        "Collaborate with product managers and architects on technical design",
+        "Ensure security, reliability, and compliance for enterprise customers",
+        "Contribute to open-source projects like Java, MySQL, and VirtualBox"
+      ],
+
+      growthOpportunities: [
+        "Career progression from IC engineer to principal engineer or architect",
+        "Exposure to enterprise-scale systems and database internals",
+        "Work on foundational technologies used by thousands of companies",
+        "Opportunities across cloud infrastructure, databases, and applications",
+        "Internal mobility between product groups and technologies",
+        "Access to deep technical expertise in distributed systems",
+        "Influence on Java language and ecosystem evolution",
+        "Global impact on enterprise computing and business operations"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about background, experience, and interest in Oracle.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute coding interview covering data structures, algorithms, and system design concepts.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Onsite/Virtual Onsite (3-5 rounds)",
+          description: "Coding interviews (2 rounds), system design, behavioral, and sometimes domain-specific technical discussion.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Manager & Offer",
+          description: "Final discussion with hiring manager. Competitive offer with benefits and stock options.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design a distributed database system with ACID guarantees",
+        "Implement a B-tree index for database queries",
+        "Design Oracle Cloud's object storage system",
+        "How would you optimize SQL query performance?",
+        "Design a multi-tenant SaaS application architecture",
+        "Implement database replication across data centers",
+        "Design a caching layer for database queries",
+        "How would you handle database schema migrations at scale?",
+        "Design an identity and access management system",
+        "Implement a distributed transaction coordinator"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you worked on enterprise-scale systems",
+        "Describe your experience with databases or cloud infrastructure",
+        "How have you handled complex technical requirements from customers?",
+        "Tell me about a time you improved system performance or reliability",
+        "Describe your experience with backwards compatibility challenges",
+        "How do you approach designing for enterprise security requirements?",
+        "Tell me about a time you collaborated across multiple teams",
+        "Describe a project where you had to maintain legacy systems"
+      ],
+
+      whatTheyLookFor: [
+        "Strong fundamentals in computer science and systems",
+        "Experience with databases, distributed systems, or cloud infrastructure",
+        "Understanding of enterprise software requirements",
+        "Attention to reliability, security, and performance",
+        "Ability to work with complex codebases and legacy systems",
+        "Customer focus and understanding of business needs",
+        "Strong problem-solving and debugging skills",
+        "Collaboration skills across product and engineering teams"
+      ],
+
+      interviewTips: [
+        "Understand enterprise software challenges (scale, security, compliance)",
+        "Be prepared to discuss database concepts and distributed systems",
+        "Show experience with performance optimization if applicable",
+        "Research Oracle's cloud offerings and product portfolio",
+        "Demonstrate understanding of multi-tenancy and SaaS architecture",
+        "Prepare examples of working on complex, large-scale systems",
+        "Be ready to discuss backwards compatibility and migration challenges",
+        "Express interest in foundational infrastructure and enterprise impact"
+      ],
+
+      dayInLife: {
+        overview: "Oracle engineers work on enterprise-grade systems with focus on reliability, performance, and customer needs. Days involve coding, design reviews, collaboration with product teams, and solving complex technical challenges.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync with team on sprint progress and blockers"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Feature Development",
+            description: "Implement new cloud storage optimization feature"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Design Review",
+            description: "Review architecture proposal for multi-region database replication"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "Team lunch discussion about database performance patterns"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Customer Escalation",
+            description: "Debug performance issue for enterprise customer deployment"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Code Review",
+            description: "Review pull requests and provide feedback to team members"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Product Planning",
+            description: "Meet with PM to discuss requirements for next quarter features"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Technical Research",
+            description: "Research new database indexing techniques for performance improvement"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "IBM", companySlug: "ibm", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Oracle drive strategy and execution for enterprise software products serving the world's largest organizations. You'll work on cloud infrastructure, database systems, business applications, or SaaS products, balancing customer needs with technical complexity. PMs combine deep product expertise with understanding of enterprise buyer needs.",
+
+      responsibilities: [
+        "Define product strategy and roadmap for cloud or application products",
+        "Gather requirements from enterprise customers and partners",
+        "Collaborate with engineering on feature prioritization and design",
+        "Analyze market trends and competitive landscape",
+        "Drive go-to-market strategy with sales and marketing teams",
+        "Present product vision to customers and at industry events",
+        "Monitor product metrics and customer adoption",
+        "Balance innovation with backwards compatibility requirements"
+      ],
+
+      growthOpportunities: [
+        "Rapid advancement based on product success and leadership",
+        "Exposure to enterprise software and complex B2B sales cycles",
+        "Opportunities to own products serving Fortune 500 companies",
+        "Cross-functional leadership across engineering, sales, and marketing",
+        "Internal mobility across cloud, database, and application products",
+        "Access to customer executives and strategic accounts",
+        "Influence on enterprise technology trends and standards",
+        "Global impact on business operations and digital transformation"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about PM experience and interest in enterprise software.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Product Case Interview",
+          description: "60-minute product strategy or design case focused on enterprise software challenges.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Onsite/Virtual (4-5 rounds)",
+          description: "Product strategy, technical collaboration, customer focus, business acumen, and leadership interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Manager & Offer",
+          description: "Final discussion on product fit and team alignment. Competitive offer with stock options.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you prioritize features for Oracle Cloud Infrastructure?",
+        "Design a product strategy for database migration to the cloud",
+        "How would you approach launching a new SaaS product for enterprises?",
+        "What metrics would you track for a cloud database service?",
+        "How would you compete against AWS in the cloud infrastructure market?",
+        "Design a pricing strategy for an enterprise SaaS application",
+        "How would you handle a major customer requesting a custom feature?",
+        "What would you do if product adoption is slow among enterprise customers?",
+        "Design a go-to-market strategy for a new developer tool",
+        "How would you balance innovation with supporting legacy products?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about an enterprise product you launched and its impact",
+        "Describe how you've worked with sales teams to win major accounts",
+        "How have you balanced competing customer requirements?",
+        "Tell me about a time you influenced technical decisions",
+        "Describe your experience with enterprise buyer personas (CIOs, CTOs)",
+        "How do you prioritize features for different customer segments?",
+        "Tell me about a product decision that required long-term thinking",
+        "Describe a time you managed a complex product migration"
+      ],
+
+      whatTheyLookFor: [
+        "Understanding of enterprise software and B2B markets",
+        "Technical depth to collaborate with engineering teams",
+        "Customer empathy for IT buyers and business users",
+        "Strategic thinking about competitive positioning",
+        "Strong communication skills for diverse audiences",
+        "Business acumen and understanding of enterprise economics",
+        "Ability to balance innovation with stability",
+        "Experience with long sales cycles and complex deployments"
+      ],
+
+      interviewTips: [
+        "Understand Oracle's product portfolio and cloud strategy",
+        "Be prepared to discuss enterprise software challenges",
+        "Show examples of working with large enterprise customers",
+        "Research competitive landscape (AWS, Azure, Google Cloud)",
+        "Demonstrate understanding of database and cloud technologies",
+        "Prepare ideas for Oracle's product strategy",
+        "Be ready to discuss B2B sales cycles and enterprise buying",
+        "Express interest in foundational enterprise technology"
+      ],
+
+      dayInLife: {
+        overview: "Oracle PMs balance strategic planning, customer engagement, engineering collaboration, and go-to-market execution. Days involve stakeholder management, product decisions, and driving enterprise adoption.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Customer Call",
+            description: "Discuss product roadmap with CIO of Fortune 500 customer"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Product Planning",
+            description: "Review feature prioritization with engineering leadership"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Competitive Analysis",
+            description: "Analyze AWS feature announcements and competitive positioning"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch with Sales",
+            description: "Discuss customer feedback and win/loss analysis with sales team"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Product Review",
+            description: "Present quarterly product strategy to VP and executive team"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Engineering Sync",
+            description: "Collaborate on technical design for multi-tenant feature"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Customer Advisory Board",
+            description: "Virtual meeting with strategic customer advisory board"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Metrics Review",
+            description: "Analyze product adoption and usage metrics for cloud services"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "IBM", companySlug: "ibm", industry: "Technology" },
+        { companyName: "SAP", companySlug: "sap", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Oracle lead teams building enterprise software and cloud infrastructure used by the world's largest organizations. You'll manage engineers working on databases, cloud services, or business applications, balancing technical excellence with customer needs. EMs foster strong engineering culture while delivering reliable enterprise-grade products.",
+
+      responsibilities: [
+        "Lead team of engineers on database, cloud, or application products",
+        "Drive technical strategy and architecture decisions",
+        "Partner with product managers on roadmap and execution",
+        "Recruit, develop, and retain engineering talent",
+        "Conduct performance reviews and career development planning",
+        "Ensure product quality, security, and enterprise reliability",
+        "Manage customer escalations and technical support",
+        "Contribute to engineering processes and best practices"
+      ],
+
+      growthOpportunities: [
+        "Scale management skills in enterprise software environment",
+        "Exposure to complex systems used by Fortune 500 companies",
+        "Opportunities to grow into senior engineering leadership",
+        "Cross-functional influence with product, sales, and support teams",
+        "Shape engineering culture and technical standards",
+        "Mentor engineers working on foundational technologies",
+        "Internal mobility across Oracle's product portfolio",
+        "Impact on enterprise computing and digital transformation"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about management experience and interest in Oracle.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Discussion",
+          description: "60-minute discussion on system design, technical leadership, and enterprise software challenges.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Onsite/Virtual (4-5 rounds)",
+          description: "People management, technical leadership, collaboration, system design, and leadership values.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Manager & Offer",
+          description: "Discussion with senior leadership. Competitive offer with equity and benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you architect a globally distributed database system?",
+        "Describe your approach to managing technical debt in legacy systems",
+        "How do you balance feature development with enterprise reliability?",
+        "What's your strategy for database performance optimization?",
+        "How would you approach migrating customers to a new platform?",
+        "Describe your framework for making build-vs-buy decisions",
+        "How do you ensure security and compliance for enterprise customers?",
+        "What's your approach to managing customer escalations?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you led a team on enterprise-scale systems",
+        "Describe how you've handled complex customer requirements",
+        "How have you developed engineers on your team?",
+        "Tell me about managing trade-offs between innovation and stability",
+        "Describe your experience with distributed or global teams",
+        "How do you build partnerships with product and sales teams?",
+        "Tell me about a difficult technical decision you made",
+        "Describe how you've improved engineering productivity"
+      ],
+
+      whatTheyLookFor: [
+        "Strong people leadership and team development skills",
+        "Technical depth in systems, databases, or cloud infrastructure",
+        "Understanding of enterprise customer needs",
+        "Cross-functional collaboration skills",
+        "Experience with large-scale production systems",
+        "Balance of innovation and operational excellence",
+        "Customer focus and business acumen",
+        "Commitment to engineering quality and best practices"
+      ],
+
+      interviewTips: [
+        "Understand enterprise software development challenges",
+        "Prepare examples of managing complex technical projects",
+        "Show experience with customer-facing engineering work",
+        "Demonstrate understanding of databases or cloud infrastructure",
+        "Discuss your approach to managing legacy systems",
+        "Research Oracle's engineering culture and products",
+        "Be ready to discuss enterprise reliability and security",
+        "Express interest in foundational infrastructure impact"
+      ],
+
+      dayInLife: {
+        overview: "Oracle EMs balance people management, technical guidance, customer engagement, and strategic planning. Days include 1:1s, design reviews, customer escalations, and cross-functional collaboration.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "1:1 Meetings",
+            description: "Career development discussions with two team members"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Architecture Review",
+            description: "Review technical design for cloud database feature with architects"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Customer Escalation",
+            description: "Meet with team to resolve critical customer issue"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Product Planning",
+            description: "Collaborate with PM on Q2 roadmap and engineering capacity"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Recruiting",
+            description: "Interview senior engineer candidate for database team"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Team Sync",
+            description: "Weekly team meeting on sprint progress and technical challenges"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Engineering Leadership",
+            description: "Attend engineering leadership meeting on org strategy"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Performance Planning",
+            description: "Prepare performance reviews and promotion cases"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" }
+      ]
+    }
+  },
+
+  // Priority 3B: Adobe
+  'adobe': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Adobe build creative and marketing software empowering millions of creators, designers, and marketers worldwide. You'll work on products like Photoshop, Illustrator, Premiere Pro, or Adobe Experience Cloud, combining creativity with cutting-edge technology. Engineers at Adobe solve unique challenges in graphics, video, AI/ML, and creative workflows.",
+
+      responsibilities: [
+        "Design and build features for Creative Cloud applications",
+        "Develop marketing and analytics platforms for Adobe Experience Cloud",
+        "Work on graphics rendering, video processing, or AI-powered tools",
+        "Build cross-platform applications (desktop, web, mobile)",
+        "Optimize performance for creative workflows and large files",
+        "Collaborate with designers and product managers on user experiences",
+        "Integrate AI and machine learning into creative tools (Adobe Sensei)",
+        "Contribute to open-source projects and web standards"
+      ],
+
+      growthOpportunities: [
+        "Career progression from IC to principal engineer or technical lead",
+        "Exposure to graphics, video, AI, and creative technology",
+        "Work on products used by millions of creative professionals",
+        "Opportunities across Creative Cloud, Document Cloud, and Experience Cloud",
+        "Internal mobility between product teams and technology stacks",
+        "Collaborate with world-class designers and UX teams",
+        "Influence on creative industry standards and workflows",
+        "Global impact on digital creativity and marketing technology"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about background, skills, and interest in Adobe.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute coding interview on data structures, algorithms, and problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Coding (2 rounds), system design, behavioral/culture fit, and sometimes domain-specific technical discussion.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Team review of interview feedback. Competitive offer with equity and benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design the architecture for a collaborative editing tool like Adobe XD",
+        "Implement an image filter or effect for Photoshop",
+        "Design Adobe's cloud document sync system",
+        "How would you optimize video rendering performance?",
+        "Design a real-time collaboration feature for creative tools",
+        "Implement an undo/redo system for complex creative operations",
+        "Design Adobe's font delivery and rendering system",
+        "How would you build AI-powered content-aware fill?",
+        "Design the analytics platform for Adobe Experience Cloud",
+        "Implement a plugin architecture for Creative Cloud apps"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you built creative or design-focused software",
+        "Describe your experience with graphics, video, or multimedia technology",
+        "How have you collaborated with designers on product development?",
+        "Tell me about a time you optimized application performance",
+        "Describe your approach to building user-friendly interfaces",
+        "How do you stay current with creative technology trends?",
+        "Tell me about a project where user experience was critical",
+        "Describe a time you implemented AI or ML in a product"
+      ],
+
+      whatTheyLookFor: [
+        "Strong computer science fundamentals and coding skills",
+        "Interest in creative technology, graphics, or multimedia",
+        "Collaboration skills with design and product teams",
+        "User-centric thinking and attention to UX details",
+        "Performance optimization mindset",
+        "Passion for creativity and empowering creators",
+        "Problem-solving with ambiguous creative requirements",
+        "Experience with cross-platform development a plus"
+      ],
+
+      interviewTips: [
+        "Understand Adobe's product portfolio (Creative Cloud, Experience Cloud)",
+        "Show passion for creative tools and design technology",
+        "Be prepared to discuss graphics, rendering, or video processing if applicable",
+        "Demonstrate user-centric thinking in technical solutions",
+        "Research Adobe's AI initiatives (Adobe Sensei)",
+        "Prepare examples of performance optimization work",
+        "Be ready to discuss cross-platform development challenges",
+        "Express interest in empowering creativity through technology"
+      ],
+
+      dayInLife: {
+        overview: "Adobe engineers work in collaborative teams building products for creative professionals. Days involve coding, design collaboration, performance optimization, and solving unique creative technology challenges.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync on feature development for Photoshop release"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Feature Development",
+            description: "Implement AI-powered image selection tool using machine learning"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Design Review",
+            description: "Collaborate with designers on new creative workflow UX"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Demo",
+            description: "Watch team demo of new generative AI features"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Performance Optimization",
+            description: "Profile and optimize rendering performance for large documents"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Code Review",
+            description: "Review pull requests and provide feedback on graphics code"
+          },
+          {
+            time: "4:00 PM",
+            activity: "User Testing",
+            description: "Observe creative professionals testing new brush engine"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Innovation Time",
+            description: "Experiment with new creative technology and ML models"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Adobe shape creative and marketing software used by millions worldwide. You'll work on Creative Cloud applications, Document Cloud, or Adobe Experience Cloud, balancing creative professional needs with technical innovation. PMs combine user empathy, creative industry knowledge, and technical product expertise.",
+
+      responsibilities: [
+        "Define product vision and roadmap for creative or marketing tools",
+        "Collaborate with designers and engineers on feature development",
+        "Conduct user research with creative professionals and marketers",
+        "Analyze product metrics and user engagement data",
+        "Drive AI and machine learning integration into products",
+        "Balance innovation with workflow continuity for professionals",
+        "Present product strategy to executives and at industry events",
+        "Monitor competitive landscape and creative industry trends"
+      ],
+
+      growthOpportunities: [
+        "Rapid career advancement based on product impact",
+        "Exposure to creative industry and digital marketing technology",
+        "Opportunities to own products serving creative professionals globally",
+        "Cross-functional leadership with design, engineering, and marketing",
+        "Internal mobility across Creative Cloud, Document Cloud, and Experience Cloud",
+        "Influence on creative workflows and industry standards",
+        "Access to creative community and customer events",
+        "Global impact on digital creativity and content creation"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about PM experience and passion for creative products.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Product Case Interview",
+          description: "60-minute product design or strategy case focused on creative tools or marketing technology.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Product design, technical collaboration, customer empathy, analytics, and leadership interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Cross-functional review of product thinking and creative passion. Competitive offer with equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve Photoshop for new users?",
+        "Design a new AI feature for creative professionals",
+        "How would you measure success for Adobe XD?",
+        "What metrics would you track for Creative Cloud subscriptions?",
+        "How would you compete against free creative tools (Figma, Canva)?",
+        "Design a feature to improve collaboration for remote creative teams",
+        "How would you prioritize features for video creators vs photographers?",
+        "What would you do if engagement declined for a Creative Cloud app?",
+        "Design a strategy for Adobe's generative AI tools",
+        "How would you approach launching a new creative application?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a creative or design product you've managed",
+        "Describe how you've worked with designers and engineers",
+        "How have you gathered insights from creative professionals?",
+        "Tell me about a product decision based on user research",
+        "Describe your experience with SaaS or subscription products",
+        "How do you balance innovation with maintaining pro workflows?",
+        "Tell me about a time you championed a controversial feature",
+        "Describe a product that didn't meet expectations and lessons learned"
+      ],
+
+      whatTheyLookFor: [
+        "Passion for creativity and creative technology",
+        "User empathy for designers, photographers, and marketers",
+        "Technical understanding to collaborate with engineers",
+        "Analytical skills and data-driven decision making",
+        "Understanding of creative industry trends and workflows",
+        "Strong communication and storytelling abilities",
+        "Balance of innovation and respect for professional tools",
+        "Experience with design tools or creative software a plus"
+      ],
+
+      interviewTips: [
+        "Use Adobe products and understand creative workflows",
+        "Show genuine passion for empowering creativity",
+        "Be prepared to discuss AI in creative tools",
+        "Research Adobe's product strategy and competitive landscape",
+        "Demonstrate understanding of creative professional needs",
+        "Prepare ideas for Adobe's product evolution",
+        "Be ready to discuss subscription business models",
+        "Express interest in the intersection of creativity and technology"
+      ],
+
+      dayInLife: {
+        overview: "Adobe PMs balance strategic planning, user research with creative professionals, engineering collaboration, and product innovation. Days involve customer engagement, data analysis, and creative technology exploration.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "User Research",
+            description: "Watch recordings of photographer interviews on workflow pain points"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Product Planning",
+            description: "Review roadmap priorities with engineering and design leads"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Feature Review",
+            description: "Evaluate beta version of new AI-powered content creation tool"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch with Designer",
+            description: "Discuss emerging creative trends and user experience patterns"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Data Analysis",
+            description: "Analyze Creative Cloud engagement metrics and subscription trends"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Customer Advisory Board",
+            description: "Virtual meeting with professional designers and creative directors"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Competitive Analysis",
+            description: "Research new features from Figma and other creative tools"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Strategy Presentation",
+            description: "Present generative AI product strategy to VP and leadership"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Figma", companySlug: "figma", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Adobe lead teams building creative and marketing software that empowers millions of professionals worldwide. You'll manage engineers working on Creative Cloud, Document Cloud, or Experience Cloud products, fostering innovation while maintaining the reliability creative professionals depend on. EMs balance technical leadership with creative product vision.",
+
+      responsibilities: [
+        "Lead team of engineers on creative or marketing cloud products",
+        "Drive technical strategy and architecture for product features",
+        "Partner with product and design on roadmap execution",
+        "Recruit, develop, and retain top engineering talent",
+        "Conduct 1:1s, performance reviews, and career coaching",
+        "Foster collaborative culture between engineering and design",
+        "Ensure product quality and performance for creative professionals",
+        "Balance innovation with stability for production workflows"
+      ],
+
+      growthOpportunities: [
+        "Scale management skills in creative technology environment",
+        "Exposure to graphics, AI, and creative software engineering",
+        "Opportunities to grow into senior engineering leadership",
+        "Cross-functional influence with design, product, and research",
+        "Shape engineering culture emphasizing craft and quality",
+        "Mentor engineers working on industry-leading creative tools",
+        "Internal mobility across Adobe's product portfolio",
+        "Impact on global creative industry and digital content creation"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about management experience and interest in creative technology.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Discussion",
+          description: "60-minute discussion on system design, technical leadership, and creative software challenges.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "People management, technical leadership, collaboration with design/product, system design, and values fit.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Leadership review and team fit assessment. Competitive offer with equity and benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you architect a real-time collaboration system for creative tools?",
+        "Describe your approach to optimizing graphics rendering performance",
+        "How do you balance technical debt with feature velocity?",
+        "What's your strategy for integrating AI into creative applications?",
+        "How would you approach cross-platform development (desktop, web, mobile)?",
+        "Describe your framework for performance optimization decisions",
+        "How do you ensure product quality for professional creative workflows?",
+        "What's your approach to managing plugin ecosystems?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about managing engineers on creative or design-focused products",
+        "Describe how you've built strong engineering-design partnerships",
+        "How have you developed engineers' technical and career growth?",
+        "Tell me about balancing innovation with reliability for pro users",
+        "Describe your experience managing cross-platform teams",
+        "How do you build culture that values craft and quality?",
+        "Tell me about a difficult technical decision involving user experience",
+        "Describe how you've improved engineering team productivity"
+      ],
+
+      whatTheyLookFor: [
+        "Strong people leadership and team development skills",
+        "Technical depth in creative software, graphics, or multimedia",
+        "Collaboration skills with design and product teams",
+        "User-centric mindset and respect for creative professionals",
+        "Balance of innovation and operational excellence",
+        "Passion for creativity and empowering creators",
+        "Experience with cross-platform or performance-critical software",
+        "Commitment to engineering quality and craft"
+      ],
+
+      interviewTips: [
+        "Understand Adobe's product portfolio and creative focus",
+        "Prepare examples of managing creative or design-focused products",
+        "Show experience collaborating closely with designers",
+        "Demonstrate understanding of graphics or multimedia technology",
+        "Discuss your approach to performance optimization",
+        "Research Adobe's engineering culture and values",
+        "Be ready to discuss cross-platform development challenges",
+        "Express passion for empowering creativity through technology"
+      ],
+
+      dayInLife: {
+        overview: "Adobe EMs balance people management, technical leadership, design collaboration, and product strategy. Days include 1:1s, design reviews, technical discussions, and fostering engineering-design partnership.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "1:1 Meetings",
+            description: "Career development conversations with two engineers"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Design Collaboration",
+            description: "Joint review of new creative workflow with design team"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Technical Review",
+            description: "Review architecture for AI-powered content generation feature"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Product Planning",
+            description: "Collaborate with PM on Creative Cloud roadmap priorities"
+          },
+          {
+            time: "1:00 PM",
+            activity: "User Session",
+            description: "Observe professional designer using new features in beta"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Team Sync",
+            description: "Weekly team meeting on sprint progress and technical blockers"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Recruiting",
+            description: "Interview graphics engineer candidate"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Engineering Leadership",
+            description: "Cross-team meeting on performance optimization strategies"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Figma", companySlug: "figma", industry: "Technology" }
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: "Data Scientists at Adobe use data, analytics, and machine learning to enhance creative and marketing products. You'll work on personalization, content intelligence, marketing analytics, or AI-powered creative tools, collaborating with product, engineering, and research teams. Adobe data scientists combine technical rigor with understanding of creative and marketing domains.",
+
+      responsibilities: [
+        "Build machine learning models for creative and marketing applications",
+        "Develop content intelligence and image/video understanding systems",
+        "Design and analyze experiments to measure product impact",
+        "Create analytics frameworks for Creative Cloud and Experience Cloud",
+        "Work on Adobe Sensei AI platform and generative models",
+        "Partner with product managers on feature development",
+        "Analyze user behavior and creative workflow patterns",
+        "Contribute to data infrastructure and ML platforms"
+      ],
+
+      growthOpportunities: [
+        "Advance from IC to senior data scientist or ML engineer roles",
+        "Exposure to creative AI, computer vision, and marketing analytics",
+        "Work on products impacting millions of creative professionals",
+        "Opportunities across Creative Cloud, Experience Cloud, and research",
+        "Internal mobility between product teams and technology areas",
+        "Collaborate with Adobe Research on cutting-edge ML",
+        "Publish research and present at industry conferences",
+        "Impact on future of creative technology and AI-assisted creativity"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about data science background and interest in Adobe.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview on statistics, ML, and analytical problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Analytics case, machine learning, coding/SQL, product sense, and behavioral interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Review of technical skills and cultural fit. Competitive offer with equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you build a content-aware fill system for Photoshop?",
+        "Design a recommendation system for Creative Cloud assets",
+        "Build a model to classify and tag images automatically",
+        "How would you measure success of an AI-powered creative feature?",
+        "Design an experiment to test a new generative AI tool",
+        "Build a model to predict Creative Cloud subscription churn",
+        "How would you personalize content recommendations for designers?",
+        "Design analytics for Adobe Experience Cloud marketing campaigns",
+        "Build a system to detect and remove inappropriate content",
+        "How would you improve image search with computer vision?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a computer vision or creative ML project you built",
+        "Describe how you've worked with product teams on AI features",
+        "How have you balanced model accuracy with user experience?",
+        "Tell me about an experiment that produced surprising results",
+        "Describe your experience with generative models or creative AI",
+        "How do you approach explaining ML models to non-technical stakeholders?",
+        "Tell me about a time your analysis influenced product direction",
+        "Describe a project where you balanced speed with rigor"
+      ],
+
+      whatTheyLookFor: [
+        "Strong foundation in machine learning and computer vision",
+        "Experience with image/video processing or creative applications",
+        "Proficiency in Python, ML frameworks, and data analysis",
+        "Product sense for creative tools and workflows",
+        "Ability to translate ML into user-facing features",
+        "Strong communication skills for technical and creative audiences",
+        "Passion for creativity and AI-assisted creative work",
+        "Understanding of responsible AI and ethics"
+      ],
+
+      interviewTips: [
+        "Understand Adobe's AI initiatives (Adobe Sensei, Firefly)",
+        "Be prepared to discuss computer vision and generative models",
+        "Show passion for creative applications of AI",
+        "Research Adobe's products and creative workflows",
+        "Demonstrate understanding of responsible AI practices",
+        "Prepare examples of ML models you've deployed",
+        "Be ready to discuss ML model interpretability and UX",
+        "Express interest in empowering creativity through AI"
+      ],
+
+      dayInLife: {
+        overview: "Adobe data scientists balance ML model development, product collaboration, experimentation, and creative technology research. Work involves Python, computer vision, generative models, and creative product thinking.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Model Development",
+            description: "Improve generative AI model for creative content generation"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Team Sync",
+            description: "Data science team standup on ongoing ML projects"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Research Review",
+            description: "Review latest papers on diffusion models and creative AI"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Product Collaboration",
+            description: "Discuss AI feature requirements with Photoshop PM"
+          },
+          {
+            time: "1:00 PM",
+            activity: "User Testing",
+            description: "Observe designers using AI-powered selection tool prototype"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Experiment Analysis",
+            description: "Analyze A/B test results for content intelligence feature"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Model Training",
+            description: "Train and evaluate computer vision model on creative assets"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Research Presentation",
+            description: "Present generative AI findings to Adobe Research team"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" }
+      ]
+    }
   }
 }
 
 // Content for FAANG+, Uber, Airbnb, Stripe, Salesforce, DoorDash, Goldman Sachs, and McKinsey
 // Priority 1 complete (8 companies) + Priority 2 complete (5 companies: Uber, Airbnb, Stripe, Salesforce, DoorDash)
 // Priority 3A complete (2 companies: Lyft, Spotify - 8 roles)
-// Total companies with full role content: 15
+// Priority 3B complete (2 companies: Oracle, Adobe - 7 roles)
+// Total companies with full role content: 17
