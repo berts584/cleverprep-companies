@@ -8654,6 +8654,1224 @@ export const rolePageContent = {
         { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" }
       ]
     }
+  },
+
+  // Priority 3D: Databricks
+  'databricks': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Databricks build the unified data and AI platform powering data science and machine learning at scale. You'll work on Apache Spark, Delta Lake, MLflow, or cloud infrastructure, solving cutting-edge problems in distributed computing and ML systems. Engineers at Databricks work on open-source projects used by thousands of companies globally.",
+
+      responsibilities: [
+        "Design and build features for the Databricks data and AI platform",
+        "Contribute to open-source projects (Apache Spark, Delta Lake, MLflow)",
+        "Work on distributed query processing and compute engines",
+        "Build ML infrastructure and data science tools",
+        "Develop cloud-native services across AWS, Azure, and GCP",
+        "Optimize performance for large-scale data and ML workloads",
+        "Collaborate with data scientists and ML engineers on features",
+        "Ensure reliability and scalability for enterprise customers"
+      ],
+
+      growthOpportunities: [
+        "Career progression from IC to principal engineer or tech lead",
+        "Exposure to cutting-edge data, ML, and distributed systems",
+        "Impact on open-source projects used globally",
+        "Opportunities across Spark, Delta Lake, MLflow, and platform",
+        "Internal mobility between product and infrastructure teams",
+        "Access to world-class engineering talent in data and ML",
+        "Influence on future of data and AI platforms",
+        "High-growth company with significant market opportunity"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about background, experience, and interest in Databricks.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute coding interview on data structures, algorithms, and distributed systems.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-6 rounds)",
+          description: "Coding (2 rounds), system design (1-2 rounds), behavioral, and sometimes domain-specific ML/data discussion.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Engineering review of technical depth and impact potential. Competitive offer with equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design a distributed data processing engine like Apache Spark",
+        "Implement a delta lake with ACID transactions",
+        "Design an ML experiment tracking system like MLflow",
+        "How would you optimize large-scale data transformations?",
+        "Design a notebook computing environment for data scientists",
+        "Implement a distributed scheduler for compute clusters",
+        "Design a feature store for ML teams",
+        "How would you handle data versioning and time travel?",
+        "Design auto-scaling for distributed compute workloads",
+        "Implement a SQL query optimizer for big data"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you worked on distributed systems or big data",
+        "Describe your experience with Apache Spark or similar frameworks",
+        "How have you contributed to open-source projects?",
+        "Tell me about optimizing system performance at scale",
+        "Describe your collaboration with data scientists or ML engineers",
+        "How do you approach designing for both performance and usability?",
+        "Tell me about a complex technical problem you solved",
+        "Describe a project where you had significant technical impact"
+      ],
+
+      whatTheyLookFor: [
+        "Strong fundamentals in distributed systems and algorithms",
+        "Experience with big data processing or ML infrastructure",
+        "Understanding of Apache Spark or similar frameworks",
+        "Performance optimization mindset",
+        "Passion for data and machine learning",
+        "Open-source contribution experience a plus",
+        "Collaboration skills with data science teams",
+        "Entrepreneurial mindset and ownership"
+      ],
+
+      interviewTips: [
+        "Understand Apache Spark and distributed data processing",
+        "Be prepared to discuss big data and ML infrastructure",
+        "Show experience with performance optimization if applicable",
+        "Research Databricks' products (Delta Lake, MLflow, Unity Catalog)",
+        "Demonstrate understanding of data science workflows",
+        "Prepare examples of working on complex distributed systems",
+        "Be ready to discuss open-source contributions",
+        "Express passion for data and AI infrastructure"
+      ],
+
+      dayInLife: {
+        overview: "Databricks engineers work on cutting-edge data and ML infrastructure. Days involve coding, design discussions, open-source contributions, and solving complex distributed systems challenges.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync on Apache Spark optimization project"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Feature Development",
+            description: "Implement new Delta Lake feature for data versioning"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Design Review",
+            description: "Review architecture for ML model serving infrastructure"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Open Source",
+            description: "Review pull requests on Apache Spark GitHub repository"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch & Tech Talk",
+            description: "Internal presentation on distributed query optimization"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Customer Collaboration",
+            description: "Meet with enterprise customer on large-scale ML deployment"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Performance Tuning",
+            description: "Optimize Spark query performance for benchmark workloads"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Research Time",
+            description: "Explore new approaches to distributed ML training"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Snowflake", companySlug: "snowflake", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Databricks drive strategy for the unified data and AI platform used by thousands of data-driven organizations. You'll work on big data processing, ML infrastructure, or data governance features, balancing technical innovation with customer needs. PMs combine deep understanding of data science workflows with enterprise product expertise.",
+
+      responsibilities: [
+        "Define product vision and roadmap for data and AI platform features",
+        "Collaborate with engineering on technical product decisions",
+        "Conduct research with data teams and ML practitioners",
+        "Analyze product usage and customer adoption metrics",
+        "Drive strategy for open-source projects and integrations",
+        "Balance innovation with enterprise reliability and governance",
+        "Present product strategy to executives and customers",
+        "Monitor competitive landscape in data and AI platforms"
+      ],
+
+      growthOpportunities: [
+        "Rapid career advancement in high-growth company",
+        "Exposure to cutting-edge data science and ML infrastructure",
+        "Opportunities to own products serving Fortune 500 data teams",
+        "Cross-functional leadership with engineering and field teams",
+        "Internal mobility across data engineering, ML, and governance products",
+        "Access to complex technical problems and enterprise customers",
+        "Influence on future of data and AI platforms",
+        "Significant equity upside in fast-growing company"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about PM experience and interest in data/AI platforms.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Product Case Interview",
+          description: "60-minute product strategy or technical case focused on data/ML platforms.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Product strategy, technical depth, customer focus, analytics, and leadership interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Cross-functional review. Competitive offer with significant equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve Databricks for ML practitioners?",
+        "Design a product strategy for data governance and security",
+        "How would you measure success for Delta Lake adoption?",
+        "What metrics would you track for notebook collaboration features?",
+        "How would you compete against Snowflake or AWS EMR?",
+        "Design a feature to improve data engineer productivity",
+        "How would you prioritize features for data engineers vs data scientists?",
+        "What would you do if ML workflow adoption slowed?",
+        "Design a strategy for Databricks' generative AI features",
+        "How would you approach integrating with the modern data stack?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a technical or data product you've managed",
+        "Describe how you've worked with data scientists or ML engineers",
+        "How have you balanced technical innovation with enterprise needs?",
+        "Tell me about a time you influenced engineering on technical decisions",
+        "Describe your experience with big data or ML infrastructure",
+        "How do you prioritize features with limited resources?",
+        "Tell me about a product that exceeded expectations",
+        "Describe a time you made tough trade-off decisions"
+      ],
+
+      whatTheyLookFor: [
+        "Technical depth to understand data and ML systems",
+        "Customer empathy for data practitioners and ML teams",
+        "Strategic thinking about data infrastructure market",
+        "Analytical skills and data-driven decision making",
+        "Understanding of data science and ML workflows",
+        "Strong communication skills for technical audiences",
+        "Entrepreneurial mindset and ownership",
+        "Passion for data and AI infrastructure"
+      ],
+
+      interviewTips: [
+        "Understand Databricks' products and competitive advantages",
+        "Show passion for data science and ML infrastructure",
+        "Be prepared to discuss big data and ML concepts",
+        "Research competitive landscape (Snowflake, AWS, Google)",
+        "Demonstrate understanding of data practitioner workflows",
+        "Prepare ideas for Databricks' product strategy",
+        "Be ready to discuss enterprise data governance",
+        "Express interest in high-growth technology companies"
+      ],
+
+      dayInLife: {
+        overview: "Databricks PMs balance strategic planning, customer engagement, technical collaboration, and market analysis. Days involve working with data teams, engineering, and enterprise customers.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Customer Call",
+            description: "Discuss ML platform requirements with Fortune 500 data science team"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Product Planning",
+            description: "Review Q2 roadmap priorities with engineering leadership"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Technical Deep Dive",
+            description: "Learn about new Spark optimization techniques from engineers"
+          },
+          {
+            time: "12:00 PM",
+            activity: "User Research",
+            description: "Observe data scientists using Databricks for ML workflows"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Competitive Analysis",
+            description: "Research new features from Snowflake and cloud data platforms"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Product Review",
+            description: "Present ML governance product strategy to executives"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Open Source Strategy",
+            description: "Discuss Delta Lake roadmap with open-source community"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Metrics Analysis",
+            description: "Analyze customer usage patterns and feature adoption"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Snowflake", companySlug: "snowflake", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Databricks lead teams building the unified data and AI platform revolutionizing how organizations process data and build AI. You'll manage engineers working on Spark, Delta Lake, MLflow, or platform infrastructure, balancing technical excellence with rapid growth. EMs foster innovation while maintaining reliability for enterprise customers.",
+
+      responsibilities: [
+        "Lead team of engineers on data or ML infrastructure",
+        "Drive technical strategy for distributed systems and platforms",
+        "Partner with product on roadmap and feature execution",
+        "Recruit, develop, and retain top engineering talent",
+        "Conduct 1:1s, performance reviews, and career coaching",
+        "Contribute to open-source strategy and community",
+        "Ensure system reliability and performance at scale",
+        "Manage customer escalations and technical support"
+      ],
+
+      growthOpportunities: [
+        "Scale management skills in high-growth environment",
+        "Exposure to cutting-edge data, ML, and distributed systems",
+        "Opportunities to grow into senior engineering leadership",
+        "Cross-functional influence with product, field, and customers",
+        "Shape engineering culture in fast-growing company",
+        "Mentor engineers on complex distributed systems and ML",
+        "Impact on open-source projects used globally",
+        "Significant equity upside in rapidly growing company"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about management experience and interest in Databricks.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Discussion",
+          description: "60-minute discussion on system design, technical leadership, and distributed systems.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-6 rounds)",
+          description: "People management, technical leadership, collaboration, system design, and leadership assessment.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Engineering leadership review. Competitive offer with significant equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you architect a distributed data processing system?",
+        "Describe your approach to optimizing Spark query performance",
+        "How do you balance feature velocity with system reliability?",
+        "What's your strategy for scaling distributed systems 10x?",
+        "How would you approach building ML infrastructure?",
+        "Describe your framework for open-source project decisions",
+        "How do you ensure data consistency in distributed systems?",
+        "What's your approach to managing technical debt at scale?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about managing engineers on big data or ML infrastructure",
+        "Describe how you've scaled a team in a high-growth environment",
+        "How have you developed engineers' technical depth?",
+        "Tell me about balancing innovation with enterprise reliability",
+        "Describe your experience with open-source projects",
+        "How do you build partnerships with product and field teams?",
+        "Tell me about a difficult technical decision with trade-offs",
+        "Describe how you've improved team productivity"
+      ],
+
+      whatTheyLookFor: [
+        "Strong people leadership and team scaling skills",
+        "Technical depth in distributed systems and data infrastructure",
+        "Experience with high-growth technology companies",
+        "Customer focus and enterprise mindset",
+        "Balance of innovation and operational excellence",
+        "Ability to recruit and retain top engineering talent",
+        "Open-source community engagement experience",
+        "Passion for data and AI infrastructure"
+      ],
+
+      interviewTips: [
+        "Understand Databricks' architecture and technical challenges",
+        "Prepare examples of managing distributed systems teams",
+        "Show experience with high-growth or scaling environments",
+        "Demonstrate technical depth in big data or ML infrastructure",
+        "Discuss your approach to balancing speed and reliability",
+        "Research Databricks' engineering culture and open-source work",
+        "Be ready to discuss recruiting in competitive markets",
+        "Express passion for data and AI infrastructure"
+      ],
+
+      dayInLife: {
+        overview: "Databricks EMs balance people management, technical leadership, and scaling teams in high-growth environment. Days include 1:1s, technical discussions, recruiting, and customer engagement.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "1:1 Meetings",
+            description: "Career development discussions with two senior engineers"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Technical Architecture",
+            description: "Review design for next-generation Spark optimizer"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Recruiting",
+            description: "Interview principal engineer candidate for Delta Lake team"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Product Planning",
+            description: "Collaborate with PM on Q2 roadmap and engineering capacity"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Customer Escalation",
+            description: "Work with team on performance issue for large ML workload"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Open Source Discussion",
+            description: "Discuss Apache Spark contribution strategy with team"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Team Sync",
+            description: "Weekly team meeting on project status and technical challenges"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Engineering Leadership",
+            description: "Leadership meeting on org scaling and hiring strategy"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Snowflake", companySlug: "snowflake", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" }
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: "Data Scientists at Databricks use data, analytics, and machine learning to enhance the data and AI platform and drive business insights. You'll work on platform optimization, usage analytics, customer intelligence, or ML features, applying data science to improve data infrastructure. Databricks data scientists combine technical rigor with understanding of data platforms and ML workflows.",
+
+      responsibilities: [
+        "Build models to optimize query and ML workload performance",
+        "Analyze customer usage patterns and product adoption",
+        "Develop ML features for the Databricks platform",
+        "Design and analyze experiments to measure feature impact",
+        "Create analytics frameworks for product and engineering teams",
+        "Work on AutoML and ML optimization features",
+        "Partner with product on data-driven decision making",
+        "Contribute to customer success and retention analytics"
+      ],
+
+      growthOpportunities: [
+        "Advance from IC data scientist to senior DS or ML researcher",
+        "Exposure to large-scale data infrastructure and ML systems",
+        "Work on products serving Fortune 500 data teams",
+        "Opportunities across product analytics, platform ML, and research",
+        "Internal mobility between product and research teams",
+        "Access to massive datasets on data platform usage",
+        "Collaborate with world-class ML and data engineering team",
+        "Impact on data and AI platform used globally"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about data science background and interest in Databricks.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview on statistics, ML, SQL/Spark, and analytical problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Analytics case study, machine learning, SQL/Spark coding, product sense, and behavioral interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Review of technical skills and product thinking. Competitive offer with equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you optimize Spark query performance using ML?",
+        "Build a model to predict customer churn for Databricks",
+        "How would you measure the success of an AutoML feature?",
+        "Design an experiment to test a new ML workflow optimization",
+        "Build a model to forecast compute resource usage",
+        "How would you analyze which features drive ML practitioner adoption?",
+        "Design a recommendation system for hyperparameter tuning",
+        "Build a cost prediction model for ML training workloads",
+        "How would you detect anomalous data pipeline patterns?",
+        "Design analytics to improve data processing performance"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a big data or ML infrastructure project you worked on",
+        "Describe how you've used data to influence product decisions",
+        "How have you collaborated with ML engineers or data engineers?",
+        "Tell me about an analysis that produced unexpected insights",
+        "Describe your experience with large-scale distributed systems",
+        "How do you approach problems with complex technical constraints?",
+        "Tell me about a time your work impacted business outcomes",
+        "Describe a project where you balanced rigor with speed"
+      ],
+
+      whatTheyLookFor: [
+        "Strong foundation in statistics, ML, and data analysis",
+        "Proficiency in SQL, Spark, Python, and ML frameworks",
+        "Understanding of distributed data processing",
+        "Product sense for data infrastructure and ML workflows",
+        "Ability to work on technical, systems-oriented problems",
+        "Strong communication skills for technical audiences",
+        "Passion for data infrastructure and ML systems",
+        "Entrepreneurial mindset and ownership"
+      ],
+
+      interviewTips: [
+        "Understand Apache Spark and distributed data processing",
+        "Be prepared to discuss ML systems and optimization",
+        "Show passion for data science infrastructure",
+        "Research Databricks' products (Delta Lake, MLflow, AutoML)",
+        "Demonstrate experience with large-scale data analysis",
+        "Prepare examples of ML systems or data infrastructure work",
+        "Be ready to discuss ML for systems optimization",
+        "Express interest in data and AI platforms"
+      ],
+
+      dayInLife: {
+        overview: "Databricks data scientists balance analytics, modeling, experimentation, and collaboration with product and engineering. Work involves Spark, Python, ML, and strategic thinking about data platforms.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Workload Analysis",
+            description: "Analyze customer Spark workload patterns for optimization opportunities"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Team Sync",
+            description: "Data science team standup on ongoing projects"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Model Development",
+            description: "Build ML model for predicting optimal cluster configurations"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Product Collaboration",
+            description: "Discuss AutoML feature requirements with product manager"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Experiment Analysis",
+            description: "Analyze A/B test results for new ML workflow feature"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Customer Intelligence",
+            description: "Analyze ML practitioner usage patterns and adoption trends"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Engineering Collaboration",
+            description: "Present findings on query performance to Spark engineering team"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Research Time",
+            description: "Explore ML techniques for distributed query optimization"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Snowflake", companySlug: "snowflake", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" }
+      ]
+    }
+  },
+
+  // Priority 3D: Coinbase
+  'coinbase': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Coinbase build the leading cryptocurrency platform enabling millions of users to access the cryptoeconomy. You'll work on trading platforms, crypto infrastructure, security systems, or consumer products, solving unique challenges in blockchain technology and fintech. Engineers at Coinbase operate at the intersection of finance, security, and cutting-edge technology.",
+
+      responsibilities: [
+        "Design and build features for Coinbase trading and custody platforms",
+        "Develop blockchain infrastructure and crypto protocol integrations",
+        "Build security and fraud detection systems",
+        "Work on consumer and institutional crypto products",
+        "Optimize performance for high-throughput trading systems",
+        "Collaborate with product on crypto and fintech features",
+        "Ensure regulatory compliance and security best practices",
+        "Participate in on-call rotation for critical financial systems"
+      ],
+
+      growthOpportunities: [
+        "Career progression from IC to principal engineer or tech lead",
+        "Exposure to blockchain, crypto, and financial systems",
+        "Work on products serving millions of crypto users",
+        "Opportunities across trading, custody, consumer, and infrastructure",
+        "Internal mobility between product and platform teams",
+        "Access to cutting-edge crypto and blockchain technology",
+        "Influence on future of cryptocurrency and web3",
+        "Impact on global financial inclusion through crypto"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about background, experience, and interest in crypto.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute coding interview on data structures, algorithms, and system design.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Coding (2 rounds), system design, behavioral/culture fit, and sometimes crypto/blockchain discussion.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Engineering review. Competitive offer with equity in publicly-traded company.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design a cryptocurrency trading platform with order matching",
+        "Implement a blockchain node synchronization system",
+        "Design Coinbase's wallet custody and security system",
+        "How would you handle high-throughput cryptocurrency transactions?",
+        "Design a fraud detection system for crypto transactions",
+        "Implement a price feed aggregation system",
+        "Design a system for regulatory reporting and compliance",
+        "How would you ensure data consistency in distributed financial systems?",
+        "Design an NFT marketplace platform",
+        "Implement a multi-signature wallet system"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you worked on financial or security-critical systems",
+        "Describe your interest in cryptocurrency and blockchain",
+        "How have you handled high-pressure situations with system outages?",
+        "Tell me about ensuring security and compliance in your work",
+        "Describe your experience with high-throughput or real-time systems",
+        "How do you approach learning new and complex technologies?",
+        "Tell me about a time you improved system reliability",
+        "Describe a project where you had significant business impact"
+      ],
+
+      whatTheyLookFor: [
+        "Strong computer science fundamentals and coding skills",
+        "Interest in cryptocurrency and blockchain technology",
+        "Security mindset and attention to detail",
+        "Experience with financial systems or high-reliability systems",
+        "Problem-solving under pressure and ambiguity",
+        "Passion for crypto's mission of economic freedom",
+        "Collaboration skills and cross-functional teamwork",
+        "Alignment with Coinbase values (Clear communication, Positive energy, Efficient execution, Act like an owner)"
+      ],
+
+      interviewTips: [
+        "Understand cryptocurrency basics and blockchain technology",
+        "Show genuine interest in crypto's potential impact",
+        "Be prepared to discuss security and reliability challenges",
+        "Research Coinbase's products and crypto ecosystem",
+        "Demonstrate understanding of financial systems if applicable",
+        "Prepare examples of working on critical production systems",
+        "Be ready to discuss regulatory and compliance considerations",
+        "Express passion for democratizing financial systems"
+      ],
+
+      dayInLife: {
+        overview: "Coinbase engineers work on financial systems powering the cryptoeconomy. Days involve coding, security reviews, on-call responsibilities, and solving unique crypto infrastructure challenges.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync on trading platform feature development"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Feature Development",
+            description: "Build new staking feature for institutional customers"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Security Review",
+            description: "Review smart contract integration for security vulnerabilities"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Incident Review",
+            description: "Postmortem on recent trading system latency issue"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch & Crypto Discussion",
+            description: "Team lunch discussing new blockchain protocols"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Design Review",
+            description: "Review architecture for new cryptocurrency listing"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Code Review",
+            description: "Review pull requests focusing on security and correctness"
+          },
+          {
+            time: "4:00 PM",
+            activity: "On-Call Preparation",
+            description: "Prepare for on-call rotation and review system dashboards"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Block", companySlug: "block", industry: "Technology" },
+        { companyName: "Robinhood", companySlug: "robinhood", industry: "Technology" },
+        { companyName: "PayPal", companySlug: "paypal", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Coinbase drive strategy for cryptocurrency products serving millions of users globally. You'll work on trading platforms, custody solutions, consumer apps, or institutional products, balancing crypto innovation with regulatory requirements. PMs combine understanding of crypto technology with fintech product expertise and user empathy.",
+
+      responsibilities: [
+        "Define product vision and roadmap for crypto products",
+        "Collaborate with engineering on technical product decisions",
+        "Conduct research with crypto users and institutions",
+        "Analyze product metrics and trading behavior",
+        "Drive strategy for new cryptocurrency listings",
+        "Balance innovation with regulatory compliance",
+        "Present product strategy to executives and regulators",
+        "Monitor crypto market trends and competitive landscape"
+      ],
+
+      growthOpportunities: [
+        "Rapid career advancement based on product impact",
+        "Exposure to cryptocurrency, blockchain, and financial technology",
+        "Opportunities to own products serving millions of users globally",
+        "Cross-functional leadership with engineering, legal, and compliance",
+        "Internal mobility across consumer, institutional, and platform products",
+        "Access to crypto markets and emerging blockchain technology",
+        "Influence on future of cryptocurrency adoption",
+        "Impact on global financial inclusion"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about PM experience and interest in cryptocurrency.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Product Case Interview",
+          description: "60-minute product strategy or design case focused on crypto or fintech.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Product design, technical collaboration, customer empathy, analytics, and leadership interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Cross-functional review. Competitive offer with equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve Coinbase for new crypto users?",
+        "Design a product strategy for institutional custody",
+        "How would you measure success for a new crypto listing?",
+        "What metrics would you track for trading platform engagement?",
+        "How would you compete against other crypto exchanges?",
+        "Design a feature to increase staking adoption",
+        "How would you prioritize features for retail vs institutional users?",
+        "What would you do if trading volume declined 20%?",
+        "Design a strategy for Coinbase's web3 and NFT products",
+        "How would you approach launching in a new country?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a fintech or crypto product you've managed",
+        "Describe how you've worked with regulatory or compliance teams",
+        "How have you balanced innovation with risk management?",
+        "Tell me about a time you influenced technical decisions",
+        "Describe your understanding of cryptocurrency and blockchain",
+        "How do you prioritize features with security implications?",
+        "Tell me about a product that succeeded in a volatile market",
+        "Describe a time you made decisions with incomplete information"
+      ],
+
+      whatTheyLookFor: [
+        "Passion for cryptocurrency and its potential impact",
+        "Customer empathy for crypto users and institutions",
+        "Technical understanding to collaborate with engineers",
+        "Analytical skills and data-driven decision making",
+        "Understanding of financial markets and regulatory environment",
+        "Strong communication skills for diverse stakeholders",
+        "Risk awareness and security mindset",
+        "Entrepreneurial mindset in dynamic market"
+      ],
+
+      interviewTips: [
+        "Understand cryptocurrency basics and Coinbase products",
+        "Show genuine passion for crypto's mission",
+        "Be prepared to discuss crypto market dynamics",
+        "Research regulatory challenges in crypto",
+        "Demonstrate understanding of different user segments",
+        "Prepare ideas for Coinbase's product strategy",
+        "Be ready to discuss security and trust considerations",
+        "Express interest in financial inclusion through crypto"
+      ],
+
+      dayInLife: {
+        overview: "Coinbase PMs balance strategic planning, user research, regulatory collaboration, and market analysis. Days involve crypto community engagement, engineering collaboration, and navigating dynamic markets.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Crypto Market Review",
+            description: "Analyze overnight crypto market movements and customer behavior"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Product Planning",
+            description: "Review roadmap priorities with engineering team"
+          },
+          {
+            time: "11:00 AM",
+            activity: "User Research",
+            description: "Interview crypto power users on trading experience"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Regulatory Discussion",
+            description: "Meet with legal team on new feature compliance requirements"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Competitive Analysis",
+            description: "Research new features from competing crypto platforms"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Product Review",
+            description: "Present institutional product strategy to executives"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Engineering Collaboration",
+            description: "Discuss technical feasibility of new blockchain integration"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Metrics Analysis",
+            description: "Analyze trading volumes and user engagement metrics"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Block", companySlug: "block", industry: "Technology" },
+        { companyName: "Robinhood", companySlug: "robinhood", industry: "Technology" },
+        { companyName: "PayPal", companySlug: "paypal", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Coinbase lead teams building cryptocurrency platforms that are redefining the global financial system. You'll manage engineers working on trading systems, blockchain infrastructure, security, or consumer products, balancing innovation with the reliability financial systems demand. EMs foster strong engineering culture in a dynamic crypto environment.",
+
+      responsibilities: [
+        "Lead team of engineers on crypto trading or infrastructure",
+        "Drive technical strategy for secure, scalable financial systems",
+        "Partner with product on roadmap and execution",
+        "Recruit, develop, and retain engineering talent",
+        "Conduct 1:1s, performance reviews, and career coaching",
+        "Ensure system security, reliability, and compliance",
+        "Manage incidents and on-call for critical financial systems",
+        "Contribute to engineering culture and best practices"
+      ],
+
+      growthOpportunities: [
+        "Scale management skills in high-stakes crypto environment",
+        "Exposure to blockchain, fintech, and distributed systems",
+        "Opportunities to grow into senior engineering leadership",
+        "Cross-functional influence with product, legal, and compliance",
+        "Shape engineering culture in crypto-native company",
+        "Mentor engineers on financial and security-critical systems",
+        "Internal mobility across consumer, institutional, and platform",
+        "Impact on global cryptocurrency adoption"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about management experience and interest in crypto.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Discussion",
+          description: "60-minute discussion on system design, technical leadership, and financial systems.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "People management, technical leadership, collaboration, system design, and values fit.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Leadership review. Competitive offer with equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you architect a high-throughput trading platform?",
+        "Describe your approach to ensuring security in financial systems",
+        "How do you balance innovation with reliability for financial services?",
+        "What's your strategy for integrating new blockchain protocols?",
+        "How would you approach incident management for trading systems?",
+        "Describe your framework for making security/performance trade-offs",
+        "How do you ensure compliance in engineering processes?",
+        "What's your approach to managing on-call for critical systems?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about managing engineers on financial or security-critical systems",
+        "Describe how you've handled high-pressure incidents",
+        "How have you developed engineers in a fast-paced environment?",
+        "Tell me about balancing innovation with risk management",
+        "Describe your interest in cryptocurrency and blockchain",
+        "How do you build culture that prioritizes security?",
+        "Tell me about a difficult technical decision involving compliance",
+        "Describe how you've improved team reliability and on-call"
+      ],
+
+      whatTheyLookFor: [
+        "Strong people leadership and team development skills",
+        "Technical depth in distributed systems and financial technology",
+        "Security mindset and risk awareness",
+        "Experience with high-reliability or financial systems",
+        "Passion for cryptocurrency and its mission",
+        "Ability to operate in dynamic, fast-paced environment",
+        "Collaboration skills with legal and compliance teams",
+        "Alignment with Coinbase values"
+      ],
+
+      interviewTips: [
+        "Understand cryptocurrency and blockchain fundamentals",
+        "Prepare examples of managing security-critical systems",
+        "Show interest in crypto's potential for financial inclusion",
+        "Demonstrate experience with high-reliability systems",
+        "Discuss your approach to balancing speed and safety",
+        "Research Coinbase's engineering culture",
+        "Be ready to discuss incident management and on-call",
+        "Express passion for building the cryptoeconomy"
+      ],
+
+      dayInLife: {
+        overview: "Coinbase EMs balance people management, technical leadership, security, and incident response. Days include 1:1s, technical reviews, regulatory collaboration, and ensuring system reliability.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "1:1 Meetings",
+            description: "Career development discussions with two engineers"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Security Review",
+            description: "Review security architecture for new crypto listing"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Incident Response",
+            description: "Lead response to trading system performance degradation"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Product Planning",
+            description: "Collaborate with PM on Q2 roadmap and engineering capacity"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Recruiting",
+            description: "Interview senior engineer candidate for custody platform"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Team Sync",
+            description: "Weekly team meeting on sprint progress and priorities"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Compliance Discussion",
+            description: "Meet with legal on engineering requirements for new regulation"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Engineering Leadership",
+            description: "Leadership meeting on technical strategy and culture"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Block", companySlug: "block", industry: "Technology" },
+        { companyName: "Robinhood", companySlug: "robinhood", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: "Data Scientists at Coinbase use data, analytics, and machine learning to enhance cryptocurrency products and drive business insights. You'll work on fraud detection, trading analytics, user behavior, or risk modeling, applying data science to unique crypto challenges. Coinbase data scientists combine technical rigor with understanding of crypto markets and financial systems.",
+
+      responsibilities: [
+        "Build ML models for fraud detection and security",
+        "Analyze trading behavior and market microstructure",
+        "Develop predictive models for user engagement and retention",
+        "Design and analyze experiments to measure product impact",
+        "Create analytics frameworks for product and business teams",
+        "Work on risk models and regulatory analytics",
+        "Partner with product on data-driven decision making",
+        "Contribute to crypto market intelligence and insights"
+      ],
+
+      growthOpportunities: [
+        "Advance from IC data scientist to senior DS or ML engineer",
+        "Exposure to cryptocurrency, fintech, and ML systems",
+        "Work on products serving millions of crypto users",
+        "Opportunities across fraud, trading, risk, and product analytics",
+        "Internal mobility between product and business analytics",
+        "Access to unique crypto market and user behavior data",
+        "Collaborate with engineering on ML production systems",
+        "Impact on global cryptocurrency adoption"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about data science background and interest in crypto.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview on statistics, ML, SQL, and analytical problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Analytics case study, machine learning, SQL/coding, product sense, and behavioral interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Review of technical skills and crypto interest. Competitive offer with equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Build a fraud detection model for cryptocurrency transactions",
+        "How would you analyze trading patterns to detect market manipulation?",
+        "Design an experiment to test a new trading feature",
+        "Build a model to predict user churn for Coinbase",
+        "How would you measure the success of a new crypto listing?",
+        "Design a recommendation system for crypto portfolio diversification",
+        "Build a risk model for cryptocurrency lending",
+        "How would you analyze the impact of crypto price volatility on users?",
+        "Design metrics for measuring platform trust and security",
+        "Build a model to optimize customer acquisition spending"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a fraud detection or security ML project",
+        "Describe how you've used data to influence product decisions",
+        "How have you worked with engineering on ML production systems?",
+        "Tell me about analyzing financial or trading data",
+        "Describe your interest in cryptocurrency and blockchain",
+        "How do you approach problems with adversarial users?",
+        "Tell me about a time your work impacted business outcomes",
+        "Describe a project where you balanced speed with rigor"
+      ],
+
+      whatTheyLookFor: [
+        "Strong foundation in statistics, ML, and data analysis",
+        "Proficiency in SQL, Python, and data science tools",
+        "Experience with fraud detection or security ML",
+        "Interest in cryptocurrency and financial markets",
+        "Product sense for fintech and crypto products",
+        "Ability to work on adversarial problems",
+        "Strong communication skills for technical audiences",
+        "Passion for crypto's mission and impact"
+      ],
+
+      interviewTips: [
+        "Understand cryptocurrency basics and market dynamics",
+        "Be prepared to discuss fraud detection and security ML",
+        "Show genuine interest in crypto technology",
+        "Research Coinbase's products and crypto ecosystem",
+        "Demonstrate experience with financial data if applicable",
+        "Prepare examples of adversarial ML or fraud detection",
+        "Be ready to discuss A/B testing in fintech context",
+        "Express passion for financial inclusion through crypto"
+      ],
+
+      dayInLife: {
+        overview: "Coinbase data scientists balance fraud detection, trading analytics, experimentation, and product collaboration. Work involves SQL, Python, ML, and understanding crypto market dynamics.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Fraud Model Review",
+            description: "Review fraud detection model performance and false positives"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Team Sync",
+            description: "Data science team standup on ongoing projects"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Trading Analysis",
+            description: "Analyze trading patterns around new crypto asset listing"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Product Collaboration",
+            description: "Discuss analytics requirements for new staking feature"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Experiment Analysis",
+            description: "Analyze A/B test results for new user onboarding flow"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Risk Modeling",
+            description: "Develop credit risk model for crypto lending product"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Market Intelligence",
+            description: "Present analysis on crypto market trends to leadership"
+          },
+          {
+            time: "4:00 PM",
+            activity: "ML Pipeline",
+            description: "Work with engineering on deploying fraud detection model"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Block", companySlug: "block", industry: "Technology" },
+        { companyName: "Robinhood", companySlug: "robinhood", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" }
+      ]
+    }
   }
 }
 
@@ -8662,4 +9880,5 @@ export const rolePageContent = {
 // Priority 3A complete (2 companies: Lyft, Spotify - 8 roles)
 // Priority 3B complete (2 companies: Oracle, Adobe - 7 roles)
 // Priority 3C complete (2 companies: Atlassian, Snowflake - 7 roles)
-// Total companies with full role content: 19
+// Priority 3D complete (2 companies: Databricks, Coinbase - 8 roles)
+// Total companies with full role content: 21
