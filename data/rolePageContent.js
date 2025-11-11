@@ -3823,9 +3823,454 @@ export const rolePageContent = {
         { companyName: "Google", companySlug: "google", industry: "Technology" }
       ]
     }
+  },
+
+  'stripe': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Stripe build the financial infrastructure that powers millions of businesses worldwide. You'll work on challenging problems in payments, fraud detection, APIs, and global financial systems. Stripe is known for its rigorous technical standards, developer-first culture, and commitment to building high-quality, reliable infrastructure.",
+
+      responsibilities: [
+        "Build and maintain Stripe's payment processing infrastructure and APIs",
+        "Design systems for fraud detection, compliance, and financial operations",
+        "Develop features for developer tools, dashboards, and integration platforms",
+        "Ensure reliability and security for global payment transactions",
+        "Collaborate with product, design, and business teams to solve user problems"
+      ],
+
+      growthOpportunities: [
+        "Work on technology powering millions of businesses globally",
+        "Tackle challenging problems in payments, fraud, and financial infrastructure",
+        "Strong engineering culture with emphasis on quality and craft",
+        "Competitive compensation with significant equity",
+        "Opportunity to work across diverse financial products and markets"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your background, interest in Stripe's mission, and role fit. Overview of Stripe's culture and products.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "Coding interview covering algorithms, data structures, and problem-solving. May include API design discussion.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Multiple interviews including coding (2 rounds), system design, integration/debugging, and behavioral. Known for rigorous technical evaluation.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with potential teams to find the best fit for your interests and skills.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design Stripe's payment processing API",
+        "Implement a fraud detection system for transactions",
+        "Design the idempotency mechanism for API requests",
+        "How would you handle global currency conversions?",
+        "Design Stripe's webhook delivery system",
+        "Implement rate limiting for API endpoints",
+        "Design the reconciliation system for payments",
+        "How would you ensure PCI compliance in payment systems?",
+        "Design Stripe's dispute and chargeback management system",
+        "Implement retry logic for failed payment attempts"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you prioritized reliability over speed",
+        "Describe a situation where you had to debug a complex production issue",
+        "How have you balanced user needs with technical constraints?",
+        "Tell me about a time when you designed an API or system for developers",
+        "Describe a project where attention to detail was critical",
+        "How do you approach building systems that handle money?",
+        "Tell me about a time when you had to make a technical trade-off",
+        "Describe how you've collaborated with non-technical stakeholders"
+      ],
+
+      whatTheyLookFor: [
+        "Strong coding skills with emphasis on reliability and correctness",
+        "Experience with distributed systems, APIs, or financial systems",
+        "User-first mindset with focus on developer experience",
+        "Attention to detail and commitment to quality",
+        "Systems thinking for complex financial infrastructure",
+        "Strong debugging and problem-solving skills",
+        "Collaborative approach across engineering and product teams",
+        "Passion for building tools that empower businesses"
+      ],
+
+      interviewTips: [
+        "Understand Stripe's products and APIs - try integrating Stripe",
+        "Prepare for rigorous technical evaluation with focus on correctness",
+        "Show examples of building reliable, high-quality systems",
+        "Understand payment systems, APIs, and financial infrastructure concepts",
+        "Emphasize user-first thinking and developer experience",
+        "Research Stripe's engineering blog and technical challenges",
+        "Be ready to discuss edge cases, error handling, and reliability",
+        "Ask about the team's mission, technical stack, and product area"
+      ],
+
+      dayInLife: {
+        overview: "Stripe engineers work on mission-critical payment infrastructure with emphasis on quality and reliability. Your day includes coding, design reviews, incident response, and cross-functional collaboration.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with team on progress, blockers, and priorities"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Feature Development",
+            description: "Build new API endpoint for payment methods with comprehensive tests"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Design Review",
+            description: "Review technical design for fraud detection feature"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch & Discussion",
+            description: "Team lunch discussing payment industry trends"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Debugging Session",
+            description: "Investigate and fix issue in webhook delivery system"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Code Review",
+            description: "Review pull requests with focus on edge cases and reliability"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Cross-functional Sync",
+            description: "Meet with product and compliance on new payment method"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Monitoring & Alerts",
+            description: "Review system health and transaction success rates"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Stripe define and execute product strategy for financial infrastructure used by millions of businesses globally. From payment APIs to financial products, you'll work on complex problems balancing user needs, business goals, and regulatory requirements. Stripe PMs are known for technical depth, strategic thinking, and user-first mindset.",
+
+      responsibilities: [
+        "Define product vision and strategy for Stripe's payment and financial products",
+        "Gather user feedback and identify opportunities to improve developer experience",
+        "Prioritize features balancing user needs, business goals, and compliance",
+        "Collaborate with engineering, design, legal, and business teams",
+        "Ship high-quality products with focus on reliability and ease of use"
+      ],
+
+      growthOpportunities: [
+        "Own products powering millions of businesses and trillions in transactions",
+        "Deep exposure to payment systems, financial infrastructure, and fintech",
+        "Work with highly technical teams on complex product challenges",
+        "Strong compensation with significant equity",
+        "Career growth into senior PM, GPM, or leadership roles"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your PM experience, interest in Stripe's mission, and role fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into product experience, technical depth, and strategic thinking.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Interviews covering product design, technical depth, analytics, execution, and behavioral. Focus on user empathy and strategic thinking.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with product teams to find the best fit.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve Stripe's onboarding for new developers?",
+        "Design a new payment method for Stripe",
+        "Should Stripe enter a new market? How would you evaluate?",
+        "How would you measure success for Stripe's API?",
+        "Design a feature to reduce payment failures",
+        "How would you improve the Stripe Dashboard?",
+        "Should Stripe build a new financial product? Walk through your analysis",
+        "Design the developer experience for a new compliance feature",
+        "How would you reduce time to first transaction for new users?",
+        "Analyze declining conversion in a specific payment flow"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a highly technical product you shipped",
+        "Describe a time when you had to balance user needs with compliance requirements",
+        "How have you worked with engineering on API design?",
+        "Tell me about a time when you used data to inform a product decision",
+        "Describe a situation where you had to influence without authority",
+        "How do you prioritize when you have competing user and business needs?",
+        "Tell me about a time when you championed the user",
+        "Describe how you've worked across legal, compliance, and engineering teams"
+      ],
+
+      whatTheyLookFor: [
+        "Strong technical depth - ability to discuss APIs, systems, and architecture",
+        "User-first mindset with focus on developer experience",
+        "Analytical skills and data-driven decision making",
+        "Understanding of payment systems and financial infrastructure",
+        "Strategic thinking with execution excellence",
+        "Excellent communication across technical and non-technical stakeholders",
+        "Experience with developer products or B2B platforms",
+        "Passion for building tools that empower businesses"
+      ],
+
+      interviewTips: [
+        "Integrate Stripe into a project - understand the developer experience",
+        "Study Stripe's products, APIs, and documentation thoroughly",
+        "Prepare to discuss technical concepts and trade-offs",
+        "Bring data and metrics to support product decisions",
+        "Understand payment industry dynamics and regulations",
+        "Research Stripe's product strategy and recent launches",
+        "Show empathy for developers as your users",
+        "Ask about the team's product area, challenges, and roadmap"
+      ],
+
+      dayInLife: {
+        overview: "Stripe PMs balance technical depth, user research, data analysis, and strategic planning. Your day includes developer interviews, design reviews, engineering collaboration, and cross-functional coordination.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Analyze API usage, transaction success rates, and developer metrics"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Developer Interviews",
+            description: "User research calls with Stripe developers about pain points"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Engineering Sync",
+            description: "Technical design review for new API feature"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learning",
+            description: "Informal discussion about payment industry trends"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Product Design",
+            description: "Work with designer on dashboard improvement"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Data Analysis",
+            description: "Analyze conversion funnel for new payment method"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Compliance Meeting",
+            description: "Align with legal and compliance on regulatory requirements"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Strategy Session",
+            description: "Roadmap planning with leadership on product direction"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Stripe lead teams building the financial infrastructure that powers the internet economy. You'll balance technical leadership with people management, drive product execution, and uphold Stripe's high standards for quality and reliability. EMs at Stripe typically manage teams of 6-10 engineers working on payment systems, APIs, or financial products.",
+
+      responsibilities: [
+        "Lead and mentor a team of 6-10 engineers on payment or platform systems",
+        "Set technical direction and ensure high quality and reliability standards",
+        "Drive product execution in partnership with PM and design",
+        "Hire exceptional engineering talent and develop career growth plans",
+        "Foster Stripe's culture of user-focus, quality, and technical excellence"
+      ],
+
+      growthOpportunities: [
+        "Lead teams building infrastructure for millions of businesses",
+        "Strong engineering culture with emphasis on quality and craft",
+        "Clear path to senior leadership roles (Senior EM, Director, VP)",
+        "Work on diverse financial products and global payment systems",
+        "Competitive compensation with significant equity"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of management experience, technical background, and interest in Stripe.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into leadership philosophy, technical credibility, and management approach.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Interviews covering technical leadership, people management, system design, and behavioral. Focus on quality and team building.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with teams to find the best fit.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design the architecture for Stripe's payment processing system",
+        "How would you improve reliability for API requests?",
+        "Your team is behind on a critical payments feature - how do you recover?",
+        "Design the infrastructure for global payment routing",
+        "How do you balance technical debt with feature development?",
+        "Walk through scaling a payment system from 100K to 10M transactions/day",
+        "Your team has a production incident affecting payments - how do you respond?",
+        "Design the testing strategy for financial transaction systems",
+        "How would you architect Stripe's fraud detection pipeline?",
+        "Design monitoring and alerting for payment success rates"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you had to maintain high quality under pressure",
+        "Describe a situation where you had to manage a performance issue",
+        "How have you built and scaled an engineering team?",
+        "Tell me about a time when you had to make a difficult technical trade-off",
+        "Describe a conflict between team members and how you resolved it",
+        "How do you foster a culture of quality and reliability?",
+        "Tell me about a time when you had to deliver difficult feedback",
+        "Describe how you've mentored engineers to grow their technical skills"
+      ],
+
+      whatTheyLookFor: [
+        "Strong technical credibility with payment systems or financial infrastructure",
+        "People management experience leading teams of 5+ engineers",
+        "Commitment to quality, reliability, and correctness",
+        "Track record of shipping mission-critical systems",
+        "User-first mindset with focus on developer experience",
+        "Excellent communication and collaboration skills",
+        "Experience with distributed systems, APIs, or B2B products",
+        "Passion for building tools that empower businesses"
+      ],
+
+      interviewTips: [
+        "Prepare examples of building reliable, high-quality systems",
+        "Demonstrate technical depth in payments, APIs, or distributed systems",
+        "Show commitment to quality and attention to detail",
+        "Emphasize user-first thinking and developer experience",
+        "Be ready to discuss hiring, performance management, and team culture",
+        "Understand Stripe's products and technical challenges",
+        "Prepare examples of handling incidents and maintaining reliability",
+        "Ask about the team's mission, technical stack, and growth opportunities"
+      ],
+
+      dayInLife: {
+        overview: "Stripe Engineering Managers balance technical leadership, people development, and quality focus. Your day includes 1-on-1s, technical reviews, incident response, cross-functional collaboration, and strategic planning.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "System Health Review",
+            description: "Review payment success rates, API latency, and overnight incidents"
+          },
+          {
+            time: "9:30 AM",
+            activity: "1-on-1 Meetings",
+            description: "Career development and coaching conversations with engineers"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Technical Design Review",
+            description: "Review architecture for new payment method integration"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Recruiting Lunch",
+            description: "Lunch interview with senior engineer candidate"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Code Review",
+            description: "Review critical pull requests for payment processing logic"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Product Planning",
+            description: "Sprint planning with PM on API feature roadmap"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Incident Postmortem",
+            description: "Review and document learnings from payment outage"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Cross-functional Sync",
+            description: "Align with compliance and legal on new regulatory requirements"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Technical Strategy",
+            description: "Plan technical roadmap and infrastructure investments"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    }
   }
 }
 
-// Content for FAANG+, Uber, Airbnb, Goldman Sachs, and McKinsey
-// Priority 1 complete (8 companies) + Phase 2A (Uber) + Phase 2B (Airbnb) complete
-// Total companies with full role content: 10
+// Content for FAANG+, Uber, Airbnb, Stripe, Goldman Sachs, and McKinsey
+// Priority 1 complete (8 companies) + Phase 2A (Uber) + Phase 2B (Airbnb) + Phase 2C (Stripe) complete
+// Total companies with full role content: 11
