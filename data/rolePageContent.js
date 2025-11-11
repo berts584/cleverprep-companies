@@ -3232,9 +3232,600 @@ export const rolePageContent = {
         { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
       ]
     }
+  },
+
+  'airbnb': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Airbnb build technology that creates a world where anyone can belong anywhere, serving millions of hosts and guests across 220+ countries. You'll work on challenging problems in trust and safety, search and discovery, payments, and global platform infrastructure. Airbnb is known for its rigorous technical standards, strong design culture, and core values.",
+
+      responsibilities: [
+        "Build scalable services for Airbnb's marketplace, booking, or platform infrastructure",
+        "Design and implement features for host, guest, or experience-related products",
+        "Work on trust and safety systems to ensure platform quality",
+        "Collaborate with design, product, and data science teams in cross-functional pods",
+        "Own features end-to-end from design through deployment and monitoring"
+      ],
+
+      growthOpportunities: [
+        "Work on products serving millions of hosts and travelers globally",
+        "Strong design and product culture with emphasis on craft and quality",
+        "Tackle challenging problems in trust, search, and marketplace dynamics",
+        "Competitive compensation with significant equity",
+        "Opportunity to travel and experience Airbnb listings worldwide"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your background, interest in Airbnb's mission, and role fit. Overview of Airbnb's culture and core values.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "Coding interview focusing on algorithms, data structures, and problem-solving. Discussion of past technical work.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (5-6 rounds)",
+          description: "Multiple interviews including coding (2 rounds), system design (1-2 rounds), past experience deep dive, and core values. Known for rigorous evaluation.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Cross-functional Review",
+          description: "Final discussion with cross-functional team members to assess collaboration fit and values alignment.",
+          duration: "30-45 minutes"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design Airbnb's search and ranking system for listings",
+        "Implement a calendar availability system for hosts",
+        "Design the booking and payment flow for reservations",
+        "How would you detect fraudulent listings or users?",
+        "Design the review and rating system for hosts and guests",
+        "Implement dynamic pricing recommendations for hosts",
+        "Design a recommendation engine for Airbnb experiences",
+        "How would you handle overbooking or double bookings?",
+        "Design the messaging system between hosts and guests",
+        "Implement smart pricing based on demand and seasonality"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you championed a mission-driven project",
+        "Describe a situation where you had to balance user needs with business goals",
+        "How have you demonstrated 'be a host' in your work?",
+        "Tell me about a time when you challenged the status quo",
+        "Describe a project where craft and quality were paramount",
+        "How do you handle disagreement with design or product decisions?",
+        "Tell me about a time when you embraced the adventure of uncertainty",
+        "Describe how you've built trust with teammates or stakeholders"
+      ],
+
+      whatTheyLookFor: [
+        "Strong coding skills with emphasis on clean, maintainable code",
+        "Experience with distributed systems and two-sided marketplaces",
+        "Alignment with Airbnb's core values (Champion the Mission, Be a Host, etc.)",
+        "Design sensibility and appreciation for craft",
+        "Customer empathy and understanding of travel experiences",
+        "Collaborative mindset across design, product, and engineering",
+        "Systems thinking for complex marketplace problems",
+        "Passion for Airbnb's mission of belonging"
+      ],
+
+      interviewTips: [
+        "Use Airbnb extensively - book stays, understand the host and guest experience",
+        "Study Airbnb's core values deeply - they're central to the interview",
+        "Prepare examples demonstrating craft, quality, and attention to detail",
+        "Understand marketplace dynamics and trust and safety challenges",
+        "Show design sensibility and product thinking",
+        "Research Airbnb's engineering blog and technical challenges",
+        "Be ready for both technical depth and values assessment",
+        "Ask about the team's mission, impact, and connection to Airbnb's values"
+      ],
+
+      dayInLife: {
+        overview: "Airbnb engineers work in cross-functional pods with designers and PMs, emphasizing craft and collaboration. Your day includes coding, design reviews, cross-functional collaboration, and continuous learning.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Pod Standup",
+            description: "Cross-functional sync with engineers, designer, and PM on progress"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Feature Development",
+            description: "Code new search ranking improvements for listing discovery"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Design Review",
+            description: "Collaborate with designer on booking flow redesign"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch & Learning",
+            description: "Team lunch followed by tech talk on trust and safety systems"
+          },
+          {
+            time: "2:30 PM",
+            activity: "System Design Discussion",
+            description: "Architecture review for new payment processing feature"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Code Review",
+            description: "Review pull requests with focus on code quality and craft"
+          },
+          {
+            time: "4:30 PM",
+            activity: "A/B Test Analysis",
+            description: "Analyze experiment results for pricing recommendation changes"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Cross-functional Sync",
+            description: "Meet with trust and safety team on fraud detection integration"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Airbnb define and execute product strategy for the world's leading travel community marketplace. You'll work on products serving millions of hosts and guests, from core booking experiences to new product categories. Airbnb PMs are known for strong product sense, design partnership, and mission-driven thinking.",
+
+      responsibilities: [
+        "Define product vision and strategy for host, guest, or platform experiences",
+        "Conduct user research and leverage data to identify opportunities",
+        "Prioritize features balancing user needs, business goals, and technical feasibility",
+        "Collaborate closely with engineering, design, data science, and operations in pods",
+        "Ship high-quality products with strong attention to craft and detail"
+      ],
+
+      growthOpportunities: [
+        "Own products impacting millions of hosts and travelers globally",
+        "Strong design culture with world-class design partners",
+        "Exposure to diverse product challenges from trust to payments to experiences",
+        "Mission-driven culture focused on belonging and community",
+        "Career growth into senior PM, GPM, or leadership roles"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your PM experience, passion for travel and belonging, and role fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into product experience, product thinking, and alignment with Airbnb values.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (5-6 rounds)",
+          description: "Interviews covering product design, analytics, technical depth, execution, values, and past experience. Known for comprehensive evaluation.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Cross-functional Review",
+          description: "Final assessment with cross-functional leaders on collaboration and cultural fit.",
+          duration: "30-45 minutes"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve the Airbnb search experience?",
+        "Design a new product category for Airbnb",
+        "How would you increase host retention and satisfaction?",
+        "Should Airbnb expand into a new vertical? How would you evaluate?",
+        "How would you measure success for the booking flow?",
+        "Design the host onboarding experience",
+        "How would you reduce guest cancellations?",
+        "Improve the review system for hosts and guests",
+        "Design a feature to help guests discover unique experiences",
+        "How would you optimize pricing for hosts?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a product you championed that aligned with a mission",
+        "Describe a time when you had to make a difficult prioritization decision",
+        "How have you collaborated with designers to create exceptional experiences?",
+        "Tell me about a time when you used data to challenge assumptions",
+        "Describe a situation where you advocated for quality over speed",
+        "How do you balance stakeholder needs with user needs?",
+        "Tell me about a time when you embraced the adventure of launching something new",
+        "Describe how you've built trust with your team"
+      ],
+
+      whatTheyLookFor: [
+        "Strong product sense with design sensibility",
+        "Customer empathy and understanding of travel experiences",
+        "Alignment with Airbnb's mission and core values",
+        "Analytical skills with comfort in data and metrics",
+        "Technical depth to partner effectively with engineering",
+        "Excellent communication and stakeholder management",
+        "Experience with marketplaces or consumer products",
+        "Passion for craft, quality, and belonging"
+      ],
+
+      interviewTips: [
+        "Use Airbnb extensively as both guest and (ideally) host",
+        "Study Airbnb's core values - they're deeply embedded in culture",
+        "Prepare examples showing design partnership and craft orientation",
+        "Understand marketplace dynamics and two-sided platform challenges",
+        "Bring data to support product decisions and hypotheses",
+        "Research Airbnb's product strategy and recent launches",
+        "Show empathy for both hosts and guests in your answers",
+        "Ask about team's mission, values, and product vision"
+      ],
+
+      dayInLife: {
+        overview: "Airbnb PMs work in cross-functional pods emphasizing design partnership, user research, and craft. Your day includes user research, data analysis, design collaboration, engineering syncs, and strategic planning.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Analyze booking funnel metrics and user engagement data"
+          },
+          {
+            time: "10:00 AM",
+            activity: "User Research",
+            description: "Watch recorded interviews with hosts about their pain points"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Design Partnership",
+            description: "Collaborate with designer on new guest discovery experience"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch with Host",
+            description: "Lunch meeting with local Airbnb host to gather insights"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Engineering Sync",
+            description: "Sprint planning with engineering pod on upcoming features"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Data Deep Dive",
+            description: "Analyze A/B test results for pricing recommendation feature"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Strategy Meeting",
+            description: "Quarterly planning with leadership on product roadmap"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Cross-functional Review",
+            description: "Present product proposal to cross-functional stakeholders"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Airbnb lead teams building technology for the world's leading travel community. You'll balance technical leadership with people development, drive product execution, and uphold Airbnb's high standards for craft and collaboration. EMs at Airbnb typically manage teams of 6-8 engineers in cross-functional pods.",
+
+      responsibilities: [
+        "Lead and mentor a team of 6-8 engineers in a cross-functional pod",
+        "Set technical direction and ensure high code quality standards",
+        "Drive product execution in partnership with PM and design",
+        "Hire exceptional talent and develop career growth plans",
+        "Foster Airbnb's values of craft, belonging, and mission"
+      ],
+
+      growthOpportunities: [
+        "Lead teams building products serving millions globally",
+        "Strong emphasis on craft, design partnership, and product quality",
+        "Clear path to senior leadership roles (Senior EM, Director)",
+        "Mission-driven culture with focus on belonging",
+        "Competitive compensation with significant equity"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of management experience, technical background, and alignment with Airbnb's mission.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into leadership philosophy, technical credibility, and people management approach.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (5-6 rounds)",
+          description: "Interviews covering technical leadership, people management, system design, values, and past experience. Comprehensive evaluation.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Cross-functional Review",
+          description: "Assessment of collaboration skills with product and design partners.",
+          duration: "30-45 minutes"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design the architecture for Airbnb's search and ranking system",
+        "How would you improve reliability for the booking flow?",
+        "Your team is struggling with code quality - how do you address it?",
+        "Design the infrastructure for Airbnb's trust and safety systems",
+        "How do you balance technical debt with product feature velocity?",
+        "Walk through scaling a service from 1M to 100M users",
+        "Your team has a production incident affecting bookings - how do you respond?",
+        "Design the testing strategy for marketplace algorithm changes",
+        "How would you architect Airbnb's messaging system?",
+        "Design monitoring and observability for core booking services"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you championed craft and quality on your team",
+        "Describe a situation where you had to manage a performance issue",
+        "How have you built and scaled an engineering team?",
+        "Tell me about a time when you partnered closely with design and product",
+        "Describe a conflict with cross-functional stakeholders and resolution",
+        "How do you foster a culture of belonging on your team?",
+        "Tell me about a time when you had to make a difficult prioritization call",
+        "Describe how you've mentored engineers to grow their careers"
+      ],
+
+      whatTheyLookFor: [
+        "Strong technical credibility with high standards for code quality",
+        "People management experience leading teams of 5+ engineers",
+        "Design sensibility and ability to partner with designers",
+        "Track record of shipping high-quality products",
+        "Alignment with Airbnb's core values and mission",
+        "Excellent communication and collaboration skills",
+        "Experience with consumer products or marketplaces",
+        "Passion for craft, belonging, and team development"
+      ],
+
+      interviewTips: [
+        "Prepare examples of championing craft and code quality",
+        "Demonstrate design partnership and product collaboration",
+        "Show alignment with Airbnb's core values in your examples",
+        "Be ready to discuss technical architecture and system design",
+        "Emphasize team development and creating belonging",
+        "Understand Airbnb's marketplace dynamics and technical challenges",
+        "Prepare examples of hiring, performance management, and culture building",
+        "Ask about the team's mission, product area, and growth opportunities"
+      ],
+
+      dayInLife: {
+        overview: "Airbnb Engineering Managers balance technical leadership, people development, and cross-functional collaboration in pod structure. Your day includes 1-on-1s, design reviews, technical planning, and fostering team culture.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Pod Standup",
+            description: "Cross-functional sync with engineers, designer, and PM"
+          },
+          {
+            time: "9:30 AM",
+            activity: "1-on-1 Meetings",
+            description: "Career development and coaching conversations with engineers"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Design Review",
+            description: "Collaborate with design and engineering on new feature UX"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Recruiting Lunch",
+            description: "Lunch interview with engineering candidate"
+          },
+          {
+            time: "1:00 PM",
+            activity: "System Design Review",
+            description: "Review architecture for trust and safety feature"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Code Review",
+            description: "Review critical pull requests ensuring quality standards"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Product Planning",
+            description: "Quarterly planning with PM and design on roadmap"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Team Culture",
+            description: "Facilitate team retrospective on sprint and process improvements"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Technical Strategy",
+            description: "Plan technical roadmap and capacity for team"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: "Data Scientists at Airbnb leverage data and experimentation to optimize the marketplace, improve user experience, and drive strategic decisions. You'll work on problems in search ranking, pricing, trust and safety, and growth at massive scale. Airbnb's data scientists are known for rigorous analytical work and strong business partnership.",
+
+      responsibilities: [
+        "Analyze marketplace dynamics to identify growth opportunities",
+        "Design and analyze A/B experiments to measure product impact",
+        "Build models for search ranking, pricing, fraud detection, and forecasting",
+        "Partner with product, engineering, and business teams on data-driven decisions",
+        "Develop metrics frameworks and dashboards for product and business health"
+      ],
+
+      growthOpportunities: [
+        "Work with rich datasets from millions of hosts and guests globally",
+        "Impact key business metrics through data-driven product improvements",
+        "Strong collaboration with product and engineering teams",
+        "Exposure to diverse analytical challenges across the marketplace",
+        "Career growth into senior IC or data science leadership"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of data science experience, interest in Airbnb's mission, and role fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "Statistics, SQL, and case study. Discussion of past analytical work.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (5-6 rounds)",
+          description: "Interviews covering statistics, experimentation, SQL/coding, product analytics, case study, and values. Rigorous technical assessment.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Cross-functional Review",
+          description: "Assessment of collaboration with product and engineering partners.",
+          duration: "30 minutes"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you measure the success of Airbnb search ranking changes?",
+        "Design an experiment to test a new host pricing tool",
+        "Analyze why booking conversion dropped in a market",
+        "How would you detect fraudulent listings or accounts?",
+        "Build a model to predict guest cancellation risk",
+        "How would you optimize the review request timing?",
+        "Analyze the impact of a new trust and safety policy",
+        "Design a forecasting model for seasonal demand",
+        "How would you measure marketplace health?",
+        "Build a propensity model for guest-to-host conversion"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about an analysis that drove a major product decision",
+        "Describe a time when your findings were controversial or unexpected",
+        "How have you communicated complex analyses to non-technical stakeholders?",
+        "Tell me about an experiment that yielded surprising results",
+        "Describe working with incomplete or messy data",
+        "How do you prioritize when you have multiple analysis requests?",
+        "Tell me about a time when you partnered closely with a PM or engineer",
+        "Describe how you've influenced product strategy with data"
+      ],
+
+      whatTheyLookFor: [
+        "Strong statistical and analytical foundation with rigor",
+        "Experience with A/B testing and causal inference",
+        "Proficiency in SQL, Python/R, and statistical modeling",
+        "Ability to translate analysis into actionable insights",
+        "Business acumen and product sense",
+        "Excellent communication and stakeholder partnership",
+        "Experience with marketplaces or consumer products preferred",
+        "Passion for using data to improve user experiences"
+      ],
+
+      interviewTips: [
+        "Use Airbnb and think about data behind search, pricing, and trust",
+        "Prepare to discuss experimental design and causal inference rigorously",
+        "Bring examples of analyses that drove business or product decisions",
+        "Understand marketplace metrics and two-sided platform dynamics",
+        "Be ready for SQL coding and statistical problem-solving",
+        "Show strong business partnership and communication skills",
+        "Research Airbnb's data challenges and experimentation culture",
+        "Ask about team's key metrics, analytical tools, and business impact"
+      ],
+
+      dayInLife: {
+        overview: "Airbnb Data Scientists partner closely with product and engineering, conducting rigorous analysis and experimentation. Your day includes SQL analysis, experimentation, stakeholder collaboration, and presenting insights.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Review marketplace KPIs and investigate booking funnel changes"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Experiment Analysis",
+            description: "Analyze A/B test for new search ranking algorithm"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Product Collaboration",
+            description: "Work with PM to design experiment for pricing feature"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learning",
+            description: "Data science team lunch with paper discussion"
+          },
+          {
+            time: "1:30 PM",
+            activity: "SQL Deep Dive",
+            description: "Analyze host retention patterns by market and listing type"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Model Development",
+            description: "Build cancellation prediction model for risk scoring"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Stakeholder Presentation",
+            description: "Present analysis on trust and safety metrics to leadership"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Dashboard Building",
+            description: "Create executive dashboard for marketplace health tracking"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    }
   }
 }
 
-// Content for FAANG+, Uber, Goldman Sachs, and McKinsey
-// Priority 1 complete (8 companies) + Phase 2A complete (Uber - 4 roles)
-// Total companies with full role content: 9
+// Content for FAANG+, Uber, Airbnb, Goldman Sachs, and McKinsey
+// Priority 1 complete (8 companies) + Phase 2A (Uber) + Phase 2B (Airbnb) complete
+// Total companies with full role content: 10
