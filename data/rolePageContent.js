@@ -2641,9 +2641,600 @@ export const rolePageContent = {
         { companyName: "Apple", companySlug: "apple", industry: "Technology" }
       ]
     }
+  },
+
+  'uber': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Uber build the technology that powers one of the world's largest mobility and delivery platforms, serving millions of riders, drivers, and eaters globally. You'll work on challenging problems in marketplace matching, real-time systems, mapping, payments, and logistics at massive scale. Uber values bold innovation, customer obsession, and moving fast.",
+
+      responsibilities: [
+        "Build scalable services for Uber's marketplace, matching, or delivery platforms",
+        "Design and implement features for rider, driver, or eater-facing applications",
+        "Work on real-time systems handling millions of requests per minute",
+        "Collaborate with cross-functional teams to ship products quickly",
+        "Own services end-to-end including architecture, deployment, and monitoring"
+      ],
+
+      growthOpportunities: [
+        "Work on technology serving millions of users across 70+ countries",
+        "Tackle challenging problems in real-time matching, geo-spatial systems, and logistics",
+        "Fast-paced environment with significant impact and ownership",
+        "Exposure to diverse product areas from ridesharing to food delivery to freight",
+        "Strong compensation with equity and growth potential"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your background, interest in Uber, and role fit. Overview of Uber's mission and culture.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "Coding interview focusing on data structures, algorithms, and problem-solving. May include discussion of past projects.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Multiple interviews covering coding (2 rounds), system design (1-2 rounds), and behavioral/values. Focus on customer obsession and execution.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with potential teams to find the best fit for your interests and skills.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design Uber's ride matching and dispatch system",
+        "Implement surge pricing algorithm for dynamic demand",
+        "Design the ETA calculation system for pickup and dropoff",
+        "How would you detect fraudulent rides or drivers?",
+        "Design Uber Eats restaurant ranking and delivery routing",
+        "Implement geofencing for service area boundaries",
+        "Design a real-time location tracking system for drivers",
+        "How would you optimize driver positioning for demand?",
+        "Design the payment processing system for rides",
+        "Implement fare splitting feature for multiple riders"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you moved fast and broke things - what did you learn?",
+        "Describe a situation where you obsessed over customer experience",
+        "How have you handled ambiguity in a fast-moving project?",
+        "Tell me about a time when you disagreed with a product decision",
+        "Describe a project where you had to make trade-offs between speed and quality",
+        "How do you prioritize when you have multiple urgent requests?",
+        "Tell me about a time when you championed bold innovation",
+        "Describe how you've collaborated across multiple teams"
+      ],
+
+      whatTheyLookFor: [
+        "Strong coding skills and computer science fundamentals",
+        "Experience with distributed systems, real-time systems, or geo-spatial data",
+        "Customer obsession - deep focus on rider and driver experience",
+        "Bias for action - ability to move fast and iterate",
+        "Systems thinking - understanding complex marketplace dynamics",
+        "Collaborative mindset across product, design, and operations",
+        "Entrepreneurial spirit and ownership mentality",
+        "Passion for Uber's mission to move the world"
+      ],
+
+      interviewTips: [
+        "Use Uber and Uber Eats frequently - understand the product deeply",
+        "Prepare for questions about real-time systems and geo-spatial algorithms",
+        "Show examples of moving fast, iterating, and learning from failures",
+        "Understand two-sided marketplace dynamics and matching algorithms",
+        "Emphasize customer obsession and data-driven decision making",
+        "Research Uber's engineering blog and technical challenges",
+        "Be ready to discuss trade-offs between speed, quality, and scale",
+        "Ask about team's mission, technical stack, and key challenges"
+      ],
+
+      dayInLife: {
+        overview: "Uber engineers work in fast-paced, cross-functional teams shipping features that impact millions of users. Your day includes coding, design discussions, cross-team collaboration, and data analysis. Uber emphasizes moving fast and customer obsession.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Standup & Metrics Review",
+            description: "Team sync on progress and review key marketplace metrics"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Feature Development",
+            description: "Code new matching algorithm improvements for driver dispatch"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Product Discussion",
+            description: "Working lunch with PM discussing upcoming features"
+          },
+          {
+            time: "1:00 PM",
+            activity: "System Design Review",
+            description: "Review architecture for new real-time pricing feature"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Cross-team Collaboration",
+            description: "Sync with payments team on integration for fare splitting"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Incident Response",
+            description: "Debug and fix production issue affecting ETAs"
+          },
+          {
+            time: "4:30 PM",
+            activity: "A/B Test Analysis",
+            description: "Analyze experiment results for new driver positioning algorithm"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Code Review",
+            description: "Review pull requests from teammates and provide feedback"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Lyft", companySlug: "lyft", industry: "Technology" },
+        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Uber drive strategy and execution for products serving millions of riders, drivers, eaters, and merchants globally. From core marketplace features to new product lines, you'll define vision, prioritize ruthlessly, and ship fast. Uber PMs balance user needs, business metrics, and operational constraints in a dynamic two-sided marketplace.",
+
+      responsibilities: [
+        "Define product strategy and roadmap for rider, driver, or merchant experiences",
+        "Analyze marketplace dynamics and identify opportunities for growth",
+        "Prioritize features balancing user experience and business metrics",
+        "Collaborate with engineering, design, operations, and data science teams",
+        "Ship experiments, analyze data, and iterate quickly based on results"
+      ],
+
+      growthOpportunities: [
+        "Own products impacting millions of users across global markets",
+        "Deep exposure to marketplace economics and two-sided platform dynamics",
+        "Fast career progression in high-growth environment",
+        "Opportunity to launch new products and enter new markets",
+        "Work across diverse product areas from mobility to delivery to freight"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your PM experience, interest in Uber, and role fit. Overview of team and product area.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into your PM experience, product thinking, and analytical skills. May include case discussion.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Interviews covering product design, analytics, execution, technical depth, and behavioral. Focus on customer obsession and bias for action.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with product teams to find the best fit for your skills and interests.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve Uber's rider app to increase retention?",
+        "Design a new feature to reduce driver cancellations",
+        "How would you increase Uber Eats order frequency?",
+        "Should Uber launch a new product category? How would you decide?",
+        "How would you measure success for surge pricing?",
+        "Design the onboarding experience for new drivers",
+        "How would you reduce rider wait times in low-density areas?",
+        "Analyze why driver supply dropped in a specific market",
+        "Design a loyalty program for frequent riders",
+        "How would you optimize the restaurant discovery experience in Uber Eats?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a product you shipped that didn't perform as expected",
+        "Describe a time when you had to make a decision with incomplete data",
+        "How have you balanced competing stakeholder needs?",
+        "Tell me about a time when you moved fast and had to iterate",
+        "Describe a situation where you used data to change a strategy",
+        "How do you prioritize when everything seems urgent?",
+        "Tell me about a time when you advocated strongly for the customer",
+        "Describe how you've collaborated with operations or support teams"
+      ],
+
+      whatTheyLookFor: [
+        "Customer obsession - deep empathy for riders, drivers, and merchants",
+        "Strong analytical skills and comfort with marketplace metrics",
+        "Bias for action - ability to ship quickly and iterate",
+        "Technical depth to collaborate effectively with engineers",
+        "Data-driven decision making with strong quantitative skills",
+        "Experience with two-sided marketplaces or platforms",
+        "Excellent communication and stakeholder management",
+        "Passion for Uber's mission and products"
+      ],
+
+      interviewTips: [
+        "Use Uber and Uber Eats extensively - understand the full experience",
+        "Prepare to discuss marketplace dynamics and network effects",
+        "Bring data and metrics to support your product decisions",
+        "Show examples of moving fast, testing, and learning",
+        "Understand operational constraints and business models",
+        "Research Uber's product strategy and recent launches",
+        "Emphasize cross-functional collaboration with ops and support",
+        "Ask about the team's key metrics, challenges, and roadmap"
+      ],
+
+      dayInLife: {
+        overview: "Uber PMs move fast, analyzing data, collaborating cross-functionally, and shipping experiments. Your day includes data analysis, design reviews, engineering syncs, operations discussions, and strategic planning.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Analyze daily marketplace metrics: trips, supply, demand, and conversion"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Experiment Review",
+            description: "Review A/B test results for new pricing algorithm"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Engineering Sync",
+            description: "Sprint planning with engineering team for new features"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Operations Meeting",
+            description: "Discuss driver supply challenges with operations team"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Design Review",
+            description: "Review mockups for new rider app feature"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Data Analysis",
+            description: "Deep dive into conversion funnel for new users"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Strategy Meeting",
+            description: "Quarterly planning with leadership on product roadmap"
+          },
+          {
+            time: "5:00 PM",
+            activity: "User Research",
+            description: "Watch recorded rider interviews about payment experience"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Lyft", companySlug: "lyft", industry: "Technology" },
+        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Uber lead high-performing teams building technology for the world's largest mobility and delivery platform. You'll balance technical leadership with people management, drive execution at speed, and foster a culture of innovation and customer obsession. EMs at Uber typically manage teams of 6-10 engineers working on critical marketplace systems.",
+
+      responsibilities: [
+        "Lead and mentor a team of 6-10 software engineers on marketplace or platform systems",
+        "Set technical direction and make architectural decisions for your team's domain",
+        "Drive rapid execution while maintaining quality and reliability",
+        "Hire top talent and develop career growth plans",
+        "Collaborate with product, design, and operations to ship impactful features"
+      ],
+
+      growthOpportunities: [
+        "Lead teams building technology serving millions globally",
+        "Fast-paced environment with high impact and rapid learning",
+        "Clear path to senior leadership (Senior EM, Director, VP)",
+        "Opportunity to build and scale teams in new product areas",
+        "Strong compensation with significant equity"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your management experience, technical background, and interest in Uber.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into leadership philosophy, team management approach, and technical credibility.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Interviews covering technical leadership, people management, system design, and behavioral. Focus on execution and team building.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with teams to find the best fit for your experience and interests.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design the architecture for Uber's matching system at scale",
+        "How would you improve reliability for Uber's payment processing?",
+        "Your team is shipping features slowly - how do you diagnose and fix?",
+        "Design the infrastructure for real-time driver location updates",
+        "How do you balance technical debt with new feature development?",
+        "Walk through how you'd scale a service experiencing 10x growth",
+        "Your team has a critical production incident - how do you respond?",
+        "Design the testing strategy for marketplace algorithm changes",
+        "How would you migrate a legacy system to microservices?",
+        "Design the monitoring and alerting for Uber's core services"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you had to ship a critical feature under tight deadline",
+        "Describe a situation where you had to manage a low performer",
+        "How have you built and scaled an engineering team?",
+        "Tell me about a time when you had to make a difficult technical trade-off",
+        "Describe a conflict with product or business stakeholders",
+        "How do you maintain quality while moving fast?",
+        "Tell me about a time when you had to deliver difficult feedback",
+        "Describe how you've fostered innovation in your team"
+      ],
+
+      whatTheyLookFor: [
+        "Strong technical credibility with distributed systems experience",
+        "People management experience leading teams of 5+ engineers",
+        "Bias for action - ability to ship quickly without sacrificing quality",
+        "Track record of building high-performing, diverse teams",
+        "Customer obsession and data-driven decision making",
+        "Excellent communication and cross-functional collaboration",
+        "Experience with real-time systems, marketplaces, or high-scale platforms",
+        "Passion for Uber's mission and fast-paced culture"
+      ],
+
+      interviewTips: [
+        "Prepare examples of shipping critical features quickly",
+        "Demonstrate technical depth in distributed systems and real-time tech",
+        "Show how you've balanced speed with quality and reliability",
+        "Emphasize cross-functional collaboration with product and operations",
+        "Be ready to discuss hiring, performance management, and team culture",
+        "Understand Uber's marketplace dynamics and technical challenges",
+        "Prepare examples of handling incidents and production issues",
+        "Ask about team's mission, technical stack, and growth opportunities"
+      ],
+
+      dayInLife: {
+        overview: "Uber Engineering Managers balance technical leadership, people development, and rapid execution. Your day includes 1-on-1s, technical reviews, cross-functional collaboration, incident response, and strategic planning.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Standup & Incident Review",
+            description: "Team sync and review overnight incidents or alerts"
+          },
+          {
+            time: "9:30 AM",
+            activity: "1-on-1 Meetings",
+            description: "Career development conversations with engineers"
+          },
+          {
+            time: "11:00 AM",
+            activity: "System Design Review",
+            description: "Review architecture for new matching algorithm"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Recruiting Lunch",
+            description: "Lunch interview with senior engineer candidate"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Product Planning",
+            description: "Sprint planning with PM and design for next quarter"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Code Review",
+            description: "Review critical pull requests for marketplace changes"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Cross-team Sync",
+            description: "Align with payments and fraud teams on integration"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Technical Strategy",
+            description: "Plan technical roadmap and capacity for team"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Performance Reviews",
+            description: "Write reviews and prepare for calibration meetings"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Lyft", companySlug: "lyft", industry: "Technology" },
+        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: "Data Scientists at Uber leverage data and analytics to optimize the marketplace, improve user experience, and drive business decisions. You'll work on challenging problems in pricing, matching, forecasting, and experimentation at massive scale. Uber's data scientists combine statistical rigor with business acumen to move key metrics.",
+
+      responsibilities: [
+        "Analyze marketplace dynamics and identify opportunities for optimization",
+        "Design and analyze A/B experiments to measure feature impact",
+        "Build statistical models for pricing, forecasting, and fraud detection",
+        "Partner with product and engineering teams to drive data-informed decisions",
+        "Develop metrics and dashboards to track business and user health"
+      ],
+
+      growthOpportunities: [
+        "Work with one of the world's largest and most complex datasets",
+        "Impact millions of users through data-driven product improvements",
+        "Exposure to diverse problems from pricing to matching to logistics",
+        "Strong collaboration with engineering and product teams",
+        "Career growth into senior IC or leadership roles"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your data science experience, interest in Uber, and role fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "Statistics, SQL, and analytics case study. May include discussion of past projects.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Interviews covering statistics, experimentation, SQL/coding, product sense, and behavioral. Focus on business impact and collaboration.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with data science teams across different product areas.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you measure the success of surge pricing?",
+        "Design an experiment to test a new driver incentive program",
+        "Analyze why rider cancellations increased in a market",
+        "How would you detect fraudulent drivers or rides?",
+        "Design a forecasting model for demand prediction",
+        "How would you optimize driver positioning?",
+        "Analyze the impact of a new feature on rider retention",
+        "Design a model to predict driver churn",
+        "How would you measure marketplace efficiency?",
+        "Build a pricing model for Uber Eats delivery fees"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about an analysis that led to a major business decision",
+        "Describe a time when your findings contradicted stakeholder expectations",
+        "How have you communicated complex analyses to non-technical audiences?",
+        "Tell me about an experiment that produced unexpected results",
+        "Describe a situation where you had to work with messy or incomplete data",
+        "How do you prioritize when you have multiple analysis requests?",
+        "Tell me about a time when you disagreed with a product decision",
+        "Describe how you've collaborated with engineers on data infrastructure"
+      ],
+
+      whatTheyLookFor: [
+        "Strong statistical and analytical skills with business intuition",
+        "Experience with A/B testing and experimental design",
+        "Proficiency in SQL, Python/R, and data visualization",
+        "Ability to translate data insights into actionable recommendations",
+        "Experience with marketplaces, pricing, or forecasting preferred",
+        "Excellent communication skills for cross-functional collaboration",
+        "Customer obsession and focus on business impact",
+        "Passion for using data to improve user experience"
+      ],
+
+      interviewTips: [
+        "Use Uber products and think about the data behind the experience",
+        "Prepare to discuss A/B testing, causality, and experimental design",
+        "Bring examples of analyses that drove business decisions",
+        "Understand marketplace metrics and two-sided platform dynamics",
+        "Be ready for SQL coding and statistical problem-solving",
+        "Show strong communication skills and business intuition",
+        "Research Uber's data challenges and experimentation platform",
+        "Ask about the team's key metrics, tools, and analytical challenges"
+      ],
+
+      dayInLife: {
+        overview: "Uber Data Scientists analyze data, design experiments, build models, and collaborate cross-functionally to drive business impact. Your day includes SQL analysis, experimentation, stakeholder meetings, and presenting insights.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Review daily marketplace KPIs and investigate anomalies"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Experiment Analysis",
+            description: "Analyze A/B test results for new pricing algorithm"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Stakeholder Meeting",
+            description: "Present analysis on driver churn to operations leadership"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Data Discussion",
+            description: "Informal discussion with data science peers"
+          },
+          {
+            time: "1:30 PM",
+            activity: "SQL Analysis",
+            description: "Deep dive into rider conversion funnel by market"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Product Collaboration",
+            description: "Work with PM to design experiment for new feature"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Model Development",
+            description: "Build forecasting model for demand prediction"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Dashboard Building",
+            description: "Create executive dashboard for marketplace health"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Lyft", companySlug: "lyft", industry: "Technology" },
+        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+      ]
+    }
   }
 }
 
-// Content for Apple, Amazon, Meta, Google, Goldman Sachs, McKinsey, Microsoft, and Netflix
-// FAANG+ coverage complete - Priority 1 finished
-// Total companies with full role content: 8 (Apple: 3 roles, Microsoft: 3 roles, Netflix: 2 roles, Amazon: 3 roles, Meta: 3 roles, Google: 2 roles, Goldman Sachs: 1 role, McKinsey: 1 role)
+// Content for FAANG+, Uber, Goldman Sachs, and McKinsey
+// Priority 1 complete (8 companies) + Phase 2A complete (Uber - 4 roles)
+// Total companies with full role content: 9
