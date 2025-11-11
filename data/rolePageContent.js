@@ -7588,6 +7588,1072 @@ export const rolePageContent = {
         { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" }
       ]
     }
+  },
+
+  // Priority 3C: Atlassian
+  'atlassian': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Atlassian build collaboration and productivity tools used by hundreds of thousands of teams worldwide. You'll work on products like Jira, Confluence, Trello, and Bitbucket, helping teams organize work and collaborate effectively. Engineers at Atlassian value team collaboration, autonomy, and building products developers love to use.",
+
+      responsibilities: [
+        "Design and build features for Atlassian products (Jira, Confluence, Trello, Bitbucket)",
+        "Develop cloud-native SaaS applications at scale",
+        "Work on developer tools and APIs for extensibility",
+        "Build integrations with popular development and collaboration tools",
+        "Optimize performance for large enterprise deployments",
+        "Collaborate with product and design in autonomous teams",
+        "Contribute to Atlassian's open-source projects",
+        "Participate in on-call rotation supporting production services"
+      ],
+
+      growthOpportunities: [
+        "Career progression based on impact and technical leadership",
+        "Exposure to large-scale SaaS and collaboration platforms",
+        "Work on products used by millions of teams globally",
+        "Opportunities across Jira, Confluence, Trello, Bitbucket, and platform",
+        "Internal mobility between product teams and locations",
+        "Strong engineering culture valuing autonomy and innovation",
+        "Access to continuous learning and conference opportunities",
+        "Global impact on how teams work and collaborate"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about background, experience, and interest in Atlassian.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute coding interview on data structures, algorithms, and problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Coding (2 rounds), system design, behavioral/values fit, and sometimes product/domain discussion.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching & Offer",
+          description: "Conversation with potential teams. Competitive offer with equity and benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design a system like Jira for issue tracking and project management",
+        "Implement real-time collaborative editing like Confluence",
+        "Design Trello's card management and board system",
+        "How would you build a scalable notification system?",
+        "Design Bitbucket's code review and pull request workflow",
+        "Implement a permission system for teams and organizations",
+        "Design a plugin/marketplace architecture for extensibility",
+        "How would you handle data migration for large enterprises?",
+        "Design a search system across multiple Atlassian products",
+        "Implement an activity feed showing updates across projects"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you built tools for developer productivity",
+        "Describe your experience with SaaS or collaboration platforms",
+        "How have you worked in autonomous, cross-functional teams?",
+        "Tell me about a time you gathered user feedback to improve a product",
+        "Describe your approach to building extensible systems",
+        "How do you balance feature development with technical excellence?",
+        "Tell me about a time you improved team collaboration",
+        "Describe a project where you had high ownership and autonomy"
+      ],
+
+      whatTheyLookFor: [
+        "Strong computer science fundamentals and coding skills",
+        "Experience with web applications and SaaS platforms",
+        "Collaboration skills and ability to work autonomously",
+        "Product thinking and user empathy",
+        "Passion for developer tools and team productivity",
+        "Problem-solving with ambiguous requirements",
+        "Alignment with Atlassian values (Open company, no bullshit; Build with heart and balance; Don't #@!% the customer; Play, as a team; Be the change you seek)",
+        "Interest in building extensible platforms"
+      ],
+
+      interviewTips: [
+        "Understand Atlassian's products and how teams use them",
+        "Show passion for developer tools and team collaboration",
+        "Be prepared to discuss SaaS architecture and scalability",
+        "Demonstrate examples of working with autonomy",
+        "Research Atlassian's company values and culture",
+        "Prepare examples of building for extensibility",
+        "Be ready to discuss real-time collaboration challenges",
+        "Express interest in empowering teams through better tools"
+      ],
+
+      dayInLife: {
+        overview: "Atlassian engineers work in autonomous teams with high ownership. Days involve coding, collaboration with product and design, code reviews, and solving collaboration platform challenges.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with team on progress and priorities"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Feature Development",
+            description: "Build new automation feature for Jira workflows"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Product Discussion",
+            description: "Collaborate with PM and designer on user feedback"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learn",
+            description: "Team lunch with discussion about new technologies"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Code Review",
+            description: "Review pull requests from teammates in Bitbucket"
+          },
+          {
+            time: "2:30 PM",
+            activity: "System Design",
+            description: "Design session for real-time collaboration improvements"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Bug Fixing",
+            description: "Debug and fix issue reported by enterprise customer"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Innovation Time",
+            description: "Experiment with new approach to plugin architecture"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "GitHub", companySlug: "github", industry: "Technology" },
+        { companyName: "Slack", companySlug: "slack", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Atlassian drive strategy and execution for collaboration and productivity tools serving hundreds of thousands of teams. You'll work on Jira, Confluence, Trello, Bitbucket, or platform products, balancing team needs with technical innovation. PMs combine deep understanding of team workflows with data-driven product development.",
+
+      responsibilities: [
+        "Define product vision and roadmap for collaboration tools",
+        "Collaborate with engineering and design in autonomous teams",
+        "Conduct user research with software teams and enterprises",
+        "Analyze product metrics and usage data",
+        "Drive integration strategy across Atlassian products",
+        "Balance needs of small teams and large enterprises",
+        "Present product strategy to leadership and customers",
+        "Monitor competitive landscape and team collaboration trends"
+      ],
+
+      growthOpportunities: [
+        "Rapid career advancement based on product impact",
+        "Exposure to collaboration platforms and developer tools",
+        "Opportunities to own products serving millions of teams",
+        "Cross-functional leadership with engineering and design",
+        "Internal mobility across Jira, Confluence, Trello, and platform",
+        "Strong product culture valuing autonomy and customer focus",
+        "Access to diverse customer base from startups to enterprises",
+        "Global impact on how teams organize and collaborate"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about PM experience and passion for team collaboration.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Product Case Interview",
+          description: "60-minute product design or strategy case focused on collaboration or productivity tools.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Product design, technical collaboration, customer empathy, analytics, and values fit.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching & Offer",
+          description: "Conversation with teams. Competitive offer with equity and benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve Jira for agile software teams?",
+        "Design a new feature to increase Confluence adoption",
+        "How would you measure success for Trello's collaboration features?",
+        "What metrics would you track for Bitbucket's code review flow?",
+        "How would you compete against Microsoft Teams or Slack?",
+        "Design an integration strategy across Atlassian products",
+        "How would you prioritize features for small teams vs enterprises?",
+        "What would you do if Jira's NPS declined by 10 points?",
+        "Design a strategy for Atlassian's AI and automation features",
+        "How would you approach launching a new collaboration product?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a B2B product you've managed",
+        "Describe how you've worked with developers and technical teams",
+        "How have you gathered insights from diverse customer segments?",
+        "Tell me about a product decision based on user research",
+        "Describe your experience with SaaS or collaboration products",
+        "How do you balance innovation with enterprise stability?",
+        "Tell me about a time you championed the customer",
+        "Describe a product that didn't meet expectations and lessons learned"
+      ],
+
+      whatTheyLookFor: [
+        "Passion for team collaboration and productivity",
+        "User empathy for software teams and knowledge workers",
+        "Technical understanding to collaborate with engineers",
+        "Analytical skills and data-driven decision making",
+        "Understanding of team workflows and agile practices",
+        "Strong communication and stakeholder management",
+        "Alignment with Atlassian values and customer focus",
+        "Experience with B2B SaaS products a plus"
+      ],
+
+      interviewTips: [
+        "Use Atlassian products and understand team workflows",
+        "Show genuine passion for improving team collaboration",
+        "Be prepared to discuss B2B SaaS business models",
+        "Research Atlassian's product strategy and ecosystem",
+        "Demonstrate understanding of developer and team needs",
+        "Prepare ideas for Atlassian's product evolution",
+        "Be ready to discuss freemium-to-enterprise strategies",
+        "Express alignment with Atlassian values (especially customer focus)"
+      ],
+
+      dayInLife: {
+        overview: "Atlassian PMs balance strategic planning, user research with teams, engineering collaboration, and data analysis. Days involve customer engagement, product decisions, and cross-product collaboration.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Customer Interview",
+            description: "Video call with engineering team using Jira at scale"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Product Planning",
+            description: "Review roadmap priorities with engineering team"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Data Analysis",
+            description: "Analyze usage patterns and feature adoption metrics"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch with Design",
+            description: "Discuss user research findings on collaboration workflows"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Feature Review",
+            description: "Review beta version of new automation capabilities"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Cross-Product Sync",
+            description: "Coordinate integration strategy with Confluence PM"
+          },
+          {
+            time: "3:00 PM",
+            activity: "User Testing",
+            description: "Observe teams using new project templates feature"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Strategy Presentation",
+            description: "Present Q2 product strategy to leadership team"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "GitHub", companySlug: "github", industry: "Technology" },
+        { companyName: "Slack", companySlug: "slack", industry: "Technology" },
+        { companyName: "Asana", companySlug: "asana", industry: "Technology" },
+        { companyName: "Monday.com", companySlug: "monday", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Atlassian lead teams building collaboration tools used by hundreds of thousands of teams globally. You'll manage engineers working on Jira, Confluence, Trello, Bitbucket, or platform products, fostering autonomous team culture while delivering reliable SaaS products. EMs balance technical leadership with Atlassian's values-driven culture.",
+
+      responsibilities: [
+        "Lead team of engineers on collaboration or productivity products",
+        "Drive technical strategy and architecture decisions",
+        "Partner with product and design on roadmap execution",
+        "Recruit, develop, and retain engineering talent",
+        "Conduct 1:1s, performance reviews, and career coaching",
+        "Foster autonomous team culture with high ownership",
+        "Ensure product quality and SaaS reliability",
+        "Contribute to engineering practices and culture"
+      ],
+
+      growthOpportunities: [
+        "Scale management skills in high-autonomy environment",
+        "Exposure to large-scale SaaS and collaboration platforms",
+        "Opportunities to grow into senior engineering leadership",
+        "Cross-functional influence with product, design, and customers",
+        "Shape engineering culture emphasizing values and autonomy",
+        "Mentor engineers working on widely-used developer tools",
+        "Internal mobility across Atlassian's product portfolio",
+        "Impact on how millions of teams collaborate globally"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about management experience and interest in Atlassian.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Discussion",
+          description: "60-minute discussion on system design, technical leadership, and SaaS challenges.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "People management, technical leadership, collaboration, system design, and values fit.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching & Offer",
+          description: "Conversation with leadership and teams. Competitive offer with equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you architect a real-time collaboration system at scale?",
+        "Describe your approach to managing technical debt in SaaS products",
+        "How do you balance innovation with reliability for enterprise customers?",
+        "What's your strategy for building extensible platform architectures?",
+        "How would you approach multi-tenancy and data isolation?",
+        "Describe your framework for API design and versioning",
+        "How do you ensure high availability for mission-critical tools?",
+        "What's your approach to managing distributed teams?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about managing engineers on developer tools or SaaS products",
+        "Describe how you've fostered autonomy while maintaining alignment",
+        "How have you developed engineers' technical and career growth?",
+        "Tell me about balancing customer needs with engineering excellence",
+        "Describe your experience building values-driven team culture",
+        "How do you build partnerships with product and design teams?",
+        "Tell me about a difficult technical decision involving customers",
+        "Describe how you've improved team productivity and satisfaction"
+      ],
+
+      whatTheyLookFor: [
+        "Strong people leadership and team development skills",
+        "Technical depth in SaaS platforms and web applications",
+        "Ability to foster autonomous, high-performing teams",
+        "Customer focus and product mindset",
+        "Alignment with Atlassian values and culture",
+        "Balance of innovation and operational excellence",
+        "Collaboration skills across functions and teams",
+        "Passion for developer tools and team productivity"
+      ],
+
+      interviewTips: [
+        "Understand Atlassian's products and team culture",
+        "Prepare examples of fostering autonomous teams",
+        "Show experience with SaaS platforms and reliability",
+        "Demonstrate customer-centric leadership approach",
+        "Research Atlassian's values (especially 'Open company, no bullshit')",
+        "Discuss your approach to building extensible systems",
+        "Be ready to talk about distributed team management",
+        "Express passion for empowering teams through better tools"
+      ],
+
+      dayInLife: {
+        overview: "Atlassian EMs balance people management, technical leadership, and values-driven culture. Days include 1:1s, technical discussions, cross-functional collaboration, and fostering team autonomy.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "1:1 Meetings",
+            description: "Career development discussions with two engineers"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Technical Architecture",
+            description: "Review design for new Jira automation framework"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Product Planning",
+            description: "Collaborate with PM on Q2 roadmap and capacity"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Recruiting",
+            description: "Interview senior engineer candidate for Confluence team"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Team Lunch",
+            description: "Informal team lunch to build relationships and culture"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Customer Escalation",
+            description: "Work with team on critical enterprise customer issue"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Team Sync",
+            description: "Weekly team meeting on sprint progress and celebrations"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Engineering Leadership",
+            description: "Cross-team meeting on engineering practices and culture"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "GitHub", companySlug: "github", industry: "Technology" },
+        { companyName: "Slack", companySlug: "slack", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" }
+      ]
+    }
+  },
+
+  // Priority 3C: Snowflake
+  'snowflake': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Snowflake build the cloud data platform revolutionizing how organizations store, process, and analyze data. You'll work on distributed systems, query optimization, data sharing, or cloud infrastructure, solving challenges at massive scale. Engineers at Snowflake tackle cutting-edge problems in databases, distributed systems, and cloud computing.",
+
+      responsibilities: [
+        "Design and build features for Snowflake's cloud data platform",
+        "Work on distributed query engine and storage systems",
+        "Develop data sharing and collaboration features",
+        "Build cloud-native infrastructure across AWS, Azure, and GCP",
+        "Optimize performance for massive-scale data workloads",
+        "Collaborate with product on enterprise data solutions",
+        "Ensure security and compliance for enterprise customers",
+        "Contribute to innovations in cloud database architecture"
+      ],
+
+      growthOpportunities: [
+        "Career progression from IC to principal engineer or architect",
+        "Exposure to cutting-edge database and distributed systems",
+        "Work on technology used by Fortune 500 data teams",
+        "Opportunities across storage, compute, data sharing, and platform",
+        "Internal mobility between product teams and infrastructure",
+        "Access to world-class engineering talent in databases",
+        "Influence on future of cloud data platforms",
+        "High-growth company with significant market opportunity"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about background, experience, and interest in Snowflake.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute coding interview on data structures, algorithms, and systems concepts.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-6 rounds)",
+          description: "Coding (2 rounds), system design (1-2 rounds), behavioral, and sometimes domain-specific technical deep dive.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Engineering review of technical depth. Competitive offer with equity in high-growth company.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design a distributed query engine for analytical workloads",
+        "Implement a columnar storage format for data warehouses",
+        "Design Snowflake's data sharing architecture",
+        "How would you optimize query performance for joins on large datasets?",
+        "Design a caching system for frequently accessed data",
+        "Implement a cost-based query optimizer",
+        "Design multi-cloud data storage and replication",
+        "How would you handle schema evolution in a data warehouse?",
+        "Design a system for time travel and data versioning",
+        "Implement a virtual warehouse auto-scaling system"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you worked on database or distributed systems",
+        "Describe your experience with cloud infrastructure (AWS, Azure, GCP)",
+        "How have you optimized system performance at scale?",
+        "Tell me about a complex technical problem you solved",
+        "Describe your approach to designing for reliability",
+        "How do you handle trade-offs between performance and cost?",
+        "Tell me about a time you learned a new complex domain",
+        "Describe a project where you had significant technical impact"
+      ],
+
+      whatTheyLookFor: [
+        "Strong fundamentals in systems, databases, and algorithms",
+        "Experience with distributed systems and cloud platforms",
+        "Deep understanding of database internals and query processing",
+        "Performance optimization mindset",
+        "Ability to work on complex technical problems",
+        "Collaboration skills with product and engineering teams",
+        "Passion for data infrastructure and cloud computing",
+        "Entrepreneurial mindset and ownership"
+      ],
+
+      interviewTips: [
+        "Understand database concepts (query optimization, storage, indexing)",
+        "Be prepared to discuss distributed systems challenges",
+        "Show experience with performance optimization if applicable",
+        "Research Snowflake's architecture and unique features",
+        "Demonstrate understanding of cloud computing (AWS/Azure/GCP)",
+        "Prepare examples of working on complex technical systems",
+        "Be ready to discuss data warehouse and analytics use cases",
+        "Express passion for building foundational data infrastructure"
+      ],
+
+      dayInLife: {
+        overview: "Snowflake engineers work on cutting-edge database technology at massive scale. Days involve coding, design discussions, performance optimization, and solving complex distributed systems challenges.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync on query engine optimization project"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Feature Development",
+            description: "Implement new query optimization technique for complex joins"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Design Review",
+            description: "Review architecture for data sharing performance improvements"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Performance Analysis",
+            description: "Analyze query performance metrics and identify optimization opportunities"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch & Tech Talk",
+            description: "Internal presentation on distributed consensus algorithms"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Code Review",
+            description: "Review PRs for storage engine changes"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Customer Workload",
+            description: "Debug performance issue for large enterprise customer query"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Innovation Time",
+            description: "Research new approaches to columnar storage compression"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Databricks", companySlug: "databricks", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Snowflake drive strategy for the cloud data platform used by thousands of data-driven organizations. You'll work on data warehousing, data sharing, analytics, or platform features, balancing technical innovation with customer needs. PMs combine deep understanding of data infrastructure with enterprise product expertise.",
+
+      responsibilities: [
+        "Define product vision and roadmap for data platform features",
+        "Collaborate with engineering on technical product decisions",
+        "Conduct research with data teams and enterprise customers",
+        "Analyze product usage and customer adoption metrics",
+        "Drive go-to-market strategy with sales and marketing",
+        "Balance innovation with enterprise reliability and security",
+        "Present product strategy to executives and customers",
+        "Monitor competitive landscape in cloud data platforms"
+      ],
+
+      growthOpportunities: [
+        "Rapid career advancement in high-growth company",
+        "Exposure to cutting-edge data infrastructure and analytics",
+        "Opportunities to own products serving Fortune 500 data teams",
+        "Cross-functional leadership with engineering, sales, and customers",
+        "Internal mobility across data warehousing, sharing, and platform",
+        "Access to complex technical problems and enterprise customers",
+        "Influence on future of cloud data and analytics",
+        "Significant equity upside in fast-growing company"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about PM experience and interest in data infrastructure.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Product Case Interview",
+          description: "60-minute product strategy or technical case focused on data platforms.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Product strategy, technical depth, customer focus, analytics, and leadership interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Cross-functional review. Competitive offer with significant equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve Snowflake's query performance?",
+        "Design a product strategy for data sharing across organizations",
+        "How would you measure success for Snowflake's data marketplace?",
+        "What metrics would you track for compute resource utilization?",
+        "How would you compete against AWS Redshift or Google BigQuery?",
+        "Design a feature to improve data governance and security",
+        "How would you prioritize features for data engineers vs analysts?",
+        "What would you do if customer churn increased?",
+        "Design a strategy for Snowflake's AI and ML capabilities",
+        "How would you approach international expansion?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a technical product you've managed",
+        "Describe how you've worked with data teams or enterprises",
+        "How have you balanced technical innovation with stability?",
+        "Tell me about a time you influenced engineering decisions",
+        "Describe your experience with cloud or infrastructure products",
+        "How do you prioritize features with limited resources?",
+        "Tell me about a product that exceeded expectations",
+        "Describe a time you had to make tough trade-off decisions"
+      ],
+
+      whatTheyLookFor: [
+        "Technical depth to understand database and distributed systems",
+        "Customer empathy for data engineers and analysts",
+        "Strategic thinking about data infrastructure market",
+        "Analytical skills and data-driven decision making",
+        "Understanding of enterprise buying and deployment",
+        "Strong communication skills for technical audiences",
+        "Entrepreneurial mindset and ownership",
+        "Passion for data infrastructure and cloud computing"
+      ],
+
+      interviewTips: [
+        "Understand Snowflake's architecture and competitive advantages",
+        "Show passion for data infrastructure and analytics",
+        "Be prepared to discuss database and cloud concepts",
+        "Research competitive landscape (AWS, Azure, GCP data services)",
+        "Demonstrate understanding of data team workflows",
+        "Prepare ideas for Snowflake's product strategy",
+        "Be ready to discuss enterprise SaaS business models",
+        "Express interest in high-growth technology companies"
+      ],
+
+      dayInLife: {
+        overview: "Snowflake PMs balance strategic planning, customer engagement, technical collaboration, and market analysis. Days involve working with data teams, engineering, and enterprise customers.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Customer Call",
+            description: "Discuss data sharing requirements with Fortune 500 data team"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Product Planning",
+            description: "Review Q2 roadmap priorities with engineering leadership"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Technical Deep Dive",
+            description: "Learn about new query optimization techniques from engineers"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Competitive Analysis",
+            description: "Research new features from AWS Redshift and Google BigQuery"
+          },
+          {
+            time: "1:00 PM",
+            activity: "User Research",
+            description: "Observe data engineers using Snowflake for analytics workloads"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Product Review",
+            description: "Present data governance product strategy to executives"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Engineering Collaboration",
+            description: "Discuss technical feasibility of new data sharing features"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Metrics Analysis",
+            description: "Analyze customer usage patterns and adoption metrics"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Databricks", companySlug: "databricks", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Snowflake lead teams building the cloud data platform revolutionizing data infrastructure. You'll manage engineers working on query processing, storage, data sharing, or cloud infrastructure, balancing technical excellence with rapid growth. EMs foster innovation while maintaining reliability for enterprise customers.",
+
+      responsibilities: [
+        "Lead team of engineers on data platform or infrastructure",
+        "Drive technical strategy and architecture for data systems",
+        "Partner with product on roadmap and feature execution",
+        "Recruit, develop, and retain top engineering talent",
+        "Conduct 1:1s, performance reviews, and career coaching",
+        "Ensure system reliability and performance at scale",
+        "Manage customer escalations and technical support",
+        "Contribute to engineering culture and technical excellence"
+      ],
+
+      growthOpportunities: [
+        "Scale management skills in high-growth environment",
+        "Exposure to cutting-edge database and distributed systems",
+        "Opportunities to grow into senior engineering leadership",
+        "Cross-functional influence with product, sales, and customers",
+        "Shape engineering culture in fast-growing company",
+        "Mentor engineers on complex technical systems",
+        "Internal mobility across data platform and infrastructure",
+        "Significant equity upside in rapidly growing company"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about management experience and interest in Snowflake.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Discussion",
+          description: "60-minute discussion on system design, technical leadership, and database systems.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-6 rounds)",
+          description: "People management, technical leadership, collaboration, system design, and leadership assessment.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Engineering leadership review. Competitive offer with significant equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you architect a distributed query engine?",
+        "Describe your approach to optimizing database performance",
+        "How do you balance feature velocity with system reliability?",
+        "What's your strategy for scaling systems 10x?",
+        "How would you approach multi-cloud architecture?",
+        "Describe your framework for technical decision-making",
+        "How do you ensure data consistency in distributed systems?",
+        "What's your approach to managing technical debt?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about managing engineers on database or infrastructure systems",
+        "Describe how you've scaled a team in a high-growth environment",
+        "How have you developed engineers' technical depth?",
+        "Tell me about balancing innovation with enterprise reliability",
+        "Describe your experience with distributed or global teams",
+        "How do you build partnerships with product and customers?",
+        "Tell me about a difficult technical decision with trade-offs",
+        "Describe how you've improved team productivity"
+      ],
+
+      whatTheyLookFor: [
+        "Strong people leadership and team scaling skills",
+        "Technical depth in databases and distributed systems",
+        "Experience with high-growth technology companies",
+        "Customer focus and enterprise mindset",
+        "Balance of innovation and operational excellence",
+        "Ability to recruit and retain top engineering talent",
+        "Collaboration skills across functions",
+        "Passion for data infrastructure and cloud computing"
+      ],
+
+      interviewTips: [
+        "Understand Snowflake's architecture and technical challenges",
+        "Prepare examples of managing database or infrastructure teams",
+        "Show experience with high-growth or scaling environments",
+        "Demonstrate technical depth in distributed systems",
+        "Discuss your approach to balancing speed and reliability",
+        "Research Snowflake's engineering culture",
+        "Be ready to discuss recruiting in competitive markets",
+        "Express passion for building foundational data infrastructure"
+      ],
+
+      dayInLife: {
+        overview: "Snowflake EMs balance people management, technical leadership, and scaling teams in high-growth environment. Days include 1:1s, technical discussions, recruiting, and customer engagement.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "1:1 Meetings",
+            description: "Career development discussions with two senior engineers"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Technical Architecture",
+            description: "Review design for next-generation query optimizer"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Recruiting",
+            description: "Interview principal engineer candidate for storage team"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Product Planning",
+            description: "Collaborate with PM on Q2 roadmap and engineering capacity"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Customer Escalation",
+            description: "Work with team on performance issue for large customer"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Team Sync",
+            description: "Weekly team meeting on project status and technical challenges"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Engineering Leadership",
+            description: "Leadership meeting on org scaling and hiring strategy"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Performance Reviews",
+            description: "Prepare promotion cases for high-performing engineers"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Databricks", companySlug: "databricks", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" }
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: "Data Scientists at Snowflake use data, analytics, and machine learning to enhance the data platform and drive business insights. You'll work on query optimization, usage analytics, customer intelligence, or platform features, applying data science to improve data infrastructure. Snowflake data scientists combine technical rigor with understanding of data platforms and enterprise customers.",
+
+      responsibilities: [
+        "Build models to optimize query performance and resource allocation",
+        "Analyze customer usage patterns and product adoption",
+        "Develop predictive models for capacity planning and cost optimization",
+        "Design and analyze experiments to measure feature impact",
+        "Create analytics frameworks for product and engineering teams",
+        "Work on machine learning features for data platform",
+        "Partner with product on data-driven decision making",
+        "Contribute to customer success and retention analytics"
+      ],
+
+      growthOpportunities: [
+        "Advance from IC data scientist to senior DS or ML engineer",
+        "Exposure to large-scale data infrastructure and analytics",
+        "Work on products serving Fortune 500 data teams",
+        "Opportunities across product analytics, platform ML, and customer intelligence",
+        "Internal mobility between product and business analytics teams",
+        "Access to massive datasets on data platform usage",
+        "Collaborate with world-class engineering team",
+        "Impact on cloud data platform and enterprise customers"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about data science background and interest in Snowflake.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview on statistics, ML, SQL, and analytical problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Analytics case study, machine learning, SQL/coding, product sense, and behavioral interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Review of technical skills and product thinking. Competitive offer with equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you optimize query performance using machine learning?",
+        "Build a model to predict customer churn for Snowflake",
+        "How would you measure the success of a new data sharing feature?",
+        "Design an experiment to test a query optimizer improvement",
+        "Build a model to forecast compute resource usage",
+        "How would you analyze which features drive customer adoption?",
+        "Design a recommendation system for query optimization",
+        "Build a cost prediction model for customer workloads",
+        "How would you detect anomalous query patterns?",
+        "Design analytics to improve data warehouse performance"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a data infrastructure or systems project you worked on",
+        "Describe how you've used data to influence product decisions",
+        "How have you collaborated with engineering teams?",
+        "Tell me about an analysis that produced unexpected insights",
+        "Describe your experience with large-scale data systems",
+        "How do you approach problems with complex technical constraints?",
+        "Tell me about a time your work impacted business outcomes",
+        "Describe a project where you balanced rigor with speed"
+      ],
+
+      whatTheyLookFor: [
+        "Strong foundation in statistics, ML, and data analysis",
+        "Proficiency in SQL, Python, and data science tools",
+        "Understanding of database systems and query processing",
+        "Product sense for data infrastructure and enterprise needs",
+        "Ability to work on technical, systems-oriented problems",
+        "Strong communication skills for technical audiences",
+        "Passion for data infrastructure and cloud computing",
+        "Entrepreneurial mindset and ownership"
+      ],
+
+      interviewTips: [
+        "Understand database concepts and query optimization",
+        "Be prepared to discuss SQL and data analysis at scale",
+        "Show passion for data infrastructure and systems",
+        "Research Snowflake's architecture and use cases",
+        "Demonstrate experience with large-scale data analysis",
+        "Prepare examples of data-driven product improvements",
+        "Be ready to discuss ML for systems optimization",
+        "Express interest in enterprise data platforms"
+      ],
+
+      dayInLife: {
+        overview: "Snowflake data scientists balance analytics, modeling, experimentation, and collaboration with product and engineering. Work involves SQL, Python, ML, and strategic thinking about data platforms.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Query Analysis",
+            description: "Analyze customer query patterns to identify optimization opportunities"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Team Sync",
+            description: "Data science team standup on ongoing projects"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Model Development",
+            description: "Build ML model for predicting query resource requirements"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Product Collaboration",
+            description: "Discuss analytics requirements with product manager"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Experiment Analysis",
+            description: "Analyze A/B test results for new query optimizer feature"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Customer Intelligence",
+            description: "Analyze customer usage patterns and adoption trends"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Engineering Collaboration",
+            description: "Present findings on query performance to engineering team"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Deep Dive Analysis",
+            description: "Investigate factors driving customer retention and expansion"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Databricks", companySlug: "databricks", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" }
+      ]
+    }
   }
 }
 
@@ -7595,4 +8661,5 @@ export const rolePageContent = {
 // Priority 1 complete (8 companies) + Priority 2 complete (5 companies: Uber, Airbnb, Stripe, Salesforce, DoorDash)
 // Priority 3A complete (2 companies: Lyft, Spotify - 8 roles)
 // Priority 3B complete (2 companies: Oracle, Adobe - 7 roles)
-// Total companies with full role content: 17
+// Priority 3C complete (2 companies: Atlassian, Snowflake - 7 roles)
+// Total companies with full role content: 19
