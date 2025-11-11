@@ -9872,6 +9872,1170 @@ export const rolePageContent = {
         { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" }
       ]
     }
+  },
+
+  'block': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Block (formerly Square) build financial tools that empower millions of sellers and individuals worldwide. You'll work on payment processing systems, Cash App, point-of-sale solutions, and bitcoin infrastructure, creating economic empowerment through accessible financial services. Block's engineering culture emphasizes distributed systems, security, and creating elegant solutions for complex payment flows.",
+
+      responsibilities: [
+        "Design and build features for Block's payment processing and Cash App platforms",
+        "Develop real-time payment processing and settlement systems",
+        "Build point-of-sale hardware and software integrations",
+        "Create cryptocurrency and bitcoin infrastructure",
+        "Implement fraud detection and security systems",
+        "Work on scalable distributed systems handling billions of transactions",
+        "Collaborate with product teams on merchant and consumer financial tools",
+        "Participate in incident response and on-call rotations"
+      ],
+
+      growthOpportunities: [
+        "Progress from engineer to senior engineer to staff engineer",
+        "Specialize in payments, security, mobile, or distributed systems",
+        "Lead technical initiatives across multiple product teams",
+        "Move into engineering management or principal IC tracks",
+        "Work on cutting-edge bitcoin and cryptocurrency technology",
+        "Impact millions of small businesses and individuals globally"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screen",
+          description: "Phone/video call with recruiter covering background review, role expectations, and company culture",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "Live coding with engineer focusing on data structures, algorithms, and problem-solving",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite",
+          description: "4-5 back-to-back interviews covering coding (2 rounds), system design, behavioral, and values alignment",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Final Review",
+          description: "Team evaluation and offer decision with calibration and level determination",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design a payment processing system like Square's transaction pipeline",
+        "Implement a fraud detection system for financial transactions",
+        "Design Cash App's peer-to-peer payment system with instant transfers",
+        "Build a point-of-sale system with offline payment support",
+        "Design a bitcoin wallet with security and custody features",
+        "Implement a reconciliation system for payment settlements",
+        "Design a merchant dashboard with real-time transaction analytics",
+        "Build a rate limiting system for API requests",
+        "Implement idempotency for payment transactions",
+        "Design a refund and chargeback processing system"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you built a system with high reliability requirements",
+        "Describe a situation where you had to make trade-offs between speed and security",
+        "How do you approach working on financial systems with real money at stake?",
+        "Tell me about a time you improved payment processing or transaction flows",
+        "Describe how you've handled incidents in production systems",
+        "How do you balance innovation with stability in critical systems?",
+        "Tell me about a time you advocated for better security practices",
+        "Describe your experience working with cross-functional teams on payment features"
+      ],
+
+      whatTheyLookFor: [
+        "Strong fundamentals in distributed systems and databases",
+        "Security-first mindset for financial systems",
+        "Experience with high-volume transaction processing",
+        "Clear communication about technical trade-offs",
+        "Passion for financial inclusion and economic empowerment",
+        "Ability to work across backend, mobile, and infrastructure",
+        "Pragmatic problem-solving with attention to edge cases",
+        "Commitment to Block's mission of economic empowerment"
+      ],
+
+      interviewTips: [
+        "Understand payment processing flows and settlement systems",
+        "Study distributed systems patterns for financial transactions",
+        "Prepare examples of building reliable, secure systems",
+        "Learn about Block's products: Square, Cash App, and bitcoin initiatives",
+        "Practice system design for payment and financial platforms",
+        "Demonstrate understanding of fraud detection and security",
+        "Show passion for serving small businesses and underbanked populations",
+        "Be ready to discuss trade-offs in reliability vs. performance"
+      ],
+
+      dayInLife: {
+        description: "A typical day involves building payment systems, collaborating with product teams, reviewing code, and ensuring the reliability of financial infrastructure.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Sync with team on payment processing features and incidents"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Feature Development",
+            description: "Build new Cash App feature for instant transfers"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Code Review",
+            description: "Review payment security PRs and fraud detection logic"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch",
+            description: "Team lunch discussing financial inclusion challenges"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Design Review",
+            description: "Review architecture for new merchant payment flows"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Incident Response",
+            description: "Debug payment processing latency issue"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Learning Time",
+            description: "Study bitcoin protocol and cryptocurrency systems"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Coinbase", companySlug: "coinbase", industry: "Technology" },
+        { companyName: "PayPal", companySlug: "paypal", industry: "Technology" },
+        { companyName: "Robinhood", companySlug: "robinhood", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Block drive the vision and execution of financial products that democratize access to the economy. You'll define strategy for payment solutions, Cash App features, and merchant tools, working at the intersection of fintech innovation and customer empowerment. Block PMs are entrepreneurial leaders who combine financial services expertise with consumer and merchant insights.",
+
+      responsibilities: [
+        "Define product strategy for Block's payment and financial products",
+        "Own roadmap for Cash App, Square, or bitcoin initiatives",
+        "Conduct user research with sellers and consumers",
+        "Collaborate with engineering, design, and business teams",
+        "Analyze transaction data and payment metrics",
+        "Launch features that drive merchant acquisition and retention",
+        "Work with compliance and risk teams on financial regulations",
+        "Define success metrics and track product performance"
+      ],
+
+      growthOpportunities: [
+        "Progress from PM to senior PM to group PM",
+        "Lead product areas across Cash App or Square ecosystem",
+        "Drive strategy for new business lines in fintech",
+        "Move into product leadership or general management",
+        "Shape the future of financial inclusion and bitcoin adoption",
+        "Impact economic empowerment for millions worldwide"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screen",
+          description: "Phone/video call with recruiter covering background, product experience, and interest in fintech",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "PM Screen",
+          description: "Video call with PM focusing on product sense, analytical thinking, and past work",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite",
+          description: "4-5 interviews covering product design, execution, strategy, technical fluency, and behavioral",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Final Review",
+          description: "Team evaluation with calibration and offer decision",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design a new feature for Cash App to increase user engagement",
+        "How would you improve Square's merchant onboarding experience?",
+        "Create a strategy for Block's bitcoin product expansion",
+        "Design a payment solution for international sellers",
+        "How would you reduce fraud while improving user experience?",
+        "What metrics would you track for Cash App's peer-to-peer payments?",
+        "Design a new point-of-sale feature for restaurant merchants",
+        "How would you prioritize features for small business sellers?",
+        "Create a product strategy for cryptocurrency adoption",
+        "Design a lending product for Cash App users"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a fintech product you launched and its impact",
+        "Describe a time you made a difficult trade-off in a payment product",
+        "How do you balance innovation with regulatory compliance?",
+        "Tell me about a time you used data to drive product decisions",
+        "Describe your experience working with engineering teams on financial systems",
+        "How do you prioritize features for different customer segments?",
+        "Tell me about a time you advocated for underserved users",
+        "Describe how you've handled product failures or setbacks"
+      ],
+
+      whatTheyLookFor: [
+        "Deep understanding of payments and financial services",
+        "Strong product sense for consumer and merchant needs",
+        "Data-driven decision making with financial metrics",
+        "Technical fluency to partner with engineering teams",
+        "Passion for economic empowerment and financial inclusion",
+        "Experience with two-sided marketplace dynamics",
+        "Ability to navigate regulatory and compliance requirements",
+        "Entrepreneurial mindset with bias for action"
+      ],
+
+      interviewTips: [
+        "Study Block's product suite: Square, Cash App, and bitcoin initiatives",
+        "Understand payment processing, settlements, and financial rails",
+        "Prepare case studies of fintech product launches you've driven",
+        "Research trends in financial inclusion and cryptocurrency",
+        "Practice product design questions for payment scenarios",
+        "Demonstrate understanding of merchant and consumer pain points",
+        "Show passion for democratizing access to financial services",
+        "Be ready to discuss metrics for payment and financial products"
+      ],
+
+      dayInLife: {
+        description: "A typical day involves defining product strategy, analyzing payment data, working with engineering teams, and meeting with merchants to understand their needs.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Analyze Cash App transaction volumes and user engagement"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Product Planning",
+            description: "Define roadmap for new payment features"
+          },
+          {
+            time: "11:30 AM",
+            activity: "User Research",
+            description: "Interview small business merchants about point-of-sale needs"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Cross-functional Meeting",
+            description: "Collaborate with engineering, design, and compliance"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Feature Review",
+            description: "Review designs for new Cash App bitcoin features"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Strategy Session",
+            description: "Discuss go-to-market plan for merchant lending product"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Competitive Analysis",
+            description: "Research fintech competitors and payment innovations"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "PayPal", companySlug: "paypal", industry: "Technology" },
+        { companyName: "Coinbase", companySlug: "coinbase", industry: "Technology" },
+        { companyName: "Robinhood", companySlug: "robinhood", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Block lead teams building financial infrastructure that powers economic empowerment. You'll manage engineers working on payment processing, Cash App, and merchant tools, fostering a culture of technical excellence and customer impact. Block EMs balance technical leadership with people development in a fast-paced fintech environment.",
+
+      responsibilities: [
+        "Lead and grow engineering teams working on payment systems",
+        "Set technical direction for payment processing and financial products",
+        "Manage sprint planning, execution, and delivery",
+        "Recruit, mentor, and develop engineering talent",
+        "Collaborate with product and design on feature roadmaps",
+        "Ensure system reliability and security for financial transactions",
+        "Drive engineering best practices and code quality",
+        "Participate in incident response and on-call escalations"
+      ],
+
+      growthOpportunities: [
+        "Progress from EM to senior EM to director of engineering",
+        "Lead larger organizations across multiple product areas",
+        "Drive technical strategy for fintech platforms",
+        "Move into VP of engineering or CTO roles",
+        "Shape Block's engineering culture and practices",
+        "Build teams that democratize financial services globally"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screen",
+          description: "Phone/video call with recruiter covering management background and interest in fintech",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Screen",
+          description: "Video call with EM or director focusing on leadership experience and technical background",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite",
+          description: "4-5 interviews covering people management, technical leadership, system design, and behavioral",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Final Review",
+          description: "Team evaluation with calibration and offer decision",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design Block's payment processing architecture for high reliability",
+        "How would you architect Cash App's real-time payment system?",
+        "Design a fraud detection pipeline for financial transactions",
+        "How would you scale Square's point-of-sale infrastructure globally?",
+        "Design a system for bitcoin custody and wallet management",
+        "How would you handle payment reconciliation across multiple systems?",
+        "Design an API platform for third-party payment integrations",
+        "How would you architect a system for instant merchant settlements?",
+        "Design a distributed ledger for financial transaction history",
+        "How would you build a multi-region payment processing system?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you led a team through a critical payment system incident",
+        "Describe how you've built and scaled engineering teams in fintech",
+        "How do you balance feature velocity with system reliability?",
+        "Tell me about a time you improved engineering processes or culture",
+        "Describe your experience managing teams working on financial infrastructure",
+        "How do you handle performance issues with direct reports?",
+        "Tell me about a time you made a difficult technical decision as a manager",
+        "Describe how you've fostered innovation while maintaining security"
+      ],
+
+      whatTheyLookFor: [
+        "Strong technical background in distributed systems",
+        "Experience managing teams building financial products",
+        "People leadership skills and mentorship capabilities",
+        "Understanding of payment processing and fintech",
+        "Security-first mindset for financial systems",
+        "Ability to balance innovation with reliability",
+        "Passion for economic empowerment and financial inclusion",
+        "Experience with incident management and on-call culture"
+      ],
+
+      interviewTips: [
+        "Prepare examples of leading teams through complex fintech projects",
+        "Study Block's payment infrastructure and product architecture",
+        "Demonstrate experience with high-reliability financial systems",
+        "Show understanding of payment processing and settlements",
+        "Practice system design for payment and transaction platforms",
+        "Highlight people management and team building successes",
+        "Discuss how you've balanced speed with security and compliance",
+        "Be ready to talk about incident response and operational excellence"
+      ],
+
+      dayInLife: {
+        description: "A typical day involves 1:1s with team members, planning sprints, reviewing technical designs, participating in incident response, and collaborating with product partners.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Review payment processing features and production issues"
+          },
+          {
+            time: "9:30 AM",
+            activity: "1:1 Meetings",
+            description: "Career development discussions with engineers"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Technical Review",
+            description: "Review architecture for new Cash App payment feature"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Incident Retrospective",
+            description: "Post-mortem for recent payment processing issue"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Recruiting",
+            description: "Interview candidates for payment systems roles"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Product Planning",
+            description: "Collaborate with PM on merchant tools roadmap"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Engineering All-Hands",
+            description: "Block-wide engineering updates and Q&A"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Coinbase", companySlug: "coinbase", industry: "Technology" },
+        { companyName: "PayPal", companySlug: "paypal", industry: "Technology" },
+        { companyName: "Robinhood", companySlug: "robinhood", industry: "Technology" }
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: "Data Scientists at Block leverage data to drive decisions across payment processing, fraud detection, and product optimization. You'll build models that improve Cash App recommendations, detect fraudulent transactions, and optimize merchant experiences. Block data scientists work at scale with billions of financial transactions and contribute to economic empowerment through data-driven insights.",
+
+      responsibilities: [
+        "Build machine learning models for fraud detection and risk assessment",
+        "Analyze payment transaction data to optimize processing flows",
+        "Develop recommendation systems for Cash App and merchant products",
+        "Create causal inference models to measure product impact",
+        "Work with engineering teams to deploy models to production",
+        "Design experiments and A/B tests for payment features",
+        "Build dashboards and reports for payment and transaction metrics",
+        "Collaborate with product teams on data-driven feature development"
+      ],
+
+      growthOpportunities: [
+        "Progress from data scientist to senior DS to staff DS",
+        "Lead ML initiatives across payment and risk domains",
+        "Specialize in fraud detection, recommendation systems, or causal inference",
+        "Move into ML engineering or data science management",
+        "Drive data science strategy for fintech products",
+        "Impact millions of users through better fraud detection and experiences"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screen",
+          description: "Phone/video call with recruiter covering background, ML experience, and interest in fintech",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "Live coding/SQL with data scientist focusing on statistics, ML fundamentals, and SQL",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite",
+          description: "4-5 interviews covering ML modeling, statistics, coding, product sense, and behavioral",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Final Review",
+          description: "Team evaluation with calibration and offer decision",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Build a fraud detection model for payment transactions",
+        "Design an experiment to measure the impact of a new Cash App feature",
+        "Create a recommendation system for merchant products",
+        "Analyze transaction data to identify payment processing bottlenecks",
+        "Build a credit risk model for Cash App lending",
+        "Design a churn prediction model for merchants",
+        "How would you detect anomalies in payment transaction patterns?",
+        "Build a model to optimize payment routing and success rates",
+        "Design a causal inference framework for product experiments",
+        "Create a real-time fraud scoring system"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you built an ML model that drove business impact",
+        "Describe how you've worked with engineers to deploy models to production",
+        "How do you approach working with financial data and PII?",
+        "Tell me about a time you designed and analyzed an A/B test",
+        "Describe your experience with fraud detection or risk modeling",
+        "How do you communicate technical findings to non-technical stakeholders?",
+        "Tell me about a time you identified an insight in transaction data",
+        "Describe how you've handled model failures in production"
+      ],
+
+      whatTheyLookFor: [
+        "Strong foundations in statistics and machine learning",
+        "Experience with fraud detection or financial modeling",
+        "Proficiency in Python, SQL, and ML frameworks",
+        "Understanding of causal inference and experimentation",
+        "Ability to work with large-scale transaction data",
+        "Product sense for fintech applications",
+        "Clear communication of technical concepts",
+        "Passion for using data to drive economic empowerment"
+      ],
+
+      interviewTips: [
+        "Study fraud detection techniques and anomaly detection",
+        "Understand payment processing flows and transaction data",
+        "Prepare examples of ML models you've built and deployed",
+        "Learn about Block's data challenges: fraud, risk, recommendations",
+        "Practice A/B testing and causal inference problems",
+        "Review classification, time series, and recommendation algorithms",
+        "Demonstrate understanding of financial metrics and KPIs",
+        "Show passion for using ML to improve financial inclusion"
+      ],
+
+      dayInLife: {
+        description: "A typical day involves building ML models, analyzing transaction data, collaborating with engineers on model deployment, and presenting insights to product teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Model Monitoring",
+            description: "Review fraud detection model performance and alerts"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Feature Engineering",
+            description: "Build new features for payment risk scoring model"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Cross-functional Meeting",
+            description: "Present experiment results to product team"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Data Analysis",
+            description: "Analyze Cash App transaction patterns for new insights"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Development",
+            description: "Train and evaluate merchant churn prediction model"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Deployment Review",
+            description: "Work with ML engineers on deploying fraud model"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Learning",
+            description: "Study new techniques for real-time ML systems"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Coinbase", companySlug: "coinbase", industry: "Technology" },
+        { companyName: "PayPal", companySlug: "paypal", industry: "Technology" },
+        { companyName: "Robinhood", companySlug: "robinhood", industry: "Technology" }
+      ]
+    }
+  },
+
+  'shopify': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Shopify build the commerce platform that powers millions of merchants worldwide. You'll work on e-commerce infrastructure, merchant tools, checkout systems, and the global commerce ecosystem, enabling entrepreneurs to start, grow, and scale their businesses. Shopify's engineering culture emphasizes craftsmanship, merchant empowerment, and building for the long term.",
+
+      responsibilities: [
+        "Design and build features for Shopify's commerce platform",
+        "Develop merchant-facing tools and admin experiences",
+        "Build checkout and payment processing systems",
+        "Create infrastructure for global e-commerce operations",
+        "Work on Shopify's app ecosystem and API platform",
+        "Implement performance optimizations for high-traffic storefronts",
+        "Collaborate with product teams on merchant success initiatives",
+        "Participate in on-call rotations for critical commerce systems"
+      ],
+
+      growthOpportunities: [
+        "Progress from developer to senior developer to staff developer",
+        "Specialize in commerce, payments, infrastructure, or mobile",
+        "Lead technical initiatives across Shopify's product ecosystem",
+        "Move into engineering management or principal IC tracks",
+        "Shape the future of commerce technology",
+        "Impact millions of entrepreneurs and merchants globally"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screen",
+          description: "Phone/video call with recruiter covering background review, role expectations, and interest in commerce",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "Live coding with engineer focusing on data structures, algorithms, and Ruby/Rails knowledge",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite",
+          description: "4-5 back-to-back interviews covering coding (2 rounds), system design, product thinking, and behavioral",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Final Review",
+          description: "Team evaluation and offer decision with calibration and level determination",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design Shopify's multi-tenant e-commerce platform architecture",
+        "Implement a product inventory system with real-time updates",
+        "Design Shopify's checkout system with multiple payment providers",
+        "Build a discount and promotion engine for e-commerce",
+        "Design an order fulfillment and shipping system",
+        "Implement a search and discovery system for product catalogs",
+        "Design Shopify's app ecosystem and API rate limiting",
+        "Build a merchant analytics dashboard with real-time metrics",
+        "Implement a theme customization system for storefronts",
+        "Design a global CDN for high-performance commerce experiences"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you built a feature that directly helped merchants",
+        "Describe a situation where you improved system performance at scale",
+        "How do you approach building multi-tenant SaaS platforms?",
+        "Tell me about a time you collaborated with product teams on merchant needs",
+        "Describe your experience with e-commerce or marketplace systems",
+        "How do you balance feature development with technical debt?",
+        "Tell me about a time you advocated for better developer experiences",
+        "Describe how you've handled production incidents in critical systems"
+      ],
+
+      whatTheyLookFor: [
+        "Strong fundamentals in web development and distributed systems",
+        "Experience with Ruby on Rails or similar MVC frameworks",
+        "Understanding of e-commerce flows and merchant needs",
+        "Performance optimization skills for high-traffic applications",
+        "Clear communication about technical decisions",
+        "Passion for entrepreneurship and merchant success",
+        "Ability to work across backend, frontend, and infrastructure",
+        "Commitment to craftsmanship and long-term thinking"
+      ],
+
+      interviewTips: [
+        "Study Shopify's platform architecture and product ecosystem",
+        "Understand e-commerce fundamentals: inventory, orders, payments",
+        "Prepare examples of building scalable web applications",
+        "Learn about Ruby on Rails and Shopify's tech stack",
+        "Practice system design for multi-tenant SaaS platforms",
+        "Demonstrate understanding of merchant and customer experiences",
+        "Show passion for empowering entrepreneurs and small businesses",
+        "Be ready to discuss performance optimization at scale"
+      ],
+
+      dayInLife: {
+        description: "A typical day involves building commerce features, collaborating with product teams, reviewing code, and ensuring the reliability of merchant-facing systems.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Sync with team on checkout features and merchant feedback"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Feature Development",
+            description: "Build new product variant management feature"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Code Review",
+            description: "Review PRs for payment processing and inventory systems"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch",
+            description: "Team lunch discussing commerce trends"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Design Review",
+            description: "Review architecture for new app ecosystem API"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Performance Optimization",
+            description: "Optimize database queries for merchant admin dashboard"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Learning Time",
+            description: "Explore new Rails features and commerce technologies"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Etsy", companySlug: "etsy", industry: "Technology" },
+        { companyName: "Square", companySlug: "block", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Shopify define the future of commerce by building tools that empower millions of merchants. You'll drive strategy for e-commerce features, merchant tools, and platform capabilities, working at the intersection of entrepreneurship and technology. Shopify PMs are merchant-obsessed leaders who combine deep commerce understanding with product craft.",
+
+      responsibilities: [
+        "Define product strategy for Shopify's commerce platform",
+        "Own roadmap for merchant tools, checkout, or platform features",
+        "Conduct merchant research and gather feedback",
+        "Collaborate with engineering, design, and business teams",
+        "Analyze commerce data and merchant success metrics",
+        "Launch features that drive merchant growth and retention",
+        "Work with partners and developers in Shopify's ecosystem",
+        "Define success metrics and track product performance"
+      ],
+
+      growthOpportunities: [
+        "Progress from PM to senior PM to group PM",
+        "Lead product areas across Shopify's platform",
+        "Drive strategy for new commerce capabilities",
+        "Move into product leadership or general management",
+        "Shape the future of entrepreneurship and commerce",
+        "Impact millions of merchants and their customers globally"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screen",
+          description: "Phone/video call with recruiter covering background, product experience, and interest in commerce",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "PM Screen",
+          description: "Video call with PM focusing on product sense, merchant empathy, and past work",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite",
+          description: "4-5 interviews covering product design, execution, strategy, technical fluency, and behavioral",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Final Review",
+          description: "Team evaluation with calibration and offer decision",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design a new feature to help merchants increase conversion rates",
+        "How would you improve Shopify's checkout experience?",
+        "Create a strategy for expanding Shopify into new markets",
+        "Design a product to help merchants manage multi-channel inventory",
+        "How would you improve merchant onboarding and time-to-first-sale?",
+        "What metrics would you track for Shopify's app ecosystem?",
+        "Design a new analytics tool for merchant business insights",
+        "How would you prioritize features for different merchant segments?",
+        "Create a product strategy for social commerce integration",
+        "Design a fulfillment solution for international merchants"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about an e-commerce product you launched and its merchant impact",
+        "Describe a time you made a difficult trade-off in a platform product",
+        "How do you balance needs of different merchant segments?",
+        "Tell me about a time you used data to drive product decisions",
+        "Describe your experience working with developer ecosystems",
+        "How do you prioritize features across a multi-sided platform?",
+        "Tell me about a time you advocated for small business merchants",
+        "Describe how you've handled conflicting stakeholder feedback"
+      ],
+
+      whatTheyLookFor: [
+        "Deep understanding of e-commerce and merchant needs",
+        "Strong product sense for platform and marketplace dynamics",
+        "Data-driven decision making with commerce metrics",
+        "Technical fluency to work with engineering teams",
+        "Passion for entrepreneurship and merchant empowerment",
+        "Experience with multi-sided platforms and ecosystems",
+        "Ability to think globally about commerce challenges",
+        "Merchant-first mindset and customer obsession"
+      ],
+
+      interviewTips: [
+        "Study Shopify's product suite and merchant journey",
+        "Understand e-commerce fundamentals and merchant pain points",
+        "Prepare case studies of commerce products you've launched",
+        "Research trends in retail, DTC, and social commerce",
+        "Practice product design questions for merchant scenarios",
+        "Demonstrate understanding of platform and ecosystem dynamics",
+        "Show passion for empowering entrepreneurs and small businesses",
+        "Be ready to discuss metrics for commerce and merchant success"
+      ],
+
+      dayInLife: {
+        description: "A typical day involves defining product strategy, analyzing merchant data, working with engineering teams, and conducting merchant research to understand their needs.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Analyze merchant growth, conversion rates, and feature adoption"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Product Planning",
+            description: "Define roadmap for new checkout features"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Merchant Research",
+            description: "Interview merchants about their fulfillment challenges"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Cross-functional Meeting",
+            description: "Collaborate with engineering, design, and partnerships"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Feature Review",
+            description: "Review designs for new merchant analytics dashboard"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Strategy Session",
+            description: "Discuss go-to-market plan for international expansion"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Competitive Analysis",
+            description: "Research e-commerce competitors and commerce trends"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Etsy", companySlug: "etsy", industry: "Technology" },
+        { companyName: "Square", companySlug: "block", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Shopify lead teams building commerce infrastructure that empowers millions of merchants. You'll manage engineers working on e-commerce platforms, merchant tools, and global commerce systems, fostering a culture of craftsmanship and merchant focus. Shopify EMs balance technical leadership with people development in a mission-driven commerce environment.",
+
+      responsibilities: [
+        "Lead and grow engineering teams working on commerce systems",
+        "Set technical direction for e-commerce platform features",
+        "Manage sprint planning, execution, and delivery",
+        "Recruit, mentor, and develop engineering talent",
+        "Collaborate with product and design on merchant-facing features",
+        "Ensure system reliability and performance for millions of merchants",
+        "Drive engineering best practices and code craftsmanship",
+        "Participate in incident response and on-call escalations"
+      ],
+
+      growthOpportunities: [
+        "Progress from EM to senior EM to director of engineering",
+        "Lead larger organizations across multiple commerce domains",
+        "Drive technical strategy for e-commerce platform",
+        "Move into VP of engineering or CTO roles",
+        "Shape Shopify's engineering culture and practices",
+        "Build teams that empower entrepreneurs globally"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screen",
+          description: "Phone/video call with recruiter covering management background and interest in commerce",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Screen",
+          description: "Video call with EM or director focusing on leadership experience and technical background",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite",
+          description: "4-5 interviews covering people management, technical leadership, system design, and behavioral",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Final Review",
+          description: "Team evaluation with calibration and offer decision",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design Shopify's multi-tenant e-commerce platform at scale",
+        "How would you architect Shopify's checkout system for global merchants?",
+        "Design a product catalog system with millions of SKUs",
+        "How would you scale Shopify's infrastructure for Black Friday/Cyber Monday?",
+        "Design an order management system with complex fulfillment workflows",
+        "How would you build Shopify's app ecosystem and API platform?",
+        "Design a real-time inventory synchronization system",
+        "How would you architect a system for merchant analytics at scale?",
+        "Design a global CDN strategy for storefront performance",
+        "How would you build a payment processing system with multiple providers?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you led a team through a critical commerce incident",
+        "Describe how you've built and scaled engineering teams in SaaS",
+        "How do you balance feature velocity with system quality?",
+        "Tell me about a time you improved engineering culture or processes",
+        "Describe your experience managing teams building merchant-facing products",
+        "How do you handle performance issues with direct reports?",
+        "Tell me about a time you made a difficult technical decision as a manager",
+        "Describe how you've fostered innovation in platform development"
+      ],
+
+      whatTheyLookFor: [
+        "Strong technical background in web platforms and distributed systems",
+        "Experience managing teams building e-commerce or SaaS products",
+        "People leadership skills and mentorship capabilities",
+        "Understanding of commerce flows and merchant needs",
+        "Performance and scalability mindset",
+        "Ability to balance craftsmanship with shipping velocity",
+        "Passion for entrepreneurship and merchant empowerment",
+        "Experience with incident management and reliability engineering"
+      ],
+
+      interviewTips: [
+        "Prepare examples of leading teams through complex e-commerce projects",
+        "Study Shopify's platform architecture and scaling challenges",
+        "Demonstrate experience with high-traffic web applications",
+        "Show understanding of merchant workflows and commerce systems",
+        "Practice system design for multi-tenant SaaS platforms",
+        "Highlight people management and team building successes",
+        "Discuss how you've balanced shipping features with technical excellence",
+        "Be ready to talk about handling peak traffic events (Black Friday, etc.)"
+      ],
+
+      dayInLife: {
+        description: "A typical day involves 1:1s with team members, planning sprints, reviewing technical designs, participating in incident response, and collaborating with product partners.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Review checkout features and merchant feedback"
+          },
+          {
+            time: "9:30 AM",
+            activity: "1:1 Meetings",
+            description: "Career development discussions with engineers"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Technical Review",
+            description: "Review architecture for new inventory management system"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Planning Meeting",
+            description: "Sprint planning for upcoming Black Friday preparations"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Recruiting",
+            description: "Interview candidates for commerce platform roles"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Product Sync",
+            description: "Collaborate with PM on merchant tools roadmap"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Engineering All-Hands",
+            description: "Shopify-wide engineering updates and commerce demos"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Etsy", companySlug: "etsy", industry: "Technology" },
+        { companyName: "Square", companySlug: "block", industry: "Technology" }
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: "Data Scientists at Shopify leverage data to drive merchant success and platform optimization. You'll build models that improve conversion rates, predict merchant growth, and optimize commerce experiences. Shopify data scientists work at scale with millions of merchants and billions of commerce transactions, contributing to entrepreneurship through data-driven insights.",
+
+      responsibilities: [
+        "Build machine learning models for merchant success and growth predictions",
+        "Analyze commerce data to optimize conversion and checkout flows",
+        "Develop recommendation systems for product discovery",
+        "Create causal inference models to measure feature impact on merchants",
+        "Work with engineering teams to deploy models to production",
+        "Design experiments and A/B tests for commerce features",
+        "Build dashboards and reports for merchant and commerce metrics",
+        "Collaborate with product teams on data-driven merchant experiences"
+      ],
+
+      growthOpportunities: [
+        "Progress from data scientist to senior DS to staff DS",
+        "Lead ML initiatives across commerce and merchant domains",
+        "Specialize in recommendation systems, causal inference, or forecasting",
+        "Move into ML engineering or data science management",
+        "Drive data science strategy for e-commerce products",
+        "Impact millions of merchants through better predictions and recommendations"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screen",
+          description: "Phone/video call with recruiter covering background, ML experience, and interest in commerce",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "Live coding/SQL with data scientist focusing on statistics, ML fundamentals, and SQL",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite",
+          description: "4-5 interviews covering ML modeling, statistics, coding, product sense, and behavioral",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Final Review",
+          description: "Team evaluation with calibration and offer decision",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Build a model to predict which new merchants will be successful",
+        "Design an experiment to test a new checkout optimization",
+        "Create a recommendation system for product upsells in commerce",
+        "Analyze transaction data to identify factors driving conversion",
+        "Build a demand forecasting model for merchant inventory",
+        "Design a customer lifetime value model for e-commerce",
+        "How would you detect fraudulent orders in Shopify stores?",
+        "Build a model to optimize merchant pricing strategies",
+        "Design a search ranking algorithm for product catalogs",
+        "Create a churn prediction model for Shopify merchants"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you built an ML model that helped merchants or customers",
+        "Describe how you've worked with engineers to productionize models",
+        "How do you approach analyzing commerce and transaction data?",
+        "Tell me about a time you designed and analyzed an A/B test",
+        "Describe your experience with recommendation systems or forecasting",
+        "How do you communicate technical findings to product teams?",
+        "Tell me about a time you identified an insight in e-commerce data",
+        "Describe how you've handled model performance issues"
+      ],
+
+      whatTheyLookFor: [
+        "Strong foundations in statistics and machine learning",
+        "Experience with e-commerce, marketplace, or transactional data",
+        "Proficiency in Python, SQL, and ML frameworks",
+        "Understanding of causal inference and experimentation",
+        "Ability to work with large-scale commerce datasets",
+        "Product sense for merchant and customer experiences",
+        "Clear communication of technical concepts",
+        "Passion for using data to empower entrepreneurs"
+      ],
+
+      interviewTips: [
+        "Study e-commerce ML applications: recommendations, forecasting, conversion",
+        "Understand commerce metrics: conversion, AOV, LTV, retention",
+        "Prepare examples of ML models you've built and deployed",
+        "Learn about Shopify's data challenges: merchant growth, optimization",
+        "Practice A/B testing and causal inference problems",
+        "Review classification, time series, and recommendation algorithms",
+        "Demonstrate understanding of merchant success metrics",
+        "Show passion for using ML to help merchants succeed"
+      ],
+
+      dayInLife: {
+        description: "A typical day involves building ML models, analyzing commerce data, collaborating with engineers on model deployment, and presenting insights to product teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Model Monitoring",
+            description: "Review merchant churn prediction model performance"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Feature Engineering",
+            description: "Build new features for conversion optimization model"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Cross-functional Meeting",
+            description: "Present A/B test results to checkout team"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Data Analysis",
+            description: "Analyze Black Friday commerce patterns for insights"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Development",
+            description: "Train and evaluate product recommendation model"
+          },
+          {
+            time: "4:00 PM",
+            activity: "ML Pipeline",
+            description: "Work with engineering on deploying merchant success model"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Learning",
+            description: "Study new techniques for large-scale recommendation systems"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Etsy", companySlug: "etsy", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" }
+      ]
+    }
   }
 }
 
@@ -9881,4 +11045,5 @@ export const rolePageContent = {
 // Priority 3B complete (2 companies: Oracle, Adobe - 7 roles)
 // Priority 3C complete (2 companies: Atlassian, Snowflake - 7 roles)
 // Priority 3D complete (2 companies: Databricks, Coinbase - 8 roles)
-// Total companies with full role content: 21
+// Priority 3E complete (2 companies: Block, Shopify - 8 roles)
+// Total companies with full role content: 23
