@@ -1498,8 +1498,1152 @@ export const rolePageContent = {
         { companyName: "Uber", companySlug: "uber", industry: "Technology" }
       ]
     }
+  },
+  'apple': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Apple create the technologies that power iPhone, iPad, Mac, Apple Watch, and services used by over a billion people. You'll work on challenging problems at the intersection of hardware and software, with a focus on user experience, performance, and innovation. Apple values deep collaboration across hardware, software, and design teams.",
+      responsibilities: [
+        "Design and implement features for iOS, macOS, watchOS, or internal systems",
+        "Collaborate with design, hardware, and QA teams to deliver polished products",
+        "Write efficient, maintainable code with strong emphasis on performance",
+        "Participate in code reviews and contribute to technical architecture",
+        "Debug complex issues across the full stack and multiple devices"
+      ],
+      growthOpportunities: [
+        "Work on products used by over 1 billion customers globally",
+        "Deep integration between hardware and software engineering",
+        "Opportunity to work on next-generation products (AR/VR, AI)",
+        "Career paths to Senior/Staff Engineer or management",
+        "Access to cutting-edge hardware and technologies before public release"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Initial 30-minute conversation about your background, interest in Apple, and alignment with the role.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute coding interview focused on algorithms, data structures, and problem-solving approach.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site Interview Loop",
+          description: "Full day with 4-6 interviews covering coding, system design, past projects, and team fit. Expect deep technical discussions.",
+          duration: "Full day (5-6 hours)"
+        },
+        {
+          step: 4,
+          title: "Team Match & Offer",
+          description: "After passing interviews, you may meet with specific teams to find the best fit for your skills and interests."
+        }
+      ],
+      technicalQuestions: [
+        "Design the photo library system for iOS. How would you handle storage, sync, and search?",
+        "Implement an autocomplete system for the iOS keyboard with memory constraints.",
+        "How would you optimize battery life in a background location tracking app?",
+        "Design a music streaming service like Apple Music. Focus on offline playback and sync.",
+        "Implement a custom view that efficiently renders thousands of items (like Photos grid).",
+        "How would you detect memory leaks in an iOS application?",
+        "Design the notification system for iOS. Consider delivery, batching, and user preferences.",
+        "Implement a caching system for app data with limited storage.",
+        "How would you design Handoff between iPhone and Mac?",
+        "Optimize an algorithm to run efficiently on both iPhone and Apple Watch."
+      ],
+      behavioralQuestions: [
+        "Tell me about a time when you obsessed over a detail that improved user experience.",
+        "Describe a situation where you had to balance multiple competing priorities.",
+        "Give an example of when you challenged a design or technical decision.",
+        "Tell me about your most technically challenging project. What made it difficult?",
+        "Describe a time when you collaborated across multiple teams to ship a feature.",
+        "Give an example of when you had to optimize performance or reduce memory usage.",
+        "Tell me about a time when you disagreed with your team's approach.",
+        "Describe how you've mentored or helped other engineers grow."
+      ],
+      whatTheyLookFor: [
+        "Passion for creating exceptional user experiences",
+        "Deep technical skills with attention to detail",
+        "Ability to work across hardware and software boundaries",
+        "Collaboration across design, engineering, and product teams",
+        "Problem-solving with resource constraints (battery, memory, performance)",
+        "Ownership and accountability for code quality",
+        "Innovation mindset and creative thinking",
+        "Cultural fit with Apple's values of excellence and privacy"
+      ],
+      interviewTips: [
+        "Use Apple products deeply - understand iOS, macOS features and user experience",
+        "Focus on user experience in your answers - Apple prioritizes great UX",
+        "Be ready to discuss performance optimization and resource constraints",
+        "Understand hardware-software integration challenges unique to Apple",
+        "Prepare examples of attention to detail and polish in your work",
+        "Study iOS frameworks if interviewing for iOS roles (UIKit, SwiftUI, Core Data)",
+        "Be prepared for deep technical discussions - Apple engineers go deep",
+        "Show passion for the product you'd be working on"
+      ],
+      dayInLife: {
+        overview: "Apple engineers work in focused, collaborative teams building products that delight users. Your day balances deep technical work with cross-functional collaboration across design, hardware, and QA teams.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Quick sync with engineering team on progress and blockers"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Deep Work - Coding",
+            description: "Implement new feature for upcoming iOS release with focus on performance"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Design Review",
+            description: "Collaborate with design team on UI interactions and animations"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch Break",
+            description: "Lunch at Apple Park cafe"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Code Review",
+            description: "Review teammates' code and discuss architecture decisions"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Cross-functional Sync",
+            description: "Meet with hardware team to discuss API requirements for new sensor"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Bug Triage",
+            description: "Review and prioritize bugs reported from QA and beta testers"
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Commit code, update tasks, prepare for tomorrow"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+      ]
+    },
+    'product-manager': {
+      roleDescription: "Product Managers at Apple define the future of products used by over a billion people. You'll work at the intersection of technology, design, and business, making critical decisions about features, user experience, and product strategy. Apple PMs have deep technical understanding and exceptional design taste.",
+      responsibilities: [
+        "Define product vision and roadmap for your area",
+        "Work closely with engineering, design, and marketing teams",
+        "Make data-informed decisions while maintaining design excellence",
+        "Drive product requirements and prioritization",
+        "Champion the user experience in every decision"
+      ],
+      growthOpportunities: [
+        "Shape products used by over a billion customers",
+        "Work on cutting-edge technologies (AR/VR, AI, health)",
+        "Collaborate with world-class designers and engineers",
+        "Career growth to Senior PM, GPM, or Director roles",
+        "Influence the future direction of Apple's ecosystem"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about background, interest in Apple, and role fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Product Sense Interview",
+          description: "Design a product or improve an Apple product. Focus on user needs and Apple's design principles.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Technical Interview",
+          description: "Assess technical depth and ability to work with engineering teams. May include technical problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 4,
+          title: "On-site Loop",
+          description: "4-5 interviews covering strategy, execution, design thinking, and behavioral questions with team members.",
+          duration: "4-5 hours"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve the iPhone Camera app?",
+        "Design a new feature for Apple Watch focused on health.",
+        "Should Apple build a social network? Why or why not?",
+        "How would you measure success for Apple Music?",
+        "Design the next generation of Siri. What would you prioritize?",
+        "How would you improve the Mac-to-iPhone integration experience?",
+        "If AirPods sales declined, how would you investigate and respond?",
+        "Design a product for students using iPads.",
+        "How would you prioritize features for the next iOS release?",
+        "What metrics would you use to evaluate the App Store's health?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a product you shipped that you're most proud of.",
+        "Describe a time when you had to make a difficult product decision with limited data.",
+        "Give an example of when you advocated for user experience over business metrics.",
+        "Tell me about a time when you disagreed with design or engineering.",
+        "Describe how you've worked with design teams to create exceptional user experiences.",
+        "Give an example of when you had to say no to a feature request.",
+        "Tell me about a time when you led a product through a major challenge.",
+        "Describe your process for gathering and incorporating user feedback."
+      ],
+      whatTheyLookFor: [
+        "Deep product sense and design taste",
+        "Technical credibility to work with engineering teams",
+        "User-first thinking and empathy",
+        "Attention to detail and pursuit of excellence",
+        "Ability to think different and challenge assumptions",
+        "Cross-functional collaboration skills",
+        "Strategic thinking balanced with execution",
+        "Passion for Apple products and ecosystem"
+      ],
+      interviewTips: [
+        "Use Apple products extensively - have informed opinions on UX",
+        "Demonstrate design thinking - Apple values exceptional user experience",
+        "Show technical depth - Apple PMs need engineering credibility",
+        "Focus on quality over quantity in feature discussions",
+        "Understand Apple's ecosystem and how products work together",
+        "Be ready to discuss privacy and how it impacts product decisions",
+        "Prepare examples of obsessing over details to improve UX",
+        "Research Apple's recent product launches and strategy"
+      ],
+      dayInLife: {
+        overview: "Apple PMs balance strategic vision with obsessive attention to detail. Your day involves user research, design reviews, engineering collaboration, and making decisions that impact millions of users.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Product Metrics Review",
+            description: "Analyze user engagement and feature adoption metrics"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Design Review",
+            description: "Provide detailed feedback on UI/UX mockups with design team"
+          },
+          {
+            time: "11:30 AM",
+            activity: "User Research Session",
+            description: "Observe users testing new feature prototype"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Working Lunch",
+            description: "Grab lunch while reviewing competitive products"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Engineering Sync",
+            description: "Discuss technical feasibility and trade-offs for upcoming features"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Cross-functional Planning",
+            description: "Align with marketing and operations on product launch"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Product Review Prep",
+            description: "Prepare materials for executive product review meeting"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+      ]
+    },
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Apple lead teams building products that define the industry. You'll balance hands-on technical leadership with people management, hiring exceptional talent, and driving execution. Apple engineering managers maintain deep technical expertise while growing and mentoring their teams.",
+      responsibilities: [
+        "Lead and mentor engineering team (6-12 engineers typically)",
+        "Set technical direction and architecture for your team's area",
+        "Drive execution on roadmap and deliver high-quality releases",
+        "Hire exceptional engineers and build diverse, high-performing teams",
+        "Partner with design and product to define and ship features"
+      ],
+      growthOpportunities: [
+        "Lead teams building products used by billions",
+        "Shape Apple's technical and cultural direction",
+        "Work on next-generation technologies and products",
+        "Career progression to Senior Manager, Director, VP roles",
+        "Mentor and develop world-class engineering talent"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Discussion about management experience, leadership style, and interest in Apple.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Interview",
+          description: "Assess technical depth through coding or system design. Apple EMs stay technically strong.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Management Interview",
+          description: "Discuss people management, hiring, performance management, and team building experience.",
+          duration: "60 minutes"
+        },
+        {
+          step: 4,
+          title: "On-site Loop",
+          description: "4-5 interviews with engineers, peer managers, and leadership covering technical, management, and cultural fit.",
+          duration: "4-5 hours"
+        }
+      ],
+      technicalQuestions: [
+        "Design the architecture for a new iOS system framework used by all apps.",
+        "How would you scale the iCloud sync infrastructure to handle 2B users?",
+        "Your team needs to optimize app launch time by 50%. How would you approach this?",
+        "Design the technical architecture for a new Apple services product.",
+        "How would you architect a privacy-preserving analytics system?",
+        "Walk me through how you'd debug a critical production issue affecting millions of users.",
+        "Design the software architecture for a new Apple hardware product.",
+        "How would you evaluate and adopt a new technology or framework for your team?",
+        "Your team is experiencing tech debt. How do you balance new features vs. refactoring?",
+        "Design a system for A/B testing features across iOS, macOS, and watchOS."
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you had to make a difficult people decision (performance, firing).",
+        "Describe how you've built and scaled a high-performing engineering team.",
+        "Give an example of when you had to deliver a critical project under tight deadlines.",
+        "Tell me about a time you disagreed with senior leadership's direction.",
+        "Describe your approach to hiring and building diverse teams.",
+        "Give an example of how you've developed and mentored engineers on your team.",
+        "Tell me about a time when you had to navigate conflicting priorities.",
+        "Describe a situation where you had to rebuild team morale after a setback."
+      ],
+      whatTheyLookFor: [
+        "Deep technical expertise and hands-on involvement",
+        "Track record of building and leading high-performing teams",
+        "Strong hiring and talent development skills",
+        "Ability to drive execution and ship quality products",
+        "Cross-functional collaboration and influence",
+        "Strategic thinking with attention to detail",
+        "Leadership during challenges and ambiguity",
+        "Alignment with Apple's values of excellence and innovation"
+      ],
+      interviewTips: [
+        "Demonstrate technical depth - Apple EMs code and review architecture",
+        "Prepare detailed examples of hiring, developing, and managing engineers",
+        "Show balance between technical leadership and people management",
+        "Discuss how you drive quality and attention to detail in your team",
+        "Be ready to talk about difficult people decisions you've made",
+        "Understand Apple's products and technical challenges",
+        "Prepare examples of cross-functional collaboration",
+        "Show passion for building great products and teams"
+      ],
+      dayInLife: {
+        overview: "Apple Engineering Managers balance technical leadership, people management, and strategic planning. Your day includes 1-on-1s, code reviews, architecture discussions, hiring, and removing blockers for your team.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync with team on progress, blockers, and priorities"
+          },
+          {
+            time: "9:30 AM",
+            activity: "1-on-1 Meetings",
+            description: "Meet with engineers for coaching, career development, and feedback"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Architecture Review",
+            description: "Review technical design for major new feature with senior engineers"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Recruiting",
+            description: "Lunch interview with senior engineer candidate"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Code Review",
+            description: "Review critical pull requests and provide technical guidance"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Cross-functional Planning",
+            description: "Align with PM and Design on roadmap and upcoming releases"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Technical Discussion",
+            description: "Unblock team on complex technical challenge"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Strategic Planning",
+            description: "Review team's technical roadmap and capacity planning"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+      ]
+    }
+  },
+
+  'microsoft': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Microsoft build products and services used by billions of people and millions of businesses worldwide. From Azure cloud infrastructure to Office 365, Windows, and Xbox, you'll work on diverse, large-scale systems. Microsoft values growth mindset, technical excellence, and collaborative innovation across a global engineering organization.",
+
+      responsibilities: [
+        "Design, develop, and ship features for Microsoft products like Azure, Office, Windows, or Teams",
+        "Write scalable, reliable code for cloud services or client applications",
+        "Collaborate across teams and geographies to deliver integrated solutions",
+        "Participate in code reviews, design reviews, and technical planning",
+        "Contribute to open-source projects and Microsoft's engineering culture"
+      ],
+
+      growthOpportunities: [
+        "Work on products serving billions of users and millions of enterprise customers",
+        "Access to cutting-edge technology in AI, cloud computing, and mixed reality",
+        "Strong emphasis on learning and development with growth mindset culture",
+        "Opportunity to contribute to major open-source projects",
+        "Clear career progression with technical and leadership tracks"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Initial conversation about your background, interest in Microsoft, and role fit. Discussion of technical skills and career goals.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "Coding interview with a software engineer covering data structures, algorithms, and problem-solving. Conducted via phone or Microsoft Teams with shared coding environment.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Multiple interviews including coding (2-3 rounds), system design (1 round), and behavioral/values (1 round). Focus on growth mindset and collaboration.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "As Appropriate (AA) Round",
+          description: "Final interview with senior leader if previous rounds go well. Focus on culture fit, leadership potential, and long-term fit at Microsoft.",
+          duration: "45-60 minutes"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design a distributed caching system for Azure",
+        "Implement a feature for real-time collaboration in Office 365",
+        "Design the notification system for Microsoft Teams",
+        "Optimize query performance for a large-scale database in Azure SQL",
+        "Implement version control for documents in OneDrive",
+        "Design a recommendation engine for the Microsoft Store",
+        "Build a monitoring system for Azure services",
+        "Implement authentication and authorization for a multi-tenant application",
+        "Design the file sync mechanism for OneDrive across devices",
+        "Optimize startup time for Windows or Office applications"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you demonstrated a growth mindset",
+        "Describe a situation where you had to collaborate with a difficult colleague",
+        "How have you handled feedback that was hard to hear?",
+        "Tell me about a time when you failed and what you learned",
+        "Describe a project where you had to work across multiple teams",
+        "How do you stay current with new technologies and approaches?",
+        "Tell me about a time when you disagreed with a technical decision",
+        "Describe a situation where you had to balance competing priorities"
+      ],
+
+      whatTheyLookFor: [
+        "Growth mindset - willingness to learn, adapt, and improve continuously",
+        "Strong fundamentals in computer science and software engineering",
+        "Experience with cloud technologies, distributed systems, or large-scale applications",
+        "Collaborative approach and ability to work across diverse teams",
+        "Customer focus and understanding of business impact",
+        "Adaptability to work on different products and technologies",
+        "Strong communication skills for global collaboration",
+        "Passion for Microsoft's mission to empower every person and organization"
+      ],
+
+      interviewTips: [
+        "Use Microsoft products (Azure, Office 365, Teams, VS Code) and understand their features",
+        "Demonstrate growth mindset - talk about learning from failures and continuous improvement",
+        "Emphasize collaboration and cross-functional experience",
+        "Be ready to discuss both code-level and system-level design",
+        "Show interest in Microsoft's open-source contributions and community engagement",
+        "Research Microsoft's culture and values - growth mindset is central",
+        "Prepare examples of working with diverse teams and handling ambiguity",
+        "Ask thoughtful questions about the team's mission and Microsoft's technology strategy"
+      ],
+
+      dayInLife: {
+        overview: "Microsoft engineers work in collaborative, global teams on products serving billions. Your day includes coding, design reviews, team collaboration, and continuous learning. Microsoft emphasizes work-life balance and flexible work arrangements.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync with global team members, review progress and blockers"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Feature Development",
+            description: "Code new features for Azure service, write tests, update documentation"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Design Review",
+            description: "Review technical design for upcoming feature with senior engineers"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Learning",
+            description: "Lunch with team, followed by internal tech talk on new Azure capabilities"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Code Review",
+            description: "Review pull requests from team members across different time zones"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Cross-team Collaboration",
+            description: "Meet with partner team to integrate services"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Debugging & Testing",
+            description: "Investigate production issue, deploy fix to Azure staging environment"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Open Source Contribution",
+            description: "Work on open-source project or personal learning goal"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Microsoft drive product strategy and execution for world-class products serving billions of users and millions of businesses. From Azure and Office 365 to Windows, Teams, and Xbox, you'll define vision, prioritize features, and work with engineering, design, and business teams to deliver customer value at massive scale.",
+
+      responsibilities: [
+        "Define product vision, strategy, and roadmap for Microsoft products",
+        "Gather customer insights through research, data analysis, and direct engagement",
+        "Prioritize features and make trade-off decisions balancing user needs and business goals",
+        "Collaborate with engineering, design, marketing, and sales teams",
+        "Track product metrics, analyze performance, and iterate based on data"
+      ],
+
+      growthOpportunities: [
+        "Lead products that impact billions of users and millions of businesses globally",
+        "Access to extensive customer data, research resources, and AI tools",
+        "Work across consumer, enterprise, and developer product lines",
+        "Strong emphasis on data-driven decision making and experimentation",
+        "Career growth into Senior PM, Group PM, or GM roles"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your PM experience, interest in Microsoft products, and role fit. Overview of compensation and team structure.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into your PM experience, approach to product management, and fit with the team's needs. May include case discussion.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Multiple interviews covering product design, strategy, execution, analytics, and behavioral/values. Focus on customer obsession and growth mindset.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "As Appropriate (AA) Round",
+          description: "Final interview with senior PM or GM if previous rounds go well. Assess leadership potential and cultural fit.",
+          duration: "45-60 minutes"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve Microsoft Teams for small businesses?",
+        "Design a new feature for Azure that helps developers reduce costs",
+        "Should Microsoft build a new productivity app? How would you decide?",
+        "How would you prioritize the Office 365 roadmap for the next year?",
+        "Design an experience to onboard new Windows users",
+        "How would you measure success for a new Teams feature?",
+        "Should Microsoft enter a new market segment? Walk through your analysis",
+        "Design a feature to increase collaboration in Office 365",
+        "How would you improve discoverability of Azure services?",
+        "Analyze declining engagement for a Microsoft product - what would you do?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a product you shipped that didn't meet expectations",
+        "Describe a time when you had to make a difficult trade-off decision",
+        "How have you handled disagreement with engineering on priorities?",
+        "Tell me about a time when you used data to change a product direction",
+        "Describe a situation where you had to influence without authority",
+        "How do you balance customer needs with business constraints?",
+        "Tell me about a time when you advocated for the customer",
+        "Describe how you've worked with cross-functional teams across time zones"
+      ],
+
+      whatTheyLookFor: [
+        "Customer obsession - deep empathy for user needs and pain points",
+        "Strong analytical skills and data-driven decision making",
+        "Technical depth to collaborate effectively with engineering",
+        "Growth mindset and willingness to learn from failures",
+        "Experience with enterprise products, cloud, or consumer at scale",
+        "Excellent communication and stakeholder management skills",
+        "Strategic thinking balanced with execution excellence",
+        "Passion for Microsoft's mission and products"
+      ],
+
+      interviewTips: [
+        "Use Microsoft products deeply - Office 365, Azure, Teams, Windows",
+        "Bring data and metrics to back up your product decisions",
+        "Demonstrate growth mindset and learning from product failures",
+        "Show understanding of both consumer and enterprise product challenges",
+        "Emphasize collaboration across engineering, design, and business teams",
+        "Research Microsoft's product strategy and recent announcements",
+        "Prepare examples of working with technical teams and making trade-offs",
+        "Ask about the team's product area, customers, and key challenges"
+      ],
+
+      dayInLife: {
+        overview: "Microsoft PMs balance customer research, data analysis, strategic planning, and cross-functional collaboration. Your day includes customer calls, data reviews, feature planning, and working closely with engineering and design teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Analyze product telemetry and user engagement data from previous week"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Customer Interviews",
+            description: "Calls with enterprise customers to understand their Azure challenges"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Engineering Sync",
+            description: "Daily standup with engineering team, discuss feature progress and blockers"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Networking",
+            description: "Lunch with PMs from other Microsoft product teams"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Design Review",
+            description: "Review UX designs for new feature with design team"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Strategy Meeting",
+            description: "Quarterly planning session with leadership on product roadmap"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Spec Writing",
+            description: "Document feature requirements and user stories for next sprint"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Stakeholder Updates",
+            description: "Share progress updates with sales and marketing teams"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Microsoft lead and grow high-performing engineering teams building world-class products. You'll balance technical leadership with people management, set direction for your team, and drive execution while fostering Microsoft's growth mindset culture. EMs at Microsoft manage teams of 8-12 engineers across diverse products and technologies.",
+
+      responsibilities: [
+        "Lead and mentor a team of 8-12 software engineers across the full development lifecycle",
+        "Set technical direction and make architectural decisions for your team's area",
+        "Hire top engineering talent and develop career growth plans",
+        "Drive execution on product roadmap in collaboration with PM and design",
+        "Foster growth mindset culture and continuous learning in your team"
+      ],
+
+      growthOpportunities: [
+        "Lead teams building products used by billions of users globally",
+        "Access to extensive management training and leadership development programs",
+        "Opportunity to work across diverse product areas from cloud to consumer",
+        "Clear path to senior leadership roles (Senior EM, Director, Partner)",
+        "Culture that values both technical and people leadership"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your management experience, team size, technical background, and interest in Microsoft.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into your leadership philosophy, management approach, and technical credibility. Discussion of team challenges.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Interviews covering technical leadership (architecture/coding), people management, stakeholder management, and values. May include case studies.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "As Appropriate (AA) Round",
+          description: "Final round with senior leader assessing long-term potential and cultural fit. Focus on strategic thinking and leadership.",
+          duration: "45-60 minutes"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design the architecture for a new Azure service handling millions of requests",
+        "How would you scale a system that's experiencing performance issues?",
+        "Your team is debating between two technical approaches - how do you decide?",
+        "Design the CI/CD pipeline for a large-scale distributed system",
+        "How do you balance technical debt with feature development?",
+        "Walk through how you'd architect a real-time collaboration feature for Teams",
+        "Your team is missing deadlines - how do you diagnose and fix this?",
+        "How do you ensure code quality across a team of 10 engineers?",
+        "Design a monitoring and alerting system for production services",
+        "How would you migrate a legacy system to modern architecture?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you had to manage a low performer",
+        "Describe a situation where your team missed a critical deadline",
+        "How have you built and scaled an engineering team?",
+        "Tell me about a time when you had to make a difficult technical trade-off",
+        "Describe a conflict between team members and how you resolved it",
+        "How have you fostered a culture of growth mindset in your team?",
+        "Tell me about a time when you had to deliver difficult feedback",
+        "Describe how you've balanced technical work with people management"
+      ],
+
+      whatTheyLookFor: [
+        "Strong technical credibility - ability to guide architecture and review code",
+        "People management experience leading teams of 5+ engineers",
+        "Growth mindset - developing others and learning continuously",
+        "Track record of shipping quality products on schedule",
+        "Experience with distributed systems, cloud, or large-scale applications",
+        "Excellent communication and collaboration across functions",
+        "Ability to build diverse, inclusive teams",
+        "Strategic thinking combined with execution excellence"
+      ],
+
+      interviewTips: [
+        "Prepare specific examples of developing engineers and building high-performing teams",
+        "Demonstrate technical depth - be ready to discuss architecture and code",
+        "Show how you've embodied and promoted growth mindset culture",
+        "Emphasize collaboration with PM, design, and other engineering teams",
+        "Be ready to discuss hiring, performance management, and difficult conversations",
+        "Research Microsoft's engineering culture and leadership principles",
+        "Prepare examples of balancing technical debt, quality, and feature velocity",
+        "Ask about the team's mission, technical challenges, and growth opportunities"
+      ],
+
+      dayInLife: {
+        overview: "Microsoft Engineering Managers balance technical leadership, people development, and strategic planning. Your day includes 1-on-1s, code/design reviews, cross-functional collaboration, hiring, and removing blockers for your team.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync with team on progress, blockers, and priorities across features"
+          },
+          {
+            time: "9:30 AM",
+            activity: "1-on-1 Meetings",
+            description: "Career development conversations with two engineers, provide coaching"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Architecture Review",
+            description: "Review technical design for major Azure feature with team architects"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Recruiting Lunch",
+            description: "Lunch interview with senior engineer candidate"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Code Review",
+            description: "Review critical pull requests and provide technical guidance"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Cross-team Sync",
+            description: "Meet with partner team EMs to align on dependencies and timelines"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Sprint Planning",
+            description: "Work with PM to prioritize backlog and plan next sprint"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Performance Reviews",
+            description: "Write performance reviews and calibrate with peer managers"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Technical Mentorship",
+            description: "Mentor junior engineers on system design and career growth"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+      ]
+    }
+  },
+
+  'netflix': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Netflix build and maintain the streaming service that entertains 250+ million members worldwide. You'll work on challenging problems in streaming technology, personalization, content delivery, and studio operations. Netflix's culture emphasizes freedom and responsibility, context over control, and high performance. Engineers have significant autonomy and impact.",
+
+      responsibilities: [
+        "Build scalable microservices and systems for Netflix's streaming platform",
+        "Design and implement features for content delivery, recommendation, or studio systems",
+        "Own services end-to-end including architecture, development, deployment, and operations",
+        "Collaborate across teams to deliver member-facing or internal platform features",
+        "Participate in on-call rotation and ensure service reliability"
+      ],
+
+      growthOpportunities: [
+        "Work on streaming technology serving 250+ million members globally",
+        "Significant autonomy and ownership with freedom and responsibility culture",
+        "Access to cutting-edge technology in cloud computing, distributed systems, and ML",
+        "Strong compensation including high cash and stock options",
+        "Opportunity to work on diverse problems from consumer to studio operations"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your background, interest in Netflix culture, and role fit. Overview of Netflix's freedom and responsibility principles.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "Coding interview focused on problem-solving, data structures, and algorithms. May also cover system design depending on level.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Deep technical interviews including coding (2 rounds), system design (1-2 rounds), and culture fit. Focus on ownership, judgment, and communication.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "If interviews go well, conversations with potential teams to find the best fit for your skills and interests.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design Netflix's video streaming and content delivery system",
+        "How would you implement the recommendation algorithm for Netflix homepage?",
+        "Design a system to detect and handle fraudulent account sharing",
+        "Implement A/B testing infrastructure for Netflix's UI",
+        "Design the encoding and transcoding pipeline for new content",
+        "How would you optimize Netflix's CDN for global content delivery?",
+        "Design a system to track and analyze viewing patterns across 250M members",
+        "Implement personalized search for Netflix content catalog",
+        "Design the system for managing Netflix's production studio operations",
+        "How would you handle service degradation gracefully during peak viewing times?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you demonstrated good judgment in ambiguity",
+        "Describe a situation where you took ownership of a problem outside your scope",
+        "How have you given or received candid feedback?",
+        "Tell me about a time when you disagreed with a teammate and how you handled it",
+        "Describe a project where you had significant autonomy and responsibility",
+        "How do you prioritize when you have multiple competing demands?",
+        "Tell me about a time when you made a mistake - how did you handle it?",
+        "Describe how you've contributed to team culture and collaboration"
+      ],
+
+      whatTheyLookFor: [
+        "Strong coding skills and computer science fundamentals",
+        "Experience building and operating distributed systems at scale",
+        "Good judgment and decision-making in ambiguous situations",
+        "Ownership mentality - taking initiative and following through",
+        "Self-direction and ability to thrive with freedom and responsibility",
+        "Strong communication skills and ability to work collaboratively",
+        "Passion for entertainment and Netflix's member experience",
+        "Cultural fit with Netflix values - honesty, selflessness, and courage"
+      ],
+
+      interviewTips: [
+        "Research Netflix's culture deck and understand freedom & responsibility principles",
+        "Use Netflix heavily - understand the product, UI, and member experience",
+        "Prepare examples demonstrating ownership, good judgment, and autonomy",
+        "Be ready for deep technical discussions on distributed systems and scalability",
+        "Show passion for entertainment technology and streaming innovation",
+        "Emphasize candid communication - Netflix values direct, honest feedback",
+        "Understand Netflix's technology blog and key engineering challenges",
+        "Ask thoughtful questions about team culture, technical challenges, and impact"
+      ],
+
+      dayInLife: {
+        overview: "Netflix engineers have significant autonomy and ownership. Your day includes coding, system design, cross-team collaboration, and operational responsibilities. Netflix emphasizes context over control and trusts engineers to make good decisions.",
+        schedule: [
+          {
+            time: "10:00 AM",
+            activity: "Check Metrics & Alerts",
+            description: "Review service health dashboards and any overnight alerts"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Feature Development",
+            description: "Code new personalization algorithm for homepage recommendations"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Team Discussion",
+            description: "Informal team lunch discussing technical approaches"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Design Collaboration",
+            description: "Work with PM and design to finalize new feature specifications"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Code Review",
+            description: "Review pull requests from teammates, provide detailed feedback"
+          },
+          {
+            time: "3:30 PM",
+            activity: "System Design Discussion",
+            description: "Architecture review for scaling content delivery system"
+          },
+          {
+            time: "4:30 PM",
+            activity: "A/B Test Analysis",
+            description: "Analyze results from recent experiment, decide on rollout"
+          },
+          {
+            time: "5:30 PM",
+            activity: "On-call Response",
+            description: "Investigate and resolve service degradation alert"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+      ]
+    },
+
+    'machine-learning-engineer': {
+      roleDescription: "Machine Learning Engineers at Netflix build the recommendation and personalization systems that help 250+ million members discover content they'll love. You'll work on large-scale ML systems for personalization, search, content understanding, and studio analytics. Netflix combines cutting-edge ML research with production engineering at massive scale.",
+
+      responsibilities: [
+        "Design and implement ML models for recommendation, personalization, and search",
+        "Build scalable ML infrastructure and pipelines for model training and serving",
+        "Conduct A/B experiments to measure impact of ML improvements on member experience",
+        "Collaborate with product, engineering, and data science teams",
+        "Monitor and optimize ML model performance in production"
+      ],
+
+      growthOpportunities: [
+        "Work on ML systems impacting content discovery for 250+ million members",
+        "Access to massive-scale data and cutting-edge ML technologies",
+        "Significant autonomy to experiment and innovate with ML approaches",
+        "Strong compensation with high cash and stock options",
+        "Opportunity to publish research and contribute to ML community"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your ML experience, interest in Netflix, and role fit. Overview of Netflix's ML work and culture.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "ML fundamentals covering algorithms, model design, and practical ML problems. May include coding or system design.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Deep ML interviews covering algorithms, system design, coding, and experimentation. Focus on practical ML engineering and production systems.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with ML teams (recommendations, search, content understanding) to find best fit.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design Netflix's recommendation system architecture",
+        "How would you improve click-through rate for Netflix homepage rows?",
+        "Design an ML system to predict which shows a member will binge-watch",
+        "How would you personalize Netflix search results?",
+        "Design a content understanding system to tag and categorize new titles",
+        "How would you detect and reduce bias in recommendation algorithms?",
+        "Design an A/B testing framework for ML model improvements",
+        "How would you optimize model serving latency for 250M members?",
+        "Design a system to predict content popularity before release",
+        "How would you handle cold-start problem for new Netflix members?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about an ML project that didn't perform as expected in production",
+        "Describe how you've balanced model complexity with production constraints",
+        "How have you communicated ML results to non-technical stakeholders?",
+        "Tell me about a time when you had to debug a complex ML model issue",
+        "Describe your approach to A/B testing and experimentation",
+        "How do you stay current with ML research and apply it to production?",
+        "Tell me about a time when you took ownership of an ML infrastructure problem",
+        "Describe how you've collaborated with product and engineering teams"
+      ],
+
+      whatTheyLookFor: [
+        "Strong ML fundamentals - algorithms, model design, and evaluation",
+        "Production ML experience - deploying and operating ML systems at scale",
+        "Software engineering skills - writing clean, scalable code",
+        "Experimentation mindset - rigorous A/B testing and data analysis",
+        "Experience with recommendation systems, personalization, or search",
+        "Strong communication skills to explain ML concepts to diverse audiences",
+        "Ownership and autonomy - self-directed problem-solving",
+        "Passion for using ML to improve member experience"
+      ],
+
+      interviewTips: [
+        "Use Netflix and think deeply about how personalization works",
+        "Prepare to discuss end-to-end ML projects from research to production",
+        "Understand recommendation systems, collaborative filtering, and ranking algorithms",
+        "Be ready to discuss A/B testing, experimentation, and metrics",
+        "Show examples of balancing model accuracy with production constraints",
+        "Research Netflix's ML tech blog and publications",
+        "Emphasize both ML depth and software engineering skills",
+        "Ask about the team's ML challenges, data, and infrastructure"
+      ],
+
+      dayInLife: {
+        overview: "Netflix ML Engineers combine research, experimentation, and production engineering. Your day includes model development, A/B test analysis, infrastructure work, and cross-functional collaboration with significant autonomy.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Experiment Analysis",
+            description: "Analyze A/B test results for new ranking algorithm"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Model Development",
+            description: "Train and evaluate new recommendation model with updated features"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & ML Discussion",
+            description: "Informal lunch discussing latest ML research papers"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Cross-functional Collaboration",
+            description: "Meet with product team to discuss personalization strategy"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Infrastructure Improvement",
+            description: "Optimize ML feature pipeline for lower latency"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Model Debugging",
+            description: "Investigate why certain recommendations underperformed"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Production Deployment",
+            description: "Deploy new model to production with canary rollout"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Research & Learning",
+            description: "Read new papers on transformer-based recommendation systems"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+      ]
+    }
   }
 }
 
-// Content for Amazon and Meta now complete
-// Total companies with role content: 5 (Google, Goldman Sachs, McKinsey, Amazon, Meta)
+// Content for Apple, Amazon, Meta, Google, Goldman Sachs, McKinsey, Microsoft, and Netflix
+// FAANG+ coverage complete - Priority 1 finished
+// Total companies with full role content: 8 (Apple: 3 roles, Microsoft: 3 roles, Netflix: 2 roles, Amazon: 3 roles, Meta: 3 roles, Google: 2 roles, Goldman Sachs: 1 role, McKinsey: 1 role)
