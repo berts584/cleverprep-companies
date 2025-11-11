@@ -3823,9 +3823,1490 @@ export const rolePageContent = {
         { companyName: "Google", companySlug: "google", industry: "Technology" }
       ]
     }
+  },
+
+  'stripe': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Stripe build the financial infrastructure that powers millions of businesses worldwide. You'll work on challenging problems in payments, fraud detection, APIs, and global financial systems. Stripe is known for its rigorous technical standards, developer-first culture, and commitment to building high-quality, reliable infrastructure.",
+
+      responsibilities: [
+        "Build and maintain Stripe's payment processing infrastructure and APIs",
+        "Design systems for fraud detection, compliance, and financial operations",
+        "Develop features for developer tools, dashboards, and integration platforms",
+        "Ensure reliability and security for global payment transactions",
+        "Collaborate with product, design, and business teams to solve user problems"
+      ],
+
+      growthOpportunities: [
+        "Work on technology powering millions of businesses globally",
+        "Tackle challenging problems in payments, fraud, and financial infrastructure",
+        "Strong engineering culture with emphasis on quality and craft",
+        "Competitive compensation with significant equity",
+        "Opportunity to work across diverse financial products and markets"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your background, interest in Stripe's mission, and role fit. Overview of Stripe's culture and products.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "Coding interview covering algorithms, data structures, and problem-solving. May include API design discussion.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Multiple interviews including coding (2 rounds), system design, integration/debugging, and behavioral. Known for rigorous technical evaluation.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with potential teams to find the best fit for your interests and skills.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design Stripe's payment processing API",
+        "Implement a fraud detection system for transactions",
+        "Design the idempotency mechanism for API requests",
+        "How would you handle global currency conversions?",
+        "Design Stripe's webhook delivery system",
+        "Implement rate limiting for API endpoints",
+        "Design the reconciliation system for payments",
+        "How would you ensure PCI compliance in payment systems?",
+        "Design Stripe's dispute and chargeback management system",
+        "Implement retry logic for failed payment attempts"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you prioritized reliability over speed",
+        "Describe a situation where you had to debug a complex production issue",
+        "How have you balanced user needs with technical constraints?",
+        "Tell me about a time when you designed an API or system for developers",
+        "Describe a project where attention to detail was critical",
+        "How do you approach building systems that handle money?",
+        "Tell me about a time when you had to make a technical trade-off",
+        "Describe how you've collaborated with non-technical stakeholders"
+      ],
+
+      whatTheyLookFor: [
+        "Strong coding skills with emphasis on reliability and correctness",
+        "Experience with distributed systems, APIs, or financial systems",
+        "User-first mindset with focus on developer experience",
+        "Attention to detail and commitment to quality",
+        "Systems thinking for complex financial infrastructure",
+        "Strong debugging and problem-solving skills",
+        "Collaborative approach across engineering and product teams",
+        "Passion for building tools that empower businesses"
+      ],
+
+      interviewTips: [
+        "Understand Stripe's products and APIs - try integrating Stripe",
+        "Prepare for rigorous technical evaluation with focus on correctness",
+        "Show examples of building reliable, high-quality systems",
+        "Understand payment systems, APIs, and financial infrastructure concepts",
+        "Emphasize user-first thinking and developer experience",
+        "Research Stripe's engineering blog and technical challenges",
+        "Be ready to discuss edge cases, error handling, and reliability",
+        "Ask about the team's mission, technical stack, and product area"
+      ],
+
+      dayInLife: {
+        overview: "Stripe engineers work on mission-critical payment infrastructure with emphasis on quality and reliability. Your day includes coding, design reviews, incident response, and cross-functional collaboration.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with team on progress, blockers, and priorities"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Feature Development",
+            description: "Build new API endpoint for payment methods with comprehensive tests"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Design Review",
+            description: "Review technical design for fraud detection feature"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch & Discussion",
+            description: "Team lunch discussing payment industry trends"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Debugging Session",
+            description: "Investigate and fix issue in webhook delivery system"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Code Review",
+            description: "Review pull requests with focus on edge cases and reliability"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Cross-functional Sync",
+            description: "Meet with product and compliance on new payment method"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Monitoring & Alerts",
+            description: "Review system health and transaction success rates"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Stripe define and execute product strategy for financial infrastructure used by millions of businesses globally. From payment APIs to financial products, you'll work on complex problems balancing user needs, business goals, and regulatory requirements. Stripe PMs are known for technical depth, strategic thinking, and user-first mindset.",
+
+      responsibilities: [
+        "Define product vision and strategy for Stripe's payment and financial products",
+        "Gather user feedback and identify opportunities to improve developer experience",
+        "Prioritize features balancing user needs, business goals, and compliance",
+        "Collaborate with engineering, design, legal, and business teams",
+        "Ship high-quality products with focus on reliability and ease of use"
+      ],
+
+      growthOpportunities: [
+        "Own products powering millions of businesses and trillions in transactions",
+        "Deep exposure to payment systems, financial infrastructure, and fintech",
+        "Work with highly technical teams on complex product challenges",
+        "Strong compensation with significant equity",
+        "Career growth into senior PM, GPM, or leadership roles"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your PM experience, interest in Stripe's mission, and role fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into product experience, technical depth, and strategic thinking.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Interviews covering product design, technical depth, analytics, execution, and behavioral. Focus on user empathy and strategic thinking.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with product teams to find the best fit.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve Stripe's onboarding for new developers?",
+        "Design a new payment method for Stripe",
+        "Should Stripe enter a new market? How would you evaluate?",
+        "How would you measure success for Stripe's API?",
+        "Design a feature to reduce payment failures",
+        "How would you improve the Stripe Dashboard?",
+        "Should Stripe build a new financial product? Walk through your analysis",
+        "Design the developer experience for a new compliance feature",
+        "How would you reduce time to first transaction for new users?",
+        "Analyze declining conversion in a specific payment flow"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a highly technical product you shipped",
+        "Describe a time when you had to balance user needs with compliance requirements",
+        "How have you worked with engineering on API design?",
+        "Tell me about a time when you used data to inform a product decision",
+        "Describe a situation where you had to influence without authority",
+        "How do you prioritize when you have competing user and business needs?",
+        "Tell me about a time when you championed the user",
+        "Describe how you've worked across legal, compliance, and engineering teams"
+      ],
+
+      whatTheyLookFor: [
+        "Strong technical depth - ability to discuss APIs, systems, and architecture",
+        "User-first mindset with focus on developer experience",
+        "Analytical skills and data-driven decision making",
+        "Understanding of payment systems and financial infrastructure",
+        "Strategic thinking with execution excellence",
+        "Excellent communication across technical and non-technical stakeholders",
+        "Experience with developer products or B2B platforms",
+        "Passion for building tools that empower businesses"
+      ],
+
+      interviewTips: [
+        "Integrate Stripe into a project - understand the developer experience",
+        "Study Stripe's products, APIs, and documentation thoroughly",
+        "Prepare to discuss technical concepts and trade-offs",
+        "Bring data and metrics to support product decisions",
+        "Understand payment industry dynamics and regulations",
+        "Research Stripe's product strategy and recent launches",
+        "Show empathy for developers as your users",
+        "Ask about the team's product area, challenges, and roadmap"
+      ],
+
+      dayInLife: {
+        overview: "Stripe PMs balance technical depth, user research, data analysis, and strategic planning. Your day includes developer interviews, design reviews, engineering collaboration, and cross-functional coordination.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Analyze API usage, transaction success rates, and developer metrics"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Developer Interviews",
+            description: "User research calls with Stripe developers about pain points"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Engineering Sync",
+            description: "Technical design review for new API feature"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learning",
+            description: "Informal discussion about payment industry trends"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Product Design",
+            description: "Work with designer on dashboard improvement"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Data Analysis",
+            description: "Analyze conversion funnel for new payment method"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Compliance Meeting",
+            description: "Align with legal and compliance on regulatory requirements"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Strategy Session",
+            description: "Roadmap planning with leadership on product direction"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Stripe lead teams building the financial infrastructure that powers the internet economy. You'll balance technical leadership with people management, drive product execution, and uphold Stripe's high standards for quality and reliability. EMs at Stripe typically manage teams of 6-10 engineers working on payment systems, APIs, or financial products.",
+
+      responsibilities: [
+        "Lead and mentor a team of 6-10 engineers on payment or platform systems",
+        "Set technical direction and ensure high quality and reliability standards",
+        "Drive product execution in partnership with PM and design",
+        "Hire exceptional engineering talent and develop career growth plans",
+        "Foster Stripe's culture of user-focus, quality, and technical excellence"
+      ],
+
+      growthOpportunities: [
+        "Lead teams building infrastructure for millions of businesses",
+        "Strong engineering culture with emphasis on quality and craft",
+        "Clear path to senior leadership roles (Senior EM, Director, VP)",
+        "Work on diverse financial products and global payment systems",
+        "Competitive compensation with significant equity"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of management experience, technical background, and interest in Stripe.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into leadership philosophy, technical credibility, and management approach.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Interviews covering technical leadership, people management, system design, and behavioral. Focus on quality and team building.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with teams to find the best fit.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design the architecture for Stripe's payment processing system",
+        "How would you improve reliability for API requests?",
+        "Your team is behind on a critical payments feature - how do you recover?",
+        "Design the infrastructure for global payment routing",
+        "How do you balance technical debt with feature development?",
+        "Walk through scaling a payment system from 100K to 10M transactions/day",
+        "Your team has a production incident affecting payments - how do you respond?",
+        "Design the testing strategy for financial transaction systems",
+        "How would you architect Stripe's fraud detection pipeline?",
+        "Design monitoring and alerting for payment success rates"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you had to maintain high quality under pressure",
+        "Describe a situation where you had to manage a performance issue",
+        "How have you built and scaled an engineering team?",
+        "Tell me about a time when you had to make a difficult technical trade-off",
+        "Describe a conflict between team members and how you resolved it",
+        "How do you foster a culture of quality and reliability?",
+        "Tell me about a time when you had to deliver difficult feedback",
+        "Describe how you've mentored engineers to grow their technical skills"
+      ],
+
+      whatTheyLookFor: [
+        "Strong technical credibility with payment systems or financial infrastructure",
+        "People management experience leading teams of 5+ engineers",
+        "Commitment to quality, reliability, and correctness",
+        "Track record of shipping mission-critical systems",
+        "User-first mindset with focus on developer experience",
+        "Excellent communication and collaboration skills",
+        "Experience with distributed systems, APIs, or B2B products",
+        "Passion for building tools that empower businesses"
+      ],
+
+      interviewTips: [
+        "Prepare examples of building reliable, high-quality systems",
+        "Demonstrate technical depth in payments, APIs, or distributed systems",
+        "Show commitment to quality and attention to detail",
+        "Emphasize user-first thinking and developer experience",
+        "Be ready to discuss hiring, performance management, and team culture",
+        "Understand Stripe's products and technical challenges",
+        "Prepare examples of handling incidents and maintaining reliability",
+        "Ask about the team's mission, technical stack, and growth opportunities"
+      ],
+
+      dayInLife: {
+        overview: "Stripe Engineering Managers balance technical leadership, people development, and quality focus. Your day includes 1-on-1s, technical reviews, incident response, cross-functional collaboration, and strategic planning.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "System Health Review",
+            description: "Review payment success rates, API latency, and overnight incidents"
+          },
+          {
+            time: "9:30 AM",
+            activity: "1-on-1 Meetings",
+            description: "Career development and coaching conversations with engineers"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Technical Design Review",
+            description: "Review architecture for new payment method integration"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Recruiting Lunch",
+            description: "Lunch interview with senior engineer candidate"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Code Review",
+            description: "Review critical pull requests for payment processing logic"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Product Planning",
+            description: "Sprint planning with PM on API feature roadmap"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Incident Postmortem",
+            description: "Review and document learnings from payment outage"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Cross-functional Sync",
+            description: "Align with compliance and legal on new regulatory requirements"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Technical Strategy",
+            description: "Plan technical roadmap and infrastructure investments"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    }
+  },
+
+  'salesforce': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Salesforce build the world's leading CRM platform and cloud-based enterprise software, serving hundreds of thousands of businesses globally. You'll work on challenging problems in multi-tenant architecture, enterprise SaaS, AI/ML integration, and scalable cloud infrastructure. Salesforce values Ohana (family), trust, customer success, and equality.",
+
+      responsibilities: [
+        "Build and maintain Salesforce's CRM platform and enterprise cloud applications",
+        "Design multi-tenant architecture for scalable SaaS products",
+        "Develop features for Sales Cloud, Service Cloud, Marketing Cloud, or platform tools",
+        "Ensure security, reliability, and performance for enterprise customers",
+        "Collaborate with product, UX, and customer success teams"
+      ],
+
+      growthOpportunities: [
+        "Work on technology serving hundreds of thousands of businesses globally",
+        "Strong focus on innovation with AI, automation, and cloud technologies",
+        "Ohana culture emphasizing community, equality, and social impact",
+        "Competitive compensation with strong benefits and equity",
+        "Career growth with clear technical and leadership tracks"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your background, interest in Salesforce's mission, and role fit. Overview of Ohana culture.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "Coding interview covering algorithms, data structures, and problem-solving. May include OOP and system design discussion.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Multiple interviews including coding (2 rounds), system design, and behavioral/cultural fit. Focus on Salesforce values.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with potential teams to find the best fit for your skills and interests.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design Salesforce's multi-tenant architecture",
+        "Implement a permission system for enterprise users",
+        "Design the data model for a CRM contact management system",
+        "How would you ensure data isolation in a multi-tenant system?",
+        "Design Salesforce's workflow automation engine",
+        "Implement role-based access control (RBAC) for organizations",
+        "Design the reporting and analytics system for Salesforce",
+        "How would you handle schema migrations in a multi-tenant database?",
+        "Design Salesforce's API rate limiting system",
+        "Implement a custom object framework for users to extend Salesforce"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you demonstrated trust and integrity",
+        "Describe a situation where you championed equality or diversity",
+        "How have you embodied customer success in your work?",
+        "Tell me about a time when you contributed to your team's Ohana",
+        "Describe a project where you had to balance innovation with reliability",
+        "How do you approach working with enterprise customers?",
+        "Tell me about a time when you gave back to your community",
+        "Describe how you've collaborated across distributed teams"
+      ],
+
+      whatTheyLookFor: [
+        "Strong coding skills with enterprise software development experience",
+        "Understanding of multi-tenant architecture and SaaS principles",
+        "Alignment with Salesforce values: Trust, Customer Success, Innovation, Equality",
+        "Experience with cloud platforms, distributed systems, or enterprise software",
+        "Customer-first mindset with focus on business impact",
+        "Collaborative approach across product, engineering, and customer success",
+        "Commitment to diversity, equality, and social responsibility",
+        "Passion for building products that empower businesses"
+      ],
+
+      interviewTips: [
+        "Use Salesforce products - understand CRM, Sales Cloud, and platform capabilities",
+        "Study Salesforce's Ohana culture and core values deeply",
+        "Prepare examples demonstrating trust, customer success, and equality",
+        "Understand enterprise SaaS and multi-tenant architecture concepts",
+        "Show customer empathy and business impact orientation",
+        "Research Salesforce's technology blog and innovation initiatives",
+        "Be ready to discuss scalability and enterprise requirements",
+        "Ask about the team's product area, culture, and social impact"
+      ],
+
+      dayInLife: {
+        overview: "Salesforce engineers work in collaborative teams building enterprise cloud products with focus on customer success and innovation. Your day includes coding, design reviews, customer feedback sessions, and community engagement.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync with team on progress, blockers, and customer priorities"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Feature Development",
+            description: "Build new automation workflow feature for Sales Cloud"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Customer Feedback Session",
+            description: "Review feedback from enterprise customers on new features"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Volunteer Event",
+            description: "Team lunch followed by 1:1:1 volunteer activity planning"
+          },
+          {
+            time: "2:00 PM",
+            activity: "System Design Review",
+            description: "Architecture review for multi-tenant data storage optimization"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Code Review",
+            description: "Review pull requests with focus on security and scalability"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Cross-functional Sync",
+            description: "Meet with product and UX on enterprise customer requirements"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Innovation Time",
+            description: "Work on AI/ML integration for Einstein features"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Salesforce define and execute product strategy for the world's #1 CRM platform and enterprise cloud applications. From Sales Cloud to AI-powered Einstein, you'll work on products serving hundreds of thousands of businesses globally. Salesforce PMs are known for customer obsession, strategic thinking, and commitment to the Ohana culture.",
+
+      responsibilities: [
+        "Define product vision and strategy for Salesforce's cloud products",
+        "Gather customer insights through research, feedback, and data analysis",
+        "Prioritize features balancing customer needs, business goals, and technical feasibility",
+        "Collaborate with engineering, UX, customer success, and business teams",
+        "Ship products that drive customer success and business transformation"
+      ],
+
+      growthOpportunities: [
+        "Own products serving hundreds of thousands of businesses globally",
+        "Work on diverse product areas from CRM to AI to platform tools",
+        "Strong focus on customer success and business impact",
+        "Ohana culture with emphasis on community and social responsibility",
+        "Career growth into senior PM, VP, or leadership roles"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your PM experience, interest in enterprise software, and role fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into product experience, strategic thinking, and customer focus.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Interviews covering product design, strategy, analytics, execution, and values. Focus on customer success and Salesforce culture.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with product teams to find the best fit.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve Salesforce Sales Cloud for small businesses?",
+        "Design a new feature for customer service automation",
+        "Should Salesforce enter a new market vertical? How would you evaluate?",
+        "How would you measure success for Einstein AI features?",
+        "Design the mobile experience for Salesforce",
+        "How would you improve adoption of Salesforce platform features?",
+        "Should Salesforce build a new industry cloud? Walk through your analysis",
+        "Design a feature to reduce time-to-value for new customers",
+        "How would you improve the AppExchange marketplace?",
+        "Analyze declining engagement for a Salesforce product"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a product that drove significant customer success",
+        "Describe a time when you had to balance multiple stakeholder needs",
+        "How have you championed equality or diversity in product decisions?",
+        "Tell me about a time when you used customer feedback to change direction",
+        "Describe a situation where you had to influence without authority",
+        "How do you prioritize between enterprise and SMB customer needs?",
+        "Tell me about a time when you demonstrated trust and integrity",
+        "Describe how you've collaborated with customer success teams"
+      ],
+
+      whatTheyLookFor: [
+        "Strong customer obsession with enterprise software experience",
+        "Strategic thinking with execution excellence",
+        "Analytical skills and data-driven decision making",
+        "Understanding of CRM, SaaS, and enterprise business processes",
+        "Alignment with Salesforce values and Ohana culture",
+        "Excellent communication and stakeholder management",
+        "Technical depth to collaborate effectively with engineering",
+        "Passion for driving customer success and business transformation"
+      ],
+
+      interviewTips: [
+        "Use Salesforce products extensively - understand the platform and ecosystem",
+        "Study Salesforce's Ohana culture and values (Trust, Customer Success, Innovation, Equality)",
+        "Prepare examples showing customer obsession and business impact",
+        "Understand enterprise software dynamics and CRM market",
+        "Bring data and metrics to support product decisions",
+        "Research Salesforce's product strategy and recent innovations",
+        "Show empathy for both enterprise and SMB customers",
+        "Ask about the team's product area, customer base, and roadmap"
+      ],
+
+      dayInLife: {
+        overview: "Salesforce PMs balance customer research, data analysis, strategic planning, and cross-functional collaboration. Your day includes customer calls, design reviews, engineering syncs, and community engagement.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Analyze product adoption, usage, and customer success metrics"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Customer Interviews",
+            description: "Calls with enterprise customers about their business challenges"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Engineering Sync",
+            description: "Sprint planning with engineering team on new features"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Ohana Time",
+            description: "Team lunch discussing community initiatives"
+          },
+          {
+            time: "1:30 PM",
+            activity: "UX Collaboration",
+            description: "Design review for new automation workflow UI"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Data Analysis",
+            description: "Analyze feature adoption and conversion funnels"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Strategy Meeting",
+            description: "Quarterly planning with leadership on product roadmap"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Customer Success Sync",
+            description: "Align with CS team on enterprise customer feedback"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Salesforce lead teams building enterprise cloud products that transform how businesses connect with customers. You'll balance technical leadership with people management, drive product execution, and foster the Ohana culture. EMs at Salesforce typically manage teams of 6-10 engineers working on CRM, platform, or cloud infrastructure.",
+
+      responsibilities: [
+        "Lead and mentor a team of 6-10 engineers on cloud products or platform systems",
+        "Set technical direction and ensure quality for enterprise-grade software",
+        "Drive product execution in partnership with PM and UX",
+        "Hire exceptional talent and develop career growth plans",
+        "Foster Salesforce's Ohana culture and commitment to equality"
+      ],
+
+      growthOpportunities: [
+        "Lead teams building products for hundreds of thousands of businesses",
+        "Strong emphasis on leadership development and Ohana culture",
+        "Clear path to senior leadership roles (Senior EM, Director, VP)",
+        "Work on diverse product areas from CRM to AI to platform",
+        "Competitive compensation with strong benefits and equity"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of management experience, technical background, and alignment with Salesforce values.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into leadership philosophy, technical credibility, and people management approach.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Interviews covering technical leadership, people management, system design, and values. Focus on Ohana culture and customer success.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with teams to find the best fit.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design the architecture for Salesforce's multi-tenant CRM system",
+        "How would you improve scalability for enterprise customers?",
+        "Your team is behind on a critical customer-facing feature - how do you recover?",
+        "Design the infrastructure for Salesforce's AI/Einstein platform",
+        "How do you balance technical debt with new feature development?",
+        "Walk through scaling a SaaS product from 10K to 100K customers",
+        "Your team has a production incident affecting enterprise customers - how do you respond?",
+        "Design the testing strategy for multi-tenant applications",
+        "How would you architect Salesforce's integration platform?",
+        "Design monitoring and alerting for enterprise SaaS reliability"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you built a diverse and inclusive team",
+        "Describe a situation where you had to manage a performance issue",
+        "How have you embodied the Ohana culture as a leader?",
+        "Tell me about a time when you championed customer success",
+        "Describe a conflict between team members and resolution",
+        "How do you foster trust and integrity in your team?",
+        "Tell me about a time when you had to deliver difficult feedback",
+        "Describe how you've mentored engineers from diverse backgrounds"
+      ],
+
+      whatTheyLookFor: [
+        "Strong technical credibility with enterprise software or SaaS experience",
+        "People management experience leading teams of 5+ engineers",
+        "Commitment to diversity, equality, and inclusive culture",
+        "Track record of shipping reliable enterprise products",
+        "Customer-first mindset with focus on business success",
+        "Excellent communication and collaboration skills",
+        "Experience with multi-tenant architecture, cloud platforms, or distributed systems",
+        "Passion for building teams and empowering others"
+      ],
+
+      interviewTips: [
+        "Prepare examples of building diverse, inclusive teams",
+        "Demonstrate technical depth in enterprise software and cloud platforms",
+        "Show alignment with Salesforce's Ohana culture and values",
+        "Emphasize customer success and business impact",
+        "Be ready to discuss hiring, performance management, and team development",
+        "Understand Salesforce's products and technical challenges",
+        "Prepare examples of fostering trust and community in teams",
+        "Ask about the team's mission, culture, and social impact initiatives"
+      ],
+
+      dayInLife: {
+        overview: "Salesforce Engineering Managers balance technical leadership, people development, and Ohana culture. Your day includes 1-on-1s, technical reviews, customer success collaboration, and community engagement.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "System Health Review",
+            description: "Review platform health, customer success metrics, and incidents"
+          },
+          {
+            time: "9:30 AM",
+            activity: "1-on-1 Meetings",
+            description: "Career development and coaching conversations with engineers"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Technical Design Review",
+            description: "Review architecture for new Einstein AI feature"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Ohana Lunch",
+            description: "Team lunch discussing volunteer and community initiatives"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Code Review",
+            description: "Review critical pull requests for enterprise features"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Product Planning",
+            description: "Quarterly planning with PM on customer-driven roadmap"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Diversity & Inclusion",
+            description: "Participate in ERG meeting and diversity initiatives"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Customer Success Sync",
+            description: "Align with CS team on enterprise customer technical needs"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Technical Strategy",
+            description: "Plan platform evolution and architecture improvements"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+      ]
+    }
+  },
+
+  'doordash': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at DoorDash build technology for the leading food delivery platform, connecting consumers, merchants, and Dashers across three-sided marketplace. You'll work on challenging problems in logistics optimization, real-time matching, mobile applications, and global operations. DoorDash values customer obsession, bias for action, and operational excellence.",
+
+      responsibilities: [
+        "Build scalable services for DoorDash's delivery platform and marketplace",
+        "Design and implement features for consumer, merchant, or Dasher experiences",
+        "Work on logistics optimization and real-time delivery routing systems",
+        "Collaborate with product, operations, and data science teams",
+        "Own services end-to-end including deployment, monitoring, and incident response"
+      ],
+
+      growthOpportunities: [
+        "Work on technology serving millions of consumers, merchants, and Dashers",
+        "Tackle challenging problems in logistics, optimization, and marketplace dynamics",
+        "Fast-paced environment with significant ownership and impact",
+        "Strong compensation with competitive equity",
+        "Opportunity to work across diverse product areas from delivery to grocery to logistics"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your background, interest in DoorDash's mission, and role fit. Overview of culture and values.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "Coding interview focusing on algorithms, data structures, and problem-solving. May include discussion of past work.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Multiple interviews including coding (2 rounds), system design, and behavioral. Focus on execution and customer obsession.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with teams to find the best fit for your interests and skills.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design DoorDash's delivery routing and dispatching system",
+        "Implement an algorithm to optimize delivery times and costs",
+        "Design the real-time ETA calculation system",
+        "How would you detect and prevent fraudulent orders?",
+        "Design DoorDash's restaurant ranking and discovery system",
+        "Implement batching logic for multiple order pickups",
+        "Design the system for managing Dasher availability and scheduling",
+        "How would you optimize delivery zones for maximum efficiency?",
+        "Design DoorDash's payment and settlement system",
+        "Implement surge pricing for high-demand periods"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you moved fast to solve a customer problem",
+        "Describe a situation where you had to make decisions with incomplete information",
+        "How have you demonstrated bias for action in your work?",
+        "Tell me about a time when you obsessed over operational excellence",
+        "Describe a project where you had to balance speed with quality",
+        "How do you prioritize when facing multiple urgent issues?",
+        "Tell me about a time when you improved a process or system significantly",
+        "Describe how you've collaborated with operations or support teams"
+      ],
+
+      whatTheyLookFor: [
+        "Strong coding skills and computer science fundamentals",
+        "Experience with distributed systems, real-time systems, or logistics",
+        "Customer obsession - focus on consumer, merchant, and Dasher experiences",
+        "Bias for action and ability to execute quickly",
+        "Systems thinking for complex three-sided marketplace",
+        "Collaborative mindset across product, ops, and data teams",
+        "Operational excellence and attention to detail",
+        "Passion for local commerce and logistics innovation"
+      ],
+
+      interviewTips: [
+        "Use DoorDash frequently - understand the full experience as consumer and merchant",
+        "Prepare for questions about logistics, optimization, and real-time systems",
+        "Show examples of moving fast, iterating, and solving operational problems",
+        "Understand three-sided marketplace dynamics and constraints",
+        "Emphasize customer obsession and data-driven decision making",
+        "Research DoorDash's engineering blog and technical challenges",
+        "Be ready to discuss trade-offs between speed, cost, and quality",
+        "Ask about team's mission, impact on local commerce, and growth"
+      ],
+
+      dayInLife: {
+        overview: "DoorDash engineers work in fast-paced teams building products for millions of users with focus on execution and customer impact. Your day includes coding, operational discussions, cross-team collaboration, and data analysis.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Standup & Ops Review",
+            description: "Team sync and review overnight delivery metrics and incidents"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Feature Development",
+            description: "Build new routing optimization algorithm for deliveries"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch with Dasher",
+            description: "Working lunch with local Dasher to understand their experience"
+          },
+          {
+            time: "1:00 PM",
+            activity: "System Design Review",
+            description: "Review architecture for new merchant onboarding feature"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Operations Sync",
+            description: "Meet with ops team on delivery performance and merchant issues"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Incident Response",
+            description: "Debug and fix issue affecting delivery assignments"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Data Analysis",
+            description: "Analyze A/B test results for new matching algorithm"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Code Review",
+            description: "Review pull requests from teammates with focus on reliability"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at DoorDash drive strategy and execution for products serving millions of consumers, hundreds of thousands of merchants, and Dashers globally. From core delivery experiences to new verticals like grocery and convenience, you'll work on complex problems in a dynamic three-sided marketplace. DoorDash PMs are known for operational excellence, customer obsession, and bias for action.",
+
+      responsibilities: [
+        "Define product strategy and roadmap for consumer, merchant, or Dasher experiences",
+        "Analyze marketplace dynamics and operational metrics to identify opportunities",
+        "Prioritize features balancing user needs, business goals, and operational constraints",
+        "Collaborate with engineering, design, operations, and data science teams",
+        "Ship experiments quickly, analyze data, and iterate based on results"
+      ],
+
+      growthOpportunities: [
+        "Own products impacting millions of users across three-sided marketplace",
+        "Fast career progression in high-growth environment",
+        "Exposure to diverse challenges from logistics to commerce to new verticals",
+        "Strong collaboration with operations and on-the-ground teams",
+        "Competitive compensation with significant equity"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of your PM experience, interest in local commerce, and role fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into product experience, analytical thinking, and operational focus.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Interviews covering product design, analytics, execution, technical depth, and behavioral. Focus on customer obsession and bias for action.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with product teams across different focus areas.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve DoorDash's consumer app to increase order frequency?",
+        "Design a feature to reduce delivery times",
+        "How would you increase merchant retention and satisfaction?",
+        "Should DoorDash enter a new vertical? How would you evaluate?",
+        "How would you measure success for DashPass subscription?",
+        "Design the Dasher onboarding and retention experience",
+        "How would you optimize the delivery matching algorithm?",
+        "Analyze why delivery completion rates dropped in a market",
+        "Design a feature to improve merchant operations efficiency",
+        "How would you balance consumer prices with Dasher earnings?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a product you shipped under tight deadlines",
+        "Describe a time when you used data to drive a major decision",
+        "How have you balanced competing stakeholder needs across a marketplace?",
+        "Tell me about a time when you had to move fast with incomplete information",
+        "Describe a situation where you championed operational excellence",
+        "How do you prioritize when everything seems urgent?",
+        "Tell me about a time when you advocated strongly for the user",
+        "Describe how you've worked closely with operations teams"
+      ],
+
+      whatTheyLookFor: [
+        "Customer obsession across all marketplace participants",
+        "Strong analytical skills and operational metrics focus",
+        "Bias for action - ability to ship quickly and iterate",
+        "Understanding of marketplace dynamics and logistics",
+        "Data-driven decision making with strong quantitative skills",
+        "Technical depth to collaborate effectively with engineering",
+        "Excellent communication and stakeholder management",
+        "Passion for local commerce and logistics innovation"
+      ],
+
+      interviewTips: [
+        "Use DoorDash extensively - order frequently, understand merchant and Dasher sides",
+        "Prepare to discuss marketplace metrics and unit economics",
+        "Bring data and operational metrics to support decisions",
+        "Show examples of moving fast, testing, and iterating",
+        "Understand logistics challenges and three-sided marketplace trade-offs",
+        "Research DoorDash's product strategy and new verticals",
+        "Emphasize collaboration with operations and on-the-ground teams",
+        "Ask about team's focus area, key metrics, and operational challenges"
+      ],
+
+      dayInLife: {
+        overview: "DoorDash PMs move fast, balancing data analysis, operational coordination, and rapid experimentation. Your day includes metrics review, operations syncs, merchant visits, and cross-functional collaboration.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Analyze delivery performance, marketplace efficiency, and user metrics"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Operations Sync",
+            description: "Review market performance and discuss operational challenges"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Engineering Sprint Planning",
+            description: "Prioritize features with engineering team for next sprint"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Merchant Visit",
+            description: "Lunch at local restaurant to understand merchant pain points"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Design Review",
+            description: "Review mockups for new Dasher earnings feature"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Data Deep Dive",
+            description: "Analyze A/B test results for delivery batching algorithm"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Strategy Meeting",
+            description: "Discuss new vertical expansion with leadership"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Dasher Feedback Session",
+            description: "Review survey results and feedback from Dashers"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at DoorDash lead teams building technology for the leading local commerce platform. You'll balance technical leadership with people management, drive rapid execution, and maintain operational excellence. EMs at DoorDash typically manage teams of 6-10 engineers working on delivery systems, marketplace features, or platform infrastructure.",
+
+      responsibilities: [
+        "Lead and mentor a team of 6-10 engineers on delivery or marketplace systems",
+        "Set technical direction and drive rapid execution",
+        "Partner with product, operations, and data teams to ship impactful features",
+        "Hire top talent and develop career growth plans",
+        "Foster DoorDash's culture of customer obsession and bias for action"
+      ],
+
+      growthOpportunities: [
+        "Lead teams building technology for millions of users globally",
+        "Fast-paced environment with high impact and rapid growth",
+        "Clear path to senior leadership roles",
+        "Work on diverse challenges from logistics to commerce to new verticals",
+        "Competitive compensation with significant equity"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of management experience, technical background, and interest in DoorDash.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into leadership philosophy, execution mindset, and technical credibility.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Interviews covering technical leadership, people management, system design, and behavioral. Focus on execution and team building.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with teams to find the best fit.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design the architecture for DoorDash's delivery routing system",
+        "How would you improve reliability for order assignment?",
+        "Your team is behind on a critical merchant feature - how do you recover?",
+        "Design the infrastructure for real-time Dasher location tracking",
+        "How do you balance technical debt with rapid feature development?",
+        "Walk through scaling the system for 10x growth",
+        "Your team has a production incident affecting deliveries - how do you respond?",
+        "Design the testing strategy for logistics optimization algorithms",
+        "How would you architect DoorDash's payment processing system?",
+        "Design monitoring for marketplace health and delivery performance"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time when you had to ship a critical feature quickly",
+        "Describe a situation where you managed a performance issue",
+        "How have you built and scaled an engineering team in a fast-growing company?",
+        "Tell me about a time when you had to make difficult trade-offs",
+        "Describe a conflict with product or operations stakeholders",
+        "How do you maintain quality while moving fast?",
+        "Tell me about a time when you had to deliver difficult feedback",
+        "Describe how you've fostered a customer-obsessed team culture"
+      ],
+
+      whatTheyLookFor: [
+        "Strong technical credibility with distributed systems or logistics experience",
+        "People management experience leading teams of 5+ engineers",
+        "Bias for action and ability to execute rapidly",
+        "Track record of shipping in fast-paced environments",
+        "Customer obsession and operational excellence mindset",
+        "Excellent communication and collaboration skills",
+        "Experience with marketplaces, real-time systems, or high-scale platforms",
+        "Passion for local commerce and logistics innovation"
+      ],
+
+      interviewTips: [
+        "Prepare examples of rapid execution and shipping under pressure",
+        "Demonstrate technical depth in distributed systems and logistics",
+        "Show how you've balanced speed with quality and reliability",
+        "Emphasize collaboration with product and operations teams",
+        "Be ready to discuss hiring, performance management, and team culture",
+        "Understand DoorDash's marketplace and technical challenges",
+        "Prepare examples of handling incidents and maintaining system health",
+        "Ask about team's mission, operational metrics, and growth opportunities"
+      ],
+
+      dayInLife: {
+        overview: "DoorDash Engineering Managers balance technical leadership, rapid execution, and operational excellence. Your day includes 1-on-1s, technical reviews, operations collaboration, incident response, and strategic planning.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Operations & Metrics Review",
+            description: "Review delivery metrics, system health, and overnight incidents"
+          },
+          {
+            time: "9:30 AM",
+            activity: "1-on-1 Meetings",
+            description: "Career development conversations with engineers"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Technical Design Review",
+            description: "Review architecture for new batching algorithm"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Operations Lunch",
+            description: "Working lunch with ops team discussing market challenges"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Code Review",
+            description: "Review critical pull requests for delivery routing changes"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Product Planning",
+            description: "Sprint planning with PM on merchant feature roadmap"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Incident Response",
+            description: "Lead postmortem for delivery assignment outage"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Cross-functional Sync",
+            description: "Align with data science on optimization improvements"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Technical Strategy",
+            description: "Plan platform evolution and infrastructure roadmap"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: "Data Scientists at DoorDash leverage data and analytics to optimize the three-sided marketplace, improve delivery efficiency, and drive business decisions. You'll work on challenging problems in logistics optimization, demand forecasting, pricing, and experimentation at massive scale. DoorDash data scientists combine analytical rigor with operational focus to move key metrics.",
+
+      responsibilities: [
+        "Analyze marketplace dynamics and identify opportunities for optimization",
+        "Design and analyze experiments to measure product and operational impact",
+        "Build models for demand forecasting, routing optimization, and pricing",
+        "Partner with product, engineering, and operations teams on data-driven decisions",
+        "Develop metrics and dashboards to track marketplace and delivery health"
+      ],
+
+      growthOpportunities: [
+        "Work with rich datasets from millions of deliveries and marketplace interactions",
+        "Impact key business metrics through data-driven optimization",
+        "Strong collaboration with product, engineering, and operations teams",
+        "Exposure to diverse problems from logistics to commerce to economics",
+        "Career growth into senior IC or data science leadership"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Phone Screen",
+          description: "Discussion of data science experience, interest in local commerce, and role fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "Statistics, SQL, and analytics case study. May include optimization or causal inference.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Interviews covering statistics, experimentation, SQL/coding, product sense, case study, and behavioral. Focus on business impact.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Team Matching",
+          description: "Conversations with data science teams across different product areas.",
+          duration: "Varies"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you optimize DoorDash's delivery routing to minimize costs?",
+        "Design an experiment to test a new merchant commission structure",
+        "Analyze why delivery times increased in a specific market",
+        "How would you detect fraudulent orders or accounts?",
+        "Build a demand forecasting model for restaurant orders",
+        "How would you optimize Dasher positioning and availability?",
+        "Analyze the impact of DashPass on order frequency",
+        "Design a model to predict delivery completion time",
+        "How would you measure marketplace efficiency?",
+        "Build a pricing model for delivery fees based on distance and demand"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about an analysis that drove a major operational improvement",
+        "Describe a time when your findings contradicted stakeholder expectations",
+        "How have you communicated complex analyses to operations teams?",
+        "Tell me about an experiment that produced unexpected results",
+        "Describe working with incomplete or real-time operational data",
+        "How do you prioritize when you have multiple urgent analysis requests?",
+        "Tell me about a time when you partnered with product and engineering",
+        "Describe how you've influenced business strategy with data"
+      ],
+
+      whatTheyLookFor: [
+        "Strong statistical and analytical skills with operational focus",
+        "Experience with A/B testing, causal inference, and experimentation",
+        "Proficiency in SQL, Python/R, and optimization techniques",
+        "Ability to translate analysis into actionable operational improvements",
+        "Understanding of marketplace dynamics and logistics",
+        "Excellent communication skills for diverse stakeholders",
+        "Bias for action and focus on business impact",
+        "Passion for using data to improve local commerce"
+      ],
+
+      interviewTips: [
+        "Use DoorDash and think about the data behind delivery and marketplace",
+        "Prepare to discuss experimentation, optimization, and causal inference",
+        "Bring examples of analyses that drove operational or business decisions",
+        "Understand three-sided marketplace metrics and unit economics",
+        "Be ready for SQL coding and statistical problem-solving",
+        "Show strong operational focus and business partnership",
+        "Research DoorDash's data challenges and marketplace dynamics",
+        "Ask about team's focus area, key metrics, and analytical challenges"
+      ],
+
+      dayInLife: {
+        overview: "DoorDash Data Scientists analyze marketplace data, design experiments, optimize operations, and collaborate cross-functionally to drive business impact. Your day includes SQL analysis, experimentation, operations syncs, and presenting insights.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Review marketplace KPIs: orders, delivery times, and efficiency metrics"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Experiment Analysis",
+            description: "Analyze A/B test for new delivery batching algorithm"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Operations Meeting",
+            description: "Present analysis on market performance to ops leadership"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learning",
+            description: "Data science team lunch with case study discussion"
+          },
+          {
+            time: "1:30 PM",
+            activity: "SQL Deep Dive",
+            description: "Analyze merchant retention patterns by category and market"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Model Development",
+            description: "Build demand forecasting model for delivery capacity planning"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Product Collaboration",
+            description: "Work with PM to design experiment for pricing feature"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Dashboard Building",
+            description: "Create executive dashboard for marketplace health metrics"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+      ]
+    }
   }
 }
 
-// Content for FAANG+, Uber, Airbnb, Goldman Sachs, and McKinsey
-// Priority 1 complete (8 companies) + Phase 2A (Uber) + Phase 2B (Airbnb) complete
-// Total companies with full role content: 10
+// Content for FAANG+, Uber, Airbnb, Stripe, Salesforce, DoorDash, Goldman Sachs, and McKinsey
+// Priority 1 complete (8 companies) + Priority 2 complete (5 companies: Uber, Airbnb, Stripe, Salesforce, DoorDash)
+// Total companies with full role content: 13 (18 Priority 2 roles added)
