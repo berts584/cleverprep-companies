@@ -5304,9 +5304,1228 @@ export const rolePageContent = {
         { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
       ]
     }
+  },
+
+  // Priority 3A: Lyft
+  'lyft': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Lyft build technology that improves people's lives through the world's best transportation. You'll work on critical systems powering millions of rides, from real-time dispatch and pricing to safety features and driver/rider experiences. Engineers operate in a collaborative culture emphasizing impact, inclusivity, and continuous learning.",
+
+      responsibilities: [
+        "Design and build scalable services for ride matching, routing, and dispatch systems",
+        "Develop features for rider and driver mobile and web applications",
+        "Optimize algorithms for pricing, ETAs, and marketplace efficiency",
+        "Build safety and trust systems including real-time fraud detection",
+        "Collaborate with product, design, and data science on feature development",
+        "Participate in on-call rotation supporting production services",
+        "Contribute to engineering culture through mentorship and code reviews",
+        "Work with big data systems processing billions of location events"
+      ],
+
+      growthOpportunities: [
+        "Rapid advancement based on impact rather than tenure",
+        "Exposure to large-scale distributed systems and real-time processing",
+        "Cross-functional collaboration with product, data science, and operations teams",
+        "Opportunities to lead projects with measurable business impact",
+        "Internal mobility across marketplace, mapping, safety, and platform teams",
+        "Access to continuous learning resources and conference sponsorships",
+        "Mentorship from experienced engineers in rideshare technology",
+        "Chance to influence product direction and technical strategy"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "30-45 minute conversation with recruiter covering background, interest in Lyft, and logistics.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute coding interview focusing on data structures, algorithms, and problem-solving. Live coding in shared editor.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Multiple interviews including coding (2 rounds), system design (1 round), behavioral/culture fit (1 round), and sometimes domain-specific deep dive.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Feedback compiled and reviewed by hiring committee. Competitive offer including equity and benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design Lyft's ride matching and dispatch system",
+        "Implement an algorithm for efficient driver-rider pairing",
+        "Design the surge pricing system that responds to demand",
+        "How would you calculate accurate ETAs for pickups and dropoffs?",
+        "Design a real-time tracking system for rides in progress",
+        "Implement a routing algorithm considering traffic and multiple waypoints",
+        "Design the driver availability and shift management system",
+        "How would you detect and prevent fraudulent rides?",
+        "Design a scalable notification system for riders and drivers",
+        "Implement a queueing system for high-demand pickup locations (airports, venues)"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you improved transportation or mobility through technology",
+        "Describe a situation where you had to make trade-offs between speed and quality",
+        "How have you worked with product managers and designers to ship features?",
+        "Tell me about a time you identified and solved a production issue",
+        "Describe your experience with real-time systems or location-based services",
+        "How do you approach making technical decisions with incomplete information?",
+        "Tell me about a time you advocated for a better user experience",
+        "Describe a project where you had significant impact on business metrics"
+      ],
+
+      whatTheyLookFor: [
+        "Strong computer science fundamentals in data structures and algorithms",
+        "Experience building scalable distributed systems",
+        "Product thinking and understanding of user impact",
+        "Collaboration skills and ability to work cross-functionally",
+        "Passion for transportation and improving cities",
+        "Bias for action and ability to ship iteratively",
+        "Problem-solving with ambiguous requirements",
+        "Commitment to inclusion and diversity"
+      ],
+
+      interviewTips: [
+        "Understand Lyft's mission and how it differs from competitors",
+        "Be prepared to discuss trade-offs in real-time systems design",
+        "Show product thinking beyond just technical implementation",
+        "Demonstrate experience with large-scale systems if applicable",
+        "Prepare examples of collaborating across functions",
+        "Research Lyft's engineering blog for insights on their tech stack",
+        "Be ready to discuss location-based services and mapping challenges",
+        "Express genuine interest in transportation and community impact"
+      ],
+
+      dayInLife: {
+        overview: "Lyft engineers work in collaborative teams building features that directly impact millions of riders and drivers. Days involve coding, design discussions, on-call responsibilities, and cross-functional collaboration.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync on progress, blockers, and priorities with engineering team"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Feature Development",
+            description: "Code new marketplace optimization feature with pair programming session"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Product Review",
+            description: "Demo completed driver experience feature to PM and design partners"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch & Team Time",
+            description: "Team lunch with casual discussion about tech trends and projects"
+          },
+          {
+            time: "2:00 PM",
+            activity: "System Design Discussion",
+            description: "Collaborate with team on architecture for new safety feature"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Code Review & Monitoring",
+            description: "Review PRs from teammates and check dashboards for service health"
+          },
+          {
+            time: "4:30 PM",
+            activity: "1:1 with Manager",
+            description: "Bi-weekly career growth discussion and project prioritization"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Learning Time",
+            description: "Read engineering blog posts on real-time systems and experiment with new tools"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
+        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Lyft drive product strategy and execution for features impacting millions of riders and drivers. You'll work closely with engineering, design, data science, and operations to build transportation solutions that improve cities and create economic opportunities. PMs at Lyft combine analytical rigor with customer empathy and strategic thinking.",
+
+      responsibilities: [
+        "Define product vision and roadmap for rider or driver experiences",
+        "Collaborate with engineering and design on feature development",
+        "Analyze data and user research to inform product decisions",
+        "Drive marketplace efficiency through pricing and matching improvements",
+        "Partner with operations on launch strategies and rollouts",
+        "Monitor metrics and iterate based on performance",
+        "Communicate product strategy to leadership and stakeholders",
+        "Balance needs of riders, drivers, and business objectives"
+      ],
+
+      growthOpportunities: [
+        "Rapid career progression based on product impact and leadership",
+        "Exposure to complex marketplace dynamics and real-time systems",
+        "Opportunities to own products affecting millions of users",
+        "Cross-functional leadership experience with diverse teams",
+        "Internal mobility across rider, driver, and platform product areas",
+        "Mentorship from experienced product leaders in tech",
+        "Access to data science and research resources",
+        "Influence on transportation and urban mobility strategy"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about background, product experience, and interest in Lyft's mission.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Product Case Interview",
+          description: "60-minute product design or analytical case study with PM. Focus on problem-solving and structured thinking.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Product design, analytics/metrics, technical discussion with engineers, behavioral/leadership, and sometimes market sizing or strategy.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Cross-functional review of interview feedback. Offer includes competitive salary, equity, and benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve rider retention at Lyft?",
+        "Design a feature to increase driver earnings",
+        "How would you measure the success of a new safety feature?",
+        "What metrics would you track for the ride-matching system?",
+        "How would you prioritize building a new rider feature vs driver feature?",
+        "Design a loyalty program for frequent riders",
+        "How would you approach launching Lyft in a new city?",
+        "What would you do if average wait times increased by 20%?",
+        "How would you improve the airport pickup experience?",
+        "Design a feature to reduce rider cancellations"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a product you launched and its impact",
+        "Describe a time you used data to make a difficult product decision",
+        "How have you worked with engineering teams to ship features?",
+        "Tell me about a time you had to balance competing stakeholder needs",
+        "Describe your experience building marketplace or platform products",
+        "How do you prioritize features with limited engineering resources?",
+        "Tell me about a product that failed and what you learned",
+        "Describe a time you influenced without authority"
+      ],
+
+      whatTheyLookFor: [
+        "Strong analytical and data-driven decision making",
+        "Customer empathy for both riders and drivers",
+        "Technical fluency to collaborate with engineers",
+        "Strategic thinking about marketplace dynamics",
+        "Execution focus and ability to ship products",
+        "Cross-functional leadership and communication",
+        "Passion for transportation and community impact",
+        "Comfort with ambiguity and fast-paced environment"
+      ],
+
+      interviewTips: [
+        "Understand Lyft's two-sided marketplace (riders and drivers)",
+        "Be prepared with product metrics frameworks (e.g., AARRR)",
+        "Show examples of data-driven product decisions",
+        "Research Lyft's products and competitive landscape",
+        "Demonstrate understanding of unit economics in rideshare",
+        "Prepare transportation or mobility-related product ideas",
+        "Be ready to discuss trade-offs between stakeholder groups",
+        "Express genuine passion for improving cities through technology"
+      ],
+
+      dayInLife: {
+        overview: "Lyft PMs balance strategic planning, cross-functional collaboration, data analysis, and customer research. Days are varied with meetings, product reviews, and deep work on roadmaps and requirements.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Analyze overnight data on rider conversion and driver utilization"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Product Sync",
+            description: "Weekly sync with engineering lead on feature development progress"
+          },
+          {
+            time: "11:00 AM",
+            activity: "User Research Session",
+            description: "Observe driver interviews to understand pain points with current app"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch with Designer",
+            description: "Working lunch reviewing mockups for new rider onboarding flow"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Product Review",
+            description: "Present upcoming feature roadmap to VP and gather feedback"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Planning Session",
+            description: "Collaborate with team on Q2 OKRs and prioritization"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Data Analysis",
+            description: "Deep dive into A/B test results for pricing experiment"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Stakeholder Update",
+            description: "Send weekly update email to cross-functional partners on launches"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Lyft lead teams building technology that powers millions of rides daily. You'll manage engineers working on critical systems from matching algorithms to mobile apps, while fostering an inclusive culture of learning and impact. EMs balance technical leadership, people management, and strategic planning.",
+
+      responsibilities: [
+        "Lead team of 5-10 engineers on rider, driver, or platform products",
+        "Drive technical strategy and architecture decisions",
+        "Partner with product and design on roadmap and execution",
+        "Recruit, develop, and retain top engineering talent",
+        "Conduct 1:1s, performance reviews, and career development planning",
+        "Foster inclusive and high-performing team culture",
+        "Balance technical debt with feature velocity",
+        "Contribute to engineering org strategy and best practices"
+      ],
+
+      growthOpportunities: [
+        "Scale management skills leading critical transportation systems",
+        "Exposure to large-scale real-time systems and marketplace dynamics",
+        "Opportunities to grow into senior leadership roles",
+        "Cross-functional influence with product, operations, and data science",
+        "Shape engineering culture and technical standards",
+        "Mentor and develop future engineering leaders",
+        "Internal mobility across different product areas",
+        "Impact on Lyft's technical strategy and architecture"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about management experience, leadership style, and interest in Lyft.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical/Architecture Discussion",
+          description: "60-minute discussion on system design, technical decision-making, and past technical leadership.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-6 rounds)",
+          description: "People management, technical leadership, collaboration with product/design, system design, and leadership/values interviews.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Cross-functional review of leadership capability and technical judgment. Competitive offer with equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you architect Lyft's real-time ride tracking system?",
+        "Describe your approach to reducing technical debt while maintaining velocity",
+        "How do you make build-vs-buy decisions for infrastructure?",
+        "What's your strategy for scaling systems from 1M to 10M users?",
+        "How do you balance technical excellence with shipping quickly?",
+        "Describe your approach to managing on-call and production incidents",
+        "How would you improve engineering productivity on your team?",
+        "What's your framework for technical decision-making with uncertainty?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you grew a direct report's career",
+        "Describe how you've built inclusive and diverse teams",
+        "How have you handled underperformance on your team?",
+        "Tell me about a difficult trade-off between product and engineering",
+        "Describe your experience managing remote or distributed teams",
+        "How do you build trust with product and design partners?",
+        "Tell me about a time you had to deliver difficult feedback",
+        "Describe a situation where you changed your leadership approach"
+      ],
+
+      whatTheyLookFor: [
+        "Strong people leadership and team development skills",
+        "Technical depth in distributed systems and architecture",
+        "Cross-functional collaboration with product and design",
+        "Strategic thinking about technology and product roadmap",
+        "Commitment to diversity, equity, and inclusion",
+        "Experience building high-performing engineering teams",
+        "Balance of technical excellence and business pragmatism",
+        "Passion for Lyft's mission and transportation impact"
+      ],
+
+      interviewTips: [
+        "Prepare specific examples of team development and coaching",
+        "Be ready to discuss technical architecture and system design",
+        "Show how you've partnered with product managers effectively",
+        "Demonstrate understanding of marketplace and real-time systems",
+        "Discuss your approach to building inclusive team culture",
+        "Prepare examples of managing through ambiguity and change",
+        "Research Lyft's engineering culture and values",
+        "Be ready to discuss trade-offs between quality and speed"
+      ],
+
+      dayInLife: {
+        overview: "Lyft EMs balance people management, technical leadership, and strategic planning. Days include 1:1s, technical reviews, cross-functional collaboration, and team development.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "1:1s with Engineers",
+            description: "Career development conversation and project feedback with two team members"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Technical Design Review",
+            description: "Review architecture proposal for new matching algorithm with team"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Product Planning",
+            description: "Collaborate with PM and design on Q2 roadmap and capacity planning"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Recruiting Interview",
+            description: "Conduct system design interview for senior engineer candidate"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Incident Retrospective",
+            description: "Lead postmortem discussion on last week's production issue"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Team Sync",
+            description: "Weekly team meeting to review sprint progress and unblock issues"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Peer Manager Sync",
+            description: "Coordinate cross-team dependencies with another engineering manager"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Performance Reviews",
+            description: "Write mid-year performance reviews for team members"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" }
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: "Data Scientists at Lyft use data, analytics, and machine learning to optimize the transportation marketplace and improve experiences for riders and drivers. You'll work on problems ranging from surge pricing to fraud detection, partnering with product, engineering, and operations teams. Lyft's data culture emphasizes experimentation, rigor, and measurable impact.",
+
+      responsibilities: [
+        "Analyze marketplace dynamics and driver-rider matching efficiency",
+        "Build machine learning models for pricing, ETAs, and fraud detection",
+        "Design and analyze A/B experiments to measure product impact",
+        "Create dashboards and metrics frameworks for product teams",
+        "Partner with product managers on feature development and prioritization",
+        "Develop predictive models for demand forecasting",
+        "Conduct statistical analysis to inform strategic decisions",
+        "Present insights and recommendations to leadership"
+      ],
+
+      growthOpportunities: [
+        "Advance from IC data scientist to senior leadership roles",
+        "Exposure to complex marketplace and optimization problems",
+        "Build production ML systems at scale",
+        "Cross-functional collaboration with product, engineering, and ops",
+        "Internal mobility across pricing, matching, safety, and growth teams",
+        "Access to massive datasets on transportation behavior",
+        "Opportunity to publish research and speak at conferences",
+        "Impact on real-world transportation and urban mobility"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about background, data science experience, and interest in Lyft.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview covering SQL, statistics, and analytical problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Analytics case study, machine learning, coding/SQL, product sense, and behavioral interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Review of technical depth, analytical ability, and product thinking. Competitive offer with equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you design an experiment to test a new surge pricing algorithm?",
+        "Build a model to predict rider demand in the next hour",
+        "How would you detect fraudulent rides in real-time?",
+        "What metrics would you use to measure driver satisfaction?",
+        "Design a recommendation system for ride destinations",
+        "How would you optimize driver-rider matching to reduce wait times?",
+        "Analyze the impact of a price increase on rider conversion",
+        "Build a model to predict driver churn",
+        "How would you measure the success of a new safety feature?",
+        "Design an experiment to test different cancellation fee policies"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a data analysis that led to significant product impact",
+        "Describe a time you had to explain complex analysis to non-technical stakeholders",
+        "How have you collaborated with product managers and engineers?",
+        "Tell me about an A/B test that produced surprising results",
+        "Describe your experience with machine learning in production",
+        "How do you approach problems with incomplete or messy data?",
+        "Tell me about a time your analysis changed a strategic decision",
+        "Describe a project where you balanced speed with analytical rigor"
+      ],
+
+      whatTheyLookFor: [
+        "Strong foundation in statistics, experimentation, and causal inference",
+        "Proficiency in SQL, Python/R, and data analysis tools",
+        "Experience with machine learning and predictive modeling",
+        "Product intuition and business sense",
+        "Ability to translate analysis into actionable insights",
+        "Strong communication skills for technical and non-technical audiences",
+        "Passion for transportation and marketplace problems",
+        "Collaboration skills and cross-functional partnership"
+      ],
+
+      interviewTips: [
+        "Understand two-sided marketplace dynamics and challenges",
+        "Be prepared to discuss experimentation methodology and causal inference",
+        "Show examples of data-driven product decisions you influenced",
+        "Demonstrate SQL proficiency and ability to work with large datasets",
+        "Research Lyft's approach to pricing, matching, and marketplace optimization",
+        "Prepare examples of ML models you've built and deployed",
+        "Be ready to discuss trade-offs in model complexity vs interpretability",
+        "Express interest in real-world transportation problems"
+      ],
+
+      dayInLife: {
+        overview: "Lyft data scientists balance exploratory analysis, model development, experimentation, and cross-functional collaboration. Work involves SQL, Python, dashboards, and strategic thinking.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Experiment Results Review",
+            description: "Analyze A/B test results for new driver incentive program"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Data Science Team Sync",
+            description: "Weekly standup with DS team to discuss ongoing projects"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Model Development",
+            description: "Build and tune ML model for demand forecasting"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learn",
+            description: "Attend internal tech talk on causal inference methods"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Product Collaboration",
+            description: "Partner with PM to define metrics for new rider feature"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Ad-hoc Analysis",
+            description: "Investigate unexpected spike in cancellation rates"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Dashboard Building",
+            description: "Create Looker dashboard for marketplace health metrics"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Insights Presentation",
+            description: "Present pricing optimization findings to leadership team"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" }
+      ]
+    }
+  },
+
+  // Priority 3A: Spotify
+  'spotify': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Spotify build products that bring music and audio to hundreds of millions of users worldwide. You'll work on features spanning personalization, discovery, content platforms, and creator tools, using cutting-edge technology in a culture that values autonomy, innovation, and collaboration. Engineers operate in cross-functional 'squads' with high ownership and impact.",
+
+      responsibilities: [
+        "Design and build features for music streaming and audio platforms",
+        "Develop personalization and recommendation algorithms",
+        "Build scalable backend services handling billions of requests",
+        "Create engaging mobile and desktop user experiences",
+        "Optimize audio streaming quality and performance",
+        "Collaborate in autonomous squads with product and design",
+        "Contribute to Spotify's open-source projects and engineering culture",
+        "Work with massive datasets on user behavior and content metadata"
+      ],
+
+      growthOpportunities: [
+        "Rapid career growth through impact and technical leadership",
+        "Exposure to machine learning, audio engineering, and large-scale systems",
+        "High autonomy in squad-based organizational model",
+        "Opportunities to work on creator tools, podcasts, and emerging audio formats",
+        "Internal mobility across product areas and engineering disciplines",
+        "Access to cutting-edge technology and research",
+        "Strong engineering culture with emphasis on open source",
+        "Global impact on how people experience music and audio"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about background, experience, and interest in Spotify.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute coding interview on data structures, algorithms, and problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Coding (2 rounds), system design (1 round), culture/values fit, and sometimes domain-specific technical discussion.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Cross-functional review. Offer includes competitive compensation, equity, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design Spotify's music recommendation system",
+        "Implement a shuffle algorithm that feels random but doesn't repeat",
+        "Design the audio streaming and caching architecture",
+        "How would you build a real-time collaborative playlist feature?",
+        "Design Spotify's search system for songs, artists, and playlists",
+        "Implement an algorithm for generating personalized daily mixes",
+        "Design the offline download and sync system",
+        "How would you optimize audio quality based on network conditions?",
+        "Design a system for tracking and reporting music royalties",
+        "Implement a lyrics synchronization feature with audio playback"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you innovated on a product feature",
+        "Describe how you've worked in autonomous, cross-functional teams",
+        "How have you balanced user needs with technical constraints?",
+        "Tell me about a time you improved system performance or scalability",
+        "Describe your experience with recommendation systems or personalization",
+        "How do you stay current with new technologies and best practices?",
+        "Tell me about a project where you had high ownership and impact",
+        "Describe a time you collaborated across engineering disciplines"
+      ],
+
+      whatTheyLookFor: [
+        "Strong computer science fundamentals and coding ability",
+        "Experience with distributed systems and scalability",
+        "Product mindset and user-centric thinking",
+        "Autonomy and ability to drive projects independently",
+        "Collaboration skills in cross-functional squad environment",
+        "Passion for music, audio, and creator economy",
+        "Innovative thinking and willingness to experiment",
+        "Cultural fit with Spotify's values of sincerity, passion, and collaboration"
+      ],
+
+      interviewTips: [
+        "Understand Spotify's squad model and autonomous culture",
+        "Be prepared to discuss recommendation systems and personalization",
+        "Show passion for music and audio experiences",
+        "Demonstrate experience with large-scale distributed systems",
+        "Research Spotify's engineering blog and tech stack",
+        "Prepare examples of working with high autonomy",
+        "Be ready to discuss audio streaming challenges",
+        "Express interest in creator tools and emerging audio formats"
+      ],
+
+      dayInLife: {
+        overview: "Spotify engineers work in autonomous squads with high ownership. Days involve coding, collaboration with product and design, experimentation, and squad rituals.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Squad Standup",
+            description: "Daily sync with squad on progress, blockers, and priorities"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Feature Development",
+            description: "Build recommendation feature using machine learning models"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Product Critique",
+            description: "Review design prototypes for new playlist creation flow"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch & Music",
+            description: "Team lunch with discussion about favorite new releases"
+          },
+          {
+            time: "2:00 PM",
+            activity: "A/B Test Analysis",
+            description: "Review experiment results with data scientist on discovery feature"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Technical Design",
+            description: "Collaborate on architecture for offline playback improvements"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Code Review & Pairing",
+            description: "Review PRs and pair program on streaming optimization"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Hack Time",
+            description: "Experiment with new audio codec for better quality at lower bitrate"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "YouTube", companySlug: "youtube", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: "Product Managers at Spotify shape how hundreds of millions of users discover, listen to, and create audio content. You'll work in autonomous squads on products ranging from personalized recommendations to creator tools, balancing user needs, creator success, and business objectives. PMs at Spotify combine analytical rigor with creative thinking in a data-driven culture.",
+
+      responsibilities: [
+        "Define product vision and strategy for music or audio features",
+        "Collaborate with engineers, designers, and data scientists in squads",
+        "Analyze data and user research to inform product decisions",
+        "Drive discovery and personalization features",
+        "Partner with content teams on artist and creator experiences",
+        "Design and analyze A/B experiments to measure impact",
+        "Balance needs of listeners, creators, and business",
+        "Communicate product strategy to leadership and stakeholders"
+      ],
+
+      growthOpportunities: [
+        "Rapid advancement based on product impact and leadership",
+        "Exposure to recommendation systems, audio technology, and creator economy",
+        "Work on products affecting hundreds of millions of users",
+        "High autonomy in squad-based organization",
+        "Internal mobility across listener, creator, and platform products",
+        "Collaborate with world-class engineers and designers",
+        "Access to rich data on music consumption and behavior",
+        "Influence on future of audio and creator monetization"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about PM experience, background, and passion for Spotify.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Product Case Interview",
+          description: "60-minute product design or strategy case with PM. Focus on user insight and structured thinking.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Product design, analytics/metrics, technical collaboration, behavioral/leadership, and sometimes strategy or domain-specific.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Cross-functional review of product thinking and cultural fit. Competitive offer with equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve music discovery for new users?",
+        "Design a feature to help emerging artists grow their audience",
+        "How would you measure the success of personalized playlists?",
+        "What metrics would you track for podcast discovery?",
+        "How would you prioritize features for the mobile app?",
+        "Design a social feature to increase engagement",
+        "How would you approach launching Spotify in a new market?",
+        "What would you do if daily active users declined 5%?",
+        "Design a monetization feature for creators",
+        "How would you improve the search experience?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a product you launched and its impact on users",
+        "Describe a time you used data to make a difficult product decision",
+        "How have you worked with engineering and design in autonomous teams?",
+        "Tell me about a time you balanced competing stakeholder priorities",
+        "Describe your experience with recommendation or personalization products",
+        "How do you approach prioritization with limited resources?",
+        "Tell me about a product experiment that surprised you",
+        "Describe a time you advocated for a better user experience"
+      ],
+
+      whatTheyLookFor: [
+        "Strong analytical skills and data-driven decision making",
+        "User empathy for listeners and creators",
+        "Technical understanding to collaborate with engineers",
+        "Product sense for music, audio, and content discovery",
+        "Execution focus and ability to ship in squad environment",
+        "Creativity in solving ambiguous problems",
+        "Passion for music and creator economy",
+        "Autonomy and ability to drive without constant direction"
+      ],
+
+      interviewTips: [
+        "Understand Spotify's mission to unlock human creativity",
+        "Be prepared with product metrics frameworks",
+        "Show examples of data-driven product decisions",
+        "Research Spotify's features and competitive landscape",
+        "Demonstrate understanding of two-sided platform (listeners + creators)",
+        "Prepare ideas for discovery and personalization",
+        "Be ready to discuss experimentation methodology",
+        "Express genuine passion for music and audio innovation"
+      ],
+
+      dayInLife: {
+        overview: "Spotify PMs work in autonomous squads balancing strategy, data analysis, user research, and cross-functional collaboration. Days are varied with rituals, deep work, and experimentation.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Analyze overnight data on playlist engagement and discovery metrics"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Squad Planning",
+            description: "Weekly planning session with engineers and designer on sprint priorities"
+          },
+          {
+            time: "11:00 AM",
+            activity: "User Research",
+            description: "Watch recordings of user interviews on discovery flow"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Product Critique",
+            description: "Present feature mockups to design leadership for feedback"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch with Creator Team",
+            description: "Discuss upcoming artist tools and creator monetization strategy"
+          },
+          {
+            time: "2:00 PM",
+            activity: "A/B Test Review",
+            description: "Analyze experiment results with data scientist on recommendation algorithm"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Product Strategy",
+            description: "Work on Q2 roadmap and OKRs for personalization squad"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Stakeholder Sync",
+            description: "Update content partnerships team on upcoming feature launch"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "YouTube", companySlug: "youtube", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Spotify lead squads building products for hundreds of millions of music and audio fans. You'll manage engineers in Spotify's autonomous squad model, balancing technical leadership, people development, and product impact. EMs foster innovation, collaboration, and a culture where engineers thrive.",
+
+      responsibilities: [
+        "Lead engineering squad of 5-8 engineers in autonomous team structure",
+        "Drive technical strategy and architecture decisions",
+        "Partner with product and design on roadmap and execution",
+        "Recruit, develop, and retain engineering talent",
+        "Conduct 1:1s, performance reviews, and career coaching",
+        "Foster inclusive team culture emphasizing autonomy and impact",
+        "Balance innovation with reliability and technical excellence",
+        "Contribute to engineering organization and leadership"
+      ],
+
+      growthOpportunities: [
+        "Grow management skills in high-autonomy squad environment",
+        "Exposure to audio technology, ML systems, and content platforms",
+        "Opportunities to scale into senior engineering leadership",
+        "Cross-functional influence with product, design, and data science",
+        "Shape engineering culture and technical standards",
+        "Mentor and develop future engineering leaders",
+        "Internal mobility across product areas and engineering disciplines",
+        "Impact on global music and audio innovation"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about management experience, leadership philosophy, and interest in Spotify.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical/Architecture Discussion",
+          description: "60-minute discussion on system design, technical leadership, and past technical decisions.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-6 rounds)",
+          description: "People management, technical leadership, product collaboration, system design, and values/culture fit.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Review of leadership capability and technical depth. Competitive offer with equity and benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you architect Spotify's recommendation system at scale?",
+        "Describe your approach to managing technical debt in a fast-moving product",
+        "How do you make technical decisions in a squad-based organization?",
+        "What's your strategy for maintaining service reliability while shipping quickly?",
+        "How would you approach building vs buying for audio streaming infrastructure?",
+        "Describe your framework for data architecture decisions",
+        "How do you balance experimentation with technical excellence?",
+        "What's your approach to managing incidents and on-call?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you developed an engineer's career",
+        "Describe how you've fostered autonomy while maintaining alignment",
+        "How have you built inclusive and diverse engineering teams?",
+        "Tell me about a difficult technical decision you made with your team",
+        "Describe your experience managing in a product-driven organization",
+        "How do you build trust across engineering, product, and design?",
+        "Tell me about a time you had to deliver constructive feedback",
+        "Describe a situation where you changed your management approach"
+      ],
+
+      whatTheyLookFor: [
+        "Strong people leadership and coaching skills",
+        "Technical depth in distributed systems and scalability",
+        "Experience with autonomous team structures",
+        "Product-minded engineering approach",
+        "Commitment to diversity and inclusion",
+        "Balance of innovation and operational excellence",
+        "Collaboration skills in cross-functional squads",
+        "Passion for music, audio, and creator economy"
+      ],
+
+      interviewTips: [
+        "Understand Spotify's squad model and guild structure",
+        "Prepare examples of fostering autonomy and ownership",
+        "Be ready to discuss technical architecture at scale",
+        "Show experience balancing innovation with reliability",
+        "Demonstrate cross-functional partnership skills",
+        "Research Spotify's engineering culture and values",
+        "Prepare examples of developing direct reports",
+        "Express passion for music and audio technology"
+      ],
+
+      dayInLife: {
+        overview: "Spotify EMs balance people leadership, technical guidance, and strategic planning in an autonomous squad environment. Days include 1:1s, technical discussions, and cross-functional collaboration.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "1:1 Meetings",
+            description: "Career development discussions with two squad members"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Technical Architecture Review",
+            description: "Review recommendation system improvements with senior engineers"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Squad Sync",
+            description: "Weekly squad meeting on sprint progress and upcoming priorities"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Guild Meeting",
+            description: "Backend guild discussion on microservices patterns and best practices"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Recruiting",
+            description: "Interview senior engineer candidate for personalization squad"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Product Planning",
+            description: "Collaborate with PM and design on Q2 roadmap and technical feasibility"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Incident Review",
+            description: "Conduct postmortem on streaming service latency issue"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Leadership Sync",
+            description: "Engineering leadership meeting on organizational priorities"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: "Data Scientists at Spotify use data, analytics, and machine learning to personalize music experiences for hundreds of millions of users. You'll work on recommendation systems, content understanding, creator analytics, and growth optimization, collaborating with engineers, product managers, and researchers in autonomous squads. Spotify's data-driven culture emphasizes experimentation and measurable impact.",
+
+      responsibilities: [
+        "Build recommendation and personalization algorithms for music discovery",
+        "Develop ML models for content understanding and audio analysis",
+        "Design and analyze A/B experiments across product features",
+        "Create analytics frameworks and dashboards for squads",
+        "Partner with product managers on feature development and strategy",
+        "Analyze user behavior and listening patterns",
+        "Build predictive models for user engagement and retention",
+        "Contribute to data infrastructure and tooling"
+      ],
+
+      growthOpportunities: [
+        "Advance from IC data scientist to research or leadership roles",
+        "Exposure to large-scale recommendation systems and audio ML",
+        "Work on products impacting hundreds of millions of users",
+        "High autonomy in squad-based organization",
+        "Internal mobility across personalization, creator tools, and growth teams",
+        "Access to unique datasets on music consumption and behavior",
+        "Opportunity to publish research and speak at conferences",
+        "Influence on future of music discovery and audio technology"
+      ],
+
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about data science background and interest in Spotify.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview on statistics, machine learning, and analytical problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (4-5 rounds)",
+          description: "Analytics case study, machine learning deep dive, coding/SQL, product sense, and behavioral interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Offer",
+          description: "Review of technical skills, analytical ability, and cultural fit. Competitive offer with equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you improve Spotify's Discover Weekly playlist?",
+        "Build a recommendation system for podcast discovery",
+        "How would you measure the success of personalized daily mixes?",
+        "Design an experiment to test a new shuffle algorithm",
+        "Build a model to predict user churn",
+        "How would you categorize and tag millions of songs automatically?",
+        "Design metrics for measuring playlist quality",
+        "Build a model to detect explicit content in audio",
+        "How would you optimize audio quality recommendations based on network?",
+        "Design an A/B test for a new discovery feature"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a recommendation system or ML model you built",
+        "Describe a time you used data to influence product strategy",
+        "How have you collaborated with engineers and product managers?",
+        "Tell me about an A/B test that produced unexpected results",
+        "Describe your experience with audio data or content understanding",
+        "How do you approach problems with ambiguous requirements?",
+        "Tell me about a time your analysis changed a key decision",
+        "Describe a project where you balanced rigor with speed"
+      ],
+
+      whatTheyLookFor: [
+        "Strong foundation in machine learning and recommendation systems",
+        "Proficiency in Python, SQL, and data science tools",
+        "Experience with large-scale ML systems",
+        "Understanding of experimentation and causal inference",
+        "Product sense for music and audio experiences",
+        "Ability to translate analysis into actionable insights",
+        "Strong communication skills for diverse audiences",
+        "Passion for music and content discovery"
+      ],
+
+      interviewTips: [
+        "Understand collaborative filtering and recommendation algorithms",
+        "Be prepared to discuss audio ML and content understanding",
+        "Show examples of ML models you've built and deployed",
+        "Research Spotify's personalization features (Discover Weekly, Daily Mix)",
+        "Demonstrate experimentation methodology expertise",
+        "Prepare ideas for improving music discovery",
+        "Be ready to discuss cold-start problems in recommendations",
+        "Express genuine passion for music and audio technology"
+      ],
+
+      dayInLife: {
+        overview: "Spotify data scientists balance model development, experimentation, analytics, and cross-functional collaboration in autonomous squads. Work involves Python, SQL, ML frameworks, and strategic thinking.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Experiment Analysis",
+            description: "Review A/B test results for new recommendation algorithm"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Squad Standup",
+            description: "Daily sync with personalization squad on progress and blockers"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Model Development",
+            description: "Improve playlist generation model with new features"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Research Seminar",
+            description: "Attend internal talk on transformer models for audio understanding"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Product Collaboration",
+            description: "Partner with PM to define metrics for new discovery feature"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Deep Dive Analysis",
+            description: "Investigate patterns in user skip behavior for podcast recommendations"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Model Review",
+            description: "Present content tagging model results to content team"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Experiment Design",
+            description: "Design A/B test with engineer for new playlist creation feature"
+          }
+        ]
+      },
+
+      similarRoles: [
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    }
   }
 }
 
 // Content for FAANG+, Uber, Airbnb, Stripe, Salesforce, DoorDash, Goldman Sachs, and McKinsey
 // Priority 1 complete (8 companies) + Priority 2 complete (5 companies: Uber, Airbnb, Stripe, Salesforce, DoorDash)
-// Total companies with full role content: 13 (18 Priority 2 roles added)
+// Priority 3A complete (2 companies: Lyft, Spotify - 8 roles)
+// Total companies with full role content: 15
