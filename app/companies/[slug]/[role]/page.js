@@ -342,7 +342,7 @@ export async function generateMetadata({ params }) {
 
 export function generateStaticParams() {
   // Tech companies expansion - FAANG+ and next tier
-  const techCompanies = ['google', 'amazon', 'meta', 'apple', 'microsoft', 'netflix', 'uber', 'airbnb', 'stripe', 'salesforce', 'doordash']
+  const techCompanies = ['google', 'amazon', 'meta', 'apple', 'microsoft', 'netflix', 'uber', 'airbnb', 'stripe', 'salesforce', 'doordash', 'lyft', 'spotify', 'oracle', 'adobe', 'atlassian', 'snowflake', 'databricks', 'coinbase', 'block', 'shopify']
 
   // Finance and consulting companies
   const financeConsultingCompanies = ['goldman-sachs', 'mckinsey']
