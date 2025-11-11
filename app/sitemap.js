@@ -1,5 +1,5 @@
 import { companies } from '@/data/companies'
-import { roles } from '@/data/roles'
+import { roles, getRolesForCompany } from '@/data/roles'
 
 // Function to create URL-safe slugs
 function encodeUrlSafe(text) {
@@ -44,17 +44,19 @@ export default function sitemap() {
     priority: 0.7,
   }))
   
-  // Add all role pages (company × role combinations)
+  // Add ONLY RELEVANT role pages based on company industry
   const roleRoutes = []
-  const roleKeys = Object.keys(roles)
   
-  Object.keys(companies).forEach((companySlug) => {
-    roleKeys.forEach((roleSlug) => {
+  Object.entries(companies).forEach(([companySlug, company]) => {
+    // Get only the relevant roles for this company's industry
+    const relevantRoles = getRolesForCompany(company.industry)
+    
+    relevantRoles.forEach((roleSlug) => {
       roleRoutes.push({
         url: `${baseUrl}/companies/${encodeURIComponent(companySlug)}/${encodeURIComponent(roleSlug)}`,
         lastModified: new Date(),
         changeFrequency: 'weekly',
-        priority: 0.8, // Higher priority - these are your money pages!
+        priority: 0.8,
       })
     })
   })
