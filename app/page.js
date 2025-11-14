@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import './globals.css';
+
 export const metadata = {
   title: 'CleverPrep - AI-Powered Interview Preparation in 10 Minutes',
   description: 'Get a complete, customized interview prep package with company intelligence, practice questions, and strategic talking points. Personalized to your background and ready in under 10 minutes.',
