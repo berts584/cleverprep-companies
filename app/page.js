@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import './globals.css';
 export const metadata = {
   title: 'CleverPrep - AI-Powered Interview Preparation in 10 Minutes',
   description: 'Get a complete, customized interview prep package with company intelligence, practice questions, and strategic talking points. Personalized to your background and ready in under 10 minutes.',
@@ -585,90 +585,3 @@ export default function Home() {
           </footer>
         </div>
       </div>
-
-      <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fraunces:wght@700;900&display=swap');
-        
-        * {
-          font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
-        }
-        
-        .font-display {
-          font-family: 'Fraunces', serif;
-        }
-        
-        @keyframes float {
-          0%, 100% { transform: translateY(0px) rotate(0deg); }
-          50% { transform: translateY(-20px) rotate(3deg); }
-        }
-        
-        @keyframes float-delayed {
-          0%, 100% { transform: translateY(0px) rotate(0deg); }
-          50% { transform: translateY(-15px) rotate(-2deg); }
-        }
-        
-        @keyframes fade-in-up {
-          from { opacity: 0; transform: translateY(40px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        
-        @keyframes fade-in-scale {
-          from { opacity: 0; transform: scale(0.95); }
-          to { opacity: 1; transform: scale(1); }
-        }
-        
-        .animate-float {
-          animation: float 6s ease-in-out infinite;
-        }
-        
-        .animate-float-delayed {
-          animation: float-delayed 8s ease-in-out infinite;
-        }
-        
-        .animate-fade-in-up {
-          animation: fade-in-up 0.8s ease-out forwards;
-          opacity: 0;
-        }
-        
-        .animate-fade-in-scale {
-          animation: fade-in-scale 0.8s ease-out forwards;
-          opacity: 0;
-        }
-        
-        .delay-100 { animation-delay: 0.1s; }
-        .delay-200 { animation-delay: 0.2s; }
-        .delay-300 { animation-delay: 0.3s; }
-        .delay-400 { animation-delay: 0.4s; }
-        
-        .bg-pattern {
-          background-image: 
-            radial-gradient(circle at 20% 80%, rgba(255, 107, 107, 0.08) 0%, transparent 50%),
-            radial-gradient(circle at 80% 20%, rgba(37, 99, 235, 0.08) 0%, transparent 50%),
-            radial-gradient(circle at 40% 40%, rgba(245, 158, 11, 0.05) 0%, transparent 50%);
-        }
-        
-        .text-gradient {
-          background: linear-gradient(135deg, #1E40AF 0%, #DC2626 50%, #F59E0B 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          background-clip: text;
-        }
-        
-        .glass-card {
-          background: rgba(255, 255, 255, 0.7);
-          backdrop-filter: blur(20px);
-          border: 1px solid rgba(30, 64, 175, 0.1);
-        }
-        
-        .hover-lift {
-          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        
-        .hover-lift:hover {
-          transform: translateY(-8px);
-          box-shadow: 0 20px 40px rgba(30, 64, 175, 0.15);
-        }
-      `}</style>
-    </>
-  );
-}
