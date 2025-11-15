@@ -761,52 +761,80 @@ export const companies = {
   },
   'jpmorgan': {
     name: 'JPMorgan Chase',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your JPMorgan interview with insider strategies, real questions from recent interviews, and division-specific preparation.',
     industry: 'Finance',
     headquarters: 'New York, NY',
-    description: 'JPMorgan Chase is the largest bank in the United States and a global leader in investment banking, financial services, and asset management. Interviews focus on technical finance knowledge, problem-solving, and cultural alignment with their values of teamwork and excellence.',
+    description: 'JPMorgan Chase is the largest bank in the United States with $3.9 trillion in assets and operations in 100+ countries. The firm operates through four major business segments: Consumer & Community Banking (Chase), Corporate & Investment Bank (CIB), Commercial Banking, and Asset & Wealth Management. JPMorgan is known for its rigorous "Superday" interview format and strong emphasis on cultural fit with their principles: Exceptional client service, operational excellence, commitment to integrity, and a great team and winning culture. The firm seeks candidates who combine technical excellence with strong interpersonal skills and genuine passion for finance.',
     interviewTips: [
-      'Prepare for both technical and behavioral questions',
-      'Understand JPMorgan\'s business segments and recent deals',
-      'Practice financial modeling and accounting questions',
-      'Show genuine interest in finance and markets',
-      'Demonstrate strong communication and teamwork skills'
+      'Research JPMorgan\'s four business segments (CCB, CIB, Commercial, AWM) and be ready to discuss which interests you most and why',
+      'For Superday, prepare for 4-6 consecutive 30-minute interviews - each interviewer will focus on different aspects (technical, fit, situational)',
+      'Know recent major deals: Study 2-3 recent M&A transactions, IPOs, or debt offerings where JPMorgan was lead advisor',
+      'Understand JPMorgan\'s competitive advantages: Largest balance sheet, global presence, integrated platform across products',
+      'Practice the STAR method for behavioral questions - JPMorgan heavily weights cultural fit and teamwork',
+      'Be conversational and personable - interviewers assess whether they\'d want to work with you during long hours',
+      'Prepare 3-4 thoughtful questions for each interviewer about their experience, deal work, or career progression',
+      'For IB roles: Master DCF, comparable companies, precedent transactions - expect to walk through models step-by-step',
+      'Review JPMorgan\'s annual report and latest earnings call - interviewers often ask about recent financial performance',
+      'Demonstrate genuine interest in markets: Have a view on recent market trends, Fed policy, or sector-specific dynamics',
+      'For HireVue: Practice speaking concisely to camera, dress professionally, ensure good lighting and minimal background noise',
+      'Understand JPMorgan vs competitors: Know how JPMorgan differentiates from Goldman (more commercial focus), Morgan Stanley (larger balance sheet)',
+      'Show humility and coachability - JPMorgan values team players over individual superstars',
+      'Be ready to discuss why JPMorgan specifically, not just investment banking generally - reference specific groups, deals, or culture elements'
     ],
     whatTheyLookFor: [
-      'Strong analytical skills',
-      'Team player mentality',
-      'Passion for financial markets',
-      'Professional communication',
-      'Problem-solving abilities'
+      'Strong analytical and quantitative skills with attention to detail',
+      'Collaborative team player who puts team success over individual recognition',
+      'Genuine passion for financial markets and eagerness to learn',
+      'Professional maturity and ability to communicate complex ideas clearly',
+      'Strong work ethic and ability to perform under pressure',
+      'Cultural alignment with JPMorgan\'s principles: client service, operational excellence, integrity',
+      'Intellectual curiosity and ability to think critically about business problems',
+      'Leadership potential and initiative-taking mindset',
+      'Resilience and adaptability in fast-paced, high-pressure environments',
+      'Commercial awareness and understanding of market dynamics'
     ],
     process: [
       {
         step: 1,
-        title: 'Online Application & HireVue',
-        description: 'Submit resume and complete video interview'
+        title: 'Online Application',
+        description: 'Submit your resume, cover letter, and transcripts through JPMorgan\'s career portal. Highlight relevant coursework, finance experience, and leadership roles. Applications are typically due in early September for summer analyst roles.'
       },
       {
         step: 2,
-        title: 'Superday Interview',
-        description: '4-6 back-to-back interviews with different team members'
+        title: 'HireVue Video Interview',
+        description: 'Complete 3-5 pre-recorded video questions within 72 hours of receiving invitation. Questions assess fit, motivation, and basic technical knowledge. You\'ll have 30 seconds to prepare and 2-3 minutes to respond to each question. Practice speaking concisely and professionally on camera.'
       },
       {
         step: 3,
-        title: 'Technical & Behavioral Questions',
-        description: 'Mix of finance technical, fit questions, and case studies'
+        title: 'Superday (Final Round)',
+        description: 'Full-day interview with 4-6 back-to-back 30-minute sessions with VPs, Directors, and Managing Directors. Typically includes 2-3 technical interviews (valuation, accounting, finance concepts), 2-3 fit/behavioral interviews, and sometimes a group case study or presentation. Held at JPMorgan offices (NYC, London, Hong Kong, etc.) or virtually.'
       },
       {
         step: 4,
         title: 'Offer Decision',
-        description: 'Receive decision within 1-2 weeks'
+        description: 'Receive decision within 1-3 weeks after Superday. Offers typically include base salary, signing bonus, and year-end bonus details. You\'ll have about 1-2 weeks to accept or decline the offer.'
       }
     ],
     questions: [
-      'Walk me through a DCF model',
-      'Why investment banking?',
-      'Tell me about a recent deal JPMorgan was involved in',
-      'How would you value a company?',
-      'What makes you interested in JPMorgan?'
+      'Walk me through a DCF model from start to finish',
+      'Why investment banking? Why JPMorgan specifically?',
+      'Tell me about a recent deal JPMorgan advised on - what was your view on the valuation?',
+      'How would you value a company with negative earnings?',
+      'What makes you interested in JPMorgan over Goldman Sachs or Morgan Stanley?',
+      'Walk me through the three financial statements and how they connect',
+      'Tell me about a time you worked on a team where there was conflict - how did you handle it?',
+      'If a company acquires another company for $500M cash, walk me through the impact on the three statements',
+      'What happens to the statements when inventory increases by $100?',
+      'Pitch me a stock - long or short',
+      'What do you think about current market conditions? How would they affect M&A activity?',
+      'Tell me about a time you failed and what you learned from it',
+      'How do you stay current on financial markets and business news?',
+      'What is your greatest weakness?',
+      'Where do you see yourself in 5 years?',
+      'Tell me about a recent JPMorgan deal or initiative that excites you',
+      'What would you do if you disagreed with your team\'s approach on a project?',
+      'How would you explain an LBO to someone with no finance background?',
+      'What questions do you have for me?'
     ],
     relatedCompanies: ['goldman-sachs', 'morgan-stanley', 'bank-of-america', 'citigroup']
   },

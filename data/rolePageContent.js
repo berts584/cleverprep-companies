@@ -438,10 +438,556 @@ export const rolePageContent = {
         ]
       },
       similarRoles: [
-        { companyName: "JPMorgan Chase", companySlug: "jpmorgan-chase", industry: "Finance" },
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
         { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
         { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
         { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
+    }
+  },
+  'jpmorgan': {
+    'investment-banking-analyst': {
+      roleDescription: "Investment Banking Analysts at JPMorgan Chase work on some of the world's most significant financial transactions. As part of the Corporate & Investment Bank (CIB), you'll build financial models, prepare pitch materials, conduct due diligence, and support deal execution across M&A, debt, and equity capital markets. JPMorgan's scale and integrated platform give analysts exposure to diverse deal types and industries, from technology to healthcare to industrials. The role is demanding but offers unparalleled learning, mentorship from senior bankers, and a clear path to private equity, hedge funds, or continued advancement in investment banking.",
+      responsibilities: [
+        "Build and maintain complex financial models (DCF, LBO, M&A accretion/dilution) for valuation and transaction analysis",
+        "Create comprehensive pitch books and client presentations using PowerPoint and data visualization",
+        "Conduct industry research, company analysis, and competitive benchmarking using Bloomberg, CapIQ, and FactSet",
+        "Support live deal execution including due diligence, documentation review, and closing processes",
+        "Participate in client meetings and management presentations alongside MDs and Directors",
+        "Prepare marketing materials for IPOs, debt offerings, and M&A mandates",
+        "Analyze financial statements, build operating models, and perform sensitivity analyses",
+        "Collaborate with product groups (ECM, DCM, M&A) and coverage teams (industry-focused bankers)"
+      ],
+      growthOpportunities: [
+        "Promotion to Associate after 2-3 years with significant salary increase",
+        "Exposure to Fortune 500 companies and multi-billion dollar transactions",
+        "Strong exit opportunities to top private equity firms (KKR, Blackstone, Apollo) and hedge funds",
+        "Comprehensive analyst training program covering technical skills, presentation, and client management",
+        "Ability to rotate across industry groups and product teams",
+        "Global mobility with opportunities to work in London, Hong Kong, Singapore, or other financial centers",
+        "Access to JPMorgan's extensive alumni network across finance and industry"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded video questions assessing motivation, technical knowledge, and cultural fit. Questions typically cover 'Why JPMorgan?', basic accounting concepts, and situational judgment. Prepare concise 2-3 minute responses, dress professionally, and ensure good audio/video quality. Practice speaking to camera to appear natural and confident.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Superday - Morning Session",
+          description: "2-3 interviews with Associates, VPs, and Directors. Expect deep technical questions on accounting, valuation, and financial modeling. Common topics: three statement modeling, DCF components, EV vs Equity Value, impact of transactions on financial statements. Interviewers assess technical proficiency and ability to explain complex concepts clearly.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Superday - Afternoon Session",
+          description: "2-3 interviews with senior VPs and Managing Directors focusing on fit, deal discussion, and interest in specific industry groups. Expect behavioral questions (teamwork, leadership, pressure situations) and market awareness questions. MDs want to assess cultural fit and whether you'd thrive in the high-pressure environment.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Final Decision & Offer",
+          description: "Hiring committee reviews feedback from all interviewers. Strong technical performance and cultural fit are both critical. Offers typically extended 1-3 weeks after Superday and include base salary, signing bonus, and stub bonus details. You'll have 1-2 weeks to accept."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through a DCF valuation from start to finish.",
+        "Walk me through the three financial statements and explain how they're connected.",
+        "If a company issues $100M in debt, walk me through the impact on all three statements.",
+        "What's the difference between enterprise value and equity value? How do you calculate each?",
+        "How do you calculate WACC and what does it represent?",
+        "Walk me through an LBO model. What makes a good LBO candidate?",
+        "If revenue increases by $100, walk me through how the three statements change.",
+        "How would you value a company with negative earnings?",
+        "What's the difference between accretion and dilution in M&A? How do you calculate it?",
+        "If inventory increases by $50, what happens to the financial statements?",
+        "Why might a strategic buyer pay more than a financial buyer for the same company?",
+        "Explain different valuation methodologies and when you'd use each.",
+        "How do you calculate unlevered free cash flow?",
+        "What are the key assumptions in a DCF model?",
+        "Walk me through a merger model. What happens if the acquirer uses stock vs cash?",
+        "How would you value a pre-revenue startup?",
+        "What's the relationship between discount rate and valuation?",
+        "If EBITDA increases by $100, what happens to free cash flow?"
+      ],
+      behavioralQuestions: [
+        "Why investment banking? Why JPMorgan specifically?",
+        "Tell me about a time you worked under extreme pressure and tight deadlines.",
+        "Describe a situation where you had to learn something complex very quickly.",
+        "Why are you interested in [specific group, e.g., Healthcare, TMT, Financial Institutions]?",
+        "Tell me about a time you made a mistake. How did you handle it?",
+        "Walk me through your resume and highlight your most significant accomplishment.",
+        "Describe a time you worked on a team with conflicting opinions. How did you navigate it?",
+        "How do you prioritize when you have multiple urgent deadlines?",
+        "Tell me about a time you went above and beyond what was expected.",
+        "What differentiates JPMorgan from Goldman Sachs or Morgan Stanley?",
+        "How do you stay current on financial markets and business news?",
+        "Describe a leadership experience and what you learned from it.",
+        "What's your greatest weakness?",
+        "Where do you see yourself in 5 years?"
+      ],
+      whatTheyLookFor: [
+        "Strong technical foundation in accounting, finance, and valuation methods",
+        "Meticulous attention to detail and accuracy in quantitative work",
+        "Ability to work 80-100 hour weeks and deliver under extreme time pressure",
+        "Intellectual curiosity and passion for learning about companies and industries",
+        "Excellent communication skills - ability to explain complex financial concepts clearly",
+        "Team player mentality with humility and willingness to do unglamorous work",
+        "Genuine interest in financial markets, deal making, and business strategy",
+        "Professional maturity and poise when interacting with senior clients",
+        "Coachability and ability to incorporate feedback quickly",
+        "Cultural alignment with JPMorgan's principles: client service, operational excellence, integrity, teamwork"
+      ],
+      interviewTips: [
+        "Master core technical concepts: practice building three-statement models, DCF, and LBO models from scratch",
+        "Know recent JPMorgan deals in your target industry group - read press releases and league tables",
+        "Read the Wall Street Journal, Financial Times, and industry publications daily to discuss market trends intelligently",
+        "Prepare 3-5 specific reasons why JPMorgan over competitors - reference deals, culture, training, or specific bankers",
+        "Practice explaining technical concepts out loud as if teaching someone - clarity matters as much as accuracy",
+        "Use the STAR method for behavioral questions and prepare 5-7 diverse stories showcasing different skills",
+        "Research your interviewers on LinkedIn before Superday - reference their background or deals if appropriate",
+        "Prepare thoughtful questions for each interviewer about their experience, deal flow, work-life balance, or career path",
+        "For deal discussions, have informed opinions on valuation, strategic rationale, and market context",
+        "Show genuine enthusiasm and energy - culture fit is often the differentiator between similar candidates",
+        "Be humble and show eagerness to learn - senior bankers want analysts who are coachable",
+        "Understand JPMorgan's business segments (CCB, CIB, Commercial, AWM) and how IB fits into the broader firm",
+        "Practice mental math and be comfortable doing quick calculations without a calculator",
+        "Review JPMorgan's latest earnings presentation and be ready to discuss the firm's financial performance"
+      ],
+      salary: {
+        min: 110000,
+        max: 125000
+      },
+      compensation: [
+        "Base salary: $110-125K for first-year analysts (increases with promotions)",
+        "Year-end performance bonus: $50-90K depending on individual and firm performance",
+        "Signing bonus: $10-30K common for competitive candidates",
+        "Stub bonus (prorated year-end bonus) for mid-year starts",
+        "Free dinner when working past 7pm (Seamless/Grubhub credit)",
+        "Car service home when working past 9pm",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Gym membership subsidy",
+        "Total first-year compensation typically $170-240K all-in"
+      ],
+      dayInLife: {
+        overview: "Life as an Investment Banking Analyst at JPMorgan is intense and demanding but intellectually stimulating. Expect 80-100 hour weeks, late nights, and weekend work, especially during active deal phases. You'll juggle multiple projects simultaneously - live deal execution, pitch preparation, and industry research. The learning curve is steep, but you'll develop technical mastery, work ethic, and professional skills that set you up for elite career opportunities. Culture varies by group, but generally emphasizes teamwork, attention to detail, and client service excellence.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Team Meeting",
+            description: "Gather with Associates, VPs, and Directors to review active deals, pitch deadlines, and priorities. Discuss staffing on new mandates and upcoming client meetings."
+          },
+          {
+            time: "9:30 AM",
+            activity: "DCF Model Updates",
+            description: "Update valuation model for potential M&A target based on management projections received last night. Run sensitivity analyses on key assumptions like WACC, terminal growth rate, and margin assumptions."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Working Lunch",
+            description: "Order lunch to your desk (or grab from cafeteria) while continuing to work. Often eat during meetings or while formatting pitch books."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Pitch Book Preparation",
+            description: "Build PowerPoint slides for client pitch meeting next week. Create market analysis, precedent transactions analysis, and valuation summary pages. Ensure consistent formatting and accurate data."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Client Call (Listen-In)",
+            description: "Join conference call with client CFO and VP to discuss capital raise options. Take detailed notes for follow-up materials."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Review Session with VP",
+            description: "Present draft pitch book and models for feedback. Receive comments on assumptions, formatting, and additional analyses needed. Take detailed notes for revisions."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Dinner Break",
+            description: "Order dinner using firm credit (Seamless/Grubhub) around 7pm. Eat with other analysts or at desk while working."
+          },
+          {
+            time: "7:00 PM",
+            activity: "Incorporate Feedback",
+            description: "Revise models and slides based on VP comments. Add new analyses, fix formatting inconsistencies, and update market data."
+          },
+          {
+            time: "10:00 PM",
+            activity: "Final Review & Send",
+            description: "Send updated materials to VP for final review. If urgent, may wait for late-night comments. Otherwise, head home around 11pm-12am (take car service)."
+          },
+          {
+            time: "11:30 PM",
+            activity: "Evening Wind Down",
+            description: "Arrive home, decompress briefly, check emails one more time for urgent requests. Sleep and prepare to repeat tomorrow. Weekend work common during active deals."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
+    },
+    'software-engineer': {
+      roleDescription: "Software Engineers at JPMorgan Chase build mission-critical systems that power the world's largest bank. With over 60,000 technologists globally, JPMorgan is one of the world's largest tech employers. You'll work on high-impact projects across trading platforms, risk management systems, consumer banking apps (Chase Mobile), payments infrastructure, and enterprise tools. The firm has invested billions in technology modernization, cloud migration, and AI/ML capabilities, creating exciting opportunities for engineers to work with cutting-edge technologies at massive scale. Unlike traditional tech companies, you'll see direct business impact - your code moves trillions of dollars daily and serves 60+ million customers.",
+      responsibilities: [
+        "Design, develop, and deploy scalable software solutions for banking, trading, or consumer applications",
+        "Write clean, maintainable code in languages like Java, Python, C++, or JavaScript/TypeScript",
+        "Build RESTful APIs, microservices, and distributed systems handling millions of transactions daily",
+        "Collaborate with product managers, business analysts, and cross-functional teams on requirements",
+        "Participate in code reviews, architecture discussions, and technical design sessions",
+        "Implement automated testing, CI/CD pipelines, and monitoring for production systems",
+        "Work with cloud platforms (AWS, Azure, private cloud) and modern DevOps tools",
+        "Ensure security, compliance, and regulatory requirements are met in all software deliverables"
+      ],
+      growthOpportunities: [
+        "Exposure to diverse tech stacks and problem domains - trading, risk, payments, consumer apps, data engineering",
+        "Work at unprecedented scale - systems handling trillions in daily transactions and petabytes of data",
+        "Internal mobility across 50+ technology teams and business lines",
+        "Access to executive engineering programs and leadership development tracks",
+        "Opportunity to work on emerging technologies: AI/ML, blockchain, quantum computing research",
+        "Competitive compensation that rivals big tech while offering better work-life balance",
+        "Clear career progression from Associate to VP to Executive Director and Managing Director"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment (CodeSignal/HackerRank)",
+          description: "Complete 2-4 coding challenges testing data structures, algorithms, and problem-solving. Questions are medium difficulty (similar to LeetCode medium). Focus on arrays, strings, hash maps, trees, and dynamic programming. You'll have 70-90 minutes total.",
+          duration: "70-90 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute interview with an engineer covering coding and system design. Expect 1-2 LeetCode-style problems and discussion of your past projects. Be ready to code in your preferred language using a shared coding environment (CoderPad). Interviewer assesses code quality, communication, and problem-solving approach.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (3-4 rounds)",
+          description: "Three to four 45-minute interviews covering coding (2 rounds), system design (1 round), and behavioral/technical leadership (1 round). Coding questions are LeetCode medium/hard level. System design covers scalability, database design, API design, and trade-offs. Behavioral focuses on teamwork, conflict resolution, and past technical challenges.",
+          duration: "3-4 hours total"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Hiring committee reviews all interview feedback. Strong technical performance is critical, but culture fit and communication also matter. Offers typically extended 1-2 weeks after final interview and include level (Associate, Vice President, etc.), base salary, signing bonus, and equity details."
+        }
+      ],
+      technicalQuestions: [
+        "Given an array of integers, find two numbers that add up to a target sum.",
+        "Implement a LRU cache with O(1) get and put operations.",
+        "Design a URL shortening service like bit.ly - discuss data model, API, and scaling.",
+        "Find the longest substring without repeating characters.",
+        "Reverse a linked list iteratively and recursively.",
+        "Design a distributed task scheduler that can handle millions of tasks per day.",
+        "Implement a binary search tree and write methods for insertion, deletion, and traversal.",
+        "Design a trading platform that can process 100,000 orders per second.",
+        "Given a large dataset of financial transactions, how would you detect fraudulent activity?",
+        "Explain how you would design a real-time payment processing system.",
+        "Implement merge sort and explain its time/space complexity.",
+        "Design a system to handle Chase mobile app backend - authentication, transactions, notifications.",
+        "How would you design a rate limiter for an API?",
+        "Implement a thread-safe singleton pattern in Java.",
+        "Design a distributed database for storing customer account information with high availability."
+      ],
+      behavioralQuestions: [
+        "Why JPMorgan? Why software engineering in finance?",
+        "Tell me about a challenging technical problem you solved and your approach.",
+        "Describe a time you had to debug a complex production issue under pressure.",
+        "How do you handle disagreements with team members on technical decisions?",
+        "Tell me about a project where you had to learn new technologies quickly.",
+        "Describe a time you made a technical mistake. How did you handle it?",
+        "How do you stay current with new technologies and industry trends?",
+        "Tell me about a time you improved a process or system at your current company.",
+        "Describe your experience with agile development and working in teams.",
+        "What's the most interesting technical project you've worked on?",
+        "How do you balance code quality with shipping features quickly?",
+        "Tell me about a time you had to make a trade-off between multiple technical solutions."
+      ],
+      whatTheyLookFor: [
+        "Strong computer science fundamentals: data structures, algorithms, complexity analysis",
+        "Clean, well-organized code with proper error handling and edge case consideration",
+        "Ability to explain technical concepts clearly and communicate trade-offs",
+        "Problem-solving skills and structured approach to breaking down complex problems",
+        "Experience with production systems, debugging, and operational concerns",
+        "Collaboration and teamwork - ability to work with diverse stakeholders",
+        "Interest in finance and understanding of business context",
+        "Attention to security, compliance, and regulatory requirements",
+        "Continuous learning mindset and adaptability to new technologies",
+        "Professional maturity and ability to work in a corporate environment"
+      ],
+      interviewTips: [
+        "Practice LeetCode medium/hard problems - focus on arrays, trees, graphs, dynamic programming, and system design",
+        "Review core CS concepts: time/space complexity, data structures, OOP principles, database design",
+        "Prepare to discuss your past projects in depth - architecture decisions, challenges, and outcomes",
+        "Understand JPMorgan's business and technology landscape - trading systems, consumer apps, payments, risk",
+        "Practice explaining your thought process out loud while coding - communication is key",
+        "For system design, discuss scalability, reliability, data consistency, and trade-offs explicitly",
+        "Be ready to write production-quality code with error handling, not just algorithms",
+        "Research the specific team/division you're interviewing for and prepare relevant questions",
+        "Understand financial domain concepts: trading, payments, risk management, compliance",
+        "Show genuine interest in working at the intersection of finance and technology",
+        "Prepare questions about tech stack, development processes, team structure, and career growth",
+        "Practice behavioral questions using STAR method - focus on technical leadership and problem-solving stories"
+      ],
+      salary: {
+        min: 100000,
+        max: 160000
+      },
+      compensation: [
+        "Base salary varies by level: $100-130K (Associate), $130-180K (VP), $180-250K+ (ED/MD)",
+        "Year-end performance bonus: 10-30% of base depending on level and performance",
+        "Signing bonus: $10-50K for competitive candidates",
+        "Restricted Stock Units (RSUs) for VP+ levels vesting over 3-4 years",
+        "Annual stock grants for high performers",
+        "Comprehensive health, dental, vision insurance with low premiums",
+        "401(k) with 5% company match",
+        "Paid parental leave (16 weeks)",
+        "Tuition reimbursement and professional development budget",
+        "Total compensation competitive with big tech while offering better work-life balance"
+      ],
+      dayInLife: {
+        overview: "Life as a Software Engineer at JPMorgan offers better work-life balance than investment banking while still providing challenging technical work and competitive compensation. Typical work hours are 9am-6pm with flexibility for remote work (2-3 days in office depending on team). You'll work in agile teams with sprints, stand-ups, and regular releases. The pace is fast but sustainable, with emphasis on quality, security, and reliability. Culture emphasizes collaboration, continuous learning, and delivering business value.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Daily Stand-Up",
+            description: "15-minute team sync to discuss progress, blockers, and priorities. Each engineer shares what they accomplished yesterday and plan for today."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Feature Development",
+            description: "Write code for new feature in current sprint - building API endpoints, implementing business logic, writing unit tests. Work in Java/Python/JavaScript depending on team."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Code Review",
+            description: "Review pull requests from teammates, provide feedback on code quality, architecture, and potential bugs. Discuss trade-offs and suggest improvements."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "Lunch with team members at cafeteria or nearby restaurants. Good opportunity to build relationships and discuss non-work topics."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Design Discussion",
+            description: "Meeting with tech lead and architects to design new microservice for upcoming project. Discuss API contracts, data models, scalability requirements, and technology choices."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Debugging & Testing",
+            description: "Investigate bug reported in staging environment. Debug through logs, reproduce issue locally, write fix and comprehensive test cases to prevent regression."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Pair Programming",
+            description: "Collaborate with another engineer on complex algorithm implementation. Share ideas, catch bugs early, and learn from each other's approaches."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation & Wrap-Up",
+            description: "Update technical documentation for feature completed today. Write clear README, API docs, and architecture diagrams. Update JIRA tickets and prepare for tomorrow."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Head Home",
+            description: "Log off and head home. On-call rotation requires occasional evening work, but generally good work-life balance. Option to work from home 2-3 days per week."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Citadel", companySlug: "citadel", industry: "Finance" },
+        { companyName: "Bloomberg", companySlug: "bloomberg", industry: "Finance/Technology" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at JPMorgan Chase leverage advanced analytics, machine learning, and AI to solve complex business problems across the firm. With access to vast datasets covering consumer behavior, trading patterns, credit risk, and market movements, you'll build predictive models that drive billions of dollars in business decisions. Teams span fraud detection, credit risk modeling, trading strategies, customer personalization, anti-money laundering, and more. JPMorgan has invested heavily in AI/ML capabilities, creating a first-class data science organization with cutting-edge tools, mentorship from PhD researchers, and opportunity to publish research. You'll work at the intersection of finance, technology, and data science with real-world impact.",
+      responsibilities: [
+        "Develop machine learning models for credit risk, fraud detection, customer segmentation, or trading strategies",
+        "Analyze large-scale datasets (billions of transactions) using Python, R, SQL, and big data tools (Spark, Hadoop)",
+        "Build predictive models using supervised learning (regression, classification) and unsupervised learning (clustering, dimensionality reduction)",
+        "Deploy models to production using MLOps practices, monitoring, and A/B testing frameworks",
+        "Create data visualizations and executive dashboards to communicate insights to business stakeholders",
+        "Collaborate with engineering teams to integrate models into production systems and APIs",
+        "Conduct exploratory data analysis to identify patterns, anomalies, and business opportunities",
+        "Stay current with latest ML research and apply state-of-the-art techniques to business problems",
+        "Ensure models meet regulatory requirements and explainability standards (model risk management)"
+      ],
+      growthOpportunities: [
+        "Work on diverse problem domains: risk modeling, fraud detection, NLP for research, recommendation systems, time series forecasting",
+        "Access to unparalleled financial datasets spanning decades of transaction, market, and customer data",
+        "Opportunity to publish research and present at conferences (NeurIPS, KDD, ICML)",
+        "Collaborate with PhD researchers and quants from top universities",
+        "Clear career progression from Associate to VP to Executive Director with increasing scope",
+        "Internal mobility across data science teams in different business lines",
+        "Work with cutting-edge tools: cloud ML platforms, deep learning frameworks, AutoML, MLOps infrastructure"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Technical Screening (HackerRank)",
+          description: "Complete data analysis and ML coding challenges. Expect Python/R coding problems involving data manipulation (pandas), statistical analysis, and basic ML implementation (sklearn). May include SQL queries for data extraction and transformation.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "45-60 minute discussion covering statistics, ML concepts, and past projects. Expect questions on probability, hypothesis testing, regression, classification algorithms, model evaluation metrics, and overfitting/underfitting. Discuss your previous data science work in depth including problem formulation, approach, results, and impact.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite (3-4 rounds)",
+          description: "Multiple rounds covering: (1) ML case study - given business problem, design end-to-end ML solution; (2) Coding - implement ML algorithm or data transformation in Python; (3) Statistics deep-dive - probability, inference, experimental design; (4) Behavioral - teamwork, communication, stakeholder management. Some teams include take-home data analysis project.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer & Team Matching",
+          description: "After passing interviews, may have conversations with specific teams to find mutual fit. Offers include level (Associate, VP, etc.), compensation details, and team placement. Decision typically within 1-2 weeks."
+        }
+      ],
+      technicalQuestions: [
+        "Explain the bias-variance tradeoff and how it relates to model performance.",
+        "How would you detect credit card fraud using machine learning? What features and algorithms would you use?",
+        "What's the difference between L1 and L2 regularization? When would you use each?",
+        "Explain how random forests work and their advantages over decision trees.",
+        "How do you handle imbalanced datasets in classification problems?",
+        "Walk me through building a customer churn prediction model from scratch.",
+        "What evaluation metrics would you use for a binary classification model and why?",
+        "Explain how gradient boosting works. What are XGBoost and LightGBM?",
+        "How would you design an A/B test to measure the impact of a new feature?",
+        "What's the curse of dimensionality and how do you address it?",
+        "Explain the assumptions of linear regression and how to test them.",
+        "How would you build a recommendation system for credit card products?",
+        "What's the difference between supervised and unsupervised learning? Give examples of each.",
+        "How do you prevent overfitting in machine learning models?",
+        "Explain how neural networks work and when you'd use deep learning vs traditional ML.",
+        "How would you build a time series forecasting model for stock prices?",
+        "What's cross-validation and why is it important?",
+        "How do you handle missing data in your dataset?"
+      ],
+      behavioralQuestions: [
+        "Why data science? Why JPMorgan Chase?",
+        "Tell me about a data science project you're most proud of and the business impact.",
+        "Describe a time you had to explain complex technical concepts to non-technical stakeholders.",
+        "How do you approach a new data science problem with ambiguous requirements?",
+        "Tell me about a time your model failed in production. How did you handle it?",
+        "Describe your experience working with cross-functional teams (engineers, product, business).",
+        "How do you stay current with the latest developments in ML and AI?",
+        "Tell me about a time you had to balance model performance with interpretability.",
+        "Describe a situation where data quality was poor. How did you handle it?",
+        "What's the most challenging data science problem you've tackled?",
+        "How do you prioritize multiple projects and manage stakeholder expectations?",
+        "Tell me about a time you disagreed with a business stakeholder about a data-driven decision."
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in statistics, probability, and machine learning theory",
+        "Proficiency in Python (pandas, scikit-learn, TensorFlow/PyTorch) and SQL",
+        "Experience building and deploying ML models to production",
+        "Ability to communicate complex findings to business audiences clearly",
+        "Business acumen and understanding of how data science drives business value",
+        "Problem-solving skills and structured approach to ambiguous problems",
+        "Experience with big data tools (Spark, Hadoop) and cloud platforms (AWS, Azure)",
+        "Understanding of model risk management, fairness, and explainability",
+        "Collaboration skills and ability to work with engineers and business partners",
+        "Continuous learning mindset and passion for data science advancements"
+      ],
+      interviewTips: [
+        "Review fundamental ML algorithms: linear/logistic regression, decision trees, random forests, gradient boosting, neural networks, clustering",
+        "Master statistics: probability distributions, hypothesis testing, confidence intervals, p-values, A/B testing",
+        "Practice Python coding for data manipulation (pandas), analysis (numpy), and ML (sklearn) - be comfortable coding without autocomplete",
+        "Prepare to discuss past projects in depth: problem definition, data exploration, feature engineering, model selection, evaluation, deployment",
+        "Understand common ML challenges: overfitting, class imbalance, missing data, outliers, feature scaling",
+        "Research JPMorgan's data science applications: fraud detection, credit risk, personalization, trading, AML",
+        "Practice explaining technical concepts simply - imagine explaining to a business executive",
+        "Prepare questions about data infrastructure, model deployment processes, team structure, and types of problems",
+        "Review SQL for data extraction and complex queries - know joins, window functions, CTEs",
+        "Understand ML model evaluation metrics deeply: accuracy, precision, recall, F1, ROC-AUC, MAE, RMSE",
+        "Be ready to design end-to-end ML solutions including data collection, preprocessing, modeling, deployment, monitoring",
+        "Familiarize yourself with financial domain concepts: credit risk, fraud, customer lifetime value, trading"
+      ],
+      salary: {
+        min: 110000,
+        max: 170000
+      },
+      compensation: [
+        "Base salary by level: $110-140K (Associate), $140-190K (VP), $190-280K+ (ED/MD)",
+        "Annual performance bonus: 15-35% of base depending on level and performance",
+        "Signing bonus: $15-60K for experienced candidates",
+        "Restricted Stock Units (RSUs) for VP+ levels vesting over 3-4 years",
+        "Annual equity grants for high performers",
+        "Comprehensive benefits: health, dental, vision with excellent coverage",
+        "401(k) with 5% company match",
+        "16 weeks paid parental leave",
+        "Professional development budget for courses, conferences, and certifications",
+        "Total compensation competitive with tech companies while offering stability and interesting problems"
+      ],
+      dayInLife: {
+        overview: "Data Scientists at JPMorgan enjoy intellectually stimulating work with reasonable work-life balance. Typical hours are 9am-6pm with flexibility for remote work (2-3 days per week in most teams). You'll balance model development, stakeholder meetings, coding, and research. Work is collaborative with frequent interaction with engineers, product managers, and business leaders. The environment values rigorous analysis, experimentation, and data-driven decision making. Culture emphasizes continuous learning with access to courses, conferences, and research opportunities.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Stand-Up",
+            description: "Quick sync with data science team on progress, blockers, and priorities. Discuss model performance, experiments running, and upcoming stakeholder meetings."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Model Development",
+            description: "Work on fraud detection model - experiment with new features, tune hyperparameters, analyze feature importance. Use Python with pandas, scikit-learn, and XGBoost in Jupyter notebooks."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Stakeholder Meeting",
+            description: "Present preliminary results to fraud risk management team. Discuss model performance, potential business impact, and next steps for deployment. Receive feedback and additional requirements."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "Grab lunch with colleagues. Discuss recent ML papers, interesting problems, or attend JPMorgan's data science lunch & learn session."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Data Analysis & EDA",
+            description: "Explore new dataset for customer churn prediction project. Analyze distributions, correlations, missing values. Create visualizations in Python (matplotlib, seaborn) to understand patterns."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Review Session",
+            description: "Peer review session where team members present models for feedback. Discuss methodology, assumptions, risks, and deployment readiness. Learn from teammates' approaches."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Collaborate with Engineering",
+            description: "Work with ML engineers on deploying model to production. Discuss API design, latency requirements, monitoring strategy, and A/B testing plan."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Research & Learning",
+            description: "Read recent ML papers on anomaly detection, attend virtual seminar, or take online course. JPMorgan encourages continuous learning and staying current with latest research."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up & Head Home",
+            description: "Document today's findings, update project tracker, and prepare notes for tomorrow. Log off and head home. Generally good work-life balance with occasional late nights during critical projects."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" }
       ]
     }
   },
