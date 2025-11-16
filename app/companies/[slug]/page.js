@@ -1,4 +1,5 @@
 import { companies } from '@/data/companies'
+import { roles, getRolesForCompany } from '@/data/roles'
 import Link from 'next/link'
 import CompanyLogo from '@/app/components/CompanyLogo'
 
@@ -220,6 +221,49 @@ export default async function CompanyPage({ params }) {
             ))}
           </ul>
         </section>
+
+        {/* Role-Specific Interview Prep */}
+        {(() => {
+          const relevantRoles = getRolesForCompany(company.industry)
+          return relevantRoles.length > 0 && (
+            <section className="mb-16">
+              <h2 className="text-3xl font-bold mb-6 text-gray-900">Interview Prep by Role</h2>
+              <p className="text-gray-600 mb-6 text-lg">
+                Get role-specific interview questions, process details, and insider tips for these positions at {company.name}:
+              </p>
+              <div className="grid md:grid-cols-2 gap-4">
+                {relevantRoles.map((roleSlug) => {
+                  const role = roles[roleSlug]
+                  if (!role) return null
+                  return (
+                    <Link
+                      key={roleSlug}
+                      href={`/companies/${resolvedParams.slug}/${roleSlug}`}
+                      className="group bg-white hover:bg-blue-50 p-6 rounded-xl transition-all border-2 border-gray-200 hover:border-blue-500 hover:shadow-lg"
+                    >
+                      <div className="flex items-start justify-between">
+                        <div className="flex-1">
+                          <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors mb-2">
+                            {role.name}
+                          </h3>
+                          <p className="text-gray-600 text-sm mb-3">
+                            {role.description}
+                          </p>
+                          <div className="flex items-center text-blue-600 text-sm font-semibold group-hover:text-blue-700">
+                            View Interview Guide
+                            <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  )
+                })}
+              </div>
+            </section>
+          )
+        })()}
 
         {/* Related Companies */}
         {company.relatedCompanies && company.relatedCompanies.length > 0 && (
