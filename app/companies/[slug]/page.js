@@ -1,4 +1,5 @@
 import { companies } from '@/data/companies'
+import { roles, getRolesForCompany } from '@/data/roles'
 import Link from 'next/link'
 import CompanyLogo from '@/app/components/CompanyLogo'
 
