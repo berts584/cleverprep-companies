@@ -59,269 +59,253 @@ export default async function CompanyPage({ params }) {
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen relative overflow-hidden bg-[#FFFBF5]">
       {/* Schema.org structured data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
 
-      {/* Top Navigation Bar */}
-      <nav className="bg-white border-b border-gray-200 shadow-sm">
-        <div className="max-w-6xl mx-auto px-6 py-4">
-          <div className="flex justify-between items-center">
-            <a href="https://cleverprep.com" className="text-xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
-              CleverPrep
-            </a>
-            <div className="flex gap-6 text-sm">
-              <a href="https://cleverprep.com" className="text-gray-600 hover:text-gray-900 transition-colors">
-                How It Works
-              </a>
-              <a href="https://cleverprep.com" className="text-gray-600 hover:text-gray-900 transition-colors">
-                Pricing
-              </a>
-              <Link href="/companies" className="text-gray-600 hover:text-gray-900 transition-colors">
-                Companies
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      {/* Background pattern */}
+      <div className="absolute inset-0 bg-pattern pointer-events-none"></div>
 
-      {/* Header with Gradient */}
-      <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white py-16 shadow-lg">
-        <div className="max-w-4xl mx-auto px-4">
-          <nav className="text-sm mb-6 opacity-90">
-            <a href="https://cleverprep.com" className="hover:underline">CleverPrep</a>
-            {' > '}
-            <Link href="/companies" className="hover:underline">Companies</Link>
-            {' > '}
-            <span>{company.name}</span>
-          </nav>
-          <div className="flex justify-center mb-6">
-            <CompanyLogo companyName={company.name} />
-          </div>
-          <h1 className="text-5xl font-bold mb-6 text-center">
-            {company.name} Interview Prep
-          </h1>
-          <p className="text-xl leading-relaxed opacity-95 text-center">
-            {company.tagline}
-          </p>
-        </div>
+      {/* Floating decorative elements */}
+      <div className="fixed inset-0 overflow-hidden pointer-events-none opacity-30">
+        <div className="absolute top-20 right-10 w-64 h-64 rounded-full bg-gradient-to-br from-blue-200 to-blue-100 animate-float"></div>
+        <div className="absolute bottom-20 left-10 w-80 h-80 rounded-full bg-gradient-to-br from-amber-200 to-amber-100 animate-float-delayed"></div>
+        <div className="absolute top-1/2 right-1/4 w-40 h-40 rounded-full bg-gradient-to-br from-red-200 to-red-100 animate-float" style={{ animationDelay: '1s' }}></div>
       </div>
 
-      {/* Content */}
-      <div className="max-w-4xl mx-auto px-4 py-16 pb-40">
-        {/* About Section */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-6 text-gray-900">About {company.name}</h2>
-          <div className="bg-gray-50 p-8 rounded-xl border border-gray-200">
-            <p className="text-gray-700 mb-6 text-lg leading-relaxed">{company.description}</p>
-            <div className="grid grid-cols-2 gap-6">
-              <div>
-                <span className="font-semibold text-gray-600">Industry:</span>
-                <span className="ml-2 text-gray-800">{company.industry}</span>
-              </div>
-              <div>
-                <span className="font-semibold text-gray-600">Headquarters:</span>
-                <span className="ml-2 text-gray-800">{company.headquarters}</span>
-              </div>
-            </div>
+      <div className="relative z-10">
+        {/* Top Navigation Bar */}
+        <nav className="w-full px-6 py-9 flex items-center justify-between max-w-7xl mx-auto">
+          <Link href="/" className="text-[2.75rem] font-black font-display text-[#1E3A8A]">
+            CleverPrep
+          </Link>
+          <div className="hidden md:flex items-center space-x-9">
+            <Link href="/#how-it-works" className="text-gray-700 hover:text-[#1E3A8A] font-medium transition-colors text-lg">
+              How It Works
+            </Link>
+            <Link href="/#pricing" className="text-gray-700 hover:text-[#1E3A8A] font-medium transition-colors text-lg">
+              Pricing
+            </Link>
+            <Link href="/companies" className="text-gray-700 hover:text-[#1E3A8A] font-medium transition-colors text-lg">
+              Companies
+            </Link>
           </div>
-        </section>
+        </nav>
 
-        {/* Trust Signals Section */}
-        <section className="mb-16 bg-white">
-          <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">Why Candidates Choose Our Prep</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-gray-50 p-6 rounded-xl text-center border border-gray-200">
-              <div className="flex justify-center mb-4">
-                <svg className="w-12 h-12 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold mb-2 text-gray-900">2,400+ CleverPrep Alumni</h3>
-              <p className="text-gray-600">Candidates who landed their dream role with our prep</p>
+        {/* Header */}
+        <div className="py-16 px-6">
+          <div className="max-w-4xl mx-auto">
+            <nav className="text-sm mb-6 text-gray-600">
+              <Link href="/" className="hover:text-[#1E3A8A] transition-colors">CleverPrep</Link>
+              {' > '}
+              <Link href="/companies" className="hover:text-[#1E3A8A] transition-colors">Companies</Link>
+              {' > '}
+              <span className="text-[#1E3A8A] font-semibold">{company.name}</span>
+            </nav>
+            <div className="flex justify-center mb-8">
+              <CompanyLogo companyName={company.name} />
             </div>
-            <div className="bg-gray-50 p-6 rounded-xl text-center border border-gray-200">
-              <div className="flex justify-center mb-4">
-                <svg className="w-12 h-12 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold mb-2 text-gray-900">Industry Experts</h3>
-              <p className="text-gray-600">Prep materials created by former hiring managers</p>
-            </div>
-            <div className="bg-gray-50 p-6 rounded-xl text-center border border-gray-200">
-              <div className="flex justify-center mb-4">
-                <svg className="w-12 h-12 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold mb-2 text-gray-900">10-Minute Setup</h3>
-              <p className="text-gray-600">Get instant access to your personalized prep package</p>
-            </div>
+            <h1 className="text-6xl md:text-7xl font-black font-display text-[#1E3A8A] mb-6 text-center leading-tight animate-fade-in-up">
+              {company.name}<br/>
+              <span className="text-gradient">Interview Prep</span>
+            </h1>
+            <p className="text-2xl md:text-3xl font-bold text-gray-700 text-center leading-relaxed animate-fade-in-up delay-100">
+              {company.tagline}
+            </p>
           </div>
-        </section>
+        </div>
 
-        {/* Interview Process */}
-        <section className="mb-16 bg-gray-50 -mx-4 px-4 py-12 sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent">
-          <h2 className="text-3xl font-bold mb-6 text-gray-900">Interview Process</h2>
-          <ol className="space-y-5">
-            {company.process.map((item) => (
-              <li key={item.step} className="flex items-start bg-white p-6 rounded-xl shadow-sm border border-gray-200">
-                <span className="font-bold text-blue-600 text-2xl mr-5 flex-shrink-0">{item.step}.</span>
-                <div>
-                  <strong className="text-xl text-gray-900 block mb-2">{item.title}</strong>
-                  <p className="text-gray-600 leading-relaxed">{item.description}</p>
+        {/* Content */}
+        <div className="max-w-4xl mx-auto px-6 py-16 pb-40">
+          {/* About Section */}
+          <section className="mb-16">
+            <h2 className="text-4xl md:text-5xl font-black font-display text-[#1E3A8A] mb-8">About {company.name}</h2>
+            <div className="glass-card p-10 rounded-3xl border-2 border-[#1E3A8A]/10">
+              <p className="text-gray-700 mb-8 text-xl leading-relaxed">{company.description}</p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#1E3A8A] to-blue-600 flex items-center justify-center flex-shrink-0">
+                    <span className="text-xl">🏢</span>
+                  </div>
+                  <div>
+                    <span className="font-bold text-[#1E3A8A] block text-sm">Industry</span>
+                    <span className="text-gray-800 text-lg font-semibold">{company.industry}</span>
+                  </div>
                 </div>
-              </li>
-            ))}
-          </ol>
-        </section>
-
-        {/* What They Look For */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-6 text-gray-900">What {company.name} Looks For</h2>
-          <div className="grid md:grid-cols-2 gap-5 bg-white">
-            {company.whatTheyLookFor.map((trait, index) => (
-              <div key={index} className="flex items-start p-4 rounded-lg hover:bg-gray-50 transition-colors">
-                <svg className="w-7 h-7 text-green-500 mr-4 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span className="text-gray-700 text-lg leading-relaxed">{trait}</span>
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#FF6B6B] to-red-600 flex items-center justify-center flex-shrink-0">
+                    <span className="text-xl">📍</span>
+                  </div>
+                  <div>
+                    <span className="font-bold text-[#1E3A8A] block text-sm">Headquarters</span>
+                    <span className="text-gray-800 text-lg font-semibold">{company.headquarters}</span>
+                  </div>
+                </div>
               </div>
-            ))}
-          </div>
-        </section>
+            </div>
+          </section>
 
-        {/* Interview Tips */}
-        <section className="mb-16 bg-gray-50 -mx-4 px-4 py-12 sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent">
-          <h2 className="text-3xl font-bold mb-6 text-gray-900">Interview Tips & Tricks</h2>
-          <ul className="space-y-4 bg-white">
-            {company.interviewTips.map((tip, index) => (
-              <li key={index} className="flex items-start p-4 rounded-lg hover:bg-gray-50 transition-colors">
-                <svg className="w-7 h-7 text-blue-500 mr-4 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                </svg>
-                <span className="text-gray-700 text-lg leading-relaxed">{tip}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
+          {/* Interview Process */}
+          <section className="mb-16">
+            <h2 className="text-4xl md:text-5xl font-black font-display text-[#1E3A8A] mb-10">Interview Process</h2>
+            <ol className="space-y-5">
+              {company.process.map((item, index) => (
+                <li key={item.step} className="group hover-lift glass-card p-8 rounded-3xl border-2 border-[#1E3A8A]/10 flex items-start">
+                  <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${
+                    index % 3 === 0 ? 'from-[#1E3A8A] to-blue-600' :
+                    index % 3 === 1 ? 'from-[#FF6B6B] to-red-600' :
+                    'from-[#F59E0B] to-yellow-600'
+                  } flex items-center justify-center text-2xl font-black text-white mr-6 flex-shrink-0`}>
+                    {item.step}
+                  </div>
+                  <div>
+                    <strong className="text-2xl text-[#1E3A8A] font-bold block mb-3">{item.title}</strong>
+                    <p className="text-gray-700 leading-relaxed text-lg">{item.description}</p>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </section>
 
-        {/* Common Questions */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-6 text-gray-900">Common Interview Questions</h2>
-          <ul className="space-y-4">
-            {company.questions.map((question, index) => (
-              <li key={index} className="border-l-[3px] border-blue-500 pl-6 py-4 bg-blue-50 rounded-r-lg hover:bg-blue-100 transition-colors">
-                <span className="text-gray-800 text-lg leading-relaxed">{question}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
+          {/* What They Look For */}
+          <section className="mb-16">
+            <h2 className="text-4xl md:text-5xl font-black font-display text-[#1E3A8A] mb-10">What {company.name} Looks For</h2>
+            <div className="glass-card p-10 rounded-3xl border-2 border-[#1E3A8A]/10">
+              <div className="grid md:grid-cols-2 gap-6">
+                {company.whatTheyLookFor.map((trait, index) => (
+                  <div key={index} className="flex items-start">
+                    <div className="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center flex-shrink-0 mr-4">
+                      <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700 text-lg leading-relaxed font-medium">{trait}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
 
-        {/* Role-Specific Interview Prep */}
-        {(() => {
-          const relevantRoles = getRolesForCompany(company.industry)
-          return relevantRoles.length > 0 && (
+          {/* Interview Tips */}
+          <section className="mb-16">
+            <h2 className="text-4xl md:text-5xl font-black font-display text-[#1E3A8A] mb-10">Interview Tips & Tricks</h2>
+            <div className="glass-card p-10 rounded-3xl border-2 border-[#1E3A8A]/10">
+              <ul className="space-y-5">
+                {company.interviewTips.map((tip, index) => (
+                  <li key={index} className="flex items-start">
+                    <div className="w-10 h-10 rounded-2xl bg-[#F59E0B]/20 border-2 border-[#F59E0B] flex items-center justify-center flex-shrink-0 mr-4">
+                      <svg className="w-5 h-5 text-[#F59E0B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                      </svg>
+                    </div>
+                    <span className="text-gray-700 text-lg leading-relaxed font-medium pt-1">{tip}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+
+          {/* Common Questions */}
+          <section className="mb-16">
+            <h2 className="text-4xl md:text-5xl font-black font-display text-[#1E3A8A] mb-10">Common Interview Questions</h2>
+            <ul className="space-y-4">
+              {company.questions.map((question, index) => (
+                <li key={index} className="group hover-lift glass-card border-l-4 border-[#FF6B6B] pl-8 pr-8 py-6 rounded-r-3xl transition-all">
+                  <span className="text-gray-800 text-lg leading-relaxed font-medium">{question}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          {/* Related Companies */}
+          {company.relatedCompanies && company.relatedCompanies.length > 0 && (
             <section className="mb-16">
-              <h2 className="text-3xl font-bold mb-6 text-gray-900">Interview Prep by Role</h2>
-              <p className="text-gray-600 mb-6 text-lg">
-                Get role-specific interview questions, process details, and insider tips for these positions at {company.name}:
-              </p>
-              <div className="grid md:grid-cols-2 gap-4">
-                {relevantRoles.map((roleSlug) => {
-                  const role = roles[roleSlug]
-                  if (!role) return null
+              <h2 className="text-4xl md:text-5xl font-black font-display text-[#1E3A8A] mb-10">Similar Companies</h2>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {company.relatedCompanies.map((relatedSlug) => {
+                  const relatedCompany = companies[relatedSlug]
+                  if (!relatedCompany) return null
                   return (
                     <Link
-                      key={roleSlug}
-                      href={`/companies/${resolvedParams.slug}/${roleSlug}`}
-                      className="group bg-white hover:bg-blue-50 p-6 rounded-xl transition-all border-2 border-gray-200 hover:border-blue-500 hover:shadow-lg"
+                      key={relatedSlug}
+                      href={`/companies/${relatedSlug}`}
+                      className="group hover-lift glass-card p-6 rounded-3xl text-center transition-all border-2 border-[#1E3A8A]/10 hover:border-[#1E3A8A]/30"
                     >
-                      <div className="flex items-start justify-between">
-                        <div className="flex-1">
-                          <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors mb-2">
-                            {role.name}
-                          </h3>
-                          <p className="text-gray-600 text-sm mb-3">
-                            {role.description}
-                          </p>
-                          <div className="flex items-center text-blue-600 text-sm font-semibold group-hover:text-blue-700">
-                            View Interview Guide
-                            <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>
+                      <div className="font-bold text-[#1E3A8A] text-lg mb-2">{relatedCompany.name}</div>
+                      <div className="text-xs text-[#FF6B6B] font-semibold bg-[#FF6B6B]/10 px-2 py-1 rounded-full inline-block">{relatedCompany.industry}</div>
                     </Link>
                   )
                 })}
               </div>
             </section>
-          )
-        })()}
-
-        {/* Related Companies */}
-        {company.relatedCompanies && company.relatedCompanies.length > 0 && (
-          <section className="mb-16 bg-gray-50 -mx-4 px-4 py-12 sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent">
-            <h2 className="text-3xl font-bold mb-6 text-gray-900">Similar Companies</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {company.relatedCompanies.map((relatedSlug) => {
-                const relatedCompany = companies[relatedSlug]
-                if (!relatedCompany) return null
-                return (
-                  <Link
-                    key={relatedSlug}
-                    href={`/companies/${relatedSlug}`}
-                    className="bg-white hover:bg-gray-50 p-5 rounded-xl text-center transition-all border border-gray-200 hover:shadow-md hover:border-blue-300"
-                  >
-                    <div className="font-semibold text-gray-900">{relatedCompany.name}</div>
-                    <div className="text-xs text-gray-500 mt-2">{relatedCompany.industry}</div>
-                  </Link>
-                )
-              })}
-            </div>
-          </section>
-        )}
+          )}
 
       </div>
 
-      {/* Footer */}
-      <footer className="bg-gray-50 py-8 border-t border-gray-200">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-gray-700 font-semibold mb-2">A CleverPrep Interview Guide</p>
-          <p className="text-gray-600 text-sm mb-4">© 2024 CleverPrep - Helping candidates land their dream jobs</p>
-          <div className="flex justify-center gap-4 text-sm text-gray-600">
-            <a href="https://cleverprep.com/privacy" className="hover:text-gray-900 transition-colors">Privacy</a>
-            <span>|</span>
-            <a href="https://cleverprep.com/terms" className="hover:text-gray-900 transition-colors">Terms</a>
-            <span>|</span>
-            <a href="https://cleverprep.com/contact" className="hover:text-gray-900 transition-colors">Contact</a>
-          </div>
-        </div>
-      </footer>
+        {/* Footer */}
+        <footer className="border-t-2 border-[#1E3A8A]/10 py-16 px-6 bg-white/50">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-4 gap-12 mb-12">
+              <div className="md:col-span-2">
+                <Link href="/" className="text-3xl font-black font-display text-[#1E3A8A] mb-4 inline-block">
+                  CleverPrep
+                </Link>
+                <p className="text-gray-600 text-lg max-w-md leading-relaxed">
+                  Turning interviews into offers through personalized AI-powered preparation.
+                </p>
+              </div>
 
-      {/* Enhanced Sticky CTA Bar */}
-      <div className="fixed bottom-0 left-0 right-0 bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-2xl border-t-4 border-blue-800 z-50">
-        <div className="max-w-4xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="text-center sm:text-left">
-            <h3 className="text-xl font-bold mb-1">
-              Ready to Ace Your {company.name} Interview?
-            </h3>
-            <p className="text-sm text-blue-100 leading-relaxed">
-              Join thousands of candidates who landed their dream job with our proven prep system
-            </p>
+              <div>
+                <h4 className="text-[#1E3A8A] font-bold text-lg mb-4">Quick Links</h4>
+                <ul className="space-y-3 text-gray-600">
+                  <li><Link href="/#how-it-works" className="hover:text-[#1E3A8A] font-medium transition-colors">How It Works</Link></li>
+                  <li><Link href="/#pricing" className="hover:text-[#1E3A8A] font-medium transition-colors">Pricing</Link></li>
+                  <li><Link href="/companies" className="hover:text-[#1E3A8A] font-medium transition-colors">Companies</Link></li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 className="text-[#1E3A8A] font-bold text-lg mb-4">Contact</h4>
+                <p className="text-gray-600">
+                  <a href="mailto:support@cleverprep.com" className="hover:text-[#1E3A8A] font-medium transition-colors">support@cleverprep.com</a>
+                </p>
+              </div>
+            </div>
+
+            <div className="border-t-2 border-[#1E3A8A]/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-gray-600">
+              <p className="font-medium">© 2025 CleverPrep. All rights reserved.</p>
+              <div className="flex gap-8">
+                <a href="#" className="hover:text-[#1E3A8A] font-medium transition-colors">Privacy</a>
+                <a href="#" className="hover:text-[#1E3A8A] font-medium transition-colors">Terms</a>
+              </div>
+            </div>
           </div>
-          <a
-            href="https://cleverprep.com"
-            className="inline-block bg-white text-blue-600 px-10 py-4 rounded-lg text-lg font-bold hover:bg-blue-50 hover:shadow-lg transition-all whitespace-nowrap transform hover:scale-105"
-          >
-            Get Personalized Interview Prep
-          </a>
+        </footer>
+
+        {/* Enhanced Sticky CTA Bar */}
+        <div className="fixed bottom-0 left-0 right-0 bg-gradient-to-r from-[#1E3A8A] to-blue-900 text-white shadow-2xl border-t-4 border-[#FF6B6B] z-50">
+          <div className="max-w-4xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="text-center sm:text-left">
+              <h3 className="text-xl font-black font-display mb-1">
+                Ready to Ace Your {company.name} Interview?
+              </h3>
+              <p className="text-sm text-blue-100 leading-relaxed font-medium">
+                Join candidates who landed their dream job with our proven prep system
+              </p>
+            </div>
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 bg-[#FF6B6B] text-white px-10 py-4 rounded-2xl text-lg font-black hover:bg-[#FF6B6B]/90 transition-all whitespace-nowrap transform hover:scale-105 hover:shadow-2xl"
+            >
+              <span>Get Your Prep Package</span>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
