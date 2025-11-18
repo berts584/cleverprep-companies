@@ -296,144 +296,183 @@ export const rolePageContent = {
   },
   'goldman-sachs': {
     'investment-banking-analyst': {
-      roleDescription: "Investment Banking Analysts at Goldman Sachs are at the heart of executing high-profile financial transactions. You'll build complex financial models, conduct industry research, create pitch materials, and support senior bankers in advising clients on mergers, acquisitions, and capital raises. This demanding role offers unparalleled learning and career acceleration.",
+      roleDescription: "Investment Banking Analysts at Goldman Sachs work on the world's most prestigious and complex financial transactions. As part of a premier global investment bank with unmatched deal flow, you'll build sophisticated financial models, prepare client materials, conduct due diligence, and support execution across M&A, equity capital markets, and debt capital markets. Goldman's reputation for excellence means working with the top companies, most demanding clients, and highest-profile deals globally. The role is known for being the most intense and competitive in investment banking, but offers extraordinary learning, elite exit opportunities, and a powerful lifelong network. Analysts are expected to demonstrate exceptional technical skills, intellectual horsepower, and commitment to excellence.",
       responsibilities: [
-        "Build financial models (DCF, LBO, M&A) to value companies and analyze transactions",
-        "Prepare pitch books and client presentations in PowerPoint",
-        "Conduct industry and company research using Bloomberg, CapIQ, and other tools",
-        "Support deal execution from mandate through close",
-        "Participate in client meetings and management presentations"
+        "Build and maintain highly complex financial models (DCF, LBO, M&A accretion/dilution, scenario analysis) for the world's most sophisticated transactions",
+        "Create polished pitch books and client presentations with Goldman's signature level of detail and precision",
+        "Conduct comprehensive industry research, company analysis, and competitive positioning using Bloomberg, CapIQ, FactSet, and proprietary databases",
+        "Support live M&A deal execution including due diligence coordination, data room management, and documentation review",
+        "Participate in client meetings, management presentations, and roadshows alongside senior bankers",
+        "Prepare marketing materials for IPOs, follow-on offerings, and debt issuances with exacting standards",
+        "Analyze financial statements, build detailed operating models, and perform extensive sensitivity and scenario analyses",
+        "Collaborate across product groups (M&A, ECM, DCM) and coverage teams on cross-functional transactions"
       ],
       growthOpportunities: [
-        "Fast-track career advancement to Associate after 2-3 years",
-        "Exposure to high-profile transactions and Fortune 500 companies",
-        "Exit opportunities to private equity, hedge funds, or corporate development",
-        "Comprehensive training program and mentorship from MDs and VPs",
-        "Global mobility across Goldman Sachs offices"
+        "Promotion to Associate after 2-3 years with significant compensation increase and expanded responsibilities",
+        "Work on the most prestigious deals in finance - mega-cap M&A, landmark IPOs, complex restructurings",
+        "Elite exit opportunities to top-tier private equity firms (KKR, Blackstone, Apollo, Carlyle) and hedge funds (Citadel, Millennium, Point72)",
+        "World-class training through Goldman's comprehensive analyst program covering technical, presentation, and client skills",
+        "Ability to rotate across industry groups and products to gain broad exposure",
+        "Global mobility across Goldman's offices in New York, London, Hong Kong, San Francisco, and other financial centers",
+        "Join the most powerful alumni network in finance, spanning every sector and geography"
       ],
       interviewProcess: [
         {
           step: 1,
           title: "HireVue Video Interview",
-          description: "Record video responses to behavioral and technical questions. Practice common IB questions and ensure good lighting and audio.",
+          description: "Complete 3-5 pre-recorded video questions assessing motivation, technical knowledge, and problem-solving. Questions cover 'Why Goldman Sachs?', basic accounting/finance concepts, and behavioral scenarios. Goldman looks for concise, confident responses demonstrating genuine interest and strong fundamentals. Prepare 2-3 minute answers, practice on camera, and ensure professional setup.",
           duration: "30-45 minutes"
         },
         {
           step: 2,
-          title: "Super Day - Round 1",
-          description: "Back-to-back interviews with Associates and VPs. Expect accounting, valuation, and deal discussion questions.",
+          title: "Superday - Morning Session",
+          description: "2-3 intensive interviews with Associates, VPs, and Executive Directors focusing on technical mastery. Expect rigorous questioning on accounting, valuation methodologies, and financial modeling. Common topics: walking through DCF step-by-step, explaining EV bridge, discussing recent deals and market trends. Interviewers assess not just knowledge but ability to think critically and explain complex concepts clearly under pressure.",
           duration: "2-3 hours"
         },
         {
           step: 3,
-          title: "Super Day - Round 2",
-          description: "Interviews with Managing Directors focusing on fit, technical depth, and interest in investment banking.",
+          title: "Superday - Afternoon Session",
+          description: "2-3 interviews with senior Managing Directors and Partners focusing on cultural fit, intellectual curiosity, and 'Why Goldman?'. MDs assess whether you have the work ethic, humility, and drive to succeed in Goldman's demanding environment. Be prepared for case discussions, market views, and probing questions about your commitment to investment banking. Chemistry and likability matter as much as technical skills.",
           duration: "2-3 hours"
         },
         {
           step: 4,
-          title: "Final Decision",
-          description: "Committee reviews all feedback. Offers typically extended within 1-2 weeks of Super Day."
+          title: "Final Committee Review & Offer",
+          description: "Senior leadership committee reviews detailed feedback from all interviewers. Goldman has the highest hiring bar on Wall Street - both technical excellence and cultural fit must be exceptional. Offers typically extended 1-3 weeks after Superday and include base salary, signing bonus, stub bonus details, and group placement. You'll have 1-2 weeks to accept."
         }
       ],
       technicalQuestions: [
-        "Walk me through a DCF valuation.",
-        "What are the three financial statements and how are they connected?",
-        "How would you value a company?",
-        "Walk me through an LBO model.",
-        "If revenue increases by $100, how do the three statements change?",
-        "What's the difference between enterprise value and equity value?",
-        "How do you calculate WACC and what does it represent?",
-        "Why might a company want to acquire another company?",
-        "What's the difference between accretion/dilution in M&A?",
-        "Explain a recent deal you've been following. Would you recommend it?",
-        "What are the key drivers of a company's stock price?",
-        "How would you calculate the unlevered beta of a company?"
+        "Walk me through a DCF valuation from beginning to end, including all key assumptions.",
+        "Walk me through the three financial statements and explain how they're interconnected.",
+        "If a company issues $100M in debt, walk me through the impact on all three statements immediately and over time.",
+        "What's the difference between enterprise value and equity value? How do you bridge between them?",
+        "How do you calculate WACC? Walk me through each component and why it matters.",
+        "Walk me through an LBO model. What makes a good LBO candidate and why?",
+        "If revenue increases by $100, walk me through the complete impact on the three statements.",
+        "How would you value a company with negative earnings? What methods would you use?",
+        "Explain accretion/dilution analysis in M&A. How do you calculate it?",
+        "If inventory increases by $50, what happens to the cash flow statement and why?",
+        "Why might a strategic acquirer pay more than a financial buyer? Walk me through the analysis.",
+        "Explain different valuation methodologies (DCF, trading comps, transaction comps) and when you'd use each.",
+        "How do you calculate unlevered free cash flow? Why do we unlever it?",
+        "What are the key assumptions in a DCF model and which have the biggest impact on valuation?",
+        "Walk me through a merger model. How does the consideration type (cash vs stock) affect the analysis?",
+        "How would you value a pre-revenue biotech company? What about a mature utility company?",
+        "Explain the relationship between discount rate and valuation. What happens if WACC increases by 1%?",
+        "If EBITDA increases by $100, what happens to free cash flow? Walk me through all the adjustments."
       ],
       behavioralQuestions: [
-        "Why investment banking? Why Goldman Sachs?",
-        "Tell me about a time you worked under extreme pressure and tight deadlines.",
-        "Describe a situation where you led a team through a challenging project.",
-        "Why do you want to work in [specific group, e.g., M&A, TMT, Healthcare]?",
-        "Tell me about a time you made a mistake. How did you handle it?",
-        "Walk me through your resume and key accomplishments.",
-        "How do you handle criticism and feedback?",
-        "Describe a time you had to analyze complex information quickly."
+        "Why investment banking? Why Goldman Sachs specifically over JPMorgan or Morgan Stanley?",
+        "Tell me about a time you worked under extreme pressure and had to deliver perfect work under tight deadlines.",
+        "Describe a situation where you had to learn something highly complex very quickly. What was your approach?",
+        "Why are you interested in [specific group, e.g., Healthcare, TMT, M&A]? What recent deals in this space excite you?",
+        "Tell me about a time you made a significant mistake. How did you handle it and what did you learn?",
+        "Walk me through your resume and explain your most impressive accomplishment in detail.",
+        "Describe a time you worked on a team with conflicting opinions. How did you navigate the situation?",
+        "How do you prioritize when you have multiple urgent deadlines and competing demands?",
+        "Tell me about a time you went significantly above and beyond what was expected of you.",
+        "What differentiates Goldman Sachs from other bulge bracket banks? Be specific.",
+        "How do you stay current on financial markets, deals, and business news?",
+        "Describe a leadership experience and the most important lesson you learned from it.",
+        "What's your greatest weakness and how are you working to improve it?",
+        "Where do you see yourself in 5 years? What about in 10 years?"
       ],
       whatTheyLookFor: [
-        "Strong technical skills in accounting, finance, and valuation",
-        "Attention to detail and accuracy in financial modeling",
-        "Ability to work long hours and handle pressure",
-        "Intellectual curiosity and continuous learning mindset",
-        "Strong communication and presentation skills",
-        "Team player who can also work independently",
-        "Passion for finance and markets",
-        "Professionalism and cultural fit with Goldman Sachs values"
+        "Exceptional technical foundation in accounting, finance, and valuation with ability to explain complex concepts clearly",
+        "Obsessive attention to detail and commitment to perfection in all deliverables",
+        "Demonstrated ability to work 80-100+ hour weeks consistently and thrive under extreme pressure",
+        "Intellectual curiosity and genuine passion for learning about companies, industries, and markets",
+        "Outstanding communication and presentation skills - ability to distill complexity for senior audiences",
+        "Team player mentality with humility - willing to do unglamorous work and support the team",
+        "Deep, genuine interest in finance, deal-making, and Goldman Sachs specifically",
+        "Professional maturity, poise, and polish when interacting with clients and senior bankers",
+        "Extreme coachability and ability to incorporate feedback instantly",
+        "Cultural alignment with Goldman's principles: client service, integrity, excellence, and teamwork"
       ],
       interviewTips: [
-        "Master the fundamentals: accounting, valuation methods (DCF, comps, precedents), and M&A concepts",
-        "Practice building models in Excel - speed and accuracy matter",
-        "Follow recent deals in your target industry group",
-        "Read the WSJ and Financial Times daily to discuss market trends",
-        "Prepare specific reasons why Goldman Sachs over other banks",
-        "Have thoughtful questions about deal flow, group culture, and training",
-        "Be ready for behavioral questions using STAR method",
-        "Research the group and team you're interviewing with"
+        "Master technical fundamentals to the point of perfection - practice building three-statement models, DCF, and LBO from scratch without errors",
+        "Study recent Goldman Sachs deals in your target group - know the deal size, multiples, strategic rationale, and Goldman's role",
+        "Read Wall Street Journal, Financial Times, and Dealbook daily - be ready to discuss current market conditions and deal activity intelligently",
+        "Prepare 5-7 specific, detailed reasons why Goldman Sachs over competitors - reference culture, deals, training, people you've met, or specific groups",
+        "Practice explaining technical concepts out loud as if teaching someone - clarity and precision matter as much as accuracy",
+        "Use STAR method for behavioral questions and prepare 8-10 diverse stories demonstrating leadership, teamwork, resilience, and analytical skills",
+        "Research your interviewers on LinkedIn before Superday - reference their background, deals, or experience if natural opportunities arise",
+        "Prepare 4-5 thoughtful, specific questions for each interviewer about their experience, current deal pipeline, team dynamics, or career progression",
+        "For deal discussions, develop informed opinions on valuation levels, strategic rationale, market context, and potential challenges",
+        "Show genuine enthusiasm and energy throughout - cultural fit is often the differentiator between technically strong candidates",
+        "Demonstrate humility and eagerness to learn - Goldman values team players over individual superstars",
+        "Understand Goldman's business model, competitive positioning, and recent strategic initiatives (Marcus, alternative investments, etc.)",
+        "Practice mental math extensively - be comfortable doing quick calculations without calculator under pressure",
+        "Review Goldman's latest earnings presentation and investor day materials - show you've done serious homework on the firm"
       ],
       salary: {
         min: 110000,
         max: 125000
       },
       compensation: [
-        "Performance-based year-end bonus ($50-80K typical for first year)",
-        "Signing bonus ($10-25K common)",
-        "Overtime meal allowances and car service after 9pm",
-        "Comprehensive health and dental insurance",
-        "401(k) with company matching",
-        "Gym membership reimbursement"
+        "Base salary: $110-125K for first-year analysts (base increases to ~$125-140K in year 2)",
+        "Year-end performance bonus: $60-100K+ depending on individual performance, group performance, and firm results",
+        "Signing bonus: $15-35K common for competitive candidates from top schools",
+        "Stub bonus (prorated year-end bonus) for mid-year start dates",
+        "Free dinner when working past 7pm through Seamless/Grubhub corporate account",
+        "Car service home when working past 9pm or before 6am (Black Car)",
+        "Comprehensive health, dental, vision, and life insurance with excellent coverage",
+        "401(k) with company match up to IRS limits",
+        "Gym membership subsidy and wellness benefits",
+        "Total first-year all-in compensation typically $185-260K depending on bonus"
       ],
       dayInLife: {
-        overview: "Life as an Investment Banking Analyst at Goldman Sachs is demanding but rewarding. Expect long hours, intense work, and constant learning. You'll work on live deals, build complex models, and create materials for client meetings.",
+        overview: "Life as an Investment Banking Analyst at Goldman Sachs is the most intense experience in finance. Expect 90-110 hour weeks regularly, frequent all-nighters, and constant pressure to deliver flawless work under impossible deadlines. You'll juggle multiple live deals simultaneously - M&A executions, pitch preparations, industry research, and ad-hoc requests from MDs. The work is intellectually challenging and the learning curve is vertical. You'll develop world-class technical skills, unbreakable work ethic, and resilience under fire. Culture emphasizes teamwork, meritocracy, and excellence - mistakes are not acceptable, but those who excel are rewarded with unmatched exit opportunities. Weekend work is expected during active deal phases.",
         schedule: [
           {
-            time: "9:00 AM",
-            activity: "Team Meeting",
-            description: "Brief with Associates and VPs on active deal status and priorities for the day"
+            time: "8:30 AM",
+            activity: "Morning Team Huddle",
+            description: "Meet with Associates, VPs, and MDs to review active transactions, discuss overnight market movements, and prioritize today's deliverables. Get staffed on new pitch or deal work."
           },
           {
-            time: "10:00 AM",
-            activity: "Financial Modeling",
-            description: "Update DCF model for potential acquisition target with latest assumptions"
+            time: "9:00 AM",
+            activity: "DCF Model Updates",
+            description: "Update valuation model for M&A target based on revised management projections. Run sensitivity tables on WACC, terminal growth, and margin assumptions. Triple-check all formulas for errors."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Working Lunch at Desk",
+            description: "Order lunch to desk while reformatting pitch book pages. Constantly interrupted by emails and requests from senior bankers."
           },
           {
             time: "1:00 PM",
-            activity: "Quick Lunch",
-            description: "Order lunch to desk while continuing to work on deliverables"
+            activity: "Pitch Book Development",
+            description: "Build comprehensive PowerPoint presentation for client meeting next week. Create custom market analysis, precedent transactions pages, and football field valuation summary. Ensure Goldman's exacting formatting standards."
           },
           {
-            time: "2:00 PM",
-            activity: "Pitch Book Creation",
-            description: "Build PowerPoint slides for client pitch meeting scheduled for next week"
+            time: "3:00 PM",
+            activity: "Client Call Preparation",
+            description: "Join conference call with client CEO and CFO alongside MD to discuss strategic alternatives. Take meticulous notes and prepare detailed follow-up memo."
           },
           {
             time: "5:00 PM",
-            activity: "Review Session",
-            description: "Present work to Associate/VP for feedback and revisions"
+            activity: "Review Session with VP",
+            description: "Present draft pitch book and models for detailed feedback. VP marks up 50+ changes - formatting inconsistencies, analysis gaps, assumptions to refine. Take copious notes."
           },
           {
             time: "7:00 PM",
-            activity: "Dinner Break",
-            description: "Order dinner (covered by bank) and brief respite"
+            activity: "Dinner Break (Order In)",
+            description: "Order dinner using firm credit around 7-7:30pm. Eat quickly at desk while responding to emails. Brief chat with other analysts."
           },
           {
-            time: "8:00 PM",
-            activity: "Model Revisions",
-            description: "Incorporate feedback and finalize materials for morning meeting"
+            time: "7:30 PM",
+            activity: "Incorporate Feedback Round 1",
+            description: "Work through VP's comments systematically. Update models, rebuild analyses, fix formatting. New requests come in from MD for additional scenarios."
           },
           {
-            time: "11:00 PM",
-            activity: "Wrap Up",
-            description: "Send final deliverables and head home (or stay later if urgent deal work)"
+            time: "10:00 PM",
+            activity: "Second Review Cycle",
+            description: "Send updated materials to VP for second review. Receive more comments. Continue iterating until materials are perfect."
+          },
+          {
+            time: "12:00 AM",
+            activity: "Final Revisions & Delivery",
+            description: "Complete final round of changes. Send finished product to senior bankers. Check email for tomorrow's priorities. Take car service home around 12:30-1am. Sleep and repeat. Stay later or pull all-nighter if urgent live deal."
           }
         ]
       },

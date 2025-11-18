@@ -1,5 +1,6 @@
 import { companies } from '@/data/companies'
 import { roles, getRolesForCompany } from '@/data/roles'
+import { rolePageContent } from '@/data/rolePageContent'
 import Link from 'next/link'
 import CompanyLogo from '@/app/components/CompanyLogo'
 
@@ -15,7 +16,12 @@ export default async function CompanyPage({ params }) {
   }
 
   // Get relevant roles for this company
-  const relevantRoles = getRolesForCompany(company.industry)
+  const allRelevantRoles = getRolesForCompany(company.industry)
+
+  // Filter to only show roles that have actual content built
+  const relevantRoles = allRelevantRoles.filter(roleSlug => {
+    return rolePageContent[resolvedParams.slug]?.[roleSlug] !== undefined
+  })
 
   // Schema.org structured data for SEO
   const structuredData = {
