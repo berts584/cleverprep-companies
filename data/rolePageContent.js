@@ -482,6 +482,621 @@ export const rolePageContent = {
         { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
         { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
       ]
+    },
+    'investment-banking-associate': {
+      roleDescription: "Investment Banking Associates at Goldman Sachs represent the elite tier of deal execution talent on Wall Street. Associates join either through Goldman's highly selective MBA recruiting (targeting top 5 business schools) or internal promotion after exceptional analyst performance. You'll lead execution of the world's most complex and prestigious transactions, manage high-performing analyst teams, and interface directly with C-suite executives of Fortune 500 companies. The role demands mastery of technical skills, strategic thinking about deal structuring and valuation, strong people management, and the ability to deliver flawless work under extreme pressure. Goldman Associates are expected to demonstrate intellectual leadership, impeccable judgment, and unwavering commitment to the firm's standards of excellence. Success leads to VP promotion and long-term partnership track opportunities.",
+      responsibilities: [
+        "Lead end-to-end execution of landmark M&A transactions, IPOs, and debt offerings from initial pitch through closing",
+        "Build and oversee highly sophisticated financial models including multi-scenario merger models, complex LBO analyses, and strategic alternative valuations",
+        "Manage, develop, and mentor analyst teams - delegate effectively, review work critically, and develop junior talent to Goldman's exacting standards",
+        "Participate actively in high-stakes client meetings and board presentations, articulating complex financial analyses and strategic recommendations",
+        "Draft and review transaction documents, offering memoranda, and board materials with precision and strategic insight",
+        "Conduct advanced industry analysis, competitive assessments, and market intelligence to support client advisory work",
+        "Collaborate with senior bankers (VPs, EDs, MDs) on deal strategy, valuation frameworks, and negotiation approaches",
+        "Coordinate seamlessly across internal groups including legal, compliance, capital markets, and product specialists",
+        "Drive business development through exceptional pitch materials, industry thought leadership, and client relationship building"
+      ],
+      growthOpportunities: [
+        "Promotion to Vice President within 3-4 years with exceptional performance - Goldman has the most meritocratic culture on Wall Street",
+        "Lead coverage of trophy clients and marquee transactions that define careers (mega-cap M&A, landmark IPOs, transformative restructurings)",
+        "Unparalleled exit opportunities to top-tier private equity mega-funds, elite hedge funds, or C-suite corporate roles",
+        "Access to Goldman's legendary training programs and leadership development initiatives",
+        "Opportunity to become sector expert recognized across the investment community",
+        "Long-term partnership track for those committed to Goldman - Managing Director and Partner potential",
+        "Global platform with ability to work on cross-border transactions spanning multiple continents",
+        "Compensation potential of $400-600K+ total comp with path to multi-million dollar earnings as VP+"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screening & Background Review",
+          description: "Rigorous review of background, deal experience, and cultural fit. For MBA candidates, summer internship performance is heavily weighted. For promote-from-analyst candidates, recent deal contributions and feedback from senior bankers are critical. Initial 30-45 minute call with HR or VP covers motivation for Associate role, commitment to Goldman specifically, and target coverage/product groups. Goldman has the highest bar on Wall Street.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Deep Dive & Case Study",
+          description: "90-minute interview with VP or Executive Director testing advanced technical mastery and strategic judgment. Expect complex case studies: 'Advise a client on strategic alternatives including M&A, recapitalization, and asset sales,' 'Structure a take-private transaction with multiple financing sources,' or 'Evaluate competitive bids in an auction process.' You'll be tested on valuation methodologies, deal structuring creativity, and ability to identify key risks. Interviewers assess whether you can think like a senior banker, not just execute like an analyst.",
+          duration: "90 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday - Multiple Senior Banker Rounds",
+          description: "5-7 intensive interviews with VPs, Executive Directors, and Managing Directors. Morning focuses on technical depth, deal discussions, and analytical horsepower. Afternoon emphasizes leadership capability, people management skills, and Goldman culture fit. Expect detailed discussion of your most complex deals, leadership examples managing teams under pressure, and probing questions about why Goldman versus private equity or other banks. MDs assess whether you can represent Goldman in client boardrooms and develop into a future leader of the firm.",
+          duration: "5-7 hours"
+        },
+        {
+          step: 4,
+          title: "Partnership Committee Review & Offer",
+          description: "Senior partnership committee reviews comprehensive feedback. Goldman extends offers only to candidates who demonstrate both exceptional technical/analytical ability AND strong cultural alignment with firm values. Decisions typically made within 1-2 weeks. Offer packages include base salary ($175-210K for MBA, $150-175K for promoted analysts), guaranteed first-year bonus, signing bonus ($30-60K), and group placement. Competition for spots is intense - Goldman has the most selective Associate hiring on Wall Street."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through how you would advise a board on strategic alternatives. What analyses would you run and how would you present the options?",
+        "A client is considering three acquisition targets. How would you build a framework to compare them and make a recommendation?",
+        "Build a merger model on the whiteboard. Acquirer trades at 25x P/E, target at 15x P/E, deal is 50% cash/50% stock. Walk through accretion/dilution.",
+        "A CEO asks whether to pursue a transformative acquisition or return cash to shareholders via dividend/buyback. How do you advise?",
+        "Walk me through structuring an LBO for a $5B company. What returns would make this attractive for a sponsor? How would you optimize the capital structure?",
+        "Explain how you would value a company using sum-of-the-parts methodology versus consolidated DCF. When would you use each?",
+        "A client's stock trades at a 30% discount to peers despite superior fundamentals. What could explain this and what would you recommend?",
+        "Walk me through the bridge from enterprise value to equity value. What adjustments would you make for a complex capital structure?",
+        "How would you analyze and present the strategic rationale for a vertical versus horizontal acquisition?",
+        "A company wants to spin off a division. Walk me through the key analyses and what factors drive value creation versus destruction.",
+        "Explain how you'd approach valuing a high-growth SaaS company versus a mature industrial conglomerate. What multiples and methodologies?",
+        "A private equity firm wants to take a public company private. Walk me through your analysis from both buyer and seller perspectives.",
+        "How do you think about optimal capital structure? What factors influence the debt capacity of different companies?",
+        "Walk me through analyzing dilution in a secondary offering. How would you advise the CFO on pricing and size?",
+        "Explain the difference between cash-free, debt-free enterprise value and total deal consideration in M&A. Why does it matter?",
+        "A client is evaluating a cross-border acquisition with currency, regulatory, and tax complexities. How do you structure your analysis?"
+      ],
+      behavioralQuestions: [
+        "Why are you pursuing an Associate role at Goldman Sachs specifically? What differentiates Goldman from other opportunities?",
+        "Walk me through the most complex deal you've worked on. What was your specific contribution and what would you do differently?",
+        "Describe a time you had to manage an underperforming team member or difficult analyst. How did you handle it?",
+        "Tell me about a situation where you disagreed with a senior banker's recommendation to a client. What did you do?",
+        "Describe a time you had to deliver difficult or unexpected news to a client or senior banker. How did you approach it?",
+        "How do you manage multiple live deals with competing deadlines and urgent requests? Walk me through your prioritization framework.",
+        "Tell me about a time you identified a critical error in analysis that others missed. What was the impact?",
+        "What's your philosophy on developing and mentoring junior team members? Give me a specific example.",
+        "Describe a transaction that fell apart at the last minute. What happened, what was your role, and what did you learn?",
+        "How do you handle situations where you need to push back on senior bankers while maintaining relationships?",
+        "Why Goldman Sachs versus pursuing private equity, hedge funds, or corporate strategy roles?",
+        "Walk me through your career trajectory and why investment banking is the right long-term path for you.",
+        "Describe a time you had to make a high-stakes judgment call with incomplete information. What was your process?",
+        "How do you stay current on deal activity, market trends, and industry developments in your coverage sectors?",
+        "Tell me about a time you went significantly above expectations on a project. What drove you to do more?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional technical mastery - ability to build complex models flawlessly and think strategically about valuation and deal structure",
+        "Proven leadership capability and track record of managing teams effectively under extreme pressure",
+        "Outstanding client-facing skills with executive presence appropriate for boardroom discussions",
+        "Strategic thinking beyond pure execution - ability to advise clients on business decisions and identify creative solutions",
+        "Relentless work ethic and demonstrated ability to sustain 80-100 hour weeks while delivering perfect work product",
+        "Impeccable judgment and discretion handling confidential, market-moving information",
+        "Exceptional collaboration skills - ability to coordinate across legal, compliance, capital markets, and product groups seamlessly",
+        "Deep sector expertise or product knowledge with ability to develop differentiated insights",
+        "Professional polish and maturity appropriate for representing Goldman Sachs with Fortune 500 CEOs and boards",
+        "Demonstrated commitment to excellence and Goldman's cultural values: client service, integrity, and meritocracy",
+        "Intellectual horsepower and analytical rigor - Goldman seeks the best and brightest talent globally"
+      ],
+      interviewTips: [
+        "Prepare exhaustive deal stories using STAR method - be ready for deep technical questions about your specific contributions, challenges, and outcomes",
+        "Master advanced technical concepts: complex merger models, multi-layered cap structures, cross-border tax considerations, restructuring scenarios",
+        "Know Goldman's recent landmark deals intimately - read transaction announcements, league tables, and understand Goldman's strategic role",
+        "Practice whiteboard case studies - work through valuation scenarios, strategic alternative frameworks, and deal structuring exercises out loud",
+        "Develop a compelling narrative for why Associate role at Goldman is the optimal next step in your career trajectory",
+        "Prepare detailed examples of leadership, team management under pressure, and client interaction from analyst or internship experience",
+        "Research interviewers exhaustively on LinkedIn, deal tombstones, and press releases - reference their deals naturally if opportunities arise",
+        "Be ready to discuss current market dynamics, M&A trends, valuation levels, and sector-specific catalysts with sophistication",
+        "Prepare strategic, thoughtful questions demonstrating deep thinking: group strategy, deal pipeline quality, culture evolution, partnership track",
+        "For MBA candidates: articulate clearly why banking over consulting, tech, or PE/VC. Show this is a deliberate long-term choice.",
+        "For promote-from-analyst candidates: demonstrate readiness for significantly expanded responsibility and client-facing role",
+        "Understand Goldman's competitive positioning in league tables - know where Goldman leads and why clients choose Goldman",
+        "Practice explaining complex technical concepts simply and clearly - critical skill for client advisory and board presentations",
+        "Show genuine passion for deals and markets - Goldman seeks candidates who are energized by transaction work and thrive under pressure",
+        "Be prepared to discuss compensation expectations and work-life balance honestly while demonstrating full commitment to demands of role"
+      ],
+      salary: {
+        min: 175000,
+        max: 210000
+      },
+      compensation: [
+        "Base salary: $175-210K for MBA hires from top programs, $150-175K for promoted analysts",
+        "Year-end performance bonus: $200-400K depending on individual performance, group deal flow, and firm results",
+        "Signing bonus: $30-60K common for MBA candidates from H/W/S and other top programs",
+        "Guaranteed first-year bonus typically included in offer letters for MBA hires",
+        "Stub bonus for mid-year starts (prorated based on start date)",
+        "Free dinner when working past 7pm (Seamless/premium options)",
+        "Black car service for late nights/early mornings and weekends",
+        "Comprehensive platinum-level health, dental, vision insurance",
+        "401(k) with generous company match",
+        "Paid parental leave (16 weeks primary caregiver, 4 weeks secondary)",
+        "Relocation assistance and temporary housing for out-of-state hires",
+        "Total first-year compensation typically $400-650K all-in for strong performers"
+      ],
+      dayInLife: {
+        overview: "Life as an Investment Banking Associate at Goldman Sachs is intensely demanding but intellectually rewarding. Expect 75-95 hour weeks with significant control over workflow and strategy. Associates balance hands-on analytical work with team leadership, client management, and deal strategy. You're expected to catch all errors before work reaches VPs, manage analyst workstreams with precision, and contribute strategic insights in client meetings. The role requires simultaneously managing 3-5 live deals while maintaining Goldman's uncompromising quality standards. Culture is performance-driven and meritocratic - excellence is recognized and rewarded, but mistakes are costly. Work-life balance is challenging but slightly better than analyst years.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Preparation",
+            description: "Arrive early to review overnight comments from senior bankers, check global market developments, and prioritize deal team workstreams. Prepare for morning meetings and respond to urgent client emails."
+          },
+          {
+            time: "8:45 AM",
+            activity: "Deal Team Status Meeting",
+            description: "Lead status meeting with analysts on active M&A transaction. Review progress on due diligence, modeling updates needed, and management presentation prep. Assign tasks clearly and set deadlines for deliverables."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Client Strategy Session with MD",
+            description: "Join Managing Director to discuss negotiation strategy for ongoing M&A auction process. Debate valuation positioning, financing structure, and timing of final bid. Take ownership of follow-up analyses and materials."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Advanced Model Development",
+            description: "Build complex merger model incorporating earnout provisions, contingent consideration, and synergy scenarios. Stress test assumptions and prepare sensitivity analyses for client discussion."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Working Lunch & Model Review",
+            description: "Lunch at desk while reviewing LBO model built by analyst. Identify assumption gaps, formula errors, and additional scenarios needed. Provide detailed feedback and schedule follow-up review."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Client Board Presentation",
+            description: "Join senior bankers for board meeting with client to present strategic alternatives analysis. Walk through valuation work, address board questions on assumptions, and discuss transaction risks. This is where Associates add strategic value beyond pure execution."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Post-Meeting Debrief & Follow-Up",
+            description: "Debrief board meeting with deal team. Outline follow-up analyses requested by board, timeline for next meeting, and work plan for team. Coordinate with legal and compliance on next steps."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Pitch Development for New Opportunity",
+            description: "Build strategic sections of pitch book for prospective M&A mandate. Draft executive summary, create market analysis, and outline transaction approach. Set direction for analysts on detailed pages."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Analyst Development Meeting",
+            description: "One-on-one with junior analyst to provide performance feedback, discuss career development, and answer technical questions. Review upcoming staffing and workload to ensure balanced allocation."
+          },
+          {
+            time: "7:00 PM",
+            activity: "Dinner (Order In)",
+            description: "Order dinner using firm premium allowance. Brief break to eat while catching up on market news and deal updates."
+          },
+          {
+            time: "7:30 PM",
+            activity: "Materials Review & Quality Control",
+            description: "Comprehensively review all analyst deliverables from the day - check models for errors, review pitch books for content and formatting, validate data sources. Mark up detailed comments for morning revisions."
+          },
+          {
+            time: "9:30 PM",
+            activity: "Senior Banker Updates",
+            description: "Send deal status updates to VPs, EDs, and MDs. Provide summary of day's progress, flag any issues or delays, and confirm tomorrow's priorities. Coordinate on client communication strategy."
+          },
+          {
+            time: "10:30 PM",
+            activity: "Final Work & Departure",
+            description: "Complete any urgent personal work, finalize tomorrow's plan, and prepare materials for morning meetings. Take car service home around 11pm-midnight on normal days. Later if urgent deadline or live deal negotiations."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" },
+        { companyName: "Wells Fargo", companySlug: "wells-fargo", industry: "Finance" }
+      ]
+    },
+    'equity-research-analyst': {
+      roleDescription: "Equity Research Analysts at Goldman Sachs deliver world-class independent investment analysis to the most sophisticated institutional investors globally. As part of Goldman's highly ranked research division, you'll cover specific companies within a sector (Technology, Healthcare, Financials, Consumer, Industrials, Energy, etc.), publishing in-depth research reports, earnings analyses, and investment recommendations that move markets. Goldman's research is renowned for its analytical rigor, proprietary insights, and influence across the buy-side community. The role demands exceptional analytical skills, deep industry expertise, intellectual independence, and the ability to develop differentiated views in competitive sectors. Success requires mastering fundamental analysis, financial modeling, and clear investment communication. Goldman's research platform offers unparalleled resources, access to senior management teams, and strong exit opportunities to top hedge funds and asset managers.",
+      responsibilities: [
+        "Build and maintain sophisticated financial models (integrated 3-statement models, DCF valuations, sum-of-the-parts analyses) for covered universe with quarterly updates",
+        "Publish high-quality research reports with actionable investment recommendations, detailed price targets, and comprehensive fundamental analysis",
+        "Conduct rigorous primary research through expert network calls, channel checks, industry conferences, and proprietary data analysis",
+        "Analyze quarterly earnings releases, SEC filings, and company guidance to update models and adjust investment theses rapidly",
+        "Develop and defend differentiated, non-consensus investment views based on superior fundamental analysis and industry insights",
+        "Host investor conference calls and client meetings to articulate research views, debate investment controversies, and answer detailed questions",
+        "Monitor competitive dynamics, regulatory developments, and macroeconomic trends impacting coverage universe",
+        "Collaborate with Goldman's sales and trading teams to communicate research insights and market-moving developments to clients",
+        "Attend industry conferences, company site visits, and management meetings to gather information and build conviction in investment calls"
+      ],
+      growthOpportunities: [
+        "Promotion to Senior Analyst with increased compensation and recognition as lead coverage analyst within 3-4 years",
+        "Opportunity to achieve top-tier rankings (Institutional Investor, Extel, StarMine) which significantly enhance compensation and industry reputation",
+        "Development of sector expertise recognized globally - Goldman analysts are frequently quoted in financial media",
+        "Elite exit opportunities to long/short equity hedge funds (Lone Pine, Tiger Cubs, Viking), multi-strategy funds, or portfolio management roles",
+        "Direct access to C-suite executives of the world's most important companies through regular management meetings",
+        "Build invaluable network across institutional investors, corporate executives, and industry thought leaders",
+        "Potential to transition to investment banking, corporate strategy, or venture capital roles leveraging deep sector knowledge",
+        "Senior analysts at Goldman can earn $500K-$1M+ total compensation with strong rankings and research impact"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screening & Background Review",
+          description: "30-45 minute conversation with HR or junior research team member covering background, interest in equity research specifically, and sector preferences. Expect questions about why research over banking or asset management, what sectors fascinate you, and your understanding of sell-side research. Discussion of academic preparation, relevant coursework (accounting, finance, valuation), and any prior research or investing experience. Goldman seeks candidates with genuine intellectual curiosity about markets and companies.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Interview & Stock Pitch",
+          description: "90-minute deep-dive interview with Senior Analyst or Associate covering technical skills and investment thinking. You'll present a prepared stock pitch (long or short) with clear investment thesis, comprehensive valuation support, identified key risks, and catalysts. Expect rigorous questioning challenging your assumptions, debating alternative scenarios, and testing depth of industry knowledge. Technical questions cover accounting nuances, valuation methodologies, and financial statement analysis. Interviewers assess analytical rigor, ability to defend views under pressure, and clarity of investment communication.",
+          duration: "90 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday - Multiple Research Team Rounds",
+          description: "5-6 interviews with Senior Analysts, Associates, and potentially Head of Research. Mix of stock pitch deep dives, technical testing, on-the-spot company analyses, and fit assessment. You may receive financials for an unknown company and be asked to analyze it within 30 minutes, discuss major industry trends and controversies, or debate specific investment questions in your area of interest. Interviewers evaluate analytical depth, intellectual independence, communication clarity, passion for fundamental research, and cultural fit. Goldman seeks candidates who can develop proprietary insights and communicate them persuasively to sophisticated investors.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Final Decision & Offer",
+          description: "Research leadership and senior analysts review comprehensive feedback with emphasis on analytical horsepower, intellectual curiosity, and team fit. Goldman research has extremely high standards - offers extended only to top candidates. Decisions typically made within 1-2 weeks. Offers include base salary ($90-110K undergrad, $115-140K MBA/experienced), bonus target structure, and sector assignment. Sector placement depends on team needs, your background and interests, and interview performance. Competition is intense for Goldman research roles."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your complete framework for valuing a company. Which methodologies would you use and when?",
+        "Explain the difference between enterprise value and equity value. Walk me through the complete bridge between them.",
+        "Build a DCF model on this whiteboard from scratch. What are the most critical assumptions and common pitfalls?",
+        "Walk me through how the three financial statements link together. What happens if revenue increases by $100?",
+        "How would you value a high-growth SaaS company burning cash versus a mature industrial company with stable cash flows?",
+        "What's the difference between GAAP net income and adjusted EBITDA? When would you use each for valuation purposes?",
+        "Explain different valuation multiples (P/E, EV/EBITDA, EV/Sales, Price/Book). When is each most and least appropriate?",
+        "Walk me through calculating and interpreting Free Cash Flow. Why does it matter more than earnings for valuation?",
+        "What drives ROIC and why is it the most important metric for evaluating management quality and capital allocation?",
+        "How do you build a comparable company analysis? What makes companies truly comparable beyond just industry classification?",
+        "Walk me through adjusting financials for significant one-time items or changes in accounting policy.",
+        "Explain normalized earnings. How would you calculate it for a cyclical company like an automaker or semiconductor manufacturer?",
+        "What's the relationship between revenue growth rates, margin expansion, and valuation multiple expansion/compression?",
+        "How do you think about PEG ratios? What are the limitations of this framework?",
+        "A company announces a transformative acquisition. Walk me through your analysis framework to evaluate the deal.",
+        "How would you model and value a company going through a major business model transition or disruption?"
+      ],
+      behavioralQuestions: [
+        "Why equity research? Why Goldman Sachs research specifically? Why not investment banking or buy-side investing?",
+        "Walk me through a stock you're currently following. What's your investment thesis, key risks, and price target?",
+        "What sectors or industries fascinate you most and why? What have you done to develop expertise in these areas?",
+        "How do you stay current on market developments, company news, and industry trends? Walk me through your daily routine.",
+        "Tell me about a time you analyzed a complex situation and reached a differentiated conclusion from conventional wisdom.",
+        "Describe a situation where you changed your mind or investment view based on new information. What was your process?",
+        "What do you think are the biggest challenges facing equity research today? How is the industry evolving?",
+        "How would you handle a situation where your MD strongly disagrees with your investment recommendation?",
+        "Tell me about a time you had to defend a controversial or unpopular opinion with rigorous analysis.",
+        "What's your process for developing conviction in an investment thesis? How do you know when you have enough information?",
+        "How do you balance quantitative financial analysis with qualitative factors like management quality and competitive positioning?",
+        "Describe a recent investment decision or analysis you completed. Walk me through your framework and reasoning.",
+        "What separates great equity research analysts from merely good ones? What does excellence in this role look like?",
+        "How would you approach learning a completely new sector you're unfamiliar with?",
+        "Why Goldman's research platform specifically? What differentiates Goldman research from competitors?",
+        "What public company or industry do you find most interesting right now and why? What's your investment view?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional analytical and quantitative skills with ability to build detailed, error-free financial models",
+        "Intense intellectual curiosity and genuine passion for analyzing companies, industries, and investment opportunities",
+        "Superior written and verbal communication skills - ability to distill complex analyses into clear, actionable investment insights",
+        "Independent thinking with demonstrated ability to develop differentiated, non-consensus views supported by rigorous analysis",
+        "Deep understanding of accounting, corporate finance, and valuation methodologies with ability to apply them creatively",
+        "Meticulous attention to detail and precision in financial analysis, modeling, and research publication",
+        "Industry knowledge and ability to understand business models, competitive dynamics, disruption risks, and secular trends",
+        "Professional maturity and poise to interact confidently with C-suite executives, portfolio managers, and senior investors",
+        "Strong work ethic and ability to manage demanding workload during earnings seasons while maintaining research quality",
+        "Team collaboration skills while maintaining intellectual independence and conviction in investment views",
+        "Integrity and commitment to objective, unbiased research despite potential conflicts with banking relationships"
+      ],
+      interviewTips: [
+        "Prepare an outstanding stock pitch (long or short) with rigorous thesis, detailed valuation work, comprehensive risk analysis, and clear catalysts. Practice delivering in 10-15 minutes.",
+        "Develop deep expertise in 2-3 sectors - understand industry dynamics, key metrics, competitive landscape, major companies, and current controversies",
+        "Read Goldman's published equity research extensively to understand analytical frameworks, writing style, depth of analysis, and house views",
+        "Master valuation methodologies comprehensively: DCF mechanics, comparable company analysis, precedent transactions, sum-of-the-parts. Know pros/cons of each.",
+        "Stay obsessively current on markets - read WSJ, FT, Bloomberg, Dealbook daily. Have informed views on market themes, Fed policy, sector rotation.",
+        "Practice building integrated 3-statement models from scratch. Be able to explain every assumption and link clearly.",
+        "Understand sell-side research business model deeply - how analysts add value, conflicts of interest, MiFID II impact, compensation structures",
+        "Prepare thoughtful, specific questions about research process, team dynamics, sector coverage strategy, rankings goals, and career development paths",
+        "Research Goldman's equity research rankings across sectors - know which teams are highly ranked and what drives research excellence",
+        "Be ready to discuss multiple investment ideas beyond your formal stock pitch - demonstrate breadth of market awareness and intellectual curiosity",
+        "Show genuine passion for fundamental analysis and company research - research is intellectually demanding and requires intrinsic motivation",
+        "For stock pitch, anticipate bear/bull counterarguments and prepare thoughtful, data-driven responses to challenging questions",
+        "Understand current market regime deeply - interest rate environment, economic cycle position, valuation levels, sector leadership",
+        "Demonstrate awareness of research regulatory environment (analyst independence, disclosure requirements, research payment models)",
+        "Practice explaining complex financial and business concepts simply and clearly - critical for client communication and report writing"
+      ],
+      salary: {
+        min: 90000,
+        max: 115000
+      },
+      compensation: [
+        "Base salary: $90-110K for undergrad hires, $115-140K for MBA or experienced hires",
+        "Year-end performance bonus: $40-90K depending on individual performance, team rankings, research impact, and firm results",
+        "Signing bonus: $15-30K for competitive MBA candidates or experienced hires",
+        "Total first-year compensation typically $145-240K all-in",
+        "Compensation increases significantly with Institutional Investor, Extel, or StarMine rankings",
+        "Top-ranked senior analysts can earn $500K-$1M+ total compensation",
+        "Highly ranked analysts receive retention bonuses and deferred compensation",
+        "Free dinner when working late during earnings season (premium options)",
+        "Comprehensive platinum-level health, dental, vision insurance",
+        "401(k) with generous company match",
+        "Paid parental leave",
+        "Professional development support including CFA program, conferences, and industry certifications"
+      ],
+      dayInLife: {
+        overview: "Life as an Equity Research Analyst at Goldman Sachs offers intellectually stimulating work with better work-life balance than investment banking. Typical hours are 7:00am-7:00pm during normal periods, extending to 9-11pm during quarterly earnings seasons (4-6 weeks per quarter). The role emphasizes deep fundamental analysis, independent thinking, and clear investment communication. You'll develop recognized expertise in your coverage sector while building relationships with company management teams and sophisticated institutional investors. Work varies between earnings updates, thematic research, model maintenance, and client interaction. Culture emphasizes analytical excellence, intellectual rigor, and independent research. Expect intense periods during earnings balanced with time for deep-dive research projects and industry learning.",
+        schedule: [
+          {
+            time: "6:45 AM",
+            activity: "Morning Market & News Review",
+            description: "Arrive early to review overnight developments, pre-market trading in covered stocks, and global market movements. Scan Bloomberg, company press releases, industry publications, and competitor research. Identify any developments requiring immediate research response or client communication."
+          },
+          {
+            time: "7:45 AM",
+            activity: "Research Team Morning Meeting",
+            description: "Daily team meeting to discuss overnight market developments, upcoming earnings releases, research priorities, and client feedback on recent publications. Share insights from management meetings or industry calls. Coordinate on cross-sector themes and research initiatives."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Earnings Model Update",
+            description: "Update comprehensive financial model for covered company following quarterly earnings release. Revise revenue forecasts by segment, adjust margin assumptions based on management commentary, update DCF valuation and price target. Run detailed sensitivity analyses on key variables and assumptions."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Management Conference Call",
+            description: "Host one-on-one conference call with CFO and IR team of covered company to discuss strategic update and recent guidance revision. Ask detailed prepared questions about competitive dynamics, margin pressures, market share trends, and capital allocation priorities. Take comprehensive notes for research update."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Client Call with Long/Short Hedge Fund",
+            description: "Join senior analyst on call with major institutional investor (hedge fund PM) to discuss recent downgrade recommendation on covered stock. Present investment thesis, walk through detailed valuation framework, debate bull/bear scenarios, and answer pointed questions about variant perception. Defend analytical work rigorously."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Working Lunch & Research Reading",
+            description: "Lunch at desk while reading competitor research reports, industry white papers, and sell-side conference transcripts. Stay current on alternative investment viewpoints and emerging industry themes. Identify gaps in own analysis."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Research Report Writing",
+            description: "Draft comprehensive research note updating investment thesis following management call. Write executive summary with clear key takeaways, update business outlook section with new information, revise financial forecasts with supporting assumptions, and articulate investment implications clearly. Ensure Goldman's high editorial standards."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Industry Expert Network Call",
+            description: "Conduct expert call with former industry executive (via GLG or AlphaSights) to gather proprietary insights on competitive landscape, technology roadmaps, and market share dynamics. Ask probing questions to test investment assumptions and identify analytical blind spots."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Report Review with Senior Analyst",
+            description: "Present draft research report to team senior analyst for comprehensive review. Receive detailed feedback on thesis clarity, analytical rigor, supporting evidence quality, and risk factor identification. Discuss valuation methodology, price target justification, and rating rationale. Take extensive notes on required revisions."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Model Validation & Final Edits",
+            description: "Incorporate senior analyst feedback into research report comprehensively. Double-check all model calculations, verify data sources and citations, test formula links for errors, and ensure formatting consistency with Goldman standards. Prepare final report for compliance and editorial review."
+          },
+          {
+            time: "7:15 PM",
+            activity: "Evening Wrap-Up & Planning",
+            description: "Submit updated report to compliance and editorial for overnight review. Check after-hours trading and news flow for covered companies. Respond to outstanding client and sales team emails. Review calendar for tomorrow's management meetings and earnings releases. Plan research priorities for coming days. Head home around 7:30pm during normal periods. During earnings season, may work until 10-11pm completing multiple company updates."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" },
+        { companyName: "Wells Fargo", companySlug: "wells-fargo", industry: "Finance" }
+      ]
+    },
+    'sales-trading-analyst': {
+      roleDescription: "Sales & Trading Analysts at Goldman Sachs join the most prestigious and sophisticated trading operation on Wall Street. As part of Goldman's Global Markets division, you'll work on cutting-edge trading desks across equities, fixed income (rates, credit, mortgages), currencies, and commodities. The role splits between Sales (client coverage and trade execution for institutional investors) and Trading (market making, risk management, and strategic positioning). Goldman's trading platform is unmatched in scale, sophistication, and technology - you'll execute billions in daily volume, price complex derivatives, and serve the world's largest asset managers and hedge funds. Success requires exceptional quantitative skills, rapid decision-making under pressure, market intuition, and strong interpersonal abilities. Goldman traders and salespeople are known for being the sharpest minds in markets with pathways to elite hedge funds, prop trading firms, or senior leadership within Goldman.",
+      responsibilities: [
+        "Execute sophisticated trades for elite institutional clients (Tiger Cubs, Bridgewater, PIMCO) across multiple asset classes and geographies",
+        "Monitor real-time market dynamics across global markets, identify trading opportunities, and manage intraday risk exposures",
+        "Build and maintain advanced pricing models for complex securities, exotic derivatives, and structured products",
+        "Manage profit & loss (P&L) responsibility for assigned trading book or client portfolio with daily performance tracking",
+        "Develop and maintain deep relationships with premier institutional clients through market insights, trade ideas, and superior execution",
+        "Analyze market data, economic indicators, and news flow to inform trading decisions and provide actionable intelligence to clients",
+        "Collaborate seamlessly with research, structuring, quants, and technology teams to deliver innovative client solutions",
+        "Prepare sophisticated market commentary, trade recommendations, and risk analyses for internal teams and institutional clients",
+        "Support senior traders during high-volatility events (Fed announcements, geopolitical crises, major economic releases) requiring rapid response"
+      ],
+      growthOpportunities: [
+        "Promotion to Associate trader/salesperson with expanded P&L authority and client coverage within 2-3 years based on performance",
+        "Specialization in elite product areas: equities (derivatives, program trading, prime brokerage), FICC (rates, credit, structured products, FX, commodities)",
+        "Path to senior trader or sales roles with multi-million dollar P&L responsibility and significant profit sharing",
+        "Exposure to the most sophisticated global markets with potential for international rotations (London, Hong Kong, Tokyo)",
+        "Elite exit opportunities to top-tier hedge funds (Citadel, Millennium, Point72), proprietary trading firms (Jane Street, Optiver), or fintech leaders",
+        "Development of world-class skill set combining markets expertise, quantitative analysis, technology literacy, and client management",
+        "Access to Goldman's cutting-edge trading technology, algorithmic platforms, and quantitative research capabilities",
+        "Performance-based compensation with exceptional upside - top performers can earn $200K+ in year 1, multi-million dollar packages as senior traders"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screening & Quantitative Assessment",
+          description: "30-45 minute call with HR or junior desk member covering background, markets interest, and quantitative aptitude. Expect questions about market awareness ('What drove markets this week?'), why S&T over banking, understanding of different asset classes, and career goals. May include mental math questions (expected value, probability) to gauge quantitative comfort. Goldman seeks candidates who are genuinely passionate about markets and demonstrate strong analytical foundations.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "HireVue & Technical Assessment",
+          description: "Video interview and/or written assessment testing market knowledge, probability, and problem-solving under time pressure. Expect questions covering: market mechanics ('Explain how market makers profit from bid-ask spreads'), interest rate/bond pricing relationships, options basics, probability puzzles, and brainteasers. You may be asked to analyze recent market events, explain trading strategies, or discuss specific trades you'd execute. Interviewers assess market intuition, quantitative horsepower, and ability to think clearly under pressure.",
+          duration: "45-90 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday - Multiple Trading Desk Rounds",
+          description: "5-7 intensive back-to-back interviews with traders, salespeople, quants, and desk heads covering technical skills, market knowledge, cultural fit, and desk-specific expertise. Expect rigorous testing on: probability and statistics, market-making scenarios, derivative pricing, risk management frameworks, and current market views. Trading-focused interviews include: complex pricing exercises, P&L attribution analyses, hedging strategies. Sales-focused interviews emphasize: client communication, market commentary quality, relationship building skills. You'll be tested on speed, accuracy, composure under fire, and intellectual horsepower. Desk heads assess whether you can thrive in Goldman's ultra-competitive, high-performance trading environment.",
+          duration: "5-7 hours"
+        },
+        {
+          step: 4,
+          title: "Final Committee Decision & Offer",
+          description: "Senior trading leadership reviews comprehensive interview feedback with heavy emphasis on quantitative aptitude, markets passion, intellectual horsepower, and cultural fit. Goldman has the highest bar for S&T hiring on Street. Desk placement (equities vs. FICC, sales vs. trading vs. structuring) determined by interview performance, background, technical skills, and expressed preferences. Offers typically extended within 1-2 weeks including base salary ($90-120K), performance bonus structure, and desk assignment. Some desks may require additional technical assessments, case studies, or meetings with desk MDs before final offer."
+        }
+      ],
+      technicalQuestions: [
+        "You have a biased coin showing heads 60% of the time. You win $100 on heads, lose $50 on tails. What's the expected value? How much would you pay to play?",
+        "Explain precisely why bond prices fall when interest rates rise. Walk me through the duration mechanics.",
+        "What's the difference between a call option and a put option? Explain delta, gamma, vega, and theta.",
+        "You're market-making SPY with bid at $450.00 and offer at $450.10. A client wants to buy 100,000 shares. How do you price it and hedge your exposure?",
+        "Walk me through the factors that would cause a stock to gap up or down significantly at market open.",
+        "How would you hedge a $50M long equity position? What instruments would you use and why?",
+        "Explain the relationship between spot FX rates, forward rates, and interest rate differentials. Derive covered interest rate parity.",
+        "You flip a coin 100 times and observe 60 heads. Is the coin fair? What statistical test would you use to determine this?",
+        "What's the difference between implied volatility and realized volatility? How do traders exploit the volatility risk premium?",
+        "How do you value a currency forward contract? What factors determine the forward price relative to spot?",
+        "The S&P 500 is down 2% but your stock is up 1%. What does this tell you about the stock's characteristics?",
+        "Explain option Greeks (delta, gamma, vega, theta, rho) in detail. How would you use them to manage a derivatives portfolio?",
+        "The Fed just raised rates 50 bps unexpectedly. Walk me through the immediate impact on equities, bonds, FX, and commodities.",
+        "Explain the difference between market risk, credit risk, counterparty risk, and operational risk. How would you quantify each?",
+        "The 2-year Treasury yield rises above the 10-year yield (inverted curve). What does this signal? How would you trade it?",
+        "Walk me through calculating P&L on a $100M 10-year Treasury position if yields move 10 basis points. Consider convexity."
+      ],
+      behavioralQuestions: [
+        "Why sales and trading? Why Goldman Sachs specifically? Why not investment banking, hedge funds, or prop trading?",
+        "What interests you more - sales, trading, or structuring? Why? Which desk/product area fascinates you most?",
+        "Tell me about a time you had to make a high-stakes decision rapidly with incomplete information. What was your process?",
+        "What asset classes interest you most (equities, rates, credit, FX, commodities, derivatives)? Why? What have you studied?",
+        "How do you perform under extreme pressure and time constraints? Give me a specific example.",
+        "Walk me through what happened in markets this week. What caught your attention and why?",
+        "Describe a time you made a significant mistake or failed at something important. How did you respond?",
+        "What makes an exceptional trader? What about an exceptional salesperson? How do these skill sets differ?",
+        "How do you stay current on global markets, central bank policy, and macroeconomic developments?",
+        "Tell me about a time you used quantitative or analytical thinking to solve a complex problem.",
+        "If you could execute one trade right now across any market, what would it be and why? Walk me through your complete thesis.",
+        "Describe a highly competitive situation where you succeeded. What drove you and what did you learn?",
+        "How would you explain a complex derivative structure to a client without a quantitative background?",
+        "What's your view on current market conditions? Are you bullish or bearish and on what basis?",
+        "Tell me about a time you worked effectively in a team under intense pressure and tight deadlines.",
+        "Why Goldman's trading platform over JPMorgan, Citadel, or other elite trading operations?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional quantitative and analytical skills - mastery of probability, statistics, mental math, and logical reasoning",
+        "Genuine, deep passion for financial markets - follows markets obsessively, understands global macro, trades personally or in competitions",
+        "Rapid cognitive processing and ability to synthesize information instantly under extreme time pressure",
+        "Intense competitive drive and desire to win - often evidenced by competitive athletics, chess, poker, or gaming at high levels",
+        "Outstanding communication skills - ability to articulate complex ideas clearly, confidently, and persuasively",
+        "Emotional control and composure - can handle significant losses, volatile markets, and high-stress situations without tilting",
+        "Team player with collaborative mindset - Goldman trading desks require seamless coordination despite competitive dynamics",
+        "Market intuition and pattern recognition - ability to read price action, identify regime changes, and anticipate market movements",
+        "Risk awareness and disciplined decision-making - understands when to press advantage and when to cut losses decisively",
+        "Intellectual curiosity about market microstructure, price formation, and what drives flows across asset classes",
+        "Cultural fit with Goldman's high-performance trading environment - thrives on intensity, feedback, and meritocracy"
+      ],
+      interviewTips: [
+        "Follow global markets religiously for months before interviews - read Bloomberg, FT, WSJ, Barron's daily. Know what's moving markets globally.",
+        "Master probability, expected value, and mental math - practice coin flip problems, option payoffs, expected value calculations until instantaneous",
+        "Understand market mechanics deeply: bid/ask dynamics, market making economics, how liquidity providers profit, order flow, market impact",
+        "Prepare sophisticated market views across asset classes - have informed opinions on Fed policy, yield curves, equity valuations, FX dynamics, commodities with supporting analysis",
+        "Practice probability puzzles and brainteasers extensively - resources include Heard on the Street, Quant Interview Questions, Project Euler",
+        "Research different desks and products thoroughly - understand equities (cash, derivatives, prime), FICC (rates, credit, FX, commodities), structuring, electronic trading",
+        "Develop compelling narrative for why S&T over IB - emphasize real-time decision making, markets passion, quantitative orientation, competition",
+        "Show personality, confidence, and quick wit - Goldman trading floors value intellectual sharpness, humor under pressure, and ability to handle intense banter",
+        "Prepare detailed trade ideas across multiple asset classes with clear thesis, catalyst, entry/exit levels, hedging strategy, risk management",
+        "Understand Goldman's market position - flow trading leadership, derivative structuring capabilities, prime brokerage dominance, electronic platform",
+        "For sales roles: emphasize relationship skills, communication excellence, client service orientation, and market insight generation",
+        "For trading roles: emphasize analytical horsepower, risk management discipline, pattern recognition, and comfort with P&L volatility",
+        "Be ready to discuss recent market volatility deeply - FOMC decisions, geopolitical events, earnings surprises, commodity shocks, currency crises",
+        "Practice thinking out loud under pressure - interviewers want to see your thought process on complex probability and market questions",
+        "Show humility and learning orientation - trading is extraordinarily difficult and requires constant adaptation. Goldman values coachability."
+      ],
+      salary: {
+        min: 90000,
+        max: 120000
+      },
+      compensation: [
+        "Base salary: $90-120K for first-year analysts depending on desk, location, and background",
+        "Year-end performance bonus: $50-150K+ depending on individual performance, desk P&L contribution, and firm trading results",
+        "Total first-year compensation typically $150-270K all-in for strong performers",
+        "Compensation highly variable and performance-based - top performers significantly exceed ranges",
+        "Bonus directly tied to desk profitability, individual P&L contribution, and relative performance ranking",
+        "Senior traders and salespeople at Goldman earn $500K-$10M+ with significant P&L responsibility and profit sharing",
+        "Desk-specific perks vary - some desks have team dinners, competitive outings, performance trips",
+        "Comprehensive platinum-level health, dental, vision insurance",
+        "401(k) with generous company match",
+        "Paid time off (though difficult to use during volatile markets or critical trading periods)",
+        "Free breakfast, lunch, and snacks on trading floor",
+        "Access to Bloomberg terminal, proprietary analytics, and world-class trading technology",
+        "Retention bonuses and deferred compensation for top performers"
+      ],
+      dayInLife: {
+        overview: "Life as a Sales & Trading Analyst at Goldman Sachs is intensely demanding, intellectually stimulating, and performance-driven. Trading roles require very early mornings (6:00-6:30am arrival) to prepare for market open, continuous monitoring of global markets, and real-time risk management throughout the session. Sales roles focus on institutional client coverage, trade execution, and market intelligence distribution. Hours typically run 6:30am-6:00pm but extend during major volatility events or market dislocations. The environment is exceptionally high-energy with constant communication, split-second decisions, and immediate feedback via P&L. Culture is intensely meritocratic, competitive, and collaborative within desks. Work-life balance is better than investment banking but markets dictate schedule ruthlessly. Expect adrenaline rushes during major market moves, tight camaraderie with desk teammates, and continuous learning about global macro and market dynamics.",
+        schedule: [
+          {
+            time: "6:15 AM",
+            activity: "Pre-Market Prep & Global Review",
+            description: "Arrive very early to review overnight global market action (Asia, Europe), economic calendar, central bank communications, geopolitical developments, and news flow. Read overnight research from Goldman's global team and competitor analysis. Check futures, FX, commodities pre-market. Attend brief desk meeting to discuss global themes, key risk events, and trading strategy."
+          },
+          {
+            time: "7:00 AM",
+            activity: "Pre-Open Setup & Risk Review",
+            description: "Check overnight client orders and trading interest, review current risk positions across the book, and update pricing models with latest market data. Sales team prepares morning market color and trade ideas for client calls. Trading team reviews hedges, inventory levels, and position sizing for anticipated volatility."
+          },
+          {
+            time: "8:00 AM",
+            activity: "Morning Client Coverage (Sales)",
+            description: "Sales team conducts morning calls with top institutional clients (hedge fund PMs, asset managers) sharing Goldman's market views, discussing overnight developments, and presenting trade recommendations. Provide actionable intelligence and trading ideas based on Goldman research and desk views."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Market Open - Maximum Intensity",
+            description: "Markets open - period of peak activity, volatility, and execution. Execute complex client orders, dynamically adjust hedge positions, and monitor P&L tick-by-tick. Sales team coordinates trade execution and provides real-time market color to clients. Trading team manages risk, provides liquidity, and capitalizes on short-term dislocations. Communication is rapid-fire and decisions are instantaneous."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Mid-Morning Trading & Analysis",
+            description: "Continue active trading and position management. Analyze early session trends, flow patterns, and market sentiment. Salespeople follow up on executed trades and identify new opportunities. Traders assess P&L attribution, adjust exposures based on emerging themes, and communicate with other Goldman desks globally."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Desk Lunch (At Trading Stations)",
+            description: "Brief working lunch at desk - premium food provided on trading floor. Cannot leave during market hours. Discuss morning P&L, interesting trades, unusual flow patterns, and afternoon outlook with desk teammates while monitoring markets continuously."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Afternoon Trading Session",
+            description: "Continue trade execution and active risk management. Monitor for afternoon catalysts (economic data, Fed speakers, earnings releases, geopolitical events). Update pricing models and risk reports. Sales team prepares end-of-day market summaries and recaps for client distribution."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Major Market Event (Example: Fed Announcement)",
+            description: "FOMC rate decision and press conference - extreme volatility and trading activity. Rapid-fire decisions on positioning, hedge adjustments, and client communication. This is when S&T intensity peaks - fast markets demand instant action, clear thinking, and flawless execution. Team coordination is critical."
+          },
+          {
+            time: "3:45 PM",
+            activity: "Late Day Position Management",
+            description: "Prepare for market close - critical decisions on overnight position retention versus flattening book. Execute final client trades and fine-tune hedges. Traders assess whether to carry risk overnight based on global calendar and events. Sales team finalizes end-of-day client communications."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Market Close & P&L Attribution",
+            description: "Markets close - comprehensive P&L review with senior traders and desk management. Rigorous analysis of what worked, what didn't, key lessons, and opportunity identification. Discuss position composition, overnight risks, and strategy for tomorrow. Sales team debriefs on client feedback and pipeline."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Post-Market Analysis & Preparation",
+            description: "Read Goldman research, competitor analysis, and market commentary. Analyze day's trading patterns and price action. Update models with closing prices and review overnight risk exposures globally. Junior analysts may work on desk projects, analytics tools, or special initiatives."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Evening Wrap & Departure",
+            description: "Final check of global overnight positions and risk limits. Ensure all trades properly booked, reconciled, and risk-managed. Coordinate with London/Asia teams on overnight coverage if needed. Head out around 6-6:30pm during normal markets. Stay later during major events, volatility spikes, or critical deadlines. Monitor Bloomberg mobile overnight for significant market moves."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" },
+        { companyName: "Wells Fargo", companySlug: "wells-fargo", industry: "Finance" }
+      ]
     }
   },
   'jpmorgan': {
