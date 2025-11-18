@@ -1030,6 +1030,749 @@ export const rolePageContent = {
       ]
     }
   },
+  'morgan-stanley': {
+    'investment-banking-analyst': {
+      roleDescription: "Investment Banking Analysts at Morgan Stanley work at one of Wall Street's most prestigious institutions with a 90-year legacy in M&A advisory and capital markets. Known for balancing elite deal flow with a slightly better work-life balance than competitors, Morgan Stanley offers analysts the opportunity to work on landmark transactions while developing under the mentorship of industry-leading bankers. The firm is particularly strong in M&A advisory, technology coverage, and wealth management integration. Morgan Stanley's collaborative culture emphasizes teamwork and long-term career development, attracting candidates who want top-tier training without the extreme intensity of Goldman Sachs. Analysts gain exposure to Fortune 500 clients, complex cross-border deals, and diverse industry sectors from healthcare to fintech.",
+      responsibilities: [
+        "Build sophisticated financial models (DCF, LBO, M&A accretion/dilution) for multi-billion dollar transactions",
+        "Create detailed pitch books and client presentations adhering to Morgan Stanley's high visual and analytical standards",
+        "Conduct comprehensive industry research, competitive analysis, and company valuation using Bloomberg, CapIQ, and FactSet",
+        "Support live deal execution including due diligence coordination, management meetings, and transaction documentation",
+        "Participate in client presentations, IPO roadshows, and strategic advisory discussions",
+        "Prepare offering memoranda for equity and debt capital raises",
+        "Analyze financial statements, build operating models, and perform sensitivity analyses across multiple scenarios",
+        "Collaborate with ECM, DCM, and M&A product teams on integrated client solutions"
+      ],
+      growthOpportunities: [
+        "Promotion to Associate after 2-3 years with substantial compensation increase",
+        "Work on high-profile M&A deals and IPOs for leading global companies",
+        "Strong exit opportunities to top private equity firms (Blackstone, KKR, TPG) and hedge funds",
+        "Comprehensive training program with continued professional development",
+        "Access to Morgan Stanley's wealth management platform for client relationship insights",
+        "Global mobility across offices in New York, London, Hong Kong, San Francisco, and other major cities",
+        "Path to coverage or product groups based on interests and performance"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 4-5 pre-recorded video questions covering motivation, technical knowledge, and problem-solving. Questions assess 'Why Morgan Stanley?', accounting fundamentals, and behavioral scenarios. Prepare concise 2-3 minute responses demonstrating genuine interest in the firm's culture and recent deals. Practice on camera for professional delivery.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Superday - Technical Rounds",
+          description: "2-3 interviews with Associates, VPs, and Directors focusing on technical proficiency. Expect detailed questions on accounting principles, valuation methodologies (DCF, comps, LBO), and financial statement analysis. Interviewers assess both technical knowledge and ability to explain concepts clearly. Be prepared to discuss recent Morgan Stanley deals and market dynamics.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Superday - Fit and Culture",
+          description: "2-3 interviews with senior Managing Directors focusing on cultural fit, teamwork, and 'Why Morgan Stanley?'. MDs evaluate whether you align with the firm's values of collaboration and client service. Expect behavioral questions using STAR method and discussion of your interest in specific industry groups. Chemistry and interpersonal skills are critical.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Committee Review & Offer",
+          description: "Hiring committee reviews all interview feedback. Morgan Stanley values both technical excellence and cultural fit. Offers typically extended 1-2 weeks after Superday with details on base salary, signing bonus, stub bonus, and group placement. Acceptance deadline usually 1-2 weeks."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through a DCF model from beginning to end.",
+        "How are the three financial statements connected? Walk me through the links.",
+        "If a company issues $200M in debt, how do the three statements change?",
+        "What's the difference between enterprise value and equity value? How do you bridge them?",
+        "How do you calculate WACC? What drives changes in WACC?",
+        "Walk me through an LBO model. What makes a company a good LBO candidate?",
+        "If revenue increases by $100, walk me through the impact on all three statements.",
+        "How would you value a company with negative EBITDA?",
+        "Explain accretion/dilution in M&A. How do you analyze it?",
+        "If inventory increases by $75, what happens to the cash flow statement?",
+        "Why might a strategic buyer pay a higher multiple than a financial sponsor?",
+        "What are the different valuation methodologies and when do you use each?",
+        "How do you calculate unlevered free cash flow?",
+        "What assumptions in a DCF have the biggest impact on valuation?",
+        "Walk me through a merger model using stock consideration versus cash.",
+        "How would you value a high-growth tech company versus a mature industrial?",
+        "What's the relationship between WACC and valuation? Walk through the math.",
+        "If depreciation increases by $50, what happens to the three statements?"
+      ],
+      behavioralQuestions: [
+        "Why investment banking? Why Morgan Stanley specifically?",
+        "Tell me about a time you worked under pressure with tight deadlines.",
+        "Describe a situation where you had to learn something complex quickly.",
+        "Why are you interested in [specific coverage group]?",
+        "Tell me about a time you made a mistake and how you handled it.",
+        "Walk me through your resume and your key accomplishments.",
+        "Describe a time you worked on a team with conflicting viewpoints.",
+        "How do you prioritize multiple urgent tasks?",
+        "Tell me about a time you exceeded expectations.",
+        "What differentiates Morgan Stanley from Goldman Sachs and JPMorgan?",
+        "How do you stay informed about financial markets and deals?",
+        "Describe a leadership experience and what you learned.",
+        "What is your greatest weakness?",
+        "Where do you see yourself in 5-10 years?"
+      ],
+      whatTheyLookFor: [
+        "Strong technical foundation in accounting, finance, and valuation",
+        "Meticulous attention to detail with commitment to accuracy",
+        "Ability to work 80-100 hour weeks while maintaining quality",
+        "Intellectual curiosity and passion for learning about businesses",
+        "Excellent communication and presentation skills",
+        "Collaborative team player who values relationships",
+        "Genuine interest in Morgan Stanley's culture and client service philosophy",
+        "Professional maturity and poise with clients",
+        "Coachability and eagerness to receive feedback",
+        "Alignment with Morgan Stanley's values of excellence, diversity, and giving back"
+      ],
+      interviewTips: [
+        "Master technical fundamentals: practice DCF, LBO, and three-statement models until perfect",
+        "Research recent Morgan Stanley deals in your target group - know deal size, valuation, and strategic rationale",
+        "Read WSJ, FT, and Axios Pro Rata daily to discuss markets intelligently",
+        "Prepare 5+ specific reasons why Morgan Stanley over competitors - cite culture, deals, or training",
+        "Practice explaining technical concepts out loud simply and clearly",
+        "Prepare 8-10 STAR method stories demonstrating diverse skills and experiences",
+        "Research your interviewers on LinkedIn and reference their background naturally",
+        "Prepare thoughtful questions about group culture, deal pipeline, and career development",
+        "Be ready to discuss recent deals and market trends with informed opinions",
+        "Show enthusiasm and genuine interest - cultural fit matters as much as technical skills",
+        "Emphasize teamwork and humility - Morgan Stanley values collaboration",
+        "Understand Morgan Stanley's wealth management integration and how it differentiates the firm",
+        "Practice mental math for quick calculations during interviews",
+        "Review Morgan Stanley's recent earnings and strategic initiatives"
+      ],
+      salary: {
+        min: 110000,
+        max: 125000
+      },
+      compensation: [
+        "Base salary: $110-125K for first-year analysts",
+        "Year-end performance bonus: $55-95K depending on individual and group performance",
+        "Signing bonus: $15-30K for competitive candidates",
+        "Stub bonus for mid-year starts",
+        "Free dinner when working past 7pm",
+        "Car service when working past 9pm",
+        "Comprehensive health, dental, vision insurance",
+        "401(k) with company match",
+        "Wellness benefits and gym reimbursement",
+        "Total first-year compensation typically $180-250K all-in"
+      ],
+      dayInLife: {
+        overview: "Life as an Investment Banking Analyst at Morgan Stanley is demanding but offers slightly better work-life balance than Goldman Sachs while maintaining elite deal quality. Expect 80-95 hour weeks with occasional late nights and weekend work during active deals. The culture emphasizes teamwork, mentorship, and sustainable performance. You'll work on multiple projects simultaneously—live deals, pitches, and research—while developing deep technical skills and professional relationships.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Team Meeting",
+            description: "Meet with Associates and VPs to review active deals, discuss priorities, and assign new tasks. Review overnight market movements and client updates."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Financial Model Updates",
+            description: "Update DCF model for potential M&A target based on revised assumptions. Run sensitivity analyses on key drivers and check formulas for accuracy."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Working Lunch",
+            description: "Order lunch to desk while continuing work. Quick break with fellow analysts to discuss projects and decompress."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Pitch Book Development",
+            description: "Build PowerPoint slides for upcoming client presentation. Create market overview, comp analysis, and valuation summary pages with Morgan Stanley branding standards."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Client Call (Listen Mode)",
+            description: "Join call with client management team and senior bankers. Take detailed notes for follow-up materials and action items."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Review Session with Associate",
+            description: "Present draft materials for feedback. Receive comments on analysis, formatting, and additional work needed. Document changes clearly."
+          },
+          {
+            time: "7:00 PM",
+            activity: "Dinner Break",
+            description: "Order dinner using firm credit. Eat with team while discussing non-work topics to build camaraderie."
+          },
+          {
+            time: "8:00 PM",
+            activity: "Incorporate Feedback",
+            description: "Work through comments systematically. Update models, refine analyses, and polish presentation materials."
+          },
+          {
+            time: "10:30 PM",
+            activity: "Final Review & Send",
+            description: "Complete revisions and send materials to senior bankers. Prep for tomorrow's priorities."
+          },
+          {
+            time: "11:00 PM",
+            activity: "Head Home",
+            description: "Take car service home around 11pm-12am on typical nights. Earlier departures (9-10pm) more common at Morgan Stanley than Goldman. Later nights during active deal phases."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
+    }
+  },
+  'bank-of-america': {
+    'investment-banking-analyst': {
+      roleDescription: "Investment Banking Analysts at Bank of America work within BofA Securities, one of the world's largest investment banking platforms with deep capital markets capabilities and extensive client relationships. With the largest balance sheet on Wall Street and integrated commercial banking relationships, BofA analysts gain exposure to diverse transactions spanning M&A, equity and debt capital markets, and leveraged finance. The firm is known for strong training, collaborative culture, and solid work-life balance relative to Goldman and JPMorgan. BofA's platform provides access to unique deal flow through commercial banking relationships and a focus on building long-term client partnerships. Analysts develop technical excellence while working in a supportive environment that values diversity and inclusion.",
+      responsibilities: [
+        "Build complex financial models (DCF, LBO, accretion/dilution) for M&A and capital markets transactions",
+        "Create comprehensive pitch books and client presentations with BofA's professional standards",
+        "Conduct industry research, company analysis, and market studies using Bloomberg, CapIQ, and internal resources",
+        "Support transaction execution including due diligence, documentation, and closing processes",
+        "Participate in client meetings, management presentations, and deal negotiations",
+        "Prepare marketing materials for IPOs, high-yield offerings, and investment-grade debt",
+        "Analyze financial statements and build detailed operating models with sensitivity analyses",
+        "Collaborate across investment banking, commercial banking, and capital markets teams"
+      ],
+      growthOpportunities: [
+        "Promotion to Associate after 2-3 years with significant pay increase",
+        "Work on major M&A transactions and capital markets deals globally",
+        "Exit opportunities to private equity firms, hedge funds, and corporate development",
+        "Comprehensive analyst training program with ongoing professional development",
+        "Access to BofA's commercial banking platform for unique client insights",
+        "Global opportunities across offices in Charlotte, New York, London, Hong Kong",
+        "Strong internal mobility across coverage groups and products"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 video questions assessing motivation, technical knowledge, and cultural fit. Questions cover 'Why BofA?', basic accounting/finance, and behavioral scenarios. Prepare 2-3 minute responses with clear examples. Practice speaking confidently on camera.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Superday - Morning Interviews",
+          description: "2-3 interviews with Associates, VPs, and Directors covering technical topics. Expect accounting questions, valuation methods, and financial modeling concepts. Interviewers assess technical proficiency and communication ability. Be ready to discuss BofA deals and market trends.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Superday - Afternoon Interviews",
+          description: "2-3 interviews with Managing Directors focusing on fit, motivation, and cultural alignment. MDs evaluate teamwork, work ethic, and interest in investment banking. Expect behavioral questions and discussion of why BofA specifically. Demonstrate knowledge of the firm's values and culture.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Hiring committee reviews feedback. BofA values technical skills and cultural fit equally. Offers typically come 1-2 weeks after Superday with compensation details and group placement. Acceptance window usually 1-2 weeks."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through a DCF valuation.",
+        "How are the three financial statements linked?",
+        "If a company raises $150M in debt, walk me through the impact on the statements.",
+        "What's the difference between EV and equity value?",
+        "How do you calculate WACC?",
+        "Walk me through an LBO. What makes a good LBO target?",
+        "If revenue increases by $100, how do the statements change?",
+        "How would you value a company with negative earnings?",
+        "Explain M&A accretion/dilution analysis.",
+        "If accounts receivable increases by $60, what happens to cash flow?",
+        "Why might an acquirer pay a premium to market price?",
+        "What valuation methods would you use for different industries?",
+        "How do you calculate free cash flow?",
+        "What are the key assumptions in a DCF?",
+        "Walk me through a merger model with stock vs cash consideration.",
+        "How would you value a pre-revenue biotech company?",
+        "What's the relationship between discount rate and valuation?",
+        "If inventory decreases by $50, what happens to the statements?"
+      ],
+      behavioralQuestions: [
+        "Why investment banking? Why Bank of America?",
+        "Tell me about a time you managed multiple deadlines.",
+        "Describe a situation where you learned something complex quickly.",
+        "Why are you interested in [specific industry group]?",
+        "Tell me about a time you made a mistake and what you learned.",
+        "Walk me through your resume and highlight key achievements.",
+        "Describe a team experience with differing opinions.",
+        "How do you prioritize when you have competing urgent tasks?",
+        "Tell me about a time you went above and beyond.",
+        "What makes Bank of America different from other banks?",
+        "How do you stay current on markets and deals?",
+        "Describe a leadership experience.",
+        "What's your greatest weakness?",
+        "Where do you see yourself in 5 years?"
+      ],
+      whatTheyLookFor: [
+        "Strong technical skills in finance, accounting, and valuation",
+        "Attention to detail and commitment to quality",
+        "Ability to work long hours while maintaining performance",
+        "Intellectual curiosity and eagerness to learn",
+        "Strong communication and interpersonal skills",
+        "Team player who collaborates effectively",
+        "Interest in BofA's culture and client service approach",
+        "Professional maturity and poise",
+        "Coachability and openness to feedback",
+        "Alignment with BofA's values of diversity, inclusion, and responsibility"
+      ],
+      interviewTips: [
+        "Master core technical skills: practice building models and explaining concepts clearly",
+        "Research recent BofA Securities deals in your target group",
+        "Read financial news daily to discuss markets intelligently",
+        "Prepare specific reasons why BofA over competitors",
+        "Practice explaining technical topics simply",
+        "Prepare STAR stories demonstrating teamwork and problem-solving",
+        "Research interviewers on LinkedIn",
+        "Prepare questions about culture, deal flow, and training",
+        "Be ready to discuss recent transactions with informed views",
+        "Show genuine enthusiasm for BofA's platform and culture",
+        "Emphasize collaboration and humility",
+        "Understand BofA's commercial banking integration advantage",
+        "Practice mental math",
+        "Review BofA's recent earnings and strategic priorities"
+      ],
+      salary: {
+        min: 110000,
+        max: 125000
+      },
+      compensation: [
+        "Base salary: $110-125K for first-year analysts",
+        "Year-end bonus: $50-85K depending on performance",
+        "Signing bonus: $10-25K common",
+        "Stub bonus for mid-year starts",
+        "Dinner allowance when working past 7pm",
+        "Car service when working past 9pm",
+        "Comprehensive health benefits",
+        "401(k) with company match",
+        "Wellness programs and benefits",
+        "Total first-year comp typically $170-235K"
+      ],
+      dayInLife: {
+        overview: "Life as an analyst at Bank of America offers demanding work with better work-life balance than Goldman or JPMorgan. Expect 75-90 hour weeks with focus on efficiency and reasonable hours when possible. The culture emphasizes collaboration, training, and employee well-being. You'll work on diverse transactions while developing strong technical and professional skills.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Meeting",
+            description: "Review active deals and priorities with team. Discuss overnight developments and task assignments."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Model Development",
+            description: "Build or update financial models for client presentations. Focus on accuracy and clear assumptions."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "Order lunch while working or take short break with colleagues."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Presentation Creation",
+            description: "Develop pitch book slides with market analysis and valuation work."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Client Call",
+            description: "Listen to client discussions and take notes for follow-up."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Feedback Session",
+            description: "Review materials with senior bankers and receive comments."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Dinner",
+            description: "Order dinner around 7pm using firm allowance."
+          },
+          {
+            time: "7:30 PM",
+            activity: "Revisions",
+            description: "Incorporate feedback and finalize deliverables."
+          },
+          {
+            time: "10:00 PM",
+            activity: "Wrap Up",
+            description: "Send completed work and head home around 10-11pm on typical nights. BofA culture supports reasonable hours when possible."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
+    }
+  },
+  'citigroup': {
+    'investment-banking-analyst': {
+      roleDescription: "Investment Banking Analysts at Citigroup work within one of the most globally connected investment banking platforms, with unmatched presence in emerging markets and complex cross-border transactions. Citi's network spans nearly 100 countries, giving analysts unique exposure to international deals and diverse client relationships. The firm is particularly strong in emerging markets coverage, restructuring advisory, and debt capital markets. Citi's culture balances professional excellence with work-life considerations, offering analysts comprehensive training while working on sophisticated global transactions. The entrepreneurial environment allows analysts to take on significant responsibility early while developing specialized expertise in global finance.",
+      responsibilities: [
+        "Build financial models (DCF, LBO, M&A analysis) for complex international transactions",
+        "Create pitch materials and client presentations for global audiences",
+        "Conduct cross-border market research, industry analysis, and company valuations",
+        "Support deal execution across multiple jurisdictions and regulatory environments",
+        "Participate in international client meetings and management presentations",
+        "Prepare offering documents for global equity and debt transactions",
+        "Analyze financial statements across different accounting standards (US GAAP, IFRS)",
+        "Collaborate with Citi's global network of bankers and specialists"
+      ],
+      growthOpportunities: [
+        "Promotion to Associate after 2-3 years",
+        "Exposure to unique cross-border and emerging markets transactions",
+        "Exit opportunities to PE, hedge funds, and multinational corporations",
+        "Comprehensive training program with global perspective",
+        "Opportunity to work across Citi's international office network",
+        "Specialization in emerging markets, restructuring, or sector coverage",
+        "Access to Citi's global institutional platform"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete video questions on motivation, technical knowledge, and cultural fit. Questions assess 'Why Citi?', finance fundamentals, and global awareness. Prepare concise responses demonstrating interest in international markets.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Superday - Technical Assessment",
+          description: "2-3 interviews covering accounting, valuation, and financial modeling. Expect questions on cross-border considerations and emerging markets. Demonstrate technical proficiency and global perspective.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Superday - Fit and Culture",
+          description: "2-3 interviews with MDs focusing on cultural alignment and motivation. Discuss interest in global markets and Citi's platform. Behavioral questions assess teamwork and adaptability.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Offer",
+          description: "Committee review followed by offer 1-2 weeks post-Superday. Offers include compensation details and group placement."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through a DCF model.",
+        "How are the three statements connected?",
+        "If a company issues debt, walk me through the impact.",
+        "What's the difference between EV and equity value?",
+        "How do you calculate WACC?",
+        "Walk me through an LBO model.",
+        "If revenue increases, how do statements change?",
+        "How would you value an emerging markets company?",
+        "Explain M&A accretion/dilution.",
+        "How do currency fluctuations affect valuation?",
+        "What's the difference between US GAAP and IFRS?",
+        "How do you adjust valuations for country risk?",
+        "What valuation methods work best for different industries?",
+        "How do you calculate free cash flow?",
+        "What are key DCF assumptions?",
+        "How do you value a company in a volatile market?",
+        "Explain sovereign risk in emerging markets M&A.",
+        "How do you handle foreign exchange in financial models?"
+      ],
+      behavioralQuestions: [
+        "Why investment banking? Why Citigroup?",
+        "Tell me about a time you worked on a global or diverse team.",
+        "Describe handling a project with ambiguous requirements.",
+        "Why are you interested in [emerging markets/specific region]?",
+        "Tell me about overcoming a significant challenge.",
+        "Walk me through your background and achievements.",
+        "Describe navigating conflicting priorities.",
+        "How do you approach unfamiliar situations?",
+        "Tell me about exceeding expectations.",
+        "What differentiates Citi from other banks?",
+        "How do you stay informed about global markets?",
+        "Describe a leadership experience.",
+        "What's your greatest weakness?",
+        "Where do you see yourself long-term?"
+      ],
+      whatTheyLookFor: [
+        "Strong technical foundation in finance and accounting",
+        "Interest in global markets and cross-border transactions",
+        "Attention to detail and analytical rigor",
+        "Ability to work in fast-paced, dynamic environment",
+        "Strong communication skills across cultures",
+        "Team player with collaborative mindset",
+        "Intellectual curiosity about international business",
+        "Professional maturity and adaptability",
+        "Openness to feedback and learning",
+        "Alignment with Citi's global mission and values"
+      ],
+      interviewTips: [
+        "Master technical fundamentals thoroughly",
+        "Research Citi's emerging markets deals and global platform",
+        "Read international business news and understand global market dynamics",
+        "Prepare reasons why Citi's global network appeals to you",
+        "Practice explaining concepts clearly",
+        "Develop STAR stories showing adaptability and global perspective",
+        "Research interviewers' backgrounds",
+        "Prepare questions about international opportunities",
+        "Demonstrate knowledge of cross-border transactions",
+        "Show enthusiasm for Citi's global platform",
+        "Emphasize teamwork and cultural awareness",
+        "Understand Citi's restructuring and emerging markets strengths",
+        "Practice mental math",
+        "Review Citi's global presence and recent strategic moves"
+      ],
+      salary: {
+        min: 110000,
+        max: 125000
+      },
+      compensation: [
+        "Base salary: $110-125K",
+        "Year-end bonus: $50-80K",
+        "Signing bonus: $10-20K typical",
+        "Stub bonus for mid-year starts",
+        "Meal allowances for late work",
+        "Transportation benefits",
+        "Comprehensive benefits package",
+        "401(k) matching",
+        "Wellness programs",
+        "Total comp ~$170-225K first year"
+      ],
+      dayInLife: {
+        overview: "Analyst life at Citi combines challenging work with reasonable work-life balance. Expect 75-90 hour weeks with focus on global transactions and emerging markets exposure. Culture emphasizes efficiency, collaboration, and professional development.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Meeting",
+            description: "Review deals and priorities, including international time zone considerations."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Financial Modeling",
+            description: "Build models for cross-border transactions with currency and regulatory considerations."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Working lunch while managing deliverables."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Pitch Development",
+            description: "Create presentations for international clients."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Global Client Call",
+            description: "Join calls across time zones with international teams."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Review Session",
+            description: "Present work for feedback and refinement."
+          },
+          {
+            time: "7:00 PM",
+            activity: "Dinner",
+            description: "Dinner break around 7pm."
+          },
+          {
+            time: "8:00 PM",
+            activity: "Incorporate Feedback",
+            description: "Refine materials based on comments."
+          },
+          {
+            time: "10:00 PM",
+            activity: "Wrap Up",
+            description: "Complete deliverables and coordinate with international offices. Head home around 10-11pm typically."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" }
+      ]
+    }
+  },
+  'wells-fargo': {
+    'investment-banking-analyst': {
+      roleDescription: "Investment Banking Analysts at Wells Fargo work within one of the largest diversified financial services companies, with particular strength in middle-market M&A, industry-focused coverage, and leveraged finance. Wells Fargo offers analysts a more entrepreneurial environment with earlier client exposure and significant responsibility compared to bulge bracket peers. The firm is known for exceptional training, supportive culture, and strong work-life balance while still providing access to meaningful transactions. With deep roots in commercial banking and strong West Coast presence, Wells Fargo analysts work on diverse deals across technology, healthcare, energy, and financial services sectors. The platform emphasizes long-term client relationships and practical deal execution.",
+      responsibilities: [
+        "Build financial models (DCF, LBO, M&A) for middle-market and large-cap transactions",
+        "Create client presentations and pitch materials with focus on practical insights",
+        "Conduct industry research, market analysis, and company valuations",
+        "Support deal execution from pitch through closing",
+        "Participate actively in client meetings and management discussions",
+        "Prepare materials for debt and equity financings",
+        "Analyze financial statements and build operating projections",
+        "Collaborate with commercial banking and lending teams"
+      ],
+      growthOpportunities: [
+        "Promotion to Associate after 2-3 years",
+        "Earlier client exposure than typical bulge bracket roles",
+        "Exit opportunities to middle-market PE, corporate development, and hedge funds",
+        "Comprehensive training program with hands-on learning",
+        "Access to Wells Fargo's commercial banking relationships",
+        "Strong presence in key markets including San Francisco, Charlotte, New York",
+        "Opportunity to develop specialized sector expertise"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone or Video Screen",
+          description: "Initial conversation covering background, motivation, and basic technical knowledge. Discuss interest in Wells Fargo's platform and culture. Expect 'Why investment banking?' and 'Why Wells Fargo?'",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Superday - Technical Rounds",
+          description: "2-3 interviews covering accounting, finance, and valuation. Questions focus on fundamentals and practical application. Interviewers assess technical competence and communication.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Superday - Culture Fit",
+          description: "2-3 interviews with senior bankers focusing on teamwork, work ethic, and cultural alignment. Behavioral questions using STAR method. Discussion of interest in middle-market banking.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Offer",
+          description: "Decision typically within 1-2 weeks. Offers include compensation and group placement details."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through a DCF.",
+        "How are the statements linked?",
+        "If a company issues debt, what happens to the statements?",
+        "What's EV versus equity value?",
+        "How do you calculate WACC?",
+        "Walk me through an LBO.",
+        "If revenue grows, how do statements change?",
+        "How do you value a middle-market company?",
+        "Explain M&A accretion/dilution.",
+        "How does working capital affect cash flow?",
+        "What makes a good acquisition target?",
+        "What valuation methods do you use?",
+        "How do you calculate free cash flow?",
+        "What are key DCF drivers?",
+        "How do you think about valuation in different sectors?",
+        "How do you adjust for industry-specific factors?",
+        "What's the impact of leverage on returns?",
+        "How do you evaluate credit risk?"
+      ],
+      behavioralQuestions: [
+        "Why investment banking? Why Wells Fargo?",
+        "Tell me about managing tight deadlines.",
+        "Describe learning something new quickly.",
+        "Why this industry group?",
+        "Tell me about a mistake and what you learned.",
+        "Walk me through your background.",
+        "Describe working with a difficult team member.",
+        "How do you prioritize tasks?",
+        "Tell me about exceeding expectations.",
+        "What makes Wells Fargo different?",
+        "How do you stay informed about markets?",
+        "Describe a leadership role.",
+        "What's your weakness?",
+        "Where do you see yourself in 5 years?"
+      ],
+      whatTheyLookFor: [
+        "Strong technical skills in finance and accounting",
+        "Entrepreneurial mindset and initiative",
+        "Attention to detail and quality orientation",
+        "Strong work ethic with reasonable hours expectations",
+        "Excellent communication skills",
+        "Team player who collaborates well",
+        "Interest in middle-market and client relationships",
+        "Professional maturity",
+        "Coachability and growth mindset",
+        "Alignment with Wells Fargo's values and culture"
+      ],
+      interviewTips: [
+        "Master technical fundamentals",
+        "Research Wells Fargo's middle-market deals",
+        "Read financial news regularly",
+        "Prepare specific reasons for Wells Fargo",
+        "Practice clear explanations",
+        "Develop STAR stories",
+        "Research interviewers",
+        "Prepare thoughtful questions",
+        "Show interest in entrepreneurial culture",
+        "Emphasize teamwork",
+        "Understand Wells Fargo's commercial banking strengths",
+        "Demonstrate sector knowledge",
+        "Practice calculations",
+        "Know Wells Fargo's strategic focus"
+      ],
+      salary: {
+        min: 100000,
+        max: 120000
+      },
+      compensation: [
+        "Base salary: $100-120K",
+        "Year-end bonus: $45-75K",
+        "Signing bonus: $10-20K",
+        "Meal allowances",
+        "Transportation benefits",
+        "Health benefits",
+        "401(k) match",
+        "Total comp ~$155-215K"
+      ],
+      dayInLife: {
+        overview: "Analyst life at Wells Fargo offers solid deal experience with better work-life balance than traditional bulge bracket banks. Expect 70-85 hour weeks with emphasis on efficiency and reasonable hours. Culture is collegial and supportive.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Meeting",
+            description: "Review active deals and daily priorities."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Model Work",
+            description: "Build and update financial models."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break or working lunch."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Pitch Preparation",
+            description: "Develop client presentations."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Client Meeting",
+            description: "Join client discussions."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Feedback Review",
+            description: "Review work with seniors."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Dinner",
+            description: "Dinner break."
+          },
+          {
+            time: "7:30 PM",
+            activity: "Finalize Work",
+            description: "Complete deliverables."
+          },
+          {
+            time: "9:00 PM",
+            activity: "Head Home",
+            description: "Finish around 9-10pm typically. Wells Fargo emphasizes reasonable hours."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" }
+      ]
+    }
+  },
   'mckinsey': {
     'management-consultant': {
       roleDescription: "Management Consultants at McKinsey & Company solve complex business problems for the world's leading organizations. You'll work on diverse projects across industries, conducting research, analyzing data, and developing strategic recommendations. This role offers rapid skill development, global exposure, and a powerful professional network.",
