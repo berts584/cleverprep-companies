@@ -4,6 +4,9 @@ export const metadata = {
   title: 'CleverPrep - AI-Powered Interview Preparation in 10 Minutes',
   description: 'Get a complete, customized interview prep package with company intelligence, practice questions, and strategic talking points. Personalized to your background and ready in under 10 minutes.',
   keywords: 'interview preparation, job interview, interview questions, career coaching, interview prep, AI interview prep',
+  alternates: {
+    canonical: 'https://cleverprep.com',
+  },
   openGraph: {
     title: 'CleverPrep - Interview Prep That\'s Actually Personal',
     description: 'Upload your resume and job description. Get personalized interview questions, company insights, and strategic talking points.',
@@ -14,7 +17,15 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'CleverPrep - AI Interview Preparation',
     description: 'Interview prep that\'s actually personal. Ready in less than 10 minutes.',
-  }
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 export default function Home() {

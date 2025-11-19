@@ -370,15 +370,29 @@ export async function generateMetadata({ params }) {
     return { title: 'Company Not Found' }
   }
 
+  const canonicalUrl = `https://cleverprep.com/companies/${resolvedParams.slug}`
+
   return {
     title: `${company.name} Interview Prep | CleverPrep Companies`,
     description: company.description + ` Learn about ${company.name}'s interview process, common questions, and what they look for in candidates.`,
     keywords: `${company.name} interview, ${company.name} interview questions, ${company.name} interview prep, ${company.name} interview process, ${company.industry} interviews`,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: `${company.name} Interview Prep | CleverPrep Companies`,
       description: `Ace your ${company.name} interview with our comprehensive prep guide. $59 for personalized coaching.`,
       type: 'website',
-    }
+      url: canonicalUrl,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+      },
+    },
   }
 }
 

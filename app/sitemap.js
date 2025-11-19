@@ -44,44 +44,33 @@ export default function sitemap() {
     },
   ]
   
-  // Get unique industries
-  const industries = [...new Set(Object.values(companies).map(c => c.industry))]
-  
-  // Add industry pages
-  const industryRoutes = industries.map((industry) => ({
-    url: `${baseUrl}/companies/${encodeUrlSafe(industry)}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 0.8,
-  }))
-  
   // Add ALL 151 company pages (all have content)
   const companyRoutes = Object.keys(companies).map((slug) => ({
-    url: `${baseUrl}/companies/${encodeURIComponent(slug)}`,
+    url: `${baseUrl}/companies/${slug}`,
     lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.7,
   }))
-  
+
   // Add role pages ONLY for companies with generated content
   const roleRoutes = []
-  
+
   companiesWithRoleContent.forEach((companySlug) => {
     const company = companies[companySlug]
     if (!company) return // Skip if company doesn't exist
-    
+
     // Get relevant roles for this company's industry
     const relevantRoles = getRolesForCompany(company.industry)
-    
+
     relevantRoles.forEach((roleSlug) => {
       roleRoutes.push({
-        url: `${baseUrl}/companies/${encodeURIComponent(companySlug)}/${encodeURIComponent(roleSlug)}`,
+        url: `${baseUrl}/companies/${companySlug}/${roleSlug}`,
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.8,
       })
     })
   })
-  
-  return [...routes, ...industryRoutes, ...companyRoutes, ...roleRoutes]
+
+  return [...routes, ...companyRoutes, ...roleRoutes]
 }
