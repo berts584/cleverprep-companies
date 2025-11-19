@@ -125,6 +125,81 @@ export const roles = {
     },
     industries: ['Finance', 'Investment Banking']
   },
+  'investment-banking-associate': {
+    name: 'Investment Banking Associate',
+    description: 'Lead execution of M&A transactions, IPOs, and capital markets deals while managing analyst teams and building client relationships. Combine technical expertise with strategic advisory and people management.',
+    focusAreas: [
+      'Deal execution and leadership',
+      'Advanced financial modeling',
+      'Team management and mentorship',
+      'Client relationship management',
+      'Strategic advisory'
+    ],
+    keySkills: [
+      'Advanced financial modeling and valuation',
+      'Leadership and team management',
+      'Client presentation and communication',
+      'Deal structuring and negotiation',
+      'Strategic thinking',
+      'Work ethic and judgment'
+    ],
+    salaryRange: {
+      min: 150000,
+      max: 200000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Investment Banking']
+  },
+  'equity-research-analyst': {
+    name: 'Equity Research Analyst',
+    description: 'Provide independent investment analysis and recommendations on publicly traded companies. Build financial models, publish research reports, and serve institutional investors with sector expertise.',
+    focusAreas: [
+      'Financial modeling and valuation',
+      'Investment research and analysis',
+      'Report writing and communication',
+      'Sector and industry expertise',
+      'Client interaction'
+    ],
+    keySkills: [
+      'Financial modeling and DCF analysis',
+      'Equity valuation methodologies',
+      'Research and analytical writing',
+      'Stock pitch development',
+      'Accounting and financial statements',
+      'Sector knowledge and trends'
+    ],
+    salaryRange: {
+      min: 85000,
+      max: 130000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Investment Banking']
+  },
+  'sales-trading-analyst': {
+    name: 'Sales & Trading Analyst',
+    description: 'Execute trades and serve institutional clients across equities, fixed income, currencies, and commodities. Combine quantitative skills, market knowledge, and quick decision-making in fast-paced trading environment.',
+    focusAreas: [
+      'Trade execution and pricing',
+      'Market analysis and risk management',
+      'Client relationship management',
+      'Quantitative analysis',
+      'Real-time decision making'
+    ],
+    keySkills: [
+      'Quantitative and analytical skills',
+      'Market knowledge and intuition',
+      'Probability and statistics',
+      'Risk management',
+      'Communication and client service',
+      'Composure under pressure'
+    ],
+    salaryRange: {
+      min: 85000,
+      max: 120000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Investment Banking']
+  },
   'management-consultant': {
     name: 'Management Consultant',
     description: 'Advise organizations on strategy, operations, and organizational transformation. Analyze complex business problems, develop recommendations, and support implementation of solutions across various industries.',
@@ -305,9 +380,9 @@ export const roles = {
 // Mapping of which roles are relevant for which industries
 export const rolesByIndustry = {
   'Technology': ['software-engineer', 'product-manager', 'data-scientist', 'business-analyst', 'marketing-manager', 'engineering-manager', 'machine-learning-engineer', 'devops-engineer', 'security-engineer', 'technical-program-manager'],
-  'Finance': ['software-engineer', 'data-scientist', 'business-analyst', 'investment-banking-analyst'],
+  'Finance': ['software-engineer', 'data-scientist', 'business-analyst', 'investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst'],
   'Consulting': ['management-consultant', 'business-analyst', 'data-scientist'],
-  'Investment Banking': ['investment-banking-analyst', 'business-analyst'],
+  'Investment Banking': ['investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'business-analyst'],
   'Healthcare': ['software-engineer', 'data-scientist', 'business-analyst'],
   'E-commerce': ['software-engineer', 'product-manager', 'data-scientist', 'marketing-manager'],
   'Consumer Goods': ['marketing-manager', 'business-analyst', 'data-scientist'],
