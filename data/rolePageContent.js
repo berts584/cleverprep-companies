@@ -2251,6 +2251,564 @@ export const rolePageContent = {
         { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
         { companyName: "American Express", companySlug: "american-express", industry: "Finance" }
       ]
+    },
+    'credit-analyst': {
+      roleDescription: "Credit Analysts at JPMorgan Chase assess the creditworthiness of corporations, financial institutions, and sovereign entities to support lending decisions, bond underwriting, and portfolio risk management. Working within Commercial Banking, Corporate & Investment Bank (CIB), or Asset Management, you'll analyze financial statements, industry trends, and macroeconomic factors to evaluate credit risk and assign ratings. The role combines quantitative analysis with qualitative judgment, requiring deep understanding of financial modeling, accounting, and business fundamentals. JPMorgan's scale provides exposure to diverse credit portfolios spanning middle-market companies to Fortune 100 enterprises across all industries. Credit Analysts play a critical role in protecting the firm's balance sheet while enabling lending that drives economic growth.",
+      responsibilities: [
+        "Analyze financial statements (balance sheet, income statement, cash flow) to assess debt servicing capacity and financial health",
+        "Build detailed credit models incorporating historical financials, projections, leverage ratios, and covenant compliance",
+        "Conduct industry research to understand competitive dynamics, regulatory environment, and cyclical factors affecting creditworthiness",
+        "Prepare credit memos and rating recommendations for credit committees outlining risk assessment and lending terms",
+        "Monitor existing credit exposures through quarterly reviews, covenant testing, and early warning indicator tracking",
+        "Participate in client meetings and management calls to understand business strategy and risk factors",
+        "Collaborate with relationship managers, product specialists, and risk management to structure appropriate lending solutions",
+        "Analyze collateral quality and recovery scenarios in stressed situations",
+        "Stay current on market conditions, credit spreads, and rating agency methodologies"
+      ],
+      growthOpportunities: [
+        "Clear progression path from Analyst to Associate to VP with increasing responsibility and deal complexity",
+        "Exposure to diverse industries and credit situations from investment-grade corporates to distressed situations",
+        "Opportunity to specialize in specific industries (healthcare, energy, technology) or credit products (leveraged finance, structured credit)",
+        "Strong exit opportunities to private credit funds, credit hedge funds, rating agencies, or corporate treasury roles",
+        "Access to formal credit training programs covering financial analysis, covenant structuring, and risk assessment",
+        "Potential rotation across commercial banking, investment grade coverage, and leveraged finance teams",
+        "Develop portable skills in financial analysis, risk assessment, and credit structuring valued across finance"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded questions assessing motivation, basic financial knowledge, and analytical thinking. Expect questions like 'Why credit analysis?', 'Walk me through how you'd assess a company's credit quality', and situational judgment scenarios. Demonstrate structured thinking and genuine interest in credit markets.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview with Team Member",
+          description: "45-60 minute conversation with Credit Analyst or Associate covering technical accounting concepts, credit fundamentals, and resume discussion. Expect questions on financial statement analysis, key credit metrics (leverage ratios, coverage ratios), and how you'd approach evaluating a company's creditworthiness. Discuss your analytical projects and interest in credit.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "3-4 rounds with Credit Analysts, Associates, VPs, and potentially Directors. Mix of technical deep-dives (accounting, credit analysis, covenant structures) and behavioral questions. May include case study: 'Given these financials, would you lend to this company and at what terms?' Demonstrate analytical rigor, attention to detail, and communication skills.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Hiring team reviews feedback on technical ability, cultural fit, and analytical horsepower. Offers typically extended within 1-2 weeks with details on base salary, bonus structure, and team placement. You'll have 1-2 weeks to decide."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through how you'd assess the creditworthiness of a company.",
+        "What are the key metrics you'd look at to evaluate credit risk?",
+        "Explain the difference between secured and unsecured debt.",
+        "How do you calculate debt service coverage ratio (DSCR) and what does it tell you?",
+        "Walk me through the three financial statements and which is most important for credit analysis.",
+        "What's the difference between cash flow and EBITDA? Which matters more for credit?",
+        "How would you analyze a company in a cyclical industry like automotive or energy?",
+        "Explain what a debt covenant is and give examples of common covenants.",
+        "If a company has declining EBITDA but growing revenue, what might be happening?",
+        "How do you calculate net leverage ratio? What's an acceptable level?",
+        "What's the difference between investment grade and high yield bonds?",
+        "How would rising interest rates affect a company's creditworthiness?",
+        "Walk me through how you'd analyze a company's liquidity position.",
+        "What factors would make you recommend tightening lending terms to an existing client?",
+        "How do you assess recovery value in a default scenario?",
+        "Explain the Z-score (Altman Z-score) and what it measures.",
+        "What's the difference between a term loan and a revolver?",
+        "How would you evaluate credit risk for a private company with limited disclosure?"
+      ],
+      behavioralQuestions: [
+        "Why credit analysis? Why JPMorgan Chase?",
+        "Tell me about a time you had to analyze complex financial data and draw conclusions.",
+        "Describe a situation where you identified a risk that others missed.",
+        "How do you approach learning about a new industry you're not familiar with?",
+        "Tell me about a time you had to make a recommendation with incomplete information.",
+        "Describe your experience with financial modeling or data analysis.",
+        "How would you handle a situation where your credit recommendation differs from the relationship manager's view?",
+        "Tell me about a time you had to explain complex analysis to a non-technical audience.",
+        "Describe a situation where you had to balance multiple priorities and tight deadlines.",
+        "What interests you most about credit markets and lending?",
+        "How do you stay informed about market conditions and economic trends?",
+        "Tell me about a time you found an error in financial analysis. How did you handle it?",
+        "Describe your experience working in teams on analytical projects.",
+        "What do you think are the biggest risks facing corporate borrowers today?"
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in accounting and financial statement analysis",
+        "Analytical mindset with attention to detail and accuracy in quantitative work",
+        "Ability to synthesize financial data, industry trends, and qualitative factors into credit judgments",
+        "Intellectual curiosity about businesses, industries, and how companies generate cash flow",
+        "Clear communication skills to articulate credit risks and recommendations",
+        "Sound judgment and ability to identify key risks in lending situations",
+        "Comfort with ambiguity and making recommendations with imperfect information",
+        "Team collaboration skills and ability to work with relationship managers and senior credit officers",
+        "Professional maturity and credibility when discussing credit with experienced bankers",
+        "Interest in credit markets, fixed income, and macroeconomic trends"
+      ],
+      interviewTips: [
+        "Master core credit concepts: leverage ratios (Net Debt/EBITDA, Total Debt/Equity), coverage ratios (EBITDA/Interest, DSCR), liquidity metrics",
+        "Review accounting fundamentals: three statement relationships, working capital, depreciation, capitalization vs expense",
+        "Practice analyzing real company financials - pick 2-3 public companies and walk through credit assessment",
+        "Understand common debt structures: term loans, revolvers, bonds, secured vs unsecured, senior vs subordinated",
+        "Read JPMorgan's credit research and understand their approach to credit analysis and risk assessment",
+        "Prepare specific examples demonstrating analytical skills, attention to detail, and sound judgment",
+        "Research current credit market conditions: spreads, default rates, sectors under stress",
+        "Know basic covenant types: maintenance covenants (leverage, coverage) vs incurrence covenants",
+        "Understand the credit cycle and how economic conditions affect credit risk",
+        "Prepare thoughtful questions about team structure, industry coverage, deal flow, and training programs",
+        "Be ready to discuss why credit analysis vs investment banking, equity research, or other finance roles",
+        "Demonstrate interest in specific industries by discussing recent trends, key players, and risk factors",
+        "Show understanding of JPMorgan's credit business: commercial banking, leveraged finance, investment grade coverage",
+        "Practice explaining your analytical process clearly - credit is about communication as much as analysis"
+      ],
+      salary: {
+        min: 85000,
+        max: 100000
+      },
+      compensation: [
+        "Base salary: $85-100K for credit analysts depending on experience and location",
+        "Annual performance bonus: $15-35K based on individual and firm performance",
+        "Signing bonus: $5-15K for competitive candidates",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with 5% company match",
+        "Tuition reimbursement for relevant graduate degrees or certifications (CFA, MBA)",
+        "Professional development budget for credit training and industry conferences",
+        "16 weeks paid parental leave",
+        "Commuter benefits and wellness programs",
+        "Total first-year compensation typically $105-150K all-in"
+      ],
+      dayInLife: {
+        overview: "Credit Analysts at JPMorgan enjoy intellectually rigorous work analyzing diverse companies and industries with reasonable work-life balance. Typical hours are 8:30am-6:30pm with occasional late nights during busy periods (quarter-end, credit committee cycles). The work balances independent financial analysis with collaboration across relationship managers, risk teams, and senior credit officers. You'll develop deep expertise in financial analysis while building business judgment about credit risk. Culture values analytical rigor, sound judgment, and clear communication. Better work-life balance than investment banking while still offering strong compensation and career progression.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Review",
+            description: "Check emails, review overnight news on portfolio companies. Scan Bloomberg for credit market updates, rating agency actions, and relevant industry news. Prioritize day's tasks."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Financial Modeling",
+            description: "Build credit model for new borrower evaluation. Input historical financials, create projections based on management guidance and industry analysis. Calculate key credit metrics: leverage ratios, coverage ratios, free cash flow generation."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Team Credit Discussion",
+            description: "Meet with Associate and VP to discuss preliminary credit analysis. Present initial findings, discuss risk factors, debate appropriate credit rating and lending terms. Receive feedback on analysis and additional items to investigate."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "Grab lunch with colleagues or attend credit training session. Discuss interesting credits, market trends, or recent deals."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Industry Research",
+            description: "Research healthcare services industry for upcoming credit. Read analyst reports, understand regulatory dynamics, review competitive landscape. Analyze how industry trends affect borrower's credit profile."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Client Management Call",
+            description: "Listen in on quarterly review call with CFO. Take detailed notes on business performance, strategic initiatives, capex plans, and debt management strategy. Assess any changes to credit risk."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Credit Memo Writing",
+            description: "Draft credit memorandum documenting analysis, risk assessment, and lending recommendation. Structure memo covering business overview, financial analysis, industry dynamics, risk factors, mitigants, and proposed terms."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Portfolio Monitoring",
+            description: "Review quarterly financial statements from existing borrowers. Update covenant compliance tracking, check for early warning indicators, note any deteriorating metrics requiring closer monitoring."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Respond to final emails, update project tracker, prepare materials for tomorrow's credit committee. Head home with reasonable hours most days. Occasional late nights during busy periods but much better balance than investment banking."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Wells Fargo", companySlug: "wells-fargo", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
+    },
+    'operations-analyst': {
+      roleDescription: "Operations Analysts at JPMorgan Chase ensure the smooth functioning of critical business processes across trading, payments, lending, and client service operations. Working in areas like Trade Operations, Payment Operations, Securities Services, or Loan Operations, you'll be responsible for transaction processing, reconciliation, exception management, and process improvement. The role combines analytical problem-solving with process optimization, requiring attention to detail, strong systems knowledge, and ability to work under tight deadlines. JPMorgan processes trillions of dollars in transactions daily, making operational excellence mission-critical. Operations Analysts play a vital role in ensuring accuracy, efficiency, regulatory compliance, and exceptional client service while identifying opportunities to streamline workflows and reduce risk.",
+      responsibilities: [
+        "Process and settle financial transactions including securities trades, payment instructions, and loan fundings with accuracy and timeliness",
+        "Perform daily reconciliations between internal systems and external counterparties to identify and resolve breaks",
+        "Investigate and resolve operational exceptions, trade failures, payment delays, and client inquiries",
+        "Monitor transaction queues and workflow systems to ensure service level agreements (SLAs) are met",
+        "Collaborate with trading desks, client service teams, and technology to troubleshoot issues and improve processes",
+        "Maintain control frameworks and ensure compliance with regulatory requirements (SOX, AML, KYC)",
+        "Generate reports and metrics on operational performance, error rates, and process efficiency",
+        "Participate in process improvement initiatives and automation projects to increase efficiency and reduce manual work",
+        "Support month-end, quarter-end, and year-end close processes with additional reconciliations and reporting"
+      ],
+      growthOpportunities: [
+        "Clear career progression from Operations Analyst to Senior Analyst to Associate to VP",
+        "Exposure to diverse business lines: trading operations, payments, custody, loan operations, fund services",
+        "Opportunity to lead process improvement and automation initiatives with measurable impact",
+        "Path to specialize in specific product areas (equity trading, FX, derivatives, trade finance) or move to operational risk, controls, or project management",
+        "Strong foundation for lateral moves to front office (trading support, sales), middle office (risk, finance), or technology roles",
+        "Access to Six Sigma, Lean, and process improvement training and certifications",
+        "International opportunities with JPMorgan's global operations footprint across time zones"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete HireVue video interview with 3-5 questions assessing motivation, analytical thinking, and problem-solving. May include logic puzzles, situational judgment scenarios, and questions about handling high-pressure situations. Demonstrate attention to detail, systematic thinking, and customer service orientation.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "30-45 minute conversation with Operations team member or recruiter covering resume, motivation for operations, and basic problem-solving questions. Expect questions about handling tight deadlines, prioritizing tasks, attention to detail, and interest in process improvement. May include scenario: 'How would you handle discovering a processing error after cut-off time?'",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual or On-site Interviews",
+          description: "2-3 rounds with Operations Managers, VPs, and team members. Mix of behavioral questions (teamwork, pressure situations, problem-solving), technical scenarios (process a trade, reconcile accounts, resolve exception), and cultural fit assessment. Demonstrate analytical mindset, attention to detail, composure under pressure, and genuine interest in operational excellence.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Team reviews feedback on analytical ability, attention to detail, cultural fit, and ability to thrive in fast-paced environment. Offers typically extended within 1-2 weeks with details on compensation, team placement, and start date."
+        }
+      ],
+      technicalQuestions: [
+        "Explain the trade lifecycle from execution to settlement.",
+        "What is reconciliation and why is it important in financial operations?",
+        "How would you prioritize tasks when you have multiple urgent deadlines?",
+        "Walk me through how you'd investigate a break (difference) in a reconciliation.",
+        "What is T+2 settlement and why does it matter?",
+        "Explain what a nostro account is and how it's used in payment operations.",
+        "How would you handle a situation where a payment instruction is missing critical information close to cut-off?",
+        "What's the difference between a wire transfer and an ACH payment?",
+        "How would you design a process to reduce manual errors in transaction processing?",
+        "Explain what you understand about SOX controls in financial operations.",
+        "What key performance indicators (KPIs) would you track for an operations team?",
+        "How would you investigate why a trade failed to settle?",
+        "What is corporate action processing and what challenges does it present?",
+        "Explain the difference between trade date and settlement date.",
+        "How would you handle a large volume spike while maintaining accuracy?",
+        "What systems or tools have you used for data analysis and reconciliation?",
+        "How would you identify opportunities for process automation?",
+        "What do you understand about AML (anti-money laundering) in payment operations?"
+      ],
+      behavioralQuestions: [
+        "Why operations? Why JPMorgan Chase?",
+        "Tell me about a time you caught an error that others missed.",
+        "Describe a situation where you had to work under extreme time pressure.",
+        "How do you ensure accuracy when performing repetitive tasks?",
+        "Tell me about a time you improved a process or made something more efficient.",
+        "Describe a situation where you had to handle multiple competing priorities.",
+        "How would you handle a conflict with a trader or client service representative?",
+        "Tell me about a time you had to learn a complex system or process quickly.",
+        "Describe your experience with data analysis or working with large datasets.",
+        "How do you stay focused and maintain quality during long shifts or busy periods?",
+        "Tell me about a time you identified a risk or control weakness.",
+        "Describe a situation where you had to collaborate with multiple teams to resolve an issue.",
+        "What attracts you to operational roles versus front office positions?",
+        "How do you handle stress and pressure in deadline-driven environments?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional attention to detail and accuracy in data entry and validation",
+        "Strong analytical and problem-solving skills to investigate and resolve exceptions",
+        "Ability to work efficiently under tight deadlines and handle high transaction volumes",
+        "Systematic and methodical approach to process execution and issue resolution",
+        "Proficiency with Excel, data analysis, and ability to learn complex systems quickly",
+        "Strong communication skills to coordinate with trading desks, clients, and technology teams",
+        "Proactive mindset and continuous improvement orientation",
+        "Composure under pressure and ability to escalate appropriately when needed",
+        "Team player mentality and willingness to support colleagues during busy periods",
+        "Understanding of controls, risk management, and regulatory requirements"
+      ],
+      interviewTips: [
+        "Research JPMorgan's operations divisions: CIB Operations, Treasury Services, Asset & Wealth Management Operations",
+        "Understand basic financial operations concepts: settlement, reconciliation, corporate actions, payments",
+        "Prepare specific examples demonstrating attention to detail, problem-solving, and working under pressure",
+        "Highlight any experience with data analysis, Excel, reconciliations, or process improvement",
+        "Show genuine interest in operational excellence and process optimization rather than viewing operations as 'back office'",
+        "Demonstrate understanding that operations is mission-critical for client service and risk management",
+        "Prepare thoughtful questions about process automation, career progression, training programs, and team structure",
+        "Be ready to discuss how you stay focused and maintain accuracy during repetitive tasks",
+        "Show awareness of current operational challenges: automation, efficiency, regulatory complexity, 24/7 global markets",
+        "Emphasize teamwork, reliability, and commitment to quality over speed alone",
+        "Understand the difference between operations and other middle/back office functions (finance, risk, controls)",
+        "Be prepared for scenario questions: 'What would you do if you discovered an error affecting 1000 transactions?'",
+        "Research JPMorgan's investment in operations technology and automation (RPA, AI, cloud platforms)",
+        "Show enthusiasm for the analytical and problem-solving aspects of operations work"
+      ],
+      salary: {
+        min: 65000,
+        max: 85000
+      },
+      compensation: [
+        "Base salary: $65-85K for operations analysts depending on location and business line",
+        "Annual performance bonus: $8-18K based on individual and team performance",
+        "Shift differential pay for overnight or weekend coverage in 24/7 operations (varies by team)",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with 5% company match",
+        "Tuition reimbursement for relevant degrees or certifications (Six Sigma, PMP, CFA)",
+        "16 weeks paid parental leave",
+        "Employee stock purchase plan (ESPP) with discount",
+        "Commuter benefits and wellness programs",
+        "Total first-year compensation typically $75-105K all-in depending on shift/overtime"
+      ],
+      dayInLife: {
+        overview: "Operations Analysts at JPMorgan work in fast-paced environments ensuring flawless execution of financial transactions. Hours vary by team - some work standard 9-6, while 24/7 operations (trading, payments) may require shift work or extended hours during busy periods. The work is detail-oriented and deadline-driven, requiring focus and systematic execution. You'll balance transaction processing with exception resolution and process improvement. Culture emphasizes teamwork, accountability, and continuous improvement. While demanding during market volatility or month-end, the role offers stable career progression, skill development, and better work-life balance than front office roles.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Check-In",
+            description: "Review overnight processing results, check email for escalations. Scan transaction queues for pending items and exception reports. Prioritize day's work based on deadlines and volumes."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Team Huddle",
+            description: "Quick stand-up with operations team reviewing volumes, outstanding breaks, system issues, and priorities. Discuss any client escalations or urgent items requiring attention."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Transaction Processing",
+            description: "Process securities settlement instructions, payment orders, or loan funding requests. Verify trade details, validate instructions, input into systems, and ensure timely execution before cut-off times."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Reconciliation Work",
+            description: "Reconcile cash accounts, securities positions, or trade confirmations between internal systems and external counterparties. Investigate breaks, research discrepancies, and document findings."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch Break",
+            description: "Break for lunch, though timing may be flexible based on transaction deadlines and regional market hours."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Exception Resolution",
+            description: "Investigate failed trades, payment rejections, or processing errors. Coordinate with traders, relationship managers, clients, and custodians to gather information and resolve issues. Document root causes."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Client/Internal Inquiries",
+            description: "Respond to questions from trading desks, client service teams, or external clients about transaction status, settlement issues, or account inquiries. Provide clear explanations and timely updates."
+          },
+          {
+            time: "3:30 PM",
+            activity: "System Monitoring & Controls",
+            description: "Monitor workflow queues to ensure SLA compliance. Perform required control checks and validation procedures. Update tracking spreadsheets and quality metrics."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Process Improvement Meeting",
+            description: "Participate in weekly team meeting discussing automation opportunities, process pain points, and efficiency initiatives. Share ideas for streamlining workflows and reducing manual touchpoints."
+          },
+          {
+            time: "5:30 PM",
+            activity: "End of Day Close-Out",
+            description: "Complete final processing, ensure all deadlines met, escalate any outstanding issues to manager or next shift. Update handover notes for colleagues. Head home (hours vary by team - some 24/7 operations have shift schedules)."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
+    },
+    'risk-analyst': {
+      roleDescription: "Risk Analysts at JPMorgan Chase identify, measure, monitor, and mitigate risks across the firm's diverse business activities. Working in areas like Credit Risk, Market Risk, Operational Risk, or Model Risk Management, you'll perform quantitative analysis to assess potential losses, ensure compliance with risk limits, and support risk-aware decision making. The role combines sophisticated quantitative modeling with business judgment, requiring strong analytical skills, understanding of financial products, and ability to communicate complex risks to senior stakeholders. JPMorgan's status as a global systemically important bank (G-SIB) makes robust risk management absolutely critical. Risk Analysts serve as a crucial second line of defense, providing independent oversight while partnering with business units to enable sustainable growth within the firm's risk appetite.",
+      responsibilities: [
+        "Perform quantitative risk analysis including Value at Risk (VaR), stress testing, scenario analysis, and loss forecasting",
+        "Monitor trading positions, credit exposures, or operational risk metrics against established limits and escalate breaches",
+        "Develop and maintain risk models for credit loss estimation, market risk measurement, or operational risk quantification",
+        "Prepare risk reports and presentations for senior management, Risk Committee, and regulatory submissions",
+        "Conduct deep-dive analyses on risk concentrations, emerging risks, and portfolio trends",
+        "Collaborate with front office (traders, bankers, portfolio managers) to understand risks in business activities",
+        "Validate assumptions and methodologies in business-submitted risk calculations and models",
+        "Support stress testing programs including CCAR (Comprehensive Capital Analysis and Review) and DFAST",
+        "Ensure compliance with regulatory requirements from Federal Reserve, OCC, Basel III, and other authorities"
+      ],
+      growthOpportunities: [
+        "Clear progression from Risk Analyst to Associate to VP with expanding scope and influence",
+        "Exposure to diverse risk types: credit, market, operational, liquidity, model risk",
+        "Opportunity to specialize in specific asset classes (equities, fixed income, derivatives) or risk methodologies (stress testing, VaR)",
+        "Strong foundation for moving to front office roles (trading, portfolio management), finance, or senior risk leadership",
+        "Access to sophisticated risk management training, quantitative methods, and regulatory frameworks",
+        "Opportunity to work on firm-wide risk initiatives and regulatory programs with high visibility",
+        "Potential for rotations across risk teams and business lines to broaden experience",
+        "Path to specialize in emerging areas like climate risk, cyber risk, or machine learning applications in risk"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment & HireVue",
+          description: "Complete quantitative assessment testing statistics, probability, and analytical reasoning. Then complete HireVue video questions covering motivation, risk awareness, and problem-solving. Demonstrate systematic thinking, intellectual curiosity, and genuine interest in risk management.",
+          duration: "60-90 minutes total"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute technical conversation covering statistics, risk concepts, and resume discussion. Expect questions on probability, risk metrics (VaR, expected shortfall), derivatives basics, and how you'd approach risk analysis. Discuss any quantitative projects demonstrating analytical skills.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "3-4 rounds with Risk Analysts, Associates, VPs, and potentially Directors. Mix of technical deep-dives (statistics, risk modeling, market/credit risk concepts), case studies (analyze this portfolio's risk, recommend risk limits), and behavioral questions. Strong quantitative skills and ability to think critically about risk are essential. Demonstrate independence, intellectual rigor, and sound judgment.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Team evaluates technical competency, analytical thinking, communication skills, and cultural fit. Risk requires independence and ability to challenge the business constructively. Offers typically extended within 1-2 weeks with details on team placement, compensation, and start date."
+        }
+      ],
+      technicalQuestions: [
+        "What is Value at Risk (VaR) and how do you calculate it?",
+        "Explain the difference between expected loss and unexpected loss in credit risk.",
+        "How would you measure the market risk of a bond portfolio?",
+        "What's the difference between VaR and expected shortfall (CVaR)?",
+        "Walk me through the components of credit risk for a corporate loan.",
+        "How would you stress test a derivatives portfolio?",
+        "Explain what a correlation breakdown means in risk management.",
+        "What is duration and convexity? How are they used in risk management?",
+        "How do you calculate the probability of default (PD) and loss given default (LGD)?",
+        "Explain what counterparty credit risk is and how it's managed.",
+        "What's the difference between market risk and credit risk?",
+        "How would you assess the operational risk of a new trading system?",
+        "Explain the concept of tail risk and fat tails in risk distributions.",
+        "What is the Basel III framework and what are its key components?",
+        "How would you analyze risk concentration in a loan portfolio?",
+        "Explain what a risk limit is and how you'd determine appropriate limits.",
+        "What statistical methods would you use to forecast credit losses?",
+        "How do you assess model risk and validate a risk model?"
+      ],
+      behavioralQuestions: [
+        "Why risk management? Why JPMorgan Chase?",
+        "Tell me about a time you identified a risk that others overlooked.",
+        "Describe a situation where you had to challenge someone's analysis or assumptions.",
+        "How do you balance enabling business growth with appropriate risk management?",
+        "Tell me about a complex analytical problem you've solved.",
+        "Describe your experience with quantitative modeling or statistical analysis.",
+        "How would you handle disagreement with a trader or banker about risk assessment?",
+        "Tell me about a time you had to communicate complex quantitative concepts to non-technical stakeholders.",
+        "Describe a situation where you had to work with incomplete or imperfect data.",
+        "What do you think are the biggest risks facing financial institutions today?",
+        "How do you stay current on regulatory developments and risk management best practices?",
+        "Tell me about a time you had to make a judgment call with significant uncertainty.",
+        "Describe your experience working in teams on analytical projects.",
+        "Why choose risk management over front office roles like trading or investment banking?"
+      ],
+      whatTheyLookFor: [
+        "Strong quantitative skills: statistics, probability, financial mathematics",
+        "Programming proficiency (Python, R, SQL) and comfort with data analysis",
+        "Deep analytical thinking and ability to identify risks in complex situations",
+        "Sound judgment and independence to challenge business assumptions constructively",
+        "Clear communication skills to explain complex risks to senior stakeholders and regulators",
+        "Understanding of financial products: equities, fixed income, derivatives, loans",
+        "Intellectual curiosity about markets, risk events, and risk management methodologies",
+        "Professional skepticism and attention to detail in reviewing models and calculations",
+        "Ability to balance thoroughness with timeliness in risk analysis",
+        "Interest in regulatory frameworks and evolving risk management practices"
+      ],
+      interviewTips: [
+        "Master fundamental risk concepts: VaR, expected shortfall, stress testing, credit risk components (PD, LGD, EAD)",
+        "Review statistics and probability: distributions (normal, lognormal, fat-tailed), correlation, regression, Monte Carlo",
+        "Understand financial products and their risks: bonds (duration, credit spread), equities (market risk), derivatives (Greeks, counterparty risk)",
+        "Research major risk frameworks: Basel III, CCAR, stress testing, risk-weighted assets",
+        "Prepare examples demonstrating analytical skills, attention to detail, and ability to identify risks",
+        "Know recent risk events and regulatory changes: SVB failure, market volatility, climate risk, operational resilience",
+        "Be ready to discuss why risk vs front office - emphasize interest in risk management over profit generation",
+        "Practice explaining technical concepts simply - risk requires translating quant analysis for business audiences",
+        "Research JPMorgan's risk organization structure and risk appetite statement",
+        "Understand the role of independent risk management as second line of defense",
+        "Prepare thoughtful questions about team focus (credit/market/operational), risk technologies, career development",
+        "Be comfortable with programming - many risk roles involve Python/R for analysis and model development",
+        "Show awareness that risk requires balancing conservatism with enabling appropriate business growth",
+        "Demonstrate genuine intellectual interest in risk management as a discipline, not just a stepping stone"
+      ],
+      salary: {
+        min: 95000,
+        max: 115000
+      },
+      compensation: [
+        "Base salary: $95-115K for risk analysts depending on team (market risk typically higher than operational risk)",
+        "Annual performance bonus: $20-40K based on individual performance and firm results",
+        "Signing bonus: $10-25K for competitive candidates with strong quant backgrounds",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with 5% company match",
+        "Tuition reimbursement for relevant graduate degrees (Financial Engineering, Statistics, MBA) or certifications (FRM, CFA)",
+        "Professional development budget for risk conferences and training",
+        "16 weeks paid parental leave",
+        "Restricted stock units (RSUs) for senior analyst and VP+ levels",
+        "Total first-year compensation typically $115-170K all-in"
+      ],
+      dayInLife: {
+        overview: "Risk Analysts at JPMorgan work in intellectually stimulating roles at the intersection of quantitative analysis and business judgment. Hours are generally 8:30am-6:30pm with reasonable work-life balance, though market volatility or regulatory deadlines can require extended hours. The work balances independent analytical deep-dives with stakeholder collaboration across traders, portfolio managers, and senior risk officers. You'll need to maintain independence while building credible partnerships with the business. Culture values analytical rigor, sound judgment, and clear communication. Risk offers strong compensation, interesting problems, and influence on firm-wide decision making with better work-life balance than front office roles.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Risk Review",
+            description: "Review overnight market moves and impact on firm's risk positions. Check VaR reports, stress test results, and risk limit utilization. Scan for any limit breaches or unusual exposures requiring investigation."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Risk Committee Meeting",
+            description: "Attend daily risk meeting with traders, risk managers, and business heads. Present key risk metrics, discuss portfolio positioning, market conditions, and any risk concerns. Provide independent risk perspective."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Quantitative Analysis",
+            description: "Build stress scenarios to assess portfolio impact under adverse market conditions. Use Python to analyze historical data, calculate risk sensitivities, and model potential losses. Focus on tail risk and concentration risk."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Learning",
+            description: "Grab lunch while attending risk training webinar on new regulatory requirements or risk management techniques. Informal discussion with colleagues about interesting risk topics."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Model Validation Work",
+            description: "Review credit risk model submitted by business for approval. Validate assumptions, test calculations, perform sensitivity analysis, and assess model limitations. Document findings for model risk committee."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Portfolio Deep Dive",
+            description: "Conduct detailed analysis of concentrated exposure to energy sector. Analyze individual names, industry correlations, stress scenarios, and potential mitigants. Prepare recommendation on risk limits."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Stakeholder Collaboration",
+            description: "Meeting with trading desk to discuss proposed new trading strategy. Understand risk characteristics, review business's risk calculations, identify potential issues, and discuss risk management approach."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Regulatory Reporting",
+            description: "Support CCAR stress testing submission. Compile required data, validate calculations, prepare supporting documentation. Ensure regulatory deadlines met with accurate and complete submissions."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up & Documentation",
+            description: "Complete risk analysis documentation, update risk dashboards, respond to final emails. Prepare summary of day's findings for manager. Head home around 6:30pm with good work-life balance most days."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
     }
   },
   'morgan-stanley': {
