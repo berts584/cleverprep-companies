@@ -385,15 +385,29 @@ export async function generateMetadata({ params }) {
     return { title: 'Page Not Found' }
   }
 
+  const canonicalUrl = `https://cleverprep.com/companies/${resolvedParams.slug}/${resolvedParams.role}`
+
   return {
     title: `${role.name} Interview at ${company.name} | Preparation Guide`,
     description: `Ace your ${role.name} interview at ${company.name} with our complete prep guide. Real questions, expert tips, and proven strategies for success.`,
     keywords: `${role.name}, ${company.name} interview, ${company.name} ${role.name}, ${role.name} interview questions, ${company.name} careers`,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: `${role.name} Interview at ${company.name} | Preparation Guide`,
       description: `Complete preparation guide for ${role.name} interviews at ${company.name}. Expert tips and real interview questions.`,
       type: 'website',
-    }
+      url: canonicalUrl,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+      },
+    },
   }
 }
 
