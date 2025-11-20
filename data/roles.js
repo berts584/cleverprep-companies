@@ -200,6 +200,81 @@ export const roles = {
     },
     industries: ['Finance', 'Investment Banking']
   },
+  'credit-analyst': {
+    name: 'Credit Analyst',
+    description: 'Assess creditworthiness of corporations, financial institutions, and sovereign entities to support lending decisions and portfolio risk management. Analyze financial statements, industry trends, and macroeconomic factors to evaluate credit risk.',
+    focusAreas: [
+      'Financial statement analysis',
+      'Credit modeling and risk assessment',
+      'Industry and market research',
+      'Covenant analysis and monitoring',
+      'Credit memo preparation'
+    ],
+    keySkills: [
+      'Financial analysis and accounting',
+      'Credit metrics (leverage, coverage ratios)',
+      'Financial modeling (Excel)',
+      'Industry research and analysis',
+      'Written communication',
+      'Sound judgment and risk assessment'
+    ],
+    salaryRange: {
+      min: 85000,
+      max: 100000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Investment Banking']
+  },
+  'operations-analyst': {
+    name: 'Operations Analyst',
+    description: 'Ensure smooth functioning of critical business processes across trading, payments, and lending operations. Responsible for transaction processing, reconciliation, exception management, and process improvement.',
+    focusAreas: [
+      'Transaction processing and settlement',
+      'Reconciliation and break resolution',
+      'Exception management',
+      'Process improvement and automation',
+      'Control frameworks and compliance'
+    ],
+    keySkills: [
+      'Attention to detail and accuracy',
+      'Excel and data analysis',
+      'Process optimization',
+      'Problem-solving under pressure',
+      'Systems knowledge (trading, payments)',
+      'Teamwork and communication'
+    ],
+    salaryRange: {
+      min: 65000,
+      max: 85000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Investment Banking']
+  },
+  'risk-analyst': {
+    name: 'Risk Analyst',
+    description: 'Identify, measure, monitor, and mitigate risks across credit, market, and operational risk. Perform quantitative analysis to assess potential losses, ensure compliance with risk limits, and support risk-aware decision making.',
+    focusAreas: [
+      'Quantitative risk analysis (VaR, stress testing)',
+      'Risk modeling and forecasting',
+      'Risk limit monitoring',
+      'Regulatory compliance (Basel, CCAR)',
+      'Risk reporting and communication'
+    ],
+    keySkills: [
+      'Statistics and probability',
+      'Financial mathematics',
+      'Programming (Python, R, SQL)',
+      'Risk models and methodologies',
+      'Financial products knowledge',
+      'Independent judgment and analysis'
+    ],
+    salaryRange: {
+      min: 95000,
+      max: 115000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Investment Banking']
+  },
   'management-consultant': {
     name: 'Management Consultant',
     description: 'Advise organizations on strategy, operations, and organizational transformation. Analyze complex business problems, develop recommendations, and support implementation of solutions across various industries.',
@@ -380,9 +455,9 @@ export const roles = {
 // Mapping of which roles are relevant for which industries
 export const rolesByIndustry = {
   'Technology': ['software-engineer', 'product-manager', 'data-scientist', 'business-analyst', 'marketing-manager', 'engineering-manager', 'machine-learning-engineer', 'devops-engineer', 'security-engineer', 'technical-program-manager'],
-  'Finance': ['software-engineer', 'data-scientist', 'business-analyst', 'investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst'],
+  'Finance': ['software-engineer', 'data-scientist', 'business-analyst', 'investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst'],
   'Consulting': ['management-consultant', 'business-analyst', 'data-scientist'],
-  'Investment Banking': ['investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'business-analyst'],
+  'Investment Banking': ['investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'business-analyst'],
   'Healthcare': ['software-engineer', 'data-scientist', 'business-analyst'],
   'E-commerce': ['software-engineer', 'product-manager', 'data-scientist', 'marketing-manager'],
   'Consumer Goods': ['marketing-manager', 'business-analyst', 'data-scientist'],
