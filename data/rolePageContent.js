@@ -4759,6 +4759,395 @@ export const rolePageContent = {
       compensation: ["$85-110K base","$35-110K bonus","$130-220K total","Performance-based","Desk P&L tied","Seniors $500K-$3M+","Desk perks","Health insurance","401(k)","Floor meals","Bloomberg/tech"],
       dayInLife: {overview:"6:30-7am start, 7am-6pm typical. Fast-paced, market-driven. High-energy with collaboration. Adrenaline and learning.",schedule:[{time:"6:45 AM",activity:"Pre-Market",description:"Review overnight, calendar"},{time:"7:30 AM",activity:"Setup",description:"Positions, orders, models"},{time:"9:30 AM",activity:"Open",description:"High intensity execution"},{time:"10:30 AM",activity:"Mid-Morning",description:"Trading and analysis"},{time:"12:00 PM",activity:"Desk Lunch",description:"Quick meal, P&L discussion"},{time:"1:00 PM",activity:"Afternoon",description:"Execution and risk"},{time:"2:00 PM",activity:"Event",description:"Data release volatility"},{time:"3:30 PM",activity:"Late Day",description:"Closing decisions"},{time:"4:00 PM",activity:"Close Review",description:"P&L analysis"},{time:"5:00 PM",activity:"Post-Market",description:"Research and models"},{time:"6:00 PM",activity:"Wrap",description:"Reconcile and depart"}]},
       similarRoles: [{companyName:"Goldman Sachs",companySlug:"goldman-sachs",industry:"Finance"},{companyName:"JPMorgan Chase",companySlug:"jpmorgan",industry:"Finance"},{companyName:"Bank of America",companySlug:"bank-of-america",industry:"Finance"},{companyName:"Citigroup",companySlug:"citigroup",industry:"Finance"},{companyName:"Wells Fargo",companySlug:"wells-fargo",industry:"Finance"}]
+    },
+    'quantitative-strategist': {
+      roleDescription: "Quantitative Strategists (Strats) at Morgan Stanley combine deep quantitative expertise with technology innovation to support trading, sales, and banking desks across the Institutional Securities Group. Working within Morgan Stanley's Quantitative and Derivative Strategies (QDS) group and other quantitative teams, you'll develop sophisticated models, build analytics tools, and provide quantitative insights that drive business decisions. Morgan Stanley's 'One Firm' collaborative culture differentiates the Strats experience - while maintaining technical rigor comparable to Goldman Sachs, the environment emphasizes teamwork over internal competition. Strats work on cutting-edge problems in derivatives pricing, risk management, algorithmic trading, and data science, with significant technology investment supporting innovation. The role offers excellent work-life balance relative to Goldman (typically 9am-6:30pm vs 9am-7pm+), competitive compensation (~5% below Goldman), and strong exit opportunities to top hedge funds and tech firms. Morgan Stanley's institutional focus and client-first culture create opportunities to work on complex problems for the world's leading asset managers, corporations, and governments.",
+      responsibilities: [
+        "Develop and implement quantitative models for derivatives pricing, risk analytics, and trading strategies embedded within specific desks",
+        "Build production-quality tools and dashboards in Python, C++, or Java that traders and salespeople use daily for pricing, risk, and client analytics",
+        "Provide real-time quantitative support to trading desks on pricing complex structures, managing risk exposures, and identifying trading opportunities",
+        "Conduct data analysis and generate trading signals using statistical methods, machine learning, and alternative data sources",
+        "Design risk models including VaR, stress testing, Greeks calculations, and scenario analysis for trading portfolios",
+        "Collaborate with technology teams to integrate quantitative solutions into Morgan Stanley's trading platforms and infrastructure",
+        "Research new quantitative methodologies from academic literature and adapt them to practical business applications",
+        "Support client-facing activities by building analytical tools for sales teams and presenting complex models to sophisticated institutional clients",
+        "Participate in model validation and ensure robustness of pricing and risk calculations through rigorous testing"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to VP to ED based on impact and technical excellence in Morgan Stanley's meritocratic 'One Firm' culture",
+        "Opportunity to rotate across multiple desks and asset classes (equities, FICC, derivatives) gaining broad market exposure",
+        "Path to specialize deeply in high-demand areas: exotic derivatives, systematic trading, machine learning applications, or quantitative risk",
+        "Potential to transition to quantitative trading roles with P&L responsibility or move into quantitative research leadership",
+        "Strong exit opportunities to top hedge funds (Citadel, DE Shaw, Two Sigma), prop shops (Jane Street), or tech companies (Google, Meta)",
+        "Access to Morgan Stanley's extensive training programs, mentorship from senior Strats, and Morgan Stanley University development courses",
+        "Better work-life balance than Goldman enables pursuit of side projects, research publication, or advanced degrees part-time",
+        "Collaborative culture creates strong internal network and mobility across quantitative roles within the firm"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45 minute technical conversation covering mathematical reasoning, probability, programming, and motivation. Expect probability questions (e.g., 'Expected value of die rolls'), coding questions in Python or C++, and discussion of quantitative projects. Morgan Stanley assesses problem-solving ability, coding proficiency, and cultural fit with 'One Firm' values. Demonstrate strong fundamentals, collaborative mindset, and genuine interest in quantitative finance. Slightly more conversational than Goldman's intense grilling.",
+          duration: "45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Superday - Morning",
+          description: "2-3 rounds of technical interviews with Strats and senior quants covering: (1) Advanced probability and statistics with brainteasers and derivations, (2) Programming and algorithms with coding problems (implement pricer, data structures), (3) Financial mathematics including derivatives pricing basics and risk concepts, (4) System design and problem-solving. Morgan Stanley's technical bar is very high (comparable to Goldman) but interviewers are slightly more collaborative and helpful. Demonstrate both technical depth and ability to explain thinking clearly.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Desk Fit & Cultural Interviews - Afternoon",
+          description: "2-3 rounds with Strats and traders from potential desks assessing technical fit, communication skills, and cultural alignment. Expect: (1) Desk-specific technical questions related to products and strategies, (2) Discussion of how you'd approach real business problems, (3) Assessment of collaboration skills and ability to work with non-quants, (4) Cultural fit with Morgan Stanley's 'One Firm' teamwork values. Chemistry matters significantly - Strats must work effectively across teams without ego.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Hiring committee reviews feedback on technical excellence, problem-solving, collaboration, and cultural fit. Morgan Stanley Strats maintains high bar (comparable to Goldman) while valuing teamwork and communication more heavily. Offers typically extended within 1-2 weeks with competitive compensation: $155-210K base, significant bonus, and signing package. Total comp ~5% below Goldman but better work-life balance offsets difference."
+        }
+      ],
+      technicalQuestions: [
+        "Derive the Black-Scholes equation using the replicating portfolio argument.",
+        "Explain Ito's lemma and apply it to derive the dynamics of a stock price following geometric Brownian motion.",
+        "You have a biased coin with unknown probability p. Design a method to simulate a fair coin flip.",
+        "How would you price an Asian option? Describe multiple approaches and their trade-offs.",
+        "What are the Greeks (Delta, Gamma, Vega, Theta, Rho)? How would you hedge an options portfolio?",
+        "What is the expected number of coin flips to see two heads in a row? What about head-tail?",
+        "Implement binary search in your preferred language. What's the time complexity?",
+        "Design a data structure supporting insert, delete, and getRandom() all in O(1) time.",
+        "Explain volatility smile and why it exists. What models can capture it?",
+        "How would you calibrate a local volatility model to the market implied volatility surface?",
+        "You're given a stream of numbers. Design an efficient algorithm to compute the rolling average of the last N elements.",
+        "Explain Monte Carlo simulation for option pricing. What variance reduction techniques exist?",
+        "How would you backtest a trading strategy? What are common pitfalls?",
+        "What's the difference between risk-neutral and real-world probability measures?",
+        "Explain convexity adjustment in interest rate derivatives. When does it matter?",
+        "Design a system to handle real-time risk calculations for a large derivatives portfolio.",
+        "How would you detect arbitrage opportunities in option prices programmatically?",
+        "Walk me through maximum likelihood estimation and how you'd use it to calibrate a model."
+      ],
+      behavioralQuestions: [
+        "Why Morgan Stanley Strats? How does Morgan Stanley differentiate from Goldman Sachs?",
+        "Tell me about a complex quantitative problem you solved. Walk me through your approach.",
+        "Describe your experience with mathematical modeling and programming. What projects are you most proud of?",
+        "How do you approach learning new mathematical techniques or programming languages?",
+        "Tell me about a time you had to explain a complex technical concept to a non-technical person.",
+        "Describe a project where you had to balance theoretical rigor with practical constraints.",
+        "How do you stay current with developments in quantitative finance and machine learning?",
+        "Tell me about a time your model produced unexpected results. How did you investigate?",
+        "Describe your experience working in teams on technical projects. How do you collaborate?",
+        "What areas of quantitative finance interest you most? (derivatives, trading, risk, ML)",
+        "How would you handle disagreement with a trader about model assumptions?",
+        "Walk me through your thesis/research and how it relates to Strats work.",
+        "What programming languages are you most proficient in? Give examples of projects.",
+        "Why quantitative finance over academia, pure tech, or data science?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional mathematical ability: mastery of stochastic calculus, probability, statistics, and financial mathematics",
+        "Strong programming skills in Python and C++ with ability to write clean, production-quality code",
+        "Problem-solving ability and quantitative intuition to tackle novel, ambiguous problems",
+        "Communication skills to explain complex concepts clearly to traders, sales, and clients - more emphasis than Goldman",
+        "Collaborative mindset and team player mentality aligned with Morgan Stanley's 'One Firm' culture",
+        "Balance between theoretical rigor and practical business focus",
+        "Intellectual curiosity and continuous learning mindset",
+        "Academic excellence: PhD or Masters in Math, Physics, CS, Engineering, or Financial Engineering from top programs",
+        "Research experience or demonstrated quantitative work through publications, competitions, or projects",
+        "Genuine interest in financial markets and understanding of how Strats support business"
+      ],
+      interviewTips: [
+        "Master core quantitative finance: Black-Scholes, Ito's lemma, risk-neutral pricing, Greeks, numerical methods",
+        "Review probability and statistics: distributions, conditional probability, Bayesian inference, stochastic processes",
+        "Practice coding extensively: implement pricers, data structures, algorithms in Python/C++. Use LeetCode for practice",
+        "Read foundational texts: Hull's Options, Futures, and Other Derivatives; Shreve's Stochastic Calculus",
+        "Understand Morgan Stanley's 'One Firm' culture and how it differs from Goldman's competitive internal culture",
+        "Research Morgan Stanley's businesses: Institutional Securities Group, wealth management integration, technology investments",
+        "Prepare examples from research/projects demonstrating both technical depth and collaboration",
+        "Practice explaining technical concepts simply - Morgan Stanley values communication more than Goldman",
+        "Know your resume deeply - be able to discuss every model, technique, and project",
+        "Prepare for brainteasers but expect slightly more collaborative problem-solving than Goldman",
+        "Research recent developments: ML in finance, alternative data, rough volatility, XVA",
+        "Prepare 5-7 reasons 'Why Morgan Stanley?' - reference culture, balance, technology, 'One Firm' values",
+        "Show passion for both mathematics and markets - demonstrate you're not purely academic",
+        "Emphasize teamwork and collaboration in your examples - critical for Morgan Stanley culture"
+      ],
+      salary: {
+        min: 155000,
+        max: 210000
+      },
+      compensation: [
+        "Base salary: $155-210K for experienced hires (PhD/Masters), $135-155K for junior analysts",
+        "Annual performance bonus: $55-165K based on individual contribution and desk performance",
+        "Signing bonus: $25-85K for competitive candidates from top programs",
+        "Compensation ~5% below Goldman Sachs but with better work-life balance (9am-6:30pm typical vs 9am-7pm+)",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with company match and profit-sharing",
+        "Relocation assistance for major financial centers (New York, London, Hong Kong)",
+        "Professional development budget for conferences and certifications (CQF, FRM)",
+        "Access to Morgan Stanley University training programs and career development resources",
+        "Total first-year compensation typically $235-420K all-in for experienced PhD Strats"
+      ],
+      dayInLife: {
+        overview: "Morgan Stanley Strats experience intellectually stimulating days with strong work-life balance relative to Goldman. Hours typically 9am-6:30pm with flexibility around desk needs. The collaborative 'One Firm' culture creates supportive environment where asking questions is encouraged. Work balances deep quantitative development with desk interaction, code reviews, and cross-team collaboration. Culture values technical excellence, practical problem-solving, and teamwork over internal competition. Strats enjoy respect from traders, autonomy in approach, and satisfaction from quantitative solutions driving business impact.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Sync",
+            description: "Arrive and check overnight markets and any model issues flagged. Quick standup with desk to understand priorities: pricing requests, risk concerns, new trades. Review emails and plan day's work in collaborative team environment."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Model Development",
+            description: "Deep focus on implementing new stochastic volatility model for equity exotic options desk. Write C++ code for Monte Carlo pricer with variance reduction techniques. Debug issues, optimize performance. Consult academic papers and collaborate with fellow Strats on approach."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Trader Collaboration",
+            description: "Meet with equity derivatives trader to discuss pricing of barrier option for institutional client. Explain model assumptions, show Greeks, discuss hedging. Trader provides market color - iterate on model collaboratively. Morgan Stanley's 'One Firm' culture makes this more partnership than at Goldman."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Team Lunch",
+            description: "Lunch with Strats team - mix of learning and socializing. Discuss interesting problems, new research papers, market events. Share knowledge about techniques and tools. Strong team culture and mentorship."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Analytics Tool Building",
+            description: "Develop Python dashboard for sales showing real-time implied vols and fair values. Use Plotly for visualization. Sales needs for client pitches - balance functionality with deadlines. Write maintainable code for future enhancements."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Real-Time Support",
+            description: "Trader asks about unusual pricing in butterfly spread. Investigate: check inputs, verify market data, recompute Greeks. Identify data feed issue. Fix and explain root cause. Collaborative problem-solving appreciated."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Research Time",
+            description: "Read paper on machine learning for option hedging. Assess applicability to desk strategies. Prototype simple implementation in Python. Document findings. Morgan Stanley encourages innovation and research."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Cross-Team Meeting",
+            description: "Join meeting with risk, technology, and other Strats on firm-wide risk platform. Provide input on derivatives calculations and requirements. Collaborative 'One Firm' approach to solving problems."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Code Review & Mentoring",
+            description: "Review junior Strat's option pricer code. Check accuracy, test edge cases, suggest improvements. Provide constructive feedback. Morgan Stanley's supportive culture values mentorship."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Wrap Up",
+            description: "Document model changes, update technical documentation. Respond to emails, prepare for tomorrow. Head home around 6:30pm with good work-life balance - better than Goldman's 7pm+ typical. Occasional later nights but culture respects personal time."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Citadel Securities", companySlug: "citadel-securities", industry: "Finance" },
+        { companyName: "Jane Street", companySlug: "jane-street", industry: "Finance" }
+      ]
+    },
+    'quantitative-trader': {
+      roleDescription: "Quantitative Traders at Morgan Stanley combine mathematical sophistication with market expertise to generate alpha through systematic trading strategies across global markets. Working within the Institutional Securities Group's electronic trading and systematic strategies businesses, you'll design, implement, and manage algorithmic strategies spanning equities, FICC, derivatives, and commodities. Morgan Stanley offers a differentiated experience versus Goldman Sachs: while maintaining comparable technical rigor, the culture emphasizes sustainable performance over hyper-aggressive P&L targets, resulting in better work-life balance (typically 7:30am-6pm vs Goldman's 7:30am-6:30pm+). The firm's substantial technology investments, 'One Firm' collaborative culture, and institutional client focus create an environment where quant traders can build sophisticated strategies with appropriate capital and time horizons. Compensation is competitive (~5-7% below Goldman) with less variable bonus swings, and the slightly less intense environment enables longer-term strategic thinking rather than pure short-term P&L focus.",
+      responsibilities: [
+        "Design and implement systematic trading strategies using statistical models, machine learning, and quantitative analysis across multiple asset classes",
+        "Conduct rigorous research and backtesting to identify alpha-generating opportunities in liquid electronic markets",
+        "Build and maintain production trading systems in Python, C++, or Java executing strategies in real-time",
+        "Monitor live strategies continuously, analyzing performance attribution, transaction costs, and market impact with emphasis on sustainable performance",
+        "Manage portfolio risk through position limits, VaR constraints, stress testing, and dynamic hedging within firm's risk framework",
+        "Analyze market microstructure, execution quality, and liquidity to optimize strategy performance",
+        "Collaborate with quant researchers, strats, developers, and risk teams to enhance trading infrastructure in 'One Firm' culture",
+        "Investigate strategy degradation and adapt models to evolving market conditions with focus on robustness over short-term optimization",
+        "Present strategy performance and risk metrics to senior management emphasizing risk-adjusted returns and sustainability",
+        "Maintain strict risk discipline while pursuing alpha generation within Morgan Stanley's prudent risk culture"
+      ],
+      growthOpportunities: [
+        "Compensation growth tied to P&L performance with less volatility than Goldman - sustainable performance rewarded over boom-bust cycles",
+        "Opportunity to manage larger capital and expand strategy portfolio as track record demonstrates consistent risk-adjusted returns",
+        "Path to build teams, mentor junior quants, or start new strategy verticals with firm support",
+        "Develop expertise across asset classes and strategies: statistical arbitrage, market making, macro, volatility",
+        "Strong exit opportunities to hedge funds (Citadel, DE Shaw, Two Sigma, Millennium), though slightly less aggressive recruiting than from Goldman",
+        "Exposure to cutting-edge technology: ML, alternative data, cloud infrastructure with substantial firm investment",
+        "Potential transition to portfolio management in Morgan Stanley Investment Management systematic funds",
+        "Better work-life balance enables pursuit of research, publication, or side projects while maintaining elite career"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45-60 minute conversation covering quantitative background, trading intuition, and market knowledge. Expect probability questions, discussion of trading strategies, and motivation. Morgan Stanley assesses technical skills and cultural fit with 'One Firm' values. Demonstrate systematic thinking, risk awareness, and collaborative mindset. Slightly more conversational than Goldman's aggressive interviewing style.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Deep Dive",
+          description: "75-90 minute technical interview covering: (1) Trading strategy design - 'Design pairs trading strategy with signal generation and risk management', (2) Statistical analysis and ML methodologies, (3) Market microstructure and execution, (4) Coding in Python/C++ - implement backtest, analyze data, (5) Probability and expected value under pressure. Technical bar comparable to Goldman. Demonstrate depth and systematic thinking.",
+          duration: "75-90 minutes"
+        },
+        {
+          step: 3,
+          title: "Trading Superday",
+          description: "4-5 rounds with quant traders, portfolio managers, and senior leadership. Mix of: (1) Strategy presentations - present trading research with methodology and results, (2) Market-making games and simulations, (3) Brain teasers and probability problems, (4) Code review or live coding, (5) Market discussions - recent events, opportunities, risks, (6) Cultural fit for Morgan Stanley's collaborative environment. Less combative than Goldman but still rigorous assessment of technical ability and judgment.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Final Committee & Offer",
+          description: "Senior leadership reviews feedback on quant skills, trading judgment, P&L potential, risk discipline, and cultural fit. Morgan Stanley seeks balance of technical excellence and collaborative mindset. Offers include base ($180-260K), performance bonus tied to P&L, and signing package. Total comp ~5-7% below Goldman but with better balance and more sustainable culture."
+        }
+      ],
+      technicalQuestions: [
+        "Design a pairs trading strategy from scratch. How do you select pairs, generate signals, size positions, manage risk?",
+        "Explain Sharpe ratio, alpha, beta, information ratio. How do you evaluate if strategy adds value?",
+        "How would you detect if a strategy has stopped working? Signs of regime change?",
+        "Compare mean reversion vs momentum strategies. When does each work best?",
+        "Make a market in a European call option with no observable price. Walk through your approach.",
+        "Explain market impact and how to model it for large orders. What's the trade-off?",
+        "Difference between adverse selection and inventory risk in market making? How to manage?",
+        "Build cointegration-based strategy. What statistical tests validate the relationship?",
+        "Describe rigorous backtesting approach. What are common pitfalls?",
+        "How do you account for transaction costs, slippage, and market impact in backtesting?",
+        "Explain overfitting. What techniques prevent it and ensure robustness?",
+        "What is walk-forward analysis and why is it critical?",
+        "How would you construct portfolio of multiple strategies with different characteristics?",
+        "Describe arbitrage types: statistical, index, merger, latency. Risks of each?",
+        "What ML techniques are useful for trading? Limitations and risks?",
+        "Design basic HFT market making strategy. What determines profitability?",
+        "Explain maximum drawdown and how to manage it. What's acceptable?",
+        "How would you use options to hedge strategy portfolio against tail risk?"
+      ],
+      behavioralQuestions: [
+        "Why Morgan Stanley quantitative trading? How does Morgan Stanley differentiate from Goldman?",
+        "Walk me through a trading strategy you developed. Show me results.",
+        "Describe when a model didn't perform as expected. How did you respond?",
+        "How do you handle pressure of real-time P&L swings?",
+        "Tell me about your experience with strategy development and risk management.",
+        "How do you balance model sophistication with robustness and execution?",
+        "Describe a time you identified a trading opportunity others missed.",
+        "How do you stay current with quant trading and ML developments?",
+        "Tell me about working in teams on quant projects. How do you collaborate?",
+        "What's your philosophy on risk management? How do you prevent blowups?",
+        "Describe making a quick trading decision with incomplete information.",
+        "How would you handle a week of significant losses?",
+        "What asset classes interest you most? Why?",
+        "Why quant trading versus research, engineering, or data science?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional quantitative skills: statistics, probability, ML, optimization, time series",
+        "Strong programming in Python and C++ with production system capability",
+        "Deep understanding of strategies: stat arb, market making, momentum, mean reversion",
+        "Market intuition and sophisticated microstructure understanding",
+        "Risk discipline with awareness of tail risks and sustainable performance focus - more emphasis than Goldman",
+        "Track record through personal trading, competitions (Kaggle), or research",
+        "Ability to perform under pressure while maintaining composure and long-term perspective",
+        "Collaborative mindset aligned with 'One Firm' culture - critical differentiator from Goldman",
+        "Clear communication to explain strategies and risks to PMs and risk committees",
+        "Balance of competitive drive with humility and teamwork"
+      ],
+      interviewTips: [
+        "Prepare 2-4 trading strategies with comprehensive methodology and results - be ready to defend all assumptions",
+        "Master core concepts: Sharpe, alpha/beta, market impact, transaction costs, overfitting prevention, walk-forward",
+        "Review statistical techniques: cointegration, time series (ARIMA, GARCH), regression, PCA, ML fundamentals",
+        "Practice coding: implement crossover, pairs trading, mean reversion in Python. Review data structures",
+        "Understand microstructure: bid-ask, order books, maker-taker fees, adverse selection, Almgren-Chriss execution",
+        "Read: Algorithmic Trading by Chan, Advances in Financial ML by López de Prado",
+        "Research Morgan Stanley's systematic platforms and electronic trading across asset classes",
+        "Prepare for brain teasers but expect collaborative problem-solving vs Goldman's combat",
+        "Know recent market events with informed views on opportunities and risks",
+        "Show genuine passion for markets - what strategies fascinate you? What do you follow?",
+        "Demonstrate risk discipline - emphasize sustainable performance over boom-bust",
+        "Prepare 5-7 reasons 'Why Morgan Stanley?' - reference culture, balance, technology, 'One Firm' teamwork",
+        "If you have track record, bring comprehensive results and defend every decision",
+        "Practice explaining strategies simply - you'll communicate with PMs and risk regularly",
+        "Emphasize collaboration and teamwork - critical for Morgan Stanley culture vs Goldman's individual focus"
+      ],
+      salary: {
+        min: 180000,
+        max: 260000
+      },
+      compensation: [
+        "Base salary: $180-260K depending on experience (PhD vs MBA vs promoted analysts)",
+        "Performance bonus: $120-600K+ variable based on P&L and desk performance - less volatile than Goldman",
+        "Signing bonus: $60-125K for competitive candidates from top programs or firms",
+        "Guaranteed bonus structures common for first 1-2 years",
+        "Deferred compensation and RSUs vesting over 3-4 years",
+        "Comprehensive health, dental, vision with excellent family coverage",
+        "401(k) with match plus profit-sharing",
+        "Relocation assistance for major centers",
+        "Access to cutting-edge infrastructure, datasets, and research resources",
+        "Professional development for conferences and training",
+        "Total comp for successful senior quant traders: $800K-$2.5M+ (vs Goldman $1M-$3M+) with better work-life balance",
+        "Less extreme compensation volatility than Goldman creates more stable earnings over career"
+      ],
+      dayInLife: {
+        overview: "Morgan Stanley Quantitative Traders balance strategy research, live monitoring, and risk management with better work-life balance than Goldman. Hours typically 7:30am-6pm vs Goldman's 7:30am-6:30pm+. Collaborative 'One Firm' culture creates supportive environment with less internal competition. P&L pressure exists but emphasis on sustainable risk-adjusted returns rather than pure P&L maximization enables longer-term strategic thinking. Culture values quantitative rigor, innovation, and teamwork. Compensation tied to P&L but with less volatility than Goldman creates more sustainable career path.",
+        schedule: [
+          {
+            time: "7:30 AM",
+            activity: "Pre-Market Prep",
+            description: "Arrive before market to review overnight markets across Asia and Europe. Check strategy P&L from overnight sessions. Review alerts and risk reports. Analyze overnight news and data. Adjust parameters or pause strategies if needed. Collaborative morning discussion with team."
+          },
+          {
+            time: "8:00 AM",
+            activity: "Team Standup",
+            description: "Morning meeting with quant trading team and risk. Discuss overnight performance, market regime, strategy behaviors, priorities. Share insights on microstructure changes. 'One Firm' culture encourages open discussion vs Goldman's competitive dynamics."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Market Open Monitoring",
+            description: "Focus as US markets open. Monitor live strategies: execution, fills, slippage, costs, P&L. Watch for anomalies. Make adjustments if needed. Ensure systems functioning and risk limits respected. Less frantic than Goldman with more systematic approach."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Performance Attribution",
+            description: "Analyze overnight and morning results. Decompose P&L: alpha, impact, costs, timing. Compare live vs backtest. Investigate deviations. Document findings. Emphasis on understanding rather than pure P&L obsession."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Strategy Research",
+            description: "Deep work developing new equity pairs mean reversion strategy. Analyze cointegration in Python. Test signals with realistic costs. Run Monte Carlo under various regimes. Iterate on risk rules. More time for research than Goldman allows."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Working Lunch",
+            description: "Lunch with team while monitoring strategies. Discuss interesting dynamics, research ideas, improvements. Collaborative culture and team learning."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Backtest Development",
+            description: "Build comprehensive backtest with walk-forward analysis. Realistic market impact model. Account for all friction. Run parameter sensitivity. Validate robustness across regimes and time periods."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Risk Committee",
+            description: "Present momentum strategy capital increase request to risk. Show Sharpe, drawdown, VaR, stress, correlation. Explain risk framework. Answer questions. Collaborative discussion of risk-reward trade-offs."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Market Close",
+            description: "Monitor through close and closing auction. Ensure position squaring and risk management. Handle execution issues. Watch for unusual moves requiring intervention."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Post-Market Analysis",
+            description: "Review full day's trading across strategies. Update dashboards and P&L attribution. Generate reports. Document changes to strategies or limits. Analyze successes and areas for improvement."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Sync with strats and developers on infrastructure improvements. Review commits and optimizations. Check overnight positions and coordinate with London. Head home around 6pm with better balance than Goldman's 6:30pm+ typical. Extended hours during volatility but culture respects personal time."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Citadel Securities", companySlug: "citadel-securities", industry: "Finance" },
+        { companyName: "Jane Street", companySlug: "jane-street", industry: "Finance" }
+      ]
     }
   },
   'bank-of-america': {
