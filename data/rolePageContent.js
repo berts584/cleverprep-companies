@@ -6095,6 +6095,191 @@ export const rolePageContent = {
       compensation: ["$85-105K base","$30-100K bonus","$120-205K total","Performance-based","P&L linked","Seniors $400K-$2M+","Perks","Benefits","401(k)","Floor food","Tech access"],
       dayInLife: {overview:"6:30am-6pm typical. Fast markets. High energy. Team collaboration. Learning curve.",schedule:[{time:"6:45 AM",activity:"Pre-Market",description:"Global review"},{time:"7:30 AM",activity:"Setup",description:"Risk check"},{time:"9:30 AM",activity:"Open",description:"Execution"},{time:"10:30 AM",activity:"Trading",description:"Active management"},{time:"12:00 PM",activity:"Lunch",description:"Desk meal"},{time:"1:00 PM",activity:"Afternoon",description:"Continue trading"},{time:"2:00 PM",activity:"Data",description:"Event response"},{time:"3:30 PM",activity:"Late Day",description:"Close prep"},{time:"4:00 PM",activity:"Review",description:"P&L analysis"},{time:"5:00 PM",activity:"Post",description:"Research"},{time:"6:00 PM",activity:"Wrap",description:"Depart"}]},
       similarRoles: [{companyName:"Goldman Sachs",companySlug:"goldman-sachs",industry:"Finance"},{companyName:"JPMorgan Chase",companySlug:"jpmorgan",industry:"Finance"},{companyName:"Morgan Stanley",companySlug:"morgan-stanley",industry:"Finance"},{companyName:"Citigroup",companySlug:"citigroup",industry:"Finance"},{companyName:"Wells Fargo",companySlug:"wells-fargo",industry:"Finance"}]
+    },
+    'private-banker': {
+      roleDescription: "Financial Advisors at Merrill Lynch (Bank of America's wealth management division) serve the iconic 'Thundering Herd' - one of the most recognized and prestigious wealth management brands in the world with over $3 trillion in client assets, second only to Morgan Stanley. Merrill advisors benefit from Bank of America's unmatched balance sheet and integrated banking platform, offering clients seamless access to lending, banking services, investment banking expertise, and comprehensive financial planning in a client-centric, advice-based model. The role combines relationship management, portfolio construction, financial planning, and business development within BofA's collaborative, supportive culture that consistently ranks as a 'best place to work.' Compared to competitors, Merrill offers superior bank integration (one-stop-shop for clients' financial needs), better work-life balance than Goldman Sachs (50-55 hours/week vs 55-60+), competitive compensation (~3-5% below Morgan Stanley but offset by bank resources and brand strength), and industry-leading training through the Practice Management Program. The advisor career path is meritocratic with clear progression from Financial Advisor to Senior Financial Advisor to Market Executive roles, supported by cutting-edge technology (Client Engagement Workstation) and comprehensive platform resources.",
+      responsibilities: [
+        "Develop holistic financial plans addressing retirement, estate planning, tax optimization, education funding, and multi-generational wealth transfer for high-net-worth and ultra-high-net-worth clients",
+        "Construct diversified investment portfolios using Merrill's platform: managed accounts, alternative investments, structured products, and Bank of America banking solutions (credit, deposits, trust services)",
+        "Leverage Bank of America's integrated platform - coordinate with Private Bank for ultra-wealthy clients, utilize Investment Banking for liquidity events, access lending solutions for client needs",
+        "Build and maintain deep client relationships through proactive communication, regular portfolio reviews, life-event planning (business sales, inheritance, divorce), and comprehensive service model",
+        "Originate new client relationships through referrals from Bank of America branches, centers of influence (CPAs, attorneys), networking, and community involvement - building toward $50M, $100M, $250M+ AUM milestones",
+        "Utilize Merrill's research and investment insights - Bank of America Global Research, Chief Investment Office perspectives, thematic investing strategies - to provide clients thought leadership",
+        "Deliver sophisticated lending solutions through Bank of America platform - securities-based lines of credit, mortgages, business lending, credit cards - creating comprehensive banking relationships",
+        "Lead client presentations on market outlook, portfolio positioning, and financial planning using Merrill's Client Engagement Workstation and Goals-Based Wealth Management approach",
+        "Navigate regulatory environment (FINRA, SEC) while maintaining fiduciary standard, ensuring suitability of recommendations, and upholding Merrill Lynch's client-first culture"
+      ],
+      growthOpportunities: [
+        "Progression from Financial Advisor to Senior Financial Advisor to Premier Advisor based on AUM growth, client satisfaction, and business development success",
+        "Market Executive roles for top advisors managing $500M-$1B+ practices with team support and enhanced economics (45-50% payout grids)",
+        "Complex leadership positions overseeing multiple advisor teams and driving branch strategy in collaboration with Market Executives",
+        "Specialty practices focusing on Business Owners, Corporate Executives, Healthcare Professionals, Entertainers, or other high-value niches leveraging Merrill's expertise",
+        "Transition opportunities within Bank of America ecosystem - Private Bank (ultra-high-net-worth $10M+ clients), Investment Banking (coverage), or leadership roles",
+        "Geographic mobility across 2,000+ Merrill offices nationwide and international presence for advisors seeking different markets or lifestyle changes",
+        "Leadership development through Practice Management Program, advanced training modules, CFP sponsorship, and executive coaching for top performers"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screen",
+          description: "Phone or video conversation with recruiter or Market Executive covering background, interest in wealth management, understanding of advisory business model, and cultural fit with Merrill's client-first philosophy. Discussion of licensing requirements (Series 7, 66), business development expectations, and Merrill's training program. Assessment of relationship-building skills, sales aptitude, and long-term commitment to advisory career. More conversational and supportive than Goldman's intense screens - Merrill emphasizes culture fit and coachability.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Office/Team Interviews",
+          description: "Multiple rounds with Market Executive, Complex Director, and senior advisors covering situational judgment, client scenarios, business development approach, and collaborative fit. Emphasis on relationship-building ability, coachability, alignment with Merrill values (putting clients first, acting with integrity, leading with exceptional ideas, commitment to diversity). Case studies on portfolio construction, financial planning conversations, client service situations. Assessment of entrepreneurial drive balanced with team orientation. Cultural fit heavily emphasized - looking for long-term advisors who embody Thundering Herd values.",
+          duration: "2-4 hours across multiple meetings"
+        },
+        {
+          step: 3,
+          title: "Business Plan Presentation",
+          description: "Candidates present 12-18 month business development plan outlining target client segments, networking strategy, centers of influence cultivation, and AUM acquisition projections. Demonstrate understanding of Merrill's competitive advantages - Bank of America integration, research platform, technology tools, brand strength. Discuss warm market (existing relationships who could become clients), referral strategies (bank branch network), and long-term vision for building sustainable practice. Collaborative feedback process with coaching on refining approach - supportive culture focused on setting advisors up for success.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Final Interview & Offer",
+          description: "Meeting with senior leadership (Regional Director or Market Executive) to assess long-term potential, commitment to Merrill platform, and strategic fit with office goals. Discussion of compensation structure (salary plus development allowance transitioning to production-based), training timeline (comprehensive onboarding and Practice Management Program), mentor assignment, and realistic expectations (3-5 years to build sustainable $50M+ practice). Offer includes details on salary, benefits, office placement, and support resources. Merrill emphasizes long-term partnership and investment in advisor success through superior training and platform resources.",
+          duration: "45-60 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through how you would construct a diversified portfolio for a $5M client in their early 60s planning retirement in 5 years.",
+        "Explain the difference between active and passive investment management. When would you recommend each to clients?",
+        "How do you think about asset allocation across equities, fixed income, alternatives, and cash for clients with different risk profiles and time horizons?",
+        "What is a securities-based line of credit and how does it benefit clients compared to traditional lending? When would you recommend it?",
+        "Explain tax-loss harvesting and how you would implement this strategy to add value for clients in taxable accounts.",
+        "How would you advise a client who just sold their business for $30M on structuring their wealth for tax efficiency, diversification, and long-term planning?",
+        "What factors would you consider when recommending municipal bonds versus taxable bonds for a high-income client in a high-tax state?",
+        "Explain the role of trusts in estate planning. What are the differences between revocable and irrevocable trusts?",
+        "How do you stay informed about market conditions, investment opportunities, and economic trends? How would you communicate market volatility to anxious clients?",
+        "Walk through the pros and cons of 529 plans versus UTMA/UGMA custodial accounts for education funding.",
+        "What is your understanding of the fiduciary standard and how does it guide your recommendations to clients?",
+        "How would you approach portfolio planning for a corporate executive with significant concentrated stock position in their employer?",
+        "Explain the federal estate tax exemption and strategies for minimizing estate taxes for ultra-high-net-worth families.",
+        "What role do alternative investments (private equity, hedge funds, real estate funds) play in client portfolios and what are the key risks?",
+        "How do you assess a new client's risk tolerance, investment objectives, and time horizon during the discovery process?",
+        "Describe the differences between traditional IRAs, Roth IRAs, and Roth conversions. When would you recommend each strategy?",
+        "What is your approach to discussing fees with clients? How do you demonstrate value that justifies advisory fees?",
+        "How would you help a client think about charitable giving strategies - donor advised funds, charitable remainder trusts, direct donations?"
+      ],
+      behavioralQuestions: [
+        "Why wealth management? Why Merrill Lynch specifically over Morgan Stanley, Goldman Sachs, or other firms?",
+        "Tell me about a time you built a meaningful relationship with someone who became a strong advocate or referral source for you.",
+        "Describe a situation where you had to explain a complex topic to someone without technical background. How did you ensure they understood?",
+        "How do you handle rejection in sales or business development? Give an example of persisting through multiple setbacks.",
+        "Tell me about a time you had to manage competing priorities and multiple stakeholders with different needs. How did you prioritize?",
+        "Describe your approach to business development and building your professional network. What strategies have worked for you?",
+        "Give an example of when you went above and beyond to deliver exceptional customer service or client experience.",
+        "How do you stay motivated during long sales cycles or when building something from scratch takes years to show results?",
+        "Tell me about a time you disagreed with a manager or colleague about the right approach. How did you handle the situation?",
+        "Describe a situation where you had to learn a new skill, system, or subject matter quickly. What was your learning approach?",
+        "How do you balance time between servicing existing relationships and developing new business opportunities?",
+        "Give an example of when you received critical feedback. How did you respond and what changes did you make?",
+        "What is your long-term career vision? Where do you see yourself in 5-10 years in wealth management?",
+        "Describe a time when you worked as part of a team to accomplish a challenging goal. What was your specific contribution to the team's success?"
+      ],
+      whatTheyLookFor: [
+        "Relationship-building ability and genuine interest in people - wealth management success depends on deep, trusted client relationships built over decades",
+        "Entrepreneurial drive balanced with coachability - self-starters who build businesses but embrace Merrill's training, coaching, and platform resources",
+        "Business development skills and comfort with networking - ability to cultivate centers of influence, generate referrals, and build book of business organically",
+        "Long-term career commitment to advisory profession - Merrill invests heavily in training and seeks advisors who view this as 20-30 year career given multi-year ramp to profitability",
+        "Cultural fit with Merrill Lynch values - integrity, client-first mentality, collaboration, diversity and inclusion commitment, community involvement",
+        "Financial acumen and intellectual curiosity - ability to understand markets, investment strategies, tax planning, estate planning to serve sophisticated clients",
+        "Communication skills for simplifying complexity - translating market dynamics, investment concepts, financial planning strategies into clear client conversations",
+        "Resilience and perseverance for multi-year business building - realistic expectations about 3-5 year timeline to build sustainable practice, comfortable with delayed gratification",
+        "Ethical foundation and fiduciary mindset - transparency about fees and conflicts, prioritizing client interests over production pressure, upholding Merrill's reputation",
+        "Alignment with Bank of America ecosystem - enthusiasm for leveraging bank platform, cross-selling opportunities, integrated solutions that differentiate Merrill from independent RIAs"
+      ],
+      interviewTips: [
+        "Research Merrill Lynch history, Thundering Herd legacy, and Bank of America integration - understand competitive advantages over Morgan Stanley, Goldman, independent firms",
+        "Demonstrate genuine passion for helping clients achieve financial goals - avoid transactional sales mentality, emphasize long-term advisory relationships and fiduciary responsibility",
+        "Prepare specific examples of relationship building, business development success, navigating complex situations, and delivering exceptional service from prior roles",
+        "Show understanding of advisor economics - AUM-based fees, production grids, development allowance, transition to grid-based compensation, realistic timeline to profitability",
+        "Ask thoughtful questions about Practice Management Program, training timeline, mentor assignment, office culture, and support for new advisors",
+        "Discuss your network and potential centers of influence without overpromising - be realistic about warm market size and strategy for expanding beyond initial contacts",
+        "Understand competitive landscape - articulate how Merrill differentiates from Morgan Stanley (bank integration, brand), Goldman (scale, culture), independent RIAs (resources, platform)",
+        "Prepare business development plan with specific target client segments (business owners, professionals, retirees), networking approach, and AUM growth projections",
+        "Demonstrate financial literacy - read WSJ and Barron's, understand current market environment, be conversant about investment topics even if not yet licensed",
+        "Emphasize alignment with Merrill's collaborative, supportive culture - value training, mentorship, team approach versus lone wolf independent advisor mentality",
+        "Be prepared to discuss licensing timeline and commitment to studying for Series 7 and 66 exams if not yet securities licensed",
+        "Show long-term vision in wealth management - Merrill wants career advisors, not people using advisor role as stepping stone to other opportunities",
+        "Ask about specific office dynamics, team structure, mentor relationships, and growth opportunities in the particular branch/complex you'd join",
+        "Highlight transferable skills from prior experiences: relationship management, consultative selling, communication, problem-solving, persistence, client service excellence"
+      ],
+      salary: {
+        min: 65000,
+        max: 100000
+      },
+      compensation: [
+        "Base salary plus development allowance during training: $65-100K total depending on experience, market, and prior production for experienced advisors transitioning from competitors",
+        "Transition to production-based grid compensation after development period (typically 12-18 months) - payout 35-45% of gross production (fees and commissions) with increases at higher production tiers",
+        "Financial Advisors at $500K annual production: ~$175-225K total compensation. Advisors at $1M production: ~$350-450K. Top advisors at $3M+ production: $1M-$1.5M+ annually",
+        "Senior Financial Advisor and Premier Advisor enhanced grids: 40-45% payout rates for established producers, with accelerators for growth and client satisfaction metrics",
+        "Market Executive economics: 45-50% payout grids plus overrides on team production for advisors managing $500M-$1B+ practices with support teams - total comp $800K-$2.5M+",
+        "Deferred compensation for top producers: Merrill Advisor Wealth Builder equity awards, long-term incentive plans for advisors exceeding $2M+ in annual production",
+        "Transition packages for experienced advisors: upfront forgivable loans, transition bonuses, and production guarantees to recruit established books from competitors - can reach 100-400% of trailing 12-month production",
+        "Comprehensive benefits package: health insurance, 401(k) with company match, employee stock purchase plan, financial planning services, and Bank of America banking benefits",
+        "Client retention and growth bonuses - additional incentive compensation for AUM growth, net new assets, and high client satisfaction scores (Net Promoter Score)",
+        "Partnership opportunities and recognition - top performers qualify for Chairman's Club, President's Club, and special compensation programs; access to firm leadership and strategic initiatives"
+      ],
+      dayInLife: {
+        overview: "Financial Advisors at Merrill Lynch balance client relationship management, portfolio oversight, business development, and ongoing education in a client-centric culture that prioritizes long-term relationships and comprehensive service. The typical day involves client meetings (in-person, phone, video conference), portfolio reviews, research consumption, financial planning, and strategic networking. Hours are generally 8am-5:30pm with excellent work-life balance (50-55 hours/week) - significantly better than Goldman Sachs (55-60+ hours) and comparable to Morgan Stanley. The collaborative, supportive culture provides strong office support, comprehensive platform resources (Client Engagement Workstation, Bank of America integration), and sustainable career path. Technology enables efficient client service while personal relationships remain central to the Merrill Lynch advisory model and Thundering Herd legacy.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Market Review & Planning",
+            description: "Arrive at office, review overnight market performance, economic data, and Bank of America Global Research morning commentary. Check Client Engagement Workstation for client portfolio alerts, rebalancing needs, and action items. Review Bloomberg and Merrill investment platforms for market updates affecting client holdings. Plan day's priorities: client calls, meetings, prospecting activities, administrative tasks. Optional morning team huddle with office colleagues to discuss market themes and practice management strategies."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Client Portfolio Review Call",
+            description: "Quarterly portfolio review video call with $8M client discussing performance, rebalancing opportunities, upcoming tax-loss harvesting, and estate planning updates. Utilize Merrill's Goals-Based Wealth Management tools to visualize retirement projections and Monte Carlo simulations. Address client questions about market volatility using Bank of America Chief Investment Office perspectives. Schedule follow-up meeting with Bank of America Private Bank specialist to discuss trust services and estate execution. Collaborative, consultative approach focused on comprehensive financial planning."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Investment Research & Portfolio Management",
+            description: "Review Bank of America Global Research reports on technology and healthcare sectors relevant to client portfolios. Evaluate investment recommendations from Merrill's weekly Investment Committee call. Work with Portfolio Manager on managed account strategy adjustments. Analyze alternative investment opportunities (private equity funds, interval funds, real estate) for qualified high-net-worth clients. Research structured products and fixed income opportunities in current rate environment."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Networking Lunch with Center of Influence",
+            description: "Lunch meeting with estate planning attorney to build referral partnership and discuss mutual client opportunities. Share Merrill's value proposition - Bank of America platform integration, research capabilities, comprehensive wealth planning. Discuss collaborative approach to serving shared clients' complex needs. Build long-term center of influence relationships that generate steady stream of qualified referrals. Merrill's brand recognition opens doors with professionals."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Prospect Meeting - Business Owner",
+            description: "In-person meeting with prospective client (business owner with $20M liquidity event) to discuss Merrill's comprehensive wealth management approach. Present Merrill's platform advantages: Bank of America Investment Banking relationships for M&A advisory, lending solutions for business and personal needs, sophisticated investment strategies, estate planning expertise. Walk through case study of similar client situations. Goals-based planning discussion focused on client's objectives, not product pushing. Demonstrate Merrill's integrated 'one-stop-shop' value proposition that differentiates from boutique RIAs."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Administrative Tasks & Operations",
+            description: "Process client requests: fund transfers, account opening paperwork, beneficiary updates, RMD calculations. Coordinate with Merrill operations teams and Client Associate on account maintenance and service issues. Review compliance items, update CRM (Salesforce), ensure regulatory documentation current. Prepare for upcoming client reviews - generate performance reports, update financial plans, draft meeting agendas. Leverage technology and support staff to maximize efficiency."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Team Meeting & Training",
+            description: "Weekly office meeting with Market Executive and advisor colleagues to discuss best practices, new Merrill platform enhancements, practice management strategies, and business development ideas. Participate in training webinar on new Bank of America lending solutions. Collaborate with teammates on complex client situations - Merrill's culture encourages knowledge sharing. Review progress toward AUM goals and production targets with accountability partner."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Business Development & Client Follow-up",
+            description: "Return client calls and emails from during the day. Follow up from morning portfolio review with requested research and analysis. Outbound calling to warm leads and referrals from Bank of America branch network. Prepare personalized market commentary for key prospects. Plan networking activities - identify upcoming conferences, charity events, community involvement opportunities to expand professional network and raise profile."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up & Planning",
+            description: "Review day's accomplishments, update Salesforce CRM with client interactions and next steps, plan tomorrow's priorities. Quick check of after-hours market developments and any urgent client needs. Review personal production metrics and progress toward monthly/quarterly goals. Head home around 5:30-6pm with excellent work-life balance - Merrill's culture supports sustainable pace for long-term careers. Evening flexibility for occasional client events or networking, but typical work-life balance far superior to investment banking or Goldman PWM."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "UBS", companySlug: "ubs", industry: "Finance" }
+      ]
     }
   },
   'citigroup': {
