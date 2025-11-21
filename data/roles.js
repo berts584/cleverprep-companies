@@ -275,6 +275,81 @@ export const roles = {
     },
     industries: ['Finance', 'Investment Banking']
   },
+  'quantitative-analyst': {
+    name: 'Quantitative Analyst',
+    description: 'Develop mathematical models and algorithms to price securities, assess risk, and optimize trading strategies. Apply advanced mathematics, statistics, and programming to solve complex financial problems in derivatives pricing, portfolio optimization, and algorithmic trading.',
+    focusAreas: [
+      'Derivatives pricing and valuation',
+      'Statistical modeling and analysis',
+      'Risk modeling (VaR, Greeks, stress testing)',
+      'Algorithm development',
+      'Mathematical finance theory'
+    ],
+    keySkills: [
+      'Advanced mathematics (calculus, linear algebra, stochastic processes)',
+      'Programming (Python, C++, R, MATLAB)',
+      'Statistical analysis and machine learning',
+      'Financial engineering and derivatives',
+      'Monte Carlo simulation',
+      'Time series analysis'
+    ],
+    salaryRange: {
+      min: 125000,
+      max: 175000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Investment Banking']
+  },
+  'quantitative-trader': {
+    name: 'Quantitative Trader',
+    description: 'Design and implement algorithmic trading strategies using quantitative models and statistical analysis. Combine mathematical expertise with market intuition to identify trading opportunities, manage risk, and generate alpha across equities, fixed income, currencies, and derivatives.',
+    focusAreas: [
+      'Algorithmic trading strategy development',
+      'Statistical arbitrage and market making',
+      'High-frequency trading systems',
+      'Portfolio optimization and risk management',
+      'Market microstructure analysis'
+    ],
+    keySkills: [
+      'Quantitative modeling and statistics',
+      'Programming (Python, C++, Java)',
+      'Machine learning and data analysis',
+      'Financial markets knowledge',
+      'Risk management and portfolio theory',
+      'Low-latency systems and execution'
+    ],
+    salaryRange: {
+      min: 150000,
+      max: 250000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Investment Banking']
+  },
+  'private-banker': {
+    name: 'Private Banker',
+    description: 'Advise high-net-worth individuals and families on comprehensive wealth management including investment strategy, lending solutions, trust and estate planning, and banking services. Build long-term client relationships and coordinate specialized teams to deliver tailored financial solutions.',
+    focusAreas: [
+      'Client relationship management',
+      'Wealth planning and asset allocation',
+      'Investment advisory and portfolio management',
+      'Credit and lending solutions',
+      'Trust and estate planning coordination'
+    ],
+    keySkills: [
+      'Financial planning and wealth management',
+      'Client relationship and communication',
+      'Investment products and markets knowledge',
+      'Credit analysis and lending',
+      'Tax and estate planning fundamentals',
+      'Business development and networking'
+    ],
+    salaryRange: {
+      min: 100000,
+      max: 150000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Investment Banking']
+  },
   'management-consultant': {
     name: 'Management Consultant',
     description: 'Advise organizations on strategy, operations, and organizational transformation. Analyze complex business problems, develop recommendations, and support implementation of solutions across various industries.',
@@ -455,9 +530,9 @@ export const roles = {
 // Mapping of which roles are relevant for which industries
 export const rolesByIndustry = {
   'Technology': ['software-engineer', 'product-manager', 'data-scientist', 'business-analyst', 'marketing-manager', 'engineering-manager', 'machine-learning-engineer', 'devops-engineer', 'security-engineer', 'technical-program-manager'],
-  'Finance': ['software-engineer', 'data-scientist', 'business-analyst', 'investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst'],
+  'Finance': ['software-engineer', 'data-scientist', 'business-analyst', 'investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'quantitative-analyst', 'quantitative-trader', 'private-banker'],
   'Consulting': ['management-consultant', 'business-analyst', 'data-scientist'],
-  'Investment Banking': ['investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'business-analyst'],
+  'Investment Banking': ['investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'quantitative-analyst', 'quantitative-trader', 'private-banker', 'business-analyst'],
   'Healthcare': ['software-engineer', 'data-scientist', 'business-analyst'],
   'E-commerce': ['software-engineer', 'product-manager', 'data-scientist', 'marketing-manager'],
   'Consumer Goods': ['marketing-manager', 'business-analyst', 'data-scientist'],
