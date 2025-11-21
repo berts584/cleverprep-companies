@@ -5148,6 +5148,366 @@ export const rolePageContent = {
         { companyName: "Citadel Securities", companySlug: "citadel-securities", industry: "Finance" },
         { companyName: "Jane Street", companySlug: "jane-street", industry: "Finance" }
       ]
+    },
+    'private-banker': {
+      roleDescription: "Financial Advisors in Private Wealth Management at Morgan Stanley serve high-net-worth and ultra-high-net-worth clients through the firm's industry-leading Wealth Management platform - the largest and most prestigious wirehouse in the world with over $5 trillion in client assets. Morgan Stanley Wealth Management is the firm's crown jewel and core strategic pillar, offering advisors unparalleled resources including best-in-class research, proprietary investment banking deal flow, sophisticated lending capabilities, and comprehensive financial planning tools. The role combines relationship management, financial planning, portfolio construction, and business development in a client-centric, advice-based model. Morgan Stanley's culture emphasizes long-term client relationships over transaction volume, with the 'One Firm' collaborative approach providing seamless access to institutional resources. Compared to Goldman Sachs PWM, Morgan Stanley offers broader platform scale, deeper advisor support infrastructure, and better work-life balance (typical 50-55 hour weeks vs 55-60+ at Goldman). Compensation is competitive (~5% below Goldman for similar book size) but offset by superior training, technology, and sustainable career path. The advisor-focused model and meritocratic promotion to team leader and complex director roles create clear growth trajectory.",
+      responsibilities: [
+        "Develop comprehensive financial plans addressing wealth transfer, estate planning, tax optimization, philanthropy, and multi-generational wealth preservation for high-net-worth families",
+        "Construct diversified investment portfolios using Morgan Stanley's platform: managed accounts, alternative investments, private equity co-investments, and structured products",
+        "Leverage Morgan Stanley Research and Investment Banking to provide clients access to IPO allocations, private placements, and exclusive investment opportunities",
+        "Build and maintain deep client relationships through regular portfolio reviews, proactive communication, and life-event planning (liquidity events, business sales, inheritance)",
+        "Originate new client relationships through referrals, networking, and centers of influence - building book of business toward $100M+ AUM milestones",
+        "Collaborate across Morgan Stanley platform: coordinate with Investment Banking on private company sales, utilize Institutional Securities for hedging strategies, engage Trust services for estate execution",
+        "Utilize Morgan Stanley's lending platform to provide securities-based lines of credit, mortgages, and credit solutions for client liquidity needs",
+        "Lead client presentations on market outlook, investment themes, and portfolio positioning using Morgan Stanley Research insights and economic analysis",
+        "Navigate complex regulatory environment (FINRA, SEC) while maintaining fiduciary standard and suitability requirements for client recommendations"
+      ],
+      growthOpportunities: [
+        "Progression from Associate Financial Advisor to Financial Advisor to Senior Financial Advisor based on AUM growth and client satisfaction metrics",
+        "Team Leader roles for advisors who build $250M-$500M+ books - manage junior advisors and split economics while expanding client base",
+        "Complex Director positions overseeing $1B+ teams serving ultra-high-net-worth families and family offices with specialized planning needs",
+        "Specialty roles in Sports & Entertainment, Technology Executives, Healthcare Professionals, or other niche markets leveraging Morgan Stanley's industry expertise",
+        "Transition opportunities to Investment Banking (coverage roles for clients going public), Private Equity (portfolio company advisory), or Asset Management (institutional relationships)",
+        "Geographic mobility across Morgan Stanley's 600+ U.S. branches and international offices for advisors seeking different markets or lifestyle",
+        "Leadership development through Morgan Stanley's extensive training programs: Advanced Wealth Advisor curriculum, CFP sponsorship, and executive coaching"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screen",
+          description: "Phone or video conversation with recruiter or branch manager covering background, interest in wealth management, understanding of fiduciary advisory role, and cultural fit with Morgan Stanley's client-first philosophy. Discussion of licensing requirements (Series 7, 66) and expectation-setting around business development. Assessment of relationship-building skills and long-term commitment to advisory career. More conversational and less intense than Goldman's initial screens.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Branch/Team Interviews",
+          description: "Multiple rounds with Complex Director, Team Leader, and senior advisors covering situational judgment, client scenario responses, and business development approach. Emphasis on collaborative fit, coachability, and alignment with Morgan Stanley values. Case studies on portfolio construction, financial planning, and client communication. Assessment of sales aptitude balanced with advice-based mentality. Cultural assessment more prominent than at Goldman - looking for team players over lone wolves.",
+          duration: "2-4 hours across multiple meetings"
+        },
+        {
+          step: 3,
+          title: "Business Plan Presentation",
+          description: "Candidates present 12-18 month business development plan outlining target client segments, networking strategy, centers of influence cultivation, and AUM growth projections. Demonstrate understanding of Morgan Stanley's platform advantages and how to leverage research, banking relationships, and institutional resources. More collaborative feedback process than Goldman's evaluative approach - team helps refine plan rather than purely judging it.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Final Interview & Offer",
+          description: "Meeting with senior leadership (Regional Director or Complex Director) to assess long-term potential, commitment to wealth management, and strategic fit with branch goals. Discussion of compensation structure, training program, mentor assignment, and growth expectations. Morgan Stanley emphasizes supportive onboarding and realistic timeline to productivity (3-5 years to build sustainable book). Offer includes details on salary, transition assistance for experienced advisors, and production hurdles.",
+          duration: "45-60 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through how you would construct a diversified portfolio for a $10M client in their 50s preparing for retirement in 10-15 years.",
+        "Explain the difference between active and passive management. When would you recommend each approach to clients?",
+        "How do you think about asset allocation across equities, fixed income, alternatives, and cash for different client risk profiles?",
+        "What is a securities-based line of credit and when would you recommend this to a client versus traditional lending?",
+        "Explain tax-loss harvesting and how you would implement this strategy for high-net-worth clients in taxable accounts.",
+        "How would you advise a client who just sold their business for $50M on structuring their wealth for tax efficiency and diversification?",
+        "What factors would you consider when recommending municipal bonds versus taxable bonds for a high-income client?",
+        "Explain how trusts work in estate planning. What are the differences between revocable and irrevocable trusts?",
+        "How do you stay informed about market conditions and investment opportunities? How would you communicate market volatility to concerned clients?",
+        "Walk through the pros and cons of 529 plans versus custodial accounts for education funding.",
+        "What is your understanding of the fiduciary standard and how does it differ from suitability requirements?",
+        "How would you approach portfolio construction for a concentrated stock position (executive with significant company stock)?",
+        "Explain the estate tax exemption and strategies for minimizing estate taxes for ultra-high-net-worth families.",
+        "What role do alternative investments (private equity, hedge funds, real estate) play in client portfolios and what are the risks?",
+        "How do you evaluate risk tolerance and investment time horizon for new clients?",
+        "Describe the differences between traditional IRAs, Roth IRAs, and Roth conversions. When would you recommend each?",
+        "What is your approach to discussing fees with clients? How do you demonstrate value for advisory fees?",
+        "How would you help a client think about charitable giving strategies - donor advised funds, charitable trusts, direct donations?"
+      ],
+      behavioralQuestions: [
+        "Why wealth management? Why Morgan Stanley specifically over Goldman Sachs, JPMorgan, or other wirehouses?",
+        "Tell me about a time you built a relationship with someone who became a strong advocate or referral source.",
+        "Describe a situation where you had to explain a complex topic to someone without technical background. How did you ensure understanding?",
+        "How do you handle rejection? Give an example of persisting through multiple setbacks to achieve a goal.",
+        "Tell me about a time you had to manage competing priorities and multiple stakeholders with different needs.",
+        "Describe your approach to business development and networking. How have you built your professional network?",
+        "Give an example of when you went above and beyond to deliver exceptional client service or customer experience.",
+        "How do you stay motivated during long sales cycles or when building a business from scratch takes years?",
+        "Tell me about a time you disagreed with a manager or colleague. How did you handle the situation?",
+        "Describe a situation where you had to learn a new skill or subject matter quickly. What was your approach?",
+        "How do you prioritize your time between servicing existing clients and developing new business?",
+        "Give an example of when you received critical feedback. How did you respond and what did you change?",
+        "What is your long-term career vision? Where do you see yourself in 5-10 years?",
+        "Describe a time when you worked as part of a team to accomplish a goal. What was your specific contribution?"
+      ],
+      whatTheyLookFor: [
+        "Relationship-building skills and genuine interest in people - wealth management is ultimately about deep, trusted client relationships built over decades",
+        "Business development aptitude and comfort with prospecting - ability to build book of business through networking, referrals, and centers of influence cultivation",
+        "Coachability and growth mindset - Morgan Stanley invests heavily in training and wants advisors who embrace continuous learning and feedback",
+        "Long-term commitment to advisory career - the firm seeks advisors who view this as 20-30 year career, not stepping stone, given 3-5 year ramp to productivity",
+        "Collaborative mentality aligned with 'One Firm' culture - team players who leverage platform resources and share knowledge rather than operating in silos",
+        "Ethical foundation and client-first philosophy - fiduciary mindset, transparency about fees and conflicts, prioritizing client interests over production pressure",
+        "Financial acumen and intellectual curiosity - ability to understand markets, investment products, tax strategies, and estate planning to serve sophisticated clients",
+        "Communication skills for simplifying complexity - translating investment concepts, market volatility, and planning strategies into clear client conversations",
+        "Resilience and perseverance for multi-year business building - realistic about timeline to build sustainable practice and comfortable with delayed gratification",
+        "Cultural fit with Morgan Stanley values - integrity, excellence in execution, giving back to communities, diversity and inclusion commitment"
+      ],
+      interviewTips: [
+        "Research Morgan Stanley's history, culture, and Wealth Management platform - understand 'One Firm' philosophy, advisor resources, and competitive advantages over Goldman and other wirehouses",
+        "Demonstrate genuine passion for helping clients achieve financial goals - avoid pure sales mentality, emphasize advisory relationship and long-term value creation",
+        "Prepare specific examples of relationship building, business development, and navigating complex situations from prior roles",
+        "Show understanding of wealth management business model - AUM-based fees, production hurdles, timeline to profitability, and realistic expectations for building book of business",
+        "Ask thoughtful questions about training program, mentor assignment, branch culture, and support for new advisors - demonstrate commitment to learning",
+        "Discuss your network and potential centers of influence without overpromising - be realistic about warm market and strategy for expanding beyond initial contacts",
+        "Understand competitive landscape - know how Morgan Stanley differentiates from Goldman (scale, technology, training), JPMorgan (platform breadth), and independent RIAs",
+        "Prepare business plan with specific target client segments, networking approach, and AUM growth projections - show strategic thinking about building practice",
+        "Demonstrate financial literacy - read WSJ, understand current market environment, be conversant about investment topics even if not yet licensed",
+        "Emphasize team orientation and collaborative approach - Morgan Stanley values advisors who leverage platform and share knowledge, not lone wolves",
+        "Be prepared to discuss licensing timeline and commitment to studying for Series 7, 66 if not yet registered",
+        "Show long-term career vision in wealth management - Morgan Stanley invests in advisors for decades, not looking for short-term opportunists",
+        "Ask about specific branch dynamics, team structure, and growth opportunities - demonstrate interest in particular office and team you'd join",
+        "Highlight transferable skills from prior roles: relationship management, communication, problem-solving, persistence, and client service excellence"
+      ],
+      salary: {
+        min: 70000,
+        max: 110000
+      },
+      compensation: [
+        "Base salary during training: $70-110K depending on experience and market, with draw against future production for experienced advisors transitioning from other firms",
+        "Production-based compensation begins after training period - typical payout 35-45% of gross production (fees and commissions generated) with increases based on production tiers",
+        "Advisors at $500K production: ~$175-225K all-in compensation. Advisors at $1M production: ~$350-450K. Top advisors at $3M+ production: $1M-$1.5M+ (vs Goldman PWAs at similar production earning ~5-10% more)",
+        "Team Leader economics: enhanced payout splits (45-50%) plus override on team production - advisors managing $500M+ teams earning $800K-$2M+",
+        "Complex Director compensation: $1.5M-$5M+ for directors overseeing $1B+ in AUM across multiple teams, with management bonuses",
+        "Deferred compensation for top producers: equity awards and long-term incentive plans for advisors exceeding $2M+ in production",
+        "Transition packages for experienced advisors: upfront bonuses, forgivable loans, and production guarantees to recruit established books from competitors - can reach 100-300% of trailing 12-month production",
+        "Benefits package: comprehensive health insurance, 401(k) with company match, financial planning services, and Morgan Stanley equity purchase opportunities",
+        "Client retention bonuses and growth incentives - additional compensation for AUM growth and high client satisfaction scores",
+        "Partnership opportunities for top performers - select advisors participate in firm-wide bonus pools and special compensation programs typically reserved for investment bankers"
+      ],
+      dayInLife: {
+        overview: "Financial Advisors at Morgan Stanley balance client relationship management, portfolio oversight, business development, and ongoing education in a client-centric culture that prioritizes long-term relationships over transaction volume. The typical day involves client meetings (in-person, phone, video), portfolio reviews, research consumption, and strategic networking. Hours are generally 8am-5:30pm with flexibility for client needs and better work-life balance than Goldman Sachs (50-55 hours/week vs 55-60+ at Goldman). The collaborative 'One Firm' environment provides strong team support, comprehensive platform resources, and sustainable career path. Technology enables efficient client service while face-to-face interactions remain central to relationship building.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Market Review & Planning",
+            description: "Arrive at office, review overnight market performance, economic data releases, and Morgan Stanley Research morning notes. Check Bloomberg and internal platforms for relevant updates affecting client portfolios. Plan day's priorities: client calls, follow-ups, prospecting activities. Team huddle with Complex Director and fellow advisors to discuss market themes and client opportunities."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Client Meetings & Calls",
+            description: "Client portfolio review call discussing quarterly performance, rebalancing opportunities, and upcoming financial planning needs. Utilize Morgan Stanley's GoalPlanning tools to visualize retirement projections and adjust strategies. Address client questions about market volatility using Research insights. Schedule follow-up for estate planning review with Trust specialist."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Investment Research & Portfolio Management",
+            description: "Review Morgan Stanley Research reports on sectors and companies relevant to client portfolios. Evaluate investment ideas from weekly Wealth Management investment committee call. Work with Portfolio Manager on managed account strategy adjustments. Analyze alternative investment opportunities (private equity, hedge funds) for qualified clients."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Networking Lunch",
+            description: "Lunch with center of influence (CPA, attorney, business consultant) to build referral relationships and discuss mutual client opportunities. Discuss market environment, Morgan Stanley's capabilities, and collaborative approach to serving shared clients. Building long-term partnerships that generate steady referrals."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Financial Planning Session",
+            description: "Comprehensive financial planning meeting with prospective $15M client who sold their business. Walk through Morgan Stanley's wealth management process, discuss investment philosophy, present sample portfolio allocation, and outline estate planning strategies. Leverage platform advantages - Research access, Investment Banking relationships, lending capabilities. Collaborative, consultative approach focused on understanding client goals rather than pushing products."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Administrative & Operations",
+            description: "Process client requests: fund transfers, account opening paperwork, beneficiary updates. Coordinate with Morgan Stanley operations teams and service associates on account maintenance. Review compliance items and ensure regulatory documentation current. Prepare for upcoming client reviews and presentations."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Team Collaboration & Training",
+            description: "Meet with Team Leader to discuss pipeline, review business development progress toward AUM goals, and strategize on moving prospects through sales process. Participate in branch training session on new Morgan Stanley investment products or platform enhancements. Collaborate with teammates on complex client situations and share best practices."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Business Development & Follow-up",
+            description: "Outbound calling to warm leads and referrals. Follow up from morning client conversations with requested information and research. Prepare personalized investment commentary for key prospects. Plan networking activities - identify events, conferences, and community involvement opportunities to expand professional network."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up & Planning",
+            description: "Review day's accomplishments, update CRM with client interactions and next steps, plan tomorrow's priorities. Quick check of after-hours market developments and any urgent client needs. Head home around 5:30-6pm with better work-life balance than Goldman counterparts. Sustainable pace enables long-term career in wealth management."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "UBS", companySlug: "ubs", industry: "Finance" }
+      ]
+    },
+    'credit-analyst': {
+      roleDescription: "Credit Risk Analysts at Morgan Stanley assess and monitor credit risk across the firm's lending, trading, and investment activities, serving as independent risk gatekeepers protecting the firm's $1.2 trillion balance sheet. The role combines quantitative analysis, financial modeling, industry research, and credit judgment to evaluate counterparty creditworthiness, establish exposure limits, and monitor ongoing credit quality for corporate clients, financial institutions, sovereigns, and structured finance transactions. Morgan Stanley's credit culture emphasizes rigorous analysis, independent judgment, and partnership with business units - balancing risk-taking to support client relationships with prudent risk management to protect shareholder capital. Compared to Goldman Sachs, Morgan Stanley offers more collaborative culture ('One Firm' vs Goldman's siloed approach), slightly better work-life balance (55-60 hour weeks vs 60-65 at Goldman), and competitive compensation (~5% below Goldman). The role provides exposure to diverse credit products - investment grade and high yield corporates, leveraged finance, derivatives counterparty risk, structured products - with clear progression to senior analyst, associate, VP, and ultimately Managing Director roles. Credit analysts develop portable, highly valued skillset applicable across banking, investing, and risk management.",
+      responsibilities: [
+        "Conduct comprehensive credit analysis of corporate borrowers and counterparties using financial statement analysis, industry research, management assessment, and capital structure evaluation",
+        "Develop quantitative credit models incorporating financial ratios, cash flow projections, scenario analysis, and probability of default estimation for investment grade and sub-investment grade credits",
+        "Present credit recommendations to Credit Risk Committee covering new client onboarding, facility approvals, limit increases, and ongoing exposure management",
+        "Monitor existing credit exposures through quarterly reviews, covenant compliance tracking, rating migration analysis, and early warning indicators of credit deterioration",
+        "Collaborate with Investment Banking, Sales & Trading, and Treasury on structuring transactions to mitigate credit risk - collateral requirements, guarantees, credit derivatives hedging",
+        "Assess counterparty credit risk for derivatives trading, establishing CSA terms, calculating credit valuation adjustments (CVA), and managing wrong-way risk exposures",
+        "Evaluate structured finance transactions including CLOs, securitizations, and asset-backed securities - analyzing underlying collateral, structural protections, and waterfall mechanics",
+        "Conduct industry research and thematic credit analysis - sector deep dives, macroeconomic impact studies, and identification of emerging credit risks across portfolio",
+        "Participate in credit risk framework development - rating methodology enhancements, limit frameworks, stress testing, and regulatory capital optimization (Basel III compliance)"
+      ],
+      growthOpportunities: [
+        "Progression from Analyst to Senior Analyst to Associate based on credit judgment, analytical depth, and risk assessment accuracy - typical 5-7 year path to VP",
+        "Vice President and Executive Director roles with expanded coverage responsibilities, complex credit mandates, and participation in firmwide credit strategy",
+        "Managing Director positions leading credit teams, serving on senior risk committees, and shaping Morgan Stanley's credit risk appetite and frameworks",
+        "Specialization opportunities in sectors (Technology, Healthcare, Financial Institutions), products (Leveraged Finance, Derivatives Counterparty Risk, Structured Products), or regions (Emerging Markets, Europe)",
+        "Transition paths to Investment Banking (credit-focused M&A, leveraged finance, debt capital markets), Private Credit investing, or Credit Portfolio Management roles",
+        "Rotational opportunities across Morgan Stanley's global platform - experience in New York, London, Hong Kong, Tokyo offices for international credit exposure",
+        "Leadership development through Morgan Stanley's risk management training programs, external credit certifications (CFA, FRM), and mentorship from senior credit professionals"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "Initial 30-45 minute conversation with recruiter or junior credit analyst covering background, interest in credit risk, understanding of Morgan Stanley's business model, and cultural fit. Discussion of credit fundamentals - financial statement literacy, industry knowledge, risk mindset. More conversational and less intense than Goldman's screens, focusing on collaborative fit alongside technical aptitude.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Interviews",
+          description: "Multiple rounds with credit analysts, associates, and VPs covering accounting, financial analysis, credit metrics, and case studies. Expect detailed questions on financial statement analysis, leverage ratios, cash flow evaluation, and credit scenario analysis. Case study analyzing real company financials to make credit recommendation. Morgan Stanley emphasizes practical judgment and communication of credit views as much as pure technical skills. More collaborative interviewing style than Goldman - interviewers provide hints and test thought process rather than purely evaluating answers.",
+          duration: "3-4 hours across 4-5 interviews"
+        },
+        {
+          step: 3,
+          title: "Behavioral & Fit Interviews",
+          description: "Conversations with senior credit officers and Managing Directors assessing teamwork, communication skills, intellectual curiosity, and alignment with Morgan Stanley values. Scenario-based questions about handling disagreements with business units, communicating unpopular credit decisions, and balancing risk versus revenue. Cultural fit assessment more prominent than Goldman - looking for collaborative team players who can influence without authority.",
+          duration: "2-3 interviews, 45 minutes each"
+        },
+        {
+          step: 4,
+          title: "Final Interview & Offer",
+          description: "Meeting with Credit Risk leadership (Global Head or Regional Head) to assess long-term potential, commitment to risk management career, and strategic thinking about credit markets. Discussion of Morgan Stanley's credit culture, growth opportunities, and expectations. Offer details covering compensation, team placement, training program, and career development path. More transparent and collaborative offer process than Goldman's evaluative approach.",
+          duration: "45-60 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through the key financial ratios and metrics you would analyze when evaluating a corporate credit. Which are most important and why?",
+        "How do you calculate free cash flow? Why is FCF important for credit analysis?",
+        "Explain the difference between investment grade and high yield credits. What factors determine a company's credit rating?",
+        "If a company's revenue is declining but EBITDA is stable, what might be happening and what are the credit implications?",
+        "Walk through how you would analyze a leveraged buyout from a credit perspective. What are the key risks?",
+        "Explain the concept of credit spread. What factors cause credit spreads to widen or tighten?",
+        "How would you evaluate credit risk for a counterparty in derivatives trading? What is CVA?",
+        "Describe the waterfall structure in a CLO. How do different tranches have different risk profiles?",
+        "What is the difference between secured and unsecured debt? How does this affect recovery rates in default scenarios?",
+        "How do you assess a company's liquidity position? What metrics and factors would you examine?",
+        "Explain debt covenants. What are maintenance versus incurrence covenants and why do they matter?",
+        "Walk through how rising interest rates impact different types of borrowers and credit portfolios.",
+        "How would you conduct industry analysis as part of credit evaluation? What sector-specific factors would you examine?",
+        "Explain the capital structure of a typical corporation. How does seniority affect credit analysis?",
+        "What is economic versus accounting income? Which is more relevant for credit analysis?",
+        "How do you think about probability of default versus loss given default in credit risk assessment?",
+        "Describe how you would monitor an existing credit exposure. What early warning signs indicate deteriorating credit quality?",
+        "What are the key differences between analyzing financial institution credits versus corporate credits?"
+      ],
+      behavioralQuestions: [
+        "Why credit risk? Why Morgan Stanley specifically over Goldman Sachs or other banks?",
+        "Tell me about a time you had to analyze complex information and make a recommendation with incomplete data.",
+        "Describe a situation where you disagreed with a popular viewpoint. How did you communicate your perspective?",
+        "Give an example of when you had to influence someone without direct authority to change their approach or decision.",
+        "How do you handle situations where business pressure conflicts with risk management principles?",
+        "Tell me about a time you made a mistake in your analysis. How did you discover it and what did you do?",
+        "Describe your approach to staying current on markets, industries, and economic trends relevant to credit analysis.",
+        "Give an example of working as part of a team to solve a complex problem. What was your specific contribution?",
+        "How do you prioritize when managing multiple credit reviews, new deal analysis, and portfolio monitoring simultaneously?",
+        "Tell me about a time you received critical feedback on your work. How did you respond?",
+        "Describe a situation where you had to explain complex financial or credit concepts to non-technical audience.",
+        "What attracts you to independent risk management versus revenue-generating roles in banking or trading?",
+        "How do you balance rigorous risk assessment with enabling business growth and client relationships?",
+        "Where do you see yourself in 5-10 years? What is your long-term career vision in risk management or finance?"
+      ],
+      whatTheyLookFor: [
+        "Strong financial analysis skills - mastery of accounting, financial statements, ratio analysis, and cash flow evaluation for credit assessment",
+        "Quantitative aptitude combined with qualitative judgment - ability to blend numbers with industry knowledge, management assessment, and credit intuition",
+        "Independent thinking and intellectual courage - willingness to voice contrarian credit views and push back on business pressure when warranted by risk analysis",
+        "Communication skills for explaining credit decisions - translating complex analysis into clear recommendations for risk committees and business stakeholders",
+        "Collaborative mindset aligned with 'One Firm' culture - partnering with bankers and traders rather than antagonistic 'credit police' mentality",
+        "Attention to detail and analytical rigor - thoroughness in credit analysis, catching subtle warning signs, maintaining high-quality work under time pressure",
+        "Interest in markets, industries, and macroeconomics - intellectual curiosity about credit drivers, sector dynamics, and economic trends affecting credit quality",
+        "Risk management temperament - conservative disposition, long-term thinking, focus on downside protection rather than upside maximization",
+        "Ethical foundation and integrity - Morgan Stanley's credit culture depends on analysts providing honest, independent assessments without business bias",
+        "Growth potential and career commitment - desire to build expertise in credit, progress to senior roles, and contribute to Morgan Stanley's risk management franchise"
+      ],
+      interviewTips: [
+        "Master financial statement analysis - be fluent with balance sheets, income statements, cash flow statements, and how they interconnect for credit evaluation",
+        "Understand key credit metrics - leverage ratios (Debt/EBITDA, Net Debt/EBITDA), coverage ratios (EBITDA/Interest, FCF/Debt), and liquidity measures",
+        "Study credit rating methodologies - review S&P, Moody's, and Fitch criteria for corporate ratings and understand what drives investment grade versus high yield",
+        "Prepare for case studies - practice analyzing company financials and developing credit recommendation under time pressure, articulating key risks and mitigants",
+        "Know Morgan Stanley's business model and competitive positioning - understand how credit risk intersects with Investment Banking, Institutional Securities, and Wealth Management",
+        "Demonstrate market awareness - read credit market news, understand current macro environment, be conversant about recent credit events or defaults",
+        "Emphasize collaborative approach - Morgan Stanley values credit analysts who partner with business versus pure gatekeepers; show ability to find risk-appropriate solutions",
+        "Ask about credit culture and governance - demonstrate interest in how credit decisions are made, escalation frameworks, and independence of risk function",
+        "Highlight quantitative and qualitative skills - showcase both analytical rigor and ability to synthesize industry trends, management quality, competitive positioning",
+        "Prepare thoughtful questions about career development - inquire about sector coverage model, rotation opportunities, training programs, path to VP and MD",
+        "Show genuine interest in credit as career - articulate why credit risk appeals versus banking, trading, or investing, and long-term vision in risk management",
+        "Research recent Morgan Stanley credit decisions or risk management - understand firm's credit portfolio, risk appetite, and approach to emerging risks",
+        "Be ready to discuss work-life balance expectations - credit risk offers better hours than banking (55-60 vs 70-80) while maintaining intellectual rigor",
+        "Demonstrate ethical judgment - credit analysis requires independence and integrity; emphasize commitment to honest, unbiased risk assessment"
+      ],
+      salary: {
+        min: 110000,
+        max: 150000
+      },
+      compensation: [
+        "Base salary: $110-150K for analysts depending on experience and education, competitive with Goldman Sachs credit analysts",
+        "Performance bonus: $40-90K variable component based on individual performance, team results, and firm profitability - total comp $150-240K for analysts",
+        "Vice President compensation: $225-375K all-in (vs Goldman $240-400K) with slightly lower base but better work-life balance offsetting 5% comp differential",
+        "Managing Director total compensation: $500K-$1.5M+ for senior credit leaders, with top earners reaching $2M+ (vs Goldman $550K-$1.8M+)",
+        "Work-life balance advantage: typical 55-60 hour weeks versus Goldman's 60-65 hours, with better lifestyle offsetting slightly lower compensation",
+        "Deferred compensation for VPs and above - equity awards vesting over 3-5 years, aligning long-term retention with firm performance",
+        "Comprehensive benefits: health insurance, 401(k) match, Morgan Stanley stock purchase plan, and financial wellness programs",
+        "Promotion-based increases - significant comp jumps at each level (Analyst to Associate: +30-40%, Associate to VP: +40-50%, VP to MD: +50-70%)",
+        "Stability versus trading or banking - credit risk compensation less volatile, fewer extreme down years, creating more predictable earnings",
+        "Competitive total comp relative to consulting, corporate treasury, and buy-side credit roles with superior exit opportunities and skillset portability"
+      ],
+      dayInLife: {
+        overview: "Credit Risk Analysts at Morgan Stanley balance deep credit analysis, cross-functional collaboration, portfolio monitoring, and ongoing market research in a culture that values independent judgment and long-term risk management. The typical day involves financial modeling, credit committee presentations, business partner discussions, and industry research. Hours generally 9am-6:30pm with occasional extended days for deal deadlines (55-60 hours/week vs Goldman's 60-65 hours). The 'One Firm' collaborative environment creates productive partnerships with bankers and traders while maintaining credit independence. Technology and data analytics enhance credit assessment while fundamental analysis remains core to the role.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Market & Portfolio Review",
+            description: "Review overnight market developments, credit spread movements, and any rating actions or credit news affecting Morgan Stanley's portfolio. Check Bloomberg, CreditSights research, and internal risk systems for exposures approaching limits or credits showing deterioration. Morning team meeting with credit group to discuss portfolio concerns, new deal pipeline, and thematic credit issues."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Credit Analysis & Modeling",
+            description: "Deep dive into quarterly earnings for covered technology credit - update financial model with latest results, recalculate leverage and coverage ratios, revise cash flow projections. Analyze management commentary on capital allocation, assess impact of revenue miss on credit profile. Prepare credit memo documenting updated view and recommendation for limit extension or reduction."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Business Partner Meeting",
+            description: "Lunch meeting with Investment Banking coverage team to discuss upcoming leveraged finance transaction for existing client. Review proposed deal structure, leverage levels, use of proceeds, pro forma credit metrics. Provide preliminary credit feedback on concerns and potential mitigants (stronger covenants, collateral package, lower advance rate). Collaborative problem-solving to structure deal that meets client needs and Morgan Stanley's risk appetite."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Credit Committee Presentation",
+            description: "Present new credit recommendation to Risk Committee for healthcare services company seeking $500M senior secured facility. Walk through industry dynamics, company competitive position, financial analysis, and credit recommendation with proposed limits. Field questions from committee members on scenario analysis, covenant package, and downside risks. More collaborative discussion than Goldman's committees - genuine dialogue versus interrogation."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Portfolio Monitoring & Reviews",
+            description: "Conduct quarterly credit reviews for 5 existing exposures - check covenant compliance, review recent financial filings, update credit assessments. Flag one retail credit showing margin compression and weakening liquidity for enhanced monitoring. Document reviews in risk system and distribute to relevant business partners. Proactive communication about emerging concerns before they become problems."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Industry Research & Training",
+            description: "Participate in credit team sector deep dive on renewable energy industry - discussing secular trends, regulatory environment, technology disruption, and credit implications. Share perspectives from covered credits, learn from colleagues' experiences. Review Morgan Stanley Research industry reports and external credit research to enhance sector expertise. Ongoing learning essential to credit judgment."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up & Planning",
+            description: "Respond to business partner questions from earlier meetings, follow up on committee feedback, update credit models with new information. Plan tomorrow's priorities - credit memos to complete, companies to monitor, meetings to schedule. Quick check of after-hours earnings releases affecting portfolio. Head home around 6:30pm with sustainable work-life balance better than Goldman counterparts (typically staying until 7-7:30pm). Occasional late nights during busy deal periods but generally reasonable hours for risk role."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citi", companySlug: "citi", industry: "Finance" }
+      ]
     }
   },
   'bank-of-america': {
