@@ -2809,6 +2809,568 @@ export const rolePageContent = {
         { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
         { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
       ]
+    },
+    'quantitative-analyst': {
+      roleDescription: "Quantitative Analysts (Quants) at JPMorgan Chase develop sophisticated mathematical models and algorithms to price securities, manage risk, and optimize trading strategies across the Corporate & Investment Bank. Working in areas like Derivatives Pricing, Quantitative Research, Risk Modeling, or Algorithmic Trading, you'll apply advanced mathematics, statistics, and computer science to solve complex financial problems. JPMorgan's quant teams support trading desks across equities, fixed income, foreign exchange, and commodities, developing pricing models for exotic derivatives, building risk management frameworks, and creating systematic trading strategies. The role requires deep technical expertise in stochastic calculus, numerical methods, and programming, combined with practical understanding of financial markets. As a global leader in derivatives and electronic trading, JPMorgan offers quants the opportunity to work on cutting-edge problems with significant business impact.",
+      responsibilities: [
+        "Develop and implement derivatives pricing models using stochastic calculus, partial differential equations, and Monte Carlo simulation",
+        "Build risk models for Value at Risk (VaR), Greeks calculation, stress testing, and portfolio optimization",
+        "Create and backtest quantitative trading strategies using statistical arbitrage, market making, and signal generation",
+        "Write production-quality code in C++, Python, or Java for real-time pricing, risk, and trading systems",
+        "Calibrate models to market data and validate model accuracy through empirical testing and benchmarking",
+        "Collaborate with traders, risk managers, and technology teams to implement quantitative solutions",
+        "Research new modeling techniques and methodologies from academic literature and industry best practices",
+        "Support desk traders with model explanations, pricing inquiries, and troubleshooting complex transactions",
+        "Document models, assumptions, and methodologies for model risk management and regulatory review"
+      ],
+      growthOpportunities: [
+        "Progression from Associate to VP to Executive Director with increasing model complexity and team leadership",
+        "Opportunity to specialize in specific asset classes (interest rate derivatives, equity derivatives, FX options) or methodologies (machine learning, stochastic volatility)",
+        "Path to lead quantitative research teams, become desk quant supporting specific trading desks, or move into quantitative trading",
+        "Strong exit opportunities to hedge funds, proprietary trading firms, fintech companies, or tech firms (Google, Amazon)",
+        "Access to cutting-edge research, academic collaborations, and opportunities to publish in quantitative finance journals",
+        "Exposure to latest technologies including machine learning, GPU computing, and cloud-based quantitative infrastructure",
+        "Potential to transition to quantitative portfolio management, risk management, or trading strategy roles"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "Initial 30-45 minute conversation covering background, mathematical intuition, and basic probability/statistics questions. Expect brainteasers, probability puzzles (e.g., 'What's the expected number of coin flips to get two heads in a row?'), and resume discussion. Demonstrate strong quantitative intuition and genuine interest in quantitative finance.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Interview",
+          description: "60-90 minute deep technical interview covering stochastic calculus, derivatives pricing, programming, and problem-solving. Expect questions on Black-Scholes derivation, option pricing, numerical methods, C++ or Python coding problems, and brain teasers. May include live coding or whiteboarding problems. Demonstrate technical depth and ability to think under pressure.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site Superday",
+          description: "4-6 rounds with quants, traders, and managers covering deep technical topics, coding problems, and cultural fit. Expect: (1) Stochastic calculus and mathematical finance theory, (2) Probability and statistics brainteasers, (3) Programming and algorithms (implement pricing model, data structures), (4) Financial markets knowledge and derivatives intuition, (5) Behavioral fit and interest in specific areas. Be prepared for whiteboard coding, mathematical derivations, and defending your approach.",
+          duration: "4-6 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Team evaluates technical excellence, problem-solving ability, coding proficiency, and cultural fit. Quant roles require both theoretical depth and practical implementation skills. Offers typically extended within 1-2 weeks with competitive compensation including base, bonus, and signing package."
+        }
+      ],
+      technicalQuestions: [
+        "Derive the Black-Scholes equation using the risk-neutral pricing framework.",
+        "Explain Ito's lemma and apply it to derive the dynamics of a function of a geometric Brownian motion.",
+        "How would you price an Asian option? Describe at least two methods.",
+        "What is the Greeks (Delta, Gamma, Vega, Theta, Rho)? How would you hedge them?",
+        "Explain the difference between risk-neutral and real-world probability measures.",
+        "How would you calibrate a stochastic volatility model like Heston to market data?",
+        "Describe Monte Carlo simulation for option pricing. What are variance reduction techniques?",
+        "What is the difference between American and European options? How would you price American options?",
+        "Explain what implied volatility is. Why does the volatility smile exist?",
+        "How would you price a barrier option or lookback option?",
+        "Describe finite difference methods for solving PDEs in option pricing.",
+        "What is convexity adjustment in interest rate derivatives?",
+        "Explain the difference between local volatility and stochastic volatility models.",
+        "How would you model the term structure of interest rates? Describe at least two models.",
+        "What is counterparty credit risk and how do you calculate CVA (Credit Valuation Adjustment)?",
+        "Implement a binomial tree for option pricing in code.",
+        "How would you backtest a quantitative trading strategy?",
+        "Explain cointegration and how it's used in pairs trading."
+      ],
+      behavioralQuestions: [
+        "Why quantitative finance? Why JPMorgan Chase specifically?",
+        "Tell me about a complex mathematical or programming problem you've solved.",
+        "Describe your experience with financial modeling or quantitative research.",
+        "How do you approach learning new mathematical techniques or programming languages?",
+        "Tell me about a time you had to explain a complex quantitative concept to a non-technical audience.",
+        "Describe a project where you had to balance theoretical rigor with practical constraints.",
+        "How do you stay current with developments in quantitative finance and machine learning?",
+        "Tell me about a time your model or analysis produced unexpected results. How did you investigate?",
+        "Describe your experience working in teams on technical projects.",
+        "What areas of quantitative finance interest you most? (derivatives pricing, risk, algo trading, machine learning)",
+        "How would you handle disagreement about model assumptions with a trader or risk manager?",
+        "Tell me about your thesis/research and how it relates to quantitative finance.",
+        "What programming languages and tools are you most comfortable with?",
+        "Why choose quantitative finance over academia, tech, or data science?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional mathematical ability: mastery of stochastic calculus, probability theory, numerical methods",
+        "Strong programming skills in C++, Python, or Java with ability to write production-quality code",
+        "Deep understanding of derivatives, option pricing theory, and risk management concepts",
+        "Problem-solving ability and quantitative intuition to tackle novel problems",
+        "Intellectual curiosity and passion for learning new techniques from academia and industry",
+        "Ability to balance theoretical rigor with practical implementation and business needs",
+        "Clear communication skills to explain complex models to traders, risk managers, and stakeholders",
+        "Academic excellence: PhD or Masters in Mathematics, Physics, Engineering, Computer Science, or Financial Engineering",
+        "Research experience with publications or thesis demonstrating quantitative depth",
+        "Interest in financial markets and understanding of how quant models support trading and risk management"
+      ],
+      interviewTips: [
+        "Master core quantitative finance: Black-Scholes derivation, Ito's lemma, risk-neutral pricing, Greeks, numerical methods",
+        "Review stochastic calculus: Brownian motion, Ito processes, martingales, Girsanov theorem, Feynman-Kac",
+        "Practice probability and statistics brainteasers: expected value problems, Bayesian inference, conditional probability",
+        "Prepare programming: implement Black-Scholes, binomial tree, Monte Carlo in Python or C++. Review data structures and algorithms",
+        "Read classic texts: Hull's Options, Futures, and Other Derivatives; Shreve's Stochastic Calculus for Finance",
+        "Understand JPMorgan's quantitative businesses: derivatives trading, electronic market making, systematic strategies",
+        "Prepare examples from your research, thesis, or projects demonstrating quantitative problem-solving",
+        "Practice explaining technical concepts clearly - quants must communicate with traders and non-quants",
+        "Research recent developments: machine learning in finance, deep hedging, rough volatility, XVA adjustments",
+        "Be ready for live coding: bring laptop or be comfortable with whiteboard coding",
+        "Know your resume deeply - be able to explain every project, model, and technique mentioned",
+        "Prepare thoughtful questions about team focus, research culture, technology stack, and collaboration with trading desks",
+        "Demonstrate genuine interest in specific areas: what drew you to derivatives pricing vs risk vs algo trading?",
+        "Show awareness of model risk, regulatory requirements (FRTB, CCAR), and validation processes"
+      ],
+      salary: {
+        min: 150000,
+        max: 200000
+      },
+      compensation: [
+        "Base salary: $150-200K for PhD quants, $125-150K for Masters depending on experience",
+        "Annual performance bonus: $50-150K based on individual contribution and desk P&L",
+        "Signing bonus: $25-75K common for competitive PhD candidates from top programs",
+        "Relocation assistance for candidates moving to New York, London, or other financial centers",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with 5% company match",
+        "Tuition reimbursement for continued education or certifications (CQF, FRM)",
+        "Professional development budget for conferences (SIAM, Bachelier, R/Finance)",
+        "Access to research resources, academic journals, and collaboration opportunities",
+        "Total first-year compensation typically $225-425K all-in for experienced PhD quants"
+      ],
+      dayInLife: {
+        overview: "Quantitative Analysts at JPMorgan balance deep technical work with practical collaboration with trading desks and risk teams. Hours are typically 9am-6pm with good work-life balance, though urgent model fixes or trading desk support may require flexibility. The work combines independent research and model development with team collaboration, code reviews, and trader interactions. Culture values technical excellence, intellectual rigor, and practical problem-solving. Better work-life balance than trading while offering strong compensation and intellectually stimulating work.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Market Review",
+            description: "Check overnight market moves, review any model pricing issues flagged by traders. Scan for market events (volatility spikes, jumps) that might affect models or require recalibration."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Model Development",
+            description: "Continue implementing new local volatility model for equity exotic options. Write C++ code for PDE solver using Crank-Nicolson scheme. Debug numerical stability issues and optimize performance."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Trader Discussion",
+            description: "Meet with equity derivatives trader to discuss pricing of complex barrier option structure. Explain model assumptions, show Greeks profile, discuss hedging strategy. Adjust model based on trader feedback."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "Grab lunch with fellow quants. Discuss interesting problems, new papers from arxiv, or market events. Informal knowledge sharing about techniques and approaches."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Research & Literature Review",
+            description: "Read recent paper on rough volatility models and assess applicability to desk's products. Consider whether framework could improve pricing accuracy for path-dependent options."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Calibration",
+            description: "Calibrate Heston stochastic volatility model to current market implied volatility surface. Use Python optimization libraries. Run diagnostics on calibration quality and stability."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Code Review & Testing",
+            description: "Review colleague's code for new Asian option pricer. Check numerical accuracy, test edge cases, verify consistency with theoretical results. Provide constructive feedback."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Risk Meeting",
+            description: "Present stress testing framework for interest rate derivatives book to risk management team. Explain scenarios, methodology, and results. Discuss potential model enhancements."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Documentation & Wrap Up",
+            description: "Document model changes for model risk review. Update technical documentation. Respond to emails, prepare for tomorrow's tasks. Head home around 6pm with reasonable work-life balance."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" },
+        { companyName: "Barclays", companySlug: "barclays", industry: "Finance" }
+      ]
+    },
+    'quantitative-trader': {
+      roleDescription: "Quantitative Traders at JPMorgan Chase design, implement, and manage systematic trading strategies that generate alpha through quantitative models and statistical analysis. Working on desks across equities, fixed income, FX, and commodities, you'll combine mathematical modeling with market intuition to identify trading opportunities, manage risk, and execute strategies at scale. Unlike pure quant researchers, quantitative traders are directly accountable for P&L, requiring both technical excellence and business judgment. JPMorgan's electronic trading platform and market-making businesses provide massive datasets, sophisticated infrastructure, and capital to deploy strategies ranging from high-frequency market making to medium-frequency statistical arbitrage. The role demands expertise in quantitative modeling, programming, risk management, and understanding of market microstructure, with significant compensation tied to trading performance.",
+      responsibilities: [
+        "Develop and implement quantitative trading strategies using statistical modeling, machine learning, and signal generation",
+        "Conduct research and backtesting to identify alpha-generating opportunities across liquid and electronic markets",
+        "Build production trading systems in Python, C++, or Java that execute strategies in real-time",
+        "Monitor live trading strategies, analyze performance, and make real-time adjustments to parameters and risk limits",
+        "Manage portfolio risk through position limits, VaR constraints, and hedging strategies",
+        "Analyze market microstructure, execution quality, and transaction costs to optimize strategy performance",
+        "Collaborate with quantitative researchers, developers, and risk managers to enhance trading infrastructure",
+        "Investigate strategy degradation, market regime changes, and adapt models to evolving market conditions",
+        "Present strategy performance, risk metrics, and research findings to senior management and risk committees"
+      ],
+      growthOpportunities: [
+        "Rapid progression based on P&L performance with significant compensation upside through performance bonuses",
+        "Opportunity to manage larger capital allocations and expand strategy portfolio as you prove track record",
+        "Path to build and lead quantitative trading teams or start new strategy verticals",
+        "Develop expertise across multiple asset classes and strategy types (statistical arbitrage, market making, macro)",
+        "Strong exit opportunities to hedge funds (Citadel, DE Shaw, Two Sigma), prop trading firms (Jane Street, Jump), or launching your own fund",
+        "Exposure to cutting-edge technologies including machine learning, alternative data, and low-latency trading systems",
+        "Potential to transition to portfolio management, running systematic funds within JPMorgan Asset Management"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45-60 minute conversation covering quantitative background, trading intuition, and basic probability/statistics. Expect market-related probability questions (e.g., 'How would you make a market in a coin flip game?'), discussion of trading strategies you've researched, and motivation for quantitative trading vs research. Demonstrate quantitative skills and genuine interest in markets.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Interview",
+          description: "60-90 minute deep dive into quantitative trading concepts, strategy development, and programming. Expect: (1) Trading strategy design questions ('Design a pairs trading strategy'), (2) Market microstructure and execution ('How would you optimize execution of large order?'), (3) Statistical analysis and machine learning, (4) Coding problems in Python or C++ (implement strategy backtest, data analysis), (5) Risk management and portfolio optimization. Demonstrate both technical skills and trading intuition.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site Trading Rounds",
+          description: "4-6 rounds with quantitative traders, senior portfolio managers, and risk officers. Mix of: (1) Strategy deep-dives: describe your trading strategies, show results, defend methodology, (2) Live market making games or trading simulations, (3) Brain teasers and probability puzzles under time pressure, (4) Code review of your own work or live coding, (5) Market intuition: discuss recent market events, trading opportunities, risks. Prepare to present strategy research if requested. Cultural fit and ability to handle pressure are critical.",
+          duration: "4-6 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Team evaluates quantitative skills, trading intuition, P&L potential, risk awareness, and cultural fit. Quantitative trading requires balancing model sophistication with pragmatic execution. Offers typically include competitive base ($175-250K), performance bonus structure tied to P&L, and signing package. Performance-based compensation can reach multiples of base for successful traders."
+        }
+      ],
+      technicalQuestions: [
+        "Design a pairs trading strategy. How would you select pairs, generate signals, and manage risk?",
+        "Explain the concept of alpha, beta, and Sharpe ratio. How do you evaluate a trading strategy?",
+        "How would you detect if a trading strategy has stopped working or is experiencing regime change?",
+        "Describe mean reversion vs momentum strategies. When does each work best?",
+        "How would you make a market in an option with no observable price? Walk through your approach.",
+        "What is market impact and how would you model it for large orders?",
+        "Explain the difference between adverse selection and inventory risk in market making.",
+        "How would you build a cointegration-based trading strategy? What statistical tests would you use?",
+        "Describe methods for backtesting trading strategies. What are common pitfalls?",
+        "How do you account for transaction costs, slippage, and market impact in strategy development?",
+        "What is overfitting in trading models and how do you prevent it?",
+        "Explain walk-forward analysis and why it's important for strategy validation.",
+        "How would you optimize a portfolio of multiple trading strategies?",
+        "Describe different types of arbitrage strategies: statistical, index, merger, latency.",
+        "What machine learning techniques are useful in trading? What are limitations?",
+        "How would you implement a basic high-frequency market making strategy?",
+        "Explain maximum drawdown and how you'd manage it in live trading.",
+        "How would you use options to hedge a portfolio of systematic strategies?"
+      ],
+      behavioralQuestions: [
+        "Why quantitative trading? Why JPMorgan Chase?",
+        "Walk me through a trading strategy you've developed. What were the results?",
+        "Describe a time when a model or strategy didn't work as expected. How did you respond?",
+        "How do you handle the pressure of real-time P&L and live trading decisions?",
+        "Tell me about your experience with backtesting and strategy development.",
+        "How do you balance model sophistication with practical execution and robustness?",
+        "Describe a time you identified a trading opportunity others missed.",
+        "How do you stay current with developments in quantitative trading and machine learning?",
+        "Tell me about working in a team on quantitative projects. How do you collaborate?",
+        "What's your approach to risk management in trading strategies?",
+        "Describe a situation where you had to make a quick decision with incomplete information.",
+        "How would you handle a day when your strategies are losing money significantly?",
+        "What areas of markets interest you most? (equities, fixed income, FX, commodities)",
+        "Why quantitative trading versus quant research or software engineering?"
+      ],
+      whatTheyLookFor: [
+        "Strong quantitative skills: statistics, probability, machine learning, optimization",
+        "Programming proficiency in Python, C++, or Java with ability to build production trading systems",
+        "Deep understanding of trading strategies: stat arb, market making, momentum, mean reversion",
+        "Market intuition and understanding of market microstructure, execution, and liquidity",
+        "Risk management discipline and awareness of tail risks, regime changes, and portfolio construction",
+        "Demonstrated track record through personal trading, competitions (Kaggle, trading contests), or research",
+        "Ability to handle pressure, think quickly, and make decisions with real P&L implications",
+        "Intellectual curiosity and continuous learning mindset to adapt strategies to markets",
+        "Clear communication to explain strategies, results, and risks to senior traders and risk managers",
+        "Competitive drive balanced with risk awareness and adherence to limits"
+      ],
+      interviewTips: [
+        "Prepare 2-3 trading strategies you've researched or implemented with detailed methodology and results",
+        "Master core concepts: Sharpe ratio, alpha/beta, market impact, transaction costs, overfitting, backtesting",
+        "Review statistical techniques: cointegration, time series analysis, regression, machine learning basics",
+        "Practice coding: implement moving average crossover, pairs trading, or mean reversion in Python",
+        "Understand market microstructure: bid-ask spread, order books, maker-taker fees, adverse selection",
+        "Read seminal papers and books: Algorithmic Trading by Chan, Advances in Financial Machine Learning by López de Prado",
+        "Research JPMorgan's electronic trading businesses and systematic strategies across asset classes",
+        "Prepare for brain teasers and market-making games - practice expected value calculations under pressure",
+        "Be ready to discuss recent market events and potential trading opportunities you've identified",
+        "Show genuine passion for markets - what strategies interest you, what research do you follow?",
+        "Demonstrate risk awareness - successful quant traders balance aggressive research with disciplined risk management",
+        "Prepare questions about trading infrastructure, data sources, strategy development process, risk limits",
+        "If you have trading track record (personal, competitions), bring detailed results and be ready to defend methodology",
+        "Practice explaining complex strategies simply - you'll need to communicate with PMs, risk, and senior management"
+      ],
+      salary: {
+        min: 175000,
+        max: 250000
+      },
+      compensation: [
+        "Base salary: $175-250K depending on experience (PhD quants vs MBA vs promoted analysts)",
+        "Performance bonus: $100-500K+ highly variable based on individual P&L and desk performance",
+        "Signing bonus: $50-100K for competitive candidates from top programs or firms",
+        "Deferred compensation and restricted stock units for senior quantitative traders",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with 5% company match",
+        "Relocation assistance for major financial centers",
+        "Access to cutting-edge trading infrastructure, data, and research resources",
+        "Professional development for conferences and continued education",
+        "Total compensation can reach $500K-$1M+ for successful senior quantitative traders with strong P&L track records"
+      ],
+      dayInLife: {
+        overview: "Quantitative Traders at JPMorgan experience dynamic days balancing strategy research, live trading monitoring, and performance analysis. Hours typically 8am-6pm with flexibility required around market open/close and during high volatility. The role combines independent research with collaboration across quants, developers, and risk teams. Pressure comes from real-time P&L accountability but is balanced by systematic approach and risk limits. Culture values quantitative rigor, innovation, and pragmatic execution. Compensation tied to performance creates high-reward environment for successful traders.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Pre-Market Preparation",
+            description: "Arrive before market open to review overnight market moves, check strategy P&L, and review any alerts or model warnings. Adjust risk parameters or pause strategies if needed based on market conditions."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Market Open Monitoring",
+            description: "Monitor live trading as market opens. Watch strategy execution, fill rates, transaction costs, and real-time P&L. Ensure systems functioning correctly and strategies behaving as expected."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Performance Analysis",
+            description: "Analyze previous day's trading results. Decompose P&L into alpha, market impact, transaction costs. Investigate unusual losses or deviations from backtest expectations. Document findings."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Strategy Research",
+            description: "Work on developing new mean reversion strategy for equity pairs. Analyze historical data in Python, test cointegration relationships, simulate strategy with realistic transaction costs. Iterate on signal generation logic."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Team Meeting",
+            description: "Meet with quantitative trading team to discuss strategy performance, share research ideas, and review risk metrics. Collaborative discussion on market regime changes and strategy adaptations."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch & Market Monitoring",
+            description: "Quick lunch while keeping eye on live strategies and market conditions. Respond to any alerts or unusual trading activity."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Backtest Development",
+            description: "Implement rigorous backtest of new strategy using walk-forward analysis. Account for realistic slippage, market impact models, and transaction costs. Run sensitivity analyses on parameters."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Risk Review Meeting",
+            description: "Present strategy metrics to risk management: VaR, stress scenarios, maximum drawdown, position limits. Discuss any proposed increases to capital allocation based on strategy performance."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Market Close Monitoring",
+            description: "Monitor strategies through market close. Ensure proper position squaring, review end-of-day P&L, check all orders filled correctly. Handle any execution issues."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Post-Market Analysis & Wrap Up",
+            description: "Final review of day's trading, update performance tracking, document any strategy adjustments. Prepare notes for tomorrow. Head home around 6pm unless addressing urgent issues or market volatility."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Citadel Securities", companySlug: "citadel-securities", industry: "Finance" },
+        { companyName: "Jane Street", companySlug: "jane-street", industry: "Finance" }
+      ]
+    },
+    'private-banker': {
+      roleDescription: "Private Bankers at JPMorgan Chase serve ultra-high-net-worth individuals, families, and business owners through the firm's elite J.P. Morgan Private Bank. Managing relationships with clients who have $10 million to over $1 billion in investable assets, you'll deliver comprehensive wealth management including bespoke investment strategies, customized lending solutions, trust and estate planning, philanthropic advisory, and concierge banking services. The role combines sophisticated financial advisory with deep relationship management, requiring both technical expertise and exceptional interpersonal skills. Private Bankers coordinate specialized teams across investments, lending, estate planning, tax, and philanthropy to deliver integrated solutions. JPMorgan Private Bank's global platform, intellectual capital, and full-service capabilities make it a premier destination for ultra-wealthy clients. Success requires building trust-based relationships, understanding complex family dynamics and wealth goals, and orchestrating seamless delivery of the firm's capabilities.",
+      responsibilities: [
+        "Manage relationships with ultra-high-net-worth clients as primary point of contact for all wealth management needs",
+        "Develop comprehensive wealth plans addressing investment strategy, asset allocation, tax optimization, estate planning, and philanthropic goals",
+        "Create customized investment portfolios using institutional-quality managers, alternative investments, private equity, hedge funds, and direct investments",
+        "Structure sophisticated lending solutions including securities-based loans, mortgages, aircraft/yacht financing, and business credit facilities",
+        "Coordinate trust and estate planning with specialist teams to implement complex structures, family offices, and multi-generational wealth transfer",
+        "Source new client relationships through networking, referrals, centers of influence, and business development activities",
+        "Present investment ideas, market outlooks, and portfolio reviews in client meetings and quarterly business reviews",
+        "Collaborate with investment specialists, portfolio managers, estate attorneys, and tax advisors to deliver holistic solutions",
+        "Monitor portfolio performance, rebalance allocations, and proactively communicate during market volatility or life changes"
+      ],
+      growthOpportunities: [
+        "Clear progression from Private Banker to Senior Private Banker to Managing Director based on relationship growth and revenue",
+        "Opportunity to build substantial book of business with revenue-based compensation creating significant earnings potential",
+        "Path to specialize in specific client segments: entrepreneurs, corporate executives, family offices, foundations",
+        "Develop deep expertise in complex areas like alternative investments, tax strategies, multigenerational planning, philanthropic structures",
+        "Access to JPMorgan's global platform including international wealth planning, art advisory, sports and entertainment practices",
+        "Leadership opportunities managing teams of bankers or running market offices",
+        "Strong reputation and relationships can lead to opportunities at boutique wealth firms, family offices, or independent practice"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen with Recruiter",
+          description: "30-45 minute conversation covering background, interest in private banking, and understanding of client service. Expect questions about previous client-facing experience, knowledge of wealth management, and motivation for joining J.P. Morgan Private Bank. Demonstrate professionalism, communication skills, and genuine interest in serving high-net-worth clients.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Interview with Private Banking Team",
+          description: "60-90 minute discussion with Private Bankers and team leaders covering technical knowledge and client relationship skills. Expect questions on investment concepts (asset allocation, portfolio construction, alternative investments), wealth planning topics (estate planning, trusts, tax efficiency), lending structures, and client service scenarios. Demonstrate financial acumen, professionalism, and relationship-building ability.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 3,
+          title: "Market Leader Interviews",
+          description: "2-3 rounds with senior private bankers, market leaders, and potentially regional heads. Focus on cultural fit, business development ability, and understanding of ultra-high-net-worth client needs. Expect: (1) Case studies on client scenarios requiring complex wealth planning, (2) Discussion of how you'd build relationships and source new clients, (3) Behavioral questions on client service, teamwork, and handling difficult situations, (4) Assessment of polish, maturity, and executive presence required for UHNW clients.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Team evaluates financial knowledge, relationship management skills, business development potential, cultural fit, and executive presence. Private banking requires rare combination of technical expertise and interpersonal excellence. Offers typically extended 1-2 weeks after final interviews with details on compensation structure, book expectations, and team placement."
+        }
+      ],
+      technicalQuestions: [
+        "How would you construct an investment portfolio for a client with $50 million in investable assets?",
+        "Explain the difference between revocable and irrevocable trusts. When would you recommend each?",
+        "Walk me through how you'd advise a client on tax-efficient wealth transfer to next generation.",
+        "What is asset allocation and how would you determine appropriate allocation for a retired client?",
+        "Explain the benefits and risks of a securities-based line of credit versus traditional mortgage.",
+        "How would you advise a client who just sold their business for $100 million on structuring their wealth?",
+        "What is a donor-advised fund and when would you recommend it for philanthropic goals?",
+        "Describe different types of alternative investments and how they fit in UHNW portfolios.",
+        "How would you help a client balance liquidity needs with long-term investment objectives?",
+        "Explain what a family office is and when a client might benefit from establishing one.",
+        "How would you advise a client concerned about market volatility and potential losses?",
+        "What is estate tax and what strategies help minimize estate tax burden?",
+        "Describe the role of life insurance in estate planning for high-net-worth individuals.",
+        "How would you approach advising a client with complex cross-border assets and tax situations?",
+        "What due diligence would you conduct when recommending an alternative investment manager?",
+        "Explain the difference between active and passive investing. How do you advise clients?",
+        "How would you structure lending for a client purchasing a $20 million vacation property?",
+        "Describe how you'd coordinate with specialists (estate attorney, CPA, investment team) for complex client needs."
+      ],
+      behavioralQuestions: [
+        "Why private banking? Why J.P. Morgan Private Bank specifically?",
+        "Describe your experience building and managing client relationships.",
+        "Tell me about a time you provided exceptional client service that exceeded expectations.",
+        "How would you handle a difficult client situation or complaint?",
+        "Describe your approach to business development and networking.",
+        "Tell me about a time you had to coordinate multiple parties to deliver a complex solution.",
+        "How do you build trust with high-net-worth individuals and families?",
+        "Describe a situation where you had to deliver disappointing news to a client.",
+        "How do you stay current on investment markets, tax law changes, and wealth planning strategies?",
+        "Tell me about a time you identified a client need they hadn't articulated themselves.",
+        "How would you prioritize among multiple demanding clients with urgent requests?",
+        "Describe your experience with financial planning or investment advisory.",
+        "What do you think are the biggest challenges facing high-net-worth families today?",
+        "How would you differentiate J.P. Morgan Private Bank from competitors when prospecting?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional interpersonal and relationship-building skills with executive presence",
+        "Strong financial knowledge: investments, lending, estate planning, tax fundamentals",
+        "Business development mindset and proven ability to source new relationships through networking",
+        "Consultative approach to understanding client needs and delivering holistic solutions",
+        "Discretion, integrity, and professionalism required for ultra-high-net-worth clientele",
+        "Ability to simplify complex financial concepts and provide clear guidance",
+        "Team collaboration skills to coordinate across investment, lending, trust, and specialty teams",
+        "Emotional intelligence to navigate family dynamics, generational wealth transfer, and sensitive topics",
+        "Resilience and composure in handling demanding clients and high-pressure situations",
+        "Passion for helping clients achieve financial goals and secure family legacies"
+      ],
+      interviewTips: [
+        "Research J.P. Morgan Private Bank's service offerings, competitive positioning, and recent awards/recognition",
+        "Understand wealth management fundamentals: asset allocation, trusts, estate planning, tax efficiency, alternative investments",
+        "Prepare specific examples demonstrating relationship-building, client service excellence, and consultative approach",
+        "Know recent market conditions and how you'd discuss them with concerned clients professionally",
+        "Review basics of lending products: securities-based loans, mortgages, credit facilities",
+        "Understand the ultra-high-net-worth client segment: needs, concerns, expectations",
+        "Prepare thoughtful questions about team structure, client segmentation, support resources, training programs",
+        "Demonstrate polish, professionalism, and maturity - you'll represent JPM to billionaires and prominent families",
+        "Be ready to discuss how you'd source new clients through networking, centers of influence, and referrals",
+        "Show awareness of current wealth planning topics: tax law changes, ESG investing, next-gen wealth transfer, family governance",
+        "Practice articulating investment philosophy and how you'd advise clients on portfolio construction",
+        "Emphasize discretion and integrity - private banking requires absolute confidentiality and trust",
+        "Research JPMorgan's broader capabilities: investment bank, asset management, global reach that benefit private clients",
+        "Be prepared to discuss realistic revenue expectations and how you'd build a book of business over time"
+      ],
+      salary: {
+        min: 100000,
+        max: 150000
+      },
+      compensation: [
+        "Base salary: $100-150K for Associate Private Bankers, $150-250K+ for experienced bankers depending on market",
+        "Revenue-based incentive compensation: significant variable pay based on client revenue and asset growth",
+        "Total compensation potential: $200-500K+ for successful private bankers managing $250M-$1B+ in client assets",
+        "Signing bonus: $20-50K for candidates with existing relationships or relevant experience",
+        "Deferred compensation and equity awards for top producers and senior bankers",
+        "Comprehensive health, dental, and vision insurance with premium coverage",
+        "401(k) with 5% company match",
+        "Expense account for client entertainment and business development activities",
+        "Professional development budget for certifications (CFP, CIMA, CFA), training, and industry conferences",
+        "Top-tier compensation for Managing Directors and senior private bankers can exceed $1M+ with large, established books"
+      ],
+      dayInLife: {
+        overview: "Private Bankers at J.P. Morgan enjoy dynamic client-facing roles with significant autonomy and relationship ownership. Days balance client meetings, investment reviews, business development, and collaboration with specialists. Hours typically 8am-6pm with flexibility for client schedules, evening events, and entertainment. The work is relationship-driven, intellectually engaging, and personally rewarding. Culture values professionalism, teamwork, and client-first mentality. Compensation tied to client revenue creates entrepreneurial environment with significant upside for relationship builders.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Preparation",
+            description: "Review market overnight moves, check client portfolio performance, scan financial news. Prepare for day's client meetings and review agendas. Respond to any urgent client emails."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Team Meeting",
+            description: "Huddle with investment specialists and colleagues to discuss market views, investment ideas, and client opportunities. Share pipeline updates and collaborate on complex client situations."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Client Portfolio Review",
+            description: "Meet with long-standing client ($75M in assets) for quarterly review. Present portfolio performance, discuss rebalancing recommendations, review estate planning updates, discuss lending needs for vacation property. Build trust and deepen relationship."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Prospect Meeting",
+            description: "Initial meeting with referred prospect (business owner, $40M liquidity event). Listen to goals, understand family situation, explain J.P. Morgan Private Bank capabilities. Begin building relationship and trust."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Business Development Lunch",
+            description: "Lunch with attorney who serves as center of influence and source of referrals. Strengthen relationship, discuss mutual clients (with permission), stay top of mind for future introductions."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Internal Collaboration",
+            description: "Conference call with estate planning specialist, trust advisor, and tax expert to develop comprehensive wealth transfer plan for multi-generational client family. Coordinate integrated solution."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Investment Research",
+            description: "Review alternative investment opportunities from private equity and hedge fund teams. Conduct due diligence on managers for potential client recommendations. Prepare investment memos."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Client Service Follow-Up",
+            description: "Handle various client requests: process securities-based loan application, coordinate wealth transfer documentation, schedule upcoming family meeting, send market commentary addressing client concerns about volatility."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Networking Event",
+            description: "Attend charity fundraiser where many UHNW prospects participate. Build relationships, demonstrate community involvement, identify potential new clients through authentic connections. Represent JPM professionally."
+          },
+          {
+            time: "8:00 PM",
+            activity: "Evening Wrap Up",
+            description: "Return home after networking event. Quick check of emails for any urgent client matters. Document new prospect contacts and plan follow-up. Flexible schedule accommodates client needs and business development."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "UBS", companySlug: "ubs", industry: "Finance" }
+      ]
     }
   },
   'morgan-stanley': {
