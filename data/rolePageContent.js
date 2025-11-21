@@ -1097,6 +1097,1152 @@ export const rolePageContent = {
         { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" },
         { companyName: "Wells Fargo", companySlug: "wells-fargo", industry: "Finance" }
       ]
+    },
+    'quantitative-strategist': {
+      roleDescription: "Quantitative Strategists (Strats) at Goldman Sachs represent one of the firm's most distinctive and intellectually elite roles. Working within Global Banking & Markets, Strats are embedded directly with trading, sales, and banking desks to provide quantitative solutions, build sophisticated analytics tools, and solve complex business problems using mathematics, programming, and financial engineering. Unlike traditional quants focused purely on pricing models, Goldman Strats combine deep technical expertise with business acumen and communication skills to serve as 'helpers' and 'assistants' to traders and clients. The role offers extraordinary intellectual challenge, working on cutting-edge problems across equities, FICC, derivatives, and risk management. Strats enjoy Goldman's meritocratic culture, exceptional training through apprenticeship, and a powerful 'seal of approval' that opens doors across quantitative finance. The position balances independent technical work with constant desk interaction, requiring both mathematical sophistication and the ability to translate complex concepts for non-technical audiences.",
+      responsibilities: [
+        "Develop and implement quantitative models for derivatives pricing, risk management, and trading strategies embedded within specific desks",
+        "Build production-quality analytics tools, dashboards, and trading systems in Python, C++, or Java that traders use daily",
+        "Provide real-time quantitative support to traders on pricing complex structures, managing risk exposures, and identifying market opportunities",
+        "Conduct data analysis and generate trading signals using statistical methods, machine learning, and market microstructure insights",
+        "Design and implement risk models including VaR, stress testing, Greeks calculations, and scenario analysis for trading books",
+        "Collaborate with technology teams to integrate quantitative solutions into firm-wide trading and risk infrastructure",
+        "Research new quantitative methodologies from academic literature and adapt them to practical trading applications",
+        "Support client-facing activities by building analytical tools for sales teams and explaining complex models to clients",
+        "Participate in model validation, ensuring accuracy and robustness of pricing and risk calculations"
+      ],
+      growthOpportunities: [
+        "Rapid progression from Analyst to Associate to VP based on impact and technical excellence in Goldman's meritocratic culture",
+        "Opportunity to work across multiple desks and asset classes (equities, FICC, derivatives) gaining broad market exposure",
+        "Path to specialize deeply in specific areas: exotic derivatives pricing, systematic trading, quantitative risk, or machine learning applications",
+        "Potential to transition to quantitative trading roles with P&L responsibility or move into quantitative research leadership",
+        "Elite exit opportunities to top hedge funds (Citadel, DE Shaw, Two Sigma, Millennium), prop trading firms (Jane Street, Jump), or tech companies (Google, Facebook)",
+        "Access to Goldman's world-class training, mentorship from senior Strats, and collaboration with leading practitioners",
+        "'Seal of approval' from Goldman Strats role provides validation and opens doors across quantitative finance industry",
+        "Potential to publish research, present at conferences, and build reputation in quantitative finance community"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45-60 minute technical conversation covering mathematical reasoning, probability, programming, and motivation. Expect probability brainteasers (e.g., 'Expected number of coin flips to see HH?'), coding questions in Python or C++, and discussion of quantitative projects. Goldman assesses problem-solving ability under pressure and genuine interest in quantitative finance. Demonstrate structured thinking, coding proficiency, and knowledge of Goldman Strats' unique role.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Superday - Morning",
+          description: "3-4 rounds of intensive technical interviews with Strats and senior quants covering: (1) Advanced probability and statistics with brainteasers and derivations, (2) Programming and algorithms with live coding problems, (3) Financial mathematics including derivatives pricing basics and risk concepts, (4) Data structures, computational complexity, and system design. Goldman's technical bar is extremely high - expect rigorous questioning and follow-up probing. Interviewers assess depth of understanding, not just memorized answers.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 3,
+          title: "Desk-Specific Interviews - Afternoon",
+          description: "2-3 rounds with Strats and traders from specific desks (Equities, FICC, Derivatives) assessing technical fit and cultural alignment. Expect: (1) Desk-specific technical questions related to products and strategies, (2) Discussion of how you'd approach real business problems the desk faces, (3) Assessment of communication skills and ability to work with non-quants, (4) Cultural fit for Goldman's demanding, meritocratic environment. Chemistry with desk matters significantly - Strats must collaborate effectively with traders.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Final Review & Offer",
+          description: "Hiring committee reviews comprehensive feedback on technical excellence, problem-solving ability, coding skills, and cultural fit. Goldman Strats has one of the highest bars in finance - only exceptional candidates receive offers. Strats need both deep technical ability and strong business judgment. Offers typically extended within 1-2 weeks with competitive compensation: $165-220K base for experienced hires, significant bonus, and signing package."
+        }
+      ],
+      technicalQuestions: [
+        "Derive the Black-Scholes PDE using replicating portfolio argument.",
+        "Explain Ito's lemma and use it to derive dynamics of f(S_t) where S_t is geometric Brownian motion.",
+        "You have a biased coin with unknown probability p of heads. Design optimal strategy to simulate fair coin flip.",
+        "How would you price an Asian option? Describe multiple approaches and trade-offs.",
+        "Explain what the Greeks represent. How would you hedge a portfolio of options?",
+        "What is the expected number of coin flips to see pattern HH? What about HT?",
+        "Implement a binary search algorithm. What's the time complexity? How would you handle duplicates?",
+        "Design a data structure to support insert, delete, and getRandom() all in O(1) time.",
+        "Explain volatility smile and why it exists. What models can capture it?",
+        "How would you calibrate a local volatility model to market implied volatility surface?",
+        "You're given a stream of numbers. How do you efficiently compute rolling average of last N elements?",
+        "Explain Monte Carlo simulation for option pricing. What variance reduction techniques exist?",
+        "How would you backtest a trading strategy? What are common pitfalls to avoid?",
+        "What's the difference between risk-neutral and real-world probability measures?",
+        "Explain convexity adjustment in interest rate derivatives. When does it matter?",
+        "Design a system to handle real-time risk calculations for a large derivatives portfolio.",
+        "How would you detect arbitrage opportunities in option prices programmatically?",
+        "Explain maximum likelihood estimation. How would you use it to calibrate a model?"
+      ],
+      behavioralQuestions: [
+        "Why Goldman Sachs Strats specifically? What differentiates Strats from pure quant research or engineering roles?",
+        "Tell me about a complex quantitative problem you solved. Walk me through your approach and challenges.",
+        "Describe your experience with mathematical modeling and programming. What projects are you most proud of?",
+        "How do you approach learning new mathematical techniques or programming languages quickly?",
+        "Tell me about a time you had to explain a complex technical concept to a non-technical audience.",
+        "Describe a project where you had to balance theoretical rigor with practical constraints and time pressure.",
+        "How do you stay current with developments in quantitative finance, machine learning, and financial markets?",
+        "Tell me about a time your model or analysis produced unexpected results. How did you investigate?",
+        "Describe your experience working in teams on technical projects. How do you collaborate with non-quants?",
+        "What areas of quantitative finance interest you most? (derivatives pricing, trading, risk, machine learning)",
+        "How would you handle disagreement with a trader about model assumptions or risk calculations?",
+        "Walk me through your thesis/research and how it relates to problems Goldman Strats solve.",
+        "What programming languages and tools are you most proficient in? Give specific examples.",
+        "Why quantitative finance over academia, pure tech, or data science? What draws you to this field?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional mathematical ability: mastery of probability, stochastic calculus, statistics, and financial mathematics",
+        "Strong programming skills in Python and C++ with ability to write clean, production-quality code",
+        "Problem-solving prowess and quantitative intuition to tackle novel, ambiguous problems under pressure",
+        "Communication skills to explain complex quantitative concepts clearly to traders, sales, and clients",
+        "Business acumen and practical mindset - ability to balance theoretical rigor with real-world constraints",
+        "Intellectual curiosity and passion for learning new techniques, markets, and technologies",
+        "Cultural fit for Goldman's meritocratic, high-performance environment - humility combined with confidence",
+        "Academic excellence: PhD or Masters in Mathematics, Physics, Computer Science, Engineering, or Financial Engineering from top programs",
+        "Demonstrated impact through research, publications, competitions (Kaggle, coding contests), or previous quantitative work",
+        "Genuine interest in financial markets and understanding of how Strats support trading and client businesses"
+      ],
+      interviewTips: [
+        "Master core quantitative finance: Black-Scholes derivation, Ito's lemma, risk-neutral pricing, Greeks, numerical methods (Monte Carlo, PDE solvers)",
+        "Review probability and statistics deeply: probability distributions, conditional probability, Bayesian inference, maximum likelihood, stochastic processes",
+        "Practice coding extensively: implement option pricers, data structures, algorithms in Python and C++. Use LeetCode, HackerRank for practice",
+        "Read foundational texts: Hull's Options, Futures, and Other Derivatives; Shreve's Stochastic Calculus for Finance; Wilmott on Quantitative Finance",
+        "Understand Goldman Strats' unique positioning: embedded with desks, focus on practical solutions, balance between quant and engineering",
+        "Research Goldman's businesses and recent deals/trading activity to understand context for Strats work",
+        "Prepare detailed examples from research, projects, or thesis demonstrating problem-solving and quantitative depth",
+        "Practice explaining technical concepts simply - critical skill for Strats who work with traders daily",
+        "Know your resume deeply - be able to discuss every model, technique, project, and result in detail",
+        "Prepare for brainteasers: practice probability puzzles, logic problems, and mathematical reasoning under time pressure",
+        "Research recent developments: machine learning in finance, rough volatility, XVA adjustments, alternative data, deep hedging",
+        "Prepare 5-7 specific reasons 'Why Goldman Strats?' - reference culture, meritocracy, desk-embedded model, exit opportunities",
+        "Demonstrate genuine passion for both mathematics and markets - Strats live at intersection of theory and practice",
+        "Show awareness that Strats are 'helpers' to desks - humility and service orientation matter despite technical brilliance"
+      ],
+      salary: {
+        min: 165000,
+        max: 220000
+      },
+      compensation: [
+        "Base salary: $165-220K for experienced hires (PhD/Masters), $140-165K for junior analysts",
+        "Annual performance bonus: $60-180K based on individual impact, desk performance, and firm results",
+        "Signing bonus: $30-100K common for competitive candidates from top PhD programs or other elite firms",
+        "Relocation assistance for major financial centers (New York, London, Hong Kong, San Francisco)",
+        "Comprehensive health, dental, and vision insurance with premium coverage options",
+        "401(k) with company match and profit-sharing contributions",
+        "Tuition reimbursement for continued education or professional certifications (CQF, FRM, CFA)",
+        "Professional development budget for conferences (SIAM, Bachelier, Quant Congress, machine learning conferences)",
+        "Access to cutting-edge research resources, academic collaborations, and publication opportunities",
+        "Total first-year compensation typically $250-450K all-in for experienced PhD Strats with strong credentials"
+      ],
+      dayInLife: {
+        overview: "Goldman Sachs Strats experience intellectually stimulating days balancing deep quantitative work with constant desk interaction and collaboration. Hours typically 9am-7pm with flexibility around desk needs and project deadlines. Better work-life balance than trading or banking while maintaining high intensity and intellectual challenge. Work combines independent model development with real-time trader support, code reviews, and cross-functional collaboration. Culture values technical excellence, practical problem-solving, and meritocratic advancement. Strats enjoy respect from traders, autonomy in approach, and satisfaction from seeing quantitative solutions drive business impact.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Desk Sync",
+            description: "Arrive and check overnight market moves, any model issues flagged by overnight trading teams. Quick standup with desk traders to understand priorities: pricing requests, risk concerns, new trades requiring model support. Review emails from global teams and plan day's technical work."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Model Development",
+            description: "Focus time for deep technical work. Continue implementing stochastic volatility model for equity exotic options desk. Write C++ code for Monte Carlo pricer with variance reduction. Debug numerical issues, optimize performance for real-time pricing. Consult academic papers for calibration techniques."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Trader Collaboration",
+            description: "Meet with equity derivatives trader to discuss pricing of complex structured product for major client. Explain model assumptions, show Greeks profile and hedging strategy. Trader pushes back on assumptions - iterate on model to address concerns. Build mutual understanding of risk trade-offs."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch with Strats Team",
+            description: "Grab lunch with fellow Strats. Discuss interesting problems people are working on, new papers from arXiv, market events. Informal knowledge sharing about techniques, tools, and approaches. Learn about what other desks are doing."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Analytics Tool Development",
+            description: "Build Python dashboard for sales team showing real-time option implied volatilities and model fair values. Use Plotly for interactive visualization. Sales needs this for client pitches - balance functionality with time constraints. Write clean, maintainable code for future updates."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Real-Time Desk Support",
+            description: "Trader calls over: 'This price doesn't look right for butterfly spread.' Drop current work to investigate. Check model inputs, verify market data, recompute Greeks. Identify data feed issue causing incorrect vol interpolation. Fix quickly and explain root cause to trader."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Research & Innovation",
+            description: "Read recent paper on deep hedging using reinforcement learning. Assess whether approach could improve desk's option hedging strategies. Prototype simple implementation in Python to test feasibility. Document findings for team discussion."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Cross-Desk Collaboration",
+            description: "Join meeting with risk team, technology, and other Strats to discuss firm-wide risk aggregation platform. Provide input on derivatives risk calculations, data requirements, and performance considerations. Collaborative problem-solving across quantitative teams."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Code Review & Mentoring",
+            description: "Review junior Strat's code for new Asian option pricer. Check numerical accuracy, test edge cases, suggest performance improvements. Provide constructive feedback and explain best practices. Goldman's apprenticeship culture values developing junior talent."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Documentation & Wrap Up",
+            description: "Document model changes for model risk review. Update technical documentation for desk. Respond to emails, prepare for tomorrow's priorities. Head home around 7pm with good work-life balance. Occasional late nights for urgent projects or deadlines, but much better than trading or banking."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Citadel Securities", companySlug: "citadel-securities", industry: "Finance" },
+        { companyName: "Jane Street", companySlug: "jane-street", industry: "Finance" }
+      ]
+    },
+    'quantitative-trader': {
+      roleDescription: "Quantitative Traders at Goldman Sachs operate at the pinnacle of systematic trading, combining mathematical sophistication with market intuition to generate alpha and provide liquidity across global markets. Working within Global Banking & Markets' systematic trading platforms, you'll design, implement, and manage algorithmic trading strategies spanning equities, FICC, derivatives, and commodities. Unlike pure researchers, quantitative traders carry direct P&L responsibility and must balance model sophistication with practical execution and risk management. Goldman's platform offers unparalleled advantages: massive datasets, cutting-edge infrastructure, substantial capital allocations, and collaboration with world-class quants and technologists. The role demands expertise in statistical modeling, machine learning, programming, and market microstructure, combined with the composure to make real-time decisions under pressure. Goldman's meritocratic culture rewards performance generously - successful quantitative traders can earn exceptional compensation tied to P&L while building valuable skills for eventual hedge fund or proprietary trading opportunities. The position offers intellectual challenge, competitive intensity, and the prestige of the Goldman Sachs franchise.",
+      responsibilities: [
+        "Design and implement systematic trading strategies using statistical models, machine learning, and signal generation across multiple asset classes",
+        "Conduct rigorous research and backtesting to identify alpha-generating opportunities in liquid and electronic markets",
+        "Build production trading systems in Python, C++, or Java that execute strategies in real-time with low latency",
+        "Monitor live trading strategies continuously, analyzing performance attribution, transaction costs, and market impact",
+        "Manage portfolio risk through position limits, VaR constraints, stress testing, and dynamic hedging strategies",
+        "Analyze market microstructure, order flow, execution quality, and liquidity to optimize strategy performance",
+        "Collaborate with quantitative researchers, strats, developers, and risk managers to enhance trading infrastructure",
+        "Investigate strategy degradation, regime changes, and correlation breakdowns, adapting models to evolving market conditions",
+        "Present strategy performance, risk metrics, and research findings to senior management, risk committees, and partnership",
+        "Maintain discipline in risk management and adhere to firm-wide risk limits while pursuing aggressive alpha generation"
+      ],
+      growthOpportunities: [
+        "Rapid compensation growth tied directly to P&L performance - top performers can earn multimillion-dollar bonuses",
+        "Opportunity to manage larger capital allocations and expand strategy portfolio as track record proves out",
+        "Path to build and lead quantitative trading teams, mentor junior quants, or start new strategy verticals",
+        "Develop expertise across multiple asset classes and strategy types: statistical arbitrage, market making, macro, volatility",
+        "Elite exit opportunities to top hedge funds (Citadel, DE Shaw, Two Sigma, Millennium, Point72), prop shops (Jane Street, Jump, SIG), or launching own fund",
+        "Exposure to cutting-edge technologies: machine learning, alternative data, GPU computing, low-latency systems, cloud infrastructure",
+        "Potential transition to portfolio management running systematic funds within Goldman Sachs Asset Management",
+        "Partnership track at Goldman Sachs for exceptional performers with sustained P&L success and leadership"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "60 minute conversation covering quantitative background, trading intuition, and market knowledge. Expect market-related probability questions (e.g., 'Fair price for game where you flip coin and win 2^N dollars on Nth flip?'), discussion of trading strategies you've researched, and motivation for quantitative trading. Goldman assesses both technical skills and genuine passion for markets. Demonstrate systematic thinking, risk awareness, and understanding of Goldman's trading platforms.",
+          duration: "60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Deep Dive",
+          description: "90-120 minute rigorous technical interview covering: (1) Trading strategy design - 'Design mean reversion strategy for equity pairs, describe signal generation, risk management', (2) Statistical analysis and machine learning methodologies, (3) Market microstructure and optimal execution, (4) Coding problems in Python or C++ - implement backtest engine, analyze trading data, (5) Probability and expected value calculations under time pressure. Goldman's technical bar is exceptionally high. Demonstrate depth of knowledge and ability to think critically about strategy development.",
+          duration: "90-120 minutes"
+        },
+        {
+          step: 3,
+          title: "Trading Superday",
+          description: "5-7 rounds with quantitative traders, portfolio managers, senior leadership, and risk officers. Mix of: (1) Strategy presentations - present your trading research with detailed methodology and results, (2) Live market-making games and trading simulations under pressure, (3) Brain teasers and probability puzzles with real-time problem-solving, (4) Code review of your own implementations or live coding challenges, (5) Market intuition discussions - recent events, opportunities, risks across asset classes, (6) Cultural fit assessment for Goldman's intense, meritocratic environment. Be prepared for intellectual combat - interviewers will challenge assumptions and probe weaknesses.",
+          duration: "5-7 hours"
+        },
+        {
+          step: 4,
+          title: "Final Committee & Offer",
+          description: "Senior leadership committee reviews comprehensive feedback on quantitative skills, trading intuition, P&L potential, risk discipline, and cultural fit. Goldman has the highest bar in systematic trading - only candidates with exceptional technical ability and trading judgment receive offers. Offers include competitive base ($190-275K), significant performance bonus tied to P&L (can exceed base by multiples), and signing package. Top performers can reach $500K-$1M+ total compensation within few years."
+        }
+      ],
+      technicalQuestions: [
+        "Design a pairs trading strategy from scratch. How do you select pairs, generate entry/exit signals, size positions, and manage risk?",
+        "Explain Sharpe ratio, alpha, beta, and information ratio. How do you evaluate if a strategy is genuinely adding value?",
+        "How would you detect if a trading strategy has stopped working? What are signs of regime change or model degradation?",
+        "Compare mean reversion vs momentum strategies. Under what market conditions does each work best?",
+        "You're asked to make a market in a European call option with no observable market price. Walk through your approach.",
+        "Explain market impact and how you'd model it for optimal execution of large orders. What's the trade-off?",
+        "What's the difference between adverse selection and inventory risk in market making? How do you manage each?",
+        "Walk me through building cointegration-based trading strategy. What statistical tests validate the relationship?",
+        "Describe your approach to backtesting strategies rigorously. What are common pitfalls that invalidate backtests?",
+        "How do you account for transaction costs, slippage, and market impact in strategy development and backtesting?",
+        "Explain overfitting in trading models. What techniques prevent overfitting and ensure robustness?",
+        "What is walk-forward analysis and why is it critical for validating trading strategies?",
+        "How would you construct and optimize a portfolio of multiple systematic strategies with different characteristics?",
+        "Describe different arbitrage types: statistical, index, merger, latency. What risks does each carry?",
+        "What machine learning techniques are useful for trading? What are key limitations and risks?",
+        "Design a basic high-frequency market making strategy. What factors determine profitability?",
+        "Explain maximum drawdown and how you'd manage it in live trading. What's acceptable for different Sharpe ratios?",
+        "How would you use options to hedge systematic strategy portfolio against tail risk?"
+      ],
+      behavioralQuestions: [
+        "Why quantitative trading at Goldman Sachs specifically? What differentiates Goldman's platform from competitors?",
+        "Walk me through a trading strategy you've developed from conception to implementation. Show me the results.",
+        "Describe a time when a model or strategy didn't perform as expected in live trading or backtest. How did you respond?",
+        "How do you handle the psychological pressure of real-time P&L swings and live trading decisions?",
+        "Tell me about your experience with systematic strategy development, backtesting, and risk management.",
+        "How do you balance model sophistication and complexity with robustness and practical execution?",
+        "Describe a time you identified a trading opportunity or market inefficiency that others missed.",
+        "How do you stay current with developments in quantitative trading, machine learning, and market microstructure?",
+        "Tell me about working in teams on quantitative projects. How do you collaborate with researchers and developers?",
+        "What's your philosophy on risk management in trading strategies? How do you prevent blowups?",
+        "Describe a situation where you had to make a quick trading decision with incomplete information.",
+        "How would you handle a day or week when your strategies are losing money significantly?",
+        "What asset classes and markets interest you most? Equities, fixed income, FX, commodities? Why?",
+        "Why quantitative trading versus quantitative research, engineering, or data science? What draws you specifically to trading?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional quantitative skills: statistics, probability, machine learning, optimization, time series analysis",
+        "Strong programming ability in Python and C++ with capacity to build production-quality trading systems",
+        "Deep understanding of trading strategies: statistical arbitrage, market making, momentum, mean reversion, volatility",
+        "Market intuition and sophisticated understanding of microstructure, execution, liquidity, and price formation",
+        "Risk management discipline with awareness of tail risks, regime changes, correlation breakdown, and position sizing",
+        "Demonstrated track record through personal trading, quantitative competitions (Kaggle, IMC Prosperity), or research publications",
+        "Ability to perform under pressure, think quickly, make decisions with real P&L at stake, and maintain composure during losses",
+        "Intellectual curiosity and continuous learning mindset to adapt strategies as markets evolve",
+        "Clear communication to explain strategies, results, and risks to senior traders, portfolio managers, and risk committees",
+        "Cultural fit for Goldman's meritocratic, high-performance environment - competitive drive balanced with humility and teamwork"
+      ],
+      interviewTips: [
+        "Prepare 3-5 trading strategies you've researched or implemented with comprehensive methodology, backtests, and results - be ready to defend every assumption",
+        "Master core concepts: Sharpe ratio, alpha/beta, market impact, transaction cost modeling, overfitting prevention, walk-forward analysis",
+        "Review statistical techniques deeply: cointegration, time series analysis (ARIMA, GARCH), regression, principal component analysis, machine learning fundamentals",
+        "Practice coding: implement moving average crossover, pairs trading, mean reversion strategy in Python. Review data structures and algorithmic complexity",
+        "Understand market microstructure: bid-ask spread, order books, maker-taker fees, adverse selection, inventory management, optimal execution (Almgren-Chriss)",
+        "Read seminal books: Algorithmic Trading by Ernie Chan, Advances in Financial Machine Learning by Marcos López de Prado, Trading and Exchanges by Larry Harris",
+        "Research Goldman's systematic trading platforms, electronic market making, and quantitative investing across asset classes",
+        "Prepare for brain teasers and expected value calculations - practice probability problems under time pressure",
+        "Know recent market events and have informed views on trading opportunities, regime changes, and market inefficiencies",
+        "Show genuine passion for markets beyond just math - what strategies fascinate you? What research do you follow? What markets do you trade personally?",
+        "Demonstrate risk discipline - successful quant traders balance aggressive alpha generation with strict risk management and position limits",
+        "Prepare 5-7 specific reasons 'Why Goldman Sachs?' - reference systematic platforms, capital, culture, partnership track, exit opportunities",
+        "If you have trading track record (personal, paper trading, competitions), bring comprehensive results and be prepared to defend every decision",
+        "Practice explaining complex strategies simply - you'll communicate with PMs, risk managers, and senior leadership regularly",
+        "Show awareness of Goldman's 14 Business Principles and how they apply to trading (client service, integrity, teamwork despite individual P&L)"
+      ],
+      salary: {
+        min: 190000,
+        max: 275000
+      },
+      compensation: [
+        "Base salary: $190-275K depending on experience level (PhD quants vs MBA vs promoted analysts)",
+        "Performance bonus: $150-800K+ highly variable based on individual P&L contribution and desk performance",
+        "Signing bonus: $75-150K for competitive candidates from top PhD programs, other elite firms, or with proven track records",
+        "Guaranteed bonus structures common for first 1-2 years to mitigate risk of joining",
+        "Deferred compensation and restricted stock units that vest over 3-4 years for retention",
+        "Comprehensive health, dental, and vision insurance with premium family coverage",
+        "401(k) with company match plus profit-sharing contributions",
+        "Relocation assistance and housing support for major financial centers",
+        "Access to cutting-edge trading infrastructure, datasets (including alternative data), and research resources",
+        "Professional development budget for conferences, continued education, and industry networking",
+        "Total compensation for successful senior quantitative traders regularly reaches $1M-$3M+ with sustained strong P&L performance",
+        "Partnership track available for exceptional performers - Goldman Sachs partners earn multimillion-dollar compensation and carry significant prestige"
+      ],
+      dayInLife: {
+        overview: "Quantitative Traders at Goldman Sachs experience intense, dynamic days balancing strategy research, live trading monitoring, performance analysis, and risk management. Hours typically 7:30am-6:30pm with flexibility required around market hours and during high volatility periods. The role combines independent research with constant collaboration across quants, developers, traders, and risk teams. Significant pressure from real-time P&L accountability balanced by systematic approach, risk limits, and team support. Goldman's meritocratic culture rewards performance handsomely but maintains high expectations for sustained alpha generation. Compensation tied to P&L creates high-stakes but high-reward environment for successful traders.",
+        schedule: [
+          {
+            time: "7:30 AM",
+            activity: "Pre-Market Preparation",
+            description: "Arrive well before market open to review overnight market moves across global markets. Check strategy P&L from Asia and European sessions. Review alerts, model warnings, and risk reports. Analyze overnight news and economic data releases that might impact strategies. Adjust risk parameters or pause strategies if warranted by market conditions."
+          },
+          {
+            time: "8:00 AM",
+            activity: "Team Meeting",
+            description: "Morning standup with quantitative trading team, strats, and risk managers. Discuss overnight performance, current market regime, strategy behaviors, and priorities for the day. Share insights on market microstructure changes or opportunities. Senior traders provide guidance on risk positioning."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Market Open Monitoring",
+            description: "Intense focus as US markets open. Monitor all live strategies in real-time: execution quality, fill rates, slippage, transaction costs, and P&L. Watch for anomalies in strategy behavior or market conditions. Make real-time adjustments to parameters, sizing, or pause strategies if necessary. Ensure systems functioning correctly and risk limits respected."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Performance Attribution",
+            description: "Detailed analysis of overnight and morning trading results. Decompose P&L into components: alpha, market impact, transaction costs, execution timing. Compare live performance against backtest expectations. Investigate unusual losses or deviations from model predictions. Document findings and hypotheses about strategy behavior."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Strategy Research",
+            description: "Deep focus time for developing new mean reversion strategy for equity pairs. Analyze historical cointegration relationships in Python. Test signal generation logic with realistic transaction costs and market impact. Run Monte Carlo simulations of strategy under various market regimes. Iterate on risk management rules and position sizing."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Working Lunch",
+            description: "Quick lunch at desk or with trading team while keeping eye on live strategies and market conditions. Informal discussion about interesting market dynamics, new research ideas, or strategy improvements. Stay alert for any alerts requiring immediate attention."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Backtest Development",
+            description: "Implement comprehensive backtest framework for new strategy using walk-forward analysis. Build realistic market impact model based on historical order book data. Account for slippage, fees, funding costs, and all friction. Run extensive parameter sensitivity analyses. Validate that strategy performance is robust across different market regimes and time periods."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Risk Committee Presentation",
+            description: "Present proposed increase in capital allocation for systematic momentum strategy to risk committee. Show detailed performance metrics: Sharpe ratio, maximum drawdown, VaR, stress scenarios, correlation with other strategies. Explain risk management framework and circuit breakers. Answer probing questions from senior risk managers and leadership. Defend methodology and assumptions."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Market Close Monitoring",
+            description: "Heightened attention during final hour of trading. Monitor strategy behavior during closing auction. Ensure proper position squaring and risk management. Handle any execution issues or system problems. Watch for unusual price movements or liquidity changes that might require intervention."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Post-Market Analysis",
+            description: "Comprehensive review of full day's trading across all strategies. Update performance dashboards and P&L attribution. Generate reports for senior management. Document any changes made to strategies, parameters, or risk limits. Analyze what worked well and what needs improvement. Prepare notes and priorities for tomorrow."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Collaboration & Wrap Up",
+            description: "Sync with strats and developers on technical improvements to trading infrastructure. Review code commits, discuss optimization opportunities, plan system enhancements. Quick check of overnight risk positions and coordination with London team for Asia session coverage. Head home around 6:30pm during normal markets. Extended hours during high volatility, major market events, or critical project deadlines."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Citadel Securities", companySlug: "citadel-securities", industry: "Finance" },
+        { companyName: "Jane Street", companySlug: "jane-street", industry: "Finance" }
+      ]
+    },
+    'private-banker': {
+      roleDescription: "Private Wealth Advisors at Goldman Sachs serve ultra-high-net-worth individuals, families, and institutions through the firm's prestigious Private Wealth Management division. Managing relationships with clients who have $10 million to over $1 billion in investable assets, you'll deliver white-glove wealth advisory including bespoke investment strategies, alternative investments, trust and estate planning, customized lending, philanthropic structuring, and family governance. The role combines sophisticated financial expertise with exceptional relationship management, requiring both technical mastery and polished interpersonal skills. As a Goldman PWA, you'll coordinate specialists across the firm - investment strategists, estate planners, tax advisors, credit experts - to deliver integrated solutions backed by Goldman's intellectual capital and global platform. Goldman's Private Wealth Management is distinguished by institutional-quality investment access (including Goldman's own funds and co-investment opportunities), cutting-edge research, and the prestige of the Goldman Sachs franchise. Success requires building deep trust-based relationships, understanding complex family dynamics, and orchestrating seamless delivery of the firm's world-class capabilities while upholding Goldman's principles of client service and integrity.",
+      responsibilities: [
+        "Manage comprehensive relationships with ultra-high-net-worth clients ($10M+) as primary advisor for all wealth management needs",
+        "Develop sophisticated wealth plans integrating investment strategy, asset allocation, tax optimization, multi-generational estate planning, and philanthropic goals",
+        "Construct institutional-quality investment portfolios using Goldman's platform: alternative investments, private equity, hedge funds, direct deals, and co-investment opportunities",
+        "Structure complex lending solutions including securities-based loans, mortgages, aircraft/yacht financing, real estate credit, and bespoke financing structures",
+        "Coordinate trust and estate planning with Goldman's specialists to implement sophisticated structures, family offices, dynasty trusts, and wealth transfer strategies",
+        "Source new client relationships through networking, centers of influence (attorneys, CPAs, family offices), referrals, and business development in affluent communities",
+        "Present investment ideas, market perspectives, and portfolio reviews in client meetings, leveraging Goldman's global research and market insights",
+        "Collaborate with investment strategists, portfolio managers, estate attorneys, tax advisors, and credit specialists to deliver holistic, seamless solutions",
+        "Monitor portfolio performance, rebalance allocations, and proactively communicate during market volatility, life transitions, or planning opportunities"
+      ],
+      growthOpportunities: [
+        "Rapid progression from Associate to VP to Managing Director based on relationship growth, revenue generation, and client service excellence",
+        "Opportunity to build substantial book of business ($500M-$2B+ AUM) with revenue-based compensation creating significant earnings potential",
+        "Path to specialize in lucrative client segments: entrepreneurs, tech executives, family offices, foundations, institutional clients",
+        "Develop deep expertise in complex areas: alternative investments, international wealth planning, tax strategies, philanthropic structures, family governance",
+        "Access to Goldman's unparalleled platform: proprietary investment opportunities, global capabilities, world-class research, and executive networks",
+        "Leadership opportunities managing teams of advisors, running regional offices, or building specialized practices",
+        "Partnership track at Goldman Sachs for exceptional performers with sustained revenue growth and exemplary client service",
+        "Strong reputation and Goldman pedigree create exit opportunities to boutique wealth firms, family offices, or launching independent RIA practice"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen with Recruiter",
+          description: "45-60 minute conversation covering background, interest in private wealth management, and understanding of ultra-high-net-worth clients. Expect questions about client-facing experience, wealth management knowledge, business development capability, and motivation for Goldman Sachs specifically. Goldman looks for polished communication, genuine passion for serving clients, and cultural alignment with firm's principles. Demonstrate professionalism, articulate interest in PWM, and show understanding of Goldman's differentiated platform.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Interview with PWM Team",
+          description: "90-120 minute deep discussion with Private Wealth Advisors and team leaders covering technical knowledge and relationship management skills. Expect rigorous questions on: (1) Investment concepts - asset allocation, alternative investments, portfolio construction, manager selection, (2) Wealth planning - estate planning, trusts, tax efficiency, wealth transfer strategies, (3) Credit and lending structures for UHNW clients, (4) Client service scenarios and relationship building, (5) Business development approach and networking capabilities. Goldman assesses both technical depth and interpersonal excellence. Come prepared with specific examples demonstrating consultative approach and client results.",
+          duration: "90-120 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday with Leadership",
+          description: "3-5 rounds with senior Managing Directors, regional heads, and potentially division leadership. Goldman's PWM superday is rigorous and assesses: (1) Complex client case studies requiring integrated wealth solutions, (2) 'Why Goldman Sachs PWM?' - must articulate 5-7 specific, compelling reasons, (3) Business development strategy - how you'd build book, source relationships, leverage networks, (4) Behavioral questions on client service, teamwork, handling difficult situations, pressure, (5) Assessment of polish, maturity, executive presence required for billionaire clients, (6) Cultural fit with Goldman's principles: client service, integrity, excellence, teamwork. Be prepared for intellectual rigor and probing questions. Interviewers assess whether you can represent Goldman Sachs to the world's wealthiest families.",
+          duration: "4-6 hours"
+        },
+        {
+          step: 4,
+          title: "Final Committee & Offer",
+          description: "Senior leadership committee reviews comprehensive feedback on technical knowledge, relationship skills, business development potential, cultural fit, and executive presence. Goldman has the highest bar for client-facing roles - only candidates with exceptional technical ability AND interpersonal polish receive offers. PWM requires rare combination of investment expertise and relationship excellence. Offers typically extended 1-2 weeks with details on compensation structure (base $110-165K, significant performance-based upside), book development expectations, and team/market placement."
+        }
+      ],
+      technicalQuestions: [
+        "How would you construct an investment portfolio for a client with $100 million in investable assets? Walk me through asset allocation, manager selection, and alternative investments.",
+        "Explain the difference between revocable and irrevocable trusts. When would you recommend each for estate planning?",
+        "Walk me through advising a client on tax-efficient wealth transfer to next generation. What vehicles and strategies would you consider?",
+        "What is asset allocation and how would you determine appropriate allocation for a retired client with $50M seeking 4% annual distributions?",
+        "Explain the benefits and risks of securities-based line of credit versus traditional mortgage for purchasing $20M vacation home.",
+        "Client just sold their business for $200 million. Walk me through comprehensive wealth planning approach in first 90 days.",
+        "What is a donor-advised fund? How does it compare to private foundation for philanthropic goals?",
+        "Describe different types of alternative investments and how they fit in UHNW portfolios. What are key risks?",
+        "How would you help a client balance liquidity needs ($10M annual spending) with long-term investment objectives and legacy goals?",
+        "Explain what a family office is. When does it make sense for client to establish single-family office versus multi-family office?",
+        "Client concerned about 30% market decline. How would you advise them? Walk me through the conversation.",
+        "What is estate tax and what strategies help minimize estate tax burden for $500M estate?",
+        "Describe the role of life insurance in estate planning for high-net-worth individuals. What structures exist?",
+        "How would you approach advising a client with complex cross-border assets (US, UK, Hong Kong) and tax situations?",
+        "What due diligence would you conduct when recommending private equity fund or hedge fund manager to client?",
+        "Explain active versus passive investing. How do you advise ultra-high-net-worth clients on this?",
+        "How would you structure credit facility for client purchasing $50M aircraft? What are considerations?",
+        "Describe how you'd coordinate with estate attorney, CPA, and investment team for complex multigenerational wealth plan."
+      ],
+      behavioralQuestions: [
+        "Why Goldman Sachs Private Wealth Management specifically? What differentiates Goldman's PWM from JPMorgan, Morgan Stanley, UBS?",
+        "Describe your experience building and managing high-net-worth client relationships. Give specific examples.",
+        "Tell me about a time you provided exceptional, white-glove client service that exceeded expectations.",
+        "How would you handle a difficult client situation or serious complaint? Walk me through your approach.",
+        "Describe your business development strategy. How would you source new ultra-high-net-worth relationships?",
+        "Tell me about a time you had to coordinate multiple specialists to deliver complex solution for client.",
+        "How do you build trust with successful entrepreneurs and wealthy families? What's your approach?",
+        "Describe a situation where you had to deliver disappointing news or bad performance to a client.",
+        "How do you stay current on investment markets, tax law changes, estate planning developments, and alternative investments?",
+        "Tell me about a time you identified client need or planning opportunity they hadn't recognized themselves.",
+        "How would you prioritize among multiple demanding ultra-high-net-worth clients with urgent, competing requests?",
+        "Describe your experience with alternative investments, private equity, hedge funds, or direct investing.",
+        "What do you think are the biggest challenges and opportunities facing ultra-wealthy families today?",
+        "Walk me through how you'd differentiate Goldman Sachs PWM when prospecting against competitors. Be specific."
+      ],
+      whatTheyLookFor: [
+        "Exceptional interpersonal skills and executive presence to interact with billionaires, CEOs, and prominent families",
+        "Deep financial knowledge: investments, alternatives, estate planning, tax, credit, with ability to discuss complex concepts fluently",
+        "Business development mindset and demonstrated ability to source relationships through networking, centers of influence, and referrals",
+        "Consultative approach to understanding client needs and delivering integrated, holistic wealth solutions",
+        "Absolute discretion, integrity, and professionalism required for ultra-sensitive client relationships and confidential information",
+        "Ability to simplify complexity and provide clear, actionable guidance on sophisticated planning strategies",
+        "Team collaboration skills to coordinate across Goldman's platform - investment, credit, estate, tax, alternatives teams",
+        "Emotional intelligence to navigate family dynamics, generational wealth transfer, succession planning, and sensitive conversations",
+        "Resilience and composure under pressure when managing demanding clients, market volatility, and high-stakes situations",
+        "Cultural fit with Goldman's 14 Business Principles, especially client service, integrity, and commitment to excellence"
+      ],
+      interviewTips: [
+        "Research Goldman Sachs Private Wealth Management's platform, competitive positioning, recent growth, and differentiated capabilities (alternative investments, research, global reach)",
+        "Master wealth management fundamentals: asset allocation, alternative investments, trust structures, estate planning, tax efficiency, credit solutions",
+        "Prepare 5-7 specific, compelling reasons 'Why Goldman Sachs PWM?' - reference platform advantages, culture, training, partnership track, prestige",
+        "Know recent market conditions and practice discussing them professionally with concerned clients - demonstrate composure and perspective",
+        "Review alternative investments: private equity, hedge funds, real estate, direct investments, co-investment opportunities Goldman offers",
+        "Understand ultra-high-net-worth client segment ($10M-$1B+): unique needs, concerns, expectations, family dynamics",
+        "Prepare thoughtful questions about team structure, client segmentation, support resources, training programs, book development expectations",
+        "Demonstrate polish, professionalism, and maturity - you'll represent Goldman Sachs to world's wealthiest individuals and most prominent families",
+        "Be ready to discuss business development strategy: how you'd leverage networks, build relationships, source introductions from centers of influence",
+        "Show awareness of current wealth planning topics: tax law changes, ESG/impact investing, next-gen wealth transfer, family governance, succession planning",
+        "Practice articulating investment philosophy and how you'd advise clients on portfolio construction, alternatives allocation, manager selection",
+        "Emphasize discretion and integrity - private wealth management requires absolute confidentiality and fiduciary mindset",
+        "Research Goldman's broader capabilities that benefit private clients: investment banking relationships, merchant banking, asset management, global reach",
+        "Prepare for case studies: be ready to walk through comprehensive wealth planning for business sale, inheritance, complex estate, international client",
+        "Study Goldman Sachs' 14 Business Principles - be ready to discuss how they apply to client service and wealth management"
+      ],
+      salary: {
+        min: 110000,
+        max: 165000
+      },
+      compensation: [
+        "Base salary: $110-165K for Associate Private Wealth Advisors, $165-300K+ for experienced VPs/MDs depending on market and book size",
+        "Revenue-based incentive compensation: substantial variable pay tied to client revenue, asset growth, and new business generation",
+        "Total compensation potential: $250-750K+ for successful advisors managing $500M-$1B+ in client assets with strong revenue production",
+        "Signing bonus: $25-75K for candidates with existing relationships, relevant experience, or transferable book of business",
+        "Deferred compensation and restricted stock units for top producers and senior Managing Directors",
+        "Comprehensive health, dental, and vision insurance with premium family coverage and concierge medical services",
+        "401(k) with generous company match plus profit-sharing contributions",
+        "Substantial expense account for client entertainment, networking events, and business development activities",
+        "Professional development budget for certifications (CFP, CIMA, CFA), advanced training, and industry conferences",
+        "Partnership track for exceptional performers - Goldman Sachs partners in PWM can earn $2M-$10M+ with large, established books serving institutional and ultra-wealthy clients",
+        "Access to Goldman's platform advantages: proprietary investment opportunities, carried interest in funds, co-investment allocations"
+      ],
+      dayInLife: {
+        overview: "Private Wealth Advisors at Goldman Sachs enjoy dynamic, client-centric roles with significant autonomy and entrepreneurial opportunity. Days balance client meetings, portfolio reviews, business development, market monitoring, and collaboration with specialists. Hours typically 8am-6:30pm with flexibility for client schedules, evening networking events, and cultivation activities. The work is intellectually engaging, relationship-driven, and personally rewarding. Goldman's meritocratic culture values revenue production, client service excellence, and teamwork. Compensation tied to client assets and revenue creates entrepreneurial environment with substantial upside for top relationship builders. Prestige of Goldman Sachs franchise and access to world-class platform differentiate the role.",
+        schedule: [
+          {
+            time: "7:30 AM",
+            activity: "Market Preparation",
+            description: "Arrive early to review overnight market moves globally, check client portfolio performance, scan Goldman research and market commentary. Prepare for day's client interactions with updated views. Review any urgent client emails or market-related questions."
+          },
+          {
+            time: "8:00 AM",
+            activity: "Team Meeting",
+            description: "Morning huddle with PWM colleagues, investment strategists, and specialists. Discuss market conditions, investment ideas, client opportunities, and pipeline. Share best practices on complex planning situations. Collaborative culture focused on learning and client solutions."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Client Portfolio Review",
+            description: "Meet with long-standing client family ($150M in assets) for quarterly review. Present portfolio performance, discuss rebalancing opportunities, review alternative investment pipeline, discuss estate planning updates following new tax legislation. Client concerned about market volatility - provide perspective, discuss risk management. Deepen relationship and identify additional planning opportunities."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Prospect Meeting",
+            description: "Initial meeting with referred prospect - tech entrepreneur post-IPO ($80M liquidity event). Listen to goals, understand family situation, current advisors, pain points. Present Goldman's differentiated capabilities: alternative investments access, estate planning expertise, credit solutions, global platform. Begin building trust and demonstrating value. Plant seeds for follow-up and deeper engagement."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Business Development Lunch",
+            description: "Lunch with prominent trusts and estates attorney who serves as key center of influence. Strengthen relationship, discuss mutual clients (with permission), share market insights, stay top-of-mind for wealthy client referrals. Discuss interesting planning structures attorney is implementing for clients. Build reciprocal referral relationship."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Complex Planning Session",
+            description: "Internal strategy session with estate planning specialist, tax advisor, credit expert, and alternative investments team. Develop comprehensive wealth transfer plan for multigenerational client family ($500M estate). Coordinate integrated solution involving dynasty trusts, private foundation, family limited partnership, alternative investments allocation, and credit facility. Prepare presentation for client family meeting."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Investment Research & Due Diligence",
+            description: "Review private equity fund offering from Goldman's merchant banking division - potential opportunity for select clients. Analyze terms, track record, portfolio composition, fit for client allocations. Conduct due diligence call with fund manager. Identify which clients have suitable risk profiles and alternative allocations for opportunity."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Client Service & Follow-Up",
+            description: "Handle various client requests: coordinate securities-based loan closing ($10M), review estate planning documents from attorney, schedule upcoming family meeting, send customized market commentary addressing client concerns about geopolitical risks. Proactive communication to strengthen relationships and demonstrate attentiveness."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Charity Gala & Networking",
+            description: "Attend exclusive charity fundraiser where many ultra-high-net-worth prospects participate. Network authentically, build relationships in community, demonstrate Goldman's commitment to philanthropy. Identify potential new client connections through genuine engagement. Represent Goldman Sachs with polish and professionalism. Cultivate long-term relationships."
+          },
+          {
+            time: "8:30 PM",
+            activity: "Evening Wrap Up",
+            description: "Return home after networking event. Quick review of emails for any urgent client matters. Document new prospect contacts, plan follow-up communications, prepare for tomorrow's meetings. Flexible schedule accommodates client needs, business development activities, and cultivation events. Work-life integration required for success in building substantial book of business."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "UBS", companySlug: "ubs", industry: "Finance" }
+      ]
+    },
+    'credit-analyst': {
+      roleDescription: "Credit Risk Analysts at Goldman Sachs play a critical role in protecting the firm's balance sheet and enabling client business across Global Banking & Markets. Working within the Credit Risk division, you'll assess creditworthiness of corporate, financial institution, and sovereign counterparties to determine acceptable credit exposures for lending, derivatives trading, and investment activities. The role combines rigorous financial analysis with judgment-based risk assessment, requiring both quantitative skills and qualitative evaluation of management quality, industry dynamics, and market conditions. Goldman's Credit Risk team operates as a true 'second set of eyes' - independent from revenue-generating businesses but deeply integrated with deal teams to enable client transactions while managing firm risk prudently. The position offers exposure to Goldman's most significant client relationships, complex credit structures, and landmark transactions across M&A, leveraged finance, and derivatives. Analysts develop expertise in credit fundamentals, financial modeling, and risk management while gaining broad understanding of Goldman's businesses. The meritocratic culture rewards analytical excellence, sound judgment, and ability to balance risk and opportunity in service of the firm's long-term success.",
+      responsibilities: [
+        "Assess credit quality of corporate and financial institution counterparties through detailed financial analysis, ratio analysis, and cash flow modeling",
+        "Evaluate proposed credit exposures for new client relationships, lending transactions, derivatives trades, and investment commitments",
+        "Build detailed credit models analyzing leverage, coverage ratios, liquidity, covenant compliance, and scenario analysis under stress conditions",
+        "Write comprehensive credit memoranda presenting analysis, risk assessment, rating recommendations, and proposed exposure limits to Credit Risk Committees",
+        "Monitor existing credit exposures and obligor credit quality, identifying deteriorating credits and recommending risk mitigation actions",
+        "Collaborate with investment banking, sales & trading, and financing teams to structure transactions that meet client needs while managing Goldman's credit risk",
+        "Analyze complex credit structures including leveraged buyouts, acquisition financings, syndicated loans, and derivative exposure netting arrangements",
+        "Participate in Credit Risk Committee meetings, presenting analyses and defending recommendations to senior risk officers and managing directors",
+        "Conduct industry research and peer analysis to understand competitive positioning, cyclicality, and key credit drivers for assigned sectors"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to VP to MD based on analytical excellence and credit judgment in Goldman's meritocratic culture",
+        "Opportunity to specialize in lucrative sectors: leveraged finance, financial institutions, investment grade corporates, emerging markets, real estate",
+        "Exposure to Goldman's most significant client relationships and landmark transactions, building deep market knowledge and relationships",
+        "Path to lead credit coverage teams, manage sector portfolios, or transition to senior Credit Risk Committee roles with firm-wide influence",
+        "Strong foundation for pivoting to revenue-generating roles in investment banking, leveraged finance, or private credit if desired",
+        "Training in credit fundamentals, financial analysis, and risk management highly valued across finance industry",
+        "Exit opportunities to credit-focused hedge funds, private credit firms, direct lending funds, rating agencies, or corporate treasury roles",
+        "Partnership track at Goldman Sachs for exceptional performers who demonstrate sustained credit judgment excellence and leadership"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45-60 minute conversation covering accounting/finance fundamentals, credit analysis knowledge, and motivation for credit risk. Expect technical questions on financial statements, credit metrics (leverage, coverage, liquidity ratios), and basic credit concepts. Behavioral questions on analytical work, attention to detail, and 'Why Credit Risk at Goldman Sachs?' Goldman assesses both technical foundation and genuine interest in credit analysis versus investment banking or trading. Demonstrate strong fundamentals, analytical mindset, and understanding that credit risk is independent control function with firm-wide impact.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Superday - Morning",
+          description: "2-3 intensive technical interviews with credit analysts and VPs covering: (1) Accounting fundamentals - walk through three statements, understanding of working capital, cash conversion, (2) Credit analysis - leverage ratios, coverage metrics, what makes good vs bad credit, (3) Financial modeling and credit scenarios, (4) Industry/company-specific credit analysis case, (5) Understanding of credit structures, covenants, security. Goldman's credit interviews are rigorous - expect detailed probing on fundamentals and credit judgment. Interviewers assess analytical depth, attention to detail, and ability to identify credit risks.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Behavioral & Fit Interviews - Afternoon",
+          description: "2-3 rounds with senior MDs and credit risk leaders assessing cultural fit, judgment, and commitment to credit risk career. Expect: (1) 'Why Credit Risk versus Investment Banking?' - must articulate genuine interest in risk management, (2) Behavioral questions on analytical rigor, working under pressure, defending unpopular views, (3) Case discussions requiring credit judgment and balancing risk vs opportunity, (4) Assessment of maturity, independence, and ability to say 'no' to deal teams when credit quality insufficient, (5) Cultural fit with Goldman's principles and credit risk's independent, thoughtful culture. Chemistry and judgment matter as much as technical skills.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Final Committee & Offer",
+          description: "Senior Credit Risk leadership reviews comprehensive feedback on technical skills, credit judgment, analytical ability, and cultural fit. Credit Risk seeks candidates with strong fundamentals, sound judgment, independence, and genuine interest in risk management. Offers typically extended within 1-2 weeks with competitive compensation: $90-110K base for analysts, bonus, and details on sector assignment and training program. While compensation lower than banking/trading, work-life balance significantly better with strong exit opportunities."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through the three financial statements and how they're interconnected. What are key credit metrics you'd look for?",
+        "What are the key credit ratios you'd use to assess leverage, coverage, and liquidity? Define each and explain what levels concern you.",
+        "How do you calculate Debt/EBITDA? Why is it important for credit analysis? What are limitations?",
+        "Explain the difference between secured and unsecured debt. When does security matter for credit analysis?",
+        "What is EBITDA and why do we use it for credit? What are its shortcomings as measure of cash generation?",
+        "Walk me through analyzing a company for credit. What financial metrics, qualitative factors, and risks would you assess?",
+        "How would you evaluate the credit quality of a leveraged buyout (LBO)? What makes an LBO risky from credit perspective?",
+        "Explain what covenants are and why they matter for lenders. What are maintenance vs incurrence covenants?",
+        "If revenue decreases by 20%, walk me through the impact on the financial statements and key credit metrics.",
+        "What is free cash flow and how do you calculate it? Why does it matter for credit assessment?",
+        "How would you assess credit risk of a cyclical company (e.g., airline, commodity producer) versus stable utility?",
+        "Explain the difference between investment grade and high yield credits. What characteristics differentiate them?",
+        "What are some early warning signs that a credit is deteriorating? How would you monitor existing exposures?",
+        "How do you think about recovery rates and loss given default in credit analysis?",
+        "Walk me through credit analysis of a financial institution. How does it differ from corporate credit analysis?",
+        "What is the difference between operating lease and capital lease? How does it impact credit analysis?",
+        "If a company wants to dividend out cash to sponsor in LBO, how would you assess the credit risk?",
+        "Explain what a syndicated loan is. How do you assess credit risk in syndicated lending?"
+      ],
+      behavioralQuestions: [
+        "Why Credit Risk at Goldman Sachs? Why not investment banking, sales & trading, or other revenue-generating roles?",
+        "Tell me about a time you had to analyze complex financial information under time pressure. What was your approach?",
+        "Describe a situation where you had to take an unpopular or contrary view. How did you defend your position?",
+        "Walk me through your resume. What analytical work have you done that demonstrates credit analysis skills?",
+        "Tell me about a time you made a mistake in your analysis. How did you identify it and what did you learn?",
+        "How do you prioritize when you have multiple urgent credit requests from different deal teams?",
+        "Describe a time you had to communicate complex financial analysis to non-technical audience.",
+        "How would you handle pressure from a deal team to approve credit exposure you think is too risky?",
+        "Tell me about a time you had to quickly become an expert in an unfamiliar industry or company.",
+        "What interests you about credit analysis specifically? What do you find intellectually engaging?",
+        "How do you stay current on credit markets, defaults, industry trends, and macroeconomic conditions?",
+        "Describe a situation where you had to balance competing priorities or make trade-offs under constraints.",
+        "Why Goldman Sachs specifically for credit risk? How does Goldman differentiate from other banks?",
+        "Where do you see yourself in 5-10 years? What's your long-term career vision?"
+      ],
+      whatTheyLookFor: [
+        "Strong accounting and finance fundamentals with deep understanding of financial statements, ratios, and credit metrics",
+        "Analytical rigor and attention to detail - ability to identify risks, inconsistencies, and credit red flags in analysis",
+        "Sound credit judgment and independent thinking - willingness to say 'no' when credit quality insufficient despite deal pressure",
+        "Intellectual curiosity about businesses, industries, capital structures, and what drives credit performance",
+        "Clear written and verbal communication to explain complex credit analysis to committees and senior stakeholders",
+        "Maturity and professionalism to interact with senior bankers, traders, and clients while maintaining independence",
+        "Genuine interest in credit risk management and risk/return frameworks rather than purely revenue generation",
+        "Ability to work under pressure, manage multiple priorities, and deliver high-quality analysis on tight deadlines",
+        "Team player mentality with humility - credit risk is collaborative function requiring coordination across firm",
+        "Cultural fit with Goldman's principles, especially integrity, protecting firm's reputation, and long-term thinking over short-term profit"
+      ],
+      interviewTips: [
+        "Master accounting fundamentals: three financial statements, working capital cycle, cash flow statement reconciliation, key ratios",
+        "Understand credit metrics deeply: Debt/EBITDA, EBITDA/Interest, Debt/Equity, current ratio, quick ratio, FCF, DSCR - know formulas and what levels indicate credit stress",
+        "Review leveraged finance and credit structures: LBOs, syndicated loans, covenants, security, subordination, intercreditor agreements",
+        "Read Goldman Sachs Credit Research reports to understand how professional credit analysts think about industries and companies",
+        "Prepare 5-7 specific reasons 'Why Goldman Credit Risk?' - reference firm's credit culture, risk management reputation, deal flow, training",
+        "Know recent credit events: defaults, downgrades, restructurings, credit market conditions - demonstrate awareness of credit markets",
+        "Practice credit case studies: pick public companies, analyze credit quality, assign rating, determine appropriate exposure limit",
+        "Understand difference between credit analyst role versus investment banking - articulate genuine interest in risk side versus deal execution",
+        "Read financial statements and 10-Ks of public companies - practice identifying credit risks, covenant compliance, liquidity concerns",
+        "Research Goldman's credit-related businesses: leveraged finance, investment grade lending, derivatives credit exposure, financing businesses",
+        "Prepare examples demonstrating analytical rigor, attention to detail, independent thinking, and sound judgment under pressure",
+        "Show awareness that Credit Risk says 'no' to deals - demonstrate maturity and independence required to challenge deal teams",
+        "Know current macro credit conditions: interest rate environment, default rates, credit spreads, market liquidity, Fed policy",
+        "Practice explaining credit concepts clearly and concisely - communication critical for credit memo writing and committee presentations"
+      ],
+      salary: {
+        min: 90000,
+        max: 110000
+      },
+      compensation: [
+        "Base salary: $90-110K for Credit Risk Analysts, $110-140K for Associates, $150-200K+ for VPs depending on experience and performance",
+        "Annual performance bonus: $25-60K for analysts, $40-100K for associates based on individual performance and firm results",
+        "Signing bonus: $10-25K for competitive candidates from target schools or with relevant credit/finance experience",
+        "Compensation lower than investment banking or sales & trading but work-life balance significantly better (typically 50-60 hour weeks vs 80-100+)",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with company match plus profit-sharing contributions",
+        "Relocation assistance for major financial centers (New York, London, Hong Kong)",
+        "Professional development budget for certifications (CFA, FRM), credit training, and industry conferences",
+        "Access to Goldman's extensive training programs, credit risk workshops, and apprenticeship with senior credit officers",
+        "Total compensation for analysts typically $120-180K all-in, competitive with consulting but lower than banking/trading, balanced by better lifestyle"
+      ],
+      dayInLife: {
+        overview: "Credit Risk Analysts at Goldman Sachs balance deep analytical work with collaboration across deal teams and credit committees. Hours typically 8:30am-6:30pm with reasonable work-life balance compared to banking or trading. Days combine independent credit analysis, financial modeling, writing credit memos, attending committee meetings, and partnering with business teams. Culture values analytical rigor, sound judgment, independence, and thoughtful risk management. Credit Risk is respected control function with significant influence over firm's business activities. Analysts gain broad exposure to industries, transactions, and credit structures while developing portable credit skills.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Market Review",
+            description: "Arrive and review overnight credit news: rating changes, defaults, market developments affecting portfolio exposures. Check credit spreads, CDS markets, and news for companies in coverage portfolio. Scan Goldman Credit Research for relevant industry or company updates."
+          },
+          {
+            time: "9:00 AM",
+            activity: "New Credit Request Review",
+            description: "Investment banking team submitted request for $500M senior secured credit facility for technology buyout. Begin credit analysis: review company financials, industry dynamics, LBO structure, leverage metrics, cash flow projections. Build financial model and calculate post-LBO leverage, coverage ratios, covenant compliance."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Management Call",
+            description: "Join conference call with company management, sponsor private equity firm, and investment banking team to discuss business strategy, market position, growth initiatives, and financing needs. Ask probing questions about working capital, capex, customer concentration, competitive threats. Assess management quality and credibility."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch with Credit Team",
+            description: "Grab lunch with fellow credit analysts. Discuss interesting credits being analyzed, industry trends, recent defaults or restructurings. Learn from colleagues covering different sectors. Collaborative environment fostering credit judgment development."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Credit Memo Writing",
+            description: "Write comprehensive credit memorandum for LBO analysis: executive summary, company overview, industry analysis, financial analysis, leverage metrics, scenario analysis, risk factors, proposed structure and terms, rating recommendation, exposure limit recommendation. Rigorous, detailed analysis supporting credit decision."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Credit Risk Committee Meeting",
+            description: "Present LBO credit analysis to Credit Risk Committee (senior MDs and credit officers). Walk through analysis, defend rating recommendation and exposure limit, answer detailed questions about downside scenarios, covenant protection, security, exit assumptions. Committee challenges assumptions and probes risks. Healthy debate balancing opportunity and prudent risk management."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Portfolio Monitoring",
+            description: "Review quarterly earnings for existing portfolio credits. One company missed EBITDA guidance - run updated leverage calculations, assess covenant compliance, evaluate if rating or exposure limit should change. Flag potential deteriorating credit for team discussion. Draft memo documenting analysis and recommendations."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Banking Team Collaboration",
+            description: "Leverage finance team wants credit approval for new unitranche structure. Collaborate on structuring credit that works for client, meets Goldman's underwriting standards, and manages risk appropriately. Discuss covenant package, pricing, security, and syndication strategy. Partnership between credit and business."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Wrap Up & Departure",
+            description: "Complete credit memo edits based on committee feedback. Update credit database with new exposure approvals. Respond to emails, prepare for tomorrow's meetings and analyses. Head home around 6:30-7pm with reasonable work-life balance. Occasional late nights for urgent deals but much better hours than banking or trading."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
+    },
+    'risk-analyst': {
+      roleDescription: "Risk Management Analysts at Goldman Sachs serve as critical independent voices protecting the firm across market risk, operational risk, liquidity risk, and model risk. Working within the Risk division - one of Goldman's most respected control functions - you'll identify, measure, monitor, and mitigate risks across the firm's global businesses including trading, investment banking, asset management, and consumer platforms. The role combines quantitative analysis with judgment-based risk assessment, requiring both technical sophistication and ability to challenge senior business leaders when risk-taking exceeds prudent limits. Goldman's risk culture emphasizes independence, analytical rigor, and long-term thinking over short-term profit - protecting the firm's reputation and franchise value. Risk Analysts gain broad exposure to Goldman's businesses, develop deep expertise in risk methodologies, and work alongside senior leaders on firm-wide initiatives. The meritocratic culture rewards sound judgment, analytical excellence, and courage to voice dissenting views. While compensation is lower than revenue-generating roles, work-life balance is significantly better and the foundation in risk management creates valuable optionality for future career pivots.",
+      responsibilities: [
+        "Conduct quantitative risk analysis including Value at Risk (VaR), stress testing, scenario analysis, and sensitivity calculations for trading portfolios",
+        "Monitor market risk exposures across equities, fixed income, currencies, and commodities, identifying concentrations and limit breaches",
+        "Evaluate operational risk across processes, systems, and controls, assessing potential loss events and control effectiveness",
+        "Build and maintain risk models, methodologies, and reporting systems to measure and aggregate risk across business lines",
+        "Participate in Risk Committee meetings, presenting analysis and recommendations to senior risk officers and business leaders",
+        "Challenge business decisions when risk-taking appears excessive, articulating concerns clearly and defending independent risk views",
+        "Collaborate with trading desks, investment banking, technology, and finance teams to understand risks and implement mitigation strategies",
+        "Respond to regulatory inquiries and support compliance with risk-related regulations (Basel III, Dodd-Frank, CCAR, stress testing)",
+        "Conduct independent reviews of new products, strategies, or business initiatives to identify and quantify risks before approval"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to VP to MD based on risk judgment and analytical excellence in Goldman's meritocratic culture",
+        "Opportunity to specialize in high-demand areas: market risk, operational risk, model risk, liquidity risk, cybersecurity risk, climate risk",
+        "Exposure to firm-wide strategic initiatives, regulatory programs (CCAR, resolution planning), and interactions with senior leadership and Board",
+        "Path to lead risk teams, manage global risk functions, or transition to senior Risk Committee roles with firm-wide influence",
+        "Strong foundation for pivoting to revenue-generating roles if desired - risk knowledge highly valued in trading, investment banking, treasury",
+        "Training in risk management, quantitative methods, and regulatory frameworks highly portable across finance industry",
+        "Exit opportunities to chief risk officer roles, regulatory agencies, risk consulting, fintech risk management, or hedge fund risk teams",
+        "Partnership track at Goldman Sachs for exceptional performers demonstrating sustained risk judgment excellence and leadership"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45-60 minute conversation covering quantitative background, risk concepts, and motivation for risk management. Expect questions on: basic risk metrics (VaR, Greeks, volatility), understanding of different risk types, quantitative/analytical work experience, and 'Why Risk Management at Goldman Sachs?' Goldman assesses technical foundation, analytical thinking, and genuine interest in risk versus revenue roles. Demonstrate strong fundamentals, independent mindset, and understanding that risk is control function requiring courage to challenge businesses.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Superday - Morning",
+          description: "2-3 intensive technical interviews with risk analysts and VPs covering: (1) Quantitative risk concepts - VaR calculation, stress testing, correlation, volatility, Greeks, (2) Statistics and probability fundamentals, (3) Financial markets knowledge and product understanding, (4) Risk scenario analysis and judgment questions, (5) Programming and data analysis (Python, Excel, SQL). Goldman's risk interviews are rigorous - expect detailed probing on fundamentals and ability to think critically about risks. Interviewers assess analytical depth, quantitative skills, and risk intuition.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Behavioral & Judgment Interviews - Afternoon",
+          description: "2-3 rounds with senior MDs and risk leaders assessing cultural fit, independence, and risk judgment. Expect: (1) 'Why Risk Management versus Trading/Banking?' - must articulate genuine interest in control functions, (2) Behavioral questions on independence, standing firm under pressure, delivering unpopular messages, (3) Risk judgment cases requiring balancing opportunity and prudence, (4) Assessment of maturity, confidence, and ability to challenge senior business leaders, (5) Cultural fit with Goldman's principles and risk division's independent, thoughtful culture. Chemistry and judgment matter as much as technical skills.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Final Committee & Offer",
+          description: "Senior Risk leadership reviews comprehensive feedback on technical skills, risk judgment, analytical ability, independence, and cultural fit. Risk division seeks candidates with strong fundamentals, sound judgment, courage, and genuine interest in protecting the firm. Offers typically extended within 1-2 weeks with compensation: $100-125K base for analysts, bonus, and sector/risk type assignment details. Compensation lower than banking/trading but work-life balance significantly better (50-60 hour weeks vs 80-100+) with strong career optionality."
+        }
+      ],
+      technicalQuestions: [
+        "What is Value at Risk (VaR)? How do you calculate it? What are limitations of VaR as risk measure?",
+        "Explain the difference between market risk, credit risk, operational risk, and liquidity risk. Give examples of each.",
+        "How would you conduct stress testing for a trading portfolio? What scenarios would you test?",
+        "What are the Greeks (Delta, Gamma, Vega, Theta, Rho)? How do they measure risk in options portfolios?",
+        "Explain correlation and why it matters for portfolio risk. What happens to portfolio VaR when correlations increase in crisis?",
+        "How would you calculate volatility? What's the difference between historical and implied volatility?",
+        "Walk me through how you'd assess operational risk in a trading desk's processes and controls.",
+        "What is duration and convexity? How do they measure interest rate risk in bond portfolios?",
+        "Explain what a stress test is. How does it differ from VaR? Why do we need both?",
+        "How would you evaluate model risk? What makes a model risky?",
+        "What is liquidity risk? How would you assess whether a portfolio could be liquidated quickly?",
+        "Explain the difference between expected loss and unexpected loss. How do you calculate each?",
+        "What is tail risk? How do you measure and manage it?",
+        "How would you assess risk in a leveraged derivative position? What could go wrong?",
+        "What is wrong-way risk? Give an example and explain how you'd measure it.",
+        "Describe the Basel framework for bank capital requirements. Why does it exist?",
+        "How would you design a risk limit framework for a trading desk?",
+        "What are key risk indicators (KRIs)? How would you develop them for operational risk?"
+      ],
+      behavioralQuestions: [
+        "Why Risk Management at Goldman Sachs? Why not trading, investment banking, or other revenue-generating roles?",
+        "Tell me about a time you had to take an unpopular stand or deliver bad news. How did you handle it?",
+        "Describe a situation where you challenged authority or conventional thinking. What was the outcome?",
+        "Walk me through your resume. What analytical or quantitative work demonstrates your risk management potential?",
+        "Tell me about a time you identified a risk others had missed. How did you communicate it?",
+        "How do you handle pressure from others to compromise your analytical conclusions or recommendations?",
+        "Describe a time you had to make a judgment call with incomplete information under time pressure.",
+        "Tell me about a complex problem you analyzed. What was your approach and what did you conclude?",
+        "How would you handle disagreement with a senior trader who thinks your risk limits are too conservative?",
+        "What interests you about risk management specifically? What do you find intellectually engaging?",
+        "How do you stay current on risk management practices, regulations, and industry developments?",
+        "Describe a time you had to balance competing priorities or navigate conflicting stakeholder demands.",
+        "Why Goldman Sachs specifically for risk management? How does Goldman differentiate from other banks?",
+        "Where do you see yourself in 5-10 years? What's your long-term career vision in risk or beyond?"
+      ],
+      whatTheyLookFor: [
+        "Strong quantitative and analytical skills with deep understanding of risk metrics, statistics, and modeling",
+        "Independence and courage to challenge business leaders when risk-taking exceeds prudent limits",
+        "Sound risk judgment and ability to balance opportunity with prudence, thinking long-term over short-term profit",
+        "Intellectual curiosity about markets, businesses, and what can go wrong - healthy skepticism without cynicism",
+        "Clear communication skills to explain complex risks to senior stakeholders, committees, and regulators",
+        "Maturity and confidence to interact with senior traders, bankers, and executives while maintaining independence",
+        "Genuine interest in risk management and control functions rather than purely revenue generation",
+        "Ability to work under pressure, manage multiple priorities, and deliver high-quality analysis on tight deadlines",
+        "Team player mentality - risk management is collaborative function requiring coordination across divisions",
+        "Cultural fit with Goldman's principles, especially integrity, protecting firm's reputation, long-term greedy mindset"
+      ],
+      interviewTips: [
+        "Master risk fundamentals: VaR calculation methods, stress testing, Greeks, volatility, correlation, risk types (market, credit, operational, liquidity)",
+        "Understand statistics and probability: distributions, confidence intervals, tail events, Monte Carlo simulation, hypothesis testing",
+        "Review Basel framework, bank capital requirements, and major regulations (Dodd-Frank, CCAR) - demonstrate regulatory awareness",
+        "Prepare 5-7 specific reasons 'Why Goldman Risk Management?' - reference culture, independence, training, firm-wide impact, career optionality",
+        "Know recent risk events: market crashes, operational failures, regulatory actions - demonstrate awareness of what can go wrong",
+        "Practice risk case studies: given portfolio or scenario, identify risks, propose mitigation, set appropriate limits",
+        "Understand difference between risk role and business roles - articulate genuine interest in control function protecting firm",
+        "Research Goldman's risk organization, risk appetite framework, and how risk integrates with businesses",
+        "Prepare examples demonstrating independence, analytical rigor, and standing firm under pressure or skepticism",
+        "Show awareness that risk says 'no' to businesses - demonstrate maturity and courage required to challenge revenue generators",
+        "Know current market risks: inflation, interest rates, geopolitical tensions, credit conditions, systemic risks",
+        "Practice explaining risk concepts clearly and concisely - communication critical for risk committees and senior leadership",
+        "Study recent Goldman risk disclosures (10-K, 10-Q) to understand firm's risk exposures and management approach",
+        "Demonstrate genuine intellectual interest in what makes organizations fail and how to prevent it"
+      ],
+      salary: {
+        min: 100000,
+        max: 125000
+      },
+      compensation: [
+        "Base salary: $100-125K for Risk Management Analysts, $125-160K for Associates, $175-225K+ for VPs depending on experience",
+        "Annual performance bonus: $30-70K for analysts, $50-120K for associates based on individual performance and firm results",
+        "Signing bonus: $15-30K for competitive candidates from target schools or with relevant risk/quantitative experience",
+        "Compensation lower than investment banking or sales & trading but work-life balance significantly better (typically 50-60 hour weeks)",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with company match plus profit-sharing contributions",
+        "Relocation assistance for major financial centers (New York, London, Hong Kong, Salt Lake City)",
+        "Professional development budget for certifications (FRM, PRM, CFA), risk training programs, and industry conferences",
+        "Access to Goldman's extensive training programs, risk workshops, and apprenticeship with senior risk officers",
+        "Total compensation for analysts typically $135-205K all-in, competitive with consulting and better lifestyle than banking/trading"
+      ],
+      dayInLife: {
+        overview: "Risk Management Analysts at Goldman Sachs balance quantitative analysis with strategic risk discussions and collaboration across businesses. Hours typically 8:30am-6:30pm with reasonable work-life balance compared to banking or trading. Days combine risk modeling, portfolio monitoring, committee preparation, regulatory work, and partnering with business teams. Culture values analytical rigor, independence, sound judgment, and courage to voice concerns. Risk is respected control function with significant influence over firm's activities and direct access to senior leadership. Analysts gain broad exposure to businesses and risk types while developing portable risk management skills.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Risk Review",
+            description: "Arrive and review overnight risk reports: VaR, stress test results, limit breaches, market moves. Check for any risk escalations from overnight trading in Asia or Europe. Scan news for market events, regulatory developments, or operational incidents affecting the firm or industry."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Market Risk Analysis",
+            description: "Analyze equity derivatives portfolio for large European bank trading desk. Calculate VaR using historical simulation, conduct stress tests (equity crash, volatility spike, correlation breakdown). Review Greeks exposures and compare against limits. Identify concentrations and potential tail risks."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Business Discussion",
+            description: "Meet with equity derivatives traders to discuss risk profile, upcoming large trades, and proposed limit increases. Traders want higher VaR limit for volatility trading strategy. Ask probing questions about strategy, downside scenarios, hedging. Assess whether request is prudent given market conditions and firm risk appetite."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Model Validation",
+            description: "Review new pricing model developed by strats for exotic options. Assess model risk: theoretical soundness, implementation quality, parameter calibration, limitations. Test model against benchmark cases, analyze sensitivity to inputs. Document findings and recommendations for model risk committee."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch with Risk Team",
+            description: "Grab lunch with fellow risk analysts. Discuss interesting risk issues, recent market events, regulatory changes, career development. Collaborative environment fostering risk judgment and learning from colleagues across different risk types."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Stress Testing",
+            description: "Work on firm-wide stress testing for annual CCAR submission to Federal Reserve. Build adverse scenario assumptions, calculate impact on trading portfolios, estimate potential losses. Coordinate with credit risk, operational risk, and finance teams for comprehensive stress test."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Risk Committee Meeting",
+            description: "Attend Market Risk Committee meeting with senior MDs and CRO. Present analysis on equity derivatives risk profile, recommend approval of trader's limit increase request with conditions. Answer detailed questions about tail risks, stress scenarios, comparison to peers. Defend recommendations to skeptical committee members. Healthy debate balancing opportunity and prudence."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Operational Risk Assessment",
+            description: "New trading platform being implemented for FX desk. Assess operational risks: system failures, data errors, control gaps, cybersecurity vulnerabilities. Review implementation plan, testing results, rollback procedures. Identify residual risks and recommend mitigation controls before go-live approval."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Regulatory Reporting",
+            description: "Prepare risk metrics for regulatory report due to Federal Reserve. Compile VaR, stress tests, liquidity metrics, large exposures. Ensure calculations comply with regulatory definitions. Draft narrative explaining changes from prior period. Coordinate with compliance and legal teams."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Wrap Up & Departure",
+            description: "Finalize risk committee presentation materials based on feedback. Update risk dashboards and monitoring systems. Respond to emails, prepare for tomorrow's meetings and analyses. Head home around 6:30-7pm with reasonable work-life balance. Occasional late nights for urgent issues, regulatory deadlines, or market crises, but much better hours than banking or trading."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
+    },
+    'operations-analyst': {
+      roleDescription: "Operations Analysts at Goldman Sachs are the engine enabling the firm's global business activities across trading, investment banking, and wealth management. Working within Operations - a massive division supporting every transaction and client interaction - you'll ensure flawless execution of trades, accurate processing of transactions, efficient onboarding of clients, robust control environments, and seamless technology implementations. The role combines process expertise with problem-solving, requiring analytical thinking, attention to detail, and ability to collaborate across businesses, technology, and control functions. Goldman's Operations division touches every aspect of the firm: trade settlement, cash management, securities custody, client onboarding, margin calculations, corporate actions, reconciliations, and technology implementations. Operations Analysts gain broad understanding of financial products, operational workflows, and control frameworks while developing highly transferable skills. The meritocratic culture rewards process improvement, operational excellence, and ability to scale infrastructure supporting Goldman's growth. While compensation is lower than front-office roles, work-life balance is significantly better and the operational expertise creates strong optionality for pivoting to business, technology, or control roles.",
+      responsibilities: [
+        "Ensure accurate and timely settlement of securities trades across equities, fixed income, derivatives, and FX markets globally",
+        "Process client transactions, corporate actions, margin calls, collateral movements, and cash transfers with precision and efficiency",
+        "Investigate and resolve trade breaks, settlement failures, discrepancies, and exceptions collaborating with counterparties and internal teams",
+        "Onboard new clients conducting KYC due diligence, account setup, documentation review, and ensuring regulatory compliance",
+        "Reconcile positions, cash balances, and transactions between Goldman's books and custodians, clearinghouses, and counterparties",
+        "Monitor operational risks, control effectiveness, and key performance indicators, escalating issues and implementing corrective actions",
+        "Support technology implementations and process automation projects, defining requirements and testing new systems",
+        "Collaborate with trading desks, investment banking, technology, compliance, and finance to resolve operational issues and improve processes",
+        "Respond to client inquiries regarding transactions, positions, statements, and documentation with professionalism and accuracy"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to VP to MD based on operational excellence and leadership in Goldman's meritocratic culture",
+        "Opportunity to specialize in high-growth areas: electronic trading operations, derivatives processing, wealth management operations, securities services",
+        "Exposure to firm-wide initiatives: technology transformation, automation, control enhancement, regulatory implementation",
+        "Path to lead operations teams, manage global functions, or transition to senior leadership roles within Operations division",
+        "Strong foundation for pivoting to front-office roles (trading, banking, wealth management), technology, risk, or finance given operational expertise",
+        "Training in financial products, operational processes, and control frameworks highly valued across finance industry",
+        "Exit opportunities to fintech operations, buy-side operations (hedge funds, asset managers), consulting, or operational leadership roles",
+        "Partnership track at Goldman Sachs for exceptional performers demonstrating operational excellence, innovation, and leadership"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45-60 minute conversation covering background, understanding of operations, and analytical capabilities. Expect questions on: interest in operations versus trading/banking, process-oriented thinking, problem-solving approach, attention to detail, and 'Why Operations at Goldman Sachs?' Goldman assesses analytical mindset, process orientation, and genuine interest in operational excellence. Demonstrate strong fundamentals, systematic thinking, and understanding that operations enables firm's business activities.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical & Case Interviews - Morning",
+          description: "2-3 interviews covering: (1) Operational scenarios and problem-solving - 'Walk me through how you'd investigate and resolve trade settlement failure', (2) Process analysis and improvement thinking, (3) Financial products knowledge (equities, bonds, derivatives basics), (4) Excel/data analysis skills and attention to detail, (5) Understanding of controls, reconciliations, and risk management. Goldman assesses analytical ability, systematic thinking, and operational judgment. Be prepared to demonstrate process-oriented mindset and problem-solving approach.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Behavioral & Fit Interviews - Afternoon",
+          description: "2-3 rounds with VPs, MDs, and operations leaders assessing cultural fit, teamwork, and operational mindset. Expect: (1) 'Why Operations versus front-office roles?' - articulate genuine interest in enabling business through operational excellence, (2) Behavioral questions on attention to detail, working under pressure, process improvement, collaboration, (3) Assessment of maturity, professionalism, and client service orientation, (4) Cultural fit with Goldman's principles and operations division's team-oriented, problem-solving culture. Chemistry and collaborative mindset matter significantly.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Final Committee & Offer",
+          description: "Senior Operations leadership reviews comprehensive feedback on analytical ability, process thinking, attention to detail, teamwork, and cultural fit. Operations seeks candidates with systematic mindset, problem-solving skills, collaboration ability, and genuine interest in operational excellence. Offers typically extended within 1-2 weeks with compensation: $70-90K base for analysts, bonus, and business/product area assignment details. Compensation lower than front-office but excellent work-life balance (typically 45-55 hour weeks) and strong career development opportunities."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through the trade lifecycle from execution to settlement. What operational steps are involved?",
+        "What is trade settlement? What can cause a settlement failure and how would you resolve it?",
+        "Explain what reconciliation is. Why is it important operationally?",
+        "What is KYC (Know Your Customer) and why does it matter for client onboarding?",
+        "Describe the difference between equities settlement and derivatives settlement. What makes derivatives more complex?",
+        "What is margin? How do you calculate it and why does it matter operationally?",
+        "Explain what a corporate action is (dividend, stock split, merger). How do you process it operationally?",
+        "What is a nostro account? How do you reconcile it?",
+        "Walk me through how you'd investigate a discrepancy between Goldman's position and a counterparty's records.",
+        "What operational risks exist in trade processing? How do you control them?",
+        "Explain the difference between clearing and settlement.",
+        "What is straight-through processing (STP)? Why does it matter?",
+        "How would you design a control to prevent or detect errors in trade booking?",
+        "What key performance indicators (KPIs) would you track for operational efficiency?",
+        "Explain what a break is in operations. How do you prioritize which breaks to investigate first?",
+        "What is collateral management? Why is it operationally important?",
+        "Describe the operational workflow for onboarding a new institutional client.",
+        "How would you approach automating a manual operational process? What would you consider?"
+      ],
+      behavioralQuestions: [
+        "Why Operations at Goldman Sachs? Why not trading, investment banking, or technology?",
+        "Tell me about a time you identified and fixed a process inefficiency. What was your approach?",
+        "Describe a situation where you caught an error or prevented a mistake through attention to detail.",
+        "Walk me through your resume. What experiences demonstrate your operational or analytical capabilities?",
+        "Tell me about a time you had to work under time pressure to meet a deadline. How did you ensure accuracy?",
+        "Describe a time you had to collaborate with multiple teams to solve a problem.",
+        "How do you stay organized when managing multiple priorities and deadlines?",
+        "Tell me about a time you provided excellent customer service or resolved a client complaint.",
+        "Describe a situation where you had to learn a new process or system quickly.",
+        "What interests you about operations specifically? What do you find engaging about process-oriented work?",
+        "How would you handle discovering a significant error in processing that could impact clients or the firm?",
+        "Tell me about a time you suggested an improvement to a process or system. What was the outcome?",
+        "Why Goldman Sachs specifically for operations? How does Goldman differentiate from other banks?",
+        "Where do you see yourself in 5-10 years? What's your long-term career vision?"
+      ],
+      whatTheyLookFor: [
+        "Strong attention to detail and accuracy - operational errors can be costly and damage client relationships",
+        "Systematic, process-oriented thinking with ability to understand complex operational workflows",
+        "Analytical problem-solving skills to investigate discrepancies, root-cause failures, and propose solutions",
+        "Team collaboration ability - operations requires coordination across businesses, technology, and control functions",
+        "Client service mindset and professionalism when interacting with internal clients and external counterparties",
+        "Ability to work efficiently under pressure and meet strict deadlines (daily settlement cutoffs, month-end close)",
+        "Continuous improvement mentality - seeking ways to enhance processes, reduce errors, increase automation",
+        "Technical aptitude for learning systems, products, and workflows quickly",
+        "Strong communication skills to explain operational issues and solutions clearly to diverse stakeholders",
+        "Cultural fit with Goldman's principles, especially excellence, teamwork, and commitment to operational integrity"
+      ],
+      interviewTips: [
+        "Understand trade lifecycle, settlement process, and basic operational workflows for equities, bonds, and derivatives",
+        "Know key operational concepts: reconciliation, KYC, margin, corporate actions, settlement fails, straight-through processing",
+        "Prepare 5-7 specific reasons 'Why Goldman Operations?' - reference operational excellence, scale, technology investment, career development",
+        "Research Goldman's operations initiatives: automation, technology transformation, operational efficiency programs",
+        "Prepare examples demonstrating attention to detail, process improvement, problem-solving under pressure, and teamwork",
+        "Practice operational scenarios: 'Trade didn't settle - how do you investigate and resolve?', 'Client is missing securities - how do you help?'",
+        "Understand difference between operations and front-office roles - articulate genuine interest in enabling business through operational excellence",
+        "Show Excel proficiency and data analysis skills - operations relies heavily on data management and analysis",
+        "Demonstrate systematic thinking - walk through how you'd approach process analysis, root cause investigation, or control design",
+        "Know recent operational challenges in finance: settlement cycles (T+1), operational resilience, cybersecurity, automation",
+        "Research Goldman's operational businesses: securities services, custody, clearing, transaction banking",
+        "Prepare questions about training programs, rotation opportunities, technology stack, automation initiatives, career paths",
+        "Show awareness that operations is critical infrastructure enabling $trillions in transactions - understand the scale and importance",
+        "Demonstrate client service orientation - operations interfaces with clients daily and must deliver flawless service"
+      ],
+      salary: {
+        min: 70000,
+        max: 90000
+      },
+      compensation: [
+        "Base salary: $70-90K for Operations Analysts, $90-120K for Associates, $140-180K+ for VPs depending on experience and role",
+        "Annual performance bonus: $15-35K for analysts, $25-60K for associates based on individual performance and firm results",
+        "Signing bonus: $5-15K for competitive candidates from target schools or with relevant operational experience",
+        "Compensation lower than front-office roles but excellent work-life balance (typically 45-55 hour weeks, better than banking/trading)",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with company match plus profit-sharing contributions",
+        "Relocation assistance for major operational centers (New York, Salt Lake City, Dallas, Bangalore, London)",
+        "Professional development budget for certifications, operations training, and industry conferences",
+        "Access to Goldman's extensive training programs, operations academy, and career development resources",
+        "Total compensation for analysts typically $90-130K all-in, competitive for operations roles with strong career growth potential"
+      ],
+      dayInLife: {
+        overview: "Operations Analysts at Goldman Sachs experience structured, process-driven days with clear objectives and reasonable work-life balance. Hours typically 8:00am-5:30pm with occasional flexibility for month-end close, system implementations, or issue resolution. Days combine transaction processing, exception handling, client service, reconciliation, and collaboration with business and technology teams. Culture values operational excellence, teamwork, continuous improvement, and client service. Operations is critical infrastructure supporting firm's global activities with significant scale and complexity. Analysts gain broad operational expertise and strong foundation for diverse career paths.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Workflow",
+            description: "Arrive and review overnight operational activity: trades processed in Asia, settlement status, exceptions flagged by systems, client inquiries received. Check settlement schedules and critical deadlines for the day (cutoff times for wires, securities movements)."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Trade Settlement Processing",
+            description: "Process equity trade settlements for US market. Verify trade details, confirm securities and cash movements with counterparties, release instructions to clearinghouses. Monitor settlement status through systems. Ensure trades settle on time to avoid fails and penalties."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Exception Investigation",
+            description: "Investigate settlement fail from previous day - large derivatives trade didn't settle as expected. Check trade details, contact counterparty operations, identify root cause (incorrect account details). Coordinate correction with trader, counterparty, and clearinghouse. Document resolution in tracking system."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Client Onboarding",
+            description: "Process new hedge fund client onboarding. Review KYC documentation, verify legal entity details, set up trading accounts and settlement instructions in systems. Coordinate with compliance for AML clearance, legal for account agreements, technology for system access setup. Ensure smooth client experience."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "Quick lunch with operations team. Discuss interesting operational issues, system updates, process improvements. Collaborative, team-oriented culture focused on operational excellence and learning from each other."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Reconciliation",
+            description: "Perform daily nostro reconciliation - compare Goldman's cash position records with bank statement. Identify discrepancies, investigate differences (timing, fees, errors). Ensure cash positions are accurate and breaks are resolved before daily reporting deadlines. Methodical, detail-oriented work."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Corporate Actions Processing",
+            description: "Process dividend payment for equity holdings. Calculate entitlements based on positions, verify rates with custodian, process cash distribution to client accounts. Update position records in systems. Ensure accurate and timely processing to maintain client satisfaction."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Process Improvement Project",
+            description: "Join meeting with technology and operations teams on automation initiative to reduce manual trade confirmations. Provide operational perspective on requirements, test scenarios, edge cases. Review prototype system, provide feedback on user interface and workflow. Contribute to efficiency improvement."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Client Inquiry Resolution",
+            description: "Respond to client inquiry about missing securities in account. Investigate transaction history, identify delayed settlement from custodian transfer. Coordinate expedited resolution, communicate status to client. Deliver professional, responsive client service."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Wrap Up & Handoff",
+            description: "Complete daily processing tasks, update status tracking for ongoing issues, prepare handoff notes for overnight team in Asia. Ensure critical issues are documented and monitored. Head home around 5:30pm with good work-life balance. Predictable hours with occasional late days during month-end or system implementations."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
     }
   },
   'jpmorgan': {
