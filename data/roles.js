@@ -350,6 +350,31 @@ export const roles = {
     },
     industries: ['Finance', 'Investment Banking']
   },
+  'quantitative-strategist': {
+    name: 'Quantitative Strategist (Strats)',
+    description: 'Develop quantitative solutions and technology-driven strategies embedded within trading, sales, and banking desks. Apply mathematical modeling, programming, and analytical thinking to solve complex business problems, build tools for traders, and provide quantitative perspectives on market opportunities and risks.',
+    focusAreas: [
+      'Desk-embedded quantitative support',
+      'Trading tools and analytics development',
+      'Derivatives pricing and risk models',
+      'Market data analysis and signal generation',
+      'Technology and quantitative integration'
+    ],
+    keySkills: [
+      'Advanced mathematics and statistics',
+      'Programming (Python, C++, Java, R)',
+      'Financial markets and products knowledge',
+      'Problem-solving and analytical thinking',
+      'Communication with traders and clients',
+      'Software engineering and system design'
+    ],
+    salaryRange: {
+      min: 165000,
+      max: 220000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Investment Banking']
+  },
   'management-consultant': {
     name: 'Management Consultant',
     description: 'Advise organizations on strategy, operations, and organizational transformation. Analyze complex business problems, develop recommendations, and support implementation of solutions across various industries.',
@@ -530,9 +555,9 @@ export const roles = {
 // Mapping of which roles are relevant for which industries
 export const rolesByIndustry = {
   'Technology': ['software-engineer', 'product-manager', 'data-scientist', 'business-analyst', 'marketing-manager', 'engineering-manager', 'machine-learning-engineer', 'devops-engineer', 'security-engineer', 'technical-program-manager'],
-  'Finance': ['software-engineer', 'data-scientist', 'business-analyst', 'investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'quantitative-analyst', 'quantitative-trader', 'private-banker'],
+  'Finance': ['software-engineer', 'data-scientist', 'business-analyst', 'investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'quantitative-analyst', 'quantitative-trader', 'quantitative-strategist', 'private-banker'],
   'Consulting': ['management-consultant', 'business-analyst', 'data-scientist'],
-  'Investment Banking': ['investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'quantitative-analyst', 'quantitative-trader', 'private-banker', 'business-analyst'],
+  'Investment Banking': ['investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'quantitative-analyst', 'quantitative-trader', 'quantitative-strategist', 'private-banker', 'business-analyst'],
   'Healthcare': ['software-engineer', 'data-scientist', 'business-analyst'],
   'E-commerce': ['software-engineer', 'product-manager', 'data-scientist', 'marketing-manager'],
   'Consumer Goods': ['marketing-manager', 'business-analyst', 'data-scientist'],

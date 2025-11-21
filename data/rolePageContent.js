@@ -1097,6 +1097,395 @@ export const rolePageContent = {
         { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" },
         { companyName: "Wells Fargo", companySlug: "wells-fargo", industry: "Finance" }
       ]
+    },
+    'quantitative-strategist': {
+      roleDescription: "Quantitative Strategists (Strats) at Goldman Sachs represent one of the firm's most distinctive and intellectually elite roles. Working within Global Banking & Markets, Strats are embedded directly with trading, sales, and banking desks to provide quantitative solutions, build sophisticated analytics tools, and solve complex business problems using mathematics, programming, and financial engineering. Unlike traditional quants focused purely on pricing models, Goldman Strats combine deep technical expertise with business acumen and communication skills to serve as 'helpers' and 'assistants' to traders and clients. The role offers extraordinary intellectual challenge, working on cutting-edge problems across equities, FICC, derivatives, and risk management. Strats enjoy Goldman's meritocratic culture, exceptional training through apprenticeship, and a powerful 'seal of approval' that opens doors across quantitative finance. The position balances independent technical work with constant desk interaction, requiring both mathematical sophistication and the ability to translate complex concepts for non-technical audiences.",
+      responsibilities: [
+        "Develop and implement quantitative models for derivatives pricing, risk management, and trading strategies embedded within specific desks",
+        "Build production-quality analytics tools, dashboards, and trading systems in Python, C++, or Java that traders use daily",
+        "Provide real-time quantitative support to traders on pricing complex structures, managing risk exposures, and identifying market opportunities",
+        "Conduct data analysis and generate trading signals using statistical methods, machine learning, and market microstructure insights",
+        "Design and implement risk models including VaR, stress testing, Greeks calculations, and scenario analysis for trading books",
+        "Collaborate with technology teams to integrate quantitative solutions into firm-wide trading and risk infrastructure",
+        "Research new quantitative methodologies from academic literature and adapt them to practical trading applications",
+        "Support client-facing activities by building analytical tools for sales teams and explaining complex models to clients",
+        "Participate in model validation, ensuring accuracy and robustness of pricing and risk calculations"
+      ],
+      growthOpportunities: [
+        "Rapid progression from Analyst to Associate to VP based on impact and technical excellence in Goldman's meritocratic culture",
+        "Opportunity to work across multiple desks and asset classes (equities, FICC, derivatives) gaining broad market exposure",
+        "Path to specialize deeply in specific areas: exotic derivatives pricing, systematic trading, quantitative risk, or machine learning applications",
+        "Potential to transition to quantitative trading roles with P&L responsibility or move into quantitative research leadership",
+        "Elite exit opportunities to top hedge funds (Citadel, DE Shaw, Two Sigma, Millennium), prop trading firms (Jane Street, Jump), or tech companies (Google, Facebook)",
+        "Access to Goldman's world-class training, mentorship from senior Strats, and collaboration with leading practitioners",
+        "'Seal of approval' from Goldman Strats role provides validation and opens doors across quantitative finance industry",
+        "Potential to publish research, present at conferences, and build reputation in quantitative finance community"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45-60 minute technical conversation covering mathematical reasoning, probability, programming, and motivation. Expect probability brainteasers (e.g., 'Expected number of coin flips to see HH?'), coding questions in Python or C++, and discussion of quantitative projects. Goldman assesses problem-solving ability under pressure and genuine interest in quantitative finance. Demonstrate structured thinking, coding proficiency, and knowledge of Goldman Strats' unique role.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Superday - Morning",
+          description: "3-4 rounds of intensive technical interviews with Strats and senior quants covering: (1) Advanced probability and statistics with brainteasers and derivations, (2) Programming and algorithms with live coding problems, (3) Financial mathematics including derivatives pricing basics and risk concepts, (4) Data structures, computational complexity, and system design. Goldman's technical bar is extremely high - expect rigorous questioning and follow-up probing. Interviewers assess depth of understanding, not just memorized answers.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 3,
+          title: "Desk-Specific Interviews - Afternoon",
+          description: "2-3 rounds with Strats and traders from specific desks (Equities, FICC, Derivatives) assessing technical fit and cultural alignment. Expect: (1) Desk-specific technical questions related to products and strategies, (2) Discussion of how you'd approach real business problems the desk faces, (3) Assessment of communication skills and ability to work with non-quants, (4) Cultural fit for Goldman's demanding, meritocratic environment. Chemistry with desk matters significantly - Strats must collaborate effectively with traders.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Final Review & Offer",
+          description: "Hiring committee reviews comprehensive feedback on technical excellence, problem-solving ability, coding skills, and cultural fit. Goldman Strats has one of the highest bars in finance - only exceptional candidates receive offers. Strats need both deep technical ability and strong business judgment. Offers typically extended within 1-2 weeks with competitive compensation: $165-220K base for experienced hires, significant bonus, and signing package."
+        }
+      ],
+      technicalQuestions: [
+        "Derive the Black-Scholes PDE using replicating portfolio argument.",
+        "Explain Ito's lemma and use it to derive dynamics of f(S_t) where S_t is geometric Brownian motion.",
+        "You have a biased coin with unknown probability p of heads. Design optimal strategy to simulate fair coin flip.",
+        "How would you price an Asian option? Describe multiple approaches and trade-offs.",
+        "Explain what the Greeks represent. How would you hedge a portfolio of options?",
+        "What is the expected number of coin flips to see pattern HH? What about HT?",
+        "Implement a binary search algorithm. What's the time complexity? How would you handle duplicates?",
+        "Design a data structure to support insert, delete, and getRandom() all in O(1) time.",
+        "Explain volatility smile and why it exists. What models can capture it?",
+        "How would you calibrate a local volatility model to market implied volatility surface?",
+        "You're given a stream of numbers. How do you efficiently compute rolling average of last N elements?",
+        "Explain Monte Carlo simulation for option pricing. What variance reduction techniques exist?",
+        "How would you backtest a trading strategy? What are common pitfalls to avoid?",
+        "What's the difference between risk-neutral and real-world probability measures?",
+        "Explain convexity adjustment in interest rate derivatives. When does it matter?",
+        "Design a system to handle real-time risk calculations for a large derivatives portfolio.",
+        "How would you detect arbitrage opportunities in option prices programmatically?",
+        "Explain maximum likelihood estimation. How would you use it to calibrate a model?"
+      ],
+      behavioralQuestions: [
+        "Why Goldman Sachs Strats specifically? What differentiates Strats from pure quant research or engineering roles?",
+        "Tell me about a complex quantitative problem you solved. Walk me through your approach and challenges.",
+        "Describe your experience with mathematical modeling and programming. What projects are you most proud of?",
+        "How do you approach learning new mathematical techniques or programming languages quickly?",
+        "Tell me about a time you had to explain a complex technical concept to a non-technical audience.",
+        "Describe a project where you had to balance theoretical rigor with practical constraints and time pressure.",
+        "How do you stay current with developments in quantitative finance, machine learning, and financial markets?",
+        "Tell me about a time your model or analysis produced unexpected results. How did you investigate?",
+        "Describe your experience working in teams on technical projects. How do you collaborate with non-quants?",
+        "What areas of quantitative finance interest you most? (derivatives pricing, trading, risk, machine learning)",
+        "How would you handle disagreement with a trader about model assumptions or risk calculations?",
+        "Walk me through your thesis/research and how it relates to problems Goldman Strats solve.",
+        "What programming languages and tools are you most proficient in? Give specific examples.",
+        "Why quantitative finance over academia, pure tech, or data science? What draws you to this field?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional mathematical ability: mastery of probability, stochastic calculus, statistics, and financial mathematics",
+        "Strong programming skills in Python and C++ with ability to write clean, production-quality code",
+        "Problem-solving prowess and quantitative intuition to tackle novel, ambiguous problems under pressure",
+        "Communication skills to explain complex quantitative concepts clearly to traders, sales, and clients",
+        "Business acumen and practical mindset - ability to balance theoretical rigor with real-world constraints",
+        "Intellectual curiosity and passion for learning new techniques, markets, and technologies",
+        "Cultural fit for Goldman's meritocratic, high-performance environment - humility combined with confidence",
+        "Academic excellence: PhD or Masters in Mathematics, Physics, Computer Science, Engineering, or Financial Engineering from top programs",
+        "Demonstrated impact through research, publications, competitions (Kaggle, coding contests), or previous quantitative work",
+        "Genuine interest in financial markets and understanding of how Strats support trading and client businesses"
+      ],
+      interviewTips: [
+        "Master core quantitative finance: Black-Scholes derivation, Ito's lemma, risk-neutral pricing, Greeks, numerical methods (Monte Carlo, PDE solvers)",
+        "Review probability and statistics deeply: probability distributions, conditional probability, Bayesian inference, maximum likelihood, stochastic processes",
+        "Practice coding extensively: implement option pricers, data structures, algorithms in Python and C++. Use LeetCode, HackerRank for practice",
+        "Read foundational texts: Hull's Options, Futures, and Other Derivatives; Shreve's Stochastic Calculus for Finance; Wilmott on Quantitative Finance",
+        "Understand Goldman Strats' unique positioning: embedded with desks, focus on practical solutions, balance between quant and engineering",
+        "Research Goldman's businesses and recent deals/trading activity to understand context for Strats work",
+        "Prepare detailed examples from research, projects, or thesis demonstrating problem-solving and quantitative depth",
+        "Practice explaining technical concepts simply - critical skill for Strats who work with traders daily",
+        "Know your resume deeply - be able to discuss every model, technique, project, and result in detail",
+        "Prepare for brainteasers: practice probability puzzles, logic problems, and mathematical reasoning under time pressure",
+        "Research recent developments: machine learning in finance, rough volatility, XVA adjustments, alternative data, deep hedging",
+        "Prepare 5-7 specific reasons 'Why Goldman Strats?' - reference culture, meritocracy, desk-embedded model, exit opportunities",
+        "Demonstrate genuine passion for both mathematics and markets - Strats live at intersection of theory and practice",
+        "Show awareness that Strats are 'helpers' to desks - humility and service orientation matter despite technical brilliance"
+      ],
+      salary: {
+        min: 165000,
+        max: 220000
+      },
+      compensation: [
+        "Base salary: $165-220K for experienced hires (PhD/Masters), $140-165K for junior analysts",
+        "Annual performance bonus: $60-180K based on individual impact, desk performance, and firm results",
+        "Signing bonus: $30-100K common for competitive candidates from top PhD programs or other elite firms",
+        "Relocation assistance for major financial centers (New York, London, Hong Kong, San Francisco)",
+        "Comprehensive health, dental, and vision insurance with premium coverage options",
+        "401(k) with company match and profit-sharing contributions",
+        "Tuition reimbursement for continued education or professional certifications (CQF, FRM, CFA)",
+        "Professional development budget for conferences (SIAM, Bachelier, Quant Congress, machine learning conferences)",
+        "Access to cutting-edge research resources, academic collaborations, and publication opportunities",
+        "Total first-year compensation typically $250-450K all-in for experienced PhD Strats with strong credentials"
+      ],
+      dayInLife: {
+        overview: "Goldman Sachs Strats experience intellectually stimulating days balancing deep quantitative work with constant desk interaction and collaboration. Hours typically 9am-7pm with flexibility around desk needs and project deadlines. Better work-life balance than trading or banking while maintaining high intensity and intellectual challenge. Work combines independent model development with real-time trader support, code reviews, and cross-functional collaboration. Culture values technical excellence, practical problem-solving, and meritocratic advancement. Strats enjoy respect from traders, autonomy in approach, and satisfaction from seeing quantitative solutions drive business impact.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Desk Sync",
+            description: "Arrive and check overnight market moves, any model issues flagged by overnight trading teams. Quick standup with desk traders to understand priorities: pricing requests, risk concerns, new trades requiring model support. Review emails from global teams and plan day's technical work."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Model Development",
+            description: "Focus time for deep technical work. Continue implementing stochastic volatility model for equity exotic options desk. Write C++ code for Monte Carlo pricer with variance reduction. Debug numerical issues, optimize performance for real-time pricing. Consult academic papers for calibration techniques."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Trader Collaboration",
+            description: "Meet with equity derivatives trader to discuss pricing of complex structured product for major client. Explain model assumptions, show Greeks profile and hedging strategy. Trader pushes back on assumptions - iterate on model to address concerns. Build mutual understanding of risk trade-offs."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch with Strats Team",
+            description: "Grab lunch with fellow Strats. Discuss interesting problems people are working on, new papers from arXiv, market events. Informal knowledge sharing about techniques, tools, and approaches. Learn about what other desks are doing."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Analytics Tool Development",
+            description: "Build Python dashboard for sales team showing real-time option implied volatilities and model fair values. Use Plotly for interactive visualization. Sales needs this for client pitches - balance functionality with time constraints. Write clean, maintainable code for future updates."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Real-Time Desk Support",
+            description: "Trader calls over: 'This price doesn't look right for butterfly spread.' Drop current work to investigate. Check model inputs, verify market data, recompute Greeks. Identify data feed issue causing incorrect vol interpolation. Fix quickly and explain root cause to trader."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Research & Innovation",
+            description: "Read recent paper on deep hedging using reinforcement learning. Assess whether approach could improve desk's option hedging strategies. Prototype simple implementation in Python to test feasibility. Document findings for team discussion."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Cross-Desk Collaboration",
+            description: "Join meeting with risk team, technology, and other Strats to discuss firm-wide risk aggregation platform. Provide input on derivatives risk calculations, data requirements, and performance considerations. Collaborative problem-solving across quantitative teams."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Code Review & Mentoring",
+            description: "Review junior Strat's code for new Asian option pricer. Check numerical accuracy, test edge cases, suggest performance improvements. Provide constructive feedback and explain best practices. Goldman's apprenticeship culture values developing junior talent."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Documentation & Wrap Up",
+            description: "Document model changes for model risk review. Update technical documentation for desk. Respond to emails, prepare for tomorrow's priorities. Head home around 7pm with good work-life balance. Occasional late nights for urgent projects or deadlines, but much better than trading or banking."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Citadel Securities", companySlug: "citadel-securities", industry: "Finance" },
+        { companyName: "Jane Street", companySlug: "jane-street", industry: "Finance" }
+      ]
+    },
+    'quantitative-trader': {
+      roleDescription: "Quantitative Traders at Goldman Sachs operate at the pinnacle of systematic trading, combining mathematical sophistication with market intuition to generate alpha and provide liquidity across global markets. Working within Global Banking & Markets' systematic trading platforms, you'll design, implement, and manage algorithmic trading strategies spanning equities, FICC, derivatives, and commodities. Unlike pure researchers, quantitative traders carry direct P&L responsibility and must balance model sophistication with practical execution and risk management. Goldman's platform offers unparalleled advantages: massive datasets, cutting-edge infrastructure, substantial capital allocations, and collaboration with world-class quants and technologists. The role demands expertise in statistical modeling, machine learning, programming, and market microstructure, combined with the composure to make real-time decisions under pressure. Goldman's meritocratic culture rewards performance generously - successful quantitative traders can earn exceptional compensation tied to P&L while building valuable skills for eventual hedge fund or proprietary trading opportunities. The position offers intellectual challenge, competitive intensity, and the prestige of the Goldman Sachs franchise.",
+      responsibilities: [
+        "Design and implement systematic trading strategies using statistical models, machine learning, and signal generation across multiple asset classes",
+        "Conduct rigorous research and backtesting to identify alpha-generating opportunities in liquid and electronic markets",
+        "Build production trading systems in Python, C++, or Java that execute strategies in real-time with low latency",
+        "Monitor live trading strategies continuously, analyzing performance attribution, transaction costs, and market impact",
+        "Manage portfolio risk through position limits, VaR constraints, stress testing, and dynamic hedging strategies",
+        "Analyze market microstructure, order flow, execution quality, and liquidity to optimize strategy performance",
+        "Collaborate with quantitative researchers, strats, developers, and risk managers to enhance trading infrastructure",
+        "Investigate strategy degradation, regime changes, and correlation breakdowns, adapting models to evolving market conditions",
+        "Present strategy performance, risk metrics, and research findings to senior management, risk committees, and partnership",
+        "Maintain discipline in risk management and adhere to firm-wide risk limits while pursuing aggressive alpha generation"
+      ],
+      growthOpportunities: [
+        "Rapid compensation growth tied directly to P&L performance - top performers can earn multimillion-dollar bonuses",
+        "Opportunity to manage larger capital allocations and expand strategy portfolio as track record proves out",
+        "Path to build and lead quantitative trading teams, mentor junior quants, or start new strategy verticals",
+        "Develop expertise across multiple asset classes and strategy types: statistical arbitrage, market making, macro, volatility",
+        "Elite exit opportunities to top hedge funds (Citadel, DE Shaw, Two Sigma, Millennium, Point72), prop shops (Jane Street, Jump, SIG), or launching own fund",
+        "Exposure to cutting-edge technologies: machine learning, alternative data, GPU computing, low-latency systems, cloud infrastructure",
+        "Potential transition to portfolio management running systematic funds within Goldman Sachs Asset Management",
+        "Partnership track at Goldman Sachs for exceptional performers with sustained P&L success and leadership"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "60 minute conversation covering quantitative background, trading intuition, and market knowledge. Expect market-related probability questions (e.g., 'Fair price for game where you flip coin and win 2^N dollars on Nth flip?'), discussion of trading strategies you've researched, and motivation for quantitative trading. Goldman assesses both technical skills and genuine passion for markets. Demonstrate systematic thinking, risk awareness, and understanding of Goldman's trading platforms.",
+          duration: "60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Deep Dive",
+          description: "90-120 minute rigorous technical interview covering: (1) Trading strategy design - 'Design mean reversion strategy for equity pairs, describe signal generation, risk management', (2) Statistical analysis and machine learning methodologies, (3) Market microstructure and optimal execution, (4) Coding problems in Python or C++ - implement backtest engine, analyze trading data, (5) Probability and expected value calculations under time pressure. Goldman's technical bar is exceptionally high. Demonstrate depth of knowledge and ability to think critically about strategy development.",
+          duration: "90-120 minutes"
+        },
+        {
+          step: 3,
+          title: "Trading Superday",
+          description: "5-7 rounds with quantitative traders, portfolio managers, senior leadership, and risk officers. Mix of: (1) Strategy presentations - present your trading research with detailed methodology and results, (2) Live market-making games and trading simulations under pressure, (3) Brain teasers and probability puzzles with real-time problem-solving, (4) Code review of your own implementations or live coding challenges, (5) Market intuition discussions - recent events, opportunities, risks across asset classes, (6) Cultural fit assessment for Goldman's intense, meritocratic environment. Be prepared for intellectual combat - interviewers will challenge assumptions and probe weaknesses.",
+          duration: "5-7 hours"
+        },
+        {
+          step: 4,
+          title: "Final Committee & Offer",
+          description: "Senior leadership committee reviews comprehensive feedback on quantitative skills, trading intuition, P&L potential, risk discipline, and cultural fit. Goldman has the highest bar in systematic trading - only candidates with exceptional technical ability and trading judgment receive offers. Offers include competitive base ($190-275K), significant performance bonus tied to P&L (can exceed base by multiples), and signing package. Top performers can reach $500K-$1M+ total compensation within few years."
+        }
+      ],
+      technicalQuestions: [
+        "Design a pairs trading strategy from scratch. How do you select pairs, generate entry/exit signals, size positions, and manage risk?",
+        "Explain Sharpe ratio, alpha, beta, and information ratio. How do you evaluate if a strategy is genuinely adding value?",
+        "How would you detect if a trading strategy has stopped working? What are signs of regime change or model degradation?",
+        "Compare mean reversion vs momentum strategies. Under what market conditions does each work best?",
+        "You're asked to make a market in a European call option with no observable market price. Walk through your approach.",
+        "Explain market impact and how you'd model it for optimal execution of large orders. What's the trade-off?",
+        "What's the difference between adverse selection and inventory risk in market making? How do you manage each?",
+        "Walk me through building cointegration-based trading strategy. What statistical tests validate the relationship?",
+        "Describe your approach to backtesting strategies rigorously. What are common pitfalls that invalidate backtests?",
+        "How do you account for transaction costs, slippage, and market impact in strategy development and backtesting?",
+        "Explain overfitting in trading models. What techniques prevent overfitting and ensure robustness?",
+        "What is walk-forward analysis and why is it critical for validating trading strategies?",
+        "How would you construct and optimize a portfolio of multiple systematic strategies with different characteristics?",
+        "Describe different arbitrage types: statistical, index, merger, latency. What risks does each carry?",
+        "What machine learning techniques are useful for trading? What are key limitations and risks?",
+        "Design a basic high-frequency market making strategy. What factors determine profitability?",
+        "Explain maximum drawdown and how you'd manage it in live trading. What's acceptable for different Sharpe ratios?",
+        "How would you use options to hedge systematic strategy portfolio against tail risk?"
+      ],
+      behavioralQuestions: [
+        "Why quantitative trading at Goldman Sachs specifically? What differentiates Goldman's platform from competitors?",
+        "Walk me through a trading strategy you've developed from conception to implementation. Show me the results.",
+        "Describe a time when a model or strategy didn't perform as expected in live trading or backtest. How did you respond?",
+        "How do you handle the psychological pressure of real-time P&L swings and live trading decisions?",
+        "Tell me about your experience with systematic strategy development, backtesting, and risk management.",
+        "How do you balance model sophistication and complexity with robustness and practical execution?",
+        "Describe a time you identified a trading opportunity or market inefficiency that others missed.",
+        "How do you stay current with developments in quantitative trading, machine learning, and market microstructure?",
+        "Tell me about working in teams on quantitative projects. How do you collaborate with researchers and developers?",
+        "What's your philosophy on risk management in trading strategies? How do you prevent blowups?",
+        "Describe a situation where you had to make a quick trading decision with incomplete information.",
+        "How would you handle a day or week when your strategies are losing money significantly?",
+        "What asset classes and markets interest you most? Equities, fixed income, FX, commodities? Why?",
+        "Why quantitative trading versus quantitative research, engineering, or data science? What draws you specifically to trading?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional quantitative skills: statistics, probability, machine learning, optimization, time series analysis",
+        "Strong programming ability in Python and C++ with capacity to build production-quality trading systems",
+        "Deep understanding of trading strategies: statistical arbitrage, market making, momentum, mean reversion, volatility",
+        "Market intuition and sophisticated understanding of microstructure, execution, liquidity, and price formation",
+        "Risk management discipline with awareness of tail risks, regime changes, correlation breakdown, and position sizing",
+        "Demonstrated track record through personal trading, quantitative competitions (Kaggle, IMC Prosperity), or research publications",
+        "Ability to perform under pressure, think quickly, make decisions with real P&L at stake, and maintain composure during losses",
+        "Intellectual curiosity and continuous learning mindset to adapt strategies as markets evolve",
+        "Clear communication to explain strategies, results, and risks to senior traders, portfolio managers, and risk committees",
+        "Cultural fit for Goldman's meritocratic, high-performance environment - competitive drive balanced with humility and teamwork"
+      ],
+      interviewTips: [
+        "Prepare 3-5 trading strategies you've researched or implemented with comprehensive methodology, backtests, and results - be ready to defend every assumption",
+        "Master core concepts: Sharpe ratio, alpha/beta, market impact, transaction cost modeling, overfitting prevention, walk-forward analysis",
+        "Review statistical techniques deeply: cointegration, time series analysis (ARIMA, GARCH), regression, principal component analysis, machine learning fundamentals",
+        "Practice coding: implement moving average crossover, pairs trading, mean reversion strategy in Python. Review data structures and algorithmic complexity",
+        "Understand market microstructure: bid-ask spread, order books, maker-taker fees, adverse selection, inventory management, optimal execution (Almgren-Chriss)",
+        "Read seminal books: Algorithmic Trading by Ernie Chan, Advances in Financial Machine Learning by Marcos López de Prado, Trading and Exchanges by Larry Harris",
+        "Research Goldman's systematic trading platforms, electronic market making, and quantitative investing across asset classes",
+        "Prepare for brain teasers and expected value calculations - practice probability problems under time pressure",
+        "Know recent market events and have informed views on trading opportunities, regime changes, and market inefficiencies",
+        "Show genuine passion for markets beyond just math - what strategies fascinate you? What research do you follow? What markets do you trade personally?",
+        "Demonstrate risk discipline - successful quant traders balance aggressive alpha generation with strict risk management and position limits",
+        "Prepare 5-7 specific reasons 'Why Goldman Sachs?' - reference systematic platforms, capital, culture, partnership track, exit opportunities",
+        "If you have trading track record (personal, paper trading, competitions), bring comprehensive results and be prepared to defend every decision",
+        "Practice explaining complex strategies simply - you'll communicate with PMs, risk managers, and senior leadership regularly",
+        "Show awareness of Goldman's 14 Business Principles and how they apply to trading (client service, integrity, teamwork despite individual P&L)"
+      ],
+      salary: {
+        min: 190000,
+        max: 275000
+      },
+      compensation: [
+        "Base salary: $190-275K depending on experience level (PhD quants vs MBA vs promoted analysts)",
+        "Performance bonus: $150-800K+ highly variable based on individual P&L contribution and desk performance",
+        "Signing bonus: $75-150K for competitive candidates from top PhD programs, other elite firms, or with proven track records",
+        "Guaranteed bonus structures common for first 1-2 years to mitigate risk of joining",
+        "Deferred compensation and restricted stock units that vest over 3-4 years for retention",
+        "Comprehensive health, dental, and vision insurance with premium family coverage",
+        "401(k) with company match plus profit-sharing contributions",
+        "Relocation assistance and housing support for major financial centers",
+        "Access to cutting-edge trading infrastructure, datasets (including alternative data), and research resources",
+        "Professional development budget for conferences, continued education, and industry networking",
+        "Total compensation for successful senior quantitative traders regularly reaches $1M-$3M+ with sustained strong P&L performance",
+        "Partnership track available for exceptional performers - Goldman Sachs partners earn multimillion-dollar compensation and carry significant prestige"
+      ],
+      dayInLife: {
+        overview: "Quantitative Traders at Goldman Sachs experience intense, dynamic days balancing strategy research, live trading monitoring, performance analysis, and risk management. Hours typically 7:30am-6:30pm with flexibility required around market hours and during high volatility periods. The role combines independent research with constant collaboration across quants, developers, traders, and risk teams. Significant pressure from real-time P&L accountability balanced by systematic approach, risk limits, and team support. Goldman's meritocratic culture rewards performance handsomely but maintains high expectations for sustained alpha generation. Compensation tied to P&L creates high-stakes but high-reward environment for successful traders.",
+        schedule: [
+          {
+            time: "7:30 AM",
+            activity: "Pre-Market Preparation",
+            description: "Arrive well before market open to review overnight market moves across global markets. Check strategy P&L from Asia and European sessions. Review alerts, model warnings, and risk reports. Analyze overnight news and economic data releases that might impact strategies. Adjust risk parameters or pause strategies if warranted by market conditions."
+          },
+          {
+            time: "8:00 AM",
+            activity: "Team Meeting",
+            description: "Morning standup with quantitative trading team, strats, and risk managers. Discuss overnight performance, current market regime, strategy behaviors, and priorities for the day. Share insights on market microstructure changes or opportunities. Senior traders provide guidance on risk positioning."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Market Open Monitoring",
+            description: "Intense focus as US markets open. Monitor all live strategies in real-time: execution quality, fill rates, slippage, transaction costs, and P&L. Watch for anomalies in strategy behavior or market conditions. Make real-time adjustments to parameters, sizing, or pause strategies if necessary. Ensure systems functioning correctly and risk limits respected."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Performance Attribution",
+            description: "Detailed analysis of overnight and morning trading results. Decompose P&L into components: alpha, market impact, transaction costs, execution timing. Compare live performance against backtest expectations. Investigate unusual losses or deviations from model predictions. Document findings and hypotheses about strategy behavior."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Strategy Research",
+            description: "Deep focus time for developing new mean reversion strategy for equity pairs. Analyze historical cointegration relationships in Python. Test signal generation logic with realistic transaction costs and market impact. Run Monte Carlo simulations of strategy under various market regimes. Iterate on risk management rules and position sizing."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Working Lunch",
+            description: "Quick lunch at desk or with trading team while keeping eye on live strategies and market conditions. Informal discussion about interesting market dynamics, new research ideas, or strategy improvements. Stay alert for any alerts requiring immediate attention."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Backtest Development",
+            description: "Implement comprehensive backtest framework for new strategy using walk-forward analysis. Build realistic market impact model based on historical order book data. Account for slippage, fees, funding costs, and all friction. Run extensive parameter sensitivity analyses. Validate that strategy performance is robust across different market regimes and time periods."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Risk Committee Presentation",
+            description: "Present proposed increase in capital allocation for systematic momentum strategy to risk committee. Show detailed performance metrics: Sharpe ratio, maximum drawdown, VaR, stress scenarios, correlation with other strategies. Explain risk management framework and circuit breakers. Answer probing questions from senior risk managers and leadership. Defend methodology and assumptions."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Market Close Monitoring",
+            description: "Heightened attention during final hour of trading. Monitor strategy behavior during closing auction. Ensure proper position squaring and risk management. Handle any execution issues or system problems. Watch for unusual price movements or liquidity changes that might require intervention."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Post-Market Analysis",
+            description: "Comprehensive review of full day's trading across all strategies. Update performance dashboards and P&L attribution. Generate reports for senior management. Document any changes made to strategies, parameters, or risk limits. Analyze what worked well and what needs improvement. Prepare notes and priorities for tomorrow."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Collaboration & Wrap Up",
+            description: "Sync with strats and developers on technical improvements to trading infrastructure. Review code commits, discuss optimization opportunities, plan system enhancements. Quick check of overnight risk positions and coordination with London team for Asia session coverage. Head home around 6:30pm during normal markets. Extended hours during high volatility, major market events, or critical project deadlines."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Citadel Securities", companySlug: "citadel-securities", industry: "Finance" },
+        { companyName: "Jane Street", companySlug: "jane-street", industry: "Finance" }
+      ]
     }
   },
   'jpmorgan': {
