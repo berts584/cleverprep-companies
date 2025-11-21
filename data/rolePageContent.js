@@ -1863,6 +1863,386 @@ export const rolePageContent = {
         { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
         { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
       ]
+    },
+    'risk-analyst': {
+      roleDescription: "Risk Management Analysts at Goldman Sachs serve as critical independent voices protecting the firm across market risk, operational risk, liquidity risk, and model risk. Working within the Risk division - one of Goldman's most respected control functions - you'll identify, measure, monitor, and mitigate risks across the firm's global businesses including trading, investment banking, asset management, and consumer platforms. The role combines quantitative analysis with judgment-based risk assessment, requiring both technical sophistication and ability to challenge senior business leaders when risk-taking exceeds prudent limits. Goldman's risk culture emphasizes independence, analytical rigor, and long-term thinking over short-term profit - protecting the firm's reputation and franchise value. Risk Analysts gain broad exposure to Goldman's businesses, develop deep expertise in risk methodologies, and work alongside senior leaders on firm-wide initiatives. The meritocratic culture rewards sound judgment, analytical excellence, and courage to voice dissenting views. While compensation is lower than revenue-generating roles, work-life balance is significantly better and the foundation in risk management creates valuable optionality for future career pivots.",
+      responsibilities: [
+        "Conduct quantitative risk analysis including Value at Risk (VaR), stress testing, scenario analysis, and sensitivity calculations for trading portfolios",
+        "Monitor market risk exposures across equities, fixed income, currencies, and commodities, identifying concentrations and limit breaches",
+        "Evaluate operational risk across processes, systems, and controls, assessing potential loss events and control effectiveness",
+        "Build and maintain risk models, methodologies, and reporting systems to measure and aggregate risk across business lines",
+        "Participate in Risk Committee meetings, presenting analysis and recommendations to senior risk officers and business leaders",
+        "Challenge business decisions when risk-taking appears excessive, articulating concerns clearly and defending independent risk views",
+        "Collaborate with trading desks, investment banking, technology, and finance teams to understand risks and implement mitigation strategies",
+        "Respond to regulatory inquiries and support compliance with risk-related regulations (Basel III, Dodd-Frank, CCAR, stress testing)",
+        "Conduct independent reviews of new products, strategies, or business initiatives to identify and quantify risks before approval"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to VP to MD based on risk judgment and analytical excellence in Goldman's meritocratic culture",
+        "Opportunity to specialize in high-demand areas: market risk, operational risk, model risk, liquidity risk, cybersecurity risk, climate risk",
+        "Exposure to firm-wide strategic initiatives, regulatory programs (CCAR, resolution planning), and interactions with senior leadership and Board",
+        "Path to lead risk teams, manage global risk functions, or transition to senior Risk Committee roles with firm-wide influence",
+        "Strong foundation for pivoting to revenue-generating roles if desired - risk knowledge highly valued in trading, investment banking, treasury",
+        "Training in risk management, quantitative methods, and regulatory frameworks highly portable across finance industry",
+        "Exit opportunities to chief risk officer roles, regulatory agencies, risk consulting, fintech risk management, or hedge fund risk teams",
+        "Partnership track at Goldman Sachs for exceptional performers demonstrating sustained risk judgment excellence and leadership"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45-60 minute conversation covering quantitative background, risk concepts, and motivation for risk management. Expect questions on: basic risk metrics (VaR, Greeks, volatility), understanding of different risk types, quantitative/analytical work experience, and 'Why Risk Management at Goldman Sachs?' Goldman assesses technical foundation, analytical thinking, and genuine interest in risk versus revenue roles. Demonstrate strong fundamentals, independent mindset, and understanding that risk is control function requiring courage to challenge businesses.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Superday - Morning",
+          description: "2-3 intensive technical interviews with risk analysts and VPs covering: (1) Quantitative risk concepts - VaR calculation, stress testing, correlation, volatility, Greeks, (2) Statistics and probability fundamentals, (3) Financial markets knowledge and product understanding, (4) Risk scenario analysis and judgment questions, (5) Programming and data analysis (Python, Excel, SQL). Goldman's risk interviews are rigorous - expect detailed probing on fundamentals and ability to think critically about risks. Interviewers assess analytical depth, quantitative skills, and risk intuition.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Behavioral & Judgment Interviews - Afternoon",
+          description: "2-3 rounds with senior MDs and risk leaders assessing cultural fit, independence, and risk judgment. Expect: (1) 'Why Risk Management versus Trading/Banking?' - must articulate genuine interest in control functions, (2) Behavioral questions on independence, standing firm under pressure, delivering unpopular messages, (3) Risk judgment cases requiring balancing opportunity and prudence, (4) Assessment of maturity, confidence, and ability to challenge senior business leaders, (5) Cultural fit with Goldman's principles and risk division's independent, thoughtful culture. Chemistry and judgment matter as much as technical skills.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Final Committee & Offer",
+          description: "Senior Risk leadership reviews comprehensive feedback on technical skills, risk judgment, analytical ability, independence, and cultural fit. Risk division seeks candidates with strong fundamentals, sound judgment, courage, and genuine interest in protecting the firm. Offers typically extended within 1-2 weeks with compensation: $100-125K base for analysts, bonus, and sector/risk type assignment details. Compensation lower than banking/trading but work-life balance significantly better (50-60 hour weeks vs 80-100+) with strong career optionality."
+        }
+      ],
+      technicalQuestions: [
+        "What is Value at Risk (VaR)? How do you calculate it? What are limitations of VaR as risk measure?",
+        "Explain the difference between market risk, credit risk, operational risk, and liquidity risk. Give examples of each.",
+        "How would you conduct stress testing for a trading portfolio? What scenarios would you test?",
+        "What are the Greeks (Delta, Gamma, Vega, Theta, Rho)? How do they measure risk in options portfolios?",
+        "Explain correlation and why it matters for portfolio risk. What happens to portfolio VaR when correlations increase in crisis?",
+        "How would you calculate volatility? What's the difference between historical and implied volatility?",
+        "Walk me through how you'd assess operational risk in a trading desk's processes and controls.",
+        "What is duration and convexity? How do they measure interest rate risk in bond portfolios?",
+        "Explain what a stress test is. How does it differ from VaR? Why do we need both?",
+        "How would you evaluate model risk? What makes a model risky?",
+        "What is liquidity risk? How would you assess whether a portfolio could be liquidated quickly?",
+        "Explain the difference between expected loss and unexpected loss. How do you calculate each?",
+        "What is tail risk? How do you measure and manage it?",
+        "How would you assess risk in a leveraged derivative position? What could go wrong?",
+        "What is wrong-way risk? Give an example and explain how you'd measure it.",
+        "Describe the Basel framework for bank capital requirements. Why does it exist?",
+        "How would you design a risk limit framework for a trading desk?",
+        "What are key risk indicators (KRIs)? How would you develop them for operational risk?"
+      ],
+      behavioralQuestions: [
+        "Why Risk Management at Goldman Sachs? Why not trading, investment banking, or other revenue-generating roles?",
+        "Tell me about a time you had to take an unpopular stand or deliver bad news. How did you handle it?",
+        "Describe a situation where you challenged authority or conventional thinking. What was the outcome?",
+        "Walk me through your resume. What analytical or quantitative work demonstrates your risk management potential?",
+        "Tell me about a time you identified a risk others had missed. How did you communicate it?",
+        "How do you handle pressure from others to compromise your analytical conclusions or recommendations?",
+        "Describe a time you had to make a judgment call with incomplete information under time pressure.",
+        "Tell me about a complex problem you analyzed. What was your approach and what did you conclude?",
+        "How would you handle disagreement with a senior trader who thinks your risk limits are too conservative?",
+        "What interests you about risk management specifically? What do you find intellectually engaging?",
+        "How do you stay current on risk management practices, regulations, and industry developments?",
+        "Describe a time you had to balance competing priorities or navigate conflicting stakeholder demands.",
+        "Why Goldman Sachs specifically for risk management? How does Goldman differentiate from other banks?",
+        "Where do you see yourself in 5-10 years? What's your long-term career vision in risk or beyond?"
+      ],
+      whatTheyLookFor: [
+        "Strong quantitative and analytical skills with deep understanding of risk metrics, statistics, and modeling",
+        "Independence and courage to challenge business leaders when risk-taking exceeds prudent limits",
+        "Sound risk judgment and ability to balance opportunity with prudence, thinking long-term over short-term profit",
+        "Intellectual curiosity about markets, businesses, and what can go wrong - healthy skepticism without cynicism",
+        "Clear communication skills to explain complex risks to senior stakeholders, committees, and regulators",
+        "Maturity and confidence to interact with senior traders, bankers, and executives while maintaining independence",
+        "Genuine interest in risk management and control functions rather than purely revenue generation",
+        "Ability to work under pressure, manage multiple priorities, and deliver high-quality analysis on tight deadlines",
+        "Team player mentality - risk management is collaborative function requiring coordination across divisions",
+        "Cultural fit with Goldman's principles, especially integrity, protecting firm's reputation, long-term greedy mindset"
+      ],
+      interviewTips: [
+        "Master risk fundamentals: VaR calculation methods, stress testing, Greeks, volatility, correlation, risk types (market, credit, operational, liquidity)",
+        "Understand statistics and probability: distributions, confidence intervals, tail events, Monte Carlo simulation, hypothesis testing",
+        "Review Basel framework, bank capital requirements, and major regulations (Dodd-Frank, CCAR) - demonstrate regulatory awareness",
+        "Prepare 5-7 specific reasons 'Why Goldman Risk Management?' - reference culture, independence, training, firm-wide impact, career optionality",
+        "Know recent risk events: market crashes, operational failures, regulatory actions - demonstrate awareness of what can go wrong",
+        "Practice risk case studies: given portfolio or scenario, identify risks, propose mitigation, set appropriate limits",
+        "Understand difference between risk role and business roles - articulate genuine interest in control function protecting firm",
+        "Research Goldman's risk organization, risk appetite framework, and how risk integrates with businesses",
+        "Prepare examples demonstrating independence, analytical rigor, and standing firm under pressure or skepticism",
+        "Show awareness that risk says 'no' to businesses - demonstrate maturity and courage required to challenge revenue generators",
+        "Know current market risks: inflation, interest rates, geopolitical tensions, credit conditions, systemic risks",
+        "Practice explaining risk concepts clearly and concisely - communication critical for risk committees and senior leadership",
+        "Study recent Goldman risk disclosures (10-K, 10-Q) to understand firm's risk exposures and management approach",
+        "Demonstrate genuine intellectual interest in what makes organizations fail and how to prevent it"
+      ],
+      salary: {
+        min: 100000,
+        max: 125000
+      },
+      compensation: [
+        "Base salary: $100-125K for Risk Management Analysts, $125-160K for Associates, $175-225K+ for VPs depending on experience",
+        "Annual performance bonus: $30-70K for analysts, $50-120K for associates based on individual performance and firm results",
+        "Signing bonus: $15-30K for competitive candidates from target schools or with relevant risk/quantitative experience",
+        "Compensation lower than investment banking or sales & trading but work-life balance significantly better (typically 50-60 hour weeks)",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with company match plus profit-sharing contributions",
+        "Relocation assistance for major financial centers (New York, London, Hong Kong, Salt Lake City)",
+        "Professional development budget for certifications (FRM, PRM, CFA), risk training programs, and industry conferences",
+        "Access to Goldman's extensive training programs, risk workshops, and apprenticeship with senior risk officers",
+        "Total compensation for analysts typically $135-205K all-in, competitive with consulting and better lifestyle than banking/trading"
+      ],
+      dayInLife: {
+        overview: "Risk Management Analysts at Goldman Sachs balance quantitative analysis with strategic risk discussions and collaboration across businesses. Hours typically 8:30am-6:30pm with reasonable work-life balance compared to banking or trading. Days combine risk modeling, portfolio monitoring, committee preparation, regulatory work, and partnering with business teams. Culture values analytical rigor, independence, sound judgment, and courage to voice concerns. Risk is respected control function with significant influence over firm's activities and direct access to senior leadership. Analysts gain broad exposure to businesses and risk types while developing portable risk management skills.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Risk Review",
+            description: "Arrive and review overnight risk reports: VaR, stress test results, limit breaches, market moves. Check for any risk escalations from overnight trading in Asia or Europe. Scan news for market events, regulatory developments, or operational incidents affecting the firm or industry."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Market Risk Analysis",
+            description: "Analyze equity derivatives portfolio for large European bank trading desk. Calculate VaR using historical simulation, conduct stress tests (equity crash, volatility spike, correlation breakdown). Review Greeks exposures and compare against limits. Identify concentrations and potential tail risks."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Business Discussion",
+            description: "Meet with equity derivatives traders to discuss risk profile, upcoming large trades, and proposed limit increases. Traders want higher VaR limit for volatility trading strategy. Ask probing questions about strategy, downside scenarios, hedging. Assess whether request is prudent given market conditions and firm risk appetite."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Model Validation",
+            description: "Review new pricing model developed by strats for exotic options. Assess model risk: theoretical soundness, implementation quality, parameter calibration, limitations. Test model against benchmark cases, analyze sensitivity to inputs. Document findings and recommendations for model risk committee."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch with Risk Team",
+            description: "Grab lunch with fellow risk analysts. Discuss interesting risk issues, recent market events, regulatory changes, career development. Collaborative environment fostering risk judgment and learning from colleagues across different risk types."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Stress Testing",
+            description: "Work on firm-wide stress testing for annual CCAR submission to Federal Reserve. Build adverse scenario assumptions, calculate impact on trading portfolios, estimate potential losses. Coordinate with credit risk, operational risk, and finance teams for comprehensive stress test."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Risk Committee Meeting",
+            description: "Attend Market Risk Committee meeting with senior MDs and CRO. Present analysis on equity derivatives risk profile, recommend approval of trader's limit increase request with conditions. Answer detailed questions about tail risks, stress scenarios, comparison to peers. Defend recommendations to skeptical committee members. Healthy debate balancing opportunity and prudence."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Operational Risk Assessment",
+            description: "New trading platform being implemented for FX desk. Assess operational risks: system failures, data errors, control gaps, cybersecurity vulnerabilities. Review implementation plan, testing results, rollback procedures. Identify residual risks and recommend mitigation controls before go-live approval."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Regulatory Reporting",
+            description: "Prepare risk metrics for regulatory report due to Federal Reserve. Compile VaR, stress tests, liquidity metrics, large exposures. Ensure calculations comply with regulatory definitions. Draft narrative explaining changes from prior period. Coordinate with compliance and legal teams."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Wrap Up & Departure",
+            description: "Finalize risk committee presentation materials based on feedback. Update risk dashboards and monitoring systems. Respond to emails, prepare for tomorrow's meetings and analyses. Head home around 6:30-7pm with reasonable work-life balance. Occasional late nights for urgent issues, regulatory deadlines, or market crises, but much better hours than banking or trading."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
+    },
+    'operations-analyst': {
+      roleDescription: "Operations Analysts at Goldman Sachs are the engine enabling the firm's global business activities across trading, investment banking, and wealth management. Working within Operations - a massive division supporting every transaction and client interaction - you'll ensure flawless execution of trades, accurate processing of transactions, efficient onboarding of clients, robust control environments, and seamless technology implementations. The role combines process expertise with problem-solving, requiring analytical thinking, attention to detail, and ability to collaborate across businesses, technology, and control functions. Goldman's Operations division touches every aspect of the firm: trade settlement, cash management, securities custody, client onboarding, margin calculations, corporate actions, reconciliations, and technology implementations. Operations Analysts gain broad understanding of financial products, operational workflows, and control frameworks while developing highly transferable skills. The meritocratic culture rewards process improvement, operational excellence, and ability to scale infrastructure supporting Goldman's growth. While compensation is lower than front-office roles, work-life balance is significantly better and the operational expertise creates strong optionality for pivoting to business, technology, or control roles.",
+      responsibilities: [
+        "Ensure accurate and timely settlement of securities trades across equities, fixed income, derivatives, and FX markets globally",
+        "Process client transactions, corporate actions, margin calls, collateral movements, and cash transfers with precision and efficiency",
+        "Investigate and resolve trade breaks, settlement failures, discrepancies, and exceptions collaborating with counterparties and internal teams",
+        "Onboard new clients conducting KYC due diligence, account setup, documentation review, and ensuring regulatory compliance",
+        "Reconcile positions, cash balances, and transactions between Goldman's books and custodians, clearinghouses, and counterparties",
+        "Monitor operational risks, control effectiveness, and key performance indicators, escalating issues and implementing corrective actions",
+        "Support technology implementations and process automation projects, defining requirements and testing new systems",
+        "Collaborate with trading desks, investment banking, technology, compliance, and finance to resolve operational issues and improve processes",
+        "Respond to client inquiries regarding transactions, positions, statements, and documentation with professionalism and accuracy"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to VP to MD based on operational excellence and leadership in Goldman's meritocratic culture",
+        "Opportunity to specialize in high-growth areas: electronic trading operations, derivatives processing, wealth management operations, securities services",
+        "Exposure to firm-wide initiatives: technology transformation, automation, control enhancement, regulatory implementation",
+        "Path to lead operations teams, manage global functions, or transition to senior leadership roles within Operations division",
+        "Strong foundation for pivoting to front-office roles (trading, banking, wealth management), technology, risk, or finance given operational expertise",
+        "Training in financial products, operational processes, and control frameworks highly valued across finance industry",
+        "Exit opportunities to fintech operations, buy-side operations (hedge funds, asset managers), consulting, or operational leadership roles",
+        "Partnership track at Goldman Sachs for exceptional performers demonstrating operational excellence, innovation, and leadership"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45-60 minute conversation covering background, understanding of operations, and analytical capabilities. Expect questions on: interest in operations versus trading/banking, process-oriented thinking, problem-solving approach, attention to detail, and 'Why Operations at Goldman Sachs?' Goldman assesses analytical mindset, process orientation, and genuine interest in operational excellence. Demonstrate strong fundamentals, systematic thinking, and understanding that operations enables firm's business activities.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical & Case Interviews - Morning",
+          description: "2-3 interviews covering: (1) Operational scenarios and problem-solving - 'Walk me through how you'd investigate and resolve trade settlement failure', (2) Process analysis and improvement thinking, (3) Financial products knowledge (equities, bonds, derivatives basics), (4) Excel/data analysis skills and attention to detail, (5) Understanding of controls, reconciliations, and risk management. Goldman assesses analytical ability, systematic thinking, and operational judgment. Be prepared to demonstrate process-oriented mindset and problem-solving approach.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Behavioral & Fit Interviews - Afternoon",
+          description: "2-3 rounds with VPs, MDs, and operations leaders assessing cultural fit, teamwork, and operational mindset. Expect: (1) 'Why Operations versus front-office roles?' - articulate genuine interest in enabling business through operational excellence, (2) Behavioral questions on attention to detail, working under pressure, process improvement, collaboration, (3) Assessment of maturity, professionalism, and client service orientation, (4) Cultural fit with Goldman's principles and operations division's team-oriented, problem-solving culture. Chemistry and collaborative mindset matter significantly.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Final Committee & Offer",
+          description: "Senior Operations leadership reviews comprehensive feedback on analytical ability, process thinking, attention to detail, teamwork, and cultural fit. Operations seeks candidates with systematic mindset, problem-solving skills, collaboration ability, and genuine interest in operational excellence. Offers typically extended within 1-2 weeks with compensation: $70-90K base for analysts, bonus, and business/product area assignment details. Compensation lower than front-office but excellent work-life balance (typically 45-55 hour weeks) and strong career development opportunities."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through the trade lifecycle from execution to settlement. What operational steps are involved?",
+        "What is trade settlement? What can cause a settlement failure and how would you resolve it?",
+        "Explain what reconciliation is. Why is it important operationally?",
+        "What is KYC (Know Your Customer) and why does it matter for client onboarding?",
+        "Describe the difference between equities settlement and derivatives settlement. What makes derivatives more complex?",
+        "What is margin? How do you calculate it and why does it matter operationally?",
+        "Explain what a corporate action is (dividend, stock split, merger). How do you process it operationally?",
+        "What is a nostro account? How do you reconcile it?",
+        "Walk me through how you'd investigate a discrepancy between Goldman's position and a counterparty's records.",
+        "What operational risks exist in trade processing? How do you control them?",
+        "Explain the difference between clearing and settlement.",
+        "What is straight-through processing (STP)? Why does it matter?",
+        "How would you design a control to prevent or detect errors in trade booking?",
+        "What key performance indicators (KPIs) would you track for operational efficiency?",
+        "Explain what a break is in operations. How do you prioritize which breaks to investigate first?",
+        "What is collateral management? Why is it operationally important?",
+        "Describe the operational workflow for onboarding a new institutional client.",
+        "How would you approach automating a manual operational process? What would you consider?"
+      ],
+      behavioralQuestions: [
+        "Why Operations at Goldman Sachs? Why not trading, investment banking, or technology?",
+        "Tell me about a time you identified and fixed a process inefficiency. What was your approach?",
+        "Describe a situation where you caught an error or prevented a mistake through attention to detail.",
+        "Walk me through your resume. What experiences demonstrate your operational or analytical capabilities?",
+        "Tell me about a time you had to work under time pressure to meet a deadline. How did you ensure accuracy?",
+        "Describe a time you had to collaborate with multiple teams to solve a problem.",
+        "How do you stay organized when managing multiple priorities and deadlines?",
+        "Tell me about a time you provided excellent customer service or resolved a client complaint.",
+        "Describe a situation where you had to learn a new process or system quickly.",
+        "What interests you about operations specifically? What do you find engaging about process-oriented work?",
+        "How would you handle discovering a significant error in processing that could impact clients or the firm?",
+        "Tell me about a time you suggested an improvement to a process or system. What was the outcome?",
+        "Why Goldman Sachs specifically for operations? How does Goldman differentiate from other banks?",
+        "Where do you see yourself in 5-10 years? What's your long-term career vision?"
+      ],
+      whatTheyLookFor: [
+        "Strong attention to detail and accuracy - operational errors can be costly and damage client relationships",
+        "Systematic, process-oriented thinking with ability to understand complex operational workflows",
+        "Analytical problem-solving skills to investigate discrepancies, root-cause failures, and propose solutions",
+        "Team collaboration ability - operations requires coordination across businesses, technology, and control functions",
+        "Client service mindset and professionalism when interacting with internal clients and external counterparties",
+        "Ability to work efficiently under pressure and meet strict deadlines (daily settlement cutoffs, month-end close)",
+        "Continuous improvement mentality - seeking ways to enhance processes, reduce errors, increase automation",
+        "Technical aptitude for learning systems, products, and workflows quickly",
+        "Strong communication skills to explain operational issues and solutions clearly to diverse stakeholders",
+        "Cultural fit with Goldman's principles, especially excellence, teamwork, and commitment to operational integrity"
+      ],
+      interviewTips: [
+        "Understand trade lifecycle, settlement process, and basic operational workflows for equities, bonds, and derivatives",
+        "Know key operational concepts: reconciliation, KYC, margin, corporate actions, settlement fails, straight-through processing",
+        "Prepare 5-7 specific reasons 'Why Goldman Operations?' - reference operational excellence, scale, technology investment, career development",
+        "Research Goldman's operations initiatives: automation, technology transformation, operational efficiency programs",
+        "Prepare examples demonstrating attention to detail, process improvement, problem-solving under pressure, and teamwork",
+        "Practice operational scenarios: 'Trade didn't settle - how do you investigate and resolve?', 'Client is missing securities - how do you help?'",
+        "Understand difference between operations and front-office roles - articulate genuine interest in enabling business through operational excellence",
+        "Show Excel proficiency and data analysis skills - operations relies heavily on data management and analysis",
+        "Demonstrate systematic thinking - walk through how you'd approach process analysis, root cause investigation, or control design",
+        "Know recent operational challenges in finance: settlement cycles (T+1), operational resilience, cybersecurity, automation",
+        "Research Goldman's operational businesses: securities services, custody, clearing, transaction banking",
+        "Prepare questions about training programs, rotation opportunities, technology stack, automation initiatives, career paths",
+        "Show awareness that operations is critical infrastructure enabling $trillions in transactions - understand the scale and importance",
+        "Demonstrate client service orientation - operations interfaces with clients daily and must deliver flawless service"
+      ],
+      salary: {
+        min: 70000,
+        max: 90000
+      },
+      compensation: [
+        "Base salary: $70-90K for Operations Analysts, $90-120K for Associates, $140-180K+ for VPs depending on experience and role",
+        "Annual performance bonus: $15-35K for analysts, $25-60K for associates based on individual performance and firm results",
+        "Signing bonus: $5-15K for competitive candidates from target schools or with relevant operational experience",
+        "Compensation lower than front-office roles but excellent work-life balance (typically 45-55 hour weeks, better than banking/trading)",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with company match plus profit-sharing contributions",
+        "Relocation assistance for major operational centers (New York, Salt Lake City, Dallas, Bangalore, London)",
+        "Professional development budget for certifications, operations training, and industry conferences",
+        "Access to Goldman's extensive training programs, operations academy, and career development resources",
+        "Total compensation for analysts typically $90-130K all-in, competitive for operations roles with strong career growth potential"
+      ],
+      dayInLife: {
+        overview: "Operations Analysts at Goldman Sachs experience structured, process-driven days with clear objectives and reasonable work-life balance. Hours typically 8:00am-5:30pm with occasional flexibility for month-end close, system implementations, or issue resolution. Days combine transaction processing, exception handling, client service, reconciliation, and collaboration with business and technology teams. Culture values operational excellence, teamwork, continuous improvement, and client service. Operations is critical infrastructure supporting firm's global activities with significant scale and complexity. Analysts gain broad operational expertise and strong foundation for diverse career paths.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Workflow",
+            description: "Arrive and review overnight operational activity: trades processed in Asia, settlement status, exceptions flagged by systems, client inquiries received. Check settlement schedules and critical deadlines for the day (cutoff times for wires, securities movements)."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Trade Settlement Processing",
+            description: "Process equity trade settlements for US market. Verify trade details, confirm securities and cash movements with counterparties, release instructions to clearinghouses. Monitor settlement status through systems. Ensure trades settle on time to avoid fails and penalties."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Exception Investigation",
+            description: "Investigate settlement fail from previous day - large derivatives trade didn't settle as expected. Check trade details, contact counterparty operations, identify root cause (incorrect account details). Coordinate correction with trader, counterparty, and clearinghouse. Document resolution in tracking system."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Client Onboarding",
+            description: "Process new hedge fund client onboarding. Review KYC documentation, verify legal entity details, set up trading accounts and settlement instructions in systems. Coordinate with compliance for AML clearance, legal for account agreements, technology for system access setup. Ensure smooth client experience."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "Quick lunch with operations team. Discuss interesting operational issues, system updates, process improvements. Collaborative, team-oriented culture focused on operational excellence and learning from each other."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Reconciliation",
+            description: "Perform daily nostro reconciliation - compare Goldman's cash position records with bank statement. Identify discrepancies, investigate differences (timing, fees, errors). Ensure cash positions are accurate and breaks are resolved before daily reporting deadlines. Methodical, detail-oriented work."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Corporate Actions Processing",
+            description: "Process dividend payment for equity holdings. Calculate entitlements based on positions, verify rates with custodian, process cash distribution to client accounts. Update position records in systems. Ensure accurate and timely processing to maintain client satisfaction."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Process Improvement Project",
+            description: "Join meeting with technology and operations teams on automation initiative to reduce manual trade confirmations. Provide operational perspective on requirements, test scenarios, edge cases. Review prototype system, provide feedback on user interface and workflow. Contribute to efficiency improvement."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Client Inquiry Resolution",
+            description: "Respond to client inquiry about missing securities in account. Investigate transaction history, identify delayed settlement from custodian transfer. Coordinate expedited resolution, communicate status to client. Deliver professional, responsive client service."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Wrap Up & Handoff",
+            description: "Complete daily processing tasks, update status tracking for ongoing issues, prepare handoff notes for overnight team in Asia. Ensure critical issues are documented and monitored. Head home around 5:30pm with good work-life balance. Predictable hours with occasional late days during month-end or system implementations."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
     }
   },
   'jpmorgan': {
