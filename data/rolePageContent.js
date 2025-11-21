@@ -1486,6 +1486,383 @@ export const rolePageContent = {
         { companyName: "Citadel Securities", companySlug: "citadel-securities", industry: "Finance" },
         { companyName: "Jane Street", companySlug: "jane-street", industry: "Finance" }
       ]
+    },
+    'private-banker': {
+      roleDescription: "Private Wealth Advisors at Goldman Sachs serve ultra-high-net-worth individuals, families, and institutions through the firm's prestigious Private Wealth Management division. Managing relationships with clients who have $10 million to over $1 billion in investable assets, you'll deliver white-glove wealth advisory including bespoke investment strategies, alternative investments, trust and estate planning, customized lending, philanthropic structuring, and family governance. The role combines sophisticated financial expertise with exceptional relationship management, requiring both technical mastery and polished interpersonal skills. As a Goldman PWA, you'll coordinate specialists across the firm - investment strategists, estate planners, tax advisors, credit experts - to deliver integrated solutions backed by Goldman's intellectual capital and global platform. Goldman's Private Wealth Management is distinguished by institutional-quality investment access (including Goldman's own funds and co-investment opportunities), cutting-edge research, and the prestige of the Goldman Sachs franchise. Success requires building deep trust-based relationships, understanding complex family dynamics, and orchestrating seamless delivery of the firm's world-class capabilities while upholding Goldman's principles of client service and integrity.",
+      responsibilities: [
+        "Manage comprehensive relationships with ultra-high-net-worth clients ($10M+) as primary advisor for all wealth management needs",
+        "Develop sophisticated wealth plans integrating investment strategy, asset allocation, tax optimization, multi-generational estate planning, and philanthropic goals",
+        "Construct institutional-quality investment portfolios using Goldman's platform: alternative investments, private equity, hedge funds, direct deals, and co-investment opportunities",
+        "Structure complex lending solutions including securities-based loans, mortgages, aircraft/yacht financing, real estate credit, and bespoke financing structures",
+        "Coordinate trust and estate planning with Goldman's specialists to implement sophisticated structures, family offices, dynasty trusts, and wealth transfer strategies",
+        "Source new client relationships through networking, centers of influence (attorneys, CPAs, family offices), referrals, and business development in affluent communities",
+        "Present investment ideas, market perspectives, and portfolio reviews in client meetings, leveraging Goldman's global research and market insights",
+        "Collaborate with investment strategists, portfolio managers, estate attorneys, tax advisors, and credit specialists to deliver holistic, seamless solutions",
+        "Monitor portfolio performance, rebalance allocations, and proactively communicate during market volatility, life transitions, or planning opportunities"
+      ],
+      growthOpportunities: [
+        "Rapid progression from Associate to VP to Managing Director based on relationship growth, revenue generation, and client service excellence",
+        "Opportunity to build substantial book of business ($500M-$2B+ AUM) with revenue-based compensation creating significant earnings potential",
+        "Path to specialize in lucrative client segments: entrepreneurs, tech executives, family offices, foundations, institutional clients",
+        "Develop deep expertise in complex areas: alternative investments, international wealth planning, tax strategies, philanthropic structures, family governance",
+        "Access to Goldman's unparalleled platform: proprietary investment opportunities, global capabilities, world-class research, and executive networks",
+        "Leadership opportunities managing teams of advisors, running regional offices, or building specialized practices",
+        "Partnership track at Goldman Sachs for exceptional performers with sustained revenue growth and exemplary client service",
+        "Strong reputation and Goldman pedigree create exit opportunities to boutique wealth firms, family offices, or launching independent RIA practice"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen with Recruiter",
+          description: "45-60 minute conversation covering background, interest in private wealth management, and understanding of ultra-high-net-worth clients. Expect questions about client-facing experience, wealth management knowledge, business development capability, and motivation for Goldman Sachs specifically. Goldman looks for polished communication, genuine passion for serving clients, and cultural alignment with firm's principles. Demonstrate professionalism, articulate interest in PWM, and show understanding of Goldman's differentiated platform.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Interview with PWM Team",
+          description: "90-120 minute deep discussion with Private Wealth Advisors and team leaders covering technical knowledge and relationship management skills. Expect rigorous questions on: (1) Investment concepts - asset allocation, alternative investments, portfolio construction, manager selection, (2) Wealth planning - estate planning, trusts, tax efficiency, wealth transfer strategies, (3) Credit and lending structures for UHNW clients, (4) Client service scenarios and relationship building, (5) Business development approach and networking capabilities. Goldman assesses both technical depth and interpersonal excellence. Come prepared with specific examples demonstrating consultative approach and client results.",
+          duration: "90-120 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday with Leadership",
+          description: "3-5 rounds with senior Managing Directors, regional heads, and potentially division leadership. Goldman's PWM superday is rigorous and assesses: (1) Complex client case studies requiring integrated wealth solutions, (2) 'Why Goldman Sachs PWM?' - must articulate 5-7 specific, compelling reasons, (3) Business development strategy - how you'd build book, source relationships, leverage networks, (4) Behavioral questions on client service, teamwork, handling difficult situations, pressure, (5) Assessment of polish, maturity, executive presence required for billionaire clients, (6) Cultural fit with Goldman's principles: client service, integrity, excellence, teamwork. Be prepared for intellectual rigor and probing questions. Interviewers assess whether you can represent Goldman Sachs to the world's wealthiest families.",
+          duration: "4-6 hours"
+        },
+        {
+          step: 4,
+          title: "Final Committee & Offer",
+          description: "Senior leadership committee reviews comprehensive feedback on technical knowledge, relationship skills, business development potential, cultural fit, and executive presence. Goldman has the highest bar for client-facing roles - only candidates with exceptional technical ability AND interpersonal polish receive offers. PWM requires rare combination of investment expertise and relationship excellence. Offers typically extended 1-2 weeks with details on compensation structure (base $110-165K, significant performance-based upside), book development expectations, and team/market placement."
+        }
+      ],
+      technicalQuestions: [
+        "How would you construct an investment portfolio for a client with $100 million in investable assets? Walk me through asset allocation, manager selection, and alternative investments.",
+        "Explain the difference between revocable and irrevocable trusts. When would you recommend each for estate planning?",
+        "Walk me through advising a client on tax-efficient wealth transfer to next generation. What vehicles and strategies would you consider?",
+        "What is asset allocation and how would you determine appropriate allocation for a retired client with $50M seeking 4% annual distributions?",
+        "Explain the benefits and risks of securities-based line of credit versus traditional mortgage for purchasing $20M vacation home.",
+        "Client just sold their business for $200 million. Walk me through comprehensive wealth planning approach in first 90 days.",
+        "What is a donor-advised fund? How does it compare to private foundation for philanthropic goals?",
+        "Describe different types of alternative investments and how they fit in UHNW portfolios. What are key risks?",
+        "How would you help a client balance liquidity needs ($10M annual spending) with long-term investment objectives and legacy goals?",
+        "Explain what a family office is. When does it make sense for client to establish single-family office versus multi-family office?",
+        "Client concerned about 30% market decline. How would you advise them? Walk me through the conversation.",
+        "What is estate tax and what strategies help minimize estate tax burden for $500M estate?",
+        "Describe the role of life insurance in estate planning for high-net-worth individuals. What structures exist?",
+        "How would you approach advising a client with complex cross-border assets (US, UK, Hong Kong) and tax situations?",
+        "What due diligence would you conduct when recommending private equity fund or hedge fund manager to client?",
+        "Explain active versus passive investing. How do you advise ultra-high-net-worth clients on this?",
+        "How would you structure credit facility for client purchasing $50M aircraft? What are considerations?",
+        "Describe how you'd coordinate with estate attorney, CPA, and investment team for complex multigenerational wealth plan."
+      ],
+      behavioralQuestions: [
+        "Why Goldman Sachs Private Wealth Management specifically? What differentiates Goldman's PWM from JPMorgan, Morgan Stanley, UBS?",
+        "Describe your experience building and managing high-net-worth client relationships. Give specific examples.",
+        "Tell me about a time you provided exceptional, white-glove client service that exceeded expectations.",
+        "How would you handle a difficult client situation or serious complaint? Walk me through your approach.",
+        "Describe your business development strategy. How would you source new ultra-high-net-worth relationships?",
+        "Tell me about a time you had to coordinate multiple specialists to deliver complex solution for client.",
+        "How do you build trust with successful entrepreneurs and wealthy families? What's your approach?",
+        "Describe a situation where you had to deliver disappointing news or bad performance to a client.",
+        "How do you stay current on investment markets, tax law changes, estate planning developments, and alternative investments?",
+        "Tell me about a time you identified client need or planning opportunity they hadn't recognized themselves.",
+        "How would you prioritize among multiple demanding ultra-high-net-worth clients with urgent, competing requests?",
+        "Describe your experience with alternative investments, private equity, hedge funds, or direct investing.",
+        "What do you think are the biggest challenges and opportunities facing ultra-wealthy families today?",
+        "Walk me through how you'd differentiate Goldman Sachs PWM when prospecting against competitors. Be specific."
+      ],
+      whatTheyLookFor: [
+        "Exceptional interpersonal skills and executive presence to interact with billionaires, CEOs, and prominent families",
+        "Deep financial knowledge: investments, alternatives, estate planning, tax, credit, with ability to discuss complex concepts fluently",
+        "Business development mindset and demonstrated ability to source relationships through networking, centers of influence, and referrals",
+        "Consultative approach to understanding client needs and delivering integrated, holistic wealth solutions",
+        "Absolute discretion, integrity, and professionalism required for ultra-sensitive client relationships and confidential information",
+        "Ability to simplify complexity and provide clear, actionable guidance on sophisticated planning strategies",
+        "Team collaboration skills to coordinate across Goldman's platform - investment, credit, estate, tax, alternatives teams",
+        "Emotional intelligence to navigate family dynamics, generational wealth transfer, succession planning, and sensitive conversations",
+        "Resilience and composure under pressure when managing demanding clients, market volatility, and high-stakes situations",
+        "Cultural fit with Goldman's 14 Business Principles, especially client service, integrity, and commitment to excellence"
+      ],
+      interviewTips: [
+        "Research Goldman Sachs Private Wealth Management's platform, competitive positioning, recent growth, and differentiated capabilities (alternative investments, research, global reach)",
+        "Master wealth management fundamentals: asset allocation, alternative investments, trust structures, estate planning, tax efficiency, credit solutions",
+        "Prepare 5-7 specific, compelling reasons 'Why Goldman Sachs PWM?' - reference platform advantages, culture, training, partnership track, prestige",
+        "Know recent market conditions and practice discussing them professionally with concerned clients - demonstrate composure and perspective",
+        "Review alternative investments: private equity, hedge funds, real estate, direct investments, co-investment opportunities Goldman offers",
+        "Understand ultra-high-net-worth client segment ($10M-$1B+): unique needs, concerns, expectations, family dynamics",
+        "Prepare thoughtful questions about team structure, client segmentation, support resources, training programs, book development expectations",
+        "Demonstrate polish, professionalism, and maturity - you'll represent Goldman Sachs to world's wealthiest individuals and most prominent families",
+        "Be ready to discuss business development strategy: how you'd leverage networks, build relationships, source introductions from centers of influence",
+        "Show awareness of current wealth planning topics: tax law changes, ESG/impact investing, next-gen wealth transfer, family governance, succession planning",
+        "Practice articulating investment philosophy and how you'd advise clients on portfolio construction, alternatives allocation, manager selection",
+        "Emphasize discretion and integrity - private wealth management requires absolute confidentiality and fiduciary mindset",
+        "Research Goldman's broader capabilities that benefit private clients: investment banking relationships, merchant banking, asset management, global reach",
+        "Prepare for case studies: be ready to walk through comprehensive wealth planning for business sale, inheritance, complex estate, international client",
+        "Study Goldman Sachs' 14 Business Principles - be ready to discuss how they apply to client service and wealth management"
+      ],
+      salary: {
+        min: 110000,
+        max: 165000
+      },
+      compensation: [
+        "Base salary: $110-165K for Associate Private Wealth Advisors, $165-300K+ for experienced VPs/MDs depending on market and book size",
+        "Revenue-based incentive compensation: substantial variable pay tied to client revenue, asset growth, and new business generation",
+        "Total compensation potential: $250-750K+ for successful advisors managing $500M-$1B+ in client assets with strong revenue production",
+        "Signing bonus: $25-75K for candidates with existing relationships, relevant experience, or transferable book of business",
+        "Deferred compensation and restricted stock units for top producers and senior Managing Directors",
+        "Comprehensive health, dental, and vision insurance with premium family coverage and concierge medical services",
+        "401(k) with generous company match plus profit-sharing contributions",
+        "Substantial expense account for client entertainment, networking events, and business development activities",
+        "Professional development budget for certifications (CFP, CIMA, CFA), advanced training, and industry conferences",
+        "Partnership track for exceptional performers - Goldman Sachs partners in PWM can earn $2M-$10M+ with large, established books serving institutional and ultra-wealthy clients",
+        "Access to Goldman's platform advantages: proprietary investment opportunities, carried interest in funds, co-investment allocations"
+      ],
+      dayInLife: {
+        overview: "Private Wealth Advisors at Goldman Sachs enjoy dynamic, client-centric roles with significant autonomy and entrepreneurial opportunity. Days balance client meetings, portfolio reviews, business development, market monitoring, and collaboration with specialists. Hours typically 8am-6:30pm with flexibility for client schedules, evening networking events, and cultivation activities. The work is intellectually engaging, relationship-driven, and personally rewarding. Goldman's meritocratic culture values revenue production, client service excellence, and teamwork. Compensation tied to client assets and revenue creates entrepreneurial environment with substantial upside for top relationship builders. Prestige of Goldman Sachs franchise and access to world-class platform differentiate the role.",
+        schedule: [
+          {
+            time: "7:30 AM",
+            activity: "Market Preparation",
+            description: "Arrive early to review overnight market moves globally, check client portfolio performance, scan Goldman research and market commentary. Prepare for day's client interactions with updated views. Review any urgent client emails or market-related questions."
+          },
+          {
+            time: "8:00 AM",
+            activity: "Team Meeting",
+            description: "Morning huddle with PWM colleagues, investment strategists, and specialists. Discuss market conditions, investment ideas, client opportunities, and pipeline. Share best practices on complex planning situations. Collaborative culture focused on learning and client solutions."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Client Portfolio Review",
+            description: "Meet with long-standing client family ($150M in assets) for quarterly review. Present portfolio performance, discuss rebalancing opportunities, review alternative investment pipeline, discuss estate planning updates following new tax legislation. Client concerned about market volatility - provide perspective, discuss risk management. Deepen relationship and identify additional planning opportunities."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Prospect Meeting",
+            description: "Initial meeting with referred prospect - tech entrepreneur post-IPO ($80M liquidity event). Listen to goals, understand family situation, current advisors, pain points. Present Goldman's differentiated capabilities: alternative investments access, estate planning expertise, credit solutions, global platform. Begin building trust and demonstrating value. Plant seeds for follow-up and deeper engagement."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Business Development Lunch",
+            description: "Lunch with prominent trusts and estates attorney who serves as key center of influence. Strengthen relationship, discuss mutual clients (with permission), share market insights, stay top-of-mind for wealthy client referrals. Discuss interesting planning structures attorney is implementing for clients. Build reciprocal referral relationship."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Complex Planning Session",
+            description: "Internal strategy session with estate planning specialist, tax advisor, credit expert, and alternative investments team. Develop comprehensive wealth transfer plan for multigenerational client family ($500M estate). Coordinate integrated solution involving dynasty trusts, private foundation, family limited partnership, alternative investments allocation, and credit facility. Prepare presentation for client family meeting."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Investment Research & Due Diligence",
+            description: "Review private equity fund offering from Goldman's merchant banking division - potential opportunity for select clients. Analyze terms, track record, portfolio composition, fit for client allocations. Conduct due diligence call with fund manager. Identify which clients have suitable risk profiles and alternative allocations for opportunity."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Client Service & Follow-Up",
+            description: "Handle various client requests: coordinate securities-based loan closing ($10M), review estate planning documents from attorney, schedule upcoming family meeting, send customized market commentary addressing client concerns about geopolitical risks. Proactive communication to strengthen relationships and demonstrate attentiveness."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Charity Gala & Networking",
+            description: "Attend exclusive charity fundraiser where many ultra-high-net-worth prospects participate. Network authentically, build relationships in community, demonstrate Goldman's commitment to philanthropy. Identify potential new client connections through genuine engagement. Represent Goldman Sachs with polish and professionalism. Cultivate long-term relationships."
+          },
+          {
+            time: "8:30 PM",
+            activity: "Evening Wrap Up",
+            description: "Return home after networking event. Quick review of emails for any urgent client matters. Document new prospect contacts, plan follow-up communications, prepare for tomorrow's meetings. Flexible schedule accommodates client needs, business development activities, and cultivation events. Work-life integration required for success in building substantial book of business."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "UBS", companySlug: "ubs", industry: "Finance" }
+      ]
+    },
+    'credit-analyst': {
+      roleDescription: "Credit Risk Analysts at Goldman Sachs play a critical role in protecting the firm's balance sheet and enabling client business across Global Banking & Markets. Working within the Credit Risk division, you'll assess creditworthiness of corporate, financial institution, and sovereign counterparties to determine acceptable credit exposures for lending, derivatives trading, and investment activities. The role combines rigorous financial analysis with judgment-based risk assessment, requiring both quantitative skills and qualitative evaluation of management quality, industry dynamics, and market conditions. Goldman's Credit Risk team operates as a true 'second set of eyes' - independent from revenue-generating businesses but deeply integrated with deal teams to enable client transactions while managing firm risk prudently. The position offers exposure to Goldman's most significant client relationships, complex credit structures, and landmark transactions across M&A, leveraged finance, and derivatives. Analysts develop expertise in credit fundamentals, financial modeling, and risk management while gaining broad understanding of Goldman's businesses. The meritocratic culture rewards analytical excellence, sound judgment, and ability to balance risk and opportunity in service of the firm's long-term success.",
+      responsibilities: [
+        "Assess credit quality of corporate and financial institution counterparties through detailed financial analysis, ratio analysis, and cash flow modeling",
+        "Evaluate proposed credit exposures for new client relationships, lending transactions, derivatives trades, and investment commitments",
+        "Build detailed credit models analyzing leverage, coverage ratios, liquidity, covenant compliance, and scenario analysis under stress conditions",
+        "Write comprehensive credit memoranda presenting analysis, risk assessment, rating recommendations, and proposed exposure limits to Credit Risk Committees",
+        "Monitor existing credit exposures and obligor credit quality, identifying deteriorating credits and recommending risk mitigation actions",
+        "Collaborate with investment banking, sales & trading, and financing teams to structure transactions that meet client needs while managing Goldman's credit risk",
+        "Analyze complex credit structures including leveraged buyouts, acquisition financings, syndicated loans, and derivative exposure netting arrangements",
+        "Participate in Credit Risk Committee meetings, presenting analyses and defending recommendations to senior risk officers and managing directors",
+        "Conduct industry research and peer analysis to understand competitive positioning, cyclicality, and key credit drivers for assigned sectors"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to VP to MD based on analytical excellence and credit judgment in Goldman's meritocratic culture",
+        "Opportunity to specialize in lucrative sectors: leveraged finance, financial institutions, investment grade corporates, emerging markets, real estate",
+        "Exposure to Goldman's most significant client relationships and landmark transactions, building deep market knowledge and relationships",
+        "Path to lead credit coverage teams, manage sector portfolios, or transition to senior Credit Risk Committee roles with firm-wide influence",
+        "Strong foundation for pivoting to revenue-generating roles in investment banking, leveraged finance, or private credit if desired",
+        "Training in credit fundamentals, financial analysis, and risk management highly valued across finance industry",
+        "Exit opportunities to credit-focused hedge funds, private credit firms, direct lending funds, rating agencies, or corporate treasury roles",
+        "Partnership track at Goldman Sachs for exceptional performers who demonstrate sustained credit judgment excellence and leadership"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45-60 minute conversation covering accounting/finance fundamentals, credit analysis knowledge, and motivation for credit risk. Expect technical questions on financial statements, credit metrics (leverage, coverage, liquidity ratios), and basic credit concepts. Behavioral questions on analytical work, attention to detail, and 'Why Credit Risk at Goldman Sachs?' Goldman assesses both technical foundation and genuine interest in credit analysis versus investment banking or trading. Demonstrate strong fundamentals, analytical mindset, and understanding that credit risk is independent control function with firm-wide impact.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Superday - Morning",
+          description: "2-3 intensive technical interviews with credit analysts and VPs covering: (1) Accounting fundamentals - walk through three statements, understanding of working capital, cash conversion, (2) Credit analysis - leverage ratios, coverage metrics, what makes good vs bad credit, (3) Financial modeling and credit scenarios, (4) Industry/company-specific credit analysis case, (5) Understanding of credit structures, covenants, security. Goldman's credit interviews are rigorous - expect detailed probing on fundamentals and credit judgment. Interviewers assess analytical depth, attention to detail, and ability to identify credit risks.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Behavioral & Fit Interviews - Afternoon",
+          description: "2-3 rounds with senior MDs and credit risk leaders assessing cultural fit, judgment, and commitment to credit risk career. Expect: (1) 'Why Credit Risk versus Investment Banking?' - must articulate genuine interest in risk management, (2) Behavioral questions on analytical rigor, working under pressure, defending unpopular views, (3) Case discussions requiring credit judgment and balancing risk vs opportunity, (4) Assessment of maturity, independence, and ability to say 'no' to deal teams when credit quality insufficient, (5) Cultural fit with Goldman's principles and credit risk's independent, thoughtful culture. Chemistry and judgment matter as much as technical skills.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Final Committee & Offer",
+          description: "Senior Credit Risk leadership reviews comprehensive feedback on technical skills, credit judgment, analytical ability, and cultural fit. Credit Risk seeks candidates with strong fundamentals, sound judgment, independence, and genuine interest in risk management. Offers typically extended within 1-2 weeks with competitive compensation: $90-110K base for analysts, bonus, and details on sector assignment and training program. While compensation lower than banking/trading, work-life balance significantly better with strong exit opportunities."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through the three financial statements and how they're interconnected. What are key credit metrics you'd look for?",
+        "What are the key credit ratios you'd use to assess leverage, coverage, and liquidity? Define each and explain what levels concern you.",
+        "How do you calculate Debt/EBITDA? Why is it important for credit analysis? What are limitations?",
+        "Explain the difference between secured and unsecured debt. When does security matter for credit analysis?",
+        "What is EBITDA and why do we use it for credit? What are its shortcomings as measure of cash generation?",
+        "Walk me through analyzing a company for credit. What financial metrics, qualitative factors, and risks would you assess?",
+        "How would you evaluate the credit quality of a leveraged buyout (LBO)? What makes an LBO risky from credit perspective?",
+        "Explain what covenants are and why they matter for lenders. What are maintenance vs incurrence covenants?",
+        "If revenue decreases by 20%, walk me through the impact on the financial statements and key credit metrics.",
+        "What is free cash flow and how do you calculate it? Why does it matter for credit assessment?",
+        "How would you assess credit risk of a cyclical company (e.g., airline, commodity producer) versus stable utility?",
+        "Explain the difference between investment grade and high yield credits. What characteristics differentiate them?",
+        "What are some early warning signs that a credit is deteriorating? How would you monitor existing exposures?",
+        "How do you think about recovery rates and loss given default in credit analysis?",
+        "Walk me through credit analysis of a financial institution. How does it differ from corporate credit analysis?",
+        "What is the difference between operating lease and capital lease? How does it impact credit analysis?",
+        "If a company wants to dividend out cash to sponsor in LBO, how would you assess the credit risk?",
+        "Explain what a syndicated loan is. How do you assess credit risk in syndicated lending?"
+      ],
+      behavioralQuestions: [
+        "Why Credit Risk at Goldman Sachs? Why not investment banking, sales & trading, or other revenue-generating roles?",
+        "Tell me about a time you had to analyze complex financial information under time pressure. What was your approach?",
+        "Describe a situation where you had to take an unpopular or contrary view. How did you defend your position?",
+        "Walk me through your resume. What analytical work have you done that demonstrates credit analysis skills?",
+        "Tell me about a time you made a mistake in your analysis. How did you identify it and what did you learn?",
+        "How do you prioritize when you have multiple urgent credit requests from different deal teams?",
+        "Describe a time you had to communicate complex financial analysis to non-technical audience.",
+        "How would you handle pressure from a deal team to approve credit exposure you think is too risky?",
+        "Tell me about a time you had to quickly become an expert in an unfamiliar industry or company.",
+        "What interests you about credit analysis specifically? What do you find intellectually engaging?",
+        "How do you stay current on credit markets, defaults, industry trends, and macroeconomic conditions?",
+        "Describe a situation where you had to balance competing priorities or make trade-offs under constraints.",
+        "Why Goldman Sachs specifically for credit risk? How does Goldman differentiate from other banks?",
+        "Where do you see yourself in 5-10 years? What's your long-term career vision?"
+      ],
+      whatTheyLookFor: [
+        "Strong accounting and finance fundamentals with deep understanding of financial statements, ratios, and credit metrics",
+        "Analytical rigor and attention to detail - ability to identify risks, inconsistencies, and credit red flags in analysis",
+        "Sound credit judgment and independent thinking - willingness to say 'no' when credit quality insufficient despite deal pressure",
+        "Intellectual curiosity about businesses, industries, capital structures, and what drives credit performance",
+        "Clear written and verbal communication to explain complex credit analysis to committees and senior stakeholders",
+        "Maturity and professionalism to interact with senior bankers, traders, and clients while maintaining independence",
+        "Genuine interest in credit risk management and risk/return frameworks rather than purely revenue generation",
+        "Ability to work under pressure, manage multiple priorities, and deliver high-quality analysis on tight deadlines",
+        "Team player mentality with humility - credit risk is collaborative function requiring coordination across firm",
+        "Cultural fit with Goldman's principles, especially integrity, protecting firm's reputation, and long-term thinking over short-term profit"
+      ],
+      interviewTips: [
+        "Master accounting fundamentals: three financial statements, working capital cycle, cash flow statement reconciliation, key ratios",
+        "Understand credit metrics deeply: Debt/EBITDA, EBITDA/Interest, Debt/Equity, current ratio, quick ratio, FCF, DSCR - know formulas and what levels indicate credit stress",
+        "Review leveraged finance and credit structures: LBOs, syndicated loans, covenants, security, subordination, intercreditor agreements",
+        "Read Goldman Sachs Credit Research reports to understand how professional credit analysts think about industries and companies",
+        "Prepare 5-7 specific reasons 'Why Goldman Credit Risk?' - reference firm's credit culture, risk management reputation, deal flow, training",
+        "Know recent credit events: defaults, downgrades, restructurings, credit market conditions - demonstrate awareness of credit markets",
+        "Practice credit case studies: pick public companies, analyze credit quality, assign rating, determine appropriate exposure limit",
+        "Understand difference between credit analyst role versus investment banking - articulate genuine interest in risk side versus deal execution",
+        "Read financial statements and 10-Ks of public companies - practice identifying credit risks, covenant compliance, liquidity concerns",
+        "Research Goldman's credit-related businesses: leveraged finance, investment grade lending, derivatives credit exposure, financing businesses",
+        "Prepare examples demonstrating analytical rigor, attention to detail, independent thinking, and sound judgment under pressure",
+        "Show awareness that Credit Risk says 'no' to deals - demonstrate maturity and independence required to challenge deal teams",
+        "Know current macro credit conditions: interest rate environment, default rates, credit spreads, market liquidity, Fed policy",
+        "Practice explaining credit concepts clearly and concisely - communication critical for credit memo writing and committee presentations"
+      ],
+      salary: {
+        min: 90000,
+        max: 110000
+      },
+      compensation: [
+        "Base salary: $90-110K for Credit Risk Analysts, $110-140K for Associates, $150-200K+ for VPs depending on experience and performance",
+        "Annual performance bonus: $25-60K for analysts, $40-100K for associates based on individual performance and firm results",
+        "Signing bonus: $10-25K for competitive candidates from target schools or with relevant credit/finance experience",
+        "Compensation lower than investment banking or sales & trading but work-life balance significantly better (typically 50-60 hour weeks vs 80-100+)",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with company match plus profit-sharing contributions",
+        "Relocation assistance for major financial centers (New York, London, Hong Kong)",
+        "Professional development budget for certifications (CFA, FRM), credit training, and industry conferences",
+        "Access to Goldman's extensive training programs, credit risk workshops, and apprenticeship with senior credit officers",
+        "Total compensation for analysts typically $120-180K all-in, competitive with consulting but lower than banking/trading, balanced by better lifestyle"
+      ],
+      dayInLife: {
+        overview: "Credit Risk Analysts at Goldman Sachs balance deep analytical work with collaboration across deal teams and credit committees. Hours typically 8:30am-6:30pm with reasonable work-life balance compared to banking or trading. Days combine independent credit analysis, financial modeling, writing credit memos, attending committee meetings, and partnering with business teams. Culture values analytical rigor, sound judgment, independence, and thoughtful risk management. Credit Risk is respected control function with significant influence over firm's business activities. Analysts gain broad exposure to industries, transactions, and credit structures while developing portable credit skills.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Market Review",
+            description: "Arrive and review overnight credit news: rating changes, defaults, market developments affecting portfolio exposures. Check credit spreads, CDS markets, and news for companies in coverage portfolio. Scan Goldman Credit Research for relevant industry or company updates."
+          },
+          {
+            time: "9:00 AM",
+            activity: "New Credit Request Review",
+            description: "Investment banking team submitted request for $500M senior secured credit facility for technology buyout. Begin credit analysis: review company financials, industry dynamics, LBO structure, leverage metrics, cash flow projections. Build financial model and calculate post-LBO leverage, coverage ratios, covenant compliance."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Management Call",
+            description: "Join conference call with company management, sponsor private equity firm, and investment banking team to discuss business strategy, market position, growth initiatives, and financing needs. Ask probing questions about working capital, capex, customer concentration, competitive threats. Assess management quality and credibility."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch with Credit Team",
+            description: "Grab lunch with fellow credit analysts. Discuss interesting credits being analyzed, industry trends, recent defaults or restructurings. Learn from colleagues covering different sectors. Collaborative environment fostering credit judgment development."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Credit Memo Writing",
+            description: "Write comprehensive credit memorandum for LBO analysis: executive summary, company overview, industry analysis, financial analysis, leverage metrics, scenario analysis, risk factors, proposed structure and terms, rating recommendation, exposure limit recommendation. Rigorous, detailed analysis supporting credit decision."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Credit Risk Committee Meeting",
+            description: "Present LBO credit analysis to Credit Risk Committee (senior MDs and credit officers). Walk through analysis, defend rating recommendation and exposure limit, answer detailed questions about downside scenarios, covenant protection, security, exit assumptions. Committee challenges assumptions and probes risks. Healthy debate balancing opportunity and prudent risk management."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Portfolio Monitoring",
+            description: "Review quarterly earnings for existing portfolio credits. One company missed EBITDA guidance - run updated leverage calculations, assess covenant compliance, evaluate if rating or exposure limit should change. Flag potential deteriorating credit for team discussion. Draft memo documenting analysis and recommendations."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Banking Team Collaboration",
+            description: "Leverage finance team wants credit approval for new unitranche structure. Collaborate on structuring credit that works for client, meets Goldman's underwriting standards, and manages risk appropriately. Discuss covenant package, pricing, security, and syndication strategy. Partnership between credit and business."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Wrap Up & Departure",
+            description: "Complete credit memo edits based on committee feedback. Update credit database with new exposure approvals. Respond to emails, prepare for tomorrow's meetings and analyses. Head home around 6:30-7pm with reasonable work-life balance. Occasional late nights for urgent deals but much better hours than banking or trading."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
     }
   },
   'jpmorgan': {
