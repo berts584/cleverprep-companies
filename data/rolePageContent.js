@@ -5508,6 +5508,366 @@ export const rolePageContent = {
         { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
         { companyName: "Citi", companySlug: "citi", industry: "Finance" }
       ]
+    },
+    'risk-analyst': {
+      roleDescription: "Risk Management Analysts at Morgan Stanley serve as independent voices safeguarding the firm across market risk, operational risk, and enterprise risk management, supporting one of the most disciplined risk cultures on Wall Street. The role combines quantitative analysis, regulatory expertise, business partnership, and strategic thinking to identify, measure, monitor, and mitigate risks across Morgan Stanley's global operations - from trading desks to wealth management to investment banking. Morgan Stanley's risk culture emphasizes collaboration over confrontation, with the 'One Firm' philosophy creating productive partnerships between risk and business units rather than adversarial relationships. Compared to Goldman Sachs, Morgan Stanley offers more collaborative environment (partnership vs policing mentality), better work-life balance (50-60 hour weeks vs 55-65 at Goldman), and competitive compensation (~5% below Goldman offset by lifestyle). The role provides broad exposure to financial services - trading, banking, wealth management, technology - with clear progression from analyst to associate to VP to MD. Risk management at Morgan Stanley combines intellectual rigor with business impact, enabling smart risk-taking while protecting firm's reputation and capital.",
+      responsibilities: [
+        "Monitor and analyze market risk across trading portfolios - calculate VaR, stress test scenarios, assess concentration risks, and evaluate hedging strategies for equities, fixed income, currencies, and derivatives",
+        "Develop risk measurement frameworks and analytics - build models for scenario analysis, sensitivity testing, and risk attribution using quantitative techniques and statistical methods",
+        "Partner with trading desks and business units on risk appetite setting, limit frameworks, and risk-adjusted performance measurement - collaborative problem-solving versus pure gatekeeping",
+        "Prepare risk reports and presentations for senior management, Risk Committee, and Board of Directors - synthesize complex risk exposures into clear, actionable insights",
+        "Assess operational risks across technology, processes, and controls - conduct risk assessments, evaluate control effectiveness, track incident metrics, and drive remediation efforts",
+        "Support regulatory compliance and reporting - Basel III capital requirements, stress testing (CCAR/DFAST), liquidity coverage, and risk disclosures to regulators",
+        "Conduct enterprise risk identification and assessment - emerging risks from climate change, cybersecurity, geopolitical events, and market disruptions affecting firm strategy",
+        "Contribute to risk culture initiatives - training programs, risk awareness campaigns, and governance enhancements to strengthen firm's risk management capabilities",
+        "Collaborate across Risk organization - work with Market Risk, Credit Risk, Operational Risk, Model Risk teams on cross-cutting risk themes and integrated risk views"
+      ],
+      growthOpportunities: [
+        "Progression from Analyst to Senior Analyst to Associate based on technical skills, business partnership, and risk judgment - typical 4-6 year path to VP",
+        "Vice President and Executive Director roles with expanded mandate - lead risk initiatives, manage junior analysts, participate in strategic risk decisions",
+        "Managing Director positions leading risk teams, serving on firmwide risk committees, and shaping Morgan Stanley's risk appetite and frameworks",
+        "Specialization in risk domains - Market Risk (trading portfolio risk), Operational Risk (process/technology), Enterprise Risk (strategic), or Model Risk (quantitative validation)",
+        "Rotational opportunities across Morgan Stanley's businesses - experience risk management in Institutional Securities, Wealth Management, Investment Management divisions",
+        "Transition paths to business roles - traders, investment bankers, and portfolio managers value risk experience for understanding downside protection and risk-adjusted returns",
+        "International opportunities across Morgan Stanley's global footprint - New York, London, Hong Kong, Tokyo, Singapore offices for diverse market exposure"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "Initial 30-45 minute conversation with recruiter or risk team member covering background, interest in risk management, understanding of financial markets, and cultural fit. Discussion of risk fundamentals - types of risk, risk measurement concepts, regulatory landscape. More conversational than Goldman's screens - assessing collaborative fit and intellectual curiosity alongside technical foundation.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Interviews",
+          description: "Multiple rounds with risk analysts, associates, and VPs covering quantitative skills, market knowledge, and risk concepts. Expect questions on statistics, probability, financial products, risk metrics (VaR, Greeks), and case studies on risk scenarios. Morgan Stanley emphasizes practical application and communication of risk insights as much as pure technical depth. Interviewers collaborative and supportive - testing thought process and judgment rather than purely evaluating answers.",
+          duration: "3-4 hours across 4-5 interviews"
+        },
+        {
+          step: 3,
+          title: "Behavioral & Fit Interviews",
+          description: "Conversations with senior risk officers and MDs assessing teamwork, communication, stakeholder management, and alignment with Morgan Stanley values. Scenario questions about partnering with business, delivering tough messages, and balancing risk vs revenue. Cultural fit heavily emphasized - looking for collaborative team players who can influence without authority, not confrontational gatekeepers.",
+          duration: "2-3 interviews, 45 minutes each"
+        },
+        {
+          step: 4,
+          title: "Final Interview & Offer",
+          description: "Meeting with Risk leadership (Global Head or Regional Head) to assess long-term potential, strategic thinking about risk, and commitment to risk management career. Discussion of Morgan Stanley's risk culture, 'One Firm' philosophy, and growth opportunities. Offer details covering compensation, team placement, training program, and career path. Transparent and supportive offer process reflecting collaborative culture.",
+          duration: "45-60 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "Explain Value at Risk (VaR). What are different methods for calculating VaR and what are their strengths and limitations?",
+        "How would you stress test an equity options portfolio? What scenarios and risk factors would you consider?",
+        "Describe the difference between market risk, credit risk, and operational risk. Give examples of each.",
+        "What are the Greeks in options trading? How would you use them for risk management?",
+        "Explain the concept of correlation in portfolio risk. How can correlation break down in stressed markets?",
+        "Walk through how you would assess the operational risk of implementing a new trading system.",
+        "What is duration and convexity? How do these measures help manage fixed income portfolio risk?",
+        "Describe different types of stress testing - historical scenarios, hypothetical scenarios, reverse stress tests.",
+        "How would you measure concentration risk in a trading portfolio or loan book?",
+        "Explain liquidity risk. What metrics and indicators would you use to monitor liquidity?",
+        "What is Basel III and how does it impact bank capital requirements and risk management?",
+        "How would you evaluate whether a hedge is effective? What makes a good hedge?",
+        "Describe model risk. How would you validate a pricing model or risk model?",
+        "What are tail risks and how do you measure and manage them?",
+        "Explain the difference between expected loss and unexpected loss in risk management.",
+        "How do you think about emerging risks like climate change, cyber, or geopolitical events?",
+        "What is wrong-way risk and why is it important in derivatives trading?",
+        "Walk through the risk considerations for a large leveraged finance transaction."
+      ],
+      behavioralQuestions: [
+        "Why risk management? Why Morgan Stanley specifically over Goldman Sachs or other banks?",
+        "Tell me about a time you had to analyze complex data to identify a problem or risk that others missed.",
+        "Describe a situation where you had to influence stakeholders without direct authority to change their approach.",
+        "Give an example of when you had to deliver difficult news or push back on a request. How did you handle it?",
+        "How do you balance enabling business growth with maintaining appropriate risk controls?",
+        "Tell me about a time you had to learn a new technical skill or domain quickly. What was your approach?",
+        "Describe a situation where you worked as part of a team to solve a complex problem. What was your contribution?",
+        "Give an example of when you disagreed with a manager or team member. How did you handle the disagreement?",
+        "How do you prioritize when managing multiple projects with competing deadlines and stakeholders?",
+        "Tell me about a time you made a mistake in your analysis. How did you discover it and what did you do?",
+        "Describe your approach to staying current on financial markets, regulations, and emerging risks.",
+        "What attracts you to independent risk management versus revenue-generating roles?",
+        "How would you handle a situation where business pressure conflicts with risk management principles?",
+        "Where do you see yourself in 5-10 years? What is your long-term career vision?"
+      ],
+      whatTheyLookFor: [
+        "Quantitative aptitude combined with business judgment - ability to blend analytics with practical risk insights and strategic thinking",
+        "Collaborative mindset aligned with 'One Firm' culture - partnership with business units versus adversarial gatekeeping mentality",
+        "Communication skills for translating complexity - explaining risk concepts clearly to traders, bankers, senior management, and regulators",
+        "Independent thinking and courage to challenge - willingness to voice concerns and push back on business when warranted by risk assessment",
+        "Intellectual curiosity about markets and risks - genuine interest in understanding how financial markets work, what drives risk, and emerging threats",
+        "Attention to detail and analytical rigor - thoroughness in risk analysis, catching subtle warning signs, maintaining accuracy under pressure",
+        "Stakeholder management and influencing skills - ability to build credibility, gain trust, and drive change without direct authority",
+        "Risk management temperament - balanced perspective enabling smart risk-taking while protecting firm, not overly conservative or reckless",
+        "Adaptability and continuous learning - comfort with changing markets, evolving regulations, new products, and emerging risk domains",
+        "Cultural fit with Morgan Stanley values - integrity, teamwork, diversity and inclusion, giving back to communities"
+      ],
+      interviewTips: [
+        "Understand different risk types - be conversant about market risk, credit risk, operational risk, liquidity risk, and how they interconnect",
+        "Study core risk concepts - VaR, stress testing, scenario analysis, risk metrics, and how they're applied in practice",
+        "Know Morgan Stanley's business model - understand how risk management supports Institutional Securities, Wealth Management, Investment Management divisions",
+        "Prepare for market discussions - demonstrate awareness of current market environment, recent risk events, regulatory developments",
+        "Emphasize collaborative approach - Morgan Stanley values risk professionals who partner with business, not pure gatekeepers",
+        "Show business acumen alongside technical skills - risk management requires understanding business context, not just running calculations",
+        "Ask about risk culture and governance - demonstrate interest in how risk decisions are made, escalation frameworks, business partnership model",
+        "Highlight quantitative and communication skills - showcase analytical rigor and ability to explain complex concepts clearly",
+        "Prepare examples demonstrating influence without authority - risk requires stakeholder management and persuasion",
+        "Research Morgan Stanley's risk approach - understand firm's risk appetite, recent initiatives, regulatory standing",
+        "Be ready to discuss work-life balance - risk roles offer better hours than banking/trading (50-60 vs 70-80+) while maintaining intellectual challenge",
+        "Show genuine interest in risk career - articulate why risk management appeals versus business roles and long-term vision",
+        "Demonstrate ethical judgment - risk management requires independence, integrity, and putting firm's interests first",
+        "Ask thoughtful questions about career development - inquire about rotations, specializations, training, path to VP and MD"
+      ],
+      salary: {
+        min: 100000,
+        max: 140000
+      },
+      compensation: [
+        "Base salary: $100-140K for analysts depending on experience and education, competitive with Goldman Sachs risk analysts",
+        "Performance bonus: $35-70K variable component based on individual performance, team results, and firm profitability - total comp $135-210K for analysts",
+        "Vice President compensation: $200-350K all-in (vs Goldman $210-370K) with slightly lower base but better work-life balance offsetting ~5% comp differential",
+        "Managing Director total compensation: $450K-$1.2M+ for senior risk leaders, with top earners reaching $1.5M+ (vs Goldman $475K-$1.3M+)",
+        "Work-life balance advantage: typical 50-60 hour weeks versus Goldman's 55-65 hours, with significantly better lifestyle than banking or trading",
+        "Deferred compensation for VPs and above - equity awards vesting over 3-5 years, aligning long-term retention with firm performance",
+        "Comprehensive benefits: health insurance, 401(k) match, Morgan Stanley stock purchase plan, financial wellness programs, and generous vacation",
+        "Promotion-based increases - significant comp jumps at each level (Analyst to Associate: +30-40%, Associate to VP: +40-50%, VP to MD: +50-70%)",
+        "Stability versus volatile businesses - risk compensation less variable than trading, fewer extreme down years, creating predictable earnings",
+        "Competitive total comp relative to consulting, corporate risk roles, and regulatory positions with superior career opportunities and skillset development"
+      ],
+      dayInLife: {
+        overview: "Risk Management Analysts at Morgan Stanley balance quantitative analysis, business partnership, regulatory reporting, and strategic initiatives in a culture that values independent judgment and collaborative problem-solving. The typical day involves risk monitoring, stakeholder meetings, analytics development, and emerging risk research. Hours generally 9am-6pm with occasional extended days during month-end, quarter-end, or regulatory deliverables (50-60 hours/week vs Goldman's 55-65 hours). The 'One Firm' collaborative environment creates productive partnerships with traders, bankers, and business leaders while maintaining risk independence. Technology and data analytics enhance risk monitoring while human judgment remains essential.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Risk Review",
+            description: "Review overnight risk metrics - VaR, stress losses, concentration reports, and limit utilization across trading businesses. Check for any breaches, anomalies, or market moves affecting risk profile. Morning risk team meeting to discuss portfolio concerns, market developments, and priorities for the day. Collaborative discussion versus top-down directives - junior analysts encouraged to share perspectives."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Risk Analysis & Reporting",
+            description: "Deep dive into equity derivatives portfolio showing elevated Vega risk. Update risk models with latest volatility surface, run scenario analysis for potential market moves, assess hedge effectiveness. Prepare risk commentary explaining drivers of risk changes and recommending monitoring approach. Balance technical accuracy with clear business communication."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Business Partnership Meeting",
+            description: "Meeting with equity trading desk to discuss risk limits, new product approval, and portfolio optimization opportunities. Collaborative problem-solving on structure that achieves desk's business objectives within acceptable risk parameters. Partnership approach - understanding business needs and finding risk-smart solutions rather than simply saying no."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learn",
+            description: "Team lunch featuring presentation from Quantitative Strategies on new risk analytics capabilities. Learning about machine learning applications for risk monitoring and anomaly detection. Morgan Stanley invests in risk team development - regular training, knowledge sharing, cross-team collaboration. Sustainable pace allows time for professional development."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Risk Committee Presentation Prep",
+            description: "Prepare monthly risk dashboard for senior management covering key risk metrics, limit utilization, risk concentrations, stress test results, and emerging risk themes. Synthesize complex analytics into executive-level insights. Work with manager to refine messaging and anticipate questions. More collaborative preparation than Goldman's sink-or-swim approach."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Operational Risk Assessment",
+            description: "Conduct operational risk assessment for new trading technology being deployed. Interview technology teams about controls, failover procedures, testing approach. Evaluate risk ratings and recommend mitigations for identified gaps. Cross-functional collaboration essential - partner with technology, business, compliance to understand full risk picture."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Emerging Risk Research",
+            description: "Research climate risk implications for Morgan Stanley's portfolio and businesses. Review industry publications, regulatory guidance, peer approaches. Draft thought piece on potential climate scenario analysis frameworks. Encouraged to think strategically about future risks, not just monitor current exposures."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up & Planning",
+            description: "Respond to business partner questions, update risk systems with latest analysis, prepare tomorrow's priorities. Check for any end-of-day risk alerts or market developments. Head home around 6pm with healthy work-life balance. Occasional late nights during regulatory deliverables (month/quarter-end) but generally sustainable hours. Culture respects personal time - risk is marathon not sprint."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citi", companySlug: "citi", industry: "Finance" }
+      ]
+    },
+    'operations-analyst': {
+      roleDescription: "Operations Analysts at Morgan Stanley drive operational excellence across the firm's global trading, banking, and wealth management businesses, serving as the operational backbone enabling smooth execution, settlement, and servicing of billions of dollars in daily transactions. The role combines process optimization, technology enablement, control implementation, and cross-functional partnership to ensure accurate, timely, and efficient operations while maintaining rigorous controls and regulatory compliance. Morgan Stanley's operations culture emphasizes continuous improvement, technological innovation, and partnership with front office - moving beyond traditional 'back office' stereotype toward strategic operations adding value to business. Compared to Goldman Sachs, Morgan Stanley offers more collaborative culture ('One Firm' teamwork vs siloed operations), better work-life balance (50-55 hour weeks vs 55-60 at Goldman), and competitive compensation (~5% below Goldman offset by superior lifestyle). The role provides exposure to diverse products and processes - equities, fixed income, derivatives, wealth management - with clear progression from analyst to associate to VP to MD. Operations at Morgan Stanley combines operational excellence, technology innovation, and business partnership, creating foundation for firm's success.",
+      responsibilities: [
+        "Manage daily operational processes for securities settlement, cash management, and reconciliations across global markets - ensuring accurate and timely processing of trades and corporate actions",
+        "Investigate and resolve operational breaks, trade failures, and discrepancies - root cause analysis, corrective action implementation, and stakeholder communication to minimize client impact",
+        "Partner with front office (traders, bankers, advisors) on operational workflows, product launches, and client onboarding - translating business requirements into operational solutions",
+        "Develop process improvements and automation initiatives using technology, data analytics, and workflow optimization to increase efficiency and reduce manual effort",
+        "Implement and monitor operational controls ensuring compliance with regulatory requirements (SEC, FINRA), firm policies, and audit standards",
+        "Analyze operational metrics and reporting - track KPIs (settlement rates, STP percentages, error rates), identify trends, and drive continuous improvement initiatives",
+        "Support technology implementations and system enhancements - UAT testing, requirements gathering, production deployment coordination for operational platforms",
+        "Collaborate across Operations organization - work with Trade Support, Corporate Actions, Client Service, Settlements teams on cross-functional issues and integrated solutions",
+        "Manage client service issues and inquiries - coordinate with Relationship Managers, Compliance, and Legal to resolve complex operational situations and enhance client experience"
+      ],
+      growthOpportunities: [
+        "Progression from Analyst to Senior Analyst to Associate based on operational expertise, project delivery, and business partnership - typical 4-6 year path to VP",
+        "Vice President and Executive Director roles with expanded leadership - manage teams, drive strategic initiatives, represent Operations in firmwide projects",
+        "Managing Director positions leading operations functions, serving on business leadership teams, and shaping Morgan Stanley's operational strategy",
+        "Specialization in products (Equities, Fixed Income, Derivatives, Wealth Management) or functions (Trade Support, Settlements, Client Service, Controls)",
+        "Transition opportunities to front office roles - traders, bankers, and advisors value operations experience for understanding execution, settlement, and client servicing",
+        "Technology and digitization leadership - lead automation initiatives, partner with Technology on platform development, drive operational innovation",
+        "International rotations across Morgan Stanley's global operations centers - New York, London, Hong Kong, Mumbai, Budapest for diverse operational exposure"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "Initial 30-45 minute conversation with recruiter or operations team member covering background, interest in operations, understanding of financial markets and operations role, and cultural fit. Discussion of operations fundamentals - trade lifecycle, settlement, reconciliations. More conversational than Goldman's screens - assessing teamwork orientation, problem-solving approach, and enthusiasm for operational excellence.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical & Case Interviews",
+          description: "Multiple rounds with operations analysts, associates, and managers covering process flows, problem-solving, and analytical skills. Expect case studies on operational scenarios - trade break resolution, process improvement, technology implementation. Questions on financial products, settlement cycles, and operational concepts. Morgan Stanley emphasizes practical judgment and stakeholder management as much as technical operations knowledge. Collaborative interviewing style - interviewers test thought process and communication.",
+          duration: "3-4 hours across 4-5 interviews"
+        },
+        {
+          step: 3,
+          title: "Behavioral & Fit Interviews",
+          description: "Conversations with senior operations leaders and MDs assessing teamwork, communication, adaptability, and alignment with Morgan Stanley values. Scenario questions about managing competing priorities, resolving conflicts, partnering across functions, and driving change. Cultural fit heavily emphasized - looking for collaborative team players with positive attitude and continuous improvement mindset, not bureaucratic gatekeepers.",
+          duration: "2-3 interviews, 45 minutes each"
+        },
+        {
+          step: 4,
+          title: "Final Interview & Offer",
+          description: "Meeting with Operations leadership to assess long-term potential, strategic thinking, and commitment to operations career. Discussion of Morgan Stanley's operations strategy, technology investments, and growth opportunities. Offer details covering compensation, team placement, training program, and career path. Supportive offer process emphasizing investment in employee development and 'One Firm' culture.",
+          duration: "45-60 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through the trade lifecycle from execution to settlement for an equity trade.",
+        "What is DVP (delivery versus payment) and why is it important for securities settlement?",
+        "Explain the difference between T+1 and T+2 settlement cycles. How does settlement timing impact operational risk?",
+        "How would you approach reconciling a break between internal books and a custodian bank's records?",
+        "Describe the operational processes involved in a corporate action like a stock split or dividend payment.",
+        "What is straight-through processing (STP) and why is it operationally valuable?",
+        "Walk through how you would investigate a trade failure. What steps would you take?",
+        "Explain the operational differences between exchange-traded and OTC derivatives settlement.",
+        "How would you prioritize multiple operational breaks that need resolution simultaneously?",
+        "What operational controls would you implement to prevent errors in high-volume processing?",
+        "Describe the role of a Central Securities Depository (CSD) or Depository Trust Company (DTC) in securities settlement.",
+        "How do you think about operational risk versus operational efficiency? How would you balance them?",
+        "What metrics would you track to monitor operational performance and identify improvement opportunities?",
+        "Walk through the operational considerations for launching a new product or service.",
+        "Explain failed trade management. What are common causes of trade failures and how would you reduce them?",
+        "How would you approach process improvement or automation of a manual operational workflow?",
+        "What is the difference between front office, middle office, and back office in financial services operations?",
+        "Describe how you would manage stakeholder communication during a significant operational incident."
+      ],
+      behavioralQuestions: [
+        "Why operations? Why Morgan Stanley specifically over Goldman Sachs or other banks?",
+        "Tell me about a time you identified and solved a process inefficiency. What was your approach?",
+        "Describe a situation where you had to manage multiple urgent deadlines. How did you prioritize?",
+        "Give an example of when you had to collaborate across different teams or departments to accomplish a goal.",
+        "How do you handle high-pressure situations when multiple issues require immediate attention?",
+        "Tell me about a time you made a mistake that impacted others. How did you handle it?",
+        "Describe a situation where you had to learn a new system or process quickly. What was your approach?",
+        "Give an example of when you improved a process or found a better way to do something.",
+        "How would you handle disagreement with a front office stakeholder about an operational decision?",
+        "Tell me about a time you had to deliver difficult news to a client or stakeholder.",
+        "Describe your approach to staying organized and ensuring nothing falls through the cracks.",
+        "What attracts you to operations versus front office revenue-generating roles?",
+        "Give an example of going above and beyond your responsibilities to help your team succeed.",
+        "Where do you see yourself in 5-10 years? What is your long-term career vision?"
+      ],
+      whatTheyLookFor: [
+        "Attention to detail and accuracy - operations requires meticulousness to prevent errors, catch discrepancies, and maintain data integrity",
+        "Problem-solving skills and analytical thinking - ability to investigate issues, identify root causes, and develop effective solutions",
+        "Collaborative mindset aligned with 'One Firm' culture - partnership across front office, middle office, technology, and compliance",
+        "Communication skills for diverse stakeholders - explaining operational issues to traders, technology teams, clients, and management",
+        "Process improvement orientation - continuous improvement mindset, looking for automation opportunities and efficiency gains",
+        "Adaptability and resilience under pressure - comfort managing competing priorities, tight deadlines, and unexpected operational incidents",
+        "Technology aptitude and interest in innovation - enthusiasm for learning new systems, driving digitization, embracing automation",
+        "Client service mentality - understanding operations exists to support clients and business, not bureaucratic obstacle",
+        "Organizational skills and time management - ability to manage multiple processes, deadlines, and stakeholders simultaneously",
+        "Cultural fit with Morgan Stanley values - teamwork, integrity, excellence in execution, diversity and inclusion, giving back"
+      ],
+      interviewTips: [
+        "Understand trade lifecycle and settlement processes - be conversant about execution, clearing, settlement, reconciliation for different products",
+        "Study operational concepts - DVP, STP, failed trades, corporate actions, reconciliations, and how they're applied in practice",
+        "Know Morgan Stanley's business model - understand how operations supports Institutional Securities, Wealth Management, Investment Management",
+        "Prepare examples demonstrating problem-solving, process improvement, teamwork, and handling pressure from prior roles",
+        "Emphasize collaborative approach - Morgan Stanley values operations professionals who partner with business, not pure back-office processors",
+        "Show technology interest - operations increasingly driven by automation, data analytics, and digital transformation",
+        "Ask about operations strategy and technology - demonstrate interest in operational innovation, not just maintaining status quo",
+        "Highlight attention to detail alongside big-picture thinking - operations requires both accuracy and strategic perspective",
+        "Prepare for case studies - practice talking through operational scenarios, trade breaks, process improvements under time pressure",
+        "Research Morgan Stanley's operations footprint - global operations centers, technology investments, recent initiatives",
+        "Be ready to discuss work-life balance - operations offers better hours than banking/trading (50-55 vs 70-80+) with meaningful work",
+        "Show genuine interest in operations career - articulate why operations appeals versus front office and long-term vision",
+        "Demonstrate client service orientation - operations exists to enable business and serve clients, not create bureaucracy",
+        "Ask thoughtful questions about career development - inquire about rotations, specializations, training, path to VP and MD"
+      ],
+      salary: {
+        min: 85000,
+        max: 115000
+      },
+      compensation: [
+        "Base salary: $85-115K for analysts depending on experience and education, competitive with Goldman Sachs operations analysts",
+        "Performance bonus: $25-45K variable component based on individual performance, team results, and firm profitability - total comp $110-160K for analysts",
+        "Vice President compensation: $175-280K all-in (vs Goldman $185-295K) with slightly lower base but significantly better work-life balance offsetting ~5% comp differential",
+        "Managing Director total compensation: $350K-$800K+ for senior operations leaders, with top earners reaching $1M+ (vs Goldman $370K-$850K+)",
+        "Work-life balance advantage: typical 50-55 hour weeks versus Goldman's 55-60 hours, with dramatically better lifestyle than banking or trading (70-80+ hours)",
+        "Deferred compensation for VPs and above - equity awards vesting over 3-5 years, aligning long-term retention with firm performance",
+        "Comprehensive benefits: health insurance, 401(k) match, Morgan Stanley stock purchase plan, financial wellness programs, generous vacation",
+        "Promotion-based increases - significant comp jumps at each level (Analyst to Associate: +25-35%, Associate to VP: +35-45%, VP to MD: +40-60%)",
+        "Stability and predictability - operations compensation less volatile than trading or banking, fewer extreme down years, creating stable earnings",
+        "Competitive total comp relative to corporate operations, fintech operations, and consulting with excellent career development and exit opportunities"
+      ],
+      dayInLife: {
+        overview: "Operations Analysts at Morgan Stanley balance daily operational execution, problem resolution, process improvement, and stakeholder partnership in a culture that values excellence, innovation, and teamwork. The typical day involves trade processing oversight, break investigation, project work, and cross-functional collaboration. Hours generally 9am-5:30pm with excellent work-life balance (50-55 hours/week vs Goldman's 55-60 hours). The 'One Firm' collaborative environment creates strong partnerships across front office, technology, and control functions. Technology and automation increasingly enhance operational efficiency while human judgment remains essential for complex situations.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Operations Review",
+            description: "Review overnight processing results - settlement confirmations, exception reports, reconciliation breaks. Check for any trade failures, processing errors, or client issues requiring immediate attention. Morning team huddle to discuss priorities, assign break investigations, and coordinate on time-sensitive items. Collaborative team environment with strong manager support."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Break Investigation & Resolution",
+            description: "Investigate complex reconciliation break between Morgan Stanley's books and custodian bank involving derivatives settlement. Review trade details, settlement instructions, confirmations, and system records to identify discrepancy. Coordinate with Trading desk, Counterparty, and Custodian to resolve root cause. Document resolution and update controls to prevent recurrence. Problem-solving essential to operations role."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Front Office Partnership Meeting",
+            description: "Meeting with equity trading desk to discuss operational support for new product launch - exchange-traded structured products. Review settlement workflows, system requirements, control points, and client service procedures. Collaborate on implementation timeline and testing approach. Partnership mentality - operations as business enabler rather than obstacle."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Team Building",
+            description: "Team lunch with operations colleagues. Morgan Stanley emphasizes culture and team cohesion - regular team events, collaborative environment, supportive management. Sustainable pace enables work-life balance and positive team dynamics. Discuss weekend plans and upcoming team volunteer event."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Process Improvement Project",
+            description: "Work on automation initiative to reduce manual reconciliation effort using RPA (robotic process automation). Collaborate with Technology team on requirements, test scenarios, and production deployment plan. Document current process, identify automation opportunities, design future state workflow. Morgan Stanley investing heavily in operational digitization."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Client Service & Escalations",
+            description: "Call with Wealth Management relationship manager regarding client inquiry about dividend payment timing. Research settlement details, explain processing timeline, provide confirmation of expected payment date. Professional client communication essential. Coordinate with Corporate Actions team on resolution. Operations increasingly client-facing at Morgan Stanley."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Training & Development",
+            description: "Attend operations training session on new regulatory requirements for derivatives settlement under UMR (uncleared margin rules). Learn about compliance obligations, operational impacts, and implementation timeline. Morgan Stanley invests in employee development - regular training, certification support, career development programs."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Wrap Up & Handover",
+            description: "Complete break resolutions, update tracking systems, document operational notes for next shift or follow-up. Coordinate handover to offshore operations team in India or Hungary for 24-hour coverage. Respond to pending emails and prepare tomorrow's priorities. Head home around 5:30pm with excellent work-life balance. Healthy lifestyle enables long, sustainable operations career."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "State Street", companySlug: "state-street", industry: "Finance" }
+      ]
     }
   },
   'bank-of-america': {
