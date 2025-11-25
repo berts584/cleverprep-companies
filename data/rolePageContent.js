@@ -6841,6 +6841,382 @@ export const rolePageContent = {
         { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" },
         { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" }
       ]
+    },
+    'risk-analyst': {
+      roleDescription: "Risk Analysts at Bank of America identify, measure, monitor, and mitigate risks across the firm's Global Banking, Global Markets, and Consumer Banking businesses. Working within Global Risk Management - one of the largest risk organizations among US banks - you'll perform quantitative analysis to assess potential losses, ensure compliance with risk limits, and support risk-aware decision making. Bank of America's status as a G-SIB (global systemically important bank) with the largest balance sheet on Wall Street makes robust risk management absolutely critical. The role combines sophisticated quantitative modeling with business judgment, offering exposure to credit risk, market risk, operational risk, liquidity risk, and model risk. Compared to competitors, BofA offers excellent work-life balance (8:30am-6pm typical vs longer hours at Goldman/JPMorgan) with competitive compensation, making it attractive for analysts who want intellectually demanding work without sacrificing personal life. The collaborative culture values analytical rigor, independent judgment, and constructive challenge to business assumptions while maintaining strong partnerships across the firm.",
+      responsibilities: [
+        "Perform quantitative risk analysis including Value at Risk (VaR), stress testing, scenario analysis, expected loss modeling, and capital adequacy calculations",
+        "Monitor trading positions, credit exposures, or operational risk metrics against established limits and escalate breaches appropriately",
+        "Develop and maintain risk models for credit loss estimation (PD, LGD, EAD), market risk measurement, or operational risk quantification",
+        "Prepare risk reports and presentations for senior management, Risk Committee, Board of Directors, and regulatory submissions",
+        "Conduct deep-dive analyses on risk concentrations, emerging risks, portfolio trends, and potential vulnerabilities",
+        "Collaborate with front office (traders, bankers, portfolio managers) to understand risks in business activities and provide independent perspective",
+        "Support stress testing programs including CCAR, DFAST, and internal capital planning processes",
+        "Validate assumptions and methodologies in business-submitted risk calculations and ensure model integrity",
+        "Ensure compliance with regulatory requirements from Federal Reserve, OCC, FDIC, and Basel III/IV frameworks"
+      ],
+      growthOpportunities: [
+        "Clear progression from Risk Analyst to Senior Risk Analyst to Risk Officer to VP with expanding scope and approval authority",
+        "Exposure to diverse risk types across BofA's massive platform: credit, market, operational, liquidity, model, climate risk",
+        "Opportunity to specialize in specific asset classes (equities, fixed income, derivatives, commercial lending) or methodologies (stress testing, VaR, credit models)",
+        "Strong foundation for moving to front office roles, corporate finance, or senior risk leadership",
+        "Access to Bank of America's comprehensive risk management training, quantitative methods curriculum, and regulatory frameworks",
+        "Opportunity to work on firm-wide risk initiatives with high visibility to senior management and regulators",
+        "Better work-life balance than competitors enables sustainable career and pursuit of certifications (FRM, CFA)",
+        "Path to specialize in emerging areas: climate risk, cyber risk, AI/ML model risk, operational resilience"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded questions assessing motivation, risk awareness, analytical thinking, and problem-solving. Expect questions on why risk management, basic statistics/probability concepts, and behavioral scenarios. Demonstrate systematic thinking, intellectual curiosity, and genuine interest in risk as a discipline.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute technical conversation with Risk team member covering statistics, probability, risk concepts, and resume discussion. Expect questions on VaR, stress testing basics, derivatives risk, and how you'd approach risk analysis. More collaborative than JPMorgan - BofA assesses cultural fit alongside technical skills.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "3-4 rounds with Risk Analysts, Associates, VPs, and potentially Directors. Mix of technical deep-dives (statistics, risk modeling, credit/market risk concepts), case studies, and behavioral questions. Demonstrate analytical rigor, sound judgment, and ability to challenge constructively. BofA culture values collaboration and humility alongside independence.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Team evaluates technical competency, analytical thinking, communication skills, and cultural fit. Risk requires independence balanced with partnership. Offers typically extended within 1-2 weeks with competitive compensation and better work-life balance than Goldman/JPMorgan."
+        }
+      ],
+      technicalQuestions: [
+        "What is Value at Risk (VaR) and what are its limitations? How would you calculate it?",
+        "Explain the difference between expected loss and unexpected loss in credit risk.",
+        "How would you measure the market risk of a bond portfolio? What factors matter?",
+        "What's the difference between VaR and expected shortfall (CVaR)? When is CVaR preferred?",
+        "Walk me through the components of credit risk for a corporate loan (PD, LGD, EAD).",
+        "How would you stress test a derivatives portfolio? What scenarios would you consider?",
+        "Explain what correlation breakdown means and why it matters in risk management.",
+        "What is duration and convexity? How are they used in fixed income risk management?",
+        "How do you calculate probability of default (PD) and loss given default (LGD)?",
+        "Explain counterparty credit risk. How is it different from traditional credit risk?",
+        "What's the difference between market risk and credit risk? How do they interact?",
+        "How would you assess operational risk for a new trading system or process?",
+        "Explain tail risk and fat tails. Why do normal distributions underestimate extreme events?",
+        "What is the Basel III/IV framework and what are its key components?",
+        "How would you analyze risk concentration in a loan or trading portfolio?",
+        "Explain what a risk limit is and how you'd determine appropriate levels.",
+        "What statistical methods would you use to forecast credit losses?",
+        "How do you assess model risk? What makes a model high-risk?"
+      ],
+      behavioralQuestions: [
+        "Why risk management? Why Bank of America specifically?",
+        "Tell me about a time you identified a risk or problem that others overlooked.",
+        "Describe a situation where you had to challenge someone's analysis or assumptions constructively.",
+        "How do you balance enabling business growth with appropriate risk management?",
+        "Tell me about a complex analytical problem you've solved. Walk through your approach.",
+        "Describe your experience with quantitative modeling, programming, or statistical analysis.",
+        "How would you handle disagreement with a trader or banker about risk assessment?",
+        "Tell me about explaining complex quantitative concepts to non-technical stakeholders.",
+        "Describe working with incomplete or imperfect data. How did you handle uncertainty?",
+        "What do you think are the biggest risks facing financial institutions today?",
+        "How do you stay current on regulatory developments and risk management best practices?",
+        "Tell me about making a judgment call with significant uncertainty.",
+        "Describe your experience working in teams on analytical projects.",
+        "Why choose risk management over front office roles like trading or investment banking?"
+      ],
+      whatTheyLookFor: [
+        "Strong quantitative foundation: statistics, probability, financial mathematics, econometrics",
+        "Programming proficiency (Python, R, SQL) and comfort with large-scale data analysis",
+        "Deep analytical thinking and ability to identify risks in complex situations",
+        "Sound judgment and independence to challenge business assumptions constructively while maintaining partnerships",
+        "Clear communication skills to explain complex risks to senior stakeholders and regulators",
+        "Understanding of financial products: equities, fixed income, derivatives, loans, structured products",
+        "Intellectual curiosity about markets, risk events, and evolving risk methodologies",
+        "Professional skepticism balanced with collaborative mindset aligned with BofA culture",
+        "Attention to detail in reviewing models, calculations, and assumptions",
+        "Interest in regulatory frameworks and commitment to control environment"
+      ],
+      interviewTips: [
+        "Master fundamental risk concepts: VaR (parametric, historical, Monte Carlo), expected shortfall, stress testing, credit risk components",
+        "Review statistics and probability: distributions, correlation, regression, Monte Carlo simulation, time series",
+        "Understand financial products and their risks: bonds, equities, derivatives (Greeks), loans, structured products",
+        "Research risk frameworks: Basel III/IV, CCAR, DFAST, stress testing, risk-weighted assets, capital requirements",
+        "Prepare examples demonstrating analytical skills, attention to detail, and ability to identify risks others missed",
+        "Know recent risk events: SVB failure, regional banking stress, market volatility episodes, operational failures",
+        "Be ready to discuss why risk vs front office - show genuine interest in risk management as a career",
+        "Practice explaining technical concepts simply - risk requires translating quant analysis for business audiences",
+        "Research Bank of America's risk organization and Chief Risk Officer priorities",
+        "Understand second line of defense model and independent risk oversight",
+        "Prepare thoughtful questions about team focus, risk technologies, career development paths",
+        "Be comfortable discussing programming - Python/R increasingly important for risk analysis",
+        "Show awareness that risk requires balancing conservatism with enabling responsible business growth",
+        "Emphasize collaborative approach - BofA culture values partnership alongside independence"
+      ],
+      salary: {
+        min: 90000,
+        max: 110000
+      },
+      compensation: [
+        "Base salary: $90-110K for risk analysts depending on team (market risk typically slightly higher)",
+        "Annual performance bonus: $18-35K based on individual performance and firm results",
+        "Signing bonus: $10-20K for candidates with strong quantitative backgrounds",
+        "Compensation competitive with JPMorgan but with better work-life balance (8:30am-6pm typical)",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with Bank of America's competitive company match (up to 5%)",
+        "Tuition reimbursement for relevant degrees (Financial Engineering, Statistics) or certifications (FRM, CFA)",
+        "Professional development budget for risk conferences and training",
+        "16 weeks paid parental leave",
+        "Total first-year compensation typically $110-160K all-in"
+      ],
+      dayInLife: {
+        overview: "Risk Analysts at Bank of America work in intellectually stimulating roles at the intersection of quantitative analysis and business judgment. Hours are generally 8:30am-6pm with excellent work-life balance - significantly better than Goldman or JPMorgan risk roles. Market volatility or regulatory deadlines can require extended hours, but the culture values sustainability. Work balances independent analytical deep-dives with stakeholder collaboration across traders, portfolio managers, and senior risk officers. BofA's supportive culture values analytical rigor, sound judgment, clear communication, and constructive partnership. Risk offers strong compensation, interesting problems, and influence on firm-wide decision making.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Risk Review",
+            description: "Review overnight market moves and impact on firm's risk positions. Check VaR reports, stress test results, and risk limit utilization across portfolios. Scan for limit breaches or unusual exposures requiring investigation."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Risk Committee Meeting",
+            description: "Attend daily risk meeting with traders, risk managers, and business heads. Present key risk metrics, discuss portfolio positioning and market conditions. Provide independent risk perspective on proposed trades or strategies."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Quantitative Analysis",
+            description: "Build stress scenarios to assess portfolio impact under adverse conditions. Use Python to analyze historical data, calculate risk sensitivities, and model potential losses. Focus on tail risk, concentration risk, and emerging threats."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break with colleagues or attend risk training webinar. BofA's collaborative culture encourages knowledge sharing and continuous learning."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Model Review Work",
+            description: "Review risk model submitted by business for approval. Validate assumptions, test calculations, perform sensitivity analysis, assess model limitations. Document findings for model risk committee."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Portfolio Deep Dive",
+            description: "Conduct detailed analysis of concentrated exposure in commercial real estate portfolio. Analyze individual credits, industry correlations, stress scenarios, and potential mitigants. Prepare recommendation on risk limits."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Business Partnership",
+            description: "Meeting with trading desk to discuss proposed new product. Understand risk characteristics, review risk calculations, identify potential issues. Collaborative discussion on risk management approach - BofA culture values partnership."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Regulatory Support",
+            description: "Support CCAR stress testing submission. Compile required data, validate calculations, prepare documentation. Ensure regulatory deadlines met with accurate, complete, and defensible submissions."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up",
+            description: "Complete risk analysis documentation, update dashboards, respond to final emails. Prepare summary for manager. Head home around 6pm with excellent work-life balance - BofA culture supports sustainable pace."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" }
+      ]
+    },
+    'operations-analyst': {
+      roleDescription: "Operations Analysts at Bank of America ensure the smooth functioning of critical business processes across Global Markets, Global Banking, and Consumer Banking operations. Working in areas like Trade Operations, Payment Operations, Securities Services, Loan Operations, or Treasury Services, you'll be responsible for transaction processing, reconciliation, exception management, and process improvement. Bank of America processes trillions of dollars in transactions daily through one of the largest operations platforms in the industry, making operational excellence mission-critical. The role combines analytical problem-solving with process optimization, requiring attention to detail, strong systems knowledge, and ability to work under tight deadlines. Compared to competitors, BofA offers stable hours (typically 8am-5pm for day shifts) with clear career progression and strong training programs. The collaborative, supportive culture emphasizes teamwork, continuous improvement, and operational excellence while providing pathways to advance into senior operations leadership, project management, or transition to other business areas.",
+      responsibilities: [
+        "Process and settle financial transactions including securities trades, payment instructions, foreign exchange, and loan fundings with accuracy and timeliness",
+        "Perform daily reconciliations between internal systems and external counterparties (custodians, clearinghouses, correspondent banks) to identify and resolve breaks",
+        "Investigate and resolve operational exceptions, trade failures, payment delays, and client inquiries with urgency and thoroughness",
+        "Monitor transaction queues and workflow systems to ensure service level agreements (SLAs) and cut-off times are met",
+        "Collaborate with trading desks, client service teams, relationship managers, and technology to troubleshoot issues and improve processes",
+        "Maintain control frameworks and ensure compliance with regulatory requirements (SOX, AML, KYC, OFAC)",
+        "Generate reports and metrics on operational performance, error rates, processing volumes, and efficiency KPIs",
+        "Participate in process improvement initiatives, automation projects, and system implementations to increase efficiency",
+        "Support month-end, quarter-end, and year-end close processes with additional reconciliations, controls, and reporting"
+      ],
+      growthOpportunities: [
+        "Clear career progression from Operations Analyst to Senior Analyst to Team Lead to Operations Manager to VP",
+        "Exposure to diverse business lines across BofA's massive operations platform: trading, payments, custody, lending, wealth management",
+        "Opportunity to lead process improvement and automation initiatives with measurable business impact",
+        "Path to specialize in specific product areas (equity trading, FX, derivatives, payments) or move to operational risk, controls, project management",
+        "Strong foundation for lateral moves to front office support, middle office (risk, finance), technology, or client service roles",
+        "Access to Six Sigma, Lean, and process improvement training and certifications through BofA's learning programs",
+        "Better work-life balance and job stability than front office roles with clear advancement opportunities",
+        "International opportunities with Bank of America's global operations footprint across time zones"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded questions assessing motivation, analytical thinking, attention to detail, and problem-solving. Expect questions on handling high-pressure situations, prioritizing tasks, and ensuring accuracy. Demonstrate systematic thinking and customer service orientation.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "30-45 minute conversation with Operations team member covering resume, motivation for operations, and basic problem-solving scenarios. Expect questions about handling tight deadlines, maintaining accuracy, and process improvement ideas. BofA assesses cultural fit and teamwork alongside skills.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual or On-site Interviews",
+          description: "2-3 rounds with Operations Managers, team leads, and colleagues. Mix of behavioral questions (teamwork, pressure, problem-solving), operational scenarios (process a trade, resolve exception), and cultural fit assessment. Demonstrate analytical mindset, attention to detail, and alignment with BofA's collaborative culture.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Team reviews feedback on analytical ability, attention to detail, teamwork, and cultural fit. BofA values reliability and continuous improvement orientation. Offers typically extended within 1-2 weeks with details on compensation, team placement, shift schedule, and start date."
+        }
+      ],
+      technicalQuestions: [
+        "Explain the trade lifecycle from execution to settlement. What can go wrong at each stage?",
+        "What is reconciliation and why is it critical in financial operations?",
+        "How would you prioritize tasks when you have multiple urgent deadlines approaching?",
+        "Walk me through investigating a break (discrepancy) in a reconciliation.",
+        "What is T+2 settlement? What happens if a trade fails to settle on time?",
+        "Explain what a nostro account is and how it's used in payment operations.",
+        "How would you handle a payment instruction missing critical information close to cut-off?",
+        "What's the difference between wire transfers, ACH payments, and SWIFT messages?",
+        "How would you design a process to reduce manual errors in transaction processing?",
+        "What do you understand about SOX controls in financial operations?",
+        "What KPIs would you track to measure operations team performance?",
+        "How would you investigate why a trade failed to settle?",
+        "What is corporate action processing? What makes it complex?",
+        "Explain trade date vs settlement date. Why does the distinction matter?",
+        "How would you maintain accuracy during a high-volume processing day?",
+        "What systems or tools have you used for data analysis and reconciliation?",
+        "How would you identify opportunities for process automation?",
+        "What do you understand about AML and KYC in payment operations?"
+      ],
+      behavioralQuestions: [
+        "Why operations? Why Bank of America specifically?",
+        "Tell me about a time you caught an error that others missed. What was your approach?",
+        "Describe working under extreme time pressure. How did you handle it?",
+        "How do you ensure accuracy when performing repetitive tasks?",
+        "Tell me about improving a process or making something more efficient.",
+        "Describe handling multiple competing priorities with tight deadlines.",
+        "How would you handle a conflict with a trader or client service representative?",
+        "Tell me about learning a complex system or process quickly.",
+        "Describe your experience with data analysis or working with spreadsheets.",
+        "How do you stay focused and maintain quality during long shifts?",
+        "Tell me about identifying a risk or control weakness.",
+        "Describe collaborating with multiple teams to resolve an issue.",
+        "What attracts you to operations versus front office positions?",
+        "How do you handle stress in deadline-driven environments?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional attention to detail and accuracy in data entry, validation, and reconciliation",
+        "Strong analytical and problem-solving skills to investigate and resolve exceptions systematically",
+        "Ability to work efficiently under tight deadlines while maintaining quality",
+        "Systematic and methodical approach to process execution and documentation",
+        "Proficiency with Excel, data analysis tools, and ability to learn complex systems quickly",
+        "Strong communication skills to coordinate across trading desks, clients, and technology teams",
+        "Proactive mindset and genuine interest in process improvement and automation",
+        "Composure under pressure and appropriate escalation when issues arise",
+        "Team player mentality and willingness to support colleagues during busy periods",
+        "Understanding of controls, risk management, and regulatory requirements"
+      ],
+      interviewTips: [
+        "Research Bank of America's operations divisions: Global Markets Operations, Consumer Operations, Global Transaction Services",
+        "Understand basic financial operations: settlement cycles, reconciliation, corporate actions, payment processing",
+        "Prepare specific examples demonstrating attention to detail, problem-solving, and working under pressure",
+        "Highlight experience with Excel, data analysis, reconciliations, or process improvement",
+        "Show genuine interest in operational excellence - don't treat operations as 'just back office'",
+        "Demonstrate understanding that operations is mission-critical for client service and risk management",
+        "Prepare questions about automation initiatives, career progression, training programs, and team structure",
+        "Be ready to discuss maintaining accuracy during repetitive or high-volume tasks",
+        "Show awareness of operational challenges: efficiency, automation, regulatory complexity, 24/7 global markets",
+        "Emphasize teamwork, reliability, and quality focus over speed alone",
+        "Understand difference between operations and other functions (finance, risk, technology)",
+        "Be prepared for scenarios: 'What would you do if you discovered an error affecting many transactions?'",
+        "Research BofA's investment in operations technology and automation",
+        "Emphasize alignment with BofA's collaborative, supportive culture"
+      ],
+      salary: {
+        min: 55000,
+        max: 75000
+      },
+      compensation: [
+        "Base salary: $55-75K for operations analysts depending on location and business line",
+        "Annual performance bonus: $5-15K based on individual and team performance",
+        "Shift differential pay for overnight or weekend coverage in 24/7 operations (varies by team)",
+        "Compensation slightly below JPMorgan but with better work-life balance and culture",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with Bank of America's competitive company match (up to 5%)",
+        "Tuition reimbursement for relevant degrees or certifications (Six Sigma, PMP)",
+        "16 weeks paid parental leave",
+        "Employee stock purchase plan with discount",
+        "BofA banking benefits and commuter subsidies",
+        "Total first-year compensation typically $60-90K all-in depending on overtime/shift differential"
+      ],
+      dayInLife: {
+        overview: "Operations Analysts at Bank of America work in fast-paced environments ensuring flawless execution of financial transactions. Hours vary by team - most work standard 8am-5pm shifts, while 24/7 operations (trading, payments) may have rotating schedules. The work is detail-oriented and deadline-driven, requiring focus and systematic execution. You'll balance transaction processing with exception resolution and continuous improvement. BofA's supportive culture emphasizes teamwork, accountability, and developing people. While demanding during market volatility or month-end, the role offers stable career progression, skill development, and better work-life balance than front office. Many BofA operations leaders started as analysts.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Check-In",
+            description: "Review overnight processing results and handover notes from previous shift. Check email for escalations. Scan transaction queues for pending items and exception reports. Prioritize day's work based on deadlines and volumes."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Team Huddle",
+            description: "Quick stand-up with operations team reviewing volumes, outstanding breaks, system status, and priorities. Discuss client escalations or urgent items. BofA's collaborative culture makes this supportive rather than stressful."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Transaction Processing",
+            description: "Process securities settlement instructions, payment orders, or loan funding requests. Verify trade details, validate against source documents, input into systems, ensure timely execution before cut-off times."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Reconciliation Work",
+            description: "Reconcile cash accounts, securities positions, or trade confirmations between internal systems and external counterparties. Investigate breaks, research discrepancies, document findings, and escalate as needed."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "Break for lunch. BofA operations typically has structured lunch periods, though timing may flex based on deadlines. Collegial atmosphere in team break areas."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Exception Resolution",
+            description: "Investigate failed trades, payment rejections, or processing errors. Coordinate with traders, relationship managers, clients, and custodians to gather information and resolve. Document root causes and corrective actions."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Client/Internal Inquiries",
+            description: "Respond to questions from trading desks, client service teams, or external clients about transaction status, settlement issues, or account inquiries. Provide clear, timely updates and solutions."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Controls & Monitoring",
+            description: "Monitor workflow queues to ensure SLA compliance. Perform required control checks and validation procedures. Update tracking systems and quality metrics. Ensure regulatory requirements met."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Process Improvement",
+            description: "Participate in team discussion on automation opportunities and efficiency initiatives. BofA encourages analyst input on process improvements. Share ideas for reducing manual work and errors."
+          },
+          {
+            time: "5:00 PM",
+            activity: "End of Day",
+            description: "Complete final processing, ensure all deadlines met, document any outstanding issues. Update handover notes for colleagues on later shifts. Head home with good work-life balance - BofA operations culture is sustainable."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" },
+        { companyName: "Wells Fargo", companySlug: "wells-fargo", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" }
+      ]
     }
   },
   'citigroup': {
