@@ -7669,6 +7669,1115 @@ export const rolePageContent = {
       compensation: ["$80-100K base","$30-90K bonus","$115-190K total","Performance-based","P&L linked","Seniors $375K-$1.5M+","Perks","Benefits","401(k)","Floor food","Tech access"],
       dayInLife: {overview:"6:30am-6pm typical. Market-driven. Collaborative. Good balance. West Coast benefits.",schedule:[{time:"6:30 AM",activity:"Pre-Market",description:"Market review"},{time:"7:30 AM",activity:"Setup",description:"Risk check"},{time:"9:30 AM",activity:"Open",description:"Execution"},{time:"10:30 AM",activity:"Trading",description:"Management"},{time:"12:00 PM",activity:"Lunch",description:"Desk meal"},{time:"1:00 PM",activity:"Afternoon",description:"Trading"},{time:"2:00 PM",activity:"Data",description:"Response"},{time:"3:30 PM",activity:"Late Day",description:"Close prep"},{time:"4:00 PM",activity:"Review",description:"P&L"},{time:"5:00 PM",activity:"Post",description:"Research"},{time:"6:00 PM",activity:"Wrap",description:"Depart"}]},
       similarRoles: [{companyName:"Goldman Sachs",companySlug:"goldman-sachs",industry:"Finance"},{companyName:"JPMorgan Chase",companySlug:"jpmorgan",industry:"Finance"},{companyName:"Morgan Stanley",companySlug:"morgan-stanley",industry:"Finance"},{companyName:"Bank of America",companySlug:"bank-of-america",industry:"Finance"},{companyName:"Citigroup",companySlug:"citigroup",industry:"Finance"}]
+    },
+    'credit-analyst': {
+      roleDescription: "Credit Analysts at Wells Fargo evaluate creditworthiness of commercial and corporate borrowers across one of the nation's largest lending portfolios. Working within Commercial Banking, Corporate & Investment Banking (CIB), or Corporate Risk, you'll analyze financial statements, industry dynamics, and macroeconomic factors to assess credit risk and recommend lending terms. Wells Fargo's position as the #1 commercial lender in the U.S. provides unparalleled exposure to middle-market companies ($10M-$500M revenue) alongside large corporate clients. The Credit Risk function independently oversees all phases of a loan's lifecycle - origination, underwriting, risk analysis, approval, documentation, monitoring, and collection. Wells Fargo's Risk Asset Review (RAR) team serves as the company's internal loan review function, foundational to credit risk management. The collaborative Midwestern-influenced culture emphasizes work-life balance, with typical hours of 8am-6pm - significantly better than East Coast bulge brackets. Strong training through the Commercial Banking Program and clear career progression make this an excellent foundation for credit careers in banking, private credit, or corporate treasury.",
+      responsibilities: [
+        "Analyze financial statements (balance sheet, income statement, cash flow) to assess debt servicing capacity, liquidity, and overall creditworthiness",
+        "Build detailed credit models incorporating historical financials, management projections, leverage ratios, coverage metrics, and covenant compliance",
+        "Prepare credit memoranda and risk rating recommendations for Credit Committees, Senior Leadership, and the Credit Committee of the Board of Directors",
+        "Conduct industry research to understand competitive dynamics, regulatory environment, and cyclical factors affecting borrower creditworthiness",
+        "Monitor existing credit exposures through quarterly reviews, covenant testing, early warning indicators, and watchlist management",
+        "Participate in client meetings alongside Relationship Managers to understand business strategy and emerging risk factors",
+        "Support Risk Asset Review (RAR) evaluations of lending practices and report significant credit issues to appropriate committees",
+        "Collaborate with Commercial Banking Middle Market Group, Corporate Banking, and Treasury Management teams on client solutions",
+        "Ensure compliance with Wells Fargo credit policies, regulatory requirements, and risk appetite framework"
+      ],
+      growthOpportunities: [
+        "Clear progression from Credit Analyst to Senior Credit Analyst to Credit Manager to Credit Officer with increasing approval authority",
+        "Exposure to diverse industries and credit situations across Wells Fargo's massive middle-market and commercial lending portfolio",
+        "Opportunity to specialize in specific industries (Healthcare, Technology, Energy, Real Estate) or credit products (leveraged finance, asset-based lending, commercial real estate)",
+        "Strong exit opportunities to private credit funds, credit hedge funds, rating agencies, or corporate treasury - Wells Fargo credit training highly valued",
+        "Access to Commercial Banking Program training including credit fundamentals, financial analysis, and relationship management",
+        "Potential rotation across Commercial Banking regions, Corporate Banking, and Risk Asset Review",
+        "Better work-life balance than East Coast competitors enables sustainable career and professional certifications (CFA, CPA)",
+        "Path to Relationship Manager roles in Commercial Banking Middle Market Group for client-facing career"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded questions assessing motivation for credit analysis, basic financial knowledge, and analytical thinking. Expect questions like 'Why Wells Fargo?', 'Walk through how you'd assess a company's creditworthiness', and behavioral scenarios. Wells Fargo emphasizes cultural fit alongside technical skills.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute conversation with Credit Analyst or Credit Manager covering technical accounting concepts, credit fundamentals, and resume discussion. Expect questions on financial statement analysis, key credit metrics, and how you approach analytical problems. Wells Fargo's collaborative culture means interviewers are genuinely interested in your development.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "3-4 rounds with Credit Analysts, Credit Managers, and potentially Credit Officers or Relationship Managers. Mix of technical deep-dives (accounting, credit analysis, covenant structures) and behavioral questions. May include credit case study. Wells Fargo values humility, teamwork, and customer focus alongside analytical rigor.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Hiring team reviews feedback on technical ability, analytical judgment, and cultural fit with Wells Fargo values. Offers typically extended within 1-2 weeks with details on base salary, bonus structure, and team/location placement. Compensation competitive with better work-life balance than NYC competitors."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through how you'd assess the creditworthiness of a middle-market manufacturing company.",
+        "What are the most important credit metrics for evaluating a leveraged borrower?",
+        "Explain the difference between senior secured and subordinated debt. How does structure affect recovery?",
+        "How do you calculate debt service coverage ratio (DSCR)? What level is acceptable?",
+        "Walk me through the three financial statements. Which is most important for credit analysis?",
+        "What's the difference between EBITDA and cash flow? Why does the distinction matter for credit?",
+        "How would you analyze a company in a cyclical industry like energy or agriculture?",
+        "Explain financial covenants. What's the difference between maintenance and incurrence covenants?",
+        "A borrower has growing revenue but declining margins. What might be happening?",
+        "How do you calculate leverage ratio? What level separates investment grade from speculative?",
+        "How would rising interest rates affect a company with significant floating rate debt?",
+        "Walk me through liquidity analysis. What sources and uses matter most?",
+        "What early warning indicators would signal deteriorating credit quality?",
+        "How do you assess collateral value and recovery in a default scenario?",
+        "What's the difference between a term loan, revolver, and asset-based facility?",
+        "How would you evaluate credit risk for a private company with limited disclosure?",
+        "Explain the Wells Fargo risk rating system and what factors drive rating decisions.",
+        "How do industry dynamics affect credit analysis differently across sectors?"
+      ],
+      behavioralQuestions: [
+        "Why credit analysis? Why Wells Fargo specifically?",
+        "Tell me about a time you analyzed complex data and drew meaningful conclusions.",
+        "Describe a situation where you identified a risk or problem that others missed.",
+        "How do you approach learning about a new industry you're unfamiliar with?",
+        "Tell me about making a recommendation with incomplete information.",
+        "How would you handle disagreement between your credit recommendation and a Relationship Manager's view?",
+        "Describe explaining complex analysis to someone without financial background.",
+        "Tell me about managing multiple priorities and tight deadlines.",
+        "What interests you most about commercial lending and middle-market companies?",
+        "How do you stay informed about market conditions and economic trends?",
+        "Describe finding an error in financial analysis. How did you handle it?",
+        "Tell me about working collaboratively in teams on analytical projects.",
+        "What do you see as the biggest risks facing commercial borrowers today?",
+        "How does Wells Fargo's culture align with your working style?"
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in accounting and financial statement analysis",
+        "Analytical mindset with attention to detail and accuracy in quantitative work",
+        "Ability to synthesize financial data, industry trends, and qualitative factors into credit judgments",
+        "Intellectual curiosity about businesses, industries, and what drives company performance",
+        "Clear written and verbal communication skills to articulate credit risks and recommendations",
+        "Sound judgment and ability to identify key risks in lending situations",
+        "Collaborative mindset aligned with Wells Fargo's team-oriented, Midwestern-influenced culture",
+        "Customer focus and understanding that credit enables business growth responsibly",
+        "Humility and coachability - willingness to learn from experienced credit professionals",
+        "Interest in middle-market companies and commercial banking relationships"
+      ],
+      interviewTips: [
+        "Master core credit metrics: leverage ratios (Debt/EBITDA), coverage ratios (DSCR, interest coverage), liquidity metrics",
+        "Review accounting fundamentals: three statement relationships, working capital, depreciation, revenue recognition",
+        "Practice analyzing real company financials - pick 2-3 public middle-market companies and walk through credit assessment",
+        "Understand common debt structures: term loans, revolvers, ABL facilities, covenants (maintenance vs incurrence)",
+        "Research Wells Fargo's Commercial Banking and middle-market focus - understand their competitive positioning",
+        "Prepare examples demonstrating analytical skills, attention to detail, and collaborative working style",
+        "Know current credit market conditions: spreads, default rates, sectors under stress",
+        "Understand Wells Fargo's culture: collaborative, customer-focused, Midwestern values, work-life balance emphasis",
+        "Prepare thoughtful questions about team structure, industry coverage, training programs, and career paths",
+        "Be ready to discuss why credit vs investment banking, equity research, or front office roles",
+        "Research Wells Fargo's Risk Asset Review function and independent credit oversight model",
+        "Show genuine interest in relationship banking and middle-market companies",
+        "Demonstrate humility - Wells Fargo values team players over individual stars",
+        "Practice explaining your analytical process clearly and concisely"
+      ],
+      salary: {
+        min: 75000,
+        max: 90000
+      },
+      compensation: [
+        "Base salary: $75-90K for credit analysts depending on location (Charlotte, San Francisco higher)",
+        "Annual performance bonus: $10-25K based on individual and team performance",
+        "Signing bonus: $5-10K for competitive candidates",
+        "Compensation slightly below NYC bulge brackets but with significantly better work-life balance",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with Wells Fargo match (up to 6%)",
+        "Tuition reimbursement for relevant degrees or certifications (CFA, CPA, MBA)",
+        "Professional development budget for credit training and conferences",
+        "Employee stock purchase plan with discount",
+        "Total first-year compensation typically $90-120K all-in"
+      ],
+      dayInLife: {
+        overview: "Credit Analysts at Wells Fargo enjoy intellectually rigorous work with excellent work-life balance. Typical hours are 8am-6pm with rare late nights - significantly better than East Coast bulge brackets. The collaborative culture emphasizes teamwork, customer focus, and sustainable pace. Work balances independent financial analysis with collaboration across Relationship Managers, Credit Officers, and Treasury Management. Strong regional presence means less NYC-centric culture. Many credit professionals build long careers at Wells Fargo, reflecting the supportive environment and reasonable lifestyle.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Review",
+            description: "Check emails, review overnight news on portfolio companies. Scan internal systems for credit alerts, covenant test results, and borrower updates. Prioritize day's work based on deadlines and deal pipeline."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Credit Modeling",
+            description: "Build credit model for new middle-market borrower evaluation. Input historical financials, create projections, calculate key metrics. Analyze leverage, coverage, liquidity, and cash flow generation."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Team Discussion",
+            description: "Meet with Credit Manager to discuss preliminary analysis. Present findings, debate risk factors, discuss appropriate risk rating and terms. Wells Fargo's collaborative culture makes these discussions constructive."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch with colleagues - often at desk or team lunch. Discuss interesting credits, market trends, or training sessions. Collaborative, supportive team environment."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Industry Research",
+            description: "Research healthcare services industry for upcoming credit. Understand reimbursement dynamics, regulatory trends, competitive landscape. Analyze how industry factors affect borrower's credit profile."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Client Call",
+            description: "Join quarterly review call with CFO alongside Relationship Manager. Take notes on business performance, strategic initiatives, capital plans. Assess changes to credit risk. Wells Fargo emphasizes relationship approach."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Credit Memo Writing",
+            description: "Draft credit memorandum for Credit Committee. Structure: executive summary, business overview, financial analysis, industry dynamics, risk factors, mitigants, recommendation. Clear, concise writing valued."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Portfolio Monitoring",
+            description: "Review quarterly financials from existing borrowers. Update covenant compliance tracking. Flag deteriorating metrics for closer monitoring. Prepare watchlist recommendations if needed."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Respond to final emails, update project tracker. Prepare for tomorrow. Head home around 6pm - Wells Fargo culture supports work-life balance. Rare late nights compared to NYC banks."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" },
+        { companyName: "US Bank", companySlug: "us-bank", industry: "Finance" }
+      ]
+    },
+    'risk-analyst': {
+      roleDescription: "Risk Analysts at Wells Fargo work within Corporate Risk (Independent Risk Management), serving as the company's second line of defense providing independent oversight of risk-taking activities. You'll perform quantitative analysis across credit risk, market risk, operational risk, model risk, and compliance risk to assess potential losses and ensure the firm operates within its risk appetite. Wells Fargo's scale as one of the largest U.S. banks with $1.9 trillion in assets makes robust risk management absolutely critical. The Corporate Risk Development Program provides rotational experience across three risk teams with exposure to key risk domains. Wells Fargo's culture emphasizes work-life balance, with typical hours of 8:30am-6pm - notably better than NYC-based competitors. The collaborative, Midwestern-influenced environment values teamwork and sustainable careers. Risk Analysts play a crucial role in protecting the franchise while enabling responsible business growth, with strong career paths to senior risk leadership.",
+      responsibilities: [
+        "Perform quantitative risk analysis including Value at Risk (VaR), stress testing, scenario analysis, and expected loss modeling",
+        "Monitor credit exposures, trading positions, or operational risk metrics against established limits and escalate breaches",
+        "Develop and maintain risk models for credit loss estimation, market risk measurement, or operational risk quantification",
+        "Prepare risk reports and presentations for Senior Management, Risk Committee, Executive Management, and Board of Directors",
+        "Conduct deep-dive analyses on risk concentrations, emerging risks, portfolio trends, and potential vulnerabilities",
+        "Collaborate with front-line business units to understand risks while maintaining independent perspective",
+        "Support Risk Asset Review (RAR) as the company's internal loan review function evaluating lending practices",
+        "Contribute to stress testing programs including CCAR, DFAST, and internal capital adequacy assessments",
+        "Ensure compliance with regulatory requirements from Federal Reserve, OCC, CFPB, and other authorities"
+      ],
+      growthOpportunities: [
+        "Corporate Risk Development Program: 24-month rotational experience across three risk teams building broad foundation",
+        "Clear progression from Risk Analyst to Senior Risk Analyst to Risk Manager to Lead Risk Officer",
+        "Exposure to diverse risk types: credit, market, operational, model, compliance, financial crimes, technology risk",
+        "Opportunity to specialize in specific risk domains or business lines (Commercial Banking, CIB, Consumer)",
+        "Strong foundation for moving to front-line risk roles, corporate finance, or senior risk leadership",
+        "Access to Wells Fargo's risk training curriculum covering quantitative methods and regulatory frameworks",
+        "Better work-life balance enables sustainable career and pursuit of certifications (FRM, CFA)",
+        "Path to emerging risk specializations: climate risk, cyber risk, AI/model risk, third-party risk"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded questions assessing motivation for risk management, analytical thinking, and problem-solving. Expect questions on why risk, basic statistics/probability concepts, and behavioral scenarios demonstrating judgment. Wells Fargo values cultural fit alongside technical skills.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute technical conversation with Risk team member covering statistics, probability, risk concepts, and resume discussion. Expect questions on risk fundamentals, analytical approach, and interest in independent risk management. Wells Fargo's collaborative culture makes interviews conversational.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "3-4 rounds with Risk Analysts, Risk Managers, and potentially Directors. Mix of technical deep-dives (statistics, risk modeling, credit/market risk concepts), case studies, and behavioral questions. Demonstrate analytical rigor, sound judgment, and alignment with Wells Fargo's values. Humility and teamwork matter.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Team evaluates technical competency, analytical thinking, communication skills, and cultural fit. Risk requires independence balanced with collaboration. Offers typically extended within 1-2 weeks with competitive compensation and excellent work-life balance compared to NYC competitors."
+        }
+      ],
+      technicalQuestions: [
+        "What is Value at Risk (VaR)? What are its limitations and alternatives?",
+        "Explain expected loss vs unexpected loss in credit risk. How are they calculated?",
+        "How would you measure market risk for a bond portfolio?",
+        "What's the difference between VaR and expected shortfall (CVaR)?",
+        "Walk through credit risk components: Probability of Default (PD), Loss Given Default (LGD), Exposure at Default (EAD).",
+        "How would you stress test a commercial loan portfolio? What scenarios matter?",
+        "Explain correlation risk and why it matters in portfolio risk management.",
+        "What is duration and convexity? How are they used in interest rate risk?",
+        "How do you assess operational risk? Give examples of key risk indicators.",
+        "Explain counterparty credit risk. How is it different from lending risk?",
+        "What's the difference between first line and second line of defense?",
+        "How would you evaluate model risk for a credit scoring model?",
+        "Explain tail risk and fat-tailed distributions. Why do they matter?",
+        "What is the CCAR stress test and what does it evaluate?",
+        "How would you analyze risk concentration in a loan portfolio?",
+        "What regulatory frameworks govern bank risk management (Basel III/IV)?",
+        "How would you identify emerging risks before they materialize?",
+        "Explain the three lines of defense model at Wells Fargo."
+      ],
+      behavioralQuestions: [
+        "Why risk management? Why Wells Fargo specifically?",
+        "Tell me about identifying a risk or problem that others overlooked.",
+        "Describe challenging someone's analysis or assumptions constructively.",
+        "How do you balance enabling business with appropriate risk management?",
+        "Tell me about solving a complex analytical problem. Walk through your approach.",
+        "Describe your experience with programming, modeling, or statistical analysis.",
+        "How would you handle disagreement with a business partner about risk assessment?",
+        "Tell me about explaining complex concepts to non-technical stakeholders.",
+        "Describe working with incomplete or imperfect data. How did you manage uncertainty?",
+        "What do you think are the biggest risks facing banks today?",
+        "How do you stay current on regulatory developments and risk management practices?",
+        "Tell me about making a judgment call with significant uncertainty.",
+        "Describe working collaboratively in teams on analytical projects.",
+        "Why independent risk management over front-line business roles?"
+      ],
+      whatTheyLookFor: [
+        "Strong quantitative foundation: statistics, probability, financial mathematics",
+        "Programming skills (Python, R, SQL) and comfort with data analysis",
+        "Analytical thinking and ability to identify risks in complex situations",
+        "Sound judgment and independence to challenge assumptions constructively",
+        "Clear communication skills to explain risks to diverse stakeholders",
+        "Understanding of financial products and banking operations",
+        "Intellectual curiosity about risk events and evolving methodologies",
+        "Professional skepticism balanced with collaborative mindset",
+        "Attention to detail in reviewing models and calculations",
+        "Alignment with Wells Fargo's values: customer focus, teamwork, ethics"
+      ],
+      interviewTips: [
+        "Master fundamental risk concepts: VaR, expected shortfall, stress testing, credit risk components",
+        "Review statistics and probability: distributions, correlation, regression, Monte Carlo methods",
+        "Understand financial products and their risks: loans, bonds, derivatives, structured products",
+        "Research risk frameworks: Basel III/IV, CCAR, DFAST, three lines of defense model",
+        "Prepare examples demonstrating analytical skills and ability to identify overlooked risks",
+        "Know recent risk events: regional banking stress, market volatility, operational failures",
+        "Be ready to discuss why risk vs front office - show genuine interest in risk as career",
+        "Practice explaining technical concepts simply - risk requires communicating to business partners",
+        "Research Wells Fargo's Corporate Risk organization and recent risk priorities",
+        "Understand second line of defense model and independent oversight role",
+        "Prepare thoughtful questions about Corporate Risk Development Program and career paths",
+        "Emphasize collaborative approach - Wells Fargo values teamwork alongside independence",
+        "Show alignment with Wells Fargo's culture: customer focus, ethics, work-life balance",
+        "Demonstrate humility and coachability - important in Wells Fargo culture"
+      ],
+      salary: {
+        min: 80000,
+        max: 100000
+      },
+      compensation: [
+        "Base salary: $80-100K for risk analysts depending on team and location",
+        "Annual performance bonus: $15-30K based on individual and firm performance",
+        "Signing bonus: $8-15K for candidates with strong quantitative backgrounds",
+        "Compensation competitive with market, excellent when adjusted for work-life balance",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with Wells Fargo match (up to 6%)",
+        "Tuition reimbursement for relevant degrees or certifications (FRM, CFA)",
+        "Professional development budget for risk conferences and training",
+        "Employee stock purchase plan with discount",
+        "Total first-year compensation typically $100-140K all-in"
+      ],
+      dayInLife: {
+        overview: "Risk Analysts at Wells Fargo work in intellectually stimulating roles with excellent work-life balance. Typical hours are 8:30am-6pm - significantly better than NYC-based banks. The collaborative culture values teamwork, constructive challenge, and sustainable pace. Work balances independent analysis with stakeholder collaboration across business units, senior risk officers, and regulators. Wells Fargo's Midwestern-influenced culture creates supportive environment where asking questions is encouraged. Many risk professionals build long careers, reflecting the sustainable lifestyle and strong career progression.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Risk Review",
+            description: "Review overnight developments and impact on firm's risk positions. Check risk dashboards, limit utilization, and alerts. Scan for breaches or unusual exposures requiring investigation."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Brief meeting with risk team to discuss priorities, escalations, and key focus areas. Collaborative culture means sharing information and supporting colleagues."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Quantitative Analysis",
+            description: "Build stress scenarios to assess portfolio impact under adverse conditions. Use Python/R to analyze data, calculate sensitivities, model potential losses. Focus on concentration risk and emerging threats."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break - often with colleagues discussing risk topics or attending training webinar. Wells Fargo's culture encourages development and knowledge sharing."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Model Review",
+            description: "Review credit model submitted by business for approval. Validate assumptions, test calculations, assess limitations. Document findings for model risk governance committee."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Business Partnership",
+            description: "Meeting with Commercial Banking team to discuss risk aspects of new product. Understand risk profile, review analysis, provide independent perspective. Constructive dialogue valued."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Portfolio Deep Dive",
+            description: "Conduct detailed analysis of concentrated exposure in commercial real estate. Analyze individual credits, correlations, stress scenarios. Prepare recommendation on limits."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Complete risk analysis documentation, update dashboards, prepare materials for Risk Committee. Clear documentation important for audit and regulatory review."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Respond to final emails, prepare for tomorrow. Head home around 6pm - Wells Fargo culture genuinely supports work-life balance. Sustainable pace enables long careers."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" },
+        { companyName: "US Bank", companySlug: "us-bank", industry: "Finance" }
+      ]
+    },
+    'operations-analyst': {
+      roleDescription: "Operations Analysts at Wells Fargo work within the Chief Operating Office (COO) and Global Operations ensuring smooth execution of financial transactions across the firm's massive processing infrastructure. Wells Fargo offers multiple pathways through the COO Early Talent Program: COO Control Management, COO Operations, and Wholesale Operations. Global Operations in the COO builds a unified approach to operations functions including Shared Services Operations (SSO), Consumer Lending Operations, and Payments. As one of the largest processors of payments and transactions in the U.S., Wells Fargo's operational excellence is mission-critical. The Operations Development Program provides a comprehensive two-year experience with deep-dive sessions, group projects, coaching, and exposure to key leaders. Wells Fargo's culture emphasizes work-life balance with typical 8am-5pm hours for day shifts - excellent compared to NYC competitors. The collaborative, supportive environment provides clear career progression from analyst to senior leadership roles.",
+      responsibilities: [
+        "Process and settle financial transactions including securities trades, payments, loan fundings, and account services with accuracy and timeliness",
+        "Perform daily reconciliations between internal systems and external counterparties to identify and resolve discrepancies",
+        "Investigate and resolve operational exceptions, payment delays, processing errors, and customer inquiries",
+        "Monitor transaction queues and workflow systems to ensure service level agreements (SLAs) are met",
+        "Collaborate with front-line business units, technology teams, and customer service to troubleshoot issues",
+        "Maintain control frameworks and ensure compliance with regulatory requirements (SOX, AML, KYC, OFAC)",
+        "Generate reports and metrics on operational performance, error rates, and process efficiency",
+        "Participate in Operational Excellence initiatives, automation projects, and continuous improvement programs",
+        "Support Shared Services Strategy & Transformation efforts to modernize operations infrastructure"
+      ],
+      growthOpportunities: [
+        "Operations Development Program: Two-year developmental experience with rotations, group projects, and leadership exposure",
+        "Clear career progression from Operations Analyst to Senior Analyst to Team Lead to Operations Manager",
+        "Exposure to diverse operations areas: payments, consumer lending, securities, treasury services, shared services",
+        "Opportunity to lead Operational Excellence and automation initiatives with measurable impact",
+        "Path to specialized roles: control management, operational risk, project management, technology",
+        "Access to Six Sigma, Lean, and process improvement training and certifications",
+        "Better work-life balance and stability than front office with clear advancement opportunities",
+        "Wells Fargo's national footprint provides geographic flexibility across operations centers"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded questions assessing motivation for operations, analytical thinking, and attention to detail. Expect questions on handling pressure, prioritizing tasks, and ensuring accuracy. Wells Fargo emphasizes customer focus and cultural fit.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "30-45 minute conversation with Operations team member covering resume, motivation, and basic problem-solving scenarios. Expect questions about handling deadlines, process improvement ideas, and teamwork. Wells Fargo's collaborative culture makes interviews supportive.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual or On-site Interviews",
+          description: "2-3 rounds with Operations Managers and team members. Mix of behavioral questions (teamwork, pressure, problem-solving), operational scenarios, and cultural fit assessment. Demonstrate attention to detail, systematic thinking, and alignment with Wells Fargo values.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Team reviews feedback on analytical ability, attention to detail, teamwork, and cultural alignment. Wells Fargo values reliability and continuous improvement orientation. Offers typically within 1-2 weeks with details on team placement and location."
+        }
+      ],
+      technicalQuestions: [
+        "Explain the payment lifecycle from initiation to settlement. What can go wrong?",
+        "What is reconciliation and why is it critical in financial operations?",
+        "How would you prioritize multiple urgent tasks approaching deadline?",
+        "Walk through investigating a discrepancy in a reconciliation.",
+        "What's the difference between wire transfers, ACH, and real-time payments?",
+        "Explain what a nostro/vostro account is in correspondent banking.",
+        "How would you handle a payment instruction with missing information near cut-off?",
+        "What controls would you implement to prevent processing errors?",
+        "How would you design a process to reduce manual touchpoints?",
+        "What do you understand about SOX controls in financial operations?",
+        "What KPIs would you track for an operations team?",
+        "How would you investigate a failed securities settlement?",
+        "What is exception-based processing and why does it matter?",
+        "Explain the difference between batch and real-time processing.",
+        "How would you maintain accuracy during high-volume processing?",
+        "What tools have you used for data analysis and reporting?",
+        "How would you identify automation opportunities in a manual process?",
+        "What do you understand about AML and sanctions screening in payments?"
+      ],
+      behavioralQuestions: [
+        "Why operations? Why Wells Fargo specifically?",
+        "Tell me about catching an error that others missed.",
+        "Describe working under significant time pressure.",
+        "How do you ensure accuracy when performing repetitive tasks?",
+        "Tell me about improving a process or increasing efficiency.",
+        "Describe managing competing priorities with tight deadlines.",
+        "How would you handle conflict with a colleague or business partner?",
+        "Tell me about learning a new system or process quickly.",
+        "Describe your experience with Excel, data analysis, or reporting.",
+        "How do you stay focused during long shifts or busy periods?",
+        "Tell me about identifying a control weakness or risk.",
+        "Describe collaborating across teams to resolve an issue.",
+        "What attracts you to operations versus front office roles?",
+        "How does Wells Fargo's culture align with your values?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional attention to detail and accuracy in data processing",
+        "Strong analytical and problem-solving skills for exception resolution",
+        "Ability to work efficiently under deadlines while maintaining quality",
+        "Systematic and methodical approach to process execution",
+        "Proficiency with Excel and ability to learn complex systems quickly",
+        "Strong communication skills for coordination across teams",
+        "Proactive mindset with genuine interest in process improvement",
+        "Composure under pressure with appropriate escalation judgment",
+        "Team player mentality aligned with Wells Fargo's collaborative culture",
+        "Customer focus and understanding of operations' impact on client experience"
+      ],
+      interviewTips: [
+        "Research Wells Fargo's COO organization: Global Operations, Shared Services, Consumer Lending Operations",
+        "Understand basic operations concepts: settlement, reconciliation, payments, exception processing",
+        "Prepare examples demonstrating attention to detail, problem-solving, and working under pressure",
+        "Highlight experience with Excel, data analysis, or process improvement",
+        "Show genuine interest in operations - don't treat it as 'just back office'",
+        "Demonstrate understanding that operations is mission-critical for customers and risk management",
+        "Prepare questions about Operations Development Program, career progression, and team structure",
+        "Be ready to discuss maintaining accuracy during repetitive or high-volume tasks",
+        "Show awareness of operational trends: automation, digital transformation, real-time processing",
+        "Emphasize teamwork and reliability over individual heroics",
+        "Understand Wells Fargo's customer-focused culture and values",
+        "Be prepared for scenarios: 'How would you handle discovering a significant processing error?'",
+        "Research Wells Fargo's investment in operations technology and transformation",
+        "Demonstrate alignment with Wells Fargo's collaborative, supportive culture"
+      ],
+      salary: {
+        min: 50000,
+        max: 70000
+      },
+      compensation: [
+        "Base salary: $50-70K for operations analysts depending on location and operations center",
+        "Annual performance bonus: $5-12K based on individual and team performance",
+        "Shift differential pay for overnight or weekend coverage where applicable",
+        "Compensation reflects cost of living - strong for non-NYC locations",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with Wells Fargo match (up to 6%)",
+        "Tuition reimbursement for relevant degrees or certifications (Six Sigma, PMP)",
+        "Employee stock purchase plan with discount",
+        "Commuter benefits and wellness programs",
+        "Total first-year compensation typically $55-85K all-in"
+      ],
+      dayInLife: {
+        overview: "Operations Analysts at Wells Fargo work in structured environments ensuring flawless transaction execution. Hours are typically 8am-5pm for day shifts - excellent work-life balance compared to NYC banks. The supportive, team-oriented culture emphasizes collaboration and continuous improvement. Work balances transaction processing with exception resolution and process optimization. Wells Fargo's Operations Development Program provides structured learning with rotations and mentorship. Many operations professionals build long careers, advancing from analyst to senior leadership. The sustainable pace and clear progression make this an attractive career foundation.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Check-In",
+            description: "Review overnight processing results and shift handover notes. Check email for escalations. Scan transaction queues for pending items and exceptions. Prioritize based on deadlines and SLAs."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Team Huddle",
+            description: "Quick standup with operations team reviewing volumes, outstanding issues, system status. Discuss priorities and support needed. Wells Fargo's collaborative culture makes this supportive environment."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Transaction Processing",
+            description: "Process payment instructions, settlement transactions, or account services. Verify details against source documents, validate in systems, ensure timely execution before cut-off times."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Reconciliation",
+            description: "Reconcile accounts, positions, or confirmations between internal systems and external counterparties. Investigate discrepancies, research root causes, document findings."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break - Wells Fargo operations has structured lunch periods. Collegial atmosphere with team members. Reasonable pace compared to front office."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Exception Resolution",
+            description: "Investigate failed transactions, payment rejections, or processing errors. Coordinate with business partners, clients, or counterparties to gather information and resolve. Document for audit trail."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Client/Internal Support",
+            description: "Respond to inquiries from business units or customers about transaction status, account questions, or processing issues. Provide clear, timely updates and solutions."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Controls & Monitoring",
+            description: "Perform required control checks and validations. Monitor queues for SLA compliance. Update metrics and tracking systems. Ensure regulatory requirements met."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Process Improvement",
+            description: "Participate in Operational Excellence discussion or work on automation initiative. Wells Fargo encourages analyst input on efficiency improvements. Document improvement ideas."
+          },
+          {
+            time: "5:00 PM",
+            activity: "End of Day",
+            description: "Complete final processing, ensure deadlines met, document outstanding items. Update handover notes for colleagues. Head home around 5pm - Wells Fargo operations culture is sustainable."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" },
+        { companyName: "US Bank", companySlug: "us-bank", industry: "Finance" }
+      ]
+    },
+    'financial-advisor': {
+      roleDescription: "Financial Advisors at Wells Fargo Advisors help clients achieve their financial goals through comprehensive wealth management, investment planning, and advisory services. Wells Fargo Advisors offers multiple business model options - from employee models to independent branches - supporting advisors with different preferences and practice styles. With access to Wells Fargo's full wealth management suite, advanced technology, and extensive resources, advisors can build practices serving clients from mass affluent to ultra-high-net-worth. The firm's national footprint and brand recognition provide strong client acquisition opportunities, particularly in the Midwest and West Coast where Wells Fargo has dominant retail presence. New advisors benefit from comprehensive training programs, dedicated coaching, and a client base to kickstart their careers. For experienced advisors, Wells Fargo has helped thousands transition with dedicated consultants, account opening support, and onboarding assistance. The culture emphasizes work-life balance and sustainable practice building - a refreshing alternative to the high-pressure environment at some competitors.",
+      responsibilities: [
+        "Develop and implement comprehensive financial plans addressing investment, retirement, estate, tax, and insurance needs",
+        "Build and maintain client relationships through regular reviews, proactive outreach, and exceptional service",
+        "Construct and manage investment portfolios aligned with client risk tolerance, time horizon, and goals",
+        "Identify and pursue new client acquisition opportunities through referrals, networking, and Wells Fargo bank partnerships",
+        "Present investment recommendations and financial strategies to clients and prospects",
+        "Coordinate with Wells Fargo specialists: Private Bank, trust services, lending, insurance, and business banking",
+        "Ensure compliance with FINRA regulations, Wells Fargo policies, and fiduciary responsibilities",
+        "Utilize Wells Fargo Advisors technology platform for portfolio analysis, financial planning, and client reporting",
+        "Participate in ongoing professional development and maintain required licenses and certifications"
+      ],
+      growthOpportunities: [
+        "Multiple business models: employee advisor in Wells Fargo Advisors branches, independent branches, or hybrid arrangements",
+        "Clear path from new advisor through training program to established producer to senior advisor",
+        "Opportunity to build substantial book of business with support from Wells Fargo's platform and brand",
+        "Access to high-net-worth and ultra-high-net-worth clients through Private Bank partnerships",
+        "Teaming opportunities to leverage complementary skills and serve clients more comprehensively",
+        "Management track for advisors interested in leading teams or branches",
+        "Succession planning support for building enterprise value in your practice",
+        "Geographic flexibility with Wells Fargo's national branch network"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Conversation",
+          description: "Initial discussion with Wells Fargo Advisors recruiter about your background, goals, and fit with different business models. For experienced advisors, detailed discussion of your current practice, book of business, and transition needs.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Branch Manager Interview",
+          description: "Meeting with local Branch Manager or Complex Director discussing your approach to client relationships, business development philosophy, and how you'd leverage Wells Fargo's platform. Cultural fit and alignment with Wells Fargo values assessed.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Assessment & Background",
+          description: "Complete required assessments evaluating sales aptitude, client service orientation, and financial acumen. Background check and review of compliance history. FINRA licensing verification or discussion of licensing pathway for new advisors.",
+          duration: "Varies"
+        },
+        {
+          step: 4,
+          title: "Offer & Onboarding",
+          description: "Offer presentation with compensation details, transition support (for experienced advisors), and training program overview. Experienced advisors receive dedicated transition consultant to support account transfers and client communication."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your process for developing a comprehensive financial plan.",
+        "How do you determine appropriate asset allocation for different client situations?",
+        "Explain the difference between fee-based and commission-based advisory models.",
+        "How would you approach a client concerned about market volatility?",
+        "What's your process for identifying and pursuing new client opportunities?",
+        "How do you handle a client who wants to make an investment you believe is inappropriate?",
+        "Explain the fiduciary standard and how it affects your advisory approach.",
+        "How do you coordinate with specialists (tax, estate, insurance) to serve clients?",
+        "What's your approach to portfolio rebalancing and ongoing monitoring?",
+        "How do you use technology and digital tools in your practice?",
+        "Explain Regulation Best Interest and its implications for advisors.",
+        "How would you help a client approaching retirement with their investment strategy?",
+        "What experience do you have with alternative investments or complex products?",
+        "How do you approach wealth transfer and estate planning discussions?",
+        "Describe your client communication and review meeting process."
+      ],
+      behavioralQuestions: [
+        "Why Wells Fargo Advisors? What attracts you to our platform?",
+        "Describe your ideal client and how you typically acquire new business.",
+        "Tell me about a challenging client situation and how you resolved it.",
+        "How do you balance business development with serving existing clients?",
+        "Describe your approach to building long-term client relationships.",
+        "Tell me about a time you had to deliver difficult news to a client.",
+        "How do you stay current on markets, products, and planning strategies?",
+        "Describe your experience working with high-net-worth clients.",
+        "How would you leverage Wells Fargo's resources and specialists?",
+        "Tell me about your most successful client relationship and why it works.",
+        "How do you handle compliance and regulatory requirements?",
+        "Describe your work-life balance philosophy and how you maintain it.",
+        "What differentiates your advisory approach from competitors?",
+        "How would you transition your existing clients to Wells Fargo (if applicable)?"
+      ],
+      whatTheyLookFor: [
+        "Demonstrated ability to build client relationships and generate new business",
+        "Strong communication skills and professional presence with clients",
+        "Genuine passion for helping clients achieve their financial goals",
+        "Ethical approach and commitment to acting in clients' best interests",
+        "Understanding of investment products, financial planning, and wealth management",
+        "Required licenses: Series 7, Series 66 (or 63/65), state insurance licenses",
+        "For experienced advisors: portable book of business and clean compliance record",
+        "Alignment with Wells Fargo's customer-focused culture and values",
+        "Entrepreneurial drive balanced with ability to work within a compliance framework",
+        "Commitment to ongoing professional development and client service excellence"
+      ],
+      interviewTips: [
+        "Articulate your client acquisition strategy and business development approach clearly",
+        "Prepare specific examples of how you've helped clients achieve their goals",
+        "Research Wells Fargo Advisors' platform, technology, and competitive positioning",
+        "Understand the different business model options and which fits your practice style",
+        "For experienced advisors: be prepared to discuss your book details and transition plans",
+        "Know Wells Fargo's product offerings: advisory platforms, banking, lending, private wealth",
+        "Demonstrate genuine interest in clients' wellbeing, not just asset gathering",
+        "Show how you'd leverage Wells Fargo's resources: specialists, banking relationships, brand",
+        "Prepare questions about training, support, compensation structure, and career paths",
+        "Highlight compliance mindset and ethical approach to client relationships",
+        "Understand current industry trends: fee compression, digital advice, regulatory changes",
+        "Show cultural fit with Wells Fargo's collaborative, customer-focused environment",
+        "For new advisors: demonstrate sales aptitude and coachability",
+        "Be prepared to discuss how you'd build a practice in your target market"
+      ],
+      salary: {
+        min: 50000,
+        max: 100000
+      },
+      compensation: [
+        "New advisors: Base salary + development allowance during training ($50-80K typical)",
+        "Established advisors: Production-based grid ranging from 35-50% payout on gross production",
+        "Top producers ($500K+ production): Enhanced grid rates and recognition programs",
+        "Experienced advisor transition packages: 100-300% of trailing 12-month production",
+        "Deferred compensation and retention bonuses for qualifying advisors",
+        "Access to fee-based advisory platforms with higher payout rates",
+        "Full benefits package: health, dental, vision, 401(k) with match",
+        "Practice development support and marketing allowances",
+        "Top advisors ($1M+ production) earn $400K-$1.5M+ annually",
+        "Senior Market Directors and leadership: $800K-$2M+ total compensation"
+      ],
+      dayInLife: {
+        overview: "Financial Advisors at Wells Fargo Advisors enjoy entrepreneurial freedom with institutional support. Hours are client-driven but typically 8am-6pm with flexibility for client meetings. The culture emphasizes sustainable practice building over aggressive sales targets - a welcome contrast to higher-pressure competitors. Work balances client meetings, portfolio management, business development, and administrative tasks. Wells Fargo's platform provides technology, research, and specialist support so advisors can focus on relationships. Many advisors build long, successful careers with excellent work-life balance.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Preparation",
+            description: "Review overnight markets, check client portfolios for significant moves, review news on client holdings. Prepare for scheduled client meetings and calls. Check CRM for follow-up items."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Client Meeting",
+            description: "Quarterly review meeting with established client. Review portfolio performance, discuss market outlook, update on financial plan progress. Address questions and adjust strategy as needed."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Prospect Call",
+            description: "Follow-up call with referral prospect. Discuss their financial situation, explain Wells Fargo Advisors' capabilities, schedule discovery meeting. Business development is ongoing priority."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Administrative Work",
+            description: "Process account paperwork, document client meeting notes, update CRM. Coordinate with operations on pending transfers. Review compliance items."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Networking",
+            description: "Lunch meeting with CPA referral partner. Discuss mutual clients and identify collaboration opportunities. Building referral network is key to practice growth."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Financial Planning",
+            description: "Work on comprehensive financial plan for new client. Use Wells Fargo planning tools to model retirement scenarios, analyze tax strategies, develop recommendations."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Specialist Coordination",
+            description: "Call with Private Bank colleague to discuss client with complex lending needs. Wells Fargo's integrated platform allows comprehensive solutions."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Client Calls",
+            description: "Proactive outreach calls to clients. Market update discussions, birthday acknowledgments, life event check-ins. Relationship maintenance is ongoing."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Professional Development",
+            description: "Review research reports, attend training webinar, or work on CFP continuing education. Staying current is essential for serving clients well."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Review tomorrow's schedule, complete urgent items, respond to final emails. Head home with good work-life balance - Wells Fargo culture supports sustainable pace."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "UBS", companySlug: "ubs", industry: "Finance" },
+        { companyName: "Raymond James", companySlug: "raymond-james", industry: "Finance" }
+      ]
+    },
+    'commercial-banker': {
+      roleDescription: "Commercial Bankers at Wells Fargo work within the Commercial Banking Middle Market Group as Associate Relationship Managers or Relationship Managers, serving companies with $10M-$500M in annual revenue. The two-year Banker Development Program provides sales skills and credit acumen necessary for success, combining formal training with real client engagement alongside Senior Relationship Managers. Wells Fargo's position as the #1 commercial lender in the U.S. provides unmatched platform for serving middle-market companies with credit, treasury management, and capital markets solutions. The relationship-focused model emphasizes understanding client needs and delivering the full suite of Wells Fargo products. Regional offices across the country provide opportunities in major markets beyond NYC, with strong presence in the Midwest, West Coast, and Sun Belt. The collaborative, Midwestern-influenced culture values work-life balance with typical hours of 8am-6pm - significantly better than investment banking. Clear career progression leads from Associate Relationship Manager to Relationship Manager to Senior/Lead roles managing larger client relationships.",
+      responsibilities: [
+        "Develop, retain, and grow complex client relationships through strategic relationship management",
+        "Understand client business models, capital needs, and financial challenges to deliver appropriate solutions",
+        "Structure, modify, and renew complex cash flow loans, real estate loans, and credit facilities",
+        "Drive relationship planning to deliver the full suite of Wells Fargo solutions: credit, treasury, capital markets",
+        "Collaborate with Credit, Treasury Management, and CIB specialists to serve client needs comprehensively",
+        "Conduct financial analysis and credit underwriting for loan requests and annual reviews",
+        "Maintain sales pipeline discipline and CRM documentation for relationship management",
+        "Represent Wells Fargo externally at industry events, community involvement, and client entertainment",
+        "Resolve client issues while achieving Wells Fargo's business objectives and risk parameters"
+      ],
+      growthOpportunities: [
+        "Banker Development Program: Two-year program developing sales and credit skills with formal training and real client experience",
+        "Clear progression: Associate Relationship Manager → Relationship Manager → Lead RM → Senior Lead RM → Principal RM",
+        "Increasing client responsibility: Emerging Middle Market ($10-50M) to Core Middle Market ($50-250M) to Large Middle Market ($250-500M+)",
+        "Industry specialization opportunities: Healthcare, Technology, Industrials, Beverages, Agribusiness, and more",
+        "Regional leadership paths: Market Manager, Regional Director positions",
+        "Cross-sell opportunities build broader banking expertise: treasury, capital markets, derivatives",
+        "Strong exit opportunities to private equity, corporate development, or client-side treasury roles",
+        "Geographic flexibility across Wells Fargo's national footprint"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "Initial conversation with recruiter or HR covering background, interest in commercial banking, and motivation for Wells Fargo. Discussion of Banker Development Program structure and expectations.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "HireVue or Phone Interview",
+          description: "Technical and behavioral interview with Commercial Banking team member. Expect questions on credit fundamentals, relationship management approach, and problem-solving. Wells Fargo assesses cultural fit alongside analytical skills.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "3-4 rounds with Associate RMs, Relationship Managers, Credit Managers, and potentially Market Managers. Mix of technical (credit analysis, financial statement questions), behavioral (relationship examples, sales situations), and fit assessment. Demonstrate client focus and collaborative style.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Team reviews feedback on analytical ability, relationship orientation, sales aptitude, and cultural fit. Wells Fargo values client-focused, collaborative professionals. Offers include base salary, bonus potential, and program details."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through analyzing a middle-market company's creditworthiness.",
+        "What are the key financial metrics you'd evaluate for a commercial loan?",
+        "Explain the difference between cash flow loans and asset-based lending.",
+        "How would you structure a loan for a seasonal business with lumpy cash flows?",
+        "What's the difference between a revolver and a term loan? When is each appropriate?",
+        "How do you calculate debt service coverage ratio and why does it matter?",
+        "Explain working capital and how you'd analyze a company's working capital needs.",
+        "How would you approach a client with deteriorating credit metrics?",
+        "What treasury management products would benefit a middle-market manufacturer?",
+        "How do you balance credit risk with relationship and revenue considerations?",
+        "Explain financial covenants and how they protect the lender.",
+        "How would you cross-sell capital markets products to a commercial banking client?",
+        "What industries are you interested in and what makes them attractive for lending?",
+        "How do you evaluate management quality in a credit decision?",
+        "Walk me through a leveraged buyout and how commercial banks participate."
+      ],
+      behavioralQuestions: [
+        "Why commercial banking? Why Wells Fargo specifically?",
+        "Tell me about a time you built a relationship from scratch.",
+        "Describe a situation where you had to deliver difficult news to someone.",
+        "How do you prioritize when managing multiple client relationships?",
+        "Tell me about identifying and pursuing a new opportunity.",
+        "Describe a time you collaborated with others to solve a client problem.",
+        "How would you handle a client asking for terms outside your credit policy?",
+        "Tell me about a time you had to learn something quickly.",
+        "Describe your approach to business development and networking.",
+        "How do you build trust with clients and colleagues?",
+        "Tell me about a time you exceeded expectations for a customer or stakeholder.",
+        "How do you stay organized managing multiple priorities?",
+        "What interests you about middle-market companies specifically?",
+        "How does Wells Fargo's culture align with how you like to work?"
+      ],
+      whatTheyLookFor: [
+        "Strong analytical skills and understanding of credit fundamentals",
+        "Relationship orientation and genuine interest in client success",
+        "Sales aptitude and business development capability",
+        "Clear communication skills for client and internal presentations",
+        "Collaborative mindset aligned with Wells Fargo's team-oriented culture",
+        "Intellectual curiosity about businesses, industries, and what drives success",
+        "Professional presence and ability to build credibility with business owners and CFOs",
+        "Drive and self-motivation balanced with coachability",
+        "Interest in middle-market companies and commercial banking",
+        "Alignment with Wells Fargo's values: customer focus, ethics, teamwork"
+      ],
+      interviewTips: [
+        "Understand credit fundamentals: leverage, coverage, liquidity, cash flow analysis",
+        "Research Wells Fargo Commercial Banking: middle-market focus, industry specializations, geographic footprint",
+        "Prepare examples demonstrating relationship building, sales, and analytical skills",
+        "Know the difference between commercial banking and investment banking clearly",
+        "Articulate why middle-market companies and relationship banking interest you",
+        "Understand Wells Fargo's product suite: credit, treasury management, capital markets",
+        "Prepare thoughtful questions about Banker Development Program, career paths, and team culture",
+        "Demonstrate client-focused mindset - show you care about helping businesses succeed",
+        "Highlight teamwork and collaboration - Wells Fargo values team players",
+        "Research current middle-market trends: M&A activity, lending conditions, industry dynamics",
+        "Show genuine interest in specific industries or markets you'd like to cover",
+        "Understand the regional nature of commercial banking and express geographic flexibility",
+        "Demonstrate humility and eagerness to learn - important in Wells Fargo culture",
+        "Be prepared to discuss why Wells Fargo vs other banks for commercial banking"
+      ],
+      salary: {
+        min: 75000,
+        max: 95000
+      },
+      compensation: [
+        "Associate Relationship Manager base salary: $75-95K depending on location",
+        "Annual performance bonus: $15-35K based on individual and team performance",
+        "Relationship Managers (post-program): $100-150K base with $40-80K+ bonus potential",
+        "Senior/Lead Relationship Managers: $150-250K+ base with significant bonus upside",
+        "Principal Relationship Managers managing large portfolios: $300K-$600K+ total compensation",
+        "Compensation competitive for hours worked - significantly better than IB when adjusted",
+        "Comprehensive benefits: health, dental, vision, 401(k) with match",
+        "Employee stock purchase plan and additional Wells Fargo banking benefits",
+        "Performance-based progression with clear compensation growth trajectory"
+      ],
+      dayInLife: {
+        overview: "Commercial Bankers at Wells Fargo balance client relationship management with credit work and business development. Hours are typically 8am-6pm - far better than investment banking. The relationship-focused model means building long-term partnerships with business owners and CFOs rather than transactional deal work. Days mix client meetings, credit analysis, internal collaboration, and prospecting. Wells Fargo's Midwestern-influenced culture creates collegial, supportive environment. Many commercial bankers build long careers, enjoying the combination of analytical work, relationship building, and reasonable lifestyle.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Preparation",
+            description: "Review emails, check news on clients and industries. Prepare for scheduled client meetings. Review pipeline and prioritize day's activities."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Client Meeting",
+            description: "Visit middle-market manufacturing client for quarterly review. Meet with CFO to discuss business performance, upcoming needs, and how Wells Fargo can help. Relationship building is key."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Credit Work",
+            description: "Return to office for credit analysis on new loan request. Spread financials, calculate metrics, begin credit memo. Collaborate with Credit Analyst on structure questions."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Team Lunch",
+            description: "Lunch with Commercial Banking team. Discuss deals in pipeline, share industry insights, coordinate on shared opportunities. Collaborative culture means helping colleagues."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Internal Coordination",
+            description: "Call with Treasury Management specialist to discuss cash management solutions for client. Wells Fargo's platform allows comprehensive client service through specialist partnerships."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Prospect Outreach",
+            description: "Business development calls and emails to potential new clients. Follow up on referrals from CPAs and attorneys. Pipeline building is ongoing responsibility."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Deal Discussion",
+            description: "Meeting with Credit Manager to review loan structure and get guidance on terms. Constructive dialogue on risk/return balance. Credit approval process is collaborative."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Administrative Work",
+            description: "Update CRM with client notes and pipeline activity. Complete expense reports. Respond to client emails and coordinate follow-up items."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up",
+            description: "Review tomorrow's schedule, prepare for morning client call. Head home around 6pm - Wells Fargo commercial banking offers sustainable work-life balance."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "US Bank", companySlug: "us-bank", industry: "Finance" },
+        { companyName: "PNC", companySlug: "pnc", industry: "Finance" }
+      ]
+    },
+    'private-banker': {
+      roleDescription: "Private Bankers at Wells Fargo serve high-net-worth and ultra-high-net-worth clients through The Private Bank, providing comprehensive wealth management including investment advisory, trust and estate services, credit solutions, and customized banking. Wells Fargo's Private Bank combines the resources of a top-4 U.S. bank with personalized service for clients typically with $1M+ in investable assets, scaling to sophisticated family office services for ultra-high-net-worth relationships. Private Bankers coordinate across Wells Fargo's platform - investments, trust, lending, insurance - to deliver holistic solutions. The role combines relationship management with complex financial planning, requiring both interpersonal skills and technical wealth management expertise. Wells Fargo's national presence provides opportunities across major wealth markets, with particularly strong positioning in the West Coast and Texas markets. The collaborative culture emphasizes client-first approach with work-life balance superior to NYC-centric competitors.",
+      responsibilities: [
+        "Develop and maintain relationships with high-net-worth and ultra-high-net-worth clients and their families",
+        "Deliver comprehensive wealth management solutions: investments, trust, estate planning, credit, banking",
+        "Coordinate with Wells Fargo specialists: portfolio managers, trust officers, lending specialists, tax advisors",
+        "Identify client needs and present customized strategies addressing wealth preservation, growth, and transfer",
+        "Source new client relationships through referrals, centers of influence, and Wells Fargo internal partnerships",
+        "Structure complex credit solutions: securities-based lending, real estate financing, aircraft/yacht financing",
+        "Facilitate trust and estate planning discussions, coordinating with clients' attorneys and accountants",
+        "Ensure compliance with regulatory requirements and Wells Fargo policies for high-net-worth relationships",
+        "Provide exceptional service to retain and grow client relationships across generations"
+      ],
+      growthOpportunities: [
+        "Clear progression from Private Banker to Senior Private Banker to Team Lead to Market Director",
+        "Increasing client complexity: affluent ($1-5M) to high-net-worth ($5-25M) to ultra-high-net-worth ($25M+)",
+        "Opportunity to build substantial book of business with support from Wells Fargo's brand and platform",
+        "Specialization paths: business owner liquidity events, corporate executives, family office services",
+        "Leadership opportunities managing teams of Private Bankers in major wealth markets",
+        "Cross-training across investments, trust, lending for comprehensive wealth expertise",
+        "Strong exit opportunities to family offices, RIAs, or other private banks",
+        "Geographic mobility across Wells Fargo's national Private Bank footprint"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "Initial conversation with recruiter covering background, wealth management experience, and interest in Wells Fargo. Discussion of Private Bank's approach and client profile.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "In-depth discussion with Private Banking Market Director or Team Lead. Explore your approach to client relationships, wealth management expertise, and business development track record. Cultural fit assessment.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Panel Interviews",
+          description: "Multiple rounds with Private Bankers, Trust Officers, and potentially Regional Leadership. Mix of technical wealth management questions, client scenario discussions, and behavioral assessment. Demonstrate both relationship skills and technical knowledge.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Offer & Background",
+          description: "Final interviews, background check, and offer presentation. For experienced hires, discussion of client transition support and compensation package including base, bonus, and potential transition payment."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your approach to onboarding a new high-net-worth client.",
+        "How would you structure a lending solution for a business owner with concentrated stock?",
+        "Explain the differences between revocable and irrevocable trusts and when each is appropriate.",
+        "How do you approach investment discussions with clients who have strong opinions?",
+        "What estate planning strategies would you discuss with a client worth $20M?",
+        "Explain securities-based lending and its benefits and risks for clients.",
+        "How would you coordinate with a client's outside attorneys and CPAs?",
+        "What questions would you ask a business owner contemplating a sale?",
+        "How do you approach wealth transfer and next-generation relationships?",
+        "Explain the role of life insurance in estate planning for wealthy clients.",
+        "How would you help a corporate executive manage concentrated stock positions?",
+        "What philanthropic planning strategies are relevant for high-net-worth clients?",
+        "How do you stay current on tax law changes affecting wealthy clients?",
+        "Describe your experience with complex credit structures for high-net-worth clients.",
+        "How would you differentiate Wells Fargo Private Bank from competitors?"
+      ],
+      behavioralQuestions: [
+        "Why private banking? Why Wells Fargo specifically?",
+        "Describe your most successful high-net-worth client relationship.",
+        "Tell me about a time you solved a complex problem for a wealthy client.",
+        "How do you approach building relationships with ultra-high-net-worth individuals?",
+        "Describe navigating a difficult conversation with a client about their portfolio.",
+        "How do you balance multiple demanding client relationships?",
+        "Tell me about developing a relationship with a center of influence (attorney, CPA).",
+        "How would you approach a multi-generational wealth transfer situation?",
+        "Describe coordinating across multiple specialists to serve a client.",
+        "How do you stay relevant and trusted as clients' wealth grows?",
+        "Tell me about a time you exceeded a client's expectations.",
+        "How do you approach business development and client acquisition?",
+        "Describe your experience working with family dynamics in wealth planning.",
+        "How does Wells Fargo's culture align with your approach to client service?"
+      ],
+      whatTheyLookFor: [
+        "Proven track record in wealth management or private banking with high-net-worth clients",
+        "Strong relationship skills and ability to connect with affluent and wealthy individuals",
+        "Technical knowledge across investments, trust/estate, lending, and tax planning",
+        "Business development capability and existing network of referral sources",
+        "Required licenses: Series 7, Series 66 (or 63/65), state insurance licenses",
+        "Polished presence and communication skills appropriate for wealthy clientele",
+        "Collaborative approach to working with specialists and partners",
+        "Client-first orientation with long-term relationship mindset",
+        "Alignment with Wells Fargo's values and customer-focused culture",
+        "For experienced hires: portable relationships and clean compliance record"
+      ],
+      interviewTips: [
+        "Prepare specific examples of serving high-net-worth clients successfully",
+        "Understand Wells Fargo Private Bank's positioning, capabilities, and target client profile",
+        "Know technical concepts: trust structures, estate planning, securities-based lending, tax strategies",
+        "Articulate your business development approach and referral network",
+        "Research Wells Fargo's competitive positioning vs Morgan Stanley, JPMorgan, Goldman",
+        "Demonstrate genuine interest in clients' wellbeing, not just asset gathering",
+        "Show how you'd leverage Wells Fargo's platform: trust, lending, commercial banking connections",
+        "Prepare for questions about handling difficult client situations and family dynamics",
+        "Understand current wealth management trends: tax law changes, generational wealth transfer",
+        "Highlight collaborative approach - Private Banking requires teamwork across specialists",
+        "Show cultural fit with Wells Fargo's Midwest-influenced, client-focused culture",
+        "For experienced candidates: be prepared to discuss book of business and transition plans",
+        "Demonstrate long-term thinking about client relationships and career",
+        "Prepare thoughtful questions about team structure, market focus, and growth opportunities"
+      ],
+      salary: {
+        min: 100000,
+        max: 150000
+      },
+      compensation: [
+        "Private Banker base salary: $100-150K depending on experience and market",
+        "Annual performance bonus: $30-75K+ based on revenue production and client satisfaction",
+        "Senior Private Bankers: $150-200K base with $75-150K+ bonus potential",
+        "Team Leads/Market Directors: $200-300K+ base with significant bonus upside",
+        "Experienced hire transition packages: negotiated based on portable assets",
+        "Revenue-based incentives reward client acquisition and retention",
+        "Comprehensive benefits: health, dental, vision, 401(k) with match",
+        "Top Private Bankers managing large books: $500K-$1.5M+ total compensation",
+        "Deferred compensation programs for retention of top performers"
+      ],
+      dayInLife: {
+        overview: "Private Bankers at Wells Fargo manage sophisticated client relationships requiring both personal attention and technical expertise. Hours are client-driven but typically 8am-6pm with flexibility for client needs. The role balances relationship management, wealth planning, and business development. Wells Fargo's collaborative culture means working closely with specialists rather than trying to do everything yourself. The client-first approach and reasonable lifestyle make this attractive for wealth management professionals seeking balance.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Preparation",
+            description: "Review markets, check client portfolios, prepare for scheduled meetings. Review CRM for follow-up items and client touchpoints needed."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Meeting",
+            description: "Weekly Private Banking team meeting discussing pipeline, sharing best practices, coordinating on complex situations. Collaborative environment."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Client Meeting",
+            description: "Meeting with business owner client to discuss estate planning ahead of potential company sale. Coordinate with trust officer and tax specialist. Comprehensive planning discussion."
+          },
+          {
+            time: "12:00 PM",
+            activity: "COI Lunch",
+            description: "Lunch with estate planning attorney who refers high-net-worth clients. Relationship building with centers of influence is key to business development."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Credit Structuring",
+            description: "Work with Private Bank lending specialist on securities-based credit line for client's real estate purchase. Coordinate terms and documentation."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Prospect Meeting",
+            description: "Initial discovery meeting with referred prospect - successful entrepreneur. Understand their wealth situation, goals, and how Wells Fargo Private Bank can help."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Internal Coordination",
+            description: "Calls with portfolio manager and trust officer regarding client situations. Coordinate next steps on planning recommendations."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Client Follow-up",
+            description: "Return client calls and emails, send follow-up materials from meetings. Document notes in CRM. Prepare for tomorrow's appointments."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Complete administrative items, review tomorrow's schedule. Head home - occasional evening client entertainment but generally good work-life balance."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" }
+      ]
     }
   },
   'mckinsey': {
