@@ -6280,6 +6280,567 @@ export const rolePageContent = {
         { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
         { companyName: "UBS", companySlug: "ubs", industry: "Finance" }
       ]
+    },
+    'quantitative-strategist': {
+      roleDescription: "Quantitative Strategists (Strats) at Bank of America work within Global Markets and BofA Securities providing quantitative solutions across trading, sales, and risk management. Embedded within desks covering equities, FICC, derivatives, and structured products, Strats develop sophisticated pricing models, risk analytics, and trading tools that drive business decisions. Bank of America's Global Quantitative Strategies (GQS) group combines deep quantitative expertise with the firm's massive balance sheet and integrated platform - offering unique opportunities to work on complex problems at scale. Compared to Goldman Sachs, BofA Strats enjoy significantly better work-life balance (typically 8:30am-6pm vs Goldman's 9am-7pm+) with only ~10% lower compensation, making it an attractive alternative for quants prioritizing sustainability. The collaborative, supportive culture emphasizes teamwork over internal competition, with strong mentorship and training programs. BofA's technology investments and commitment to innovation create opportunities to work on cutting-edge problems in derivatives pricing, machine learning, algorithmic trading, and risk management while maintaining reasonable hours.",
+      responsibilities: [
+        "Develop and implement quantitative models for derivatives pricing, risk management, and trading strategies embedded within specific desks across equities and FICC",
+        "Build production-quality tools and applications in Python, C++, or Java that traders and salespeople use daily for pricing complex structures, calculating Greeks, and analyzing risk",
+        "Provide real-time quantitative support to trading desks on pricing exotic products, managing portfolio risk, and identifying trading opportunities",
+        "Conduct data analysis and develop trading signals using statistical methods, machine learning, and alternative data integrated with BofA's extensive data infrastructure",
+        "Design and maintain risk models including VaR, stress testing, scenario analysis, and counterparty credit risk (XVA) calculations",
+        "Collaborate with technology teams to integrate quantitative solutions into Bank of America's trading platforms and Global Markets infrastructure",
+        "Research new quantitative methodologies from academic literature and adapt them for practical business applications in BofA's markets",
+        "Support client-facing activities by building analytical tools for sales teams and presenting complex quantitative concepts to institutional clients",
+        "Work cross-functionally with risk management, compliance, and model validation teams to ensure models meet regulatory requirements"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to VP to Director based on technical impact and business contribution in BofA's meritocratic culture",
+        "Opportunity to rotate across desks and asset classes (equities, rates, credit, FX, commodities) gaining broad market exposure",
+        "Path to specialize in high-demand areas: exotic derivatives pricing, systematic trading, machine learning applications, or XVA/counterparty risk",
+        "Potential to transition to quantitative trading roles with P&L responsibility or move into quantitative research leadership",
+        "Strong exit opportunities to top hedge funds, prop trading firms, or fintech companies - BofA Strats respected in industry",
+        "Access to Bank of America's extensive training programs, quantitative finance curriculum, and professional development resources",
+        "Better work-life balance than Goldman/Morgan enables sustainable career, pursuit of research, or advanced degrees part-time",
+        "Collaborative culture creates strong network and mobility across quantitative roles within firm's integrated platform"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45-60 minute technical conversation with Strats team member covering mathematical reasoning, probability problems, programming fundamentals, and motivation. Expect questions on expected value, conditional probability, basic derivatives concepts, and coding in Python/C++. BofA assesses problem-solving ability, communication skills, and cultural fit with collaborative values. More conversational than Goldman's intense grilling - interviewers want to see thinking process.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Superday - Morning",
+          description: "2-3 rounds of technical interviews covering: (1) Advanced probability, statistics, and brainteasers with mathematical derivations, (2) Programming and algorithms with live coding problems in Python or C++, (3) Financial mathematics including Black-Scholes, options pricing, and risk concepts. Technical bar is high but slightly below Goldman - BofA values clear communication and collaborative problem-solving alongside technical excellence.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Desk Fit & Behavioral - Afternoon",
+          description: "2-3 rounds with Strats and traders from potential desks assessing fit, communication, and collaboration skills. Discussion of how you'd approach real business problems, ability to explain complex concepts clearly, and teamwork orientation. BofA culture emphasizes collegiality - demonstrate you can work effectively across teams without ego. Expect questions about specific desk products and strategies.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Hiring committee reviews feedback on technical skills, problem-solving ability, communication, and cultural fit. BofA Strats values well-rounded candidates who combine technical excellence with collaborative mindset. Offers typically extended within 1-2 weeks with competitive compensation: $145-195K base plus significant bonus. Better work-life balance than Goldman (~10% less comp for meaningfully better hours)."
+        }
+      ],
+      technicalQuestions: [
+        "Derive the Black-Scholes formula using risk-neutral pricing and the replicating portfolio argument.",
+        "Explain Ito's lemma and use it to derive the dynamics of log stock price under geometric Brownian motion.",
+        "You flip a fair coin until you get heads. What's the expected number of flips? What's the variance?",
+        "How would you price an Asian option? Describe multiple approaches and computational considerations.",
+        "Explain the Greeks (Delta, Gamma, Vega, Theta, Rho). How would you hedge a portfolio of options?",
+        "What's the expected number of coin flips to see heads-tails in sequence? Compare to heads-heads.",
+        "Implement a function to price a European call option using Monte Carlo simulation in Python.",
+        "Design a data structure supporting insert, delete, and getRandom() operations all in O(1) average time.",
+        "Explain volatility smile and skew. What market dynamics cause them? How do models capture them?",
+        "How would you calibrate a local volatility model to market implied volatilities?",
+        "Given a stream of numbers, design an algorithm to compute rolling median efficiently.",
+        "Explain Monte Carlo methods for option pricing. What variance reduction techniques would you use?",
+        "How would you backtest a trading strategy? What are key pitfalls to avoid (lookahead bias, survivorship bias)?",
+        "Explain risk-neutral vs real-world probability measures. When do you use each?",
+        "What is convexity adjustment and when does it matter in interest rate derivatives?",
+        "How would you approach pricing a callable bond? What factors affect the call option value?",
+        "Explain XVA (CVA, DVA, FVA). How do they affect derivatives pricing at Bank of America?",
+        "Walk through maximum likelihood estimation and how you'd use it to calibrate a stochastic volatility model."
+      ],
+      behavioralQuestions: [
+        "Why Bank of America Strats? How does BofA compare to Goldman Sachs or Morgan Stanley for quant roles?",
+        "Tell me about a complex quantitative project you worked on. Walk through your methodology and results.",
+        "Describe your programming experience. What languages are you proficient in? Give examples of substantial projects.",
+        "How do you approach learning new mathematical techniques or programming tools?",
+        "Tell me about a time you had to explain a technical concept to someone without quantitative background.",
+        "Describe a project where you balanced theoretical elegance with practical constraints and deadlines.",
+        "How do you stay current with developments in quantitative finance and machine learning?",
+        "Tell me about a time your model produced unexpected or incorrect results. How did you investigate?",
+        "Describe your experience working in teams on technical projects. How do you handle disagreements?",
+        "What areas of quantitative finance interest you most? (derivatives, systematic trading, risk, ML)",
+        "How would you handle a situation where a trader disagrees with your model's pricing?",
+        "Walk me through your academic research and how it relates to Strats work in finance.",
+        "What interests you about Bank of America's platform specifically?",
+        "Why quantitative finance over academia, pure tech, or data science?"
+      ],
+      whatTheyLookFor: [
+        "Strong mathematical foundation: stochastic calculus, probability theory, statistics, numerical methods, linear algebra",
+        "Programming proficiency in Python and C++ with ability to write clean, efficient, production-quality code",
+        "Problem-solving ability and quantitative intuition to tackle novel, ambiguous business problems",
+        "Communication skills to explain complex quantitative concepts clearly to traders, sales, and clients",
+        "Collaborative mindset aligned with Bank of America's supportive, team-oriented culture",
+        "Balance between theoretical rigor and practical business focus - not purely academic",
+        "Intellectual curiosity and continuous learning orientation",
+        "Strong academic credentials: PhD or Masters in Math, Physics, CS, Engineering, or Financial Engineering from reputable programs",
+        "Research experience or demonstrated quantitative work through publications, competitions, or projects",
+        "Genuine interest in financial markets and understanding of how Strats create value for trading businesses"
+      ],
+      interviewTips: [
+        "Master core quantitative finance: Black-Scholes derivation, Ito's lemma, risk-neutral pricing, Greeks, Monte Carlo methods",
+        "Review probability and statistics: distributions, expected value, conditional probability, stochastic processes, Markov chains",
+        "Practice coding extensively: implement option pricers, data structures, algorithms. Use LeetCode for algorithmic practice",
+        "Read foundational texts: Hull's Options, Futures, and Other Derivatives; Shreve's Stochastic Calculus for Finance",
+        "Understand Bank of America's culture: collaborative, supportive environment with better work-life balance than competitors",
+        "Research BofA's Global Markets business: equities, FICC, derivatives, structured products, and quantitative capabilities",
+        "Prepare examples demonstrating both technical depth and ability to collaborate across teams",
+        "Practice explaining complex concepts clearly - BofA values communication alongside technical skills",
+        "Know your resume deeply - be prepared to discuss every model, project, and technique in detail",
+        "Prepare for brainteasers but expect collaborative problem-solving rather than adversarial grilling",
+        "Research recent developments: machine learning in finance, alternative data, XVA, regulatory changes",
+        "Prepare compelling 'Why Bank of America?' answers emphasizing culture, balance, platform, and integrated firm",
+        "Show genuine passion for both mathematics and financial markets",
+        "Emphasize teamwork in your examples - critical for BofA's collaborative culture"
+      ],
+      salary: {
+        min: 145000,
+        max: 195000
+      },
+      compensation: [
+        "Base salary: $145-195K for experienced hires (PhD/Masters), $125-145K for junior analysts",
+        "Annual performance bonus: $50-150K based on individual contribution and desk performance",
+        "Signing bonus: $20-75K for competitive candidates from top programs",
+        "Compensation ~10% below Goldman Sachs but with significantly better work-life balance (8:30am-6pm typical)",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with Bank of America's competitive company match",
+        "Relocation assistance for major financial centers (New York, Charlotte, London)",
+        "Professional development budget for conferences, certifications (CQF, FRM), and continuing education",
+        "Access to Bank of America's extensive training programs and career development resources",
+        "Total first-year compensation typically $215-370K all-in for experienced PhD Strats"
+      ],
+      dayInLife: {
+        overview: "Bank of America Strats experience intellectually stimulating work with excellent work-life balance compared to Goldman Sachs. Typical hours are 8:30am-6pm with reasonable flexibility around desk needs. The collaborative culture creates a supportive environment where questions are welcomed and mentorship is valued. Work balances deep quantitative development with desk interaction, model reviews, and cross-team collaboration. BofA's 'responsible growth' culture values sustainable performance, technical excellence, and teamwork. Strats enjoy strong relationships with traders, autonomy in their approach, and satisfaction from building solutions that drive real business impact.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Review",
+            description: "Arrive and review overnight market developments and any model issues flagged by trading systems. Quick check of emails and prioritize day's work. BofA's reasonable start time allows sustainable routine."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Desk Standup",
+            description: "Brief sync with desk traders to understand priorities: pricing requests, risk questions, upcoming client trades. Discuss any model issues or new requirements. Collaborative team dynamic."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Model Development",
+            description: "Deep focus on implementing new local volatility model for equity exotics desk. Write Python/C++ code for Monte Carlo pricer with variance reduction. Debug issues, optimize performance, collaborate with fellow Strats on approach."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Trader Collaboration",
+            description: "Meet with derivatives trader to discuss pricing of autocallable structure for institutional client. Explain model assumptions, walk through Greeks, discuss hedging strategy. BofA's collaborative culture makes this partnership feel natural."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch",
+            description: "Lunch with Strats team - mix of technical discussion and social interaction. Discuss interesting problems, new papers, market events. Strong team culture and mentorship. Often grab food from BofA cafeteria or nearby options."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Tool Building",
+            description: "Develop Python dashboard for sales team showing real-time Greeks and scenario analysis. Use Plotly for visualization. Balance functionality with timeline - sales needs it for client meeting next week."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Real-Time Support",
+            description: "Trader flags unusual pricing on volatility surface. Investigate: check market data feeds, verify calibration, recompute implied vols. Identify data issue from exchange. Fix and document. Collaborative troubleshooting appreciated."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Research & Innovation",
+            description: "Read recent paper on neural networks for option pricing. Assess applicability to desk strategies. Prototype simple implementation. BofA encourages innovation and staying current with quantitative finance developments."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Code Review & Documentation",
+            description: "Review junior Strat's risk model code. Verify accuracy, test edge cases, suggest improvements for performance and readability. Update technical documentation for recent model changes."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Respond to final emails, update project tracking, prepare for tomorrow's model validation meeting. Head home around 6pm with excellent work-life balance. Occasional later nights during busy periods but culture respects personal time - significantly better than Goldman/Morgan."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Citadel Securities", companySlug: "citadel-securities", industry: "Finance" }
+      ]
+    },
+    'quantitative-trader': {
+      roleDescription: "Quantitative Traders at Bank of America combine mathematical sophistication with market expertise to execute systematic trading strategies across global markets within the Electronic Trading and Global Markets divisions. Working across equities, FICC, derivatives, and commodities, you'll research, develop, and manage algorithmic trading strategies that generate alpha through statistical modeling, machine learning, and quantitative analysis. Bank of America offers a differentiated experience versus Goldman Sachs and Citadel: while maintaining strong technical standards, BofA emphasizes sustainable performance and career longevity over hyper-aggressive short-term P&L pressure. The result is significantly better work-life balance (7:30am-5:30pm typical vs Goldman's 7am-6pm+) with ~15% lower compensation - an attractive tradeoff for traders who value sustainability. BofA's massive balance sheet, integrated platform, and institutional client relationships provide substantial trading capacity and unique flow opportunities. The collaborative culture supports continuous learning and reasonable risk-taking aligned with the firm's 'responsible growth' philosophy.",
+      responsibilities: [
+        "Design, implement, and manage systematic trading strategies using quantitative models, statistical analysis, and machine learning across multiple asset classes",
+        "Conduct rigorous research and backtesting to identify alpha-generating opportunities while avoiding common pitfalls (overfitting, survivorship bias, transaction costs)",
+        "Build and maintain production trading systems in Python, C++, or Java executing strategies in real-time with appropriate risk controls",
+        "Monitor live strategies continuously, analyzing P&L attribution, market impact, slippage, and execution quality with focus on sustainable returns",
+        "Manage portfolio risk through position limits, VaR constraints, stress testing, and dynamic hedging within Bank of America's risk framework",
+        "Analyze market microstructure, order book dynamics, and execution venues to optimize trading performance",
+        "Collaborate with quant researchers, Strats, technology teams, and risk management in BofA's 'One Bank' integrated culture",
+        "Present strategy performance, research findings, and risk metrics to senior management and risk committees",
+        "Stay current on market structure changes, regulatory developments, and competitive landscape affecting systematic trading"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to VP to Director based on consistent P&L generation and risk-adjusted returns",
+        "Opportunity to manage increasing capital as you demonstrate trading acumen and risk management discipline",
+        "Path to lead trading strategies across multiple asset classes or specialize deeply in specific markets (equities, rates, FX, commodities)",
+        "Access to Bank of America's institutional flow and client franchise for unique trading signals and opportunities",
+        "Strong exit opportunities to top hedge funds, prop shops, or starting your own fund - BofA traders respected in industry",
+        "Sustainable career path with better work-life balance than most competitors - many traders stay at BofA long-term",
+        "Access to BofA's training programs, quantitative resources, and mentorship from experienced traders",
+        "Collaborative culture enables learning across desks and asset classes in integrated firm"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "45-60 minute technical conversation covering probability, statistics, brainteasers, market intuition, and programming fundamentals. Expect quick mental math, expected value problems, basic options questions, and discussion of trading experience. BofA assesses quantitative ability, market awareness, competitive drive, and cultural fit. More conversational than Citadel's intense pressure testing.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Superday - Morning",
+          description: "2-3 rounds of rigorous technical interviews: (1) Probability, statistics, and brainteasers with time pressure, (2) Programming and algorithm design with live coding, (3) Trading games or simulations testing decision-making under uncertainty. Technical bar is high - BofA seeks sharp quantitative minds with good risk intuition. Demonstrate both speed and thoughtfulness.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 3,
+          title: "Trading Assessment & Fit - Afternoon",
+          description: "2-3 rounds including trading simulations, market making exercises, and behavioral interviews with traders and managers. Assess competitive drive balanced with risk discipline, ability to think clearly under pressure, and fit with BofA's collaborative culture. Expect discussion of market views, trading ideas, and how you'd approach risk management. Show confidence without arrogance.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Hiring team evaluates technical ability, trading aptitude, risk judgment, and cultural alignment. BofA values traders who combine competitive drive with sustainable approach - not cowboys taking excessive risk. Offers typically within 1-2 weeks with competitive compensation: $130-175K base plus significant performance bonus. Better work-life balance than Goldman/Citadel (~15% less comp for meaningfully better hours)."
+        }
+      ],
+      technicalQuestions: [
+        "I flip a fair coin until I get two heads in a row. What's the expected number of flips?",
+        "Two coins: one fair, one biased (60% heads). I pick one randomly and flip heads. What's the probability I picked the biased coin?",
+        "How would you price a variance swap? What risks does the buyer take on?",
+        "Explain market making. How would you set bid-ask spreads for a liquid equity?",
+        "You're given historical price data for a stock. How would you identify if momentum or mean-reversion strategies would work?",
+        "What's the Kelly criterion? How would you apply it to position sizing?",
+        "Explain the difference between realized and implied volatility. How would you trade a divergence?",
+        "Walk me through how you'd backtest a pairs trading strategy. What pitfalls would you watch for?",
+        "I offer you a bet: 60% chance to win $100, 40% chance to lose $100. Would you take it? What if stakes were $1M?",
+        "Explain Sharpe ratio. What are its limitations? What other metrics matter for trading strategies?",
+        "How does market impact affect execution? How would you model it?",
+        "Describe a systematic trading strategy you've researched or implemented. Walk through the methodology.",
+        "What's the difference between statistical arbitrage and pure arbitrage?",
+        "How would you hedge the gamma risk of an options portfolio?",
+        "Explain order types: market, limit, stop, TWAP, VWAP. When would you use each?",
+        "You notice your strategy's Sharpe ratio declined from 2.0 to 1.2 over 6 months. How would you investigate?",
+        "What's look-ahead bias? Give examples of how it creeps into backtests.",
+        "How do you think about correlation risk in a multi-strategy portfolio?"
+      ],
+      behavioralQuestions: [
+        "Why Bank of America for quantitative trading? How does BofA compare to Citadel, Jane Street, or prop shops?",
+        "Tell me about a trade or investment you made. Walk through your thesis and what happened.",
+        "Describe a time you took a calculated risk. How did you assess the risk-reward tradeoff?",
+        "How do you handle losing money? Describe a trading loss and what you learned.",
+        "What markets do you follow? Give me a current trade idea with thesis and risks.",
+        "How do you stay calm and think clearly under pressure? Give a specific example.",
+        "Describe your experience with programming and quantitative analysis. What projects have you built?",
+        "Tell me about a time you had a strong conviction but the data didn't support it. What did you do?",
+        "How do you approach risk management? What's your philosophy on position sizing and drawdowns?",
+        "What's your edge? Why would you succeed as a quant trader?",
+        "Describe working on a competitive team. How do you balance collaboration and individual performance?",
+        "What excites you about systematic trading vs discretionary trading?",
+        "How would you handle a situation where your strategy is losing money but you believe in the thesis?",
+        "Why quantitative trading over Strats, research, or other quant roles?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional quantitative ability: quick mental math, probabilistic thinking, statistical reasoning",
+        "Programming proficiency in Python and C++ with ability to build production trading systems",
+        "Market intuition and genuine interest in trading, markets, and making money",
+        "Competitive drive balanced with risk discipline - confident but not reckless",
+        "Ability to think clearly under pressure and make decisions with incomplete information",
+        "Strong communication skills to explain strategy rationale and risk to management",
+        "Collaborative mindset aligned with BofA's team-oriented culture - not a lone wolf",
+        "Academic excellence: strong quantitative degree (Math, Physics, CS, Engineering, Economics) from top program",
+        "Trading experience through personal investing, competitions, internships, or prior roles",
+        "Risk awareness and understanding that P&L volatility management matters alongside returns"
+      ],
+      interviewTips: [
+        "Practice probability and brainteasers extensively - speed matters. Books: 'Heard on the Street', 'Quant Job Interview Questions'",
+        "Master expected value calculations, conditional probability, Bayesian updating, and basic options math",
+        "Code fluently in Python: be ready to implement trading logic, data structures, basic statistical tests",
+        "Follow markets daily: have informed views on equities, rates, FX, commodities. Read Bloomberg, FT, market commentary",
+        "Prepare 3-5 trade ideas with clear thesis, entry/exit criteria, risks, and position sizing rationale",
+        "Practice trading games and simulations - many online resources available. Focus on risk-adjusted returns",
+        "Understand Bank of America's culture: collaborative, sustainable approach, 'responsible growth' philosophy",
+        "Research BofA's Electronic Trading and Global Markets businesses - know their market position",
+        "Prepare examples demonstrating competitive drive, risk awareness, and ability to handle losses constructively",
+        "Practice mental math: percentages, basic probability, quick estimation. Speed and accuracy both matter",
+        "Show genuine passion for trading and markets - this isn't just a quant job, it's a trading job",
+        "Emphasize risk management philosophy - BofA wants sustainable performers, not boom-bust traders",
+        "Prepare 'Why BofA over prop shops?' answers: stability, balance, institutional flow, career longevity",
+        "Be ready to discuss strategy drawdowns and how you'd manage them - risk discipline is critical"
+      ],
+      salary: {
+        min: 130000,
+        max: 175000
+      },
+      compensation: [
+        "Base salary: $130-175K for junior quant traders, scaling with experience and strategy responsibility",
+        "Performance bonus: $50-300K+ based primarily on individual and strategy P&L, risk-adjusted returns",
+        "Signing bonus: $20-50K for competitive candidates from top programs or with relevant experience",
+        "Compensation ~15% below top prop shops (Citadel, Jane Street) but with better work-life balance and stability",
+        "Bonus structure more stable than prop shops - BofA doesn't have extreme year-to-year swings",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with Bank of America's competitive company match",
+        "Relocation assistance for major trading centers (New York, Charlotte, London)",
+        "Professional development budget and trading education resources",
+        "Total first-year compensation typically $200-350K for junior quant traders, scaling significantly with P&L generation"
+      ],
+      dayInLife: {
+        overview: "Quantitative Traders at Bank of America experience fast-paced, intellectually demanding work with better work-life balance than prop shops. Typical hours are 7:30am-5:30pm following market hours with occasional early mornings or late stays during volatility. The collaborative culture supports knowledge sharing and sustainable performance over short-term heroics. Work combines strategy research, live trading, risk monitoring, and continuous improvement. BofA's institutional stability provides career longevity that prop shop burnout often doesn't. Traders enjoy the intellectual challenge of markets, satisfaction of P&L generation, and reasonable lifestyle sustainability.",
+        schedule: [
+          {
+            time: "7:30 AM",
+            activity: "Pre-Market Prep",
+            description: "Arrive and review overnight market developments: Asia/Europe sessions, economic data releases, news affecting positions. Check strategy P&L from overnight, review risk exposures, and prepare for US session."
+          },
+          {
+            time: "8:00 AM",
+            activity: "Risk Check & Strategy Review",
+            description: "Detailed review of live strategies: positions, Greeks, VaR utilization, correlation exposures. Identify any risk limit breaches or concerning exposures. Discuss with risk team if needed. Make pre-market adjustments."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Market Open",
+            description: "Intense focus during market open. Monitor strategy execution, order flow, and market microstructure. Watch for unusual price action or opportunities. Execute any discretionary adjustments to systematic strategies."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Active Trading & Monitoring",
+            description: "Continue monitoring live strategies. Analyze execution quality and slippage. Investigate any unexpected P&L moves. Adjust parameters if market conditions warrant. Collaborate with Strats on model questions."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Research",
+            description: "Quick lunch at desk during slower midday period. Review research on new strategy ideas, read academic papers on market microstructure, or analyze historical data for patterns. Team discussions on market views."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Strategy Development",
+            description: "Work on new strategy research: backtest ideas, analyze data, refine signals. Write Python code for analysis. Discuss methodology with fellow quant traders. Balance live monitoring with research time."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Afternoon Trading",
+            description: "Increased focus during afternoon session - often higher volume period. Monitor strategies through market close. Execute any end-of-day positioning or rebalancing."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Market Close & P&L Review",
+            description: "Analyze day's P&L: attribution by strategy, factor exposures, transaction costs. Identify what worked and what didn't. Document observations and trading notes. Review overnight positioning."
+          },
+          {
+            time: "5:00 PM",
+            activity: "End of Day",
+            description: "Finalize risk reports, respond to emails, prepare for tomorrow. Head home around 5:30pm most days - significantly better than prop shop hours. Occasional later stays during volatile markets or strategy issues, but culture supports work-life balance."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Citadel Securities", companySlug: "citadel-securities", industry: "Finance" }
+      ]
+    },
+    'credit-analyst': {
+      roleDescription: "Credit Analysts at Bank of America assess creditworthiness of corporations, financial institutions, and commercial real estate borrowers to support lending decisions across the firm's massive $1+ trillion loan portfolio. Working within Global Banking, Commercial Banking, or Global Risk Management, you'll analyze financial statements, industry dynamics, and macroeconomic factors to evaluate credit risk, assign ratings, and recommend lending terms. Bank of America's unparalleled scale - with the largest commercial lending portfolio among US banks - provides exposure to diverse credits from middle-market companies to Fortune 50 enterprises across all industries. The role combines rigorous quantitative analysis with business judgment, requiring deep understanding of financial modeling, accounting, and credit fundamentals. Compared to competitors, BofA offers better work-life balance than JPMorgan (8:30am-6pm typical vs JPM's longer hours) with comparable compensation, making it attractive for analysts prioritizing sustainability. The collaborative culture and strong training programs create a supportive environment for developing credit expertise that's valued across finance.",
+      responsibilities: [
+        "Analyze financial statements (balance sheet, income statement, cash flow) to assess debt servicing capacity, liquidity, and overall financial health",
+        "Build detailed credit models incorporating historical financials, management projections, leverage ratios, coverage metrics, and covenant compliance",
+        "Conduct industry research to understand competitive dynamics, regulatory environment, secular trends, and cyclical factors affecting creditworthiness",
+        "Prepare comprehensive credit memoranda and rating recommendations for credit committees outlining risk assessment, mitigants, and proposed lending terms",
+        "Monitor existing credit exposures through quarterly reviews, covenant testing, early warning indicators, and watchlist management",
+        "Participate in client meetings and management calls with relationship managers to understand business strategy and emerging risk factors",
+        "Collaborate across Bank of America's integrated platform - working with relationship managers, product specialists, capital markets, and risk management",
+        "Analyze collateral quality, recovery scenarios, and structural protections in stressed situations",
+        "Stay current on credit market conditions, spread movements, default trends, and rating agency methodologies"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Senior Analyst to Credit Officer to VP with increasing deal complexity and approval authority",
+        "Exposure to diverse industries and credit situations across Bank of America's massive portfolio - from investment-grade corporates to leveraged lending",
+        "Opportunity to specialize in specific industries (healthcare, energy, technology, real estate) or credit products (leveraged finance, structured credit, commercial real estate)",
+        "Strong exit opportunities to private credit funds, credit hedge funds, rating agencies, or corporate treasury roles - BofA credit training highly valued",
+        "Access to formal credit training programs including Credit Fundamentals, Advanced Credit, and industry-specific modules",
+        "Potential rotation across commercial banking, investment-grade coverage, leveraged finance, and credit risk management",
+        "Better work-life balance enables sustainable career and pursuit of professional development (CFA, CPA)",
+        "Leadership opportunities in credit policy, portfolio management, or client coverage roles"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded questions assessing motivation, basic financial knowledge, and analytical thinking. Expect questions like 'Why credit analysis at Bank of America?', 'Walk through how you'd assess a company's creditworthiness', and behavioral scenarios demonstrating judgment. Prepare structured, concise responses showing genuine interest in credit.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute conversation with Credit Analyst or Associate covering technical accounting concepts, credit fundamentals, and resume discussion. Expect questions on financial statement analysis, key credit metrics (leverage ratios, coverage ratios, free cash flow), and analytical approach. More conversational than JPMorgan - BofA assesses cultural fit alongside technical skills.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "3-4 rounds with Credit Analysts, Associates, VPs, and potentially Credit Officers. Mix of technical deep-dives (accounting, credit analysis, covenant structures, industry dynamics) and behavioral questions. May include mini-case: 'Given these financials, assess the credit and recommend terms.' Demonstrate analytical rigor, sound judgment, and clear communication. BofA culture values collaboration and humility.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Hiring team reviews feedback on technical ability, analytical judgment, and cultural fit. BofA values well-rounded candidates who combine technical excellence with collaborative mindset. Offers typically extended within 1-2 weeks with details on base salary, bonus structure, and team placement. Competitive compensation with better hours than JPMorgan."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through how you'd assess the creditworthiness of a company. What's your analytical framework?",
+        "What are the most important metrics for evaluating credit risk? How do they differ by industry?",
+        "Explain the difference between secured and unsecured debt. How does security affect recovery in default?",
+        "How do you calculate debt service coverage ratio (DSCR)? What level indicates healthy coverage?",
+        "Walk me through the three financial statements. Which is most important for credit analysis and why?",
+        "What's the difference between cash flow and EBITDA? Why does cash flow matter more for credit?",
+        "How would you analyze a company in a cyclical industry like energy or automotive?",
+        "Explain debt covenants. What are maintenance vs incurrence covenants? Give examples.",
+        "A company has growing revenue but declining EBITDA margins. What might be happening and how does it affect credit?",
+        "How do you calculate net leverage ratio? What's acceptable for different credit ratings?",
+        "Explain the difference between investment grade and high yield bonds. What metrics define the boundary?",
+        "How would rising interest rates affect a company with significant floating rate debt?",
+        "Walk me through analysis of a company's liquidity position. What sources and uses matter?",
+        "What factors would trigger a credit rating downgrade? How would you identify deterioration early?",
+        "How do you assess recovery value in a default scenario? Walk through the waterfall.",
+        "Explain the Altman Z-score. What does it measure and what are its limitations?",
+        "What's the difference between a term loan and a revolver? How do they appear in credit analysis?",
+        "How would you evaluate credit risk for a private company with limited financial disclosure?"
+      ],
+      behavioralQuestions: [
+        "Why credit analysis? Why Bank of America specifically over JPMorgan or other banks?",
+        "Tell me about a time you analyzed complex financial data and drew meaningful conclusions.",
+        "Describe a situation where you identified a risk or problem that others missed.",
+        "How do you approach learning about a new industry you're unfamiliar with?",
+        "Tell me about a time you had to make a recommendation with incomplete information.",
+        "Describe your experience with financial modeling, spreadsheet analysis, or data analysis.",
+        "How would you handle a situation where your credit recommendation differs from the relationship manager's view?",
+        "Tell me about explaining complex analysis to someone without financial background.",
+        "Describe managing multiple priorities and tight deadlines. How do you prioritize?",
+        "What interests you most about credit markets and lending?",
+        "How do you stay informed about market conditions and economic trends?",
+        "Tell me about finding an error in financial analysis. How did you handle it?",
+        "Describe your experience working in teams on analytical projects.",
+        "What do you think are the biggest risks facing corporate borrowers in the current environment?"
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in accounting and financial statement analysis - can interpret and model financials accurately",
+        "Analytical mindset with exceptional attention to detail and accuracy in quantitative work",
+        "Ability to synthesize financial data, industry trends, and qualitative factors into sound credit judgments",
+        "Intellectual curiosity about businesses, industries, and how companies generate and protect cash flow",
+        "Clear written and verbal communication skills to articulate credit risks and recommendations",
+        "Sound judgment and ability to identify key risks, even subtle ones, in lending situations",
+        "Comfort with ambiguity and making recommendations with imperfect information",
+        "Collaborative mindset aligned with Bank of America's team-oriented culture",
+        "Professional maturity and credibility when discussing credit with experienced bankers and clients",
+        "Interest in credit markets, fixed income, and macroeconomic factors affecting credit cycles"
+      ],
+      interviewTips: [
+        "Master core credit metrics: leverage ratios (Net Debt/EBITDA, Total Debt/Equity), coverage ratios (EBITDA/Interest, DSCR), liquidity metrics (current ratio, quick ratio)",
+        "Review accounting fundamentals: three statement relationships, working capital dynamics, depreciation, capitalization vs expense decisions",
+        "Practice analyzing real company financials - pick 2-3 public companies and walk through complete credit assessment",
+        "Understand common debt structures: term loans, revolvers, bonds, secured vs unsecured, senior vs subordinated, covenants",
+        "Research Bank of America's credit businesses: Commercial Banking, Global Corporate Banking, leveraged finance, structured credit",
+        "Prepare specific examples demonstrating analytical skills, attention to detail, and sound judgment from prior experience",
+        "Follow credit market conditions: spreads, default rates, sectors under stress, Fed policy impact on credit",
+        "Know covenant types: maintenance covenants (tested quarterly) vs incurrence covenants (tested at events)",
+        "Understand credit cycles and how economic conditions affect corporate credit quality",
+        "Prepare thoughtful questions about team structure, industry coverage, deal flow, and training programs at BofA",
+        "Be ready to discuss why credit analysis vs investment banking, equity research, or other finance roles",
+        "Research specific industries you're interested in - demonstrate knowledge of key players, trends, and credit considerations",
+        "Understand Bank of America's scale and integrated platform advantages for credit analysts",
+        "Practice explaining analytical process clearly - credit is about communication as much as number crunching"
+      ],
+      salary: {
+        min: 80000,
+        max: 95000
+      },
+      compensation: [
+        "Base salary: $80-95K for credit analysts depending on experience, location, and business unit",
+        "Annual performance bonus: $15-30K based on individual performance and firm results",
+        "Signing bonus: $5-15K for competitive candidates",
+        "Compensation competitive with JPMorgan but with better work-life balance (8:30am-6pm typical)",
+        "Comprehensive health, dental, and vision insurance with excellent coverage",
+        "401(k) with Bank of America's competitive company match (up to 5%)",
+        "Tuition reimbursement for relevant graduate degrees or certifications (CFA, CPA)",
+        "Professional development budget for credit training and industry conferences",
+        "16 weeks paid parental leave",
+        "Commuter benefits, wellness programs, and BofA banking benefits",
+        "Total first-year compensation typically $100-140K all-in"
+      ],
+      dayInLife: {
+        overview: "Credit Analysts at Bank of America enjoy intellectually rigorous work analyzing diverse companies and industries with excellent work-life balance. Typical hours are 8:30am-6pm with occasional longer days during busy periods (quarter-end, credit committee cycles). The work balances independent financial analysis with collaboration across relationship managers, product specialists, and senior credit officers. You'll develop deep expertise in financial analysis while building business judgment about credit risk. BofA's supportive culture values analytical rigor, sound judgment, clear communication, and work-life sustainability. Better balance than most competitors while offering strong compensation and clear career progression.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Review",
+            description: "Check emails, review overnight news on portfolio companies. Scan Bloomberg and internal systems for credit market updates, rating agency actions, and relevant industry news. Prioritize day's tasks and deadlines."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Financial Modeling",
+            description: "Build credit model for new borrower evaluation. Input historical financials from SEC filings, create projections based on management guidance and industry analysis. Calculate key credit metrics: leverage, coverage, free cash flow, liquidity."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Team Credit Discussion",
+            description: "Meet with Senior Analyst and Credit Officer to discuss preliminary credit analysis. Present initial findings, discuss risk factors and mitigants, debate appropriate credit rating and lending terms. Receive feedback on analysis and additional items to investigate."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break with colleagues or attend credit training session. Discuss interesting credits, market trends, or recent deals. BofA's collaborative culture encourages learning from teammates."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Industry Research",
+            description: "Deep dive into healthcare services industry for upcoming credit. Read analyst reports, understand regulatory dynamics (reimbursement trends, policy changes), review competitive landscape. Analyze how industry trends affect borrower's credit profile."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Client Management Call",
+            description: "Join quarterly review call with CFO alongside relationship manager. Take detailed notes on business performance, strategic initiatives, capex plans, and debt management strategy. Assess any changes to credit risk profile."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Credit Memo Writing",
+            description: "Draft credit memorandum documenting analysis, risk assessment, and lending recommendation. Structure memo: executive summary, business overview, financial analysis, industry dynamics, risk factors, mitigants, proposed terms and conditions."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Portfolio Monitoring",
+            description: "Review quarterly financial statements from existing borrowers. Update covenant compliance tracking in systems. Check early warning indicators. Flag any deteriorating metrics requiring closer monitoring or watchlist consideration."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Respond to final emails, update project tracker, prepare materials for tomorrow's credit committee. Head home around 6pm most days - BofA's culture supports work-life balance. Occasional late nights during busy periods but much more sustainable than investment banking."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Wells Fargo", companySlug: "wells-fargo", industry: "Finance" },
+        { companyName: "Citigroup", companySlug: "citigroup", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" }
+      ]
     }
   },
   'citigroup': {
