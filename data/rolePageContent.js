@@ -23352,6 +23352,1450 @@ export const rolePageContent = {
       ]
     }
   },
+  'schwab': {
+    'financial-consultant': {
+      roleDescription: "Financial Consultants at Charles Schwab provide comprehensive investment guidance and financial planning to clients through Schwab's branch network and virtual channels. As the face of Schwab's 'through clients' eyes' philosophy, you'll help individual investors navigate their financial journeys—from building wealth to retirement planning. Schwab's unique position as a challenger brand that democratized investing means Financial Consultants focus on empowering clients rather than pushing products. The Financial Consultant Academy provides extensive training for career changers, while experienced advisors can leverage Schwab's platform serving 34+ million accounts and $8+ trillion in client assets. The role combines relationship building with technical financial knowledge, supported by Schwab's research, tools, and product breadth. Career progression leads to Senior Consultant, Branch Manager, or specialized wealth advisory roles.",
+      responsibilities: [
+        "Provide personalized investment guidance and financial planning to clients",
+        "Build and maintain long-term client relationships through proactive outreach",
+        "Conduct portfolio reviews and recommend appropriate investment strategies",
+        "Educate clients on Schwab's products, services, and investment principles",
+        "Identify client needs and recommend solutions across investments, banking, and lending",
+        "Collaborate with specialists for complex planning needs",
+        "Meet with clients in-branch, via phone, and through virtual channels",
+        "Maintain required licenses (Series 7, 66) and continuing education",
+        "Support branch goals while maintaining client-first focus"
+      ],
+      growthOpportunities: [
+        "Financial Consultant Academy for career changers with paid training and licensing",
+        "Progression from FC to Senior FC to Branch Manager or Wealth Advisory",
+        "Specialization in retirement planning, estate planning, or high-net-worth clients",
+        "Access to Schwab's research, tools, and comprehensive product platform",
+        "CFP certification support and professional development",
+        "Path to regional leadership or corporate roles",
+        "Hybrid work flexibility after establishing client relationships",
+        "TD Ameritrade integration creating expanded opportunities"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen with Talent Advisor",
+          description: "15-30 minute preliminary screening covering background, interest in Schwab, and basic fit assessment. Expect questions about why Schwab, why financial services, and client service experience. Schwab screens heavily for 'through clients' eyes' alignment.",
+          duration: "15-30 minutes"
+        },
+        {
+          step: 2,
+          title: "Behavioral Interview",
+          description: "45-60 minute interview with hiring manager or branch leadership. Heavy focus on behavioral questions using STAR format—client service scenarios, problem-solving, and relationship building examples. Assess fit with Schwab's challenger culture.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Branch Visit & Team Interview",
+          description: "Visit branch location to meet team members and experience culture. May include role-play scenarios handling client situations. Assessment of communication style, presence, and fit with local team.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Background check and offer decision typically within 1-2 weeks. Financial Consultant Academy participants receive comprehensive paid training including Series 7 and 66 licensing. Competitive base plus bonus structure."
+        }
+      ],
+      technicalQuestions: [
+        "How would you explain the difference between a traditional IRA and Roth IRA to a client?",
+        "What factors would you consider when recommending an asset allocation?",
+        "How does Schwab make money if trading is commission-free?",
+        "Explain the importance of diversification to a new investor.",
+        "What's the difference between ETFs and mutual funds?",
+        "How would you help a client understand market volatility?",
+        "What do you know about Schwab's investment philosophy?",
+        "How would you approach a client nearing retirement?",
+        "What's your understanding of fiduciary responsibility?",
+        "How do interest rates affect different types of investments?",
+        "What differentiates Schwab from competitors like Fidelity or Vanguard?",
+        "How would you explain expense ratios and why they matter?",
+        "What role should cash play in an investment portfolio?",
+        "How would you help a client set appropriate financial goals?",
+        "What do you know about the TD Ameritrade acquisition?",
+        "How does Schwab's 'through clients' eyes' philosophy guide decision-making?"
+      ],
+      behavioralQuestions: [
+        "Why Charles Schwab? What attracts you to our mission?",
+        "Tell me about a time you helped someone through a complex decision.",
+        "Describe a situation where a customer wasn't satisfied. What did you do?",
+        "How have you built long-term relationships in previous roles?",
+        "Tell me about a time you had to explain something complicated simply.",
+        "Describe handling a difficult situation with a client or coworker.",
+        "How do you stay organized when managing multiple client relationships?",
+        "Tell me about a time you went above and beyond for someone.",
+        "How do you handle rejection or a client who doesn't take your advice?",
+        "Describe a time you had to learn something new quickly.",
+        "What does excellent client service mean to you?",
+        "Tell me about a mistake you made and how you handled it."
+      ],
+      whatTheyLookFor: [
+        "Strong client service orientation and communication skills",
+        "Genuine interest in helping people achieve financial goals",
+        "Relationship-building ability for long-term client engagement",
+        "Alignment with Schwab's challenger mentality and client-first culture",
+        "Problem-solving skills and attention to detail",
+        "Coachability and eagerness to learn (especially for Academy)",
+        "Professional presence and trustworthiness",
+        "Sales aptitude balanced with advisory mindset",
+        "Resilience and positive attitude",
+        "Interest in financial markets and investing"
+      ],
+      interviewTips: [
+        "Research Schwab's history as a challenger brand that democratized investing",
+        "Understand 'through clients' eyes' philosophy—it's central to the culture",
+        "Prepare STAR-format examples of client service and relationship building",
+        "Know basic investment concepts even if coming from non-finance background",
+        "Research the TD Ameritrade acquisition and integration",
+        "Be ready for role-play scenarios handling client situations",
+        "Show genuine interest in helping people with their finances",
+        "Prepare thoughtful questions about the branch, team, and career path",
+        "Demonstrate coachability—Schwab values continuous learning",
+        "Research differences between Schwab, Fidelity, and Vanguard",
+        "Be authentic—Schwab values cultural fit highly",
+        "Show you understand Main Street investor focus vs Wall Street"
+      ],
+      salary: {
+        min: 55000,
+        max: 85000
+      },
+      compensation: [
+        "Base salary: $55-85K depending on experience and location",
+        "Performance bonus based on client satisfaction, asset growth, and retention",
+        "Total compensation typically $70-120K for experienced consultants",
+        "Senior Financial Consultants can earn $100-150K+ total",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Employee stock purchase plan",
+        "Paid Series 7 and 66 licensing for Academy participants",
+        "Tuition reimbursement and CFP support",
+        "Branch-based roles with some hybrid flexibility"
+      ],
+      dayInLife: {
+        overview: "Financial Consultants at Schwab work primarily in branch locations with client-facing schedules. Typical hours are 8:30am-5:30pm aligned with branch hours, with excellent work-life balance compared to commission-driven advisory roles. The role balances scheduled client appointments with proactive outreach and walk-in service. Schwab's supportive culture emphasizes teamwork and client outcomes over individual sales metrics.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Branch Opening",
+            description: "Arrive at branch, review market news, check client alerts, and prepare for scheduled appointments."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Client Appointment",
+            description: "Scheduled portfolio review with client approaching retirement. Discuss income needs, Social Security timing, and portfolio adjustments."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Proactive Outreach",
+            description: "Call clients due for annual reviews or experiencing life events. Schedule future appointments and address questions."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Walk-in Client",
+            description: "Assist walk-in client with questions about opening a new account. Explain Schwab's offerings and help with paperwork."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break. May include team lunch or optional training session."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Virtual Client Meeting",
+            description: "Video call with client who relocated out of state. Review portfolio and discuss rebalancing strategy."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Documentation & Follow-up",
+            description: "Complete meeting notes, process account requests, send follow-up emails to clients."
+          },
+          {
+            time: "3:30 PM",
+            activity: "New Client Appointment",
+            description: "Meet prospective client referred by existing client. Understand their financial situation and goals."
+          },
+          {
+            time: "5:00 PM",
+            activity: "End of Day",
+            description: "Prepare for tomorrow's appointments, complete documentation, close out day. Head home around 5:30pm."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "Edward Jones", companySlug: "edward-jones", industry: "Finance" },
+        { companyName: "Merrill Lynch", companySlug: "merrill-lynch", industry: "Finance" }
+      ]
+    },
+    'client-relationship-specialist': {
+      roleDescription: "Client Relationship Specialists (CRS) at Charles Schwab serve as the front-line connection with investors, providing exceptional service via phone and digital channels to clients managing their financial futures. This role is a premier entry point into financial services, offering comprehensive training including FINRA licensing and a foundation for diverse career paths. CRS professionals embody Schwab's 'through clients' eyes' philosophy, helping investors with account inquiries, transactions, and basic investment guidance while identifying opportunities for deeper advisory relationships. Schwab's integration with TD Ameritrade has created the largest brokerage platform serving over 34 million accounts, providing exposure to diverse client needs. The supportive team environment emphasizes continuous learning and career development, with clear pathways to Financial Consultant, Operations, or other specialized roles.",
+      responsibilities: [
+        "Provide exceptional service to clients via inbound phone calls and digital channels",
+        "Assist with account inquiries, transactions, and basic investment questions",
+        "Educate clients on Schwab's products, services, and digital tools",
+        "Identify client needs and make appropriate referrals to specialists",
+        "Process account changes, trades, and service requests accurately",
+        "Navigate multiple systems to research and resolve client questions",
+        "Document client interactions and ensure compliance",
+        "Meet quality and productivity standards while maintaining client focus",
+        "Participate in ongoing training and professional development"
+      ],
+      growthOpportunities: [
+        "Comprehensive paid training program including FINRA Series 7 and 66 licensing",
+        "Clear pathway to Financial Consultant, Operations, or specialist roles",
+        "Exposure to investment concepts and Schwab's comprehensive platform",
+        "Development of transferable skills in client service and finance",
+        "Tuition reimbursement and certification support",
+        "Internal mobility across Schwab's diverse business units",
+        "Leadership development programs for high performers",
+        "Hybrid work options after initial training period"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Application & Assessment",
+          description: "Submit application through Schwab careers portal. Complete online assessment testing customer service aptitude, problem-solving, and basic numerical reasoning. Assessment evaluates client-first mindset.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Screen",
+          description: "15-30 minute conversation with Talent Advisor covering background, interest in Schwab, and customer service experience. Expect questions about why financial services and examples of helping customers.",
+          duration: "15-30 minutes"
+        },
+        {
+          step: 3,
+          title: "Behavioral Interview",
+          description: "45-minute interview with hiring manager. Heavy focus on behavioral questions using STAR format—customer service scenarios, problem-solving, and teamwork examples. May include role-play handling simulated client call.",
+          duration: "45 minutes"
+        },
+        {
+          step: 4,
+          title: "Offer & Onboarding",
+          description: "Background check and offer decision typically within 2 weeks. Comprehensive paid training program including FINRA exam preparation. Training cohort model builds relationships with fellow new hires."
+        }
+      ],
+      technicalQuestions: [
+        "What do you know about Charles Schwab and what makes us different?",
+        "How would you explain the difference between a stock and a bond?",
+        "What's the difference between a traditional IRA and Roth IRA?",
+        "How would you explain market volatility to a concerned client?",
+        "What types of accounts does Schwab offer?",
+        "Why do you think Schwab eliminated trading commissions?",
+        "How would you explain the importance of diversification?",
+        "What do you know about the TD Ameritrade acquisition?",
+        "How do you think technology is changing financial services?",
+        "What does 'through clients' eyes' mean to you?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you provided excellent customer service.",
+        "Describe a situation where you had to explain something complex simply.",
+        "How have you handled a frustrated or upset customer?",
+        "Tell me about working in a team to achieve a goal.",
+        "Describe a time you had to learn something new quickly.",
+        "How do you prioritize when handling multiple requests?",
+        "Tell me about receiving feedback and how you responded.",
+        "Describe a time you went above and beyond for someone.",
+        "How do you stay positive during repetitive work?",
+        "Why are you interested in financial services?",
+        "What does good customer service mean to you?",
+        "Tell me about a mistake you made. How did you handle it?"
+      ],
+      whatTheyLookFor: [
+        "Strong customer service orientation and communication skills",
+        "Genuine interest in helping people with their finances",
+        "Ability to learn and apply new information quickly",
+        "Problem-solving skills and attention to detail",
+        "Patience and empathy in client interactions",
+        "Team player with collaborative mindset",
+        "Reliability and strong work ethic",
+        "Interest in financial services and career growth",
+        "Adaptability and positive attitude",
+        "Alignment with Schwab's client-first mission"
+      ],
+      interviewTips: [
+        "Research Schwab's history and 'through clients' eyes' philosophy",
+        "Prepare STAR-format examples of excellent customer service",
+        "Understand basic investment concepts (stocks, bonds, mutual funds)",
+        "Be ready to explain why you want to work in financial services",
+        "Practice explaining complex concepts in simple terms",
+        "Show genuine interest in helping people with their finances",
+        "Demonstrate patience and empathy through your examples",
+        "Research the TD Ameritrade acquisition",
+        "Prepare questions about training, career paths, and team culture",
+        "Be authentic—Schwab values cultural fit",
+        "Show willingness to learn—no prior finance experience required",
+        "Demonstrate reliability and strong work ethic"
+      ],
+      salary: {
+        min: 45000,
+        max: 55000
+      },
+      compensation: [
+        "Base salary: $45-55K depending on location and experience",
+        "Performance bonus based on quality metrics and client satisfaction",
+        "Total first-year compensation: $50-65K with bonuses",
+        "Fully-paid FINRA licensing training (Series 7, 66)",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Employee stock purchase plan",
+        "Tuition reimbursement",
+        "Paid time off and company holidays",
+        "Hybrid work options after training"
+      ],
+      dayInLife: {
+        overview: "Client Relationship Specialists work in a supportive contact center environment with structured schedules and excellent work-life balance. Typical shifts are 8-hour days within Schwab's service hours. The role involves handling inbound client calls with support from team leads and extensive resources. Schwab invests heavily in training and provides clear performance metrics. The collaborative culture emphasizes learning and career development.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Shift Start",
+            description: "Log in to phone system, review any overnight communications or system updates. Check personal metrics dashboard."
+          },
+          {
+            time: "8:15 AM",
+            activity: "Team Huddle",
+            description: "Brief team meeting covering daily focus areas, market updates relevant to client calls, and knowledge sharing."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Client Calls",
+            description: "Begin taking inbound calls. Help client with account question, explain statement, process address change."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Complex Inquiry",
+            description: "Handle call about transferring accounts from another broker. Research process, explain timeline, set expectations."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Short Break",
+            description: "Scheduled break to rest and recharge between calls."
+          },
+          {
+            time: "10:45 AM",
+            activity: "Continued Calls",
+            description: "Assist client concerned about market drop. Provide reassurance and offer to connect with Financial Consultant for deeper discussion."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "30-60 minute lunch break. May use time for optional training modules or team activities."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Afternoon Calls",
+            description: "Afternoon call volume. Help client set up automatic investments, explain Schwab Intelligent Portfolios, process beneficiary update."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Training Time",
+            description: "Scheduled development time for product training, certification study, or skill building."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Final Call Block",
+            description: "Complete final calls of the day. Ensure all documentation is complete and follow-ups are scheduled."
+          },
+          {
+            time: "4:45 PM",
+            activity: "Wrap Up",
+            description: "Complete pending documentation, log off systems. Head home with clear boundaries—no after-hours work expected."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "TD Ameritrade", companySlug: "td-ameritrade", industry: "Finance" },
+        { companyName: "E*TRADE", companySlug: "etrade", industry: "Finance" }
+      ]
+    },
+    'software-engineer': {
+      roleDescription: "Software Engineers at Charles Schwab build and maintain the technology powering America's largest brokerage serving over 34 million accounts and $8+ trillion in client assets. Working within Digital Services, Trading Systems, or Enterprise Technology, you'll develop solutions that directly impact how millions of investors manage their financial futures. Schwab's significant technology investment—accelerated by the TD Ameritrade integration—means engineers work with modern stacks including cloud platforms (AWS, Azure), microservices, and AI/ML capabilities. The culture emphasizes 'being imaginative, seeing a problem, and having a sense of urgency for finding solutions' while maintaining Schwab's client-first values. Teams operate using agile methodologies with cross-functional collaboration including business partners, data scientists, UX designers, and product managers. Career progression includes both technical and management tracks across Schwab's diverse technology landscape.",
+      responsibilities: [
+        "Design, develop, and maintain software applications supporting Schwab's trading, advisory, and client platforms",
+        "Write clean, testable, well-documented code following engineering best practices",
+        "Collaborate with product managers, designers, and business partners to deliver solutions",
+        "Participate in architecture discussions and contribute to technical decisions",
+        "Build and maintain CI/CD pipelines and deploy applications to cloud infrastructure",
+        "Troubleshoot production issues and ensure system reliability",
+        "Participate in code reviews and contribute to team knowledge sharing",
+        "Stay current on technology trends and evaluate applicability",
+        "Work in agile teams using journey mapping and design thinking"
+      ],
+      growthOpportunities: [
+        "Dual career tracks: technical (Principal Engineer) and management (Engineering Manager)",
+        "Exposure to diverse domains: trading systems, client platforms, data infrastructure",
+        "Modern technology stack with cloud transformation initiatives",
+        "TD Ameritrade integration creating complex, impactful projects",
+        "Professional development including certifications and conferences",
+        "Cross-functional collaboration with business, UX, and data teams",
+        "Innovation labs and hackathons encouraging new ideas",
+        "Work-life balance supporting sustainable career"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Application & Phone Screen",
+          description: "Submit application highlighting technical experience. Phone screen with recruiter covering background, technical skills, and interest in Schwab. Initial assessment of role fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "45-60 minute technical interview via video. Coding exercise focusing on data structures, algorithms, and problem-solving. Discussion of technical background and projects.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite",
+          description: "3-4 interviews covering coding, system design, and behavioral questions. Coding rounds assess problem-solving and implementation. System design for mid/senior roles. Behavioral assesses cultural fit with Schwab's client-first values.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Hiring committee reviews feedback. Background check required. Offers typically within 1-2 weeks with competitive compensation including equity."
+        }
+      ],
+      technicalQuestions: [
+        "Implement a function to [coding problem - varies by interview]",
+        "How would you design a system to handle real-time trading data?",
+        "Explain your approach to testing and ensuring code quality.",
+        "How do you handle errors and edge cases in financial applications?",
+        "Describe a challenging technical problem you solved.",
+        "How would you optimize a slow database query in a trading system?",
+        "Explain RESTful API design principles.",
+        "How do you approach debugging a production issue?",
+        "Describe your experience with cloud platforms (AWS, Azure).",
+        "How do you ensure security in financial applications?",
+        "Explain containerization and orchestration.",
+        "How do you approach technical debt in legacy systems?",
+        "Describe CI/CD practices you've implemented.",
+        "How do you handle high-availability requirements?",
+        "What's your approach to code review?",
+        "How do you stay current on technology developments?"
+      ],
+      behavioralQuestions: [
+        "Why Charles Schwab? What attracts you to financial services?",
+        "Tell me about a project you're proud of. What was your contribution?",
+        "Describe working with a team to deliver a complex project.",
+        "How do you handle disagreements on technical approach?",
+        "Tell me about a time you had to learn a new technology quickly.",
+        "Describe receiving critical feedback. How did you respond?",
+        "How do you prioritize when faced with competing demands?",
+        "Tell me about a time you helped a teammate succeed.",
+        "Describe a production incident you helped resolve.",
+        "How do you approach working with non-technical stakeholders?",
+        "What makes a great engineering team?",
+        "How do you balance shipping quickly with code quality?"
+      ],
+      whatTheyLookFor: [
+        "Strong programming fundamentals and problem-solving skills",
+        "Experience with relevant technologies and ability to learn",
+        "Understanding of system design and architecture principles",
+        "Commitment to code quality, testing, and best practices",
+        "Collaborative mindset and strong communication",
+        "Ability to work in agile, cross-functional teams",
+        "Curiosity and drive to continuously improve",
+        "Interest in financial services domain",
+        "Professionalism and integrity",
+        "Client-first mindset aligned with Schwab's values"
+      ],
+      interviewTips: [
+        "Practice coding problems focusing on data structures and algorithms",
+        "Be ready to discuss system design for mid/senior roles",
+        "Prepare to talk through your thought process while coding",
+        "Review your past projects and be ready to discuss in depth",
+        "Understand Schwab's business and technology landscape",
+        "Research the TD Ameritrade integration and its technical challenges",
+        "Prepare questions about engineering culture, practices, and growth",
+        "Show interest in financial services applications",
+        "Demonstrate collaborative approach—Schwab values teamwork",
+        "Be honest about what you know and don't know",
+        "Practice explaining technical concepts clearly",
+        "Highlight examples of working across functions"
+      ],
+      salary: {
+        min: 100000,
+        max: 160000
+      },
+      compensation: [
+        "Base salary: $100-160K depending on experience and level",
+        "Annual bonus: 10-20% based on individual and company performance",
+        "Total compensation typically $110-190K for engineers",
+        "Senior/Principal engineers can reach $180-250K+ total",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Employee stock purchase plan with discount",
+        "Tuition reimbursement and certification support",
+        "Professional development budget",
+        "Flexible work arrangements"
+      ],
+      dayInLife: {
+        overview: "Software Engineers at Schwab work in collaborative, agile teams with good work-life balance. Typical hours are 9am-6pm with flexibility. Teams follow agile practices with sprints, standups, and retrospectives. The culture emphasizes innovation and client focus. Engineers collaborate closely with business partners, UX designers, and product managers using design thinking approaches.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Start",
+            description: "Check overnight builds, review notifications, catch up on Slack and team communications."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Daily Standup",
+            description: "Team standup discussing yesterday's progress, today's plans, and any blockers. Cross-functional team includes developers, QA, and product."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Development Work",
+            description: "Focused development time on sprint tasks. Code new features for client platform enhancement."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Code Review",
+            description: "Review pull requests from teammates. Provide constructive feedback and discuss approaches."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break, may include team lunch or tech talk."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Design Session",
+            description: "Journey mapping session with UX and business partners to improve client experience. Collaborative design thinking approach."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Sprint Refinement",
+            description: "Team meeting to refine upcoming stories. Discuss requirements, technical approach, and estimate effort."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Continued Development",
+            description: "Continue development work. Write tests, document code, prepare for deployment."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up",
+            description: "Commit work, update tickets, prepare for tomorrow. Head home around 6pm."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Charles Schwab apply advanced analytics, machine learning, and AI to transform how America's largest brokerage serves over 34 million accounts. Working across Digital Services, Risk, Marketing, and Investment functions, you'll develop models that personalize client experiences, detect fraud, optimize operations, and generate insights from massive datasets spanning decades of market and client data. Schwab's investment in AI—including Cognitive AI and Applied AI Scientist roles—reflects commitment to using technology to better serve clients. Teams 'mix it up when we work, bringing business partners, data scientists, UX designers, product managers, developers' together using design thinking approaches. The firm's scale and data assets provide unique opportunities for impactful analysis. Career progression leads to senior individual contributor or management roles, with specialization paths in AI/ML, client analytics, or risk modeling.",
+      responsibilities: [
+        "Develop machine learning models and statistical analyses solving complex business problems",
+        "Apply advanced analytics to client experience, risk management, marketing, and operations",
+        "Build predictive models, recommendation systems, and optimization algorithms",
+        "Work with large datasets to extract insights and build analytical capabilities",
+        "Collaborate with business partners to translate needs into analytical solutions",
+        "Present findings and recommendations to technical and non-technical stakeholders",
+        "Ensure model governance, validation, and documentation meet standards",
+        "Stay current on ML/AI developments and evaluate applicability",
+        "Work in cross-functional teams with developers, UX, and product managers"
+      ],
+      growthOpportunities: [
+        "Career paths in individual contributor (Principal Data Scientist) and management tracks",
+        "Specialization in Cognitive AI, Applied AI, or domain-specific analytics",
+        "Exposure to diverse problem domains: client experience, risk, marketing, investments",
+        "Opportunity to work with massive datasets from 34+ million accounts",
+        "Access to modern tech stack including cloud ML platforms",
+        "Professional development including conferences and certifications",
+        "Innovation labs encouraging experimentation with new techniques",
+        "Work-life balance supporting sustainable career"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Application & Phone Screen",
+          description: "Submit application highlighting ML/analytics experience. Phone screen with recruiter covering background, technical skills, and interest in Schwab. Initial assessment of analytical capabilities.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Assessment",
+          description: "Take-home data science project or coding assessment. Analyze dataset, build model, present findings. Given 5-7 days. Evaluates technical skills, analytical thinking, and communication.",
+          duration: "5-7 days take-home"
+        },
+        {
+          step: 3,
+          title: "Technical Interviews",
+          description: "2-3 technical interviews covering ML concepts, statistics, coding (Python/R), and past project deep-dive. Present take-home and answer questions. Assess depth of knowledge.",
+          duration: "2-3 hours total"
+        },
+        {
+          step: 4,
+          title: "Behavioral & Final Round",
+          description: "Interviews with hiring manager and leadership. Behavioral questions assessing collaboration and cultural fit. Discussion of career goals. Offers typically within 1-2 weeks."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your approach to a recent data science project.",
+        "How would you handle imbalanced classes in a classification problem?",
+        "Explain the bias-variance tradeoff and how you manage it.",
+        "What's the difference between L1 and L2 regularization?",
+        "How do you validate a machine learning model?",
+        "Explain gradient boosting and when you would use it.",
+        "How would you approach feature selection for a predictive model?",
+        "What metrics would you use to evaluate a recommendation system?",
+        "Explain cross-validation strategies and when to use each.",
+        "How do you handle missing data in your analyses?",
+        "Walk me through a time series forecasting approach.",
+        "How would you explain a model's predictions to business stakeholders?",
+        "What's your approach to ensuring model fairness?",
+        "How do you handle concept drift in deployed models?",
+        "Describe your experience with deep learning. When is it appropriate?",
+        "How would you design a client segmentation model?"
+      ],
+      behavioralQuestions: [
+        "Why Charles Schwab? What attracts you to financial services?",
+        "Tell me about a data science project that had significant business impact.",
+        "Describe working with non-technical stakeholders to define a problem.",
+        "How do you approach a problem when you don't have labeled data?",
+        "Tell me about a time your analysis revealed unexpected findings.",
+        "Describe collaborating with a team on a complex analytical project.",
+        "How do you prioritize when working on multiple projects?",
+        "Tell me about receiving feedback on your work.",
+        "Describe explaining technical results to a non-technical audience.",
+        "What do you do when your model doesn't perform as expected?",
+        "How do you stay current on data science developments?",
+        "What does ethical AI mean to you?"
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in statistics, ML, and analytical methods",
+        "Programming proficiency in Python/R and SQL",
+        "Ability to translate business problems into analytical solutions",
+        "Clear communication of complex technical concepts",
+        "Collaborative mindset and cross-functional teamwork",
+        "Intellectual curiosity and problem-solving drive",
+        "Attention to detail and rigorous analytical process",
+        "Interest in financial services applications",
+        "Balance of innovation with practical business needs",
+        "Ethical approach to data and model development"
+      ],
+      interviewTips: [
+        "Prepare to discuss 2-3 projects in depth, including business impact",
+        "Be ready for coding questions in Python focusing on ML workflows",
+        "Brush up on ML fundamentals: regression, classification, evaluation metrics",
+        "Understand Schwab's business and how data science adds value",
+        "Practice explaining technical concepts to non-technical audiences",
+        "Be prepared for the take-home project—allocate sufficient time",
+        "Research Schwab's AI initiatives and Cognitive AI roles",
+        "Show intellectual curiosity about financial services applications",
+        "Demonstrate collaborative approach—Schwab values cross-functional work",
+        "Have questions about team structure, projects, and career development",
+        "Be honest about what you know and don't know",
+        "Show how your work has driven business outcomes"
+      ],
+      salary: {
+        min: 100000,
+        max: 150000
+      },
+      compensation: [
+        "Base salary: $100-150K depending on experience and specialization",
+        "Annual bonus: 15-25% based on individual and company performance",
+        "Total compensation typically $115-185K for data scientists",
+        "Senior/Applied AI roles: $150-250K+ total compensation",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Employee stock purchase plan",
+        "Professional development budget for conferences",
+        "Tuition reimbursement for advanced degrees",
+        "Flexible work arrangements"
+      ],
+      dayInLife: {
+        overview: "Data Scientists at Schwab work in collaborative, cross-functional environment with good work-life balance. Typical hours are 9am-6pm with flexibility. Teams use design thinking and agile approaches, mixing data scientists with developers, UX designers, and business partners. Projects span client experience, risk, marketing, and operations, providing variety and impact.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Start",
+            description: "Review overnight model runs, check dashboards, plan day's priorities."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily standup with cross-functional team including developers, product, and business partners."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Project Work",
+            description: "Deep work on current modeling project. Feature engineering, model training, or analysis."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Business Partner Meeting",
+            description: "Meet with business stakeholders to discuss requirements for new analytics initiative."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Learning",
+            description: "Team lunch or optional tech talk on new ML techniques."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Model Development",
+            description: "Continue model work. Experiment with approaches, tune hyperparameters, validate results."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Design Thinking Session",
+            description: "Journey mapping session with UX and product to understand client pain points for analytics solution."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Documentation",
+            description: "Document model methodology, prepare presentation for stakeholder review."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up",
+            description: "Commit code, update project tracking, prepare for tomorrow. Head home around 6pm."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" }
+      ]
+    },
+    'investment-consultant': {
+      roleDescription: "Investment Consultants at Charles Schwab provide specialized guidance to clients with more complex financial needs, including retirement planning, wealth transfer, and sophisticated investment strategies. Working within Schwab's Wealth Advisory or Retirement Plan Services divisions, you'll serve clients with significant assets requiring deeper analysis and customized solutions. The role builds on Schwab's 'through clients' eyes' philosophy with advanced planning capabilities—tax optimization, estate coordination, and comprehensive retirement income strategies. Investment Consultants leverage Schwab's research, tools, and specialist network to deliver integrated advice. The TD Ameritrade integration has expanded client base and product capabilities. Career progression leads to Senior Consultant, Wealth Advisor, or management roles serving high-net-worth clients.",
+      responsibilities: [
+        "Provide comprehensive investment guidance to clients with complex financial needs",
+        "Develop customized investment strategies addressing retirement, estate, and wealth transfer goals",
+        "Conduct in-depth portfolio analysis and recommend appropriate solutions",
+        "Coordinate with specialists for tax, estate, and insurance planning needs",
+        "Build long-term advisory relationships with higher-asset clients",
+        "Present financial plans and investment recommendations to clients",
+        "Stay current on market developments, tax law changes, and planning strategies",
+        "Collaborate with branch teams to identify clients needing advanced guidance",
+        "Maintain licenses and continuing education requirements"
+      ],
+      growthOpportunities: [
+        "Progression to Senior Investment Consultant or Wealth Advisor roles",
+        "Specialization in retirement income, estate planning, or high-net-worth clients",
+        "Path to managing advisor teams or regional leadership",
+        "CFP, CFA support and advanced certification opportunities",
+        "Access to Schwab's research and planning tools",
+        "Exposure to complex planning situations developing expertise",
+        "TD Ameritrade integration creating expanded client opportunities",
+        "Leadership development programs"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "30-minute conversation with Talent Advisor covering background, advisory experience, and interest in Schwab. Expect questions about client relationships and planning expertise.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute behavioral interview focusing on client advisory experience, complex planning scenarios, and cultural fit. Use STAR format for examples of client relationships and problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Technical & Team Interviews",
+          description: "Multiple interviews assessing technical planning knowledge, investment expertise, and team fit. May include case study presenting planning recommendations for hypothetical client scenario.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Final Round & Offer",
+          description: "Interview with senior leadership. Background and credential verification. Offers typically within 1-2 weeks with competitive compensation."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your approach to comprehensive financial planning.",
+        "How do you develop a retirement income strategy for a client?",
+        "Explain Roth conversion analysis and when it makes sense.",
+        "How do you approach asset location optimization across account types?",
+        "What factors do you consider in Social Security claiming strategies?",
+        "How do you evaluate a client's risk tolerance and translate to portfolio?",
+        "Explain the sequence-of-returns risk and mitigation strategies.",
+        "How do you approach estate planning discussions with clients?",
+        "What role does tax planning play in your investment recommendations?",
+        "How do you evaluate annuities and when are they appropriate?",
+        "Explain the differences between various retirement account types.",
+        "How do you approach portfolio rebalancing?",
+        "What's your view on active vs passive investing?",
+        "How do you stay current on tax law changes and planning strategies?",
+        "Describe your approach to concentrated stock positions.",
+        "How does Schwab's platform support comprehensive planning?"
+      ],
+      behavioralQuestions: [
+        "Why Charles Schwab? What attracts you to our approach to advice?",
+        "Tell me about your most complex client planning engagement.",
+        "Describe building a long-term relationship with a high-value client.",
+        "How have you handled a client who wanted to make a poor financial decision?",
+        "Tell me about coordinating with specialists to serve a client's needs.",
+        "Describe navigating a client through a major life transition.",
+        "How do you stay organized managing multiple client relationships?",
+        "Tell me about a time your advice significantly impacted a client's outcome.",
+        "Describe handling a client upset about investment performance.",
+        "How do you approach clients with different communication preferences?",
+        "What does 'through clients' eyes' mean for investment advice?",
+        "Tell me about continuous learning in your advisory career."
+      ],
+      whatTheyLookFor: [
+        "Demonstrated expertise in financial planning and investments",
+        "Strong client relationship skills with advisory experience",
+        "Technical knowledge across retirement, tax, and estate planning",
+        "Alignment with Schwab's client-first, fiduciary approach",
+        "Clear communication of complex concepts",
+        "Collaborative approach working with specialists",
+        "Professional certifications (CFP preferred)",
+        "Problem-solving orientation for complex situations",
+        "Integrity and trustworthiness",
+        "Continuous learning mindset"
+      ],
+      interviewTips: [
+        "Prepare detailed examples of complex planning engagements",
+        "Review retirement income strategies and Social Security optimization",
+        "Understand Schwab's approach to advice and client-first philosophy",
+        "Be ready for technical questions on tax-efficient planning",
+        "Prepare a case study response demonstrating planning process",
+        "Research Schwab Wealth Advisory and how it serves clients",
+        "Know TD Ameritrade integration and expanded capabilities",
+        "Demonstrate how you build long-term client relationships",
+        "Show collaborative approach working with specialists",
+        "Prepare questions about team, clients, and growth opportunities",
+        "Be authentic about your advisory philosophy",
+        "Highlight CFP or other relevant certifications"
+      ],
+      salary: {
+        min: 75000,
+        max: 110000
+      },
+      compensation: [
+        "Base salary: $75-110K depending on experience and credentials",
+        "Performance bonus based on client retention, satisfaction, and growth",
+        "Total compensation typically $90-150K for experienced consultants",
+        "Senior consultants can earn $120-180K+ total",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Employee stock purchase plan",
+        "CFP and continuing education support",
+        "Tuition reimbursement",
+        "Hybrid work flexibility"
+      ],
+      dayInLife: {
+        overview: "Investment Consultants work with complex client situations requiring deeper analysis and planning. Typical hours are 8:30am-5:30pm with flexibility for client schedules. The role balances client meetings with planning analysis and specialist coordination. Schwab's platform provides research and tools supporting comprehensive advice. The collaborative culture emphasizes client outcomes over sales metrics.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Preparation",
+            description: "Review market updates, client alerts, and prepare for scheduled meetings. Review planning analysis from previous day."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Complex Client Meeting",
+            description: "Meeting with couple approaching retirement. Present comprehensive retirement income plan including Social Security timing, portfolio drawdown, and tax strategies."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Planning Analysis",
+            description: "Work on financial plan for new client. Model different scenarios, analyze tax implications, develop recommendations."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Specialist Call",
+            description: "Working lunch with estate planning specialist discussing complex client situation involving business succession."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Client Review Call",
+            description: "Annual review call with long-term client. Discuss portfolio performance, life changes, and plan adjustments needed."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Team Collaboration",
+            description: "Meeting with branch team to identify clients who would benefit from more comprehensive planning."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Documentation & Follow-up",
+            description: "Document meeting notes, process recommendations, send follow-up materials to clients."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Continuing Education",
+            description: "Review latest tax law updates affecting retirement planning. Stay current on planning strategies."
+          },
+          {
+            time: "5:30 PM",
+            activity: "End of Day",
+            description: "Prepare for tomorrow's meetings, complete documentation. Head home."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "Merrill Lynch", companySlug: "merrill-lynch", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" }
+      ]
+    },
+    'operations-analyst': {
+      roleDescription: "Operations Analysts at Charles Schwab ensure the smooth functioning of critical business processes supporting over 34 million client accounts and $8+ trillion in assets. Working across Trade Operations, Account Services, or Corporate Operations, you'll handle transaction processing, exception management, and process improvement initiatives that keep Schwab's platform running reliably. The TD Ameritrade integration has created complex operational challenges requiring analytical problem-solving and attention to detail. Operations roles provide exposure to all aspects of brokerage business—trading, account management, transfers, and corporate actions. Schwab's operational excellence supports client trust built over 50+ years. Career progression leads to senior analyst, supervisor, or specialist roles with paths to management or other business functions.",
+      responsibilities: [
+        "Process and reconcile transactions across trading, account services, and transfers",
+        "Identify, research, and resolve exceptions and discrepancies",
+        "Monitor daily operations and escalate issues appropriately",
+        "Support process improvement and automation initiatives",
+        "Ensure compliance with regulatory requirements and internal controls",
+        "Collaborate with technology teams on system enhancements",
+        "Document procedures and contribute to operational knowledge base",
+        "Meet productivity and quality standards",
+        "Support TD Ameritrade integration activities as needed"
+      ],
+      growthOpportunities: [
+        "Progression from Analyst to Senior Analyst to Supervisor/Manager",
+        "Specialization in specific operational areas (trading, transfers, corporate actions)",
+        "Path to process improvement, compliance, or technology roles",
+        "Exposure to all aspects of brokerage operations",
+        "Six Sigma and process improvement training",
+        "Series licensing opportunities expanding career options",
+        "Internal mobility across Schwab's business units",
+        "Leadership development programs"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Application & Assessment",
+          description: "Submit application through Schwab careers portal. May include assessment testing attention to detail, numerical reasoning, and problem-solving. Evaluates analytical aptitude.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Screen",
+          description: "20-30 minute conversation with recruiter covering background, interest in operations, and basic fit assessment. Expect questions about attention to detail and problem-solving.",
+          duration: "20-30 minutes"
+        },
+        {
+          step: 3,
+          title: "Hiring Manager Interview",
+          description: "45-60 minute behavioral interview with hiring manager. Focus on problem-solving, attention to detail, and handling high-volume work. May include scenario questions about exception handling.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Background check and offer decision typically within 1-2 weeks. Some roles require fingerprinting. Comprehensive training on systems and processes."
+        }
+      ],
+      technicalQuestions: [
+        "What do you understand about brokerage operations?",
+        "How would you approach researching a transaction discrepancy?",
+        "Explain the trade settlement process at a high level.",
+        "What types of account transfers are you familiar with?",
+        "How do you ensure accuracy when processing high volumes?",
+        "What is a corporate action and give examples?",
+        "How would you prioritize multiple urgent issues?",
+        "What do you know about regulatory requirements in brokerage?",
+        "How would you identify patterns in operational exceptions?",
+        "Describe your experience with process improvement.",
+        "What systems or tools have you used for operations work?",
+        "How do you stay organized managing multiple tasks?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you caught an error others missed.",
+        "Describe handling a high-pressure situation with deadlines.",
+        "How have you improved a process in a previous role?",
+        "Tell me about working in a team to resolve a complex issue.",
+        "Describe a time you had to learn a new system quickly.",
+        "How do you maintain accuracy during repetitive tasks?",
+        "Tell me about prioritizing when everything seems urgent.",
+        "Describe handling a mistake you made. What did you learn?",
+        "How do you handle work that requires strict compliance?",
+        "Tell me about collaborating with other teams to solve a problem.",
+        "Why are you interested in operations?",
+        "Describe your attention to detail with a specific example."
+      ],
+      whatTheyLookFor: [
+        "Strong attention to detail and accuracy",
+        "Analytical and problem-solving abilities",
+        "Ability to work in fast-paced, high-volume environment",
+        "Process improvement mindset",
+        "Reliability and accountability",
+        "Team collaboration skills",
+        "Adaptability to changing priorities",
+        "Basic understanding of financial services",
+        "Strong organizational skills",
+        "Integrity and compliance orientation"
+      ],
+      interviewTips: [
+        "Prepare specific examples demonstrating attention to detail",
+        "Research basic brokerage operations concepts",
+        "Be ready for scenario questions about exception handling",
+        "Show analytical approach to problem-solving",
+        "Demonstrate comfort with high-volume, deadline-driven work",
+        "Highlight any process improvement experience",
+        "Show interest in learning about financial services",
+        "Prepare questions about training, tools, and career paths",
+        "Be honest about your experience level",
+        "Demonstrate reliability and strong work ethic",
+        "Show collaborative approach to teamwork",
+        "Research TD Ameritrade integration and operational implications"
+      ],
+      salary: {
+        min: 45000,
+        max: 65000
+      },
+      compensation: [
+        "Base salary: $45-65K depending on experience and location",
+        "Performance bonus based on quality and productivity metrics",
+        "Total compensation typically $50-75K",
+        "Senior analysts and supervisors: $65-90K",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Employee stock purchase plan",
+        "Tuition reimbursement",
+        "Paid time off and holidays",
+        "Hybrid work options for some roles"
+      ],
+      dayInLife: {
+        overview: "Operations Analysts work in structured environment processing transactions and resolving exceptions. Typical hours are standard business hours with occasional extended periods during high-volume events. The role requires sustained attention to detail and ability to work efficiently under deadlines. Schwab's supportive culture provides training and clear procedures. Teams collaborate to meet daily processing requirements.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Shift Start",
+            description: "Log in, review overnight processing results, check exception queues and priorities for the day."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Team Huddle",
+            description: "Brief team meeting covering daily priorities, volume expectations, and any system issues."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Exception Processing",
+            description: "Work through exception queue. Research discrepancies, make corrections, escalate complex issues."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Break",
+            description: "Short break to rest between focused processing work."
+          },
+          {
+            time: "10:45 AM",
+            activity: "Transaction Processing",
+            description: "Process daily transaction batch. Verify accuracy, ensure compliance, document work."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Continued Processing",
+            description: "Continue transaction processing and exception resolution. Coordinate with other teams as needed."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Reconciliation",
+            description: "Perform daily reconciliation procedures. Identify and research any discrepancies."
+          },
+          {
+            time: "4:00 PM",
+            activity: "End of Day Procedures",
+            description: "Complete end-of-day processing. Ensure all items meet deadlines. Hand off remaining items."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Document any issues, update procedures as needed. Prepare for next day. Head home."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "TD Ameritrade", companySlug: "td-ameritrade", industry: "Finance" },
+        { companyName: "E*TRADE", companySlug: "etrade", industry: "Finance" }
+      ]
+    },
+    'product-manager': {
+      roleDescription: "Product Managers at Charles Schwab drive the development of digital products and experiences that serve over 34 million client accounts. Working within Digital Services, Trading Products, or Platform teams, you'll own product strategy, roadmap, and execution for features used by millions of investors. Schwab's commitment to 'through clients' eyes' means PMs deeply understand investor needs and advocate for solutions that empower clients on their financial journeys. The TD Ameritrade integration has created complex product challenges—merging platforms, migrating clients, and building unified experiences. Teams use journey mapping and design thinking, collaborating closely with engineering, UX, data science, and business partners. The culture values innovation balanced with the reliability required for financial services. Career progression leads to Senior PM, Group PM, or product leadership roles.",
+      responsibilities: [
+        "Define product vision, strategy, and roadmap for digital client experiences",
+        "Gather and prioritize requirements based on client research and business goals",
+        "Write product requirements and user stories for engineering teams",
+        "Collaborate with UX, engineering, and data science to deliver solutions",
+        "Analyze product metrics and client feedback to drive improvements",
+        "Work with business partners to align product with Schwab's strategy",
+        "Manage product backlog and sprint planning in agile environment",
+        "Present product strategy to leadership and stakeholders",
+        "Stay current on fintech trends and competitive landscape"
+      ],
+      growthOpportunities: [
+        "Progression to Senior PM, Group PM, or Head of Product roles",
+        "Exposure to diverse product areas: trading, planning, mobile, web",
+        "TD Ameritrade integration providing complex, high-impact challenges",
+        "Cross-functional collaboration developing leadership skills",
+        "Professional development in product management and fintech",
+        "Path to product leadership or general management",
+        "Innovation opportunities in AI, personalization, and next-gen experiences",
+        "Work-life balance supporting sustainable career"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "30-minute conversation with recruiter covering background, product experience, and interest in Schwab. Initial assessment of PM skills and fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute interview with hiring manager. Discuss product experience, approach to PM craft, and fit with team. May include product sense questions.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Product Case & Team Interviews",
+          description: "Multiple interviews including product case study (design or improve a Schwab product feature), technical discussion, and cross-functional stakeholder interviews. Assess product thinking, communication, and collaboration.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Final Round & Offer",
+          description: "Interview with senior product leadership. Discussion of product philosophy and career goals. Offers typically within 1-2 weeks."
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve Schwab's mobile app experience?",
+        "Walk me through how you would prioritize a product backlog.",
+        "How do you measure success for a product feature?",
+        "Describe your approach to writing product requirements.",
+        "How would you design an onboarding experience for new investors?",
+        "What metrics would you track for a trading product?",
+        "How do you balance user needs with business goals?",
+        "Describe working with engineering to define technical approach.",
+        "How would you approach migrating users to a new platform?",
+        "What fintech trends do you think will impact brokerage?",
+        "How do you gather and synthesize user research?",
+        "Describe your experience with A/B testing and experimentation.",
+        "How do you handle competing stakeholder priorities?",
+        "What's your approach to building product roadmaps?",
+        "How would you design a feature to help clients understand their portfolio?",
+        "Describe your experience with agile product development."
+      ],
+      behavioralQuestions: [
+        "Why Charles Schwab? What attracts you to financial services products?",
+        "Tell me about a product you shipped that you're proud of.",
+        "Describe a time you had to make a difficult prioritization decision.",
+        "How have you handled disagreement with engineering on approach?",
+        "Tell me about using data to drive a product decision.",
+        "Describe working with UX to design a user experience.",
+        "How do you build relationships with cross-functional partners?",
+        "Tell me about a product that didn't succeed. What did you learn?",
+        "Describe influencing stakeholders without direct authority.",
+        "How do you stay customer-focused in a large organization?",
+        "Tell me about managing a complex product launch.",
+        "What does 'through clients' eyes' mean for product development?"
+      ],
+      whatTheyLookFor: [
+        "Strong product sense and user empathy",
+        "Data-driven decision making",
+        "Clear communication and stakeholder management",
+        "Collaborative approach with cross-functional teams",
+        "Strategic thinking balanced with execution focus",
+        "Interest in financial services and fintech",
+        "Experience with agile product development",
+        "Analytical skills for metrics and research",
+        "Leadership and influence skills",
+        "Client-first mindset aligned with Schwab's values"
+      ],
+      interviewTips: [
+        "Prepare product case studies demonstrating your PM process",
+        "Research Schwab's digital products and identify improvement opportunities",
+        "Understand the TD Ameritrade integration and product implications",
+        "Practice frameworks for prioritization and product decisions",
+        "Be ready to discuss metrics and how you measure success",
+        "Prepare examples of cross-functional collaboration",
+        "Show understanding of financial services user needs",
+        "Research fintech trends relevant to brokerage",
+        "Demonstrate customer-centricity in your examples",
+        "Prepare questions about team, products, and roadmap",
+        "Show enthusiasm for Schwab's mission of democratizing investing",
+        "Be ready to whiteboard or sketch product ideas"
+      ],
+      salary: {
+        min: 120000,
+        max: 170000
+      },
+      compensation: [
+        "Base salary: $120-170K depending on experience and level",
+        "Annual bonus: 15-25% based on performance",
+        "Total compensation typically $140-210K for PMs",
+        "Senior/Group PMs: $180-280K+ total compensation",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Employee stock purchase plan",
+        "Professional development budget",
+        "Tuition reimbursement",
+        "Flexible work arrangements"
+      ],
+      dayInLife: {
+        overview: "Product Managers at Schwab work in fast-paced, collaborative environment using agile and design thinking approaches. Typical hours are 9am-6pm with flexibility. PMs spend time in meetings with cross-functional partners, doing user research, and strategic thinking. The culture values innovation and client focus. TD Ameritrade integration creates complex, high-impact product challenges.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Prep",
+            description: "Review overnight feedback, check product metrics dashboards, prepare for daily meetings."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Sprint Standup",
+            description: "Daily standup with engineering, UX, and QA. Review progress, address blockers, coordinate work."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Product Strategy",
+            description: "Work on product roadmap and strategy documents. Analyze market trends and competitive landscape."
+          },
+          {
+            time: "11:00 AM",
+            activity: "UX Review",
+            description: "Design review with UX team for upcoming feature. Provide feedback and align on direction."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch, may include informal conversations with teammates or stakeholders."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Meeting with business partners to align on requirements and priorities for upcoming initiatives."
+          },
+          {
+            time: "2:30 PM",
+            activity: "User Research",
+            description: "Review user research findings or participate in user interview. Synthesize insights for product decisions."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Backlog Grooming",
+            description: "Refine product backlog with engineering. Write user stories, clarify requirements, estimate effort."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update product documentation, write PRDs, prepare materials for upcoming reviews."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Review action items, plan tomorrow. Head home."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "Robinhood", companySlug: "robinhood", industry: "Finance" },
+        { companyName: "Betterment", companySlug: "betterment", industry: "Finance" }
+      ]
+    },
+    'risk-analyst': {
+      roleDescription: "Risk Analysts at Charles Schwab protect the firm and its 34+ million clients by identifying, measuring, and monitoring risks across credit, market, operational, and compliance domains. Working within Enterprise Risk Management, Credit Risk, or Operational Risk functions, you'll ensure Schwab maintains the trust built over 50+ years while navigating evolving regulatory requirements and market conditions. The TD Ameritrade integration has created complex risk considerations requiring analytical rigor and cross-functional collaboration. Schwab's conservative risk culture supports robust risk management practices. Risk Analysts develop expertise in financial services risk while contributing to firm-wide risk frameworks. Career progression leads to senior analyst, risk manager, or leadership roles within the risk organization.",
+      responsibilities: [
+        "Identify, assess, and monitor risks across assigned domains",
+        "Develop and maintain risk models, metrics, and dashboards",
+        "Perform stress testing and scenario analysis",
+        "Support regulatory compliance and examination activities",
+        "Prepare risk reports for management and committees",
+        "Collaborate with business units on risk identification and mitigation",
+        "Contribute to risk policy development and updates",
+        "Monitor industry trends and emerging risks",
+        "Support TD Ameritrade integration risk assessment activities"
+      ],
+      growthOpportunities: [
+        "Progression from Analyst to Senior Analyst to Risk Manager",
+        "Specialization in credit, market, operational, or compliance risk",
+        "Path to leadership roles including Director and Chief Risk Officer track",
+        "FRM, CFA sponsorship and certification support",
+        "Exposure to all aspects of brokerage and banking risk",
+        "Cross-functional opportunities in compliance, audit, or business roles",
+        "TD Ameritrade integration providing complex risk challenges",
+        "Professional development and industry conferences"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Phone Screen",
+          description: "30-minute conversation with recruiter covering background, risk experience, and interest in Schwab. Assessment of analytical capabilities and risk knowledge.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Interview",
+          description: "45-60 minute interview with risk team member testing risk concepts, analytical skills, and problem-solving. Expect questions on risk metrics, regulatory frameworks, and technical competencies.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Panel Interviews",
+          description: "Multiple interviews with risk managers, team members, and potentially business partners. Technical discussions, behavioral assessment, and cultural fit evaluation. May include case study.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Final Round & Offer",
+          description: "Interview with risk leadership. Discussion of career goals and fit. Background check required. Offers typically within 1-2 weeks."
+        }
+      ],
+      technicalQuestions: [
+        "Explain Value at Risk and its limitations.",
+        "How would you assess credit risk for margin lending?",
+        "Describe different types of operational risk in a brokerage.",
+        "How do interest rate changes affect Schwab's business?",
+        "Explain regulatory capital requirements at a high level.",
+        "How would you design a risk dashboard?",
+        "Describe stress testing methodology you're familiar with.",
+        "How do you quantify operational risk?",
+        "What regulatory frameworks apply to broker-dealers?",
+        "How would you assess concentration risk?",
+        "Explain the three lines of defense model.",
+        "How do you prioritize risks when resources are limited?",
+        "Describe your experience with risk reporting.",
+        "How has risk management evolved since 2008?",
+        "What risks does the TD Ameritrade integration present?",
+        "How do you communicate risk to non-risk stakeholders?"
+      ],
+      behavioralQuestions: [
+        "Why risk management? Why Schwab?",
+        "Tell me about identifying a significant risk and how you addressed it.",
+        "Describe communicating risk findings to senior leadership.",
+        "How do you handle situations where business wants to take more risk?",
+        "Tell me about collaborating with teams outside risk.",
+        "Describe a time you had to make a recommendation with incomplete data.",
+        "How do you stay current on regulatory developments?",
+        "Tell me about improving a risk process or control.",
+        "Describe handling pressure during a risk event.",
+        "How do you balance thoroughness with practical needs?",
+        "What role should risk play in business decisions?",
+        "Tell me about an emerging risk you're watching."
+      ],
+      whatTheyLookFor: [
+        "Strong analytical and quantitative foundation",
+        "Understanding of financial services risk domains",
+        "Clear communication skills for diverse audiences",
+        "Attention to detail and thoroughness",
+        "Independent judgment on risk matters",
+        "Collaborative approach with business partnership mindset",
+        "Integrity and willingness to raise issues",
+        "Regulatory knowledge and compliance orientation",
+        "Problem-solving for complex risk questions",
+        "Continuous learning for evolving risk landscape"
+      ],
+      interviewTips: [
+        "Review risk fundamentals: credit, market, operational, liquidity",
+        "Understand regulatory frameworks (SEC, FINRA, OCC)",
+        "Research Schwab's business model and risk profile",
+        "Prepare examples of risk identification and analysis",
+        "Be ready to discuss TD Ameritrade integration risks",
+        "Demonstrate communication skills explaining risk concepts",
+        "Show business partnership mindset, not just control function",
+        "Research current risk topics in brokerage/banking",
+        "Prepare questions about risk priorities and team structure",
+        "Be ready to discuss how you handle pressure situations",
+        "Show FRM/CFA progress or plans if applicable",
+        "Demonstrate analytical approach to problem-solving"
+      ],
+      salary: {
+        min: 70000,
+        max: 110000
+      },
+      compensation: [
+        "Base salary: $70-110K depending on experience and specialization",
+        "Annual bonus: 10-20% based on performance",
+        "Total compensation typically $77-130K for risk analysts",
+        "Senior analysts and managers: $100-160K+",
+        "FRM/CFA exam sponsorship and study support",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Employee stock purchase plan",
+        "Professional development budget",
+        "Hybrid work flexibility"
+      ],
+      dayInLife: {
+        overview: "Risk Analysts at Schwab work in professional environment with good work-life balance. Typical hours are 8:30am-5:30pm with some flexibility. The role balances monitoring and reporting with proactive risk analysis. Schwab's conservative culture provides strong support for risk functions. Teams collaborate with business partners rather than operating as adversarial function.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Review",
+            description: "Check overnight risk reports, review market developments, assess any emerging risk items."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Risk Meeting",
+            description: "Team meeting to review current risk items, coordinate projects, and discuss emerging risks."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Risk Analysis",
+            description: "Perform risk analysis—stress testing, scenario modeling, or risk assessment for business initiative."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Business Partner Meeting",
+            description: "Meet with business unit to discuss risk considerations for new product launch."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break. May include risk team lunch or professional development."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Report Development",
+            description: "Prepare risk reports for upcoming committee meeting. Synthesize findings and recommendations."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Regulatory Review",
+            description: "Review regulatory updates and assess implications for Schwab. Document analysis."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Documentation",
+            description: "Update risk documentation, procedures, or dashboards."
+          },
+          {
+            time: "5:30 PM",
+            activity: "End of Day",
+            description: "Review outstanding items, plan for tomorrow. Head home."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "TD Ameritrade", companySlug: "td-ameritrade", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" }
+      ]
+    }
+  },
 }
 
 // Content for FAANG+, Uber, Airbnb, Stripe, Salesforce, DoorDash, Goldman Sachs, and McKinsey
