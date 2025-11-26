@@ -1257,256 +1257,386 @@ export const companies = {
   },
   'vanguard': {
     name: 'Vanguard',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Vanguard interview with preparation tailored to the pioneer of low-cost investing - emphasizing client-first values, investment philosophy, and the unique crew culture.',
     industry: 'Finance',
     headquarters: 'Malvern, PA',
-    description: 'Vanguard is one of the world\'s largest investment management companies known for pioneering low-cost index investing. Vanguard interviews emphasize alignment with their client-first philosophy, analytical abilities, and collaborative culture.',
+    description: 'Vanguard is the world\'s second-largest asset manager with over $8 trillion in assets under management and a revolutionary ownership structure - Vanguard is owned by its funds, which are owned by their shareholders. Founded by John Bogle, Vanguard pioneered low-cost index investing and continues to lead the industry in driving down fees. The firm\'s mutual structure means profits go back to fund shareholders through lower costs, creating genuine alignment with client interests. Vanguard employees are called "crew members" reflecting a collaborative, mission-driven culture. The interview process emphasizes alignment with Vanguard\'s client-first philosophy, intellectual honesty about investing, and the humility that comes with recognizing market efficiency. Vanguard offers excellent work-life balance and career development in a values-driven environment.',
     interviewTips: [
-      'Understand Vanguard\'s unique ownership structure',
-      'Prepare to discuss passive vs active investing',
-      'Show alignment with putting clients first',
-      'Demonstrate long-term thinking',
-      'Research their index fund innovations'
+      'Deeply understand Vanguard\'s unique mutual ownership structure - it\'s fundamental to their mission and culture',
+      'Be prepared to discuss John Bogle\'s investment philosophy and the efficient market hypothesis',
+      'Know the difference between active and passive investing and have a thoughtful view on when each makes sense',
+      'Vanguard calls employees "crew members" - demonstrate collaborative, team-first mindset over individual heroics',
+      'Emphasize client-first thinking in all your examples - Vanguard genuinely puts investors first due to ownership structure',
+      'Understand Vanguard\'s position in the asset management landscape vs BlackRock, Fidelity, Schwab',
+      'Be prepared for questions about fee compression, ETF vs mutual fund trends, and industry disruption',
+      'Vanguard values intellectual honesty - don\'t pretend you can beat the market if you believe in efficient markets',
+      'Research Vanguard\'s expansion into advice services and Personal Advisor Services offering',
+      'Demonstrate long-term thinking aligned with Vanguard\'s patient, low-turnover investment approach',
+      'For investment roles, understand factor investing, index construction, and tracking error concepts',
+      'Be ready to discuss why Vanguard over other asset managers - focus on mission and ownership structure',
+      'Vanguard emphasizes humility and continuous learning - show coachability and openness to feedback',
+      'Prepare examples demonstrating that you prioritize doing right over being right'
     ],
     whatTheyLookFor: [
-      'Client-centric values',
-      'Analytical thinking',
-      'Humility and teamwork',
-      'Long-term orientation',
-      'Investment knowledge'
+      'Genuine alignment with client-first philosophy',
+      'Intellectual honesty about investing and markets',
+      'Collaborative "crew member" mentality',
+      'Long-term thinking over short-term gains',
+      'Humility and coachability',
+      'Strong analytical and quantitative abilities',
+      'Clear communication of investment concepts',
+      'Values alignment with Vanguard\'s mission',
+      'Patience and low-ego approach',
+      'Genuine interest in helping investors succeed'
     ],
     process: [
       {
         step: 1,
         title: 'Online Application',
-        description: 'Submit resume and application'
+        description: 'Submit application through Vanguard\'s careers portal including resume and cover letter. Vanguard reviews applications carefully for values alignment, so tailor your materials to reflect client-first thinking and interest in their mission. Highlight collaborative experiences and genuine interest in investing.'
       },
       {
         step: 2,
         title: 'Phone Screen',
-        description: 'Initial conversation about background and fit'
+        description: '30-45 minute conversation with recruiter or hiring manager covering your background, interest in Vanguard specifically, and alignment with their values. Expect questions about why Vanguard, your investment philosophy, and examples of putting others\' interests first. Vanguard screens heavily for cultural fit early.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews',
-        description: '3-4 behavioral and technical interviews'
+        title: 'Onsite/Virtual Interviews',
+        description: 'Full interview day consisting of 3-5 interviews with team members and leadership. Expect a mix of behavioral questions (emphasizing client-first thinking, collaboration, humility), technical questions relevant to the role, and discussions about investment philosophy. Some roles include case studies or presentations.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Decision typically within 2 weeks'
+        title: 'Offer Decision',
+        description: 'Hiring committee reviews all feedback with strong emphasis on values alignment alongside technical qualifications. Decisions typically within 1-2 weeks. Vanguard offers competitive compensation plus excellent benefits including generous retirement contributions (reflecting their focus on helping people save).'
       }
     ],
     questions: [
-      'Why Vanguard over other asset managers?',
-      'What\'s your view on passive vs active investing?',
-      'How would you explain index funds to a client?',
-      'Describe a time you put someone else\'s needs first',
-      'What attracts you to the investment industry?'
+      'Why Vanguard? What attracts you to our ownership structure and mission?',
+      'What\'s your view on active vs passive investing? When does each make sense?',
+      'Explain Vanguard\'s ownership structure and why it matters for investors',
+      'Tell me about a time you put someone else\'s interests ahead of your own',
+      'How would you explain the benefits of low-cost investing to a new investor?',
+      'What do you think about the efficient market hypothesis?',
+      'How would you handle a client who wanted to chase a "hot" stock or fund?',
+      'Tell me about a time you had to deliver news someone didn\'t want to hear',
+      'What\'s happening in the asset management industry? Where is it headed?',
+      'How would you explain index fund investing to your grandmother?',
+      'Describe a time you worked collaboratively to achieve a goal',
+      'What differentiates Vanguard from BlackRock or Fidelity?',
+      'Tell me about a time you changed your view based on new information',
+      'How do you stay informed about markets and investing?',
+      'What role should costs play in investment decisions?',
+      'Where do you see yourself contributing to Vanguard\'s mission?',
+      'What questions do you have about Vanguard or this role?'
     ],
     relatedCompanies: ['blackrock', 'fidelity', 'schwab', 'state-street']
   },
   'schwab': {
     name: 'Charles Schwab',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Ace your Charles Schwab interview with strategies covering their challenger mindset, client advocacy, and the culture that democratized investing for everyday Americans.',
     industry: 'Finance',
     headquarters: 'Westlake, TX',
-    description: 'Charles Schwab is a leading brokerage and banking services firm focused on democratizing investing. Schwab interviews assess client service orientation, technical knowledge, and alignment with their mission to empower investors.',
+    description: 'Charles Schwab is the largest publicly traded U.S. brokerage firm with over $8 trillion in client assets, serving 34+ million accounts. The firm pioneered discount brokerage in 1975 and continues its mission to democratize investing for all Americans. Schwab\'s 2020 acquisition of TD Ameritrade created a wealth management powerhouse combining best-in-class trading platforms, banking services, and advisory offerings. The culture is rooted in "through clients\' eyes" thinking and challenging industry conventions that don\'t serve investors. Schwab relocated headquarters from San Francisco to Westlake, Texas in 2020, reflecting cost-consciousness that benefits clients. Interviews assess client service orientation, problem-solving abilities, and alignment with Schwab\'s challenger mentality. Schwab offers strong career development, excellent benefits, and a culture that genuinely prioritizes client advocacy.',
     interviewTips: [
-      'Emphasize customer service and empathy',
-      'Understand retail brokerage and wealth management',
-      'Show interest in financial technology',
-      'Prepare for scenario-based questions',
-      'Research Schwab\'s acquisition of TD Ameritrade'
+      'Understand Schwab\'s "through clients\' eyes" philosophy - it\'s central to their culture and decision-making',
+      'Research the TD Ameritrade acquisition and how integration is creating value for clients',
+      'Be prepared to discuss Schwab\'s history as a challenger brand that disrupted full-service brokers',
+      'Know Schwab\'s business segments: retail brokerage, advisor services, banking, and asset management',
+      'Demonstrate client empathy - Schwab wants people who genuinely care about helping investors',
+      'Understand how Schwab makes money (NII, asset management fees, trading) since they pioneered $0 commissions',
+      'Be ready to discuss retail investing trends: commission-free trading, fractional shares, robo-advisory',
+      'Schwab values practical problem-solving - prepare examples of helping customers through complex situations',
+      'Research Schwab Intelligent Portfolios (robo-advisor) and how it competes with Betterment, Wealthfront',
+      'Understand Schwab vs Fidelity vs Vanguard positioning in retail brokerage and wealth management',
+      'Schwab emphasizes "own your tomorrow" - show long-term thinking and personal financial responsibility',
+      'For client-facing roles: demonstrate patience explaining complex concepts simply',
+      'Schwab relocated to Texas - understand the cost-conscious culture this reflects',
+      'Be prepared for scenario-based questions about handling difficult client situations'
     ],
     whatTheyLookFor: [
-      'Client service excellence',
-      'Integrity and trust',
-      'Financial knowledge',
-      'Problem-solving skills',
-      'Team collaboration'
+      'Client-first mindset with genuine empathy',
+      'Problem-solving orientation for complex client needs',
+      'Challenger mentality questioning status quo',
+      'Strong communication and relationship skills',
+      'Financial knowledge and interest in investing',
+      'Integrity and trustworthiness',
+      'Patience explaining concepts to diverse audiences',
+      'Team collaboration and support',
+      'Continuous learning orientation',
+      'Alignment with democratizing investing mission'
     ],
     process: [
       {
         step: 1,
-        title: 'Application Submission',
-        description: 'Apply online with resume'
+        title: 'Online Application',
+        description: 'Submit application through Schwab\'s careers portal with resume. Some roles include initial assessments testing customer service aptitude, financial knowledge, or technical skills depending on the position. Highlight client service experiences and problem-solving examples.'
       },
       {
         step: 2,
         title: 'Recruiter Phone Screen',
-        description: 'Initial screening conversation'
+        description: '30-minute initial conversation covering your background, interest in Schwab, and basic fit assessment. Expect questions about why Schwab specifically, client service philosophy, and career goals. Schwab recruiters assess "through clients\' eyes" alignment early in the process.'
       },
       {
         step: 3,
-        title: 'Hiring Manager Interview',
-        description: 'Technical and behavioral interview'
+        title: 'Hiring Manager & Team Interviews',
+        description: '2-4 interviews with hiring manager and team members covering technical competencies, behavioral scenarios, and cultural fit. Expect scenario-based questions about handling client situations, explaining investment concepts, and problem-solving. Some roles include role-play exercises simulating client interactions.'
       },
       {
         step: 4,
         title: 'Final Interview & Offer',
-        description: 'Meet with additional team members'
+        description: 'Final round may include senior leadership or cross-functional partners. Background check and offer decision typically within 1-2 weeks. Schwab offers competitive compensation, strong 401(k) match, employee stock purchase plan, and excellent benefits. Many roles offer hybrid or remote flexibility.'
       }
     ],
     questions: [
-      'How would you help a client who is risk-averse?',
-      'Why Charles Schwab?',
-      'Explain different investment vehicles',
-      'Describe a time you exceeded customer expectations',
-      'What trends do you see in retail investing?'
+      'Why Charles Schwab? What attracts you to our mission?',
+      'How would you explain our business model to someone unfamiliar with brokerage?',
+      'Tell me about a time you helped someone through a complex problem',
+      'How does Schwab make money if trading is commission-free?',
+      'Describe a situation where you had to explain something complicated simply',
+      'What trends are you seeing in retail investing?',
+      'How would you handle a client upset about investment losses?',
+      'What differentiates Schwab from Fidelity or Vanguard?',
+      'Tell me about a time you challenged the status quo',
+      'How would you approach a client who wants to make a risky investment decision?',
+      'What does "through clients\' eyes" mean to you?',
+      'Describe a time you went above and beyond for a customer',
+      'How do you stay informed about financial markets and investing trends?',
+      'What would you do if a client asked you to do something against their best interest?',
+      'Tell me about the TD Ameritrade acquisition - what does it mean for clients?',
+      'Where do you see yourself in five years?',
+      'What questions do you have about Schwab or this role?'
     ],
     relatedCompanies: ['vanguard', 'fidelity', 'td-ameritrade', 'etrade']
   },
   'capital-one': {
     name: 'Capital One',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Capital One interview with comprehensive case prep, data-driven thinking, and strategies for the bank that operates like a tech company.',
     industry: 'Finance',
     headquarters: 'McLean, VA',
-    description: 'Capital One is a bank holding company specializing in credit cards, auto loans, banking, and savings accounts. Known for their technology-forward approach, Capital One interviews emphasize analytical problem-solving, data-driven thinking, and innovation.',
+    description: 'Capital One is a Fortune 100 bank holding company that pioneered data-driven decision making in financial services, famously asking "What\'s in your wallet?" The firm is known for operating like a tech company within banking, with engineers comprising a significant portion of employees and a culture of analytical rigor and experimentation. Capital One operates through three segments: Credit Cards (the #3 U.S. issuer), Consumer Banking, and Commercial Banking. The interview process is notably rigorous, featuring case interviews similar to management consulting and emphasizing quantitative problem-solving, data analysis, and product thinking. Capital One offers a unique blend of finance and tech culture with strong career development, competitive compensation, and a commitment to using data and technology to transform banking.',
     interviewTips: [
-      'Prepare for case interviews and analytical questions',
-      'Show strong quantitative and problem-solving skills',
-      'Understand their digital banking innovations',
-      'Demonstrate data analysis abilities',
-      'Research their tech culture and engineering practices'
+      'Prepare extensively for case interviews - Capital One\'s are as rigorous as top consulting firms',
+      'Practice market sizing and estimation questions ("How many ATMs in the US?")',
+      'Understand Capital One\'s data-driven culture - they pioneered using data science in consumer lending',
+      'Be ready to discuss credit risk, customer acquisition cost, and lifetime value concepts',
+      'Know Capital One\'s business segments: Credit Cards, Consumer Banking, Commercial Banking',
+      'Demonstrate product thinking - how would you improve Capital One\'s mobile app or rewards program?',
+      'Practice structured problem-solving: frameworks, hypothesis-driven analysis, clear communication',
+      'Understand why Capital One is "a tech company that happens to do banking"',
+      'Research Capital One\'s tech stack and engineering culture - they\'re major cloud adopters',
+      'Be prepared for multiple rounds of cases - "Power Day" can include 3-5 case interviews',
+      'Show quantitative comfort - Capital One values people who can work with numbers fluently',
+      'Understand credit card economics: interchange, interest income, rewards costs, charge-offs',
+      'Prepare examples demonstrating analytical thinking and data-driven decision making',
+      'Capital One values diversity of thought - don\'t be afraid to challenge assumptions or offer creative solutions'
     ],
     whatTheyLookFor: [
-      'Analytical thinking',
-      'Data-driven decision making',
-      'Innovation mindset',
-      'Problem-solving creativity',
-      'Tech-forward approach'
+      'Strong analytical and quantitative abilities',
+      'Structured problem-solving approach',
+      'Data-driven decision making mindset',
+      'Product thinking and customer focus',
+      'Intellectual curiosity and creativity',
+      'Clear communication of complex analysis',
+      'Comfort with ambiguity and iteration',
+      'Technical aptitude (coding is valued even for non-engineering roles)',
+      'Growth mindset and continuous learning',
+      'Collaborative yet independent thinking'
     ],
     process: [
       {
         step: 1,
         title: 'Online Application',
-        description: 'Submit application and resume'
+        description: 'Submit application through Capital One\'s careers portal. Many roles include an online assessment with quantitative reasoning, logical thinking, or coding challenges depending on the position. Some roles include a HireVue component with recorded video questions. Highlight analytical experiences and quantitative achievements.'
       },
       {
         step: 2,
-        title: 'Power Day',
-        description: '3-5 case and behavioral interviews'
+        title: 'Phone/Video Screen',
+        description: '30-45 minute conversation with recruiter or hiring manager, often including a mini-case or analytical question. Expect questions about your background, interest in Capital One, and basic problem-solving ability. Some roles include technical screening for data science or engineering positions.'
       },
       {
         step: 3,
-        title: 'Case Studies',
-        description: 'Business case analysis and presentation'
+        title: 'Power Day',
+        description: 'Capital One\'s famous "Power Day" consists of 3-5 back-to-back interviews including multiple case interviews, behavioral interviews, and potentially technical rounds depending on role. Cases cover market sizing, profitability analysis, product strategy, and credit risk scenarios. Expect to present your analysis and be challenged on your assumptions.'
       },
       {
         step: 4,
         title: 'Offer Decision',
-        description: 'Final review and offer'
+        description: 'Hiring committee reviews feedback holistically. Decisions typically within 1-2 weeks after Power Day. Capital One offers competitive base salary, annual bonus, equity for senior roles, and strong benefits including 401(k) match and tuition reimbursement. McLean HQ roles may involve some in-office work.'
       }
     ],
     questions: [
-      'Estimate the number of ATMs in the US',
+      'Estimate the number of credit card transactions in the US per day',
       'How would you improve Capital One\'s mobile app?',
-      'Walk me through how you\'d analyze credit risk',
-      'Why Capital One over traditional banks?',
-      'Solve this market sizing problem'
+      'Walk me through how you would analyze whether to enter a new market',
+      'A product is underperforming - how would you diagnose the issue?',
+      'How does a credit card company make money? Walk me through the economics',
+      'Estimate the market size for [product/service]',
+      'Why Capital One? What attracts you to our culture?',
+      'Tell me about a time you used data to make a decision',
+      'How would you design a new rewards program?',
+      'Walk me through how you would assess credit risk for a new customer segment',
+      'What would you do to increase customer acquisition for Capital One?',
+      'Describe a time you solved a complex analytical problem',
+      'How do you approach a problem when you don\'t have all the information?',
+      'What trends do you see in consumer banking and fintech?',
+      'Tell me about a time you changed your approach based on data',
+      'How would you prioritize features for a new product?',
+      'What questions do you have about Capital One?'
     ],
     relatedCompanies: ['jpmorgan', 'american-express', 'discover', 'synchrony']
   },
   'american-express': {
     name: 'American Express',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Ace your American Express interview with strategies for the premium brand known for exceptional service - covering customer obsession, relationship building, and the membership model.',
     industry: 'Finance',
     headquarters: 'New York, NY',
-    description: 'American Express is a global payments and travel company known for its premium charge cards and customer service excellence. Amex interviews focus on customer obsession, relationship building, and alignment with their service-oriented culture.',
+    description: 'American Express is a globally integrated payments company known for premium charge cards, exceptional customer service, and the mantra "membership has its privileges." Unlike Visa and Mastercard (which are payment networks), Amex operates a closed-loop network as both issuer and network, giving them direct customer relationships and richer data. Amex serves consumers, small businesses, and corporations through Card Services, Merchant Services, and Travel & Lifestyle Services. The company is famous for its customer obsession culture, backing members through "The Amex Promise" and maintaining the highest customer satisfaction scores in the industry. Interviews assess service orientation, relationship-building ability, and fit with a culture that genuinely believes in putting members first. Amex offers strong career development, excellent benefits, and a collaborative environment in iconic NYC headquarters.',
     interviewTips: [
-      'Emphasize customer service and relationship building',
-      'Understand the payments industry landscape',
-      'Show examples of going above and beyond',
-      'Research Amex\'s brand positioning and premium services',
-      'Demonstrate problem-solving for customer issues'
+      'Understand Amex\'s unique business model as both network and issuer (closed-loop vs Visa/Mastercard open-loop)',
+      'Internalize "backing" culture - Amex is famous for standing behind members in disputes and emergencies',
+      'Research the difference between charge cards (pay in full) and credit cards - Amex pioneered charge cards',
+      'Know Amex\'s premium positioning: higher merchant fees, higher-spending cardmembers, better rewards',
+      'Be prepared to discuss how you\'ve delivered exceptional customer experiences in your past',
+      'Understand Amex\'s three segments: Consumer Services, Commercial Services, Merchant & Network Services',
+      'Demonstrate relationship-building skills - Amex values long-term member relationships over transactions',
+      'Research Amex\'s strategy to attract younger members (Millennials, Gen Z) while maintaining premium positioning',
+      'Know major Amex products: Platinum Card, Gold Card, Blue Cash, Centurion (Black Card), Delta/Hilton co-brands',
+      'Understand the small business focus - Amex is a leading small business lender and card issuer',
+      'Be ready for scenario questions about handling difficult member situations with empathy and resolution',
+      'Research Amex\'s travel and lifestyle benefits - lounges, experiences, concierge services',
+      'Amex has "Blue Box Values" - understand their corporate values and how they guide decision-making',
+      'Show genuine interest in premium service - Amex wants people who believe in the power of great experiences'
     ],
     whatTheyLookFor: [
-      'Customer obsession',
-      'Relationship building skills',
-      'Premium service mindset',
-      'Problem-solving abilities',
-      'Brand alignment'
+      'Customer obsession and service excellence mindset',
+      'Strong relationship-building abilities',
+      'Problem-solving focused on member outcomes',
+      'Premium brand alignment and understanding',
+      'Collaborative and inclusive approach',
+      'Clear, professional communication',
+      'Integrity and trustworthiness',
+      'Growth mindset and adaptability',
+      'Genuine empathy for customers',
+      'Long-term thinking over short-term gains'
     ],
     process: [
       {
         step: 1,
         title: 'Online Application',
-        description: 'Apply through career portal'
+        description: 'Submit application through American Express careers portal with resume. Some roles include online assessments testing customer service aptitude, problem-solving, or role-specific skills. Tailor your resume to highlight customer service excellence and relationship-building experiences.'
       },
       {
         step: 2,
         title: 'Phone Screen',
-        description: 'Recruiter conversation about background'
+        description: '30-45 minute conversation with recruiter covering your background, interest in American Express, and initial fit assessment. Expect questions about why Amex specifically, examples of customer service excellence, and career goals. Recruiters assess culture fit and "backing" mindset early.'
       },
       {
         step: 3,
         title: 'Interview Rounds',
-        description: '2-4 interviews with team members'
+        description: '2-4 interviews with hiring manager, team members, and potentially cross-functional partners. Expect behavioral questions about customer situations, problem-solving scenarios, and culture fit discussions. Some roles include case studies or presentations. Interviews often focus on how you\'ve gone above and beyond for customers.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Background check and offer decision'
+        title: 'Final Review & Offer',
+        description: 'Hiring committee reviews all feedback with strong emphasis on customer obsession and culture fit. Background check required. Decisions typically within 1-2 weeks. Amex offers competitive compensation, excellent benefits, generous 401(k), employee card program, and strong career development. NYC headquarters offers iconic office experience.'
       }
     ],
     questions: [
-      'Why American Express?',
-      'How would you handle a dissatisfied customer?',
-      'What differentiates Amex from Visa and Mastercard?',
-      'Describe a time you exceeded expectations',
-      'How would you attract millennials to our platform?'
+      'Why American Express? What attracts you to our brand and culture?',
+      'How is Amex\'s business model different from Visa or Mastercard?',
+      'Tell me about a time you went above and beyond for a customer',
+      'How would you handle a cardmember upset about a declined transaction?',
+      'What does "backing our members" mean to you?',
+      'How would you attract millennials to American Express products?',
+      'Describe a situation where you turned a dissatisfied customer into a loyal one',
+      'What makes premium service different from good service?',
+      'Tell me about a time you built a strong relationship through difficult circumstances',
+      'How do you balance company policies with customer needs?',
+      'What trends do you see in payments and how might they affect Amex?',
+      'Describe a time you showed empathy in a professional situation',
+      'How would you explain the value of the Platinum Card to a skeptical prospect?',
+      'Tell me about a time you collaborated with others to solve a customer problem',
+      'What does "membership has its privileges" mean to you?',
+      'Where do you see yourself in five years?',
+      'What questions do you have about American Express?'
     ],
     relatedCompanies: ['visa', 'mastercard', 'capital-one', 'discover']
   },
   'visa': {
     name: 'Visa',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Visa interview with deep payments industry knowledge, global perspective, and strategies for the network that processes $14+ trillion annually.',
     industry: 'Finance',
     headquarters: 'San Francisco, CA',
-    description: 'Visa is a global payments technology company that enables electronic payments around the world. Visa interviews assess technical knowledge of payments, innovation mindset, and ability to think globally about financial technology.',
+    description: 'Visa is the world\'s largest payment network, processing over $14 trillion in transactions annually across 200+ countries. Unlike banks that issue cards, Visa operates as an open-loop network connecting issuers, acquirers, and merchants - earning revenue from transaction fees rather than interest income. Visa\'s mission to connect the world through digital payments drives innovation in contactless, e-commerce, and emerging payment technologies. The company employs 26,000+ people globally with engineering hubs in San Francisco, Austin, Bangalore, Singapore, and London. Interviews assess payments industry knowledge, technical aptitude, global mindset, and ability to think strategically about financial technology. Visa offers a unique blend of financial services and technology culture with strong compensation, excellent benefits, and exposure to the infrastructure powering global commerce.',
     interviewTips: [
-      'Understand the payments ecosystem deeply',
-      'Show interest in fintech innovation',
-      'Prepare for technical and product questions',
-      'Research Visa\'s global network and technology',
-      'Demonstrate cross-cultural awareness'
+      'Understand the four-party model: issuer, acquirer, merchant, cardholder - and where Visa fits',
+      'Know how Visa makes money: service fees (based on payment volume), data processing fees (per transaction), and international fees',
+      'Research the difference between Visa\'s open-loop network and Amex\'s closed-loop model',
+      'Be prepared to discuss payment trends: contactless, mobile wallets, buy now pay later, crypto/blockchain',
+      'Understand Visa\'s competitive landscape: Mastercard (primary), Amex, PayPal, newer fintechs, regional networks',
+      'Know Visa\'s recent strategic moves: acquisitions (Plaid attempt, Currencycloud), fintech partnerships',
+      'Demonstrate global perspective - Visa\'s growth is increasingly in international and emerging markets',
+      'Understand authorization, clearing, and settlement - the core processes Visa enables',
+      'Research Visa Direct (push payments) and B2B Connect - key growth areas beyond traditional card payments',
+      'Be ready to discuss security and fraud - Visa invests heavily in AI and analytics to protect the network',
+      'Know interchange dynamics and regulatory pressures (Durbin Amendment, EU regulations)',
+      'For technology roles: understand real-time processing at massive scale (65,000+ messages per second)',
+      'Visa values innovation - be prepared to discuss how payments might evolve in the next 5-10 years',
+      'Demonstrate strategic thinking - Visa operates at ecosystem level, not just product level'
     ],
     whatTheyLookFor: [
-      'Payments knowledge',
-      'Innovation mindset',
-      'Global perspective',
-      'Technical aptitude',
-      'Strategic thinking'
+      'Deep interest in payments and financial technology',
+      'Global mindset and cross-cultural awareness',
+      'Strategic thinking at ecosystem level',
+      'Technical aptitude and innovation orientation',
+      'Strong analytical and problem-solving abilities',
+      'Clear communication of complex concepts',
+      'Collaborative approach across diverse teams',
+      'Adaptability in rapidly evolving industry',
+      'Customer and partner orientation',
+      'Integrity in sensitive financial infrastructure role'
     ],
     process: [
       {
         step: 1,
-        title: 'Application & Screen',
-        description: 'Online application and initial screening'
+        title: 'Online Application',
+        description: 'Submit application through Visa\'s careers portal with resume. Some roles include online assessments testing analytical ability, technical skills, or role-specific competencies. Highlight payments industry knowledge, global experience, or technology background depending on role.'
       },
       {
         step: 2,
-        title: 'Phone Interview',
-        description: 'Technical and behavioral questions'
+        title: 'Recruiter Phone Screen',
+        description: '30-45 minute initial conversation covering your background, interest in Visa and the payments industry, and basic fit assessment. Expect questions about why payments, why Visa, and your understanding of how the payment ecosystem works. Recruiters look for genuine industry interest.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews',
-        description: '3-5 rounds with team members'
+        title: 'Hiring Manager & Team Interviews',
+        description: '3-5 interviews with hiring manager, team members, and cross-functional partners. Expect a mix of technical questions (payments knowledge, role-specific skills), strategic questions (industry trends, product thinking), and behavioral questions. Some roles include case studies or presentations on payment-related challenges.'
       },
       {
         step: 4,
-        title: 'Final Review',
-        description: 'Team decision and offer'
+        title: 'Final Review & Offer',
+        description: 'Hiring committee reviews all feedback. Background check required given sensitive financial infrastructure role. Decisions typically within 1-2 weeks. Visa offers highly competitive compensation, strong equity grants, excellent benefits, and San Francisco headquarters with hybrid flexibility. International mobility opportunities available.'
       }
     ],
     questions: [
-      'How does Visa make money?',
-      'What trends are shaping the payments industry?',
-      'How would you approach expanding into a new market?',
-      'Explain the difference between issuer and acquirer',
-      'Why Visa over competitors?'
+      'How does Visa make money? Explain the four-party model',
+      'Why Visa? What attracts you to the payments industry?',
+      'What\'s the difference between Visa and American Express business models?',
+      'What trends do you see shaping the future of payments?',
+      'How would you approach expanding Visa into a market with low card penetration?',
+      'Explain the difference between a transaction\'s authorization and settlement',
+      'What do you think about buy now pay later? Is it a threat to traditional cards?',
+      'How would you evaluate a potential fintech acquisition for Visa?',
+      'What role should Visa play in cryptocurrency and blockchain?',
+      'Describe a time you worked on a project with global stakeholders',
+      'How would you improve the checkout experience for e-commerce?',
+      'What are the biggest challenges facing the payments industry?',
+      'How do you think about balancing security and user experience?',
+      'Tell me about a time you solved a complex strategic problem',
+      'How would you position Visa against a new fintech competitor?',
+      'Where do you see payments in 10 years?',
+      'What questions do you have about Visa?'
     ],
     relatedCompanies: ['mastercard', 'american-express', 'paypal', 'stripe']
   },
