@@ -20449,6 +20449,1470 @@ export const rolePageContent = {
         { companyName: "Uber", companySlug: "uber", industry: "Technology" }
       ]
     }
+  },
+  'blackrock': {
+    'portfolio-manager': {
+      roleDescription: "Portfolio Managers at BlackRock manage investment portfolios across the world's largest asset manager with over $10 trillion in assets under management. Working within Active Equity, Fixed Income, Multi-Asset, or Index strategies, you'll construct and manage portfolios using BlackRock's proprietary Aladdin platform for risk analytics and portfolio management. BlackRock's scale provides access to unparalleled research resources, risk management tools, and global market insights. The firm offers both fundamental and systematic investment approaches across public and private markets. Portfolio Managers benefit from BlackRock's integrated platform connecting investment teams with Risk & Quantitative Analysis (RQA), Trading, and Client teams. The collaborative culture emphasizes data-driven decision making, risk awareness, and long-term investment outcomes. Career progression is merit-based with opportunities to manage larger mandates and lead investment teams.",
+      responsibilities: [
+        "Construct and manage investment portfolios aligned with client mandates and investment objectives",
+        "Generate investment ideas through fundamental research, quantitative analysis, and market insights",
+        "Utilize Aladdin platform for portfolio construction, risk monitoring, and performance attribution",
+        "Collaborate with Research Analysts to evaluate investment opportunities across sectors and geographies",
+        "Partner with Risk & Quantitative Analysis (RQA) team to ensure portfolios operate within risk parameters",
+        "Work with Trading desk to optimize execution and minimize transaction costs",
+        "Communicate investment strategy and portfolio positioning to clients and internal stakeholders",
+        "Participate in investment team discussions and contribute to idea generation process",
+        "Monitor portfolio exposures, factor tilts, and ensure alignment with investment process"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to Portfolio Manager to Managing Director",
+        "Opportunity to manage larger and more complex mandates as skills develop",
+        "Exposure to multiple asset classes and investment approaches across BlackRock's platform",
+        "Access to Aladdin technology and world-class research resources unavailable elsewhere",
+        "Path to specialized roles: sector specialist, multi-asset strategist, or quantitative PM",
+        "International opportunities across BlackRock's global investment offices",
+        "Ability to build track record with institutional scale and proper infrastructure",
+        "Development through BlackRock's structured investment professional training"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screen",
+          description: "30-45 minute phone or video interview with HR or junior investment team member. Discuss background, motivation for asset management, and interest in BlackRock. Expect questions on markets and investment philosophy.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Investment Case Study",
+          description: "Prepare and present a stock pitch or investment idea relevant to the team's mandate. Demonstrate investment process, analytical rigor, and ability to articulate thesis clearly. Expect follow-up questions testing conviction and understanding.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "4-6 rounds with Portfolio Managers, Research Analysts, and senior leadership. Mix of technical questions (valuation, portfolio construction, risk), behavioral assessment, and cultural fit. Demonstrate passion for investing and collaborative mindset.",
+          duration: "4-6 hours"
+        },
+        {
+          step: 4,
+          title: "Final Round",
+          description: "Meeting with senior leadership or CIO depending on role level. Discussion of investment philosophy, career goals, and fit with team culture. Offers typically follow within 1-2 weeks."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your investment process. How do you generate and evaluate ideas?",
+        "Pitch me a stock you're excited about. What's the thesis and key risks?",
+        "How do you think about position sizing and portfolio construction?",
+        "Explain how you would use factor analysis in portfolio management.",
+        "What risk metrics do you monitor and why?",
+        "How do you think about the relationship between alpha generation and risk?",
+        "Walk me through a DCF model. What are the key assumptions?",
+        "How would you evaluate a company's competitive moat?",
+        "What's your view on current market conditions? Where do you see opportunities?",
+        "How do you think about portfolio turnover and transaction costs?",
+        "Explain tracking error and information ratio. Why do they matter?",
+        "How would you approach managing a portfolio through market volatility?",
+        "What's the difference between systematic and fundamental investing?",
+        "How do you incorporate ESG factors into investment decisions?",
+        "Walk me through performance attribution. What drives alpha?",
+        "How would you use Aladdin for portfolio risk management?"
+      ],
+      behavioralQuestions: [
+        "Why asset management? Why BlackRock specifically?",
+        "Tell me about an investment you made that didn't work out. What did you learn?",
+        "Describe a time you changed your investment view based on new information.",
+        "How do you stay informed about markets and generate investment ideas?",
+        "Tell me about working with others who had different investment views.",
+        "Describe making a decision with incomplete information.",
+        "How do you handle underperformance in your portfolio?",
+        "Tell me about a time you had to defend an unpopular investment view.",
+        "What qualities make someone successful in portfolio management?",
+        "How do you balance conviction with humility in investing?",
+        "Describe your experience working in team-based investment environments.",
+        "What differentiates BlackRock from other asset managers?"
+      ],
+      whatTheyLookFor: [
+        "Genuine passion for investing and markets",
+        "Strong analytical and quantitative foundation",
+        "Clear investment process and ability to articulate thesis",
+        "Risk awareness and understanding of portfolio construction",
+        "Intellectual curiosity and continuous learning orientation",
+        "Ability to make decisions under uncertainty",
+        "Strong communication skills for client and team interactions",
+        "Collaborative mindset - BlackRock emphasizes teamwork",
+        "Humility to acknowledge mistakes and adapt",
+        "Long-term orientation aligned with client outcomes"
+      ],
+      interviewTips: [
+        "Prepare 2-3 well-researched stock pitches with clear thesis and risks",
+        "Understand BlackRock's investment platform and different strategies offered",
+        "Know current market conditions and have informed views",
+        "Research Aladdin and how it supports investment decision-making",
+        "Prepare examples showing your investment process and analytical rigor",
+        "Demonstrate understanding of risk management and portfolio construction",
+        "Show how you've learned from investment mistakes",
+        "Research the specific team and their investment approach",
+        "Prepare questions about team structure, decision-making process, resources",
+        "Be ready to discuss both fundamental and quantitative concepts",
+        "Show passion for markets - read widely, have informed opinions",
+        "Demonstrate collaborative mindset - BlackRock values teamwork"
+      ],
+      salary: {
+        min: 100000,
+        max: 150000
+      },
+      compensation: [
+        "Base salary: $100-150K for junior Portfolio Manager roles depending on experience",
+        "Annual performance bonus: $50-200K+ based on fund performance and individual contribution",
+        "Total compensation highly variable based on AUM and investment returns",
+        "Senior PMs and MDs can earn $500K-$2M+ in total compensation",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Deferred compensation programs for senior professionals",
+        "Access to BlackRock investment products at reduced fees",
+        "Professional development budget",
+        "Total early-career compensation typically $150-250K"
+      ],
+      dayInLife: {
+        overview: "Portfolio Managers at BlackRock work in intellectually stimulating environment with reasonable hours compared to hedge funds. Typical hours are 7:30am-6:30pm with market-driven intensity. The role combines research, portfolio management, and client interaction. BlackRock's scale provides institutional support and resources while maintaining entrepreneurial investment culture. Aladdin platform centralizes workflow for efficient decision-making.",
+        schedule: [
+          {
+            time: "7:30 AM",
+            activity: "Market Review",
+            description: "Review overnight market developments, portfolio positions, and news on holdings. Check Aladdin dashboards for risk metrics and exposures."
+          },
+          {
+            time: "8:00 AM",
+            activity: "Morning Meeting",
+            description: "Investment team meeting to discuss market developments, share ideas, and coordinate portfolio activity. Collaborative idea generation and debate."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Research & Analysis",
+            description: "Deep-dive research on investment ideas. Review analyst reports, build models, analyze company fundamentals. Use Aladdin for scenario analysis."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Company Interaction",
+            description: "Management meeting or earnings call for portfolio holding. Evaluate new information against investment thesis."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch with team or at desk reviewing research. May include external meetings with sell-side or companies."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Portfolio Review",
+            description: "Analyze portfolio positioning with RQA team. Review factor exposures, risk metrics, and relative performance. Identify rebalancing needs."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Trading Coordination",
+            description: "Work with Trading desk on order execution for portfolio adjustments. Optimize timing and minimize market impact."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Client Preparation",
+            description: "Prepare for upcoming client meeting. Draft portfolio commentary, update attribution analysis, anticipate questions."
+          },
+          {
+            time: "5:30 PM",
+            activity: "End of Day Review",
+            description: "Review day's activity, update investment notes, prepare for tomorrow. Check global market closes."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Wrap Up",
+            description: "Head home around 6:30pm on typical days. Read research and financial news in evening. Intensity varies with market conditions."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "Wellington", companySlug: "wellington", industry: "Finance" },
+        { companyName: "T. Rowe Price", companySlug: "t-rowe-price", industry: "Finance" }
+      ]
+    },
+    'investment-analyst': {
+      roleDescription: "Investment Analysts at BlackRock provide fundamental research and analysis supporting portfolio management across the world's largest asset manager. Working within Active Equity, Fixed Income, or Multi-Asset teams, you'll conduct deep-dive company and sector research using BlackRock's extensive resources including Aladdin analytics, proprietary data, and global research network. The Full-Time Analyst Program is a prestigious two-year rotational experience providing exposure to different investment teams and asset classes. Analysts develop expertise in financial modeling, valuation, and industry analysis while building relationships across BlackRock's integrated platform. The role combines rigorous analytical work with collaboration across Portfolio Managers, Risk teams, and Trading. BlackRock's scale provides exposure to institutional-quality investing while the culture emphasizes learning, mentorship, and career development.",
+      responsibilities: [
+        "Conduct fundamental research on companies, sectors, and investment themes to generate actionable recommendations",
+        "Build and maintain financial models including DCF, comparable company analysis, and scenario modeling",
+        "Analyze financial statements, competitive dynamics, and industry trends to assess investment merit",
+        "Prepare investment memoranda and present research findings to Portfolio Managers and investment teams",
+        "Monitor existing holdings and communicate material developments affecting investment thesis",
+        "Utilize Aladdin platform for portfolio analytics, risk assessment, and performance attribution",
+        "Participate in company management meetings, earnings calls, and industry conferences",
+        "Collaborate with Risk & Quantitative Analysis (RQA) team on portfolio risk considerations",
+        "Stay current on macro developments and their implications for sector and company analysis"
+      ],
+      growthOpportunities: [
+        "Two-Year Analyst Program with rotations across investment teams and asset classes",
+        "Clear progression from Analyst to Associate to Senior Analyst to Portfolio Manager track",
+        "Opportunity to develop sector expertise and become go-to resource for specific industries",
+        "Access to Aladdin technology and world-class research resources for skill development",
+        "Path to Portfolio Management for analysts demonstrating strong investment acumen",
+        "International rotation opportunities across BlackRock's global research platform",
+        "Exposure to both fundamental and quantitative investment approaches",
+        "Structured mentorship program pairing junior analysts with senior investment professionals"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete HireVue video interview and potentially aptitude assessment. Questions assess motivation for investing, analytical thinking, and basic market knowledge. Some roles include numerical reasoning tests.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "First Round Interview",
+          description: "30-45 minute phone or video interview with investment team member. Discussion of background, investment interests, and basic technical concepts. May include market discussion or simple stock pitch.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 3,
+          title: "Stock Pitch & Superday",
+          description: "Prepare and present investment pitch (stock, bond, or sector depending on team). Multiple interviews with Analysts, Portfolio Managers, and senior leadership. Technical deep-dives, behavioral questions, and cultural assessment.",
+          duration: "4-6 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee reviews candidate across technical ability, investment acumen, and cultural fit. Offers typically extended within 1-2 weeks with details on team placement and program structure."
+        }
+      ],
+      technicalQuestions: [
+        "Pitch me a stock. Walk me through your investment thesis and key risks.",
+        "Walk me through a DCF model. What are the key assumptions?",
+        "How do you value a company? What methods would you use?",
+        "Explain the three financial statements and how they connect.",
+        "How would you analyze a company's competitive position?",
+        "What metrics would you focus on for a [sector-specific] company?",
+        "How do interest rates affect equity valuations?",
+        "Walk me through an LBO model at a high level.",
+        "How do you think about valuation multiples? What drives them?",
+        "Explain free cash flow and why it matters for valuation.",
+        "How would you assess a company's balance sheet strength?",
+        "What's the difference between enterprise value and equity value?",
+        "How do you think about growth vs. value investing?",
+        "Walk me through WACC calculation and its components.",
+        "How would you analyze an investment in a cyclical industry?",
+        "What are the key risks to monitor for equity investments?"
+      ],
+      behavioralQuestions: [
+        "Why investment research? Why BlackRock specifically?",
+        "Tell me about an investment idea you've researched. What was your process?",
+        "Describe a time you changed your view based on new information.",
+        "How do you stay informed about markets and generate ideas?",
+        "Tell me about working in a team on an analytical project.",
+        "Describe explaining complex analysis to someone without finance background.",
+        "How do you prioritize when managing multiple research projects?",
+        "Tell me about receiving critical feedback on your work. How did you respond?",
+        "What qualities make someone successful in investment research?",
+        "Describe a mistake you made in analysis. What did you learn?",
+        "How do you approach learning about a new industry?",
+        "What differentiates BlackRock's investment platform?"
+      ],
+      whatTheyLookFor: [
+        "Genuine passion for investing and financial markets",
+        "Strong analytical and quantitative skills",
+        "Clear thinking and ability to structure complex problems",
+        "Intellectual curiosity and drive to understand businesses deeply",
+        "Strong written and verbal communication skills",
+        "Attention to detail in financial analysis",
+        "Ability to work collaboratively in team environment",
+        "Coachability and eagerness to learn",
+        "Humility to acknowledge uncertainty and mistakes",
+        "Long-term career interest in investment management"
+      ],
+      interviewTips: [
+        "Prepare 2-3 well-researched stock pitches appropriate for the team's focus",
+        "Master DCF and comparable company valuation methodologies",
+        "Understand how to analyze financial statements and key metrics",
+        "Research BlackRock's investment platform and different strategies",
+        "Know current market conditions and have informed views",
+        "Prepare examples demonstrating analytical rigor and process",
+        "Research Aladdin and how analysts use it for research",
+        "Practice explaining complex concepts clearly and concisely",
+        "Show passion for markets - read widely, follow companies",
+        "Prepare thoughtful questions about team, mentorship, career paths",
+        "Demonstrate collaborative mindset - BlackRock values teamwork",
+        "Be ready to discuss both fundamental and quantitative concepts"
+      ],
+      salary: {
+        min: 85000,
+        max: 110000
+      },
+      compensation: [
+        "Base salary: $85-110K for analyst program depending on location",
+        "Annual performance bonus: $20-50K based on individual and team performance",
+        "Signing bonus: $10-20K for competitive candidates",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Access to BlackRock investment products at reduced fees",
+        "Tuition reimbursement for relevant certifications (CFA)",
+        "Professional development budget",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $110-165K"
+      ],
+      dayInLife: {
+        overview: "Investment Analysts at BlackRock work in intellectually stimulating environment with reasonable hours. Typical hours are 8am-6:30pm with intensity varying by team and market conditions. The role combines deep research with collaboration across Portfolio Managers, Risk teams, and Trading. BlackRock's Analyst Program provides structured learning while contributing meaningfully to investment decisions. Aladdin platform centralizes research workflow and analytics.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Preparation",
+            description: "Review overnight news on coverage companies and sectors. Check earnings releases, analyst reports, and market developments. Prepare for morning meeting."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Team Meeting",
+            description: "Investment team meeting to discuss market developments, share research findings, and coordinate priorities. Present updates on coverage names."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Research Deep-Dive",
+            description: "Focused research time on priority company or sector. Build financial models, analyze competitive dynamics, review industry data."
+          },
+          {
+            time: "11:00 AM",
+            activity: "PM Discussion",
+            description: "Meet with Portfolio Manager to discuss research findings and investment thesis. Receive feedback, refine analysis, debate investment merit."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch with team or attend internal speaker event. BlackRock hosts frequent learning opportunities."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Earnings Analysis",
+            description: "Analyze quarterly earnings release from coverage company. Update model, assess results vs. thesis, prepare investment note."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Company Meeting",
+            description: "Virtual meeting with company management discussing business trends, strategy, and outlook. Evaluate new information against investment thesis."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Research Writing",
+            description: "Draft investment memo summarizing research findings and recommendation. Clear, concise communication essential for impact."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Finalize work, update research trackers, prepare for tomorrow. Read sell-side research and financial news."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Head Home",
+            description: "Head home around 6:30pm on typical days. Continue reading and market monitoring in evening as interest dictates."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Wellington", companySlug: "wellington", industry: "Finance" },
+        { companyName: "T. Rowe Price", companySlug: "t-rowe-price", industry: "Finance" },
+        { companyName: "Capital Group", companySlug: "capital-group", industry: "Finance" }
+      ]
+    },
+    'risk-analyst': {
+      roleDescription: "Risk Analysts at BlackRock work within Risk & Quantitative Analysis (RQA), providing independent oversight and risk advice to the world's largest asset manager. RQA plays a meaningful role in BlackRock's investment process, using quantitative analysis and multi-disciplinary skills to tackle real-world problems in risk management. You'll partner with Portfolio Managers to build risk-aware portfolios, develop analytics using Aladdin's capabilities, and provide independent risk assessment across $10+ trillion in assets. The Investment Risk team provides oversight spanning Active Equity, Fixed Income, Multi-Asset, and Index strategies. BlackRock's scale means exposure to sophisticated risk methodologies, diverse asset classes, and complex portfolios unavailable elsewhere. The collaborative culture emphasizes data-driven decision-making while maintaining independent perspective. Career paths include deepening technical expertise or transitioning to portfolio management roles.",
+      responsibilities: [
+        "Provide independent risk oversight and advice to Portfolio Managers across investment strategies",
+        "Analyze portfolio risk exposures including factor tilts, concentration risk, and tail risks using Aladdin platform",
+        "Conduct stress testing and scenario analysis to assess portfolio resilience under adverse conditions",
+        "Develop and enhance risk analytics and tools used across BlackRock's investment platform",
+        "Facilitate discussions with Portfolio Managers on portfolio construction and risk/return tradeoffs",
+        "Monitor risk limits and escalate breaches through appropriate governance frameworks",
+        "Perform performance attribution analysis to understand sources of alpha and risk",
+        "Collaborate with Quantitative Research to improve risk models and methodologies",
+        "Support client risk reporting and due diligence processes"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to Vice President in Risk & Quantitative Analysis",
+        "Opportunity to specialize by asset class (equity, fixed income, multi-asset) or risk type",
+        "Access to Aladdin platform and sophisticated risk analytics for professional development",
+        "Path to Portfolio Management for those demonstrating strong investment acumen",
+        "International opportunities across BlackRock's global RQA teams",
+        "Development of quantitative skills applicable across finance industry",
+        "Exposure to institutional-scale risk management across diverse strategies",
+        "Structured training programs in risk methodologies and quantitative techniques"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete HireVue video interview and potentially quantitative aptitude assessment. Questions assess motivation for risk management, analytical thinking, and basic statistics/probability concepts.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute phone interview with RQA team member covering technical concepts (statistics, risk metrics, portfolio theory), market knowledge, and resume discussion.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "4-5 rounds with Risk Analysts, Managers, and potentially Portfolio Managers. Mix of technical questions (VaR, factor models, statistics), case studies, and behavioral assessment. Demonstrate quantitative rigor and communication skills.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates technical competency, analytical thinking, and collaborative mindset. Offers typically extended within 1-2 weeks with details on team placement."
+        }
+      ],
+      technicalQuestions: [
+        "What is Value at Risk (VaR)? What are its limitations?",
+        "Explain tracking error and information ratio. Why do they matter?",
+        "How would you stress test an equity portfolio?",
+        "What is factor analysis and how is it used in portfolio risk management?",
+        "Explain the difference between systematic and idiosyncratic risk.",
+        "How do you calculate portfolio beta? What does it measure?",
+        "What is duration and convexity in fixed income risk?",
+        "Explain correlation and why it matters in portfolio construction.",
+        "What are the key risk metrics for a multi-asset portfolio?",
+        "How would you assess liquidity risk in a portfolio?",
+        "Explain Monte Carlo simulation and its applications in risk management.",
+        "What is expected shortfall (CVaR) and how does it differ from VaR?",
+        "How do factor models help explain portfolio risk?",
+        "What are the limitations of historical risk models?",
+        "How would you communicate risk insights to a Portfolio Manager?",
+        "How does Aladdin support risk management at BlackRock?"
+      ],
+      behavioralQuestions: [
+        "Why risk management? Why BlackRock specifically?",
+        "Tell me about a time you identified a risk that others overlooked.",
+        "Describe explaining complex risk concepts to a non-technical audience.",
+        "How do you balance providing risk advice while respecting PM judgment?",
+        "Tell me about solving a complex analytical problem. Walk through your approach.",
+        "Describe working with stakeholders who disagreed with your risk assessment.",
+        "How do you stay current on risk management methodologies?",
+        "Tell me about making a recommendation under uncertainty.",
+        "What qualities make someone successful in investment risk?",
+        "Describe a time you received critical feedback. How did you respond?",
+        "How do you prioritize when managing multiple risk analyses?",
+        "What differentiates BlackRock's approach to risk management?"
+      ],
+      whatTheyLookFor: [
+        "Strong quantitative foundation: statistics, probability, linear algebra",
+        "Understanding of financial markets and investment concepts",
+        "Programming skills (Python, R) and comfort with data analysis",
+        "Clear analytical thinking and problem-solving ability",
+        "Strong communication skills to convey risk insights effectively",
+        "Collaborative mindset while maintaining independent perspective",
+        "Intellectual curiosity about risk and portfolio management",
+        "Attention to detail in quantitative analysis",
+        "Ability to work in fast-paced environment",
+        "Interest in asset management and long-term career in risk"
+      ],
+      interviewTips: [
+        "Master fundamental risk concepts: VaR, factor models, stress testing, performance attribution",
+        "Review statistics: probability distributions, correlation, regression",
+        "Understand portfolio theory: diversification, efficient frontier, factor exposures",
+        "Research BlackRock's RQA function and role in investment process",
+        "Prepare examples demonstrating quantitative analysis and risk identification",
+        "Know Aladdin basics and how it supports risk management",
+        "Be ready to discuss current market risks and portfolio implications",
+        "Practice explaining technical concepts clearly to non-quant audience",
+        "Show collaborative mindset - RQA partners with investment teams",
+        "Prepare questions about team structure, methodologies, career paths",
+        "Demonstrate programming skills if role requires them",
+        "Show genuine interest in risk management as career, not just stepping stone"
+      ],
+      salary: {
+        min: 90000,
+        max: 120000
+      },
+      compensation: [
+        "Base salary: $90-120K for risk analyst roles depending on experience and location",
+        "Annual performance bonus: $20-50K based on individual and firm performance",
+        "Signing bonus: $10-20K for competitive candidates",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Access to BlackRock investment products at reduced fees",
+        "Tuition reimbursement for certifications (FRM, CFA)",
+        "Professional development budget",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $115-175K"
+      ],
+      dayInLife: {
+        overview: "Risk Analysts at BlackRock work in intellectually stimulating environment with good work-life balance. Typical hours are 8:30am-6:30pm with reasonable expectations. The role combines quantitative analysis with Portfolio Manager partnership. BlackRock's RQA function is integral to investment process, providing meaningful impact. Aladdin platform centralizes risk analytics enabling sophisticated analysis across portfolios.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Risk Review",
+            description: "Review overnight market developments and impact on portfolio risk. Check Aladdin dashboards for risk breaches, unusual exposures, or emerging concerns."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Meeting",
+            description: "RQA team meeting to discuss priorities, share insights on portfolio risks, and coordinate coverage. Collaborative culture for sharing best practices."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Portfolio Risk Analysis",
+            description: "Deep-dive analysis on specific portfolio. Analyze factor exposures, concentration risk, and stress scenarios using Aladdin. Prepare insights for PM discussion."
+          },
+          {
+            time: "11:30 AM",
+            activity: "PM Meeting",
+            description: "Meeting with Portfolio Manager to discuss portfolio risk profile, positioning, and potential concerns. Provide independent perspective on risk/return tradeoffs."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch",
+            description: "Lunch with colleagues or attend internal training session. BlackRock offers frequent learning opportunities."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Stress Testing",
+            description: "Run stress scenarios assessing portfolio impact of market dislocations. Document results and identify vulnerabilities requiring attention."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Analytics Development",
+            description: "Work on enhancing risk analytics or reports. Partner with Technology team on Aladdin improvements. Continuous enhancement of risk tools."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Risk Reporting",
+            description: "Prepare risk reports for senior management or clients. Clear communication of risk insights essential for impact."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Finalize analyses, respond to emails, prepare for tomorrow. Review research on risk methodologies."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Head Home",
+            description: "Head home around 6:30pm on typical days. RQA offers good work-life balance while providing meaningful analytical work."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "State Street", companySlug: "state-street", industry: "Finance" },
+        { companyName: "PIMCO", companySlug: "pimco", industry: "Finance" }
+      ]
+    },
+    'software-engineer': {
+      roleDescription: "Software Engineers at BlackRock build and maintain Aladdin, the operating system that powers the world's largest asset manager and external clients managing over $21 trillion in assets. Aladdin (Asset, Liability, and Debt and Derivative Investment Network) unifies the investment management process enabling scale, insights, and business transformation for financial institutions worldwide. Working within Aladdin Engineering, you'll develop high-performance, scalable software using Java, Python, TypeScript, and cloud technologies. BlackRock's technology organization builds both internal investment management tools and external FinTech products serving 200+ institutional clients. The Engineering Analyst Program offers a two-year rotational experience with four 6-month assignments across different technology streams. BlackRock offers both Enterprise Leadership (management) and Tech Leadership (individual contributor) career tracks, providing flexibility for career development.",
+      responsibilities: [
+        "Design, develop, and maintain software applications for Aladdin platform serving internal and external clients",
+        "Build high-performance systems for portfolio management, risk analytics, trading, and operations",
+        "Develop APIs and microservices enabling integration across Aladdin's modular architecture",
+        "Collaborate with investment and business teams to understand requirements and deliver solutions",
+        "Write clean, testable code following engineering best practices and code review processes",
+        "Participate in agile development processes including sprint planning, standups, and retrospectives",
+        "Contribute to DevOps practices including CI/CD pipelines, monitoring, and incident response",
+        "Stay current on technology trends and evaluate new tools and frameworks for adoption",
+        "Mentor junior engineers and contribute to team knowledge sharing"
+      ],
+      growthOpportunities: [
+        "Two-Year Rotational Program with four 6-month assignments across different technology teams",
+        "Dual career tracks: Enterprise Leadership (management) and Tech Leadership (individual contributor)",
+        "Opportunity to work on FinTech products used by 200+ financial institutions globally",
+        "Access to modern tech stack: cloud (AWS/Azure), Kubernetes, microservices architecture",
+        "International opportunities across BlackRock's global technology centers",
+        "Path from Engineer to Senior Engineer to Principal Engineer or Engineering Manager",
+        "Exposure to complex financial systems and domain expertise development",
+        "Structured training programs in both technical skills and financial concepts"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete HireVue video interview with behavioral questions and coding challenge. Coding assessment evaluates problem-solving, data structures, and algorithms. Tests typically 60-90 minutes.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute technical interview covering coding, system design concepts, and resume discussion. Live coding exercise on shared platform. Assess problem-solving approach and code quality.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "4-5 rounds including 2-3 technical interviews (coding, system design) and 1-2 behavioral interviews. Technical rounds assess DSA, OOP, and system design. Behavioral rounds evaluate teamwork and communication.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates technical skills, problem-solving approach, and cultural fit. Offers typically extended within 1-2 weeks with details on team placement and program structure."
+        }
+      ],
+      technicalQuestions: [
+        "Implement a function to find the longest substring without repeating characters.",
+        "Design a system to process real-time market data for a trading platform.",
+        "Explain the differences between SQL and NoSQL databases. When would you use each?",
+        "How would you design a cache system? Discuss eviction policies.",
+        "Implement a rate limiter for an API.",
+        "Explain microservices architecture. What are the tradeoffs vs monolith?",
+        "How do you ensure code quality in a team environment?",
+        "Design a system for calculating portfolio risk metrics at scale.",
+        "Explain REST vs GraphQL. When would you choose each?",
+        "How would you handle a production incident? Walk through your process.",
+        "Implement an LRU cache.",
+        "Explain containerization and Kubernetes at a high level.",
+        "How do you approach testing? Unit vs integration vs e2e?",
+        "Design a notification system for alerting on portfolio risk breaches.",
+        "What is your experience with cloud platforms (AWS/Azure)?",
+        "How do you stay current with technology trends?"
+      ],
+      behavioralQuestions: [
+        "Why software engineering at BlackRock specifically?",
+        "Tell me about a challenging technical problem you solved.",
+        "Describe working on a team with conflicting priorities.",
+        "How do you approach learning new technologies?",
+        "Tell me about a project you're proud of. What was your contribution?",
+        "Describe receiving critical feedback on your code. How did you respond?",
+        "How do you balance quality with delivery speed?",
+        "Tell me about debugging a difficult production issue.",
+        "What qualities make someone successful in software engineering?",
+        "Describe explaining technical concepts to non-technical stakeholders.",
+        "How do you stay organized when working on multiple projects?",
+        "What interests you about FinTech and the Aladdin platform?"
+      ],
+      whatTheyLookFor: [
+        "Strong computer science fundamentals: DSA, OOP, system design",
+        "Proficiency in relevant programming languages (Java, Python, TypeScript)",
+        "Problem-solving ability and analytical thinking",
+        "Code quality focus: clean, testable, maintainable code",
+        "Collaboration skills for team-based development",
+        "Communication skills for working with business stakeholders",
+        "Curiosity about financial services and investment management",
+        "Growth mindset and eagerness to learn new technologies",
+        "Ability to work in agile environment",
+        "Interest in building products at scale"
+      ],
+      interviewTips: [
+        "Practice coding problems on LeetCode focusing on medium difficulty",
+        "Review data structures: arrays, linked lists, trees, graphs, hash maps",
+        "Study system design basics: scalability, databases, caching, APIs",
+        "Research Aladdin platform and BlackRock's technology organization",
+        "Prepare examples of projects demonstrating technical skills",
+        "Practice explaining your thought process while coding",
+        "Review OOP principles and design patterns",
+        "Understand basics of financial concepts - you'll work with investment teams",
+        "Prepare questions about tech stack, team structure, career paths",
+        "Show interest in FinTech and how technology enables investing",
+        "Be ready to discuss tradeoffs in technical decisions",
+        "Demonstrate collaborative mindset - BlackRock values teamwork"
+      ],
+      salary: {
+        min: 100000,
+        max: 140000
+      },
+      compensation: [
+        "Base salary: $100-140K for new grad software engineers depending on location",
+        "Annual performance bonus: $15-40K based on individual and team performance",
+        "Signing bonus: $15-30K for competitive candidates",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Access to BlackRock investment products at reduced fees",
+        "Tuition reimbursement for relevant degrees or certifications",
+        "Professional development budget for conferences and training",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $130-200K"
+      ],
+      dayInLife: {
+        overview: "Software Engineers at BlackRock work in collaborative environment with good work-life balance for finance industry. Typical hours are 9am-6pm with flexibility. The role combines building sophisticated financial software with exposure to investment management domain. BlackRock's Engineering organization emphasizes modern practices, continuous learning, and career development. The rotational program provides breadth while enabling specialization over time.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Start of Day",
+            description: "Check emails, Slack, and JIRA for updates. Review overnight builds and any production issues. Prepare for standup."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Daily Standup",
+            description: "Agile team standup to discuss progress, blockers, and daily priorities. Quick sync on sprint goals and coordination needs."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Development Work",
+            description: "Focus time for coding. Build new features, fix bugs, or refactor existing code. Use modern stack: Java/Python, microservices, cloud."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch with team or attend tech talk. BlackRock hosts frequent learning sessions on technology and finance topics."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Code Review",
+            description: "Review pull requests from teammates. Provide constructive feedback on code quality, design, and testing. Learn from others' code."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Collaboration",
+            description: "Meeting with business stakeholders or investment team to discuss requirements. Understand user needs and translate to technical solutions."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Design Discussion",
+            description: "Technical design session with team for upcoming feature. Discuss architecture, APIs, and implementation approach."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Development Continued",
+            description: "Continue implementation work. Write tests, update documentation, prepare for deployment."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up",
+            description: "Push code, update JIRA tickets, respond to messages. Prepare for tomorrow's work."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Head Home",
+            description: "Head home around 6pm. Good work-life balance for finance industry. Optional learning and side projects."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Bloomberg", companySlug: "bloomberg", industry: "Finance" },
+        { companyName: "Two Sigma", companySlug: "two-sigma", industry: "Finance" },
+        { companyName: "Citadel", companySlug: "citadel", industry: "Finance" },
+        { companyName: "Jane Street", companySlug: "jane-street", industry: "Finance" }
+      ]
+    },
+    'client-relationship-manager': {
+      roleDescription: "Client Relationship Managers at BlackRock serve institutional and wealth clients across the world's largest asset manager. Working within the Institutional Client Business (ICB) or U.S. Wealth Advisory (USWA), you'll build deep relationships with pension funds, endowments, family offices, or wealth advisors while delivering BlackRock's full platform of solutions. ICB serves 4,000+ institutional clients across 30+ global offices while USWA partners with wealth managers to deliver 'One BlackRock' including iShares ETFs, mutual funds, SMAs, alternatives, and model portfolios. The Sales & Relationship Management Analyst Program provides exposure to client coverage, product specialists, and investment teams. BlackRock's scale enables comprehensive solutions while the culture emphasizes client-centric service and long-term relationships. Career paths span client coverage, product strategy, and business development across asset classes.",
+      responsibilities: [
+        "Build and maintain relationships with institutional clients (pensions, endowments, family offices) or wealth advisors",
+        "Understand client investment needs, objectives, and constraints to recommend appropriate BlackRock solutions",
+        "Coordinate with product specialists across iShares, Active strategies, Alternatives, and Aladdin to deliver integrated solutions",
+        "Prepare and deliver client presentations, portfolio reviews, and investment updates",
+        "Respond to RFPs and due diligence requests, coordinating across investment and operations teams",
+        "Monitor client portfolios and proactively communicate relevant market developments and investment insights",
+        "Identify cross-selling opportunities to expand client relationships across BlackRock's platform",
+        "Partner with Portfolio Managers and Investment teams on client-specific questions and customization",
+        "Maintain accurate records of client interactions and pipeline in CRM systems"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to Vice President to Director/Managing Director",
+        "Exposure to institutional-scale client relationships unavailable at smaller managers",
+        "Opportunity to specialize by client segment (pensions, endowments, wealth) or product (ETFs, alternatives, multi-asset)",
+        "Path to product specialist roles focusing on specific strategies or asset classes",
+        "International opportunities across BlackRock's global client coverage teams",
+        "Development of investment knowledge through client interactions and product training",
+        "Access to BlackRock's comprehensive training in client management and product knowledge",
+        "Strong foundation for careers in distribution, product development, or business leadership"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete HireVue video interview assessing motivation for client-facing roles, communication skills, and basic investment knowledge. Questions evaluate client orientation and problem-solving approach.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "30-45 minute conversation with team member covering background, interest in sales/relationship management, and basic market knowledge. Assess communication skills and client orientation.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "4-5 rounds with Relationship Managers, Product Specialists, and senior leadership. Mix of behavioral questions (client scenarios, relationship building), market knowledge, and cultural fit. May include presentation exercise.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates communication skills, client orientation, market knowledge, and cultural fit. Offers typically extended within 1-2 weeks with details on team placement."
+        }
+      ],
+      technicalQuestions: [
+        "Explain the difference between active and passive investing.",
+        "What is an ETF and why might an investor choose one over a mutual fund?",
+        "How do interest rate changes affect bond portfolios?",
+        "Explain basic portfolio construction concepts. What is diversification?",
+        "What is alpha and beta in investment context?",
+        "How would you explain factor investing to a client?",
+        "What are alternatives and why might institutions include them in portfolios?",
+        "Explain tracking error and why it matters for index strategies.",
+        "What is Aladdin and how does it serve BlackRock clients?",
+        "How do you stay informed about markets and investment trends?",
+        "What's the difference between liability-driven investing and traditional approaches?",
+        "How would you explain ESG investing to a pension plan trustee?",
+        "What role do ETFs play in portfolio construction?",
+        "How does BlackRock's platform differentiate from competitors?",
+        "What are the key considerations for institutional vs. retail clients?"
+      ],
+      behavioralQuestions: [
+        "Why client relationship management? Why BlackRock specifically?",
+        "Tell me about building a relationship with someone over time.",
+        "Describe handling a difficult client situation. How did you resolve it?",
+        "How do you stay organized when managing multiple client relationships?",
+        "Tell me about explaining complex concepts to someone without background in the area.",
+        "Describe a time you went above and beyond for a client or stakeholder.",
+        "How do you handle rejection or a lost opportunity?",
+        "Tell me about working in a team to deliver results for a client.",
+        "What qualities make someone successful in client-facing roles?",
+        "Describe a time you had to deliver difficult news. How did you approach it?",
+        "How do you prioritize when facing competing client demands?",
+        "What differentiates BlackRock's approach to client service?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional communication and interpersonal skills",
+        "Genuine client-service orientation and relationship-building ability",
+        "Interest in investment management and financial markets",
+        "Professional presence and executive communication skills",
+        "Strong organizational skills for managing multiple relationships",
+        "Collaborative mindset for coordinating across teams",
+        "Intellectual curiosity to learn products and investment concepts",
+        "Resilience and persistence in competitive environment",
+        "Integrity and trustworthiness in client interactions",
+        "Long-term career interest in distribution and client coverage"
+      ],
+      interviewTips: [
+        "Understand BlackRock's product suite: iShares, Active, Alternatives, Aladdin",
+        "Research the specific client segment you're interviewing for (institutional vs wealth)",
+        "Prepare relationship-building examples demonstrating client orientation",
+        "Know basic investment concepts: asset allocation, diversification, risk/return",
+        "Read financial news and be ready to discuss market conditions",
+        "Practice explaining investment concepts clearly and simply",
+        "Research BlackRock's competitive positioning and differentiators",
+        "Prepare questions about client types, team structure, career paths",
+        "Show enthusiasm for client-facing work and building relationships",
+        "Demonstrate professional communication skills throughout interview",
+        "Understand how different client types have different needs",
+        "Be ready to discuss why sales/distribution vs investment roles"
+      ],
+      salary: {
+        min: 80000,
+        max: 100000
+      },
+      compensation: [
+        "Base salary: $80-100K for analyst program depending on location",
+        "Annual performance bonus: $15-40K based on individual and team performance",
+        "Sales incentives may apply depending on role structure",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Access to BlackRock investment products at reduced fees",
+        "Professional development budget for client entertainment and training",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $100-145K"
+      ],
+      dayInLife: {
+        overview: "Client Relationship Managers at BlackRock work in dynamic, client-facing environment with reasonable hours. Typical hours are 8:30am-6:30pm with flexibility around client needs. The role combines relationship management with investment knowledge development. BlackRock's scale enables comprehensive client solutions while culture emphasizes long-term relationships over transactions. Travel varies by client segment - institutional may require 20-30% travel while wealth advisory is often regional.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Preparation",
+            description: "Review overnight market developments and impact on client portfolios. Check emails from clients and internal teams. Prepare for scheduled calls and meetings."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Client Call",
+            description: "Quarterly review call with pension fund client. Discuss portfolio performance, market outlook, and strategic allocation questions. Coordinate with PM for investment discussion."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Internal Coordination",
+            description: "Meeting with product specialist to discuss new iShares ETF launch relevant to client opportunities. Coordinate on client outreach strategy."
+          },
+          {
+            time: "11:30 AM",
+            activity: "RFP Response",
+            description: "Work on RFP response for prospective institutional client. Coordinate with investment team on strategy questions, gather performance data."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Client Lunch",
+            description: "Lunch meeting with family office prospect. Discuss investment needs, introduce BlackRock capabilities, build relationship."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Portfolio Review Prep",
+            description: "Prepare materials for upcoming client meeting. Build presentation, update performance attribution, anticipate questions."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Team Meeting",
+            description: "Coverage team meeting to discuss client pipeline, share insights, coordinate on cross-selling opportunities."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Client Follow-Up",
+            description: "Send meeting follow-ups, respond to client questions, update CRM with interaction notes."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Finalize day's work, prepare for tomorrow's meetings. Review research for upcoming client discussions."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Head Home",
+            description: "Head home around 6:30pm on typical days. Evening client events or travel occasional depending on role."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "State Street", companySlug: "state-street", industry: "Finance" },
+        { companyName: "PIMCO", companySlug: "pimco", industry: "Finance" }
+      ]
+    },
+    'product-strategist': {
+      roleDescription: "Product Strategists at BlackRock work within Product Strategy & Solutions, connecting investment capabilities with client needs across the world's largest asset manager. You'll analyze market trends, competitive dynamics, and client demand to shape BlackRock's product offerings including iShares ETFs, active strategies, and alternative investments. The role combines investment knowledge with strategic thinking, partnering with Portfolio Management, Distribution, and Marketing to develop and position products for institutional and retail markets. BlackRock's scale means exposure to product development across asset classes and distribution channels globally. Product Strategists influence everything from new product launches to enhancement of existing offerings, positioning, and competitive response. Career paths span deepening product expertise or transitioning to distribution, investment, or business leadership roles.",
+      responsibilities: [
+        "Analyze market trends, competitive landscape, and client demand to identify product opportunities",
+        "Develop product positioning, messaging, and value propositions for investment strategies",
+        "Partner with Portfolio Management to articulate investment process and competitive differentiation",
+        "Support new product development from concept through launch including regulatory and operational considerations",
+        "Create sales materials, presentations, and content to support distribution efforts",
+        "Conduct competitive analysis on peer products, flows, and positioning",
+        "Monitor product performance and flows, identifying issues and opportunities",
+        "Support due diligence processes and client questions on product-specific topics",
+        "Collaborate with Marketing on product campaigns and thought leadership"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to Vice President in Product Strategy",
+        "Opportunity to specialize by asset class (equity, fixed income, multi-asset, alternatives)",
+        "Path to product management owning P&L responsibility for specific strategies",
+        "Exposure to product development across ETFs, mutual funds, SMAs, and alternatives",
+        "Transition opportunities to Distribution, Portfolio Management, or business leadership",
+        "International opportunities across BlackRock's global product teams",
+        "Development of investment expertise through PM partnerships",
+        "Access to BlackRock's comprehensive training in products and markets"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete HireVue video interview assessing motivation for product strategy, analytical thinking, and communication skills. Questions evaluate problem-solving and strategic thinking.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute conversation covering background, interest in product strategy, and analytical skills. May include discussion of market trends or product positioning questions.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Study & Superday",
+          description: "Prepare case study on product positioning or market analysis. Multiple interviews with Product Strategists, Investment team members, and senior leadership. Assess analytical skills, communication, and strategic thinking.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates analytical ability, communication skills, and strategic thinking. Offers typically extended within 1-2 weeks with details on product area and team."
+        }
+      ],
+      technicalQuestions: [
+        "Explain the differences between ETFs and mutual funds. When would an investor prefer each?",
+        "What factors drive ETF flows? How would you analyze competitive positioning?",
+        "How do you think about product differentiation in asset management?",
+        "Explain factor investing. How would you position a multi-factor ETF?",
+        "What trends do you see shaping the asset management industry?",
+        "How would you analyze whether to launch a new ETF product?",
+        "What is your view on active vs. passive investing trends?",
+        "How do expense ratios affect competitive dynamics in ETFs?",
+        "Explain ESG investing. How is it changing product development?",
+        "How would you position an alternatives allocation to a retirement plan?",
+        "What role does Aladdin play in BlackRock's competitive advantage?",
+        "How do regulatory considerations affect product strategy?",
+        "What are the key metrics for evaluating product success?",
+        "How does distribution channel affect product design?",
+        "What makes BlackRock's product platform differentiated?"
+      ],
+      behavioralQuestions: [
+        "Why product strategy? Why BlackRock specifically?",
+        "Tell me about analyzing a market or competitive situation. What was your approach?",
+        "Describe translating complex information into clear, compelling messaging.",
+        "How do you stay informed about investment industry trends?",
+        "Tell me about influencing stakeholders without direct authority.",
+        "Describe a project where you had to coordinate across multiple teams.",
+        "How do you prioritize when managing multiple product initiatives?",
+        "Tell me about receiving critical feedback on your analysis. How did you respond?",
+        "What qualities make someone successful in product strategy?",
+        "Describe explaining investment concepts to different audiences.",
+        "How do you approach learning about new asset classes or products?",
+        "What differentiates BlackRock's approach to product development?"
+      ],
+      whatTheyLookFor: [
+        "Strong analytical and strategic thinking abilities",
+        "Excellent written and verbal communication skills",
+        "Interest in investment management and financial markets",
+        "Ability to synthesize complex information into clear insights",
+        "Collaborative mindset for cross-functional work",
+        "Intellectual curiosity about products and market dynamics",
+        "Attention to detail in analysis and content creation",
+        "Project management skills for coordinating initiatives",
+        "Comfort with ambiguity and changing priorities",
+        "Long-term career interest in product or investment roles"
+      ],
+      interviewTips: [
+        "Research BlackRock's product lineup: iShares, active strategies, alternatives",
+        "Understand industry trends: ETF growth, fee compression, ESG, alternatives",
+        "Prepare examples demonstrating analytical and strategic thinking",
+        "Know competitive landscape: Vanguard, State Street, Fidelity positions",
+        "Read financial news and be ready to discuss market conditions",
+        "Practice explaining investment concepts and product differentiation",
+        "Research specific product area you're interviewing for",
+        "Prepare case study or analysis demonstrating strategic approach",
+        "Show understanding of different distribution channels (institutional, wealth, retail)",
+        "Prepare questions about product development process, career paths",
+        "Demonstrate strong communication skills throughout interview",
+        "Be ready to discuss why product strategy vs sales or investment roles"
+      ],
+      salary: {
+        min: 85000,
+        max: 110000
+      },
+      compensation: [
+        "Base salary: $85-110K for product strategy analyst roles",
+        "Annual performance bonus: $20-45K based on individual and team performance",
+        "Signing bonus: $10-20K for competitive candidates",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Access to BlackRock investment products at reduced fees",
+        "Professional development budget for industry conferences",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $110-160K"
+      ],
+      dayInLife: {
+        overview: "Product Strategists at BlackRock work in dynamic environment connecting investments with markets. Typical hours are 9am-6:30pm with reasonable flexibility. The role combines analytical work with cross-functional collaboration. BlackRock's scale means exposure to diverse products and distribution channels. Culture emphasizes strategic thinking, clear communication, and partnership across teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Review",
+            description: "Review overnight news, flows data, and competitive developments. Check emails from distribution teams and investment partners."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Competitive Analysis",
+            description: "Analyze competitor ETF launch and positioning. Assess implications for BlackRock products and potential response."
+          },
+          {
+            time: "11:00 AM",
+            activity: "PM Meeting",
+            description: "Meeting with Portfolio Management team to discuss investment process updates for refreshed marketing materials."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch with colleagues or attend industry webinar on market trends."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Content Development",
+            description: "Draft product commentary for distribution team. Translate investment insights into client-friendly messaging."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Product Review",
+            description: "Internal meeting to review product performance, flows, and positioning updates. Discuss opportunities and challenges."
+          },
+          {
+            time: "3:30 PM",
+            activity: "New Product Work",
+            description: "Work on new product development initiative. Analyze market opportunity, coordinate with operations on launch timeline."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Distribution Support",
+            description: "Prepare talking points for sales team client meeting. Anticipate questions and develop responses."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Finalize deliverables, respond to emails, prepare for tomorrow. Review industry research."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Head Home",
+            description: "Head home around 6:30pm on typical days. Product strategy offers good work-life balance."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "State Street", companySlug: "state-street", industry: "Finance" },
+        { companyName: "Invesco", companySlug: "invesco", industry: "Finance" },
+        { companyName: "Franklin Templeton", companySlug: "franklin-templeton", industry: "Finance" }
+      ]
+    },
+    'alternatives-analyst': {
+      roleDescription: "Alternatives Analysts at BlackRock work within one of the world's largest alternative asset platforms with over $300 billion in AUM spanning private equity, private credit, real estate, infrastructure, and hedge fund solutions. You'll support investment teams in sourcing, evaluating, and monitoring alternative investments that provide diversification and enhanced returns for institutional clients. BlackRock's recent acquisitions of Global Infrastructure Partners and HPS Investment Partners have significantly expanded alternatives capabilities. The Alternatives Analyst Program provides exposure to private markets investing across the platform. Working alongside experienced investors, you'll develop expertise in private market transactions, fund structures, and illiquid asset analysis. Career paths include deepening sector expertise or transitioning to portfolio management roles within alternatives.",
+      responsibilities: [
+        "Support deal sourcing and evaluation across private equity, private credit, real estate, or infrastructure investments",
+        "Build financial models for private market transactions including LBOs, real estate developments, and infrastructure projects",
+        "Conduct due diligence on investment opportunities including management meetings, site visits, and third-party reports",
+        "Monitor existing portfolio investments tracking performance, covenants, and material developments",
+        "Prepare investment memoranda and presentations for Investment Committees",
+        "Analyze fund structures, terms, and economics for fund investments and co-investments",
+        "Research market trends, sector dynamics, and competitive landscape for investment themes",
+        "Support client reporting and communication on alternatives portfolios",
+        "Collaborate with risk team on portfolio construction and risk assessment for illiquid investments"
+      ],
+      growthOpportunities: [
+        "Alternatives Analyst Program with exposure across private equity, credit, real estate, and infrastructure",
+        "Clear progression from Analyst to Associate to Vice President to Principal/MD track",
+        "Opportunity to specialize by strategy (PE, credit, real assets) or sector (healthcare, technology, energy)",
+        "Access to deal flow from one of the largest alternatives platforms globally",
+        "International opportunities across BlackRock's global alternatives offices",
+        "Path to portfolio management or investor relations within alternatives",
+        "Exposure to institutional-scale private markets investing",
+        "Development through structured training in private markets analysis"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete HireVue video interview and potentially technical assessment. Questions assess motivation for alternatives, financial knowledge, and analytical thinking.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute conversation covering background, interest in private markets, and technical concepts. May include discussion of investment ideas or market trends.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Study & Superday",
+          description: "Prepare and present investment analysis or LBO model. Multiple interviews with Analysts, Portfolio Managers, and senior leadership. Technical deep-dives on modeling, valuation, and deal analysis.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Final Round",
+          description: "Meeting with senior leadership discussing investment philosophy and career goals. Offers typically follow within 1-2 weeks with details on team placement."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through an LBO model. What are the key drivers of returns?",
+        "How do you value a private company vs a public company?",
+        "Explain the J-curve in private equity. Why does it occur?",
+        "What is IRR and why is it the primary return metric for private investments?",
+        "How do you evaluate a real estate investment? What metrics matter?",
+        "Explain the capital structure of a typical leveraged buyout.",
+        "What is private credit and how does it differ from leveraged loans?",
+        "How do you assess management quality in a private investment?",
+        "What are the key risks in infrastructure investments?",
+        "Explain fund economics: management fee, carried interest, hurdle rate.",
+        "How do you think about portfolio construction in alternatives?",
+        "What sectors or themes interest you for private market investing?",
+        "How does illiquidity affect return requirements?",
+        "What due diligence would you conduct on a private equity deal?",
+        "How do you compare returns across different alternative strategies?",
+        "What trends are you seeing in private markets?"
+      ],
+      behavioralQuestions: [
+        "Why alternatives? Why BlackRock specifically?",
+        "Tell me about an investment analysis you've conducted. Walk through your process.",
+        "Describe a time you had to dig deep to understand something complex.",
+        "How do you stay informed about private markets and deal activity?",
+        "Tell me about working on a team with tight deadlines.",
+        "Describe defending an unpopular investment view.",
+        "How do you prioritize when managing multiple due diligence processes?",
+        "Tell me about making a recommendation with incomplete information.",
+        "What qualities make someone successful in private markets investing?",
+        "Describe a time you identified a risk that others overlooked.",
+        "How do you approach building relationships with management teams?",
+        "What differentiates BlackRock's alternatives platform?"
+      ],
+      whatTheyLookFor: [
+        "Strong financial modeling and analytical skills",
+        "Genuine interest in private markets and alternative investments",
+        "Ability to synthesize complex information and form investment views",
+        "Attention to detail in due diligence and analysis",
+        "Strong written and verbal communication skills",
+        "Intellectual curiosity about businesses and industries",
+        "Collaborative mindset for team-based investing",
+        "Ability to work under pressure on deal timelines",
+        "Professional maturity for management interactions",
+        "Long-term career interest in alternatives investing"
+      ],
+      interviewTips: [
+        "Master LBO mechanics: sources/uses, returns analysis, sensitivity tables",
+        "Understand different alternative strategies and their return profiles",
+        "Prepare investment ideas in private markets (sector, company type, or theme)",
+        "Research BlackRock's alternatives platform including recent acquisitions (GIP, HPS)",
+        "Know current private markets trends: rates impact, dry powder, valuations",
+        "Practice explaining your investment process and analytical approach",
+        "Understand fund structures and economics: fees, carry, preferred return",
+        "Research the specific team you're interviewing with",
+        "Prepare examples showing attention to detail and thorough analysis",
+        "Be ready to discuss why alternatives vs public markets investing",
+        "Show understanding of illiquidity premium and private market dynamics",
+        "Demonstrate collaborative mindset - alternatives teams work closely together"
+      ],
+      salary: {
+        min: 95000,
+        max: 130000
+      },
+      compensation: [
+        "Base salary: $95-130K for alternatives analyst roles depending on strategy and location",
+        "Annual performance bonus: $30-70K based on fund performance and individual contribution",
+        "Carried interest participation possible at more senior levels",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Access to BlackRock investment products at reduced fees",
+        "Professional development budget",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $130-200K"
+      ],
+      dayInLife: {
+        overview: "Alternatives Analysts at BlackRock work in deal-oriented environment with hours varying by deal activity. Typical range is 9am-8pm but can extend during active transactions. The role combines analytical work with relationship building and due diligence. BlackRock's scale provides institutional support while maintaining entrepreneurial investment culture. Work includes both new investments and portfolio monitoring across the platform.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Review",
+            description: "Review overnight news on portfolio companies and market developments. Check deal pipeline and priorities for the day."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Investment Committee Prep",
+            description: "Finalize investment memo for upcoming IC presentation. Incorporate feedback from senior team members."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Financial Modeling",
+            description: "Build LBO model for new deal in diligence. Sensitize returns to key assumptions, identify value creation opportunities."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch",
+            description: "Working lunch reviewing due diligence materials or on call with management team."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Management Meeting",
+            description: "Video call with portfolio company CEO for quarterly update. Discuss performance, strategy, and market conditions."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Due Diligence",
+            description: "Review third-party diligence reports (quality of earnings, market study) for active deal. Identify issues for follow-up."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Deal Team Meeting",
+            description: "Internal meeting to discuss deal progress, key issues, and next steps. Coordinate workstreams across team."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Research & Analysis",
+            description: "Research new investment theme or sector. Identify potential targets and develop initial screening criteria."
+          },
+          {
+            time: "7:00 PM",
+            activity: "Wrap Up",
+            description: "Finalize model updates, respond to emails, prepare for tomorrow. Hours vary significantly based on deal activity."
+          },
+          {
+            time: "8:00 PM",
+            activity: "Head Home",
+            description: "Head home around 7-8pm on typical days. Can extend during active deals or IC preparation."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "KKR", companySlug: "kkr", industry: "Finance" },
+        { companyName: "Blackstone", companySlug: "blackstone", industry: "Finance" },
+        { companyName: "Carlyle", companySlug: "carlyle", industry: "Finance" },
+        { companyName: "Apollo", companySlug: "apollo", industry: "Finance" }
+      ]
+    },
+    'quantitative-researcher': {
+      roleDescription: "Quantitative Researchers at BlackRock develop systematic investment strategies and risk models across the world's largest asset manager. Working within Systematic Active Equity, Fixed Income Quantitative Research, or the Aladdin team, you'll apply advanced statistical methods, machine learning, and financial theory to generate alpha and improve portfolio construction. BlackRock manages over $300 billion in systematic strategies using quantitative approaches. The role combines rigorous research with practical implementation, partnering with Portfolio Managers and Technology teams to deploy models in production. BlackRock's scale provides access to extensive data, computing resources, and diverse investment challenges unavailable at smaller firms. Career paths span deepening quantitative expertise, transitioning to portfolio management, or building quantitative tools for the broader platform.",
+      responsibilities: [
+        "Research and develop quantitative investment signals and systematic strategies",
+        "Apply statistical methods, machine learning, and alternative data to alpha generation",
+        "Build and enhance risk models for portfolio construction and risk management",
+        "Collaborate with Portfolio Managers to implement research in live portfolios",
+        "Conduct rigorous backtesting and out-of-sample validation of strategies",
+        "Develop analytics and tools for portfolio optimization and factor analysis",
+        "Research new data sources and evaluate their potential for investment signals",
+        "Document research findings and present to investment teams and leadership",
+        "Partner with Technology to productionize models and ensure scalability"
+      ],
+      growthOpportunities: [
+        "Clear progression from Researcher to Senior Researcher to Lead/Director level",
+        "Opportunity to specialize by asset class (equity, fixed income, multi-asset) or methodology",
+        "Path to portfolio management for systematic strategies",
+        "Access to extensive data resources and computing infrastructure",
+        "International opportunities across BlackRock's global quantitative teams",
+        "Development of cutting-edge skills in ML, alternative data, and systematic investing",
+        "Exposure to institutional-scale quantitative investing",
+        "Contribution to Aladdin platform development reaching broad user base"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete technical assessment including coding challenge and quantitative problems. Tests evaluate programming skills, statistical knowledge, and problem-solving ability.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute technical interview covering statistics, machine learning, and programming. May include live coding exercise or discussion of research experience.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "5-6 rounds with Quantitative Researchers, Portfolio Managers, and senior leadership. Deep technical interviews on statistics, ML, programming, and finance. May include research presentation and case study.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates technical depth, research ability, and cultural fit. Offers typically extended within 1-2 weeks with details on team placement."
+        }
+      ],
+      technicalQuestions: [
+        "Explain the bias-variance tradeoff. How do you manage it in practice?",
+        "How would you construct a factor model for equity risk?",
+        "Explain cross-validation and why it matters for strategy development.",
+        "What is overfitting? How do you prevent it in financial research?",
+        "How would you evaluate whether a trading signal is statistically significant?",
+        "Explain PCA and its applications in finance.",
+        "What machine learning methods are most applicable to financial prediction?",
+        "How do you handle missing data in financial time series?",
+        "Explain the efficient market hypothesis and its implications for quant research.",
+        "How would you construct a backtest? What pitfalls would you avoid?",
+        "What is transaction cost analysis and why does it matter?",
+        "Explain regularization techniques and when you would use them.",
+        "How do you evaluate alternative data sources for investment signals?",
+        "What is Sharpe ratio and what are its limitations?",
+        "How would you combine multiple alpha signals into a portfolio?",
+        "Explain time series vs cross-sectional approaches in systematic investing."
+      ],
+      behavioralQuestions: [
+        "Why quantitative research? Why BlackRock specifically?",
+        "Tell me about a research project you've worked on. What was your approach?",
+        "Describe debugging a complex model or code issue.",
+        "How do you stay current on quantitative methods and research?",
+        "Tell me about collaborating with others on a technical project.",
+        "Describe a time your analysis didn't support your initial hypothesis.",
+        "How do you balance research thoroughness with delivery timelines?",
+        "Tell me about explaining technical concepts to non-quantitative audience.",
+        "What qualities make someone successful in quantitative research?",
+        "Describe a creative approach you took to solve a problem.",
+        "How do you approach learning new statistical or ML methods?",
+        "What differentiates BlackRock's systematic investing platform?"
+      ],
+      whatTheyLookFor: [
+        "Strong quantitative foundation: statistics, probability, linear algebra",
+        "Programming proficiency (Python, R) and data analysis skills",
+        "Research mindset: hypothesis formation, testing, iteration",
+        "Understanding of financial markets and investment concepts",
+        "Machine learning knowledge and practical application experience",
+        "Critical thinking about research validity and pitfalls",
+        "Clear communication of complex technical concepts",
+        "Collaborative mindset for working with PMs and technology",
+        "Intellectual curiosity and drive to innovate",
+        "PhD or Masters in quantitative field preferred but not required"
+      ],
+      interviewTips: [
+        "Review statistics fundamentals: regression, hypothesis testing, distributions",
+        "Know machine learning methods: trees, ensembles, regularization, validation",
+        "Practice coding in Python focusing on pandas, numpy, sklearn",
+        "Understand financial concepts: factor models, portfolio optimization, risk metrics",
+        "Research BlackRock's systematic investing approach and scale",
+        "Prepare to discuss past research projects in depth",
+        "Know common backtesting pitfalls: look-ahead bias, survivorship bias, overfitting",
+        "Be ready for live coding and quantitative problem-solving",
+        "Understand the difference between academic research and applied quant work",
+        "Prepare questions about research process, data access, and career paths",
+        "Show interest in practical implementation, not just theoretical research",
+        "Demonstrate collaborative mindset - quant research at BlackRock is team-based"
+      ],
+      salary: {
+        min: 120000,
+        max: 180000
+      },
+      compensation: [
+        "Base salary: $120-180K for quantitative researcher roles depending on experience",
+        "Annual performance bonus: $40-100K+ based on research contribution and fund performance",
+        "Total compensation highly variable based on strategy performance",
+        "Senior researchers can earn $300K-$1M+ in total compensation",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Deferred compensation programs at senior levels",
+        "Access to BlackRock investment products at reduced fees",
+        "Professional development budget for conferences and research",
+        "Total early-career compensation typically $170-280K"
+      ],
+      dayInLife: {
+        overview: "Quantitative Researchers at BlackRock work in intellectually stimulating environment with reasonable hours for quant finance. Typical hours are 9am-7pm with flexibility for deep research work. The role combines independent research with collaboration across PMs and technology. BlackRock's scale provides data resources, computing infrastructure, and diverse investment challenges. Culture emphasizes rigorous research methodology while maintaining practical applicability.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Review",
+            description: "Review overnight model performance and market developments. Check research pipeline and priorities for the day."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Research Development",
+            description: "Deep research work on new signal development. Explore alternative data source, test hypotheses, analyze results."
+          },
+          {
+            time: "11:30 AM",
+            activity: "PM Discussion",
+            description: "Meeting with Portfolio Manager to discuss research findings and potential implementation. Debate methodology and practical considerations."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch",
+            description: "Lunch with research team or attend internal seminar on quantitative topics."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Code Development",
+            description: "Build production code for model implementation. Partner with technology team on infrastructure and deployment."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Research Review",
+            description: "Team meeting to present research findings and receive feedback. Collaborative discussion on methodology and results."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Literature Review",
+            description: "Read academic papers and industry research on relevant quantitative methods. Stay current on methodology advances."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Analysis Continued",
+            description: "Continue research analysis or run overnight backtests. Document findings and prepare for next steps."
+          },
+          {
+            time: "7:00 PM",
+            activity: "Wrap Up",
+            description: "Head home around 7pm on typical days. Research work continues in evening as interest dictates."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Two Sigma", companySlug: "two-sigma", industry: "Finance" },
+        { companyName: "AQR", companySlug: "aqr", industry: "Finance" },
+        { companyName: "Citadel", companySlug: "citadel", industry: "Finance" },
+        { companyName: "D.E. Shaw", companySlug: "de-shaw", industry: "Finance" }
+      ]
+    }
   }
 }
 
