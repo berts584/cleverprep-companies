@@ -412,24 +412,14 @@ export async function generateMetadata({ params }) {
 }
 
 export function generateStaticParams() {
-  // Tech companies expansion - FAANG+ and next tier
-  const techCompanies = ['google', 'amazon', 'meta', 'apple', 'microsoft', 'netflix', 'uber', 'airbnb', 'stripe', 'salesforce', 'doordash', 'lyft', 'spotify', 'oracle', 'adobe', 'atlassian', 'snowflake', 'databricks', 'coinbase', 'block', 'shopify']
-
-  // Finance and consulting companies
-  const financeConsultingCompanies = ['goldman-sachs', 'jpmorgan', 'morgan-stanley', 'bank-of-america', 'citigroup', 'wells-fargo', 'mckinsey', 'blackrock', 'vanguard', 'schwab']
-
-  const allCompanies = [...techCompanies, ...financeConsultingCompanies]
-
+  // Only generate pages for company/role combinations that have actual content
   const params = []
 
-  allCompanies.forEach(companySlug => {
-    const company = companies[companySlug]
-    if (!company) return
+  Object.keys(rolePageContent).forEach(companySlug => {
+    const companyContent = rolePageContent[companySlug]
+    if (!companyContent) return
 
-    // Get relevant roles for this company's industry
-    const relevantRoles = getRolesForCompany(company.industry)
-
-    relevantRoles.forEach(roleSlug => {
+    Object.keys(companyContent).forEach(roleSlug => {
       params.push({
         slug: companySlug,
         role: roleSlug
