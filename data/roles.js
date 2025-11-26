@@ -775,12 +775,62 @@ export const roles = {
     },
     industries: ['Finance', 'Asset Management', 'Banking']
   },
+  'investment-consultant': {
+    name: 'Investment Consultant',
+    description: 'Provide specialized investment guidance to clients with complex financial needs including retirement planning, wealth transfer, and sophisticated investment strategies. Develop customized solutions and coordinate with specialists for comprehensive advice.',
+    focusAreas: [
+      'Comprehensive investment guidance',
+      'Retirement planning strategies',
+      'Wealth transfer and estate coordination',
+      'Complex portfolio analysis',
+      'Client relationship management'
+    ],
+    keySkills: [
+      'Advanced financial planning knowledge',
+      'Investment analysis and portfolio management',
+      'Client relationship and communication',
+      'Tax and estate planning fundamentals',
+      'CFP or similar certifications',
+      'Complex problem-solving'
+    ],
+    salaryRange: {
+      min: 75000,
+      max: 150000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Asset Management', 'Wealth Management']
+  },
+  'client-relationship-specialist': {
+    name: 'Client Relationship Specialist',
+    description: 'Serve as the front-line connection with clients via phone and digital channels, providing exceptional service for account inquiries, transactions, and basic investment guidance. Entry point role with comprehensive training and licensing support.',
+    focusAreas: [
+      'Client service excellence',
+      'Account management and transactions',
+      'Product and service education',
+      'Problem resolution',
+      'Referral identification'
+    ],
+    keySkills: [
+      'Customer service excellence',
+      'Communication and active listening',
+      'Financial products knowledge',
+      'Problem-solving',
+      'Multi-tasking and organization',
+      'FINRA licensing (Series 7, 66)'
+    ],
+    salaryRange: {
+      min: 45000,
+      max: 65000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Asset Management', 'Banking']
+  },
 }
 
 // Mapping of which roles are relevant for which industries
 export const rolesByIndustry = {
   'Technology': ['software-engineer', 'product-manager', 'data-scientist', 'business-analyst', 'marketing-manager', 'engineering-manager', 'machine-learning-engineer', 'devops-engineer', 'security-engineer', 'technical-program-manager'],
-  'Finance': ['software-engineer', 'data-scientist', 'business-analyst', 'investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'quantitative-analyst', 'quantitative-trader', 'quantitative-strategist', 'private-banker', 'portfolio-manager', 'investment-analyst', 'client-relationship-manager', 'product-strategist', 'alternatives-analyst', 'quantitative-researcher', 'tts-analyst', 'financial-advisor', 'client-relationship-associate'],
+  'Finance': ['software-engineer', 'data-scientist', 'business-analyst', 'investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'quantitative-analyst', 'quantitative-trader', 'quantitative-strategist', 'private-banker', 'portfolio-manager', 'investment-analyst', 'client-relationship-manager', 'product-strategist', 'alternatives-analyst', 'quantitative-researcher', 'tts-analyst', 'financial-advisor', 'client-relationship-associate', 'investment-consultant', 'client-relationship-specialist'],
   'Consulting': ['management-consultant', 'business-analyst', 'data-scientist'],
   'Investment Banking': ['investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'quantitative-analyst', 'quantitative-trader', 'quantitative-strategist', 'private-banker', 'business-analyst'],
   'Healthcare': ['software-engineer', 'data-scientist', 'business-analyst'],
@@ -788,7 +838,7 @@ export const rolesByIndustry = {
   'Consumer Goods': ['marketing-manager', 'business-analyst', 'data-scientist'],
   'Retail': ['business-analyst', 'marketing-manager', 'data-scientist'],
   'Fintech': ['software-engineer', 'product-manager', 'data-scientist'],
-  'Asset Management': ['portfolio-manager', 'investment-analyst', 'risk-analyst', 'software-engineer', 'client-relationship-manager', 'product-strategist', 'alternatives-analyst', 'quantitative-researcher', 'financial-advisor', 'client-relationship-associate']
+  'Asset Management': ['portfolio-manager', 'investment-analyst', 'risk-analyst', 'software-engineer', 'client-relationship-manager', 'product-strategist', 'alternatives-analyst', 'quantitative-researcher', 'financial-advisor', 'client-relationship-associate', 'investment-consultant', 'client-relationship-specialist']
 }
 
 // Get relevant roles for a company based on its industry
