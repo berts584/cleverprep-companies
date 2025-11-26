@@ -549,20 +549,196 @@ export const roles = {
       currency: 'USD'
     },
     industries: ['Technology', 'E-commerce', 'Cloud Services']
-  }
+  },
+  'portfolio-manager': {
+    name: 'Portfolio Manager',
+    description: 'Manage investment portfolios across asset classes including equities, fixed income, and alternatives. Construct portfolios aligned with client mandates, generate investment ideas, and monitor risk exposures. Partner with research analysts and risk teams to optimize risk-adjusted returns.',
+    focusAreas: [
+      'Portfolio construction and management',
+      'Investment research and idea generation',
+      'Risk management and factor analysis',
+      'Client communication',
+      'Market analysis'
+    ],
+    keySkills: [
+      'Investment analysis and valuation',
+      'Portfolio construction',
+      'Risk management',
+      'Financial modeling',
+      'Market knowledge',
+      'Communication skills'
+    ],
+    salaryRange: {
+      min: 100000,
+      max: 300000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Asset Management']
+  },
+  'investment-analyst': {
+    name: 'Investment Analyst',
+    description: 'Conduct fundamental research on companies, sectors, and investment themes to generate actionable recommendations. Build financial models, analyze financial statements, and present research findings to portfolio managers.',
+    focusAreas: [
+      'Fundamental research',
+      'Financial modeling',
+      'Valuation analysis',
+      'Industry analysis',
+      'Investment recommendations'
+    ],
+    keySkills: [
+      'Financial statement analysis',
+      'DCF and comparable valuation',
+      'Excel and financial modeling',
+      'Research and writing',
+      'Presentation skills',
+      'Market knowledge'
+    ],
+    salaryRange: {
+      min: 85000,
+      max: 150000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Asset Management']
+  },
+  'client-relationship-manager': {
+    name: 'Client Relationship Manager',
+    description: 'Build and maintain relationships with institutional and wealth clients. Understand client investment needs and recommend appropriate solutions. Coordinate with product specialists to deliver integrated offerings.',
+    focusAreas: [
+      'Client relationship management',
+      'Investment knowledge',
+      'Solution delivery',
+      'Business development',
+      'Client service'
+    ],
+    keySkills: [
+      'Relationship building',
+      'Communication and presentation',
+      'Investment products knowledge',
+      'Client needs analysis',
+      'Team coordination',
+      'Sales skills'
+    ],
+    salaryRange: {
+      min: 80000,
+      max: 150000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Asset Management']
+  },
+  'product-strategist': {
+    name: 'Product Strategist',
+    description: 'Connect investment capabilities with client needs through product development and positioning. Analyze market trends, competitive dynamics, and client demand to shape product offerings.',
+    focusAreas: [
+      'Product strategy and development',
+      'Market analysis',
+      'Competitive positioning',
+      'Content creation',
+      'Cross-functional collaboration'
+    ],
+    keySkills: [
+      'Strategic thinking',
+      'Investment knowledge',
+      'Communication and writing',
+      'Market research',
+      'Project management',
+      'Analytical skills'
+    ],
+    salaryRange: {
+      min: 85000,
+      max: 160000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Asset Management']
+  },
+  'alternatives-analyst': {
+    name: 'Alternatives Analyst',
+    description: 'Support investment teams in sourcing, evaluating, and monitoring alternative investments including private equity, private credit, real estate, and infrastructure. Conduct due diligence and build financial models for private market transactions.',
+    focusAreas: [
+      'Private market investing',
+      'Due diligence',
+      'Financial modeling (LBO)',
+      'Portfolio monitoring',
+      'Investment memoranda'
+    ],
+    keySkills: [
+      'LBO and PE modeling',
+      'Valuation (private companies)',
+      'Due diligence',
+      'Industry research',
+      'Written communication',
+      'Deal execution'
+    ],
+    salaryRange: {
+      min: 95000,
+      max: 180000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Asset Management', 'Private Equity']
+  },
+  'quantitative-researcher': {
+    name: 'Quantitative Researcher',
+    description: 'Develop systematic investment strategies and risk models using advanced statistical methods and machine learning. Research and implement quantitative signals for alpha generation and portfolio construction.',
+    focusAreas: [
+      'Quantitative research',
+      'Statistical modeling',
+      'Machine learning',
+      'Strategy development',
+      'Backtesting'
+    ],
+    keySkills: [
+      'Statistics and probability',
+      'Python/R programming',
+      'Machine learning',
+      'Financial markets knowledge',
+      'Research methodology',
+      'Data analysis'
+    ],
+    salaryRange: {
+      min: 120000,
+      max: 300000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Asset Management', 'Hedge Funds']
+  },
+  'tts-analyst': {
+    name: 'Treasury & Trade Solutions Analyst',
+    description: 'Support corporate treasury clients with cash management, working capital, and trade finance solutions. Analyze client treasury operations and propose integrated solutions for payments, receivables, and liquidity management.',
+    focusAreas: [
+      'Cash management',
+      'Trade finance',
+      'Working capital optimization',
+      'Client solutions',
+      'Treasury operations'
+    ],
+    keySkills: [
+      'Treasury management',
+      'Payments and cash management',
+      'Trade finance',
+      'Financial analysis',
+      'Client relationship management',
+      'Problem-solving'
+    ],
+    salaryRange: {
+      min: 80000,
+      max: 120000,
+      currency: 'USD'
+    },
+    industries: ['Finance', 'Banking']
+  },
 }
 
 // Mapping of which roles are relevant for which industries
 export const rolesByIndustry = {
   'Technology': ['software-engineer', 'product-manager', 'data-scientist', 'business-analyst', 'marketing-manager', 'engineering-manager', 'machine-learning-engineer', 'devops-engineer', 'security-engineer', 'technical-program-manager'],
-  'Finance': ['software-engineer', 'data-scientist', 'business-analyst', 'investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'quantitative-analyst', 'quantitative-trader', 'quantitative-strategist', 'private-banker'],
+  'Finance': ['software-engineer', 'data-scientist', 'business-analyst', 'investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'quantitative-analyst', 'quantitative-trader', 'quantitative-strategist', 'private-banker', 'portfolio-manager', 'investment-analyst', 'client-relationship-manager', 'product-strategist', 'alternatives-analyst', 'quantitative-researcher', 'tts-analyst'],
   'Consulting': ['management-consultant', 'business-analyst', 'data-scientist'],
   'Investment Banking': ['investment-banking-analyst', 'investment-banking-associate', 'equity-research-analyst', 'sales-trading-analyst', 'credit-analyst', 'operations-analyst', 'risk-analyst', 'quantitative-analyst', 'quantitative-trader', 'quantitative-strategist', 'private-banker', 'business-analyst'],
   'Healthcare': ['software-engineer', 'data-scientist', 'business-analyst'],
   'E-commerce': ['software-engineer', 'product-manager', 'data-scientist', 'marketing-manager'],
   'Consumer Goods': ['marketing-manager', 'business-analyst', 'data-scientist'],
   'Retail': ['business-analyst', 'marketing-manager', 'data-scientist'],
-  'Fintech': ['software-engineer', 'product-manager', 'data-scientist']
+  'Fintech': ['software-engineer', 'product-manager', 'data-scientist'],
+  'Asset Management': ['portfolio-manager', 'investment-analyst', 'risk-analyst', 'software-engineer', 'client-relationship-manager', 'product-strategist', 'alternatives-analyst', 'quantitative-researcher']
 }
 
 // Get relevant roles for a company based on its industry

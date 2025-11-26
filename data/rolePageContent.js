@@ -7444,6 +7444,1084 @@ export const rolePageContent = {
       compensation: ["$85-105K base","$30-95K bonus","$120-200K total","Performance-based","P&L linked","Seniors $400K-$2M+","Perks","Benefits","401(k)","Floor food","Bloomberg/tech"],
       dayInLife: {overview:"6:00am-6pm for EM markets. Global fast-paced. High energy. Worldwide collaboration. International learning.",schedule:[{time:"6:00 AM",activity:"Global Pre-Market",description:"Asia/Europe review"},{time:"7:00 AM",activity:"Setup",description:"Multi-region risk"},{time:"9:30 AM",activity:"Open",description:"US execution"},{time:"10:30 AM",activity:"Trading",description:"Global management"},{time:"12:00 PM",activity:"Lunch",description:"Desk meal"},{time:"1:00 PM",activity:"Afternoon",description:"EM trading"},{time:"2:00 PM",activity:"EM Data",description:"Event response"},{time:"3:30 PM",activity:"Late Day",description:"Global close prep"},{time:"4:00 PM",activity:"Review",description:"Worldwide P&L"},{time:"5:00 PM",activity:"Post",description:"Research"},{time:"6:00 PM",activity:"Wrap",description:"Depart"}]},
       similarRoles: [{companyName:"Goldman Sachs",companySlug:"goldman-sachs",industry:"Finance"},{companyName:"JPMorgan Chase",companySlug:"jpmorgan",industry:"Finance"},{companyName:"Morgan Stanley",companySlug:"morgan-stanley",industry:"Finance"},{companyName:"Bank of America",companySlug:"bank-of-america",industry:"Finance"},{companyName:"Wells Fargo",companySlug:"wells-fargo",industry:"Finance"}]
+    },
+    'credit-analyst': {
+      roleDescription: "Credit Analysts at Citigroup evaluate creditworthiness across the firm's global institutional and consumer lending portfolios spanning nearly 100 countries. Working within the Institutional Clients Group (ICG) Corporate Banking or Independent Risk Management, you'll analyze financial statements, industry dynamics, and macroeconomic factors to assess credit risk and recommend lending terms for multinational corporations. Citi's unparalleled global footprint provides exposure to cross-border transactions, emerging markets lending, and complex structured finance that domestic-focused banks cannot match. The Credit Risk function provides independent oversight across all phases of credit lifecycle while working collaboratively with Banking, Capital Markets, and Treasury & Trade Solutions (TTS) teams. Citi's culture balances professional excellence with reasonable work-life considerations, offering analysts comprehensive training while working on sophisticated international transactions. The global exposure and emerging markets expertise make Citi credit analysts highly valued by private credit funds and international financial institutions.",
+      responsibilities: [
+        "Analyze financial statements across multiple accounting standards (US GAAP, IFRS, local GAAP) to assess creditworthiness of multinational borrowers",
+        "Build comprehensive credit models incorporating cross-border considerations, currency exposure, sovereign risk, and global industry dynamics",
+        "Prepare credit memoranda and risk rating recommendations for Credit Committees serving institutional clients across nearly 100 countries",
+        "Conduct industry research across global sectors understanding regional differences in competitive dynamics and regulatory environments",
+        "Monitor credit exposures across Citi's international portfolio through quarterly reviews, covenant testing, and early warning indicators",
+        "Support Transaction Banking credit facilities including Trade Finance, Cash Management, and Working Capital solutions for global corporates",
+        "Collaborate with Banking teams in ICG providing credit perspectives on client relationships and capital markets transactions",
+        "Participate in emerging markets credit analysis with particular focus on Latin America, Asia, EMEA exposure",
+        "Ensure compliance with Citi credit policies, local regulatory requirements, and enterprise risk appetite framework across jurisdictions"
+      ],
+      growthOpportunities: [
+        "Progression from Credit Analyst to Senior Credit Analyst to Credit Risk Officer with increasing global responsibility",
+        "Exposure to diverse credit situations across Citi's unique global footprint - no other bank offers comparable international experience",
+        "Opportunity to specialize in emerging markets credit, structured finance, trade finance, or specific industry sectors globally",
+        "Strong exit opportunities to international private credit funds, emerging markets specialists, and global corporate treasury",
+        "Access to Citi's global training programs including rotations across regions (Americas, EMEA, Asia Pacific)",
+        "Path to front-line Corporate Banking roles for those seeking client-facing international careers",
+        "Unique cross-border transaction experience valued by global financial institutions and multinational corporations",
+        "Reasonable work-life balance compared to NYC bulge brackets enables sustainable career development"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded questions assessing motivation for credit analysis, global awareness, and analytical thinking. Expect questions on 'Why Citi?', basic credit concepts, and interest in international markets. Citi emphasizes global mindset alongside technical skills.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute conversation with Credit Analyst or Credit Risk Officer covering technical accounting concepts, credit fundamentals, and cross-border considerations. Expect questions on financial statement analysis, emerging markets awareness, and analytical approach.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "3-4 rounds with Credit team members, potentially including international video calls given Citi's global structure. Mix of technical deep-dives (accounting, credit analysis, cross-currency concepts) and behavioral questions. Citi values analytical rigor, global perspective, and cultural adaptability.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee reviews technical ability, analytical judgment, and global mindset fit. Offers typically extended within 1-2 weeks with details on compensation, team placement, and potential international exposure opportunities."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through how you'd assess creditworthiness of a multinational company with operations in multiple emerging markets.",
+        "What are the most important credit metrics for evaluating a cross-border leveraged transaction?",
+        "How do you adjust credit analysis for different accounting standards (US GAAP vs IFRS)?",
+        "Explain how sovereign risk affects corporate credit analysis in emerging markets.",
+        "Walk through the three financial statements. How do currency translations affect each?",
+        "What's the difference between transaction exposure and translation exposure in credit risk?",
+        "How would you analyze a company with significant emerging markets revenue?",
+        "Explain financial covenants. How do cross-border deals affect covenant structures?",
+        "How do country transfer and convertibility risks affect lending decisions?",
+        "How would political or regulatory risk in an emerging market affect your credit assessment?",
+        "What's the difference between investment grade and high yield credit analysis?",
+        "How does Citi's Treasury & Trade Solutions (TTS) business affect credit relationships?",
+        "How would you evaluate credit risk for a subsidiary of a multinational corporation?",
+        "What factors drive credit spreads differently in emerging vs developed markets?",
+        "How do you assess management quality in companies across different cultures?",
+        "Explain structured trade finance and its credit risk characteristics."
+      ],
+      behavioralQuestions: [
+        "Why credit analysis? Why Citigroup specifically over other global banks?",
+        "Tell me about a time you analyzed complex data involving international or multicultural considerations.",
+        "Describe how you stay informed about global markets and emerging economies.",
+        "How do you approach learning about unfamiliar industries or markets?",
+        "Tell me about making a recommendation with incomplete information across multiple variables.",
+        "How would you handle disagreement between your credit recommendation and an international colleague's view?",
+        "Describe explaining complex analysis to someone from a different cultural or professional background.",
+        "Tell me about managing priorities across different time zones or stakeholder groups.",
+        "What interests you about international banking and cross-border transactions?",
+        "Describe a situation where you adapted your approach based on new information about a different market.",
+        "What do you see as the biggest risks facing global banks and emerging markets today?",
+        "How does Citi's global platform differentiate it from domestic-focused competitors?"
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in accounting and financial statement analysis across accounting standards",
+        "Analytical mindset with attention to detail in complex multinational credit situations",
+        "Global awareness and genuine interest in international markets and emerging economies",
+        "Intellectual curiosity about businesses, industries, and cross-border dynamics",
+        "Clear written and verbal communication skills across potentially diverse stakeholders",
+        "Sound judgment balancing risk assessment with enabling client business globally",
+        "Cultural adaptability and ability to work effectively across Citi's international teams",
+        "Foreign language skills valuable but not required - English is Citi's business language",
+        "Openness to potential international rotations or assignments",
+        "Alignment with Citi's global mission and client-centric values"
+      ],
+      interviewTips: [
+        "Master core credit metrics and be ready to discuss cross-border adjustments",
+        "Review accounting fundamentals including currency translation and consolidation concepts",
+        "Research Citi's global footprint, emerging markets presence, and competitive positioning",
+        "Understand differences between US GAAP and IFRS for key credit metrics",
+        "Prepare examples demonstrating analytical skills and global awareness",
+        "Know current events in major emerging markets - Latin America, Asia, EMEA",
+        "Research Citi's ICG structure: Banking, Capital Markets, TTS, Securities Services",
+        "Understand how Citi's global platform creates unique credit opportunities",
+        "Prepare thoughtful questions about international exposure and career development",
+        "Be ready to discuss why Citi vs domestic-focused banks - show genuine interest in global scope",
+        "Demonstrate cultural adaptability and comfort working across diverse teams",
+        "Show understanding of how geopolitical events affect credit risk globally"
+      ],
+      salary: {
+        min: 80000,
+        max: 95000
+      },
+      compensation: [
+        "Base salary: $80-95K for credit analysts depending on location (NYC higher)",
+        "Annual performance bonus: $15-30K based on individual and firm performance",
+        "Signing bonus: $5-15K for competitive candidates",
+        "Compensation competitive with market for non-front-office roles",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with Citi match",
+        "Tuition reimbursement for relevant degrees or certifications (CFA, FRM)",
+        "International rotation opportunities for high performers",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $100-130K all-in"
+      ],
+      dayInLife: {
+        overview: "Credit Analysts at Citi work in intellectually stimulating global environment with reasonable work-life balance. Hours typically 8:30am-6:30pm with occasional early or late calls given global operations. The international scope means exposure to diverse credit situations and emerging markets that domestic banks cannot match. Work balances independent analysis with collaboration across Citi's worldwide teams. The culture emphasizes professional excellence, global perspective, and sustainable careers.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Review",
+            description: "Check emails including overnight updates from EMEA and Asia teams. Review news on portfolio companies and global markets. Prioritize day's work around deal pipeline and monitoring."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Credit Modeling",
+            description: "Build credit model for multinational borrower. Consolidate financials across subsidiaries, adjust for currency, calculate global leverage and coverage metrics."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Regional Call",
+            description: "Join call with EMEA credit team discussing shared client credit review. Citi's global structure means regular collaboration across regions."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break or working lunch. Citi's reasonable hours mean actual lunch breaks most days."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Industry Research",
+            description: "Research emerging markets telecommunications sector for new credit. Understand regional competitive dynamics, regulatory environment, currency considerations."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Client Meeting Prep",
+            description: "Prepare credit perspectives for Corporate Banking team's client meeting. Summarize risk factors, proposed terms, portfolio context."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Credit Memo Writing",
+            description: "Draft credit memorandum for Credit Committee. Structure analysis for global audience - clear, concise, acknowledging cross-border considerations."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Portfolio Monitoring",
+            description: "Review quarterly financials and covenant compliance for existing credits. Flag issues for discussion with relationship teams."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Wrap Up",
+            description: "Respond to final emails, hand off items to APAC colleagues starting their day. Head home around 6:30pm typically. Reasonable hours compared to front office."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "HSBC", companySlug: "hsbc", industry: "Finance" },
+        { companyName: "Standard Chartered", companySlug: "standard-chartered", industry: "Finance" }
+      ]
+    },
+    'risk-analyst': {
+      roleDescription: "Risk Analysts at Citigroup work within Independent Risk Management, providing second line of defense oversight across the firm's global operations spanning nearly 100 countries. You'll perform quantitative analysis across credit risk, market risk, operational risk, model risk, and country risk to assess potential losses and ensure the firm operates within its risk appetite globally. Citi's scale as one of the world's most internationally diversified banks makes robust risk management absolutely critical. The Independent Risk function sets standards for the first line and actively manages aggregate risk across the enterprise. Citi offers rotational programs across risk types and regions, with opportunities for international assignments. The global scope provides unparalleled exposure to emerging markets risk, cross-border transaction risk, and geopolitical analysis that domestic banks cannot offer. Citi's culture balances professional rigor with reasonable work-life expectations, making it attractive for sustainable risk careers.",
+      responsibilities: [
+        "Perform quantitative risk analysis including Value at Risk (VaR), stress testing, scenario analysis, and expected loss modeling across global portfolios",
+        "Monitor credit exposures, trading positions, and operational risk metrics across Citi's nearly 100-country footprint against established limits",
+        "Develop and maintain risk models for credit loss estimation, market risk measurement, country risk assessment, and operational risk quantification",
+        "Prepare risk reports and presentations for Senior Management, Risk Committees, and Board including analysis of global concentrations and emerging risks",
+        "Conduct deep-dive analyses on cross-border risks, emerging markets exposure, geopolitical scenarios, and portfolio vulnerabilities",
+        "Support regulatory stress testing programs including CCAR, DFAST, and local regulatory requirements across jurisdictions",
+        "Collaborate with business units globally to understand risks while maintaining independent perspective as second line of defense",
+        "Contribute to country risk assessments evaluating sovereign, transfer, and convertibility risks across Citi's global operations",
+        "Monitor sanctions, compliance, and financial crimes risk given Citi's extensive emerging markets presence"
+      ],
+      growthOpportunities: [
+        "Rotational programs across risk types (credit, market, operational) and regions (Americas, EMEA, Asia Pacific)",
+        "Clear progression from Risk Analyst to Senior Risk Analyst to Risk Manager to Chief Risk Officer track",
+        "Exposure to risk types unavailable at domestic banks: country risk, transfer risk, emerging markets concentration",
+        "Opportunity to specialize in specific risk domains, regions, or business lines (ICG, PBWM, Markets)",
+        "International assignment opportunities across Citi's global risk organization",
+        "Strong foundation for moving to front-line risk roles, hedge funds, or consulting",
+        "Access to Citi's global risk training curriculum and certifications support (FRM, PRM)",
+        "Path to emerging risk specializations: climate risk, cyber risk, geopolitical risk, sanctions risk"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded questions assessing motivation for risk management, quantitative abilities, and global awareness. Expect questions on why risk, basic statistics/probability, and interest in international markets. Citi values analytical skills alongside global perspective.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute technical conversation with Risk team member covering statistics, probability, risk concepts, and resume discussion. May include questions on cross-border risk considerations given Citi's global footprint. Collaborative interview style.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "3-4 rounds with Risk Analysts, Managers, and potentially Directors across functions. Mix of technical deep-dives (statistics, risk modeling, global risk concepts), case studies, and behavioral questions. Demonstrate analytical rigor, global awareness, and sound judgment.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates technical competency, analytical thinking, global mindset, and communication skills. Offers typically extended within 1-2 weeks with competitive compensation and potential international exposure opportunities."
+        }
+      ],
+      technicalQuestions: [
+        "What is Value at Risk (VaR)? How would you adjust it for an emerging markets portfolio?",
+        "Explain expected loss components: PD, LGD, EAD. How do they differ in emerging markets?",
+        "How would you measure market risk for a portfolio with emerging markets currency exposure?",
+        "What's the difference between VaR and expected shortfall? Why does tail risk matter in global portfolios?",
+        "How would you stress test a loan portfolio with significant cross-border exposure?",
+        "Explain country risk. What factors would you assess for transfer and convertibility risk?",
+        "What is correlation risk? How does it manifest differently in emerging vs developed markets?",
+        "How do you assess sovereign risk and its impact on corporate credit in that country?",
+        "Explain counterparty credit risk in cross-border derivatives transactions.",
+        "What's the difference between first line and second line of defense in global banks?",
+        "How would you evaluate model risk for a credit scoring model used across multiple countries?",
+        "What are the unique operational risks in emerging markets operations?",
+        "How do sanctions and financial crimes risks differ across Citi's global footprint?",
+        "What regulatory frameworks govern global bank risk management (Basel III/IV, local requirements)?",
+        "How would you identify concentration risk in a globally diversified portfolio?",
+        "Explain the relationship between country risk and corporate credit risk."
+      ],
+      behavioralQuestions: [
+        "Why risk management? Why Citigroup specifically over domestic-focused banks?",
+        "Tell me about identifying a risk that others overlooked. How did you communicate it?",
+        "Describe challenging analysis from a colleague in another region constructively.",
+        "How do you balance enabling global business with appropriate risk management?",
+        "Tell me about solving an analytical problem with data from multiple sources.",
+        "How would you handle a disagreement with a business partner in another country about risk assessment?",
+        "Describe explaining complex risk concepts to non-technical stakeholders across cultures.",
+        "How do you stay current on geopolitical developments and global risk trends?",
+        "Tell me about working collaboratively with teams across different time zones.",
+        "What do you think are the biggest risks facing global banks today?",
+        "Why independent risk management over front-line business roles?",
+        "How does Citi's global platform affect risk management compared to domestic banks?"
+      ],
+      whatTheyLookFor: [
+        "Strong quantitative foundation: statistics, probability, financial mathematics",
+        "Programming skills (Python, R, SQL) and comfort with data analysis",
+        "Analytical thinking and ability to identify risks in complex global situations",
+        "Global awareness and genuine interest in international markets and geopolitics",
+        "Sound judgment and independence to challenge assumptions constructively",
+        "Clear communication skills across diverse stakeholders and cultures",
+        "Understanding of financial products and banking operations globally",
+        "Professional skepticism balanced with collaborative mindset",
+        "Openness to international rotations or assignments",
+        "Alignment with Citi's global mission and risk culture"
+      ],
+      interviewTips: [
+        "Master fundamental risk concepts and be ready to discuss global adjustments",
+        "Review statistics and probability with focus on non-normal distributions for emerging markets",
+        "Research Citi's global footprint and unique risk characteristics vs domestic banks",
+        "Understand country risk frameworks: sovereign, transfer, convertibility risks",
+        "Prepare examples demonstrating analytical skills and global awareness",
+        "Know current geopolitical events affecting emerging markets and global banks",
+        "Research regulatory frameworks: Basel III/IV, CCAR, and local requirements",
+        "Be ready to discuss why Citi vs domestic banks - show genuine interest in global scope",
+        "Understand second line of defense model and independent oversight role",
+        "Prepare thoughtful questions about international exposure and rotational programs",
+        "Demonstrate comfort working across cultures and time zones",
+        "Show understanding of how Citi's emerging markets presence creates unique risks"
+      ],
+      salary: {
+        min: 85000,
+        max: 105000
+      },
+      compensation: [
+        "Base salary: $85-105K for risk analysts depending on team and location (NYC higher)",
+        "Annual performance bonus: $15-35K based on individual and firm performance",
+        "Signing bonus: $10-20K for candidates with strong quantitative backgrounds",
+        "Compensation competitive with market for risk roles at global banks",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with Citi match",
+        "Tuition reimbursement for certifications (FRM, PRM, CFA)",
+        "International rotation opportunities for high performers",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $105-145K all-in"
+      ],
+      dayInLife: {
+        overview: "Risk Analysts at Citi work in intellectually stimulating global environment with reasonable work-life balance. Typical hours are 8:30am-6:30pm with periodic early or late calls given global operations. The international scope provides exposure to emerging markets, geopolitical analysis, and cross-border risks unavailable at domestic banks. Work balances independent analysis with stakeholder collaboration across regions. Citi's culture emphasizes analytical rigor, global perspective, and sustainable careers.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Global Risk Review",
+            description: "Review overnight developments across regions. Check risk dashboards for global exposures, limit utilization, and alerts. Scan for breaches or unusual positions requiring investigation."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Brief meeting with risk team including video participants from other regions. Discuss global priorities, escalations, and coordination needs."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Quantitative Analysis",
+            description: "Build stress scenarios assessing impact of emerging markets currency crisis. Use Python to model correlations, calculate potential losses across global portfolio."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break - reasonable hours mean actual breaks most days. May attend global training webinar or development session."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Country Risk Assessment",
+            description: "Prepare quarterly country risk update for key emerging market. Analyze sovereign indicators, transfer risk, regulatory changes, and implications for Citi exposure."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Business Partnership",
+            description: "Meeting with Markets team to discuss risk aspects of new emerging markets trading strategy. Provide independent perspective while understanding business rationale."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Report Preparation",
+            description: "Draft risk summary for Risk Committee. Aggregate findings across regions, highlight key concentrations and emerging risks. Clear communication essential for global audience."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Regional Handoff",
+            description: "Brief call with Asia Pacific risk team starting their day. Share context on ongoing analyses, escalate items needing attention."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Wrap Up",
+            description: "Respond to final emails, update project trackers. Head home around 6:30pm typically - reasonable hours compared to front office. Occasional late calls for global coordination."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "HSBC", companySlug: "hsbc", industry: "Finance" },
+        { companyName: "Standard Chartered", companySlug: "standard-chartered", industry: "Finance" }
+      ]
+    },
+    'operations-analyst': {
+      roleDescription: "Operations Analysts at Citigroup work within the Institutional Clients Group (ICG) Operations or Services organizations, supporting the firm's global transaction processing across nearly 100 countries. Acting as the functional heart of the business, Operations ensures global transactions flow smoothly around the clock, wherever Citi does business. The ICG Operations Analyst Two-Year Rotational Program is designed to impact Operations process modernization and transformation with innovative solutions and technical efficiencies. Citi's unparalleled global footprint means exposure to cross-border settlement, multi-currency processing, and emerging markets operations that domestic banks cannot offer. The program includes rotations across different business areas within ICG Operations including Markets Operations, Banking Operations, Securities Services, and Treasury & Trade Solutions (TTS) Operations. Citi's culture emphasizes technology transformation, automation, and process improvement while maintaining reasonable work-life balance.",
+      responsibilities: [
+        "Process and reconcile global financial transactions across Markets, Banking, Securities Services, and Treasury & Trade Solutions",
+        "Monitor trade settlement, confirm transactions, and resolve exceptions across Citi's nearly 100-country operations",
+        "Support automation and technology transformation initiatives to modernize Operations processes globally",
+        "Analyze operational metrics and identify opportunities for efficiency improvements and risk reduction",
+        "Collaborate with Technology teams on process digitization, API development, and straight-through processing",
+        "Manage operational risk through controls testing, issue identification, and remediation tracking",
+        "Support regulatory compliance across multiple jurisdictions including reporting and documentation requirements",
+        "Partner with front-office businesses to understand client needs and improve service delivery",
+        "Participate in incident management and problem resolution for operational issues affecting clients"
+      ],
+      growthOpportunities: [
+        "Two-Year Rotational Program with exposure to 2-3 different Operations areas across ICG",
+        "Clear progression from Analyst to Senior Analyst to Operations Manager to Head of Operations",
+        "Exposure to global operations unavailable at domestic banks: emerging markets settlement, multi-currency processing",
+        "Opportunity to specialize in technology transformation, process automation, or specific product operations",
+        "Strong foundation for careers in fintech, process consulting, or technology-focused operations leadership",
+        "Access to Citi's global training including Operations fundamentals and technology skills",
+        "International assignment opportunities across Citi's global operations centers",
+        "Path to emerging specializations: digital operations, data analytics, AI/ML in operations"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded questions assessing motivation for operations, problem-solving abilities, and attention to detail. Expect questions on why Operations, process improvement examples, and interest in global banking.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute conversation with Operations team member covering analytical skills, problem-solving approach, and resume discussion. May include questions on technology aptitude and process improvement.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "3-4 rounds with Operations Analysts, Managers, and potentially Directors. Mix of situational questions (process analysis, problem resolution), case studies, and behavioral assessment. Demonstrate analytical thinking, attention to detail, and collaborative mindset.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates analytical ability, process orientation, technology aptitude, and cultural fit. Offers typically extended within 1-2 weeks with details on rotational program structure and potential locations."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through the trade lifecycle from execution to settlement.",
+        "What are T+1, T+2 settlement cycles and why are they moving toward shorter settlement?",
+        "Explain the difference between clearing and settlement.",
+        "What is a trade break and how would you investigate and resolve it?",
+        "What are the key operational risks in securities processing?",
+        "Explain corporate actions processing. What happens when a stock splits or pays a dividend?",
+        "What is reconciliation and why is it critical in operations?",
+        "How does cross-border settlement differ from domestic settlement?",
+        "What are the key functions of a custodian bank?",
+        "Explain SWIFT messaging and its role in global banking operations.",
+        "What is straight-through processing (STP) and why does it matter?",
+        "How would you identify opportunities for process automation?",
+        "What are common causes of trade fails and how would you reduce them?",
+        "Explain the role of CCPs (Central Counterparty Clearinghouses).",
+        "What operational considerations are unique to emerging markets transactions?",
+        "How does Treasury & Trade Solutions (TTS) Operations differ from Markets Operations?"
+      ],
+      behavioralQuestions: [
+        "Why operations? Why Citigroup specifically?",
+        "Tell me about a time you improved a process. What was the impact?",
+        "Describe finding and fixing an error in a complex system or process.",
+        "How do you prioritize when managing multiple urgent tasks?",
+        "Tell me about working with stakeholders who had different priorities.",
+        "Describe a situation where attention to detail made a significant difference.",
+        "How do you approach learning new systems or processes?",
+        "Tell me about explaining a complex process to someone unfamiliar with it.",
+        "Describe a time you identified a risk or issue before it became a problem.",
+        "How do you stay organized when processing high volumes of work?",
+        "What interests you about global banking operations?",
+        "How does Citi's global platform affect Operations differently than domestic banks?"
+      ],
+      whatTheyLookFor: [
+        "Strong analytical and problem-solving abilities",
+        "Exceptional attention to detail and accuracy orientation",
+        "Process-minded thinking with continuous improvement mindset",
+        "Technology aptitude and interest in automation",
+        "Ability to work under pressure and manage competing priorities",
+        "Clear communication skills across diverse stakeholders",
+        "Team player with collaborative approach",
+        "Interest in global banking and international operations",
+        "Adaptability to learn new systems and processes quickly",
+        "Alignment with Citi's transformation agenda and global mission"
+      ],
+      interviewTips: [
+        "Understand trade lifecycle basics: execution, clearing, settlement, custody",
+        "Research Operations transformation trends: automation, AI/ML, blockchain, shorter settlement",
+        "Prepare examples demonstrating process improvement and attention to detail",
+        "Know basics of different Operations areas: Markets, Banking, Securities Services, TTS",
+        "Research Citi's global operations footprint and key service centers",
+        "Understand regulatory environment affecting operations (T+1, CSDR, Dodd-Frank)",
+        "Prepare questions about rotational program structure and career paths",
+        "Demonstrate technology interest - Citi emphasizes digital transformation",
+        "Show understanding of how global scope creates unique operational challenges",
+        "Be ready to discuss why Operations vs front office - genuine interest in process excellence",
+        "Understand cross-border considerations: time zones, currencies, local market practices",
+        "Demonstrate collaborative mindset - Operations requires constant coordination"
+      ],
+      salary: {
+        min: 70000,
+        max: 85000
+      },
+      compensation: [
+        "Base salary: $70-85K for operations analysts depending on location",
+        "Annual performance bonus: $10-20K based on individual and team performance",
+        "Signing bonus: $5-10K for competitive candidates",
+        "Compensation reflects Operations role with better work-life balance than front office",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with Citi match",
+        "Tuition reimbursement for relevant degrees or certifications",
+        "Rotational program provides structured development",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $85-110K all-in"
+      ],
+      dayInLife: {
+        overview: "Operations Analysts at Citi work in fast-paced global environment with good work-life balance. Typical hours are 8:00am-6:00pm with shifts possible given 24/7 global operations. The international scope provides exposure to emerging markets, cross-border processing, and multi-currency operations. Work balances transaction processing with process improvement and automation initiatives. Citi emphasizes technology transformation, making Operations increasingly analytical and strategic.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Handoff Review",
+            description: "Review overnight processing from Asia and EMEA teams. Check for exceptions, escalations, and items requiring immediate attention. Global operations means continuous handoffs."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Morning Priorities",
+            description: "Address urgent items: trade breaks, failed settlements, client inquiries. Operations requires quick response to keep transactions flowing."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Processing & Reconciliation",
+            description: "Process transactions, perform reconciliations, investigate discrepancies. Attention to detail critical - errors in operations can have significant financial impact."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break. Operations generally offers predictable hours with actual lunch breaks most days."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Process Improvement",
+            description: "Work on automation project to reduce manual processing. Analyze current workflow, identify inefficiencies, design improved process. Technology transformation is key focus."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Meeting with front-office team to discuss new product operational requirements. Understand client needs, identify operational considerations, plan implementation."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Controls & Reporting",
+            description: "Complete daily controls testing, prepare operational metrics reports. Document exceptions and remediation. Strong controls culture in Operations."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Regional Handoff",
+            description: "Prepare handoff notes for overnight teams. Highlight items requiring attention, provide context on ongoing issues. Global Operations requires seamless transitions."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Respond to final emails, update trackers. Head home around 6pm typically. Operations offers good work-life balance while providing meaningful global exposure."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" }
+      ]
+    },
+    'private-banker': {
+      roleDescription: "Private Bankers at Citi Private Bank serve ultra-high-net-worth individuals and family offices through one of the world's most globally connected wealth management platforms. Citi Private Bank is focused on clients with a minimum net worth of $25 million and serves 40% of the world's billionaires and their families. The Global Analyst Program provides rotational experience across core capabilities including Banking, Investments, Lending, and Wealth Planning. Citi's unparalleled global footprint spanning nearly 100 countries enables sophisticated cross-border wealth solutions unavailable from domestic competitors. As part of Citi Global Wealth (the unified wealth platform), Private Bankers build multi-generational relationships helping clients navigate complex international financial needs. The role combines relationship management with technical expertise in global investing, structured lending, and estate planning across jurisdictions. Citi's culture emphasizes long-term client relationships, global perspective, and professional development.",
+      responsibilities: [
+        "Build and maintain relationships with UHNW clients ($25M+) and family offices, understanding their complex global financial needs",
+        "Deliver integrated wealth solutions across Banking, Investments, Lending, and Wealth Planning leveraging Citi's global platform",
+        "Collaborate with Investment Counselors to provide sophisticated portfolio management and investment advisory services",
+        "Structure complex lending solutions including securities-based lending, real estate financing, and aviation/yacht financing",
+        "Coordinate with Trust & Estate specialists on multi-jurisdictional wealth transfer and succession planning",
+        "Partner with ICG teams on corporate banking needs for clients' operating companies and liquidity events",
+        "Navigate cross-border considerations including tax efficiency, currency management, and regulatory compliance across jurisdictions",
+        "Identify new client opportunities through referrals, centers of influence, and Citi's global network",
+        "Manage risk appropriately while delivering exceptional client service and growing share of wallet"
+      ],
+      growthOpportunities: [
+        "Two-Year Rotational Analyst Program with exposure to core Private Bank capabilities and client segments",
+        "Clear progression from Analyst to Associate to Banker to Managing Director track",
+        "Exposure to UHNW client relationships unavailable at smaller private banks - Citi serves 40% of world's billionaires",
+        "Opportunity to specialize by client segment (family office, entrepreneurs, executives) or capability (investments, lending, planning)",
+        "International assignment opportunities across Citi Private Bank's global offices",
+        "Strong foundation for wealth management careers, family office roles, or independent advisory",
+        "Access to Citi's global training including wealth fundamentals and client relationship skills",
+        "Path to coverage of institutional clients, hedge funds, or private equity principals"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded questions assessing motivation for private banking, client service orientation, and global awareness. Expect questions on why private banking, interest in UHNW clients, and understanding of wealth management.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute conversation with Private Bank team member covering resume discussion, motivation for Citi Private Bank, and basic financial knowledge. Emphasis on interpersonal skills and client orientation.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "4-5 rounds with Bankers, Investment Counselors, and potentially Managing Directors. Mix of behavioral questions (client scenarios, relationship building), technical knowledge (markets, investments), and cultural fit. Citi values global perspective and long-term relationship mindset.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates client orientation, interpersonal skills, market knowledge, and cultural fit. Offers typically extended within 1-2 weeks with details on rotational program and location."
+        }
+      ],
+      technicalQuestions: [
+        "What is asset allocation and why does it matter for UHNW clients?",
+        "Explain the difference between discretionary and non-discretionary portfolio management.",
+        "How would you think about liquidity needs for a family office client?",
+        "What is securities-based lending and when might a client use it?",
+        "Explain basic estate planning concepts: trusts, gifting strategies, generation-skipping.",
+        "How do interest rate changes affect bond portfolios?",
+        "What are the key considerations for international clients with multi-currency needs?",
+        "Explain risk tolerance and how you would assess it for a new client.",
+        "What is concentrated stock position risk and how can it be managed?",
+        "How would global diversification benefit a UHNW portfolio?",
+        "What are alternative investments and why might UHNW clients want them?",
+        "Explain the role of philanthropy and charitable planning in wealth management.",
+        "How do you think about risk vs. return for clients with significant existing wealth?",
+        "What are the key differences between onshore and offshore wealth structures?",
+        "How would you approach a client going through a liquidity event like company sale?"
+      ],
+      behavioralQuestions: [
+        "Why private banking? Why Citi Private Bank specifically?",
+        "Tell me about building a relationship with someone over time. What made it successful?",
+        "Describe handling a difficult client situation. How did you resolve it?",
+        "How do you stay informed about markets and current events?",
+        "Tell me about a time you had to understand someone's needs before providing a solution.",
+        "Describe working with a team to deliver results for a client or stakeholder.",
+        "How would you handle a client whose investment expectations are unrealistic?",
+        "Tell me about a time you went above and beyond for someone.",
+        "What interests you about working with UHNW individuals and families?",
+        "How do you build trust with someone who is initially skeptical?",
+        "Describe explaining a complex concept to someone without financial background.",
+        "What differentiates Citi Private Bank from competitors like JPMorgan or Goldman?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional interpersonal and relationship-building skills",
+        "Strong client service orientation and empathy",
+        "Genuine interest in UHNW clients and their complex needs",
+        "Intellectual curiosity about markets, investing, and wealth management",
+        "Global awareness and comfort with international clients",
+        "Professional presence and communication skills",
+        "Integrity and discretion handling sensitive client information",
+        "Team player who collaborates across specialists",
+        "Long-term relationship mindset over transactional approach",
+        "Alignment with Citi's global platform and client-centric culture"
+      ],
+      interviewTips: [
+        "Develop strong 'Why Private Banking' and 'Why Citi' narratives",
+        "Research Citi Private Bank's global footprint and competitive positioning",
+        "Understand basic wealth management concepts: asset allocation, trusts, lending",
+        "Read financial news and be ready to discuss current market environment",
+        "Prepare relationship-building stories demonstrating empathy and long-term thinking",
+        "Research UHNW client needs: liquidity events, succession planning, philanthropy",
+        "Understand how Citi Private Bank serves 40% of world's billionaires - what makes it special",
+        "Prepare questions about rotational program, client exposure, career development",
+        "Demonstrate interpersonal skills in the interview itself - be engaging and curious",
+        "Show understanding of how global platform differentiates Citi from domestic competitors",
+        "Be prepared for market questions - know current rates, equity markets, economic outlook",
+        "Demonstrate discretion and professionalism - Private Banking requires trust"
+      ],
+      salary: {
+        min: 85000,
+        max: 100000
+      },
+      compensation: [
+        "Base salary: $85-100K for analyst program depending on location",
+        "Annual performance bonus: $15-35K based on individual and team performance",
+        "Signing bonus: $10-20K for competitive candidates",
+        "Compensation competitive for private banking analyst roles",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with Citi match",
+        "Tuition reimbursement for relevant certifications (CFP, CFA, CAIA)",
+        "Rotational program provides structured development",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $105-140K all-in"
+      ],
+      dayInLife: {
+        overview: "Private Bankers at Citi work in relationship-focused environment with reasonable hours compared to investment banking. Typical hours are 8:30am-6:30pm with flexibility around client needs. The role combines client meetings, internal coordination, and market research. Citi's global platform means exposure to sophisticated international clients and complex cross-border solutions. Culture emphasizes long-term relationships, collaboration, and professional development.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Preparation",
+            description: "Review overnight market developments and client news. Check emails from international colleagues. Prepare for scheduled client calls and meetings."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Meeting",
+            description: "Weekly team meeting to discuss client pipeline, investment views, and coordination needs. Collaborative culture means sharing information across coverage teams."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Client Call",
+            description: "Quarterly portfolio review call with UHNW family office. Discuss performance, market outlook, and upcoming liquidity needs. Investment Counselor joins for technical discussion."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Internal Coordination",
+            description: "Meeting with Lending specialist to structure securities-based loan for client's real estate acquisition. Cross-functional coordination essential in Private Banking."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Client Lunch",
+            description: "Lunch meeting with prospective client introduced through center of influence. Relationship building is core of Private Banking."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Research & Preparation",
+            description: "Prepare customized investment proposal for client considering concentrated stock hedging. Review Investment Counselor recommendations and market research."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Client Meeting",
+            description: "In-office meeting with entrepreneur client planning company sale. Discuss wealth planning, investment strategy, and family governance with Trust & Estate specialist."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Follow-Up & Administration",
+            description: "Send meeting follow-ups, update CRM, respond to client emails. Prepare materials for tomorrow's calls."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Wrap Up",
+            description: "Head home around 6:30pm. Private Banking hours are reasonable though flexibility needed for client schedules. Evening client events occasional."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Morgan Stanley", companySlug: "morgan-stanley", industry: "Finance" },
+        { companyName: "UBS", companySlug: "ubs", industry: "Finance" }
+      ]
+    },
+    'tts-analyst': {
+      roleDescription: "Treasury & Trade Solutions (TTS) Analysts at Citigroup work within one of the world's leading transaction banking franchises, providing integrated cash management, working capital, and trade finance solutions to multinational corporations, financial institutions, and public sector organizations across 85+ countries. TTS serves 99 of the Fortune Global 100 companies and processes $4 trillion in daily payments. The 2.5-year TTS Analyst Program provides rotational experience across business lines including Cash Management (Liquidity & Investments, Receivables, Payments) and Trade (Commodities Financing, Trade Finance, Export & Agency Finance). Citi's unparalleled global network enables TTS to deliver seamless cross-border treasury solutions that domestic banks cannot match. The role combines product knowledge with client relationship skills, working with corporate treasurers to optimize working capital and streamline financial operations globally. TTS is consistently recognized as the world's best transaction bank.",
+      responsibilities: [
+        "Support TTS client coverage teams in understanding corporate treasury needs and proposing integrated solutions across Cash Management and Trade",
+        "Analyze client treasury operations and identify opportunities to optimize liquidity, payments, receivables, and working capital globally",
+        "Prepare client presentations and proposals for TTS products including cash pooling, virtual accounts, supply chain finance, and trade facilities",
+        "Conduct market research on treasury trends, regulatory developments, and competitive landscape across key markets",
+        "Build financial analyses including working capital assessments, FX exposure analysis, and cash flow forecasting",
+        "Support product implementation and onboarding, coordinating with Operations and Technology teams",
+        "Collaborate with Banking teams to provide TTS solutions as part of broader ICG client relationships",
+        "Monitor client satisfaction and identify opportunities to deepen relationships and expand wallet share",
+        "Participate in RFP responses and competitive bid processes for treasury management mandates"
+      ],
+      growthOpportunities: [
+        "2.5-year rotational program with exposure across Cash Management, Trade, and client coverage functions",
+        "Clear progression from Analyst to Associate to Vice President in TTS Sales, Product, or Client Management",
+        "Exposure to Fortune 500 treasury operations unavailable at smaller or domestic-focused banks",
+        "Opportunity to specialize by product (cash, trade, liquidity), industry vertical, or geographic region",
+        "International assignment opportunities across TTS's global network",
+        "Strong foundation for corporate treasury, fintech, or product management careers",
+        "Access to TTS training including payments systems, trade finance, and treasury management fundamentals",
+        "Path to senior roles in Transaction Banking, a strategic growth priority for Citi globally"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded questions assessing motivation for transaction banking, analytical abilities, and global awareness. Expect questions on why TTS, interest in corporate treasury, and understanding of payments/cash management.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute conversation with TTS team member covering resume discussion, motivation for transaction banking, and analytical problem-solving. Emphasis on interest in treasury operations and global commerce.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "3-4 rounds with TTS Sales, Product, and potentially senior leadership. Mix of behavioral questions (client scenarios, problem-solving), technical knowledge (treasury concepts), and cultural fit. Demonstrate analytical skills and interest in global commerce.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates analytical ability, communication skills, treasury interest, and cultural fit. Offers typically extended within 1-2 weeks with details on rotational program structure."
+        }
+      ],
+      technicalQuestions: [
+        "What is working capital and why does it matter for corporate treasurers?",
+        "Explain the difference between a payment, a transfer, and a settlement.",
+        "What is cash pooling and why would a multinational corporation use it?",
+        "Explain trade finance. What is a letter of credit?",
+        "What is supply chain finance and how does it benefit buyers and suppliers?",
+        "How do cross-border payments work? What are correspondent banking relationships?",
+        "What is SWIFT and what role does it play in global payments?",
+        "Explain liquidity management. What tools do treasurers use to manage cash?",
+        "What is FX exposure and how can corporates hedge currency risk?",
+        "How would rising interest rates affect a corporate treasurer's decisions?",
+        "What are virtual accounts and how do they simplify receivables management?",
+        "Explain the difference between notional and physical cash pooling.",
+        "What is days sales outstanding (DSO) and why does it matter?",
+        "How is real-time payments changing corporate treasury?",
+        "What are the key considerations for treasury operations in emerging markets?",
+        "How does Citi TTS serve 99 of the Fortune 100 - what makes the platform unique?"
+      ],
+      behavioralQuestions: [
+        "Why Treasury & Trade Solutions? Why Citigroup specifically?",
+        "Tell me about a time you analyzed a complex operational or financial problem.",
+        "Describe explaining a technical concept to someone without background in it.",
+        "How do you stay informed about business and global economic trends?",
+        "Tell me about working with a team to deliver results on a deadline.",
+        "Describe a situation where you identified an inefficiency and proposed a solution.",
+        "How would you approach learning about a corporate client's treasury operations?",
+        "Tell me about a time you had to persuade someone to accept your recommendation.",
+        "What interests you about transaction banking vs investment banking?",
+        "Describe handling multiple priorities and competing deadlines.",
+        "How does global commerce and international trade interest you?",
+        "What differentiates Citi TTS from competitors like JPMorgan Treasury Services?"
+      ],
+      whatTheyLookFor: [
+        "Strong analytical and problem-solving abilities",
+        "Interest in corporate treasury, payments, and global commerce",
+        "Excellent communication skills - written and verbal",
+        "Client orientation and consultative mindset",
+        "Intellectual curiosity about how global business operates",
+        "Attention to detail with ability to see bigger picture",
+        "Team player who collaborates across functions",
+        "Global awareness and comfort with international business",
+        "Technology interest - TTS is increasingly digital and API-driven",
+        "Alignment with Citi's global mission and client-centric culture"
+      ],
+      interviewTips: [
+        "Research TTS basics: cash management, trade finance, payments, working capital",
+        "Understand why corporates need treasury services - working capital optimization, risk management",
+        "Read about Citi TTS's market position - #1 global transaction bank, serves Fortune 100",
+        "Prepare examples demonstrating analytical skills and client orientation",
+        "Know current trends: real-time payments, open banking, supply chain finance, ESG in trade",
+        "Understand how TTS fits within ICG alongside Banking and Markets",
+        "Research how Citi's global network enables unique treasury solutions",
+        "Prepare questions about rotational program, product areas, career paths",
+        "Be ready to discuss why TTS vs investment banking - show genuine interest in transaction banking",
+        "Understand basic treasury metrics: working capital, cash conversion cycle, DSO/DPO",
+        "Demonstrate interest in technology and digitization of treasury operations",
+        "Show global perspective - TTS serves clients across 85+ countries"
+      ],
+      salary: {
+        min: 80000,
+        max: 95000
+      },
+      compensation: [
+        "Base salary: $80-95K for TTS analyst program depending on location",
+        "Annual performance bonus: $12-28K based on individual and team performance",
+        "Signing bonus: $8-15K for competitive candidates",
+        "Compensation competitive for transaction banking analyst roles",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with Citi match",
+        "Tuition reimbursement for relevant certifications (CTP, FP&A)",
+        "Rotational program provides structured development",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $95-125K all-in"
+      ],
+      dayInLife: {
+        overview: "TTS Analysts work in fast-paced client-focused environment with good work-life balance. Typical hours are 8:30am-6:30pm with reasonable expectations. The role combines client interaction with analytical work and product knowledge. Citi's global TTS platform means exposure to Fortune 500 treasury operations and cross-border solutions. Culture emphasizes collaboration, client service, and continuous learning.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Review",
+            description: "Check emails including overnight updates from global colleagues. Review news on clients and treasury/payments industry. Prepare for day's meetings."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Brief team meeting to review client pipeline, RFP deadlines, and coordination needs. TTS is collaborative across Sales, Product, and Implementation."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Client Prep",
+            description: "Prepare presentation for treasury review meeting with large consumer goods company. Analyze their global cash positions and propose optimization opportunities."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Client Call",
+            description: "Join treasury review call with Fortune 500 CFO and Treasurer. Present Citi's solutions for their Asia Pacific cash management needs. Senior TTS banker leads discussion."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch",
+            description: "Lunch with colleagues or at desk. TTS generally offers predictable hours with actual breaks."
+          },
+          {
+            time: "1:30 PM",
+            activity: "RFP Response",
+            description: "Work on RFP response for major healthcare company's global treasury mandate. Coordinate with Product specialists on technical questions and pricing."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Market Research",
+            description: "Research supply chain finance trends for upcoming client presentation. Understand competitive landscape and Citi's positioning."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Internal Meeting",
+            description: "Meeting with Trade Finance team to discuss client opportunity combining cash management with trade facilities. Cross-product collaboration common in TTS."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Follow-Up",
+            description: "Send meeting follow-ups, update pipeline tracker, respond to client questions. Prepare materials for tomorrow."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Wrap Up",
+            description: "Head home around 6:30pm. TTS offers good work-life balance while providing meaningful client exposure and global scope."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "HSBC", companySlug: "hsbc", industry: "Finance" },
+        { companyName: "Deutsche Bank", companySlug: "deutsche-bank", industry: "Finance" }
+      ]
+    },
+    'corporate-banker': {
+      roleDescription: "Corporate Bankers at Citigroup work within Banking, Capital Markets & Advisory (BCMA) providing financial services to pre-eminent corporations and financial institutions across more than 100 countries. As a Corporate Banker, you'll drive client dialogue on capital structure, liability management, liquidity and funding strategies, risk management, and investment solutions. Citi's unparalleled global network enables comprehensive relationship coverage for multinational clients with complex cross-border needs. The role combines relationship management with technical financial expertise, partnering with Investment Banking, Capital Markets, TTS, and Markets to deliver Citi's full platform. The Corporate Banking Analyst Program provides exposure to diverse industries and deal types while developing client relationship skills. Citi's global footprint particularly differentiates Corporate Banking for clients with operations across emerging markets and multiple jurisdictions.",
+      responsibilities: [
+        "Support Corporate Banking coverage teams in managing relationships with large multinational corporations and financial institutions",
+        "Analyze client financial needs including capital structure, liquidity requirements, and strategic priorities across their global operations",
+        "Prepare client presentations, credit analyses, and deal materials coordinating across Citi's product specialists",
+        "Support execution of financing transactions including loans, bonds, and structured solutions",
+        "Coordinate with Investment Banking on M&A and capital markets opportunities within coverage relationships",
+        "Partner with TTS to deliver treasury and trade solutions as part of comprehensive client offerings",
+        "Monitor portfolio credits, prepare quarterly reviews, and maintain ongoing client dialogue",
+        "Conduct industry research to understand sector dynamics and competitive landscape for coverage clients",
+        "Identify cross-selling opportunities across Citi's global platform including Markets, TTS, and Securities Services"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to Vice President to Director/Managing Director in Corporate Banking",
+        "Exposure to Fortune 500 relationships and complex cross-border client needs unavailable at domestic banks",
+        "Opportunity to specialize by industry vertical (TMT, Healthcare, Energy, FIG) or geographic focus",
+        "Path to Investment Banking for those seeking more transaction-focused careers",
+        "International assignment opportunities across Citi's global Corporate Banking network",
+        "Strong foundation for careers in corporate treasury, private equity portfolio management, or consulting",
+        "Access to Citi's comprehensive training including credit fundamentals and relationship management",
+        "Development of broad product knowledge across lending, capital markets, treasury, and risk management"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "HireVue Video Interview",
+          description: "Complete 3-5 pre-recorded questions assessing motivation for corporate banking, financial knowledge, and global awareness. Expect questions on why banking, interest in client relationships, and understanding of corporate finance.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute conversation with Corporate Banking team member covering resume discussion, motivation for Citi, and technical financial concepts. Emphasis on analytical skills and client orientation.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "4-5 rounds with Bankers, Managing Directors, and potentially coverage team leaders. Mix of technical questions (credit, capital structure, products), behavioral assessment, and cultural fit. Demonstrate relationship orientation and global perspective.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates analytical ability, client orientation, communication skills, and cultural fit. Offers typically extended within 1-2 weeks with details on industry coverage and location."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through how you would analyze a company's capital structure.",
+        "What factors affect a company's credit rating?",
+        "Explain the difference between investment grade and high yield debt.",
+        "How do you calculate debt service coverage ratio and why does it matter?",
+        "What is a revolving credit facility and why do companies need them?",
+        "Walk me through the three financial statements and how they connect.",
+        "How would you advise a company choosing between debt and equity financing?",
+        "What are loan covenants and why do lenders require them?",
+        "Explain syndicated lending. Why would a company or bank prefer syndication?",
+        "How do interest rate changes affect corporate borrowers?",
+        "What is the difference between secured and unsecured debt?",
+        "How would you analyze a company in a cyclical industry?",
+        "What are the key products Corporate Banking offers to clients?",
+        "Explain how TTS fits into the Corporate Banking relationship.",
+        "How does Citi's global network benefit multinational clients?",
+        "What makes a good Corporate Banker vs Investment Banker?"
+      ],
+      behavioralQuestions: [
+        "Why corporate banking? Why Citigroup specifically?",
+        "Tell me about building a relationship over time. What made it successful?",
+        "Describe analyzing a complex problem with multiple stakeholders.",
+        "How do you stay informed about business and industry trends?",
+        "Tell me about working with a team to deliver results.",
+        "Describe a situation where you had to balance competing priorities.",
+        "How would you approach learning about a new industry or client?",
+        "Tell me about a time you had to persuade someone with different views.",
+        "What interests you about long-term client relationships vs transaction-focused roles?",
+        "Describe explaining financial concepts to someone without finance background.",
+        "How does corporate banking at Citi differ from investment banking?",
+        "What differentiates Citi Corporate Banking from competitors?"
+      ],
+      whatTheyLookFor: [
+        "Strong analytical and financial modeling skills",
+        "Relationship orientation and client service mindset",
+        "Excellent written and verbal communication",
+        "Interest in long-term client relationships over transactions",
+        "Intellectual curiosity about industries and business strategy",
+        "Team player who collaborates across product specialists",
+        "Global awareness and comfort with international business",
+        "Professional presence and executive communication skills",
+        "Credit judgment and risk awareness",
+        "Alignment with Citi's global platform and client-centric values"
+      ],
+      interviewTips: [
+        "Master fundamental credit concepts: capital structure, credit ratios, covenant analysis",
+        "Understand Corporate Banking products: loans, revolvers, term loans, syndications",
+        "Research Citi's BCMA structure and how Corporate Banking fits with IB and Capital Markets",
+        "Know current events affecting major industries and potential client implications",
+        "Prepare relationship-building examples demonstrating long-term thinking",
+        "Understand how Citi's global network differentiates Corporate Banking vs domestic banks",
+        "Be ready to discuss why Corporate Banking vs Investment Banking - relationship focus",
+        "Research TTS and how treasury solutions integrate with Corporate Banking",
+        "Prepare questions about industry coverage, career path, and development",
+        "Demonstrate analytical skills alongside interpersonal abilities",
+        "Show understanding of how global clients need Citi's platform across jurisdictions",
+        "Be prepared for credit case study or client scenario discussion"
+      ],
+      salary: {
+        min: 100000,
+        max: 115000
+      },
+      compensation: [
+        "Base salary: $100-115K for corporate banking analyst program",
+        "Annual performance bonus: $25-50K based on individual and team performance",
+        "Signing bonus: $10-20K for competitive candidates",
+        "Compensation competitive with investment banking at slightly lower intensity",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with Citi match",
+        "Tuition reimbursement for relevant degrees or certifications",
+        "Strong training program with client exposure",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $130-175K all-in"
+      ],
+      dayInLife: {
+        overview: "Corporate Bankers at Citi work in client-focused environment with better work-life balance than investment banking. Typical hours are 8:30am-7pm with reasonable expectations around deal activity. The role combines relationship management with technical financial work. Citi's global platform means exposure to multinational clients and cross-border transactions. Culture emphasizes long-term relationships, collaboration, and professional development.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Review",
+            description: "Check emails including overnight updates from international offices. Review news on coverage clients and industries. Prepare for scheduled calls and meetings."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Meeting",
+            description: "Weekly coverage team meeting to discuss client pipeline, credit updates, and cross-sell opportunities. Collaborative planning across product partners."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Credit Analysis",
+            description: "Prepare quarterly credit review for large technology client. Analyze financials, update credit model, draft memo for Credit Committee."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Client Lunch",
+            description: "Lunch meeting with coverage MD and corporate treasurer client. Discuss company strategy, capital needs, and Citi's capabilities. Relationship building is central."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Deal Coordination",
+            description: "Coordinate with Investment Banking and Capital Markets on bond offering for coverage client. Corporate Banking owns relationship; specialists execute transactions."
+          },
+          {
+            time: "3:30 PM",
+            activity: "TTS Partnership",
+            description: "Meeting with TTS team to discuss treasury mandate opportunity for coverage client expanding to Asia. Cross-product coordination essential."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Industry Research",
+            description: "Research healthcare sector trends for upcoming client presentation. Understand regulatory changes and M&A activity affecting coverage universe."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Client Preparation",
+            description: "Prepare materials for tomorrow's client meeting. Draft discussion agenda, update presentation, coordinate with product partners."
+          },
+          {
+            time: "7:00 PM",
+            activity: "Wrap Up",
+            description: "Respond to final emails, update CRM. Head home around 7pm on typical days. Corporate Banking offers better hours than pure IB while maintaining client impact."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan Chase", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Bank of America", companySlug: "bank-of-america", industry: "Finance" },
+        { companyName: "Wells Fargo", companySlug: "wells-fargo", industry: "Finance" },
+        { companyName: "HSBC", companySlug: "hsbc", industry: "Finance" }
+      ]
     }
   },
   'wells-fargo': {
@@ -19369,6 +20447,1470 @@ export const rolePageContent = {
         { companyName: "Etsy", companySlug: "etsy", industry: "Technology" },
         { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
         { companyName: "Uber", companySlug: "uber", industry: "Technology" }
+      ]
+    }
+  },
+  'blackrock': {
+    'portfolio-manager': {
+      roleDescription: "Portfolio Managers at BlackRock manage investment portfolios across the world's largest asset manager with over $10 trillion in assets under management. Working within Active Equity, Fixed Income, Multi-Asset, or Index strategies, you'll construct and manage portfolios using BlackRock's proprietary Aladdin platform for risk analytics and portfolio management. BlackRock's scale provides access to unparalleled research resources, risk management tools, and global market insights. The firm offers both fundamental and systematic investment approaches across public and private markets. Portfolio Managers benefit from BlackRock's integrated platform connecting investment teams with Risk & Quantitative Analysis (RQA), Trading, and Client teams. The collaborative culture emphasizes data-driven decision making, risk awareness, and long-term investment outcomes. Career progression is merit-based with opportunities to manage larger mandates and lead investment teams.",
+      responsibilities: [
+        "Construct and manage investment portfolios aligned with client mandates and investment objectives",
+        "Generate investment ideas through fundamental research, quantitative analysis, and market insights",
+        "Utilize Aladdin platform for portfolio construction, risk monitoring, and performance attribution",
+        "Collaborate with Research Analysts to evaluate investment opportunities across sectors and geographies",
+        "Partner with Risk & Quantitative Analysis (RQA) team to ensure portfolios operate within risk parameters",
+        "Work with Trading desk to optimize execution and minimize transaction costs",
+        "Communicate investment strategy and portfolio positioning to clients and internal stakeholders",
+        "Participate in investment team discussions and contribute to idea generation process",
+        "Monitor portfolio exposures, factor tilts, and ensure alignment with investment process"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to Portfolio Manager to Managing Director",
+        "Opportunity to manage larger and more complex mandates as skills develop",
+        "Exposure to multiple asset classes and investment approaches across BlackRock's platform",
+        "Access to Aladdin technology and world-class research resources unavailable elsewhere",
+        "Path to specialized roles: sector specialist, multi-asset strategist, or quantitative PM",
+        "International opportunities across BlackRock's global investment offices",
+        "Ability to build track record with institutional scale and proper infrastructure",
+        "Development through BlackRock's structured investment professional training"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screen",
+          description: "30-45 minute phone or video interview with HR or junior investment team member. Discuss background, motivation for asset management, and interest in BlackRock. Expect questions on markets and investment philosophy.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Investment Case Study",
+          description: "Prepare and present a stock pitch or investment idea relevant to the team's mandate. Demonstrate investment process, analytical rigor, and ability to articulate thesis clearly. Expect follow-up questions testing conviction and understanding.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "4-6 rounds with Portfolio Managers, Research Analysts, and senior leadership. Mix of technical questions (valuation, portfolio construction, risk), behavioral assessment, and cultural fit. Demonstrate passion for investing and collaborative mindset.",
+          duration: "4-6 hours"
+        },
+        {
+          step: 4,
+          title: "Final Round",
+          description: "Meeting with senior leadership or CIO depending on role level. Discussion of investment philosophy, career goals, and fit with team culture. Offers typically follow within 1-2 weeks."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your investment process. How do you generate and evaluate ideas?",
+        "Pitch me a stock you're excited about. What's the thesis and key risks?",
+        "How do you think about position sizing and portfolio construction?",
+        "Explain how you would use factor analysis in portfolio management.",
+        "What risk metrics do you monitor and why?",
+        "How do you think about the relationship between alpha generation and risk?",
+        "Walk me through a DCF model. What are the key assumptions?",
+        "How would you evaluate a company's competitive moat?",
+        "What's your view on current market conditions? Where do you see opportunities?",
+        "How do you think about portfolio turnover and transaction costs?",
+        "Explain tracking error and information ratio. Why do they matter?",
+        "How would you approach managing a portfolio through market volatility?",
+        "What's the difference between systematic and fundamental investing?",
+        "How do you incorporate ESG factors into investment decisions?",
+        "Walk me through performance attribution. What drives alpha?",
+        "How would you use Aladdin for portfolio risk management?"
+      ],
+      behavioralQuestions: [
+        "Why asset management? Why BlackRock specifically?",
+        "Tell me about an investment you made that didn't work out. What did you learn?",
+        "Describe a time you changed your investment view based on new information.",
+        "How do you stay informed about markets and generate investment ideas?",
+        "Tell me about working with others who had different investment views.",
+        "Describe making a decision with incomplete information.",
+        "How do you handle underperformance in your portfolio?",
+        "Tell me about a time you had to defend an unpopular investment view.",
+        "What qualities make someone successful in portfolio management?",
+        "How do you balance conviction with humility in investing?",
+        "Describe your experience working in team-based investment environments.",
+        "What differentiates BlackRock from other asset managers?"
+      ],
+      whatTheyLookFor: [
+        "Genuine passion for investing and markets",
+        "Strong analytical and quantitative foundation",
+        "Clear investment process and ability to articulate thesis",
+        "Risk awareness and understanding of portfolio construction",
+        "Intellectual curiosity and continuous learning orientation",
+        "Ability to make decisions under uncertainty",
+        "Strong communication skills for client and team interactions",
+        "Collaborative mindset - BlackRock emphasizes teamwork",
+        "Humility to acknowledge mistakes and adapt",
+        "Long-term orientation aligned with client outcomes"
+      ],
+      interviewTips: [
+        "Prepare 2-3 well-researched stock pitches with clear thesis and risks",
+        "Understand BlackRock's investment platform and different strategies offered",
+        "Know current market conditions and have informed views",
+        "Research Aladdin and how it supports investment decision-making",
+        "Prepare examples showing your investment process and analytical rigor",
+        "Demonstrate understanding of risk management and portfolio construction",
+        "Show how you've learned from investment mistakes",
+        "Research the specific team and their investment approach",
+        "Prepare questions about team structure, decision-making process, resources",
+        "Be ready to discuss both fundamental and quantitative concepts",
+        "Show passion for markets - read widely, have informed opinions",
+        "Demonstrate collaborative mindset - BlackRock values teamwork"
+      ],
+      salary: {
+        min: 100000,
+        max: 150000
+      },
+      compensation: [
+        "Base salary: $100-150K for junior Portfolio Manager roles depending on experience",
+        "Annual performance bonus: $50-200K+ based on fund performance and individual contribution",
+        "Total compensation highly variable based on AUM and investment returns",
+        "Senior PMs and MDs can earn $500K-$2M+ in total compensation",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Deferred compensation programs for senior professionals",
+        "Access to BlackRock investment products at reduced fees",
+        "Professional development budget",
+        "Total early-career compensation typically $150-250K"
+      ],
+      dayInLife: {
+        overview: "Portfolio Managers at BlackRock work in intellectually stimulating environment with reasonable hours compared to hedge funds. Typical hours are 7:30am-6:30pm with market-driven intensity. The role combines research, portfolio management, and client interaction. BlackRock's scale provides institutional support and resources while maintaining entrepreneurial investment culture. Aladdin platform centralizes workflow for efficient decision-making.",
+        schedule: [
+          {
+            time: "7:30 AM",
+            activity: "Market Review",
+            description: "Review overnight market developments, portfolio positions, and news on holdings. Check Aladdin dashboards for risk metrics and exposures."
+          },
+          {
+            time: "8:00 AM",
+            activity: "Morning Meeting",
+            description: "Investment team meeting to discuss market developments, share ideas, and coordinate portfolio activity. Collaborative idea generation and debate."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Research & Analysis",
+            description: "Deep-dive research on investment ideas. Review analyst reports, build models, analyze company fundamentals. Use Aladdin for scenario analysis."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Company Interaction",
+            description: "Management meeting or earnings call for portfolio holding. Evaluate new information against investment thesis."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch with team or at desk reviewing research. May include external meetings with sell-side or companies."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Portfolio Review",
+            description: "Analyze portfolio positioning with RQA team. Review factor exposures, risk metrics, and relative performance. Identify rebalancing needs."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Trading Coordination",
+            description: "Work with Trading desk on order execution for portfolio adjustments. Optimize timing and minimize market impact."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Client Preparation",
+            description: "Prepare for upcoming client meeting. Draft portfolio commentary, update attribution analysis, anticipate questions."
+          },
+          {
+            time: "5:30 PM",
+            activity: "End of Day Review",
+            description: "Review day's activity, update investment notes, prepare for tomorrow. Check global market closes."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Wrap Up",
+            description: "Head home around 6:30pm on typical days. Read research and financial news in evening. Intensity varies with market conditions."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "Wellington", companySlug: "wellington", industry: "Finance" },
+        { companyName: "T. Rowe Price", companySlug: "t-rowe-price", industry: "Finance" }
+      ]
+    },
+    'investment-analyst': {
+      roleDescription: "Investment Analysts at BlackRock provide fundamental research and analysis supporting portfolio management across the world's largest asset manager. Working within Active Equity, Fixed Income, or Multi-Asset teams, you'll conduct deep-dive company and sector research using BlackRock's extensive resources including Aladdin analytics, proprietary data, and global research network. The Full-Time Analyst Program is a prestigious two-year rotational experience providing exposure to different investment teams and asset classes. Analysts develop expertise in financial modeling, valuation, and industry analysis while building relationships across BlackRock's integrated platform. The role combines rigorous analytical work with collaboration across Portfolio Managers, Risk teams, and Trading. BlackRock's scale provides exposure to institutional-quality investing while the culture emphasizes learning, mentorship, and career development.",
+      responsibilities: [
+        "Conduct fundamental research on companies, sectors, and investment themes to generate actionable recommendations",
+        "Build and maintain financial models including DCF, comparable company analysis, and scenario modeling",
+        "Analyze financial statements, competitive dynamics, and industry trends to assess investment merit",
+        "Prepare investment memoranda and present research findings to Portfolio Managers and investment teams",
+        "Monitor existing holdings and communicate material developments affecting investment thesis",
+        "Utilize Aladdin platform for portfolio analytics, risk assessment, and performance attribution",
+        "Participate in company management meetings, earnings calls, and industry conferences",
+        "Collaborate with Risk & Quantitative Analysis (RQA) team on portfolio risk considerations",
+        "Stay current on macro developments and their implications for sector and company analysis"
+      ],
+      growthOpportunities: [
+        "Two-Year Analyst Program with rotations across investment teams and asset classes",
+        "Clear progression from Analyst to Associate to Senior Analyst to Portfolio Manager track",
+        "Opportunity to develop sector expertise and become go-to resource for specific industries",
+        "Access to Aladdin technology and world-class research resources for skill development",
+        "Path to Portfolio Management for analysts demonstrating strong investment acumen",
+        "International rotation opportunities across BlackRock's global research platform",
+        "Exposure to both fundamental and quantitative investment approaches",
+        "Structured mentorship program pairing junior analysts with senior investment professionals"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete HireVue video interview and potentially aptitude assessment. Questions assess motivation for investing, analytical thinking, and basic market knowledge. Some roles include numerical reasoning tests.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "First Round Interview",
+          description: "30-45 minute phone or video interview with investment team member. Discussion of background, investment interests, and basic technical concepts. May include market discussion or simple stock pitch.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 3,
+          title: "Stock Pitch & Superday",
+          description: "Prepare and present investment pitch (stock, bond, or sector depending on team). Multiple interviews with Analysts, Portfolio Managers, and senior leadership. Technical deep-dives, behavioral questions, and cultural assessment.",
+          duration: "4-6 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee reviews candidate across technical ability, investment acumen, and cultural fit. Offers typically extended within 1-2 weeks with details on team placement and program structure."
+        }
+      ],
+      technicalQuestions: [
+        "Pitch me a stock. Walk me through your investment thesis and key risks.",
+        "Walk me through a DCF model. What are the key assumptions?",
+        "How do you value a company? What methods would you use?",
+        "Explain the three financial statements and how they connect.",
+        "How would you analyze a company's competitive position?",
+        "What metrics would you focus on for a [sector-specific] company?",
+        "How do interest rates affect equity valuations?",
+        "Walk me through an LBO model at a high level.",
+        "How do you think about valuation multiples? What drives them?",
+        "Explain free cash flow and why it matters for valuation.",
+        "How would you assess a company's balance sheet strength?",
+        "What's the difference between enterprise value and equity value?",
+        "How do you think about growth vs. value investing?",
+        "Walk me through WACC calculation and its components.",
+        "How would you analyze an investment in a cyclical industry?",
+        "What are the key risks to monitor for equity investments?"
+      ],
+      behavioralQuestions: [
+        "Why investment research? Why BlackRock specifically?",
+        "Tell me about an investment idea you've researched. What was your process?",
+        "Describe a time you changed your view based on new information.",
+        "How do you stay informed about markets and generate ideas?",
+        "Tell me about working in a team on an analytical project.",
+        "Describe explaining complex analysis to someone without finance background.",
+        "How do you prioritize when managing multiple research projects?",
+        "Tell me about receiving critical feedback on your work. How did you respond?",
+        "What qualities make someone successful in investment research?",
+        "Describe a mistake you made in analysis. What did you learn?",
+        "How do you approach learning about a new industry?",
+        "What differentiates BlackRock's investment platform?"
+      ],
+      whatTheyLookFor: [
+        "Genuine passion for investing and financial markets",
+        "Strong analytical and quantitative skills",
+        "Clear thinking and ability to structure complex problems",
+        "Intellectual curiosity and drive to understand businesses deeply",
+        "Strong written and verbal communication skills",
+        "Attention to detail in financial analysis",
+        "Ability to work collaboratively in team environment",
+        "Coachability and eagerness to learn",
+        "Humility to acknowledge uncertainty and mistakes",
+        "Long-term career interest in investment management"
+      ],
+      interviewTips: [
+        "Prepare 2-3 well-researched stock pitches appropriate for the team's focus",
+        "Master DCF and comparable company valuation methodologies",
+        "Understand how to analyze financial statements and key metrics",
+        "Research BlackRock's investment platform and different strategies",
+        "Know current market conditions and have informed views",
+        "Prepare examples demonstrating analytical rigor and process",
+        "Research Aladdin and how analysts use it for research",
+        "Practice explaining complex concepts clearly and concisely",
+        "Show passion for markets - read widely, follow companies",
+        "Prepare thoughtful questions about team, mentorship, career paths",
+        "Demonstrate collaborative mindset - BlackRock values teamwork",
+        "Be ready to discuss both fundamental and quantitative concepts"
+      ],
+      salary: {
+        min: 85000,
+        max: 110000
+      },
+      compensation: [
+        "Base salary: $85-110K for analyst program depending on location",
+        "Annual performance bonus: $20-50K based on individual and team performance",
+        "Signing bonus: $10-20K for competitive candidates",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Access to BlackRock investment products at reduced fees",
+        "Tuition reimbursement for relevant certifications (CFA)",
+        "Professional development budget",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $110-165K"
+      ],
+      dayInLife: {
+        overview: "Investment Analysts at BlackRock work in intellectually stimulating environment with reasonable hours. Typical hours are 8am-6:30pm with intensity varying by team and market conditions. The role combines deep research with collaboration across Portfolio Managers, Risk teams, and Trading. BlackRock's Analyst Program provides structured learning while contributing meaningfully to investment decisions. Aladdin platform centralizes research workflow and analytics.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Preparation",
+            description: "Review overnight news on coverage companies and sectors. Check earnings releases, analyst reports, and market developments. Prepare for morning meeting."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Team Meeting",
+            description: "Investment team meeting to discuss market developments, share research findings, and coordinate priorities. Present updates on coverage names."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Research Deep-Dive",
+            description: "Focused research time on priority company or sector. Build financial models, analyze competitive dynamics, review industry data."
+          },
+          {
+            time: "11:00 AM",
+            activity: "PM Discussion",
+            description: "Meet with Portfolio Manager to discuss research findings and investment thesis. Receive feedback, refine analysis, debate investment merit."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch with team or attend internal speaker event. BlackRock hosts frequent learning opportunities."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Earnings Analysis",
+            description: "Analyze quarterly earnings release from coverage company. Update model, assess results vs. thesis, prepare investment note."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Company Meeting",
+            description: "Virtual meeting with company management discussing business trends, strategy, and outlook. Evaluate new information against investment thesis."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Research Writing",
+            description: "Draft investment memo summarizing research findings and recommendation. Clear, concise communication essential for impact."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Finalize work, update research trackers, prepare for tomorrow. Read sell-side research and financial news."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Head Home",
+            description: "Head home around 6:30pm on typical days. Continue reading and market monitoring in evening as interest dictates."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Wellington", companySlug: "wellington", industry: "Finance" },
+        { companyName: "T. Rowe Price", companySlug: "t-rowe-price", industry: "Finance" },
+        { companyName: "Capital Group", companySlug: "capital-group", industry: "Finance" }
+      ]
+    },
+    'risk-analyst': {
+      roleDescription: "Risk Analysts at BlackRock work within Risk & Quantitative Analysis (RQA), providing independent oversight and risk advice to the world's largest asset manager. RQA plays a meaningful role in BlackRock's investment process, using quantitative analysis and multi-disciplinary skills to tackle real-world problems in risk management. You'll partner with Portfolio Managers to build risk-aware portfolios, develop analytics using Aladdin's capabilities, and provide independent risk assessment across $10+ trillion in assets. The Investment Risk team provides oversight spanning Active Equity, Fixed Income, Multi-Asset, and Index strategies. BlackRock's scale means exposure to sophisticated risk methodologies, diverse asset classes, and complex portfolios unavailable elsewhere. The collaborative culture emphasizes data-driven decision-making while maintaining independent perspective. Career paths include deepening technical expertise or transitioning to portfolio management roles.",
+      responsibilities: [
+        "Provide independent risk oversight and advice to Portfolio Managers across investment strategies",
+        "Analyze portfolio risk exposures including factor tilts, concentration risk, and tail risks using Aladdin platform",
+        "Conduct stress testing and scenario analysis to assess portfolio resilience under adverse conditions",
+        "Develop and enhance risk analytics and tools used across BlackRock's investment platform",
+        "Facilitate discussions with Portfolio Managers on portfolio construction and risk/return tradeoffs",
+        "Monitor risk limits and escalate breaches through appropriate governance frameworks",
+        "Perform performance attribution analysis to understand sources of alpha and risk",
+        "Collaborate with Quantitative Research to improve risk models and methodologies",
+        "Support client risk reporting and due diligence processes"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to Vice President in Risk & Quantitative Analysis",
+        "Opportunity to specialize by asset class (equity, fixed income, multi-asset) or risk type",
+        "Access to Aladdin platform and sophisticated risk analytics for professional development",
+        "Path to Portfolio Management for those demonstrating strong investment acumen",
+        "International opportunities across BlackRock's global RQA teams",
+        "Development of quantitative skills applicable across finance industry",
+        "Exposure to institutional-scale risk management across diverse strategies",
+        "Structured training programs in risk methodologies and quantitative techniques"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete HireVue video interview and potentially quantitative aptitude assessment. Questions assess motivation for risk management, analytical thinking, and basic statistics/probability concepts.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute phone interview with RQA team member covering technical concepts (statistics, risk metrics, portfolio theory), market knowledge, and resume discussion.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "4-5 rounds with Risk Analysts, Managers, and potentially Portfolio Managers. Mix of technical questions (VaR, factor models, statistics), case studies, and behavioral assessment. Demonstrate quantitative rigor and communication skills.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates technical competency, analytical thinking, and collaborative mindset. Offers typically extended within 1-2 weeks with details on team placement."
+        }
+      ],
+      technicalQuestions: [
+        "What is Value at Risk (VaR)? What are its limitations?",
+        "Explain tracking error and information ratio. Why do they matter?",
+        "How would you stress test an equity portfolio?",
+        "What is factor analysis and how is it used in portfolio risk management?",
+        "Explain the difference between systematic and idiosyncratic risk.",
+        "How do you calculate portfolio beta? What does it measure?",
+        "What is duration and convexity in fixed income risk?",
+        "Explain correlation and why it matters in portfolio construction.",
+        "What are the key risk metrics for a multi-asset portfolio?",
+        "How would you assess liquidity risk in a portfolio?",
+        "Explain Monte Carlo simulation and its applications in risk management.",
+        "What is expected shortfall (CVaR) and how does it differ from VaR?",
+        "How do factor models help explain portfolio risk?",
+        "What are the limitations of historical risk models?",
+        "How would you communicate risk insights to a Portfolio Manager?",
+        "How does Aladdin support risk management at BlackRock?"
+      ],
+      behavioralQuestions: [
+        "Why risk management? Why BlackRock specifically?",
+        "Tell me about a time you identified a risk that others overlooked.",
+        "Describe explaining complex risk concepts to a non-technical audience.",
+        "How do you balance providing risk advice while respecting PM judgment?",
+        "Tell me about solving a complex analytical problem. Walk through your approach.",
+        "Describe working with stakeholders who disagreed with your risk assessment.",
+        "How do you stay current on risk management methodologies?",
+        "Tell me about making a recommendation under uncertainty.",
+        "What qualities make someone successful in investment risk?",
+        "Describe a time you received critical feedback. How did you respond?",
+        "How do you prioritize when managing multiple risk analyses?",
+        "What differentiates BlackRock's approach to risk management?"
+      ],
+      whatTheyLookFor: [
+        "Strong quantitative foundation: statistics, probability, linear algebra",
+        "Understanding of financial markets and investment concepts",
+        "Programming skills (Python, R) and comfort with data analysis",
+        "Clear analytical thinking and problem-solving ability",
+        "Strong communication skills to convey risk insights effectively",
+        "Collaborative mindset while maintaining independent perspective",
+        "Intellectual curiosity about risk and portfolio management",
+        "Attention to detail in quantitative analysis",
+        "Ability to work in fast-paced environment",
+        "Interest in asset management and long-term career in risk"
+      ],
+      interviewTips: [
+        "Master fundamental risk concepts: VaR, factor models, stress testing, performance attribution",
+        "Review statistics: probability distributions, correlation, regression",
+        "Understand portfolio theory: diversification, efficient frontier, factor exposures",
+        "Research BlackRock's RQA function and role in investment process",
+        "Prepare examples demonstrating quantitative analysis and risk identification",
+        "Know Aladdin basics and how it supports risk management",
+        "Be ready to discuss current market risks and portfolio implications",
+        "Practice explaining technical concepts clearly to non-quant audience",
+        "Show collaborative mindset - RQA partners with investment teams",
+        "Prepare questions about team structure, methodologies, career paths",
+        "Demonstrate programming skills if role requires them",
+        "Show genuine interest in risk management as career, not just stepping stone"
+      ],
+      salary: {
+        min: 90000,
+        max: 120000
+      },
+      compensation: [
+        "Base salary: $90-120K for risk analyst roles depending on experience and location",
+        "Annual performance bonus: $20-50K based on individual and firm performance",
+        "Signing bonus: $10-20K for competitive candidates",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Access to BlackRock investment products at reduced fees",
+        "Tuition reimbursement for certifications (FRM, CFA)",
+        "Professional development budget",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $115-175K"
+      ],
+      dayInLife: {
+        overview: "Risk Analysts at BlackRock work in intellectually stimulating environment with good work-life balance. Typical hours are 8:30am-6:30pm with reasonable expectations. The role combines quantitative analysis with Portfolio Manager partnership. BlackRock's RQA function is integral to investment process, providing meaningful impact. Aladdin platform centralizes risk analytics enabling sophisticated analysis across portfolios.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Risk Review",
+            description: "Review overnight market developments and impact on portfolio risk. Check Aladdin dashboards for risk breaches, unusual exposures, or emerging concerns."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Meeting",
+            description: "RQA team meeting to discuss priorities, share insights on portfolio risks, and coordinate coverage. Collaborative culture for sharing best practices."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Portfolio Risk Analysis",
+            description: "Deep-dive analysis on specific portfolio. Analyze factor exposures, concentration risk, and stress scenarios using Aladdin. Prepare insights for PM discussion."
+          },
+          {
+            time: "11:30 AM",
+            activity: "PM Meeting",
+            description: "Meeting with Portfolio Manager to discuss portfolio risk profile, positioning, and potential concerns. Provide independent perspective on risk/return tradeoffs."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch",
+            description: "Lunch with colleagues or attend internal training session. BlackRock offers frequent learning opportunities."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Stress Testing",
+            description: "Run stress scenarios assessing portfolio impact of market dislocations. Document results and identify vulnerabilities requiring attention."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Analytics Development",
+            description: "Work on enhancing risk analytics or reports. Partner with Technology team on Aladdin improvements. Continuous enhancement of risk tools."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Risk Reporting",
+            description: "Prepare risk reports for senior management or clients. Clear communication of risk insights essential for impact."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Finalize analyses, respond to emails, prepare for tomorrow. Review research on risk methodologies."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Head Home",
+            description: "Head home around 6:30pm on typical days. RQA offers good work-life balance while providing meaningful analytical work."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "State Street", companySlug: "state-street", industry: "Finance" },
+        { companyName: "PIMCO", companySlug: "pimco", industry: "Finance" }
+      ]
+    },
+    'software-engineer': {
+      roleDescription: "Software Engineers at BlackRock build and maintain Aladdin, the operating system that powers the world's largest asset manager and external clients managing over $21 trillion in assets. Aladdin (Asset, Liability, and Debt and Derivative Investment Network) unifies the investment management process enabling scale, insights, and business transformation for financial institutions worldwide. Working within Aladdin Engineering, you'll develop high-performance, scalable software using Java, Python, TypeScript, and cloud technologies. BlackRock's technology organization builds both internal investment management tools and external FinTech products serving 200+ institutional clients. The Engineering Analyst Program offers a two-year rotational experience with four 6-month assignments across different technology streams. BlackRock offers both Enterprise Leadership (management) and Tech Leadership (individual contributor) career tracks, providing flexibility for career development.",
+      responsibilities: [
+        "Design, develop, and maintain software applications for Aladdin platform serving internal and external clients",
+        "Build high-performance systems for portfolio management, risk analytics, trading, and operations",
+        "Develop APIs and microservices enabling integration across Aladdin's modular architecture",
+        "Collaborate with investment and business teams to understand requirements and deliver solutions",
+        "Write clean, testable code following engineering best practices and code review processes",
+        "Participate in agile development processes including sprint planning, standups, and retrospectives",
+        "Contribute to DevOps practices including CI/CD pipelines, monitoring, and incident response",
+        "Stay current on technology trends and evaluate new tools and frameworks for adoption",
+        "Mentor junior engineers and contribute to team knowledge sharing"
+      ],
+      growthOpportunities: [
+        "Two-Year Rotational Program with four 6-month assignments across different technology teams",
+        "Dual career tracks: Enterprise Leadership (management) and Tech Leadership (individual contributor)",
+        "Opportunity to work on FinTech products used by 200+ financial institutions globally",
+        "Access to modern tech stack: cloud (AWS/Azure), Kubernetes, microservices architecture",
+        "International opportunities across BlackRock's global technology centers",
+        "Path from Engineer to Senior Engineer to Principal Engineer or Engineering Manager",
+        "Exposure to complex financial systems and domain expertise development",
+        "Structured training programs in both technical skills and financial concepts"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete HireVue video interview with behavioral questions and coding challenge. Coding assessment evaluates problem-solving, data structures, and algorithms. Tests typically 60-90 minutes.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute technical interview covering coding, system design concepts, and resume discussion. Live coding exercise on shared platform. Assess problem-solving approach and code quality.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "4-5 rounds including 2-3 technical interviews (coding, system design) and 1-2 behavioral interviews. Technical rounds assess DSA, OOP, and system design. Behavioral rounds evaluate teamwork and communication.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates technical skills, problem-solving approach, and cultural fit. Offers typically extended within 1-2 weeks with details on team placement and program structure."
+        }
+      ],
+      technicalQuestions: [
+        "Implement a function to find the longest substring without repeating characters.",
+        "Design a system to process real-time market data for a trading platform.",
+        "Explain the differences between SQL and NoSQL databases. When would you use each?",
+        "How would you design a cache system? Discuss eviction policies.",
+        "Implement a rate limiter for an API.",
+        "Explain microservices architecture. What are the tradeoffs vs monolith?",
+        "How do you ensure code quality in a team environment?",
+        "Design a system for calculating portfolio risk metrics at scale.",
+        "Explain REST vs GraphQL. When would you choose each?",
+        "How would you handle a production incident? Walk through your process.",
+        "Implement an LRU cache.",
+        "Explain containerization and Kubernetes at a high level.",
+        "How do you approach testing? Unit vs integration vs e2e?",
+        "Design a notification system for alerting on portfolio risk breaches.",
+        "What is your experience with cloud platforms (AWS/Azure)?",
+        "How do you stay current with technology trends?"
+      ],
+      behavioralQuestions: [
+        "Why software engineering at BlackRock specifically?",
+        "Tell me about a challenging technical problem you solved.",
+        "Describe working on a team with conflicting priorities.",
+        "How do you approach learning new technologies?",
+        "Tell me about a project you're proud of. What was your contribution?",
+        "Describe receiving critical feedback on your code. How did you respond?",
+        "How do you balance quality with delivery speed?",
+        "Tell me about debugging a difficult production issue.",
+        "What qualities make someone successful in software engineering?",
+        "Describe explaining technical concepts to non-technical stakeholders.",
+        "How do you stay organized when working on multiple projects?",
+        "What interests you about FinTech and the Aladdin platform?"
+      ],
+      whatTheyLookFor: [
+        "Strong computer science fundamentals: DSA, OOP, system design",
+        "Proficiency in relevant programming languages (Java, Python, TypeScript)",
+        "Problem-solving ability and analytical thinking",
+        "Code quality focus: clean, testable, maintainable code",
+        "Collaboration skills for team-based development",
+        "Communication skills for working with business stakeholders",
+        "Curiosity about financial services and investment management",
+        "Growth mindset and eagerness to learn new technologies",
+        "Ability to work in agile environment",
+        "Interest in building products at scale"
+      ],
+      interviewTips: [
+        "Practice coding problems on LeetCode focusing on medium difficulty",
+        "Review data structures: arrays, linked lists, trees, graphs, hash maps",
+        "Study system design basics: scalability, databases, caching, APIs",
+        "Research Aladdin platform and BlackRock's technology organization",
+        "Prepare examples of projects demonstrating technical skills",
+        "Practice explaining your thought process while coding",
+        "Review OOP principles and design patterns",
+        "Understand basics of financial concepts - you'll work with investment teams",
+        "Prepare questions about tech stack, team structure, career paths",
+        "Show interest in FinTech and how technology enables investing",
+        "Be ready to discuss tradeoffs in technical decisions",
+        "Demonstrate collaborative mindset - BlackRock values teamwork"
+      ],
+      salary: {
+        min: 100000,
+        max: 140000
+      },
+      compensation: [
+        "Base salary: $100-140K for new grad software engineers depending on location",
+        "Annual performance bonus: $15-40K based on individual and team performance",
+        "Signing bonus: $15-30K for competitive candidates",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Access to BlackRock investment products at reduced fees",
+        "Tuition reimbursement for relevant degrees or certifications",
+        "Professional development budget for conferences and training",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $130-200K"
+      ],
+      dayInLife: {
+        overview: "Software Engineers at BlackRock work in collaborative environment with good work-life balance for finance industry. Typical hours are 9am-6pm with flexibility. The role combines building sophisticated financial software with exposure to investment management domain. BlackRock's Engineering organization emphasizes modern practices, continuous learning, and career development. The rotational program provides breadth while enabling specialization over time.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Start of Day",
+            description: "Check emails, Slack, and JIRA for updates. Review overnight builds and any production issues. Prepare for standup."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Daily Standup",
+            description: "Agile team standup to discuss progress, blockers, and daily priorities. Quick sync on sprint goals and coordination needs."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Development Work",
+            description: "Focus time for coding. Build new features, fix bugs, or refactor existing code. Use modern stack: Java/Python, microservices, cloud."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch with team or attend tech talk. BlackRock hosts frequent learning sessions on technology and finance topics."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Code Review",
+            description: "Review pull requests from teammates. Provide constructive feedback on code quality, design, and testing. Learn from others' code."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Collaboration",
+            description: "Meeting with business stakeholders or investment team to discuss requirements. Understand user needs and translate to technical solutions."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Design Discussion",
+            description: "Technical design session with team for upcoming feature. Discuss architecture, APIs, and implementation approach."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Development Continued",
+            description: "Continue implementation work. Write tests, update documentation, prepare for deployment."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up",
+            description: "Push code, update JIRA tickets, respond to messages. Prepare for tomorrow's work."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Head Home",
+            description: "Head home around 6pm. Good work-life balance for finance industry. Optional learning and side projects."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Bloomberg", companySlug: "bloomberg", industry: "Finance" },
+        { companyName: "Two Sigma", companySlug: "two-sigma", industry: "Finance" },
+        { companyName: "Citadel", companySlug: "citadel", industry: "Finance" },
+        { companyName: "Jane Street", companySlug: "jane-street", industry: "Finance" }
+      ]
+    },
+    'client-relationship-manager': {
+      roleDescription: "Client Relationship Managers at BlackRock serve institutional and wealth clients across the world's largest asset manager. Working within the Institutional Client Business (ICB) or U.S. Wealth Advisory (USWA), you'll build deep relationships with pension funds, endowments, family offices, or wealth advisors while delivering BlackRock's full platform of solutions. ICB serves 4,000+ institutional clients across 30+ global offices while USWA partners with wealth managers to deliver 'One BlackRock' including iShares ETFs, mutual funds, SMAs, alternatives, and model portfolios. The Sales & Relationship Management Analyst Program provides exposure to client coverage, product specialists, and investment teams. BlackRock's scale enables comprehensive solutions while the culture emphasizes client-centric service and long-term relationships. Career paths span client coverage, product strategy, and business development across asset classes.",
+      responsibilities: [
+        "Build and maintain relationships with institutional clients (pensions, endowments, family offices) or wealth advisors",
+        "Understand client investment needs, objectives, and constraints to recommend appropriate BlackRock solutions",
+        "Coordinate with product specialists across iShares, Active strategies, Alternatives, and Aladdin to deliver integrated solutions",
+        "Prepare and deliver client presentations, portfolio reviews, and investment updates",
+        "Respond to RFPs and due diligence requests, coordinating across investment and operations teams",
+        "Monitor client portfolios and proactively communicate relevant market developments and investment insights",
+        "Identify cross-selling opportunities to expand client relationships across BlackRock's platform",
+        "Partner with Portfolio Managers and Investment teams on client-specific questions and customization",
+        "Maintain accurate records of client interactions and pipeline in CRM systems"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to Vice President to Director/Managing Director",
+        "Exposure to institutional-scale client relationships unavailable at smaller managers",
+        "Opportunity to specialize by client segment (pensions, endowments, wealth) or product (ETFs, alternatives, multi-asset)",
+        "Path to product specialist roles focusing on specific strategies or asset classes",
+        "International opportunities across BlackRock's global client coverage teams",
+        "Development of investment knowledge through client interactions and product training",
+        "Access to BlackRock's comprehensive training in client management and product knowledge",
+        "Strong foundation for careers in distribution, product development, or business leadership"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete HireVue video interview assessing motivation for client-facing roles, communication skills, and basic investment knowledge. Questions evaluate client orientation and problem-solving approach.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "30-45 minute conversation with team member covering background, interest in sales/relationship management, and basic market knowledge. Assess communication skills and client orientation.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "4-5 rounds with Relationship Managers, Product Specialists, and senior leadership. Mix of behavioral questions (client scenarios, relationship building), market knowledge, and cultural fit. May include presentation exercise.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates communication skills, client orientation, market knowledge, and cultural fit. Offers typically extended within 1-2 weeks with details on team placement."
+        }
+      ],
+      technicalQuestions: [
+        "Explain the difference between active and passive investing.",
+        "What is an ETF and why might an investor choose one over a mutual fund?",
+        "How do interest rate changes affect bond portfolios?",
+        "Explain basic portfolio construction concepts. What is diversification?",
+        "What is alpha and beta in investment context?",
+        "How would you explain factor investing to a client?",
+        "What are alternatives and why might institutions include them in portfolios?",
+        "Explain tracking error and why it matters for index strategies.",
+        "What is Aladdin and how does it serve BlackRock clients?",
+        "How do you stay informed about markets and investment trends?",
+        "What's the difference between liability-driven investing and traditional approaches?",
+        "How would you explain ESG investing to a pension plan trustee?",
+        "What role do ETFs play in portfolio construction?",
+        "How does BlackRock's platform differentiate from competitors?",
+        "What are the key considerations for institutional vs. retail clients?"
+      ],
+      behavioralQuestions: [
+        "Why client relationship management? Why BlackRock specifically?",
+        "Tell me about building a relationship with someone over time.",
+        "Describe handling a difficult client situation. How did you resolve it?",
+        "How do you stay organized when managing multiple client relationships?",
+        "Tell me about explaining complex concepts to someone without background in the area.",
+        "Describe a time you went above and beyond for a client or stakeholder.",
+        "How do you handle rejection or a lost opportunity?",
+        "Tell me about working in a team to deliver results for a client.",
+        "What qualities make someone successful in client-facing roles?",
+        "Describe a time you had to deliver difficult news. How did you approach it?",
+        "How do you prioritize when facing competing client demands?",
+        "What differentiates BlackRock's approach to client service?"
+      ],
+      whatTheyLookFor: [
+        "Exceptional communication and interpersonal skills",
+        "Genuine client-service orientation and relationship-building ability",
+        "Interest in investment management and financial markets",
+        "Professional presence and executive communication skills",
+        "Strong organizational skills for managing multiple relationships",
+        "Collaborative mindset for coordinating across teams",
+        "Intellectual curiosity to learn products and investment concepts",
+        "Resilience and persistence in competitive environment",
+        "Integrity and trustworthiness in client interactions",
+        "Long-term career interest in distribution and client coverage"
+      ],
+      interviewTips: [
+        "Understand BlackRock's product suite: iShares, Active, Alternatives, Aladdin",
+        "Research the specific client segment you're interviewing for (institutional vs wealth)",
+        "Prepare relationship-building examples demonstrating client orientation",
+        "Know basic investment concepts: asset allocation, diversification, risk/return",
+        "Read financial news and be ready to discuss market conditions",
+        "Practice explaining investment concepts clearly and simply",
+        "Research BlackRock's competitive positioning and differentiators",
+        "Prepare questions about client types, team structure, career paths",
+        "Show enthusiasm for client-facing work and building relationships",
+        "Demonstrate professional communication skills throughout interview",
+        "Understand how different client types have different needs",
+        "Be ready to discuss why sales/distribution vs investment roles"
+      ],
+      salary: {
+        min: 80000,
+        max: 100000
+      },
+      compensation: [
+        "Base salary: $80-100K for analyst program depending on location",
+        "Annual performance bonus: $15-40K based on individual and team performance",
+        "Sales incentives may apply depending on role structure",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Access to BlackRock investment products at reduced fees",
+        "Professional development budget for client entertainment and training",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $100-145K"
+      ],
+      dayInLife: {
+        overview: "Client Relationship Managers at BlackRock work in dynamic, client-facing environment with reasonable hours. Typical hours are 8:30am-6:30pm with flexibility around client needs. The role combines relationship management with investment knowledge development. BlackRock's scale enables comprehensive client solutions while culture emphasizes long-term relationships over transactions. Travel varies by client segment - institutional may require 20-30% travel while wealth advisory is often regional.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Preparation",
+            description: "Review overnight market developments and impact on client portfolios. Check emails from clients and internal teams. Prepare for scheduled calls and meetings."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Client Call",
+            description: "Quarterly review call with pension fund client. Discuss portfolio performance, market outlook, and strategic allocation questions. Coordinate with PM for investment discussion."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Internal Coordination",
+            description: "Meeting with product specialist to discuss new iShares ETF launch relevant to client opportunities. Coordinate on client outreach strategy."
+          },
+          {
+            time: "11:30 AM",
+            activity: "RFP Response",
+            description: "Work on RFP response for prospective institutional client. Coordinate with investment team on strategy questions, gather performance data."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Client Lunch",
+            description: "Lunch meeting with family office prospect. Discuss investment needs, introduce BlackRock capabilities, build relationship."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Portfolio Review Prep",
+            description: "Prepare materials for upcoming client meeting. Build presentation, update performance attribution, anticipate questions."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Team Meeting",
+            description: "Coverage team meeting to discuss client pipeline, share insights, coordinate on cross-selling opportunities."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Client Follow-Up",
+            description: "Send meeting follow-ups, respond to client questions, update CRM with interaction notes."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Finalize day's work, prepare for tomorrow's meetings. Review research for upcoming client discussions."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Head Home",
+            description: "Head home around 6:30pm on typical days. Evening client events or travel occasional depending on role."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "State Street", companySlug: "state-street", industry: "Finance" },
+        { companyName: "PIMCO", companySlug: "pimco", industry: "Finance" }
+      ]
+    },
+    'product-strategist': {
+      roleDescription: "Product Strategists at BlackRock work within Product Strategy & Solutions, connecting investment capabilities with client needs across the world's largest asset manager. You'll analyze market trends, competitive dynamics, and client demand to shape BlackRock's product offerings including iShares ETFs, active strategies, and alternative investments. The role combines investment knowledge with strategic thinking, partnering with Portfolio Management, Distribution, and Marketing to develop and position products for institutional and retail markets. BlackRock's scale means exposure to product development across asset classes and distribution channels globally. Product Strategists influence everything from new product launches to enhancement of existing offerings, positioning, and competitive response. Career paths span deepening product expertise or transitioning to distribution, investment, or business leadership roles.",
+      responsibilities: [
+        "Analyze market trends, competitive landscape, and client demand to identify product opportunities",
+        "Develop product positioning, messaging, and value propositions for investment strategies",
+        "Partner with Portfolio Management to articulate investment process and competitive differentiation",
+        "Support new product development from concept through launch including regulatory and operational considerations",
+        "Create sales materials, presentations, and content to support distribution efforts",
+        "Conduct competitive analysis on peer products, flows, and positioning",
+        "Monitor product performance and flows, identifying issues and opportunities",
+        "Support due diligence processes and client questions on product-specific topics",
+        "Collaborate with Marketing on product campaigns and thought leadership"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Associate to Vice President in Product Strategy",
+        "Opportunity to specialize by asset class (equity, fixed income, multi-asset, alternatives)",
+        "Path to product management owning P&L responsibility for specific strategies",
+        "Exposure to product development across ETFs, mutual funds, SMAs, and alternatives",
+        "Transition opportunities to Distribution, Portfolio Management, or business leadership",
+        "International opportunities across BlackRock's global product teams",
+        "Development of investment expertise through PM partnerships",
+        "Access to BlackRock's comprehensive training in products and markets"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete HireVue video interview assessing motivation for product strategy, analytical thinking, and communication skills. Questions evaluate problem-solving and strategic thinking.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute conversation covering background, interest in product strategy, and analytical skills. May include discussion of market trends or product positioning questions.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Study & Superday",
+          description: "Prepare case study on product positioning or market analysis. Multiple interviews with Product Strategists, Investment team members, and senior leadership. Assess analytical skills, communication, and strategic thinking.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates analytical ability, communication skills, and strategic thinking. Offers typically extended within 1-2 weeks with details on product area and team."
+        }
+      ],
+      technicalQuestions: [
+        "Explain the differences between ETFs and mutual funds. When would an investor prefer each?",
+        "What factors drive ETF flows? How would you analyze competitive positioning?",
+        "How do you think about product differentiation in asset management?",
+        "Explain factor investing. How would you position a multi-factor ETF?",
+        "What trends do you see shaping the asset management industry?",
+        "How would you analyze whether to launch a new ETF product?",
+        "What is your view on active vs. passive investing trends?",
+        "How do expense ratios affect competitive dynamics in ETFs?",
+        "Explain ESG investing. How is it changing product development?",
+        "How would you position an alternatives allocation to a retirement plan?",
+        "What role does Aladdin play in BlackRock's competitive advantage?",
+        "How do regulatory considerations affect product strategy?",
+        "What are the key metrics for evaluating product success?",
+        "How does distribution channel affect product design?",
+        "What makes BlackRock's product platform differentiated?"
+      ],
+      behavioralQuestions: [
+        "Why product strategy? Why BlackRock specifically?",
+        "Tell me about analyzing a market or competitive situation. What was your approach?",
+        "Describe translating complex information into clear, compelling messaging.",
+        "How do you stay informed about investment industry trends?",
+        "Tell me about influencing stakeholders without direct authority.",
+        "Describe a project where you had to coordinate across multiple teams.",
+        "How do you prioritize when managing multiple product initiatives?",
+        "Tell me about receiving critical feedback on your analysis. How did you respond?",
+        "What qualities make someone successful in product strategy?",
+        "Describe explaining investment concepts to different audiences.",
+        "How do you approach learning about new asset classes or products?",
+        "What differentiates BlackRock's approach to product development?"
+      ],
+      whatTheyLookFor: [
+        "Strong analytical and strategic thinking abilities",
+        "Excellent written and verbal communication skills",
+        "Interest in investment management and financial markets",
+        "Ability to synthesize complex information into clear insights",
+        "Collaborative mindset for cross-functional work",
+        "Intellectual curiosity about products and market dynamics",
+        "Attention to detail in analysis and content creation",
+        "Project management skills for coordinating initiatives",
+        "Comfort with ambiguity and changing priorities",
+        "Long-term career interest in product or investment roles"
+      ],
+      interviewTips: [
+        "Research BlackRock's product lineup: iShares, active strategies, alternatives",
+        "Understand industry trends: ETF growth, fee compression, ESG, alternatives",
+        "Prepare examples demonstrating analytical and strategic thinking",
+        "Know competitive landscape: Vanguard, State Street, Fidelity positions",
+        "Read financial news and be ready to discuss market conditions",
+        "Practice explaining investment concepts and product differentiation",
+        "Research specific product area you're interviewing for",
+        "Prepare case study or analysis demonstrating strategic approach",
+        "Show understanding of different distribution channels (institutional, wealth, retail)",
+        "Prepare questions about product development process, career paths",
+        "Demonstrate strong communication skills throughout interview",
+        "Be ready to discuss why product strategy vs sales or investment roles"
+      ],
+      salary: {
+        min: 85000,
+        max: 110000
+      },
+      compensation: [
+        "Base salary: $85-110K for product strategy analyst roles",
+        "Annual performance bonus: $20-45K based on individual and team performance",
+        "Signing bonus: $10-20K for competitive candidates",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Access to BlackRock investment products at reduced fees",
+        "Professional development budget for industry conferences",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $110-160K"
+      ],
+      dayInLife: {
+        overview: "Product Strategists at BlackRock work in dynamic environment connecting investments with markets. Typical hours are 9am-6:30pm with reasonable flexibility. The role combines analytical work with cross-functional collaboration. BlackRock's scale means exposure to diverse products and distribution channels. Culture emphasizes strategic thinking, clear communication, and partnership across teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Review",
+            description: "Review overnight news, flows data, and competitive developments. Check emails from distribution teams and investment partners."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Competitive Analysis",
+            description: "Analyze competitor ETF launch and positioning. Assess implications for BlackRock products and potential response."
+          },
+          {
+            time: "11:00 AM",
+            activity: "PM Meeting",
+            description: "Meeting with Portfolio Management team to discuss investment process updates for refreshed marketing materials."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch with colleagues or attend industry webinar on market trends."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Content Development",
+            description: "Draft product commentary for distribution team. Translate investment insights into client-friendly messaging."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Product Review",
+            description: "Internal meeting to review product performance, flows, and positioning updates. Discuss opportunities and challenges."
+          },
+          {
+            time: "3:30 PM",
+            activity: "New Product Work",
+            description: "Work on new product development initiative. Analyze market opportunity, coordinate with operations on launch timeline."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Distribution Support",
+            description: "Prepare talking points for sales team client meeting. Anticipate questions and develop responses."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Finalize deliverables, respond to emails, prepare for tomorrow. Review industry research."
+          },
+          {
+            time: "6:30 PM",
+            activity: "Head Home",
+            description: "Head home around 6:30pm on typical days. Product strategy offers good work-life balance."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Vanguard", companySlug: "vanguard", industry: "Finance" },
+        { companyName: "State Street", companySlug: "state-street", industry: "Finance" },
+        { companyName: "Invesco", companySlug: "invesco", industry: "Finance" },
+        { companyName: "Franklin Templeton", companySlug: "franklin-templeton", industry: "Finance" }
+      ]
+    },
+    'alternatives-analyst': {
+      roleDescription: "Alternatives Analysts at BlackRock work within one of the world's largest alternative asset platforms with over $300 billion in AUM spanning private equity, private credit, real estate, infrastructure, and hedge fund solutions. You'll support investment teams in sourcing, evaluating, and monitoring alternative investments that provide diversification and enhanced returns for institutional clients. BlackRock's recent acquisitions of Global Infrastructure Partners and HPS Investment Partners have significantly expanded alternatives capabilities. The Alternatives Analyst Program provides exposure to private markets investing across the platform. Working alongside experienced investors, you'll develop expertise in private market transactions, fund structures, and illiquid asset analysis. Career paths include deepening sector expertise or transitioning to portfolio management roles within alternatives.",
+      responsibilities: [
+        "Support deal sourcing and evaluation across private equity, private credit, real estate, or infrastructure investments",
+        "Build financial models for private market transactions including LBOs, real estate developments, and infrastructure projects",
+        "Conduct due diligence on investment opportunities including management meetings, site visits, and third-party reports",
+        "Monitor existing portfolio investments tracking performance, covenants, and material developments",
+        "Prepare investment memoranda and presentations for Investment Committees",
+        "Analyze fund structures, terms, and economics for fund investments and co-investments",
+        "Research market trends, sector dynamics, and competitive landscape for investment themes",
+        "Support client reporting and communication on alternatives portfolios",
+        "Collaborate with risk team on portfolio construction and risk assessment for illiquid investments"
+      ],
+      growthOpportunities: [
+        "Alternatives Analyst Program with exposure across private equity, credit, real estate, and infrastructure",
+        "Clear progression from Analyst to Associate to Vice President to Principal/MD track",
+        "Opportunity to specialize by strategy (PE, credit, real assets) or sector (healthcare, technology, energy)",
+        "Access to deal flow from one of the largest alternatives platforms globally",
+        "International opportunities across BlackRock's global alternatives offices",
+        "Path to portfolio management or investor relations within alternatives",
+        "Exposure to institutional-scale private markets investing",
+        "Development through structured training in private markets analysis"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete HireVue video interview and potentially technical assessment. Questions assess motivation for alternatives, financial knowledge, and analytical thinking.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Interview",
+          description: "45-60 minute conversation covering background, interest in private markets, and technical concepts. May include discussion of investment ideas or market trends.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Study & Superday",
+          description: "Prepare and present investment analysis or LBO model. Multiple interviews with Analysts, Portfolio Managers, and senior leadership. Technical deep-dives on modeling, valuation, and deal analysis.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Final Round",
+          description: "Meeting with senior leadership discussing investment philosophy and career goals. Offers typically follow within 1-2 weeks with details on team placement."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through an LBO model. What are the key drivers of returns?",
+        "How do you value a private company vs a public company?",
+        "Explain the J-curve in private equity. Why does it occur?",
+        "What is IRR and why is it the primary return metric for private investments?",
+        "How do you evaluate a real estate investment? What metrics matter?",
+        "Explain the capital structure of a typical leveraged buyout.",
+        "What is private credit and how does it differ from leveraged loans?",
+        "How do you assess management quality in a private investment?",
+        "What are the key risks in infrastructure investments?",
+        "Explain fund economics: management fee, carried interest, hurdle rate.",
+        "How do you think about portfolio construction in alternatives?",
+        "What sectors or themes interest you for private market investing?",
+        "How does illiquidity affect return requirements?",
+        "What due diligence would you conduct on a private equity deal?",
+        "How do you compare returns across different alternative strategies?",
+        "What trends are you seeing in private markets?"
+      ],
+      behavioralQuestions: [
+        "Why alternatives? Why BlackRock specifically?",
+        "Tell me about an investment analysis you've conducted. Walk through your process.",
+        "Describe a time you had to dig deep to understand something complex.",
+        "How do you stay informed about private markets and deal activity?",
+        "Tell me about working on a team with tight deadlines.",
+        "Describe defending an unpopular investment view.",
+        "How do you prioritize when managing multiple due diligence processes?",
+        "Tell me about making a recommendation with incomplete information.",
+        "What qualities make someone successful in private markets investing?",
+        "Describe a time you identified a risk that others overlooked.",
+        "How do you approach building relationships with management teams?",
+        "What differentiates BlackRock's alternatives platform?"
+      ],
+      whatTheyLookFor: [
+        "Strong financial modeling and analytical skills",
+        "Genuine interest in private markets and alternative investments",
+        "Ability to synthesize complex information and form investment views",
+        "Attention to detail in due diligence and analysis",
+        "Strong written and verbal communication skills",
+        "Intellectual curiosity about businesses and industries",
+        "Collaborative mindset for team-based investing",
+        "Ability to work under pressure on deal timelines",
+        "Professional maturity for management interactions",
+        "Long-term career interest in alternatives investing"
+      ],
+      interviewTips: [
+        "Master LBO mechanics: sources/uses, returns analysis, sensitivity tables",
+        "Understand different alternative strategies and their return profiles",
+        "Prepare investment ideas in private markets (sector, company type, or theme)",
+        "Research BlackRock's alternatives platform including recent acquisitions (GIP, HPS)",
+        "Know current private markets trends: rates impact, dry powder, valuations",
+        "Practice explaining your investment process and analytical approach",
+        "Understand fund structures and economics: fees, carry, preferred return",
+        "Research the specific team you're interviewing with",
+        "Prepare examples showing attention to detail and thorough analysis",
+        "Be ready to discuss why alternatives vs public markets investing",
+        "Show understanding of illiquidity premium and private market dynamics",
+        "Demonstrate collaborative mindset - alternatives teams work closely together"
+      ],
+      salary: {
+        min: 95000,
+        max: 130000
+      },
+      compensation: [
+        "Base salary: $95-130K for alternatives analyst roles depending on strategy and location",
+        "Annual performance bonus: $30-70K based on fund performance and individual contribution",
+        "Carried interest participation possible at more senior levels",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Access to BlackRock investment products at reduced fees",
+        "Professional development budget",
+        "Employee stock purchase plan",
+        "Total first-year compensation typically $130-200K"
+      ],
+      dayInLife: {
+        overview: "Alternatives Analysts at BlackRock work in deal-oriented environment with hours varying by deal activity. Typical range is 9am-8pm but can extend during active transactions. The role combines analytical work with relationship building and due diligence. BlackRock's scale provides institutional support while maintaining entrepreneurial investment culture. Work includes both new investments and portfolio monitoring across the platform.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Review",
+            description: "Review overnight news on portfolio companies and market developments. Check deal pipeline and priorities for the day."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Investment Committee Prep",
+            description: "Finalize investment memo for upcoming IC presentation. Incorporate feedback from senior team members."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Financial Modeling",
+            description: "Build LBO model for new deal in diligence. Sensitize returns to key assumptions, identify value creation opportunities."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch",
+            description: "Working lunch reviewing due diligence materials or on call with management team."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Management Meeting",
+            description: "Video call with portfolio company CEO for quarterly update. Discuss performance, strategy, and market conditions."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Due Diligence",
+            description: "Review third-party diligence reports (quality of earnings, market study) for active deal. Identify issues for follow-up."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Deal Team Meeting",
+            description: "Internal meeting to discuss deal progress, key issues, and next steps. Coordinate workstreams across team."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Research & Analysis",
+            description: "Research new investment theme or sector. Identify potential targets and develop initial screening criteria."
+          },
+          {
+            time: "7:00 PM",
+            activity: "Wrap Up",
+            description: "Finalize model updates, respond to emails, prepare for tomorrow. Hours vary significantly based on deal activity."
+          },
+          {
+            time: "8:00 PM",
+            activity: "Head Home",
+            description: "Head home around 7-8pm on typical days. Can extend during active deals or IC preparation."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "KKR", companySlug: "kkr", industry: "Finance" },
+        { companyName: "Blackstone", companySlug: "blackstone", industry: "Finance" },
+        { companyName: "Carlyle", companySlug: "carlyle", industry: "Finance" },
+        { companyName: "Apollo", companySlug: "apollo", industry: "Finance" }
+      ]
+    },
+    'quantitative-researcher': {
+      roleDescription: "Quantitative Researchers at BlackRock develop systematic investment strategies and risk models across the world's largest asset manager. Working within Systematic Active Equity, Fixed Income Quantitative Research, or the Aladdin team, you'll apply advanced statistical methods, machine learning, and financial theory to generate alpha and improve portfolio construction. BlackRock manages over $300 billion in systematic strategies using quantitative approaches. The role combines rigorous research with practical implementation, partnering with Portfolio Managers and Technology teams to deploy models in production. BlackRock's scale provides access to extensive data, computing resources, and diverse investment challenges unavailable at smaller firms. Career paths span deepening quantitative expertise, transitioning to portfolio management, or building quantitative tools for the broader platform.",
+      responsibilities: [
+        "Research and develop quantitative investment signals and systematic strategies",
+        "Apply statistical methods, machine learning, and alternative data to alpha generation",
+        "Build and enhance risk models for portfolio construction and risk management",
+        "Collaborate with Portfolio Managers to implement research in live portfolios",
+        "Conduct rigorous backtesting and out-of-sample validation of strategies",
+        "Develop analytics and tools for portfolio optimization and factor analysis",
+        "Research new data sources and evaluate their potential for investment signals",
+        "Document research findings and present to investment teams and leadership",
+        "Partner with Technology to productionize models and ensure scalability"
+      ],
+      growthOpportunities: [
+        "Clear progression from Researcher to Senior Researcher to Lead/Director level",
+        "Opportunity to specialize by asset class (equity, fixed income, multi-asset) or methodology",
+        "Path to portfolio management for systematic strategies",
+        "Access to extensive data resources and computing infrastructure",
+        "International opportunities across BlackRock's global quantitative teams",
+        "Development of cutting-edge skills in ML, alternative data, and systematic investing",
+        "Exposure to institutional-scale quantitative investing",
+        "Contribution to Aladdin platform development reaching broad user base"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Complete technical assessment including coding challenge and quantitative problems. Tests evaluate programming skills, statistical knowledge, and problem-solving ability.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute technical interview covering statistics, machine learning, and programming. May include live coding exercise or discussion of research experience.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "5-6 rounds with Quantitative Researchers, Portfolio Managers, and senior leadership. Deep technical interviews on statistics, ML, programming, and finance. May include research presentation and case study.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee evaluates technical depth, research ability, and cultural fit. Offers typically extended within 1-2 weeks with details on team placement."
+        }
+      ],
+      technicalQuestions: [
+        "Explain the bias-variance tradeoff. How do you manage it in practice?",
+        "How would you construct a factor model for equity risk?",
+        "Explain cross-validation and why it matters for strategy development.",
+        "What is overfitting? How do you prevent it in financial research?",
+        "How would you evaluate whether a trading signal is statistically significant?",
+        "Explain PCA and its applications in finance.",
+        "What machine learning methods are most applicable to financial prediction?",
+        "How do you handle missing data in financial time series?",
+        "Explain the efficient market hypothesis and its implications for quant research.",
+        "How would you construct a backtest? What pitfalls would you avoid?",
+        "What is transaction cost analysis and why does it matter?",
+        "Explain regularization techniques and when you would use them.",
+        "How do you evaluate alternative data sources for investment signals?",
+        "What is Sharpe ratio and what are its limitations?",
+        "How would you combine multiple alpha signals into a portfolio?",
+        "Explain time series vs cross-sectional approaches in systematic investing."
+      ],
+      behavioralQuestions: [
+        "Why quantitative research? Why BlackRock specifically?",
+        "Tell me about a research project you've worked on. What was your approach?",
+        "Describe debugging a complex model or code issue.",
+        "How do you stay current on quantitative methods and research?",
+        "Tell me about collaborating with others on a technical project.",
+        "Describe a time your analysis didn't support your initial hypothesis.",
+        "How do you balance research thoroughness with delivery timelines?",
+        "Tell me about explaining technical concepts to non-quantitative audience.",
+        "What qualities make someone successful in quantitative research?",
+        "Describe a creative approach you took to solve a problem.",
+        "How do you approach learning new statistical or ML methods?",
+        "What differentiates BlackRock's systematic investing platform?"
+      ],
+      whatTheyLookFor: [
+        "Strong quantitative foundation: statistics, probability, linear algebra",
+        "Programming proficiency (Python, R) and data analysis skills",
+        "Research mindset: hypothesis formation, testing, iteration",
+        "Understanding of financial markets and investment concepts",
+        "Machine learning knowledge and practical application experience",
+        "Critical thinking about research validity and pitfalls",
+        "Clear communication of complex technical concepts",
+        "Collaborative mindset for working with PMs and technology",
+        "Intellectual curiosity and drive to innovate",
+        "PhD or Masters in quantitative field preferred but not required"
+      ],
+      interviewTips: [
+        "Review statistics fundamentals: regression, hypothesis testing, distributions",
+        "Know machine learning methods: trees, ensembles, regularization, validation",
+        "Practice coding in Python focusing on pandas, numpy, sklearn",
+        "Understand financial concepts: factor models, portfolio optimization, risk metrics",
+        "Research BlackRock's systematic investing approach and scale",
+        "Prepare to discuss past research projects in depth",
+        "Know common backtesting pitfalls: look-ahead bias, survivorship bias, overfitting",
+        "Be ready for live coding and quantitative problem-solving",
+        "Understand the difference between academic research and applied quant work",
+        "Prepare questions about research process, data access, and career paths",
+        "Show interest in practical implementation, not just theoretical research",
+        "Demonstrate collaborative mindset - quant research at BlackRock is team-based"
+      ],
+      salary: {
+        min: 120000,
+        max: 180000
+      },
+      compensation: [
+        "Base salary: $120-180K for quantitative researcher roles depending on experience",
+        "Annual performance bonus: $40-100K+ based on research contribution and fund performance",
+        "Total compensation highly variable based on strategy performance",
+        "Senior researchers can earn $300K-$1M+ in total compensation",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with BlackRock match",
+        "Deferred compensation programs at senior levels",
+        "Access to BlackRock investment products at reduced fees",
+        "Professional development budget for conferences and research",
+        "Total early-career compensation typically $170-280K"
+      ],
+      dayInLife: {
+        overview: "Quantitative Researchers at BlackRock work in intellectually stimulating environment with reasonable hours for quant finance. Typical hours are 9am-7pm with flexibility for deep research work. The role combines independent research with collaboration across PMs and technology. BlackRock's scale provides data resources, computing infrastructure, and diverse investment challenges. Culture emphasizes rigorous research methodology while maintaining practical applicability.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Review",
+            description: "Review overnight model performance and market developments. Check research pipeline and priorities for the day."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Research Development",
+            description: "Deep research work on new signal development. Explore alternative data source, test hypotheses, analyze results."
+          },
+          {
+            time: "11:30 AM",
+            activity: "PM Discussion",
+            description: "Meeting with Portfolio Manager to discuss research findings and potential implementation. Debate methodology and practical considerations."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch",
+            description: "Lunch with research team or attend internal seminar on quantitative topics."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Code Development",
+            description: "Build production code for model implementation. Partner with technology team on infrastructure and deployment."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Research Review",
+            description: "Team meeting to present research findings and receive feedback. Collaborative discussion on methodology and results."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Literature Review",
+            description: "Read academic papers and industry research on relevant quantitative methods. Stay current on methodology advances."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Analysis Continued",
+            description: "Continue research analysis or run overnight backtests. Document findings and prepare for next steps."
+          },
+          {
+            time: "7:00 PM",
+            activity: "Wrap Up",
+            description: "Head home around 7pm on typical days. Research work continues in evening as interest dictates."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Two Sigma", companySlug: "two-sigma", industry: "Finance" },
+        { companyName: "AQR", companySlug: "aqr", industry: "Finance" },
+        { companyName: "Citadel", companySlug: "citadel", industry: "Finance" },
+        { companyName: "D.E. Shaw", companySlug: "de-shaw", industry: "Finance" }
       ]
     }
   }

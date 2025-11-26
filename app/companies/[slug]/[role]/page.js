@@ -416,7 +416,7 @@ export function generateStaticParams() {
   const techCompanies = ['google', 'amazon', 'meta', 'apple', 'microsoft', 'netflix', 'uber', 'airbnb', 'stripe', 'salesforce', 'doordash', 'lyft', 'spotify', 'oracle', 'adobe', 'atlassian', 'snowflake', 'databricks', 'coinbase', 'block', 'shopify']
 
   // Finance and consulting companies
-  const financeConsultingCompanies = ['goldman-sachs', 'jpmorgan', 'morgan-stanley', 'bank-of-america', 'citigroup', 'wells-fargo', 'mckinsey']
+  const financeConsultingCompanies = ['goldman-sachs', 'jpmorgan', 'morgan-stanley', 'bank-of-america', 'citigroup', 'wells-fargo', 'mckinsey', 'blackrock']
 
   const allCompanies = [...techCompanies, ...financeConsultingCompanies]
 

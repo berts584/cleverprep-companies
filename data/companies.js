@@ -715,47 +715,79 @@ export const companies = {
   },
   'goldman-sachs': {
     name: 'Goldman Sachs',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Goldman Sachs interview with elite-level preparation, real Superday questions, and strategies to stand out at Wall Street\'s most prestigious firm.',
     industry: 'Finance',
     headquarters: 'New York, NY',
-    description: 'Goldman Sachs is a leading global investment banking, securities and investment management firm. Goldman Sachs interviews are rigorous and focus on technical knowledge, analytical skills, and cultural fit.',
+    description: 'Goldman Sachs is Wall Street\'s most prestigious investment bank, known for its elite culture and rigorous interview process. The firm operates through four divisions: Investment Banking, Global Markets, Asset Management, and Platform Solutions (formerly Consumer). Goldman is renowned for its "one firm" culture where collaboration across divisions is expected, and for placing bankers in front of clients earlier than competitors. The interview process is famously selective, with Superday acceptance rates below 10%. Goldman seeks candidates who demonstrate intellectual curiosity, commercial instincts, and the ability to thrive in a high-intensity, meritocratic environment where performance determines advancement.',
     interviewTips: [
-      'Master financial modeling and valuation',
-      'Prepare behavioral answers using STAR method',
-      'Stay updated on current market events',
-      'Practice mental math and brain teasers',
-      'Understand Goldman\'s business divisions'
+      'Research Goldman\'s four divisions (Investment Banking, Global Markets, Asset Management, Platform Solutions) and articulate why your target division fits your skills',
+      'For Superday, expect 4-5 back-to-back 30-minute interviews - each interviewer independently evaluates you, so bring consistent energy throughout',
+      'Goldman heavily tests commercial instincts - have strong views on 2-3 current market themes and be ready to debate them',
+      'Know recent Goldman deals: Study 2-3 major M&A transactions, IPOs, or restructurings where Goldman was lead advisor',
+      'Practice mental math aggressively - Goldman interviewers frequently ask quick calculations to test quantitative intuition',
+      'Understand what differentiates Goldman: premier advisory franchise, "one firm" culture, early client exposure, meritocratic advancement',
+      'Prepare for brain teasers and market-sizing questions - think out loud and demonstrate structured problem-solving',
+      'For IB roles: Master DCF, LBO, and merger models inside and out - expect to be pushed on every assumption',
+      'Goldman values intellectual horsepower - demonstrate you can think critically and aren\'t afraid to have a contrarian view',
+      'Be ready to discuss why Goldman over JPMorgan or Morgan Stanley - reference specific deals, culture elements, or people you\'ve met',
+      'Show genuine passion for markets - interviewers can tell who reads the WSJ daily vs who crammed the night before',
+      'Goldman emphasizes "commercial" thinking - always tie analysis back to what it means for clients and deals',
+      'Practice being concise - Goldman interviewers value crisp, direct communication over verbose explanations',
+      'Demonstrate leadership and impact - Goldman wants future partners, not just good analysts'
     ],
     whatTheyLookFor: [
-      'Analytical thinking',
-      'Cultural fit and professionalism',
-      'Strong work ethic',
-      'Technical knowledge',
-      'Teamwork abilities'
+      'Exceptional intellectual horsepower and analytical ability',
+      'Strong commercial instincts and market awareness',
+      'Genuine passion for finance and markets',
+      'Crisp, confident communication under pressure',
+      'Leadership potential and track record of impact',
+      'Cultural fit with Goldman\'s high-performance, meritocratic environment',
+      'Collaborative mindset aligned with "one firm" culture',
+      'Ability to think independently and defend contrarian views',
+      'Strong work ethic and resilience for demanding hours',
+      'Professional maturity and client-readiness'
     ],
     process: [
       {
         step: 1,
-        title: 'HireVue Video Interview',
-        description: 'Pre-recorded video interview questions'
+        title: 'Online Application',
+        description: 'Submit your application through Goldman\'s careers portal including resume, transcript, and cover letter. Applications open in early September for summer analyst positions. Goldman receives 100,000+ applications annually, so ensure your resume clearly demonstrates leadership, quantitative skills, and finance interest.'
       },
       {
         step: 2,
-        title: 'Superday (Multiple Rounds)',
-        description: '3-5 back-to-back interviews with different team members'
+        title: 'HireVue Video Interview',
+        description: 'Complete 4-6 pre-recorded video questions focusing on motivation, commercial awareness, and behavioral scenarios. Questions often include "Why Goldman Sachs?", market opinion questions, and situational judgment scenarios. You\'ll have limited prep time (30-60 seconds) and 2-3 minutes to respond. Practice being concise and personable on camera.'
       },
       {
         step: 3,
-        title: 'Final Decision',
-        description: 'HR contacts you within 1-2 weeks'
+        title: 'Superday',
+        description: 'Goldman\'s famous Superday consists of 4-5 consecutive 30-minute interviews with Associates, VPs, and MDs. Each interviewer evaluates independently, so maintain energy throughout. Expect technical deep-dives (valuation, accounting, markets), brain teasers, and intense behavioral questions. Interviewers will push back on your answers to test conviction. Held at Goldman offices (NYC, London, etc.) or virtually.'
+      },
+      {
+        step: 4,
+        title: 'Offer Decision',
+        description: 'The hiring committee reviews all interviewer feedback and makes decisions within 1-2 weeks. Goldman\'s process is highly selective - Superday conversion rates are typically 30-40%. Offers include base salary, signing bonus, and year-end bonus structure. You\'ll typically have 1-2 weeks to accept.'
       }
     ],
     questions: [
-      'Walk me through your resume',
-      'Why Goldman Sachs?',
-      'Walk me through a DCF analysis',
-      'What are three stocks you would recommend?',
-      'Tell me about a time you worked in a team'
+      'Walk me through a DCF - what are the key assumptions and how do you derive them?',
+      'Why Goldman Sachs? Why not JPMorgan or Morgan Stanley?',
+      'Pitch me a stock - I want a specific company with clear thesis and catalysts',
+      'Tell me about a recent Goldman deal that interested you - what was your view on the valuation?',
+      'Walk me through an LBO model - what drives returns?',
+      'How do the three financial statements connect? Walk me through a $10 increase in depreciation',
+      'Tell me about a time you demonstrated leadership and had significant impact',
+      'What\'s happening in the markets right now? What\'s your view on [current event]?',
+      'If a company trades at 10x EBITDA and its peers trade at 8x, what could explain the premium?',
+      'You have $1 million to invest - how would you allocate it and why?',
+      'Walk me through accretion/dilution analysis - when would a deal be dilutive?',
+      'Tell me about a time you failed. What did you learn?',
+      'How would you value a company with negative earnings?',
+      'What makes a good M&A target? Give me an example of a deal you\'d recommend',
+      'Estimate the market size for [product/service] - walk me through your logic',
+      'Tell me about a time you had to convince someone who disagreed with you',
+      'What questions do you have for me about Goldman or my experience?',
+      'Where do you see M&A activity heading in the next 12 months and why?'
     ],
     relatedCompanies: ['jpmorgan', 'morgan-stanley', 'bank-of-america', 'citigroup']
   },
@@ -840,511 +872,771 @@ export const companies = {
   },
   'morgan-stanley': {
     name: 'Morgan Stanley',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Ace your Morgan Stanley interview with comprehensive preparation for their unique culture, technical rigor, and emphasis on client-first thinking.',
     industry: 'Finance',
     headquarters: 'New York, NY',
-    description: 'Morgan Stanley is a leading global financial services firm providing investment banking, securities, wealth management, and investment management. Their interviews emphasize technical excellence, cultural fit, and commitment to putting clients first.',
+    description: 'Morgan Stanley is a leading global financial services firm with a distinctive culture emphasizing intellectual rigor, client-first philosophy, and collaborative teamwork. The firm operates through three segments: Institutional Securities (investment banking, sales & trading), Wealth Management (the largest U.S. wealth manager with 15,000+ advisors), and Investment Management. Morgan Stanley\'s 2020 acquisition of E*TRADE and 2021 acquisition of Eaton Vance transformed its wealth and asset management businesses. The interview process emphasizes technical excellence, intellectual curiosity, and the ability to articulate complex ideas clearly. Morgan Stanley particularly values candidates who demonstrate genuine interest in markets and can engage thoughtfully on current events.',
     interviewTips: [
-      'Research Morgan Stanley\'s recent transactions and news',
-      'Practice valuation methods (DCF, comps, precedent)',
-      'Prepare thoughtful questions about the firm',
-      'Demonstrate strong work ethic and humility',
-      'Be ready to discuss market trends and opinions'
+      'Research Morgan Stanley\'s three business segments (Institutional Securities, Wealth Management, Investment Management) and recent strategic acquisitions (E*TRADE, Eaton Vance)',
+      'Morgan Stanley emphasizes "first-class business in a first-class way" - demonstrate integrity and professionalism throughout the process',
+      'For Superday, expect 3-5 interviews with Associates, VPs, EDs, and MDs - each focuses on different aspects (technical, behavioral, market views)',
+      'Know recent Morgan Stanley deals: Study 2-3 major transactions where MS was lead advisor and have an informed view on valuation',
+      'Morgan Stanley heavily values intellectual curiosity - have strong market views and be ready to discuss them in depth',
+      'Practice walking through financial models step-by-step - MS interviewers will probe your understanding of each assumption',
+      'Understand MS vs competitors: Largest U.S. wealth manager, strong equity franchise, known for intellectual culture',
+      'Prepare thoughtful questions for each interviewer - MS values candidates who are genuinely curious about the business',
+      'Be ready to discuss "Why Morgan Stanley over Goldman or JPMorgan" - reference specific culture elements, deals, or people',
+      'Morgan Stanley values humility and teamwork - avoid coming across as arrogant or overly self-promotional',
+      'For S&T roles: Be ready to pitch a trade with clear thesis, entry point, and risk management',
+      'Demonstrate client-first thinking - MS culture emphasizes putting clients\' interests above short-term gains',
+      'Show genuine interest in markets - read financial news daily and have opinions on current events',
+      'Practice explaining complex concepts simply - MS values clear communication alongside analytical depth'
     ],
     whatTheyLookFor: [
-      'Intellectual curiosity',
-      'Strong quantitative skills',
-      'Client-first mentality',
-      'Team collaboration',
-      'Professional maturity'
+      'Strong intellectual curiosity and analytical abilities',
+      'Client-first mindset and ethical judgment',
+      'Clear, articulate communication style',
+      'Collaborative approach and team orientation',
+      'Genuine passion for financial markets',
+      'Professional maturity and strong work ethic',
+      'Ability to engage thoughtfully on market topics',
+      'Cultural fit with MS\'s "first-class business, first-class way" ethos',
+      'Leadership potential and initiative',
+      'Humility balanced with confidence'
     ],
     process: [
       {
         step: 1,
-        title: 'Application & HireVue',
-        description: 'Online application and video interview'
+        title: 'Online Application',
+        description: 'Submit application through Morgan Stanley\'s careers portal with resume, transcript, and cover letter. Applications typically open in August/September for summer analyst positions. Highlight relevant experience, leadership roles, and demonstrated interest in financial markets.'
       },
       {
         step: 2,
-        title: 'Phone Interview',
-        description: 'Technical and behavioral screening'
+        title: 'HireVue Video Interview',
+        description: 'Complete 3-5 pre-recorded video questions within a few days of receiving the invitation. Questions assess motivation for Morgan Stanley, market awareness, and behavioral scenarios. You\'ll have 30-60 seconds to prepare and 2-3 minutes to respond. Dress professionally and practice speaking clearly and concisely on camera.'
       },
       {
         step: 3,
         title: 'Superday',
-        description: '3-5 rounds of interviews with team members'
+        description: 'Full-day interview with 3-5 consecutive 30-45 minute sessions with professionals ranging from Associates to Managing Directors. Expect a mix of technical questions (valuation, accounting, markets), behavioral questions, and in-depth discussions about markets and your interests. Morgan Stanley interviewers often engage in substantive market discussions to assess genuine interest.'
       },
       {
         step: 4,
-        title: 'Final Review',
-        description: 'Decision communicated within 1-2 weeks'
+        title: 'Offer Decision',
+        description: 'Decisions typically communicated within 1-2 weeks after Superday. Morgan Stanley\'s hiring committee reviews all feedback holistically. Offers include competitive base salary, signing bonus, and year-end bonus structure. You\'ll have about 1-2 weeks to respond.'
       }
     ],
     questions: [
-      'Why Morgan Stanley over competitors?',
-      'Walk me through your investment thesis on a stock',
-      'Explain how LBO modeling works',
-      'What interests you about this division?',
-      'Describe a time you worked under pressure'
+      'Walk me through a DCF model and explain how you would value a company',
+      'Why Morgan Stanley? What specifically attracts you to our firm over competitors?',
+      'Pitch me a stock - give me your investment thesis and key risks',
+      'Walk me through a recent Morgan Stanley deal - what was your view on the transaction?',
+      'How do the three financial statements link together? Walk through an example',
+      'What\'s your view on current market conditions? How would you position a portfolio?',
+      'Tell me about a time you worked on a team with differing opinions - how did you handle it?',
+      'Walk me through an LBO model - what are the key value drivers?',
+      'If you were a portfolio manager, what sector would you overweight and why?',
+      'Tell me about a recent market event that caught your attention - what\'s your analysis?',
+      'How would you explain enterprise value vs equity value to a client?',
+      'What do you think differentiates Morgan Stanley from Goldman Sachs or JPMorgan?',
+      'Tell me about a time you failed and what you learned from the experience',
+      'Walk me through accretion/dilution - when would a stock deal be dilutive?',
+      'What questions do you have for me about Morgan Stanley or my career here?',
+      'Where do you see yourself in five years?',
+      'Tell me about something intellectually interesting you\'ve learned recently outside of finance'
     ],
     relatedCompanies: ['goldman-sachs', 'jpmorgan', 'bank-of-america', 'citigroup']
   },
   'bank-of-america': {
     name: 'Bank of America',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Bank of America interview with insider strategies covering BofA\'s unique culture of responsible growth, technical preparation, and leadership assessment.',
     industry: 'Finance',
     headquarters: 'Charlotte, NC',
-    description: 'Bank of America is one of the world\'s largest financial institutions serving individual consumers, small businesses, and large corporations. Their interview process assesses technical knowledge, leadership potential, and alignment with their culture of responsible growth.',
+    description: 'Bank of America is one of the world\'s largest financial institutions with $3.2 trillion in assets, serving individual consumers, small businesses, and large corporations across 35+ countries. The firm operates through four segments: Consumer Banking, Global Wealth & Investment Management (including Merrill Lynch), Global Banking, and Global Markets. BofA is distinguished by its "responsible growth" philosophy, emphasizing sustainable business practices, community involvement, and long-term client relationships. The interview process assesses technical competency alongside leadership potential and cultural alignment. BofA is known for offering a collaborative, supportive culture with better work-life balance than some competitors while still providing exposure to large, complex transactions.',
     interviewTips: [
-      'Understand Bank of America\'s corporate values',
-      'Prepare for technical finance and accounting questions',
-      'Show examples of leadership and teamwork',
-      'Research their ESG and community initiatives',
-      'Be ready to discuss your career goals'
+      'Research BofA\'s four business segments (Consumer, GWIM/Merrill, Global Banking, Global Markets) and articulate which interests you and why',
+      'Understand BofA\'s "responsible growth" framework - they evaluate candidates on sustainable practices and ethical decision-making',
+      'For Superday, expect 4-5 interviews with team members ranging from Analysts to Managing Directors',
+      'Know recent BofA deals: Study 2-3 major transactions where BofA Securities was lead advisor',
+      'BofA heavily values leadership and teamwork - prepare multiple examples of collaborative achievements using STAR method',
+      'Practice walking through valuation methodologies (DCF, comps, precedent transactions) step-by-step',
+      'Understand BofA vs competitors: Largest deposit base in U.S., integrated platform, strong middle-market presence, Charlotte HQ culture',
+      'BofA emphasizes career development - be prepared to discuss your long-term goals and how BofA fits',
+      'Research BofA\'s ESG initiatives and community involvement - they take responsible growth seriously',
+      'Be ready to discuss why BofA over Goldman, JPMorgan, or Morgan Stanley - reference specific culture elements or business strengths',
+      'BofA values well-rounded candidates - demonstrate interests and achievements outside of finance',
+      'For IB roles: Master the technicals but also show client-orientation and relationship-building skills',
+      'Show genuine interest in BofA\'s integrated platform - highlight how Consumer, Wealth, Banking, and Markets work together',
+      'BofA tends to have a more supportive, collaborative culture - demonstrate teamwork over individual heroics'
     ],
     whatTheyLookFor: [
-      'Leadership potential',
-      'Analytical mindset',
-      'Ethical decision-making',
-      'Collaborative approach',
-      'Long-term commitment'
+      'Strong analytical and quantitative skills',
+      'Leadership potential and track record of impact',
+      'Collaborative mindset and team-first orientation',
+      'Ethical judgment aligned with responsible growth philosophy',
+      'Professional maturity and client-service orientation',
+      'Genuine interest in BofA\'s integrated platform',
+      'Long-term commitment and career-focused mindset',
+      'Strong communication and interpersonal skills',
+      'Community involvement and broader perspective',
+      'Cultural fit with BofA\'s supportive, growth-oriented environment'
     ],
     process: [
       {
         step: 1,
-        title: 'Online Assessment',
-        description: 'Application and initial screening'
+        title: 'Online Application',
+        description: 'Submit application through Bank of America\'s campus careers portal including resume, transcript, and cover letter. Applications typically open in late August for summer analyst positions. Highlight leadership roles, teamwork experiences, and any finance-related coursework or internships.'
       },
       {
         step: 2,
-        title: 'HireVue Interview',
-        description: 'Video interview with behavioral questions'
+        title: 'HireVue Video Interview',
+        description: 'Complete pre-recorded video questions within 72 hours of invitation. Questions assess motivation for BofA, leadership experiences, and alignment with responsible growth values. Typically 4-6 questions with 30 seconds prep time and 2-3 minutes to respond. Dress professionally and showcase your personality.'
       },
       {
         step: 3,
         title: 'Superday',
-        description: 'Multiple rounds of interviews with team'
+        description: 'Full-day interview typically consisting of 4-5 consecutive 30-minute interviews with Associates, VPs, Directors, and Managing Directors. Expect a balance of technical questions (valuation, accounting, markets) and behavioral questions emphasizing leadership, teamwork, and ethical scenarios. BofA Superdays are known for being conversational and assessing cultural fit alongside technical ability.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and offer extended'
+        title: 'Offer Decision',
+        description: 'Decisions communicated within 1-2 weeks after Superday. BofA\'s hiring committee evaluates candidates holistically across technical skills, leadership potential, and cultural fit. Offers include competitive base salary, signing bonus, and performance-based year-end bonus. Charlotte-based roles may have adjusted compensation reflecting lower cost of living.'
       }
     ],
     questions: [
-      'Why Bank of America?',
-      'How do you value a bank?',
-      'Walk me through the three financial statements',
-      'Tell me about a leadership experience',
-      'What\'s your understanding of our business model?'
+      'Walk me through a DCF model from start to finish',
+      'Why Bank of America? What specifically attracts you to our firm?',
+      'Tell me about a time you demonstrated leadership in a team setting',
+      'How do you value a financial services company like a bank?',
+      'Walk me through the three financial statements and how they connect',
+      'What\'s your understanding of Bank of America\'s "responsible growth" strategy?',
+      'Tell me about a recent BofA deal that interested you',
+      'Describe a time you faced an ethical dilemma - how did you handle it?',
+      'What makes you interested in BofA over other bulge bracket banks?',
+      'Walk me through an LBO model and explain the key drivers',
+      'Tell me about a time you had to work with someone you disagreed with',
+      'What\'s happening in the markets right now? How does it affect BofA\'s business?',
+      'Where do you see yourself in five years? Ten years?',
+      'How would you explain WACC to someone without a finance background?',
+      'Tell me about a time you failed and what you learned',
+      'What questions do you have about Bank of America or the role?',
+      'Describe how you stay informed about financial markets and business news'
     ],
     relatedCompanies: ['jpmorgan', 'wells-fargo', 'citigroup', 'goldman-sachs']
   },
   'citigroup': {
     name: 'Citigroup',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Prepare for your Citi interview with global perspective - master the unique technical and cultural elements of the world\'s most international bank.',
     industry: 'Finance',
     headquarters: 'New York, NY',
-    description: 'Citigroup is a global banking and financial services corporation with operations in over 160 countries. Citi interviews focus on technical competency, global mindset, and cultural fit with their collaborative and diverse environment.',
+    description: 'Citigroup is the world\'s most global bank, operating in nearly 100 countries and serving clients in more markets than any competitor. The firm operates through two main segments: Institutional Clients Group (ICG) covering Banking, Capital Markets, and Treasury & Trade Solutions (TTS), and Personal Banking & Wealth Management (PBWM). Citi\'s unparalleled global footprint makes it the bank of choice for multinational corporations with complex cross-border needs. The interview process emphasizes technical competency, global mindset, and cultural adaptability. Citi particularly values candidates who demonstrate genuine interest in international markets, emerging economies, and cross-border transactions. The culture is known for being diverse, collaborative, and more balanced than some competitors while still offering meaningful deal exposure.',
     interviewTips: [
-      'Emphasize your interest in global markets',
-      'Prepare for technical questions on finance and markets',
-      'Show cultural awareness and adaptability',
-      'Research Citi\'s international presence',
-      'Demonstrate strong communication skills'
+      'Research Citi\'s two main segments (ICG and PBWM) and understand how the global footprint differentiates Citi from domestic-focused competitors',
+      'Demonstrate genuine interest in global markets - Citi wants candidates excited about emerging markets, cross-border transactions, and international complexity',
+      'For Superday, expect 3-5 interviews with team members ranging from Analysts to Managing Directors, potentially including video calls with international offices',
+      'Know recent Citi deals: Study 2-3 major cross-border transactions or emerging markets deals where Citi was lead advisor',
+      'Understand Treasury & Trade Solutions (TTS) - Citi\'s #1 global transaction banking franchise is a key differentiator',
+      'Be prepared to discuss current events in emerging markets - Latin America, Asia, EMEA are Citi\'s strengths',
+      'Practice walking through valuation methodologies with cross-border considerations (currency, country risk, accounting differences)',
+      'Citi values diversity and cultural awareness - demonstrate experience working across cultures or genuine interest in international environments',
+      'Understand Citi vs competitors: Most global footprint, TTS leadership, emerging markets strength, diverse culture',
+      'Be ready to discuss why Citi over JPMorgan or Goldman - reference specific global capabilities, deals, or culture elements',
+      'Citi emphasizes work-life balance more than some competitors - it\'s okay to value this, but still show strong work ethic',
+      'For international roles: Be prepared to discuss willingness to work in different regions or with teams across time zones',
+      'Research Citi\'s transformation journey and strategic priorities under current leadership',
+      'Show understanding of how global economic trends affect different regions - demonstrate macro awareness'
     ],
     whatTheyLookFor: [
-      'Global perspective',
-      'Technical proficiency',
-      'Cultural awareness',
-      'Integrity and ethics',
-      'Collaborative mindset'
+      'Global mindset and genuine interest in international markets',
+      'Strong analytical and quantitative foundation',
+      'Cultural adaptability and cross-cultural communication skills',
+      'Technical competency in finance and accounting',
+      'Collaborative approach suited to global teams',
+      'Intellectual curiosity about emerging markets and cross-border complexity',
+      'Professional maturity and client-service orientation',
+      'Integrity and ethical judgment',
+      'Language skills (valuable but not required)',
+      'Long-term interest in global banking career'
     ],
     process: [
       {
         step: 1,
-        title: 'Application Review',
-        description: 'Submit application and resume'
+        title: 'Online Application',
+        description: 'Submit application through Citi\'s careers portal including resume, transcript, and cover letter. Applications typically open in August/September for summer analyst positions. Highlight any international experience, language skills, or demonstrated interest in global markets.'
       },
       {
         step: 2,
-        title: 'HireVue Interview',
-        description: 'Recorded video interview'
+        title: 'HireVue Video Interview',
+        description: 'Complete 3-5 pre-recorded video questions within a few days of invitation. Questions assess motivation for Citi specifically, global awareness, and behavioral scenarios. Expect questions about interest in international markets, cross-cultural experiences, and situational judgment. Practice being concise and demonstrating global perspective.'
       },
       {
         step: 3,
-        title: 'Assessment Center / Superday',
-        description: '3-5 interviews with various team members'
+        title: 'Superday / Assessment Center',
+        description: 'Citi\'s Superday typically consists of 3-5 consecutive interviews with professionals across levels. Given Citi\'s global structure, some interviews may be conducted via video with team members in other regions. Expect technical questions (valuation, accounting, markets with cross-border angles), behavioral questions, and discussions about global markets. Citi interviewers often discuss current events in emerging markets to assess genuine interest.'
       },
       {
         step: 4,
-        title: 'Final Decision',
-        description: 'Offer communicated within 2 weeks'
+        title: 'Offer Decision',
+        description: 'Decisions typically communicated within 2 weeks after Superday. Citi\'s hiring committee evaluates candidates on technical ability, global mindset, and cultural fit. Offers include competitive base salary, signing bonus, and year-end bonus. International rotation opportunities may be discussed for high-potential candidates.'
       }
     ],
     questions: [
-      'Why Citi and why this division?',
-      'How would you analyze emerging market risk?',
-      'Walk me through a merger model',
-      'What makes you a good fit for our culture?',
-      'Describe a time you worked across cultures'
+      'Walk me through a DCF model - how would you adjust for a company with significant emerging markets exposure?',
+      'Why Citigroup? What attracts you to our global platform specifically?',
+      'Tell me about a time you worked with people from different backgrounds or cultures',
+      'How would you analyze a cross-border M&A transaction? What additional considerations vs domestic?',
+      'Walk me through the three financial statements and how they connect',
+      'What\'s happening in [emerging market region] right now? What are the implications?',
+      'Tell me about a recent Citi deal that interested you - why?',
+      'How does country risk affect credit analysis and valuation?',
+      'What makes Citi different from JPMorgan or Goldman Sachs?',
+      'Walk me through an LBO model - what are the key return drivers?',
+      'Tell me about a time you had to adapt to an unfamiliar situation',
+      'What\'s your view on the U.S. dollar and its impact on emerging markets?',
+      'How would you explain Treasury & Trade Solutions (TTS) to a client?',
+      'Where do you see yourself in five years? Would you be open to international opportunities?',
+      'Tell me about a time you failed and what you learned',
+      'What questions do you have about Citi or our global platform?',
+      'How do you stay informed about global markets and international business?'
     ],
     relatedCompanies: ['jpmorgan', 'bank-of-america', 'goldman-sachs', 'morgan-stanley']
   },
   'wells-fargo': {
     name: 'Wells Fargo',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Ace your Wells Fargo interview with strategies tailored to their unique culture, emphasis on risk management, and focus on customer-first values.',
     industry: 'Finance',
     headquarters: 'San Francisco, CA',
-    description: 'Wells Fargo is a diversified financial services company providing banking, investment, mortgage, and consumer finance services. Interviews emphasize ethical decision-making, customer focus, and technical competence in financial services.',
+    description: 'Wells Fargo is one of the largest diversified financial services companies in the U.S. with $1.9 trillion in assets and the nation\'s largest branch network. The firm operates through four segments: Consumer Banking, Commercial Banking, Corporate & Investment Banking (Wells Fargo Securities), and Wealth & Investment Management (Wells Fargo Advisors). Wells Fargo has a distinctive culture rooted in its community banking heritage and West Coast origins, emphasizing customer relationships, risk discipline, and ethical conduct. Following past regulatory challenges, Wells Fargo has significantly strengthened its risk and compliance culture, making risk awareness a key interview topic. The firm offers excellent training, earlier client responsibility than bulge brackets, and strong work-life balance while providing meaningful deal exposure in middle-market M&A, leveraged finance, and industry-focused banking.',
     interviewTips: [
-      'Understand Wells Fargo\'s commitment to ethics and compliance',
-      'Prepare for scenario-based ethical questions',
-      'Show customer-centric thinking',
-      'Research their recent initiatives and changes',
-      'Demonstrate attention to risk management'
+      'Research Wells Fargo\'s four business segments (Consumer, Commercial, CIB/Wells Fargo Securities, Wealth Management) and articulate why your target area fits your goals',
+      'Understand Wells Fargo\'s emphasis on risk management and compliance - be prepared to discuss ethical scenarios and risk awareness',
+      'For Superday, expect 4-5 interviews with team members ranging from Analysts to Managing Directors',
+      'Know recent Wells Fargo Securities deals: Study 2-3 transactions where WFS was advisor, particularly middle-market M&A or leveraged finance',
+      'Wells Fargo values customer-first thinking - demonstrate client-service orientation in your examples',
+      'Be prepared to discuss Wells Fargo\'s transformation and strengthened risk culture - show awareness of the firm\'s journey',
+      'Practice walking through valuation methodologies step-by-step (DCF, comps, precedent transactions)',
+      'Understand Wells Fargo vs bulge brackets: Strong middle-market presence, excellent training, better work-life balance, earlier client exposure',
+      'Wells Fargo has a collaborative, supportive culture - demonstrate teamwork and humility over individual heroics',
+      'Be ready to discuss why Wells Fargo over Goldman, JPMorgan, or Morgan Stanley - reference specific culture elements, deal types, or training',
+      'For CIB roles: Understand Wells Fargo\'s industry coverage groups and geographic strengths (particularly West Coast, Energy, Healthcare)',
+      'Wells Fargo emphasizes career development - be prepared to discuss your long-term goals and how WF fits',
+      'Show genuine interest in Wells Fargo\'s community focus and customer relationships',
+      'Prepare for behavioral questions around ethics, risk management, and handling difficult situations'
     ],
     whatTheyLookFor: [
-      'Ethical judgment',
-      'Customer service orientation',
-      'Risk awareness',
-      'Teamwork and collaboration',
-      'Continuous learning mindset'
+      'Strong analytical and quantitative abilities',
+      'Customer-first mindset and service orientation',
+      'Risk awareness and ethical judgment',
+      'Collaborative approach and team-player mentality',
+      'Professional maturity and integrity',
+      'Genuine interest in Wells Fargo\'s culture and values',
+      'Strong work ethic balanced with good judgment',
+      'Leadership potential and initiative',
+      'Clear communication skills',
+      'Long-term career focus and commitment to growth'
     ],
     process: [
       {
         step: 1,
         title: 'Online Application',
-        description: 'Submit resume and complete application'
+        description: 'Submit application through Wells Fargo\'s careers portal including resume, transcript, and cover letter. Applications typically open in August/September for summer analyst positions. Highlight leadership experiences, customer service orientation, and any finance-related experience or coursework.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Initial conversation with recruiter'
+        title: 'Phone/Video Screen',
+        description: 'Initial conversation with recruiter or junior team member covering your background, interest in Wells Fargo, and basic fit assessment. Wells Fargo may use HireVue for some roles. Be prepared to discuss why Wells Fargo specifically and demonstrate awareness of the firm\'s values and recent developments.'
       },
       {
         step: 3,
-        title: 'Panel Interview',
-        description: '2-4 rounds with hiring managers and team members'
+        title: 'Superday',
+        description: 'Full-day interview consisting of 4-5 consecutive 30-minute interviews with Associates, VPs, Directors, and Managing Directors. Expect a balanced mix of technical questions (valuation, accounting, markets) and behavioral questions emphasizing ethics, risk awareness, teamwork, and customer focus. Wells Fargo Superdays are known for being conversational and assessing cultural alignment alongside technical skills.'
       },
       {
         step: 4,
         title: 'Background Check & Offer',
-        description: 'Final steps and offer decision'
+        description: 'Wells Fargo conducts thorough background checks given their focus on risk and compliance. Decisions typically communicated within 1-2 weeks after Superday. Offers include competitive base salary, signing bonus, and year-end bonus. San Francisco-based roles may have adjusted compensation reflecting higher cost of living.'
       }
     ],
     questions: [
-      'How would you handle an ethical dilemma?',
-      'Why Wells Fargo?',
-      'Describe your understanding of banking regulation',
-      'Tell me about a time you improved a process',
-      'How do you prioritize customer needs?'
+      'Walk me through a DCF model from start to finish',
+      'Why Wells Fargo? What attracts you to our firm specifically?',
+      'Tell me about a time you faced an ethical dilemma - how did you handle it?',
+      'How would you value a company in a cyclical industry?',
+      'Walk me through the three financial statements and how they connect',
+      'What do you know about Wells Fargo\'s transformation and focus on risk management?',
+      'Tell me about a recent Wells Fargo Securities deal that interested you',
+      'Describe a time you had to deliver difficult news or feedback to someone',
+      'What makes Wells Fargo different from JPMorgan or Goldman Sachs?',
+      'Walk me through an LBO model and explain the key value drivers',
+      'Tell me about a time you worked with a difficult team member',
+      'How do you stay informed about financial markets and business news?',
+      'What would you do if you suspected a colleague was doing something unethical?',
+      'Where do you see yourself in five years?',
+      'Tell me about a time you went above and beyond for a customer or client',
+      'What questions do you have about Wells Fargo or the role?',
+      'How would you explain enterprise value to someone without a finance background?'
     ],
     relatedCompanies: ['bank-of-america', 'jpmorgan', 'us-bank', 'pnc']
   },
   'blackrock': {
     name: 'BlackRock',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your BlackRock interview with comprehensive preparation for the world\'s largest asset manager - covering Aladdin technology, investment acumen, and the culture that manages $10+ trillion.',
     industry: 'Finance',
     headquarters: 'New York, NY',
-    description: 'BlackRock is the world\'s largest asset manager with over $10 trillion in assets under management. BlackRock interviews focus on investment knowledge, analytical skills, and cultural fit with their innovative and technology-driven approach to investing.',
+    description: 'BlackRock is the world\'s largest asset manager with over $10 trillion in assets under management, making it one of the most influential financial institutions globally. The firm operates across three main businesses: Active investing (fundamental and systematic strategies), Index investing (iShares ETFs), and Alternatives (private equity, private credit, real estate, infrastructure). BlackRock\'s proprietary Aladdin platform is the operating system that unifies its investment management process and serves 200+ external clients managing an additional $21 trillion. Recent acquisitions of Global Infrastructure Partners and HPS Investment Partners have significantly expanded alternatives capabilities. BlackRock interviews assess investment knowledge, analytical skills, and fit with a culture that values technology-enabled investing, collaboration, and long-term thinking. The firm offers excellent work-life balance for asset management while providing exposure to institutional-scale investing.',
     interviewTips: [
-      'Understand asset management and portfolio theory',
-      'Research BlackRock\'s technology platform (Aladdin)',
-      'Prepare investment ideas and market views',
-      'Show interest in sustainable investing (ESG)',
-      'Demonstrate analytical and quantitative skills'
+      'Research BlackRock\'s three main businesses (Active, Index/iShares, Alternatives) and understand how Aladdin technology supports each',
+      'Have strong market views - BlackRock wants candidates who are genuinely passionate about investing and can articulate thoughtful perspectives',
+      'For investment roles, prepare 2-3 well-researched stock pitches with clear thesis, catalysts, and risk factors',
+      'Understand Aladdin\'s role as BlackRock\'s competitive advantage - it\'s both internal infrastructure and external FinTech product',
+      'Know recent BlackRock strategic moves: GIP acquisition, HPS acquisition, ETF innovations, alternatives expansion',
+      'BlackRock values quantitative rigor - be comfortable with portfolio theory, risk metrics, and factor analysis concepts',
+      'Prepare for case studies: investment analysis, portfolio construction, or risk assessment scenarios',
+      'Understand BlackRock vs competitors: Largest AUM, Aladdin technology platform, diversified across active/passive/alternatives',
+      'Be ready to discuss why asset management over investment banking - demonstrate genuine interest in investing and markets',
+      'BlackRock emphasizes collaboration across teams - demonstrate teamwork and communication skills',
+      'For technology roles: Understand how FinTech is transforming asset management and be ready to discuss Aladdin\'s architecture',
+      'Research iShares competitive positioning vs Vanguard and State Street - know the ETF landscape',
+      'Show genuine intellectual curiosity about markets - read financial news daily and have informed opinions',
+      'Be prepared to discuss ESG investing and sustainable finance - BlackRock has taken leadership positions here'
     ],
     whatTheyLookFor: [
-      'Investment acumen',
-      'Quantitative abilities',
-      'Technology aptitude',
-      'Risk management skills',
-      'Fiduciary mindset'
+      'Genuine passion for investing and financial markets',
+      'Strong analytical and quantitative abilities',
+      'Investment acumen and market awareness',
+      'Technology aptitude and appreciation for innovation',
+      'Collaborative mindset suited to team-based investing',
+      'Clear communication of complex investment concepts',
+      'Intellectual curiosity and continuous learning orientation',
+      'Risk awareness and fiduciary mindset',
+      'Cultural fit with BlackRock\'s long-term, client-focused approach',
+      'Leadership potential and professional maturity'
     ],
     process: [
       {
         step: 1,
-        title: 'Application & Assessment',
-        description: 'Online application and potential assessment test'
+        title: 'Online Application',
+        description: 'Submit application through BlackRock\'s careers portal including resume and transcript. Some roles include online assessments testing quantitative reasoning, logical thinking, or coding skills (for technology roles). Applications typically open in August/September for the Full-Time Analyst Program. Highlight investment experience, market interest, and analytical abilities.'
       },
       {
         step: 2,
-        title: 'Phone Interview',
-        description: 'Technical and behavioral screening'
+        title: 'HireVue Video Interview',
+        description: 'Complete pre-recorded video questions assessing motivation for BlackRock, investment interest, and basic analytical thinking. Questions often include market views, interest in specific business areas, and behavioral scenarios. Practice articulating investment ideas clearly and concisely on camera.'
       },
       {
         step: 3,
-        title: 'Final Round Interviews',
-        description: '3-5 interviews including case studies'
+        title: 'Superday / Final Round',
+        description: 'Full-day interview typically consisting of 4-5 sessions with Analysts, Associates, VPs, and MDs across relevant functions. For investment roles, expect stock pitch presentations, portfolio construction discussions, and market debates. Technical depth varies by role but expect questions on valuation, risk metrics, and portfolio theory. BlackRock interviewers assess genuine passion for investing and fit with collaborative culture.'
       },
       {
         step: 4,
         title: 'Offer Decision',
-        description: 'Final review and offer'
+        description: 'Decisions typically communicated within 1-2 weeks after final round. BlackRock\'s hiring committee evaluates candidates on investment acumen, analytical skills, and cultural fit. Offers include competitive base salary, signing bonus, and performance-based year-end bonus. The Full-Time Analyst Program is a two-year rotational experience across teams.'
       }
     ],
     questions: [
-      'What\'s your investment thesis on a current market trend?',
-      'How would you build a diversified portfolio?',
-      'Why asset management over investment banking?',
-      'Explain the efficient market hypothesis',
-      'What role does technology play in investing?'
+      'Pitch me a stock - give me your investment thesis, catalysts, and key risks',
+      'Why BlackRock? Why asset management over investment banking?',
+      'How would you construct a diversified portfolio for a long-term investor?',
+      'Walk me through how you would value a company using DCF',
+      'What\'s your view on current market conditions? Where do you see opportunities?',
+      'Explain the efficient market hypothesis - do you agree with it?',
+      'How would you explain factor investing to a client unfamiliar with it?',
+      'What role does technology play in modern investing? How does Aladdin fit in?',
+      'Tell me about a time you changed your investment view based on new information',
+      'How do you think about risk in portfolio construction?',
+      'What\'s the difference between active and passive investing? When would you choose each?',
+      'Discuss a recent market event - what was your analysis and investment implication?',
+      'What makes BlackRock different from Fidelity or Vanguard?',
+      'Tell me about a time you worked on a team with differing opinions',
+      'How do you stay informed about markets and generate investment ideas?',
+      'Where do you see the asset management industry heading in 5-10 years?',
+      'What questions do you have about BlackRock or this role?'
     ],
     relatedCompanies: ['vanguard', 'fidelity', 'state-street', 'wellington']
   },
   'vanguard': {
     name: 'Vanguard',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Vanguard interview with preparation tailored to the pioneer of low-cost investing - emphasizing client-first values, investment philosophy, and the unique crew culture.',
     industry: 'Finance',
     headquarters: 'Malvern, PA',
-    description: 'Vanguard is one of the world\'s largest investment management companies known for pioneering low-cost index investing. Vanguard interviews emphasize alignment with their client-first philosophy, analytical abilities, and collaborative culture.',
+    description: 'Vanguard is the world\'s second-largest asset manager with over $8 trillion in assets under management and a revolutionary ownership structure - Vanguard is owned by its funds, which are owned by their shareholders. Founded by John Bogle, Vanguard pioneered low-cost index investing and continues to lead the industry in driving down fees. The firm\'s mutual structure means profits go back to fund shareholders through lower costs, creating genuine alignment with client interests. Vanguard employees are called "crew members" reflecting a collaborative, mission-driven culture. The interview process emphasizes alignment with Vanguard\'s client-first philosophy, intellectual honesty about investing, and the humility that comes with recognizing market efficiency. Vanguard offers excellent work-life balance and career development in a values-driven environment.',
     interviewTips: [
-      'Understand Vanguard\'s unique ownership structure',
-      'Prepare to discuss passive vs active investing',
-      'Show alignment with putting clients first',
-      'Demonstrate long-term thinking',
-      'Research their index fund innovations'
+      'Deeply understand Vanguard\'s unique mutual ownership structure - it\'s fundamental to their mission and culture',
+      'Be prepared to discuss John Bogle\'s investment philosophy and the efficient market hypothesis',
+      'Know the difference between active and passive investing and have a thoughtful view on when each makes sense',
+      'Vanguard calls employees "crew members" - demonstrate collaborative, team-first mindset over individual heroics',
+      'Emphasize client-first thinking in all your examples - Vanguard genuinely puts investors first due to ownership structure',
+      'Understand Vanguard\'s position in the asset management landscape vs BlackRock, Fidelity, Schwab',
+      'Be prepared for questions about fee compression, ETF vs mutual fund trends, and industry disruption',
+      'Vanguard values intellectual honesty - don\'t pretend you can beat the market if you believe in efficient markets',
+      'Research Vanguard\'s expansion into advice services and Personal Advisor Services offering',
+      'Demonstrate long-term thinking aligned with Vanguard\'s patient, low-turnover investment approach',
+      'For investment roles, understand factor investing, index construction, and tracking error concepts',
+      'Be ready to discuss why Vanguard over other asset managers - focus on mission and ownership structure',
+      'Vanguard emphasizes humility and continuous learning - show coachability and openness to feedback',
+      'Prepare examples demonstrating that you prioritize doing right over being right'
     ],
     whatTheyLookFor: [
-      'Client-centric values',
-      'Analytical thinking',
-      'Humility and teamwork',
-      'Long-term orientation',
-      'Investment knowledge'
+      'Genuine alignment with client-first philosophy',
+      'Intellectual honesty about investing and markets',
+      'Collaborative "crew member" mentality',
+      'Long-term thinking over short-term gains',
+      'Humility and coachability',
+      'Strong analytical and quantitative abilities',
+      'Clear communication of investment concepts',
+      'Values alignment with Vanguard\'s mission',
+      'Patience and low-ego approach',
+      'Genuine interest in helping investors succeed'
     ],
     process: [
       {
         step: 1,
         title: 'Online Application',
-        description: 'Submit resume and application'
+        description: 'Submit application through Vanguard\'s careers portal including resume and cover letter. Vanguard reviews applications carefully for values alignment, so tailor your materials to reflect client-first thinking and interest in their mission. Highlight collaborative experiences and genuine interest in investing.'
       },
       {
         step: 2,
         title: 'Phone Screen',
-        description: 'Initial conversation about background and fit'
+        description: '30-45 minute conversation with recruiter or hiring manager covering your background, interest in Vanguard specifically, and alignment with their values. Expect questions about why Vanguard, your investment philosophy, and examples of putting others\' interests first. Vanguard screens heavily for cultural fit early.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews',
-        description: '3-4 behavioral and technical interviews'
+        title: 'Onsite/Virtual Interviews',
+        description: 'Full interview day consisting of 3-5 interviews with team members and leadership. Expect a mix of behavioral questions (emphasizing client-first thinking, collaboration, humility), technical questions relevant to the role, and discussions about investment philosophy. Some roles include case studies or presentations.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Decision typically within 2 weeks'
+        title: 'Offer Decision',
+        description: 'Hiring committee reviews all feedback with strong emphasis on values alignment alongside technical qualifications. Decisions typically within 1-2 weeks. Vanguard offers competitive compensation plus excellent benefits including generous retirement contributions (reflecting their focus on helping people save).'
       }
     ],
     questions: [
-      'Why Vanguard over other asset managers?',
-      'What\'s your view on passive vs active investing?',
-      'How would you explain index funds to a client?',
-      'Describe a time you put someone else\'s needs first',
-      'What attracts you to the investment industry?'
+      'Why Vanguard? What attracts you to our ownership structure and mission?',
+      'What\'s your view on active vs passive investing? When does each make sense?',
+      'Explain Vanguard\'s ownership structure and why it matters for investors',
+      'Tell me about a time you put someone else\'s interests ahead of your own',
+      'How would you explain the benefits of low-cost investing to a new investor?',
+      'What do you think about the efficient market hypothesis?',
+      'How would you handle a client who wanted to chase a "hot" stock or fund?',
+      'Tell me about a time you had to deliver news someone didn\'t want to hear',
+      'What\'s happening in the asset management industry? Where is it headed?',
+      'How would you explain index fund investing to your grandmother?',
+      'Describe a time you worked collaboratively to achieve a goal',
+      'What differentiates Vanguard from BlackRock or Fidelity?',
+      'Tell me about a time you changed your view based on new information',
+      'How do you stay informed about markets and investing?',
+      'What role should costs play in investment decisions?',
+      'Where do you see yourself contributing to Vanguard\'s mission?',
+      'What questions do you have about Vanguard or this role?'
     ],
     relatedCompanies: ['blackrock', 'fidelity', 'schwab', 'state-street']
   },
   'schwab': {
     name: 'Charles Schwab',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Ace your Charles Schwab interview with strategies covering their challenger mindset, client advocacy, and the culture that democratized investing for everyday Americans.',
     industry: 'Finance',
     headquarters: 'Westlake, TX',
-    description: 'Charles Schwab is a leading brokerage and banking services firm focused on democratizing investing. Schwab interviews assess client service orientation, technical knowledge, and alignment with their mission to empower investors.',
+    description: 'Charles Schwab is the largest publicly traded U.S. brokerage firm with over $8 trillion in client assets, serving 34+ million accounts. The firm pioneered discount brokerage in 1975 and continues its mission to democratize investing for all Americans. Schwab\'s 2020 acquisition of TD Ameritrade created a wealth management powerhouse combining best-in-class trading platforms, banking services, and advisory offerings. The culture is rooted in "through clients\' eyes" thinking and challenging industry conventions that don\'t serve investors. Schwab relocated headquarters from San Francisco to Westlake, Texas in 2020, reflecting cost-consciousness that benefits clients. Interviews assess client service orientation, problem-solving abilities, and alignment with Schwab\'s challenger mentality. Schwab offers strong career development, excellent benefits, and a culture that genuinely prioritizes client advocacy.',
     interviewTips: [
-      'Emphasize customer service and empathy',
-      'Understand retail brokerage and wealth management',
-      'Show interest in financial technology',
-      'Prepare for scenario-based questions',
-      'Research Schwab\'s acquisition of TD Ameritrade'
+      'Understand Schwab\'s "through clients\' eyes" philosophy - it\'s central to their culture and decision-making',
+      'Research the TD Ameritrade acquisition and how integration is creating value for clients',
+      'Be prepared to discuss Schwab\'s history as a challenger brand that disrupted full-service brokers',
+      'Know Schwab\'s business segments: retail brokerage, advisor services, banking, and asset management',
+      'Demonstrate client empathy - Schwab wants people who genuinely care about helping investors',
+      'Understand how Schwab makes money (NII, asset management fees, trading) since they pioneered $0 commissions',
+      'Be ready to discuss retail investing trends: commission-free trading, fractional shares, robo-advisory',
+      'Schwab values practical problem-solving - prepare examples of helping customers through complex situations',
+      'Research Schwab Intelligent Portfolios (robo-advisor) and how it competes with Betterment, Wealthfront',
+      'Understand Schwab vs Fidelity vs Vanguard positioning in retail brokerage and wealth management',
+      'Schwab emphasizes "own your tomorrow" - show long-term thinking and personal financial responsibility',
+      'For client-facing roles: demonstrate patience explaining complex concepts simply',
+      'Schwab relocated to Texas - understand the cost-conscious culture this reflects',
+      'Be prepared for scenario-based questions about handling difficult client situations'
     ],
     whatTheyLookFor: [
-      'Client service excellence',
-      'Integrity and trust',
-      'Financial knowledge',
-      'Problem-solving skills',
-      'Team collaboration'
+      'Client-first mindset with genuine empathy',
+      'Problem-solving orientation for complex client needs',
+      'Challenger mentality questioning status quo',
+      'Strong communication and relationship skills',
+      'Financial knowledge and interest in investing',
+      'Integrity and trustworthiness',
+      'Patience explaining concepts to diverse audiences',
+      'Team collaboration and support',
+      'Continuous learning orientation',
+      'Alignment with democratizing investing mission'
     ],
     process: [
       {
         step: 1,
-        title: 'Application Submission',
-        description: 'Apply online with resume'
+        title: 'Online Application',
+        description: 'Submit application through Schwab\'s careers portal with resume. Some roles include initial assessments testing customer service aptitude, financial knowledge, or technical skills depending on the position. Highlight client service experiences and problem-solving examples.'
       },
       {
         step: 2,
         title: 'Recruiter Phone Screen',
-        description: 'Initial screening conversation'
+        description: '30-minute initial conversation covering your background, interest in Schwab, and basic fit assessment. Expect questions about why Schwab specifically, client service philosophy, and career goals. Schwab recruiters assess "through clients\' eyes" alignment early in the process.'
       },
       {
         step: 3,
-        title: 'Hiring Manager Interview',
-        description: 'Technical and behavioral interview'
+        title: 'Hiring Manager & Team Interviews',
+        description: '2-4 interviews with hiring manager and team members covering technical competencies, behavioral scenarios, and cultural fit. Expect scenario-based questions about handling client situations, explaining investment concepts, and problem-solving. Some roles include role-play exercises simulating client interactions.'
       },
       {
         step: 4,
         title: 'Final Interview & Offer',
-        description: 'Meet with additional team members'
+        description: 'Final round may include senior leadership or cross-functional partners. Background check and offer decision typically within 1-2 weeks. Schwab offers competitive compensation, strong 401(k) match, employee stock purchase plan, and excellent benefits. Many roles offer hybrid or remote flexibility.'
       }
     ],
     questions: [
-      'How would you help a client who is risk-averse?',
-      'Why Charles Schwab?',
-      'Explain different investment vehicles',
-      'Describe a time you exceeded customer expectations',
-      'What trends do you see in retail investing?'
+      'Why Charles Schwab? What attracts you to our mission?',
+      'How would you explain our business model to someone unfamiliar with brokerage?',
+      'Tell me about a time you helped someone through a complex problem',
+      'How does Schwab make money if trading is commission-free?',
+      'Describe a situation where you had to explain something complicated simply',
+      'What trends are you seeing in retail investing?',
+      'How would you handle a client upset about investment losses?',
+      'What differentiates Schwab from Fidelity or Vanguard?',
+      'Tell me about a time you challenged the status quo',
+      'How would you approach a client who wants to make a risky investment decision?',
+      'What does "through clients\' eyes" mean to you?',
+      'Describe a time you went above and beyond for a customer',
+      'How do you stay informed about financial markets and investing trends?',
+      'What would you do if a client asked you to do something against their best interest?',
+      'Tell me about the TD Ameritrade acquisition - what does it mean for clients?',
+      'Where do you see yourself in five years?',
+      'What questions do you have about Schwab or this role?'
     ],
     relatedCompanies: ['vanguard', 'fidelity', 'td-ameritrade', 'etrade']
   },
   'capital-one': {
     name: 'Capital One',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Capital One interview with comprehensive case prep, data-driven thinking, and strategies for the bank that operates like a tech company.',
     industry: 'Finance',
     headquarters: 'McLean, VA',
-    description: 'Capital One is a bank holding company specializing in credit cards, auto loans, banking, and savings accounts. Known for their technology-forward approach, Capital One interviews emphasize analytical problem-solving, data-driven thinking, and innovation.',
+    description: 'Capital One is a Fortune 100 bank holding company that pioneered data-driven decision making in financial services, famously asking "What\'s in your wallet?" The firm is known for operating like a tech company within banking, with engineers comprising a significant portion of employees and a culture of analytical rigor and experimentation. Capital One operates through three segments: Credit Cards (the #3 U.S. issuer), Consumer Banking, and Commercial Banking. The interview process is notably rigorous, featuring case interviews similar to management consulting and emphasizing quantitative problem-solving, data analysis, and product thinking. Capital One offers a unique blend of finance and tech culture with strong career development, competitive compensation, and a commitment to using data and technology to transform banking.',
     interviewTips: [
-      'Prepare for case interviews and analytical questions',
-      'Show strong quantitative and problem-solving skills',
-      'Understand their digital banking innovations',
-      'Demonstrate data analysis abilities',
-      'Research their tech culture and engineering practices'
+      'Prepare extensively for case interviews - Capital One\'s are as rigorous as top consulting firms',
+      'Practice market sizing and estimation questions ("How many ATMs in the US?")',
+      'Understand Capital One\'s data-driven culture - they pioneered using data science in consumer lending',
+      'Be ready to discuss credit risk, customer acquisition cost, and lifetime value concepts',
+      'Know Capital One\'s business segments: Credit Cards, Consumer Banking, Commercial Banking',
+      'Demonstrate product thinking - how would you improve Capital One\'s mobile app or rewards program?',
+      'Practice structured problem-solving: frameworks, hypothesis-driven analysis, clear communication',
+      'Understand why Capital One is "a tech company that happens to do banking"',
+      'Research Capital One\'s tech stack and engineering culture - they\'re major cloud adopters',
+      'Be prepared for multiple rounds of cases - "Power Day" can include 3-5 case interviews',
+      'Show quantitative comfort - Capital One values people who can work with numbers fluently',
+      'Understand credit card economics: interchange, interest income, rewards costs, charge-offs',
+      'Prepare examples demonstrating analytical thinking and data-driven decision making',
+      'Capital One values diversity of thought - don\'t be afraid to challenge assumptions or offer creative solutions'
     ],
     whatTheyLookFor: [
-      'Analytical thinking',
-      'Data-driven decision making',
-      'Innovation mindset',
-      'Problem-solving creativity',
-      'Tech-forward approach'
+      'Strong analytical and quantitative abilities',
+      'Structured problem-solving approach',
+      'Data-driven decision making mindset',
+      'Product thinking and customer focus',
+      'Intellectual curiosity and creativity',
+      'Clear communication of complex analysis',
+      'Comfort with ambiguity and iteration',
+      'Technical aptitude (coding is valued even for non-engineering roles)',
+      'Growth mindset and continuous learning',
+      'Collaborative yet independent thinking'
     ],
     process: [
       {
         step: 1,
         title: 'Online Application',
-        description: 'Submit application and resume'
+        description: 'Submit application through Capital One\'s careers portal. Many roles include an online assessment with quantitative reasoning, logical thinking, or coding challenges depending on the position. Some roles include a HireVue component with recorded video questions. Highlight analytical experiences and quantitative achievements.'
       },
       {
         step: 2,
-        title: 'Power Day',
-        description: '3-5 case and behavioral interviews'
+        title: 'Phone/Video Screen',
+        description: '30-45 minute conversation with recruiter or hiring manager, often including a mini-case or analytical question. Expect questions about your background, interest in Capital One, and basic problem-solving ability. Some roles include technical screening for data science or engineering positions.'
       },
       {
         step: 3,
-        title: 'Case Studies',
-        description: 'Business case analysis and presentation'
+        title: 'Power Day',
+        description: 'Capital One\'s famous "Power Day" consists of 3-5 back-to-back interviews including multiple case interviews, behavioral interviews, and potentially technical rounds depending on role. Cases cover market sizing, profitability analysis, product strategy, and credit risk scenarios. Expect to present your analysis and be challenged on your assumptions.'
       },
       {
         step: 4,
         title: 'Offer Decision',
-        description: 'Final review and offer'
+        description: 'Hiring committee reviews feedback holistically. Decisions typically within 1-2 weeks after Power Day. Capital One offers competitive base salary, annual bonus, equity for senior roles, and strong benefits including 401(k) match and tuition reimbursement. McLean HQ roles may involve some in-office work.'
       }
     ],
     questions: [
-      'Estimate the number of ATMs in the US',
+      'Estimate the number of credit card transactions in the US per day',
       'How would you improve Capital One\'s mobile app?',
-      'Walk me through how you\'d analyze credit risk',
-      'Why Capital One over traditional banks?',
-      'Solve this market sizing problem'
+      'Walk me through how you would analyze whether to enter a new market',
+      'A product is underperforming - how would you diagnose the issue?',
+      'How does a credit card company make money? Walk me through the economics',
+      'Estimate the market size for [product/service]',
+      'Why Capital One? What attracts you to our culture?',
+      'Tell me about a time you used data to make a decision',
+      'How would you design a new rewards program?',
+      'Walk me through how you would assess credit risk for a new customer segment',
+      'What would you do to increase customer acquisition for Capital One?',
+      'Describe a time you solved a complex analytical problem',
+      'How do you approach a problem when you don\'t have all the information?',
+      'What trends do you see in consumer banking and fintech?',
+      'Tell me about a time you changed your approach based on data',
+      'How would you prioritize features for a new product?',
+      'What questions do you have about Capital One?'
     ],
     relatedCompanies: ['jpmorgan', 'american-express', 'discover', 'synchrony']
   },
   'american-express': {
     name: 'American Express',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Ace your American Express interview with strategies for the premium brand known for exceptional service - covering customer obsession, relationship building, and the membership model.',
     industry: 'Finance',
     headquarters: 'New York, NY',
-    description: 'American Express is a global payments and travel company known for its premium charge cards and customer service excellence. Amex interviews focus on customer obsession, relationship building, and alignment with their service-oriented culture.',
+    description: 'American Express is a globally integrated payments company known for premium charge cards, exceptional customer service, and the mantra "membership has its privileges." Unlike Visa and Mastercard (which are payment networks), Amex operates a closed-loop network as both issuer and network, giving them direct customer relationships and richer data. Amex serves consumers, small businesses, and corporations through Card Services, Merchant Services, and Travel & Lifestyle Services. The company is famous for its customer obsession culture, backing members through "The Amex Promise" and maintaining the highest customer satisfaction scores in the industry. Interviews assess service orientation, relationship-building ability, and fit with a culture that genuinely believes in putting members first. Amex offers strong career development, excellent benefits, and a collaborative environment in iconic NYC headquarters.',
     interviewTips: [
-      'Emphasize customer service and relationship building',
-      'Understand the payments industry landscape',
-      'Show examples of going above and beyond',
-      'Research Amex\'s brand positioning and premium services',
-      'Demonstrate problem-solving for customer issues'
+      'Understand Amex\'s unique business model as both network and issuer (closed-loop vs Visa/Mastercard open-loop)',
+      'Internalize "backing" culture - Amex is famous for standing behind members in disputes and emergencies',
+      'Research the difference between charge cards (pay in full) and credit cards - Amex pioneered charge cards',
+      'Know Amex\'s premium positioning: higher merchant fees, higher-spending cardmembers, better rewards',
+      'Be prepared to discuss how you\'ve delivered exceptional customer experiences in your past',
+      'Understand Amex\'s three segments: Consumer Services, Commercial Services, Merchant & Network Services',
+      'Demonstrate relationship-building skills - Amex values long-term member relationships over transactions',
+      'Research Amex\'s strategy to attract younger members (Millennials, Gen Z) while maintaining premium positioning',
+      'Know major Amex products: Platinum Card, Gold Card, Blue Cash, Centurion (Black Card), Delta/Hilton co-brands',
+      'Understand the small business focus - Amex is a leading small business lender and card issuer',
+      'Be ready for scenario questions about handling difficult member situations with empathy and resolution',
+      'Research Amex\'s travel and lifestyle benefits - lounges, experiences, concierge services',
+      'Amex has "Blue Box Values" - understand their corporate values and how they guide decision-making',
+      'Show genuine interest in premium service - Amex wants people who believe in the power of great experiences'
     ],
     whatTheyLookFor: [
-      'Customer obsession',
-      'Relationship building skills',
-      'Premium service mindset',
-      'Problem-solving abilities',
-      'Brand alignment'
+      'Customer obsession and service excellence mindset',
+      'Strong relationship-building abilities',
+      'Problem-solving focused on member outcomes',
+      'Premium brand alignment and understanding',
+      'Collaborative and inclusive approach',
+      'Clear, professional communication',
+      'Integrity and trustworthiness',
+      'Growth mindset and adaptability',
+      'Genuine empathy for customers',
+      'Long-term thinking over short-term gains'
     ],
     process: [
       {
         step: 1,
         title: 'Online Application',
-        description: 'Apply through career portal'
+        description: 'Submit application through American Express careers portal with resume. Some roles include online assessments testing customer service aptitude, problem-solving, or role-specific skills. Tailor your resume to highlight customer service excellence and relationship-building experiences.'
       },
       {
         step: 2,
         title: 'Phone Screen',
-        description: 'Recruiter conversation about background'
+        description: '30-45 minute conversation with recruiter covering your background, interest in American Express, and initial fit assessment. Expect questions about why Amex specifically, examples of customer service excellence, and career goals. Recruiters assess culture fit and "backing" mindset early.'
       },
       {
         step: 3,
         title: 'Interview Rounds',
-        description: '2-4 interviews with team members'
+        description: '2-4 interviews with hiring manager, team members, and potentially cross-functional partners. Expect behavioral questions about customer situations, problem-solving scenarios, and culture fit discussions. Some roles include case studies or presentations. Interviews often focus on how you\'ve gone above and beyond for customers.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Background check and offer decision'
+        title: 'Final Review & Offer',
+        description: 'Hiring committee reviews all feedback with strong emphasis on customer obsession and culture fit. Background check required. Decisions typically within 1-2 weeks. Amex offers competitive compensation, excellent benefits, generous 401(k), employee card program, and strong career development. NYC headquarters offers iconic office experience.'
       }
     ],
     questions: [
-      'Why American Express?',
-      'How would you handle a dissatisfied customer?',
-      'What differentiates Amex from Visa and Mastercard?',
-      'Describe a time you exceeded expectations',
-      'How would you attract millennials to our platform?'
+      'Why American Express? What attracts you to our brand and culture?',
+      'How is Amex\'s business model different from Visa or Mastercard?',
+      'Tell me about a time you went above and beyond for a customer',
+      'How would you handle a cardmember upset about a declined transaction?',
+      'What does "backing our members" mean to you?',
+      'How would you attract millennials to American Express products?',
+      'Describe a situation where you turned a dissatisfied customer into a loyal one',
+      'What makes premium service different from good service?',
+      'Tell me about a time you built a strong relationship through difficult circumstances',
+      'How do you balance company policies with customer needs?',
+      'What trends do you see in payments and how might they affect Amex?',
+      'Describe a time you showed empathy in a professional situation',
+      'How would you explain the value of the Platinum Card to a skeptical prospect?',
+      'Tell me about a time you collaborated with others to solve a customer problem',
+      'What does "membership has its privileges" mean to you?',
+      'Where do you see yourself in five years?',
+      'What questions do you have about American Express?'
     ],
     relatedCompanies: ['visa', 'mastercard', 'capital-one', 'discover']
   },
   'visa': {
     name: 'Visa',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Visa interview with deep payments industry knowledge, global perspective, and strategies for the network that processes $14+ trillion annually.',
     industry: 'Finance',
     headquarters: 'San Francisco, CA',
-    description: 'Visa is a global payments technology company that enables electronic payments around the world. Visa interviews assess technical knowledge of payments, innovation mindset, and ability to think globally about financial technology.',
+    description: 'Visa is the world\'s largest payment network, processing over $14 trillion in transactions annually across 200+ countries. Unlike banks that issue cards, Visa operates as an open-loop network connecting issuers, acquirers, and merchants - earning revenue from transaction fees rather than interest income. Visa\'s mission to connect the world through digital payments drives innovation in contactless, e-commerce, and emerging payment technologies. The company employs 26,000+ people globally with engineering hubs in San Francisco, Austin, Bangalore, Singapore, and London. Interviews assess payments industry knowledge, technical aptitude, global mindset, and ability to think strategically about financial technology. Visa offers a unique blend of financial services and technology culture with strong compensation, excellent benefits, and exposure to the infrastructure powering global commerce.',
     interviewTips: [
-      'Understand the payments ecosystem deeply',
-      'Show interest in fintech innovation',
-      'Prepare for technical and product questions',
-      'Research Visa\'s global network and technology',
-      'Demonstrate cross-cultural awareness'
+      'Understand the four-party model: issuer, acquirer, merchant, cardholder - and where Visa fits',
+      'Know how Visa makes money: service fees (based on payment volume), data processing fees (per transaction), and international fees',
+      'Research the difference between Visa\'s open-loop network and Amex\'s closed-loop model',
+      'Be prepared to discuss payment trends: contactless, mobile wallets, buy now pay later, crypto/blockchain',
+      'Understand Visa\'s competitive landscape: Mastercard (primary), Amex, PayPal, newer fintechs, regional networks',
+      'Know Visa\'s recent strategic moves: acquisitions (Plaid attempt, Currencycloud), fintech partnerships',
+      'Demonstrate global perspective - Visa\'s growth is increasingly in international and emerging markets',
+      'Understand authorization, clearing, and settlement - the core processes Visa enables',
+      'Research Visa Direct (push payments) and B2B Connect - key growth areas beyond traditional card payments',
+      'Be ready to discuss security and fraud - Visa invests heavily in AI and analytics to protect the network',
+      'Know interchange dynamics and regulatory pressures (Durbin Amendment, EU regulations)',
+      'For technology roles: understand real-time processing at massive scale (65,000+ messages per second)',
+      'Visa values innovation - be prepared to discuss how payments might evolve in the next 5-10 years',
+      'Demonstrate strategic thinking - Visa operates at ecosystem level, not just product level'
     ],
     whatTheyLookFor: [
-      'Payments knowledge',
-      'Innovation mindset',
-      'Global perspective',
-      'Technical aptitude',
-      'Strategic thinking'
+      'Deep interest in payments and financial technology',
+      'Global mindset and cross-cultural awareness',
+      'Strategic thinking at ecosystem level',
+      'Technical aptitude and innovation orientation',
+      'Strong analytical and problem-solving abilities',
+      'Clear communication of complex concepts',
+      'Collaborative approach across diverse teams',
+      'Adaptability in rapidly evolving industry',
+      'Customer and partner orientation',
+      'Integrity in sensitive financial infrastructure role'
     ],
     process: [
       {
         step: 1,
-        title: 'Application & Screen',
-        description: 'Online application and initial screening'
+        title: 'Online Application',
+        description: 'Submit application through Visa\'s careers portal with resume. Some roles include online assessments testing analytical ability, technical skills, or role-specific competencies. Highlight payments industry knowledge, global experience, or technology background depending on role.'
       },
       {
         step: 2,
-        title: 'Phone Interview',
-        description: 'Technical and behavioral questions'
+        title: 'Recruiter Phone Screen',
+        description: '30-45 minute initial conversation covering your background, interest in Visa and the payments industry, and basic fit assessment. Expect questions about why payments, why Visa, and your understanding of how the payment ecosystem works. Recruiters look for genuine industry interest.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews',
-        description: '3-5 rounds with team members'
+        title: 'Hiring Manager & Team Interviews',
+        description: '3-5 interviews with hiring manager, team members, and cross-functional partners. Expect a mix of technical questions (payments knowledge, role-specific skills), strategic questions (industry trends, product thinking), and behavioral questions. Some roles include case studies or presentations on payment-related challenges.'
       },
       {
         step: 4,
-        title: 'Final Review',
-        description: 'Team decision and offer'
+        title: 'Final Review & Offer',
+        description: 'Hiring committee reviews all feedback. Background check required given sensitive financial infrastructure role. Decisions typically within 1-2 weeks. Visa offers highly competitive compensation, strong equity grants, excellent benefits, and San Francisco headquarters with hybrid flexibility. International mobility opportunities available.'
       }
     ],
     questions: [
-      'How does Visa make money?',
-      'What trends are shaping the payments industry?',
-      'How would you approach expanding into a new market?',
-      'Explain the difference between issuer and acquirer',
-      'Why Visa over competitors?'
+      'How does Visa make money? Explain the four-party model',
+      'Why Visa? What attracts you to the payments industry?',
+      'What\'s the difference between Visa and American Express business models?',
+      'What trends do you see shaping the future of payments?',
+      'How would you approach expanding Visa into a market with low card penetration?',
+      'Explain the difference between a transaction\'s authorization and settlement',
+      'What do you think about buy now pay later? Is it a threat to traditional cards?',
+      'How would you evaluate a potential fintech acquisition for Visa?',
+      'What role should Visa play in cryptocurrency and blockchain?',
+      'Describe a time you worked on a project with global stakeholders',
+      'How would you improve the checkout experience for e-commerce?',
+      'What are the biggest challenges facing the payments industry?',
+      'How do you think about balancing security and user experience?',
+      'Tell me about a time you solved a complex strategic problem',
+      'How would you position Visa against a new fintech competitor?',
+      'Where do you see payments in 10 years?',
+      'What questions do you have about Visa?'
     ],
     relatedCompanies: ['mastercard', 'american-express', 'paypal', 'stripe']
   },
