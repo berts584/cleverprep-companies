@@ -21913,7 +21913,1445 @@ export const rolePageContent = {
         { companyName: "D.E. Shaw", companySlug: "de-shaw", industry: "Finance" }
       ]
     }
-  }
+  },
+  'vanguard': {
+    'financial-advisor': {
+      roleDescription: "Financial Advisors in Vanguard's Personal Advisor Services (PAS) division provide comprehensive financial planning and investment advice to clients seeking to achieve their long-term financial goals. As a fiduciary with CFP designation, you'll embody Vanguard's client-first philosophy by providing unbiased advice on asset allocation, tax optimization, retirement planning, estate planning, and goals-based investing. Vanguard's unique mutual ownership structure means advisors truly work for clients, not shareholders—a distinction that shapes every recommendation. The role combines technical financial planning expertise with relationship building, helping clients navigate major life transitions and investment decisions. Advisors leverage Vanguard's low-cost investment products, proprietary planning tools, and research to deliver advice that puts clients' interests first. The collaborative culture emphasizes continuous learning, with access to Vanguard's Investment Strategy Group insights and ongoing professional development. Career progression leads to Senior Advisor roles with higher-net-worth clients or leadership positions within the Advice organization.",
+      responsibilities: [
+        "Provide comprehensive financial planning advice as a fiduciary to PAS clients",
+        "Develop customized investment strategies aligned with client goals, risk tolerance, and time horizons",
+        "Deliver guidance on asset allocation, tax optimization, retirement planning, and estate planning",
+        "Conduct regular portfolio reviews and rebalancing recommendations based on changing circumstances",
+        "Build long-term client relationships through proactive outreach and exceptional service",
+        "Educate clients on investment principles consistent with Vanguard's low-cost, diversified philosophy",
+        "Collaborate with specialists for complex planning needs including estate, tax, and insurance",
+        "Maintain CFP certification and stay current on financial planning developments",
+        "Document advice and ensure compliance with regulatory requirements"
+      ],
+      growthOpportunities: [
+        "Progression from Advisor to Senior Advisor managing higher-net-worth relationships",
+        "Path to leadership roles managing advisor teams within Personal Advisor Services",
+        "Opportunity to specialize in complex planning areas (estate, tax, retirement)",
+        "Access to Vanguard's Investment Strategy Group insights and research",
+        "Continuous CFP education and professional development support",
+        "Potential to move into investment roles, product development, or client experience design",
+        "Leadership development programs preparing high performers for management",
+        "Hybrid work flexibility supporting work-life balance"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Application & Phone Screen",
+          description: "Submit application highlighting CFP certification and advisory experience. 30-minute phone screen with recruiter covering background, interest in Vanguard's mission, and client service philosophy. Strong emphasis on 'through clients' eyes' alignment.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Behavioral Interviews",
+          description: "Two 1-hour behavioral interviews with PAS leaders focused on client service experiences, financial planning expertise, and cultural fit. Use STAR format to demonstrate how you've helped clients achieve goals and delivered exceptional service.",
+          duration: "2 hours total"
+        },
+        {
+          step: 3,
+          title: "Technical Assessment",
+          description: "Financial planning case study or scenario demonstrating your approach to comprehensive advice. May include client role-play assessing communication skills and ability to explain complex concepts simply. Evaluate alignment with Vanguard's investment philosophy.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 4,
+          title: "Final Interview & Offer",
+          description: "Final conversation with senior PAS leadership. Discussion of career goals, fit with team culture, and Vanguard's mission. Background check and CFP verification. Offers typically within 1-2 weeks with comprehensive benefits package."
+        }
+      ],
+      technicalQuestions: [
+        "How would you approach creating a financial plan for a client nearing retirement?",
+        "Explain your philosophy on asset allocation. How does risk tolerance inform your recommendations?",
+        "A client wants to chase a hot stock. How would you counsel them?",
+        "Walk me through tax-loss harvesting. When is it appropriate?",
+        "How do you think about the role of costs in investment returns?",
+        "Explain the efficient market hypothesis. How does it inform Vanguard's approach?",
+        "What's your view on active vs. passive investing? When might each be appropriate?",
+        "How would you help a client understand sequence-of-returns risk in retirement?",
+        "Describe your approach to rebalancing a portfolio.",
+        "How do you factor Social Security optimization into retirement planning?",
+        "What role should international diversification play in a portfolio?",
+        "How would you explain the benefits of index funds to a skeptical client?",
+        "Walk me through Roth conversion analysis. What factors do you consider?",
+        "How do you approach estate planning discussions with clients?",
+        "What's your framework for determining appropriate equity allocation?",
+        "How has Vanguard's ownership structure influenced the industry?"
+      ],
+      behavioralQuestions: [
+        "Why Vanguard? What attracts you to our ownership structure and mission?",
+        "Tell me about a time you helped a client through a difficult financial decision.",
+        "Describe a situation where you had to deliver advice a client didn't want to hear.",
+        "How have you demonstrated putting clients' interests first in your career?",
+        "Tell me about building long-term relationships with clients.",
+        "Describe a time you explained a complex financial concept simply.",
+        "How do you stay current on financial planning developments?",
+        "Tell me about working with a client whose goals changed significantly.",
+        "Describe a time you went above and beyond for a client.",
+        "How do you handle a client who wants to make a decision you disagree with?",
+        "Tell me about collaborating with specialists to serve a client's needs.",
+        "What does 'through clients' eyes' mean to you?"
+      ],
+      whatTheyLookFor: [
+        "CFP certification and commitment to fiduciary standard",
+        "Genuine client-first orientation aligned with Vanguard's mission",
+        "Strong financial planning knowledge across comprehensive planning areas",
+        "Excellent communication skills explaining complex concepts simply",
+        "Relationship-building ability for long-term client engagement",
+        "Patience and empathy in client interactions",
+        "Alignment with Vanguard's low-cost, diversified investment philosophy",
+        "Collaborative 'crew member' mindset",
+        "Intellectual honesty about investment expectations",
+        "Long-term career interest in financial advice"
+      ],
+      interviewTips: [
+        "Deeply understand Vanguard's mutual ownership structure and why it matters",
+        "Prepare examples showing client-first decision making in your career",
+        "Be ready to discuss John Bogle's investment philosophy and legacy",
+        "Have a thoughtful view on active vs. passive investing",
+        "Prepare to role-play client scenarios demonstrating your communication style",
+        "Research Personal Advisor Services offering and how it differs from competitors",
+        "Show genuine passion for helping clients achieve financial goals",
+        "Demonstrate humility about investment outcomes—don't promise to beat the market",
+        "Prepare examples of explaining complex concepts to non-financial audiences",
+        "Research Vanguard's approach to goals-based planning",
+        "Be ready to discuss how costs impact long-term investment returns",
+        "Show collaborative mindset—Vanguard values teamwork"
+      ],
+      salary: {
+        min: 80000,
+        max: 120000
+      },
+      compensation: [
+        "Base salary: $80-120K depending on experience and credentials",
+        "Annual performance bonus based on client satisfaction and retention metrics",
+        "Total compensation typically $100-150K for experienced advisors",
+        "No sales commissions—salary-based model aligned with client interests",
+        "Comprehensive health, dental, and vision insurance",
+        "Industry-leading retirement benefits including generous 401(k) match",
+        "CFP continuing education and professional development support",
+        "Access to Vanguard funds at reduced expense ratios",
+        "Tuition reimbursement for advanced degrees",
+        "Hybrid work flexibility"
+      ],
+      dayInLife: {
+        overview: "Financial Advisors at Vanguard work in a supportive, client-focused environment with excellent work-life balance compared to commission-based advisory roles. Typical hours are 8:30am-5:30pm with flexibility for client scheduling. The role balances proactive client outreach with inbound service requests, supported by Vanguard's technology and planning tools. The collaborative culture emphasizes learning and continuous improvement rather than sales pressure.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Preparation",
+            description: "Review client portfolio alerts, market updates, and scheduled appointments. Check Vanguard's Investment Strategy Group commentary for relevant client communications."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Client Meeting",
+            description: "Scheduled review with client approaching retirement. Discuss portfolio allocation, Social Security timing, and income strategy. Update financial plan based on new information."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Follow-up & Documentation",
+            description: "Document meeting notes and action items. Send follow-up summary to client. Queue rebalancing trades if appropriate."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Proactive Outreach",
+            description: "Call clients due for annual reviews or experiencing life events. Proactive service builds long-term relationships."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Learning",
+            description: "Team lunch or learning session. May include Investment Strategy Group updates or financial planning topic discussion."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Financial Plan Development",
+            description: "Build comprehensive financial plan for new client using Vanguard's planning tools. Analyze scenarios and develop recommendations."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Client Call",
+            description: "Phone meeting with client concerned about market volatility. Provide perspective on long-term investing and Vanguard's philosophy."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Team Collaboration",
+            description: "Consult with specialist on complex estate planning question. Prepare recommendation for client meeting."
+          },
+          {
+            time: "5:00 PM",
+            activity: "End of Day",
+            description: "Complete documentation, prepare for tomorrow's appointments, respond to client emails. Head home around 5:30pm."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Charles Schwab", companySlug: "schwab", industry: "Finance" },
+        { companyName: "Edward Jones", companySlug: "edward-jones", industry: "Finance" },
+        { companyName: "Merrill Lynch", companySlug: "merrill-lynch", industry: "Finance" }
+      ]
+    },
+    'client-relationship-associate': {
+      roleDescription: "Client Relationship Associates at Vanguard serve as the front-line crew members connecting with individual investors to assist with account inquiries, transactions, and investment guidance. This role is the most common entry point into Vanguard's crew, providing comprehensive training including fully-paid FINRA licensing (Series 7 and 63) and a foundation for diverse career paths in financial services. Associates embody Vanguard's 'through clients' eyes' philosophy, helping investors navigate their accounts while educating them on Vanguard's low-cost, long-term investment approach. The role combines customer service excellence with financial knowledge, supporting clients via phone and digital channels. Vanguard's mutual ownership structure means associates genuinely work for client interests, creating meaningful work helping investors achieve financial goals. Career progression leads to specialized roles in advice, sales, operations, or other areas across Vanguard's platform.",
+      responsibilities: [
+        "Serve as Vanguard's voice and advocate, assisting clients with account inquiries and transactions",
+        "Provide education on Vanguard products, services, and investment principles",
+        "Process account changes, trades, and service requests accurately and efficiently",
+        "Identify opportunities to deepen client relationships and refer to appropriate specialists",
+        "Navigate multiple systems to research and resolve client questions",
+        "Document client interactions and ensure compliance with regulatory requirements",
+        "Meet quality and productivity standards while delivering exceptional client experience",
+        "Participate in ongoing training and professional development",
+        "Collaborate with team members to share knowledge and support client needs"
+      ],
+      growthOpportunities: [
+        "Fully-paid training program including FINRA Series 7 and 63 licensing",
+        "Foundation role with pathways to Financial Advisor, Sales, Operations, or other functions",
+        "Clear progression within Client Services to senior and specialist roles",
+        "Exposure to investment concepts and Vanguard's comprehensive product offering",
+        "Development of transferable skills in client service, finance, and communication",
+        "Tuition reimbursement supporting continued education and certifications",
+        "Internal mobility across Vanguard's diverse business units",
+        "Hybrid work flexibility after training completion"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Application & Assessment",
+          description: "Submit application through Vanguard careers portal. Complete online assessment testing customer service aptitude, problem-solving, and basic numerical skills. Assessment evaluates client-first mindset and communication ability.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Screen",
+          description: "30-minute conversation with recruiter covering background, interest in Vanguard, and customer service experience. Expect questions about why Vanguard and examples of helping customers. Assessment of 'through clients' eyes' alignment.",
+          duration: "30 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Interview",
+          description: "1-2 interviews with hiring manager and team members. Behavioral questions using STAR format about customer service experiences, problem-solving, and teamwork. May include role-play scenario handling simulated client call.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 4,
+          title: "Offer & Onboarding",
+          description: "Background check and offer decision typically within 1-2 weeks. Comprehensive paid training program including FINRA exam preparation. Training cohort model builds relationships with fellow new crew members."
+        }
+      ],
+      technicalQuestions: [
+        "What do you know about Vanguard and what makes us different?",
+        "Explain the difference between a mutual fund and an ETF.",
+        "What's the difference between a traditional IRA and Roth IRA?",
+        "How would you explain the importance of diversification to a new investor?",
+        "What do you understand about Vanguard's ownership structure?",
+        "Why do investment costs matter for long-term returns?",
+        "What's the difference between stocks and bonds?",
+        "How would you explain market volatility to a concerned client?",
+        "What types of accounts does Vanguard offer?",
+        "What do you know about index investing?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you provided excellent customer service.",
+        "Describe a situation where you had to explain something complex simply.",
+        "How have you handled a frustrated or upset customer?",
+        "Tell me about working in a team to achieve a goal.",
+        "Describe a time you had to learn something new quickly.",
+        "How do you prioritize when handling multiple requests?",
+        "Tell me about receiving feedback and how you responded.",
+        "Describe a time you went above and beyond for someone.",
+        "How do you stay positive during repetitive work?",
+        "Why are you interested in financial services?",
+        "What does good customer service mean to you?",
+        "Tell me about a time you made a mistake. How did you handle it?"
+      ],
+      whatTheyLookFor: [
+        "Strong customer service orientation and communication skills",
+        "Genuine interest in helping people with their financial goals",
+        "Ability to learn and apply new information quickly",
+        "Problem-solving skills and attention to detail",
+        "Patience and empathy in client interactions",
+        "Team player with collaborative mindset",
+        "Reliability and strong work ethic",
+        "Interest in financial services and investing",
+        "Adaptability and positive attitude",
+        "Alignment with Vanguard's client-first mission"
+      ],
+      interviewTips: [
+        "Research Vanguard's ownership structure and why it matters for clients",
+        "Prepare STAR-format examples of excellent customer service",
+        "Understand basic investment concepts (stocks, bonds, mutual funds, ETFs)",
+        "Be ready to explain why you want to work in financial services",
+        "Practice explaining complex concepts in simple terms",
+        "Show genuine interest in helping people achieve financial goals",
+        "Demonstrate patience and empathy through your examples",
+        "Research Vanguard's founder John Bogle and company history",
+        "Prepare questions about training, career paths, and team culture",
+        "Be yourself—Vanguard values authenticity and humility",
+        "Show willingness to learn—no prior finance experience required",
+        "Demonstrate reliability and strong work ethic"
+      ],
+      salary: {
+        min: 48000,
+        max: 52000
+      },
+      compensation: [
+        "Base salary: $48,750-52,000 depending on licenses held",
+        "One-time licensing bonus up to $12,500 upon passing FINRA exams",
+        "Total first-year compensation: $65,900-69,400 with bonuses",
+        "Fully-paid FINRA licensing training (Series 7, 63)",
+        "Comprehensive health, dental, and vision insurance",
+        "Industry-leading 401(k) with generous company match",
+        "Pension plan (increasingly rare in industry)",
+        "Tuition reimbursement up to $10,000 annually",
+        "Access to Vanguard funds at reduced expense ratios",
+        "Paid time off and company holidays"
+      ],
+      dayInLife: {
+        overview: "Client Relationship Associates work in a supportive call center environment with structured schedules and excellent work-life balance. Typical shifts are 8-hour days within Vanguard's service hours. The role involves handling inbound client calls with support from team leads and extensive resources. Vanguard invests heavily in training and provides clear performance metrics. The collaborative culture emphasizes continuous learning and career development.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Shift Start",
+            description: "Log in to phone system and review any overnight communications or system updates. Check personal metrics dashboard."
+          },
+          {
+            time: "8:15 AM",
+            activity: "Team Huddle",
+            description: "Brief team meeting covering daily focus areas, market updates relevant to client calls, and knowledge sharing."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Client Calls",
+            description: "Begin taking inbound calls. Help client with account question, process address change, explain statement."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Complex Inquiry",
+            description: "Handle call about IRA rollover. Research requirements, explain process, set client expectations. Document interaction."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Short Break",
+            description: "Scheduled break to rest and recharge between calls."
+          },
+          {
+            time: "10:45 AM",
+            activity: "Continued Calls",
+            description: "Assist nervous client concerned about market drop. Provide reassurance about long-term investing philosophy."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "30-60 minute lunch break. May use time for optional training modules or team social activities."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Afternoon Calls",
+            description: "Afternoon call volume. Help client set up automatic investments, explain fund options, process beneficiary update."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Training Time",
+            description: "Scheduled development time for product training, certification study, or skill building."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Final Call Block",
+            description: "Complete final calls of the day. Ensure all documentation is complete and follow-ups are scheduled."
+          },
+          {
+            time: "4:45 PM",
+            activity: "Wrap Up",
+            description: "Complete any pending documentation, log off systems, and end shift. Head home with clear boundaries—no after-hours work expected."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Charles Schwab", companySlug: "schwab", industry: "Finance" },
+        { companyName: "T. Rowe Price", companySlug: "t-rowe-price", industry: "Finance" },
+        { companyName: "TIAA", companySlug: "tiaa", industry: "Finance" }
+      ]
+    },
+    'investment-analyst': {
+      roleDescription: "Investment Analysts at Vanguard conduct research and analysis supporting the firm's investment management activities across indexed and active strategies managing over $8 trillion in assets. Working within Vanguard's Investment Management Group (IMG), you'll contribute to portfolio management, trading, and investment analytics that serve over 30 million investors. The role offers meaningful responsibility early, with analysts owning research projects and contributing directly to investment decisions. Vanguard's unique structure as a client-owned firm means analysts focus on delivering value to investors rather than generating profits for external shareholders. The collaborative culture emphasizes mentorship, with opportunities to rotate across functions including equity, fixed income, and quantitative strategies. Analysts develop expertise in financial modeling, market analysis, and portfolio construction while building relationships across Vanguard's integrated platform. Career progression leads to senior analyst, portfolio manager, or leadership roles within the investment organization.",
+      responsibilities: [
+        "Conduct fundamental research on companies, sectors, and investment themes supporting portfolio management",
+        "Build and maintain financial models for valuation, scenario analysis, and investment recommendations",
+        "Analyze market trends, economic data, and competitive dynamics to inform investment decisions",
+        "Prepare investment memoranda and present findings to Portfolio Managers and investment committees",
+        "Monitor existing portfolio holdings and communicate material developments",
+        "Support portfolio construction and rebalancing activities for indexed and active strategies",
+        "Collaborate with quantitative teams on factor analysis and risk assessment",
+        "Participate in company management meetings and earnings call analysis",
+        "Stay current on market developments and their implications for Vanguard's strategies"
+      ],
+      growthOpportunities: [
+        "Clear progression from Analyst to Senior Analyst to Portfolio Manager track",
+        "Rotation opportunities across equity, fixed income, and multi-asset strategies",
+        "Development of specialized expertise in sectors, asset classes, or quantitative methods",
+        "Access to Vanguard's research resources and Investment Strategy Group insights",
+        "Path to portfolio management for analysts demonstrating strong investment acumen",
+        "CFA sponsorship and support for professional certifications",
+        "International exposure through Vanguard's global investment offices",
+        "Leadership development preparing high performers for management roles"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Application & Initial Screen",
+          description: "Submit application with resume and cover letter demonstrating investment interest and analytical background. Phone screen with recruiter covering background, motivation for investment management, and interest in Vanguard's mission.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Interview",
+          description: "Interview with investment team member testing financial knowledge, modeling skills, and analytical thinking. Expect questions on valuation, accounting, and markets. May include discussion of a stock or investment idea.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday/Final Rounds",
+          description: "Multiple interviews with Portfolio Managers, Senior Analysts, and leadership. Stock pitch presentation, technical deep-dives, and behavioral assessment. Evaluate investment process, communication skills, and cultural fit with Vanguard's crew culture.",
+          duration: "4-6 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Committee reviews candidate on technical ability, investment acumen, and values alignment. Background check required. Offers typically within 1-2 weeks with details on team placement and development program."
+        }
+      ],
+      technicalQuestions: [
+        "Pitch me a stock. What's your investment thesis and key risks?",
+        "Walk me through a DCF model. What are the critical assumptions?",
+        "How do you think about valuation? What methods would you use?",
+        "Explain how the three financial statements connect.",
+        "What's your view on active vs. passive investing?",
+        "How do interest rates affect bond prices and equity valuations?",
+        "Explain tracking error and why it matters for index funds.",
+        "How would you analyze a company's competitive moat?",
+        "What metrics matter most for valuing a [sector-specific] company?",
+        "How do you think about risk in portfolio construction?",
+        "Walk me through WACC calculation and its components.",
+        "How would you evaluate an index fund's tracking efficiency?",
+        "What's the difference between growth and value investing?",
+        "How do factor exposures affect portfolio returns?",
+        "What do you think about ESG investing?",
+        "How has Vanguard's ownership structure influenced the industry?"
+      ],
+      behavioralQuestions: [
+        "Why investment management? Why Vanguard specifically?",
+        "Tell me about an investment idea you've researched.",
+        "Describe a time you changed your view based on new information.",
+        "How do you stay informed about markets?",
+        "Tell me about working in a team on an analytical project.",
+        "Describe explaining complex analysis to someone without finance background.",
+        "What does Vanguard's ownership structure mean for how we invest?",
+        "Tell me about receiving critical feedback. How did you respond?",
+        "Describe a mistake you made in analysis. What did you learn?",
+        "How do you approach learning about a new industry?",
+        "What qualities make someone successful in investment research?",
+        "What does 'through clients' eyes' mean for investment decisions?"
+      ],
+      whatTheyLookFor: [
+        "Genuine passion for investing and financial markets",
+        "Strong analytical and quantitative foundation",
+        "Intellectual honesty about investment uncertainty",
+        "Clear thinking and structured problem-solving",
+        "Strong communication skills—written and verbal",
+        "Alignment with Vanguard's client-first, low-cost philosophy",
+        "Collaborative 'crew member' mindset",
+        "Humility and coachability",
+        "Attention to detail in financial analysis",
+        "Long-term orientation matching Vanguard's patient approach"
+      ],
+      interviewTips: [
+        "Prepare 2-3 well-researched stock pitches with clear thesis and risks",
+        "Master DCF and comparable company valuation methodologies",
+        "Understand Vanguard's investment philosophy and John Bogle's legacy",
+        "Have a thoughtful view on active vs. passive investing",
+        "Research Vanguard's active and index strategies",
+        "Know current market conditions and have informed views",
+        "Prepare examples demonstrating analytical rigor and process",
+        "Show intellectual honesty—acknowledge what you don't know",
+        "Demonstrate collaborative mindset—Vanguard values crew culture",
+        "Prepare questions about mentorship, rotations, and career development",
+        "Be ready to discuss how costs impact investment returns",
+        "Show passion for markets—read widely, follow companies"
+      ],
+      salary: {
+        min: 85000,
+        max: 120000
+      },
+      compensation: [
+        "Base salary: $85-120K depending on experience and credentials",
+        "Annual performance bonus: $15-40K based on individual and firm performance",
+        "Total compensation typically $100-160K for analysts",
+        "CFA exam sponsorship and study support",
+        "Comprehensive health, dental, and vision insurance",
+        "Industry-leading retirement benefits including 401(k) match and pension",
+        "Access to Vanguard funds at reduced expense ratios",
+        "Tuition reimbursement for advanced degrees",
+        "Professional development budget",
+        "Work-life balance superior to sell-side or hedge fund roles"
+      ],
+      dayInLife: {
+        overview: "Investment Analysts at Vanguard work in intellectually stimulating environment with better work-life balance than many investment roles. Typical hours are 8:00am-6:00pm with flexibility. The role combines independent research with collaborative team discussions. Vanguard's crew culture emphasizes mentorship and development rather than individual competition. The mutual ownership structure creates focus on client outcomes over short-term performance pressure.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Review",
+            description: "Review overnight market developments, portfolio positions, and news on coverage universe. Check economic data releases."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Investment Team Meeting",
+            description: "Daily meeting with Portfolio Managers and analysts. Discuss market developments, share ideas, debate investment views."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Research Deep-Dive",
+            description: "Fundamental research on company in coverage universe. Analyze quarterly results, update model, assess investment thesis."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Management Meeting",
+            description: "Call with company management team discussing strategy, industry trends, and financial outlook."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch with team or investment speaker. Collaborative culture includes learning opportunities."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Model Update",
+            description: "Update financial model based on morning research. Run scenario analysis, refine valuation."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Portfolio Review",
+            description: "Meeting with Portfolio Manager reviewing sector positioning. Present research findings and discuss portfolio implications."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Writing & Documentation",
+            description: "Draft investment memo summarizing research findings and recommendation. Prepare for upcoming presentations."
+          },
+          {
+            time: "5:30 PM",
+            activity: "End of Day",
+            description: "Review market close, check portfolio positions, prepare for tomorrow. Head home around 6pm on typical days."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "BlackRock", companySlug: "blackrock", industry: "Finance" },
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "T. Rowe Price", companySlug: "t-rowe-price", industry: "Finance" },
+        { companyName: "Wellington", companySlug: "wellington", industry: "Finance" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Vanguard apply advanced analytics, machine learning, and statistical modeling to transform how the world's second-largest asset manager serves over 30 million investors. Working across Investment Management, Client Experience, Operations, and Risk functions, you'll develop models that optimize portfolios, personalize client interactions, detect fraud, and improve operational efficiency. Vanguard's massive data assets—spanning decades of market data, client behavior, and operational metrics—provide unique opportunities for impactful analysis. The firm's commitment to data-driven decision making means Data Scientists directly influence strategy and client outcomes. Projects range from forecasting models supporting investment teams to ML algorithms improving client digital experience. The collaborative culture emphasizes innovation balanced with Vanguard's conservative, client-first values. Career progression leads to senior individual contributor or management roles within Vanguard's growing analytics organization.",
+      responsibilities: [
+        "Develop machine learning models and statistical analyses solving complex business problems",
+        "Apply advanced analytics to investment research, client experience, risk management, and operations",
+        "Build forecasting models, recommendation systems, and optimization algorithms",
+        "Work with large datasets to extract insights and build predictive capabilities",
+        "Collaborate with business partners to translate needs into analytical solutions",
+        "Present findings and recommendations to technical and non-technical stakeholders",
+        "Ensure model governance, validation, and documentation meet regulatory standards",
+        "Stay current on ML/AI developments and evaluate applicability to Vanguard's business",
+        "Mentor junior data scientists and contribute to team knowledge sharing"
+      ],
+      growthOpportunities: [
+        "Career paths in both individual contributor (Principal Data Scientist) and management tracks",
+        "Exposure to diverse problem domains: investments, client experience, operations, risk",
+        "Opportunity to work with massive, unique datasets spanning decades",
+        "Access to modern technology stack including cloud platforms and ML tools",
+        "Professional development including conference attendance and certification support",
+        "Innovation time for exploring new techniques and technologies",
+        "Path to leadership roles in Vanguard's expanding analytics organization",
+        "Work-life balance supporting sustainable long-term career"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Application & Phone Screen",
+          description: "Submit application highlighting ML/analytics experience and relevant projects. Phone screen with recruiter covering background, technical skills, and interest in Vanguard. Initial assessment of analytical capabilities and cultural fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Assessment",
+          description: "Take-home data science project or coding assessment. Typically involves analyzing a dataset, building a model, and presenting findings. Given 5-7 days to complete. Evaluates technical skills, analytical thinking, and communication.",
+          duration: "5-7 days take-home"
+        },
+        {
+          step: 3,
+          title: "Technical Interviews",
+          description: "2-3 technical interviews covering ML concepts, statistics, coding (Python), and past project deep-dive. Present take-home project and answer questions. Assess depth of knowledge and ability to explain complex concepts.",
+          duration: "2-3 hours total"
+        },
+        {
+          step: 4,
+          title: "Behavioral & Final Round",
+          description: "Interviews with hiring manager and team leadership. Behavioral questions assessing collaboration, communication, and cultural fit. Discussion of career goals and role expectations. Offers typically within 1-2 weeks."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your approach to a recent data science project.",
+        "How would you handle imbalanced classes in a classification problem?",
+        "Explain the bias-variance tradeoff and how you manage it.",
+        "What's the difference between L1 and L2 regularization?",
+        "How do you validate a machine learning model?",
+        "Explain gradient descent and variations you've used.",
+        "How would you approach feature selection for a predictive model?",
+        "What metrics would you use to evaluate a classification model?",
+        "Explain cross-validation and when you would use different strategies.",
+        "How do you handle missing data in your analyses?",
+        "Walk me through a time series forecasting approach you've used.",
+        "How would you explain a complex model's predictions to business stakeholders?",
+        "What's your approach to ensuring model fairness and avoiding bias?",
+        "How do you handle concept drift in deployed models?",
+        "Describe your experience with deep learning. When is it appropriate?",
+        "How would you design a recommendation system?"
+      ],
+      behavioralQuestions: [
+        "Why Vanguard? What attracts you to our mission and culture?",
+        "Tell me about a data science project that had significant business impact.",
+        "Describe working with non-technical stakeholders to define a problem.",
+        "How do you approach a problem when you don't have labeled data?",
+        "Tell me about a time your analysis revealed unexpected findings.",
+        "Describe collaborating with a team on a complex analytical project.",
+        "How do you prioritize when working on multiple projects?",
+        "Tell me about receiving feedback on your work. How did you respond?",
+        "Describe explaining technical results to a non-technical audience.",
+        "What do you do when your model doesn't perform as expected?",
+        "How do you stay current on developments in data science?",
+        "What does ethical AI mean to you?"
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in statistics, ML, and analytical methods",
+        "Programming proficiency in Python and SQL",
+        "Ability to translate business problems into analytical solutions",
+        "Clear communication of complex technical concepts",
+        "Collaborative mindset and ability to work cross-functionally",
+        "Intellectual curiosity and drive to solve hard problems",
+        "Attention to detail and rigorous analytical process",
+        "Alignment with Vanguard's client-first values",
+        "Ability to balance innovation with practical business needs",
+        "Ethical approach to data and model development"
+      ],
+      interviewTips: [
+        "Prepare to discuss 2-3 projects in depth, including methodology and business impact",
+        "Be ready for coding questions in Python focusing on data manipulation and ML",
+        "Brush up on ML fundamentals: regression, classification, clustering, evaluation metrics",
+        "Understand Vanguard's business and how data science could add value",
+        "Practice explaining technical concepts to non-technical audiences",
+        "Be prepared for the take-home project—allocate sufficient time",
+        "Research Vanguard's data science team and recent initiatives",
+        "Show intellectual curiosity about financial services applications",
+        "Demonstrate collaborative approach—Vanguard values crew culture",
+        "Have questions about team structure, projects, and career development",
+        "Be honest about what you know and don't know",
+        "Show how your work has driven business outcomes"
+      ],
+      salary: {
+        min: 95000,
+        max: 140000
+      },
+      compensation: [
+        "Base salary: $95-140K depending on experience and specialization",
+        "Annual performance bonus: $15-35K based on individual and company performance",
+        "Total compensation typically $110-175K for data scientists",
+        "Senior/Principal roles can reach $180-220K+ total compensation",
+        "Comprehensive health, dental, and vision insurance",
+        "Industry-leading retirement benefits including 401(k) match and pension",
+        "Professional development budget for conferences and certifications",
+        "Tuition reimbursement for advanced degrees",
+        "Access to Vanguard funds at reduced expense ratios",
+        "Work-life balance with hybrid flexibility"
+      ],
+      dayInLife: {
+        overview: "Data Scientists at Vanguard work in a collaborative, intellectually stimulating environment with excellent work-life balance. Typical hours are 8:30am-5:30pm with flexibility. The role balances independent analytical work with cross-functional collaboration. Vanguard's crew culture emphasizes learning and development. Projects span investment, client experience, and operational domains, providing variety and impact.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Start",
+            description: "Review overnight model runs, check dashboards, respond to Slack messages. Plan day's priorities."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Project Work",
+            description: "Deep work on current modeling project. Feature engineering, model training, or analysis depending on project phase."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Team Standup",
+            description: "Daily standup with data science team. Share progress, discuss blockers, coordinate on shared initiatives."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Stakeholder Meeting",
+            description: "Meet with business partners to discuss requirements for new analytics initiative. Translate business needs into technical approach."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Learning",
+            description: "Team lunch or optional learning session. May include tech talk, paper discussion, or knowledge sharing."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Model Development",
+            description: "Continue model development work. Experiment with different approaches, tune hyperparameters, validate results."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Code Review",
+            description: "Review teammate's code and provide feedback. Ensure quality standards and share knowledge."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Documentation & Communication",
+            description: "Document model methodology, prepare presentation for stakeholder review. Write technical and business-focused documentation."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Wrap Up",
+            description: "Commit code, update project tracking, prepare for tomorrow. Head home around 5:30pm."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "BlackRock", companySlug: "blackrock", industry: "Finance" },
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" }
+      ]
+    },
+    'software-engineer': {
+      roleDescription: "Software Engineers at Vanguard build and maintain the technology powering the world's second-largest asset manager serving over 30 million investors. Working across client-facing platforms, investment systems, and enterprise infrastructure, you'll develop solutions that directly impact investor outcomes. Vanguard's significant technology investment means engineers work with modern tech stacks including cloud platforms (AWS), microservices, and increasingly AI/ML capabilities. The firm's unique mutual ownership structure creates focus on building for long-term client value rather than short-term gains. Engineering culture emphasizes collaboration, continuous learning, and craftsmanship. Teams operate with agile methodologies and DevOps practices, giving engineers ownership from development through production. Career progression includes both technical and management tracks, with opportunities across Vanguard's diverse technology landscape. The work-life balance is notably better than at many financial technology firms.",
+      responsibilities: [
+        "Design, develop, and maintain software applications supporting Vanguard's investment and client platforms",
+        "Write clean, testable, well-documented code following engineering best practices",
+        "Collaborate with product managers, designers, and business partners to deliver solutions",
+        "Participate in architecture discussions and contribute to technical decision-making",
+        "Build and maintain CI/CD pipelines and deploy applications to cloud infrastructure",
+        "Troubleshoot production issues and ensure system reliability and performance",
+        "Participate in code reviews and contribute to team knowledge sharing",
+        "Stay current on technology trends and evaluate applicability to Vanguard's needs",
+        "Mentor junior engineers and contribute to team development"
+      ],
+      growthOpportunities: [
+        "Dual career tracks: technical (Principal Engineer) and management (Engineering Manager)",
+        "Exposure to diverse domains: client platforms, investment systems, data infrastructure",
+        "Modern technology stack with ongoing cloud transformation initiatives",
+        "Professional development including certifications, conferences, and training",
+        "Opportunity to work on AI/ML initiatives within financial services",
+        "Cross-functional mobility across Vanguard's technology organization",
+        "Leadership development programs for high performers",
+        "Work-life balance supporting sustainable long-term career"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Application & Phone Screen",
+          description: "Submit application highlighting technical experience and projects. Phone screen with recruiter covering background, technical skills, and interest in Vanguard. Initial assessment of role fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "45-60 minute technical interview via video. Coding exercise focusing on data structures, algorithms, and problem-solving. Discussion of technical background and projects.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual Onsite",
+          description: "3-4 interviews covering coding, system design, and behavioral questions. Coding rounds assess problem-solving and implementation skills. System design evaluates architecture thinking. Behavioral assesses cultural fit.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Offer Decision",
+          description: "Hiring committee reviews feedback across technical ability and cultural fit. Background check required. Offers typically within 1-2 weeks with competitive compensation package."
+        }
+      ],
+      technicalQuestions: [
+        "Implement a function to [coding problem - varies by interview]",
+        "How would you design a system to [system design problem]?",
+        "Explain your approach to testing and ensuring code quality.",
+        "How do you handle errors and edge cases in your code?",
+        "Describe a challenging technical problem you solved.",
+        "How would you optimize a slow database query?",
+        "Explain RESTful API design principles.",
+        "How do you approach debugging a production issue?",
+        "Describe your experience with cloud platforms (AWS, Azure, GCP).",
+        "How do you ensure security in applications you build?",
+        "Explain containerization and when you would use it.",
+        "How do you approach technical debt?",
+        "Describe CI/CD practices you've implemented.",
+        "How do you handle concurrent programming challenges?",
+        "What's your approach to code review?",
+        "How do you stay current on technology developments?"
+      ],
+      behavioralQuestions: [
+        "Why Vanguard? What attracts you to our mission?",
+        "Tell me about a project you're proud of. What was your contribution?",
+        "Describe working with a team to deliver a complex project.",
+        "How do you handle disagreements on technical approach?",
+        "Tell me about a time you had to learn a new technology quickly.",
+        "Describe receiving critical feedback. How did you respond?",
+        "How do you prioritize when faced with competing demands?",
+        "Tell me about a time you helped a teammate succeed.",
+        "Describe a production incident you helped resolve.",
+        "How do you approach working with non-technical stakeholders?",
+        "What makes a great engineering team?",
+        "How do you balance shipping quickly with code quality?"
+      ],
+      whatTheyLookFor: [
+        "Strong programming fundamentals and problem-solving skills",
+        "Experience with relevant technologies and ability to learn new ones",
+        "Understanding of system design and architecture principles",
+        "Commitment to code quality, testing, and engineering best practices",
+        "Collaborative mindset and strong communication skills",
+        "Ability to work effectively in agile team environment",
+        "Curiosity and drive to continuously improve",
+        "Alignment with Vanguard's client-first values",
+        "Professionalism and integrity",
+        "Long-term career orientation"
+      ],
+      interviewTips: [
+        "Practice coding problems focusing on data structures and algorithms",
+        "Be ready to discuss system design for mid/senior roles",
+        "Prepare to talk through your thought process while coding",
+        "Review your past projects and be ready to discuss in depth",
+        "Understand Vanguard's business and technology landscape",
+        "Research the specific team and technology stack if known",
+        "Prepare questions about engineering culture, practices, and growth",
+        "Demonstrate collaborative approach—Vanguard values crew culture",
+        "Be honest about what you know and don't know",
+        "Show interest in financial services domain",
+        "Practice explaining technical concepts clearly",
+        "Highlight examples of mentoring or helping teammates"
+      ],
+      salary: {
+        min: 95000,
+        max: 150000
+      },
+      compensation: [
+        "Base salary: $95-150K depending on experience and level",
+        "Annual performance bonus: $10-30K based on individual and company performance",
+        "Total compensation typically $105-180K for engineers",
+        "Senior/Principal engineers can reach $180-250K+ total compensation",
+        "Comprehensive health, dental, and vision insurance",
+        "Industry-leading retirement benefits including 401(k) match and pension",
+        "Tuition reimbursement and certification support",
+        "Professional development budget",
+        "Access to Vanguard funds at reduced expense ratios",
+        "Work-life balance with hybrid flexibility"
+      ],
+      dayInLife: {
+        overview: "Software Engineers at Vanguard work in collaborative, agile teams with excellent work-life balance. Typical hours are 8:30am-5:30pm with flexibility. Teams follow agile practices with sprints, standups, and retrospectives. The culture emphasizes craftsmanship, learning, and crew collaboration. Engineers have ownership from development through production, supported by modern DevOps practices.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Start",
+            description: "Check overnight builds, review notifications, plan day's work. Catch up on Slack and team communications."
+          },
+          {
+            time: "9:15 AM",
+            activity: "Daily Standup",
+            description: "Team standup meeting discussing yesterday's progress, today's plans, and any blockers."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Development Work",
+            description: "Focused development time working on sprint tasks. Code new features, fix bugs, or work on technical improvements."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Code Review",
+            description: "Review pull requests from teammates. Provide constructive feedback and approve changes."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break, may include team lunch or optional tech talk."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Pairing Session",
+            description: "Pair programming with teammate on complex feature. Collaborate on design and implementation."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Sprint Planning/Refinement",
+            description: "Team meeting to refine upcoming stories or plan sprint work. Discuss requirements and estimate effort."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Continued Development",
+            description: "Continue development work. Write tests, document code, prepare for code review."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Wrap Up",
+            description: "Commit work, update tickets, prepare for tomorrow. Head home around 5:30pm."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "BlackRock", companySlug: "blackrock", industry: "Finance" },
+        { companyName: "Schwab", companySlug: "schwab", industry: "Finance" }
+      ]
+    },
+    'portfolio-manager': {
+      roleDescription: "Portfolio Managers at Vanguard oversee investment strategies across the world's second-largest asset manager with over $8 trillion in assets. Working within Vanguard's Investment Management Group, you'll manage portfolios in equity, fixed income, or multi-asset strategies serving over 30 million investors. Vanguard's unique mutual ownership structure means Portfolio Managers focus entirely on delivering value to fund shareholders rather than external stakeholders. The firm offers both indexed and active strategies, with PMs contributing to portfolio construction, risk management, and investment decision-making. Vanguard's collaborative culture emphasizes teamwork over individual competition, with decisions supported by robust research, quantitative analysis, and risk management infrastructure. The role combines investment expertise with client stewardship, as Vanguard PMs must think long-term about investor outcomes. Career progression leads to senior PM roles, Chief Investment Officer positions, or leadership within the investment organization.",
+      responsibilities: [
+        "Manage investment portfolios aligned with fund mandates and investor objectives",
+        "Construct portfolios using fundamental research, quantitative analysis, and risk considerations",
+        "Monitor portfolio exposures, factor tilts, and ensure alignment with investment process",
+        "Collaborate with Research Analysts, Quantitative teams, and Trading to optimize outcomes",
+        "Present investment strategy and portfolio positioning to leadership and stakeholders",
+        "Evaluate new investment ideas and make allocation decisions within risk parameters",
+        "Partner with Risk team to ensure portfolios operate within approved guidelines",
+        "Contribute to firm-wide investment perspectives and thought leadership",
+        "Participate in proxy voting and corporate engagement aligned with investor interests"
+      ],
+      growthOpportunities: [
+        "Progression from Analyst to PM to Senior PM to Managing Director track",
+        "Opportunity to manage larger and more complex mandates over time",
+        "Path to Chief Investment Officer or investment leadership roles",
+        "Exposure to multiple asset classes and investment approaches",
+        "Access to Vanguard's research resources and Investment Strategy Group",
+        "International opportunities across Vanguard's global investment offices",
+        "Thought leadership and industry representation opportunities",
+        "Work-life balance superior to hedge fund or active boutique environments"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Initial Screen",
+          description: "Phone interview with HR and/or investment team member. Discussion of background, investment philosophy, and interest in Vanguard's approach. Expect market views and initial investment discussion.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Investment Case Study",
+          description: "Prepare and present investment idea appropriate to the strategy (stock pitch, sector view, or portfolio positioning). Demonstrate investment process, analytical rigor, and ability to articulate thesis. Expect challenging questions.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 3,
+          title: "Superday Interviews",
+          description: "Multiple rounds with Portfolio Managers, CIO, and investment leadership. Mix of technical (valuation, portfolio construction, risk), behavioral, and cultural fit assessment. Evaluate investment acumen and alignment with Vanguard's philosophy.",
+          duration: "4-6 hours"
+        },
+        {
+          step: 4,
+          title: "Final Decision",
+          description: "Investment committee reviews candidate on technical ability, investment judgment, and values alignment. Background check required. Offers typically within 1-2 weeks."
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your investment process. How do you generate and evaluate ideas?",
+        "Pitch me an investment you're excited about. What's the thesis and key risks?",
+        "How do you think about portfolio construction and position sizing?",
+        "Explain your approach to risk management.",
+        "What's your view on current market conditions?",
+        "How do you think about the role of costs in investment returns?",
+        "What's your philosophy on active vs. passive investing?",
+        "How would you evaluate a company's competitive moat?",
+        "Walk me through DCF valuation. What are the critical assumptions?",
+        "How do you think about factor exposures in portfolio construction?",
+        "Explain tracking error and information ratio.",
+        "How do you approach investing through market volatility?",
+        "What role should ESG factors play in investment decisions?",
+        "How does Vanguard's ownership structure influence investment approach?",
+        "Walk me through performance attribution. What drives alpha?",
+        "How do you think about portfolio turnover and transaction costs?"
+      ],
+      behavioralQuestions: [
+        "Why portfolio management? Why Vanguard specifically?",
+        "Tell me about an investment that didn't work. What did you learn?",
+        "Describe a time you changed your investment view based on new information.",
+        "How do you stay informed about markets and generate ideas?",
+        "Tell me about working with others who had different investment views.",
+        "How do you handle underperformance in your portfolio?",
+        "Describe defending an unpopular investment view.",
+        "What qualities make someone successful in portfolio management?",
+        "How do you balance conviction with humility?",
+        "What differentiates Vanguard from other asset managers?",
+        "How do you think about serving investors for the long term?",
+        "Describe your experience in team-based investment environments."
+      ],
+      whatTheyLookFor: [
+        "Genuine passion for investing with demonstrated track record",
+        "Strong analytical and quantitative foundation",
+        "Clear investment process and ability to articulate thesis",
+        "Risk awareness and understanding of portfolio construction",
+        "Alignment with Vanguard's client-first, low-cost philosophy",
+        "Intellectual honesty about investment uncertainty",
+        "Collaborative mindset—Vanguard emphasizes crew culture over stars",
+        "Humility and willingness to acknowledge mistakes",
+        "Long-term orientation matching Vanguard's patient approach",
+        "Strong communication for stakeholder and client interactions"
+      ],
+      interviewTips: [
+        "Prepare multiple well-researched investment ideas appropriate to the strategy",
+        "Understand Vanguard's investment philosophy and John Bogle's legacy",
+        "Have thoughtful views on active vs. passive and role of costs",
+        "Know current market conditions and be prepared to discuss positioning",
+        "Prepare examples demonstrating your investment process",
+        "Show intellectual honesty—acknowledge uncertainty and past mistakes",
+        "Research the specific team and their investment approach",
+        "Demonstrate collaborative mindset—Vanguard values crew over individual stars",
+        "Prepare questions about investment resources, decision-making process, culture",
+        "Show passion for long-term investing and client outcomes",
+        "Be ready to discuss both fundamental and quantitative concepts",
+        "Understand how Vanguard's ownership structure shapes investment approach"
+      ],
+      salary: {
+        min: 150000,
+        max: 250000
+      },
+      compensation: [
+        "Base salary: $150-250K depending on experience and AUM",
+        "Annual bonus: $75-300K+ based on fund performance and individual contribution",
+        "Total compensation typically $225-500K+ for Portfolio Managers",
+        "Senior PMs and MDs can earn $500K-$1M+ total compensation",
+        "Comprehensive health, dental, and vision insurance",
+        "Industry-leading retirement benefits including 401(k) match and pension",
+        "Deferred compensation programs for senior professionals",
+        "Access to Vanguard funds at reduced expense ratios",
+        "Professional development budget",
+        "Work-life balance notably better than hedge fund environments"
+      ],
+      dayInLife: {
+        overview: "Portfolio Managers at Vanguard work in intellectually stimulating environment with reasonable hours compared to hedge funds. Typical hours are 7:30am-6:00pm with market-driven intensity. The role combines research, portfolio management, and team collaboration. Vanguard's crew culture emphasizes collective success over individual stars. The mutual ownership structure creates focus on long-term investor outcomes rather than short-term performance pressure.",
+        schedule: [
+          {
+            time: "7:30 AM",
+            activity: "Market Review",
+            description: "Review overnight developments, portfolio positions, and news on holdings. Assess market conditions and implications for positioning."
+          },
+          {
+            time: "8:00 AM",
+            activity: "Investment Meeting",
+            description: "Team meeting to discuss market developments, share ideas, and debate investment views. Collaborative culture encourages healthy debate."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Research & Analysis",
+            description: "Review analyst research, build conviction on investment ideas, assess new opportunities."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Company Interaction",
+            description: "Management meeting or earnings call for portfolio holding. Evaluate new information against thesis."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Working lunch or team meal. May include external meetings or investment speakers."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Portfolio Review",
+            description: "Analyze portfolio positioning with Risk team. Review exposures, factor tilts, and alignment with mandate."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Trading Coordination",
+            description: "Work with Trading on portfolio adjustments. Consider execution strategy and market impact."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Stakeholder Communication",
+            description: "Prepare portfolio commentary or presentation. Communicate positioning and outlook."
+          },
+          {
+            time: "5:30 PM",
+            activity: "End of Day",
+            description: "Review day's activity, prepare for tomorrow. Head home around 6pm on typical days."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "BlackRock", companySlug: "blackrock", industry: "Finance" },
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "T. Rowe Price", companySlug: "t-rowe-price", industry: "Finance" },
+        { companyName: "Wellington", companySlug: "wellington", industry: "Finance" }
+      ]
+    },
+    'quantitative-analyst': {
+      roleDescription: "Quantitative Analysts at Vanguard develop mathematical models and analytical tools supporting investment management, risk assessment, and portfolio construction across over $8 trillion in assets. Working within the Investment Management Group or Risk & Quantitative Analysis functions, you'll apply statistical methods, factor modeling, and quantitative techniques to enhance investment outcomes for over 30 million investors. Vanguard pioneered index investing and maintains deep quantitative capabilities for both passive and active strategies. Quants contribute to index tracking optimization, factor research, risk modeling, and active strategy development. The firm's collaborative culture emphasizes rigorous analysis balanced with practical application. Vanguard's unique ownership structure creates focus on long-term investor value rather than short-term gains. Career progression leads to senior quantitative roles, portfolio management, or leadership within the investment organization.",
+      responsibilities: [
+        "Develop quantitative models for portfolio construction, risk assessment, and investment research",
+        "Conduct factor analysis and attribution to understand portfolio return drivers",
+        "Build and maintain tools for index tracking, optimization, and rebalancing",
+        "Perform statistical research on investment strategies, signals, and market behavior",
+        "Collaborate with Portfolio Managers to implement quantitative insights",
+        "Ensure model governance, validation, and documentation meet standards",
+        "Present findings to investment teams and contribute to investment process",
+        "Stay current on academic research and evaluate applicability to Vanguard's strategies",
+        "Support risk management with VaR, stress testing, and scenario analysis"
+      ],
+      growthOpportunities: [
+        "Progression from Analyst to Senior Analyst to Managing Director track",
+        "Path to Portfolio Management for quants demonstrating investment acumen",
+        "Specialization in factor research, risk modeling, or strategy development",
+        "Access to Vanguard's extensive data and computational resources",
+        "Exposure to both index and active quantitative strategies",
+        "CFA, FRM sponsorship and support for professional certifications",
+        "International opportunities across Vanguard's global offices",
+        "Work-life balance superior to quantitative hedge fund roles"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Application & Phone Screen",
+          description: "Submit application highlighting quantitative background and relevant experience. Phone screen covering background, technical skills, and interest in Vanguard. Initial assessment of quantitative capabilities.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Assessment",
+          description: "Quantitative assessment testing statistics, probability, and programming skills. May include take-home project involving data analysis, modeling, or research question. Evaluates technical rigor and communication.",
+          duration: "60-90 minutes or take-home"
+        },
+        {
+          step: 3,
+          title: "Technical Interviews",
+          description: "Multiple interviews with quantitative team members testing statistics, factor modeling, portfolio theory, and programming. Expect deep technical discussions and problem-solving. Present research or take-home project.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Final Round & Offer",
+          description: "Interviews with senior leadership assessing cultural fit and career goals. Background check required. Offers typically within 1-2 weeks."
+        }
+      ],
+      technicalQuestions: [
+        "Explain the Fama-French factor model. What are its limitations?",
+        "How would you construct a minimum variance portfolio?",
+        "Walk me through calculating and interpreting tracking error.",
+        "Explain the bias-variance tradeoff in statistical modeling.",
+        "How would you test whether a signal has predictive power?",
+        "Describe your approach to feature selection.",
+        "How do you handle multicollinearity in regression?",
+        "Explain principal component analysis and when you'd use it.",
+        "How would you optimize an index fund's tracking?",
+        "What's the difference between time series and cross-sectional regression?",
+        "Explain Value at Risk and its limitations.",
+        "How would you perform a backtest? What pitfalls would you avoid?",
+        "Describe a quantitative research project you've worked on.",
+        "How do you think about transaction costs in portfolio optimization?",
+        "Explain factor attribution for a portfolio.",
+        "How would you evaluate if a model is overfitting?"
+      ],
+      behavioralQuestions: [
+        "Why quantitative investing? Why Vanguard specifically?",
+        "Tell me about a quantitative project that had significant impact.",
+        "Describe working with non-quantitative colleagues on an analytical problem.",
+        "How do you explain complex quantitative concepts to non-technical audiences?",
+        "Tell me about a time your analysis revealed unexpected findings.",
+        "How do you prioritize when working on multiple research projects?",
+        "Describe receiving feedback on your work. How did you respond?",
+        "What's your view on the efficient market hypothesis?",
+        "How do you stay current on quantitative finance research?",
+        "What differentiates Vanguard's quantitative approach?",
+        "How do you think about model risk?",
+        "What does Vanguard's ownership structure mean for quantitative work?"
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in statistics, probability, and quantitative methods",
+        "Programming proficiency (Python, R, SQL, or similar)",
+        "Understanding of financial markets and portfolio theory",
+        "Ability to translate research into practical investment applications",
+        "Clear communication of complex quantitative concepts",
+        "Intellectual curiosity and rigorous analytical approach",
+        "Collaborative mindset aligned with Vanguard's crew culture",
+        "Attention to detail and model governance discipline",
+        "Alignment with Vanguard's client-first philosophy",
+        "Long-term orientation matching Vanguard's patient approach"
+      ],
+      interviewTips: [
+        "Review statistics, probability, and factor modeling fundamentals",
+        "Be ready for programming questions (Python/R preferred)",
+        "Understand portfolio theory, optimization, and risk concepts",
+        "Research Vanguard's quantitative capabilities and index management",
+        "Prepare to discuss a quantitative research project in depth",
+        "Have views on efficient markets, factor investing, and active vs. passive",
+        "Practice explaining technical concepts to non-quantitative audiences",
+        "Demonstrate collaborative mindset—Vanguard values crew culture",
+        "Be intellectually honest about limitations of quantitative approaches",
+        "Prepare questions about research agenda, team structure, and resources",
+        "Show how your work has been applied practically",
+        "Understand how Vanguard's ownership structure shapes quantitative priorities"
+      ],
+      salary: {
+        min: 100000,
+        max: 160000
+      },
+      compensation: [
+        "Base salary: $100-160K depending on experience and specialization",
+        "Annual performance bonus: $20-50K based on individual and fund performance",
+        "Total compensation typically $120-210K for quantitative analysts",
+        "Senior roles can reach $200-300K+ total compensation",
+        "CFA/FRM exam sponsorship and study support",
+        "Comprehensive health, dental, and vision insurance",
+        "Industry-leading retirement benefits including 401(k) match and pension",
+        "Professional development budget for conferences and certifications",
+        "Access to Vanguard funds at reduced expense ratios",
+        "Work-life balance notably better than quantitative hedge funds"
+      ],
+      dayInLife: {
+        overview: "Quantitative Analysts at Vanguard work in intellectually stimulating environment with reasonable work-life balance. Typical hours are 8:00am-6:00pm with flexibility. The role balances independent research with collaborative application. Vanguard's crew culture emphasizes teamwork and knowledge sharing. The mutual ownership structure creates focus on practical investor value over complex models for their own sake.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Start",
+            description: "Review overnight research runs, check model outputs, plan day's priorities."
+          },
+          {
+            time: "8:30 AM",
+            activity: "Team Meeting",
+            description: "Quantitative team meeting to discuss research progress, share findings, and coordinate projects."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Research Work",
+            description: "Deep quantitative research—factor analysis, model development, or statistical testing."
+          },
+          {
+            time: "11:00 AM",
+            activity: "PM Collaboration",
+            description: "Meeting with Portfolio Manager to discuss quantitative insights and portfolio application."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break, may include research paper discussion or team learning session."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Model Development",
+            description: "Continue model development, coding, and testing. Build tools and analytical infrastructure."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Risk Analysis",
+            description: "Portfolio risk analysis for investment team. Factor attribution, scenario analysis, risk reporting."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Documentation",
+            description: "Document research methodology, update model documentation, prepare presentations."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up",
+            description: "Review progress, commit code, prepare for tomorrow. Head home around 6pm."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "BlackRock", companySlug: "blackrock", industry: "Finance" },
+        { companyName: "State Street", companySlug: "state-street", industry: "Finance" },
+        { companyName: "Dimensional", companySlug: "dimensional", industry: "Finance" },
+        { companyName: "AQR", companySlug: "aqr", industry: "Finance" }
+      ]
+    },
+    'risk-analyst': {
+      roleDescription: "Risk Analysts at Vanguard protect investor interests by identifying, measuring, and monitoring risks across the firm's $8+ trillion in assets under management. Working within Global Risk & Security (GR&S) or Investment Risk functions, you'll ensure that investment activities, operations, and technology align with Vanguard's conservative risk culture and fiduciary obligations. The role spans investment risk (portfolio analytics, stress testing), operational risk, compliance risk, and enterprise risk management. Vanguard's unique mutual ownership structure means Risk Analysts genuinely work to protect investor interests, not external shareholders. The firm's conservative culture provides strong support for risk functions. Career progression leads to senior analyst, risk manager, or leadership roles within the risk organization, with opportunities across Vanguard's diverse business units.",
+      responsibilities: [
+        "Monitor and analyze investment portfolio risks including market, credit, and liquidity risk",
+        "Develop and maintain risk models, dashboards, and reporting tools",
+        "Perform stress testing and scenario analysis for portfolio and enterprise risks",
+        "Assess operational risks and ensure appropriate controls are in place",
+        "Support regulatory compliance and examination activities",
+        "Present risk findings to investment teams, committees, and leadership",
+        "Collaborate with Investment and Technology teams to address risk issues",
+        "Contribute to risk policy development and governance frameworks",
+        "Stay current on regulatory developments and industry best practices"
+      ],
+      growthOpportunities: [
+        "Progression from Analyst to Senior Analyst to Manager within Risk organization",
+        "Specialization in investment risk, operational risk, or enterprise risk management",
+        "Path to leadership roles including Risk Directors and Chief Risk Officer track",
+        "Exposure to all aspects of asset management operations",
+        "FRM, CFA sponsorship and support for professional certifications",
+        "Cross-functional opportunities in compliance, audit, or business roles",
+        "International exposure through Vanguard's global risk functions",
+        "Work-life balance with sustainable career trajectory"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Application & Phone Screen",
+          description: "Submit application highlighting risk experience and analytical background. Phone screen with recruiter covering background, interest in risk management, and alignment with Vanguard's mission.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Interview",
+          description: "Interview with risk team member testing risk concepts, analytical skills, and problem-solving. Expect questions on risk metrics (VaR, stress testing), statistics, and financial products.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Panel Interviews",
+          description: "Multiple interviews with risk managers, team members, and potentially business partners. Technical deep-dives, behavioral assessment, and cultural fit evaluation. May include case study or analytical exercise.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Final Round & Offer",
+          description: "Interview with senior risk leadership. Discussion of career goals and fit. Background check required. Offers typically within 1-2 weeks."
+        }
+      ],
+      technicalQuestions: [
+        "Explain Value at Risk. What are its limitations?",
+        "How would you perform a stress test on an investment portfolio?",
+        "Describe different types of investment risk (market, credit, liquidity, operational).",
+        "How do you measure and monitor tracking error for an index fund?",
+        "Explain the concept of correlation and why it matters for portfolio risk.",
+        "How would you assess the liquidity risk of a bond portfolio?",
+        "Describe your experience with risk reporting and dashboards.",
+        "How do interest rate changes affect different asset classes?",
+        "Explain credit risk and how you would assess a bond's credit quality.",
+        "How would you approach identifying operational risk?",
+        "Describe scenario analysis you've performed.",
+        "How do factor exposures contribute to portfolio risk?",
+        "What regulatory frameworks are relevant to asset management risk?",
+        "How do you prioritize risks when resources are limited?",
+        "Explain the role of risk limits and how they're monitored.",
+        "How has risk management evolved since the 2008 financial crisis?"
+      ],
+      behavioralQuestions: [
+        "Why risk management? Why Vanguard?",
+        "Tell me about identifying a significant risk and how you addressed it.",
+        "Describe communicating risk findings to non-technical stakeholders.",
+        "How do you handle situations where business wants to take more risk?",
+        "Tell me about working collaboratively with teams outside of risk.",
+        "Describe a time you had to make a recommendation with incomplete data.",
+        "How do you stay current on regulatory developments?",
+        "Tell me about improving a risk process or control.",
+        "Describe handling pressure or tight deadlines in risk reporting.",
+        "How do you balance thoroughness with practical business needs?",
+        "What does Vanguard's ownership structure mean for risk management?",
+        "What qualities make someone successful in risk?"
+      ],
+      whatTheyLookFor: [
+        "Strong analytical and quantitative foundation",
+        "Understanding of financial products and investment risk",
+        "Excellent communication skills for presenting risk to diverse audiences",
+        "Attention to detail and thoroughness",
+        "Ability to exercise independent judgment on risk matters",
+        "Collaborative approach with business partnership mindset",
+        "Integrity and willingness to raise issues",
+        "Alignment with Vanguard's conservative, client-first culture",
+        "Problem-solving orientation for complex risk questions",
+        "Continuous learning mindset for evolving risk landscape"
+      ],
+      interviewTips: [
+        "Review risk fundamentals: VaR, stress testing, factor analysis",
+        "Understand different types of risk in asset management",
+        "Research Vanguard's risk organization and conservative culture",
+        "Prepare examples of identifying and addressing risks",
+        "Be ready to discuss regulatory frameworks (SEC, DOL)",
+        "Demonstrate communication skills—explain risk concepts simply",
+        "Show business partnership mindset, not just control function",
+        "Research current risk topics in asset management",
+        "Demonstrate collaborative approach—Vanguard values crew culture",
+        "Prepare questions about risk priorities, team structure, and career paths",
+        "Be ready to discuss how you'd handle pressure situations",
+        "Understand how Vanguard's ownership structure shapes risk culture"
+      ],
+      salary: {
+        min: 80000,
+        max: 130000
+      },
+      compensation: [
+        "Base salary: $80-130K depending on experience and specialization",
+        "Annual performance bonus: $10-30K based on individual and company performance",
+        "Total compensation typically $90-160K for risk analysts",
+        "Senior roles can reach $150-200K+ total compensation",
+        "FRM/CFA exam sponsorship and study support",
+        "Comprehensive health, dental, and vision insurance",
+        "Industry-leading retirement benefits including 401(k) match and pension",
+        "Professional development budget",
+        "Access to Vanguard funds at reduced expense ratios",
+        "Work-life balance with hybrid flexibility"
+      ],
+      dayInLife: {
+        overview: "Risk Analysts at Vanguard work in a professional environment with good work-life balance. Typical hours are 8:30am-5:30pm with some flexibility. The role balances monitoring and reporting with proactive risk analysis. Vanguard's conservative culture provides strong support for risk functions. The crew culture emphasizes collaboration with investment and business teams rather than adversarial relationships.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Review",
+            description: "Check overnight portfolio positions, market developments, and any risk alerts. Review dashboards for limit breaches or unusual activity."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Risk Meeting",
+            description: "Team meeting to review current risk items, coordinate on projects, and discuss emerging risks."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Analysis Work",
+            description: "Perform risk analysis—portfolio stress testing, factor decomposition, or scenario modeling."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Investment Team Meeting",
+            description: "Meet with Portfolio Manager to discuss portfolio risk profile, factor exposures, and any concerns."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break. May include team lunch or optional professional development."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Report Development",
+            description: "Prepare risk reports for committee meetings or regulatory requirements. Update dashboards and metrics."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Risk Committee Prep",
+            description: "Prepare materials for upcoming Risk Committee. Synthesize findings and recommendations."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Documentation",
+            description: "Document analysis, update risk policies, or work on process improvements."
+          },
+          {
+            time: "5:30 PM",
+            activity: "End of Day",
+            description: "Review outstanding items, prepare for tomorrow. Head home with clear work boundaries."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "BlackRock", companySlug: "blackrock", industry: "Finance" },
+        { companyName: "Fidelity", companySlug: "fidelity", industry: "Finance" },
+        { companyName: "State Street", companySlug: "state-street", industry: "Finance" },
+        { companyName: "T. Rowe Price", companySlug: "t-rowe-price", industry: "Finance" }
+      ]
+    }
+  },
 }
 
 // Content for FAANG+, Uber, Airbnb, Stripe, Salesforce, DoorDash, Goldman Sachs, and McKinsey
