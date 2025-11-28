@@ -1,717 +1,1179 @@
 export const companies = {
   'google': {
     name: 'Google',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Google interview with comprehensive preparation for their unique hiring committee process, technical rigor, and Googleyness assessment.',
     industry: 'Technology',
     headquarters: 'Mountain View, CA',
-    description: 'Google is a global technology leader known for its search engine, cloud computing, advertising technologies, and innovative products. Google interviews are known for being highly competitive and focused on algorithmic problem-solving and system design.',
+    description: 'Google is one of the most influential technology companies in the world, known for Search, YouTube, Android, Google Cloud, and pioneering work in AI/ML. With over 180,000 employees and $307 billion in annual revenue, Google operates in 50+ countries and impacts billions of users daily. The company is famous for its rigorous, data-driven interview process featuring a unique hiring committee system where interviewers don\'t make final decisions—instead, feedback is reviewed by an independent committee. Google interviews emphasize "Googleyness" (cultural fit, intellectual humility, comfort with ambiguity) alongside technical excellence. The company values collaboration, innovation, and candidates who can think at scale. Google\'s interview process typically takes 6-8 weeks from application to offer, with a focus on finding candidates who can grow with the company long-term.',
     interviewTips: [
-      'Practice data structures and algorithms extensively',
-      'Be prepared to explain your thought process out loud',
-      'Study system design fundamentals for senior roles',
-      'Understand Google\'s products and culture',
-      'Prepare questions about the team and projects'
+      'Practice coding on a whiteboard or Google Doc—you\'ll code while talking through your approach with the interviewer in real-time',
+      'Master data structures (arrays, trees, graphs, hash maps) and algorithms (BFS/DFS, dynamic programming, sorting) - these are fundamental to every technical interview',
+      'For system design, start with clarifying questions before diving in - ask about scale, users, latency requirements, and constraints',
+      'Demonstrate your thought process out loud - interviewers evaluate how you think, not just whether you get the right answer',
+      'Prepare for "Googleyness" questions assessing cultural fit: comfort with ambiguity, bias to action, collaborative nature, and intellectual humility',
+      'Study Google\'s products and be ready to discuss how you would improve them or discuss their technical architecture',
+      'When stuck, communicate your thinking and ask clarifying questions - interviewers often provide hints when you demonstrate strong problem-solving approach',
+      'Consider edge cases and discuss time/space complexity of your solutions without being prompted - this shows thoroughness',
+      'For behavioral questions, use the STAR method but emphasize the impact and what you learned from the experience',
+      'Research the specific team you\'re interviewing for - Google has many products with different technical challenges',
+      'Be prepared to optimize your initial solution when prompted - interviewers often ask "can you do better?"',
+      'Practice explaining complex technical concepts clearly - communication skills are heavily weighted',
+      'Prepare thoughtful questions for each interviewer about their team, projects, and experience at Google',
+      'Understand that the hiring committee reviews all feedback holistically - one mediocre interview won\'t necessarily sink you if others are strong'
     ],
     whatTheyLookFor: [
-      'Strong problem-solving abilities',
-      'Clean, efficient code',
-      'Communication skills',
-      'Googleyness and leadership',
-      'Role-related knowledge'
+      'Strong coding and algorithmic problem-solving skills with ability to write clean, efficient code',
+      'Ability to design scalable systems and think about problems at Google\'s massive scale',
+      'Googleyness: intellectual humility, collaborative nature, comfort with ambiguity, and bias for action',
+      'Clear communication skills - ability to explain your thought process and complex technical concepts',
+      'General cognitive ability - how you approach novel problems and learn new things quickly',
+      'Role-related knowledge appropriate to your level and the specific position',
+      'Leadership potential - not just managing people, but driving impact through influence',
+      'Problem-solving approach - how you break down complex problems and navigate uncertainty',
+      'Cultural fit with Google\'s collaborative, innovative, and intellectually curious environment',
+      'Growth mindset and ability to receive and incorporate feedback gracefully'
     ],
     process: [
       {
         step: 1,
-        title: 'Phone Screen (45 min)',
-        description: 'Initial technical screening with recruiter'
+        title: 'Recruiter Phone Screen',
+        description: 'Initial 30-minute conversation with a recruiter discussing your background, experience, and interest in Google. They\'ll explain the role, team, and interview process. This is also your chance to ask questions and assess fit. Recruiters evaluate communication skills and basic qualifications.'
       },
       {
         step: 2,
-        title: 'Technical Phone Interview (1 hour)',
-        description: 'Coding problems with an engineer'
+        title: 'Technical Phone Screen',
+        description: '45-60 minute technical interview conducted via Google Meet with a shared Google Doc for coding. You\'ll solve 1-2 algorithmic problems while explaining your approach. The interviewer evaluates your problem-solving ability, coding skills, and communication. Some roles may have two phone screens.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews (4-5 rounds)',
-        description: 'Mix of coding, system design, and behavioral'
+        title: 'Onsite Interviews (Virtual or In-Person)',
+        description: '4-5 rounds of 45-minute interviews including: 2-3 coding interviews (data structures, algorithms), 1 system design interview (for senior roles), and 1 Googleyness/behavioral interview. Each interviewer submits independent feedback without discussing with other interviewers. Expect to code in Google Docs and draw system diagrams.'
       },
       {
         step: 4,
         title: 'Hiring Committee Review',
-        description: 'Final decision by hiring committee'
+        description: 'Your interview packet (resume, feedback, scores) is reviewed by a hiring committee of senior Googlers who weren\'t involved in your interviews. They make hiring decisions based on the complete picture, which reduces individual interviewer bias. This process typically takes 1-2 weeks.'
+      },
+      {
+        step: 5,
+        title: 'Team Matching',
+        description: 'Once approved by the hiring committee, you\'ll meet with potential teams to find the best fit for your interests and skills. You may have several "host matching" calls with different teams before selecting one. This ensures you join a team where you\'ll thrive.'
       }
     ],
     questions: [
-      'Reverse a linked list',
-      'Design a URL shortener',
-      'Find the kth largest element in an array',
-      'Implement LRU cache',
-      'Design Google Maps'
+      'Given a binary tree, write a function to determine if it\'s a valid binary search tree',
+      'Design a URL shortener like bit.ly - discuss the architecture, database design, and how to handle high traffic',
+      'Implement an LRU (Least Recently Used) cache with O(1) get and put operations',
+      'Find the longest substring without repeating characters',
+      'Design YouTube - how would you handle video upload, storage, transcoding, and streaming at scale?',
+      'Given a large log file, how would you find the top K most frequent IP addresses?',
+      'Tell me about a time you had to work with a difficult team member - how did you handle it?',
+      'Design Google Maps\' route-finding algorithm - how would you find the shortest path between two points?',
+      'Implement a function to serialize and deserialize a binary tree',
+      'Tell me about a time when you disagreed with your manager - what did you do?',
+      'How would you design the backend for Google Docs collaborative editing?',
+      'Find all anagrams of a word in a dictionary efficiently',
+      'Describe a project you\'re proud of - what was your specific contribution and impact?',
+      'Design a distributed key-value store - discuss consistency, availability, and partition tolerance tradeoffs',
+      'What happens when you type google.com in your browser? Walk through the entire process',
+      'Tell me about a time you failed - what did you learn and how did you apply that learning?',
+      'Design a rate limiter for an API - discuss different algorithms and tradeoffs',
+      'How would you detect a cycle in a linked list? What if you needed to find where the cycle begins?',
+      'What questions do you have for me about Google, the team, or the role?'
     ],
     relatedCompanies: ['meta', 'amazon', 'microsoft', 'apple']
   },
   'apple': {
     name: 'Apple',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Ace your Apple interview with comprehensive preparation for their secretive culture, intense technical deep-dives, and uncompromising focus on quality and user experience.',
     industry: 'Technology',
     headquarters: 'Cupertino, CA',
-    description: 'Apple is a pioneering technology company known for iPhone, Mac, iPad, and innovative consumer electronics. Apple interviews focus on technical depth, product thinking, and attention to detail in hardware and software engineering.',
+    description: 'Apple is the world\'s most valuable company, known for iconic products including iPhone, Mac, iPad, Apple Watch, and services like the App Store, Apple Music, and iCloud. With $383 billion in annual revenue and over 160,000 employees, Apple sets the standard for consumer technology, seamless hardware-software integration, and user experience design. Apple\'s interview process is notably secretive and thorough, often involving 5-8 interviews focused on technical depth, attention to detail, and cultural fit. The company values candidates who share their obsession with quality, simplicity, and creating products that enrich people\'s lives. Apple looks for "T-shaped" individuals with deep expertise in one area and broad collaborative abilities. The interview process emphasizes real-world problem-solving and may include design exercises or technical deep-dives specific to the role. Apple\'s culture of secrecy means interviewers may not reveal which product or team you\'d be joining until late in the process.',
     interviewTips: [
-      'Understand Apple\'s products and ecosystem deeply',
-      'Be prepared for detailed technical deep-dives',
-      'Demonstrate attention to detail and quality',
-      'Show passion for user experience',
-      'Practice coding on a whiteboard or paper'
+      'Understand Apple\'s products deeply - use them, study their design decisions, and be ready to discuss what makes them special',
+      'Apple interviews often include technical deep-dives where interviewers probe the limits of your knowledge - be honest about what you don\'t know',
+      'Demonstrate extreme attention to detail in your code, your answers, and how you present yourself - Apple notices everything',
+      'Show genuine passion for creating products that improve people\'s lives, not just technically impressive solutions',
+      'For software roles, be prepared to discuss memory management, performance optimization, and how software interacts with hardware',
+      'Practice coding on a whiteboard or paper - some Apple interviews are conducted this way to assess how you think without IDE assistance',
+      'Apple values privacy and security highly - be ready to discuss how you\'ve considered these in your past work',
+      'The secrecy around teams means you may not know exactly what you\'ll work on - demonstrate flexibility and excitement about Apple\'s mission broadly',
+      'Prepare for scenario-based questions: "How would you improve [Apple product]?" or "Design a feature for [Apple service]"',
+      'Show you can balance technical excellence with user needs - Apple wants engineers who think about the end user, not just the code',
+      'Be ready for multiple rounds - Apple\'s process can involve 5-8 interviews and may span several days or multiple visits',
+      'Research Apple\'s values: accessibility, environmental responsibility, privacy, and inclusion - these matter in hiring decisions',
+      'Ask thoughtful questions about the team and work - but understand if interviewers can\'t share details due to Apple\'s confidential culture',
+      'Demonstrate humility and willingness to learn - Apple values collaboration over individual ego'
     ],
     whatTheyLookFor: [
-      'Technical excellence',
-      'Product sense and user focus',
-      'Attention to detail',
-      'Collaboration abilities',
-      'Passion for Apple products'
+      'Technical excellence and deep expertise in your domain, whether hardware, software, or design',
+      'Obsessive attention to detail and quality in everything you do',
+      'Genuine passion for Apple products and the company\'s mission to enrich lives',
+      'User-centric thinking - ability to balance technical decisions with user experience impact',
+      'Collaborative abilities - Apple products require seamless work across hardware, software, and services teams',
+      'Resilience and ability to work on challenging problems over extended timelines',
+      'Strong communication skills to explain complex technical concepts clearly',
+      'Intellectual curiosity and continuous learning mindset',
+      'Respect for Apple\'s culture of secrecy and confidentiality',
+      'Creativity balanced with pragmatism - innovative ideas that can actually ship'
     ],
     process: [
       {
         step: 1,
-        title: 'Recruiter Phone Screen (30 min)',
-        description: 'Discussion of background and role fit'
+        title: 'Recruiter Phone Screen',
+        description: 'Initial 30-minute call with a recruiter discussing your background, experience, and interest in Apple. The recruiter assesses basic qualifications and fit. Due to Apple\'s secretive culture, they may not reveal which specific team or product the role supports at this stage.'
       },
       {
         step: 2,
-        title: 'Technical Phone Interview (1 hour)',
-        description: 'Coding and technical questions'
+        title: 'Technical Phone Interview',
+        description: '1-hour technical interview with an engineer from the team. Expect coding problems, technical discussions, and questions about your past experience. The depth depends on the role - software roles focus on algorithms and system design; hardware roles dive into electronics, physics, or mechanical engineering.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews (5-8 rounds)',
-        description: 'Technical coding, system design, and behavioral'
+        title: 'Onsite Interviews (5-8 Rounds)',
+        description: 'Extensive onsite at Apple Park or via video, typically spanning a full day or multiple days. Includes: 3-4 technical interviews with engineers (coding, system design, domain expertise), 1-2 behavioral/cultural fit interviews, and potentially a presentation or design exercise. Each interviewer assesses different aspects and submits independent feedback.'
       },
       {
         step: 4,
-        title: 'Hiring Decision',
-        description: 'Team discussion and offer decision'
+        title: 'Hiring Manager Review',
+        description: 'The hiring manager and senior leadership review all feedback and make the final decision. Apple\'s process is thorough, so decisions may take 1-3 weeks. If successful, you\'ll learn more about the specific team and projects at this stage.'
+      },
+      {
+        step: 5,
+        title: 'Offer and Team Placement',
+        description: 'Offers include competitive base salary, RSU grants, signing bonus, and Apple employee discount. Unlike some companies, Apple typically places you on a specific team rather than matching after hiring. Your recruiter will discuss team details before you accept.'
       }
     ],
     questions: [
-      'Implement a hash table from scratch',
-      'Design the iOS lock screen',
-      'Find all palindromic substrings',
-      'Explain the difference between processes and threads',
-      'How would you improve Siri?'
+      'Implement a hash table from scratch - discuss collision handling strategies and when you\'d use each',
+      'How would you improve Siri? Walk through the product thinking and technical challenges',
+      'Design the iOS lock screen - consider security, usability, and personalization',
+      'Find all palindromic substrings in a string - optimize for time and space complexity',
+      'Explain the difference between processes and threads - when would you use each?',
+      'Design a feature for Apple Music - walk through the user experience and backend architecture',
+      'Tell me about a time you had to deliver something with extremely high quality under tight deadlines',
+      'How does the iPhone manage memory? Discuss ARC vs garbage collection',
+      'Implement a thread-safe queue in your preferred language',
+      'What Apple product do you use most, and how would you improve it?',
+      'Tell me about a time you had to simplify a complex technical solution',
+      'Design an offline-first mobile application - how do you handle sync conflicts?',
+      'How would you approach debugging a performance issue in an iOS app?',
+      'Tell me about a time you received critical feedback - how did you respond?',
+      'Design the architecture for iCloud Photos - consider scale, sync, and privacy',
+      'What makes Apple\'s approach to product design different from competitors?',
+      'Implement an LFU (Least Frequently Used) cache - discuss tradeoffs vs LRU',
+      'Tell me about a technically challenging project you worked on - what made it difficult and how did you overcome obstacles?',
+      'What questions do you have about working at Apple?'
     ],
     relatedCompanies: ['google', 'microsoft', 'tesla', 'meta']
   },
   'microsoft': {
     name: 'Microsoft',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Prepare for your Microsoft interview with strategies for their growth mindset culture, technical assessments, and the important "As Appropriate" final round.',
     industry: 'Technology',
     headquarters: 'Redmond, WA',
-    description: 'Microsoft is a global leader in software, cloud computing (Azure), and enterprise solutions. Microsoft interviews emphasize technical fundamentals, system design, and cultural fit within their collaborative environment.',
+    description: 'Microsoft is a global technology leader with $211 billion in annual revenue, powering productivity through Microsoft 365, gaming through Xbox, and enterprise infrastructure through Azure (the #2 cloud platform worldwide). With 220,000+ employees across 190 countries, Microsoft has transformed under CEO Satya Nadella\'s leadership, embracing a "growth mindset" culture that values learning, empathy, and customer obsession over the competitive internal culture of the past. Microsoft\'s interview process emphasizes both technical excellence and cultural fit with their collaborative values. The unique "As Appropriate" (AA) round—a final interview with a senior leader who can make or break your candidacy—distinguishes Microsoft\'s process. The company excels at hiring people who can bridge technical depth with customer impact, and values candidates who are intellectually curious, humble, and eager to learn from failure.',
     interviewTips: [
-      'Study cloud computing concepts (Azure)',
-      'Practice behavioral questions with STAR method',
-      'Understand Microsoft\'s mission and values',
-      'Be ready to discuss scalability',
-      'Prepare examples of teamwork and leadership'
+      'Understand Microsoft\'s "growth mindset" culture—this isn\'t just a buzzword, but a fundamental shift in how they evaluate candidates. Show you embrace learning from failure',
+      'Study Azure architecture and services, especially for cloud or enterprise roles—Microsoft is heavily investing in cloud computing and AI',
+      'The "As Appropriate" (AA) round is crucial: a senior leader (often a Director or VP) makes the final call. Come prepared with your best examples and energy',
+      'Practice the STAR method for behavioral questions, but focus on the "Learning" aspect—what did you learn and how did it change your approach?',
+      'Microsoft values collaboration over competition—avoid stories where you succeeded at others\' expense or worked as a lone hero',
+      'Research the specific product team you\'re interviewing with: Office, Azure, Windows, Xbox, LinkedIn, or GitHub each have distinct cultures',
+      'For coding interviews, expect a whiteboard or shared document—think out loud and consider edge cases before diving into code',
+      'System design questions often focus on enterprise scenarios: scalability, reliability, and security for business customers',
+      'Demonstrate customer empathy—Microsoft wants engineers who think about how their work impacts real users and businesses',
+      'Show intellectual humility: be willing to say "I don\'t know" and demonstrate how you\'d figure it out',
+      'Prepare questions that show genuine curiosity about the team\'s challenges, technical direction, and how they measure success',
+      'Microsoft often asks about accessibility and inclusive design—understand how to build products for diverse users',
+      'Expect questions about tradeoffs—Microsoft interviewers want to see nuanced thinking, not just textbook answers',
+      'If you have experience with competitors\' products (AWS, Google Cloud), be prepared to discuss objectively without being negative'
     ],
     whatTheyLookFor: [
-      'Growth mindset',
-      'Technical competence',
-      'Collaborative spirit',
-      'Customer focus',
-      'Innovation and adaptability'
+      'Growth mindset—demonstrated ability to learn, adapt, and improve from failures and feedback',
+      'Technical competence appropriate to the role level, with depth in relevant technologies',
+      'Collaborative spirit—ability to work effectively with diverse teams and build on others\' ideas',
+      'Customer focus—understanding of how technical decisions impact real users and businesses',
+      'Innovation and adaptability in a rapidly changing technology landscape',
+      'Clear communication skills to explain complex technical concepts to various audiences',
+      'Intellectual humility combined with confidence—strong opinions loosely held',
+      'Drive for impact—not just completing tasks, but understanding why they matter',
+      'Empathy for users, teammates, and partners',
+      'Cultural contribution—what unique perspective or experience do you bring to Microsoft?'
     ],
     process: [
       {
         step: 1,
-        title: 'Recruiter Screen (30 min)',
-        description: 'Initial conversation about role and background'
+        title: 'Recruiter Screen',
+        description: '30-minute call with a Microsoft recruiter discussing your background, interest in the role, and logistics. They\'ll explain the team, interview process, and answer your questions. This is also an assessment of communication skills and basic fit. Recruiters often share tips for succeeding in later rounds.'
       },
       {
         step: 2,
-        title: 'Technical Screen (1 hour)',
-        description: 'Coding interview with engineer'
+        title: 'Technical Phone Screen',
+        description: '1-hour technical interview via Microsoft Teams with an engineer. Expect coding problems on a shared document, discussing your approach as you work. Some roles include a second phone screen. Interviewers assess problem-solving skills, coding ability, and how you handle hints and feedback.'
       },
       {
         step: 3,
-        title: 'Onsite Loop (4-5 rounds)',
-        description: 'Technical, system design, and behavioral interviews'
+        title: 'Onsite Interview Loop (4-5 Rounds)',
+        description: 'Full day of interviews at a Microsoft office or virtually, including: 2-3 coding/technical interviews, 1 system design interview (for senior roles), and 1 behavioral interview. Each interviewer evaluates different competencies and provides independent written feedback. Interviews are typically 45-60 minutes each.'
       },
       {
         step: 4,
         title: 'As Appropriate (AA) Round',
-        description: 'Final interview with senior leader if progressing'
+        description: 'The final and often deciding interview with a senior leader (typically a Director, Partner, or VP) who reviews all previous feedback and makes the hire/no-hire decision. This 45-60 minute interview assesses overall fit, leadership potential, and whether you meet Microsoft\'s hiring bar. Come prepared—this person has significant influence over your outcome.'
+      },
+      {
+        step: 5,
+        title: 'Offer Decision',
+        description: 'If the AA approves, you\'ll receive a call from your recruiter, typically within a few days to a week. Microsoft offers include base salary, signing bonus, annual bonus target, and RSU grants. Offers are generally competitive with other major tech companies, with some variation by team and location.'
       }
     ],
     questions: [
-      'Implement a function to merge two sorted arrays',
-      'Design a parking lot system',
-      'Reverse words in a string',
-      'Tell me about a time you disagreed with a team member',
-      'Design Azure blob storage'
+      'Design a parking lot system - walk through the object-oriented design and handle various scenarios',
+      'Implement a function to merge two sorted arrays in place with O(1) extra space',
+      'Tell me about a time you failed and what you learned from it - Microsoft specifically looks for growth mindset',
+      'Design Azure Blob Storage - discuss scale, redundancy, access patterns, and cost optimization',
+      'Reverse words in a string while preserving whitespace - discuss edge cases and optimize',
+      'Tell me about a time you disagreed with a team member - how did you resolve it?',
+      'Design a URL shortening service - discuss the full system from frontend to database to analytics',
+      'How would you approach building a feature that 1 billion people will use?',
+      'Implement an in-memory file system with basic operations (mkdir, ls, addContentToFile, readContentFromFile)',
+      'Tell me about a time you had to influence without authority',
+      'Design Microsoft Teams\' messaging backend - consider real-time delivery, offline support, and scale',
+      'What\'s your approach to making technical decisions with incomplete information?',
+      'Find the median of two sorted arrays - optimize for O(log(min(n,m))) time complexity',
+      'Tell me about a time you helped a teammate succeed',
+      'Design an autocomplete/typeahead system - discuss data structures, ranking, and latency requirements',
+      'How do you stay current with new technologies? Give a recent example',
+      'Tell me about a project where you had to balance multiple competing priorities',
+      'Why Microsoft? What specifically attracts you to this team and role?',
+      'What questions do you have for me about Microsoft, the team, or the role?'
     ],
     relatedCompanies: ['google', 'amazon', 'oracle', 'salesforce']
   },
   'amazon': {
     name: 'Amazon',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Amazon interview by understanding the 16 Leadership Principles, preparing for the Bar Raiser, and demonstrating customer obsession in every answer.',
     industry: 'Technology',
     headquarters: 'Seattle, WA',
-    description: 'Amazon is the world\'s largest e-commerce and cloud computing company. Amazon interviews heavily emphasize their 16 Leadership Principles, along with technical problem-solving and system design skills.',
+    description: 'Amazon is the world\'s largest e-commerce company and a dominant force in cloud computing through AWS, with $575 billion in annual revenue and 1.5 million employees worldwide. The company operates across retail, cloud services (AWS), advertising, entertainment (Prime Video, MGM), devices (Alexa, Kindle, Ring), and healthcare. Amazon\'s interview process is uniquely structured around their 16 Leadership Principles—behavioral frameworks like "Customer Obsession," "Ownership," "Bias for Action," and "Dive Deep" that define how Amazonians make decisions. Every interview includes at least one "Bar Raiser"—a specially trained interviewer from outside the hiring team who ensures candidates meet Amazon\'s high standards and has veto power over hiring decisions. Amazon values data-driven decision-making, frugality, and a bias for action. The company\'s "Day 1" mentality emphasizes maintaining startup agility despite its massive scale.',
     interviewTips: [
-      'Master Amazon\'s 16 Leadership Principles with examples',
-      'Use the STAR method for behavioral questions',
-      'Practice coding problems on data structures',
-      'Study distributed systems concepts',
-      'Be prepared to discuss trade-offs in your designs'
+      'Master Amazon\'s 16 Leadership Principles—prepare 2-3 specific STAR stories for each principle, as every behavioral question maps to one or more LPs',
+      'The Bar Raiser has veto power and evaluates you against the entire Amazon hiring bar, not just the specific team—bring your best energy and examples to this interview',
+      'Use the STAR method rigorously: Situation, Task, Action (focus 60% here), Result (quantify impact whenever possible)',
+      'Demonstrate "Customer Obsession" in technical decisions—always start system design answers by asking about the customer and their needs',
+      'For coding interviews, talk through your approach before writing code, consider edge cases, and discuss time/space complexity',
+      'Amazon loves data—quantify your achievements with specific metrics (reduced latency by 40%, increased conversion by 15%, etc.)',
+      'Prepare for "Dive Deep" questions where interviewers probe the details of your past projects—know your work inside and out',
+      'Show "Ownership" by describing times you went beyond your job description to solve problems, not just completed assigned tasks',
+      'For system design, start with requirements gathering, then high-level architecture, then dive deep into specific components—always consider scale',
+      'Demonstrate "Bias for Action"—Amazon values calculated risk-taking over analysis paralysis. Share examples of times you made decisions with incomplete information',
+      'Prepare for "Disagree and Commit" questions—times you disagreed with a decision but fully committed once it was made',
+      'Amazon values "Frugality"—be ready to discuss how you\'ve accomplished more with less or optimized for cost',
+      'Research the specific team and their products—Amazon has vastly different cultures across Retail, AWS, Alexa, etc.',
+      'The loop typically has 5-6 interviews—pace yourself and stay energetic throughout the full day'
     ],
     whatTheyLookFor: [
-      'Customer obsession',
-      'Ownership and bias for action',
-      'Strong technical fundamentals',
-      'Data-driven decision making',
-      'High standards (Insist on Highest Standards)'
+      'Customer Obsession—genuine focus on customer needs in all decisions, not just business metrics',
+      'Ownership—taking responsibility for outcomes, not just completing tasks; thinking long-term',
+      'Bias for Action—willingness to make decisions with 70% of information rather than waiting for certainty',
+      'Dive Deep—ability to operate at all levels, stay connected to details, and audit frequently',
+      'Strong technical fundamentals with ability to design scalable, distributed systems',
+      'Data-driven decision making with ability to define and track meaningful metrics',
+      'Insist on Highest Standards—continuously raising the bar for yourself and your team',
+      'Think Big—creating bold directions that inspire results and look around corners for ways to serve customers',
+      'Earn Trust—listening attentively, speaking candidly, and treating others respectfully',
+      'Deliver Results—focusing on key inputs and delivering with the right quality and timeline'
     ],
     process: [
       {
         step: 1,
-        title: 'Online Assessment',
-        description: 'Coding challenges and work simulation'
+        title: 'Online Assessment (OA)',
+        description: 'For many roles, Amazon starts with an online assessment including: 2 coding challenges (70 minutes total), a work style assessment, and sometimes a work simulation. The coding problems are LeetCode medium-level focusing on arrays, strings, trees, and graphs. Complete within 7 days of receiving the invitation.'
       },
       {
         step: 2,
-        title: 'Phone Screen (1 hour)',
-        description: 'Coding and behavioral questions'
+        title: 'Phone Screen',
+        description: '45-60 minute interview with an Amazon engineer via Amazon Chime. Typically includes 1-2 coding problems and 1-2 behavioral questions mapped to Leadership Principles. You\'ll code in a shared document while explaining your approach. Some senior roles skip directly to onsite after OA.'
       },
       {
         step: 3,
-        title: 'Onsite Loop (5 rounds)',
-        description: 'Mix of coding, system design, and behavioral'
+        title: 'Onsite Loop (5-6 Interviews)',
+        description: 'Full day of interviews, each 45-60 minutes, including: 2 coding interviews, 1 system design interview (for senior roles), 2-3 behavioral interviews (each focused on specific Leadership Principles), and 1 Bar Raiser interview. Each interviewer submits independent written feedback before the debrief meeting.'
       },
       {
         step: 4,
-        title: 'Bar Raiser Round',
-        description: 'Interview with experienced bar raiser evaluator'
+        title: 'Bar Raiser Interview',
+        description: 'One interviewer in your loop is a specially trained "Bar Raiser" from outside the hiring team. They evaluate whether you raise Amazon\'s hiring bar and have veto power regardless of other interviewers\' opinions. The BR ensures consistent hiring standards across Amazon. Bring your strongest LP examples to this interview.'
+      },
+      {
+        step: 5,
+        title: 'Debrief and Decision',
+        description: 'All interviewers meet to discuss feedback and make a hire/no-hire decision. The Bar Raiser facilitates to ensure LP alignment. Decisions typically come within 5 business days. If hired, you\'ll receive a call from your recruiter with offer details including base, signing bonus, and RSU grants.'
       }
     ],
     questions: [
-      'Tell me about a time you failed',
-      'Design Amazon\'s product recommendation system',
-      'Find the longest palindromic substring',
-      'Describe a time you had to make a decision with incomplete data',
-      'Implement a queue using two stacks'
+      'Tell me about a time you failed - what happened and what did you learn? (Leadership Principle: Learn and Be Curious)',
+      'Design Amazon\'s product recommendation system - consider personalization, real-time updates, and scale',
+      'Describe a time when you had to make a decision with incomplete data - what did you do? (LP: Bias for Action)',
+      'Find the longest palindromic substring in a string - optimize for time and space complexity',
+      'Tell me about a time you disagreed with your manager or team - how did you handle it? (LP: Have Backbone; Disagree and Commit)',
+      'Design a URL shortener like bit.ly - discuss database schema, hash generation, and handling high traffic',
+      'Tell me about a time you went above and beyond for a customer (LP: Customer Obsession)',
+      'Implement LRU cache with O(1) get and put operations',
+      'Describe a time you took ownership of a project beyond your job description (LP: Ownership)',
+      'Design Amazon\'s order processing system - consider inventory, payments, and fulfillment',
+      'Tell me about a time you had to deliver results under a tight deadline (LP: Deliver Results)',
+      'Merge k sorted linked lists - discuss different approaches and tradeoffs',
+      'Tell me about a time you simplified a complex process (LP: Invent and Simplify)',
+      'Design a distributed cache system - discuss consistency, eviction policies, and failover',
+      'Describe a time you raised the bar for your team (LP: Insist on Highest Standards)',
+      'Given a stream of integers, find the median at any point - discuss data structures',
+      'Tell me about a time you had to earn trust with a skeptical stakeholder (LP: Earn Trust)',
+      'Design the backend for Amazon Prime Video streaming - consider content delivery and global scale',
+      'What questions do you have for me about Amazon, the team, or the role?'
     ],
     relatedCompanies: ['google', 'microsoft', 'walmart', 'salesforce']
   },
   'meta': {
     name: 'Meta',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Prepare for your Meta interview with strategies for their fast-paced coding rounds, system design at massive scale, and emphasis on impact and moving fast.',
     industry: 'Technology',
     headquarters: 'Menlo Park, CA',
-    description: 'Meta (formerly Facebook) is a social technology company building the future of connection through Facebook, Instagram, WhatsApp, and VR/AR. Meta interviews focus on coding, system design, and behavioral competencies.',
+    description: 'Meta (formerly Facebook) is one of the world\'s largest technology companies, connecting over 3 billion people through Facebook, Instagram, WhatsApp, and Messenger, while investing heavily in the metaverse through Reality Labs. With $135 billion in annual revenue and 87,000+ employees, Meta operates the largest social platforms globally and is a leader in AI research, virtual reality (Quest), and advertising technology. Meta\'s interview process is known for its emphasis on coding speed and accuracy, system design at unprecedented scale (handling billions of users), and behavioral questions focused on impact. The company\'s culture values "Move Fast," "Focus on Long-Term Impact," "Build Awesome Things," and "Be Direct." Meta uses a hiring committee model similar to Google, where interviewers provide feedback but don\'t make final decisions. The company offers a "bootcamp" onboarding where new engineers choose their team after joining.',
     interviewTips: [
-      'Practice coding speed and accuracy',
-      'Study large-scale distributed systems',
-      'Understand Meta\'s products deeply',
-      'Prepare for behavioral questions on impact',
-      'Be ready to discuss technical trade-offs'
+      'Meta coding interviews emphasize speed and accuracy—practice solving medium/hard LeetCode problems in 20-25 minutes, not just solving them at all',
+      'For system design, think at Meta scale: billions of users, petabytes of data, millions of requests per second. Start with requirements and scale estimates',
+      'The "Ninja" round is Meta\'s system design interview—focus on high-level architecture first, then dive deep into specific components when asked',
+      'Behavioral questions at Meta focus on impact—quantify your achievements and explain why your work mattered to the business or users',
+      'Understand Meta\'s products deeply: how News Feed ranking works, Instagram\'s architecture, WhatsApp\'s end-to-end encryption approach',
+      'Meta values "Move Fast"—demonstrate times you shipped quickly while maintaining quality, not reckless speed',
+      'During coding, write clean code with good variable names; Meta interviewers evaluate code quality, not just correctness',
+      'Be prepared to optimize your solution—Meta interviewers often ask "can we do better?" after your initial working solution',
+      'For behavioral questions, use the STAR method but emphasize measurable impact and lessons learned',
+      'Meta\'s bootcamp model means you interview for the company, not a specific team—show flexibility and broad interests',
+      'Research Meta\'s AI and metaverse initiatives if relevant to your role—these are major company priorities',
+      'Meta values directness—be honest about what you know and don\'t know rather than trying to fake expertise',
+      'Practice explaining your technical decisions clearly—communication is heavily weighted alongside coding ability',
+      'Prepare for questions about working in ambiguous situations with competing priorities'
     ],
     whatTheyLookFor: [
-      'Strong coding skills',
-      'System design expertise',
-      'Move fast mentality',
-      'Impact-driven mindset',
-      'Communication and collaboration'
+      'Strong coding skills with ability to write clean, efficient code quickly under pressure',
+      'System design expertise at massive scale—billions of users, global distribution, real-time requirements',
+      'Impact-driven mindset—focus on outcomes and moving metrics that matter, not just shipping features',
+      'Move Fast mentality—bias for action, shipping quickly, iterating based on feedback',
+      'Technical depth combined with breadth—ability to go deep on problems while understanding broader systems',
+      'Strong communication skills to explain complex technical concepts clearly',
+      'Collaboration abilities—Meta\'s scale requires working effectively across many teams',
+      'Resilience and adaptability in a fast-changing environment',
+      'Intellectual curiosity and continuous learning',
+      'Alignment with Meta\'s mission of building community and bringing the world closer together'
     ],
     process: [
       {
         step: 1,
-        title: 'Recruiter Phone Screen (30 min)',
-        description: 'Background discussion and role overview'
+        title: 'Recruiter Screen',
+        description: '30-minute call with a Meta recruiter discussing your background, interest in Meta, and logistics. They\'ll explain the role, interview process, and answer questions. The recruiter assesses communication skills and basic qualifications. They may also discuss which product areas interest you for team matching.'
       },
       {
         step: 2,
-        title: 'Technical Phone Screen (45 min)',
-        description: 'Coding interview via video call'
+        title: 'Technical Phone Screen',
+        description: '45-minute coding interview via CoderPad with a Meta engineer. You\'ll solve 1-2 algorithmic problems while explaining your approach. Expect medium to hard difficulty problems involving arrays, strings, trees, or graphs. The interviewer evaluates problem-solving approach, coding ability, and communication.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews (4-5 rounds)',
-        description: 'Coding, system design (Ninja), and behavioral'
+        title: 'Onsite Interviews (Virtual or In-Person)',
+        description: '4-5 interviews, each 45 minutes: 2 coding interviews (called "Coding" rounds), 1 system design interview (called "Ninja" or "Pirate" depending on role), and 1-2 behavioral interviews (called "Jedi"). Coding rounds are on CoderPad; system design uses a virtual whiteboard. Each interviewer submits independent feedback.'
       },
       {
         step: 4,
-        title: 'Hiring Committee',
-        description: 'Final review and decision'
+        title: 'Hiring Committee Review',
+        description: 'Your interview packet is reviewed by a hiring committee of senior engineers who weren\'t involved in your interviews. They evaluate all feedback holistically and make the hire/no-hire decision. This process typically takes 1-2 weeks. The committee ensures consistent hiring standards across Meta.'
+      },
+      {
+        step: 5,
+        title: 'Team Matching (Bootcamp)',
+        description: 'If approved, you join Meta\'s "bootcamp"—a 6-week onboarding where you work on small projects across different teams before choosing where to join permanently. This ensures you find a team that matches your interests and skills. During bootcamp, various teams pitch to you as much as you pitch to them.'
       }
     ],
     questions: [
-      'Clone a graph',
-      'Design Facebook News Feed',
-      'Validate binary search tree',
-      'Tell me about your most impactful project',
-      'Design Instagram Stories'
+      'Clone a graph - implement deep copy of a graph with arbitrary connections',
+      'Design Facebook News Feed - consider ranking, real-time updates, and handling billions of users',
+      'Tell me about your most impactful project - what was the measurable business or user impact?',
+      'Validate a binary search tree - handle edge cases and discuss iterative vs recursive approaches',
+      'Design Instagram Stories - consider content creation, distribution, and ephemerality',
+      'Serialize and deserialize a binary tree - discuss different encoding approaches',
+      'Tell me about a time you had to move fast to meet a deadline - how did you balance speed with quality?',
+      'Design Facebook Messenger - consider real-time delivery, read receipts, and offline support',
+      'Find all permutations of a string - optimize for time and handle duplicates',
+      'Describe a time you had to influence others without authority',
+      'Design a type-ahead/autocomplete system - consider ranking, personalization, and latency',
+      'Implement a basic calculator that can handle +, -, *, / and parentheses',
+      'Tell me about a time you failed - what happened and what did you learn?',
+      'Design WhatsApp - consider end-to-end encryption, message delivery, and group chats',
+      'Find the lowest common ancestor in a binary tree - discuss different scenarios',
+      'Tell me about a time you had to deal with ambiguity in a project',
+      'Design a distributed rate limiter - consider different algorithms and consistency',
+      'Word ladder - find shortest transformation sequence from one word to another',
+      'What questions do you have about Meta, the team, or the role?'
     ],
     relatedCompanies: ['google', 'amazon', 'netflix', 'uber']
   },
   'netflix': {
     name: 'Netflix',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Ace your Netflix interview by understanding their unique "Freedom and Responsibility" culture, demonstrating senior-level judgment, and showing you can thrive with minimal oversight.',
     industry: 'Technology',
     headquarters: 'Los Gatos, CA',
-    description: 'Netflix is the world\'s leading streaming entertainment service. Netflix interviews are known for emphasizing cultural fit, senior-level thinking, and their unique "freedom and responsibility" culture.',
+    description: 'Netflix is the world\'s leading streaming entertainment service with 260+ million paid memberships across 190+ countries, $33 billion in annual revenue, and a revolutionary culture that has reshaped how companies think about talent and workplace freedom. Netflix pioneered the "Freedom and Responsibility" culture—treating employees like responsible adults, offering unlimited vacation, eliminating expense approvals, and paying top-of-market compensation while expecting exceptional performance. The company\'s famous "Keeper Test" asks managers: "Would I fight to keep this person?" If not, they receive a generous severance. Netflix interviews focus heavily on cultural fit, seeking "stunning colleagues" who thrive with autonomy and demonstrate senior-level judgment. Technical interviews assess system design skills given Netflix\'s massive streaming infrastructure (15% of global internet bandwidth). Unlike traditional tech interviews, Netflix often skips algorithmic puzzles in favor of practical problems and deep discussions about past work.',
     interviewTips: [
-      'Understand Netflix\'s culture memo thoroughly',
-      'Demonstrate senior-level thinking and autonomy',
-      'Be prepared to discuss past impact with metrics',
-      'Show strong opinions weakly held',
-      'Research their tech stack and microservices architecture'
+      'Read and deeply understand Netflix\'s Culture Memo—it\'s not just HR material, but a genuine description of how Netflix operates and evaluates candidates',
+      'Netflix expects senior-level thinking from everyone—demonstrate independent judgment, not just following instructions or processes',
+      'Be prepared to discuss your past work in extreme detail with specific metrics and outcomes—Netflix cares about proven impact, not potential',
+      'Show "Informed Captains" mentality—gathering input from others but making and owning decisions rather than seeking consensus',
+      'Netflix values "Selflessness"—demonstrate times you prioritized company or team success over personal recognition',
+      'Unlike other tech companies, Netflix may skip LeetCode-style puzzles—expect practical coding problems and deep system design discussions',
+      'For system design, understand streaming architecture: video encoding, CDNs, adaptive bitrate streaming, recommendation systems',
+      'Demonstrate "Candor"—Netflix values direct, honest feedback. Be straightforward about your strengths, weaknesses, and opinions',
+      'Prepare for the "Keeper Test" lens: every interviewer asks themselves if you\'d be someone they\'d fight to keep',
+      'Netflix pays top-of-market—they expect you to know your worth and have genuine reasons for wanting Netflix beyond compensation',
+      'Show intellectual curiosity—Netflix wants people who stay current on industry trends and have thoughtful opinions',
+      'Be ready to discuss times you\'ve taken calculated risks, made unpopular decisions, or challenged the status quo',
+      'Netflix has no formal levels for most roles—demonstrate you can operate with ambiguity and self-direction',
+      'The interview process varies significantly by role and may include take-home assignments or presentations'
     ],
     whatTheyLookFor: [
-      'Exceptional talent and judgment',
-      'High performance and accountability',
-      'Cultural fit with freedom & responsibility',
-      'Strong communication',
-      'Self-motivation and independence'
+      'Exceptional talent and judgment—Netflix only wants "stunning colleagues" who would be hard to replace',
+      'Self-direction and ability to thrive with minimal oversight in an environment of freedom',
+      'Courage to make tough decisions and share candid feedback, even when uncomfortable',
+      'Selflessness—putting team and company success above personal ego or credit',
+      'Communication skills to influence through informal debate rather than hierarchy',
+      'Innovation and willingness to challenge conventional approaches',
+      'High performance with sustained track record of impact and results',
+      'Cultural fit with Freedom and Responsibility—not everyone thrives in this environment',
+      'Intellectual curiosity and passion for entertainment, technology, or both',
+      'Adaptability and comfort with change in a fast-evolving industry'
     ],
     process: [
       {
         step: 1,
-        title: 'Recruiter Screen (30 min)',
-        description: 'Initial culture and background fit'
+        title: 'Recruiter Screen',
+        description: '30-45 minute conversation with a Netflix recruiter focusing on your background, interest in Netflix, and initial cultural fit assessment. Netflix recruiters often discuss the Culture Memo and gauge your reaction. They\'ll explain the role, team, and interview process. This is also an assessment of communication skills.'
       },
       {
         step: 2,
-        title: 'Hiring Manager Interview (1 hour)',
-        description: 'Deep technical and cultural discussion'
+        title: 'Hiring Manager Interview',
+        description: '60-minute deep dive with the hiring manager covering your experience, technical depth, and cultural fit. Expect detailed questions about past projects, decisions you\'ve made, and your working style. The hiring manager assesses whether you\'d thrive in Netflix\'s high-freedom environment and if they\'d want you on their team.'
       },
       {
         step: 3,
-        title: 'Panel Interviews (4-6 rounds)',
-        description: 'Technical, cultural, and team fit evaluations'
+        title: 'Technical Interviews (2-3 Rounds)',
+        description: 'Technical assessment tailored to the role. For engineering: system design discussions (streaming architecture, distributed systems), practical coding problems (often real scenarios vs. algorithm puzzles), and deep dives into your technical experience. Some roles include a take-home assignment. Interviewers assess technical depth and judgment.'
       },
       {
         step: 4,
-        title: 'Final Review',
-        description: 'Team consensus and offer decision'
+        title: 'Cultural Interviews (2-3 Rounds)',
+        description: 'Interviews focused on Netflix\'s culture values: judgment, communication, impact, curiosity, innovation, courage, passion, honesty, and selflessness. Expect scenarios testing how you\'d handle freedom, give/receive feedback, make decisions without consensus, and demonstrate senior-level thinking. Every interviewer is evaluating the "Keeper Test."'
+      },
+      {
+        step: 5,
+        title: 'Final Review and Offer',
+        description: 'The hiring manager gathers all feedback and makes the final decision, typically within 1-2 weeks. Netflix offers include top-of-market base salary (no bonus or traditional equity—you can choose your cash/stock mix). Offers are non-negotiable as they represent Netflix\'s assessment of market rate. Total compensation is typically higher than comparable roles elsewhere.'
       }
     ],
     questions: [
-      'Design a video streaming service',
-      'How would you improve Netflix recommendations?',
-      'Implement a rate limiter',
-      'Describe a time you took an unpopular decision',
-      'Design a content delivery network'
+      'Design Netflix\'s video streaming architecture - consider encoding, CDN, adaptive bitrate, and global distribution',
+      'Tell me about a time you made an unpopular decision - how did you handle pushback?',
+      'How would you improve Netflix\'s recommendation system? Walk through your approach',
+      'Describe a time you demonstrated exceptional judgment without being told what to do',
+      'Design a content delivery network optimized for video streaming at global scale',
+      'Tell me about a time you gave someone difficult feedback - what happened?',
+      'Implement a rate limiter - discuss different algorithms and tradeoffs for a streaming service',
+      'Describe a time you took a significant risk in your work - what was the outcome?',
+      'Design the backend for Netflix\'s "Continue Watching" feature - consider multiple devices and real-time sync',
+      'Tell me about a time you had to influence a decision without formal authority',
+      'How would you approach A/B testing a major UI change on Netflix?',
+      'Describe a situation where you disagreed with your manager - what did you do?',
+      'Design a system to personalize thumbnails for millions of titles across millions of users',
+      'Tell me about a time you prioritized the company or team over your personal interests',
+      'How would you design Netflix\'s video encoding pipeline for thousands of new titles?',
+      'Describe the most impactful project you\'ve worked on - why did it matter?',
+      'Design a system to detect and handle streaming quality issues in real-time',
+      'What would you do in your first 90 days in this role?',
+      'What questions do you have about Netflix, the team, or the culture?'
     ],
     relatedCompanies: ['meta', 'spotify', 'uber', 'airbnb']
   },
   'salesforce': {
     name: 'Salesforce',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Prepare for your Salesforce interview with strategies for their Ohana culture, multi-tenant architecture expertise, and commitment to customer success and equality.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
-    description: 'Salesforce is the world\'s leading customer relationship management (CRM) platform. Salesforce interviews focus on technical skills, cultural values (Ohana), and understanding of cloud-based enterprise software.',
+    description: 'Salesforce is the world\'s #1 CRM platform with $35 billion in annual revenue, serving 150,000+ customers from small businesses to Fortune 500 enterprises. The company pioneered cloud-based SaaS and has expanded into marketing automation (Marketing Cloud), analytics (Tableau), collaboration (Slack), and industry-specific solutions. Salesforce\'s unique "Ohana" culture (Hawaiian for family) emphasizes trust, customer success, innovation, equality, and sustainability—these values are central to interview evaluations. With 73,000+ employees globally, Salesforce consistently ranks among the best places to work. The interview process assesses technical skills for multi-tenant architecture, understanding of the Salesforce platform and ecosystem (AppExchange, Apex, Lightning), and genuine alignment with company values. Salesforce pioneered the 1-1-1 philanthropic model, donating 1% of equity, product, and employee time to communities.',
     interviewTips: [
-      'Understand Salesforce products and CRM concepts',
-      'Study their core values (Trust, Customer Success, Innovation, Equality)',
-      'Practice system design for SaaS platforms',
-      'Prepare examples demonstrating empathy and collaboration',
-      'Research the Salesforce ecosystem and AppExchange'
+      'Understand the Salesforce product ecosystem: Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, Tableau, Slack, MuleSoft, and industry clouds',
+      'Study multi-tenant architecture deeply—Salesforce\'s platform serves 150,000+ customers on shared infrastructure with strong isolation',
+      'Learn Salesforce-specific technologies: Apex (Java-like language), Lightning Web Components, SOQL, Visualforce, and the metadata-driven platform',
+      'Salesforce\'s "Ohana" culture isn\'t just a buzzword—prepare examples demonstrating trust, customer success, innovation, equality, and sustainability',
+      'For system design, understand governor limits and how Salesforce handles scale constraints in a multi-tenant environment',
+      'Research the AppExchange ecosystem and understand how ISV partners build on the platform',
+      'Be ready to discuss Salesforce\'s acquisitions (Slack, Tableau, MuleSoft) and how they integrate into the platform strategy',
+      'Demonstrate genuine customer success mindset—Salesforce measures success by customer outcomes, not just product usage',
+      'Prepare for questions about API design, integration patterns, and enterprise system connectivity',
+      'Show commitment to equality and giving back—Salesforce values candidates who care about more than just technical work',
+      'Understand Trailhead and Salesforce\'s approach to democratizing learning and certifications',
+      'For coding interviews, expect standard algorithms plus platform-specific scenarios around data modeling and automation',
+      'Research the specific cloud or product area you\'re interviewing for—each has distinct technical challenges',
+      'Be prepared to discuss how you\'d maintain trust and security in a platform handling sensitive customer data'
     ],
     whatTheyLookFor: [
-      'Customer-first mindset',
-      'Technical competency',
-      'Cultural fit (Ohana culture)',
-      'Innovation and creativity',
-      'Integrity and trust'
+      'Customer success mindset—genuine focus on helping customers achieve their business outcomes',
+      'Trust and integrity—Salesforce\'s #1 value; handling customer data responsibly',
+      'Technical competency in cloud architecture, APIs, and enterprise software patterns',
+      'Cultural fit with Ohana values: trust, customer success, innovation, equality, sustainability',
+      'Understanding of multi-tenant SaaS architecture and its constraints',
+      'Innovation and creativity in solving customer problems',
+      'Collaboration skills for working across large, global teams',
+      'Commitment to equality, diversity, and inclusive practices',
+      'Long-term thinking about platform and customer success',
+      'Passion for the Salesforce ecosystem and continuous learning (Trailhead)'
     ],
     process: [
       {
         step: 1,
-        title: 'Recruiter Screen (30 min)',
-        description: 'Background and role fit discussion'
+        title: 'Recruiter Screen',
+        description: '30-minute call with a Salesforce recruiter discussing your background, interest in the role, and cultural fit with Ohana values. They\'ll explain the team, products, and interview process. Recruiters often ask about your familiarity with Salesforce products and your customer success philosophy.'
       },
       {
         step: 2,
         title: 'Technical Assessment',
-        description: 'Coding challenge or technical screen'
+        description: 'Depending on the role: a HackerRank coding assessment (60-90 minutes), a take-home assignment, or a technical phone screen with an engineer. Assessments cover algorithms, data structures, and may include Salesforce platform-specific questions for relevant roles.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews (3-5 rounds)',
-        description: 'Technical, behavioral, and cultural fit'
+        title: 'Onsite/Virtual Interviews (4-5 Rounds)',
+        description: 'Full day of interviews including: 2 technical interviews (coding, system design, or platform-specific), 1-2 behavioral interviews assessing Ohana values alignment, and often a presentation or case study for senior roles. Each interviewer evaluates different competencies.'
       },
       {
         step: 4,
-        title: 'Final Decision',
-        description: 'Team review and offer'
+        title: 'Values Interview',
+        description: 'A dedicated interview (sometimes part of the loop) specifically assessing alignment with Salesforce\'s core values: Trust, Customer Success, Innovation, Equality, and Sustainability. Come prepared with specific examples demonstrating each value.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Decision',
+        description: 'The hiring team debriefs and makes a decision, typically within 1-2 weeks. Salesforce offers include competitive base salary, annual bonus, RSUs, and generous benefits including wellness reimbursement and volunteer time off (VTO). Employee stock purchase plan available.'
       }
     ],
     questions: [
-      'Design a multi-tenant CRM database',
-      'Implement a caching strategy for a SaaS application',
-      'Tell me about a time you put the customer first',
-      'How would you design a workflow automation system?',
-      'Explain REST vs SOAP APIs'
+      'Design a multi-tenant CRM database - how do you isolate customer data while maintaining performance?',
+      'Implement a caching strategy for a SaaS application serving millions of users',
+      'Tell me about a time you went above and beyond for a customer\'s success',
+      'How would you design a workflow automation system that scales across thousands of organizations?',
+      'Explain REST vs SOAP APIs - when would you use each in an enterprise integration?',
+      'Design the architecture for Salesforce\'s real-time event platform',
+      'Tell me about a time you championed equality or inclusion in the workplace',
+      'How would you handle governor limits when building a feature for a high-volume customer?',
+      'Implement a permission system for multi-tenant data access',
+      'Tell me about a time you built trust with a skeptical stakeholder',
+      'Design an AppExchange app installation and upgrade system',
+      'How would you approach building a feature that works across Sales, Service, and Marketing clouds?',
+      'Tell me about an innovative solution you developed to solve a customer problem',
+      'Design a system for real-time sync between Salesforce and external systems',
+      'How do you ensure data security and compliance in a multi-tenant environment?',
+      'Tell me about a time you contributed to your community or gave back',
+      'Implement a bulk data processing system that respects API limits',
+      'How would you design Salesforce\'s Einstein AI recommendation engine?',
+      'What questions do you have about Salesforce, the team, or our culture?'
     ],
     relatedCompanies: ['oracle', 'microsoft', 'adobe', 'servicenow']
   },
   'oracle': {
     name: 'Oracle',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Oracle interview with deep database expertise, understanding of enterprise cloud infrastructure, and preparation for rigorous technical assessments.',
     industry: 'Technology',
     headquarters: 'Austin, TX',
-    description: 'Oracle is a global leader in database technology, cloud solutions, and enterprise software. Oracle interviews emphasize technical depth, especially in databases, systems, and enterprise architecture.',
+    description: 'Oracle is a global technology giant with $53 billion in annual revenue, known for industry-leading database technology, enterprise applications (ERP, HCM, SCM), and rapidly growing cloud infrastructure (OCI). With 140,000+ employees worldwide, Oracle powers mission-critical systems for the world\'s largest enterprises, banks, and governments. The company has aggressively expanded into cloud computing, with OCI competing against AWS and Azure for enterprise workloads. Oracle\'s interview process emphasizes deep technical expertise, especially in databases, distributed systems, and enterprise architecture. The culture values technical depth, problem-solving rigor, and long-term thinking. Oracle\'s acquisition of companies like NetSuite, Cerner (healthcare), and numerous cloud startups has expanded its reach across industries. Interviews often include challenging technical deep-dives that probe the limits of your knowledge.',
     interviewTips: [
-      'Study database fundamentals and SQL deeply',
-      'Understand Oracle\'s cloud infrastructure',
-      'Practice system design for enterprise applications',
-      'Prepare for technical deep-dives',
-      'Review data structures and algorithms'
+      'Master database fundamentals: indexing strategies, query optimization, ACID properties, transaction isolation levels, and storage engines',
+      'Understand Oracle Database specifics: execution plans, partitioning, RAC (Real Application Clusters), Data Guard, and PL/SQL',
+      'Study Oracle Cloud Infrastructure (OCI) architecture and how it differentiates from AWS/Azure (bare metal, Exadata cloud)',
+      'Prepare for intense technical deep-dives—Oracle interviewers will probe until they find the edges of your knowledge',
+      'For coding interviews, expect a mix of algorithmic problems and practical database/systems questions',
+      'Understand enterprise software patterns: high availability, disaster recovery, scalability, and security compliance',
+      'Research the specific product area: Database, OCI, Applications (Fusion), NetSuite, Cerner, or industry solutions',
+      'Oracle values candidates who can think long-term about architecture decisions and their multi-year implications',
+      'Be ready to discuss performance optimization—Oracle\'s enterprise customers demand exceptional performance',
+      'Prepare for whiteboard coding and system design with emphasis on practical implementation details',
+      'Show understanding of enterprise sales cycles and how technical decisions impact customer success',
+      'Oracle interviews can be challenging—demonstrate resilience and ability to work through difficult problems',
+      'Research Oracle\'s autonomous database and AI/ML initiatives',
+      'Be prepared to compare Oracle\'s approach with competitors (AWS, Microsoft, SAP) thoughtfully and objectively'
     ],
     whatTheyLookFor: [
-      'Strong technical fundamentals',
-      'Database expertise',
-      'Enterprise software understanding',
-      'Problem-solving skills',
-      'Long-term thinking'
+      'Deep technical fundamentals, especially in databases, systems, and distributed computing',
+      'Database expertise: query optimization, indexing, transactions, and scale',
+      'Understanding of enterprise software requirements: reliability, security, compliance',
+      'Problem-solving rigor and ability to work through complex technical challenges',
+      'Long-term architectural thinking and understanding of technical debt',
+      'Knowledge of cloud infrastructure and modern deployment patterns',
+      'Strong coding skills in Java, C++, or Python',
+      'Communication skills to explain complex technical concepts',
+      'Customer focus and understanding of enterprise needs',
+      'Intellectual curiosity and continuous learning in database/cloud technologies'
     ],
     process: [
       {
         step: 1,
-        title: 'Initial Screening (30 min)',
-        description: 'Recruiter or hiring manager call'
+        title: 'Recruiter/Hiring Manager Screen',
+        description: '30-45 minute call with a recruiter or directly with the hiring manager. Discussion covers your background, technical experience, and interest in Oracle. They\'ll explain the team, products, and role requirements. Some teams skip recruiter screens and go directly to hiring manager.'
       },
       {
         step: 2,
-        title: 'Technical Interview (1 hour)',
-        description: 'Coding and technical questions'
+        title: 'Technical Phone Interview',
+        description: '60-minute technical interview with an Oracle engineer. Expect coding problems, database questions (SQL queries, optimization), and system design discussions. For database roles, be prepared for deep dives into indexing, query execution, and transaction management.'
       },
       {
         step: 3,
-        title: 'Onsite/Virtual Loop (3-4 rounds)',
-        description: 'Technical depth and behavioral interviews'
+        title: 'Onsite/Virtual Loop (4-5 Rounds)',
+        description: 'Full day of interviews including: 2-3 technical interviews (coding, database concepts, system design), 1 hiring manager interview, and 1 behavioral/team fit interview. Oracle interviews often probe deeply into one topic rather than covering many topics superficially.'
       },
       {
         step: 4,
+        title: 'Technical Deep-Dive',
+        description: 'Many Oracle loops include a dedicated deep-dive session where senior engineers extensively probe your expertise in databases, distributed systems, or your specific domain. Be prepared to go to the whiteboard and work through complex scenarios.'
+      },
+      {
+        step: 5,
         title: 'Offer Decision',
-        description: 'Final review and offer'
+        description: 'The hiring team reviews all feedback and makes a decision, typically within 1-2 weeks. Oracle offers competitive compensation including base salary, annual bonus, and RSUs. Benefits include comprehensive healthcare and Oracle\'s employee stock purchase program.'
       }
     ],
     questions: [
-      'Explain database normalization',
-      'Design a distributed database system',
-      'Write a SQL query to find the Nth highest salary',
-      'What is the difference between clustered and non-clustered indexes?',
-      'How would you optimize a slow query?'
+      'Explain database normalization through all normal forms - when would you denormalize?',
+      'Design a distributed database system that handles cross-region replication with consistency guarantees',
+      'Write a SQL query to find the Nth highest salary without using LIMIT or TOP',
+      'What\'s the difference between clustered and non-clustered indexes? How does Oracle implement them?',
+      'How would you optimize a query that\'s doing a full table scan on a billion-row table?',
+      'Design Oracle\'s Autonomous Database - how would you automate tuning and patching?',
+      'Explain transaction isolation levels and the tradeoffs between them',
+      'Design a high-availability database cluster with automatic failover',
+      'How does Oracle RAC (Real Application Clusters) work? What are the challenges?',
+      'Implement a query optimizer component - how would you estimate query costs?',
+      'Design a data warehouse optimized for analytical queries',
+      'Explain how Oracle\'s redo logs and undo segments work for crash recovery',
+      'Design a multi-tenant database architecture for a SaaS application',
+      'How would you design a CDC (Change Data Capture) system for real-time replication?',
+      'Compare Oracle Cloud Infrastructure with AWS - what are the architectural differences?',
+      'Design a database backup and point-in-time recovery system',
+      'How would you detect and resolve database deadlocks?',
+      'Tell me about a time you optimized a critical system under production pressure',
+      'What questions do you have about Oracle, the team, or the role?'
     ],
     relatedCompanies: ['microsoft', 'salesforce', 'ibm', 'sap']
   },
   'adobe': {
     name: 'Adobe',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Ace your Adobe interview by demonstrating creativity alongside technical excellence, understanding their creative and experience cloud products, and showing passion for empowering creativity.',
     industry: 'Technology',
     headquarters: 'San Jose, CA',
-    description: 'Adobe is a leader in creative software, digital media, and marketing solutions. Adobe interviews assess technical abilities, creativity, product thinking, and cultural alignment with their innovative spirit.',
+    description: 'Adobe is a global leader in creative software and digital experience solutions with $20 billion in annual revenue, serving millions of creative professionals and enterprises worldwide. The company\'s Creative Cloud (Photoshop, Illustrator, Premiere Pro, After Effects) defines industry standards for creative work, while Experience Cloud powers digital marketing and customer experience for major brands. With 30,000+ employees, Adobe has successfully transitioned from packaged software to cloud subscriptions, pioneering the SaaS model. Adobe\'s Document Cloud (Acrobat, PDF) invented the portable document format. The company is heavily investing in AI through Adobe Sensei and Firefly (generative AI). Adobe interviews uniquely blend technical rigor with creativity assessment—they want engineers who understand how their code enables creative expression. The culture values innovation, customer empathy, and building tools that democratize creativity.',
     interviewTips: [
-      'Understand Adobe\'s product suite (Creative Cloud, Experience Cloud)',
-      'Show creativity and design thinking',
-      'Prepare for coding and algorithm questions',
-      'Demonstrate user-centric thinking',
-      'Research Adobe\'s recent innovations'
+      'Understand Adobe\'s three clouds: Creative Cloud (creative tools), Document Cloud (PDF/Acrobat), and Experience Cloud (marketing/analytics)',
+      'For Creative Cloud roles, demonstrate understanding of creative workflows and how engineers enable artistic expression',
+      'Study Adobe\'s AI initiatives: Sensei for ML-powered features, Firefly for generative AI, and Content Authenticity Initiative',
+      'Adobe values creativity in engineering solutions—show innovative approaches to technical problems, not just textbook answers',
+      'For system design, understand challenges specific to creative tools: large file handling, real-time collaboration, undo/redo systems',
+      'Research the specific product area: Photoshop, Premiere Pro, XD, Experience Platform, or Document Cloud each have unique challenges',
+      'Prepare for questions about user experience—Adobe engineers must think like the creative professionals using their tools',
+      'Show passion for creative expression or digital experiences, even if you\'re not a designer yourself',
+      'Adobe\'s collaborative tools (Creative Cloud collaboration, Figma acquisition) are strategic—understand real-time sync challenges',
+      'Be ready for performance optimization questions—creative tools must be responsive while handling massive files',
+      'Understand subscription software challenges: feature adoption, engagement metrics, and continuous delivery',
+      'Adobe values diversity and belonging—be prepared for cultural fit questions around inclusive teamwork',
+      'Research Frame.io and Figma acquisitions and how they fit Adobe\'s strategy',
+      'For behavioral interviews, emphasize times you collaborated with designers, product managers, or cross-functional creative teams'
     ],
     whatTheyLookFor: [
-      'Technical skills',
-      'Creativity and innovation',
-      'Product sense',
-      'Collaboration',
-      'Passion for digital experiences'
+      'Technical excellence combined with creative thinking and product sense',
+      'Understanding of creative professional workflows and needs',
+      'Strong coding skills with attention to performance and user experience',
+      'Innovation and ability to solve problems in novel ways',
+      'Collaboration abilities for working with designers, PMs, and researchers',
+      'Customer empathy—especially for creative professionals\' needs',
+      'Passion for enabling creativity and digital experiences',
+      'Attention to detail in both code quality and user-facing features',
+      'Interest in AI/ML and how it can augment creative work',
+      'Cultural fit with Adobe\'s values of genuine, exceptional, innovative, and involved'
     ],
     process: [
       {
         step: 1,
-        title: 'Phone Screen (30 min)',
-        description: 'Recruiter conversation'
+        title: 'Recruiter Screen',
+        description: '30-minute call with an Adobe recruiter covering your background, interest in Adobe, and role fit. They\'ll explain the team, products, and interview process. Recruiters often gauge your familiarity with Adobe products and passion for creative technology.'
       },
       {
         step: 2,
-        title: 'Technical Interview (1 hour)',
-        description: 'Coding and problem-solving'
+        title: 'Technical Phone Interview',
+        description: '60-minute technical interview with an Adobe engineer via HackerRank or shared document. Expect 1-2 coding problems plus discussion of your experience. Questions may relate to the specific product area (graphics, video, documents, or marketing tech).'
       },
       {
         step: 3,
-        title: 'Onsite Interviews (3-4 rounds)',
-        description: 'Technical, product, and behavioral'
+        title: 'Onsite/Virtual Interviews (4-5 Rounds)',
+        description: 'Full day of interviews including: 2 coding interviews (algorithms, data structures), 1 system design interview, 1 behavioral/culture interview, and potentially a product sense discussion. Adobe may include discussions about how you\'d approach building features for creative users.'
       },
       {
         step: 4,
-        title: 'Hiring Decision',
-        description: 'Team review and offer'
+        title: 'Hiring Manager Interview',
+        description: 'Discussion with the hiring manager about team dynamics, projects, career growth, and mutual fit. This is often more conversational, covering your goals and how you\'d contribute to the team\'s mission.'
+      },
+      {
+        step: 5,
+        title: 'Offer Decision',
+        description: 'The team debriefs and makes a decision, typically within 1-2 weeks. Adobe offers competitive base salary, annual bonus target, RSUs, and excellent benefits including sabbatical program, wellness stipend, and Creative Cloud subscription for employees.'
       }
     ],
     questions: [
-      'Design a photo editing application',
-      'Implement an undo/redo feature',
-      'How would you improve Photoshop\'s performance?',
-      'Design a collaborative document editing system',
-      'Find all anagrams in a list of words'
+      'Design a photo editing application - consider layers, filters, non-destructive editing, and large file handling',
+      'Implement an undo/redo system that handles complex document states efficiently',
+      'How would you improve Photoshop\'s performance for large files (gigabyte PSDs)?',
+      'Design a collaborative document editing system with real-time sync like Google Docs',
+      'Find all anagrams in a list of words - optimize for both time and space',
+      'Design the architecture for Adobe Firefly\'s generative AI image creation',
+      'Tell me about a time you had to understand users with very different workflows than your own',
+      'Implement a layer compositing engine that handles blending modes and masks',
+      'How would you design a video timeline editor with frame-accurate scrubbing?',
+      'Design a font rendering system that works across different platforms consistently',
+      'Tell me about a creative solution you developed to a technical problem',
+      'Implement an algorithm for content-aware fill (removing objects from images)',
+      'How would you design Experience Platform\'s real-time customer profile system?',
+      'Design a PDF rendering engine optimized for mobile devices',
+      'Tell me about a time you collaborated with designers or non-technical stakeholders',
+      'How would you implement real-time collaboration in Illustrator?',
+      'Design a system to handle creative asset management for enterprises',
+      'How would you approach building AI features that augment rather than replace creative professionals?',
+      'What questions do you have about Adobe, the team, or the role?'
     ],
     relatedCompanies: ['salesforce', 'microsoft', 'google', 'autodesk']
   },
   'uber': {
     name: 'Uber',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Uber interview with expertise in real-time systems, marketplace dynamics, and demonstrating their cultural norms around impact, customer obsession, and bold bets.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
-    description: 'Uber is a global mobility and delivery platform. Uber interviews focus on technical problem-solving, system design for large-scale systems, and cultural values around customer obsession and innovation.',
+    description: 'Uber is a global mobility and delivery platform with $37 billion in annual revenue, operating in 70+ countries with 6 million drivers and 130 million monthly active users. Beyond rideshare, Uber has expanded into food delivery (Uber Eats), freight shipping, and emerging mobility (bikes, scooters, autonomous vehicles). The company\'s engineering challenges involve real-time systems at massive scale: matching millions of riders with drivers in seconds, dynamic pricing algorithms, ETA prediction, fraud detection, and global mapping infrastructure. Uber\'s interview process emphasizes system design for large-scale distributed systems, algorithmic problem-solving, and cultural fit with their norms: customer obsession, bold bets, great minds, and owner mentality. The culture values speed, data-driven decisions, and scrappy execution. Uber\'s engineering blog documents many of their technical innovations in real-time systems and infrastructure.',
     interviewTips: [
-      'Study large-scale distributed systems',
-      'Understand marketplace and matching algorithms',
-      'Prepare for system design around real-time systems',
-      'Practice geo-spatial and mapping problems',
-      'Show scrappiness and ability to iterate'
+      'Study large-scale distributed systems—Uber processes millions of real-time events per second across the globe',
+      'Understand marketplace dynamics: two-sided markets, matching algorithms, supply/demand balancing, and surge pricing',
+      'Prepare for system design around real-time location systems: geohashing, proximity search, and route optimization',
+      'Know Uber\'s cultural norms: customer obsession, act like an owner, make bold bets, celebrate differences, do the right thing',
+      'Practice geo-spatial algorithms: nearest neighbor search, ETA prediction, routing, and map matching',
+      'Understand Uber\'s products beyond rides: Eats, Freight, and how they share infrastructure',
+      'Show "scrappiness"—Uber values engineers who can move fast, iterate quickly, and ship with limited resources',
+      'For behavioral interviews, emphasize times you made data-driven decisions under uncertainty',
+      'Research Uber\'s tech stack: they\'re heavy users of Go, Java, Node.js, and their own open-source tools',
+      'Be prepared to discuss tradeoffs between consistency, availability, and latency for real-time systems',
+      'Understand dynamic pricing (surge) economics and how algorithms balance rider experience with driver supply',
+      'Show customer obsession—discuss times you\'ve prioritized customer experience in technical decisions',
+      'Research Uber\'s autonomous vehicle efforts and future mobility initiatives',
+      'For coding, expect practical problems that might be seen in a rideshare system, not just abstract algorithms'
     ],
     whatTheyLookFor: [
-      'Strong technical skills',
-      'Bias for action',
-      'Customer obsession',
-      'Systems thinking',
-      'Entrepreneurial mindset'
+      'Strong technical skills in distributed systems and real-time data processing',
+      'Customer obsession—putting rider and driver experience at the center of decisions',
+      'Owner mentality—taking responsibility for outcomes, not just completing tasks',
+      'Ability to make bold bets and take calculated risks with imperfect information',
+      'Scrappy execution—moving fast, iterating, and shipping without over-engineering',
+      'Systems thinking—understanding how components interact in complex platforms',
+      'Data-driven decision making with ability to use metrics to guide choices',
+      'Collaboration across teams in a fast-paced, global environment',
+      'Intellectual curiosity about marketplace dynamics and mobility challenges',
+      'Adaptability and resilience in a rapidly evolving industry'
     ],
     process: [
       {
         step: 1,
-        title: 'Recruiter Screen (30 min)',
-        description: 'Initial background conversation'
+        title: 'Recruiter Screen',
+        description: '30-minute call with an Uber recruiter discussing your background, interest in Uber, and logistics. They\'ll explain the team, products, and cultural norms. Recruiters assess communication and basic fit with Uber\'s fast-paced environment.'
       },
       {
         step: 2,
-        title: 'Technical Phone Screen (1 hour)',
-        description: 'Coding interview'
+        title: 'Technical Phone Screen',
+        description: '60-minute technical interview via CoderPad with an Uber engineer. Expect 1-2 coding problems often involving arrays, strings, graphs, or practical scenarios like location-based queries. You\'ll discuss your approach while coding.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews (4-5 rounds)',
-        description: 'Coding, system design, and behavioral'
+        title: 'Onsite/Virtual Loop (4-5 Rounds)',
+        description: 'Full day of interviews including: 2 coding interviews, 1 system design interview (expect real-time/marketplace scenarios), and 1-2 behavioral interviews focused on cultural norms. Each interviewer evaluates specific competencies and provides written feedback.'
       },
       {
         step: 4,
         title: 'Hiring Committee Review',
-        description: 'Final decision'
+        description: 'All feedback is reviewed by a hiring committee that makes the final decision. The committee ensures candidates meet Uber\'s bar across technical skills, cultural fit, and potential for impact.'
+      },
+      {
+        step: 5,
+        title: 'Offer Decision',
+        description: 'Decisions typically come within 1-2 weeks of the onsite. Uber offers include base salary, annual bonus, and RSUs. Compensation is competitive with other major tech companies, with some variation by team and location.'
       }
     ],
     questions: [
-      'Design Uber\'s ride matching system',
-      'Implement a geohash algorithm',
-      'Design surge pricing algorithm',
-      'Find the nearest drivers to a location',
-      'How would you detect fraudulent rides?'
+      'Design Uber\'s ride matching system - how do you match millions of riders with drivers in real-time?',
+      'Implement a geohash algorithm for efficient proximity search',
+      'Design the surge pricing algorithm - how do you balance supply, demand, and rider experience?',
+      'Find the nearest K drivers to a rider\'s location - optimize for latency at scale',
+      'How would you detect fraudulent rides or accounts in the platform?',
+      'Design Uber Eats\' restaurant ranking and delivery time estimation system',
+      'Tell me about a time you made a bold bet with incomplete information',
+      'Implement an algorithm for route optimization considering traffic',
+      'Design a system for real-time ETA prediction that updates as conditions change',
+      'How would you build a driver incentive system that balances cost and supply?',
+      'Tell me about a time you put the customer first in a technical decision',
+      'Design Uber\'s trip fare calculation system with support for multiple pricing models',
+      'Implement a rate limiter for Uber\'s APIs handling millions of requests',
+      'Design a system for real-time location sharing during trips',
+      'Tell me about a time you took ownership of a problem outside your job description',
+      'How would you design Uber\'s mapping and navigation infrastructure?',
+      'Design a system to match freight shipments with truck drivers',
+      'How would you approach testing a new feature in a city before global rollout?',
+      'What questions do you have about Uber, the team, or the role?'
     ],
     relatedCompanies: ['lyft', 'doordash', 'airbnb', 'meta']
   },
   'airbnb': {
     name: 'Airbnb',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Ace your Airbnb interview by demonstrating alignment with their core values, expertise in marketplace systems, and passion for belonging and travel.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
-    description: 'Airbnb is a global platform for unique stays and experiences. Airbnb interviews are known for rigorous evaluation of coding skills, system design, and strong emphasis on core values and cultural fit.',
+    description: 'Airbnb is a global platform for unique stays and experiences with $10 billion in annual revenue, hosting 150+ million users across 220+ countries and regions. The platform connects hosts (offering 7 million+ listings) with guests seeking authentic travel experiences. Airbnb\'s mission is to create a world where anyone can belong anywhere. The interview process is famously rigorous, with dedicated "Core Values" interviews assessing alignment with principles like "Champion the Mission," "Be a Host," "Embrace the Adventure," and "Be a Cereal Entrepreneur" (creative problem-solving). Technical interviews focus on marketplace platform challenges: search ranking, trust & safety, pricing optimization, and real-time booking systems. Airbnb pioneered the modern two-sided marketplace and places enormous emphasis on design quality and user experience. The company values candidates who are passionate about travel, hosting, and creating belonging.',
     interviewTips: [
-      'Study Airbnb\'s core values deeply',
-      'Practice system design for marketplace platforms',
-      'Prepare stories showing entrepreneurial thinking',
-      'Understand two-sided marketplace dynamics',
-      'Research their design and user experience philosophy'
+      'Learn Airbnb\'s core values deeply: Champion the Mission, Be a Host, Embrace the Adventure, Be a Cereal Entrepreneur—prepare specific examples for each',
+      'The "Core Values" interview is weighted heavily—it\'s not just a culture fit check but a deciding factor in hiring decisions',
+      'Understand two-sided marketplace dynamics: balancing host and guest needs, network effects, and marketplace liquidity',
+      'Prepare for system design around marketplace challenges: search ranking, pricing algorithms, availability calendars, and booking systems',
+      'Show genuine passion for travel, hospitality, or creating belonging—Airbnb wants people who connect with the mission emotionally',
+      '"Be a Cereal Entrepreneur" means creative, scrappy problem-solving—share stories of innovative solutions with limited resources',
+      'Study Airbnb\'s design philosophy and attention to detail—the company was founded by designers and values craftsmanship',
+      'Understand trust & safety challenges: identity verification, fraud prevention, review systems, and handling disputes',
+      'For coding interviews, expect both algorithmic problems and practical scenarios like calendar availability or search ranking',
+      'Research Airbnb\'s technical blog for insights into their architecture, ML systems, and engineering culture',
+      'Prepare for experience deep-dives where interviewers probe specific projects from your past in extensive detail',
+      'Show "Be a Host" mentality—demonstrate times you\'ve prioritized others\' experience or made people feel welcomed',
+      'Airbnb has 5-6 interview rounds—pace yourself and stay energetic through a longer-than-average process',
+      'Understand Airbnb\'s expansion into Experiences, luxury (Airbnb Luxe), and long-term stays'
     ],
     whatTheyLookFor: [
-      'Technical excellence',
-      'Core values alignment',
-      'Product thinking',
-      'Attention to detail',
-      'Global perspective'
+      'Strong alignment with core values: Champion the Mission, Be a Host, Embrace the Adventure, Be a Cereal Entrepreneur',
+      'Technical excellence in marketplace systems, search, and distributed platforms',
+      'Product thinking and attention to design quality and user experience',
+      'Passion for travel, hospitality, or the mission of belonging',
+      'Creative problem-solving with scrappy, entrepreneurial approach',
+      'Collaboration skills for working across functions and with hosts/guests',
+      'Global perspective and cultural awareness for a worldwide platform',
+      'Attention to detail in both technical work and user-facing features',
+      'Data-driven decision making for marketplace optimization',
+      'Strong communication skills for explaining complex decisions'
     ],
     process: [
       {
         step: 1,
-        title: 'Recruiter Screen (30 min)',
-        description: 'Initial conversation'
+        title: 'Recruiter Screen',
+        description: '30-minute call with an Airbnb recruiter discussing your background and interest. They\'ll introduce Airbnb\'s values and assess initial cultural fit. Recruiters often ask about your connection to travel or hospitality and what draws you to the mission.'
       },
       {
         step: 2,
-        title: 'Technical Screen (1 hour)',
-        description: 'Coding interview'
+        title: 'Technical Phone Screen',
+        description: '60-minute coding interview via CoderPad with an Airbnb engineer. Expect 1-2 algorithmic problems while discussing your approach. Questions may relate to marketplace scenarios. The interviewer also assesses problem-solving approach and communication.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews (5-6 rounds)',
-        description: 'Coding, system design, experience, and values'
+        title: 'Onsite/Virtual Interviews (5-6 Rounds)',
+        description: 'Extended interview day including: 2 coding interviews, 1 system design interview (marketplace scenarios), 1-2 Core Values interviews, and 1 cross-functional interview (working with design, PM, or data). Each interviewer writes detailed feedback.'
       },
       {
         step: 4,
+        title: 'Core Values Interview',
+        description: 'A dedicated interview (often two) specifically assessing alignment with Airbnb\'s values. Interviewers probe deeply into examples of championing a mission, hosting/hospitality mindset, embracing adventure, and entrepreneurial creativity. This is weighted heavily in hiring decisions.'
+      },
+      {
+        step: 5,
         title: 'Cross-Functional Review',
-        description: 'Final decision by hiring committee'
+        description: 'All feedback is reviewed holistically by a hiring committee. Airbnb looks for strong signals across all dimensions—one weak interview can outweigh several strong ones if it\'s in a critical area like values. Decisions typically come within 1-2 weeks.'
       }
     ],
     questions: [
-      'Design a hotel booking system',
-      'Implement a calendar availability checker',
-      'Design Airbnb search and ranking',
-      'Tell me about a time you championed a mission',
-      'How would you prevent fraudulent listings?'
+      'Design Airbnb\'s search and ranking system - how do you balance relevance, personalization, and host fairness?',
+      'Implement a calendar availability checker for overlapping booking requests',
+      'Design the booking system to handle concurrent requests for the same listing',
+      'Tell me about a time you championed a mission or cause you believed in',
+      'How would you design a system to prevent fraudulent listings or bookings?',
+      'Design Airbnb\'s review and rating system - how do you maintain trust and authenticity?',
+      'Tell me about a time you "was a host" - putting someone else\'s experience before your own',
+      'Implement a pricing recommendation algorithm for new hosts',
+      'Design a system for instant booking vs. request-to-book availability',
+      'Tell me about a time you embraced adventure or took a calculated risk',
+      'How would you design personalized recommendations for both homes and experiences?',
+      'Implement a search algorithm that handles fuzzy location matching and date flexibility',
+      'Tell me about a time you showed "cereal entrepreneur" creativity with limited resources',
+      'Design Airbnb\'s host onboarding and listing quality system',
+      'How would you handle disputes between hosts and guests algorithmically?',
+      'Design a system for dynamic pricing based on demand, events, and seasonality',
+      'Tell me about a project where attention to detail made a significant difference',
+      'How would you design Airbnb Experiences\' booking and discovery platform?',
+      'What questions do you have about Airbnb, the team, or our mission?'
     ],
     relatedCompanies: ['uber', 'lyft', 'doordash', 'booking']
   },
   'lyft': {
     name: 'Lyft',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Prepare for your Lyft interview with understanding of rideshare systems, commitment to their community-focused values, and expertise in real-time marketplace platforms.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
-    description: 'Lyft is a ridesharing platform focused on improving people\'s lives through transportation. Lyft interviews assess technical skills, problem-solving, and cultural fit with their community-focused values.',
+    description: 'Lyft is a rideshare and mobility platform serving 20+ million riders across the U.S. and Canada, with $4.4 billion in annual revenue and a mission to improve people\'s lives with the world\'s best transportation. While smaller than Uber, Lyft differentiates through its community-focused culture, environmental commitment (carbon-neutral rides), and focus on the North American market. The company has expanded into bikes, scooters, car rentals, and transit partnerships. Lyft\'s engineering challenges mirror Uber\'s: real-time matching, ETA prediction, dynamic pricing, fraud detection, and mapping—but with a slightly smaller scale that still processes millions of rides weekly. The interview process assesses technical skills alongside Lyft\'s values: Be Yourself, Uplift Others, and Make it Happen. Lyft is known for a friendlier, more collaborative interview experience compared to some competitors, though technical standards remain high.',
     interviewTips: [
-      'Understand ridesharing and marketplace dynamics',
-      'Practice real-time system design problems',
-      'Prepare for geo-spatial algorithm questions',
-      'Show community-focused mindset',
-      'Study their approach to safety and trust'
+      'Understand Lyft\'s values: Be Yourself (authenticity), Uplift Others (community), and Make it Happen (execution)—prepare examples for each',
+      'Study real-time systems: ride matching, ETA prediction, dynamic pricing, and handling millions of concurrent location updates',
+      'Lyft\'s interview style tends to be collaborative and friendly—interviewers often guide you through problems',
+      'Prepare for geo-spatial algorithms: nearest neighbor search, geohashing, routing, and map matching',
+      'Research Lyft\'s environmental commitments (carbon neutrality) and community initiatives—they value candidates who care',
+      'Understand two-sided marketplace dynamics: driver supply, rider demand, pricing equilibrium, and incentive systems',
+      'For system design, focus on practical tradeoffs rather than over-engineering—Lyft values pragmatic solutions',
+      'Show "Uplift Others" mentality—discuss times you\'ve helped teammates, mentored others, or built inclusive teams',
+      'Lyft competes directly with Uber—be prepared to discuss the market thoughtfully without being negative about competitors',
+      'Research Lyft\'s autonomous vehicle partnerships and future mobility initiatives',
+      'Prepare for coding problems that might relate to rideshare scenarios: matching, routing, or location-based queries',
+      'Show genuine interest in improving urban transportation and mobility access',
+      'Lyft\'s engineering blog has good content on their technical challenges—review before your interview',
+      'For behavioral questions, emphasize collaboration and making others successful, not just individual achievements'
     ],
     whatTheyLookFor: [
-      'Technical competence',
-      'Community values',
-      'Collaborative spirit',
-      'Problem-solving creativity',
-      'User empathy'
+      'Technical competence in distributed systems, real-time processing, and marketplace platforms',
+      'Community values and commitment to uplifting others',
+      'Collaborative spirit and ability to work well with diverse teams',
+      'Authentic communication style—Lyft values people who are genuine',
+      'Problem-solving creativity with practical, pragmatic approaches',
+      'User empathy for both riders and drivers',
+      'Interest in sustainable transportation and positive community impact',
+      'Strong coding skills with attention to edge cases and reliability',
+      'Data-driven decision making for marketplace optimization',
+      'Adaptability in a competitive, fast-moving industry'
     ],
     process: [
       {
         step: 1,
-        title: 'Recruiter Call (30 min)',
-        description: 'Initial screening'
+        title: 'Recruiter Screen',
+        description: '30-minute call with a Lyft recruiter discussing your background and interest in mobility/transportation. They\'ll explain Lyft\'s values, the team, and interview process. Recruiters assess communication skills and basic cultural alignment.'
       },
       {
         step: 2,
-        title: 'Technical Screen (1 hour)',
-        description: 'Coding interview via video'
+        title: 'Technical Phone Screen',
+        description: '60-minute coding interview via CoderPad with a Lyft engineer. Expect 1-2 algorithmic problems with discussion. Lyft interviews tend to be collaborative—interviewers may guide you through challenges. The focus is on problem-solving approach as much as the solution.'
       },
       {
         step: 3,
-        title: 'Onsite Loop (4 rounds)',
-        description: 'Coding, system design, and behavioral'
+        title: 'Onsite/Virtual Loop (4-5 Rounds)',
+        description: 'Full day of interviews including: 2 coding interviews, 1 system design interview (expect rideshare/marketplace scenarios), and 1-2 behavioral interviews focused on Lyft values. The atmosphere is typically friendly and collaborative compared to some companies.'
       },
       {
         step: 4,
-        title: 'Team Review',
-        description: 'Hiring decision'
+        title: 'Values Assessment',
+        description: 'Throughout the process, each interviewer assesses alignment with Lyft\'s values: Be Yourself, Uplift Others, Make it Happen. There may be dedicated time for values questions, or they may be woven throughout technical interviews.'
+      },
+      {
+        step: 5,
+        title: 'Team Review and Offer',
+        description: 'The hiring team reviews all feedback and makes a decision, typically within 1-2 weeks. Lyft offers competitive compensation including base salary, annual bonus, and RSUs. The company is known for transparent communication throughout the process.'
       }
     ],
     questions: [
-      'Design a ride-sharing matching system',
-      'Calculate ETA for a route',
-      'Implement nearest driver search',
-      'Design dynamic pricing system',
-      'How would you improve rider safety?'
+      'Design a ride-matching system - how do you optimize for rider wait time, driver efficiency, and fairness?',
+      'Calculate ETA for a route considering current traffic, historical patterns, and road conditions',
+      'Implement nearest driver search using geohashing or another spatial indexing approach',
+      'Design a dynamic pricing system that balances supply and demand without alienating riders',
+      'How would you improve rider and driver safety in the platform?',
+      'Tell me about a time you uplifted or supported a teammate who was struggling',
+      'Design Lyft\'s driver incentive system to ensure adequate supply in different areas',
+      'Implement an algorithm for ride pooling - matching multiple riders going similar directions',
+      'How would you design a system to predict driver supply in different areas?',
+      'Tell me about a time you made something happen despite obstacles',
+      'Design a fraud detection system for identifying fake rides or driver collusion',
+      'Implement a system for tracking real-time vehicle locations at scale',
+      'Tell me about a time you were authentically yourself in a professional setting',
+      'Design the architecture for Lyft\'s bike and scooter rental system',
+      'How would you approach A/B testing pricing changes without negatively impacting riders?',
+      'Design a system for driver ratings that\'s fair and resistant to manipulation',
+      'Tell me about a time you collaborated across teams to achieve a goal',
+      'How would you design Lyft\'s navigation and routing system?',
+      'What questions do you have about Lyft, the team, or our mission?'
     ],
     relatedCompanies: ['uber', 'doordash', 'instacart', 'meta']
   },
   'spotify': {
     name: 'Spotify',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Spotify interview with expert preparation for their unique culture of innovation, technical excellence in audio streaming, and passion for transforming how the world experiences music.',
     industry: 'Technology',
-    headquarters: 'New York, NY',
-    description: 'Spotify is the world\'s largest music streaming service. Spotify interviews focus on technical skills, product thinking, and cultural fit with their innovative and music-passionate environment.',
+    headquarters: 'Stockholm, Sweden (US HQ: New York, NY)',
+    description: 'Spotify is the world\'s largest audio streaming platform with 600+ million users across 180+ markets, offering music, podcasts, and audiobooks. Founded in 2006 in Sweden, Spotify pioneered the freemium streaming model that transformed the music industry. The company operates through a "Squad" model—small, autonomous teams of 6-12 people with end-to-end ownership of features. Spotify\'s engineering culture emphasizes experimentation, data-driven decision making, and building for massive scale (processing 1+ billion events per day). The interview process evaluates technical depth, product thinking, and cultural alignment with their mission to unlock the potential of human creativity. Spotify values candidates who combine technical excellence with genuine passion for audio and user experience.',
     interviewTips: [
-      'Understand music streaming technology and challenges',
-      'Practice recommendation system design',
-      'Show passion for music and audio',
-      'Prepare for coding and system design',
-      'Research Spotify\'s engineering culture'
+      'Deep dive into Spotify\'s Squad/Tribe/Chapter/Guild organizational model—understand how autonomous teams operate and how you would thrive in this structure',
+      'Study recommendation systems and personalization: Discover Weekly, Release Radar, and the ML algorithms behind them—be ready to discuss collaborative filtering and content-based approaches',
+      'Prepare to discuss audio streaming at scale: CDN architecture, adaptive bitrate streaming, latency optimization, and handling 600M+ users globally',
+      'Understand Spotify\'s freemium model and conversion economics—show business acumen alongside technical skills',
+      'Research Spotify\'s expansion into podcasts (Anchor, Megaphone) and audiobooks—demonstrate awareness of their content strategy evolution',
+      'Practice system design for real-time features: live lyrics, group listening sessions (Jam), and social features like collaborative playlists',
+      'Be ready to discuss A/B testing at scale—Spotify runs thousands of experiments and values data-driven decision making',
+      'Show genuine passion for music and audio—interviewers notice who actually uses and loves the product vs who is just interviewing',
+      'Prepare for behavioral questions using the STAR method—Spotify values collaboration, innovation, and learning from failure',
+      'Understand Spotify\'s two-sided marketplace: balancing creator (artist) needs with listener experience and business sustainability',
+      'Research their engineering blog and open source contributions (Backstage, Luigi)—shows genuine interest in their technical culture',
+      'Be prepared to discuss how you handle ambiguity and make decisions with incomplete information—essential for Squad autonomy',
+      'Practice explaining complex technical concepts simply—Spotify values clear communication across disciplines',
+      'Show examples of user empathy and product thinking—how have you built things that users love?'
     ],
     whatTheyLookFor: [
-      'Technical skills',
-      'Product passion',
-      'Innovation mindset',
-      'Collaboration',
-      'User focus'
+      'Strong technical fundamentals with ability to build and scale distributed systems',
+      'Genuine passion for music, audio, and the listening experience',
+      'Product thinking and user empathy—ability to connect technical decisions to user impact',
+      'Collaborative mindset suited for autonomous Squad-based teams',
+      'Data-driven decision making and comfort with experimentation',
+      'Innovation and willingness to challenge the status quo',
+      'Clear communication skills across technical and non-technical audiences',
+      'Adaptability and comfort with ambiguity in fast-moving environment',
+      'Learning orientation and intellectual curiosity',
+      'Cultural contribution—how will you make Spotify a better place to work?'
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background, interest in Spotify, and role fit. They\'ll explain the interview process, assess basic qualifications, and answer your questions about the team and role. Come prepared with thoughtful questions about the specific squad and their current challenges.'
+      },
+      {
+        step: 2,
+        title: 'Technical Phone Screen (60 min)',
+        description: 'A coding interview conducted via CoderPad or similar platform. You\'ll solve 1-2 algorithmic problems while explaining your thought process. For senior roles, expect questions that touch on system design considerations. The interviewer evaluates problem-solving approach, code quality, and communication.'
+      },
+      {
+        step: 3,
+        title: 'Virtual Onsite (4-5 rounds, 3-4 hours)',
+        description: 'Multiple interviews including: 2 technical coding rounds (algorithms, data structures), 1 system design round (for senior roles—designing Spotify-scale systems), 1-2 behavioral/values rounds assessing collaboration and cultural fit. Each round is 45-60 minutes. Interviewers are typically from the hiring squad or related teams.'
+      },
+      {
+        step: 4,
+        title: 'Hiring Manager Conversation',
+        description: 'A discussion with the hiring manager to explore team fit, your career goals, and how you\'d contribute to the squad. This is also your opportunity to ask detailed questions about the team\'s roadmap, challenges, and working style.'
+      },
+      {
+        step: 5,
+        title: 'Offer & Decision',
+        description: 'The hiring committee reviews all feedback holistically. Decisions typically come within 1-2 weeks. Spotify offers include competitive base salary, equity (RSUs), and benefits. They\'re known for transparent compensation and strong work-life balance relative to other tech giants.'
+      }
+    ],
+    questions: [
+      'Design Spotify\'s music recommendation system—how would you build Discover Weekly?',
+      'Implement a shuffle algorithm that feels random to users (hint: Fisher-Yates isn\'t enough for perceived randomness)',
+      'Design the system architecture for streaming audio to 600M+ users globally with minimal latency',
+      'How would you design a collaborative playlist feature where multiple users can add and reorder songs in real-time?',
+      'Build a system to detect and handle duplicate songs uploaded by different artists',
+      'Design Spotify Wrapped—how would you compute personalized year-end statistics for 600M users efficiently?',
+      'Implement an LRU cache for recently played songs with O(1) operations',
+      'How would you design a lyrics synchronization system that displays lyrics in time with the music?',
+      'Tell me about a time you had to make a decision with incomplete information. What was your approach?',
+      'Design a system for Spotify Jam (group listening sessions) that keeps playback synchronized across devices',
+      'How would you A/B test a major change to the home screen without negatively impacting user engagement?',
+      'Describe a time you disagreed with a teammate. How did you resolve it?',
+      'Design a content moderation system for podcast uploads at Spotify scale',
+      'How would you improve the podcast discovery experience on Spotify?',
+      'Tell me about a product you built that you\'re proud of. What made it successful?',
+      'Design a system to predict which songs will go viral before they trend',
+      'How would you handle a situation where your squad disagrees on the technical approach?',
+      'Implement an algorithm to create smooth transitions between songs (crossfade)',
+      'What would you do in your first 90 days on this team?'
+    ],
+    relatedCompanies: ['netflix', 'apple', 'amazon', 'youtube']
+  },
+  'stripe': {
+    name: 'Stripe',
+    tagline: 'Excel in your Stripe interview with comprehensive preparation for their legendary technical rigor, focus on developer experience, and mission to increase the GDP of the internet.',
+    industry: 'Technology',
+    headquarters: 'San Francisco, CA (also Dublin, Ireland)',
+    description: 'Stripe is the financial infrastructure platform for the internet, processing hundreds of billions of dollars annually for millions of businesses from startups to Fortune 500 companies. Founded in 2010 by brothers Patrick and John Collison, Stripe is known for its developer-first approach, exceptional API design, and relentless focus on making payments "boring" (reliable and invisible). The company handles payment processing, billing, fraud prevention, banking-as-a-service, and financial operations. Stripe\'s interview process is famously rigorous, emphasizing deep technical thinking, systems design, and the ability to build reliable infrastructure at massive scale. They seek candidates who combine technical excellence with strong product sense and attention to detail.',
+    interviewTips: [
+      'Study Stripe\'s API design philosophy—read their API documentation and understand why developers love it. Be ready to discuss what makes a great API.',
+      'Understand payment systems deeply: authorization flows, settlement, chargebacks, PCI compliance, and the complexity of global payment methods',
+      'Prepare for rigorous system design: Stripe expects you to design systems that handle financial transactions where correctness is paramount—think about idempotency, exactly-once semantics, and distributed transactions',
+      'Practice coding with emphasis on correctness and edge cases—Stripe values robust code over clever code',
+      'Research Stripe\'s products beyond payments: Stripe Atlas, Connect, Issuing, Treasury, Radar (fraud), and Identity—shows you understand their platform vision',
+      'Be ready to discuss reliability and fault tolerance—Stripe operates critical financial infrastructure where downtime costs merchants millions',
+      'Understand the "Stripe Operating Principles"—especially "Users First", "Move with Urgency", and "Be Meticulous"',
+      'Prepare to write production-quality code in interviews—Stripe evaluates code as if it would be deployed, including error handling and testing',
+      'Study distributed systems concepts: consistency models, consensus protocols, and how to handle network partitions in financial systems',
+      'Show attention to developer experience—how would you design APIs, error messages, and documentation that developers love?',
+      'Practice explaining complex financial/technical concepts clearly—Stripe values clear communication',
+      'Prepare for the "Bug Squash" interview format—debugging real Stripe code to find and fix issues',
+      'Research Stripe Press and their commitment to long-term thinking—understand their cultural emphasis on intellectual depth',
+      'Be ready to discuss fraud and risk: how would you balance fraud prevention with user friction?'
+    ],
+    whatTheyLookFor: [
+      'Exceptional technical depth and ability to build reliable systems at scale',
+      'Meticulous attention to detail—especially around correctness and edge cases',
+      'Strong API design sensibility and developer empathy',
+      'Systems thinking: understanding how components interact in complex distributed systems',
+      'Product sense: connecting technical decisions to user and business impact',
+      'Clear, precise communication—both written and verbal',
+      'Intellectual curiosity and love of learning',
+      'Bias toward action and pragmatic problem solving',
+      'Comfort with ambiguity and ability to break down complex problems',
+      'Cultural alignment with Stripe\'s operating principles and long-term thinking'
     ],
     process: [
       {
         step: 1,
         title: 'Recruiter Screen (30 min)',
-        description: 'Background and role discussion'
+        description: 'Initial conversation with a recruiter to discuss your background, interest in Stripe, and role alignment. They\'ll explain the interview process and assess basic qualifications. Come prepared with specific reasons why Stripe and thoughtful questions about the team.'
       },
       {
         step: 2,
-        title: 'Technical Interview (1 hour)',
-        description: 'Coding and problem-solving'
+        title: 'Technical Phone Screen (60 min)',
+        description: 'A coding interview via CoderPad focusing on a practical programming problem. Stripe evaluates not just correctness but code quality, edge case handling, and how you communicate your approach. Expect problems related to data processing, API design, or financial calculations.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews (3-4 rounds)',
-        description: 'Technical, product, and culture fit'
+        title: 'Virtual Onsite (4-6 rounds, 4-5 hours)',
+        description: 'Multiple intensive interviews including: 2 coding rounds (practical problems with production-quality expectations), 1 system design round (designing financial infrastructure), 1 "Bug Squash" round (debugging real Stripe code), and 1-2 behavioral rounds. Each interviewer submits detailed written feedback. The bar is high—every interviewer must be confident you\'d be a strong addition.'
       },
       {
         step: 4,
-        title: 'Final Review',
-        description: 'Team decision'
+        title: 'Manager & Cross-Functional',
+        description: 'Conversations with the hiring manager and potentially team members to assess role fit and discuss your career goals. This is collaborative—Stripe wants to ensure mutual fit. Use this time to deeply understand the team\'s challenges and roadmap.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'A hiring committee reviews all feedback holistically. Stripe\'s process is thorough—decisions may take 1-2 weeks. Offers are competitive with strong base salary, significant equity, and excellent benefits. Stripe is known for fair, transparent compensation practices.'
       }
     ],
     questions: [
-      'Design a music recommendation system',
-      'Implement a playlist shuffle algorithm',
-      'Design Spotify\'s streaming architecture',
-      'How would you reduce music streaming latency?',
-      'Build a lyrics search feature'
+      'Design a payment processing system that handles $1M+ transactions per minute with 99.999% uptime',
+      'Implement idempotency for payment API requests—how do you ensure exactly-once processing?',
+      'Design Stripe\'s fraud detection system (Radar)—how would you balance fraud prevention with user friction?',
+      'How would you handle payment reconciliation at scale across multiple payment processors and banks?',
+      'Build a rate limiting system for API requests that\'s fair and prevents abuse',
+      'Design a system to handle webhook delivery with guaranteed at-least-once delivery',
+      'Debug this code: [presented with real Stripe code containing subtle bugs]',
+      'How would you design a multi-currency payment system that handles exchange rates and settlement?',
+      'Tell me about a system you built that had to be highly reliable. How did you ensure reliability?',
+      'Design Stripe Connect—a platform enabling marketplaces to handle payments for their sellers',
+      'How would you design an API versioning strategy for a payments API used by millions of developers?',
+      'Implement a distributed lock service for coordinating payment processing across servers',
+      'What\'s a technical decision you made that you later regretted? What did you learn?',
+      'Design a system to detect and prevent card testing attacks',
+      'How would you explain PCI compliance to a technical audience? To a business audience?',
+      'Design Stripe Treasury—banking-as-a-service for platforms',
+      'Tell me about a time you had to push back on a product requirement. How did you handle it?',
+      'How would you design real-time balance tracking for millions of connected accounts?',
+      'What\'s a piece of Stripe\'s documentation or API design you particularly admire? Why?'
     ],
-    relatedCompanies: ['netflix', 'meta', 'google', 'apple']
-  },
-  'stripe': {
-    name: 'Stripe',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
-    industry: 'Technology',
-    headquarters: 'San Francisco, CA',
-    description: 'Stripe is a financial infrastructure platform for the internet. Stripe interviews are rigorous, focusing on technical depth, product thinking, and building for developers and businesses.',
-    interviewTips: [
-      'Understand payment systems and financial technology',
-      'Practice API design questions',
-      'Study distributed systems and consistency',
-      'Prepare for discussions on reliability and scale',
-      'Show attention to developer experience'
-    ],
-    whatTheyLookFor: [
-      'Technical rigor',
-      'Systems thinking',
-      'Product sense',
-      'Attention to detail',
-      'Developer empathy'
-    ],
-    process: [
-      {
-        step: 1,
-        title: 'Initial Screen (30 min)',
-        description: 'Recruiter conversation'
-      },
-      {
-        step: 2,
-        title: 'Technical Phone Interview (1 hour)',
-        description: 'Coding and system design'
-      },
-      {
-        step: 3,
-        title: 'Onsite Interviews (4-5 rounds)',
-        description: 'Technical depth, design, and integration'
-      },
-      {
-        step: 4,
-        title: 'Hiring Committee',
-        description: 'Final review and decision'
-      }
-    ],
-    questions: [
-      'Design a payment processing system',
-      'Implement idempotency for API requests',
-      'Design Stripe\'s fraud detection system',
-      'How would you handle payment reconciliation?',
-      'Build a rate limiting system for APIs'
-    ],
-    relatedCompanies: ['square', 'paypal', 'coinbase', 'plaid']
+    relatedCompanies: ['square', 'paypal', 'adyen', 'plaid']
   },
   'goldman-sachs': {
     name: 'Goldman Sachs',
@@ -4630,156 +5092,255 @@ export const companies = {
   // Technology Industry (expansion)
   'ibm': {
     name: 'IBM',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your IBM interview with comprehensive preparation for the technology industry\'s most storied company, covering hybrid cloud, AI, and enterprise consulting at global scale.',
     industry: 'Technology',
     headquarters: 'Armonk, NY',
-    description: 'IBM is a global technology and consulting leader, known for enterprise solutions, cloud computing (Red Hat), AI (Watson), quantum computing, and IT services. IBM has pivoted from hardware to software, cloud, and hybrid cloud solutions for enterprises.',
+    description: 'IBM (International Business Machines) is a 110+ year-old technology and consulting giant that has reinvented itself multiple times—from tabulating machines to mainframes, PCs, services, and now hybrid cloud and AI. With $60+ billion in annual revenue and 300,000+ employees across 170+ countries, IBM serves the world\'s largest enterprises. The company\'s strategic focus is on hybrid cloud (powered by Red Hat, acquired for $34B in 2019) and AI (Watson). IBM\'s consulting business helps enterprises modernize their technology stacks. The interview process evaluates technical depth, enterprise mindset, and cultural fit with IBM\'s values of dedication, innovation, and trust. IBM pioneered modern HR practices and remains committed to diversity and continuous learning.',
     interviewTips: [
-      'Understand IBM\'s hybrid cloud strategy and Red Hat acquisition',
-      'Learn about Watson AI and quantum computing initiatives',
-      'Be prepared for technical deep-dives and system design',
-      'Show knowledge of enterprise technology and consulting',
-      'Research IBM\'s transformation and innovation focus'
+      'Understand IBM\'s strategic pivot: hybrid cloud (Red Hat OpenShift, IBM Cloud) and AI (watsonx, Watson) are the focus—legacy hardware and services are not',
+      'Study the Red Hat acquisition deeply—understand OpenShift, Kubernetes, and why hybrid cloud matters for enterprises locked into on-premises infrastructure',
+      'Research watsonx (IBM\'s enterprise AI platform) and how it differs from consumer AI like ChatGPT—enterprise needs around governance, trust, and domain-specific models',
+      'Prepare for behavioral questions using IBM\'s values: dedication to every client\'s success, innovation that matters, and trust and responsibility in all relationships',
+      'For consulting roles: Practice case studies around cloud migration, application modernization, and digital transformation',
+      'Understand IBM\'s mainframe business—still critical and profitable, processing 90%+ of credit card transactions globally',
+      'Be ready to discuss quantum computing—IBM leads in quantum research and offers cloud-based quantum computers',
+      'Practice system design with enterprise constraints: security, compliance (HIPAA, SOX, GDPR), legacy integration, and 24/7 availability requirements',
+      'Research IBM\'s industry-specific solutions—healthcare, financial services, supply chain—and how they combine consulting with technology',
+      'Show genuine interest in enterprise technology—IBM wants people who are excited about solving complex problems for large organizations',
+      'Prepare for multiple interview rounds with different stakeholders—technical, managerial, and potentially client-facing',
+      'Understand IBM\'s Think culture and commitment to continuous learning—showing intellectual curiosity is essential',
+      'For technical roles: Be prepared for coding in Java, Python, or Go, plus system design questions focused on enterprise architecture',
+      'Research IBM\'s open source contributions—they\'re major contributors to Linux, Kubernetes, and many open source projects'
     ],
     whatTheyLookFor: [
-      'Technical expertise in cloud or AI',
-      'Problem-solving and analytical skills',
-      'Enterprise consulting mindset',
-      'Innovation and learning agility',
-      'Client relationship skills'
+      'Technical depth in cloud, AI, or enterprise systems depending on role',
+      'Enterprise mindset: understanding complex stakeholder environments and long-term relationships',
+      'Client-first orientation and ability to translate technology to business value',
+      'Collaborative approach suited for large, matrixed organizations',
+      'Intellectual curiosity and commitment to continuous learning',
+      'Innovation thinking—ability to solve problems creatively within enterprise constraints',
+      'Strong communication skills across technical and executive audiences',
+      'Global perspective and cultural sensitivity',
+      'Adaptability and resilience in evolving technology landscape',
+      'Alignment with IBM\'s values: dedication, innovation, and trust'
     ],
     process: [
       {
         step: 1,
-        title: 'Online Application',
-        description: 'Submit resume through IBM careers'
+        title: 'Online Application & Assessment',
+        description: 'Submit your application through IBM Careers. Depending on the role, you may complete online assessments including cognitive ability tests, coding challenges (HackerRank for technical roles), or situational judgment tests. IBM uses AI-powered screening to match candidates to roles.'
       },
       {
         step: 2,
-        title: 'Online Assessment',
-        description: 'Coding challenges or aptitude tests'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with an IBM recruiter to discuss your background, interest in IBM, and role fit. They\'ll explain the interview process and team structure. Come prepared with specific reasons why IBM and questions about the business unit you\'re targeting.'
       },
       {
         step: 3,
-        title: 'Phone/Video Interviews (1-2 rounds)',
-        description: 'Technical and behavioral questions'
+        title: 'Technical Interviews (2-3 rounds)',
+        description: 'For technical roles: coding interviews (algorithms, data structures) plus system design focusing on enterprise scenarios. For consulting roles: case studies around digital transformation, cloud migration, or business strategy. Interviews may be with hiring managers, technical leaders, and team members. Each round is typically 45-60 minutes.'
       },
       {
         step: 4,
-        title: 'Final Interview',
-        description: 'Onsite or virtual panel interview'
+        title: 'Final Interview / Panel',
+        description: 'A final round with senior leadership or a panel interview. This assesses leadership potential, cultural fit, and your vision for contributing to IBM. For senior roles, expect discussions about strategic thinking and client relationship management.'
+      },
+      {
+        step: 5,
+        title: 'Offer & Onboarding',
+        description: 'IBM\'s hiring committee reviews all feedback. Decisions typically come within 2-3 weeks. Offers include competitive base salary, annual bonus, and IBM\'s famous benefits including education reimbursement and retirement contributions. IBM invests heavily in new hire onboarding and development programs.'
       }
     ],
     questions: [
-      'Explain cloud computing to a non-technical person',
-      'How would you design a distributed caching system?',
-      'What excites you about IBM\'s hybrid cloud strategy?',
-      'Describe your experience with enterprise software',
-      'How do you stay current with technology trends?'
+      'Explain cloud computing to a CIO who is skeptical about moving enterprise workloads off-premises',
+      'Design a distributed caching system for an enterprise application serving millions of users',
+      'What excites you about IBM\'s hybrid cloud strategy? How does Red Hat fit in?',
+      'How would you help a Fortune 500 company migrate their legacy mainframe applications to the cloud?',
+      'Design a secure, compliant data architecture for a healthcare organization',
+      'Tell me about a time you had to explain a complex technical concept to a non-technical audience',
+      'How would you architect a Watson-based solution for customer service automation?',
+      'What are the trade-offs between public cloud, private cloud, and hybrid cloud?',
+      'Describe a time you worked on a project with multiple stakeholders with conflicting priorities',
+      'Design a microservices architecture for an enterprise banking application',
+      'How do you stay current with rapidly evolving technology? Give specific examples',
+      'What would you do if a client was unhappy with a solution your team delivered?',
+      'Explain Kubernetes and containerization to someone with a mainframe background',
+      'Tell me about a time you failed and what you learned from it',
+      'How would you design an AI system that enterprises can trust with sensitive data?',
+      'What are the biggest challenges facing enterprise IT today?',
+      'Describe your experience working in or with large, matrixed organizations',
+      'How would you approach a digital transformation engagement for a traditional retailer?',
+      'What questions do you have about IBM\'s culture or the role?'
     ],
     relatedCompanies: ['accenture', 'oracle', 'microsoft', 'red-hat']
   },
 
   'intel': {
     name: 'Intel',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Intel interview with comprehensive preparation for the semiconductor industry leader, covering chip design, process technology, and the future of computing.',
     industry: 'Technology',
     headquarters: 'Santa Clara, CA',
-    description: 'Intel is a global leader in semiconductor chip manufacturing, known for processors that power PCs, servers, and data centers. Intel focuses on process technology, chip design, manufacturing excellence, and expansion into GPUs, AI accelerators, and foundry services.',
+    description: 'Intel Corporation is the world\'s largest semiconductor chip manufacturer by revenue, with 50+ years of history powering computing from PCs to data centers. Founded by Gordon Moore and Robert Noyce in 1968, Intel invented the microprocessor and has driven Moore\'s Law for decades. With 130,000+ employees and $50+ billion in annual revenue, Intel designs and manufactures x86 processors (Core, Xeon), GPUs (Arc), AI accelerators (Gaudi), and is building the world\'s most advanced chip foundry (Intel Foundry Services). Intel\'s interview process emphasizes deep technical expertise, problem-solving ability, and understanding of semiconductor physics and manufacturing. The company seeks candidates who can contribute to their ambitious IDM 2.0 strategy of regaining process leadership.',
     interviewTips: [
-      'Understand semiconductor manufacturing and Moore\'s Law',
-      'Learn about Intel\'s process nodes and manufacturing technology',
-      'Be prepared for technical questions on hardware or design',
-      'Show knowledge of chip architecture and performance',
-      'Research Intel\'s strategy in AI, data center, and foundry'
+      'Understand Intel\'s strategic transformation: IDM 2.0, Intel Foundry Services, and the goal to regain process technology leadership by 2025',
+      'Study semiconductor fundamentals: transistor physics, process nodes (Intel 7, Intel 4, Intel 3, Intel 20A), lithography (EUV), and packaging technologies (Foveros, EMIB)',
+      'For hardware roles: Be prepared for deep technical questions on chip architecture, RTL design, verification, or physical design depending on the role',
+      'Understand Intel\'s competitive landscape: AMD, NVIDIA, TSMC, Samsung—and how Intel is differentiating through vertical integration',
+      'Research Intel\'s AI strategy: Gaudi accelerators (from Habana Labs acquisition), oneAPI, and competition with NVIDIA in data center AI',
+      'Practice technical problems related to your domain: digital logic, analog circuits, computer architecture, or manufacturing processes',
+      'Know Intel\'s product lines: Core (client), Xeon (data center), Altera FPGAs, Mobileye (autonomous vehicles), and emerging GPU/AI products',
+      'Be ready to discuss power-performance trade-offs—a fundamental challenge in semiconductor design',
+      'Understand Intel\'s manufacturing advantage and challenge: owning fabs is capital-intensive but enables vertical integration',
+      'Prepare for behavioral questions about collaboration—Intel projects involve large, cross-functional teams',
+      'Research Intel\'s culture and history—founding by Noyce/Moore, "Grove era" management, and current CEO Pat Gelsinger\'s vision',
+      'For software roles: Understand Intel\'s software ecosystem including compilers, libraries, and oneAPI cross-architecture programming',
+      'Show intellectual depth—Intel seeks people passionate about pushing the boundaries of physics and engineering',
+      'Be ready to explain your past technical work in detail—Intel interviewers will probe deeply on resume projects'
     ],
     whatTheyLookFor: [
-      'Technical depth in hardware/chip design',
-      'Problem-solving abilities',
-      'Manufacturing and process expertise',
-      'Innovation mindset',
-      'Collaboration across teams'
+      'Deep technical expertise in semiconductor design, architecture, or manufacturing',
+      'Strong analytical and problem-solving skills',
+      'Understanding of chip physics and engineering fundamentals',
+      'Collaborative mindset for large, cross-functional engineering teams',
+      'Innovation and ability to push technical boundaries',
+      'Attention to detail—semiconductor design has zero tolerance for errors',
+      'Ability to work on long-term, complex projects with patience and persistence',
+      'Intellectual curiosity and passion for computing technology',
+      'Clear communication of complex technical concepts',
+      'Alignment with Intel\'s mission to create world-changing technology'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Intel careers'
+        title: 'Online Application & Screening',
+        description: 'Submit your application through Intel Careers. Your resume is reviewed for relevant technical skills and experience. For some roles, you may complete an online technical assessment covering domain-specific knowledge (digital logic, programming, etc.).'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Phone/Video Technical Screen (45-60 min)',
+        description: 'A technical interview with a hiring team member covering fundamental concepts in your domain. Expect questions on digital logic, computer architecture, programming, or process engineering depending on the role. The interviewer assesses baseline technical competency.'
       },
       {
         step: 3,
-        title: 'Technical Interviews (2-3 rounds)',
-        description: 'Deep technical questions and problem-solving'
+        title: 'Virtual/Onsite Interview Loop (4-6 rounds)',
+        description: 'Multiple technical interviews with team members, including deep-dive technical discussions, problem-solving exercises, and design questions. Hardware roles may include RTL coding, architecture design, or verification methodology questions. Expect to present and defend your past technical work in detail. Each round is 45-60 minutes.'
       },
       {
         step: 4,
-        title: 'Final Decision',
-        description: 'Hiring committee review and offer'
+        title: 'Hiring Manager Interview',
+        description: 'Discussion with the hiring manager about team fit, career goals, and your potential contribution to the team\'s roadmap. This is also your opportunity to ask detailed questions about the team\'s projects and Intel\'s strategic direction.'
+      },
+      {
+        step: 5,
+        title: 'Offer & Decision',
+        description: 'The hiring committee reviews all feedback. Intel is thorough—decisions may take 1-2 weeks. Offers include competitive base salary, annual bonus, equity (RSUs), and Intel\'s comprehensive benefits. Intel invests in employee development with extensive training programs.'
       }
     ],
     questions: [
-      'Explain how a CPU executes instructions',
-      'What do you know about Intel\'s process technology roadmap?',
-      'How would you optimize chip performance vs power consumption?',
-      'Describe your experience with hardware design or manufacturing',
-      'What are the biggest challenges facing semiconductor industry?'
+      'Explain how a CPU executes instructions from fetch to retire',
+      'What do you know about Intel\'s process technology roadmap and IDM 2.0?',
+      'Design a cache hierarchy for a high-performance processor—explain your trade-offs',
+      'How would you optimize a chip design for power efficiency vs performance?',
+      'Explain the difference between static and dynamic power consumption in CMOS',
+      'What are the biggest challenges in semiconductor manufacturing at advanced nodes?',
+      'Design a simple pipelined processor and explain hazards and solutions',
+      'How does EUV lithography work and why is it important for advanced nodes?',
+      'Tell me about a complex technical project you worked on—what was your contribution?',
+      'Explain memory hierarchy and how caching improves performance',
+      'What is branch prediction and why is it critical for processor performance?',
+      'How would you approach verification for a chip with billions of transistors?',
+      'What are the trade-offs between monolithic chips and chiplet architectures?',
+      'Explain Intel\'s Foveros and EMIB packaging technologies',
+      'Tell me about a time you debugged a difficult technical problem',
+      'How does Intel differentiate from AMD and NVIDIA in the data center?',
+      'What interests you about working on next-generation semiconductor technology?',
+      'Design an ALU and explain the implementation of basic operations',
+      'What questions do you have about Intel or the role?'
     ],
     relatedCompanies: ['amd', 'nvidia', 'qualcomm', 'tsmc']
   },
 
   'cisco': {
     name: 'Cisco',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Ace your Cisco interview with expert preparation for the networking industry leader, covering enterprise infrastructure, security, and collaboration at global scale.',
     industry: 'Technology',
     headquarters: 'San Jose, CA',
-    description: 'Cisco is the global leader in networking hardware, software, and telecommunications equipment. Cisco provides routers, switches, security solutions, collaboration tools (Webex), and is pivoting to software, security, and recurring revenue through subscriptions.',
+    description: 'Cisco Systems is the worldwide leader in networking technology, with hardware and software solutions that power the internet and enterprise networks globally. Founded in 1984 by Stanford computer scientists, Cisco\'s routers and switches form the backbone of enterprise and internet infrastructure. With $50+ billion in annual revenue and 80,000+ employees, Cisco has transformed from a hardware company to a software and services leader, with recurring revenue comprising 50%+ of total revenue. Key businesses include networking (routers, switches, wireless), security (SecureX, Duo, Umbrella), collaboration (Webex), and observability (AppDynamics, ThousandEyes). The interview process evaluates technical networking expertise, customer focus, and alignment with Cisco\'s culture of innovation and inclusion.',
     interviewTips: [
-      'Understand networking fundamentals (TCP/IP, routing, switching)',
-      'Learn about Cisco\'s product portfolio and certifications',
-      'Be prepared for technical questions on network design',
-      'Show knowledge of cybersecurity and cloud networking',
-      'Research Cisco\'s transformation to software and subscriptions'
+      'Master networking fundamentals: OSI model, TCP/IP, routing protocols (OSPF, BGP), switching (VLANs, STP), and network security—these are table stakes',
+      'Understand Cisco\'s strategic evolution: from hardware to software, subscriptions, and recurring revenue—shows business awareness',
+      'Study Cisco\'s security portfolio deeply: SecureX platform, Duo (identity), Umbrella (DNS security), Secure Endpoint—security is a major growth area',
+      'For network engineering roles: Be prepared for hands-on troubleshooting scenarios and network design questions',
+      'Research Cisco\'s collaboration business: Webex is a major platform competing with Zoom and Microsoft Teams',
+      'Understand intent-based networking and network automation (Cisco DNA Center, network programmability with Python/NETCONF/RESTCONF)',
+      'Know Cisco certifications (CCNA, CCNP, CCIE)—even if you don\'t have them, understand what they cover',
+      'Prepare for behavioral questions using the STAR method—Cisco values collaboration, customer focus, and integrity',
+      'Research Cisco\'s observability strategy: AppDynamics for application performance, ThousandEyes for internet/cloud visibility',
+      'Understand SD-WAN and the shift from traditional WAN—Cisco\'s Viptela acquisition and Meraki cloud-managed networking',
+      'Practice network design: designing enterprise networks for performance, security, and scalability',
+      'Show customer empathy—Cisco\'s culture emphasizes solving real customer problems',
+      'Understand Cisco\'s competitive landscape: Juniper, Arista (data center), Palo Alto (security), Fortinet',
+      'Prepare to discuss network troubleshooting methodology—systematic approach to diagnosing issues'
     ],
     whatTheyLookFor: [
-      'Networking technical expertise',
-      'Problem-solving skills',
-      'Customer focus',
-      'Innovation and adaptability',
-      'Collaboration abilities'
+      'Strong networking technical fundamentals (routing, switching, security)',
+      'Problem-solving ability and systematic troubleshooting approach',
+      'Customer-centric mindset and ability to understand business needs',
+      'Collaborative approach suited for large engineering teams',
+      'Innovation mindset and adaptability to evolving technology',
+      'Clear communication skills for technical and non-technical audiences',
+      'Understanding of network security principles and best practices',
+      'Software and automation skills (Python, APIs) for modern network engineering',
+      'Intellectual curiosity and commitment to continuous learning',
+      'Cultural fit with Cisco\'s values: innovation, inclusion, and integrity'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through Cisco careers portal'
+        title: 'Online Application',
+        description: 'Submit your application through Cisco Careers. Your resume is reviewed for relevant experience and skills. Cisco uses AI-assisted screening to match candidates with appropriate roles. Strong alignment with job requirements improves your chances.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Initial technical and behavioral questions'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a Cisco recruiter to discuss your background, interest in Cisco, and role fit. They\'ll explain the interview process and assess basic qualifications. Come prepared with specific reasons why Cisco and thoughtful questions.'
       },
       {
         step: 3,
-        title: 'Technical Interviews (2-4 rounds)',
-        description: 'Network design, troubleshooting, coding'
+        title: 'Technical Interview(s) (2-4 rounds)',
+        description: 'Technical interviews with team members and hiring managers. Expect networking fundamentals, troubleshooting scenarios, design questions, and potentially coding (Python for automation roles). Each round is 45-60 minutes. For senior roles, expect deeper architecture and design discussions.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Hiring manager approval and offer'
+        title: 'Behavioral/Leadership Round',
+        description: 'Interview focused on behavioral competencies, leadership potential, and cultural fit. Cisco uses structured behavioral interviewing to assess collaboration, customer focus, and problem-solving approach. Prepare STAR-format examples.'
+      },
+      {
+        step: 5,
+        title: 'Offer & Onboarding',
+        description: 'The hiring team reviews all feedback and makes a decision within 1-2 weeks. Cisco offers include competitive base salary, annual bonus, equity (RSUs), and comprehensive benefits. Cisco is known for strong work-life balance and inclusive culture.'
       }
     ],
     questions: [
-      'Explain the difference between a router and a switch',
-      'How would you troubleshoot network connectivity issues?',
-      'What do you know about Cisco\'s security portfolio?',
-      'Design a network for a multi-location enterprise',
-      'Why Cisco over other networking vendors?'
+      'Explain the difference between a router and a switch—when would you use each?',
+      'How would you troubleshoot network connectivity issues between two hosts in different subnets?',
+      'Design a network architecture for a company with 5 locations and 1000 employees',
+      'What do you know about Cisco\'s security portfolio? How does it compare to competitors?',
+      'Explain OSPF routing and how it selects the best path',
+      'How would you secure an enterprise network against common threats?',
+      'What is SD-WAN and why are enterprises adopting it?',
+      'Troubleshoot: Users in VLAN 10 can\'t reach users in VLAN 20. Walk me through your diagnosis.',
+      'Tell me about a time you solved a difficult technical problem under pressure',
+      'Explain BGP and when you would use it vs IGP protocols',
+      'How would you design a network for high availability and disaster recovery?',
+      'What is Zero Trust networking and how does Cisco implement it?',
+      'Describe your experience with network automation and programmability',
+      'Tell me about a time you had to explain a complex technical issue to a non-technical customer',
+      'How does Webex compare to Zoom and Microsoft Teams? What are Cisco\'s differentiators?',
+      'Design a secure remote access solution for 10,000 employees working from home',
+      'What certifications do you have or are you working toward? Why?',
+      'Why Cisco over other networking or security vendors?',
+      'What questions do you have about Cisco or the role?'
     ],
     relatedCompanies: ['juniper', 'arista', 'palo-alto', 'fortinet']
   },
@@ -5676,156 +6237,255 @@ export const companies = {
   // Enterprise SaaS
   'workday': {
     name: 'Workday',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Workday interview with expert preparation for the enterprise cloud leader, covering HCM, finance systems, and their unique culture of employee happiness.',
     industry: 'Technology',
     headquarters: 'Pleasanton, CA',
-    description: 'Workday is a leading provider of enterprise cloud applications for finance, HR, and planning. Known for unified cloud platform, modern UX, continuous innovation, and customer success focus. Workday interviews emphasize technical skills, enterprise software understanding, and culture fit.',
+    description: 'Workday is a leading provider of enterprise cloud applications for human capital management (HCM), financial management, and planning. Founded in 2005 by Dave Duffield (PeopleSoft founder) and Aneel Bhusri, Workday was built from the ground up as a true cloud platform, avoiding the technical debt of legacy vendors. With $7+ billion in annual revenue and 18,000+ employees, Workday serves 10,000+ organizations including 50%+ of Fortune 500 companies. The company is renowned for its "employee-first" culture, consistently ranking among the best places to work. The interview process emphasizes technical excellence, customer obsession, and cultural fit with Workday\'s core values: Employees, Customer Service, Innovation, Integrity, Fun, and Profitability.',
     interviewTips: [
-      'Understand enterprise SaaS and cloud architecture',
-      'Learn about Workday\'s HCM and Finance products',
-      'Be prepared for technical questions and system design',
-      'Show knowledge of enterprise sales and customer success',
-      'Research Workday\'s culture and values'
+      'Understand Workday\'s "born in the cloud" architecture—true multi-tenant SaaS with weekly updates, no customer-specific code, and in-memory analytics',
+      'Research Workday\'s six core values (Employees, Customer Service, Innovation, Integrity, Fun, Profitability) and prepare examples demonstrating each',
+      'Study the competitive landscape: Oracle HCM Cloud, SAP SuccessFactors, ADP, Ultimate Software (now UKG)—know Workday\'s differentiators',
+      'For engineering roles: Understand Workday\'s tech stack (Java-based, custom object model, XpressO metadata framework, in-memory analytics)',
+      'Prepare to discuss enterprise SaaS challenges: multi-tenancy, data isolation, performance at scale, and continuous delivery to 10,000+ customers',
+      'Research Workday\'s AI/ML initiatives: Skills Cloud, machine learning in planning, and intelligent automation',
+      'Show customer obsession—Workday\'s 97%+ customer satisfaction is legendary in enterprise software',
+      'Understand the HCM domain: core HR, recruiting, talent management, payroll, workforce planning—or Finance if targeting that product area',
+      'Practice system design with enterprise constraints: GDPR compliance, SOC 2, data residency requirements, and 24/7 availability',
+      'Prepare for behavioral questions with specific examples—Workday values collaboration and positive attitude',
+      'Research Workday\'s approach to M&A: acquisitions like Scout RFP, Peakon, VNDLY—shows growth strategy',
+      'Understand Workday\'s business model: subscription revenue, implementation partners (Accenture, Deloitte), and customer success focus',
+      'Show genuine enthusiasm for enterprise software—Workday wants people excited about solving complex business problems',
+      'Prepare to discuss how you embody "Fun" as a core value—Workday culture is notably positive and collaborative'
     ],
     whatTheyLookFor: [
-      'Technical expertise in cloud/SaaS',
-      'Enterprise software experience',
-      'Customer-centric mindset',
-      'Collaboration and teamwork',
-      'Innovation and adaptability'
+      'Strong technical skills in cloud architecture and enterprise systems',
+      'Customer-obsessed mindset with genuine care for user success',
+      'Collaborative and positive attitude aligned with Workday\'s culture',
+      'Innovative thinking within enterprise software constraints',
+      'Clear communication skills across technical and business audiences',
+      'Understanding of enterprise software business and customer needs',
+      'Integrity and ethical decision-making',
+      'Problem-solving ability and attention to detail',
+      'Growth mindset and commitment to continuous learning',
+      'Cultural fit with Workday\'s values—especially Employees first and Fun'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Workday careers'
+        title: 'Online Application',
+        description: 'Submit your application through Workday Careers (naturally, on a Workday platform). Your resume is reviewed for relevant skills and experience. Highlight enterprise software, cloud technology, or domain expertise in HCM/Finance. Workday values diverse backgrounds and non-traditional paths.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Recruiter and technical screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a Workday recruiter to discuss your background, motivation, and role fit. They\'ll explain Workday\'s culture and interview process. Come prepared with specific reasons why Workday and examples of how you embody their values. Recruiters assess cultural fit early.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Technical, behavioral, and role-specific'
+        title: 'Technical/Functional Interviews (2-4 rounds)',
+        description: 'For engineering: coding interviews (algorithms, data structures) plus system design focusing on enterprise SaaS scenarios. For functional roles: domain expertise interviews covering HCM or Finance processes. Each round is 45-60 minutes. Interviewers evaluate both technical skills and how you collaborate during problem-solving.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and offer'
+        title: 'Values & Behavioral Round',
+        description: 'Dedicated interview focused on Workday\'s core values and behavioral competencies. Expect questions about customer focus, collaboration, integrity, and how you bring "Fun" to work. Workday takes cultural fit seriously—this round carries significant weight.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with the hiring manager to discuss role details, career growth, and team dynamics. Decisions typically come within 1-2 weeks. Workday offers include competitive base salary, annual bonus, equity (RSUs), and exceptional benefits. Workday is known for employee-friendly policies and strong work-life balance.'
       }
     ],
     questions: [
-      'Design a multi-tenant SaaS architecture',
-      'How would you ensure data security in a cloud HR system?',
-      'What challenges does Workday face from competitors?',
-      'Explain your experience with enterprise software',
-      'Why Workday?'
+      'Design a multi-tenant SaaS architecture that ensures data isolation while maximizing resource efficiency',
+      'How would you ensure data security and privacy in a cloud HR system handling sensitive employee information?',
+      'What challenges does Workday face from Oracle and SAP? How would you differentiate?',
+      'Design a system that can process payroll for millions of employees across different countries, tax jurisdictions, and currencies',
+      'Why Workday? What attracts you to enterprise HCM/Finance software?',
+      'Tell me about a time you went above and beyond for a customer or user',
+      'How would you implement continuous deployment to 10,000+ enterprise customers without disruption?',
+      'Design a skills-matching system that can recommend learning opportunities to employees',
+      'Describe a time you collaborated with people from different functions to solve a problem',
+      'How would you build a reporting and analytics system that can query billions of records with sub-second response?',
+      'What does "Fun" mean to you in a work context? Give an example.',
+      'Design a workflow engine that can model complex HR processes like multi-level approvals',
+      'Tell me about a technical decision you made that prioritized customer needs over elegance',
+      'How would you approach migrating a large enterprise from on-prem HR systems to Workday?',
+      'Describe a time you had to deliver difficult feedback. How did you handle it?',
+      'What interests you about the HCM or Finance software domain?',
+      'How would you design an API strategy for Workday that enables customer integrations?',
+      'Tell me about a time you failed. What did you learn?',
+      'What questions do you have about Workday\'s culture or the role?'
     ],
     relatedCompanies: ['oracle', 'sap', 'servicenow', 'adp']
   },
 
   'servicenow': {
     name: 'ServiceNow',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your ServiceNow interview with expert preparation for the enterprise workflow platform leader, covering digital transformation, platform architecture, and their mission to make work better.',
     industry: 'Technology',
     headquarters: 'Santa Clara, CA',
-    description: 'ServiceNow is a leading digital workflow platform for enterprise service management. Known for IT service management (ITSM), workflow automation across departments, and Now Platform. ServiceNow emphasizes innovation, customer workflows, and platform thinking.',
+    description: 'ServiceNow is the leading digital workflow platform that helps enterprises automate and streamline their operations. Founded in 2004, ServiceNow transformed from an IT service management (ITSM) tool into a comprehensive platform serving IT, HR, customer service, security operations, and more. With $8+ billion in annual revenue, 20,000+ employees, and 85%+ of Fortune 500 companies as customers, ServiceNow is one of the fastest-growing enterprise software companies. The Now Platform enables low-code workflow automation, AI-powered experiences, and unified data across departments. The interview process evaluates technical depth, enterprise platform thinking, and cultural fit with ServiceNow\'s values of customer success and innovation.',
     interviewTips: [
-      'Understand ITSM and workflow automation concepts',
-      'Learn about ServiceNow\'s Now Platform and applications',
-      'Be prepared for technical and system design questions',
-      'Show knowledge of enterprise IT and digital transformation',
-      'Research ServiceNow\'s expansion beyond IT'
+      'Understand the Now Platform architecture: single data model, workflow engine, integration hub, and how it enables cross-departmental automation',
+      'Study ServiceNow\'s expansion beyond ITSM: HR Service Delivery, Customer Service Management, Security Operations (SecOps), and Strategic Portfolio Management',
+      'Research ServiceNow\'s AI initiatives: Now Intelligence, virtual agents, predictive intelligence—AI is central to their platform strategy',
+      'For engineering roles: Be prepared for platform-scale challenges—multi-tenant architecture, workflow execution at enterprise scale, low-code development',
+      'Understand the competitive landscape: BMC Remedy, Jira Service Management, Freshworks—know ServiceNow\'s differentiation as an enterprise platform',
+      'Prepare for system design questions focused on enterprise scenarios: scalability, security, integration patterns, and workflow orchestration',
+      'Research ServiceNow\'s creator workflows and low-code capabilities—App Engine enables citizen developers to build apps',
+      'Show customer obsession—ServiceNow culture emphasizes customer success and making work better for their clients',
+      'Understand ServiceNow\'s business model: subscription revenue, platform stickiness, upsell/cross-sell across departments',
+      'Prepare behavioral examples using ServiceNow\'s values: Customer Success, Hungry and Humble, Win as a Team, and Stay Scrappy',
+      'For technical roles: Understand JavaScript (platform scripting language), REST APIs, and integration patterns',
+      'Research ServiceNow\'s acquisition strategy (Element AI, Passage AI, Lightstep)—shows their AI and observability investments',
+      'Practice explaining enterprise workflow concepts to different audiences—ServiceNow values clear communication',
+      'Show genuine excitement about enterprise software and digital transformation—this is core to their mission'
     ],
     whatTheyLookFor: [
-      'Technical skills in cloud/platform development',
-      'Enterprise software understanding',
-      'Problem-solving abilities',
-      'Customer focus',
-      'Innovation mindset'
+      'Strong technical skills in platform development or relevant domain expertise',
+      'Understanding of enterprise IT and digital transformation challenges',
+      'Customer-first mindset with genuine focus on solving business problems',
+      'Platform thinking—ability to see how components connect in enterprise ecosystems',
+      'Collaborative approach aligned with "Win as a Team" value',
+      'Innovation mindset with willingness to challenge status quo',
+      'Clear communication skills across technical and business audiences',
+      'Problem-solving ability and attention to detail',
+      'Growth mindset and intellectual curiosity',
+      'Cultural fit with ServiceNow\'s values: Hungry and Humble, Stay Scrappy'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through ServiceNow careers'
+        title: 'Online Application',
+        description: 'Submit your application through ServiceNow Careers. Your resume is reviewed for relevant experience in enterprise software, platform development, or domain expertise. ServiceNow values diverse backgrounds and emphasizes skills over pedigree.'
       },
       {
         step: 2,
-        title: 'Phone Interview',
-        description: 'Recruiter and technical screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background, interest in ServiceNow, and role fit. They\'ll explain ServiceNow\'s culture, growth trajectory, and interview process. Come prepared with specific reasons why ServiceNow and questions about the team.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, architecture, and behavioral'
+        title: 'Technical Interviews (2-4 rounds)',
+        description: 'For engineering: coding interviews (algorithms, data structures) plus system design focused on enterprise platform scenarios. For other roles: domain expertise and case-based discussions. Each round is 45-60 minutes. Interviewers evaluate technical depth and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Hiring decision and compensation'
+        title: 'Values & Behavioral Round',
+        description: 'Interview focused on ServiceNow\'s culture and values. Expect questions about customer obsession, collaboration, and how you embody "Hungry and Humble." Use STAR format with specific examples. This round carries significant weight—ServiceNow prioritizes cultural fit.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with the hiring manager to discuss role details, team dynamics, and career growth. Decisions typically come within 1-2 weeks. ServiceNow offers competitive base salary, annual bonus, equity (RSUs), and strong benefits. The company is known for career development opportunities.'
       }
     ],
     questions: [
-      'Design a workflow automation system',
-      'How would you scale a multi-tenant platform?',
-      'What do you know about ServiceNow\'s ITSM products?',
-      'Explain incident management best practices',
-      'Why ServiceNow over other enterprise platforms?'
+      'Design a workflow automation system that can handle millions of workflow executions daily across thousands of enterprise customers',
+      'How would you scale a multi-tenant platform while ensuring data isolation and security?',
+      'What do you know about ServiceNow\'s ITSM products? How do they compare to competitors?',
+      'Explain incident management best practices and how you would design an incident response system',
+      'Why ServiceNow over other enterprise platforms like Salesforce or Workday?',
+      'Design a low-code application builder that enables non-developers to create business applications',
+      'Tell me about a time you went above and beyond for a customer or stakeholder',
+      'How would you implement a virtual agent that can handle IT support requests?',
+      'Design an integration hub that can connect with hundreds of enterprise systems',
+      'Describe a time you had to collaborate across teams to solve a complex problem',
+      'How would you approach building predictive intelligence features for IT operations?',
+      'What are the biggest challenges facing enterprise IT today? How does ServiceNow address them?',
+      'Tell me about a technical project you led. What was challenging and how did you handle it?',
+      'Design a notification system for workflow events that can handle millions of notifications per hour',
+      'How do you stay current with enterprise software trends?',
+      'Describe a time you had to simplify a complex technical concept for a non-technical audience',
+      'What would you do in your first 90 days on this team?',
+      'How would you measure the success of a new platform feature?',
+      'What questions do you have about ServiceNow\'s culture or technology?'
     ],
     relatedCompanies: ['workday', 'salesforce', 'atlassian', 'pagerduty']
   },
 
   'snowflake': {
     name: 'Snowflake',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Snowflake interview with comprehensive preparation for the cloud data platform disruptor, covering data architecture, SQL mastery, and their mission to mobilize the world\'s data.',
     industry: 'Technology',
-    headquarters: 'Bozeman, MT',
-    description: 'Snowflake is a cloud data platform enabling data storage, processing, and analytics. Known for data warehouse innovation, separation of storage and compute, multi-cloud architecture, and data sharing. Snowflake interviews focus on technical depth, data expertise, and growth mindset.',
+    headquarters: 'Bozeman, MT (offices in San Mateo, CA)',
+    description: 'Snowflake is a cloud-native data platform that has revolutionized data warehousing by separating storage and compute, enabling near-unlimited scalability and concurrent access. Founded in 2012 by data warehouse pioneers from Oracle, Snowflake went public in 2020 in the largest software IPO ever at the time. With $3+ billion in annual revenue and 9,000+ customers including nearly half of the Fortune 500, Snowflake powers data analytics, data sharing, and data applications across industries. The Data Cloud vision enables organizations to break down data silos and collaborate securely. Snowflake\'s interview process is rigorous, emphasizing deep technical skills, data platform expertise, and the ability to think at scale.',
     interviewTips: [
-      'Understand data warehousing and cloud architecture',
-      'Learn about Snowflake\'s architecture and differentiation',
-      'Be prepared for SQL, data modeling, and system design',
-      'Show knowledge of analytics and data engineering',
-      'Research Snowflake\'s multi-cloud strategy'
+      'Master Snowflake\'s unique architecture: separation of storage and compute, virtual warehouses, automatic scaling, zero-copy cloning—this is fundamental',
+      'Study the Data Cloud vision: data sharing, data marketplace, data applications—understand how Snowflake enables data collaboration',
+      'For engineering roles: Be prepared for deep SQL and data modeling questions—Snowflake is a database company at heart',
+      'Understand Snowflake\'s competitive landscape: Databricks, BigQuery, Redshift, traditional data warehouses—know the differentiation',
+      'Research Snowflake\'s expansion: Snowpark (development platform), Streamlit (data apps), Native Applications—shows their platform strategy',
+      'Practice system design for data-intensive scenarios: building analytics systems, ETL pipelines, real-time data processing',
+      'Understand multi-cloud strategy: Snowflake runs on AWS, Azure, and GCP—cross-cloud data sharing is a differentiator',
+      'Prepare to discuss data governance, security, and compliance—enterprise customers care deeply about these',
+      'Research Snowflake\'s consumption-based pricing model and how it aligns incentives with customer success',
+      'Show genuine passion for data—Snowflake wants people excited about solving data problems at scale',
+      'For technical roles: Be ready for coding interviews in Python or Java, plus SQL and data modeling',
+      'Understand time travel, fail-safe, and data protection features—these are key Snowflake differentiators',
+      'Prepare behavioral examples demonstrating customer focus and ownership—Snowflake culture emphasizes these',
+      'Research their technical blog and architecture papers—shows genuine interest in how they solve problems'
     ],
     whatTheyLookFor: [
-      'Data platform and cloud expertise',
-      'Strong technical skills',
-      'Problem-solving abilities',
-      'Customer focus',
-      'Growth and innovation mindset'
+      'Deep expertise in data platforms, analytics, or cloud infrastructure',
+      'Strong SQL and data modeling skills (essential for most technical roles)',
+      'Systems thinking and ability to design for massive scale',
+      'Customer obsession and focus on solving real data challenges',
+      'Clear communication skills for technical concepts',
+      'Innovation mindset and willingness to rethink traditional approaches',
+      'Collaborative team player who can work across functions',
+      'Growth mindset with hunger to learn in fast-moving space',
+      'Attention to detail—data systems require precision',
+      'Cultural fit with Snowflake\'s values: Put Customers First, Integrity, Think Big, Be Excellent'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Snowflake careers'
+        title: 'Online Application',
+        description: 'Submit your application through Snowflake Careers. Highlight data platform experience, SQL expertise, and relevant technical skills. Snowflake is selective—tailor your resume to show relevant data/cloud experience.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background, interest in Snowflake, and role alignment. They\'ll explain the interview process and assess basic qualifications. Come prepared with specific reasons why Snowflake and questions about the data platform space.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (4-5 rounds)',
-        description: 'Technical deep-dives and team fit'
+        title: 'Technical Phone Screen (60 min)',
+        description: 'Technical interview covering SQL, data modeling, or coding depending on role. For engineering roles, expect algorithmic problems plus data-focused questions. The interviewer evaluates technical depth and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final approval and offer'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple intensive interviews including: coding rounds (algorithms, SQL), system design (data platform architecture), and behavioral rounds. For senior roles, expect deep architecture discussions. Each round is 45-60 minutes. Snowflake\'s bar is high—interviewers look for both technical excellence and cultural fit.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'A hiring committee reviews all feedback. Snowflake is thorough—decisions may take 1-2 weeks. Offers include competitive base salary, annual bonus, and significant equity. Snowflake\'s stock has been a major part of total compensation.'
       }
     ],
     questions: [
-      'Explain Snowflake\'s architecture and how it differs from traditional databases',
-      'Design a data pipeline for real-time analytics',
-      'Write SQL to solve a complex query problem',
-      'How would you optimize query performance?',
-      'Why Snowflake?'
+      'Explain Snowflake\'s architecture and how it differs from traditional data warehouses like Teradata or Netezza',
+      'Design a data pipeline for real-time analytics processing millions of events per second',
+      'Write SQL to solve: find the top 10 customers by revenue for each month, showing month-over-month growth',
+      'How would you optimize query performance for a slow-running analytical query?',
+      'Why Snowflake over Databricks, BigQuery, or Redshift?',
+      'Design a data sharing system that enables secure collaboration between organizations',
+      'Explain virtual warehouses and how Snowflake achieves workload isolation',
+      'How would you design a multi-tenant data platform with isolation and security guarantees?',
+      'Tell me about a data architecture you designed. What were the trade-offs?',
+      'Design a system for time travel and historical data access',
+      'How does Snowflake\'s separation of storage and compute work? Why does it matter?',
+      'Write SQL for a complex window function problem (e.g., running totals, ranking)',
+      'Describe a time you had to debug a complex data quality issue',
+      'How would you build a data marketplace where companies can buy and sell datasets?',
+      'Design a query optimizer for a distributed data system',
+      'What are the biggest challenges in cloud data platforms today?',
+      'Tell me about a time you had to convince stakeholders to change their approach',
+      'How would you approach migrating a petabyte-scale on-prem data warehouse to Snowflake?',
+      'What questions do you have about Snowflake\'s technology or culture?'
     ],
     relatedCompanies: ['databricks', 'bigquery', 'redshift', 'dbt']
   },
@@ -5990,156 +6650,255 @@ export const companies = {
   // On-Demand/Delivery
   'doordash': {
     name: 'DoorDash',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your DoorDash interview with expert preparation for the on-demand delivery leader, covering logistics optimization, marketplace dynamics, and their mission to grow and empower local economies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
-    description: 'DoorDash is the leading food delivery platform in the United States, connecting consumers with local restaurants and stores. Known for logistics optimization, marketplace dynamics, and Dasher gig economy. Interviews emphasize technical skills, product thinking, and operational mindset.',
+    description: 'DoorDash is the largest on-demand food delivery platform in the United States, with 65%+ market share and operations across the US, Canada, Australia, Japan, and Germany. Founded in 2013 by Stanford students, DoorDash connects consumers with 550,000+ merchants through 6+ million Dashers (delivery drivers). The company has expanded beyond restaurant delivery into grocery, convenience, and retail delivery through DashMart and partnerships. DoorDash\'s technology platform optimizes complex three-sided marketplace dynamics in real-time: matching Dashers to orders, predicting delivery times, and balancing supply and demand. The interview process emphasizes technical rigor, operational thinking, and alignment with DoorDash\'s culture of getting "1% better every day."',
     interviewTips: [
-      'Understand marketplace dynamics and three-sided platform',
-      'Learn about logistics optimization and delivery algorithms',
-      'Be prepared for coding and system design questions',
-      'Show knowledge of gig economy and operations',
-      'Research DoorDash\'s expansion beyond food'
+      'Deeply understand the three-sided marketplace: consumers, merchants, and Dashers—each has different needs and the platform must balance all three',
+      'Study logistics optimization: route planning, batching orders, demand prediction, surge pricing—these are core DoorDash technical challenges',
+      'Research DoorDash\'s expansion beyond restaurants: DashMart (convenience), grocery delivery, retail partnerships—shows strategic thinking',
+      'Prepare for product sense questions: How would you improve Dasher experience? How would you increase order frequency?',
+      'Understand DoorDash\'s values: Be an Owner, Be Direct, Operate with Integrity, Dream Big, Start with Empathy',
+      'For engineering roles: Be ready for system design focused on real-time systems, geospatial algorithms, and marketplace matching',
+      'Study the gig economy dynamics: Dasher acquisition, retention, earnings optimization—these are complex operational challenges',
+      'Prepare for data/analytics questions: DoorDash is extremely data-driven with extensive A/B testing and metrics culture',
+      'Research DoorDash Drive (B2B delivery platform) and Storefront (white-label ordering)—shows their platform evolution',
+      'Show operational thinking: DoorDash values people who understand on-the-ground challenges, not just theoretical solutions',
+      'Practice the "why DoorDash" question—know their differentiation from Uber Eats, Grubhub, and Instacart',
+      'Understand unit economics: delivery costs, take rates, Dasher pay—shows business acumen',
+      'For behavioral interviews: Use specific examples that show scrappiness, ownership, and customer obsession',
+      'Research their engineering blog—shows genuine interest in their technical challenges'
     ],
     whatTheyLookFor: [
-      'Technical and analytical skills',
-      'Product and operations thinking',
-      'Data-driven decision making',
-      'Scrappiness and resourcefulness',
-      'Customer obsession'
+      'Strong analytical and problem-solving skills for complex optimization problems',
+      'Operational mindset with ability to think about real-world execution',
+      'Customer and Dasher empathy—understanding all sides of the marketplace',
+      'Data-driven decision making and comfort with experimentation',
+      'Scrappiness and resourcefulness—DoorDash culture values getting things done',
+      'Ownership mentality aligned with "Be an Owner" value',
+      'Clear communication and ability to collaborate cross-functionally',
+      'Technical depth for engineering roles (algorithms, systems, ML)',
+      'Product sense for understanding consumer behavior and marketplace dynamics',
+      'Cultural fit with DoorDash\'s "1% better every day" mentality'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through DoorDash careers'
+        title: 'Online Application',
+        description: 'Submit your application through DoorDash Careers. Highlight relevant experience in marketplaces, logistics, or consumer tech. DoorDash values diverse backgrounds—show how your experience translates to their challenges.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Recruiter and technical screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background and interest in DoorDash. They\'ll explain the role, team, and interview process. Come prepared with specific reasons why DoorDash and questions about their growth and challenges.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, analytics, product, behavioral'
+        title: 'Technical/Analytical Screen (60 min)',
+        description: 'For engineering: coding interview on CoderPad with algorithmic problems. For analytics/data science: SQL and product analytics questions. For PM: product sense case. The interviewer evaluates problem-solving approach and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and compensation'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: technical rounds (coding, system design for engineering), product/analytics cases, and behavioral/values rounds. For engineering, expect geospatial and real-time system design. Each round is 45-60 minutes. DoorDash\'s bar is high and cross-functional collaboration is important.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'The hiring committee reviews all feedback holistically. Decisions typically come within 1-2 weeks. DoorDash offers competitive base salary, equity, and benefits. They emphasize career growth and impact opportunities.'
       }
     ],
     questions: [
-      'Design DoorDash\'s delivery routing algorithm',
-      'How would you reduce delivery times?',
-      'Analyze a product metric problem for DoorDash',
-      'How do you balance Dasher, restaurant, and customer needs?',
-      'Why DoorDash?'
+      'Design DoorDash\'s delivery routing algorithm to minimize delivery time while maximizing Dasher efficiency',
+      'How would you reduce average delivery times by 10%? Walk through your approach.',
+      'Analyze this scenario: Order volume is up 20% but customer satisfaction is down. What would you investigate?',
+      'How do you balance Dasher, merchant, and customer needs when they conflict?',
+      'Why DoorDash over Uber Eats or Instacart?',
+      'Design a system to predict delivery times accurately across millions of orders',
+      'How would you improve the Dasher experience to increase retention?',
+      'Design an order batching system that groups multiple orders for efficient delivery',
+      'Tell me about a time you had to make a decision with incomplete data',
+      'How would you design surge pricing for a delivery platform?',
+      'Design DashMart—a convenience store model operated by DoorDash',
+      'How would you detect and prevent fraud on a delivery platform?',
+      'Describe a time you took ownership of a problem outside your direct responsibility',
+      'How would you approach expanding DoorDash into a new international market?',
+      'Design a system to match Dashers to orders in real-time across a city',
+      'What metrics would you use to measure the health of DoorDash\'s marketplace?',
+      'Tell me about a time you disagreed with a team decision. How did you handle it?',
+      'How would you improve DoorDash\'s restaurant recommendation system?',
+      'What questions do you have about DoorDash\'s culture or challenges?'
     ],
     relatedCompanies: ['uber-eats', 'grubhub', 'instacart', 'postmates']
   },
 
   'instacart': {
     name: 'Instacart',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Instacart interview with comprehensive preparation for the grocery delivery pioneer, covering retail partnerships, shopper operations, and their mission to create a world where everyone has access to the food they love.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
-    description: 'Instacart is the leading online grocery delivery and pickup service in North America, partnering with retailers. Known for same-day delivery, shopper gig economy, and grocery technology. Interviews focus on technical skills, operational thinking, and product sense.',
+    description: 'Instacart is North America\'s leading online grocery platform, partnering with 1,400+ retail banners across 80,000+ stores to enable same-day delivery and pickup. Founded in 2012, Instacart connects millions of customers with personal shoppers who pick and deliver groceries. The company went public in 2023 and generates $3+ billion in annual revenue through delivery fees, advertising (Instacart Ads), and enterprise solutions (Instacart Platform). Instacart\'s technology powers inventory management, shopper routing, and real-time fulfillment optimization. The interview process evaluates technical depth, marketplace understanding, and alignment with Instacart\'s customer-obsessed culture.',
     interviewTips: [
-      'Understand online grocery and retail partnerships',
-      'Learn about Instacart\'s shopper model and logistics',
-      'Be prepared for coding, analytics, and system design',
-      'Show knowledge of grocery retail and consumer behavior',
-      'Research Instacart\'s advertising and enterprise solutions'
+      'Understand Instacart\'s partnership model: Unlike DoorDash, Instacart partners deeply with retailers who maintain their brand identity—this is core to their strategy',
+      'Study the shopper experience: order batching, item substitutions, communication with customers—shoppers are key to the platform',
+      'Research Instacart Ads: their advertising platform is a major growth driver and high-margin business—understand retail media',
+      'For engineering roles: Prepare for system design around real-time inventory, order fulfillment, and routing optimization',
+      'Understand Instacart Platform (enterprise solutions): white-label fulfillment for retailers—shows their B2B strategy',
+      'Prepare for product sense questions: How would you improve the substitution experience? How would you increase basket size?',
+      'Study grocery retail dynamics: perishables, inventory accuracy, picking efficiency—grocery is different from restaurant delivery',
+      'Research their acquisition of Caper (smart carts) and expansion into fulfillment technology—shows hardware/software integration',
+      'Show customer empathy: both for end consumers and retail partners—Instacart serves two distinct customer types',
+      'For data/analytics roles: Instacart is highly analytical with sophisticated ML for demand forecasting and personalization',
+      'Understand the competitive landscape: Amazon Fresh, Walmart, DoorDash grocery—know Instacart\'s differentiation through partnerships',
+      'Prepare behavioral examples showing ownership, customer focus, and collaboration',
+      'Research their engineering blog for insights into their technical challenges',
+      'Practice explaining complex operational scenarios—Instacart values clear thinking about real-world problems'
     ],
     whatTheyLookFor: [
-      'Technical and analytical skills',
-      'Operations and logistics thinking',
-      'Product sense',
-      'Data-driven mindset',
-      'Customer empathy'
+      'Strong analytical and problem-solving skills',
+      'Understanding of marketplace dynamics and operational complexity',
+      'Customer obsession for both consumers and retail partners',
+      'Data-driven mindset with comfort in ambiguity',
+      'Technical depth for engineering roles (systems, ML, mobile)',
+      'Product sense and ability to balance stakeholder needs',
+      'Collaborative approach suited for cross-functional work',
+      'Operational thinking with attention to real-world execution',
+      'Growth mindset and adaptability in fast-moving environment',
+      'Cultural fit with Instacart\'s values and mission'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through Instacart careers'
+        title: 'Online Application',
+        description: 'Submit your application through Instacart Careers. Highlight experience in marketplaces, retail tech, logistics, or relevant domains. Instacart values diverse perspectives—show how your background applies to their challenges.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background and interest in Instacart. They\'ll explain the role, team structure, and interview process. Come prepared with specific reasons why Instacart and questions about their growth strategy.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, design, product, behavioral'
+        title: 'Technical/Analytical Screen (60 min)',
+        description: 'For engineering: coding interview with algorithmic problems. For data science: SQL, statistics, and product analytics. For PM: product sense and case study. Interviewers evaluate problem-solving approach and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final approval and offer'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: technical rounds (coding, system design), product/analytics cases, and behavioral rounds. For engineering, expect questions on real-time systems, inventory management, and optimization. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager to discuss role details and team fit. Decisions typically come within 1-2 weeks. Instacart offers competitive base salary, equity, and benefits including grocery credits.'
       }
     ],
     questions: [
-      'Design Instacart\'s order batching system',
-      'How would you improve shopper efficiency?',
-      'Analyze metrics for grocery delivery',
-      'What challenges does Instacart face?',
-      'Why Instacart specifically?'
+      'Design Instacart\'s order batching system to optimize shopper efficiency while maintaining delivery quality',
+      'How would you improve shopper efficiency by 20%? Walk through your approach.',
+      'Analyze this: Customer order cancellation rate has increased 15%. What would you investigate?',
+      'What challenges does Instacart face that DoorDash doesn\'t? How would you address them?',
+      'Why Instacart specifically over other grocery or delivery companies?',
+      'Design a real-time inventory system that handles 80,000+ stores with constantly changing stock',
+      'How would you improve the item substitution experience for customers?',
+      'Design a shopper routing algorithm that optimizes for time, distance, and item locations in-store',
+      'Tell me about a time you had to balance competing priorities from different stakeholders',
+      'How would you design Instacart\'s advertising platform for CPG brands?',
+      'Design a demand forecasting system for grocery delivery',
+      'How would you reduce the rate of out-of-stock items in customer orders?',
+      'Describe a time you took initiative to solve a problem no one asked you to solve',
+      'How would you approach a new retail partnership with a major grocery chain?',
+      'Design a system to match shoppers to orders based on skills, location, and preferences',
+      'What metrics would you use to measure shopper satisfaction?',
+      'Tell me about a time you made a mistake. What did you learn?',
+      'How would you improve Instacart\'s recommendation system for groceries?',
+      'What questions do you have about Instacart\'s technology or culture?'
     ],
     relatedCompanies: ['doordash', 'gopuff', 'shipt', 'amazon-fresh']
   },
 
   'ebay': {
     name: 'eBay',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your eBay interview with comprehensive preparation for the original e-commerce marketplace, covering two-sided platforms, trust and safety, and their mission to create economic opportunity for all.',
     industry: 'Technology',
     headquarters: 'San Jose, CA',
-    description: 'eBay is a global e-commerce marketplace connecting millions of buyers and sellers. Known for auctions, collectibles, C2C commerce, seller ecosystem, and trust & safety. Interviews emphasize technical skills, marketplace understanding, and product thinking.',
+    description: 'eBay is one of the world\'s largest and most diverse online marketplaces, connecting millions of buyers and sellers across 190+ markets. Founded in 1995 as an auction site, eBay pioneered online commerce and remains the leading platform for unique, collectible, and hard-to-find items. With $10+ billion in annual revenue and 130+ million active buyers, eBay facilitates over $70 billion in gross merchandise volume annually. The company has refocused on "enthusiast" categories: sneakers, watches, trading cards, auto parts, and refurbished electronics. eBay\'s technical platform handles massive scale, trust and safety, payment processing (now managed payments), and sophisticated search/recommendation systems. The interview process evaluates technical depth, marketplace understanding, and alignment with eBay\'s mission to create opportunity.',
     interviewTips: [
-      'Understand marketplace dynamics and two-sided networks',
-      'Learn about eBay\'s seller tools and services',
-      'Be prepared for coding and system design questions',
-      'Show knowledge of e-commerce and trust/safety',
-      'Research eBay\'s focus on enthusiast categories'
+      'Understand eBay\'s strategic focus on "enthusiast" categories: collectibles, sneakers (via authenticity guarantee), watches, trading cards, auto parts—this is their differentiation from Amazon',
+      'Study two-sided marketplace dynamics: network effects, liquidity, trust, and how to balance buyer/seller needs',
+      'Research eBay\'s managed payments transition: bringing payments in-house was a major technical and business transformation',
+      'For engineering roles: Prepare for system design at massive scale—eBay handles billions of listings and hundreds of millions of users',
+      'Understand trust and safety challenges: fraud detection, counterfeit prevention, seller verification—these are critical for marketplace trust',
+      'Research eBay\'s authentication programs: sneaker authentication, watch authentication—physical verification is a differentiator',
+      'Study search and recommendation: how to surface relevant items from billions of listings is a core technical challenge',
+      'Prepare for product sense questions: How would you improve seller onboarding? How would you increase buyer conversion?',
+      'Understand eBay\'s history and transformation: from auctions to fixed-price, from PayPal dependency to managed payments',
+      'Research their technical blog and engineering culture—eBay has interesting scale challenges',
+      'Show passion for the seller community: eBay enables small businesses and entrepreneurs—this is central to their mission',
+      'Prepare behavioral examples demonstrating customer focus, ownership, and innovation',
+      'Understand competitive dynamics: Amazon, Etsy, Poshmark, StockX—know eBay\'s unique position',
+      'Practice explaining marketplace economics and trade-offs—eBay values analytical thinking'
     ],
     whatTheyLookFor: [
-      'Technical skills in scalable systems',
-      'Marketplace and e-commerce understanding',
-      'Product sense',
-      'Data-driven thinking',
-      'Customer and seller empathy'
+      'Strong technical skills for building systems at massive scale',
+      'Understanding of marketplace dynamics and network effects',
+      'Customer empathy for both buyers and sellers',
+      'Data-driven decision making and analytical rigor',
+      'Product sense for e-commerce and consumer experience',
+      'Problem-solving ability for complex trust and safety challenges',
+      'Clear communication across technical and business contexts',
+      'Collaborative mindset for cross-functional work',
+      'Innovation thinking to evolve a mature platform',
+      'Cultural fit with eBay\'s mission of economic opportunity'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through eBay careers'
+        title: 'Online Application',
+        description: 'Submit your application through eBay Careers. Highlight experience in marketplaces, e-commerce, payments, or relevant technical domains. eBay values diverse perspectives and non-traditional backgrounds.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background and interest in eBay. They\'ll explain the role, team, and interview process. Come prepared with specific reasons why eBay and questions about their strategy and culture.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, system design, behavioral'
+        title: 'Technical Screen (60 min)',
+        description: 'For engineering: coding interview with algorithmic problems. For data roles: SQL and analytics. For PM: product sense case. Interviewers evaluate problem-solving approach, code quality, and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and offer'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: technical rounds (coding, system design), product cases, and behavioral rounds. For engineering, expect questions on search, payments, fraud detection, or scalability. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'The hiring team reviews all feedback and makes a decision within 1-2 weeks. eBay offers competitive base salary, equity (RSUs), and comprehensive benefits. The company emphasizes work-life balance and career development.'
       }
     ],
     questions: [
-      'Design eBay\'s search ranking algorithm',
-      'How would you detect fraudulent listings?',
-      'Improve the seller onboarding experience',
-      'What differentiates eBay from Amazon?',
-      'Why eBay?'
+      'Design eBay\'s search ranking algorithm to surface the most relevant items from billions of listings',
+      'How would you detect and prevent fraudulent listings at scale?',
+      'Improve the seller onboarding experience to increase new seller activation',
+      'What differentiates eBay from Amazon? How would you strengthen eBay\'s position?',
+      'Why eBay over other e-commerce or marketplace companies?',
+      'Design a system to authenticate luxury watches submitted by sellers',
+      'How would you improve buyer trust and reduce purchase anxiety on eBay?',
+      'Design eBay\'s managed payments system handling billions in transaction volume',
+      'Tell me about a time you had to balance competing stakeholder needs',
+      'How would you reduce the rate of returns on the platform?',
+      'Design a recommendation system for eBay that handles cold-start for new users',
+      'How would you detect counterfeit products being sold on the marketplace?',
+      'Describe a time you innovated on an existing product or process',
+      'How would you increase engagement in the sneakers category?',
+      'Design a seller reputation system that is fair and resistant to manipulation',
+      'What metrics would you use to measure marketplace health?',
+      'Tell me about a technical project where you had to make difficult trade-offs',
+      'How would you approach expanding eBay\'s authentication services to new categories?',
+      'What questions do you have about eBay\'s technology or culture?'
     ],
     relatedCompanies: ['etsy', 'mercari', 'poshmark', 'amazon']
   },
@@ -6722,52 +7481,85 @@ export const companies = {
   // E-commerce Platforms
   'shopify': {
     name: 'Shopify',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Shopify interview with expert preparation for the commerce platform empowering millions of entrepreneurs, covering merchant success, platform architecture, and their mission to make commerce better for everyone.',
     industry: 'Technology',
-    headquarters: 'Ottawa, Canada (US: San Francisco, CA)',
-    description: 'Shopify is a leading e-commerce platform enabling merchants to create online stores and sell products. Known for empowering entrepreneurs, commerce tools, developer ecosystem, and point-of-sale. Interviews emphasize technical skills, product thinking, and merchant focus.',
+    headquarters: 'Ottawa, Canada',
+    description: 'Shopify is the leading commerce platform powering millions of businesses in 175+ countries, from first-time entrepreneurs to enterprise brands like Allbirds, Gymshark, and Heinz. Founded in 2006 by Tobias Lütke after he couldn\'t find good e-commerce software for his snowboard shop, Shopify has grown to $7+ billion in annual revenue with 10,000+ employees. The platform handles everything merchants need: online stores, point-of-sale, payments (Shopify Payments), shipping (Shopify Fulfillment Network), and capital (Shopify Capital). Shopify\'s interview process emphasizes technical excellence, merchant empathy, and alignment with their mission to "arm the rebels" against big commerce. The company is known for its unique culture, long-term thinking, and treating engineers as craftspeople.',
     interviewTips: [
-      'Understand e-commerce and merchant pain points',
-      'Learn about Shopify\'s platform, apps, and developer ecosystem',
-      'Be prepared for coding and system design questions',
-      'Show passion for entrepreneurship and small business',
-      'Research Shopify\'s commerce operating system vision'
+      'Deeply understand Shopify\'s mission to "make commerce better for everyone" and "arm the rebels"—they see themselves as empowering entrepreneurs against Amazon',
+      'Study Shopify\'s platform architecture: Ruby on Rails at scale, multi-tenant with dedicated resources for large merchants, extensive API ecosystem',
+      'Research the merchant journey: what challenges do first-time entrepreneurs face? What do growing businesses need?—merchant empathy is essential',
+      'For engineering roles: Shopify values software craftsmanship—prepare to discuss code quality, maintainability, and thoughtful design',
+      'Understand Shopify\'s product ecosystem: Online Store, POS, Payments, Shipping, Capital, Fulfillment Network, Plus (enterprise)—show breadth of understanding',
+      'Research Shop Pay and Shop app: one-click checkout and consumer-facing initiatives—shows their buyer-side strategy',
+      'Study the app ecosystem: Shopify\'s platform enables 8,000+ apps—understand their developer-first philosophy',
+      'Prepare for technical interviews in Ruby (preferred) or your strongest language—Shopify cares about clean, well-structured code',
+      'Research Shopify\'s unique culture: "digital by default," long-term thinking, "get shit done" mentality, no permanent teams',
+      'Understand their response to COVID: Shopify accelerated digital commerce adoption—show awareness of market dynamics',
+      'Practice the "Life Story" interview format: Shopify often asks candidates to walk through their entire career journey',
+      'Prepare examples of building products that users love—merchant empathy is core to Shopify culture',
+      'Research Shopify\'s engineering blog and technical talks—shows genuine interest',
+      'Show entrepreneurial mindset: Shopify loves people who have built things, started projects, or shown initiative'
     ],
     whatTheyLookFor: [
-      'Technical skills in full-stack or specialized areas',
-      'Product and merchant empathy',
-      'Problem-solving abilities',
-      'Entrepreneurial mindset',
-      'Collaborative approach'
+      'Strong software craftsmanship and pride in code quality',
+      'Deep merchant and user empathy—genuine care for helping entrepreneurs succeed',
+      'Entrepreneurial mindset with experience building products or starting things',
+      'Product thinking and ability to connect technical work to merchant outcomes',
+      'Clear communication and ability to work across distributed teams',
+      'Long-term thinking and patience for solving hard problems well',
+      'Collaborative approach with low ego',
+      'Adaptability in fast-moving environment with changing priorities',
+      'Intellectual curiosity and love of learning',
+      'Cultural fit with Shopify\'s unique, mission-driven environment'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Shopify careers'
+        title: 'Online Application',
+        description: 'Submit your application through Shopify Careers. Highlight entrepreneurial experience, products you\'ve built, and technical depth. Shopify values diverse backgrounds—show passion for helping merchants succeed, not just technical skills.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Recruiter and technical screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background, career journey, and interest in Shopify. They\'ll explain the role and Shopify\'s unique culture. Come prepared with specific examples of things you\'ve built and why you care about commerce.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, system design, behavioral'
+        title: 'Technical Screen (60 min)',
+        description: 'Coding interview focused on practical programming problems. Shopify emphasizes code quality, readability, and thoughtful design over speed. Ruby is preferred but not required. The interviewer evaluates craftsmanship and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and compensation'
+        title: 'Virtual Onsite (3-5 rounds)',
+        description: 'Multiple interviews including: technical rounds (coding, system design), a "Life Story" interview where you walk through your career, and behavioral rounds focused on merchant empathy and Shopify values. For senior roles, expect architecture discussions. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'A hiring committee reviews all feedback holistically. Shopify is thoughtful—decisions may take 1-2 weeks. Offers include competitive base salary, equity, and comprehensive benefits. Shopify is known for fair compensation and remote-first flexibility.'
       }
     ],
     questions: [
-      'Design a product recommendation system for e-commerce',
-      'How would you scale checkout processing for Black Friday?',
-      'Build a feature to help merchants increase sales',
-      'What challenges do small businesses face in e-commerce?',
-      'Why Shopify?'
+      'Design a product recommendation system for e-commerce that works for stores with 10 products and stores with 10,000',
+      'How would you scale checkout processing to handle Black Friday/Cyber Monday traffic (10x normal volume)?',
+      'Build a feature to help merchants increase their conversion rate—walk through your thinking',
+      'What challenges do small businesses face in e-commerce? How does Shopify address them?',
+      'Why Shopify over other tech companies? What draws you to commerce?',
+      'Design an inventory management system for merchants selling across multiple channels',
+      'Tell me your life story—walk me through your career journey and what led you here',
+      'Design a system to process payments for millions of merchants with different currencies',
+      'Describe a product you built that you\'re proud of. What made it successful?',
+      'How would you design Shopify\'s app store platform for third-party developers?',
+      'Design Shop Pay—a one-click checkout that works across all Shopify stores',
+      'How would you help a new merchant make their first sale?',
+      'Tell me about a time you went above and beyond for a user or customer',
+      'Design a fraud detection system for e-commerce payments',
+      'How would you approach the technical challenges of Shopify Fulfillment Network?',
+      'What metrics would you use to measure merchant success?',
+      'Tell me about a time you had to simplify something complex',
+      'How would you design Shopify\'s admin dashboard for merchant store management?',
+      'What questions do you have about Shopify\'s culture or technical challenges?'
     ],
     relatedCompanies: ['woocommerce', 'bigcommerce', 'square', 'amazon']
   },
