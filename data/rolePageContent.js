@@ -24796,6 +24796,3224 @@ export const rolePageContent = {
       ]
     }
   },
+  'capital-one': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Capital One build the technology that powers one of America's most innovative banks. Capital One is a tech company that happens to be a bank, with cloud-native infrastructure on AWS, modern microservices architecture, and a strong engineering culture. You'll work on products serving 100+ million customers while leveraging machine learning, big data, and cutting-edge technologies.",
+      responsibilities: [
+        "Design and develop scalable cloud-native applications on AWS",
+        "Build microservices and APIs that power customer-facing products",
+        "Implement CI/CD pipelines and DevOps best practices",
+        "Collaborate with product managers and designers on feature development",
+        "Write clean, well-tested code following Capital One's engineering standards"
+      ],
+      growthOpportunities: [
+        "Work at a tech-forward bank that values engineering excellence",
+        "Access to AWS certifications and cloud training",
+        "Internal mobility across business lines (cards, banking, auto)",
+        "Tech College program with continuous learning opportunities",
+        "Clear career ladder from engineer to principal engineer"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your background, experience, and interest in Capital One's engineering culture.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute coding interview via CoderPad covering data structures, algorithms, and problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Power Day (Virtual/On-site)",
+          description: "4-5 interviews including coding challenges, system design, and behavioral questions. Emphasis on cloud architecture and AWS.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Decision",
+          description: "Team debriefs and makes hiring decision, typically within one week of Power Day."
+        }
+      ],
+      technicalQuestions: [
+        "Design a system to detect fraudulent credit card transactions in real-time.",
+        "Implement a rate limiter for an API that handles millions of requests per day.",
+        "How would you design a notification system that can send millions of alerts?",
+        "Write a function to find all anagrams of a word in a dictionary.",
+        "Design a microservices architecture for a mobile banking application.",
+        "How would you implement a distributed cache for session management?",
+        "Explain how you would migrate a monolithic application to microservices.",
+        "Design a system to process and analyze credit card transactions at scale.",
+        "Implement an algorithm to detect anomalies in transaction patterns.",
+        "How would you design Capital One's credit limit recommendation system?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you had to learn a new technology quickly to deliver a project.",
+        "Describe a situation where you improved the performance of an existing system.",
+        "How have you handled disagreements about technical decisions with teammates?",
+        "Tell me about a time you had to balance technical debt with feature delivery.",
+        "Describe your experience working in an agile environment.",
+        "How do you approach code reviews and giving feedback to peers?",
+        "Tell me about a project where security was a critical consideration.",
+        "Describe a time when you had to debug a complex production issue."
+      ],
+      whatTheyLookFor: [
+        "Strong coding skills in Java, Python, or JavaScript/TypeScript",
+        "Experience with cloud platforms, especially AWS",
+        "Understanding of microservices and distributed systems",
+        "Security-conscious mindset for financial applications",
+        "Collaborative approach and strong communication skills",
+        "Experience with CI/CD and DevOps practices",
+        "Problem-solving ability and analytical thinking",
+        "Passion for building products that help customers"
+      ],
+      interviewTips: [
+        "Brush up on AWS services - Capital One is all-in on cloud",
+        "Practice system design with emphasis on scalability and security",
+        "Be prepared to discuss microservices architecture patterns",
+        "Understand financial services security and compliance basics",
+        "Show enthusiasm for Capital One's tech-first banking approach",
+        "Prepare examples of working in agile, cross-functional teams",
+        "Research Capital One's tech blog and open source contributions",
+        "Be ready to discuss how you handle technical debt and trade-offs"
+      ],
+      dayInLife: {
+        overview: "Software Engineers at Capital One enjoy a modern tech environment with flexible work arrangements. Days include coding, collaboration with cross-functional teams, and opportunities for learning and innovation.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Quick sync with your agile team on sprint progress and blockers"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Development Work",
+            description: "Focus time for coding, building features on AWS infrastructure"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Code Review",
+            description: "Review pull requests and provide feedback to teammates"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "Flexible lunch, often with optional tech talks or learning sessions"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Sprint Planning/Grooming",
+            description: "Work with product managers on upcoming features and requirements"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Technical Deep Dive",
+            description: "Architecture discussions or pair programming on complex features"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Documentation & Wrap-up",
+            description: "Update documentation, respond to Slack messages, plan for tomorrow"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Capital One are at the heart of the company's strategy. Capital One was founded on data-driven decision making, and Data Scientists here build machine learning models that determine credit risk, detect fraud, personalize customer experiences, and optimize operations. You'll work with massive datasets and deploy models that directly impact business outcomes.",
+      responsibilities: [
+        "Build and deploy machine learning models for credit risk and fraud detection",
+        "Analyze large datasets to uncover actionable business insights",
+        "Develop recommendation systems for personalized customer experiences",
+        "Collaborate with business partners to translate problems into data solutions",
+        "Present findings to stakeholders and influence strategic decisions"
+      ],
+      growthOpportunities: [
+        "Work at a company founded on analytics and data-driven decisions",
+        "Access to petabytes of financial data for modeling",
+        "Clear path from Data Scientist to Principal or Director of Data Science",
+        "Opportunity to publish research and attend conferences",
+        "Cross-functional exposure to credit, fraud, marketing, and operations"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call to discuss your background in data science and machine learning.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview covering statistics, machine learning concepts, and SQL.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Study",
+          description: "You may be given a take-home case study involving data analysis and modeling.",
+          duration: "2-4 hours"
+        },
+        {
+          step: 4,
+          title: "Power Day",
+          description: "Multiple interviews covering ML depth, business case discussions, and behavioral questions.",
+          duration: "4-5 hours"
+        }
+      ],
+      technicalQuestions: [
+        "How would you build a credit risk model? What features would you consider?",
+        "Explain the difference between L1 and L2 regularization. When would you use each?",
+        "How do you handle imbalanced classes in fraud detection models?",
+        "Walk me through how you would validate a machine learning model in production.",
+        "What techniques would you use to reduce false positives in fraud detection?",
+        "Explain how you would build a customer churn prediction model.",
+        "How do you ensure fairness in credit decisioning models?",
+        "Describe your approach to feature engineering for time-series financial data.",
+        "How would you A/B test a new credit limit recommendation algorithm?",
+        "Explain gradient boosting and when you would use it over random forests."
+      ],
+      behavioralQuestions: [
+        "Tell me about a time your model's results changed a business decision.",
+        "Describe a situation where you had to explain complex analytics to non-technical stakeholders.",
+        "How have you handled a project where the data quality was poor?",
+        "Tell me about a model that didn't perform as expected. What did you learn?",
+        "Describe your experience working with cross-functional teams.",
+        "How do you prioritize multiple data science projects?",
+        "Tell me about a time you had to push back on a stakeholder's request.",
+        "Describe how you stay current with developments in machine learning."
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in statistics and machine learning",
+        "Experience with Python, SQL, and ML frameworks (scikit-learn, TensorFlow, etc.)",
+        "Ability to translate business problems into data science solutions",
+        "Understanding of model validation and production deployment",
+        "Knowledge of responsible AI and model fairness",
+        "Strong communication and stakeholder management skills",
+        "Experience with large-scale data processing (Spark, etc.)",
+        "Curiosity and drive to solve complex problems"
+      ],
+      interviewTips: [
+        "Prepare for questions about credit risk and fraud detection use cases",
+        "Be ready to discuss model fairness and responsible AI practices",
+        "Review statistics fundamentals - hypothesis testing, distributions, etc.",
+        "Practice explaining ML concepts to non-technical audiences",
+        "Prepare a case study presentation showcasing your analytical approach",
+        "Understand Capital One's data-driven culture and history",
+        "Be ready to write SQL queries for data manipulation",
+        "Prepare examples of deploying models to production"
+      ],
+      dayInLife: {
+        overview: "Data Scientists at Capital One balance model development with stakeholder collaboration. You'll spend time coding, analyzing data, meeting with business partners, and presenting insights to leadership.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Sync with data science team on project progress and blockers"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Model Development",
+            description: "Work on feature engineering and model training in Jupyter notebooks"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Data Analysis",
+            description: "Explore data, run queries, and analyze model performance metrics"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Break for lunch, sometimes with Data Science community events"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Present findings to business partners or discuss project requirements"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Review",
+            description: "Participate in model review sessions with senior data scientists"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Documentation & Research",
+            description: "Document model decisions, read papers, or experiment with new techniques"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+      ]
+    },
+    'product-manager': {
+      roleDescription: "Product Managers at Capital One own the vision and strategy for digital banking products used by millions of customers. You'll work at the intersection of technology, design, and business to deliver innovative solutions in credit cards, banking, and auto finance. Capital One's PM culture emphasizes customer obsession, data-driven decisions, and rapid experimentation.",
+      responsibilities: [
+        "Define product vision, strategy, and roadmap for digital banking products",
+        "Lead cross-functional teams of engineers, designers, and data scientists",
+        "Analyze customer data and market trends to identify opportunities",
+        "Drive product launches and measure success through KPIs",
+        "Present product strategy to senior leadership and stakeholders"
+      ],
+      growthOpportunities: [
+        "Own products that serve 100+ million customers",
+        "Work on cutting-edge fintech innovations",
+        "Clear path from PM to Senior PM to Director of Product",
+        "Exposure to diverse product lines (cards, banking, auto)",
+        "Strong PM community with mentorship and development programs"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial discussion about your PM experience and interest in Capital One.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into your product experience and approach to product management.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Interview",
+          description: "Product case study or business case requiring structured problem-solving.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Power Day",
+          description: "Multiple interviews with PMs, engineers, and leaders covering product sense, execution, and leadership.",
+          duration: "4-5 hours"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve Capital One's mobile banking app?",
+        "Design a new feature to help customers manage their credit score.",
+        "How would you prioritize features for a credit card rewards program?",
+        "What metrics would you use to measure success of a new banking feature?",
+        "How would you approach launching a product in a regulated industry?",
+        "Describe how you would handle a product that's underperforming.",
+        "How would you design an onboarding experience for new credit card customers?",
+        "What's your framework for making build vs. buy decisions?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a product you launched from concept to delivery.",
+        "Describe a time you had to make a decision with incomplete data.",
+        "How have you handled conflicting priorities from different stakeholders?",
+        "Tell me about a time you had to say no to a feature request.",
+        "Describe a product failure and what you learned from it.",
+        "How do you build relationships with engineering teams?",
+        "Tell me about a time you used data to change product direction.",
+        "Describe how you've incorporated customer feedback into product decisions."
+      ],
+      whatTheyLookFor: [
+        "Strong product sense and customer empathy",
+        "Data-driven decision making ability",
+        "Experience leading cross-functional teams",
+        "Clear communication and stakeholder management skills",
+        "Understanding of agile product development",
+        "Technical fluency to work effectively with engineers",
+        "Strategic thinking balanced with execution focus",
+        "Knowledge of financial services or fintech is a plus"
+      ],
+      interviewTips: [
+        "Prepare product cases specific to banking and fintech",
+        "Understand Capital One's products and competitive positioning",
+        "Be ready to discuss metrics and how you measure product success",
+        "Show customer obsession with examples from your experience",
+        "Prepare for questions about working in regulated industries",
+        "Practice structured frameworks for answering case questions",
+        "Research Capital One's product culture and innovation initiatives",
+        "Have examples ready of leading through influence without authority"
+      ],
+      dayInLife: {
+        overview: "Product Managers at Capital One balance strategic thinking with tactical execution. Days include stakeholder meetings, data analysis, team collaboration, and customer research.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Email & Metrics Review",
+            description: "Check product metrics dashboards and respond to urgent items"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with engineering and design on sprint progress"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Stakeholder Meeting",
+            description: "Align with business partners on product strategy and priorities"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Product Discovery",
+            description: "Review customer research, analyze data, or conduct user interviews"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break, often used for informal 1:1s or networking"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Roadmap Planning",
+            description: "Work on product roadmap, write PRDs, or refine user stories"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Design Review",
+            description: "Review designs with UX team and provide feedback"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Strategy Work",
+            description: "Competitive analysis, market research, or strategic planning"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    },
+    'business-analyst': {
+      roleDescription: "Business Analysts at Capital One drive strategic decisions through data analysis and structured problem-solving. Capital One is famous for its rigorous analytical culture and case interview process. BAs work on high-impact projects across credit risk, marketing, operations, and customer experience, using data to optimize business performance and customer outcomes.",
+      responsibilities: [
+        "Analyze business performance data to identify optimization opportunities",
+        "Build financial models and business cases for strategic initiatives",
+        "Partner with stakeholders to define problems and develop solutions",
+        "Create presentations and recommendations for senior leadership",
+        "Lead cross-functional projects from analysis to implementation"
+      ],
+      growthOpportunities: [
+        "Exposure to diverse business problems across the organization",
+        "Clear path to Senior BA, Manager, and Director roles",
+        "Opportunity to rotate across business lines",
+        "Strong analytical training and development programs",
+        "Many BAs transition to product, strategy, or leadership roles"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Virtual Job Tryout (VJT) including quantitative assessment, work simulation, and video interview.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 2,
+          title: "First Round Case Interview",
+          description: "30-minute case interview testing analytical and problem-solving skills.",
+          duration: "30 minutes"
+        },
+        {
+          step: 3,
+          title: "Power Day",
+          description: "3-4 back-to-back interviews including 2-3 case interviews and 1-2 behavioral interviews.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Final Decision",
+          description: "Hiring decision typically made within one week of Power Day."
+        }
+      ],
+      technicalQuestions: [
+        "Capital One is considering launching a new credit card. How would you analyze this opportunity?",
+        "A product's conversion rate dropped 15%. How would you diagnose the issue?",
+        "How would you estimate the market size for a new banking product?",
+        "Walk me through how you would build a customer segmentation model.",
+        "A marketing campaign has a negative ROI. What would you recommend?",
+        "How would you analyze whether to expand into a new geographic market?",
+        "Calculate the lifetime value of a credit card customer given these assumptions...",
+        "How would you prioritize which customer complaints to address first?",
+        "A competitor is gaining market share. How would you respond?",
+        "How would you evaluate the success of a customer retention program?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you used data to influence a business decision.",
+        "Describe a situation where you had to simplify complex analysis for stakeholders.",
+        "How have you handled a project with ambiguous requirements?",
+        "Tell me about a time you had to push back on a stakeholder's conclusion.",
+        "Describe a project where you had to work with incomplete data.",
+        "How do you prioritize when you have multiple competing deadlines?",
+        "Tell me about a time you made a mistake in your analysis.",
+        "Describe how you've handled disagreements with team members."
+      ],
+      whatTheyLookFor: [
+        "Strong quantitative and analytical skills",
+        "Structured problem-solving approach",
+        "Clear and concise communication",
+        "Business acumen and commercial awareness",
+        "Proficiency in Excel, SQL, and data visualization",
+        "Ability to work independently and drive projects forward",
+        "Intellectual curiosity and willingness to learn",
+        "Comfort with ambiguity and fast-paced environments"
+      ],
+      interviewTips: [
+        "Practice Capital One-style case interviews extensively",
+        "Master frameworks for market sizing and business analysis",
+        "Be prepared for quantitative questions requiring mental math",
+        "Structure your answers clearly - state hypothesis, analyze, conclude",
+        "Ask clarifying questions before diving into analysis",
+        "Practice talking through your thought process out loud",
+        "Prepare for the Virtual Job Tryout assessment",
+        "Research Capital One's business lines and recent news"
+      ],
+      dayInLife: {
+        overview: "Business Analysts at Capital One balance independent analysis with collaborative problem-solving. Days include data analysis, stakeholder meetings, and presentation preparation.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Planning",
+            description: "Review priorities, check emails, and plan the day's analysis work"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Data Analysis",
+            description: "Work in Excel or SQL to analyze business performance data"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Team Meeting",
+            description: "Sync with project team on progress and findings"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break, sometimes with BA community events"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Discussion",
+            description: "Meet with business partners to discuss findings and next steps"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Building",
+            description: "Build financial models or business cases in Excel"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Presentation Prep",
+            description: "Create PowerPoint presentations to communicate insights"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap-up",
+            description: "Document progress and prepare for next day"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "McKinsey", companySlug: "mckinsey", industry: "Consulting" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Deloitte", companySlug: "deloitte", industry: "Consulting" }
+      ]
+    },
+    'data-engineer': {
+      roleDescription: "Data Engineers at Capital One build the data infrastructure that powers one of the most data-driven banks in the world. You'll design and implement data pipelines, build data lakes on AWS, and enable data scientists and analysts to work with petabytes of financial data. Capital One's cloud-native environment offers modern tools and technologies.",
+      responsibilities: [
+        "Design and build scalable data pipelines on AWS",
+        "Develop ETL processes to ingest and transform financial data",
+        "Build and maintain data lakes and data warehouses",
+        "Ensure data quality, governance, and security compliance",
+        "Collaborate with data scientists to enable ML model deployment"
+      ],
+      growthOpportunities: [
+        "Work with cutting-edge cloud data technologies on AWS",
+        "Handle data at massive scale (petabytes of financial data)",
+        "Clear path to Senior Data Engineer and Principal roles",
+        "Cross-functional exposure to ML, analytics, and business teams",
+        "AWS certifications and continuous learning opportunities"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call to discuss your data engineering background and experience.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview covering SQL, Python, and data engineering concepts.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Power Day",
+          description: "Multiple interviews including coding, system design for data pipelines, and behavioral questions.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Decision",
+          description: "Team debrief and decision, typically within one week."
+        }
+      ],
+      technicalQuestions: [
+        "Design a data pipeline to process real-time credit card transactions.",
+        "How would you handle late-arriving data in a streaming pipeline?",
+        "Explain the differences between data lakes and data warehouses.",
+        "How would you optimize a slow-running SQL query on a large dataset?",
+        "Design a data quality monitoring system for financial data.",
+        "How do you ensure data consistency in distributed systems?",
+        "Explain partitioning strategies for large-scale data storage.",
+        "How would you build a pipeline to support real-time fraud detection?",
+        "Describe your approach to data modeling for analytical workloads.",
+        "How do you handle schema evolution in data pipelines?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a data pipeline you built that had significant business impact.",
+        "Describe a time you had to debug a complex data quality issue.",
+        "How have you handled data engineering projects with tight deadlines?",
+        "Tell me about a time you improved the performance of a data system.",
+        "Describe your experience working with data scientists.",
+        "How do you approach documentation for data pipelines?",
+        "Tell me about a time you had to learn a new technology quickly.",
+        "Describe a challenging data migration you've worked on."
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills and data modeling experience",
+        "Proficiency in Python and data processing frameworks (Spark, etc.)",
+        "Experience with AWS data services (S3, Glue, Redshift, EMR)",
+        "Understanding of data quality and governance",
+        "Knowledge of streaming data processing (Kafka, Kinesis)",
+        "Problem-solving ability for complex data challenges",
+        "Communication skills to work with diverse stakeholders",
+        "Security awareness for financial data handling"
+      ],
+      interviewTips: [
+        "Deep dive on AWS data services - Capital One is cloud-native",
+        "Practice SQL optimization and complex query writing",
+        "Be prepared to design data pipelines end-to-end",
+        "Understand data governance and compliance for financial data",
+        "Review streaming data concepts and technologies",
+        "Prepare examples of handling data at scale",
+        "Research Capital One's data engineering blog posts",
+        "Be ready to discuss trade-offs in data architecture decisions"
+      ],
+      dayInLife: {
+        overview: "Data Engineers at Capital One focus on building and maintaining the data infrastructure that powers analytics and ML. Days include pipeline development, monitoring, and collaboration with data teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Pipeline Monitoring",
+            description: "Check overnight pipeline runs and address any failures"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with data engineering team on projects and blockers"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Development Work",
+            description: "Build or enhance data pipelines in Python and Spark"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Data Scientist Sync",
+            description: "Work with data scientists on data requirements for ML models"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Code Review & Testing",
+            description: "Review PRs and write tests for data pipeline code"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Architecture Discussion",
+            description: "Participate in design reviews for new data systems"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update data catalogs and pipeline documentation"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Databricks", companySlug: "databricks", industry: "Technology" },
+        { companyName: "Snowflake", companySlug: "snowflake", industry: "Technology" }
+      ]
+    },
+    'machine-learning-engineer': {
+      roleDescription: "Machine Learning Engineers at Capital One bridge the gap between data science and software engineering to deploy ML models at scale. You'll work on models that power credit decisions, fraud detection, and customer personalization, ensuring they run reliably in production while meeting strict financial services requirements.",
+      responsibilities: [
+        "Deploy and maintain ML models in production environments",
+        "Build ML infrastructure and feature stores on AWS",
+        "Optimize model performance for latency and throughput",
+        "Implement model monitoring and drift detection systems",
+        "Collaborate with data scientists to productionize their models"
+      ],
+      growthOpportunities: [
+        "Work on ML systems that directly impact millions of customers",
+        "Build cutting-edge MLOps infrastructure",
+        "Path to Senior MLE, Principal, or ML Platform leadership",
+        "Exposure to latest ML technologies and research",
+        "Cross-functional collaboration with data science and engineering"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your ML engineering experience and background.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview covering ML concepts, coding, and system design.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Power Day",
+          description: "Multiple rounds covering ML depth, coding, ML system design, and behavioral questions.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Decision",
+          description: "Decision typically within one week of Power Day."
+        }
+      ],
+      technicalQuestions: [
+        "How would you design a feature store for real-time fraud detection?",
+        "Explain how you would deploy an ML model with sub-100ms latency.",
+        "How do you monitor ML models for drift in production?",
+        "Design an A/B testing framework for ML models.",
+        "How would you handle model versioning and rollback?",
+        "Explain techniques for reducing ML model serving costs.",
+        "How do you ensure reproducibility in ML pipelines?",
+        "Design a system for real-time feature computation.",
+        "How would you implement model explainability for credit decisions?",
+        "Explain the trade-offs between batch and real-time inference."
+      ],
+      behavioralQuestions: [
+        "Tell me about an ML model you deployed to production.",
+        "Describe a time you debugged a production ML issue.",
+        "How have you worked with data scientists to improve model deployment?",
+        "Tell me about a time you improved ML infrastructure performance.",
+        "Describe your experience with ML model monitoring.",
+        "How do you prioritize between multiple ML projects?",
+        "Tell me about a challenging ML engineering problem you solved.",
+        "Describe how you stay current with ML engineering practices."
+      ],
+      whatTheyLookFor: [
+        "Strong software engineering skills (Python, Java, etc.)",
+        "Deep understanding of ML concepts and algorithms",
+        "Experience deploying ML models to production",
+        "Knowledge of MLOps tools and practices",
+        "AWS experience, especially SageMaker",
+        "Understanding of model monitoring and observability",
+        "Problem-solving ability for complex ML systems",
+        "Communication skills to work with diverse teams"
+      ],
+      interviewTips: [
+        "Prepare for ML system design questions focused on production",
+        "Understand model serving patterns and trade-offs",
+        "Be ready to discuss model monitoring and drift detection",
+        "Review AWS SageMaker and related ML services",
+        "Prepare examples of deploying models at scale",
+        "Understand responsible AI and model explainability",
+        "Research Capital One's ML platform and infrastructure",
+        "Be ready to code ML-related algorithms"
+      ],
+      dayInLife: {
+        overview: "Machine Learning Engineers at Capital One focus on the productionization and reliability of ML systems. Days balance development work with cross-team collaboration and operational tasks.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Model Monitoring Review",
+            description: "Check model performance metrics and alerts from overnight"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Sync with ML engineering team on projects and priorities"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Development Work",
+            description: "Work on ML infrastructure, pipelines, or model deployment"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Data Science Collaboration",
+            description: "Work with data scientists on productionizing their models"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Code Review",
+            description: "Review ML pipeline code and provide feedback"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Research & Learning",
+            description: "Stay current with ML engineering best practices and tools"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update runbooks and documentation for ML systems"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" }
+      ]
+    },
+    'data-analyst': {
+      roleDescription: "Data Analysts at Capital One transform data into actionable insights that drive business decisions. You'll work with large datasets to uncover trends, build dashboards, and provide analysis that shapes strategy across credit cards, banking, and operations. Capital One's analytical culture means your work directly impacts business outcomes.",
+      responsibilities: [
+        "Analyze large datasets to identify business trends and opportunities",
+        "Build dashboards and reports for stakeholders",
+        "Develop SQL queries and data models for analysis",
+        "Present findings and recommendations to business partners",
+        "Support data-driven decision making across teams"
+      ],
+      growthOpportunities: [
+        "Develop deep expertise in financial services analytics",
+        "Path to Senior Analyst, Manager, or Data Science roles",
+        "Exposure to diverse business problems and datasets",
+        "Strong analytical training and mentorship",
+        "Opportunity to learn advanced analytics and ML"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Virtual Job Tryout (VJT) with quantitative and analytical components.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "Interview covering SQL, data analysis, and problem-solving.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Power Day",
+          description: "Multiple interviews including case analysis, SQL assessment, and behavioral questions.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Decision",
+          description: "Decision typically within one week."
+        }
+      ],
+      technicalQuestions: [
+        "Write a SQL query to find customers who have churned in the last month.",
+        "How would you analyze the effectiveness of a marketing campaign?",
+        "Explain how you would clean and prepare a messy dataset.",
+        "What metrics would you use to measure credit card portfolio health?",
+        "How would you identify customers at risk of default?",
+        "Design a dashboard to track key business metrics.",
+        "How would you approach a request to analyze customer segmentation?",
+        "Explain how you would validate data accuracy in a report.",
+        "How would you analyze the impact of a pricing change?",
+        "Write a query to calculate month-over-month growth rates."
+      ],
+      behavioralQuestions: [
+        "Tell me about an analysis that led to a significant business decision.",
+        "Describe a time you found an error in your data or analysis.",
+        "How have you handled a request for analysis with a tight deadline?",
+        "Tell me about a time you had to explain complex data to non-technical stakeholders.",
+        "Describe your experience creating dashboards or reports.",
+        "How do you prioritize multiple analysis requests?",
+        "Tell me about a time you had to work with incomplete data.",
+        "Describe how you ensure accuracy in your analysis."
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills for data extraction and manipulation",
+        "Proficiency in Excel and data visualization tools (Tableau, etc.)",
+        "Analytical thinking and problem-solving ability",
+        "Clear communication to present findings to stakeholders",
+        "Attention to detail and data accuracy",
+        "Business acumen to translate data into insights",
+        "Ability to work independently on analysis projects",
+        "Curiosity and desire to learn"
+      ],
+      interviewTips: [
+        "Practice SQL extensively - it's central to the role",
+        "Prepare for case-style analytical questions",
+        "Be ready to walk through your analytical approach step by step",
+        "Understand key financial metrics and KPIs",
+        "Prepare examples of dashboards or reports you've created",
+        "Practice explaining technical concepts in simple terms",
+        "Review basic statistics and data analysis concepts",
+        "Research Capital One's business and key metrics"
+      ],
+      dayInLife: {
+        overview: "Data Analysts at Capital One balance independent analysis work with stakeholder collaboration. Days include writing SQL queries, building dashboards, and presenting insights to business teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Email & Requests Review",
+            description: "Review incoming analysis requests and prioritize work"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Data Analysis",
+            description: "Write SQL queries and analyze data for current projects"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Dashboard Update",
+            description: "Update or build dashboards for stakeholder reporting"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Present analysis findings to business partners"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Deep Analysis",
+            description: "Work on complex analytical projects or ad-hoc requests"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Data Validation",
+            description: "Validate data quality and check analysis accuracy"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Document methodology and prepare for next day"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" }
+      ]
+    },
+    'cyber-security-engineer': {
+      roleDescription: "Cyber Security Engineers at Capital One protect the financial data of millions of customers. You'll work on cloud security, threat detection, and security automation in one of the most security-conscious financial institutions. Capital One's cloud-first approach on AWS means you'll be working on cutting-edge cloud security challenges.",
+      responsibilities: [
+        "Design and implement security controls for cloud infrastructure",
+        "Build security automation and monitoring tools",
+        "Conduct security assessments and penetration testing",
+        "Respond to security incidents and threats",
+        "Develop security policies and best practices"
+      ],
+      growthOpportunities: [
+        "Work on cloud security at massive scale",
+        "Access to advanced security training and certifications",
+        "Path to Senior Security Engineer, Architect, or Security Leadership",
+        "Exposure to cutting-edge security technologies",
+        "Cross-functional work with engineering and risk teams"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your security background and experience.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview covering security concepts, cloud security, and problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Power Day",
+          description: "Multiple interviews including security deep dive, scenario-based questions, and behavioral interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Decision",
+          description: "Decision typically within one week."
+        }
+      ],
+      technicalQuestions: [
+        "How would you secure a microservices architecture on AWS?",
+        "Explain the principle of least privilege and how you would implement it.",
+        "How would you detect and respond to a potential data breach?",
+        "Design a security monitoring system for cloud infrastructure.",
+        "How do you approach securing APIs?",
+        "Explain the difference between symmetric and asymmetric encryption.",
+        "How would you implement a zero-trust security model?",
+        "Describe your approach to security automation.",
+        "How would you secure a CI/CD pipeline?",
+        "Explain how you would handle a phishing attack on employees."
+      ],
+      behavioralQuestions: [
+        "Tell me about a security incident you helped resolve.",
+        "Describe a time you identified a significant security vulnerability.",
+        "How have you balanced security requirements with business needs?",
+        "Tell me about a security project you led from start to finish.",
+        "Describe your experience with security compliance and audits.",
+        "How do you stay current with evolving security threats?",
+        "Tell me about a time you had to convince others to prioritize security.",
+        "Describe how you approach security training for developers."
+      ],
+      whatTheyLookFor: [
+        "Strong knowledge of cloud security, especially AWS",
+        "Understanding of security frameworks and compliance",
+        "Experience with security tools and automation",
+        "Knowledge of secure coding practices",
+        "Incident response and threat detection experience",
+        "Strong analytical and problem-solving skills",
+        "Communication skills to work with diverse teams",
+        "Relevant certifications (CISSP, AWS Security, etc.) are a plus"
+      ],
+      interviewTips: [
+        "Deep dive on AWS security services and best practices",
+        "Prepare for scenario-based security questions",
+        "Understand financial services security regulations",
+        "Be ready to discuss your approach to threat modeling",
+        "Review common attack vectors and how to defend against them",
+        "Prepare examples of security improvements you've implemented",
+        "Research Capital One's security culture and initiatives",
+        "Be ready to discuss both offensive and defensive security"
+      ],
+      dayInLife: {
+        overview: "Cyber Security Engineers at Capital One focus on protecting the company's cloud infrastructure and customer data. Days include security monitoring, tool development, and collaboration with engineering teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Security Review",
+            description: "Check overnight alerts and security dashboards"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with security team on priorities and incidents"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Security Engineering",
+            description: "Build security automation tools or implement security controls"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Architecture Review",
+            description: "Review security aspects of new system designs"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Threat Analysis",
+            description: "Analyze potential threats and update detection rules"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Engineering Collaboration",
+            description: "Work with engineering teams on security best practices"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update security documentation and runbooks"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" }
+      ]
+    }
+  },
+  'american-express': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at American Express build the technology powering a global payments network processing billions of transactions. You'll work on mission-critical systems for payments, fraud detection, and customer experiences. Amex's tech culture emphasizes engineering excellence, security, and building products that serve cardmembers worldwide.",
+      responsibilities: [
+        "Design and develop scalable software for payment systems",
+        "Build APIs and microservices for card processing and rewards",
+        "Implement security-first solutions for financial transactions",
+        "Collaborate with product and design teams on customer-facing features",
+        "Participate in code reviews and maintain high engineering standards"
+      ],
+      growthOpportunities: [
+        "Work on globally scaled payment infrastructure",
+        "Clear path from Engineer to Principal Engineer and beyond",
+        "Cross-functional exposure to payments, risk, and customer experience",
+        "Strong engineering community and mentorship programs",
+        "Opportunities to work on cutting-edge fintech innovations"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial conversation about your background, experience, and interest in American Express.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "Coding interview covering data structures, algorithms, and problem-solving skills.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site",
+          description: "Multiple rounds including coding, system design, and behavioral interviews with team members.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Manager Interview",
+          description: "Final conversation with hiring manager about team fit and career goals."
+        }
+      ],
+      technicalQuestions: [
+        "Design a system to process credit card transactions in real-time.",
+        "How would you build a fraud detection system that operates at scale?",
+        "Implement an algorithm to detect unusual spending patterns.",
+        "Design an API for a card rewards redemption system.",
+        "How would you ensure data consistency in a distributed payment system?",
+        "Write a function to validate credit card numbers using the Luhn algorithm.",
+        "Design a rate limiter for an API handling millions of requests.",
+        "How would you handle idempotency in payment processing?",
+        "Explain how you would secure sensitive cardholder data.",
+        "Design a notification system for real-time transaction alerts."
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you built a system that required high reliability.",
+        "Describe a situation where you had to balance speed with quality.",
+        "How have you handled disagreements about technical decisions?",
+        "Tell me about a project where security was a critical concern.",
+        "Describe your experience working in agile development teams.",
+        "How do you approach learning new technologies?",
+        "Tell me about a time you had to debug a complex production issue.",
+        "Describe how you've mentored or helped other engineers."
+      ],
+      whatTheyLookFor: [
+        "Strong programming skills in Java, Python, or similar languages",
+        "Experience building scalable, distributed systems",
+        "Security-conscious approach to software development",
+        "Understanding of API design and microservices",
+        "Problem-solving ability and analytical thinking",
+        "Communication skills to work with cross-functional teams",
+        "Experience with cloud platforms (AWS, GCP, or Azure)",
+        "Passion for building products that serve customers"
+      ],
+      interviewTips: [
+        "Study system design for payment and financial systems",
+        "Be prepared to discuss security and PCI compliance concepts",
+        "Practice coding problems focused on data structures and algorithms",
+        "Understand API design patterns and best practices",
+        "Prepare examples of working on high-reliability systems",
+        "Research American Express's technology and recent innovations",
+        "Be ready to discuss how you handle technical trade-offs",
+        "Show enthusiasm for the payments and fintech space"
+      ],
+      dayInLife: {
+        overview: "Software Engineers at American Express work on globally impactful payment systems. Days balance coding with collaboration, design discussions, and continuous improvement.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync with engineering team on sprint progress"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Coding",
+            description: "Focus time for feature development and bug fixes"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Code Review",
+            description: "Review pull requests and provide feedback to teammates"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break, often with optional tech talks"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Design Discussion",
+            description: "Collaborate on architecture for upcoming features"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Development & Testing",
+            description: "Continue coding and write unit tests"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Documentation",
+            description: "Update technical documentation and wrap up"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Visa", companySlug: "visa", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at American Express leverage one of the richest datasets in financial services to drive business decisions, detect fraud, and personalize customer experiences. With over 100 million cardmembers worldwide, your models directly impact revenue, risk management, and customer satisfaction.",
+      responsibilities: [
+        "Build machine learning models for fraud detection and risk scoring",
+        "Analyze customer behavior to drive personalization strategies",
+        "Develop predictive models for credit risk and customer lifetime value",
+        "Partner with business teams to translate problems into data solutions",
+        "Present insights and recommendations to senior leadership"
+      ],
+      growthOpportunities: [
+        "Access to world-class financial and transaction data",
+        "Path to Senior Data Scientist, Principal, or Management",
+        "Publish research and attend industry conferences",
+        "Cross-functional exposure to marketing, risk, and product",
+        "Strong data science community and mentorship"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call to discuss your background and interest in the role.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "Interview covering statistics, machine learning, and SQL skills.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Study Round",
+          description: "Present a case study or work through a business problem live.",
+          duration: "60 minutes"
+        },
+        {
+          step: 4,
+          title: "On-site/Virtual Interviews",
+          description: "Multiple rounds with data scientists and hiring manager covering technical depth and behavioral fit.",
+          duration: "3-4 hours"
+        }
+      ],
+      technicalQuestions: [
+        "How would you build a model to predict credit card fraud?",
+        "Explain the difference between precision and recall. When would you prioritize each?",
+        "How do you handle imbalanced datasets in fraud detection?",
+        "Design an A/B test to measure the effectiveness of a new rewards feature.",
+        "How would you segment American Express cardmembers for targeted marketing?",
+        "Explain how you would validate a credit risk model.",
+        "What techniques would you use to reduce false positives in fraud detection?",
+        "How would you approach predicting customer churn?",
+        "Explain gradient boosting and when you would use it.",
+        "How do you ensure your models are fair and unbiased?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a model you built that had significant business impact.",
+        "Describe a time you had to explain complex analysis to non-technical stakeholders.",
+        "How have you handled a project where the data quality was poor?",
+        "Tell me about a time your model didn't perform as expected.",
+        "Describe your experience working with cross-functional teams.",
+        "How do you prioritize when you have multiple data science projects?",
+        "Tell me about a time you had to push back on a stakeholder's request.",
+        "How do you stay current with developments in data science?"
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in statistics and machine learning",
+        "Proficiency in Python, R, and SQL",
+        "Experience with ML frameworks (scikit-learn, TensorFlow, etc.)",
+        "Ability to translate business problems into data solutions",
+        "Understanding of model validation and deployment",
+        "Strong communication and presentation skills",
+        "Experience with large-scale data processing",
+        "Curiosity and drive to solve complex problems"
+      ],
+      interviewTips: [
+        "Prepare for case studies focused on credit card industry problems",
+        "Review statistics fundamentals thoroughly",
+        "Practice explaining ML concepts to non-technical audiences",
+        "Be ready to discuss fraud detection and risk modeling",
+        "Prepare examples of end-to-end data science projects",
+        "Understand American Express's business model and customer base",
+        "Review SQL - it's heavily used at Amex",
+        "Prepare to discuss model fairness and responsible AI"
+      ],
+      dayInLife: {
+        overview: "Data Scientists at American Express balance model development with business collaboration. Days include coding, analysis, meetings with partners, and presenting insights.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Sync with data science team on project progress"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Model Development",
+            description: "Work on feature engineering and model training"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Data Analysis",
+            description: "Explore data and analyze model performance metrics"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Business Partner Meeting",
+            description: "Discuss project requirements and present findings"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Review",
+            description: "Peer review session with senior data scientists"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Research & Learning",
+            description: "Read papers, experiment with new techniques"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "Visa", companySlug: "visa", industry: "Finance" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+      ]
+    },
+    'data-analyst': {
+      roleDescription: "Data Analysts at American Express transform transaction and customer data into actionable insights. You'll use SQL to analyze billions of transactions, build dashboards, and help teams across the company make data-driven decisions. American Express's data-rich environment offers exceptional opportunities to develop analytical skills.",
+      responsibilities: [
+        "Analyze transaction and customer data to identify trends and opportunities",
+        "Build dashboards and reports for stakeholders across the organization",
+        "Write complex SQL queries to extract insights from large datasets",
+        "Partner with business teams to define metrics and KPIs",
+        "Present findings and recommendations to support decision-making"
+      ],
+      growthOpportunities: [
+        "Work with one of the richest datasets in financial services",
+        "Path to Senior Analyst, Lead Analyst, or Data Science roles",
+        "Exposure to diverse business problems across the organization",
+        "Strong analytical training and development programs",
+        "Mentorship from experienced analysts and data scientists"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your background and interest in the role.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Assessment",
+          description: "SQL test and/or Excel assessment to evaluate technical skills.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into your analytical experience and problem-solving approach.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Team Interviews",
+          description: "Meet with team members for technical and behavioral questions.",
+          duration: "2-3 hours"
+        }
+      ],
+      technicalQuestions: [
+        "Write a SQL query to find customers who spent more than $10,000 in the last month.",
+        "How would you analyze which merchants drive the most card spend?",
+        "Write a query to calculate month-over-month growth in transaction volume.",
+        "How would you segment customers based on their spending behavior?",
+        "Explain how you would identify fraudulent transactions in the data.",
+        "Write a SQL query to find the top 10 categories by average transaction size.",
+        "How would you analyze the effectiveness of a marketing campaign?",
+        "Design a dashboard to track credit card portfolio health.",
+        "How would you handle missing data in your analysis?",
+        "Write a query to identify customers at risk of churn."
+      ],
+      behavioralQuestions: [
+        "Tell me about an analysis that led to a significant business decision.",
+        "Describe a time you found an error in your data or analysis.",
+        "How have you handled requests with tight deadlines?",
+        "Tell me about a time you explained data to non-technical stakeholders.",
+        "Describe your experience creating dashboards or reports.",
+        "How do you prioritize multiple analysis requests?",
+        "Tell me about a time you worked with incomplete data.",
+        "Describe how you ensure accuracy in your analysis."
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills for data extraction and manipulation",
+        "Proficiency in Excel and data visualization tools",
+        "Analytical thinking and problem-solving ability",
+        "Clear communication to present findings to stakeholders",
+        "Attention to detail and data accuracy",
+        "Business acumen to translate data into insights",
+        "Ability to work independently on analysis projects",
+        "Curiosity and eagerness to learn"
+      ],
+      interviewTips: [
+        "Master SQL - it's central to the role at Amex",
+        "Practice window functions, CTEs, and complex joins",
+        "Be ready to walk through your analytical approach",
+        "Understand key metrics in the credit card industry",
+        "Prepare examples of impactful analyses you've done",
+        "Practice explaining technical concepts simply",
+        "Review basic statistics and data analysis concepts",
+        "Research American Express's business and customer segments"
+      ],
+      dayInLife: {
+        overview: "Data Analysts at American Express work with rich transaction data to drive business decisions. Days include SQL analysis, dashboard building, and collaborating with stakeholders.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Email & Requests Review",
+            description: "Review incoming analysis requests and prioritize"
+          },
+          {
+            time: "9:30 AM",
+            activity: "SQL Analysis",
+            description: "Write queries and analyze data for current projects"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Dashboard Work",
+            description: "Update or build dashboards for stakeholders"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Present findings to business partners"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Deep Analysis",
+            description: "Work on complex analytical projects"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Data Validation",
+            description: "Validate data quality and analysis accuracy"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Document methodology and findings"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "Visa", companySlug: "visa", industry: "Finance" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    },
+    'product-manager': {
+      roleDescription: "Product Managers at American Express own the strategy and execution for digital products serving millions of cardmembers. You'll work on everything from the Amex app to rewards programs to new payment experiences. American Express's customer-centric culture and global scale make this a unique PM opportunity in fintech.",
+      responsibilities: [
+        "Define product vision, strategy, and roadmap for digital products",
+        "Lead cross-functional teams of engineers, designers, and analysts",
+        "Analyze customer data and market trends to identify opportunities",
+        "Drive product launches and measure success through KPIs",
+        "Champion the cardmember experience in all product decisions"
+      ],
+      growthOpportunities: [
+        "Own products serving millions of global cardmembers",
+        "Clear path from PM to Senior PM to Director of Product",
+        "Exposure to diverse products (app, rewards, payments, B2B)",
+        "Strong PM community with mentorship and development",
+        "Work on innovative fintech solutions"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial conversation about your PM experience and interest in Amex.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Discussion of your product experience, approach, and fit for the role.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Interview",
+          description: "Product case study requiring structured problem-solving.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Panel Interviews",
+          description: "Multiple rounds with PMs, engineers, and leaders covering product sense and leadership.",
+          duration: "3-4 hours"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve the American Express mobile app?",
+        "Design a new feature for the Amex rewards program.",
+        "How would you prioritize features for a new card product?",
+        "What metrics would you use to measure app engagement?",
+        "How would you approach launching a product in a new market?",
+        "Design an onboarding experience for new cardmembers.",
+        "How would you reduce customer service calls through product improvements?",
+        "What's your framework for making trade-off decisions?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a product you launched from concept to delivery.",
+        "Describe a time you had to make a decision with incomplete data.",
+        "How have you handled conflicting priorities from stakeholders?",
+        "Tell me about a time you had to say no to a feature request.",
+        "Describe a product failure and what you learned from it.",
+        "How do you build relationships with engineering teams?",
+        "Tell me about a time you used data to change product direction.",
+        "Describe how you've incorporated customer feedback into product decisions."
+      ],
+      whatTheyLookFor: [
+        "Strong product sense and customer empathy",
+        "Data-driven decision making ability",
+        "Experience leading cross-functional teams",
+        "Clear communication and stakeholder management",
+        "Understanding of agile product development",
+        "Technical fluency to work with engineering",
+        "Strategic thinking balanced with execution",
+        "Passion for the payments and fintech space"
+      ],
+      interviewTips: [
+        "Understand American Express's products and customer segments",
+        "Prepare product cases specific to payments and rewards",
+        "Be ready to discuss metrics and measurement",
+        "Show customer obsession with examples from your experience",
+        "Research the competitive landscape (Visa, Mastercard, etc.)",
+        "Practice structured frameworks for case questions",
+        "Understand the premium positioning of the Amex brand",
+        "Prepare examples of leading through influence"
+      ],
+      dayInLife: {
+        overview: "Product Managers at American Express drive digital products that serve cardmembers globally. Days balance strategy, execution, and stakeholder collaboration.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Check product dashboards and KPIs"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with engineering and design"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Stakeholder Meeting",
+            description: "Align with business partners on priorities"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Customer Research",
+            description: "Review user feedback and research findings"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Roadmap Planning",
+            description: "Work on product roadmap and PRDs"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Design Review",
+            description: "Review designs and provide feedback"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Strategy Work",
+            description: "Competitive analysis and strategic planning"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Visa", companySlug: "visa", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    },
+    'risk-analyst': {
+      roleDescription: "Risk Analysts at American Express are at the core of the company's credit business. You'll analyze credit risk, develop risk policies, and help balance growth with responsible lending. American Express's focus on premium cardmembers means working with sophisticated risk strategies that differ from mass-market credit cards.",
+      responsibilities: [
+        "Analyze credit risk data to develop and optimize risk policies",
+        "Monitor portfolio performance and identify emerging risks",
+        "Build financial models for credit loss forecasting",
+        "Partner with business teams on risk-informed product decisions",
+        "Present risk assessments and recommendations to leadership"
+      ],
+      growthOpportunities: [
+        "Deep expertise in credit risk for premium customers",
+        "Path to Senior Risk Analyst, Manager, or Credit Officer",
+        "Exposure to diverse risk domains (credit, fraud, operational)",
+        "Strong analytical training and development",
+        "Cross-functional work with product, marketing, and finance"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial conversation about your risk background and interest.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Discussion of your risk experience and analytical approach.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Technical/Case Interview",
+          description: "Interview covering risk concepts and analytical problem-solving.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Final Interview",
+          description: "Meeting with senior leadership to discuss fit and career goals.",
+          duration: "30-45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "How would you assess the credit risk of a new card applicant?",
+        "What factors would you consider in setting credit limits?",
+        "How would you monitor a credit card portfolio for emerging risks?",
+        "Explain the difference between PD, LGD, and EAD.",
+        "How would you build a credit loss forecasting model?",
+        "What would you do if you noticed an increase in delinquency rates?",
+        "How do you balance growth targets with risk management?",
+        "Explain how macroeconomic factors affect credit risk.",
+        "How would you evaluate the risk of a new card product?",
+        "Describe your approach to stress testing a credit portfolio."
+      ],
+      behavioralQuestions: [
+        "Tell me about a risk analysis that influenced a business decision.",
+        "Describe a time you identified a risk that others had missed.",
+        "How have you handled disagreements about risk tolerance?",
+        "Tell me about a time you had to present risk findings to senior leadership.",
+        "Describe your experience with regulatory or compliance requirements.",
+        "How do you stay current with developments in risk management?",
+        "Tell me about a time you worked under pressure to deliver analysis.",
+        "Describe how you've balanced analytical work with stakeholder management."
+      ],
+      whatTheyLookFor: [
+        "Strong analytical and quantitative skills",
+        "Understanding of credit risk concepts and metrics",
+        "Proficiency in Excel, SQL, and statistical tools",
+        "Clear communication to explain risk to non-technical audiences",
+        "Attention to detail in analysis",
+        "Business acumen to understand risk trade-offs",
+        "Knowledge of financial regulations is a plus",
+        "Curiosity and willingness to learn"
+      ],
+      interviewTips: [
+        "Review credit risk fundamentals (PD, LGD, EAD, VaR, etc.)",
+        "Understand American Express's premium customer focus",
+        "Be prepared to discuss economic factors affecting credit",
+        "Practice explaining risk concepts in simple terms",
+        "Prepare examples of risk analyses you've conducted",
+        "Research current trends in consumer credit",
+        "Understand the regulatory environment for credit cards",
+        "Show how you balance risk with business growth"
+      ],
+      dayInLife: {
+        overview: "Risk Analysts at American Express focus on managing credit risk for premium cardmembers. Days include portfolio analysis, model development, and stakeholder collaboration.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Portfolio Review",
+            description: "Check overnight portfolio metrics and alerts"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Meeting",
+            description: "Sync with risk team on priorities and projects"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Risk Analysis",
+            description: "Analyze credit data and develop risk insights"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Model Development",
+            description: "Work on credit risk models and forecasts"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Business Partner Meeting",
+            description: "Discuss risk implications with product or marketing teams"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Documentation",
+            description: "Document analysis and prepare reports"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Visa", companySlug: "visa", industry: "Finance" },
+        { companyName: "Citi", companySlug: "citigroup", industry: "Finance" }
+      ]
+    },
+    'data-engineer': {
+      roleDescription: "Data Engineers at American Express build the data infrastructure that powers analytics, machine learning, and business intelligence across the company. You'll work with massive datasets of transaction data, enabling data scientists and analysts to derive insights that drive business decisions.",
+      responsibilities: [
+        "Design and build scalable data pipelines for transaction data",
+        "Develop ETL processes to ingest and transform financial data",
+        "Build and maintain data lakes and data warehouses",
+        "Ensure data quality, governance, and security compliance",
+        "Enable data scientists with clean, reliable data for modeling"
+      ],
+      growthOpportunities: [
+        "Work with one of the richest transaction datasets globally",
+        "Path to Senior Data Engineer, Architect, or Management",
+        "Exposure to cutting-edge data technologies",
+        "Cross-functional work with data science and business teams",
+        "Strong engineering culture and learning opportunities"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call to discuss your data engineering background.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "Interview covering SQL, Python, and data engineering concepts.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "System Design Interview",
+          description: "Design a data pipeline or system for a given use case.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "On-site Interviews",
+          description: "Multiple rounds covering technical depth and behavioral fit.",
+          duration: "3-4 hours"
+        }
+      ],
+      technicalQuestions: [
+        "Design a data pipeline to process credit card transactions in real-time.",
+        "How would you handle late-arriving data in a streaming pipeline?",
+        "Explain your approach to data quality monitoring.",
+        "How would you optimize a slow-running ETL job?",
+        "Design a data warehouse schema for transaction data.",
+        "How do you ensure data consistency across distributed systems?",
+        "Explain partitioning strategies for large-scale data.",
+        "How would you build a data pipeline that supports fraud detection?",
+        "Describe your approach to data governance and security.",
+        "How do you handle schema evolution in data pipelines?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a data pipeline you built that had significant impact.",
+        "Describe a time you debugged a complex data quality issue.",
+        "How have you handled data projects with tight deadlines?",
+        "Tell me about a time you improved the performance of a data system.",
+        "Describe your experience working with data scientists.",
+        "How do you prioritize between multiple data engineering requests?",
+        "Tell me about a challenging data migration you've worked on.",
+        "Describe how you approach documentation for data systems."
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills and data modeling experience",
+        "Proficiency in Python and data processing frameworks",
+        "Experience with big data technologies (Spark, Kafka, etc.)",
+        "Understanding of data quality and governance",
+        "Knowledge of cloud data platforms (AWS, GCP, Azure)",
+        "Problem-solving ability for complex data challenges",
+        "Communication skills to work with diverse stakeholders",
+        "Security awareness for financial data"
+      ],
+      interviewTips: [
+        "Practice SQL extensively - joins, window functions, optimization",
+        "Be prepared to design data pipelines end-to-end",
+        "Understand data governance and compliance for financial data",
+        "Review streaming data concepts and technologies",
+        "Prepare examples of handling data at scale",
+        "Research American Express's data engineering blog and talks",
+        "Be ready to discuss trade-offs in data architecture",
+        "Understand PCI compliance basics for cardholder data"
+      ],
+      dayInLife: {
+        overview: "Data Engineers at American Express build and maintain the data infrastructure that powers analytics and ML. Days include pipeline development, monitoring, and collaboration with data teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Pipeline Monitoring",
+            description: "Check overnight pipeline runs and address issues"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with data engineering team"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Development",
+            description: "Build or enhance data pipelines"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Sync",
+            description: "Discuss data requirements with data scientists"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Code Review",
+            description: "Review PRs and provide feedback"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Architecture Work",
+            description: "Design discussions for new data systems"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update data catalogs and documentation"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "Visa", companySlug: "visa", industry: "Finance" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Databricks", companySlug: "databricks", industry: "Technology" }
+      ]
+    },
+    'machine-learning-engineer': {
+      roleDescription: "Machine Learning Engineers at American Express deploy and scale ML models that power fraud detection, credit decisions, and personalization. You'll bridge data science and engineering to ensure models run reliably in production while meeting strict financial services requirements.",
+      responsibilities: [
+        "Deploy and maintain ML models in production environments",
+        "Build ML infrastructure for model training and serving",
+        "Optimize model performance for latency and throughput",
+        "Implement model monitoring and drift detection",
+        "Collaborate with data scientists to productionize models"
+      ],
+      growthOpportunities: [
+        "Work on ML systems that process billions of transactions",
+        "Build cutting-edge MLOps infrastructure",
+        "Path to Senior MLE, Principal, or ML Platform leadership",
+        "Exposure to latest ML technologies and research",
+        "Cross-functional collaboration with data science and engineering"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your ML engineering experience.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "Interview covering ML concepts, coding, and system design.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site Interviews",
+          description: "Multiple rounds covering ML depth, coding, and behavioral questions.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Manager Interview",
+          description: "Final discussion about team fit and career goals."
+        }
+      ],
+      technicalQuestions: [
+        "How would you design an ML system for real-time fraud detection?",
+        "Explain how you would deploy a model with sub-100ms latency requirements.",
+        "How do you monitor ML models for drift in production?",
+        "Design a feature store for real-time and batch features.",
+        "How would you handle model versioning and rollback?",
+        "Explain techniques for reducing ML model serving costs.",
+        "How do you ensure reproducibility in ML pipelines?",
+        "Design an A/B testing framework for ML models.",
+        "How would you implement model explainability for credit decisions?",
+        "Explain the trade-offs between batch and real-time inference."
+      ],
+      behavioralQuestions: [
+        "Tell me about an ML model you deployed to production.",
+        "Describe a time you debugged a production ML issue.",
+        "How have you worked with data scientists to improve model deployment?",
+        "Tell me about a time you improved ML infrastructure performance.",
+        "Describe your experience with ML model monitoring.",
+        "How do you prioritize between multiple ML projects?",
+        "Tell me about a challenging ML engineering problem you solved.",
+        "Describe how you stay current with ML engineering practices."
+      ],
+      whatTheyLookFor: [
+        "Strong software engineering skills (Python, Java, etc.)",
+        "Deep understanding of ML concepts and algorithms",
+        "Experience deploying ML models to production",
+        "Knowledge of MLOps tools and practices",
+        "Experience with ML frameworks and model serving",
+        "Understanding of model monitoring and observability",
+        "Problem-solving ability for complex ML systems",
+        "Communication skills to work with diverse teams"
+      ],
+      interviewTips: [
+        "Prepare for ML system design questions focused on production",
+        "Understand model serving patterns and trade-offs",
+        "Be ready to discuss model monitoring and drift detection",
+        "Review fraud detection ML system design",
+        "Prepare examples of deploying models at scale",
+        "Understand responsible AI and model explainability",
+        "Research American Express's ML infrastructure",
+        "Be ready to code ML-related algorithms"
+      ],
+      dayInLife: {
+        overview: "Machine Learning Engineers at American Express focus on production ML systems. Days balance development with cross-team collaboration and operational responsibilities.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Model Monitoring",
+            description: "Check model performance metrics and alerts"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Sync with ML engineering team"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Development",
+            description: "Work on ML infrastructure or model deployment"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Data Science Collaboration",
+            description: "Work with data scientists on productionizing models"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Code Review",
+            description: "Review ML pipeline code"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Research",
+            description: "Stay current with ML engineering best practices"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update runbooks and documentation"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" }
+      ]
+    },
+    'financial-analyst': {
+      roleDescription: "Financial Analysts at American Express support strategic decision-making through financial modeling, forecasting, and business analysis. You'll analyze performance across card products, merchant services, and enterprise operations, providing insights that shape the company's financial strategy.",
+      responsibilities: [
+        "Build financial models to forecast revenue and expenses",
+        "Analyze product profitability and business performance",
+        "Prepare financial reports and presentations for leadership",
+        "Support budgeting, planning, and variance analysis",
+        "Partner with business teams on financial analysis and insights"
+      ],
+      growthOpportunities: [
+        "Exposure to a complex, global financial services business",
+        "Path to Senior Analyst, Manager, or Finance leadership",
+        "Cross-functional work with strategy, product, and operations",
+        "Strong finance training and development programs",
+        "Opportunity to work on strategic initiatives and M&A"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial conversation about your finance background.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Discussion of your financial analysis experience and approach.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case/Technical Interview",
+          description: "Financial modeling exercise or case study.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Team Interviews",
+          description: "Meet with team members for technical and behavioral fit.",
+          duration: "2-3 hours"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through how you would build a DCF model.",
+        "How would you analyze the profitability of a new card product?",
+        "Explain the key drivers of revenue for a credit card company.",
+        "How would you forecast credit card spend growth?",
+        "Build a model to evaluate an acquisition opportunity.",
+        "What metrics would you use to measure card portfolio health?",
+        "How would you analyze the ROI of a marketing campaign?",
+        "Explain the impact of interest rates on a credit card business.",
+        "How would you model the financial impact of a new rewards program?",
+        "Walk me through the key financial statements and how they connect."
+      ],
+      behavioralQuestions: [
+        "Tell me about a financial analysis that influenced a business decision.",
+        "Describe a time you found an error in a financial model.",
+        "How have you handled tight deadlines on financial deliverables?",
+        "Tell me about a time you presented financial insights to senior leadership.",
+        "Describe your experience with budgeting and forecasting.",
+        "How do you ensure accuracy in your financial models?",
+        "Tell me about a time you had to simplify complex financial data.",
+        "Describe how you prioritize when managing multiple projects."
+      ],
+      whatTheyLookFor: [
+        "Strong financial modeling skills in Excel",
+        "Understanding of financial statements and analysis",
+        "Analytical thinking and attention to detail",
+        "Clear communication and presentation skills",
+        "Business acumen and strategic thinking",
+        "Ability to work under pressure and meet deadlines",
+        "Proficiency in financial tools and systems",
+        "Curiosity and desire to understand the business"
+      ],
+      interviewTips: [
+        "Master Excel financial modeling - it's essential",
+        "Understand credit card industry economics",
+        "Be prepared for case studies on profitability analysis",
+        "Review financial statement analysis fundamentals",
+        "Prepare examples of impactful financial analyses",
+        "Understand American Express's business segments",
+        "Practice explaining financial concepts clearly",
+        "Research recent Amex financial news and earnings"
+      ],
+      dayInLife: {
+        overview: "Financial Analysts at American Express provide insights that drive business decisions. Days include modeling, analysis, stakeholder collaboration, and presentation preparation.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Review",
+            description: "Review overnight market news and financial data"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Financial Modeling",
+            description: "Work on forecasts, budgets, or analysis models"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Team Meeting",
+            description: "Sync with finance team on priorities"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Business Partner Meeting",
+            description: "Discuss financial insights with business teams"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Analysis Work",
+            description: "Deep dive into business performance analysis"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Presentation Prep",
+            description: "Prepare materials for leadership presentations"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap-up",
+            description: "Document progress and plan for next day"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Visa", companySlug: "visa", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" }
+      ]
+    }
+  },
+  'visa': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Visa build the technology that powers the world's largest payment network, processing over 259 billion transactions annually. You'll work on mission-critical systems that connect consumers, merchants, and financial institutions across 200+ countries. Visa's engineering culture emphasizes reliability, security, and innovation at global scale.",
+      responsibilities: [
+        "Design and develop scalable payment processing systems",
+        "Build APIs and services for the global payment network",
+        "Implement security-first solutions for financial transactions",
+        "Collaborate with cross-functional teams on product development",
+        "Maintain high availability systems with 99.999% uptime requirements"
+      ],
+      growthOpportunities: [
+        "Work on technology that processes 65,000+ transactions per second",
+        "Clear path from Engineer to Staff Engineer and beyond",
+        "Cross-functional exposure to payments, fraud, and product teams",
+        "Global opportunities across Visa's worldwide offices",
+        "Strong engineering community and learning programs"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call discussing your background and interest in Visa.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Online Assessment",
+          description: "Technical coding assessment covering algorithms and problem-solving.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 3,
+          title: "Technical Interviews",
+          description: "Multiple rounds covering coding, system design, and domain knowledge.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit assessment focusing on collaboration and innovation."
+        }
+      ],
+      technicalQuestions: [
+        "Design a system to process credit card transactions at global scale.",
+        "How would you build a real-time fraud detection system?",
+        "Implement an algorithm to detect suspicious transaction patterns.",
+        "Design an API for payment authorization with sub-100ms latency.",
+        "How would you ensure data consistency in a distributed payment system?",
+        "Write a function to validate and route payment transactions.",
+        "Design a rate limiter for an API handling millions of requests.",
+        "How would you handle idempotency in payment processing?",
+        "Explain how you would secure sensitive payment data.",
+        "Design a notification system for real-time transaction alerts."
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you built a system requiring high reliability.",
+        "Describe a situation where you innovated to solve a problem.",
+        "How have you handled cross-team collaboration on complex projects?",
+        "Tell me about a project where security was critical.",
+        "Describe your experience working with global teams.",
+        "How do you approach learning new technologies?",
+        "Tell me about a time you debugged a critical production issue.",
+        "Describe how you've mentored or helped other engineers."
+      ],
+      whatTheyLookFor: [
+        "Strong programming skills in Java, Python, or C++",
+        "Experience building scalable, distributed systems",
+        "Security-conscious approach to software development",
+        "Understanding of API design and microservices",
+        "Problem-solving ability and analytical thinking",
+        "Communication skills for cross-functional collaboration",
+        "Experience with high-availability systems",
+        "Passion for building reliable payment technology"
+      ],
+      interviewTips: [
+        "Study system design for high-throughput payment systems",
+        "Understand payment network concepts (authorization, settlement)",
+        "Practice coding problems focused on data structures and algorithms",
+        "Be prepared to discuss security and compliance concepts",
+        "Research Visa's technology and VisaNet architecture",
+        "Prepare examples of working on mission-critical systems",
+        "Show enthusiasm for the global impact of payment technology",
+        "Review Visa's innovation initiatives and developer platform"
+      ],
+      dayInLife: {
+        overview: "Software Engineers at Visa work on globally critical payment infrastructure. Days balance development with collaboration, design reviews, and ensuring system reliability.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync with engineering team on sprint progress"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Development Work",
+            description: "Focus time for feature development and system improvements"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Code Review",
+            description: "Review pull requests and provide feedback"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Design Discussion",
+            description: "Collaborate on architecture for new features"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Testing & Quality",
+            description: "Write tests and ensure code quality"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Documentation",
+            description: "Update technical documentation and wrap up"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" },
+        { companyName: "PayPal", companySlug: "paypal", industry: "Fintech" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Visa leverage massive transaction datasets to drive fraud detection, risk assessment, and business insights. With 259 billion annual transactions, you'll build models that protect millions of consumers and merchants while enabling commerce worldwide. Visa's data science culture emphasizes real-world impact at global scale.",
+      responsibilities: [
+        "Build machine learning models for fraud detection and risk scoring",
+        "Analyze transaction data to uncover patterns and insights",
+        "Develop predictive models for payment behavior and trends",
+        "Partner with product teams to improve payment experiences",
+        "Present findings and recommendations to stakeholders"
+      ],
+      growthOpportunities: [
+        "Access to one of the world's largest transaction datasets",
+        "Path to Senior Data Scientist, Principal, or Management",
+        "Publish research and attend industry conferences",
+        "Global exposure across markets and payment types",
+        "Strong data science community and mentorship"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your background and interest in the role.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Assessment",
+          description: "Online assessment covering SQL, statistics, and machine learning concepts.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 3,
+          title: "Technical Interviews",
+          description: "Two domain-focused interviews covering ML depth and SQL skills.",
+          duration: "90 minutes total"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit assessment focusing on collaboration and communication.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "Design a fraud detection pipeline for credit card transactions.",
+        "How do you handle imbalanced classes in fraud detection?",
+        "Explain your approach to feature engineering for transaction data.",
+        "How would you measure the success of a fraud detection model?",
+        "Design an A/B test to evaluate a new payment feature.",
+        "How would you segment merchants based on transaction patterns?",
+        "Explain techniques for reducing false positives in fraud detection.",
+        "How would you model transaction volume forecasting?",
+        "Walk through an end-to-end ML project from data to deployment.",
+        "How do you monitor models for drift in production?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a model you built that had significant impact.",
+        "Describe a time you explained complex analysis to non-technical stakeholders.",
+        "How have you handled projects with data quality issues?",
+        "Tell me about a time your model didn't perform as expected.",
+        "Describe your experience collaborating with cross-functional teams.",
+        "How do you prioritize when you have multiple projects?",
+        "Tell me about a time you innovated to solve a problem.",
+        "Describe how you stay current with developments in data science."
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in statistics and machine learning",
+        "Proficiency in Python, SQL, and ML frameworks",
+        "Experience with fraud detection or anomaly detection",
+        "Ability to translate business problems into data solutions",
+        "Understanding of model validation and deployment",
+        "Strong communication and presentation skills",
+        "Experience with large-scale data processing",
+        "Curiosity and drive to solve complex problems"
+      ],
+      interviewTips: [
+        "Focus on fraud detection and anomaly detection concepts",
+        "Practice SQL extensively - it's central to Visa interviews",
+        "Prepare for end-to-end ML pipeline questions",
+        "Understand payment metrics like approval rates and chargebacks",
+        "Research Visa's data science blog and publications",
+        "Prepare examples of handling imbalanced datasets",
+        "Be ready to discuss model monitoring and drift",
+        "Review probability and statistics fundamentals"
+      ],
+      dayInLife: {
+        overview: "Data Scientists at Visa work on models that protect the global payment network. Days balance model development with collaboration and stakeholder communication.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Sync with data science team on project progress"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Model Development",
+            description: "Work on feature engineering and model training"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Data Analysis",
+            description: "Explore transaction data and analyze patterns"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Present findings to product or business teams"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Review",
+            description: "Peer review with senior data scientists"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Research",
+            description: "Explore new techniques and read papers"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" }
+      ]
+    },
+    'data-analyst': {
+      roleDescription: "Data Analysts at Visa transform payment transaction data into actionable insights that drive business decisions. You'll analyze patterns in billions of transactions, build dashboards, and help teams across Visa understand payment trends, merchant behavior, and market opportunities.",
+      responsibilities: [
+        "Analyze transaction data to identify trends and opportunities",
+        "Build dashboards and reports for stakeholders",
+        "Write complex SQL queries to extract insights from large datasets",
+        "Partner with business teams to define metrics and KPIs",
+        "Support data-driven decision making across the organization"
+      ],
+      growthOpportunities: [
+        "Work with one of the largest transaction datasets globally",
+        "Path to Senior Analyst, Lead, or Data Science roles",
+        "Exposure to diverse payment products and markets",
+        "Strong analytical training and development programs",
+        "Global opportunities across Visa's offices"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your background and interest.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "SQL Assessment",
+          description: "Technical assessment focused on SQL and data manipulation.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Interview",
+          description: "Business case combining metrics analysis and SQL challenge.",
+          duration: "60 minutes"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit and communication assessment.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "Write a SQL query to calculate merchant transaction volumes by category.",
+        "How would you analyze payment approval rates across regions?",
+        "Write a query to identify customers with unusual transaction patterns.",
+        "How would you measure the success of a new payment product?",
+        "Design a dashboard to track payment network health.",
+        "Write SQL to calculate month-over-month growth in transactions.",
+        "How would you segment merchants based on their transaction data?",
+        "Explain how you would identify potential fraud in the data.",
+        "How would you handle missing data in your analysis?",
+        "Write a query to find the top merchants by transaction value."
+      ],
+      behavioralQuestions: [
+        "Tell me about an analysis that led to a significant business decision.",
+        "Describe a time you found an error in your data or analysis.",
+        "How have you communicated data insights to non-technical audiences?",
+        "Tell me about a time you worked with incomplete data.",
+        "Describe your experience creating dashboards or reports.",
+        "How do you prioritize multiple analysis requests?",
+        "Tell me about a time you collaborated with cross-functional teams.",
+        "Describe how you ensure accuracy in your analysis."
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills for data extraction and manipulation",
+        "Proficiency in data visualization tools (Tableau, etc.)",
+        "Analytical thinking and problem-solving ability",
+        "Clear communication to present findings",
+        "Attention to detail and data accuracy",
+        "Business acumen to translate data into insights",
+        "Ability to work with large-scale datasets",
+        "Curiosity about payment industry trends"
+      ],
+      interviewTips: [
+        "Master SQL - it's heavily tested at Visa",
+        "Practice window functions, CTEs, and complex joins",
+        "Understand key payment metrics (approval rates, chargebacks)",
+        "Prepare for case studies involving payment data",
+        "Research Visa's business segments and products",
+        "Practice explaining technical concepts simply",
+        "Be ready to walk through your analytical approach",
+        "Review basic statistics and data analysis concepts"
+      ],
+      dayInLife: {
+        overview: "Data Analysts at Visa work with rich payment data to drive business decisions. Days include SQL analysis, dashboard building, and stakeholder collaboration.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Email & Requests Review",
+            description: "Review incoming analysis requests and prioritize"
+          },
+          {
+            time: "9:30 AM",
+            activity: "SQL Analysis",
+            description: "Write queries and analyze transaction data"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Dashboard Work",
+            description: "Update or build dashboards for stakeholders"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Present findings to business partners"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Deep Analysis",
+            description: "Work on complex analytical projects"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Documentation",
+            description: "Document methodology and prepare reports"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" }
+      ]
+    },
+    'product-manager': {
+      roleDescription: "Product Managers at Visa own the strategy and execution for products that power global commerce. You'll work on payment solutions used by billions of people, partnering with engineering, design, and business teams to deliver innovative products that connect consumers, merchants, and financial institutions worldwide.",
+      responsibilities: [
+        "Define product vision, strategy, and roadmap for payment products",
+        "Lead cross-functional teams to deliver product features",
+        "Analyze market trends and customer needs to identify opportunities",
+        "Drive product launches across global markets",
+        "Navigate regulatory requirements in the payment industry"
+      ],
+      growthOpportunities: [
+        "Own products with global scale and impact",
+        "Clear path from PM to Senior PM to Director",
+        "Exposure to diverse payment products (consumer, merchant, B2B)",
+        "Global opportunities across markets and regions",
+        "Work on cutting-edge payment innovation"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial conversation about your PM experience and interest in Visa.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Discussion of your product experience and approach.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Study Round",
+          description: "Product case study focused on payment industry scenarios.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Panel Interviews",
+          description: "Multiple rounds with PMs and stakeholders on product sense and leadership.",
+          duration: "2-3 hours"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve Visa's contactless payment experience?",
+        "Design a new payment product for small businesses.",
+        "How would you prioritize features for a digital wallet product?",
+        "What metrics would you use to measure payment product success?",
+        "How would you launch a payment product in a new market?",
+        "Design a product to reduce payment fraud.",
+        "How would you approach a product decision in a compliance-heavy environment?",
+        "What's your framework for making trade-off decisions?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a product you launched from concept to delivery.",
+        "Describe a time you made a decision with incomplete data.",
+        "How have you navigated conflicting stakeholder priorities?",
+        "Tell me about a time you had to say no to a feature request.",
+        "Describe a product failure and what you learned.",
+        "How do you build alignment across global teams?",
+        "Tell me about a time you used data to change product direction.",
+        "Describe how you've incorporated customer feedback into decisions."
+      ],
+      whatTheyLookFor: [
+        "Strong product sense and customer empathy",
+        "Data-driven decision making ability",
+        "Experience leading cross-functional teams",
+        "Clear communication and stakeholder management",
+        "Understanding of payment industry or fintech",
+        "Ability to navigate complex regulatory environments",
+        "Strategic thinking balanced with execution",
+        "Global mindset and cultural awareness"
+      ],
+      interviewTips: [
+        "Understand Visa's products and payment network",
+        "Prepare cases specific to payments and fintech",
+        "Research regulatory challenges in payments (PCI, PSD2, etc.)",
+        "Be ready to discuss global product launches",
+        "Practice structured frameworks for case questions",
+        "Show understanding of the merchant and consumer sides",
+        "Research Visa's innovation initiatives and partnerships",
+        "Prepare examples of cross-functional leadership"
+      ],
+      dayInLife: {
+        overview: "Product Managers at Visa drive products that power global commerce. Days balance strategy, execution, and alignment across global teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Check product dashboards and KPIs"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with engineering and design"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Stakeholder Alignment",
+            description: "Meet with business partners on priorities"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Customer Research",
+            description: "Review user feedback and market research"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Roadmap Planning",
+            description: "Work on product roadmap and PRDs"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Global Sync",
+            description: "Align with teams in other regions"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Strategy Work",
+            description: "Competitive analysis and strategic planning"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" },
+        { companyName: "PayPal", companySlug: "paypal", industry: "Fintech" }
+      ]
+    },
+    'data-engineer': {
+      roleDescription: "Data Engineers at Visa build the data infrastructure that powers analytics and machine learning for the world's largest payment network. You'll design pipelines that process billions of transactions, enabling data scientists and analysts to protect consumers and drive business insights.",
+      responsibilities: [
+        "Design and build scalable data pipelines for transaction data",
+        "Develop ETL processes to ingest and transform payment data",
+        "Build and maintain data lakes and data warehouses",
+        "Ensure data quality, governance, and security compliance",
+        "Enable analytics and ML with reliable data infrastructure"
+      ],
+      growthOpportunities: [
+        "Work with some of the largest transaction datasets globally",
+        "Path to Senior Data Engineer, Architect, or Management",
+        "Exposure to cutting-edge data technologies at scale",
+        "Cross-functional work with data science and product teams",
+        "Global opportunities and strong engineering culture"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your data engineering background.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "Interview covering SQL, Python, and data engineering concepts.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "System Design Interview",
+          description: "Design a data pipeline for a given use case.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit and collaboration assessment.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "Design a data pipeline to process credit card transactions in real-time.",
+        "How would you handle late-arriving transaction data?",
+        "Explain your approach to data quality monitoring.",
+        "How would you optimize a slow-running ETL job?",
+        "Design a data warehouse schema for payment data.",
+        "How do you ensure data consistency in distributed systems?",
+        "Explain partitioning strategies for transaction data.",
+        "How would you build a pipeline supporting fraud detection?",
+        "Describe your approach to data governance and PCI compliance.",
+        "How do you handle schema evolution in data pipelines?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a data pipeline you built with significant impact.",
+        "Describe a time you debugged a complex data quality issue.",
+        "How have you handled projects with tight deadlines?",
+        "Tell me about a time you improved data system performance.",
+        "Describe your experience collaborating with data scientists.",
+        "How do you prioritize between multiple data engineering requests?",
+        "Tell me about a challenging data migration you've worked on.",
+        "Describe how you approach documentation for data systems."
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills and data modeling experience",
+        "Proficiency in Python and data processing frameworks",
+        "Experience with big data technologies (Spark, Kafka, etc.)",
+        "Understanding of data quality and governance",
+        "Knowledge of cloud data platforms",
+        "Problem-solving ability for complex data challenges",
+        "Communication skills for cross-functional work",
+        "Security awareness for payment data (PCI DSS)"
+      ],
+      interviewTips: [
+        "Practice SQL extensively - complex queries and optimization",
+        "Be prepared to design data pipelines end-to-end",
+        "Understand PCI DSS compliance for payment data",
+        "Review streaming data concepts for real-time processing",
+        "Prepare examples of handling data at massive scale",
+        "Research Visa's data engineering blog and talks",
+        "Be ready to discuss trade-offs in data architecture",
+        "Understand both batch and real-time processing patterns"
+      ],
+      dayInLife: {
+        overview: "Data Engineers at Visa build infrastructure that processes billions of transactions. Days include pipeline development, monitoring, and collaboration with data teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Pipeline Monitoring",
+            description: "Check overnight pipeline runs and address issues"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with data engineering team"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Development",
+            description: "Build or enhance data pipelines"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Sync",
+            description: "Discuss data requirements with consumers"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Code Review",
+            description: "Review PRs and provide feedback"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Architecture Work",
+            description: "Design discussions for new data systems"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update data catalogs and documentation"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Databricks", companySlug: "databricks", industry: "Technology" }
+      ]
+    },
+    'site-reliability-engineer': {
+      roleDescription: "Site Reliability Engineers at Visa ensure the world's largest payment network maintains its legendary reliability. Processing 65,000+ transactions per second with 99.999% uptime, SREs at Visa work on systems where every second of downtime impacts global commerce. You'll balance reliability with innovation in a mission-critical environment.",
+      responsibilities: [
+        "Ensure high availability and performance of payment systems",
+        "Build automation and tooling to improve operational efficiency",
+        "Implement monitoring, alerting, and incident response processes",
+        "Conduct capacity planning for global payment infrastructure",
+        "Partner with engineering teams to improve system reliability"
+      ],
+      growthOpportunities: [
+        "Work on one of the most critical systems in global finance",
+        "Path to Senior SRE, Staff, or Engineering Management",
+        "Exposure to cutting-edge reliability engineering practices",
+        "Global opportunities across Visa's data centers",
+        "Strong engineering community and learning programs"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your SRE background.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "Interview covering systems, networking, and troubleshooting.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "System Design Interview",
+          description: "Design reliable systems for payment infrastructure.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit focusing on incident response and collaboration.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "Design a monitoring system for a global payment network.",
+        "How would you troubleshoot a latency spike in payment processing?",
+        "Explain your approach to capacity planning for peak shopping days.",
+        "How would you implement a zero-downtime deployment strategy?",
+        "Design a disaster recovery plan for payment systems.",
+        "How do you balance reliability work with feature development?",
+        "Explain your approach to incident response and post-mortems.",
+        "How would you reduce MTTR for critical payment systems?",
+        "Design an alerting system that minimizes alert fatigue.",
+        "How would you ensure 99.999% uptime for a payment API?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a critical incident you helped resolve.",
+        "Describe a time you improved system reliability significantly.",
+        "How have you balanced on-call responsibilities with project work?",
+        "Tell me about automation you built that had significant impact.",
+        "Describe your experience with capacity planning.",
+        "How do you approach post-incident reviews?",
+        "Tell me about a time you advocated for reliability improvements.",
+        "Describe how you've mentored others in SRE practices."
+      ],
+      whatTheyLookFor: [
+        "Strong systems and networking fundamentals",
+        "Experience with monitoring, alerting, and observability",
+        "Proficiency in Python, Go, or similar languages",
+        "Understanding of distributed systems and failure modes",
+        "Incident response and troubleshooting skills",
+        "Automation mindset and scripting abilities",
+        "Communication skills for incident coordination",
+        "Calm under pressure during critical incidents"
+      ],
+      interviewTips: [
+        "Study high-availability architecture patterns",
+        "Be prepared to discuss incident response processes",
+        "Understand monitoring and observability best practices",
+        "Review capacity planning and load testing concepts",
+        "Prepare examples of improving system reliability",
+        "Research Visa's scale and reliability requirements",
+        "Be ready to troubleshoot hypothetical scenarios",
+        "Understand the SRE philosophy and SLO/SLI concepts"
+      ],
+      dayInLife: {
+        overview: "SREs at Visa ensure the payment network's legendary reliability. Days balance proactive reliability work with incident response and collaboration.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "System Health Review",
+            description: "Check dashboards and overnight alerts"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Sync with SRE team on priorities"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Reliability Engineering",
+            description: "Work on automation, monitoring, or tooling"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Engineering Collaboration",
+            description: "Work with product teams on reliability improvements"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Incident Review",
+            description: "Conduct or participate in post-mortems"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Capacity Planning",
+            description: "Analyze trends and plan for future capacity"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update runbooks and operational docs"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" }
+      ]
+    },
+    'business-analyst': {
+      roleDescription: "Business Analysts at Visa bridge business strategy and data analysis to drive decisions across the global payment network. You'll analyze payment trends, evaluate market opportunities, and provide insights that shape Visa's products and partnerships. The role combines analytical skills with business acumen in a fast-moving fintech environment.",
+      responsibilities: [
+        "Analyze payment data to identify business opportunities",
+        "Build financial models and business cases for strategic initiatives",
+        "Partner with stakeholders to define problems and solutions",
+        "Create presentations and recommendations for leadership",
+        "Support product and partnership decisions with data-driven insights"
+      ],
+      growthOpportunities: [
+        "Exposure to global payment industry and strategy",
+        "Path to Senior BA, Manager, or Strategy roles",
+        "Cross-functional work with product, sales, and finance",
+        "Global opportunities across markets and regions",
+        "Strong analytical training and development"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your background and interest.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "SQL/Technical Assessment",
+          description: "Assessment covering SQL and analytical skills.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Interview",
+          description: "Business case combining metrics analysis and strategic thinking.",
+          duration: "60 minutes"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit and communication assessment.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "How would you analyze the business case for a new payment product?",
+        "Write SQL to analyze merchant transaction trends.",
+        "How would you measure the success of a partnership?",
+        "Calculate the market opportunity for contactless payments in a new region.",
+        "How would you prioritize which merchants to target for a new product?",
+        "Analyze the tradeoffs of different pricing strategies.",
+        "How would you evaluate the ROI of a marketing campaign?",
+        "Write a query to identify high-value merchants.",
+        "How would you forecast payment volume growth?",
+        "Design metrics to track payment product health."
+      ],
+      behavioralQuestions: [
+        "Tell me about an analysis that influenced a business decision.",
+        "Describe a time you presented insights to senior leadership.",
+        "How have you handled analysis requests with tight deadlines?",
+        "Tell me about a time you worked with incomplete data.",
+        "Describe your experience working across teams.",
+        "How do you prioritize multiple projects?",
+        "Tell me about a time you had to simplify complex analysis.",
+        "Describe how you've built relationships with stakeholders."
+      ],
+      whatTheyLookFor: [
+        "Strong analytical and quantitative skills",
+        "Proficiency in SQL and Excel",
+        "Clear communication and presentation skills",
+        "Business acumen and strategic thinking",
+        "Ability to work with large datasets",
+        "Understanding of payment industry is a plus",
+        "Problem-solving ability and attention to detail",
+        "Collaborative approach to working with stakeholders"
+      ],
+      interviewTips: [
+        "Practice SQL - it's central to Visa BA interviews",
+        "Understand key payment metrics and KPIs",
+        "Prepare for case studies on payment industry scenarios",
+        "Research Visa's business segments and strategy",
+        "Practice explaining analysis clearly and concisely",
+        "Be ready to walk through your analytical approach",
+        "Understand the merchant and issuer sides of payments",
+        "Review Visa's recent news and strategic initiatives"
+      ],
+      dayInLife: {
+        overview: "Business Analysts at Visa combine data analysis with strategic thinking. Days include SQL analysis, stakeholder meetings, and presentation preparation.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Planning",
+            description: "Review priorities and plan analysis work"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Data Analysis",
+            description: "Work in SQL and Excel on business analysis"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Team Meeting",
+            description: "Sync with project team on progress"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Discuss findings with business partners"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Building",
+            description: "Build business cases and financial models"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Presentation Prep",
+            description: "Create slides and prepare for reviews"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap-up",
+            description: "Document progress and plan next day"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "McKinsey", companySlug: "mckinsey", industry: "Consulting" }
+      ]
+    },
+    'cyber-security-engineer': {
+      roleDescription: "Cyber Security Engineers at Visa protect the world's largest payment network and the financial data of billions of users. You'll work on security systems that defend against sophisticated threats while enabling secure commerce globally. Visa's security culture is central to maintaining trust in the global payment ecosystem.",
+      responsibilities: [
+        "Design and implement security controls for payment systems",
+        "Build security automation and threat detection tools",
+        "Conduct security assessments and penetration testing",
+        "Respond to security incidents and threats",
+        "Ensure PCI DSS compliance across systems"
+      ],
+      growthOpportunities: [
+        "Protect one of the world's most critical financial systems",
+        "Path to Senior Security Engineer, Architect, or Leadership",
+        "Access to advanced security training and certifications",
+        "Exposure to cutting-edge security technologies",
+        "Global opportunities across Visa's security organization"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your security background.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "Interview covering security concepts and problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Security Deep Dive",
+          description: "In-depth technical interview on security architecture and practices.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit focusing on incident response and collaboration.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "How would you secure a payment API against common attacks?",
+        "Explain your approach to threat modeling for payment systems.",
+        "Design a security monitoring system for transaction data.",
+        "How would you detect and respond to a potential data breach?",
+        "Explain PCI DSS requirements and how you would ensure compliance.",
+        "How would you implement a zero-trust security model?",
+        "Design a secure architecture for tokenization of card data.",
+        "How would you secure a CI/CD pipeline for payment systems?",
+        "Explain your approach to security automation.",
+        "How would you handle a sophisticated APT targeting payment systems?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a security incident you helped resolve.",
+        "Describe a time you identified a significant vulnerability.",
+        "How have you balanced security with business needs?",
+        "Tell me about a security project you led.",
+        "Describe your experience with security compliance and audits.",
+        "How do you stay current with evolving threats?",
+        "Tell me about a time you advocated for security improvements.",
+        "Describe how you've trained others on security best practices."
+      ],
+      whatTheyLookFor: [
+        "Strong knowledge of application and network security",
+        "Understanding of PCI DSS and payment security",
+        "Experience with security tools and automation",
+        "Knowledge of secure coding practices",
+        "Incident response and threat detection experience",
+        "Strong analytical and problem-solving skills",
+        "Communication skills for cross-team collaboration",
+        "Relevant certifications (CISSP, CEH, etc.) are a plus"
+      ],
+      interviewTips: [
+        "Deep dive on PCI DSS and payment security requirements",
+        "Prepare for scenario-based security questions",
+        "Understand common attack vectors for payment systems",
+        "Be ready to discuss threat modeling approaches",
+        "Review secure development practices",
+        "Prepare examples of security improvements you've led",
+        "Research Visa's security initiatives and standards",
+        "Be ready to discuss both offensive and defensive security"
+      ],
+      dayInLife: {
+        overview: "Cyber Security Engineers at Visa protect the global payment network. Days include security engineering, monitoring, and collaboration with development teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Threat Intelligence Review",
+            description: "Review overnight security alerts and threat feeds"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with security team"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Security Engineering",
+            description: "Build security tools or implement controls"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Security Review",
+            description: "Review security aspects of new systems"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Threat Analysis",
+            description: "Analyze threats and update detection rules"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Engineering Collaboration",
+            description: "Work with teams on security best practices"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update security docs and runbooks"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    }
+  },
+
+
+
 }
 
 // Content for FAANG+, Uber, Airbnb, Stripe, Salesforce, DoorDash, Goldman Sachs, and McKinsey
