@@ -8589,208 +8589,340 @@ export const companies = {
   // Consumer Electronics & Streaming
   'hp': {
     name: 'HP Inc.',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your HP interview with expert preparation for the personal computing pioneer, covering PC innovation, printing technology, and their mission to create technology that makes life better for everyone.',
     industry: 'Technology',
     headquarters: 'Palo Alto, CA',
-    description: 'HP Inc. is a leading provider of personal computers, printers, and printing supplies. Separated from Hewlett Packard Enterprise in 2015, HP focuses on consumer and commercial PCs, innovative printing solutions, and 3D printing. Interviews emphasize technical skills, innovation, and customer focus.',
+    description: 'HP Inc. is the world\'s second-largest PC vendor and a leader in printing technology, with $54+ billion in annual revenue and products used by billions globally. Born from the legendary Hewlett-Packard company founded in a Palo Alto garage in 1939, HP Inc. became independent in 2015 when HP split into HP Inc. (PCs and printers) and Hewlett Packard Enterprise (enterprise IT). The company sells 50+ million PCs and 30+ million printers annually through a vast global distribution network. HP leads innovation in hybrid work solutions, gaming PCs (OMEN), sustainable materials, and 3D printing. The interview process evaluates technical skills, innovation mindset, and alignment with HP\'s sustainable, human-centered values.',
     interviewTips: [
-      'Understand PC and printer technology',
-      'Learn about HP\'s product lines and innovation initiatives',
-      'Be prepared for technical or operational questions',
-      'Show knowledge of consumer electronics and supply chain',
-      'Research HP\'s sustainability commitments'
+      'Understand the HP split (2015): HP Inc. focuses on PCs, printers, 3D printing; HPE focuses on enterprise IT—know which company you\'re interviewing with',
+      'Study HP\'s product portfolio: commercial PCs, consumer PCs (Spectre, Envy, OMEN gaming), printers, and 3D printing solutions',
+      'Research their sustainability commitments: HP is a leader in recycled materials, ocean-bound plastics, and circular economy initiatives',
+      'For engineering roles: Prepare for hardware/firmware, embedded systems, or software depending on the team',
+      'Understand the printing business model: hardware, supplies (ink/toner), and subscription services (Instant Ink)',
+      'Study HP\'s hybrid work solutions: laptops, displays, conferencing—the future of work is a major focus',
+      'Research 3D printing (Multi Jet Fusion): industrial applications and the future of manufacturing',
+      'Prepare for behavioral questions emphasizing innovation, customer focus, and collaboration',
+      'Understand the PC market dynamics: Lenovo, Dell competitors, supply chain challenges, component sourcing',
+      'Research HP\'s gaming brand OMEN and peripheral ecosystem—gaming is a growth segment',
+      'Show genuine interest in hardware and bringing technology to billions of people',
+      'Understand HP\'s enterprise security solutions (Wolf Security)—important for commercial customers',
+      'Prepare examples demonstrating innovation, quality focus, and customer empathy',
+      'Research their engineering blog and innovation programs'
     ],
     whatTheyLookFor: [
-      'Technical skills in hardware or software',
-      'Innovation mindset',
-      'Customer focus',
-      'Operational excellence',
-      'Collaboration abilities'
+      'Technical skills in hardware engineering, firmware, software, or relevant domain',
+      'Innovation mindset with practical execution',
+      'Customer focus and understanding of user needs',
+      'Quality orientation and attention to detail',
+      'Collaborative approach across global teams',
+      'Understanding of supply chain and manufacturing at scale',
+      'Sustainability awareness and commitment',
+      'Clear communication across technical and business contexts',
+      'Problem-solving ability for complex hardware/software challenges',
+      'Cultural fit with HP\'s values of innovation and integrity'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through HP careers'
+        title: 'Online Application',
+        description: 'Submit your application through HP Careers. Highlight relevant experience in hardware, firmware, software, or product development. HP values diverse backgrounds—show how your experience connects to bringing technology to people.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Initial conversation with recruiter'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter covering your background and interest in HP. They\'ll explain the role, team, and interview process. Come prepared with specific reasons why HP and questions about their products or initiatives.'
       },
       {
         step: 3,
-        title: 'Interview Rounds (2-3)',
-        description: 'Technical and behavioral interviews'
+        title: 'Technical Interviews (2-3 rounds)',
+        description: 'Technical interviews tailored to the role: hardware design, firmware development, software engineering, or product-specific deep dives. Expect questions about your past projects and technical problem-solving. Each round is 45-60 minutes.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and job offer'
+        title: 'Behavioral/Leadership Round',
+        description: 'Interview focused on HP\'s values, leadership behaviors, and cultural fit. Expect questions about innovation, collaboration, and handling challenges. Use STAR format with specific examples.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with the hiring manager about role details and team dynamics. Decisions typically come within 1-2 weeks. HP offers competitive salary, bonus, and comprehensive benefits.'
       }
     ],
     questions: [
-      'How would you improve printer efficiency and reduce costs?',
-      'Describe your experience with hardware or product development',
-      'What trends are shaping the PC market?',
-      'How would you approach sustainability in electronics?',
-      'Why HP?'
+      'How would you improve printer efficiency while reducing environmental impact?',
+      'Describe your experience with hardware or embedded systems development',
+      'What trends are shaping the PC market? How should HP respond?',
+      'How would you approach sustainability in electronics manufacturing?',
+      'Why HP? What excites you about personal computing?',
+      'Design a system for HP Instant Ink—subscription-based ink delivery',
+      'How would you improve the laptop battery management system?',
+      'Design a secure boot system for commercial PCs',
+      'Tell me about a product you helped bring to market. What were the challenges?',
+      'How would you optimize the supply chain for PC manufacturing?',
+      'Design a hybrid work solution integrating HP PCs, displays, and peripherals',
+      'How would you approach quality assurance for millions of devices?',
+      'Describe a time you innovated on an existing product or process',
+      'How would you design HP\'s gaming ecosystem (OMEN)?',
+      'Design a 3D printing workflow for industrial manufacturing',
+      'What metrics would you use to measure product success?',
+      'Tell me about a time you collaborated across teams or regions',
+      'How would you approach making PCs more accessible and sustainable?',
+      'What questions do you have about HP\'s technology or culture?'
     ],
     relatedCompanies: ['dell', 'lenovo', 'canon', 'epson']
   },
 
   'dell': {
     name: 'Dell Technologies',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Dell Technologies interview with comprehensive preparation for the enterprise IT leader, covering infrastructure solutions, direct sales heritage, and their mission to drive human progress.',
     industry: 'Technology',
     headquarters: 'Round Rock, TX',
-    description: 'Dell Technologies is a multinational technology company providing PCs, servers, storage, networking, and enterprise solutions. Known for direct sales model, enterprise infrastructure (EMC acquisition), and comprehensive IT portfolio. Interviews emphasize technical skills, customer solutions, and business acumen.',
+    description: 'Dell Technologies is one of the world\'s largest technology infrastructure companies, with $90+ billion in annual revenue serving businesses and consumers across PCs, servers, storage, networking, and cloud solutions. Founded by Michael Dell in 1984 with the revolutionary direct-to-customer model, Dell grew to dominate the PC market before expanding into enterprise through the $67B EMC acquisition (2016). Today, Dell is the leading commercial PC vendor and a top provider of enterprise infrastructure through Dell EMC. The company serves 180 countries with end-to-end IT solutions. The interview process evaluates technical expertise, customer solution orientation, and alignment with Dell\'s culture of winning together.',
     interviewTips: [
-      'Understand Dell\'s product portfolio (PCs, servers, storage)',
-      'Learn about enterprise IT infrastructure and solutions',
-      'Be prepared for technical or sales-oriented questions',
-      'Show knowledge of supply chain and direct sales model',
-      'Research Dell\'s EMC acquisition and enterprise focus'
+      'Understand Dell\'s full portfolio: Client Solutions (PCs), Infrastructure Solutions Group (servers, storage, networking), and VMware partnership',
+      'Study the EMC acquisition and what it means: Dell went from PCs to full enterprise infrastructure, competing with HPE, IBM, Cisco',
+      'Research the direct sales model heritage: Dell pioneered made-to-order computing and maintains direct customer relationships',
+      'For engineering roles: Prepare for system design covering servers, storage arrays, or enterprise software depending on team',
+      'Understand Dell\'s position in hybrid cloud: PowerEdge servers, PowerStore storage, and cloud partnerships',
+      'Study their sustainability program (Progress Made Real): Dell is committed to circular economy and recycled materials',
+      'Research APEX (Dell\'s as-a-service offering): consumption-based IT is a strategic priority',
+      'Prepare for sales/solutions questions if relevant: Dell values customer problem-solving and solution selling',
+      'Understand the competitive landscape: HPE, Lenovo (PCs), NetApp (storage), Pure Storage',
+      'Show genuine interest in enterprise technology and helping organizations transform',
+      'Research Michael Dell\'s leadership and the going-private, re-IPO journey (2013-2018)',
+      'Prepare behavioral examples demonstrating customer focus, innovation, and teamwork',
+      'Understand their channel partner program alongside direct sales',
+      'Practice discussing data center technologies and infrastructure trends'
     ],
     whatTheyLookFor: [
-      'Technical or sales expertise',
-      'Customer solution orientation',
-      'Business acumen',
-      'Collaboration skills',
-      'Innovation mindset'
+      'Technical expertise in PCs, servers, storage, networking, or relevant domain',
+      'Customer solution orientation—ability to understand and solve business problems',
+      'Business acumen and understanding of enterprise IT decisions',
+      'Collaborative approach aligned with "winning together" culture',
+      'Innovation mindset with practical execution',
+      'Clear communication across technical and business audiences',
+      'Problem-solving ability for complex customer requirements',
+      'Adaptability in fast-evolving technology landscape',
+      'Results orientation and accountability',
+      'Cultural fit with Dell\'s direct, customer-focused values'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through Dell careers portal'
+        title: 'Online Application',
+        description: 'Submit your application through Dell Careers. Highlight relevant experience in enterprise technology, infrastructure, or customer solutions. Dell values diverse backgrounds—show how your experience solves customer problems.'
       },
       {
         step: 2,
-        title: 'Phone Interview',
-        description: 'Recruiter screening conversation'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter covering your background and interest in Dell. They\'ll explain the role, team structure, and interview process. Come prepared with knowledge of Dell\'s product portfolio.'
       },
       {
         step: 3,
-        title: 'Interview Rounds (2-3)',
-        description: 'Technical, behavioral, or sales scenarios'
+        title: 'Technical/Functional Interviews (2-3 rounds)',
+        description: 'For engineering: technical deep-dives on systems, architecture, or domain expertise. For sales/solutions: customer scenario discussions and solution selling. Each round is 45-60 minutes.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Background check and job offer'
+        title: 'Behavioral/Leadership Round',
+        description: 'Interview focused on Dell\'s culture, values, and leadership behaviors. Expect questions about customer focus, teamwork, and handling challenges. Dell values direct communication and results.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager about role and team. Decisions typically come within 1-2 weeks. Dell offers competitive salary, bonus, and comprehensive benefits.'
       }
     ],
     questions: [
-      'How would you design a data center infrastructure solution?',
-      'Describe Dell\'s competitive advantages',
-      'What trends are impacting enterprise IT?',
-      'How would you approach a complex customer requirement?',
-      'Why Dell Technologies?'
+      'How would you design a data center infrastructure solution for a mid-size enterprise?',
+      'Describe Dell\'s competitive advantages versus HPE or Lenovo',
+      'What trends are impacting enterprise IT? How should Dell respond?',
+      'How would you approach a complex customer requirement spanning PCs, servers, and storage?',
+      'Why Dell Technologies? What excites you about enterprise infrastructure?',
+      'Design a server architecture for high-performance computing workloads',
+      'How would you position Dell\'s storage portfolio against Pure Storage or NetApp?',
+      'Design a system for Dell\'s APEX as-a-service consumption model',
+      'Tell me about a time you solved a complex customer problem',
+      'How would you optimize Dell\'s supply chain for server manufacturing?',
+      'Design a hybrid cloud solution integrating Dell infrastructure with public cloud',
+      'How would you approach sustainability in data center equipment?',
+      'Describe a time you collaborated with sales and engineering to win a deal',
+      'How would you improve Dell\'s direct sales and digital commerce experience?',
+      'Design a remote management system for enterprise server fleets',
+      'What metrics would you use to measure customer success?',
+      'Tell me about a time you had to adapt to changing customer requirements',
+      'How would you approach Dell\'s edge computing strategy?',
+      'What questions do you have about Dell\'s technology or culture?'
     ],
     relatedCompanies: ['hp', 'lenovo', 'cisco', 'hpe']
   },
 
   'sony': {
     name: 'Sony',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Sony interview with expert preparation for the entertainment and technology conglomerate, covering PlayStation gaming, imaging technology, and their mission to fill the world with emotion through creativity and technology.',
     industry: 'Technology',
-    headquarters: 'Tokyo, Japan (US: San Diego, CA)',
-    description: 'Sony is a global conglomerate in electronics, gaming, entertainment, and financial services. Known for PlayStation, consumer electronics (TVs, cameras), music, movies, and image sensors. Interviews emphasize technical skills, creativity, and passion for Sony products.',
+    headquarters: 'Tokyo, Japan (US HQ: San Diego, CA for PlayStation)',
+    description: 'Sony is a global conglomerate spanning gaming (PlayStation), music (Sony Music), movies (Sony Pictures), electronics (TVs, cameras, audio), and semiconductors (image sensors). With $80+ billion in annual revenue and 110,000+ employees, Sony is unique in combining world-class technology with entertainment content. PlayStation alone has 110+ million active users and drives significant profit. Sony\'s image sensors power cameras in most smartphones including iPhones. The company\'s culture blends Japanese precision with creative innovation. For US candidates, PlayStation (San Diego, San Mateo) and Sony Electronics (San Diego) are primary hiring centers. The interview process emphasizes technical excellence, creativity, and passion for Sony\'s products.',
     interviewTips: [
-      'Understand Sony\'s diverse business units (gaming, electronics, entertainment)',
-      'Learn about PlayStation and gaming technology',
-      'Be prepared for technical or creative questions',
-      'Show passion for Sony products and entertainment',
-      'Research Sony\'s innovation in imaging and sensors'
+      'Understand Sony\'s diverse business structure: Game & Network Services (PlayStation), Music, Pictures, Entertainment Technology & Services (TVs, cameras), Imaging & Sensing (semiconductors)',
+      'For PlayStation roles: Deep knowledge of gaming industry, console architecture, PS5 features, PlayStation Network, and exclusive games',
+      'Research Sony\'s image sensor dominance: they supply sensors to Apple, Google, and most smartphone makers',
+      'For engineering roles: Prepare for system design relevant to the division—gaming platforms, embedded systems, signal processing, etc.',
+      'Understand Sony\'s Japanese corporate culture: emphasis on quality, consensus building, long-term thinking',
+      'Study PlayStation Studios and first-party games: God of War, Spider-Man, The Last of Us—content drives platform success',
+      'Research Sony\'s innovation heritage: Walkman, CD, Blu-ray, BRAVIA—they\'ve defined consumer electronics categories',
+      'Prepare for technical depth: Sony engineering interviews are rigorous, especially for hardware and embedded roles',
+      'Show genuine passion for Sony products—they want people who love gaming, music, or technology',
+      'Understand the competitive landscape: Microsoft Xbox, Nintendo, Samsung—know Sony\'s differentiation',
+      'Research their sustainability initiatives and supply chain ethics',
+      'Prepare behavioral examples showing creativity, quality focus, and collaboration across cultures',
+      'For US roles: Understand how the US teams interact with Tokyo headquarters',
+      'Practice explaining complex technical concepts clearly'
     ],
     whatTheyLookFor: [
-      'Technical or creative expertise',
-      'Passion for gaming or entertainment',
-      'Innovation mindset',
-      'Global perspective',
-      'Collaboration abilities'
+      'Technical excellence in relevant domain (gaming, electronics, imaging, software)',
+      'Passion for Sony products and entertainment',
+      'Creativity combined with engineering rigor',
+      'Quality orientation and attention to detail',
+      'Collaborative mindset suited for global teams',
+      'Innovation thinking with practical execution',
+      'Clear communication across technical and creative contexts',
+      'Customer empathy and focus on user experience',
+      'Adaptability in fast-moving entertainment and tech industries',
+      'Cultural fit with Sony\'s creative, quality-focused values'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Sony careers'
+        title: 'Online Application',
+        description: 'Submit your application through Sony Careers (or PlayStation Careers for gaming roles). Highlight relevant technical experience and passion for Sony\'s products. Tailor your application to the specific division.'
       },
       {
         step: 2,
-        title: 'Phone Interview',
-        description: 'Initial screening conversation'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter covering your background and interest in Sony. They\'ll explain the role and team. Come prepared with genuine enthusiasm for Sony products and specific reasons for your interest.'
       },
       {
         step: 3,
-        title: 'Interview Rounds (2-3)',
-        description: 'Technical, creative, or behavioral'
+        title: 'Technical Interviews (2-4 rounds)',
+        description: 'Technical interviews tailored to the role: system design, coding, hardware/firmware, or domain expertise. PlayStation interviews are rigorous with game engine and systems programming focus. Each round is 45-60 minutes.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and job offer'
+        title: 'Behavioral/Cultural Round',
+        description: 'Interview focused on cultural fit, creativity, and collaboration. Sony values quality and creativity—show examples of work you\'re proud of. For US roles, expect questions about working with global teams.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager about role and team. Process may take longer than US-only companies due to global coordination. Sony offers competitive compensation with excellent benefits.'
       }
     ],
     questions: [
-      'What excites you about PlayStation or Sony products?',
-      'How would you improve the gaming experience?',
-      'Describe your experience with consumer electronics',
-      'What makes Sony unique in the market?',
-      'Why Sony?'
+      'What excites you about PlayStation or Sony products? Be specific.',
+      'How would you improve the gaming experience on PlayStation?',
+      'Describe your experience with consumer electronics or embedded systems',
+      'What makes Sony unique in the market versus competitors?',
+      'Why Sony? What draws you to our mission?',
+      'Design the architecture for a game streaming service like PlayStation Now',
+      'How would you optimize image processing for a smartphone camera sensor?',
+      'Design the PlayStation Network infrastructure for 110M+ users',
+      'Tell me about a product or project you\'re proud of. What made it special?',
+      'How would you approach backward compatibility for game consoles?',
+      'Design an audio system for spatial 3D sound in gaming',
+      'How would you improve the PlayStation Store discovery experience?',
+      'Describe a time you balanced quality with deadlines',
+      'How would you design a next-generation TV platform?',
+      'Design a system for managing digital game licenses across devices',
+      'What trends are shaping gaming or consumer electronics?',
+      'Tell me about a time you collaborated with people from different backgrounds',
+      'How would you approach accessibility in gaming?',
+      'What questions do you have about Sony\'s culture or technology?'
     ],
     relatedCompanies: ['microsoft-xbox', 'nintendo', 'samsung', 'panasonic']
   },
 
   'roku': {
     name: 'Roku',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Roku interview with expert preparation for the streaming platform leader, covering TV operating systems, advertising technology, and their mission to be the TV streaming platform that connects the entire ecosystem.',
     industry: 'Technology',
     headquarters: 'San Jose, CA',
-    description: 'Roku is a leading streaming platform providing streaming devices and operating system for smart TVs. Known for pioneering streaming, ad-supported Roku Channel, platform business model, and democratizing TV. Interviews emphasize technical skills, product thinking, and streaming expertise.',
+    description: 'Roku is the #1 TV streaming platform in the United States, with 80+ million active accounts streaming billions of hours monthly. Founded in 2002 as a Netflix hardware spin-off, Roku pioneered streaming devices before evolving into a platform company. Today, Roku powers 1 in 3 TVs sold in the US through Roku OS licensing, and The Roku Channel has become a major ad-supported streaming destination. With $3+ billion in annual revenue, Roku\'s business model combines hardware (streaming players), platform (Roku OS for TVs), and advertising (the fastest-growing segment). The interview process emphasizes technical depth, product thinking, and understanding of the streaming ecosystem.',
     interviewTips: [
-      'Understand streaming technology and Roku\'s platform',
-      'Learn about Roku OS, devices, and advertising business',
-      'Be prepared for coding and system design questions',
-      'Show knowledge of streaming industry and cord-cutting',
-      'Research Roku\'s platform and content strategy'
+      'Understand Roku\'s platform business model: they make more money from advertising and content distribution than from hardware',
+      'Study Roku OS and why TV manufacturers license it: ease of use, content aggregation, and built-in advertising infrastructure',
+      'Research The Roku Channel: free ad-supported streaming (FAST) is a major growth area with original content',
+      'For engineering roles: Prepare for embedded systems (devices), streaming infrastructure, or advertising technology depending on team',
+      'Understand the streaming ecosystem: content providers (Netflix, Disney+), advertisers, TV manufacturers, and consumers',
+      'Study Roku\'s advertising business: programmatic ads, measurement, and why connected TV advertising is growing',
+      'Research competitive landscape: Amazon Fire TV, Google TV, Apple TV, smart TV OS from Samsung/LG',
+      'Prepare for product sense questions: How would you improve content discovery? How would you grow engagement?',
+      'Show genuine passion for streaming and TV—Roku wants people who understand the cord-cutting revolution',
+      'Understand their neutral platform positioning: Roku works with all streaming services, unlike Amazon (Prime Video) or Apple',
+      'Research their hardware strategy: why they sell devices at low margin to grow the platform',
+      'Prepare behavioral examples showing innovation, user focus, and data-driven thinking',
+      'Understand streaming technology: adaptive bitrate, CDNs, video codecs, HDMI/CEC',
+      'Practice explaining advertising technology concepts'
     ],
     whatTheyLookFor: [
-      'Technical skills in streaming or platforms',
-      'Product sense for TV and entertainment',
-      'Data-driven thinking',
-      'Innovation mindset',
-      'Collaboration abilities'
+      'Technical skills in streaming, embedded systems, advertising tech, or relevant domains',
+      'Product sense for TV and entertainment experiences',
+      'Data-driven decision making and analytical rigor',
+      'Understanding of the streaming and advertising ecosystem',
+      'Innovation mindset in fast-moving market',
+      'User empathy and focus on simple, delightful experiences',
+      'Collaborative approach across hardware, software, and content teams',
+      'Clear communication of complex technical concepts',
+      'Adaptability in rapidly evolving streaming industry',
+      'Cultural fit with Roku\'s mission-driven, user-first values'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through Roku careers'
+        title: 'Online Application',
+        description: 'Submit your application through Roku Careers. Highlight experience in streaming, advertising technology, embedded systems, or relevant domains. Show passion for the streaming industry.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation covering your background and interest in Roku. Recruiters assess role fit and streaming industry knowledge. Come prepared with specific reasons why Roku and questions about their platform strategy.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, system design, behavioral'
+        title: 'Technical Phone Screen (60 min)',
+        description: 'Technical interview covering coding, system design, or domain expertise depending on role. For engineering, expect streaming or embedded systems questions. Interviewers evaluate problem-solving and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and compensation'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: coding rounds, system design (streaming infrastructure, advertising systems), product sense, and behavioral rounds. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager about role and team. Decisions typically come within 1-2 weeks. Roku offers competitive salary, equity, and benefits.'
       }
     ],
     questions: [
-      'Design a video streaming architecture',
+      'Design a video streaming architecture that handles millions of concurrent streams',
       'How would you improve content discovery on Roku?',
-      'Optimize video buffering and quality adaptation',
-      'What differentiates Roku from competitors?',
-      'Why Roku?'
+      'Optimize video buffering and quality adaptation for variable network conditions',
+      'What differentiates Roku from Amazon Fire TV or Apple TV?',
+      'Why Roku? What excites you about streaming?',
+      'Design The Roku Channel\'s ad insertion system for live and on-demand content',
+      'How would you build a universal search across all streaming apps?',
+      'Design Roku OS for licensing to TV manufacturers',
+      'Tell me about a product you helped build. What were the key decisions?',
+      'How would you measure and improve viewer engagement?',
+      'Design an advertising attribution system for connected TV',
+      'How would you approach content recommendation across multiple apps?',
+      'Describe a time you used data to make a product decision',
+      'How would you design Roku\'s remote and voice search experience?',
+      'Design a system for streaming live events to millions of concurrent viewers',
+      'What metrics would you use to measure platform health?',
+      'Tell me about a time you balanced user experience with business goals',
+      'How would you approach international expansion for Roku?',
+      'What questions do you have about Roku\'s technology or strategy?'
     ],
     relatedCompanies: ['amazon-fire-tv', 'apple-tv', 'chromecast', 'netflix']
   },
@@ -9059,104 +9191,170 @@ export const companies = {
   // Travel & HR/Payroll
   'booking': {
     name: 'Booking.com',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Booking.com interview with expert preparation for the world\'s largest accommodation platform, covering experimentation culture, global scale, and their mission to make it easier for everyone to experience the world.',
     industry: 'Technology',
-    headquarters: 'Amsterdam, Netherlands (US: New York, NY)',
-    description: 'Booking.com is a leading online travel platform for booking accommodations, flights, and experiences globally. Part of Booking Holdings, known for extensive inventory, data-driven optimization, experimentation culture, and customer focus. Interviews emphasize technical skills, data expertise, and global mindset.',
+    headquarters: 'Amsterdam, Netherlands',
+    description: 'Booking.com is the world\'s leading digital travel platform, connecting travelers with 28+ million accommodation listings across 220+ countries and territories. Part of Booking Holdings ($21B+ revenue), Booking.com processes over 1.5 million room night reservations daily. The company pioneered radical experimentation culture, running thousands of A/B tests continuously to optimize every aspect of the user experience. With 20,000+ employees across 70+ countries, Booking.com is famous for data-driven decision making and engineering at massive scale. The Amsterdam headquarters fosters a uniquely diverse, international culture. The interview process emphasizes technical depth, experimentation mindset, and ability to work in a global, data-driven environment.',
     interviewTips: [
-      'Understand online travel and accommodation booking',
-      'Learn about Booking.com\'s experimentation and A/B testing culture',
-      'Be prepared for coding, data, or product questions',
-      'Show global perspective and cultural awareness',
-      'Research Booking Holdings\' portfolio (Priceline, Kayak, OpenTable)'
+      'Deeply understand Booking.com\'s experimentation culture: they run 1,000+ concurrent A/B tests and every feature is tested—this shapes how they think about product and engineering',
+      'Study the online travel marketplace: accommodation inventory, pricing dynamics, review systems, and the traveler booking journey',
+      'Research Booking Holdings portfolio: Booking.com, Priceline, Kayak, Agoda, OpenTable, and how they position differently',
+      'For engineering roles: Prepare for system design at massive scale—search ranking, pricing, recommendations serving millions of users',
+      'Understand their technology stack: Java/Kotlin backend, GraphQL, microservices, and sophisticated ML/data infrastructure',
+      'Prepare for analytical questions: A/B test design, metric selection, interpreting experiment results—everyone thinks statistically',
+      'Study their accommodation partner strategy: Booking.com is a marketplace connecting supply (hotels) with demand (travelers)',
+      'Research the competitive landscape: Expedia, Airbnb, direct hotel bookings—know how Booking.com differentiates',
+      'Show global mindset: Booking.com serves travelers from every country and accommodation in every language',
+      'Understand the post-pandemic travel recovery and how consumer behavior has changed',
+      'Prepare behavioral examples showing data-driven thinking, customer focus, and cross-cultural collaboration',
+      'Research their sustainable travel initiatives and commitment to responsible tourism',
+      'For Amsterdam roles: Show openness to relocation and working in international teams',
+      'Practice discussing conversion optimization and user experience trade-offs'
     ],
     whatTheyLookFor: [
-      'Technical skills in engineering or data',
-      'Data-driven decision making',
-      'Experimentation mindset',
-      'Global collaboration',
-      'Customer focus'
+      'Strong technical skills with data-driven approach',
+      'Experimentation mindset and comfort with A/B testing',
+      'Global perspective and cultural sensitivity',
+      'Customer focus and understanding of traveler needs',
+      'Analytical rigor and statistical thinking',
+      'Collaborative approach in diverse, international teams',
+      'Clear communication across cultures and time zones',
+      'Product sense for conversion and user experience',
+      'Adaptability in fast-moving, data-driven environment',
+      'Cultural fit with Booking.com\'s experimentation-first values'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through Booking.com careers'
+        title: 'Online Application',
+        description: 'Submit your application through Booking.com Careers. Highlight experience with scale, experimentation, or travel technology. Many roles are Amsterdam-based—indicate openness to relocation if applicable.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation covering your background and interest in Booking.com. Recruiters assess role fit and global mindset. Come prepared with questions about their experimentation culture and team structure.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, system design, analytics, behavioral'
+        title: 'Technical/Analytical Screen (60 min)',
+        description: 'For engineering: coding interview with algorithmic problems. For analytics/data science: SQL, statistics, and experiment design. Interviewers evaluate technical depth and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and compensation'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: coding rounds, system design (search, recommendations, pricing), analytical cases (A/B testing, metrics), and behavioral rounds. Expect questions about experimentation and data-driven decisions. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager about role and team. Booking.com offers competitive compensation, relocation support for Amsterdam, and comprehensive benefits. Decisions typically within 1-2 weeks.'
       }
     ],
     questions: [
-      'Design a hotel search and ranking system',
-      'How would you run an A/B test for pricing changes?',
-      'Optimize conversion rates for bookings',
-      'What challenges does Booking.com face globally?',
-      'Why Booking.com?'
+      'Design a hotel search and ranking system that handles millions of queries daily',
+      'How would you design an A/B test for a pricing algorithm change? What metrics would you track?',
+      'Optimize conversion rates for the booking funnel—where would you focus first?',
+      'What challenges does Booking.com face in global markets? How would you address them?',
+      'Why Booking.com? What attracts you to travel technology?',
+      'Design a recommendation system for accommodations based on user preferences',
+      'How would you detect and prevent fraudulent listings on the platform?',
+      'Design a dynamic pricing system for hotel rooms',
+      'Tell me about a time you used an experiment to make a product decision',
+      'How would you improve the mobile booking experience?',
+      'Design a review and rating system that is trustworthy and useful',
+      'How would you approach search ranking for a query with limited results?',
+      'Describe a time you worked with people from different cultural backgrounds',
+      'How would you design Booking.com\'s loyalty program (Genius)?',
+      'Design a system for real-time availability and pricing synchronization with hotels',
+      'What metrics would you use to measure marketplace health?',
+      'Tell me about a time you disagreed with data. How did you handle it?',
+      'How would you approach sustainable travel features on the platform?',
+      'What questions do you have about Booking.com\'s culture or technology?'
     ],
     relatedCompanies: ['expedia', 'airbnb', 'tripadvisor', 'kayak']
   },
 
   'expedia': {
     name: 'Expedia Group',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Expedia interview with comprehensive preparation for the travel technology powerhouse, covering multi-brand strategy, marketplace dynamics, and their mission to power global travel for everyone, everywhere.',
     industry: 'Technology',
     headquarters: 'Seattle, WA',
-    description: 'Expedia Group is a leading online travel company with brands including Expedia, Hotels.com, Vrbo, Orbitz, and Trivago. Known for comprehensive travel services, loyalty programs, and technology platform. Interviews emphasize technical skills, product thinking, and travel passion.',
+    description: 'Expedia Group is one of the world\'s largest travel technology companies, operating a portfolio of leading travel brands including Expedia, Hotels.com, Vrbo (vacation rentals), Orbitz, Travelocity, and Trivago. With $12+ billion in annual revenue and 17,000+ employees, Expedia powers bookings for flights, hotels, vacation rentals, car rentals, and activities. The company\'s Seattle headquarters anchors a technology-first culture focused on building platforms that serve all brands. Expedia has invested heavily in unifying its technology stack through Expedia Partner Solutions (B2B) and One Key loyalty program. The interview process evaluates technical skills, product thinking, and passion for travel and customer experience.',
     interviewTips: [
-      'Understand online travel and Expedia\'s brand portfolio',
-      'Learn about travel technology and marketplace dynamics',
-      'Be prepared for coding and system design questions',
-      'Show passion for travel and customer experience',
-      'Research Expedia Rewards and loyalty programs'
+      'Understand Expedia\'s multi-brand strategy: Expedia (full-service), Hotels.com (accommodation focus), Vrbo (vacation rentals), and how they serve different customer segments',
+      'Study the One Key loyalty program: unifying rewards across brands is a major strategic initiative',
+      'Research Expedia Partner Solutions (B2B): they power travel booking for airlines, hotels, and other companies',
+      'For engineering roles: Prepare for system design covering search, pricing, booking systems, and platform architecture serving multiple brands',
+      'Understand the travel marketplace: suppliers (airlines, hotels), OTAs, metasearch, and direct booking competition',
+      'Study Vrbo and the vacation rental business—different dynamics from hotels, competing with Airbnb',
+      'Prepare for product sense questions: How would you improve search? How would you increase conversion?',
+      'Research the competitive landscape: Booking.com, Airbnb, Google Travel, direct booking—know Expedia\'s differentiation',
+      'Show passion for travel and customer experience—Expedia wants people who understand traveler needs',
+      'Understand their Seattle culture: technology-focused, collaborative, with strong engineering leadership',
+      'Study their sustainability initiatives: Expedia has committed to sustainable travel options',
+      'Prepare behavioral examples showing customer empathy, data-driven thinking, and cross-team collaboration',
+      'Research their technology blog and engineering culture',
+      'Practice discussing travel industry dynamics and customer journey optimization'
     ],
     whatTheyLookFor: [
-      'Technical skills in engineering or product',
-      'Travel passion and customer empathy',
-      'Problem-solving abilities',
-      'Data-driven thinking',
-      'Collaboration skills'
+      'Strong technical skills in engineering, product, or relevant domains',
+      'Passion for travel and genuine customer empathy',
+      'Product thinking and understanding of marketplace dynamics',
+      'Data-driven decision making',
+      'Collaborative approach across brands and teams',
+      'Clear communication across technical and business contexts',
+      'Problem-solving ability for complex booking systems',
+      'Innovation mindset in competitive market',
+      'Adaptability in fast-moving industry',
+      'Cultural fit with Expedia\'s travel-passionate, tech-forward values'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Expedia careers'
+        title: 'Online Application',
+        description: 'Submit your application through Expedia Group Careers. Highlight experience in travel technology, marketplaces, or relevant domains. Show passion for travel and customer experience.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation covering your background and interest in Expedia. Recruiters assess role fit and travel industry knowledge. Come prepared with questions about their multi-brand strategy and technology platform.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, design, behavioral'
+        title: 'Technical Phone Screen (60 min)',
+        description: 'For engineering: coding interview with algorithmic problems. For other roles: domain-specific assessment. Interviewers evaluate problem-solving approach and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final approval and offer'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: coding rounds, system design (search, booking, platform architecture), product sense, and behavioral rounds. Expect questions about travel technology and customer experience. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager about role and team. Decisions typically come within 1-2 weeks. Expedia offers competitive salary, equity, and excellent benefits including travel perks.'
       }
     ],
     questions: [
-      'Design a flight search and booking system',
-      'How would you personalize travel recommendations?',
-      'Build a feature for flexible date searching',
-      'What differentiates Expedia from competitors?',
-      'Why Expedia?'
+      'Design a flight search and booking system that handles complex itineraries',
+      'How would you personalize travel recommendations based on user behavior?',
+      'Build a feature for flexible date searching—how would you design the UX and backend?',
+      'What differentiates Expedia from Booking.com or direct booking?',
+      'Why Expedia? What excites you about travel technology?',
+      'Design a system for real-time flight pricing and availability',
+      'How would you improve the hotel booking conversion funnel?',
+      'Design the One Key loyalty program that works across all Expedia brands',
+      'Tell me about a product you built that solved a real customer problem',
+      'How would you design Vrbo\'s search and ranking for vacation rentals?',
+      'Design a review system that handles multiple property types and brands',
+      'How would you approach pricing optimization for travel packages?',
+      'Describe a time you used data to influence a product direction',
+      'How would you integrate AI into the travel planning experience?',
+      'Design a system for managing inventory across thousands of suppliers',
+      'What metrics would you use to measure traveler satisfaction?',
+      'Tell me about a time you collaborated across teams to ship a feature',
+      'How would you approach sustainable travel options on Expedia?',
+      'What questions do you have about Expedia\'s technology or culture?'
     ],
     relatedCompanies: ['booking', 'airbnb', 'tripadvisor', 'priceline']
   },
