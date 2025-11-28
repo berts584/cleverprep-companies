@@ -6322,104 +6322,170 @@ export const companies = {
 
   'servicenow': {
     name: 'ServiceNow',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your ServiceNow interview with expert preparation for the enterprise workflow platform leader, covering digital transformation, platform architecture, and their mission to make work better.',
     industry: 'Technology',
     headquarters: 'Santa Clara, CA',
-    description: 'ServiceNow is a leading digital workflow platform for enterprise service management. Known for IT service management (ITSM), workflow automation across departments, and Now Platform. ServiceNow emphasizes innovation, customer workflows, and platform thinking.',
+    description: 'ServiceNow is the leading digital workflow platform that helps enterprises automate and streamline their operations. Founded in 2004, ServiceNow transformed from an IT service management (ITSM) tool into a comprehensive platform serving IT, HR, customer service, security operations, and more. With $8+ billion in annual revenue, 20,000+ employees, and 85%+ of Fortune 500 companies as customers, ServiceNow is one of the fastest-growing enterprise software companies. The Now Platform enables low-code workflow automation, AI-powered experiences, and unified data across departments. The interview process evaluates technical depth, enterprise platform thinking, and cultural fit with ServiceNow\'s values of customer success and innovation.',
     interviewTips: [
-      'Understand ITSM and workflow automation concepts',
-      'Learn about ServiceNow\'s Now Platform and applications',
-      'Be prepared for technical and system design questions',
-      'Show knowledge of enterprise IT and digital transformation',
-      'Research ServiceNow\'s expansion beyond IT'
+      'Understand the Now Platform architecture: single data model, workflow engine, integration hub, and how it enables cross-departmental automation',
+      'Study ServiceNow\'s expansion beyond ITSM: HR Service Delivery, Customer Service Management, Security Operations (SecOps), and Strategic Portfolio Management',
+      'Research ServiceNow\'s AI initiatives: Now Intelligence, virtual agents, predictive intelligence—AI is central to their platform strategy',
+      'For engineering roles: Be prepared for platform-scale challenges—multi-tenant architecture, workflow execution at enterprise scale, low-code development',
+      'Understand the competitive landscape: BMC Remedy, Jira Service Management, Freshworks—know ServiceNow\'s differentiation as an enterprise platform',
+      'Prepare for system design questions focused on enterprise scenarios: scalability, security, integration patterns, and workflow orchestration',
+      'Research ServiceNow\'s creator workflows and low-code capabilities—App Engine enables citizen developers to build apps',
+      'Show customer obsession—ServiceNow culture emphasizes customer success and making work better for their clients',
+      'Understand ServiceNow\'s business model: subscription revenue, platform stickiness, upsell/cross-sell across departments',
+      'Prepare behavioral examples using ServiceNow\'s values: Customer Success, Hungry and Humble, Win as a Team, and Stay Scrappy',
+      'For technical roles: Understand JavaScript (platform scripting language), REST APIs, and integration patterns',
+      'Research ServiceNow\'s acquisition strategy (Element AI, Passage AI, Lightstep)—shows their AI and observability investments',
+      'Practice explaining enterprise workflow concepts to different audiences—ServiceNow values clear communication',
+      'Show genuine excitement about enterprise software and digital transformation—this is core to their mission'
     ],
     whatTheyLookFor: [
-      'Technical skills in cloud/platform development',
-      'Enterprise software understanding',
-      'Problem-solving abilities',
-      'Customer focus',
-      'Innovation mindset'
+      'Strong technical skills in platform development or relevant domain expertise',
+      'Understanding of enterprise IT and digital transformation challenges',
+      'Customer-first mindset with genuine focus on solving business problems',
+      'Platform thinking—ability to see how components connect in enterprise ecosystems',
+      'Collaborative approach aligned with "Win as a Team" value',
+      'Innovation mindset with willingness to challenge status quo',
+      'Clear communication skills across technical and business audiences',
+      'Problem-solving ability and attention to detail',
+      'Growth mindset and intellectual curiosity',
+      'Cultural fit with ServiceNow\'s values: Hungry and Humble, Stay Scrappy'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through ServiceNow careers'
+        title: 'Online Application',
+        description: 'Submit your application through ServiceNow Careers. Your resume is reviewed for relevant experience in enterprise software, platform development, or domain expertise. ServiceNow values diverse backgrounds and emphasizes skills over pedigree.'
       },
       {
         step: 2,
-        title: 'Phone Interview',
-        description: 'Recruiter and technical screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background, interest in ServiceNow, and role fit. They\'ll explain ServiceNow\'s culture, growth trajectory, and interview process. Come prepared with specific reasons why ServiceNow and questions about the team.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, architecture, and behavioral'
+        title: 'Technical Interviews (2-4 rounds)',
+        description: 'For engineering: coding interviews (algorithms, data structures) plus system design focused on enterprise platform scenarios. For other roles: domain expertise and case-based discussions. Each round is 45-60 minutes. Interviewers evaluate technical depth and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Hiring decision and compensation'
+        title: 'Values & Behavioral Round',
+        description: 'Interview focused on ServiceNow\'s culture and values. Expect questions about customer obsession, collaboration, and how you embody "Hungry and Humble." Use STAR format with specific examples. This round carries significant weight—ServiceNow prioritizes cultural fit.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with the hiring manager to discuss role details, team dynamics, and career growth. Decisions typically come within 1-2 weeks. ServiceNow offers competitive base salary, annual bonus, equity (RSUs), and strong benefits. The company is known for career development opportunities.'
       }
     ],
     questions: [
-      'Design a workflow automation system',
-      'How would you scale a multi-tenant platform?',
-      'What do you know about ServiceNow\'s ITSM products?',
-      'Explain incident management best practices',
-      'Why ServiceNow over other enterprise platforms?'
+      'Design a workflow automation system that can handle millions of workflow executions daily across thousands of enterprise customers',
+      'How would you scale a multi-tenant platform while ensuring data isolation and security?',
+      'What do you know about ServiceNow\'s ITSM products? How do they compare to competitors?',
+      'Explain incident management best practices and how you would design an incident response system',
+      'Why ServiceNow over other enterprise platforms like Salesforce or Workday?',
+      'Design a low-code application builder that enables non-developers to create business applications',
+      'Tell me about a time you went above and beyond for a customer or stakeholder',
+      'How would you implement a virtual agent that can handle IT support requests?',
+      'Design an integration hub that can connect with hundreds of enterprise systems',
+      'Describe a time you had to collaborate across teams to solve a complex problem',
+      'How would you approach building predictive intelligence features for IT operations?',
+      'What are the biggest challenges facing enterprise IT today? How does ServiceNow address them?',
+      'Tell me about a technical project you led. What was challenging and how did you handle it?',
+      'Design a notification system for workflow events that can handle millions of notifications per hour',
+      'How do you stay current with enterprise software trends?',
+      'Describe a time you had to simplify a complex technical concept for a non-technical audience',
+      'What would you do in your first 90 days on this team?',
+      'How would you measure the success of a new platform feature?',
+      'What questions do you have about ServiceNow\'s culture or technology?'
     ],
     relatedCompanies: ['workday', 'salesforce', 'atlassian', 'pagerduty']
   },
 
   'snowflake': {
     name: 'Snowflake',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Snowflake interview with comprehensive preparation for the cloud data platform disruptor, covering data architecture, SQL mastery, and their mission to mobilize the world\'s data.',
     industry: 'Technology',
-    headquarters: 'Bozeman, MT',
-    description: 'Snowflake is a cloud data platform enabling data storage, processing, and analytics. Known for data warehouse innovation, separation of storage and compute, multi-cloud architecture, and data sharing. Snowflake interviews focus on technical depth, data expertise, and growth mindset.',
+    headquarters: 'Bozeman, MT (offices in San Mateo, CA)',
+    description: 'Snowflake is a cloud-native data platform that has revolutionized data warehousing by separating storage and compute, enabling near-unlimited scalability and concurrent access. Founded in 2012 by data warehouse pioneers from Oracle, Snowflake went public in 2020 in the largest software IPO ever at the time. With $3+ billion in annual revenue and 9,000+ customers including nearly half of the Fortune 500, Snowflake powers data analytics, data sharing, and data applications across industries. The Data Cloud vision enables organizations to break down data silos and collaborate securely. Snowflake\'s interview process is rigorous, emphasizing deep technical skills, data platform expertise, and the ability to think at scale.',
     interviewTips: [
-      'Understand data warehousing and cloud architecture',
-      'Learn about Snowflake\'s architecture and differentiation',
-      'Be prepared for SQL, data modeling, and system design',
-      'Show knowledge of analytics and data engineering',
-      'Research Snowflake\'s multi-cloud strategy'
+      'Master Snowflake\'s unique architecture: separation of storage and compute, virtual warehouses, automatic scaling, zero-copy cloning—this is fundamental',
+      'Study the Data Cloud vision: data sharing, data marketplace, data applications—understand how Snowflake enables data collaboration',
+      'For engineering roles: Be prepared for deep SQL and data modeling questions—Snowflake is a database company at heart',
+      'Understand Snowflake\'s competitive landscape: Databricks, BigQuery, Redshift, traditional data warehouses—know the differentiation',
+      'Research Snowflake\'s expansion: Snowpark (development platform), Streamlit (data apps), Native Applications—shows their platform strategy',
+      'Practice system design for data-intensive scenarios: building analytics systems, ETL pipelines, real-time data processing',
+      'Understand multi-cloud strategy: Snowflake runs on AWS, Azure, and GCP—cross-cloud data sharing is a differentiator',
+      'Prepare to discuss data governance, security, and compliance—enterprise customers care deeply about these',
+      'Research Snowflake\'s consumption-based pricing model and how it aligns incentives with customer success',
+      'Show genuine passion for data—Snowflake wants people excited about solving data problems at scale',
+      'For technical roles: Be ready for coding interviews in Python or Java, plus SQL and data modeling',
+      'Understand time travel, fail-safe, and data protection features—these are key Snowflake differentiators',
+      'Prepare behavioral examples demonstrating customer focus and ownership—Snowflake culture emphasizes these',
+      'Research their technical blog and architecture papers—shows genuine interest in how they solve problems'
     ],
     whatTheyLookFor: [
-      'Data platform and cloud expertise',
-      'Strong technical skills',
-      'Problem-solving abilities',
-      'Customer focus',
-      'Growth and innovation mindset'
+      'Deep expertise in data platforms, analytics, or cloud infrastructure',
+      'Strong SQL and data modeling skills (essential for most technical roles)',
+      'Systems thinking and ability to design for massive scale',
+      'Customer obsession and focus on solving real data challenges',
+      'Clear communication skills for technical concepts',
+      'Innovation mindset and willingness to rethink traditional approaches',
+      'Collaborative team player who can work across functions',
+      'Growth mindset with hunger to learn in fast-moving space',
+      'Attention to detail—data systems require precision',
+      'Cultural fit with Snowflake\'s values: Put Customers First, Integrity, Think Big, Be Excellent'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Snowflake careers'
+        title: 'Online Application',
+        description: 'Submit your application through Snowflake Careers. Highlight data platform experience, SQL expertise, and relevant technical skills. Snowflake is selective—tailor your resume to show relevant data/cloud experience.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background, interest in Snowflake, and role alignment. They\'ll explain the interview process and assess basic qualifications. Come prepared with specific reasons why Snowflake and questions about the data platform space.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (4-5 rounds)',
-        description: 'Technical deep-dives and team fit'
+        title: 'Technical Phone Screen (60 min)',
+        description: 'Technical interview covering SQL, data modeling, or coding depending on role. For engineering roles, expect algorithmic problems plus data-focused questions. The interviewer evaluates technical depth and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final approval and offer'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple intensive interviews including: coding rounds (algorithms, SQL), system design (data platform architecture), and behavioral rounds. For senior roles, expect deep architecture discussions. Each round is 45-60 minutes. Snowflake\'s bar is high—interviewers look for both technical excellence and cultural fit.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'A hiring committee reviews all feedback. Snowflake is thorough—decisions may take 1-2 weeks. Offers include competitive base salary, annual bonus, and significant equity. Snowflake\'s stock has been a major part of total compensation.'
       }
     ],
     questions: [
-      'Explain Snowflake\'s architecture and how it differs from traditional databases',
-      'Design a data pipeline for real-time analytics',
-      'Write SQL to solve a complex query problem',
-      'How would you optimize query performance?',
-      'Why Snowflake?'
+      'Explain Snowflake\'s architecture and how it differs from traditional data warehouses like Teradata or Netezza',
+      'Design a data pipeline for real-time analytics processing millions of events per second',
+      'Write SQL to solve: find the top 10 customers by revenue for each month, showing month-over-month growth',
+      'How would you optimize query performance for a slow-running analytical query?',
+      'Why Snowflake over Databricks, BigQuery, or Redshift?',
+      'Design a data sharing system that enables secure collaboration between organizations',
+      'Explain virtual warehouses and how Snowflake achieves workload isolation',
+      'How would you design a multi-tenant data platform with isolation and security guarantees?',
+      'Tell me about a data architecture you designed. What were the trade-offs?',
+      'Design a system for time travel and historical data access',
+      'How does Snowflake\'s separation of storage and compute work? Why does it matter?',
+      'Write SQL for a complex window function problem (e.g., running totals, ranking)',
+      'Describe a time you had to debug a complex data quality issue',
+      'How would you build a data marketplace where companies can buy and sell datasets?',
+      'Design a query optimizer for a distributed data system',
+      'What are the biggest challenges in cloud data platforms today?',
+      'Tell me about a time you had to convince stakeholders to change their approach',
+      'How would you approach migrating a petabyte-scale on-prem data warehouse to Snowflake?',
+      'What questions do you have about Snowflake\'s technology or culture?'
     ],
     relatedCompanies: ['databricks', 'bigquery', 'redshift', 'dbt']
   },
@@ -6584,156 +6650,255 @@ export const companies = {
   // On-Demand/Delivery
   'doordash': {
     name: 'DoorDash',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your DoorDash interview with expert preparation for the on-demand delivery leader, covering logistics optimization, marketplace dynamics, and their mission to grow and empower local economies.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
-    description: 'DoorDash is the leading food delivery platform in the United States, connecting consumers with local restaurants and stores. Known for logistics optimization, marketplace dynamics, and Dasher gig economy. Interviews emphasize technical skills, product thinking, and operational mindset.',
+    description: 'DoorDash is the largest on-demand food delivery platform in the United States, with 65%+ market share and operations across the US, Canada, Australia, Japan, and Germany. Founded in 2013 by Stanford students, DoorDash connects consumers with 550,000+ merchants through 6+ million Dashers (delivery drivers). The company has expanded beyond restaurant delivery into grocery, convenience, and retail delivery through DashMart and partnerships. DoorDash\'s technology platform optimizes complex three-sided marketplace dynamics in real-time: matching Dashers to orders, predicting delivery times, and balancing supply and demand. The interview process emphasizes technical rigor, operational thinking, and alignment with DoorDash\'s culture of getting "1% better every day."',
     interviewTips: [
-      'Understand marketplace dynamics and three-sided platform',
-      'Learn about logistics optimization and delivery algorithms',
-      'Be prepared for coding and system design questions',
-      'Show knowledge of gig economy and operations',
-      'Research DoorDash\'s expansion beyond food'
+      'Deeply understand the three-sided marketplace: consumers, merchants, and Dashers—each has different needs and the platform must balance all three',
+      'Study logistics optimization: route planning, batching orders, demand prediction, surge pricing—these are core DoorDash technical challenges',
+      'Research DoorDash\'s expansion beyond restaurants: DashMart (convenience), grocery delivery, retail partnerships—shows strategic thinking',
+      'Prepare for product sense questions: How would you improve Dasher experience? How would you increase order frequency?',
+      'Understand DoorDash\'s values: Be an Owner, Be Direct, Operate with Integrity, Dream Big, Start with Empathy',
+      'For engineering roles: Be ready for system design focused on real-time systems, geospatial algorithms, and marketplace matching',
+      'Study the gig economy dynamics: Dasher acquisition, retention, earnings optimization—these are complex operational challenges',
+      'Prepare for data/analytics questions: DoorDash is extremely data-driven with extensive A/B testing and metrics culture',
+      'Research DoorDash Drive (B2B delivery platform) and Storefront (white-label ordering)—shows their platform evolution',
+      'Show operational thinking: DoorDash values people who understand on-the-ground challenges, not just theoretical solutions',
+      'Practice the "why DoorDash" question—know their differentiation from Uber Eats, Grubhub, and Instacart',
+      'Understand unit economics: delivery costs, take rates, Dasher pay—shows business acumen',
+      'For behavioral interviews: Use specific examples that show scrappiness, ownership, and customer obsession',
+      'Research their engineering blog—shows genuine interest in their technical challenges'
     ],
     whatTheyLookFor: [
-      'Technical and analytical skills',
-      'Product and operations thinking',
-      'Data-driven decision making',
-      'Scrappiness and resourcefulness',
-      'Customer obsession'
+      'Strong analytical and problem-solving skills for complex optimization problems',
+      'Operational mindset with ability to think about real-world execution',
+      'Customer and Dasher empathy—understanding all sides of the marketplace',
+      'Data-driven decision making and comfort with experimentation',
+      'Scrappiness and resourcefulness—DoorDash culture values getting things done',
+      'Ownership mentality aligned with "Be an Owner" value',
+      'Clear communication and ability to collaborate cross-functionally',
+      'Technical depth for engineering roles (algorithms, systems, ML)',
+      'Product sense for understanding consumer behavior and marketplace dynamics',
+      'Cultural fit with DoorDash\'s "1% better every day" mentality'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through DoorDash careers'
+        title: 'Online Application',
+        description: 'Submit your application through DoorDash Careers. Highlight relevant experience in marketplaces, logistics, or consumer tech. DoorDash values diverse backgrounds—show how your experience translates to their challenges.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Recruiter and technical screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background and interest in DoorDash. They\'ll explain the role, team, and interview process. Come prepared with specific reasons why DoorDash and questions about their growth and challenges.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, analytics, product, behavioral'
+        title: 'Technical/Analytical Screen (60 min)',
+        description: 'For engineering: coding interview on CoderPad with algorithmic problems. For analytics/data science: SQL and product analytics questions. For PM: product sense case. The interviewer evaluates problem-solving approach and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and compensation'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: technical rounds (coding, system design for engineering), product/analytics cases, and behavioral/values rounds. For engineering, expect geospatial and real-time system design. Each round is 45-60 minutes. DoorDash\'s bar is high and cross-functional collaboration is important.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'The hiring committee reviews all feedback holistically. Decisions typically come within 1-2 weeks. DoorDash offers competitive base salary, equity, and benefits. They emphasize career growth and impact opportunities.'
       }
     ],
     questions: [
-      'Design DoorDash\'s delivery routing algorithm',
-      'How would you reduce delivery times?',
-      'Analyze a product metric problem for DoorDash',
-      'How do you balance Dasher, restaurant, and customer needs?',
-      'Why DoorDash?'
+      'Design DoorDash\'s delivery routing algorithm to minimize delivery time while maximizing Dasher efficiency',
+      'How would you reduce average delivery times by 10%? Walk through your approach.',
+      'Analyze this scenario: Order volume is up 20% but customer satisfaction is down. What would you investigate?',
+      'How do you balance Dasher, merchant, and customer needs when they conflict?',
+      'Why DoorDash over Uber Eats or Instacart?',
+      'Design a system to predict delivery times accurately across millions of orders',
+      'How would you improve the Dasher experience to increase retention?',
+      'Design an order batching system that groups multiple orders for efficient delivery',
+      'Tell me about a time you had to make a decision with incomplete data',
+      'How would you design surge pricing for a delivery platform?',
+      'Design DashMart—a convenience store model operated by DoorDash',
+      'How would you detect and prevent fraud on a delivery platform?',
+      'Describe a time you took ownership of a problem outside your direct responsibility',
+      'How would you approach expanding DoorDash into a new international market?',
+      'Design a system to match Dashers to orders in real-time across a city',
+      'What metrics would you use to measure the health of DoorDash\'s marketplace?',
+      'Tell me about a time you disagreed with a team decision. How did you handle it?',
+      'How would you improve DoorDash\'s restaurant recommendation system?',
+      'What questions do you have about DoorDash\'s culture or challenges?'
     ],
     relatedCompanies: ['uber-eats', 'grubhub', 'instacart', 'postmates']
   },
 
   'instacart': {
     name: 'Instacart',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Instacart interview with comprehensive preparation for the grocery delivery pioneer, covering retail partnerships, shopper operations, and their mission to create a world where everyone has access to the food they love.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
-    description: 'Instacart is the leading online grocery delivery and pickup service in North America, partnering with retailers. Known for same-day delivery, shopper gig economy, and grocery technology. Interviews focus on technical skills, operational thinking, and product sense.',
+    description: 'Instacart is North America\'s leading online grocery platform, partnering with 1,400+ retail banners across 80,000+ stores to enable same-day delivery and pickup. Founded in 2012, Instacart connects millions of customers with personal shoppers who pick and deliver groceries. The company went public in 2023 and generates $3+ billion in annual revenue through delivery fees, advertising (Instacart Ads), and enterprise solutions (Instacart Platform). Instacart\'s technology powers inventory management, shopper routing, and real-time fulfillment optimization. The interview process evaluates technical depth, marketplace understanding, and alignment with Instacart\'s customer-obsessed culture.',
     interviewTips: [
-      'Understand online grocery and retail partnerships',
-      'Learn about Instacart\'s shopper model and logistics',
-      'Be prepared for coding, analytics, and system design',
-      'Show knowledge of grocery retail and consumer behavior',
-      'Research Instacart\'s advertising and enterprise solutions'
+      'Understand Instacart\'s partnership model: Unlike DoorDash, Instacart partners deeply with retailers who maintain their brand identity—this is core to their strategy',
+      'Study the shopper experience: order batching, item substitutions, communication with customers—shoppers are key to the platform',
+      'Research Instacart Ads: their advertising platform is a major growth driver and high-margin business—understand retail media',
+      'For engineering roles: Prepare for system design around real-time inventory, order fulfillment, and routing optimization',
+      'Understand Instacart Platform (enterprise solutions): white-label fulfillment for retailers—shows their B2B strategy',
+      'Prepare for product sense questions: How would you improve the substitution experience? How would you increase basket size?',
+      'Study grocery retail dynamics: perishables, inventory accuracy, picking efficiency—grocery is different from restaurant delivery',
+      'Research their acquisition of Caper (smart carts) and expansion into fulfillment technology—shows hardware/software integration',
+      'Show customer empathy: both for end consumers and retail partners—Instacart serves two distinct customer types',
+      'For data/analytics roles: Instacart is highly analytical with sophisticated ML for demand forecasting and personalization',
+      'Understand the competitive landscape: Amazon Fresh, Walmart, DoorDash grocery—know Instacart\'s differentiation through partnerships',
+      'Prepare behavioral examples showing ownership, customer focus, and collaboration',
+      'Research their engineering blog for insights into their technical challenges',
+      'Practice explaining complex operational scenarios—Instacart values clear thinking about real-world problems'
     ],
     whatTheyLookFor: [
-      'Technical and analytical skills',
-      'Operations and logistics thinking',
-      'Product sense',
-      'Data-driven mindset',
-      'Customer empathy'
+      'Strong analytical and problem-solving skills',
+      'Understanding of marketplace dynamics and operational complexity',
+      'Customer obsession for both consumers and retail partners',
+      'Data-driven mindset with comfort in ambiguity',
+      'Technical depth for engineering roles (systems, ML, mobile)',
+      'Product sense and ability to balance stakeholder needs',
+      'Collaborative approach suited for cross-functional work',
+      'Operational thinking with attention to real-world execution',
+      'Growth mindset and adaptability in fast-moving environment',
+      'Cultural fit with Instacart\'s values and mission'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through Instacart careers'
+        title: 'Online Application',
+        description: 'Submit your application through Instacart Careers. Highlight experience in marketplaces, retail tech, logistics, or relevant domains. Instacart values diverse perspectives—show how your background applies to their challenges.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background and interest in Instacart. They\'ll explain the role, team structure, and interview process. Come prepared with specific reasons why Instacart and questions about their growth strategy.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, design, product, behavioral'
+        title: 'Technical/Analytical Screen (60 min)',
+        description: 'For engineering: coding interview with algorithmic problems. For data science: SQL, statistics, and product analytics. For PM: product sense and case study. Interviewers evaluate problem-solving approach and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final approval and offer'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: technical rounds (coding, system design), product/analytics cases, and behavioral rounds. For engineering, expect questions on real-time systems, inventory management, and optimization. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager to discuss role details and team fit. Decisions typically come within 1-2 weeks. Instacart offers competitive base salary, equity, and benefits including grocery credits.'
       }
     ],
     questions: [
-      'Design Instacart\'s order batching system',
-      'How would you improve shopper efficiency?',
-      'Analyze metrics for grocery delivery',
-      'What challenges does Instacart face?',
-      'Why Instacart specifically?'
+      'Design Instacart\'s order batching system to optimize shopper efficiency while maintaining delivery quality',
+      'How would you improve shopper efficiency by 20%? Walk through your approach.',
+      'Analyze this: Customer order cancellation rate has increased 15%. What would you investigate?',
+      'What challenges does Instacart face that DoorDash doesn\'t? How would you address them?',
+      'Why Instacart specifically over other grocery or delivery companies?',
+      'Design a real-time inventory system that handles 80,000+ stores with constantly changing stock',
+      'How would you improve the item substitution experience for customers?',
+      'Design a shopper routing algorithm that optimizes for time, distance, and item locations in-store',
+      'Tell me about a time you had to balance competing priorities from different stakeholders',
+      'How would you design Instacart\'s advertising platform for CPG brands?',
+      'Design a demand forecasting system for grocery delivery',
+      'How would you reduce the rate of out-of-stock items in customer orders?',
+      'Describe a time you took initiative to solve a problem no one asked you to solve',
+      'How would you approach a new retail partnership with a major grocery chain?',
+      'Design a system to match shoppers to orders based on skills, location, and preferences',
+      'What metrics would you use to measure shopper satisfaction?',
+      'Tell me about a time you made a mistake. What did you learn?',
+      'How would you improve Instacart\'s recommendation system for groceries?',
+      'What questions do you have about Instacart\'s technology or culture?'
     ],
     relatedCompanies: ['doordash', 'gopuff', 'shipt', 'amazon-fresh']
   },
 
   'ebay': {
     name: 'eBay',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your eBay interview with comprehensive preparation for the original e-commerce marketplace, covering two-sided platforms, trust and safety, and their mission to create economic opportunity for all.',
     industry: 'Technology',
     headquarters: 'San Jose, CA',
-    description: 'eBay is a global e-commerce marketplace connecting millions of buyers and sellers. Known for auctions, collectibles, C2C commerce, seller ecosystem, and trust & safety. Interviews emphasize technical skills, marketplace understanding, and product thinking.',
+    description: 'eBay is one of the world\'s largest and most diverse online marketplaces, connecting millions of buyers and sellers across 190+ markets. Founded in 1995 as an auction site, eBay pioneered online commerce and remains the leading platform for unique, collectible, and hard-to-find items. With $10+ billion in annual revenue and 130+ million active buyers, eBay facilitates over $70 billion in gross merchandise volume annually. The company has refocused on "enthusiast" categories: sneakers, watches, trading cards, auto parts, and refurbished electronics. eBay\'s technical platform handles massive scale, trust and safety, payment processing (now managed payments), and sophisticated search/recommendation systems. The interview process evaluates technical depth, marketplace understanding, and alignment with eBay\'s mission to create opportunity.',
     interviewTips: [
-      'Understand marketplace dynamics and two-sided networks',
-      'Learn about eBay\'s seller tools and services',
-      'Be prepared for coding and system design questions',
-      'Show knowledge of e-commerce and trust/safety',
-      'Research eBay\'s focus on enthusiast categories'
+      'Understand eBay\'s strategic focus on "enthusiast" categories: collectibles, sneakers (via authenticity guarantee), watches, trading cards, auto parts—this is their differentiation from Amazon',
+      'Study two-sided marketplace dynamics: network effects, liquidity, trust, and how to balance buyer/seller needs',
+      'Research eBay\'s managed payments transition: bringing payments in-house was a major technical and business transformation',
+      'For engineering roles: Prepare for system design at massive scale—eBay handles billions of listings and hundreds of millions of users',
+      'Understand trust and safety challenges: fraud detection, counterfeit prevention, seller verification—these are critical for marketplace trust',
+      'Research eBay\'s authentication programs: sneaker authentication, watch authentication—physical verification is a differentiator',
+      'Study search and recommendation: how to surface relevant items from billions of listings is a core technical challenge',
+      'Prepare for product sense questions: How would you improve seller onboarding? How would you increase buyer conversion?',
+      'Understand eBay\'s history and transformation: from auctions to fixed-price, from PayPal dependency to managed payments',
+      'Research their technical blog and engineering culture—eBay has interesting scale challenges',
+      'Show passion for the seller community: eBay enables small businesses and entrepreneurs—this is central to their mission',
+      'Prepare behavioral examples demonstrating customer focus, ownership, and innovation',
+      'Understand competitive dynamics: Amazon, Etsy, Poshmark, StockX—know eBay\'s unique position',
+      'Practice explaining marketplace economics and trade-offs—eBay values analytical thinking'
     ],
     whatTheyLookFor: [
-      'Technical skills in scalable systems',
-      'Marketplace and e-commerce understanding',
-      'Product sense',
-      'Data-driven thinking',
-      'Customer and seller empathy'
+      'Strong technical skills for building systems at massive scale',
+      'Understanding of marketplace dynamics and network effects',
+      'Customer empathy for both buyers and sellers',
+      'Data-driven decision making and analytical rigor',
+      'Product sense for e-commerce and consumer experience',
+      'Problem-solving ability for complex trust and safety challenges',
+      'Clear communication across technical and business contexts',
+      'Collaborative mindset for cross-functional work',
+      'Innovation thinking to evolve a mature platform',
+      'Cultural fit with eBay\'s mission of economic opportunity'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through eBay careers'
+        title: 'Online Application',
+        description: 'Submit your application through eBay Careers. Highlight experience in marketplaces, e-commerce, payments, or relevant technical domains. eBay values diverse perspectives and non-traditional backgrounds.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background and interest in eBay. They\'ll explain the role, team, and interview process. Come prepared with specific reasons why eBay and questions about their strategy and culture.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, system design, behavioral'
+        title: 'Technical Screen (60 min)',
+        description: 'For engineering: coding interview with algorithmic problems. For data roles: SQL and analytics. For PM: product sense case. Interviewers evaluate problem-solving approach, code quality, and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and offer'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: technical rounds (coding, system design), product cases, and behavioral rounds. For engineering, expect questions on search, payments, fraud detection, or scalability. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'The hiring team reviews all feedback and makes a decision within 1-2 weeks. eBay offers competitive base salary, equity (RSUs), and comprehensive benefits. The company emphasizes work-life balance and career development.'
       }
     ],
     questions: [
-      'Design eBay\'s search ranking algorithm',
-      'How would you detect fraudulent listings?',
-      'Improve the seller onboarding experience',
-      'What differentiates eBay from Amazon?',
-      'Why eBay?'
+      'Design eBay\'s search ranking algorithm to surface the most relevant items from billions of listings',
+      'How would you detect and prevent fraudulent listings at scale?',
+      'Improve the seller onboarding experience to increase new seller activation',
+      'What differentiates eBay from Amazon? How would you strengthen eBay\'s position?',
+      'Why eBay over other e-commerce or marketplace companies?',
+      'Design a system to authenticate luxury watches submitted by sellers',
+      'How would you improve buyer trust and reduce purchase anxiety on eBay?',
+      'Design eBay\'s managed payments system handling billions in transaction volume',
+      'Tell me about a time you had to balance competing stakeholder needs',
+      'How would you reduce the rate of returns on the platform?',
+      'Design a recommendation system for eBay that handles cold-start for new users',
+      'How would you detect counterfeit products being sold on the marketplace?',
+      'Describe a time you innovated on an existing product or process',
+      'How would you increase engagement in the sneakers category?',
+      'Design a seller reputation system that is fair and resistant to manipulation',
+      'What metrics would you use to measure marketplace health?',
+      'Tell me about a technical project where you had to make difficult trade-offs',
+      'How would you approach expanding eBay\'s authentication services to new categories?',
+      'What questions do you have about eBay\'s technology or culture?'
     ],
     relatedCompanies: ['etsy', 'mercari', 'poshmark', 'amazon']
   },
@@ -7316,52 +7481,85 @@ export const companies = {
   // E-commerce Platforms
   'shopify': {
     name: 'Shopify',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Shopify interview with expert preparation for the commerce platform empowering millions of entrepreneurs, covering merchant success, platform architecture, and their mission to make commerce better for everyone.',
     industry: 'Technology',
-    headquarters: 'Ottawa, Canada (US: San Francisco, CA)',
-    description: 'Shopify is a leading e-commerce platform enabling merchants to create online stores and sell products. Known for empowering entrepreneurs, commerce tools, developer ecosystem, and point-of-sale. Interviews emphasize technical skills, product thinking, and merchant focus.',
+    headquarters: 'Ottawa, Canada',
+    description: 'Shopify is the leading commerce platform powering millions of businesses in 175+ countries, from first-time entrepreneurs to enterprise brands like Allbirds, Gymshark, and Heinz. Founded in 2006 by Tobias Lütke after he couldn\'t find good e-commerce software for his snowboard shop, Shopify has grown to $7+ billion in annual revenue with 10,000+ employees. The platform handles everything merchants need: online stores, point-of-sale, payments (Shopify Payments), shipping (Shopify Fulfillment Network), and capital (Shopify Capital). Shopify\'s interview process emphasizes technical excellence, merchant empathy, and alignment with their mission to "arm the rebels" against big commerce. The company is known for its unique culture, long-term thinking, and treating engineers as craftspeople.',
     interviewTips: [
-      'Understand e-commerce and merchant pain points',
-      'Learn about Shopify\'s platform, apps, and developer ecosystem',
-      'Be prepared for coding and system design questions',
-      'Show passion for entrepreneurship and small business',
-      'Research Shopify\'s commerce operating system vision'
+      'Deeply understand Shopify\'s mission to "make commerce better for everyone" and "arm the rebels"—they see themselves as empowering entrepreneurs against Amazon',
+      'Study Shopify\'s platform architecture: Ruby on Rails at scale, multi-tenant with dedicated resources for large merchants, extensive API ecosystem',
+      'Research the merchant journey: what challenges do first-time entrepreneurs face? What do growing businesses need?—merchant empathy is essential',
+      'For engineering roles: Shopify values software craftsmanship—prepare to discuss code quality, maintainability, and thoughtful design',
+      'Understand Shopify\'s product ecosystem: Online Store, POS, Payments, Shipping, Capital, Fulfillment Network, Plus (enterprise)—show breadth of understanding',
+      'Research Shop Pay and Shop app: one-click checkout and consumer-facing initiatives—shows their buyer-side strategy',
+      'Study the app ecosystem: Shopify\'s platform enables 8,000+ apps—understand their developer-first philosophy',
+      'Prepare for technical interviews in Ruby (preferred) or your strongest language—Shopify cares about clean, well-structured code',
+      'Research Shopify\'s unique culture: "digital by default," long-term thinking, "get shit done" mentality, no permanent teams',
+      'Understand their response to COVID: Shopify accelerated digital commerce adoption—show awareness of market dynamics',
+      'Practice the "Life Story" interview format: Shopify often asks candidates to walk through their entire career journey',
+      'Prepare examples of building products that users love—merchant empathy is core to Shopify culture',
+      'Research Shopify\'s engineering blog and technical talks—shows genuine interest',
+      'Show entrepreneurial mindset: Shopify loves people who have built things, started projects, or shown initiative'
     ],
     whatTheyLookFor: [
-      'Technical skills in full-stack or specialized areas',
-      'Product and merchant empathy',
-      'Problem-solving abilities',
-      'Entrepreneurial mindset',
-      'Collaborative approach'
+      'Strong software craftsmanship and pride in code quality',
+      'Deep merchant and user empathy—genuine care for helping entrepreneurs succeed',
+      'Entrepreneurial mindset with experience building products or starting things',
+      'Product thinking and ability to connect technical work to merchant outcomes',
+      'Clear communication and ability to work across distributed teams',
+      'Long-term thinking and patience for solving hard problems well',
+      'Collaborative approach with low ego',
+      'Adaptability in fast-moving environment with changing priorities',
+      'Intellectual curiosity and love of learning',
+      'Cultural fit with Shopify\'s unique, mission-driven environment'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Shopify careers'
+        title: 'Online Application',
+        description: 'Submit your application through Shopify Careers. Highlight entrepreneurial experience, products you\'ve built, and technical depth. Shopify values diverse backgrounds—show passion for helping merchants succeed, not just technical skills.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Recruiter and technical screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background, career journey, and interest in Shopify. They\'ll explain the role and Shopify\'s unique culture. Come prepared with specific examples of things you\'ve built and why you care about commerce.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, system design, behavioral'
+        title: 'Technical Screen (60 min)',
+        description: 'Coding interview focused on practical programming problems. Shopify emphasizes code quality, readability, and thoughtful design over speed. Ruby is preferred but not required. The interviewer evaluates craftsmanship and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and compensation'
+        title: 'Virtual Onsite (3-5 rounds)',
+        description: 'Multiple interviews including: technical rounds (coding, system design), a "Life Story" interview where you walk through your career, and behavioral rounds focused on merchant empathy and Shopify values. For senior roles, expect architecture discussions. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'A hiring committee reviews all feedback holistically. Shopify is thoughtful—decisions may take 1-2 weeks. Offers include competitive base salary, equity, and comprehensive benefits. Shopify is known for fair compensation and remote-first flexibility.'
       }
     ],
     questions: [
-      'Design a product recommendation system for e-commerce',
-      'How would you scale checkout processing for Black Friday?',
-      'Build a feature to help merchants increase sales',
-      'What challenges do small businesses face in e-commerce?',
-      'Why Shopify?'
+      'Design a product recommendation system for e-commerce that works for stores with 10 products and stores with 10,000',
+      'How would you scale checkout processing to handle Black Friday/Cyber Monday traffic (10x normal volume)?',
+      'Build a feature to help merchants increase their conversion rate—walk through your thinking',
+      'What challenges do small businesses face in e-commerce? How does Shopify address them?',
+      'Why Shopify over other tech companies? What draws you to commerce?',
+      'Design an inventory management system for merchants selling across multiple channels',
+      'Tell me your life story—walk me through your career journey and what led you here',
+      'Design a system to process payments for millions of merchants with different currencies',
+      'Describe a product you built that you\'re proud of. What made it successful?',
+      'How would you design Shopify\'s app store platform for third-party developers?',
+      'Design Shop Pay—a one-click checkout that works across all Shopify stores',
+      'How would you help a new merchant make their first sale?',
+      'Tell me about a time you went above and beyond for a user or customer',
+      'Design a fraud detection system for e-commerce payments',
+      'How would you approach the technical challenges of Shopify Fulfillment Network?',
+      'What metrics would you use to measure merchant success?',
+      'Tell me about a time you had to simplify something complex',
+      'How would you design Shopify\'s admin dashboard for merchant store management?',
+      'What questions do you have about Shopify\'s culture or technical challenges?'
     ],
     relatedCompanies: ['woocommerce', 'bigcommerce', 'square', 'amazon']
   },
