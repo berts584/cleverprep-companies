@@ -8077,52 +8077,85 @@ export const companies = {
 
   'discord': {
     name: 'Discord',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Discord interview with expert preparation for the communication platform redefining online communities, covering real-time infrastructure, gaming culture, and their mission to create space for everyone to find belonging.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
-    description: 'Discord is a communication platform for communities, gaming, and groups with voice, video, and text chat. Known for low-latency voice, server-based communities, gaming origins, and expanding to broader use cases. Interviews emphasize technical skills, community focus, and real-time systems.',
+    description: 'Discord is a communication platform where 200+ million monthly users connect through voice, video, and text in server-based communities. Originally built for gamers in 2015, Discord has evolved into the go-to platform for communities of all types—from study groups to creator fan clubs to professional teams. The platform handles billions of minutes of voice chat monthly with industry-leading low latency. Discord\'s $15+ billion valuation reflects its position as the future of online community. The technical challenges include real-time audio/video at scale, massive concurrent state management, and building features that serve both 5-person friend groups and million-member servers. The interview process emphasizes systems expertise, community understanding, and passion for the product.',
     interviewTips: [
-      'Understand real-time communication and voice technology',
-      'Learn about Discord\'s server structure and community features',
-      'Be prepared for coding and distributed systems questions',
-      'Show passion for gaming or online communities',
-      'Research Discord\'s monetization (Nitro, Server Boosts)'
+      'Deeply understand Discord\'s real-time infrastructure: WebRTC for voice/video, WebSockets for messaging, and the engineering behind <100ms latency globally',
+      'Study server architecture: roles, permissions, channels, categories—and how this scales from small groups to massive communities',
+      'For engineering roles: Prepare for distributed systems questions—Discord handles millions of concurrent connections and events',
+      'Research Discord\'s evolution beyond gaming: education, creators, brands, professional communities—shows strategic awareness',
+      'Understand their monetization: Nitro subscriptions, Server Boosts, and how they balance revenue with user experience',
+      'Study their tech stack: Elixir for real-time messaging, Rust for performance-critical services, Python for ML',
+      'Prepare for questions about community dynamics: moderation, safety, growth—Discord communities are complex ecosystems',
+      'Research Discord\'s bot and developer ecosystem—extensibility is core to the platform',
+      'Show genuine passion for gaming or online communities—Discord wants people who understand their users',
+      'Understand competitive landscape: Slack (work), Teams (enterprise), Telegram (messaging)—know Discord\'s unique position',
+      'Prepare behavioral examples showing user empathy, technical excellence, and collaborative problem-solving',
+      'Research their blog for technical deep-dives on engineering challenges',
+      'Understand trust and safety challenges: content moderation, raid prevention, underage user protection',
+      'Practice explaining real-time systems concepts clearly'
     ],
     whatTheyLookFor: [
-      'Technical skills in real-time systems or voice tech',
-      'Community and gaming understanding',
-      'Problem-solving in distributed systems',
-      'Product sense for communication tools',
-      'Collaborative mindset'
+      'Strong systems engineering skills, especially in real-time or distributed systems',
+      'Deep understanding of online communities and social dynamics',
+      'Passion for gaming, creators, or community building',
+      'Product sense for communication and social features',
+      'Ability to build for massive scale while maintaining quality',
+      'Collaborative mindset in fast-paced environment',
+      'Clear communication of complex technical concepts',
+      'User empathy and focus on experience quality',
+      'Problem-solving ability for novel technical challenges',
+      'Cultural fit with Discord\'s playful, community-first culture'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through Discord careers'
+        title: 'Online Application',
+        description: 'Submit your application through Discord Careers. Highlight experience in real-time systems, community platforms, or relevant domains. Bonus points if you\'re an active Discord user—authentic users stand out.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and cultural screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation covering your background and interest in Discord. Recruiters assess technical fit and cultural alignment. Come prepared with examples of communities you\'ve built or participated in.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, architecture, behavioral'
+        title: 'Technical Phone Screen (60 min)',
+        description: 'Coding interview focused on algorithms and problem-solving. For systems roles, expect questions touching on distributed systems. For client roles, platform-specific questions. Interviewers evaluate technical depth and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final approval and offer'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: coding rounds, system design (real-time architecture, scaling challenges), product sense, and behavioral rounds. Expect questions about community features and user experience. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'A hiring committee reviews all feedback. Decisions typically come within 1-2 weeks. Discord offers competitive salary, equity, and benefits. They\'re known for strong culture and product-passionate teams.'
       }
     ],
     questions: [
-      'Design Discord\'s voice chat architecture',
-      'How would you reduce latency for real-time communication?',
-      'Build a feature to help communities grow',
-      'What challenges does Discord face in scaling?',
-      'Why Discord?'
+      'Design Discord\'s voice chat architecture to support millions of concurrent voice connections with <100ms latency',
+      'How would you reduce latency for real-time communication across global users?',
+      'Build a feature to help new communities grow and retain members',
+      'What challenges does Discord face in scaling servers from 5 users to 1 million?',
+      'Why Discord? What excites you about communication and community?',
+      'Design a message delivery system that handles billions of messages daily with ordering guarantees',
+      'How would you implement Discord\'s permission system at scale?',
+      'Design a system to detect and prevent server raids and spam attacks',
+      'Tell me about a community you\'ve been part of. What made it work?',
+      'How would you build Discord\'s screen sharing feature for gaming?',
+      'Design a bot platform that enables third-party developers to extend Discord',
+      'How would you handle moderation for a server with 500,000 members?',
+      'Describe a time you built something for a passionate user community',
+      'How would you design Discord Stage for audio-only events?',
+      'Design a notification system that respects user attention and preferences',
+      'What metrics would you use to measure community health?',
+      'Tell me about a time you debugged a complex distributed systems issue',
+      'How would you approach adding video chat to Discord servers?',
+      'What questions do you have about Discord\'s technology or culture?'
     ],
     relatedCompanies: ['slack', 'teamspeak', 'zoom', 'reddit']
   },
@@ -8130,260 +8163,425 @@ export const companies = {
   // Enterprise Software (expansion)
   'atlassian': {
     name: 'Atlassian',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Atlassian interview with expert preparation for the team collaboration leader, covering developer tools, agile workflows, and their mission to unleash the potential of every team.',
     industry: 'Technology',
     headquarters: 'Sydney, Australia (US: San Francisco, CA)',
-    description: 'Atlassian is a leading provider of collaboration and productivity software for teams, including Jira, Confluence, Trello, and Bitbucket. Known for developer tools, agile workflows, remote-first culture, and empowering teams. Interviews emphasize technical skills, collaboration, and values alignment.',
+    description: 'Atlassian is a leading provider of team collaboration and productivity software, with products used by 260,000+ organizations including 83% of Fortune 500 companies. Founded in 2002 in Sydney, Atlassian built iconic developer tools including Jira (project management), Confluence (team wiki), Trello (visual boards), and Bitbucket (code repository). With $3.5+ billion in annual revenue and 11,000+ employees, Atlassian pioneered the no-sales-team model, growing through product-led growth. The company operates as a distributed-first organization with a unique culture built on their values: "Open company, no bullshit," "Build with heart and balance," and "Be the change you seek." The interview process emphasizes technical excellence, collaboration, and deep values alignment.',
     interviewTips: [
-      'Understand Atlassian\'s product suite (Jira, Confluence, Trello)',
-      'Learn about agile development and team collaboration',
-      'Be prepared for coding and system design questions',
-      'Show experience with developer tools or workflows',
-      'Research Atlassian\'s values and remote-first culture'
+      'Understand Atlassian\'s product ecosystem: Jira (Software, Service Management, Work Management), Confluence, Trello, Bitbucket, and how they integrate',
+      'Study their values deeply—especially "Open company, no bullshit"—Atlassian evaluates values fit seriously through dedicated interviews',
+      'Research their cloud-first strategy and migration from Server/Data Center—this is a major technical transformation',
+      'For engineering roles: Prepare for system design focused on real-time collaboration, eventually consistent systems, and multi-tenant SaaS',
+      'Understand their developer tool market: GitHub/GitLab (code), Linear/Asana (project management)—know Atlassian\'s differentiation',
+      'Research their distributed-first (Team Anywhere) approach—they\'ve invested heavily in async and remote collaboration',
+      'Study the Atlassian Marketplace and third-party ecosystem—extensibility is core to their platform strategy',
+      'Prepare for collaborative problem-solving: Atlassian interviews emphasize how you work, not just what you know',
+      'Research their engineering blog and technical talks—shows genuine interest in how they build',
+      'Understand their no-sales-team model and product-led growth—it shaped their culture and products',
+      'Prepare behavioral examples showing transparency, collaboration, and user empathy',
+      'Show passion for developer experience and team productivity',
+      'Research their acquisition strategy (Trello, Halp, Chartio)—shows growth direction',
+      'Practice explaining agile concepts and team collaboration patterns'
     ],
     whatTheyLookFor: [
-      'Technical skills in software development',
-      'Collaboration and teamwork',
-      'Product thinking for developer tools',
-      'Values alignment (Open company, no bullshit)',
-      'Problem-solving abilities'
+      'Strong technical skills with thoughtful, quality-focused approach',
+      'Deep alignment with Atlassian\'s values—especially openness and transparency',
+      'Collaborative mindset suited for distributed, team-based work',
+      'Product sense for developer tools and team productivity',
+      'User empathy and focus on helping teams work better',
+      'Clear communication across technical and non-technical contexts',
+      'Problem-solving ability with attention to scalability',
+      'Adaptability in a distributed, fast-evolving environment',
+      'Intellectual curiosity and continuous learning',
+      'Cultural contribution—how will you make Atlassian a better place?'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Atlassian careers'
+        title: 'Online Application',
+        description: 'Submit your application through Atlassian Careers. Highlight not just technical skills but examples demonstrating Atlassian\'s values. They look for transparency, collaboration, and user focus in your background.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Recruiter and technical screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation covering your background, interest in Atlassian, and early values assessment. Recruiters explain the interview process and team structure. Come prepared with specific examples of how you\'ve embodied their values.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, system design, values, behavioral'
+        title: 'Technical Interviews (2-3 rounds)',
+        description: 'For engineering: coding interviews plus system design focused on collaboration tools and SaaS platforms. Atlassian emphasizes collaborative problem-solving—you\'ll work with your interviewer, not perform for them. Each round is 45-60 minutes.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and compensation'
+        title: 'Values Interview',
+        description: 'Dedicated interview focused on Atlassian\'s values. Expect deep questions about transparency, teamwork, and how you\'ve handled difficult situations with openness. This round carries significant weight—Atlassian takes culture fit seriously.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager about role details and team dynamics. Decisions typically come within 1-2 weeks. Atlassian offers competitive salary, equity, and strong benefits including generous leave policies.'
       }
     ],
     questions: [
-      'Design a real-time collaboration system like Confluence',
-      'How would you improve Jira\'s performance for large projects?',
-      'Build a feature for agile sprint planning',
-      'What makes Atlassian different from competitors?',
-      'Why Atlassian?'
+      'Design a real-time collaboration system like Confluence that handles concurrent editors',
+      'How would you improve Jira\'s performance for projects with 100,000+ issues?',
+      'Build a feature for agile sprint planning across distributed teams',
+      'What makes Atlassian different from competitors like GitHub, Linear, or Notion?',
+      'Why Atlassian? What attracts you to team collaboration tools?',
+      'Design Jira\'s workflow engine that supports custom workflows for different teams',
+      'How would you implement Confluence\'s page hierarchy and permission system?',
+      'Design a system for real-time notifications across Atlassian products',
+      'Tell me about a time you gave difficult feedback or received it openly',
+      'How would you design the Atlassian Marketplace for third-party apps?',
+      'Design Trello\'s board and card system with real-time synchronization',
+      'How would you handle data migration for customers moving from Server to Cloud?',
+      'Describe a time you prioritized user needs over expedient solutions',
+      'How would you build cross-product search across Jira, Confluence, and Trello?',
+      'Design a system for Jira Service Management that routes tickets to the right team',
+      'What does "Open company, no bullshit" mean to you? Give an example.',
+      'Tell me about a time you collaborated with remote team members',
+      'How would you approach integrating a new acquisition like Trello?',
+      'What questions do you have about Atlassian\'s culture or technology?'
     ],
     relatedCompanies: ['gitlab', 'github', 'asana', 'monday']
   },
 
   'zoom': {
     name: 'Zoom Video Communications',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Zoom interview with expert preparation for the video communications leader that redefined remote work, covering real-time infrastructure, customer obsession, and their mission to deliver happiness.',
     industry: 'Technology',
     headquarters: 'San Jose, CA',
-    description: 'Zoom is a leading video conferencing and virtual meeting platform that became essential during remote work transformation. Known for ease of use, reliability, Zoom Rooms, and expanding into unified communications. Interviews emphasize technical skills, customer obsession, and delivering happiness.',
+    description: 'Zoom Video Communications is the platform that transformed how the world connects, with 300+ million daily meeting participants and presence in virtually every organization globally. Founded in 2011 by Eric Yuan (former Cisco/WebEx executive), Zoom succeeded by obsessing over user experience when competitors were complex and unreliable. With $4.5+ billion in annual revenue and 8,000+ employees, Zoom has expanded from meetings into a complete communications platform: Zoom Phone, Zoom Rooms, Zoom Webinars, and Zoom Contact Center. The company\'s culture emphasizes "delivering happiness" to customers. The interview process evaluates technical excellence, customer obsession, and alignment with Zoom\'s care-focused culture.',
     interviewTips: [
-      'Understand video conferencing technology and WebRTC',
-      'Learn about Zoom\'s products (Meetings, Phone, Rooms, Webinars)',
-      'Be prepared for coding and distributed systems questions',
-      'Show passion for customer experience and reliability',
-      'Research Zoom\'s culture of care and delivering happiness'
+      'Understand Zoom\'s founding story: Eric Yuan left WebEx specifically because he saw customers suffering with poor video quality—customer obsession is core DNA',
+      'Study real-time video infrastructure: WebRTC, SFUs vs MCUs, adaptive bitrate, echo cancellation—these are fundamental to Zoom engineering',
+      'Research Zoom\'s expansion beyond meetings: Phone, Rooms, Webinars, Contact Center, Events—shows their platform strategy',
+      'For engineering roles: Prepare for system design focused on low-latency, high-reliability video systems at global scale',
+      'Understand Zoom\'s security journey: they addressed concerns head-on during 2020 and emerged stronger—shows adaptability',
+      'Research their AI initiatives: Zoom IQ, meeting summaries, real-time transcription—AI is a major investment area',
+      'Study their competitive landscape: Microsoft Teams, Google Meet, Webex—know how Zoom differentiates on experience',
+      'Prepare for behavioral questions emphasizing care, empathy, and customer focus—Zoom\'s culture is distinctively warm',
+      'Understand their hybrid work solutions: Zoom Rooms, scheduling integration—shows enterprise evolution',
+      'Research their engineering blog for technical deep-dives on video infrastructure',
+      'Show genuine passion for improving human connection through technology',
+      'Prepare examples demonstrating customer empathy and experience focus',
+      'Understand their developer platform: Zoom Apps, SDK, API—extensibility is important',
+      'Practice explaining video/audio technical concepts clearly'
     ],
     whatTheyLookFor: [
-      'Technical skills in video/audio or distributed systems',
-      'Customer obsession',
-      'Problem-solving under scale',
-      'Collaboration and care',
-      'Innovation mindset'
+      'Strong technical skills in video, audio, real-time systems, or relevant domains',
+      'Customer obsession and genuine care for user experience',
+      'Problem-solving ability under scale and reliability constraints',
+      'Collaborative, caring approach aligned with Zoom culture',
+      'Clear communication and empathy',
+      'Innovation mindset with practical execution',
+      'Attention to quality and reliability',
+      'Adaptability in fast-moving environment',
+      'Growth mindset and continuous learning',
+      'Cultural fit with Zoom\'s "delivering happiness" mission'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through Zoom careers'
+        title: 'Online Application',
+        description: 'Submit your application through Zoom Careers. Highlight experience in video technology, real-time systems, or relevant domains. Show customer focus and quality orientation in your background.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation covering your background and interest in Zoom. Recruiters assess role fit and cultural alignment. Come prepared with examples of how you\'ve delivered great customer experiences.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, architecture, behavioral'
+        title: 'Technical Phone Screen (60 min)',
+        description: 'Coding interview or technical discussion depending on role. For engineering, expect algorithms and system design elements. Interviewers evaluate problem-solving approach and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final approval and offer'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: coding rounds, system design (video/audio infrastructure), product sense, and behavioral rounds emphasizing care and customer focus. Each round is 45-60 minutes. Conducted via Zoom, naturally.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager about role and team. Decisions typically come within 1-2 weeks. Zoom offers competitive salary, equity, and comprehensive benefits. Known for positive, caring culture.'
       }
     ],
     questions: [
-      'Design a scalable video conferencing system',
-      'How would you reduce latency in video calls?',
-      'Optimize bandwidth usage for poor network conditions',
-      'What challenges does Zoom face in global scaling?',
-      'Why Zoom?'
+      'Design a scalable video conferencing system that handles millions of concurrent participants',
+      'How would you reduce latency in video calls while maintaining quality?',
+      'Optimize video quality for users with poor network conditions',
+      'What challenges does Zoom face in global scaling? How would you address them?',
+      'Why Zoom? What excites you about video communication?',
+      'Design Zoom\'s recording system for meetings of various sizes',
+      'How would you implement breakout rooms with dynamic participant assignment?',
+      'Design a system for real-time transcription and caption delivery',
+      'Tell me about a time you went above and beyond for a customer or user',
+      'How would you build Zoom\'s virtual background feature?',
+      'Design Zoom Phone—a cloud-based phone system that integrates with meetings',
+      'How would you detect and handle network congestion during a meeting?',
+      'Describe a time you improved a product based on customer feedback',
+      'How would you design Zoom Rooms for conference room hardware integration?',
+      'Design a waiting room system with host controls and authentication',
+      'What metrics would you use to measure meeting quality?',
+      'Tell me about a time you had to balance quality with speed of delivery',
+      'How would you approach adding AI features like meeting summaries?',
+      'What questions do you have about Zoom\'s technology or culture?'
     ],
     relatedCompanies: ['microsoft-teams', 'webex', 'google-meet', 'discord']
   },
 
   'slack': {
     name: 'Slack',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Slack interview with expert preparation for the workplace communication platform that redefined how teams collaborate, covering messaging infrastructure, integrations, and their mission to make work life simpler.',
     industry: 'Technology',
-    headquarters: 'San Francisco, CA',
-    description: 'Slack is a business communication platform organizing team conversations into channels, now part of Salesforce. Known for replacing email, integrations ecosystem, remote work enablement, and workplace productivity. Interviews emphasize technical skills, empathy, and craft.',
+    headquarters: 'San Francisco, CA (part of Salesforce)',
+    description: 'Slack is the channel-based messaging platform that transformed workplace communication, now part of Salesforce (acquired for $27.7B in 2021). With 30+ million daily active users across 750,000+ organizations, Slack replaced email for team communication and created the modern "apps replacing email" category. The platform\'s power comes from its 2,600+ integrations, connecting every work tool into one interface. Slack\'s engineering culture emphasizes craft, empathy, and building delightful user experiences. Even within Salesforce, Slack maintains distinct culture focused on design excellence and user empathy. The interview process evaluates technical skills, attention to craft, and genuine care for making work better.',
     interviewTips: [
-      'Understand workplace communication and collaboration',
-      'Learn about Slack\'s channels, apps, and integrations',
-      'Be prepared for coding and system design questions',
-      'Show empathy for users and attention to craft',
-      'Research Slack\'s integration with Salesforce'
+      'Understand Slack\'s core architecture: real-time messaging at scale, channels, threads, presence—and the engineering that makes it feel instant',
+      'Study their integration ecosystem: Slack App Directory, Workflow Builder, APIs—extensibility is core to Slack\'s value',
+      'Research the Salesforce acquisition context: how Slack fits into Customer 360, Slack-First Customer 360, and enterprise sales motion',
+      'For engineering roles: Prepare for system design focused on real-time messaging, search, and maintaining consistency at scale',
+      'Understand Slack\'s design culture: they\'re famous for attention to detail, microinteractions, and delightful experiences',
+      'Research Slack Connect (cross-organization channels) and how it enables new collaboration patterns',
+      'Study their competitive landscape: Microsoft Teams (bundling), Discord (community), Zoom (meetings)—know Slack\'s differentiation',
+      'Prepare for "craft" discussions: Slack values polish and attention to detail—show examples of your best work',
+      'Research their engineering blog for insights on messaging infrastructure and scale',
+      'Understand their approach to async communication: threads, scheduled messages, and reducing "always-on" pressure',
+      'Show genuine passion for improving work communication and reducing friction',
+      'Prepare behavioral examples demonstrating empathy, craft, and user focus',
+      'Understand the challenges of enterprise communication: compliance, security, admin controls',
+      'Practice discussing real-time system trade-offs: consistency, latency, ordering'
     ],
     whatTheyLookFor: [
-      'Technical skills in distributed systems or mobile',
-      'Empathy and user focus',
-      'Craft and attention to detail',
-      'Collaboration abilities',
-      'Problem-solving skills'
+      'Strong technical skills with emphasis on quality and craft',
+      'Deep empathy for users and genuine care for experience',
+      'Attention to detail and polish in your work',
+      'Understanding of real-time systems and messaging',
+      'Collaborative mindset suited for team-based work',
+      'Clear communication across contexts',
+      'Product sense for workplace tools',
+      'Problem-solving ability with scalability in mind',
+      'Growth mindset and intellectual curiosity',
+      'Cultural fit with Slack\'s design-focused, empathetic culture'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Slack careers'
+        title: 'Online Application',
+        description: 'Submit your application through Slack Careers (via Salesforce). Highlight examples of craft and attention to quality in your work. Slack values design thinking even in engineering roles.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Recruiter and technical screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation covering your background and interest in Slack. Recruiters assess role fit and early culture signals. Come prepared with examples of work you\'re proud of and why.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, system design, behavioral'
+        title: 'Technical Phone Screen (60 min)',
+        description: 'Coding interview focused on problem-solving and communication. Slack evaluates not just correctness but code quality and how you approach problems. Expect discussion about your thought process.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and compensation'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: coding rounds, system design (messaging architecture, real-time systems), craft/product discussion, and behavioral rounds. Slack interviews are conversational—they want to see how you think and collaborate. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'The hiring committee reviews all feedback. Decisions typically come within 1-2 weeks. Slack offers competitive Salesforce compensation including salary, equity, and benefits.'
       }
     ],
     questions: [
-      'Design Slack\'s message delivery system',
-      'How would you implement search across millions of messages?',
-      'Build a feature for better async communication',
-      'What makes Slack unique as a communication tool?',
-      'Why Slack?'
+      'Design Slack\'s message delivery system that handles billions of messages with ordering guarantees',
+      'How would you implement search across millions of messages with sub-second response?',
+      'Build a feature for better async communication—how would you reduce notification overload?',
+      'What makes Slack unique as a communication tool compared to Teams or email?',
+      'Why Slack? What excites you about workplace communication?',
+      'Design Slack\'s thread system—how do you maintain context while reducing channel noise?',
+      'How would you implement presence and typing indicators at scale?',
+      'Design Slack Connect to enable channels between different organizations securely',
+      'Tell me about something you built that you\'re particularly proud of. What made it great?',
+      'How would you design Slack\'s notification system to be informative without being overwhelming?',
+      'Design a workflow builder that enables non-developers to automate work',
+      'How would you handle message delivery and ordering in unreliable network conditions?',
+      'Describe a time you iterated on a design based on user feedback',
+      'How would you build Slack\'s integration platform for third-party apps?',
+      'Design a system for enterprise-grade compliance and data retention',
+      'What metrics would you use to measure communication health for a team?',
+      'Tell me about a time you balanced speed with quality',
+      'How would you approach adding AI features to Slack?',
+      'What questions do you have about Slack\'s technology or culture?'
     ],
     relatedCompanies: ['microsoft-teams', 'discord', 'zoom', 'mattermost']
   },
 
   'databricks': {
     name: 'Databricks',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Databricks interview with expert preparation for the unified data and AI platform, covering lakehouse architecture, Apache Spark, and their mission to democratize data and AI.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
-    description: 'Databricks is a unified data analytics platform built on Apache Spark, enabling data engineering, ML, and analytics. Known for lakehouse architecture, Delta Lake, collaborative notebooks, and simplifying big data. Interviews emphasize technical depth, data expertise, and innovation.',
+    description: 'Databricks is the data and AI company that invented the lakehouse paradigm, unifying data warehousing and data lakes. Founded in 2013 by the original creators of Apache Spark at UC Berkeley, Databricks has grown to $1.5+ billion in annual revenue with a $43+ billion valuation, making it one of the most valuable private tech companies. The platform serves 10,000+ customers including over half of the Fortune 500 for data engineering, machine learning, and analytics workloads. Key innovations include Delta Lake (reliable data lake storage), MLflow (ML lifecycle management), and Unity Catalog (data governance). Databricks\' interview process is rigorous, emphasizing deep technical expertise in distributed systems, data engineering, and ML.',
     interviewTips: [
-      'Understand Apache Spark and distributed computing',
-      'Learn about lakehouse architecture and Delta Lake',
-      'Be prepared for coding, data engineering, or ML questions',
-      'Show knowledge of big data and analytics workflows',
-      'Research Databricks\' unified analytics approach'
+      'Master Apache Spark fundamentals: RDDs, DataFrames, Catalyst optimizer, execution model—Databricks created Spark and expects deep understanding',
+      'Study lakehouse architecture: why combining warehouse and lake matters, Delta Lake transaction guarantees, ACID on object storage',
+      'Understand Databricks vs Snowflake positioning: lakehouse (open, unified) vs data cloud (SQL-focused)—know the trade-offs',
+      'For engineering roles: Prepare for distributed systems design, data pipeline optimization, and low-level Spark performance tuning',
+      'Research Delta Lake deeply: time travel, ACID transactions, schema evolution, compaction—it\'s core to their platform',
+      'Study MLflow and the ML lifecycle: experiment tracking, model registry, deployment—Databricks is an ML platform too',
+      'Understand Unity Catalog and data governance: permissions, lineage, data sharing—enterprise requirements',
+      'Prepare for coding interviews that may include SQL, Python, and distributed computing concepts',
+      'Research Databricks\' SQL offering (formerly SQL Analytics) and how it competes in the BI space',
+      'Show genuine passion for data and the technical challenges of processing at scale',
+      'Understand their open source strategy: Spark, Delta Lake, MLflow are all open source',
+      'Prepare behavioral examples showing technical depth, innovation, and collaboration',
+      'Research their founding story from UC Berkeley AMPLab—academic roots run deep',
+      'Practice explaining complex distributed systems concepts clearly'
     ],
     whatTheyLookFor: [
-      'Technical skills in distributed systems or data',
-      'Deep understanding of Spark or big data',
-      'Problem-solving in complex systems',
-      'Innovation and research mindset',
-      'Collaboration abilities'
+      'Deep technical expertise in distributed systems, data engineering, or ML',
+      'Strong understanding of Apache Spark and data processing at scale',
+      'Systems thinking and ability to reason about performance and reliability',
+      'Innovation mindset with connection to practical customer problems',
+      'Clear communication of complex technical concepts',
+      'Collaborative approach in technically challenging environment',
+      'Problem-solving ability for novel data challenges',
+      'Growth mindset and intellectual curiosity',
+      'Customer empathy and focus on solving real data problems',
+      'Cultural fit with Databricks\' technically rigorous, research-oriented culture'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Databricks careers'
+        title: 'Online Application',
+        description: 'Submit your application through Databricks Careers. Highlight experience in distributed systems, Spark, data engineering, or ML. Databricks is selective—show technical depth in your background.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation covering your background and interest in Databricks. Recruiters assess technical fit and role alignment. Come prepared with specific examples of data or distributed systems work.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (4-5 rounds)',
-        description: 'Coding, system design, data/ML deep-dive'
+        title: 'Technical Phone Screen (60 min)',
+        description: 'Deep technical interview—may include coding, SQL, or systems design depending on role. For engineering, expect Spark-related questions or distributed systems problems. Bar is high.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final approval and offer'
+        title: 'Virtual Onsite (5-6 rounds)',
+        description: 'Multiple intensive interviews including: coding rounds, system design (data platforms, distributed systems), domain expertise (Spark, ML, data engineering), and behavioral rounds. Databricks onsites are rigorous—expect to go deep. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'A hiring committee reviews all feedback. Databricks is thorough—decisions may take 1-2 weeks. Offers include competitive salary and significant equity (especially valuable given growth trajectory).'
       }
     ],
     questions: [
-      'Explain Apache Spark\'s architecture and RDDs',
-      'Design a data lakehouse architecture',
-      'How would you optimize a slow Spark job?',
-      'What is Delta Lake and why is it important?',
-      'Why Databricks?'
+      'Explain Apache Spark\'s architecture—how do RDDs, DataFrames, and the Catalyst optimizer work?',
+      'Design a data lakehouse architecture—what are the key components and trade-offs?',
+      'How would you optimize a slow Spark job? Walk through your debugging process.',
+      'What is Delta Lake and why is it important? Explain ACID guarantees on object storage.',
+      'Why Databricks over Snowflake or other data platforms?',
+      'Design a distributed query execution engine for SQL on data lakes',
+      'How would you implement time travel (versioning) in a data lake storage layer?',
+      'Design MLflow\'s experiment tracking system for ML model development',
+      'Tell me about the most complex data pipeline you\'ve built',
+      'How would you design a data governance layer (like Unity Catalog)?',
+      'Explain shuffle operations in Spark and how to minimize their cost',
+      'Design a real-time data ingestion system that writes to Delta Lake',
+      'Describe a time you debugged a complex distributed systems issue',
+      'How would you design schema evolution for a data lake?',
+      'Design a model serving infrastructure for ML models at scale',
+      'What are the trade-offs between data warehouses and data lakes?',
+      'Tell me about a time you improved system performance significantly',
+      'How would you approach data quality and monitoring in a lakehouse?',
+      'What questions do you have about Databricks\' technology or culture?'
     ],
     relatedCompanies: ['snowflake', 'confluent', 'cloudera', 'spark']
   },
 
   'splunk': {
     name: 'Splunk',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Splunk interview with expert preparation for the data observability and security leader, covering log analytics, SIEM, and their mission to turn data into doing.',
     industry: 'Technology',
-    headquarters: 'San Francisco, CA',
-    description: 'Splunk is a platform for searching, monitoring, and analyzing machine-generated data for operational intelligence, security, and observability. Known for log analysis, SIEM, IT operations, and turning data into doing. Interviews emphasize technical skills, data expertise, and problem-solving.',
+    headquarters: 'San Francisco, CA (acquired by Cisco in 2024)',
+    description: 'Splunk is the market leader in machine data analytics, observability, and security information and event management (SIEM). Founded in 2003, Splunk pioneered the ability to search, monitor, and analyze machine-generated data at scale—turning logs into actionable insights. With $3.5+ billion in annual revenue before the Cisco acquisition ($28B, completed 2024), Splunk serves 90%+ of the Fortune 100 for security operations, IT monitoring, DevOps, and business analytics. Key products include Splunk Enterprise, Splunk Cloud, Splunk SOAR (security orchestration), and the Splunk Observability suite. The interview process emphasizes data expertise, systems thinking, and understanding of security or operations domains.',
     interviewTips: [
-      'Understand log analysis and observability concepts',
-      'Learn about Splunk\'s platform and use cases (SIEM, IT ops, DevOps)',
-      'Be prepared for coding and data analysis questions',
-      'Show knowledge of security and operational monitoring',
-      'Research Splunk\'s mission to make data accessible and actionable'
+      'Understand Splunk\'s core architecture: indexing, search processing, distributed deployment—how does it handle petabytes of logs?',
+      'Study their key use cases: SIEM/security analytics, IT operations/APM, DevOps/observability, business analytics',
+      'Research the Cisco acquisition context: combined with networking telemetry, security portfolio—shows strategic direction',
+      'For engineering roles: Prepare for distributed systems, data pipeline design, and search/indexing challenges at scale',
+      'Understand SPL (Search Processing Language): Splunk\'s query language is powerful and unique—familiarity helps',
+      'Study the observability market: Datadog, Elastic, New Relic, Dynatrace—know Splunk\'s differentiation and competition',
+      'Research SIEM and security analytics: threat detection, incident response, compliance—security is a major use case',
+      'Prepare for questions about handling time-series data, log parsing, and pattern detection at scale',
+      'Understand their cloud transformation: Splunk Cloud, federated search, and hybrid deployments',
+      'Show genuine interest in the problem space: helping organizations understand their data and respond to threats',
+      'Research their engineering blog for technical insights',
+      'Prepare behavioral examples showing analytical thinking, customer focus, and complex problem-solving',
+      'Understand enterprise sales and customer success dynamics',
+      'Practice explaining observability and security concepts clearly'
     ],
     whatTheyLookFor: [
-      'Technical skills in data or security',
-      'Analytical thinking',
-      'Problem-solving abilities',
-      'Customer focus',
-      'Innovation mindset'
+      'Strong technical skills in data systems, distributed computing, or security',
+      'Deep analytical thinking and problem-solving ability',
+      'Understanding of observability, security, or operations domains',
+      'Customer focus and ability to solve real enterprise problems',
+      'Clear communication of complex technical concepts',
+      'Collaborative approach across technical and business contexts',
+      'Systems thinking—understanding how components interact',
+      'Innovation mindset with practical execution',
+      'Intellectual curiosity about data and what it can reveal',
+      'Cultural fit with Splunk\'s data-driven, customer-focused culture'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through Splunk careers'
+        title: 'Online Application',
+        description: 'Submit your application through Splunk/Cisco Careers. Highlight experience in data systems, security, observability, or relevant domains. Show passion for turning data into insights.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation covering your background and interest in Splunk. Recruiters assess role fit and domain knowledge. Come prepared with examples of working with data or security systems.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, system design, domain expertise'
+        title: 'Technical Phone Screen (60 min)',
+        description: 'Technical interview covering coding, data analysis, or systems design depending on role. May include SPL or data querying questions. Interviewers evaluate problem-solving and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and compensation'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: coding rounds, system design (data pipelines, search infrastructure), domain expertise (security or observability), and behavioral rounds. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager about role and team. Decisions typically come within 1-2 weeks. Splunk (now Cisco) offers competitive salary, equity, and comprehensive benefits.'
       }
     ],
     questions: [
-      'Design a log aggregation and search system',
-      'How would you detect anomalies in time-series data?',
-      'Explain how Splunk processes and indexes data',
-      'What are common use cases for SIEM?',
-      'Why Splunk?'
+      'Design a log aggregation and search system that handles petabytes of data',
+      'How would you detect anomalies in time-series data from application logs?',
+      'Explain how Splunk processes and indexes data—what are the key architecture components?',
+      'What are common use cases for SIEM? How would you design threat detection?',
+      'Why Splunk? What interests you about observability and security?',
+      'Design a distributed indexing system for machine data at scale',
+      'How would you build a real-time alerting system for security events?',
+      'Design a search architecture that provides sub-second queries over years of data',
+      'Tell me about a time you analyzed data to discover a non-obvious insight',
+      'How would you design a system to correlate events across different data sources?',
+      'Design a log parsing system that handles diverse, unstructured formats',
+      'How would you approach detecting insider threats using log data?',
+      'Describe a time you debugged a complex production issue using logs or monitoring',
+      'How would you design dashboards for security operations centers?',
+      'Design a system for managing retention and compliance for enterprise log data',
+      'What metrics would you use to measure the health of an observability platform?',
+      'Tell me about a time you improved a system\'s monitoring or observability',
+      'How would you integrate Splunk with Cisco\'s network security portfolio?',
+      'What questions do you have about Splunk\'s technology or culture?'
     ],
     relatedCompanies: ['datadog', 'elastic', 'new-relic', 'sumo-logic']
   },
