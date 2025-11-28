@@ -24796,6 +24796,1079 @@ export const rolePageContent = {
       ]
     }
   },
+  'capital-one': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Capital One build the technology that powers one of America's most innovative banks. Capital One is a tech company that happens to be a bank, with cloud-native infrastructure on AWS, modern microservices architecture, and a strong engineering culture. You'll work on products serving 100+ million customers while leveraging machine learning, big data, and cutting-edge technologies.",
+      responsibilities: [
+        "Design and develop scalable cloud-native applications on AWS",
+        "Build microservices and APIs that power customer-facing products",
+        "Implement CI/CD pipelines and DevOps best practices",
+        "Collaborate with product managers and designers on feature development",
+        "Write clean, well-tested code following Capital One's engineering standards"
+      ],
+      growthOpportunities: [
+        "Work at a tech-forward bank that values engineering excellence",
+        "Access to AWS certifications and cloud training",
+        "Internal mobility across business lines (cards, banking, auto)",
+        "Tech College program with continuous learning opportunities",
+        "Clear career ladder from engineer to principal engineer"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your background, experience, and interest in Capital One's engineering culture.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute coding interview via CoderPad covering data structures, algorithms, and problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Power Day (Virtual/On-site)",
+          description: "4-5 interviews including coding challenges, system design, and behavioral questions. Emphasis on cloud architecture and AWS.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Decision",
+          description: "Team debriefs and makes hiring decision, typically within one week of Power Day."
+        }
+      ],
+      technicalQuestions: [
+        "Design a system to detect fraudulent credit card transactions in real-time.",
+        "Implement a rate limiter for an API that handles millions of requests per day.",
+        "How would you design a notification system that can send millions of alerts?",
+        "Write a function to find all anagrams of a word in a dictionary.",
+        "Design a microservices architecture for a mobile banking application.",
+        "How would you implement a distributed cache for session management?",
+        "Explain how you would migrate a monolithic application to microservices.",
+        "Design a system to process and analyze credit card transactions at scale.",
+        "Implement an algorithm to detect anomalies in transaction patterns.",
+        "How would you design Capital One's credit limit recommendation system?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you had to learn a new technology quickly to deliver a project.",
+        "Describe a situation where you improved the performance of an existing system.",
+        "How have you handled disagreements about technical decisions with teammates?",
+        "Tell me about a time you had to balance technical debt with feature delivery.",
+        "Describe your experience working in an agile environment.",
+        "How do you approach code reviews and giving feedback to peers?",
+        "Tell me about a project where security was a critical consideration.",
+        "Describe a time when you had to debug a complex production issue."
+      ],
+      whatTheyLookFor: [
+        "Strong coding skills in Java, Python, or JavaScript/TypeScript",
+        "Experience with cloud platforms, especially AWS",
+        "Understanding of microservices and distributed systems",
+        "Security-conscious mindset for financial applications",
+        "Collaborative approach and strong communication skills",
+        "Experience with CI/CD and DevOps practices",
+        "Problem-solving ability and analytical thinking",
+        "Passion for building products that help customers"
+      ],
+      interviewTips: [
+        "Brush up on AWS services - Capital One is all-in on cloud",
+        "Practice system design with emphasis on scalability and security",
+        "Be prepared to discuss microservices architecture patterns",
+        "Understand financial services security and compliance basics",
+        "Show enthusiasm for Capital One's tech-first banking approach",
+        "Prepare examples of working in agile, cross-functional teams",
+        "Research Capital One's tech blog and open source contributions",
+        "Be ready to discuss how you handle technical debt and trade-offs"
+      ],
+      dayInLife: {
+        overview: "Software Engineers at Capital One enjoy a modern tech environment with flexible work arrangements. Days include coding, collaboration with cross-functional teams, and opportunities for learning and innovation.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Quick sync with your agile team on sprint progress and blockers"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Development Work",
+            description: "Focus time for coding, building features on AWS infrastructure"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Code Review",
+            description: "Review pull requests and provide feedback to teammates"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Break",
+            description: "Flexible lunch, often with optional tech talks or learning sessions"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Sprint Planning/Grooming",
+            description: "Work with product managers on upcoming features and requirements"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Technical Deep Dive",
+            description: "Architecture discussions or pair programming on complex features"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Documentation & Wrap-up",
+            description: "Update documentation, respond to Slack messages, plan for tomorrow"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Capital One are at the heart of the company's strategy. Capital One was founded on data-driven decision making, and Data Scientists here build machine learning models that determine credit risk, detect fraud, personalize customer experiences, and optimize operations. You'll work with massive datasets and deploy models that directly impact business outcomes.",
+      responsibilities: [
+        "Build and deploy machine learning models for credit risk and fraud detection",
+        "Analyze large datasets to uncover actionable business insights",
+        "Develop recommendation systems for personalized customer experiences",
+        "Collaborate with business partners to translate problems into data solutions",
+        "Present findings to stakeholders and influence strategic decisions"
+      ],
+      growthOpportunities: [
+        "Work at a company founded on analytics and data-driven decisions",
+        "Access to petabytes of financial data for modeling",
+        "Clear path from Data Scientist to Principal or Director of Data Science",
+        "Opportunity to publish research and attend conferences",
+        "Cross-functional exposure to credit, fraud, marketing, and operations"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call to discuss your background in data science and machine learning.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview covering statistics, machine learning concepts, and SQL.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Study",
+          description: "You may be given a take-home case study involving data analysis and modeling.",
+          duration: "2-4 hours"
+        },
+        {
+          step: 4,
+          title: "Power Day",
+          description: "Multiple interviews covering ML depth, business case discussions, and behavioral questions.",
+          duration: "4-5 hours"
+        }
+      ],
+      technicalQuestions: [
+        "How would you build a credit risk model? What features would you consider?",
+        "Explain the difference between L1 and L2 regularization. When would you use each?",
+        "How do you handle imbalanced classes in fraud detection models?",
+        "Walk me through how you would validate a machine learning model in production.",
+        "What techniques would you use to reduce false positives in fraud detection?",
+        "Explain how you would build a customer churn prediction model.",
+        "How do you ensure fairness in credit decisioning models?",
+        "Describe your approach to feature engineering for time-series financial data.",
+        "How would you A/B test a new credit limit recommendation algorithm?",
+        "Explain gradient boosting and when you would use it over random forests."
+      ],
+      behavioralQuestions: [
+        "Tell me about a time your model's results changed a business decision.",
+        "Describe a situation where you had to explain complex analytics to non-technical stakeholders.",
+        "How have you handled a project where the data quality was poor?",
+        "Tell me about a model that didn't perform as expected. What did you learn?",
+        "Describe your experience working with cross-functional teams.",
+        "How do you prioritize multiple data science projects?",
+        "Tell me about a time you had to push back on a stakeholder's request.",
+        "Describe how you stay current with developments in machine learning."
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in statistics and machine learning",
+        "Experience with Python, SQL, and ML frameworks (scikit-learn, TensorFlow, etc.)",
+        "Ability to translate business problems into data science solutions",
+        "Understanding of model validation and production deployment",
+        "Knowledge of responsible AI and model fairness",
+        "Strong communication and stakeholder management skills",
+        "Experience with large-scale data processing (Spark, etc.)",
+        "Curiosity and drive to solve complex problems"
+      ],
+      interviewTips: [
+        "Prepare for questions about credit risk and fraud detection use cases",
+        "Be ready to discuss model fairness and responsible AI practices",
+        "Review statistics fundamentals - hypothesis testing, distributions, etc.",
+        "Practice explaining ML concepts to non-technical audiences",
+        "Prepare a case study presentation showcasing your analytical approach",
+        "Understand Capital One's data-driven culture and history",
+        "Be ready to write SQL queries for data manipulation",
+        "Prepare examples of deploying models to production"
+      ],
+      dayInLife: {
+        overview: "Data Scientists at Capital One balance model development with stakeholder collaboration. You'll spend time coding, analyzing data, meeting with business partners, and presenting insights to leadership.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Sync with data science team on project progress and blockers"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Model Development",
+            description: "Work on feature engineering and model training in Jupyter notebooks"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Data Analysis",
+            description: "Explore data, run queries, and analyze model performance metrics"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Break for lunch, sometimes with Data Science community events"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Present findings to business partners or discuss project requirements"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Review",
+            description: "Participate in model review sessions with senior data scientists"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Documentation & Research",
+            description: "Document model decisions, read papers, or experiment with new techniques"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+      ]
+    },
+    'product-manager': {
+      roleDescription: "Product Managers at Capital One own the vision and strategy for digital banking products used by millions of customers. You'll work at the intersection of technology, design, and business to deliver innovative solutions in credit cards, banking, and auto finance. Capital One's PM culture emphasizes customer obsession, data-driven decisions, and rapid experimentation.",
+      responsibilities: [
+        "Define product vision, strategy, and roadmap for digital banking products",
+        "Lead cross-functional teams of engineers, designers, and data scientists",
+        "Analyze customer data and market trends to identify opportunities",
+        "Drive product launches and measure success through KPIs",
+        "Present product strategy to senior leadership and stakeholders"
+      ],
+      growthOpportunities: [
+        "Own products that serve 100+ million customers",
+        "Work on cutting-edge fintech innovations",
+        "Clear path from PM to Senior PM to Director of Product",
+        "Exposure to diverse product lines (cards, banking, auto)",
+        "Strong PM community with mentorship and development programs"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial discussion about your PM experience and interest in Capital One.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Deep dive into your product experience and approach to product management.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Interview",
+          description: "Product case study or business case requiring structured problem-solving.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Power Day",
+          description: "Multiple interviews with PMs, engineers, and leaders covering product sense, execution, and leadership.",
+          duration: "4-5 hours"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve Capital One's mobile banking app?",
+        "Design a new feature to help customers manage their credit score.",
+        "How would you prioritize features for a credit card rewards program?",
+        "What metrics would you use to measure success of a new banking feature?",
+        "How would you approach launching a product in a regulated industry?",
+        "Describe how you would handle a product that's underperforming.",
+        "How would you design an onboarding experience for new credit card customers?",
+        "What's your framework for making build vs. buy decisions?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a product you launched from concept to delivery.",
+        "Describe a time you had to make a decision with incomplete data.",
+        "How have you handled conflicting priorities from different stakeholders?",
+        "Tell me about a time you had to say no to a feature request.",
+        "Describe a product failure and what you learned from it.",
+        "How do you build relationships with engineering teams?",
+        "Tell me about a time you used data to change product direction.",
+        "Describe how you've incorporated customer feedback into product decisions."
+      ],
+      whatTheyLookFor: [
+        "Strong product sense and customer empathy",
+        "Data-driven decision making ability",
+        "Experience leading cross-functional teams",
+        "Clear communication and stakeholder management skills",
+        "Understanding of agile product development",
+        "Technical fluency to work effectively with engineers",
+        "Strategic thinking balanced with execution focus",
+        "Knowledge of financial services or fintech is a plus"
+      ],
+      interviewTips: [
+        "Prepare product cases specific to banking and fintech",
+        "Understand Capital One's products and competitive positioning",
+        "Be ready to discuss metrics and how you measure product success",
+        "Show customer obsession with examples from your experience",
+        "Prepare for questions about working in regulated industries",
+        "Practice structured frameworks for answering case questions",
+        "Research Capital One's product culture and innovation initiatives",
+        "Have examples ready of leading through influence without authority"
+      ],
+      dayInLife: {
+        overview: "Product Managers at Capital One balance strategic thinking with tactical execution. Days include stakeholder meetings, data analysis, team collaboration, and customer research.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Email & Metrics Review",
+            description: "Check product metrics dashboards and respond to urgent items"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with engineering and design on sprint progress"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Stakeholder Meeting",
+            description: "Align with business partners on product strategy and priorities"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Product Discovery",
+            description: "Review customer research, analyze data, or conduct user interviews"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break, often used for informal 1:1s or networking"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Roadmap Planning",
+            description: "Work on product roadmap, write PRDs, or refine user stories"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Design Review",
+            description: "Review designs with UX team and provide feedback"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Strategy Work",
+            description: "Competitive analysis, market research, or strategic planning"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    },
+    'business-analyst': {
+      roleDescription: "Business Analysts at Capital One drive strategic decisions through data analysis and structured problem-solving. Capital One is famous for its rigorous analytical culture and case interview process. BAs work on high-impact projects across credit risk, marketing, operations, and customer experience, using data to optimize business performance and customer outcomes.",
+      responsibilities: [
+        "Analyze business performance data to identify optimization opportunities",
+        "Build financial models and business cases for strategic initiatives",
+        "Partner with stakeholders to define problems and develop solutions",
+        "Create presentations and recommendations for senior leadership",
+        "Lead cross-functional projects from analysis to implementation"
+      ],
+      growthOpportunities: [
+        "Exposure to diverse business problems across the organization",
+        "Clear path to Senior BA, Manager, and Director roles",
+        "Opportunity to rotate across business lines",
+        "Strong analytical training and development programs",
+        "Many BAs transition to product, strategy, or leadership roles"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Virtual Job Tryout (VJT) including quantitative assessment, work simulation, and video interview.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 2,
+          title: "First Round Case Interview",
+          description: "30-minute case interview testing analytical and problem-solving skills.",
+          duration: "30 minutes"
+        },
+        {
+          step: 3,
+          title: "Power Day",
+          description: "3-4 back-to-back interviews including 2-3 case interviews and 1-2 behavioral interviews.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Final Decision",
+          description: "Hiring decision typically made within one week of Power Day."
+        }
+      ],
+      technicalQuestions: [
+        "Capital One is considering launching a new credit card. How would you analyze this opportunity?",
+        "A product's conversion rate dropped 15%. How would you diagnose the issue?",
+        "How would you estimate the market size for a new banking product?",
+        "Walk me through how you would build a customer segmentation model.",
+        "A marketing campaign has a negative ROI. What would you recommend?",
+        "How would you analyze whether to expand into a new geographic market?",
+        "Calculate the lifetime value of a credit card customer given these assumptions...",
+        "How would you prioritize which customer complaints to address first?",
+        "A competitor is gaining market share. How would you respond?",
+        "How would you evaluate the success of a customer retention program?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you used data to influence a business decision.",
+        "Describe a situation where you had to simplify complex analysis for stakeholders.",
+        "How have you handled a project with ambiguous requirements?",
+        "Tell me about a time you had to push back on a stakeholder's conclusion.",
+        "Describe a project where you had to work with incomplete data.",
+        "How do you prioritize when you have multiple competing deadlines?",
+        "Tell me about a time you made a mistake in your analysis.",
+        "Describe how you've handled disagreements with team members."
+      ],
+      whatTheyLookFor: [
+        "Strong quantitative and analytical skills",
+        "Structured problem-solving approach",
+        "Clear and concise communication",
+        "Business acumen and commercial awareness",
+        "Proficiency in Excel, SQL, and data visualization",
+        "Ability to work independently and drive projects forward",
+        "Intellectual curiosity and willingness to learn",
+        "Comfort with ambiguity and fast-paced environments"
+      ],
+      interviewTips: [
+        "Practice Capital One-style case interviews extensively",
+        "Master frameworks for market sizing and business analysis",
+        "Be prepared for quantitative questions requiring mental math",
+        "Structure your answers clearly - state hypothesis, analyze, conclude",
+        "Ask clarifying questions before diving into analysis",
+        "Practice talking through your thought process out loud",
+        "Prepare for the Virtual Job Tryout assessment",
+        "Research Capital One's business lines and recent news"
+      ],
+      dayInLife: {
+        overview: "Business Analysts at Capital One balance independent analysis with collaborative problem-solving. Days include data analysis, stakeholder meetings, and presentation preparation.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Planning",
+            description: "Review priorities, check emails, and plan the day's analysis work"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Data Analysis",
+            description: "Work in Excel or SQL to analyze business performance data"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Team Meeting",
+            description: "Sync with project team on progress and findings"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break, sometimes with BA community events"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Discussion",
+            description: "Meet with business partners to discuss findings and next steps"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Building",
+            description: "Build financial models or business cases in Excel"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Presentation Prep",
+            description: "Create PowerPoint presentations to communicate insights"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap-up",
+            description: "Document progress and prepare for next day"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "McKinsey", companySlug: "mckinsey", industry: "Consulting" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Deloitte", companySlug: "deloitte", industry: "Consulting" }
+      ]
+    },
+    'data-engineer': {
+      roleDescription: "Data Engineers at Capital One build the data infrastructure that powers one of the most data-driven banks in the world. You'll design and implement data pipelines, build data lakes on AWS, and enable data scientists and analysts to work with petabytes of financial data. Capital One's cloud-native environment offers modern tools and technologies.",
+      responsibilities: [
+        "Design and build scalable data pipelines on AWS",
+        "Develop ETL processes to ingest and transform financial data",
+        "Build and maintain data lakes and data warehouses",
+        "Ensure data quality, governance, and security compliance",
+        "Collaborate with data scientists to enable ML model deployment"
+      ],
+      growthOpportunities: [
+        "Work with cutting-edge cloud data technologies on AWS",
+        "Handle data at massive scale (petabytes of financial data)",
+        "Clear path to Senior Data Engineer and Principal roles",
+        "Cross-functional exposure to ML, analytics, and business teams",
+        "AWS certifications and continuous learning opportunities"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call to discuss your data engineering background and experience.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview covering SQL, Python, and data engineering concepts.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Power Day",
+          description: "Multiple interviews including coding, system design for data pipelines, and behavioral questions.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Decision",
+          description: "Team debrief and decision, typically within one week."
+        }
+      ],
+      technicalQuestions: [
+        "Design a data pipeline to process real-time credit card transactions.",
+        "How would you handle late-arriving data in a streaming pipeline?",
+        "Explain the differences between data lakes and data warehouses.",
+        "How would you optimize a slow-running SQL query on a large dataset?",
+        "Design a data quality monitoring system for financial data.",
+        "How do you ensure data consistency in distributed systems?",
+        "Explain partitioning strategies for large-scale data storage.",
+        "How would you build a pipeline to support real-time fraud detection?",
+        "Describe your approach to data modeling for analytical workloads.",
+        "How do you handle schema evolution in data pipelines?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a data pipeline you built that had significant business impact.",
+        "Describe a time you had to debug a complex data quality issue.",
+        "How have you handled data engineering projects with tight deadlines?",
+        "Tell me about a time you improved the performance of a data system.",
+        "Describe your experience working with data scientists.",
+        "How do you approach documentation for data pipelines?",
+        "Tell me about a time you had to learn a new technology quickly.",
+        "Describe a challenging data migration you've worked on."
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills and data modeling experience",
+        "Proficiency in Python and data processing frameworks (Spark, etc.)",
+        "Experience with AWS data services (S3, Glue, Redshift, EMR)",
+        "Understanding of data quality and governance",
+        "Knowledge of streaming data processing (Kafka, Kinesis)",
+        "Problem-solving ability for complex data challenges",
+        "Communication skills to work with diverse stakeholders",
+        "Security awareness for financial data handling"
+      ],
+      interviewTips: [
+        "Deep dive on AWS data services - Capital One is cloud-native",
+        "Practice SQL optimization and complex query writing",
+        "Be prepared to design data pipelines end-to-end",
+        "Understand data governance and compliance for financial data",
+        "Review streaming data concepts and technologies",
+        "Prepare examples of handling data at scale",
+        "Research Capital One's data engineering blog posts",
+        "Be ready to discuss trade-offs in data architecture decisions"
+      ],
+      dayInLife: {
+        overview: "Data Engineers at Capital One focus on building and maintaining the data infrastructure that powers analytics and ML. Days include pipeline development, monitoring, and collaboration with data teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Pipeline Monitoring",
+            description: "Check overnight pipeline runs and address any failures"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with data engineering team on projects and blockers"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Development Work",
+            description: "Build or enhance data pipelines in Python and Spark"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Data Scientist Sync",
+            description: "Work with data scientists on data requirements for ML models"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Code Review & Testing",
+            description: "Review PRs and write tests for data pipeline code"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Architecture Discussion",
+            description: "Participate in design reviews for new data systems"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update data catalogs and pipeline documentation"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Databricks", companySlug: "databricks", industry: "Technology" },
+        { companyName: "Snowflake", companySlug: "snowflake", industry: "Technology" }
+      ]
+    },
+    'machine-learning-engineer': {
+      roleDescription: "Machine Learning Engineers at Capital One bridge the gap between data science and software engineering to deploy ML models at scale. You'll work on models that power credit decisions, fraud detection, and customer personalization, ensuring they run reliably in production while meeting strict financial services requirements.",
+      responsibilities: [
+        "Deploy and maintain ML models in production environments",
+        "Build ML infrastructure and feature stores on AWS",
+        "Optimize model performance for latency and throughput",
+        "Implement model monitoring and drift detection systems",
+        "Collaborate with data scientists to productionize their models"
+      ],
+      growthOpportunities: [
+        "Work on ML systems that directly impact millions of customers",
+        "Build cutting-edge MLOps infrastructure",
+        "Path to Senior MLE, Principal, or ML Platform leadership",
+        "Exposure to latest ML technologies and research",
+        "Cross-functional collaboration with data science and engineering"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your ML engineering experience and background.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview covering ML concepts, coding, and system design.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Power Day",
+          description: "Multiple rounds covering ML depth, coding, ML system design, and behavioral questions.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Decision",
+          description: "Decision typically within one week of Power Day."
+        }
+      ],
+      technicalQuestions: [
+        "How would you design a feature store for real-time fraud detection?",
+        "Explain how you would deploy an ML model with sub-100ms latency.",
+        "How do you monitor ML models for drift in production?",
+        "Design an A/B testing framework for ML models.",
+        "How would you handle model versioning and rollback?",
+        "Explain techniques for reducing ML model serving costs.",
+        "How do you ensure reproducibility in ML pipelines?",
+        "Design a system for real-time feature computation.",
+        "How would you implement model explainability for credit decisions?",
+        "Explain the trade-offs between batch and real-time inference."
+      ],
+      behavioralQuestions: [
+        "Tell me about an ML model you deployed to production.",
+        "Describe a time you debugged a production ML issue.",
+        "How have you worked with data scientists to improve model deployment?",
+        "Tell me about a time you improved ML infrastructure performance.",
+        "Describe your experience with ML model monitoring.",
+        "How do you prioritize between multiple ML projects?",
+        "Tell me about a challenging ML engineering problem you solved.",
+        "Describe how you stay current with ML engineering practices."
+      ],
+      whatTheyLookFor: [
+        "Strong software engineering skills (Python, Java, etc.)",
+        "Deep understanding of ML concepts and algorithms",
+        "Experience deploying ML models to production",
+        "Knowledge of MLOps tools and practices",
+        "AWS experience, especially SageMaker",
+        "Understanding of model monitoring and observability",
+        "Problem-solving ability for complex ML systems",
+        "Communication skills to work with diverse teams"
+      ],
+      interviewTips: [
+        "Prepare for ML system design questions focused on production",
+        "Understand model serving patterns and trade-offs",
+        "Be ready to discuss model monitoring and drift detection",
+        "Review AWS SageMaker and related ML services",
+        "Prepare examples of deploying models at scale",
+        "Understand responsible AI and model explainability",
+        "Research Capital One's ML platform and infrastructure",
+        "Be ready to code ML-related algorithms"
+      ],
+      dayInLife: {
+        overview: "Machine Learning Engineers at Capital One focus on the productionization and reliability of ML systems. Days balance development work with cross-team collaboration and operational tasks.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Model Monitoring Review",
+            description: "Check model performance metrics and alerts from overnight"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Sync with ML engineering team on projects and priorities"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Development Work",
+            description: "Work on ML infrastructure, pipelines, or model deployment"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Data Science Collaboration",
+            description: "Work with data scientists on productionizing their models"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Code Review",
+            description: "Review ML pipeline code and provide feedback"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Research & Learning",
+            description: "Stay current with ML engineering best practices and tools"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update runbooks and documentation for ML systems"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" }
+      ]
+    },
+    'data-analyst': {
+      roleDescription: "Data Analysts at Capital One transform data into actionable insights that drive business decisions. You'll work with large datasets to uncover trends, build dashboards, and provide analysis that shapes strategy across credit cards, banking, and operations. Capital One's analytical culture means your work directly impacts business outcomes.",
+      responsibilities: [
+        "Analyze large datasets to identify business trends and opportunities",
+        "Build dashboards and reports for stakeholders",
+        "Develop SQL queries and data models for analysis",
+        "Present findings and recommendations to business partners",
+        "Support data-driven decision making across teams"
+      ],
+      growthOpportunities: [
+        "Develop deep expertise in financial services analytics",
+        "Path to Senior Analyst, Manager, or Data Science roles",
+        "Exposure to diverse business problems and datasets",
+        "Strong analytical training and mentorship",
+        "Opportunity to learn advanced analytics and ML"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Assessment",
+          description: "Virtual Job Tryout (VJT) with quantitative and analytical components.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "Interview covering SQL, data analysis, and problem-solving.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Power Day",
+          description: "Multiple interviews including case analysis, SQL assessment, and behavioral questions.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Decision",
+          description: "Decision typically within one week."
+        }
+      ],
+      technicalQuestions: [
+        "Write a SQL query to find customers who have churned in the last month.",
+        "How would you analyze the effectiveness of a marketing campaign?",
+        "Explain how you would clean and prepare a messy dataset.",
+        "What metrics would you use to measure credit card portfolio health?",
+        "How would you identify customers at risk of default?",
+        "Design a dashboard to track key business metrics.",
+        "How would you approach a request to analyze customer segmentation?",
+        "Explain how you would validate data accuracy in a report.",
+        "How would you analyze the impact of a pricing change?",
+        "Write a query to calculate month-over-month growth rates."
+      ],
+      behavioralQuestions: [
+        "Tell me about an analysis that led to a significant business decision.",
+        "Describe a time you found an error in your data or analysis.",
+        "How have you handled a request for analysis with a tight deadline?",
+        "Tell me about a time you had to explain complex data to non-technical stakeholders.",
+        "Describe your experience creating dashboards or reports.",
+        "How do you prioritize multiple analysis requests?",
+        "Tell me about a time you had to work with incomplete data.",
+        "Describe how you ensure accuracy in your analysis."
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills for data extraction and manipulation",
+        "Proficiency in Excel and data visualization tools (Tableau, etc.)",
+        "Analytical thinking and problem-solving ability",
+        "Clear communication to present findings to stakeholders",
+        "Attention to detail and data accuracy",
+        "Business acumen to translate data into insights",
+        "Ability to work independently on analysis projects",
+        "Curiosity and desire to learn"
+      ],
+      interviewTips: [
+        "Practice SQL extensively - it's central to the role",
+        "Prepare for case-style analytical questions",
+        "Be ready to walk through your analytical approach step by step",
+        "Understand key financial metrics and KPIs",
+        "Prepare examples of dashboards or reports you've created",
+        "Practice explaining technical concepts in simple terms",
+        "Review basic statistics and data analysis concepts",
+        "Research Capital One's business and key metrics"
+      ],
+      dayInLife: {
+        overview: "Data Analysts at Capital One balance independent analysis work with stakeholder collaboration. Days include writing SQL queries, building dashboards, and presenting insights to business teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Email & Requests Review",
+            description: "Review incoming analysis requests and prioritize work"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Data Analysis",
+            description: "Write SQL queries and analyze data for current projects"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Dashboard Update",
+            description: "Update or build dashboards for stakeholder reporting"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Present analysis findings to business partners"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Deep Analysis",
+            description: "Work on complex analytical projects or ad-hoc requests"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Data Validation",
+            description: "Validate data quality and check analysis accuracy"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Document methodology and prepare for next day"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" }
+      ]
+    },
+    'cyber-security-engineer': {
+      roleDescription: "Cyber Security Engineers at Capital One protect the financial data of millions of customers. You'll work on cloud security, threat detection, and security automation in one of the most security-conscious financial institutions. Capital One's cloud-first approach on AWS means you'll be working on cutting-edge cloud security challenges.",
+      responsibilities: [
+        "Design and implement security controls for cloud infrastructure",
+        "Build security automation and monitoring tools",
+        "Conduct security assessments and penetration testing",
+        "Respond to security incidents and threats",
+        "Develop security policies and best practices"
+      ],
+      growthOpportunities: [
+        "Work on cloud security at massive scale",
+        "Access to advanced security training and certifications",
+        "Path to Senior Security Engineer, Architect, or Security Leadership",
+        "Exposure to cutting-edge security technologies",
+        "Cross-functional work with engineering and risk teams"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your security background and experience.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "60-minute interview covering security concepts, cloud security, and problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Power Day",
+          description: "Multiple interviews including security deep dive, scenario-based questions, and behavioral interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Decision",
+          description: "Decision typically within one week."
+        }
+      ],
+      technicalQuestions: [
+        "How would you secure a microservices architecture on AWS?",
+        "Explain the principle of least privilege and how you would implement it.",
+        "How would you detect and respond to a potential data breach?",
+        "Design a security monitoring system for cloud infrastructure.",
+        "How do you approach securing APIs?",
+        "Explain the difference between symmetric and asymmetric encryption.",
+        "How would you implement a zero-trust security model?",
+        "Describe your approach to security automation.",
+        "How would you secure a CI/CD pipeline?",
+        "Explain how you would handle a phishing attack on employees."
+      ],
+      behavioralQuestions: [
+        "Tell me about a security incident you helped resolve.",
+        "Describe a time you identified a significant security vulnerability.",
+        "How have you balanced security requirements with business needs?",
+        "Tell me about a security project you led from start to finish.",
+        "Describe your experience with security compliance and audits.",
+        "How do you stay current with evolving security threats?",
+        "Tell me about a time you had to convince others to prioritize security.",
+        "Describe how you approach security training for developers."
+      ],
+      whatTheyLookFor: [
+        "Strong knowledge of cloud security, especially AWS",
+        "Understanding of security frameworks and compliance",
+        "Experience with security tools and automation",
+        "Knowledge of secure coding practices",
+        "Incident response and threat detection experience",
+        "Strong analytical and problem-solving skills",
+        "Communication skills to work with diverse teams",
+        "Relevant certifications (CISSP, AWS Security, etc.) are a plus"
+      ],
+      interviewTips: [
+        "Deep dive on AWS security services and best practices",
+        "Prepare for scenario-based security questions",
+        "Understand financial services security regulations",
+        "Be ready to discuss your approach to threat modeling",
+        "Review common attack vectors and how to defend against them",
+        "Prepare examples of security improvements you've implemented",
+        "Research Capital One's security culture and initiatives",
+        "Be ready to discuss both offensive and defensive security"
+      ],
+      dayInLife: {
+        overview: "Cyber Security Engineers at Capital One focus on protecting the company's cloud infrastructure and customer data. Days include security monitoring, tool development, and collaboration with engineering teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Security Review",
+            description: "Check overnight alerts and security dashboards"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with security team on priorities and incidents"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Security Engineering",
+            description: "Build security automation tools or implement security controls"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Architecture Review",
+            description: "Review security aspects of new system designs"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Threat Analysis",
+            description: "Analyze potential threats and update detection rules"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Engineering Collaboration",
+            description: "Work with engineering teams on security best practices"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update security documentation and runbooks"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Goldman Sachs", companySlug: "goldman-sachs", industry: "Finance" }
+      ]
+    }
+  },
+
 }
 
 // Content for FAANG+, Uber, Airbnb, Stripe, Salesforce, DoorDash, Goldman Sachs, and McKinsey
