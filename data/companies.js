@@ -7566,156 +7566,255 @@ export const companies = {
 
   'etsy': {
     name: 'Etsy',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Etsy interview with expert preparation for the marketplace championing creative entrepreneurs, covering community-driven commerce, sustainable values, and their mission to keep commerce human.',
     industry: 'Technology',
     headquarters: 'Brooklyn, NY',
-    description: 'Etsy is a global marketplace for unique, handmade, vintage items and craft supplies, connecting creative entrepreneurs with buyers. Known for supporting makers, sustainable commerce, community, and mission-driven values. Interviews emphasize creativity, impact, and technical skills.',
+    description: 'Etsy is a global marketplace connecting 90+ million buyers with 7+ million sellers of unique, handmade, vintage, and creative goods. Founded in 2005, Etsy pioneered the "conscious commerce" movement, becoming a certified B Corporation committed to using business as a force for good. With $2.5+ billion in annual revenue, Etsy facilitates $13+ billion in gross merchandise sales while maintaining a mission-driven culture focused on sustainability, inclusion, and economic empowerment. The platform has expanded through acquisitions including Depop (Gen Z fashion) and Reverb (musical instruments). Etsy\'s interview process emphasizes technical excellence alongside deep alignment with their values of keeping commerce human and supporting independent creators.',
     interviewTips: [
-      'Understand Etsy\'s mission to keep commerce human',
-      'Learn about the seller and buyer communities',
-      'Be prepared for coding and product design questions',
-      'Show passion for creativity, crafts, or sustainability',
-      'Research Etsy\'s values and B Corp certification'
+      'Deeply understand Etsy\'s mission to "Keep Commerce Human"—this isn\'t marketing, it\'s core to how they make decisions and evaluate candidates',
+      'Research their B Corp certification and sustainability commitments—Etsy offsets 100% of carbon emissions from shipping',
+      'Study the seller ecosystem: understand challenges facing independent creators, from discovery to shipping to scaling their business',
+      'For engineering roles: Prepare for full-stack or backend system design—Etsy runs on a modern tech stack with emphasis on developer productivity',
+      'Understand Etsy\'s search and discovery challenges: surfacing relevant handmade items from millions of unique listings is complex',
+      'Research their acquisitions (Depop, Reverb, Elo7) and what they reveal about Etsy\'s growth strategy in specialized marketplaces',
+      'Prepare for values-based behavioral questions: Etsy evaluates cultural fit seriously—have examples showing empathy, sustainability focus, and impact',
+      'Understand the competitive landscape: Amazon Handmade, eBay, Shopify—know how Etsy differentiates through community and authenticity',
+      'Study their advertising platform and Offsite Ads—seller marketing is a key revenue driver',
+      'Show genuine passion for creativity, crafts, sustainability, or small business—Etsy wants people who care about their mission',
+      'Research their Brooklyn-based culture and commitment to diversity and inclusion',
+      'For data roles: Etsy is highly data-driven with sophisticated ML for search ranking and recommendations',
+      'Prepare to discuss how technology can empower (not replace) human creativity',
+      'Practice explaining how you\'ve balanced business metrics with mission in past roles'
     ],
     whatTheyLookFor: [
-      'Technical skills and creativity',
-      'Mission alignment with values',
-      'Community and seller empathy',
-      'Problem-solving abilities',
-      'Collaboration and inclusion'
+      'Strong technical skills with thoughtful, quality-focused approach',
+      'Deep alignment with Etsy\'s mission and values (not just lip service)',
+      'Seller and buyer empathy—genuine care for the creator community',
+      'Commitment to sustainability and ethical business practices',
+      'Collaborative and inclusive mindset',
+      'Product sense for marketplace dynamics',
+      'Data-driven decision making balanced with qualitative understanding',
+      'Problem-solving ability with attention to user impact',
+      'Clear communication across technical and non-technical contexts',
+      'Intellectual curiosity and growth mindset'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through Etsy careers'
+        title: 'Online Application',
+        description: 'Submit your application through Etsy Careers. Highlight not just skills but why Etsy\'s mission resonates with you. Etsy values diverse backgrounds—show how your experience connects to supporting creative entrepreneurs.'
       },
       {
         step: 2,
-        title: 'Phone Interview',
-        description: 'Recruiter conversation'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation covering your background, interest in Etsy, and cultural alignment. Recruiters assess mission fit early—be prepared to discuss why Etsy specifically and what "keeping commerce human" means to you.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Technical, behavioral, and values fit'
+        title: 'Technical Interviews (2-3 rounds)',
+        description: 'For engineering: coding interviews plus system design focused on marketplace scenarios. Etsy emphasizes code quality and thoughtful design over speed. For other roles: domain-specific assessments. Each round is 45-60 minutes.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final approval and offer'
+        title: 'Values & Behavioral Round',
+        description: 'Dedicated interview focused on Etsy\'s values and behavioral competencies. Expect deep questions about impact, inclusion, sustainability, and how you\'ve balanced business goals with doing right by communities. This round is heavily weighted.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with the hiring manager about role details and team fit. Decisions typically come within 1-2 weeks. Etsy offers competitive salary, equity, and benefits including generous parental leave and wellness programs.'
       }
     ],
     questions: [
-      'How would you improve search relevance for handmade items?',
-      'Design a feature to help new sellers get discovered',
-      'What makes Etsy different from other marketplaces?',
-      'How would you balance buyer and seller needs?',
-      'Why Etsy specifically?'
+      'How would you improve search relevance for handmade and vintage items that are each unique?',
+      'Design a feature to help new sellers get discovered when they have no reviews or sales history',
+      'What makes Etsy different from Amazon Handmade or eBay? How would you strengthen that differentiation?',
+      'How would you balance buyer and seller needs when they conflict?',
+      'Why Etsy specifically? What about our mission resonates with you?',
+      'Design a recommendation system that surfaces relevant items without creating filter bubbles',
+      'Tell me about a time you made a decision that prioritized long-term impact over short-term metrics',
+      'How would you detect and prevent counterfeit or mass-produced items being sold as handmade?',
+      'Design Etsy\'s Offsite Ads system that promotes listings across the web',
+      'Describe a time you advocated for a user or community need',
+      'How would you improve the seller onboarding experience?',
+      'What does sustainability mean to you in a technology context?',
+      'Design a system to calculate and offset carbon emissions from shipping',
+      'Tell me about a time you worked on a diverse team. What did you learn?',
+      'How would you approach expanding Etsy into a new international market?',
+      'What metrics would you use to measure marketplace health beyond GMV?',
+      'Tell me about a product you helped build that you\'re proud of',
+      'How would you balance growth with maintaining Etsy\'s unique community feel?',
+      'What questions do you have about Etsy\'s culture or values?'
     ],
     relatedCompanies: ['ebay', 'poshmark', 'mercari', 'depop']
   },
 
   'wayfair': {
     name: 'Wayfair',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Wayfair interview with comprehensive preparation for the home goods e-commerce leader, covering logistics innovation, data-driven personalization, and their mission to help everyone create their feeling of home.',
     industry: 'Technology',
     headquarters: 'Boston, MA',
-    description: 'Wayfair is a leading online retailer for home goods and furniture, offering millions of products. Known for data-driven personalization, logistics innovation, visual search, and customer experience. Interviews emphasize technical skills, e-commerce operations, and data analytics.',
+    description: 'Wayfair is one of the world\'s largest online retailers for home goods and furniture, offering 30+ million products from 20,000+ suppliers across five brands (Wayfair, Joss & Main, AllModern, Birch Lane, Perigold). With $12+ billion in annual revenue and 15,000+ employees, Wayfair has built sophisticated technology for the unique challenges of furniture e-commerce: large/bulky item logistics, visual search, 3D/AR visualization, and personalized discovery. The company operates its own logistics network (CastleGate) for faster delivery of oversized items. Wayfair\'s interview process emphasizes technical depth, data-driven thinking, and operational excellence in the complex world of home goods retail.',
     interviewTips: [
-      'Understand e-commerce at scale and supply chain logistics',
-      'Learn about Wayfair\'s data science and personalization',
-      'Be prepared for coding, system design, and analytics questions',
-      'Show knowledge of home goods retail and customer behavior',
-      'Research Wayfair\'s technology initiatives and innovation'
+      'Understand the unique challenges of furniture e-commerce: oversized items, complex logistics, high return rates, and the need for visualization',
+      'Study Wayfair\'s technology investments: visual search, 3D room planning, AR visualization—these solve real furniture shopping problems',
+      'Research CastleGate (their logistics network) and last-mile delivery for large items—logistics is core to their competitive advantage',
+      'For engineering roles: Prepare for system design focused on e-commerce at scale—search, recommendations, inventory, logistics optimization',
+      'Understand their supplier/dropship model: Wayfair doesn\'t hold most inventory, creating unique technical and operational challenges',
+      'Study their data science applications: personalization, pricing, demand forecasting, delivery time prediction',
+      'Prepare for analytical case questions: Wayfair is extremely data-driven and expects rigorous quantitative thinking',
+      'Research their five brands and positioning strategy—from mass market (Wayfair) to luxury (Perigold)',
+      'Understand customer psychology: furniture is considered/high-stakes purchase unlike typical e-commerce',
+      'Show operational thinking: Wayfair values people who understand end-to-end from supplier to customer doorstep',
+      'Research their advertising platform and how they monetize supplier relationships',
+      'Prepare behavioral examples showing analytical rigor, customer focus, and cross-functional collaboration',
+      'Understand competitive dynamics: Amazon, Ikea, Target, RH—know Wayfair\'s differentiation',
+      'Practice explaining complex technical or analytical concepts clearly'
     ],
     whatTheyLookFor: [
-      'Technical skills in engineering or data science',
-      'Analytical and data-driven thinking',
-      'E-commerce and operations mindset',
-      'Problem-solving abilities',
-      'Customer focus'
+      'Strong analytical and quantitative skills',
+      'Technical depth in engineering, data science, or relevant domain',
+      'Data-driven decision making with hypothesis-driven approach',
+      'E-commerce and operations understanding',
+      'Customer empathy and focus on solving real problems',
+      'Collaborative approach for cross-functional work',
+      'Problem-solving ability for complex logistics challenges',
+      'Clear communication across technical and business contexts',
+      'Intellectual curiosity and continuous learning',
+      'Execution focus and ability to drive results'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Wayfair careers'
+        title: 'Online Application',
+        description: 'Submit your application through Wayfair Careers. Highlight relevant experience in e-commerce, logistics, data science, or engineering. Wayfair looks for quantitative rigor—emphasize analytical accomplishments.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter covering your background and interest in Wayfair. They\'ll explain the role and interview process. Come prepared with specific reasons why Wayfair and questions about their technology or operations.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, system design, or analytics case'
+        title: 'Technical/Analytical Screen (60 min)',
+        description: 'For engineering: coding interview with algorithmic problems. For analytics/data science: SQL, statistics, and case study. For other roles: domain-specific assessment. Interviewers evaluate problem-solving rigor.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and compensation'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: technical rounds (coding, system design, or analytics cases), product/business cases, and behavioral rounds. Expect questions on search, logistics, and e-commerce optimization. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager about role details and team fit. Decisions typically come within 1-2 weeks. Wayfair offers competitive salary, equity, and benefits including employee discounts.'
       }
     ],
     questions: [
-      'Design a recommendation system for furniture',
-      'How would you optimize last-mile delivery for large items?',
-      'Analyze customer return patterns and suggest improvements',
-      'Build a visual search feature for home decor',
-      'Why Wayfair?'
+      'Design a recommendation system for furniture that considers room style, existing pieces, and dimensions',
+      'How would you optimize last-mile delivery for large items like sofas and mattresses?',
+      'Analyze this scenario: Customer return rates increased 15% this quarter. What would you investigate?',
+      'Build a visual search feature that finds similar furniture from a photo',
+      'Why Wayfair over Amazon or other retailers?',
+      'Design Wayfair\'s CastleGate logistics network for oversized items',
+      'How would you predict delivery dates for items shipping from different suppliers?',
+      'Design an AR feature that lets customers visualize furniture in their room',
+      'Tell me about a time you used data to influence a business decision',
+      'How would you improve the product discovery experience for furniture?',
+      'Design a pricing optimization system that considers supplier costs, competition, and demand',
+      'How would you reduce the rate of furniture returns?',
+      'Describe a time you worked with cross-functional teams to solve a complex problem',
+      'How would you forecast demand for seasonal home goods?',
+      'Design a 3D room planning tool for Wayfair',
+      'What metrics would you use to measure customer satisfaction for furniture delivery?',
+      'Tell me about a time you had to make a decision with incomplete data',
+      'How would you approach expanding Wayfair\'s logistics network to new regions?',
+      'What questions do you have about Wayfair\'s technology or challenges?'
     ],
     relatedCompanies: ['overstock', 'houzz', 'ikea', 'amazon']
   },
 
   'carvana': {
     name: 'Carvana',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Carvana interview with expert preparation for the used car e-commerce disruptor, covering automotive technology, logistics innovation, and their mission to change the way people buy cars.',
     industry: 'Technology',
     headquarters: 'Tempe, AZ',
-    description: 'Carvana is an e-commerce platform for buying and selling used cars, pioneering online car sales with car vending machines. Known for disrupting traditional car dealerships, end-to-end digital experience, and vehicle reconditioning. Interviews focus on innovation, operations, and customer experience.',
+    description: 'Carvana is the leading e-commerce platform for buying and selling used cars, pioneering a fully online car-buying experience with signature car vending machines for pickup. Founded in 2012, Carvana has disrupted the traditional dealership model by offering a complete digital experience: browse 50,000+ vehicles, get financing, trade-in valuation, and home delivery—all online. The company operates the largest vehicle reconditioning and logistics network in the U.S., processing hundreds of thousands of cars annually. After navigating financial challenges, Carvana has emerged focused on profitability and operational excellence. The interview process emphasizes innovation mindset, operational thinking, and customer experience focus.',
     interviewTips: [
-      'Understand online used car sales and financing',
-      'Learn about Carvana\'s vending machines and delivery model',
-      'Be prepared for technical or operational questions',
-      'Show knowledge of automotive retail disruption',
-      'Research Carvana\'s reconditioning and inspection process'
+      'Understand Carvana\'s end-to-end model: vehicle acquisition, inspection/reconditioning, digital retail, financing, and delivery logistics',
+      'Study their technology platform: vehicle imaging, pricing algorithms, instant financing, trade-in valuations—all automated at scale',
+      'Research the car vending machine concept—iconic brand marketing that creates memorable customer experiences',
+      'For engineering roles: Prepare for system design covering vehicle inventory, pricing, and logistics optimization',
+      'Understand the automotive retail industry and why traditional dealerships have poor customer satisfaction',
+      'Research Carvana\'s financial turnaround story—they\'ve refocused on unit economics and profitability',
+      'Study their inspection and reconditioning centers (IRCs)—large-scale automotive operations are complex',
+      'Prepare for questions about customer experience: Carvana\'s 7-day return policy and 100-day warranty are key differentiators',
+      'Understand the used car market: wholesale auctions, pricing volatility, depreciation curves',
+      'Show operational thinking: Carvana succeeds through logistics excellence, not just technology',
+      'Research their ADESA acquisition—they now own major wholesale auction infrastructure',
+      'Prepare behavioral examples showing innovation, customer focus, and problem-solving in ambiguity',
+      'Understand competitive landscape: CarMax, Vroom, dealer groups—know Carvana\'s differentiation',
+      'Practice explaining how technology can transform traditional industries'
     ],
     whatTheyLookFor: [
-      'Innovation and disruption mindset',
-      'Technical or operational skills',
-      'Customer experience focus',
-      'Problem-solving in complex operations',
-      'Adaptability in fast-paced environment'
+      'Innovation mindset with willingness to challenge industry norms',
+      'Strong technical or operational skills depending on role',
+      'Customer experience obsession',
+      'Problem-solving ability in complex operational environments',
+      'Data-driven decision making',
+      'Adaptability and resilience in fast-moving environment',
+      'Collaborative approach across technology and operations',
+      'Attention to detail—automotive requires precision',
+      'Entrepreneurial spirit and ownership mentality',
+      'Ability to execute in ambiguous situations'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through Carvana careers'
+        title: 'Online Application',
+        description: 'Submit your application through Carvana Careers. Highlight experience in e-commerce, automotive, logistics, or operations. Show innovation mindset and customer focus.'
       },
       {
         step: 2,
-        title: 'Phone Interview',
-        description: 'Initial screening conversation'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter to discuss your background and interest in Carvana. They\'ll explain the role and company culture. Come prepared with questions about their technology and operations.'
       },
       {
         step: 3,
-        title: 'Interview Rounds (2-3)',
-        description: 'Technical, operational, or behavioral'
+        title: 'Technical/Functional Interview (60 min)',
+        description: 'For engineering: coding and system design. For operations: process optimization and analytical cases. For other roles: domain-specific assessments. Interviewers evaluate problem-solving approach.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and offer'
+        title: 'Onsite/Virtual Loop (3-4 rounds)',
+        description: 'Multiple interviews covering technical depth, operational thinking, and behavioral fit. Expect questions about innovation, customer experience, and complex problem-solving. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Decision & Offer',
+        description: 'The hiring team reviews feedback and makes a decision within 1-2 weeks. Carvana offers competitive salary and benefits. The company emphasizes career growth in a rapidly evolving environment.'
       }
     ],
     questions: [
-      'How would you improve the online car buying experience?',
-      'Design a vehicle inspection and reconditioning system',
-      'What challenges does Carvana face versus traditional dealers?',
-      'How would you optimize logistics for vehicle delivery?',
-      'Why Carvana?'
+      'How would you improve the online car buying experience to increase conversion?',
+      'Design a vehicle inspection and reconditioning system that processes thousands of cars weekly',
+      'What challenges does Carvana face versus traditional dealers? How would you address them?',
+      'How would you optimize logistics for vehicle delivery across the country?',
+      'Why Carvana? What excites you about disrupting automotive retail?',
+      'Design a pricing algorithm for used cars that accounts for condition, market demand, and depreciation',
+      'How would you build an instant trade-in valuation system?',
+      'Design the technology behind Carvana\'s car vending machines',
+      'Tell me about a time you identified an opportunity to improve a process',
+      'How would you reduce vehicle reconditioning time while maintaining quality?',
+      'Design a system to match customer preferences with available inventory',
+      'How would you improve customer trust in buying a used car online?',
+      'Describe a time you had to adapt quickly to changing circumstances',
+      'How would you forecast used car demand and optimize inventory levels?',
+      'Design a customer communication system for delivery scheduling',
+      'What metrics would you use to measure customer satisfaction in car buying?',
+      'Tell me about a time you innovated on an existing product or process',
+      'How would you approach expanding Carvana\'s delivery coverage?',
+      'What questions do you have about Carvana\'s technology or operations?'
     ],
     relatedCompanies: ['vroom', 'carmax', 'shift', 'truecar']
   },
@@ -7723,156 +7822,255 @@ export const companies = {
   // Social Media & Communication
   'snap': {
     name: 'Snap Inc.',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Snap interview with expert preparation for the camera company pioneering augmented reality, covering Gen Z engagement, AR innovation, and their mission to empower people to express themselves.',
     industry: 'Technology',
     headquarters: 'Santa Monica, CA',
-    description: 'Snap is the company behind Snapchat, a camera and messaging app with disappearing content, AR filters, and Stories. Known for Gen Z dominance, augmented reality innovation, Spectacles hardware, and Discover content. Interviews emphasize technical skills, creativity, and product thinking.',
+    description: 'Snap Inc. is a camera company whose flagship product Snapchat reaches 400+ million daily active users, predominantly Gen Z and Millennials. Founded in 2011, Snap pioneered ephemeral messaging and Stories (later copied by Instagram and others). The company has evolved from a messaging app into an augmented reality platform, with Lenses used 6+ billion times per day. Snap\'s AR technology (including Lens Studio), Spectacles hardware, and Spotlight short-form video represent massive technical investments. With $4.5+ billion in annual revenue primarily from advertising, Snap competes in the attention economy while maintaining a distinctive creative, camera-first identity. The interview process emphasizes technical excellence, creativity, and deep understanding of younger users.',
     interviewTips: [
-      'Understand Snapchat\'s unique features (Stories, Lenses, Discover)',
-      'Learn about augmented reality and computer vision',
-      'Be prepared for coding and system design questions',
-      'Show creativity and understanding of Gen Z users',
-      'Research Snap\'s advertising business and AR strategy'
+      'Understand Snap\'s identity as a "camera company"—not a social network. They see the camera as a platform for expression and AR',
+      'Study their AR technology deeply: Lens Studio, face/hand/body tracking, scene understanding, try-on lenses—AR is core to Snap\'s future',
+      'Research Spectacles and their AR glasses ambitions—hardware is a major investment area',
+      'For engineering roles: Prepare for mobile development (iOS/Android), computer vision, ML, and real-time systems',
+      'Understand the Gen Z user base: how they communicate, what they value, privacy concerns—Snap has unique user insights',
+      'Study Snapchat\'s product evolution: Stories, Discover, Spotlight, Maps, Memories—understand the full ecosystem',
+      'Research their advertising business: Snap Ads, Sponsored Lenses, AR advertising—this drives revenue',
+      'Prepare for product sense questions: How would you increase engagement? How would you design new camera features?',
+      'Understand the competitive landscape: TikTok, Instagram, BeReal—know how Snapchat differentiates',
+      'Show creativity and understanding of visual communication—Snap values creative thinking',
+      'Research their engineering blog and AR development resources',
+      'Prepare behavioral examples demonstrating innovation, user empathy, and collaboration',
+      'Understand privacy as a competitive advantage: ephemeral messaging, data practices',
+      'Practice discussing emerging technology: AR glasses, generative AI, spatial computing'
     ],
     whatTheyLookFor: [
-      'Technical skills in mobile, AR, or computer vision',
-      'Creativity and innovation',
-      'Product sense for social features',
-      'Understanding of young users',
-      'Collaborative approach'
+      'Strong technical skills in mobile, AR, ML, or relevant domains',
+      'Creativity and visual thinking',
+      'Deep understanding of Gen Z users and youth culture',
+      'Product sense for camera and communication features',
+      'Innovation mindset with willingness to experiment',
+      'Collaborative approach in fast-moving environment',
+      'Clear communication of technical concepts',
+      'Passion for AR and emerging technology',
+      'User empathy and focus on expression/creativity',
+      'Adaptability and resilience'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Snap careers'
+        title: 'Online Application',
+        description: 'Submit your application through Snap Careers. Highlight relevant experience in mobile, AR, ML, or creative technology. Show passion for camera technology and understanding of Snap\'s mission.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Recruiter and technical screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation covering your background and interest in Snap. Recruiters assess cultural fit and role alignment. Come prepared with specific examples of creative or technical work and questions about Snap\'s AR roadmap.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-5 rounds)',
-        description: 'Coding, system design, product, behavioral'
+        title: 'Technical Phone Screen (60 min)',
+        description: 'Coding interview via CoderPad or similar. For mobile roles: platform-specific questions. For ML/AR: domain-specific technical discussions. Interviewers evaluate problem-solving and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and offer'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: coding rounds, system design (mobile architecture, real-time systems), product sense, and behavioral rounds. For AR roles, expect computer vision and 3D graphics discussions. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'A hiring committee reviews all feedback. Decisions typically come within 1-2 weeks. Snap offers competitive base salary, equity, and benefits. They\'re known for creative perks and Santa Monica headquarters.'
       }
     ],
     questions: [
-      'Design Snapchat\'s disappearing message system',
-      'How would you build an AR filter that tracks faces?',
-      'Improve engagement for Discover content',
-      'What makes Snapchat different from Instagram?',
-      'Why Snap?'
+      'Design Snapchat\'s disappearing message system with delivery guarantees and expiration',
+      'How would you build an AR filter that tracks faces in real-time on mobile devices?',
+      'Improve engagement on Discover content—what would you measure and how would you optimize?',
+      'What makes Snapchat different from Instagram or TikTok? How would you strengthen that differentiation?',
+      'Why Snap? What excites you about camera and AR technology?',
+      'Design Lens Studio—a platform for creating AR experiences without code',
+      'How would you build a try-on lens for sunglasses that works across different face shapes?',
+      'Design Snap Map with real-time location sharing and privacy controls',
+      'Tell me about a creative technical project you worked on',
+      'How would you improve Spotlight to compete with TikTok?',
+      'Design a system to rank and personalize Stories for each user',
+      'How would you detect and filter inappropriate content in user-generated lenses?',
+      'Describe a time you had to balance innovation with practical constraints',
+      'How would you design AR glasses that are socially acceptable?',
+      'Design Memories—a searchable, private archive of Snaps',
+      'What metrics would you use to measure the success of a new camera feature?',
+      'Tell me about a time you advocated for the user experience',
+      'How would you approach building generative AI features for Snapchat?',
+      'What questions do you have about Snap\'s technology or culture?'
     ],
     relatedCompanies: ['meta', 'tiktok', 'pinterest', 'discord']
   },
 
   'pinterest': {
     name: 'Pinterest',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Pinterest interview with expert preparation for the visual discovery platform, covering inspiration-to-action, shopping intent, and their mission to bring everyone the inspiration to create a life they love.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
-    description: 'Pinterest is a visual discovery platform for finding ideas, inspiration, and products through pins and boards. Known for shopping intent, visual search, creator ecosystem, and positive community. Interviews emphasize technical skills, product thinking, and creator empathy.',
+    description: 'Pinterest is a visual discovery engine where 450+ million monthly users find inspiration for everything from recipes and home decor to fashion and travel. Unlike social networks focused on connecting with people, Pinterest connects people with ideas and products they love. With $3+ billion in annual revenue, Pinterest has unique commercial intent—users come to plan purchases, making it valuable for advertisers. The platform combines computer vision, ML-powered recommendations, and shopping integration to help users go from inspiration to action. Pinterest\'s interview process emphasizes technical excellence, product sense, and alignment with their mission to inspire positive action.',
     interviewTips: [
-      'Understand Pinterest\'s visual discovery and shopping use cases',
-      'Learn about computer vision, recommendation systems, and ads',
-      'Be prepared for coding and machine learning questions',
-      'Show knowledge of creator economy and inspiration',
-      'Research Pinterest\'s focus on positive content and inclusivity'
+      'Understand Pinterest\'s unique positioning: not a social network but a "visual discovery engine"—users come with intent to find and do things',
+      'Study their shopping and commerce strategy: shoppable pins, merchant tools, and the inspiration-to-purchase journey',
+      'Research their ML and computer vision capabilities: visual search, object detection, personalized recommendations at massive scale',
+      'For engineering roles: Prepare for system design covering recommendation systems, image processing, and search infrastructure',
+      'Understand the creator ecosystem: how do content creators and brands succeed on Pinterest?',
+      'Research their commitment to positive content: Pinterest actively curates for inspiration, not engagement at any cost',
+      'Study their advertising platform: how does commercial intent translate to ad effectiveness?',
+      'Prepare for product sense questions: How would you improve discovery? How would you increase shopping conversion?',
+      'Understand the competitive landscape: Instagram Shopping, TikTok Shop, Google Shopping—know Pinterest\'s differentiation',
+      'Show passion for visual inspiration, creativity, or shopping—Pinterest wants people who understand their users',
+      'Research their inclusive and body-positive initiatives—Pinterest has taken stands on representation',
+      'Prepare behavioral examples showing user empathy, collaboration, and thoughtful decision-making',
+      'Understand their technical blog and ML research contributions',
+      'Practice discussing the balance between engagement and wellbeing'
     ],
     whatTheyLookFor: [
-      'Technical skills in ML, computer vision, or full-stack',
-      'Product sense for visual platforms',
-      'Creator and user empathy',
-      'Problem-solving abilities',
-      'Inclusive and positive mindset'
+      'Strong technical skills in ML, computer vision, or full-stack development',
+      'Product sense for visual and discovery experiences',
+      'Understanding of creator and merchant ecosystems',
+      'User empathy and focus on inspiring positive action',
+      'Data-driven decision making with ethical consideration',
+      'Collaborative and inclusive mindset',
+      'Clear communication across technical and creative contexts',
+      'Innovation thinking balanced with practical execution',
+      'Intellectual curiosity about visual technology and commerce',
+      'Cultural alignment with Pinterest\'s positive, inspiring mission'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through Pinterest careers'
+        title: 'Online Application',
+        description: 'Submit your application through Pinterest Careers. Highlight experience in visual technology, recommendations, e-commerce, or relevant domains. Show understanding of Pinterest\'s unique position as an inspiration platform.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Technical and behavioral screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation covering your background and interest in Pinterest. Recruiters assess role fit and cultural alignment. Come prepared with specific reasons why Pinterest and questions about their product vision.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, ML/systems, product, behavioral'
+        title: 'Technical Phone Screen (60 min)',
+        description: 'For engineering: coding interview with algorithmic problems. For ML: technical discussion and practical problems. For other roles: domain-specific assessment. Interviewers evaluate problem-solving and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final approval and offer'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: coding rounds, system design (recommendation systems, visual search), and behavioral rounds. Expect product sense questions about discovery and shopping. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager about role and team. Decisions typically come within 1-2 weeks. Pinterest offers competitive salary, equity, and benefits. They emphasize work-life balance and inclusive culture.'
       }
     ],
     questions: [
-      'Design Pinterest\'s recommendation algorithm',
-      'How would you build visual search for similar products?',
-      'Improve creator monetization on Pinterest',
-      'What differentiates Pinterest from Instagram?',
-      'Why Pinterest?'
+      'Design Pinterest\'s recommendation algorithm that surfaces relevant pins from billions of options',
+      'How would you build visual search that finds similar products from a photo?',
+      'Improve creator monetization on Pinterest—what features would you build?',
+      'What differentiates Pinterest from Instagram or Google Shopping? How would you strengthen that?',
+      'Why Pinterest? What excites you about visual discovery?',
+      'Design a system to detect and tag objects in pins at Pinterest scale',
+      'How would you improve the shopping experience from pin discovery to purchase?',
+      'Design personalized home feeds that balance relevance, diversity, and discovery',
+      'Tell me about a time you balanced user needs with business goals',
+      'How would you increase pin saves and engagement while maintaining content quality?',
+      'Design a merchant platform that helps sellers succeed on Pinterest',
+      'How would you detect and remove inappropriate or harmful content at scale?',
+      'Describe a time you used data to make a product decision',
+      'How would you design AR try-on features for fashion and beauty pins?',
+      'Design a system to understand user intent and taste from their behavior',
+      'What metrics would you use to measure the health of the Pinterest ecosystem?',
+      'Tell me about a time you advocated for an inclusive design decision',
+      'How would you approach Pinterest\'s international expansion?',
+      'What questions do you have about Pinterest\'s technology or culture?'
     ],
     relatedCompanies: ['instagram', 'etsy', 'houzz', 'reddit']
   },
 
   'reddit': {
     name: 'Reddit',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your Reddit interview with expert preparation for the front page of the internet, covering community dynamics, content systems, and their mission to bring community, belonging, and empowerment to everyone in the world.',
     industry: 'Technology',
     headquarters: 'San Francisco, CA',
-    description: 'Reddit is a social news aggregation and discussion platform with thousands of communities (subreddits). Known for authentic conversations, user-generated content, voting system, AMAs, and internet culture. Interviews emphasize technical skills, community understanding, and product sense.',
+    description: 'Reddit is a network of 100,000+ active communities (subreddits) where 70+ million daily active users discuss, share, and connect around every topic imaginable. Founded in 2005, Reddit pioneered the upvote/downvote system and AMA (Ask Me Anything) format that shaped internet culture. The platform went public in 2024, marking a new chapter for the "front page of the internet." With $800+ million in annual revenue from advertising and Reddit Premium, Reddit offers unique value through authentic conversations and community-driven content. The interview process emphasizes technical skills, community understanding, and ability to work on systems that billions of people use.',
     interviewTips: [
-      'Understand Reddit\'s community structure and moderation',
-      'Learn about content ranking, voting systems, and feed algorithms',
-      'Be prepared for coding and system design questions',
-      'Show knowledge of internet culture and community dynamics',
-      'Research Reddit\'s advertising and Premium business'
+      'Deeply understand Reddit\'s community structure: subreddits, moderators, karma, voting—and why this creates authentic discussion',
+      'Study content ranking algorithms: Hot, Best, Top, New, Controversial—how voting and time decay create different experiences',
+      'Research Reddit\'s moderation model: volunteer moderators, AutoModerator, content policy—community governance is complex',
+      'For engineering roles: Prepare for system design at massive scale—real-time voting, feed ranking, search, and caching challenges',
+      'Understand Reddit\'s unique culture: authenticity, anonymity, memes, inside jokes—Redditors have distinct expectations',
+      'Study their advertising business: how do ads work in a community-driven, sometimes skeptical environment?',
+      'Research their data licensing partnerships (Google, etc.) and AI training discussions—timely and strategic',
+      'Prepare for product sense questions: How would you improve discovery? How would you increase engagement while maintaining quality?',
+      'Understand moderation challenges: spam, manipulation, harassment—trust and safety at scale is crucial',
+      'Show genuine understanding of Reddit communities—candidates who use Reddit authentically stand out',
+      'Research their recent IPO and growth strategy—shows awareness of where Reddit is heading',
+      'Prepare behavioral examples showing community empathy, complex problem-solving, and collaboration',
+      'Understand competitive dynamics: Discord, Twitter/X, forums, Facebook Groups—know Reddit\'s differentiation',
+      'Practice discussing content policy trade-offs: free expression vs safety'
     ],
     whatTheyLookFor: [
-      'Technical skills in scalable systems',
-      'Community and user empathy',
-      'Product thinking for discussion platforms',
-      'Problem-solving abilities',
-      'Understanding of Reddit culture'
+      'Strong technical skills for building systems at massive scale',
+      'Deep understanding of online communities and internet culture',
+      'Product sense for discussion and community features',
+      'Ability to navigate complex content moderation challenges',
+      'Data-driven decision making with qualitative understanding',
+      'Collaborative approach and clear communication',
+      'User and moderator empathy',
+      'Innovation thinking for evolving a mature platform',
+      'Integrity and thoughtfulness about platform responsibility',
+      'Genuine interest in Reddit and community dynamics'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through Reddit careers'
+        title: 'Online Application',
+        description: 'Submit your application through Reddit Careers. Highlight experience in social platforms, community, content systems, or relevant technical domains. Bonus points if you\'re an authentic Reddit user—it shows in interviews.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Recruiter and technical screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation covering your background and interest in Reddit. Recruiters assess role fit and cultural alignment. Come prepared with specific examples of how you\'ve engaged with online communities.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Coding, system design, behavioral'
+        title: 'Technical Phone Screen (60 min)',
+        description: 'For engineering: coding interview with algorithmic problems. For other roles: domain-specific assessment. Interviewers evaluate problem-solving approach and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and compensation'
+        title: 'Virtual Onsite (4-5 rounds)',
+        description: 'Multiple interviews including: coding rounds, system design (real-time systems, feed ranking), product sense, and behavioral rounds. Expect questions about community dynamics and content systems. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Committee & Offer',
+        description: 'The hiring committee reviews all feedback. Decisions typically come within 1-2 weeks. Reddit offers competitive salary, equity (especially meaningful post-IPO), and benefits.'
       }
     ],
     questions: [
-      'Design Reddit\'s voting and ranking algorithm',
-      'How would you combat spam and trolling?',
-      'Build a feature to improve community discovery',
-      'What makes Reddit unique among social platforms?',
-      'Why Reddit?'
+      'Design Reddit\'s voting and ranking algorithm—how do upvotes and time affect what users see?',
+      'How would you combat spam, vote manipulation, and trolling at scale?',
+      'Build a feature to improve community discovery for new users',
+      'What makes Reddit unique among social platforms? How would you strengthen that?',
+      'Why Reddit? What excites you about community and discussion platforms?',
+      'Design a real-time commenting system that handles millions of concurrent users',
+      'How would you improve the moderator experience and tools?',
+      'Design Reddit\'s search system for finding relevant posts and communities',
+      'Tell me about a time you had to balance competing stakeholder needs',
+      'How would you design recommendations for "communities you might like"?',
+      'Design a system to detect and prevent coordinated manipulation campaigns',
+      'How would you increase engagement while maintaining content quality?',
+      'Describe a time you navigated a difficult community or interpersonal situation',
+      'How would you approach Reddit\'s international expansion and localization?',
+      'Design Reddit\'s notification system for comments, replies, and mentions',
+      'What metrics would you use to measure subreddit health?',
+      'Tell me about a time you made a controversial or unpopular decision',
+      'How would you balance free expression with community safety on Reddit?',
+      'What questions do you have about Reddit\'s technology or culture?'
     ],
     relatedCompanies: ['discord', 'twitter', 'quora', 'stack-overflow']
   },
