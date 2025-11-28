@@ -26939,6 +26939,1079 @@ export const rolePageContent = {
       ]
     }
   },
+  'visa': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Visa build the technology that powers the world's largest payment network, processing over 259 billion transactions annually. You'll work on mission-critical systems that connect consumers, merchants, and financial institutions across 200+ countries. Visa's engineering culture emphasizes reliability, security, and innovation at global scale.",
+      responsibilities: [
+        "Design and develop scalable payment processing systems",
+        "Build APIs and services for the global payment network",
+        "Implement security-first solutions for financial transactions",
+        "Collaborate with cross-functional teams on product development",
+        "Maintain high availability systems with 99.999% uptime requirements"
+      ],
+      growthOpportunities: [
+        "Work on technology that processes 65,000+ transactions per second",
+        "Clear path from Engineer to Staff Engineer and beyond",
+        "Cross-functional exposure to payments, fraud, and product teams",
+        "Global opportunities across Visa's worldwide offices",
+        "Strong engineering community and learning programs"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call discussing your background and interest in Visa.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Online Assessment",
+          description: "Technical coding assessment covering algorithms and problem-solving.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 3,
+          title: "Technical Interviews",
+          description: "Multiple rounds covering coding, system design, and domain knowledge.",
+          duration: "3-4 hours"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit assessment focusing on collaboration and innovation."
+        }
+      ],
+      technicalQuestions: [
+        "Design a system to process credit card transactions at global scale.",
+        "How would you build a real-time fraud detection system?",
+        "Implement an algorithm to detect suspicious transaction patterns.",
+        "Design an API for payment authorization with sub-100ms latency.",
+        "How would you ensure data consistency in a distributed payment system?",
+        "Write a function to validate and route payment transactions.",
+        "Design a rate limiter for an API handling millions of requests.",
+        "How would you handle idempotency in payment processing?",
+        "Explain how you would secure sensitive payment data.",
+        "Design a notification system for real-time transaction alerts."
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you built a system requiring high reliability.",
+        "Describe a situation where you innovated to solve a problem.",
+        "How have you handled cross-team collaboration on complex projects?",
+        "Tell me about a project where security was critical.",
+        "Describe your experience working with global teams.",
+        "How do you approach learning new technologies?",
+        "Tell me about a time you debugged a critical production issue.",
+        "Describe how you've mentored or helped other engineers."
+      ],
+      whatTheyLookFor: [
+        "Strong programming skills in Java, Python, or C++",
+        "Experience building scalable, distributed systems",
+        "Security-conscious approach to software development",
+        "Understanding of API design and microservices",
+        "Problem-solving ability and analytical thinking",
+        "Communication skills for cross-functional collaboration",
+        "Experience with high-availability systems",
+        "Passion for building reliable payment technology"
+      ],
+      interviewTips: [
+        "Study system design for high-throughput payment systems",
+        "Understand payment network concepts (authorization, settlement)",
+        "Practice coding problems focused on data structures and algorithms",
+        "Be prepared to discuss security and compliance concepts",
+        "Research Visa's technology and VisaNet architecture",
+        "Prepare examples of working on mission-critical systems",
+        "Show enthusiasm for the global impact of payment technology",
+        "Review Visa's innovation initiatives and developer platform"
+      ],
+      dayInLife: {
+        overview: "Software Engineers at Visa work on globally critical payment infrastructure. Days balance development with collaboration, design reviews, and ensuring system reliability.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync with engineering team on sprint progress"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Development Work",
+            description: "Focus time for feature development and system improvements"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Code Review",
+            description: "Review pull requests and provide feedback"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Design Discussion",
+            description: "Collaborate on architecture for new features"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Testing & Quality",
+            description: "Write tests and ensure code quality"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Documentation",
+            description: "Update technical documentation and wrap up"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" },
+        { companyName: "PayPal", companySlug: "paypal", industry: "Fintech" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Visa leverage massive transaction datasets to drive fraud detection, risk assessment, and business insights. With 259 billion annual transactions, you'll build models that protect millions of consumers and merchants while enabling commerce worldwide. Visa's data science culture emphasizes real-world impact at global scale.",
+      responsibilities: [
+        "Build machine learning models for fraud detection and risk scoring",
+        "Analyze transaction data to uncover patterns and insights",
+        "Develop predictive models for payment behavior and trends",
+        "Partner with product teams to improve payment experiences",
+        "Present findings and recommendations to stakeholders"
+      ],
+      growthOpportunities: [
+        "Access to one of the world's largest transaction datasets",
+        "Path to Senior Data Scientist, Principal, or Management",
+        "Publish research and attend industry conferences",
+        "Global exposure across markets and payment types",
+        "Strong data science community and mentorship"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your background and interest in the role.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Assessment",
+          description: "Online assessment covering SQL, statistics, and machine learning concepts.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 3,
+          title: "Technical Interviews",
+          description: "Two domain-focused interviews covering ML depth and SQL skills.",
+          duration: "90 minutes total"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit assessment focusing on collaboration and communication.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "Design a fraud detection pipeline for credit card transactions.",
+        "How do you handle imbalanced classes in fraud detection?",
+        "Explain your approach to feature engineering for transaction data.",
+        "How would you measure the success of a fraud detection model?",
+        "Design an A/B test to evaluate a new payment feature.",
+        "How would you segment merchants based on transaction patterns?",
+        "Explain techniques for reducing false positives in fraud detection.",
+        "How would you model transaction volume forecasting?",
+        "Walk through an end-to-end ML project from data to deployment.",
+        "How do you monitor models for drift in production?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a model you built that had significant impact.",
+        "Describe a time you explained complex analysis to non-technical stakeholders.",
+        "How have you handled projects with data quality issues?",
+        "Tell me about a time your model didn't perform as expected.",
+        "Describe your experience collaborating with cross-functional teams.",
+        "How do you prioritize when you have multiple projects?",
+        "Tell me about a time you innovated to solve a problem.",
+        "Describe how you stay current with developments in data science."
+      ],
+      whatTheyLookFor: [
+        "Strong foundation in statistics and machine learning",
+        "Proficiency in Python, SQL, and ML frameworks",
+        "Experience with fraud detection or anomaly detection",
+        "Ability to translate business problems into data solutions",
+        "Understanding of model validation and deployment",
+        "Strong communication and presentation skills",
+        "Experience with large-scale data processing",
+        "Curiosity and drive to solve complex problems"
+      ],
+      interviewTips: [
+        "Focus on fraud detection and anomaly detection concepts",
+        "Practice SQL extensively - it's central to Visa interviews",
+        "Prepare for end-to-end ML pipeline questions",
+        "Understand payment metrics like approval rates and chargebacks",
+        "Research Visa's data science blog and publications",
+        "Prepare examples of handling imbalanced datasets",
+        "Be ready to discuss model monitoring and drift",
+        "Review probability and statistics fundamentals"
+      ],
+      dayInLife: {
+        overview: "Data Scientists at Visa work on models that protect the global payment network. Days balance model development with collaboration and stakeholder communication.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Sync with data science team on project progress"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Model Development",
+            description: "Work on feature engineering and model training"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Data Analysis",
+            description: "Explore transaction data and analyze patterns"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Present findings to product or business teams"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Review",
+            description: "Peer review with senior data scientists"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Research",
+            description: "Explore new techniques and read papers"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" }
+      ]
+    },
+    'data-analyst': {
+      roleDescription: "Data Analysts at Visa transform payment transaction data into actionable insights that drive business decisions. You'll analyze patterns in billions of transactions, build dashboards, and help teams across Visa understand payment trends, merchant behavior, and market opportunities.",
+      responsibilities: [
+        "Analyze transaction data to identify trends and opportunities",
+        "Build dashboards and reports for stakeholders",
+        "Write complex SQL queries to extract insights from large datasets",
+        "Partner with business teams to define metrics and KPIs",
+        "Support data-driven decision making across the organization"
+      ],
+      growthOpportunities: [
+        "Work with one of the largest transaction datasets globally",
+        "Path to Senior Analyst, Lead, or Data Science roles",
+        "Exposure to diverse payment products and markets",
+        "Strong analytical training and development programs",
+        "Global opportunities across Visa's offices"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your background and interest.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "SQL Assessment",
+          description: "Technical assessment focused on SQL and data manipulation.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Interview",
+          description: "Business case combining metrics analysis and SQL challenge.",
+          duration: "60 minutes"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit and communication assessment.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "Write a SQL query to calculate merchant transaction volumes by category.",
+        "How would you analyze payment approval rates across regions?",
+        "Write a query to identify customers with unusual transaction patterns.",
+        "How would you measure the success of a new payment product?",
+        "Design a dashboard to track payment network health.",
+        "Write SQL to calculate month-over-month growth in transactions.",
+        "How would you segment merchants based on their transaction data?",
+        "Explain how you would identify potential fraud in the data.",
+        "How would you handle missing data in your analysis?",
+        "Write a query to find the top merchants by transaction value."
+      ],
+      behavioralQuestions: [
+        "Tell me about an analysis that led to a significant business decision.",
+        "Describe a time you found an error in your data or analysis.",
+        "How have you communicated data insights to non-technical audiences?",
+        "Tell me about a time you worked with incomplete data.",
+        "Describe your experience creating dashboards or reports.",
+        "How do you prioritize multiple analysis requests?",
+        "Tell me about a time you collaborated with cross-functional teams.",
+        "Describe how you ensure accuracy in your analysis."
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills for data extraction and manipulation",
+        "Proficiency in data visualization tools (Tableau, etc.)",
+        "Analytical thinking and problem-solving ability",
+        "Clear communication to present findings",
+        "Attention to detail and data accuracy",
+        "Business acumen to translate data into insights",
+        "Ability to work with large-scale datasets",
+        "Curiosity about payment industry trends"
+      ],
+      interviewTips: [
+        "Master SQL - it's heavily tested at Visa",
+        "Practice window functions, CTEs, and complex joins",
+        "Understand key payment metrics (approval rates, chargebacks)",
+        "Prepare for case studies involving payment data",
+        "Research Visa's business segments and products",
+        "Practice explaining technical concepts simply",
+        "Be ready to walk through your analytical approach",
+        "Review basic statistics and data analysis concepts"
+      ],
+      dayInLife: {
+        overview: "Data Analysts at Visa work with rich payment data to drive business decisions. Days include SQL analysis, dashboard building, and stakeholder collaboration.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Email & Requests Review",
+            description: "Review incoming analysis requests and prioritize"
+          },
+          {
+            time: "9:30 AM",
+            activity: "SQL Analysis",
+            description: "Write queries and analyze transaction data"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Dashboard Work",
+            description: "Update or build dashboards for stakeholders"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Present findings to business partners"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Deep Analysis",
+            description: "Work on complex analytical projects"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Documentation",
+            description: "Document methodology and prepare reports"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" }
+      ]
+    },
+    'product-manager': {
+      roleDescription: "Product Managers at Visa own the strategy and execution for products that power global commerce. You'll work on payment solutions used by billions of people, partnering with engineering, design, and business teams to deliver innovative products that connect consumers, merchants, and financial institutions worldwide.",
+      responsibilities: [
+        "Define product vision, strategy, and roadmap for payment products",
+        "Lead cross-functional teams to deliver product features",
+        "Analyze market trends and customer needs to identify opportunities",
+        "Drive product launches across global markets",
+        "Navigate regulatory requirements in the payment industry"
+      ],
+      growthOpportunities: [
+        "Own products with global scale and impact",
+        "Clear path from PM to Senior PM to Director",
+        "Exposure to diverse payment products (consumer, merchant, B2B)",
+        "Global opportunities across markets and regions",
+        "Work on cutting-edge payment innovation"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial conversation about your PM experience and interest in Visa.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "Discussion of your product experience and approach.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Study Round",
+          description: "Product case study focused on payment industry scenarios.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Panel Interviews",
+          description: "Multiple rounds with PMs and stakeholders on product sense and leadership.",
+          duration: "2-3 hours"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve Visa's contactless payment experience?",
+        "Design a new payment product for small businesses.",
+        "How would you prioritize features for a digital wallet product?",
+        "What metrics would you use to measure payment product success?",
+        "How would you launch a payment product in a new market?",
+        "Design a product to reduce payment fraud.",
+        "How would you approach a product decision in a compliance-heavy environment?",
+        "What's your framework for making trade-off decisions?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a product you launched from concept to delivery.",
+        "Describe a time you made a decision with incomplete data.",
+        "How have you navigated conflicting stakeholder priorities?",
+        "Tell me about a time you had to say no to a feature request.",
+        "Describe a product failure and what you learned.",
+        "How do you build alignment across global teams?",
+        "Tell me about a time you used data to change product direction.",
+        "Describe how you've incorporated customer feedback into decisions."
+      ],
+      whatTheyLookFor: [
+        "Strong product sense and customer empathy",
+        "Data-driven decision making ability",
+        "Experience leading cross-functional teams",
+        "Clear communication and stakeholder management",
+        "Understanding of payment industry or fintech",
+        "Ability to navigate complex regulatory environments",
+        "Strategic thinking balanced with execution",
+        "Global mindset and cultural awareness"
+      ],
+      interviewTips: [
+        "Understand Visa's products and payment network",
+        "Prepare cases specific to payments and fintech",
+        "Research regulatory challenges in payments (PCI, PSD2, etc.)",
+        "Be ready to discuss global product launches",
+        "Practice structured frameworks for case questions",
+        "Show understanding of the merchant and consumer sides",
+        "Research Visa's innovation initiatives and partnerships",
+        "Prepare examples of cross-functional leadership"
+      ],
+      dayInLife: {
+        overview: "Product Managers at Visa drive products that power global commerce. Days balance strategy, execution, and alignment across global teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Metrics Review",
+            description: "Check product dashboards and KPIs"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with engineering and design"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Stakeholder Alignment",
+            description: "Meet with business partners on priorities"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Customer Research",
+            description: "Review user feedback and market research"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Roadmap Planning",
+            description: "Work on product roadmap and PRDs"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Global Sync",
+            description: "Align with teams in other regions"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Strategy Work",
+            description: "Competitive analysis and strategic planning"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" },
+        { companyName: "PayPal", companySlug: "paypal", industry: "Fintech" }
+      ]
+    },
+    'data-engineer': {
+      roleDescription: "Data Engineers at Visa build the data infrastructure that powers analytics and machine learning for the world's largest payment network. You'll design pipelines that process billions of transactions, enabling data scientists and analysts to protect consumers and drive business insights.",
+      responsibilities: [
+        "Design and build scalable data pipelines for transaction data",
+        "Develop ETL processes to ingest and transform payment data",
+        "Build and maintain data lakes and data warehouses",
+        "Ensure data quality, governance, and security compliance",
+        "Enable analytics and ML with reliable data infrastructure"
+      ],
+      growthOpportunities: [
+        "Work with some of the largest transaction datasets globally",
+        "Path to Senior Data Engineer, Architect, or Management",
+        "Exposure to cutting-edge data technologies at scale",
+        "Cross-functional work with data science and product teams",
+        "Global opportunities and strong engineering culture"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your data engineering background.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "Interview covering SQL, Python, and data engineering concepts.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "System Design Interview",
+          description: "Design a data pipeline for a given use case.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit and collaboration assessment.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "Design a data pipeline to process credit card transactions in real-time.",
+        "How would you handle late-arriving transaction data?",
+        "Explain your approach to data quality monitoring.",
+        "How would you optimize a slow-running ETL job?",
+        "Design a data warehouse schema for payment data.",
+        "How do you ensure data consistency in distributed systems?",
+        "Explain partitioning strategies for transaction data.",
+        "How would you build a pipeline supporting fraud detection?",
+        "Describe your approach to data governance and PCI compliance.",
+        "How do you handle schema evolution in data pipelines?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a data pipeline you built with significant impact.",
+        "Describe a time you debugged a complex data quality issue.",
+        "How have you handled projects with tight deadlines?",
+        "Tell me about a time you improved data system performance.",
+        "Describe your experience collaborating with data scientists.",
+        "How do you prioritize between multiple data engineering requests?",
+        "Tell me about a challenging data migration you've worked on.",
+        "Describe how you approach documentation for data systems."
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills and data modeling experience",
+        "Proficiency in Python and data processing frameworks",
+        "Experience with big data technologies (Spark, Kafka, etc.)",
+        "Understanding of data quality and governance",
+        "Knowledge of cloud data platforms",
+        "Problem-solving ability for complex data challenges",
+        "Communication skills for cross-functional work",
+        "Security awareness for payment data (PCI DSS)"
+      ],
+      interviewTips: [
+        "Practice SQL extensively - complex queries and optimization",
+        "Be prepared to design data pipelines end-to-end",
+        "Understand PCI DSS compliance for payment data",
+        "Review streaming data concepts for real-time processing",
+        "Prepare examples of handling data at massive scale",
+        "Research Visa's data engineering blog and talks",
+        "Be ready to discuss trade-offs in data architecture",
+        "Understand both batch and real-time processing patterns"
+      ],
+      dayInLife: {
+        overview: "Data Engineers at Visa build infrastructure that processes billions of transactions. Days include pipeline development, monitoring, and collaboration with data teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Pipeline Monitoring",
+            description: "Check overnight pipeline runs and address issues"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with data engineering team"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Development",
+            description: "Build or enhance data pipelines"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Sync",
+            description: "Discuss data requirements with consumers"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Code Review",
+            description: "Review PRs and provide feedback"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Architecture Work",
+            description: "Design discussions for new data systems"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update data catalogs and documentation"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Databricks", companySlug: "databricks", industry: "Technology" }
+      ]
+    },
+    'site-reliability-engineer': {
+      roleDescription: "Site Reliability Engineers at Visa ensure the world's largest payment network maintains its legendary reliability. Processing 65,000+ transactions per second with 99.999% uptime, SREs at Visa work on systems where every second of downtime impacts global commerce. You'll balance reliability with innovation in a mission-critical environment.",
+      responsibilities: [
+        "Ensure high availability and performance of payment systems",
+        "Build automation and tooling to improve operational efficiency",
+        "Implement monitoring, alerting, and incident response processes",
+        "Conduct capacity planning for global payment infrastructure",
+        "Partner with engineering teams to improve system reliability"
+      ],
+      growthOpportunities: [
+        "Work on one of the most critical systems in global finance",
+        "Path to Senior SRE, Staff, or Engineering Management",
+        "Exposure to cutting-edge reliability engineering practices",
+        "Global opportunities across Visa's data centers",
+        "Strong engineering community and learning programs"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your SRE background.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "Interview covering systems, networking, and troubleshooting.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "System Design Interview",
+          description: "Design reliable systems for payment infrastructure.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit focusing on incident response and collaboration.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "Design a monitoring system for a global payment network.",
+        "How would you troubleshoot a latency spike in payment processing?",
+        "Explain your approach to capacity planning for peak shopping days.",
+        "How would you implement a zero-downtime deployment strategy?",
+        "Design a disaster recovery plan for payment systems.",
+        "How do you balance reliability work with feature development?",
+        "Explain your approach to incident response and post-mortems.",
+        "How would you reduce MTTR for critical payment systems?",
+        "Design an alerting system that minimizes alert fatigue.",
+        "How would you ensure 99.999% uptime for a payment API?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a critical incident you helped resolve.",
+        "Describe a time you improved system reliability significantly.",
+        "How have you balanced on-call responsibilities with project work?",
+        "Tell me about automation you built that had significant impact.",
+        "Describe your experience with capacity planning.",
+        "How do you approach post-incident reviews?",
+        "Tell me about a time you advocated for reliability improvements.",
+        "Describe how you've mentored others in SRE practices."
+      ],
+      whatTheyLookFor: [
+        "Strong systems and networking fundamentals",
+        "Experience with monitoring, alerting, and observability",
+        "Proficiency in Python, Go, or similar languages",
+        "Understanding of distributed systems and failure modes",
+        "Incident response and troubleshooting skills",
+        "Automation mindset and scripting abilities",
+        "Communication skills for incident coordination",
+        "Calm under pressure during critical incidents"
+      ],
+      interviewTips: [
+        "Study high-availability architecture patterns",
+        "Be prepared to discuss incident response processes",
+        "Understand monitoring and observability best practices",
+        "Review capacity planning and load testing concepts",
+        "Prepare examples of improving system reliability",
+        "Research Visa's scale and reliability requirements",
+        "Be ready to troubleshoot hypothetical scenarios",
+        "Understand the SRE philosophy and SLO/SLI concepts"
+      ],
+      dayInLife: {
+        overview: "SREs at Visa ensure the payment network's legendary reliability. Days balance proactive reliability work with incident response and collaboration.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "System Health Review",
+            description: "Check dashboards and overnight alerts"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Sync with SRE team on priorities"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Reliability Engineering",
+            description: "Work on automation, monitoring, or tooling"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Engineering Collaboration",
+            description: "Work with product teams on reliability improvements"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Incident Review",
+            description: "Conduct or participate in post-mortems"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Capacity Planning",
+            description: "Analyze trends and plan for future capacity"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update runbooks and operational docs"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Fintech" }
+      ]
+    },
+    'business-analyst': {
+      roleDescription: "Business Analysts at Visa bridge business strategy and data analysis to drive decisions across the global payment network. You'll analyze payment trends, evaluate market opportunities, and provide insights that shape Visa's products and partnerships. The role combines analytical skills with business acumen in a fast-moving fintech environment.",
+      responsibilities: [
+        "Analyze payment data to identify business opportunities",
+        "Build financial models and business cases for strategic initiatives",
+        "Partner with stakeholders to define problems and solutions",
+        "Create presentations and recommendations for leadership",
+        "Support product and partnership decisions with data-driven insights"
+      ],
+      growthOpportunities: [
+        "Exposure to global payment industry and strategy",
+        "Path to Senior BA, Manager, or Strategy roles",
+        "Cross-functional work with product, sales, and finance",
+        "Global opportunities across markets and regions",
+        "Strong analytical training and development"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your background and interest.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "SQL/Technical Assessment",
+          description: "Assessment covering SQL and analytical skills.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Case Interview",
+          description: "Business case combining metrics analysis and strategic thinking.",
+          duration: "60 minutes"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit and communication assessment.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "How would you analyze the business case for a new payment product?",
+        "Write SQL to analyze merchant transaction trends.",
+        "How would you measure the success of a partnership?",
+        "Calculate the market opportunity for contactless payments in a new region.",
+        "How would you prioritize which merchants to target for a new product?",
+        "Analyze the tradeoffs of different pricing strategies.",
+        "How would you evaluate the ROI of a marketing campaign?",
+        "Write a query to identify high-value merchants.",
+        "How would you forecast payment volume growth?",
+        "Design metrics to track payment product health."
+      ],
+      behavioralQuestions: [
+        "Tell me about an analysis that influenced a business decision.",
+        "Describe a time you presented insights to senior leadership.",
+        "How have you handled analysis requests with tight deadlines?",
+        "Tell me about a time you worked with incomplete data.",
+        "Describe your experience working across teams.",
+        "How do you prioritize multiple projects?",
+        "Tell me about a time you had to simplify complex analysis.",
+        "Describe how you've built relationships with stakeholders."
+      ],
+      whatTheyLookFor: [
+        "Strong analytical and quantitative skills",
+        "Proficiency in SQL and Excel",
+        "Clear communication and presentation skills",
+        "Business acumen and strategic thinking",
+        "Ability to work with large datasets",
+        "Understanding of payment industry is a plus",
+        "Problem-solving ability and attention to detail",
+        "Collaborative approach to working with stakeholders"
+      ],
+      interviewTips: [
+        "Practice SQL - it's central to Visa BA interviews",
+        "Understand key payment metrics and KPIs",
+        "Prepare for case studies on payment industry scenarios",
+        "Research Visa's business segments and strategy",
+        "Practice explaining analysis clearly and concisely",
+        "Be ready to walk through your analytical approach",
+        "Understand the merchant and issuer sides of payments",
+        "Review Visa's recent news and strategic initiatives"
+      ],
+      dayInLife: {
+        overview: "Business Analysts at Visa combine data analysis with strategic thinking. Days include SQL analysis, stakeholder meetings, and presentation preparation.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Planning",
+            description: "Review priorities and plan analysis work"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Data Analysis",
+            description: "Work in SQL and Excel on business analysis"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Team Meeting",
+            description: "Sync with project team on progress"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Discuss findings with business partners"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Building",
+            description: "Build business cases and financial models"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Presentation Prep",
+            description: "Create slides and prepare for reviews"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap-up",
+            description: "Document progress and plan next day"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "Capital One", companySlug: "capital-one", industry: "Finance" },
+        { companyName: "McKinsey", companySlug: "mckinsey", industry: "Consulting" }
+      ]
+    },
+    'cyber-security-engineer': {
+      roleDescription: "Cyber Security Engineers at Visa protect the world's largest payment network and the financial data of billions of users. You'll work on security systems that defend against sophisticated threats while enabling secure commerce globally. Visa's security culture is central to maintaining trust in the global payment ecosystem.",
+      responsibilities: [
+        "Design and implement security controls for payment systems",
+        "Build security automation and threat detection tools",
+        "Conduct security assessments and penetration testing",
+        "Respond to security incidents and threats",
+        "Ensure PCI DSS compliance across systems"
+      ],
+      growthOpportunities: [
+        "Protect one of the world's most critical financial systems",
+        "Path to Senior Security Engineer, Architect, or Leadership",
+        "Access to advanced security training and certifications",
+        "Exposure to cutting-edge security technologies",
+        "Global opportunities across Visa's security organization"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial call discussing your security background.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Screen",
+          description: "Interview covering security concepts and problem-solving.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Security Deep Dive",
+          description: "In-depth technical interview on security architecture and practices.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 4,
+          title: "Behavioral Interview",
+          description: "Culture fit focusing on incident response and collaboration.",
+          duration: "45 minutes"
+        }
+      ],
+      technicalQuestions: [
+        "How would you secure a payment API against common attacks?",
+        "Explain your approach to threat modeling for payment systems.",
+        "Design a security monitoring system for transaction data.",
+        "How would you detect and respond to a potential data breach?",
+        "Explain PCI DSS requirements and how you would ensure compliance.",
+        "How would you implement a zero-trust security model?",
+        "Design a secure architecture for tokenization of card data.",
+        "How would you secure a CI/CD pipeline for payment systems?",
+        "Explain your approach to security automation.",
+        "How would you handle a sophisticated APT targeting payment systems?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a security incident you helped resolve.",
+        "Describe a time you identified a significant vulnerability.",
+        "How have you balanced security with business needs?",
+        "Tell me about a security project you led.",
+        "Describe your experience with security compliance and audits.",
+        "How do you stay current with evolving threats?",
+        "Tell me about a time you advocated for security improvements.",
+        "Describe how you've trained others on security best practices."
+      ],
+      whatTheyLookFor: [
+        "Strong knowledge of application and network security",
+        "Understanding of PCI DSS and payment security",
+        "Experience with security tools and automation",
+        "Knowledge of secure coding practices",
+        "Incident response and threat detection experience",
+        "Strong analytical and problem-solving skills",
+        "Communication skills for cross-team collaboration",
+        "Relevant certifications (CISSP, CEH, etc.) are a plus"
+      ],
+      interviewTips: [
+        "Deep dive on PCI DSS and payment security requirements",
+        "Prepare for scenario-based security questions",
+        "Understand common attack vectors for payment systems",
+        "Be ready to discuss threat modeling approaches",
+        "Review secure development practices",
+        "Prepare examples of security improvements you've led",
+        "Research Visa's security initiatives and standards",
+        "Be ready to discuss both offensive and defensive security"
+      ],
+      dayInLife: {
+        overview: "Cyber Security Engineers at Visa protect the global payment network. Days include security engineering, monitoring, and collaboration with development teams.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Threat Intelligence Review",
+            description: "Review overnight security alerts and threat feeds"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with security team"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Security Engineering",
+            description: "Build security tools or implement controls"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch break"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Security Review",
+            description: "Review security aspects of new systems"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Threat Analysis",
+            description: "Analyze threats and update detection rules"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Engineering Collaboration",
+            description: "Work with teams on security best practices"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update security docs and runbooks"
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Mastercard", companySlug: "mastercard", industry: "Finance" },
+        { companyName: "American Express", companySlug: "american-express", industry: "Finance" },
+        { companyName: "JPMorgan", companySlug: "jpmorgan", industry: "Finance" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    }
+  },
+
 
 
 }
