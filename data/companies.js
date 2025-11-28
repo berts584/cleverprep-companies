@@ -253,154 +253,253 @@ export const companies = {
   },
   'amazon': {
     name: 'Amazon',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Amazon interview by understanding the 16 Leadership Principles, preparing for the Bar Raiser, and demonstrating customer obsession in every answer.',
     industry: 'Technology',
     headquarters: 'Seattle, WA',
-    description: 'Amazon is the world\'s largest e-commerce and cloud computing company. Amazon interviews heavily emphasize their 16 Leadership Principles, along with technical problem-solving and system design skills.',
+    description: 'Amazon is the world\'s largest e-commerce company and a dominant force in cloud computing through AWS, with $575 billion in annual revenue and 1.5 million employees worldwide. The company operates across retail, cloud services (AWS), advertising, entertainment (Prime Video, MGM), devices (Alexa, Kindle, Ring), and healthcare. Amazon\'s interview process is uniquely structured around their 16 Leadership Principles—behavioral frameworks like "Customer Obsession," "Ownership," "Bias for Action," and "Dive Deep" that define how Amazonians make decisions. Every interview includes at least one "Bar Raiser"—a specially trained interviewer from outside the hiring team who ensures candidates meet Amazon\'s high standards and has veto power over hiring decisions. Amazon values data-driven decision-making, frugality, and a bias for action. The company\'s "Day 1" mentality emphasizes maintaining startup agility despite its massive scale.',
     interviewTips: [
-      'Master Amazon\'s 16 Leadership Principles with examples',
-      'Use the STAR method for behavioral questions',
-      'Practice coding problems on data structures',
-      'Study distributed systems concepts',
-      'Be prepared to discuss trade-offs in your designs'
+      'Master Amazon\'s 16 Leadership Principles—prepare 2-3 specific STAR stories for each principle, as every behavioral question maps to one or more LPs',
+      'The Bar Raiser has veto power and evaluates you against the entire Amazon hiring bar, not just the specific team—bring your best energy and examples to this interview',
+      'Use the STAR method rigorously: Situation, Task, Action (focus 60% here), Result (quantify impact whenever possible)',
+      'Demonstrate "Customer Obsession" in technical decisions—always start system design answers by asking about the customer and their needs',
+      'For coding interviews, talk through your approach before writing code, consider edge cases, and discuss time/space complexity',
+      'Amazon loves data—quantify your achievements with specific metrics (reduced latency by 40%, increased conversion by 15%, etc.)',
+      'Prepare for "Dive Deep" questions where interviewers probe the details of your past projects—know your work inside and out',
+      'Show "Ownership" by describing times you went beyond your job description to solve problems, not just completed assigned tasks',
+      'For system design, start with requirements gathering, then high-level architecture, then dive deep into specific components—always consider scale',
+      'Demonstrate "Bias for Action"—Amazon values calculated risk-taking over analysis paralysis. Share examples of times you made decisions with incomplete information',
+      'Prepare for "Disagree and Commit" questions—times you disagreed with a decision but fully committed once it was made',
+      'Amazon values "Frugality"—be ready to discuss how you\'ve accomplished more with less or optimized for cost',
+      'Research the specific team and their products—Amazon has vastly different cultures across Retail, AWS, Alexa, etc.',
+      'The loop typically has 5-6 interviews—pace yourself and stay energetic throughout the full day'
     ],
     whatTheyLookFor: [
-      'Customer obsession',
-      'Ownership and bias for action',
-      'Strong technical fundamentals',
-      'Data-driven decision making',
-      'High standards (Insist on Highest Standards)'
+      'Customer Obsession—genuine focus on customer needs in all decisions, not just business metrics',
+      'Ownership—taking responsibility for outcomes, not just completing tasks; thinking long-term',
+      'Bias for Action—willingness to make decisions with 70% of information rather than waiting for certainty',
+      'Dive Deep—ability to operate at all levels, stay connected to details, and audit frequently',
+      'Strong technical fundamentals with ability to design scalable, distributed systems',
+      'Data-driven decision making with ability to define and track meaningful metrics',
+      'Insist on Highest Standards—continuously raising the bar for yourself and your team',
+      'Think Big—creating bold directions that inspire results and look around corners for ways to serve customers',
+      'Earn Trust—listening attentively, speaking candidly, and treating others respectfully',
+      'Deliver Results—focusing on key inputs and delivering with the right quality and timeline'
     ],
     process: [
       {
         step: 1,
-        title: 'Online Assessment',
-        description: 'Coding challenges and work simulation'
+        title: 'Online Assessment (OA)',
+        description: 'For many roles, Amazon starts with an online assessment including: 2 coding challenges (70 minutes total), a work style assessment, and sometimes a work simulation. The coding problems are LeetCode medium-level focusing on arrays, strings, trees, and graphs. Complete within 7 days of receiving the invitation.'
       },
       {
         step: 2,
-        title: 'Phone Screen (1 hour)',
-        description: 'Coding and behavioral questions'
+        title: 'Phone Screen',
+        description: '45-60 minute interview with an Amazon engineer via Amazon Chime. Typically includes 1-2 coding problems and 1-2 behavioral questions mapped to Leadership Principles. You\'ll code in a shared document while explaining your approach. Some senior roles skip directly to onsite after OA.'
       },
       {
         step: 3,
-        title: 'Onsite Loop (5 rounds)',
-        description: 'Mix of coding, system design, and behavioral'
+        title: 'Onsite Loop (5-6 Interviews)',
+        description: 'Full day of interviews, each 45-60 minutes, including: 2 coding interviews, 1 system design interview (for senior roles), 2-3 behavioral interviews (each focused on specific Leadership Principles), and 1 Bar Raiser interview. Each interviewer submits independent written feedback before the debrief meeting.'
       },
       {
         step: 4,
-        title: 'Bar Raiser Round',
-        description: 'Interview with experienced bar raiser evaluator'
+        title: 'Bar Raiser Interview',
+        description: 'One interviewer in your loop is a specially trained "Bar Raiser" from outside the hiring team. They evaluate whether you raise Amazon\'s hiring bar and have veto power regardless of other interviewers\' opinions. The BR ensures consistent hiring standards across Amazon. Bring your strongest LP examples to this interview.'
+      },
+      {
+        step: 5,
+        title: 'Debrief and Decision',
+        description: 'All interviewers meet to discuss feedback and make a hire/no-hire decision. The Bar Raiser facilitates to ensure LP alignment. Decisions typically come within 5 business days. If hired, you\'ll receive a call from your recruiter with offer details including base, signing bonus, and RSU grants.'
       }
     ],
     questions: [
-      'Tell me about a time you failed',
-      'Design Amazon\'s product recommendation system',
-      'Find the longest palindromic substring',
-      'Describe a time you had to make a decision with incomplete data',
-      'Implement a queue using two stacks'
+      'Tell me about a time you failed - what happened and what did you learn? (Leadership Principle: Learn and Be Curious)',
+      'Design Amazon\'s product recommendation system - consider personalization, real-time updates, and scale',
+      'Describe a time when you had to make a decision with incomplete data - what did you do? (LP: Bias for Action)',
+      'Find the longest palindromic substring in a string - optimize for time and space complexity',
+      'Tell me about a time you disagreed with your manager or team - how did you handle it? (LP: Have Backbone; Disagree and Commit)',
+      'Design a URL shortener like bit.ly - discuss database schema, hash generation, and handling high traffic',
+      'Tell me about a time you went above and beyond for a customer (LP: Customer Obsession)',
+      'Implement LRU cache with O(1) get and put operations',
+      'Describe a time you took ownership of a project beyond your job description (LP: Ownership)',
+      'Design Amazon\'s order processing system - consider inventory, payments, and fulfillment',
+      'Tell me about a time you had to deliver results under a tight deadline (LP: Deliver Results)',
+      'Merge k sorted linked lists - discuss different approaches and tradeoffs',
+      'Tell me about a time you simplified a complex process (LP: Invent and Simplify)',
+      'Design a distributed cache system - discuss consistency, eviction policies, and failover',
+      'Describe a time you raised the bar for your team (LP: Insist on Highest Standards)',
+      'Given a stream of integers, find the median at any point - discuss data structures',
+      'Tell me about a time you had to earn trust with a skeptical stakeholder (LP: Earn Trust)',
+      'Design the backend for Amazon Prime Video streaming - consider content delivery and global scale',
+      'What questions do you have for me about Amazon, the team, or the role?'
     ],
     relatedCompanies: ['google', 'microsoft', 'walmart', 'salesforce']
   },
   'meta': {
     name: 'Meta',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Prepare for your Meta interview with strategies for their fast-paced coding rounds, system design at massive scale, and emphasis on impact and moving fast.',
     industry: 'Technology',
     headquarters: 'Menlo Park, CA',
-    description: 'Meta (formerly Facebook) is a social technology company building the future of connection through Facebook, Instagram, WhatsApp, and VR/AR. Meta interviews focus on coding, system design, and behavioral competencies.',
+    description: 'Meta (formerly Facebook) is one of the world\'s largest technology companies, connecting over 3 billion people through Facebook, Instagram, WhatsApp, and Messenger, while investing heavily in the metaverse through Reality Labs. With $135 billion in annual revenue and 87,000+ employees, Meta operates the largest social platforms globally and is a leader in AI research, virtual reality (Quest), and advertising technology. Meta\'s interview process is known for its emphasis on coding speed and accuracy, system design at unprecedented scale (handling billions of users), and behavioral questions focused on impact. The company\'s culture values "Move Fast," "Focus on Long-Term Impact," "Build Awesome Things," and "Be Direct." Meta uses a hiring committee model similar to Google, where interviewers provide feedback but don\'t make final decisions. The company offers a "bootcamp" onboarding where new engineers choose their team after joining.',
     interviewTips: [
-      'Practice coding speed and accuracy',
-      'Study large-scale distributed systems',
-      'Understand Meta\'s products deeply',
-      'Prepare for behavioral questions on impact',
-      'Be ready to discuss technical trade-offs'
+      'Meta coding interviews emphasize speed and accuracy—practice solving medium/hard LeetCode problems in 20-25 minutes, not just solving them at all',
+      'For system design, think at Meta scale: billions of users, petabytes of data, millions of requests per second. Start with requirements and scale estimates',
+      'The "Ninja" round is Meta\'s system design interview—focus on high-level architecture first, then dive deep into specific components when asked',
+      'Behavioral questions at Meta focus on impact—quantify your achievements and explain why your work mattered to the business or users',
+      'Understand Meta\'s products deeply: how News Feed ranking works, Instagram\'s architecture, WhatsApp\'s end-to-end encryption approach',
+      'Meta values "Move Fast"—demonstrate times you shipped quickly while maintaining quality, not reckless speed',
+      'During coding, write clean code with good variable names; Meta interviewers evaluate code quality, not just correctness',
+      'Be prepared to optimize your solution—Meta interviewers often ask "can we do better?" after your initial working solution',
+      'For behavioral questions, use the STAR method but emphasize measurable impact and lessons learned',
+      'Meta\'s bootcamp model means you interview for the company, not a specific team—show flexibility and broad interests',
+      'Research Meta\'s AI and metaverse initiatives if relevant to your role—these are major company priorities',
+      'Meta values directness—be honest about what you know and don\'t know rather than trying to fake expertise',
+      'Practice explaining your technical decisions clearly—communication is heavily weighted alongside coding ability',
+      'Prepare for questions about working in ambiguous situations with competing priorities'
     ],
     whatTheyLookFor: [
-      'Strong coding skills',
-      'System design expertise',
-      'Move fast mentality',
-      'Impact-driven mindset',
-      'Communication and collaboration'
+      'Strong coding skills with ability to write clean, efficient code quickly under pressure',
+      'System design expertise at massive scale—billions of users, global distribution, real-time requirements',
+      'Impact-driven mindset—focus on outcomes and moving metrics that matter, not just shipping features',
+      'Move Fast mentality—bias for action, shipping quickly, iterating based on feedback',
+      'Technical depth combined with breadth—ability to go deep on problems while understanding broader systems',
+      'Strong communication skills to explain complex technical concepts clearly',
+      'Collaboration abilities—Meta\'s scale requires working effectively across many teams',
+      'Resilience and adaptability in a fast-changing environment',
+      'Intellectual curiosity and continuous learning',
+      'Alignment with Meta\'s mission of building community and bringing the world closer together'
     ],
     process: [
       {
         step: 1,
-        title: 'Recruiter Phone Screen (30 min)',
-        description: 'Background discussion and role overview'
+        title: 'Recruiter Screen',
+        description: '30-minute call with a Meta recruiter discussing your background, interest in Meta, and logistics. They\'ll explain the role, interview process, and answer questions. The recruiter assesses communication skills and basic qualifications. They may also discuss which product areas interest you for team matching.'
       },
       {
         step: 2,
-        title: 'Technical Phone Screen (45 min)',
-        description: 'Coding interview via video call'
+        title: 'Technical Phone Screen',
+        description: '45-minute coding interview via CoderPad with a Meta engineer. You\'ll solve 1-2 algorithmic problems while explaining your approach. Expect medium to hard difficulty problems involving arrays, strings, trees, or graphs. The interviewer evaluates problem-solving approach, coding ability, and communication.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews (4-5 rounds)',
-        description: 'Coding, system design (Ninja), and behavioral'
+        title: 'Onsite Interviews (Virtual or In-Person)',
+        description: '4-5 interviews, each 45 minutes: 2 coding interviews (called "Coding" rounds), 1 system design interview (called "Ninja" or "Pirate" depending on role), and 1-2 behavioral interviews (called "Jedi"). Coding rounds are on CoderPad; system design uses a virtual whiteboard. Each interviewer submits independent feedback.'
       },
       {
         step: 4,
-        title: 'Hiring Committee',
-        description: 'Final review and decision'
+        title: 'Hiring Committee Review',
+        description: 'Your interview packet is reviewed by a hiring committee of senior engineers who weren\'t involved in your interviews. They evaluate all feedback holistically and make the hire/no-hire decision. This process typically takes 1-2 weeks. The committee ensures consistent hiring standards across Meta.'
+      },
+      {
+        step: 5,
+        title: 'Team Matching (Bootcamp)',
+        description: 'If approved, you join Meta\'s "bootcamp"—a 6-week onboarding where you work on small projects across different teams before choosing where to join permanently. This ensures you find a team that matches your interests and skills. During bootcamp, various teams pitch to you as much as you pitch to them.'
       }
     ],
     questions: [
-      'Clone a graph',
-      'Design Facebook News Feed',
-      'Validate binary search tree',
-      'Tell me about your most impactful project',
-      'Design Instagram Stories'
+      'Clone a graph - implement deep copy of a graph with arbitrary connections',
+      'Design Facebook News Feed - consider ranking, real-time updates, and handling billions of users',
+      'Tell me about your most impactful project - what was the measurable business or user impact?',
+      'Validate a binary search tree - handle edge cases and discuss iterative vs recursive approaches',
+      'Design Instagram Stories - consider content creation, distribution, and ephemerality',
+      'Serialize and deserialize a binary tree - discuss different encoding approaches',
+      'Tell me about a time you had to move fast to meet a deadline - how did you balance speed with quality?',
+      'Design Facebook Messenger - consider real-time delivery, read receipts, and offline support',
+      'Find all permutations of a string - optimize for time and handle duplicates',
+      'Describe a time you had to influence others without authority',
+      'Design a type-ahead/autocomplete system - consider ranking, personalization, and latency',
+      'Implement a basic calculator that can handle +, -, *, / and parentheses',
+      'Tell me about a time you failed - what happened and what did you learn?',
+      'Design WhatsApp - consider end-to-end encryption, message delivery, and group chats',
+      'Find the lowest common ancestor in a binary tree - discuss different scenarios',
+      'Tell me about a time you had to deal with ambiguity in a project',
+      'Design a distributed rate limiter - consider different algorithms and consistency',
+      'Word ladder - find shortest transformation sequence from one word to another',
+      'What questions do you have about Meta, the team, or the role?'
     ],
     relatedCompanies: ['google', 'amazon', 'netflix', 'uber']
   },
   'netflix': {
     name: 'Netflix',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Ace your Netflix interview by understanding their unique "Freedom and Responsibility" culture, demonstrating senior-level judgment, and showing you can thrive with minimal oversight.',
     industry: 'Technology',
     headquarters: 'Los Gatos, CA',
-    description: 'Netflix is the world\'s leading streaming entertainment service. Netflix interviews are known for emphasizing cultural fit, senior-level thinking, and their unique "freedom and responsibility" culture.',
+    description: 'Netflix is the world\'s leading streaming entertainment service with 260+ million paid memberships across 190+ countries, $33 billion in annual revenue, and a revolutionary culture that has reshaped how companies think about talent and workplace freedom. Netflix pioneered the "Freedom and Responsibility" culture—treating employees like responsible adults, offering unlimited vacation, eliminating expense approvals, and paying top-of-market compensation while expecting exceptional performance. The company\'s famous "Keeper Test" asks managers: "Would I fight to keep this person?" If not, they receive a generous severance. Netflix interviews focus heavily on cultural fit, seeking "stunning colleagues" who thrive with autonomy and demonstrate senior-level judgment. Technical interviews assess system design skills given Netflix\'s massive streaming infrastructure (15% of global internet bandwidth). Unlike traditional tech interviews, Netflix often skips algorithmic puzzles in favor of practical problems and deep discussions about past work.',
     interviewTips: [
-      'Understand Netflix\'s culture memo thoroughly',
-      'Demonstrate senior-level thinking and autonomy',
-      'Be prepared to discuss past impact with metrics',
-      'Show strong opinions weakly held',
-      'Research their tech stack and microservices architecture'
+      'Read and deeply understand Netflix\'s Culture Memo—it\'s not just HR material, but a genuine description of how Netflix operates and evaluates candidates',
+      'Netflix expects senior-level thinking from everyone—demonstrate independent judgment, not just following instructions or processes',
+      'Be prepared to discuss your past work in extreme detail with specific metrics and outcomes—Netflix cares about proven impact, not potential',
+      'Show "Informed Captains" mentality—gathering input from others but making and owning decisions rather than seeking consensus',
+      'Netflix values "Selflessness"—demonstrate times you prioritized company or team success over personal recognition',
+      'Unlike other tech companies, Netflix may skip LeetCode-style puzzles—expect practical coding problems and deep system design discussions',
+      'For system design, understand streaming architecture: video encoding, CDNs, adaptive bitrate streaming, recommendation systems',
+      'Demonstrate "Candor"—Netflix values direct, honest feedback. Be straightforward about your strengths, weaknesses, and opinions',
+      'Prepare for the "Keeper Test" lens: every interviewer asks themselves if you\'d be someone they\'d fight to keep',
+      'Netflix pays top-of-market—they expect you to know your worth and have genuine reasons for wanting Netflix beyond compensation',
+      'Show intellectual curiosity—Netflix wants people who stay current on industry trends and have thoughtful opinions',
+      'Be ready to discuss times you\'ve taken calculated risks, made unpopular decisions, or challenged the status quo',
+      'Netflix has no formal levels for most roles—demonstrate you can operate with ambiguity and self-direction',
+      'The interview process varies significantly by role and may include take-home assignments or presentations'
     ],
     whatTheyLookFor: [
-      'Exceptional talent and judgment',
-      'High performance and accountability',
-      'Cultural fit with freedom & responsibility',
-      'Strong communication',
-      'Self-motivation and independence'
+      'Exceptional talent and judgment—Netflix only wants "stunning colleagues" who would be hard to replace',
+      'Self-direction and ability to thrive with minimal oversight in an environment of freedom',
+      'Courage to make tough decisions and share candid feedback, even when uncomfortable',
+      'Selflessness—putting team and company success above personal ego or credit',
+      'Communication skills to influence through informal debate rather than hierarchy',
+      'Innovation and willingness to challenge conventional approaches',
+      'High performance with sustained track record of impact and results',
+      'Cultural fit with Freedom and Responsibility—not everyone thrives in this environment',
+      'Intellectual curiosity and passion for entertainment, technology, or both',
+      'Adaptability and comfort with change in a fast-evolving industry'
     ],
     process: [
       {
         step: 1,
-        title: 'Recruiter Screen (30 min)',
-        description: 'Initial culture and background fit'
+        title: 'Recruiter Screen',
+        description: '30-45 minute conversation with a Netflix recruiter focusing on your background, interest in Netflix, and initial cultural fit assessment. Netflix recruiters often discuss the Culture Memo and gauge your reaction. They\'ll explain the role, team, and interview process. This is also an assessment of communication skills.'
       },
       {
         step: 2,
-        title: 'Hiring Manager Interview (1 hour)',
-        description: 'Deep technical and cultural discussion'
+        title: 'Hiring Manager Interview',
+        description: '60-minute deep dive with the hiring manager covering your experience, technical depth, and cultural fit. Expect detailed questions about past projects, decisions you\'ve made, and your working style. The hiring manager assesses whether you\'d thrive in Netflix\'s high-freedom environment and if they\'d want you on their team.'
       },
       {
         step: 3,
-        title: 'Panel Interviews (4-6 rounds)',
-        description: 'Technical, cultural, and team fit evaluations'
+        title: 'Technical Interviews (2-3 Rounds)',
+        description: 'Technical assessment tailored to the role. For engineering: system design discussions (streaming architecture, distributed systems), practical coding problems (often real scenarios vs. algorithm puzzles), and deep dives into your technical experience. Some roles include a take-home assignment. Interviewers assess technical depth and judgment.'
       },
       {
         step: 4,
-        title: 'Final Review',
-        description: 'Team consensus and offer decision'
+        title: 'Cultural Interviews (2-3 Rounds)',
+        description: 'Interviews focused on Netflix\'s culture values: judgment, communication, impact, curiosity, innovation, courage, passion, honesty, and selflessness. Expect scenarios testing how you\'d handle freedom, give/receive feedback, make decisions without consensus, and demonstrate senior-level thinking. Every interviewer is evaluating the "Keeper Test."'
+      },
+      {
+        step: 5,
+        title: 'Final Review and Offer',
+        description: 'The hiring manager gathers all feedback and makes the final decision, typically within 1-2 weeks. Netflix offers include top-of-market base salary (no bonus or traditional equity—you can choose your cash/stock mix). Offers are non-negotiable as they represent Netflix\'s assessment of market rate. Total compensation is typically higher than comparable roles elsewhere.'
       }
     ],
     questions: [
-      'Design a video streaming service',
-      'How would you improve Netflix recommendations?',
-      'Implement a rate limiter',
-      'Describe a time you took an unpopular decision',
-      'Design a content delivery network'
+      'Design Netflix\'s video streaming architecture - consider encoding, CDN, adaptive bitrate, and global distribution',
+      'Tell me about a time you made an unpopular decision - how did you handle pushback?',
+      'How would you improve Netflix\'s recommendation system? Walk through your approach',
+      'Describe a time you demonstrated exceptional judgment without being told what to do',
+      'Design a content delivery network optimized for video streaming at global scale',
+      'Tell me about a time you gave someone difficult feedback - what happened?',
+      'Implement a rate limiter - discuss different algorithms and tradeoffs for a streaming service',
+      'Describe a time you took a significant risk in your work - what was the outcome?',
+      'Design the backend for Netflix\'s "Continue Watching" feature - consider multiple devices and real-time sync',
+      'Tell me about a time you had to influence a decision without formal authority',
+      'How would you approach A/B testing a major UI change on Netflix?',
+      'Describe a situation where you disagreed with your manager - what did you do?',
+      'Design a system to personalize thumbnails for millions of titles across millions of users',
+      'Tell me about a time you prioritized the company or team over your personal interests',
+      'How would you design Netflix\'s video encoding pipeline for thousands of new titles?',
+      'Describe the most impactful project you\'ve worked on - why did it matter?',
+      'Design a system to detect and handle streaming quality issues in real-time',
+      'What would you do in your first 90 days in this role?',
+      'What questions do you have about Netflix, the team, or the culture?'
     ],
     relatedCompanies: ['meta', 'spotify', 'uber', 'airbnb']
   },
