@@ -1,154 +1,253 @@
 export const companies = {
   'google': {
     name: 'Google',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Google interview with comprehensive preparation for their unique hiring committee process, technical rigor, and Googleyness assessment.',
     industry: 'Technology',
     headquarters: 'Mountain View, CA',
-    description: 'Google is a global technology leader known for its search engine, cloud computing, advertising technologies, and innovative products. Google interviews are known for being highly competitive and focused on algorithmic problem-solving and system design.',
+    description: 'Google is one of the most influential technology companies in the world, known for Search, YouTube, Android, Google Cloud, and pioneering work in AI/ML. With over 180,000 employees and $307 billion in annual revenue, Google operates in 50+ countries and impacts billions of users daily. The company is famous for its rigorous, data-driven interview process featuring a unique hiring committee system where interviewers don\'t make final decisions—instead, feedback is reviewed by an independent committee. Google interviews emphasize "Googleyness" (cultural fit, intellectual humility, comfort with ambiguity) alongside technical excellence. The company values collaboration, innovation, and candidates who can think at scale. Google\'s interview process typically takes 6-8 weeks from application to offer, with a focus on finding candidates who can grow with the company long-term.',
     interviewTips: [
-      'Practice data structures and algorithms extensively',
-      'Be prepared to explain your thought process out loud',
-      'Study system design fundamentals for senior roles',
-      'Understand Google\'s products and culture',
-      'Prepare questions about the team and projects'
+      'Practice coding on a whiteboard or Google Doc—you\'ll code while talking through your approach with the interviewer in real-time',
+      'Master data structures (arrays, trees, graphs, hash maps) and algorithms (BFS/DFS, dynamic programming, sorting) - these are fundamental to every technical interview',
+      'For system design, start with clarifying questions before diving in - ask about scale, users, latency requirements, and constraints',
+      'Demonstrate your thought process out loud - interviewers evaluate how you think, not just whether you get the right answer',
+      'Prepare for "Googleyness" questions assessing cultural fit: comfort with ambiguity, bias to action, collaborative nature, and intellectual humility',
+      'Study Google\'s products and be ready to discuss how you would improve them or discuss their technical architecture',
+      'When stuck, communicate your thinking and ask clarifying questions - interviewers often provide hints when you demonstrate strong problem-solving approach',
+      'Consider edge cases and discuss time/space complexity of your solutions without being prompted - this shows thoroughness',
+      'For behavioral questions, use the STAR method but emphasize the impact and what you learned from the experience',
+      'Research the specific team you\'re interviewing for - Google has many products with different technical challenges',
+      'Be prepared to optimize your initial solution when prompted - interviewers often ask "can you do better?"',
+      'Practice explaining complex technical concepts clearly - communication skills are heavily weighted',
+      'Prepare thoughtful questions for each interviewer about their team, projects, and experience at Google',
+      'Understand that the hiring committee reviews all feedback holistically - one mediocre interview won\'t necessarily sink you if others are strong'
     ],
     whatTheyLookFor: [
-      'Strong problem-solving abilities',
-      'Clean, efficient code',
-      'Communication skills',
-      'Googleyness and leadership',
-      'Role-related knowledge'
+      'Strong coding and algorithmic problem-solving skills with ability to write clean, efficient code',
+      'Ability to design scalable systems and think about problems at Google\'s massive scale',
+      'Googleyness: intellectual humility, collaborative nature, comfort with ambiguity, and bias for action',
+      'Clear communication skills - ability to explain your thought process and complex technical concepts',
+      'General cognitive ability - how you approach novel problems and learn new things quickly',
+      'Role-related knowledge appropriate to your level and the specific position',
+      'Leadership potential - not just managing people, but driving impact through influence',
+      'Problem-solving approach - how you break down complex problems and navigate uncertainty',
+      'Cultural fit with Google\'s collaborative, innovative, and intellectually curious environment',
+      'Growth mindset and ability to receive and incorporate feedback gracefully'
     ],
     process: [
       {
         step: 1,
-        title: 'Phone Screen (45 min)',
-        description: 'Initial technical screening with recruiter'
+        title: 'Recruiter Phone Screen',
+        description: 'Initial 30-minute conversation with a recruiter discussing your background, experience, and interest in Google. They\'ll explain the role, team, and interview process. This is also your chance to ask questions and assess fit. Recruiters evaluate communication skills and basic qualifications.'
       },
       {
         step: 2,
-        title: 'Technical Phone Interview (1 hour)',
-        description: 'Coding problems with an engineer'
+        title: 'Technical Phone Screen',
+        description: '45-60 minute technical interview conducted via Google Meet with a shared Google Doc for coding. You\'ll solve 1-2 algorithmic problems while explaining your approach. The interviewer evaluates your problem-solving ability, coding skills, and communication. Some roles may have two phone screens.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews (4-5 rounds)',
-        description: 'Mix of coding, system design, and behavioral'
+        title: 'Onsite Interviews (Virtual or In-Person)',
+        description: '4-5 rounds of 45-minute interviews including: 2-3 coding interviews (data structures, algorithms), 1 system design interview (for senior roles), and 1 Googleyness/behavioral interview. Each interviewer submits independent feedback without discussing with other interviewers. Expect to code in Google Docs and draw system diagrams.'
       },
       {
         step: 4,
         title: 'Hiring Committee Review',
-        description: 'Final decision by hiring committee'
+        description: 'Your interview packet (resume, feedback, scores) is reviewed by a hiring committee of senior Googlers who weren\'t involved in your interviews. They make hiring decisions based on the complete picture, which reduces individual interviewer bias. This process typically takes 1-2 weeks.'
+      },
+      {
+        step: 5,
+        title: 'Team Matching',
+        description: 'Once approved by the hiring committee, you\'ll meet with potential teams to find the best fit for your interests and skills. You may have several "host matching" calls with different teams before selecting one. This ensures you join a team where you\'ll thrive.'
       }
     ],
     questions: [
-      'Reverse a linked list',
-      'Design a URL shortener',
-      'Find the kth largest element in an array',
-      'Implement LRU cache',
-      'Design Google Maps'
+      'Given a binary tree, write a function to determine if it\'s a valid binary search tree',
+      'Design a URL shortener like bit.ly - discuss the architecture, database design, and how to handle high traffic',
+      'Implement an LRU (Least Recently Used) cache with O(1) get and put operations',
+      'Find the longest substring without repeating characters',
+      'Design YouTube - how would you handle video upload, storage, transcoding, and streaming at scale?',
+      'Given a large log file, how would you find the top K most frequent IP addresses?',
+      'Tell me about a time you had to work with a difficult team member - how did you handle it?',
+      'Design Google Maps\' route-finding algorithm - how would you find the shortest path between two points?',
+      'Implement a function to serialize and deserialize a binary tree',
+      'Tell me about a time when you disagreed with your manager - what did you do?',
+      'How would you design the backend for Google Docs collaborative editing?',
+      'Find all anagrams of a word in a dictionary efficiently',
+      'Describe a project you\'re proud of - what was your specific contribution and impact?',
+      'Design a distributed key-value store - discuss consistency, availability, and partition tolerance tradeoffs',
+      'What happens when you type google.com in your browser? Walk through the entire process',
+      'Tell me about a time you failed - what did you learn and how did you apply that learning?',
+      'Design a rate limiter for an API - discuss different algorithms and tradeoffs',
+      'How would you detect a cycle in a linked list? What if you needed to find where the cycle begins?',
+      'What questions do you have for me about Google, the team, or the role?'
     ],
     relatedCompanies: ['meta', 'amazon', 'microsoft', 'apple']
   },
   'apple': {
     name: 'Apple',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Ace your Apple interview with comprehensive preparation for their secretive culture, intense technical deep-dives, and uncompromising focus on quality and user experience.',
     industry: 'Technology',
     headquarters: 'Cupertino, CA',
-    description: 'Apple is a pioneering technology company known for iPhone, Mac, iPad, and innovative consumer electronics. Apple interviews focus on technical depth, product thinking, and attention to detail in hardware and software engineering.',
+    description: 'Apple is the world\'s most valuable company, known for iconic products including iPhone, Mac, iPad, Apple Watch, and services like the App Store, Apple Music, and iCloud. With $383 billion in annual revenue and over 160,000 employees, Apple sets the standard for consumer technology, seamless hardware-software integration, and user experience design. Apple\'s interview process is notably secretive and thorough, often involving 5-8 interviews focused on technical depth, attention to detail, and cultural fit. The company values candidates who share their obsession with quality, simplicity, and creating products that enrich people\'s lives. Apple looks for "T-shaped" individuals with deep expertise in one area and broad collaborative abilities. The interview process emphasizes real-world problem-solving and may include design exercises or technical deep-dives specific to the role. Apple\'s culture of secrecy means interviewers may not reveal which product or team you\'d be joining until late in the process.',
     interviewTips: [
-      'Understand Apple\'s products and ecosystem deeply',
-      'Be prepared for detailed technical deep-dives',
-      'Demonstrate attention to detail and quality',
-      'Show passion for user experience',
-      'Practice coding on a whiteboard or paper'
+      'Understand Apple\'s products deeply - use them, study their design decisions, and be ready to discuss what makes them special',
+      'Apple interviews often include technical deep-dives where interviewers probe the limits of your knowledge - be honest about what you don\'t know',
+      'Demonstrate extreme attention to detail in your code, your answers, and how you present yourself - Apple notices everything',
+      'Show genuine passion for creating products that improve people\'s lives, not just technically impressive solutions',
+      'For software roles, be prepared to discuss memory management, performance optimization, and how software interacts with hardware',
+      'Practice coding on a whiteboard or paper - some Apple interviews are conducted this way to assess how you think without IDE assistance',
+      'Apple values privacy and security highly - be ready to discuss how you\'ve considered these in your past work',
+      'The secrecy around teams means you may not know exactly what you\'ll work on - demonstrate flexibility and excitement about Apple\'s mission broadly',
+      'Prepare for scenario-based questions: "How would you improve [Apple product]?" or "Design a feature for [Apple service]"',
+      'Show you can balance technical excellence with user needs - Apple wants engineers who think about the end user, not just the code',
+      'Be ready for multiple rounds - Apple\'s process can involve 5-8 interviews and may span several days or multiple visits',
+      'Research Apple\'s values: accessibility, environmental responsibility, privacy, and inclusion - these matter in hiring decisions',
+      'Ask thoughtful questions about the team and work - but understand if interviewers can\'t share details due to Apple\'s confidential culture',
+      'Demonstrate humility and willingness to learn - Apple values collaboration over individual ego'
     ],
     whatTheyLookFor: [
-      'Technical excellence',
-      'Product sense and user focus',
-      'Attention to detail',
-      'Collaboration abilities',
-      'Passion for Apple products'
+      'Technical excellence and deep expertise in your domain, whether hardware, software, or design',
+      'Obsessive attention to detail and quality in everything you do',
+      'Genuine passion for Apple products and the company\'s mission to enrich lives',
+      'User-centric thinking - ability to balance technical decisions with user experience impact',
+      'Collaborative abilities - Apple products require seamless work across hardware, software, and services teams',
+      'Resilience and ability to work on challenging problems over extended timelines',
+      'Strong communication skills to explain complex technical concepts clearly',
+      'Intellectual curiosity and continuous learning mindset',
+      'Respect for Apple\'s culture of secrecy and confidentiality',
+      'Creativity balanced with pragmatism - innovative ideas that can actually ship'
     ],
     process: [
       {
         step: 1,
-        title: 'Recruiter Phone Screen (30 min)',
-        description: 'Discussion of background and role fit'
+        title: 'Recruiter Phone Screen',
+        description: 'Initial 30-minute call with a recruiter discussing your background, experience, and interest in Apple. The recruiter assesses basic qualifications and fit. Due to Apple\'s secretive culture, they may not reveal which specific team or product the role supports at this stage.'
       },
       {
         step: 2,
-        title: 'Technical Phone Interview (1 hour)',
-        description: 'Coding and technical questions'
+        title: 'Technical Phone Interview',
+        description: '1-hour technical interview with an engineer from the team. Expect coding problems, technical discussions, and questions about your past experience. The depth depends on the role - software roles focus on algorithms and system design; hardware roles dive into electronics, physics, or mechanical engineering.'
       },
       {
         step: 3,
-        title: 'Onsite Interviews (5-8 rounds)',
-        description: 'Technical coding, system design, and behavioral'
+        title: 'Onsite Interviews (5-8 Rounds)',
+        description: 'Extensive onsite at Apple Park or via video, typically spanning a full day or multiple days. Includes: 3-4 technical interviews with engineers (coding, system design, domain expertise), 1-2 behavioral/cultural fit interviews, and potentially a presentation or design exercise. Each interviewer assesses different aspects and submits independent feedback.'
       },
       {
         step: 4,
-        title: 'Hiring Decision',
-        description: 'Team discussion and offer decision'
+        title: 'Hiring Manager Review',
+        description: 'The hiring manager and senior leadership review all feedback and make the final decision. Apple\'s process is thorough, so decisions may take 1-3 weeks. If successful, you\'ll learn more about the specific team and projects at this stage.'
+      },
+      {
+        step: 5,
+        title: 'Offer and Team Placement',
+        description: 'Offers include competitive base salary, RSU grants, signing bonus, and Apple employee discount. Unlike some companies, Apple typically places you on a specific team rather than matching after hiring. Your recruiter will discuss team details before you accept.'
       }
     ],
     questions: [
-      'Implement a hash table from scratch',
-      'Design the iOS lock screen',
-      'Find all palindromic substrings',
-      'Explain the difference between processes and threads',
-      'How would you improve Siri?'
+      'Implement a hash table from scratch - discuss collision handling strategies and when you\'d use each',
+      'How would you improve Siri? Walk through the product thinking and technical challenges',
+      'Design the iOS lock screen - consider security, usability, and personalization',
+      'Find all palindromic substrings in a string - optimize for time and space complexity',
+      'Explain the difference between processes and threads - when would you use each?',
+      'Design a feature for Apple Music - walk through the user experience and backend architecture',
+      'Tell me about a time you had to deliver something with extremely high quality under tight deadlines',
+      'How does the iPhone manage memory? Discuss ARC vs garbage collection',
+      'Implement a thread-safe queue in your preferred language',
+      'What Apple product do you use most, and how would you improve it?',
+      'Tell me about a time you had to simplify a complex technical solution',
+      'Design an offline-first mobile application - how do you handle sync conflicts?',
+      'How would you approach debugging a performance issue in an iOS app?',
+      'Tell me about a time you received critical feedback - how did you respond?',
+      'Design the architecture for iCloud Photos - consider scale, sync, and privacy',
+      'What makes Apple\'s approach to product design different from competitors?',
+      'Implement an LFU (Least Frequently Used) cache - discuss tradeoffs vs LRU',
+      'Tell me about a technically challenging project you worked on - what made it difficult and how did you overcome obstacles?',
+      'What questions do you have about working at Apple?'
     ],
     relatedCompanies: ['google', 'microsoft', 'tesla', 'meta']
   },
   'microsoft': {
     name: 'Microsoft',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Prepare for your Microsoft interview with strategies for their growth mindset culture, technical assessments, and the important "As Appropriate" final round.',
     industry: 'Technology',
     headquarters: 'Redmond, WA',
-    description: 'Microsoft is a global leader in software, cloud computing (Azure), and enterprise solutions. Microsoft interviews emphasize technical fundamentals, system design, and cultural fit within their collaborative environment.',
+    description: 'Microsoft is a global technology leader with $211 billion in annual revenue, powering productivity through Microsoft 365, gaming through Xbox, and enterprise infrastructure through Azure (the #2 cloud platform worldwide). With 220,000+ employees across 190 countries, Microsoft has transformed under CEO Satya Nadella\'s leadership, embracing a "growth mindset" culture that values learning, empathy, and customer obsession over the competitive internal culture of the past. Microsoft\'s interview process emphasizes both technical excellence and cultural fit with their collaborative values. The unique "As Appropriate" (AA) round—a final interview with a senior leader who can make or break your candidacy—distinguishes Microsoft\'s process. The company excels at hiring people who can bridge technical depth with customer impact, and values candidates who are intellectually curious, humble, and eager to learn from failure.',
     interviewTips: [
-      'Study cloud computing concepts (Azure)',
-      'Practice behavioral questions with STAR method',
-      'Understand Microsoft\'s mission and values',
-      'Be ready to discuss scalability',
-      'Prepare examples of teamwork and leadership'
+      'Understand Microsoft\'s "growth mindset" culture—this isn\'t just a buzzword, but a fundamental shift in how they evaluate candidates. Show you embrace learning from failure',
+      'Study Azure architecture and services, especially for cloud or enterprise roles—Microsoft is heavily investing in cloud computing and AI',
+      'The "As Appropriate" (AA) round is crucial: a senior leader (often a Director or VP) makes the final call. Come prepared with your best examples and energy',
+      'Practice the STAR method for behavioral questions, but focus on the "Learning" aspect—what did you learn and how did it change your approach?',
+      'Microsoft values collaboration over competition—avoid stories where you succeeded at others\' expense or worked as a lone hero',
+      'Research the specific product team you\'re interviewing with: Office, Azure, Windows, Xbox, LinkedIn, or GitHub each have distinct cultures',
+      'For coding interviews, expect a whiteboard or shared document—think out loud and consider edge cases before diving into code',
+      'System design questions often focus on enterprise scenarios: scalability, reliability, and security for business customers',
+      'Demonstrate customer empathy—Microsoft wants engineers who think about how their work impacts real users and businesses',
+      'Show intellectual humility: be willing to say "I don\'t know" and demonstrate how you\'d figure it out',
+      'Prepare questions that show genuine curiosity about the team\'s challenges, technical direction, and how they measure success',
+      'Microsoft often asks about accessibility and inclusive design—understand how to build products for diverse users',
+      'Expect questions about tradeoffs—Microsoft interviewers want to see nuanced thinking, not just textbook answers',
+      'If you have experience with competitors\' products (AWS, Google Cloud), be prepared to discuss objectively without being negative'
     ],
     whatTheyLookFor: [
-      'Growth mindset',
-      'Technical competence',
-      'Collaborative spirit',
-      'Customer focus',
-      'Innovation and adaptability'
+      'Growth mindset—demonstrated ability to learn, adapt, and improve from failures and feedback',
+      'Technical competence appropriate to the role level, with depth in relevant technologies',
+      'Collaborative spirit—ability to work effectively with diverse teams and build on others\' ideas',
+      'Customer focus—understanding of how technical decisions impact real users and businesses',
+      'Innovation and adaptability in a rapidly changing technology landscape',
+      'Clear communication skills to explain complex technical concepts to various audiences',
+      'Intellectual humility combined with confidence—strong opinions loosely held',
+      'Drive for impact—not just completing tasks, but understanding why they matter',
+      'Empathy for users, teammates, and partners',
+      'Cultural contribution—what unique perspective or experience do you bring to Microsoft?'
     ],
     process: [
       {
         step: 1,
-        title: 'Recruiter Screen (30 min)',
-        description: 'Initial conversation about role and background'
+        title: 'Recruiter Screen',
+        description: '30-minute call with a Microsoft recruiter discussing your background, interest in the role, and logistics. They\'ll explain the team, interview process, and answer your questions. This is also an assessment of communication skills and basic fit. Recruiters often share tips for succeeding in later rounds.'
       },
       {
         step: 2,
-        title: 'Technical Screen (1 hour)',
-        description: 'Coding interview with engineer'
+        title: 'Technical Phone Screen',
+        description: '1-hour technical interview via Microsoft Teams with an engineer. Expect coding problems on a shared document, discussing your approach as you work. Some roles include a second phone screen. Interviewers assess problem-solving skills, coding ability, and how you handle hints and feedback.'
       },
       {
         step: 3,
-        title: 'Onsite Loop (4-5 rounds)',
-        description: 'Technical, system design, and behavioral interviews'
+        title: 'Onsite Interview Loop (4-5 Rounds)',
+        description: 'Full day of interviews at a Microsoft office or virtually, including: 2-3 coding/technical interviews, 1 system design interview (for senior roles), and 1 behavioral interview. Each interviewer evaluates different competencies and provides independent written feedback. Interviews are typically 45-60 minutes each.'
       },
       {
         step: 4,
         title: 'As Appropriate (AA) Round',
-        description: 'Final interview with senior leader if progressing'
+        description: 'The final and often deciding interview with a senior leader (typically a Director, Partner, or VP) who reviews all previous feedback and makes the hire/no-hire decision. This 45-60 minute interview assesses overall fit, leadership potential, and whether you meet Microsoft\'s hiring bar. Come prepared—this person has significant influence over your outcome.'
+      },
+      {
+        step: 5,
+        title: 'Offer Decision',
+        description: 'If the AA approves, you\'ll receive a call from your recruiter, typically within a few days to a week. Microsoft offers include base salary, signing bonus, annual bonus target, and RSU grants. Offers are generally competitive with other major tech companies, with some variation by team and location.'
       }
     ],
     questions: [
-      'Implement a function to merge two sorted arrays',
-      'Design a parking lot system',
-      'Reverse words in a string',
-      'Tell me about a time you disagreed with a team member',
-      'Design Azure blob storage'
+      'Design a parking lot system - walk through the object-oriented design and handle various scenarios',
+      'Implement a function to merge two sorted arrays in place with O(1) extra space',
+      'Tell me about a time you failed and what you learned from it - Microsoft specifically looks for growth mindset',
+      'Design Azure Blob Storage - discuss scale, redundancy, access patterns, and cost optimization',
+      'Reverse words in a string while preserving whitespace - discuss edge cases and optimize',
+      'Tell me about a time you disagreed with a team member - how did you resolve it?',
+      'Design a URL shortening service - discuss the full system from frontend to database to analytics',
+      'How would you approach building a feature that 1 billion people will use?',
+      'Implement an in-memory file system with basic operations (mkdir, ls, addContentToFile, readContentFromFile)',
+      'Tell me about a time you had to influence without authority',
+      'Design Microsoft Teams\' messaging backend - consider real-time delivery, offline support, and scale',
+      'What\'s your approach to making technical decisions with incomplete information?',
+      'Find the median of two sorted arrays - optimize for O(log(min(n,m))) time complexity',
+      'Tell me about a time you helped a teammate succeed',
+      'Design an autocomplete/typeahead system - discuss data structures, ranking, and latency requirements',
+      'How do you stay current with new technologies? Give a recent example',
+      'Tell me about a project where you had to balance multiple competing priorities',
+      'Why Microsoft? What specifically attracts you to this team and role?',
+      'What questions do you have for me about Microsoft, the team, or the role?'
     ],
     relatedCompanies: ['google', 'amazon', 'oracle', 'salesforce']
   },
