@@ -9361,157 +9361,257 @@ export const companies = {
 
   'tripadvisor': {
     name: 'TripAdvisor',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your TripAdvisor interview with expert preparation for the world\'s largest travel guidance platform, covering user-generated content, review authenticity, and their mission to help people around the world plan and book the perfect trip.',
     industry: 'Technology',
     headquarters: 'Needham, MA',
-    description: 'TripAdvisor is the world\'s largest travel guidance platform with reviews, recommendations, and bookings. Known for user-generated content, travel community, comprehensive reviews, and helping travelers plan trips. Interviews emphasize technical skills, community understanding, and product sense.',
+    description: 'TripAdvisor is the world\'s largest travel guidance platform, with 1+ billion reviews and opinions covering 8+ million accommodations, restaurants, experiences, airlines, and cruises. Founded in 2000, TripAdvisor pioneered user-generated travel content and built the internet\'s most comprehensive travel review database. With $1.5+ billion in annual revenue and 2,500+ employees, TripAdvisor operates in 40+ markets and 20+ languages. The platform has evolved from a review site to a full travel ecosystem including bookings, experiences (Viator), and restaurant reservations (TheFork). TripAdvisor\'s business model combines advertising, booking referrals, and direct bookings. The interview process emphasizes technical skills, community understanding, and passion for helping travelers make better decisions.',
     interviewTips: [
-      'Understand user-generated content and review platforms',
-      'Learn about TripAdvisor\'s community and trust mechanisms',
-      'Be prepared for coding or product questions',
-      'Show passion for travel and helping travelers',
-      'Research TripAdvisor\'s business model and monetization'
+      'Understand TripAdvisor\'s evolution: from review aggregation to full travel platform including Viator (experiences) and TheFork (restaurants)',
+      'Study review authenticity and fraud detection: TripAdvisor invests heavily in detecting fake reviews—this is core to their value proposition',
+      'Research their business model: advertising (display and pay-per-click), booking referrals, and direct bookings on Viator/TheFork',
+      'For engineering roles: Prepare for system design covering review platforms, recommendation systems, and content moderation at scale',
+      'Understand the traveler decision journey: how reviews influence where people go, stay, eat, and what they do',
+      'Study their competitive landscape: Google Travel, Yelp, Booking.com reviews—know TripAdvisor\'s differentiation through depth and breadth',
+      'Research Viator (experiences platform): tours and activities is a growing segment distinct from accommodation reviews',
+      'Prepare for trust and safety questions: how do you build and maintain trust in user-generated content?',
+      'Show genuine passion for travel and helping travelers—TripAdvisor wants people who understand the value of authentic guidance',
+      'Understand their community dynamics: reviewers, travelers, businesses—multiple stakeholder perspectives',
+      'Research their Boston-area culture: TripAdvisor is headquartered in Needham, MA with a collaborative, mission-driven culture',
+      'Prepare behavioral examples showing community empathy, data-driven thinking, and product sense',
+      'Study their SEO and content strategy—organic search drives significant traffic',
+      'Practice discussing user-generated content platforms and authenticity challenges'
     ],
     whatTheyLookFor: [
-      'Technical or product skills',
-      'Community and user empathy',
-      'Trust and safety awareness',
-      'Data-driven thinking',
-      'Travel passion'
+      'Technical skills in engineering, product, or relevant domains',
+      'Deep understanding of user-generated content and community dynamics',
+      'Passion for travel and helping travelers make decisions',
+      'Trust and safety awareness—understanding authenticity challenges',
+      'Data-driven thinking and analytical rigor',
+      'Product sense for content and discovery platforms',
+      'Collaborative approach across product, engineering, and content teams',
+      'Clear communication across contexts',
+      'Customer empathy for travelers and business partners',
+      'Cultural fit with TripAdvisor\'s mission-driven, collaborative values'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through TripAdvisor careers'
+        title: 'Online Application',
+        description: 'Submit your application through TripAdvisor Careers. Highlight experience in content platforms, travel technology, or relevant domains. Show passion for travel and helping people discover great experiences.'
       },
       {
         step: 2,
-        title: 'Phone Interview',
-        description: 'Recruiter and technical screening'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter covering your background and interest in TripAdvisor. They\'ll assess role fit and cultural alignment. Come prepared with specific reasons why TripAdvisor and questions about their product direction.'
       },
       {
         step: 3,
-        title: 'Virtual Interviews (3-4 rounds)',
-        description: 'Technical, product, behavioral'
+        title: 'Technical/Functional Interview (60 min)',
+        description: 'For engineering: coding interview with algorithmic problems. For product/design: case studies around review platforms or travel features. Interviewers evaluate problem-solving and communication.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and offer'
+        title: 'Virtual Onsite (3-4 rounds)',
+        description: 'Multiple interviews including: technical rounds (coding, system design), product sense discussions, and behavioral rounds. Expect questions about trust, content platforms, and user experience. Each round is 45-60 minutes.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager about role and team. Decisions typically come within 1-2 weeks. TripAdvisor offers competitive salary, equity, and benefits including travel perks.'
       }
     ],
     questions: [
-      'How would you detect fake reviews?',
-      'Design a recommendation system for restaurants',
-      'Improve traveler trust in user reviews',
-      'What makes TripAdvisor unique in travel?',
-      'Why TripAdvisor?'
+      'How would you detect and prevent fake reviews on the platform?',
+      'Design a recommendation system for restaurants based on user preferences and reviews',
+      'Improve traveler trust in user reviews—what would you prioritize?',
+      'What makes TripAdvisor unique in the travel space compared to Google or Booking.com?',
+      'Why TripAdvisor? What excites you about travel guidance?',
+      'Design TripAdvisor\'s review ranking algorithm—what factors would you consider?',
+      'How would you build a system to match travelers with relevant experiences?',
+      'Design a content moderation system for millions of reviews',
+      'Tell me about a time you built something to help users make better decisions',
+      'How would you improve the mobile experience for trip planning?',
+      'Design a system to identify and promote high-quality reviewers',
+      'How would you approach internationalization for reviews and content?',
+      'Describe a time you balanced multiple stakeholder needs (e.g., travelers vs. businesses)',
+      'How would you integrate Viator experiences into the main TripAdvisor platform?',
+      'Design a traveler profile system that improves recommendations over time',
+      'What metrics would you use to measure review quality and platform health?',
+      'Tell me about a time you used data to improve a product',
+      'How would you approach building trust with business owners who receive reviews?',
+      'What questions do you have about TripAdvisor\'s technology or culture?'
     ],
     relatedCompanies: ['yelp', 'google-maps', 'expedia', 'booking']
   },
 
   'adp': {
     name: 'ADP (Automatic Data Processing)',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Excel in your ADP interview with comprehensive preparation for the human capital management leader, covering payroll processing, HR technology, and their mission to power the working world.',
     industry: 'Technology',
     headquarters: 'Roseland, NJ',
-    description: 'ADP is a leading provider of human capital management (HCM) software and payroll processing services. Known for payroll expertise, HR solutions, compliance, and serving businesses of all sizes. Interviews emphasize technical skills, customer service, and domain knowledge.',
+    description: 'ADP is the world\'s largest provider of human capital management (HCM) solutions, processing payroll for 1 in 6 workers in the United States and serving 1+ million clients globally. Founded in 1949 as a manual payroll processing company, ADP has evolved into a comprehensive HCM technology leader with $18+ billion in annual revenue and 60,000+ employees. The platform handles payroll, HR management, time and attendance, benefits administration, talent management, and compliance. ADP\'s data from processing payroll for 30+ million workers powers the ADP National Employment Report, a key economic indicator. The interview process emphasizes technical skills, customer service orientation, and understanding of the complex payroll and HR domain.',
     interviewTips: [
-      'Understand payroll processing and HR software',
-      'Learn about ADP\'s product portfolio and services',
-      'Be prepared for technical or operational questions',
-      'Show customer service orientation',
-      'Research compliance and tax regulations knowledge'
+      'Understand ADP\'s scale and impact: they process payroll for 1 in 6 US workers—imagine the complexity and responsibility',
+      'Study their product portfolio: RUN (small business), Workforce Now (mid-market), Vantage (enterprise), and specialized solutions',
+      'Research the ADP National Employment Report: their payroll data is so comprehensive it\'s a trusted economic indicator',
+      'For engineering roles: Prepare for system design covering high-reliability processing, data security, and compliance automation',
+      'Understand payroll complexity: tax calculations across jurisdictions, garnishments, benefits deductions, year-end processing',
+      'Study HR and compliance challenges: ACA, FMLA, state regulations—ADP helps businesses navigate complex requirements',
+      'Research their competitive landscape: Paychex (SMB), Workday (enterprise HCM), Paylocity, Gusto—know ADP\'s differentiation',
+      'Prepare for questions about accuracy and reliability—payroll errors directly impact people\'s lives',
+      'Show genuine interest in helping businesses and workers—ADP\'s mission is about powering the working world',
+      'Understand their data advantage: aggregated insights from millions of employers help clients benchmark and improve',
+      'Research their innovation in mobile, AI, and predictive analytics for HR',
+      'Prepare behavioral examples showing customer focus, attention to detail, and handling complexity',
+      'Understand the recurring revenue business model and importance of client retention',
+      'Practice discussing compliance and regulatory challenges in HR'
     ],
     whatTheyLookFor: [
-      'Technical or domain expertise',
-      'Customer service excellence',
-      'Attention to detail and accuracy',
-      'Problem-solving abilities',
-      'Compliance awareness'
+      'Technical skills with emphasis on reliability and accuracy',
+      'Customer service excellence and genuine care for clients',
+      'Attention to detail—payroll accuracy is critical',
+      'Understanding of payroll, HR, or compliance domains (or willingness to learn)',
+      'Problem-solving ability for complex multi-stakeholder scenarios',
+      'Clear communication across technical and business contexts',
+      'Collaborative approach in large, established organization',
+      'Data-driven thinking and analytical rigor',
+      'Adaptability to changing regulations and requirements',
+      'Cultural fit with ADP\'s client-focused, professional values'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Submit resume through ADP careers'
+        title: 'Online Application',
+        description: 'Submit your application through ADP Careers. Highlight experience in HR technology, financial systems, or customer-facing roles. Show attention to detail and customer service orientation.'
       },
       {
         step: 2,
-        title: 'Phone Screen',
-        description: 'Initial recruiter conversation'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter covering your background and interest in ADP. They\'ll explain the role and ADP\'s culture. Come prepared with questions about the team and ADP\'s technology evolution.'
       },
       {
         step: 3,
-        title: 'Interview Rounds (2-3)',
-        description: 'Technical, behavioral, or scenario-based'
+        title: 'Technical/Functional Interview (60 min)',
+        description: 'For engineering: technical interview covering system design, coding, or domain expertise. For other roles: scenario-based discussions around client situations. Interviewers evaluate problem-solving and domain understanding.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Background check and job offer'
+        title: 'Panel/Loop Interview (2-3 rounds)',
+        description: 'Multiple interviews with team members and hiring managers. Expect behavioral questions, technical deep-dives, and scenarios around payroll/HR challenges. ADP values collaboration—you may meet cross-functional stakeholders.'
+      },
+      {
+        step: 5,
+        title: 'Hiring Manager & Offer',
+        description: 'Final conversation with hiring manager about role details. Background check is standard given the sensitive financial data ADP handles. Offers include competitive salary, bonus, and comprehensive benefits.'
       }
     ],
     questions: [
-      'How does payroll processing work?',
-      'Describe your experience with HR or payroll systems',
-      'How would you handle a payroll discrepancy?',
-      'What compliance challenges do employers face?',
-      'Why ADP?'
+      'Explain how payroll processing works from timesheet to paycheck',
+      'Describe your experience with HR, payroll, or financial systems',
+      'How would you handle a payroll discrepancy discovered after paychecks were issued?',
+      'What compliance challenges do employers face with multi-state workforces?',
+      'Why ADP? What interests you about human capital management?',
+      'Design a system to calculate taxes correctly across thousands of jurisdictions',
+      'How would you ensure 99.99% accuracy in payroll processing?',
+      'Design an onboarding workflow for new employees across benefits, payroll, and compliance',
+      'Tell me about a time you helped a customer through a difficult situation',
+      'How would you build a real-time workforce analytics dashboard?',
+      'Design a system to handle year-end W-2 processing for millions of workers',
+      'How would you approach data security for sensitive payroll information?',
+      'Describe a time you caught an error before it became a bigger problem',
+      'How would you design ADP\'s mobile app for employees to access pay information?',
+      'Design a compliance monitoring system that alerts clients to regulation changes',
+      'What metrics would you use to measure client satisfaction?',
+      'Tell me about a time you simplified a complex process',
+      'How would you approach integrating ADP with other enterprise systems?',
+      'What questions do you have about ADP\'s technology or culture?'
     ],
     relatedCompanies: ['paychex', 'paylocity', 'workday', 'gusto']
   },
 
   'paychex': {
     name: 'Paychex',
-    tagline: 'Complete interview preparation guide with real questions, expert tips, and proven strategies.',
+    tagline: 'Master your Paychex interview with expert preparation for the small business HR partner, covering payroll solutions, HR outsourcing, and their mission to be the leading provider of HR solutions for small and medium-sized businesses.',
     industry: 'Technology',
     headquarters: 'Rochester, NY',
-    description: 'Paychex is a leading provider of payroll, HR, and benefits outsourcing solutions for small to medium-sized businesses. Known for serving SMBs, personalized service, comprehensive HR solutions, and technology platforms. Interviews emphasize customer service, domain knowledge, and relationship skills.',
+    description: 'Paychex is a leading provider of payroll, HR, and benefits solutions, serving 740,000+ clients with a focus on small and medium-sized businesses. Founded in 1971 by Tom Golisano with a $3,000 loan, Paychex grew by serving businesses too small for ADP\'s traditional model. With $5+ billion in annual revenue and 16,000+ employees, Paychex combines cloud-based technology with personalized service through dedicated HR professionals. Their sweet spot is businesses with 1-500 employees who need comprehensive HR support without building internal departments. The company\'s Rochester headquarters reflects a relationship-driven, service-oriented culture. The interview process emphasizes customer service excellence, domain knowledge, and genuine care for small business success.',
     interviewTips: [
-      'Understand small business payroll and HR needs',
-      'Learn about Paychex\'s services and technology',
-      'Be prepared for customer service or technical questions',
-      'Show empathy for small business challenges',
-      'Research Paychex\'s approach to SMB market'
+      'Understand Paychex\'s SMB focus: they specialize in businesses too small for enterprise HCM but needing more than basic payroll',
+      'Study their service model: technology plus dedicated HR professionals—not just software but relationship-driven service',
+      'Research their product portfolio: Paychex Flex (integrated platform), PEO services (HR outsourcing), retirement services, and insurance',
+      'For engineering roles: Prepare for system design covering multi-tenant SaaS, integrations, and serving diverse small business needs',
+      'Understand small business challenges: limited HR expertise, compliance complexity, wearing multiple hats—Paychex solves these',
+      'Study PEO (Professional Employer Organization) model: Paychex becomes co-employer and handles HR/benefits/compliance',
+      'Research competitive landscape: ADP (larger clients), Gusto (tech-forward SMB), QuickBooks Payroll—know Paychex\'s service differentiation',
+      'Prepare for customer empathy questions: small business owners have different needs than enterprise HR departments',
+      'Show genuine interest in helping small businesses succeed—Paychex culture is deeply relationship-focused',
+      'Understand their acquisition strategy: Paychex has grown through acquiring regional payroll providers',
+      'Research their retirement services business—401(k) administration for small businesses is significant',
+      'Prepare behavioral examples showing customer service, building trust, and solving problems for non-experts',
+      'Understand the Rochester, NY culture: stable, relationship-oriented, community-focused',
+      'Practice discussing how you\'d explain complex HR topics to small business owners'
     ],
     whatTheyLookFor: [
-      'Customer service excellence',
-      'Payroll or HR knowledge',
-      'Relationship building skills',
-      'Problem-solving abilities',
-      'Attention to detail'
+      'Customer service excellence and genuine care for clients',
+      'Understanding of small business needs and challenges',
+      'Relationship building skills and trust development',
+      'Attention to detail and accuracy in payroll/HR context',
+      'Problem-solving ability with empathy for non-expert clients',
+      'Clear communication of complex topics to business owners',
+      'Technical skills appropriate to role (engineering, product, etc.)',
+      'Collaborative approach in service-oriented culture',
+      'Patience and dedication to client success',
+      'Cultural fit with Paychex\'s relationship-driven, community values'
     ],
     process: [
       {
         step: 1,
-        title: 'Application',
-        description: 'Apply through Paychex careers'
+        title: 'Online Application',
+        description: 'Submit your application through Paychex Careers. Highlight customer service experience, small business exposure, or relevant HR/payroll knowledge. Show genuine care for helping businesses succeed.'
       },
       {
         step: 2,
-        title: 'Phone Interview',
-        description: 'Recruiter screening conversation'
+        title: 'Recruiter Screen (30-45 min)',
+        description: 'Initial conversation with a recruiter covering your background and interest in Paychex. They\'ll assess customer service orientation and cultural fit. Come prepared with questions about their service model and client relationships.'
       },
       {
         step: 3,
-        title: 'Interview Rounds (2-3)',
-        description: 'Behavioral and functional interviews'
+        title: 'Hiring Manager Interview (45-60 min)',
+        description: 'Conversation with the hiring manager covering your experience, approach to customer service, and role-specific skills. For technical roles: expect technical questions. For client-facing: expect scenario discussions.'
       },
       {
         step: 4,
-        title: 'Offer',
-        description: 'Final decision and job offer'
+        title: 'Panel/Team Interview (2-3 rounds)',
+        description: 'Meet with team members and cross-functional partners. Expect behavioral questions about handling client situations, building relationships, and solving problems. Paychex values teamwork and service mindset.'
+      },
+      {
+        step: 5,
+        title: 'Final Interview & Offer',
+        description: 'Final conversation, potentially with senior leadership for some roles. Decisions typically come within 1-2 weeks. Paychex offers competitive salary, bonus potential, and strong benefits.'
       }
     ],
     questions: [
-      'How would you help a small business owner with payroll?',
-      'Describe your experience with SMBs or HR services',
-      'What challenges do small businesses face with compliance?',
-      'How do you build trust with clients?',
-      'Why Paychex?'
+      'How would you help a small business owner who is overwhelmed by payroll and HR?',
+      'Describe your experience working with small businesses or in HR services',
+      'What compliance challenges do small businesses face that large companies don\'t worry about?',
+      'How do you build trust with clients who may be skeptical of outsourcing HR?',
+      'Why Paychex? What draws you to serving small businesses?',
+      'Design a simple onboarding experience for a 20-person company\'s first payroll',
+      'How would you explain 401(k) administration to a small business owner?',
+      'Design a mobile app for small business owners to manage payroll on the go',
+      'Tell me about a time you turned a frustrated customer into a satisfied one',
+      'How would you help a client navigate a complex compliance situation?',
+      'Design a system to proactively alert clients about upcoming regulatory changes',
+      'How would you approach a client who is considering switching to a competitor?',
+      'Describe a time you went above and beyond for a customer',
+      'How would you handle a situation where a client made an error but blames Paychex?',
+      'Design a training program for new HR service representatives',
+      'What metrics would you use to measure client relationship health?',
+      'Tell me about a time you had to learn a complex domain quickly',
+      'How would you explain the value of PEO services to a skeptical business owner?',
+      'What questions do you have about Paychex\'s culture or client approach?'
     ],
     relatedCompanies: ['adp', 'gusto', 'square-payroll', 'quickbooks-payroll']
   }
+
 }
