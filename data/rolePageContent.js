@@ -12989,130 +12989,189 @@ export const rolePageContent = {
   },
   'apple': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Apple create the technologies that power iPhone, iPad, Mac, Apple Watch, and services used by over a billion people. You'll work on challenging problems at the intersection of hardware and software, with a focus on user experience, performance, and innovation. Apple values deep collaboration across hardware, software, and design teams.",
+      roleDescription: "Software Engineers at Apple create the technologies that power iPhone, iPad, Mac, Apple Watch, Apple Vision Pro, and services used by over 2 billion active devices worldwide. You'll work at the unique intersection of hardware and software that defines Apple's approach - building iOS, macOS, watchOS, visionOS, and the services layer including iCloud, Apple Music, Apple Pay, and Siri. Apple's engineering culture emphasizes deep craftsmanship, user experience obsession, and the pursuit of perfection in every detail. Unlike other tech companies, Apple engineers work in tight collaboration with hardware teams, often accessing unreleased devices months before launch to optimize software specifically for Apple silicon. The legendary secrecy culture means working on products the world doesn't know exist yet. Engineers at Apple enjoy working on products that genuinely change how people live, with the satisfaction of seeing their work in the hands of billions. The engineering ladder progresses from ICT2 through ICT6 (Distinguished Engineer), with clear expectations at each level and opportunities to specialize deeply in frameworks, systems, or applications.",
       responsibilities: [
-        "Design and implement features for iOS, macOS, watchOS, or internal systems",
-        "Collaborate with design, hardware, and QA teams to deliver polished products",
-        "Write efficient, maintainable code with strong emphasis on performance",
-        "Participate in code reviews and contribute to technical architecture",
-        "Debug complex issues across the full stack and multiple devices"
+        "Design, develop, and optimize features for iOS, macOS, watchOS, visionOS, or Apple services",
+        "Write high-quality, performant code in Swift, Objective-C, C++, or other languages as needed",
+        "Collaborate closely with hardware teams to optimize software for Apple silicon (M-series, A-series chips)",
+        "Work with Human Interface Design teams to implement pixel-perfect, accessible user experiences",
+        "Participate in rigorous code reviews ensuring code quality, security, and maintainability",
+        "Debug complex issues across the full stack, often involving hardware-software interactions",
+        "Optimize for Apple's unique constraints: battery life, memory, performance, and privacy",
+        "Contribute to frameworks and APIs used by millions of third-party developers",
+        "Participate in on-call rotations for critical services (varies by team)",
+        "Mentor junior engineers and contribute to team's technical excellence"
       ],
       growthOpportunities: [
-        "Work on products used by over 1 billion customers globally",
-        "Deep integration between hardware and software engineering",
-        "Opportunity to work on next-generation products (AR/VR, AI)",
-        "Career paths to Senior/Staff Engineer or management",
-        "Access to cutting-edge hardware and technologies before public release"
+        "Work on products used by over 2 billion active devices and over 1 billion customers globally",
+        "Deep hardware-software integration experience unique to Apple's vertical integration model",
+        "Opportunity to work on next-generation products: Vision Pro, future devices, Apple Intelligence",
+        "Clear career ladder from ICT2 to Distinguished Engineer (ICT6) with defined expectations",
+        "Access to unreleased hardware and technologies months before public announcement",
+        "Path to technical leadership (Principal Engineer, Distinguished Engineer) or management",
+        "Work alongside world-class engineers who built iOS, Swift, and macOS",
+        "Internal mobility across teams: iOS, macOS, Services, Hardware Technologies, AI/ML",
+        "Shape frameworks and APIs used by millions of developers worldwide"
       ],
       interviewProcess: [
         {
           step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Initial 30-minute conversation about your background, interest in Apple, and alignment with the role.",
+          title: "Recruiter Screen",
+          description: "Initial 30-minute conversation with an Apple recruiter to discuss your background, experience, and interest in Apple. The recruiter assesses basic qualifications, explains the interview process, and gathers information about your preferred product areas. Be prepared to discuss why you want to work at Apple specifically, your experience with Apple platforms, and what type of engineering work interests you most.",
           duration: "30 minutes"
         },
         {
           step: 2,
           title: "Technical Phone Screen",
-          description: "45-60 minute coding interview focused on algorithms, data structures, and problem-solving approach.",
+          description: "45-60 minute technical interview with an Apple engineer. Expect coding problems focused on data structures and algorithms, plus discussion of your past projects. Apple phone screens often include platform-specific questions if you're interviewing for iOS/macOS roles. The interviewer evaluates coding ability, problem-solving approach, and communication skills. You'll code in a shared document while explaining your thought process.",
           duration: "45-60 minutes"
         },
         {
           step: 3,
-          title: "On-site Interview Loop",
-          description: "Full day with 4-6 interviews covering coding, system design, past projects, and team fit. Expect deep technical discussions.",
+          title: "On-site/Virtual Interview Loop",
+          description: "Full day of 5-6 interviews including: (1) Two coding interviews - algorithmic problems with emphasis on efficiency and code quality; (2) System design interview - design a system relevant to Apple (photo library, streaming service, notification system); (3) Domain-specific interview - deep dive into your expertise area (iOS frameworks, systems programming, etc.); (4) Behavioral/Culture interview - assess fit with Apple's values, collaboration style, and attention to detail; (5) Hiring manager conversation - discuss the specific team, role expectations, and your career goals. Each interviewer evaluates independently and submits written feedback.",
           duration: "Full day (5-6 hours)"
         },
         {
           step: 4,
-          title: "Team Match & Offer",
-          description: "After passing interviews, you may meet with specific teams to find the best fit for your skills and interests."
+          title: "Debrief & Hiring Decision",
+          description: "Interview feedback is compiled and reviewed by the hiring team. Apple's hiring process involves consensus-building among interviewers. The hiring manager makes the final decision with input from all interviewers. This process typically takes 1-2 weeks. Apple looks for candidates who demonstrate both technical excellence and cultural fit.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Team Placement & Offer",
+          description: "Once approved, you'll receive an offer specifying the team and role. Apple offers include base salary, signing bonus, and RSU grants. Unlike some companies, Apple typically matches you to a specific team before offer rather than doing post-hire team matching. Offers are competitive with significant equity components.",
+          duration: "1-2 weeks"
         }
       ],
       technicalQuestions: [
-        "Design the photo library system for iOS. How would you handle storage, sync, and search?",
-        "Implement an autocomplete system for the iOS keyboard with memory constraints.",
-        "How would you optimize battery life in a background location tracking app?",
-        "Design a music streaming service like Apple Music. Focus on offline playback and sync.",
-        "Implement a custom view that efficiently renders thousands of items (like Photos grid).",
-        "How would you detect memory leaks in an iOS application?",
-        "Design the notification system for iOS. Consider delivery, batching, and user preferences.",
-        "Implement a caching system for app data with limited storage.",
-        "How would you design Handoff between iPhone and Mac?",
-        "Optimize an algorithm to run efficiently on both iPhone and Apple Watch."
+        "Design the photo library system for iOS. How would you handle storage, sync across devices, and search?",
+        "Implement an autocomplete system for the iOS keyboard with strict memory constraints.",
+        "How would you optimize battery life in a background location tracking app while maintaining accuracy?",
+        "Design Apple Music's offline playback system. How do you handle sync, storage limits, and DRM?",
+        "Implement a custom UICollectionView layout that efficiently renders thousands of items like the Photos grid.",
+        "How would you detect and debug memory leaks in an iOS application? Walk through your tools and approach.",
+        "Design the notification system for iOS including delivery, batching, priority, and user preferences.",
+        "Implement an LRU cache for app data with configurable size limits and persistence.",
+        "Design Handoff between iPhone and Mac. How do you handle state transfer and security?",
+        "Optimize an image processing algorithm to run efficiently on both iPhone and Apple Watch.",
+        "Design iCloud sync for a note-taking app. How do you handle conflicts and offline edits?",
+        "Implement a gesture recognizer that can distinguish between tap, long press, and swipe.",
+        "How would you design the App Store's search and recommendation system?",
+        "Design a system to deliver timely sports scores while minimizing battery impact.",
+        "Implement a thread-safe download manager that handles multiple concurrent downloads with prioritization.",
+        "How would you architect a health data aggregation system that maintains user privacy?"
       ],
       behavioralQuestions: [
-        "Tell me about a time when you obsessed over a detail that improved user experience.",
-        "Describe a situation where you had to balance multiple competing priorities.",
-        "Give an example of when you challenged a design or technical decision.",
-        "Tell me about your most technically challenging project. What made it difficult?",
-        "Describe a time when you collaborated across multiple teams to ship a feature.",
-        "Give an example of when you had to optimize performance or reduce memory usage.",
-        "Tell me about a time when you disagreed with your team's approach.",
-        "Describe how you've mentored or helped other engineers grow."
+        "Tell me about a time when you obsessed over a small detail that significantly improved user experience.",
+        "Describe a situation where you had to balance multiple competing priorities with tight deadlines.",
+        "Give an example of when you challenged a design or technical decision. What was the outcome?",
+        "Tell me about your most technically challenging project. What made it difficult and how did you overcome it?",
+        "Describe a time when you collaborated across multiple teams (design, hardware, QA) to ship a feature.",
+        "Give an example of when you optimized performance, reduced memory usage, or improved battery life.",
+        "Tell me about a time when you disagreed with your team's approach. How did you handle it?",
+        "Describe how you've mentored or helped other engineers grow in their careers.",
+        "Tell me about a time you had to make a technical decision with incomplete information.",
+        "Give an example of when you went above and beyond to deliver an exceptional result.",
+        "Describe a situation where you received critical feedback. How did you respond?",
+        "Tell me about a time you had to simplify a complex technical concept for non-technical stakeholders.",
+        "Describe your process for staying current with new technologies and best practices.",
+        "Tell me about a project that failed or didn't meet expectations. What did you learn?"
       ],
       whatTheyLookFor: [
-        "Passion for creating exceptional user experiences",
-        "Deep technical skills with attention to detail",
-        "Ability to work across hardware and software boundaries",
-        "Collaboration across design, engineering, and product teams",
-        "Problem-solving with resource constraints (battery, memory, performance)",
-        "Ownership and accountability for code quality",
-        "Innovation mindset and creative thinking",
-        "Cultural fit with Apple's values of excellence and privacy"
+        "Passion for creating exceptional user experiences with obsessive attention to detail",
+        "Deep technical skills with strong fundamentals in data structures, algorithms, and system design",
+        "Ability to work across hardware-software boundaries understanding constraints unique to devices",
+        "Collaboration skills to work effectively with design, hardware, and cross-functional teams",
+        "Problem-solving with resource constraints: battery, memory, performance, and thermal limitations",
+        "Code quality focus with emphasis on maintainability, testing, and documentation",
+        "Innovation mindset with creative approaches to technical challenges",
+        "Cultural alignment with Apple's values: privacy, accessibility, environmental responsibility",
+        "Strong communication skills for technical discussions and design reviews",
+        "Growth mindset with continuous learning and improvement orientation"
       ],
       interviewTips: [
-        "Use Apple products deeply - understand iOS, macOS features and user experience",
-        "Focus on user experience in your answers - Apple prioritizes great UX",
-        "Be ready to discuss performance optimization and resource constraints",
-        "Understand hardware-software integration challenges unique to Apple",
-        "Prepare examples of attention to detail and polish in your work",
-        "Study iOS frameworks if interviewing for iOS roles (UIKit, SwiftUI, Core Data)",
-        "Be prepared for deep technical discussions - Apple engineers go deep",
-        "Show passion for the product you'd be working on"
+        "Use Apple products extensively - understand iOS, macOS features, gestures, and design patterns deeply",
+        "Focus on user experience in every answer - Apple prioritizes delightful UX over raw features",
+        "Be ready to discuss performance optimization, memory management, and battery considerations",
+        "Understand hardware-software integration challenges unique to Apple's approach",
+        "Prepare examples showing attention to detail and polish in your previous work",
+        "Study Apple's Human Interface Guidelines - understand Apple's design philosophy",
+        "For iOS roles, know UIKit, SwiftUI, Core Data, Combine, and relevant frameworks deeply",
+        "Practice coding in Swift or Objective-C if interviewing for Apple platform roles",
+        "Be prepared for deep technical discussions - Apple engineers probe until they find your limits",
+        "Show genuine passion for the product area you'd be working on - enthusiasm matters",
+        "Prepare thoughtful questions about the team, codebase, and technical challenges",
+        "Understand Apple's privacy philosophy and be ready to discuss privacy-preserving approaches",
+        "Practice explaining your thought process while coding - communication is essential",
+        "Review your past projects to discuss trade-offs, challenges, and what you learned"
+      ],
+      salary: {
+        min: 140000,
+        max: 250000
+      },
+      compensation: [
+        "Base salary: $140-250K depending on level (ICT2-ICT5) and location (higher in Bay Area)",
+        "Annual performance bonus: 5-15% of base salary based on individual and company performance",
+        "Initial RSU grant: $100-400K+ vesting over 4 years (higher for senior levels)",
+        "Stock refresh grants: Annual RSU refreshes based on performance",
+        "Signing bonus: $20-100K depending on level and competing offers",
+        "401(k) matching: 50% match up to 6% of salary",
+        "Employee Stock Purchase Plan (ESPP): 15% discount on Apple stock",
+        "Comprehensive health insurance: Medical, dental, vision with excellent coverage",
+        "Fitness reimbursement: Gym membership and wellness programs",
+        "Product discounts: 25% off Apple products, employee purchase program",
+        "Education assistance: Tuition reimbursement for relevant coursework",
+        "Total first-year compensation typically ranges from $200K (ICT2) to $500K+ (ICT5)"
       ],
       dayInLife: {
-        overview: "Apple engineers work in focused, collaborative teams building products that delight users. Your day balances deep technical work with cross-functional collaboration across design, hardware, and QA teams.",
+        overview: "A typical day for a Software Engineer at Apple balances deep technical work with cross-functional collaboration. Apple's culture emphasizes focus, craftsmanship, and attention to detail - you'll have time for deep work but also collaborate closely with design and hardware teams. Most engineers work 45-50 hours per week, with intensity increasing as product launches approach. The environment values excellence and polish, with engineers expected to take ownership of their work from design through launch. Apple Park provides a world-class work environment with emphasis on collaboration and creativity.",
         schedule: [
           {
             time: "9:30 AM",
-            activity: "Team Standup",
-            description: "Quick sync with engineering team on progress and blockers"
+            activity: "Morning Arrival & Email",
+            description: "Arrive at Apple Park, grab coffee, review emails and overnight build results. Check for any critical bugs or blockers from testing."
           },
           {
             time: "10:00 AM",
+            activity: "Team Standup",
+            description: "Quick sync with engineering team on progress, blockers, and priorities. Discuss any issues from nightly testing or beta feedback."
+          },
+          {
+            time: "10:30 AM",
             activity: "Deep Work - Coding",
-            description: "Implement new feature for upcoming iOS release with focus on performance"
+            description: "Focused coding time implementing new feature for upcoming iOS release. Work on performance optimization for new Apple silicon."
           },
           {
             time: "12:00 PM",
             activity: "Design Review",
-            description: "Collaborate with design team on UI interactions and animations"
+            description: "Meet with Human Interface Design team to review UI implementation, discuss animation timing, and ensure pixel-perfect alignment."
           },
           {
             time: "1:00 PM",
-            activity: "Lunch Break",
-            description: "Lunch at Apple Park cafe"
+            activity: "Lunch",
+            description: "Lunch at Apple Park's cafe or outdoor seating. Informal discussions with colleagues about technical challenges."
           },
           {
             time: "2:00 PM",
-            activity: "Code Review",
-            description: "Review teammates' code and discuss architecture decisions"
+            activity: "Code Review Session",
+            description: "Review teammates' code changes. Provide detailed feedback on architecture, performance, and code quality."
           },
           {
             time: "3:30 PM",
             activity: "Cross-functional Sync",
-            description: "Meet with hardware team to discuss API requirements for new sensor"
+            description: "Meet with hardware team to discuss API requirements for new sensor. Understand constraints and timeline for software integration."
           },
           {
-            time: "5:00 PM",
+            time: "4:30 PM",
             activity: "Bug Triage",
-            description: "Review and prioritize bugs reported from QA and beta testers"
+            description: "Review and prioritize bugs from QA and internal beta testers. Investigate critical issues and assign to appropriate engineers."
           },
           {
-            time: "6:00 PM",
+            time: "5:30 PM",
             activity: "Wrap Up",
-            description: "Commit code, update tasks, prepare for tomorrow"
+            description: "Commit code, update tickets, and prepare for tomorrow. Ensure nightly build will include your changes for testing."
           }
         ]
       },
@@ -13120,723 +13179,596 @@ export const rolePageContent = {
         { companyName: "Google", companySlug: "google", industry: "Technology" },
         { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
         { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
       ]
     },
-    'product-manager': {
-      roleDescription: "Product Managers at Apple define the future of products used by over a billion people. You'll work at the intersection of technology, design, and business, making critical decisions about features, user experience, and product strategy. Apple PMs have deep technical understanding and exceptional design taste.",
+    'hardware-engineer': {
+      roleDescription: "Hardware Engineers at Apple design the physical products that define the future of consumer technology - iPhone, Mac, iPad, Apple Watch, AirPods, and Vision Pro. Apple's hardware engineering spans chip design (the industry-leading Apple Silicon), circuit board design, sensor development, display technology, battery systems, thermal management, and product enclosures. What makes Apple unique is the vertical integration: hardware engineers work hand-in-hand with software teams to create seamlessly integrated experiences impossible at other companies. You might design the neural engine in Apple Silicon, develop new camera sensors, create the haptic feedback system in Apple Watch, or architect the thermal solution for a fanless MacBook. Apple's hardware culture demands extraordinary attention to detail - components measured in microns, tolerances in fractions of a millimeter, and obsession with user experience down to the click feel of a button. Career growth spans from junior engineer to Fellow, with opportunities to specialize deeply or lead cross-functional hardware programs.",
       responsibilities: [
-        "Define product vision and roadmap for your area",
-        "Work closely with engineering, design, and marketing teams",
-        "Make data-informed decisions while maintaining design excellence",
-        "Drive product requirements and prioritization",
-        "Champion the user experience in every decision"
+        "Design and develop hardware systems including circuit boards, sensors, displays, or silicon components",
+        "Create detailed specifications, schematics, and design documentation for hardware components",
+        "Collaborate with software teams to define hardware-software interfaces and optimize system performance",
+        "Conduct electrical analysis, simulation, and validation of hardware designs",
+        "Work with manufacturing teams to ensure designs are producible at scale with high quality",
+        "Debug complex hardware issues using oscilloscopes, logic analyzers, and custom test equipment",
+        "Optimize designs for power consumption, thermal performance, size, and cost",
+        "Participate in design reviews and provide technical guidance to cross-functional teams",
+        "Evaluate new technologies and components for future product applications",
+        "Work with suppliers and manufacturing partners on component development and quality"
       ],
       growthOpportunities: [
-        "Shape products used by over a billion customers",
-        "Work on cutting-edge technologies (AR/VR, AI, health)",
-        "Collaborate with world-class designers and engineers",
-        "Career growth to Senior PM, GPM, or Director roles",
-        "Influence the future direction of Apple's ecosystem"
+        "Design hardware for products used by over 2 billion people worldwide",
+        "Work with Apple Silicon - the most advanced consumer chip technology in the world",
+        "Opportunity to work on revolutionary products: Vision Pro, future devices, health technology",
+        "Clear career ladder from engineer to Principal Engineer, Senior Director, or Fellow",
+        "Deep specialization opportunities: chip design, display technology, sensors, power systems",
+        "Cross-functional exposure to software, industrial design, and operations teams",
+        "Access to cutting-edge manufacturing processes and technologies",
+        "Path to technical leadership or management roles leading hardware programs",
+        "Work on products that set industry standards for design and performance"
       ],
       interviewProcess: [
         {
           step: 1,
           title: "Recruiter Screen",
-          description: "30-minute conversation about background, interest in Apple, and role fit.",
+          description: "Initial 30-minute conversation to discuss your hardware engineering background, experience with relevant technologies, and interest in Apple. The recruiter assesses qualifications and explains the interview process. Be prepared to discuss your specific hardware expertise (analog, digital, power, RF, silicon, etc.) and past projects.",
           duration: "30 minutes"
         },
         {
           step: 2,
-          title: "Product Sense Interview",
-          description: "Design a product or improve an Apple product. Focus on user needs and Apple's design principles.",
+          title: "Technical Phone Screen",
+          description: "60-minute technical interview with an Apple hardware engineer. Expect deep questions in your specialty area - circuit analysis, signal integrity, power management, semiconductor physics, or system architecture. You may be asked to solve problems on a virtual whiteboard or discuss specific technical scenarios. The interviewer evaluates domain expertise, problem-solving approach, and communication skills.",
           duration: "60 minutes"
         },
         {
           step: 3,
-          title: "Technical Interview",
-          description: "Assess technical depth and ability to work with engineering teams. May include technical problem-solving.",
-          duration: "60 minutes"
+          title: "On-site/Virtual Interview Loop",
+          description: "Full day of 5-6 interviews including: (1) Technical deep dives in your specialty area with senior engineers; (2) System-level design discussion - design a hardware system or subsystem; (3) Cross-functional interview with software or operations partner; (4) Problem-solving session on hardware debugging or failure analysis; (5) Behavioral/Culture interview assessing collaboration, attention to detail, and Apple values; (6) Hiring manager discussion about team and role specifics.",
+          duration: "Full day (5-6 hours)"
         },
         {
           step: 4,
-          title: "On-site Loop",
-          description: "4-5 interviews covering strategy, execution, design thinking, and behavioral questions with team members.",
-          duration: "4-5 hours"
+          title: "Debrief & Hiring Decision",
+          description: "Interview panel meets to discuss feedback and make hiring recommendation. Hardware hiring at Apple emphasizes both deep technical expertise and ability to collaborate across disciplines. The process typically takes 1-2 weeks as feedback is compiled and reviewed by hiring leadership.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Offer & Onboarding",
+          description: "Successful candidates receive offers specifying team, level, and compensation. Hardware engineer offers include competitive base salary, signing bonus, and RSU grants. Apple hardware teams often work on classified projects, so expect comprehensive background checks and NDA signing during onboarding.",
+          duration: "1-2 weeks"
         }
       ],
       technicalQuestions: [
-        "How would you improve the iPhone Camera app?",
-        "Design a new feature for Apple Watch focused on health.",
-        "Should Apple build a social network? Why or why not?",
-        "How would you measure success for Apple Music?",
-        "Design the next generation of Siri. What would you prioritize?",
-        "How would you improve the Mac-to-iPhone integration experience?",
-        "If AirPods sales declined, how would you investigate and respond?",
-        "Design a product for students using iPads.",
-        "How would you prioritize features for the next iOS release?",
-        "What metrics would you use to evaluate the App Store's health?"
+        "Design a power management system for a wearable device with a 7-day battery life target.",
+        "Explain the trade-offs between different display technologies (LCD, OLED, microLED) for a mobile device.",
+        "How would you design a thermal solution for a high-performance chip in a fanless enclosure?",
+        "Walk through how you would debug a signal integrity issue on a high-speed interface.",
+        "Design a haptic feedback system for a mobile device. What are the key considerations?",
+        "Explain the challenges of designing antennas for a device with a metal enclosure.",
+        "How would you design a battery charging system that maximizes battery longevity?",
+        "Describe the process of bringing up a new custom ASIC. What validation steps are critical?",
+        "Design a multi-sensor fusion system for device orientation and motion tracking.",
+        "How would you approach designing a camera system for computational photography?",
+        "Explain the trade-offs between different memory technologies (DRAM, NAND, MRAM) for mobile devices.",
+        "Design a wireless charging system with foreign object detection.",
+        "How would you validate a new sensor design for automotive-grade reliability?",
+        "Describe the challenges of ESD protection in a device with waterproof requirements.",
+        "Design a system to detect and prevent counterfeit accessories.",
+        "How would you optimize power consumption in an always-on display system?"
       ],
       behavioralQuestions: [
-        "Tell me about a product you shipped that you're most proud of.",
-        "Describe a time when you had to make a difficult product decision with limited data.",
-        "Give an example of when you advocated for user experience over business metrics.",
-        "Tell me about a time when you disagreed with design or engineering.",
-        "Describe how you've worked with design teams to create exceptional user experiences.",
-        "Give an example of when you had to say no to a feature request.",
-        "Tell me about a time when you led a product through a major challenge.",
-        "Describe your process for gathering and incorporating user feedback."
+        "Tell me about a hardware design you created that you're most proud of. What made it successful?",
+        "Describe a time when you had to debug a complex hardware issue under time pressure.",
+        "Give an example of when you had to balance competing requirements (cost, power, performance, size).",
+        "Tell me about a time you collaborated with software teams to solve a hardware-software integration issue.",
+        "Describe a situation where a design didn't work as expected. How did you diagnose and fix it?",
+        "Give an example of when you had to push back on a design requirement that wasn't feasible.",
+        "Tell me about your experience bringing a hardware design from prototype to mass production.",
+        "Describe how you've worked with manufacturing teams to resolve production issues.",
+        "Give an example of when you innovated to solve a technical challenge in a novel way.",
+        "Tell me about a time you had to make a technical decision with incomplete data.",
+        "Describe your approach to documentation and knowledge transfer for complex hardware designs.",
+        "Give an example of when attention to detail prevented a significant problem.",
+        "Tell me about a time you mentored a junior engineer on hardware design best practices.",
+        "Describe how you stay current with new technologies and industry developments."
       ],
       whatTheyLookFor: [
-        "Deep product sense and design taste",
-        "Technical credibility to work with engineering teams",
-        "User-first thinking and empathy",
-        "Attention to detail and pursuit of excellence",
-        "Ability to think different and challenge assumptions",
-        "Cross-functional collaboration skills",
-        "Strategic thinking balanced with execution",
-        "Passion for Apple products and ecosystem"
+        "Deep expertise in relevant hardware domain: analog, digital, power, RF, silicon, or systems",
+        "Strong fundamentals in circuit design, signal integrity, and electrical engineering principles",
+        "Experience with hardware design tools: schematic capture, simulation, layout, lab equipment",
+        "Understanding of hardware-software interaction and system-level optimization",
+        "Attention to detail essential for high-reliability consumer products",
+        "Problem-solving ability for complex debugging and failure analysis",
+        "Collaboration skills to work across hardware, software, and manufacturing teams",
+        "Understanding of manufacturability and design for production at scale",
+        "Passion for creating products that impact millions of users",
+        "Cultural fit with Apple's values: excellence, privacy, environmental responsibility"
       ],
       interviewTips: [
-        "Use Apple products extensively - have informed opinions on UX",
-        "Demonstrate design thinking - Apple values exceptional user experience",
-        "Show technical depth - Apple PMs need engineering credibility",
-        "Focus on quality over quantity in feature discussions",
-        "Understand Apple's ecosystem and how products work together",
-        "Be ready to discuss privacy and how it impacts product decisions",
-        "Prepare examples of obsessing over details to improve UX",
-        "Research Apple's recent product launches and strategy"
+        "Know your specialty deeply - Apple interviews probe until they find your technical limits",
+        "Be prepared to work through problems at the whiteboard or with pen and paper",
+        "Understand Apple's products and be ready to discuss how they might be designed",
+        "Review fundamentals: circuit analysis, signal integrity, power systems, semiconductor physics",
+        "Prepare examples of hardware projects with specific technical challenges and solutions",
+        "Understand trade-offs: every design decision involves balancing competing requirements",
+        "Be ready to discuss debugging methodologies and tools you've used",
+        "Show passion for hardware and creating physical products people love",
+        "Understand manufacturing considerations - design for assembly, test, and yield",
+        "Practice explaining complex technical concepts clearly to diverse audiences",
+        "Research the specific team/product area and prepare relevant questions",
+        "Be ready to discuss failures and what you learned from them - Apple values learning",
+        "Understand Apple's environmental initiatives and design for sustainability",
+        "Show attention to detail in your interview preparation and responses"
+      ],
+      salary: {
+        min: 150000,
+        max: 280000
+      },
+      compensation: [
+        "Base salary: $150-280K depending on level, specialty, and location",
+        "Annual performance bonus: 5-15% of base salary based on individual and company performance",
+        "Initial RSU grant: $120-450K+ vesting over 4 years",
+        "Stock refresh grants: Annual RSU refreshes based on performance",
+        "Signing bonus: $30-120K depending on level and competing offers",
+        "401(k) matching: 50% match up to 6% of salary",
+        "Employee Stock Purchase Plan (ESPP): 15% discount on Apple stock",
+        "Comprehensive health insurance: Medical, dental, vision with excellent coverage",
+        "Relocation assistance: Comprehensive package for out-of-area hires",
+        "Product discounts: 25% off Apple products",
+        "Patent bonuses: Additional compensation for filed and granted patents",
+        "Total first-year compensation typically ranges from $230K to $550K+ depending on level"
       ],
       dayInLife: {
-        overview: "Apple PMs balance strategic vision with obsessive attention to detail. Your day involves user research, design reviews, engineering collaboration, and making decisions that impact millions of users.",
+        overview: "A typical day for a Hardware Engineer at Apple combines focused design work with cross-functional collaboration and lab time. Hardware development cycles span months to years, with intensity varying by project phase - concept development allows more exploration, while final validation involves intense debugging. Apple's hardware culture demands precision, attention to detail, and deep collaboration with software, industrial design, and operations teams. Most hardware engineers split time between desk work (design, simulation, documentation) and lab work (prototyping, testing, debugging).",
         schedule: [
           {
-            time: "9:00 AM",
-            activity: "Product Metrics Review",
-            description: "Analyze user engagement and feature adoption metrics"
+            time: "8:30 AM",
+            activity: "Morning Arrival",
+            description: "Arrive at lab, review overnight test results and automated validation reports. Check for any issues that need immediate attention."
           },
           {
-            time: "10:00 AM",
-            activity: "Design Review",
-            description: "Provide detailed feedback on UI/UX mockups with design team"
+            time: "9:00 AM",
+            activity: "Team Sync",
+            description: "Brief team meeting to review project status, discuss blockers, and coordinate lab resources and equipment access."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Design Work",
+            description: "Focused time on schematic design, simulation, or analysis. Run SPICE simulations for circuit optimization or signal integrity analysis."
           },
           {
             time: "11:30 AM",
-            activity: "User Research Session",
-            description: "Observe users testing new feature prototype"
+            activity: "Cross-functional Meeting",
+            description: "Meet with software team to discuss hardware-software interface requirements and debug a driver integration issue."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch",
+            description: "Lunch at Apple Park cafe. Informal discussions with colleagues from other hardware teams."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Lab Time",
+            description: "Hands-on work with prototype hardware. Validate power measurements, debug signal integrity issues using oscilloscope and logic analyzer."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Design Review",
+            description: "Present circuit design to senior engineers for review. Receive feedback on optimization opportunities and risk areas."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Vendor Call",
+            description: "Technical call with component supplier to discuss custom part requirements and qualification timeline."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Documentation & Wrap Up",
+            description: "Update design documentation, capture test results, and plan tomorrow's lab activities. Submit design files for overnight automated checking."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Intel", companySlug: "intel", industry: "Technology" },
+        { companyName: "NVIDIA", companySlug: "nvidia", industry: "Technology" },
+        { companyName: "Qualcomm", companySlug: "qualcomm", industry: "Technology" }
+      ]
+    },
+    'machine-learning-engineer': {
+      roleDescription: "Machine Learning Engineers at Apple build the AI systems that power Siri, Apple Intelligence, computational photography, Face ID, health features, and intelligent experiences across all Apple devices. Apple's approach to ML is unique: on-device processing for privacy, efficiency for mobile deployment, and seamless integration into the user experience. You'll work on problems ranging from natural language understanding and speech recognition to computer vision, recommendation systems, and generative AI. Apple pioneered the Neural Engine and has shipped ML models to billions of devices, creating unique challenges around model compression, on-device inference, and privacy-preserving learning. The ML organization spans Core ML (the framework), Siri, Photos, Health, and specialized teams pushing the boundaries of AI research. What distinguishes Apple ML is the emphasis on shipped products - your models run on devices in people's hands, not just research papers. Career growth follows the engineering ladder with paths to research scientist, principal engineer, or ML management roles leading teams building intelligent features.",
+      responsibilities: [
+        "Design, develop, and deploy machine learning models for Apple products and services",
+        "Optimize models for on-device inference with constraints on latency, memory, and power",
+        "Build end-to-end ML pipelines including data processing, training, evaluation, and deployment",
+        "Collaborate with product teams to integrate ML capabilities into user-facing features",
+        "Implement privacy-preserving ML techniques including differential privacy and federated learning",
+        "Work with the Core ML team to leverage and improve Apple's ML infrastructure",
+        "Conduct experiments to evaluate model performance and drive iterative improvements",
+        "Optimize models using quantization, pruning, and other compression techniques",
+        "Collaborate with hardware teams to leverage Neural Engine and Apple Silicon capabilities",
+        "Stay current with ML research and evaluate applicability to Apple's products"
+      ],
+      growthOpportunities: [
+        "Build ML systems deployed to over 2 billion active Apple devices worldwide",
+        "Work at the forefront of on-device ML and privacy-preserving AI",
+        "Opportunity to work on Apple Intelligence and next-generation AI features",
+        "Clear career ladder from ML engineer to Principal Engineer or ML management",
+        "Access to Apple's Neural Engine and custom ML hardware for optimization",
+        "Collaboration with world-class researchers pushing boundaries of AI",
+        "Path to research scientist roles with publication opportunities",
+        "Internal mobility across ML teams: Siri, Photos, Health, Core ML, and more",
+        "Shape the future of AI on consumer devices used by billions"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your ML background, experience, and interest in Apple. The recruiter assesses qualifications, preferred ML domains (NLP, vision, speech, recommendations), and fit with open roles. Be prepared to discuss your most impactful ML projects, publications if any, and why you're interested in Apple's approach to ML.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute interview combining ML concepts and coding. Expect questions on ML fundamentals (optimization, regularization, model evaluation), algorithm implementation, and discussion of your ML experience. You may be asked to implement an ML algorithm, discuss model architecture decisions, or solve a coding problem. The interviewer evaluates both ML depth and coding proficiency.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interview Loop",
+          description: "Full day of 5-6 interviews including: (1) ML Fundamentals - deep dive on ML theory, algorithms, and optimization; (2) ML System Design - design an end-to-end ML system for a product scenario; (3) Coding - implement ML algorithms or data processing pipelines; (4) Domain Deep Dive - detailed discussion in your specialty area (NLP, vision, etc.); (5) Behavioral/Culture - assess collaboration, problem-solving approach, and Apple values; (6) Hiring manager conversation about team and role specifics.",
+          duration: "Full day (5-6 hours)"
+        },
+        {
+          step: 4,
+          title: "Debrief & Hiring Decision",
+          description: "Interview feedback is compiled and discussed by the hiring team. Apple looks for candidates who combine strong ML fundamentals with practical engineering skills and product thinking. The debrief process typically takes 1-2 weeks as feedback is reviewed.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Offer & Team Placement",
+          description: "Successful candidates receive offers specifying team and compensation. Apple ML teams span Siri, Photos, Health, Safari, Music, and platform teams (Core ML, Create ML). Offers include competitive base, signing bonus, and RSU grants with additional RSU refreshes based on performance.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Design an ML system for on-device photo search that respects user privacy.",
+        "Explain the attention mechanism in transformers. How would you optimize it for mobile inference?",
+        "How would you design Siri's intent classification system? What architecture would you use?",
+        "Describe techniques for compressing a neural network for deployment on iPhone.",
+        "Design an ML system to detect falls using Apple Watch sensors while minimizing false positives.",
+        "Explain differential privacy. How would you apply it to training a keyboard prediction model?",
+        "How would you design a recommendation system for the App Store?",
+        "Describe the trade-offs between different model quantization approaches (INT8, INT4, mixed precision).",
+        "Design an ML pipeline for training face recognition on-device without sending data to servers.",
+        "How would you approach training a multilingual speech recognition model?",
+        "Explain federated learning. What are the challenges for deployment on mobile devices?",
+        "Design a system to automatically generate photo memories and highlights.",
+        "How would you evaluate and mitigate bias in a Face ID recognition system?",
+        "Describe your approach to debugging a model with unexpected production behavior.",
+        "How would you design the ML architecture for real-time language translation?",
+        "Explain the challenges of deploying large language models on mobile devices."
+      ],
+      behavioralQuestions: [
+        "Tell me about an ML project you shipped to production. What were the key challenges?",
+        "Describe a time when your model didn't perform as expected. How did you debug and improve it?",
+        "Give an example of collaborating with product teams to define ML requirements.",
+        "Tell me about a time you had to balance model accuracy with latency or resource constraints.",
+        "Describe your approach to ensuring ML model fairness and reducing bias.",
+        "Give an example of when you had to explain ML concepts to non-technical stakeholders.",
+        "Tell me about a project where you had to work with limited or noisy training data.",
+        "Describe a situation where you pushed back on using ML when a simpler solution was better.",
+        "Give an example of how you stay current with ML research and apply new techniques.",
+        "Tell me about a time you optimized a model for deployment constraints.",
+        "Describe your experience with ML infrastructure and pipeline development.",
+        "Give an example of when you identified and mitigated a privacy risk in an ML system.",
+        "Tell me about a time you mentored someone on ML best practices.",
+        "Describe how you approach reproducibility and experiment tracking in ML projects."
+      ],
+      whatTheyLookFor: [
+        "Strong ML fundamentals: deep understanding of algorithms, optimization, and evaluation",
+        "Practical experience shipping ML models to production at scale",
+        "Coding proficiency: ability to implement ML algorithms and build pipelines",
+        "On-device ML expertise: model compression, quantization, and efficient inference",
+        "Privacy awareness: understanding of privacy-preserving ML techniques",
+        "System design ability: architecting end-to-end ML systems for products",
+        "Product thinking: translating business needs into ML solutions",
+        "Collaboration skills: working effectively with product, design, and engineering teams",
+        "Research awareness: staying current with ML literature and applying new techniques",
+        "Cultural fit: alignment with Apple's values around privacy and user experience"
+      ],
+      interviewTips: [
+        "Master ML fundamentals: understand optimization, regularization, and model evaluation deeply",
+        "Be ready to implement ML algorithms from scratch - not just use libraries",
+        "Prepare to discuss model optimization for mobile: quantization, pruning, distillation",
+        "Understand Apple's privacy-first approach to ML and be ready to discuss techniques",
+        "Have detailed stories about ML projects with specific metrics and outcomes",
+        "Know the trade-offs between different model architectures for your domain",
+        "Practice ML system design: training pipelines, serving infrastructure, monitoring",
+        "Study Core ML and on-device ML capabilities on Apple platforms",
+        "Be ready to discuss bias, fairness, and responsible AI practices",
+        "Prepare questions about the team's ML stack, challenges, and research areas",
+        "Review recent Apple ML publications and WWDC sessions on ML",
+        "Practice coding ML algorithms efficiently under time pressure",
+        "Understand the unique challenges of deploying ML to billions of devices",
+        "Show passion for creating intelligent features that improve user experiences"
+      ],
+      salary: {
+        min: 170000,
+        max: 320000
+      },
+      compensation: [
+        "Base salary: $170-320K depending on level and location",
+        "Annual performance bonus: 10-20% of base salary",
+        "Initial RSU grant: $150-500K+ vesting over 4 years",
+        "Stock refresh grants: Substantial annual refreshes based on performance",
+        "Signing bonus: $40-150K depending on level and competing offers",
+        "401(k) matching: 50% match up to 6% of salary",
+        "Employee Stock Purchase Plan (ESPP): 15% discount on Apple stock",
+        "Comprehensive health insurance: Medical, dental, vision",
+        "Conference attendance budget for ML conferences (NeurIPS, ICML, CVPR, etc.)",
+        "Product discounts: 25% off Apple products",
+        "Relocation assistance: Comprehensive package for out-of-area hires",
+        "Total first-year compensation typically ranges from $280K to $650K+ depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Machine Learning Engineer at Apple balances model development with collaboration and deployment work. You'll split time between research and experimentation, model optimization, and working with product teams to ship intelligent features. Apple's ML culture emphasizes practical impact - models must work reliably on devices in users' hands. Most ML engineers work 45-50 hours per week with flexibility for research exploration. The environment offers access to cutting-edge hardware, large-scale training infrastructure, and collaboration with world-class researchers.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Morning Review",
+            description: "Review overnight training job results. Analyze metrics, check for anomalies, and determine next steps for experiments."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Team Standup",
+            description: "Quick sync with ML team on project progress, share experiment results, and discuss blockers."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Model Development",
+            description: "Focused time on model architecture improvements. Implement new attention mechanism and prepare training run."
+          },
+          {
+            time: "12:00 PM",
+            activity: "ML Reading Group",
+            description: "Weekly team discussion of recent papers. Present findings from ICML paper on efficient transformers."
           },
           {
             time: "1:00 PM",
-            activity: "Working Lunch",
-            description: "Grab lunch while reviewing competitive products"
+            activity: "Lunch",
+            description: "Lunch at Apple Park with ML colleagues. Informal discussion on model optimization techniques."
           },
           {
             time: "2:00 PM",
-            activity: "Engineering Sync",
-            description: "Discuss technical feasibility and trade-offs for upcoming features"
+            activity: "Product Integration Meeting",
+            description: "Meet with Photos team to discuss ML feature requirements and integration timeline."
           },
           {
-            time: "3:30 PM",
-            activity: "Cross-functional Planning",
-            description: "Align with marketing and operations on product launch"
+            time: "3:00 PM",
+            activity: "Model Optimization",
+            description: "Work on quantizing model for on-device deployment. Benchmark latency and accuracy trade-offs on target devices."
           },
           {
-            time: "5:00 PM",
-            activity: "Product Review Prep",
-            description: "Prepare materials for executive product review meeting"
+            time: "4:30 PM",
+            activity: "Code Review",
+            description: "Review teammate's training pipeline changes. Provide feedback on efficiency and reproducibility."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Experiment Setup",
+            description: "Configure and launch training jobs to run overnight on GPU cluster. Document experiment hypotheses and parameters."
           }
         ]
       },
       similarRoles: [
         { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
         { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "OpenAI", companySlug: "openai", industry: "Technology" }
       ]
     },
-    'engineering-manager': {
-      roleDescription: "Engineering Managers at Apple lead teams building products that define the industry. You'll balance hands-on technical leadership with people management, hiring exceptional talent, and driving execution. Apple engineering managers maintain deep technical expertise while growing and mentoring their teams.",
+    'data-scientist': {
+      roleDescription: "Data Scientists at Apple uncover insights and build models that improve products used by over 2 billion devices worldwide. Apple's data science is distinctively different - the company's commitment to privacy means working with differential privacy, on-device analytics, and privacy-preserving techniques that most data scientists never encounter. You'll work as a 'full-stack' data scientist handling everything from experimental design to model deployment. Teams span across Siri, Apple Music, App Store, Maps, Health, and internal operations, each with unique data challenges. Apple data scientists combine rigorous statistical methodology with practical engineering to deliver insights and models that ship in products. The role requires comfort with ambiguity, strong business acumen, and the ability to communicate complex findings to diverse stakeholders. Career growth leads to senior data scientist, principal data scientist, or management roles, with opportunities to specialize in specific domains or transition to ML engineering or product roles.",
       responsibilities: [
-        "Lead and mentor engineering team (6-12 engineers typically)",
-        "Set technical direction and architecture for your team's area",
-        "Drive execution on roadmap and deliver high-quality releases",
-        "Hire exceptional engineers and build diverse, high-performing teams",
-        "Partner with design and product to define and ship features"
+        "Design and analyze experiments (A/B tests) to evaluate product changes with privacy constraints",
+        "Build predictive models and statistical analyses to inform product and business decisions",
+        "Develop insights from large-scale data using SQL, Python, and statistical methods",
+        "Implement privacy-preserving analytics using differential privacy and on-device techniques",
+        "Partner with product and engineering teams to define metrics and measurement strategies",
+        "Create dashboards and visualizations to communicate insights to stakeholders",
+        "Design data collection strategies that balance insight needs with privacy principles",
+        "Build and deploy models for personalization, ranking, and recommendations",
+        "Conduct causal inference analyses to understand impact of product changes",
+        "Mentor junior data scientists and contribute to team's analytical best practices"
       ],
       growthOpportunities: [
-        "Lead teams building products used by billions",
-        "Shape Apple's technical and cultural direction",
-        "Work on next-generation technologies and products",
-        "Career progression to Senior Manager, Director, VP roles",
-        "Mentor and develop world-class engineering talent"
+        "Work on privacy-preserving analytics at unprecedented scale - over 2 billion devices",
+        "Learn differential privacy and on-device analytics techniques pioneered by Apple",
+        "Clear career ladder from data scientist to principal data scientist or management",
+        "Opportunity to impact products used by billions: Siri, Music, Maps, Health, App Store",
+        "Path to ML engineering, product management, or research roles",
+        "Exposure to unique data challenges around privacy and consent",
+        "Internal mobility across teams spanning consumer products and internal operations",
+        "Work with world-class statisticians and ML researchers",
+        "Shape how Apple measures and improves user experience while respecting privacy"
       ],
       interviewProcess: [
         {
           step: 1,
           title: "Recruiter Screen",
-          description: "Discussion about management experience, leadership style, and interest in Apple.",
+          description: "Initial 30-minute call to discuss your data science background, experience, and interest in Apple. The recruiter assesses qualifications, discusses the role's focus (analytics, experimentation, modeling), and explains Apple's unique approach to privacy. Be prepared to discuss your most impactful analysis work and why Apple's privacy-first approach appeals to you.",
           duration: "30 minutes"
         },
         {
           step: 2,
-          title: "Technical Interview",
-          description: "Assess technical depth through coding or system design. Apple EMs stay technically strong.",
+          title: "Technical Phone Screen",
+          description: "60-minute interview covering statistics, SQL, and analytical problem-solving. Expect questions on experimental design, statistical inference, and SQL queries. You may be asked to design an experiment, analyze a scenario, or discuss how you'd approach a data problem with privacy constraints. The interviewer evaluates statistical rigor and practical problem-solving.",
           duration: "60 minutes"
         },
         {
           step: 3,
-          title: "Management Interview",
-          description: "Discuss people management, hiring, performance management, and team building experience.",
-          duration: "60 minutes"
+          title: "On-site/Virtual Interview Loop (5-7 rounds)",
+          description: "Full day of interviews including: (1) Statistics Deep Dive - experimental design, causal inference, hypothesis testing; (2) SQL & Data Manipulation - write complex queries and discuss data modeling; (3) Product Case - analyze a product scenario and recommend data-driven decisions; (4) Coding - Python for data analysis, may include ML implementation; (5) Behavioral - assess collaboration, communication, and cultural fit; (6-7) Additional rounds with hiring manager and cross-functional partners.",
+          duration: "Full day (5-7 hours)"
         },
         {
           step: 4,
-          title: "On-site Loop",
-          description: "4-5 interviews with engineers, peer managers, and leadership covering technical, management, and cultural fit.",
-          duration: "4-5 hours"
+          title: "Debrief & Hiring Decision",
+          description: "Interview panel discusses feedback and makes hiring recommendation. Apple data science hiring emphasizes statistical rigor, privacy awareness, and ability to drive business impact. The process typically takes 1-2 weeks.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Offer & Team Placement",
+          description: "Successful candidates receive offers specifying team and level. Data science teams span Siri, iTunes/Music, App Store, Maps, Health, and operations. Compensation includes base salary, bonus, and RSU grants with median total compensation around $250K.",
+          duration: "1-2 weeks"
         }
       ],
       technicalQuestions: [
-        "Design the architecture for a new iOS system framework used by all apps.",
-        "How would you scale the iCloud sync infrastructure to handle 2B users?",
-        "Your team needs to optimize app launch time by 50%. How would you approach this?",
-        "Design the technical architecture for a new Apple services product.",
-        "How would you architect a privacy-preserving analytics system?",
-        "Walk me through how you'd debug a critical production issue affecting millions of users.",
-        "Design the software architecture for a new Apple hardware product.",
-        "How would you evaluate and adopt a new technology or framework for your team?",
-        "Your team is experiencing tech debt. How do you balance new features vs. refactoring?",
-        "Design a system for A/B testing features across iOS, macOS, and watchOS."
+        "Design an A/B test to evaluate a new Siri feature while protecting user privacy.",
+        "How would you measure the success of Apple Music recommendations without tracking individual listening?",
+        "Explain differential privacy. How would you apply it to aggregate App Store analytics?",
+        "Design an experiment to evaluate the impact of a new iOS feature on battery life.",
+        "How would you analyze user engagement metrics when you can only see aggregated data?",
+        "Describe your approach to detecting and handling selection bias in an observational study.",
+        "How would you build a model to predict app quality for App Store ranking?",
+        "Design a metric framework for measuring health feature effectiveness on Apple Watch.",
+        "How would you approach causal inference when randomized experiments aren't possible?",
+        "Explain the trade-offs between local differential privacy and central differential privacy.",
+        "Design an analytics system for Maps that protects user location privacy.",
+        "How would you evaluate whether a machine learning model is making biased recommendations?",
+        "Describe your approach to power analysis for an experiment with clustered data.",
+        "How would you detect fraud in App Store reviews while respecting privacy constraints?",
+        "Design a system to measure and improve Siri response accuracy.",
+        "How would you approach a problem where the metric you want to optimize isn't directly measurable?"
       ],
       behavioralQuestions: [
-        "Tell me about a time you had to make a difficult people decision (performance, firing).",
-        "Describe how you've built and scaled a high-performing engineering team.",
-        "Give an example of when you had to deliver a critical project under tight deadlines.",
-        "Tell me about a time you disagreed with senior leadership's direction.",
-        "Describe your approach to hiring and building diverse teams.",
-        "Give an example of how you've developed and mentored engineers on your team.",
-        "Tell me about a time when you had to navigate conflicting priorities.",
-        "Describe a situation where you had to rebuild team morale after a setback."
+        "Tell me about an analysis that directly influenced a product decision. What was the impact?",
+        "Describe a time you had to communicate complex statistical findings to non-technical stakeholders.",
+        "Give an example of when your analysis revealed something unexpected. How did you validate it?",
+        "Tell me about an experiment that didn't work as planned. What did you learn?",
+        "Describe a situation where you had to balance analytical rigor with business urgency.",
+        "Give an example of when you pushed back on a flawed metric or analysis approach.",
+        "Tell me about working with incomplete or messy data. How did you handle it?",
+        "Describe how you've navigated privacy constraints in your data science work.",
+        "Give an example of collaborating with engineers to implement your recommendations.",
+        "Tell me about a time you had to change your analytical approach mid-project.",
+        "Describe how you prioritize between multiple stakeholder requests.",
+        "Give an example of how you've improved a team's analytical processes or tools.",
+        "Tell me about mentoring or developing other data scientists.",
+        "Describe a situation where you disagreed with a stakeholder about data interpretation."
       ],
       whatTheyLookFor: [
-        "Deep technical expertise and hands-on involvement",
-        "Track record of building and leading high-performing teams",
-        "Strong hiring and talent development skills",
-        "Ability to drive execution and ship quality products",
-        "Cross-functional collaboration and influence",
-        "Strategic thinking with attention to detail",
-        "Leadership during challenges and ambiguity",
-        "Alignment with Apple's values of excellence and innovation"
+        "Strong statistical foundation: experimental design, causal inference, hypothesis testing",
+        "SQL proficiency: complex queries, window functions, optimization",
+        "Python/R skills for data manipulation, analysis, and modeling",
+        "Privacy awareness: understanding of differential privacy and privacy-preserving techniques",
+        "Business acumen: ability to translate data insights into actionable recommendations",
+        "Communication skills: explaining technical findings to diverse audiences",
+        "Product intuition: understanding how metrics connect to user experience",
+        "Intellectual curiosity: passion for exploring data and finding insights",
+        "Collaboration: working effectively with engineering, product, and design teams",
+        "Cultural fit: alignment with Apple's privacy values and user focus"
       ],
       interviewTips: [
-        "Demonstrate technical depth - Apple EMs code and review architecture",
-        "Prepare detailed examples of hiring, developing, and managing engineers",
-        "Show balance between technical leadership and people management",
-        "Discuss how you drive quality and attention to detail in your team",
-        "Be ready to talk about difficult people decisions you've made",
-        "Understand Apple's products and technical challenges",
-        "Prepare examples of cross-functional collaboration",
-        "Show passion for building great products and teams"
+        "Review statistics fundamentals: hypothesis testing, confidence intervals, regression, causal inference",
+        "Practice SQL extensively: complex joins, window functions, CTEs, query optimization",
+        "Understand differential privacy at a conceptual level - Apple pioneered this approach",
+        "Prepare examples of analyses with specific business impact and metrics",
+        "Practice case studies: design experiments and measurement frameworks",
+        "Be ready to discuss privacy trade-offs in data collection and analysis",
+        "Know Apple's products and think about how data science applies to them",
+        "Practice explaining statistical concepts simply for non-technical audiences",
+        "Review experimental design: power analysis, multiple comparisons, selection bias",
+        "Prepare questions about team structure, data infrastructure, and privacy constraints",
+        "Understand Apple's unique challenges around privacy-preserving analytics",
+        "Be ready to discuss how you'd work without having access to individual-level data",
+        "Review Python data science stack: pandas, numpy, scipy, scikit-learn",
+        "Show enthusiasm for the unique data science challenges at Apple"
+      ],
+      salary: {
+        min: 160000,
+        max: 280000
+      },
+      compensation: [
+        "Base salary: $160-280K depending on level and location",
+        "Annual performance bonus: 10-20% of base salary",
+        "Initial RSU grant: $100-400K+ vesting over 4 years",
+        "Stock refresh grants: Annual refreshes based on performance",
+        "Signing bonus: $30-100K depending on level and competing offers",
+        "401(k) matching: 50% match up to 6% of salary",
+        "Employee Stock Purchase Plan (ESPP): 15% discount on Apple stock",
+        "Comprehensive health insurance: Medical, dental, vision",
+        "Education assistance: Conference attendance and course reimbursement",
+        "Product discounts: 25% off Apple products",
+        "Median total compensation approximately $250K (base $175K, stock $100K, bonus $25K)",
+        "Senior-level total compensation can reach $500K-700K"
       ],
       dayInLife: {
-        overview: "Apple Engineering Managers balance technical leadership, people management, and strategic planning. Your day includes 1-on-1s, code reviews, architecture discussions, hiring, and removing blockers for your team.",
+        overview: "A typical day for a Data Scientist at Apple balances deep analytical work with collaboration and communication. You'll spend time writing SQL queries, building models, and working with product teams to translate insights into action. Apple's data science culture emphasizes rigor, privacy, and business impact. Most data scientists work 45-50 hours per week with flexibility around core hours. The environment offers unique challenges around privacy-preserving analytics that don't exist at other companies.",
         schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Team Standup",
-            description: "Daily sync with team on progress, blockers, and priorities"
-          },
           {
             time: "9:30 AM",
-            activity: "1-on-1 Meetings",
-            description: "Meet with engineers for coaching, career development, and feedback"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Architecture Review",
-            description: "Review technical design for major new feature with senior engineers"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Lunch & Recruiting",
-            description: "Lunch interview with senior engineer candidate"
-          },
-          {
-            time: "2:00 PM",
-            activity: "Code Review",
-            description: "Review critical pull requests and provide technical guidance"
-          },
-          {
-            time: "3:00 PM",
-            activity: "Cross-functional Planning",
-            description: "Align with PM and Design on roadmap and upcoming releases"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Technical Discussion",
-            description: "Unblock team on complex technical challenge"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Strategic Planning",
-            description: "Review team's technical roadmap and capacity planning"
-          }
-        ]
-      },
-      similarRoles: [
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
-      ]
-    }
-  },
-
-  'microsoft': {
-    'software-engineer': {
-      roleDescription: "Software Engineers at Microsoft build products and services used by billions of people and millions of businesses worldwide. From Azure cloud infrastructure to Office 365, Windows, and Xbox, you'll work on diverse, large-scale systems. Microsoft values growth mindset, technical excellence, and collaborative innovation across a global engineering organization.",
-
-      responsibilities: [
-        "Design, develop, and ship features for Microsoft products like Azure, Office, Windows, or Teams",
-        "Write scalable, reliable code for cloud services or client applications",
-        "Collaborate across teams and geographies to deliver integrated solutions",
-        "Participate in code reviews, design reviews, and technical planning",
-        "Contribute to open-source projects and Microsoft's engineering culture"
-      ],
-
-      growthOpportunities: [
-        "Work on products serving billions of users and millions of enterprise customers",
-        "Access to cutting-edge technology in AI, cloud computing, and mixed reality",
-        "Strong emphasis on learning and development with growth mindset culture",
-        "Opportunity to contribute to major open-source projects",
-        "Clear career progression with technical and leadership tracks"
-      ],
-
-      interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Initial conversation about your background, interest in Microsoft, and role fit. Discussion of technical skills and career goals.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Coding interview with a software engineer covering data structures, algorithms, and problem-solving. Conducted via phone or Microsoft Teams with shared coding environment.",
-          duration: "45-60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Multiple interviews including coding (2-3 rounds), system design (1 round), and behavioral/values (1 round). Focus on growth mindset and collaboration.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "As Appropriate (AA) Round",
-          description: "Final interview with senior leader if previous rounds go well. Focus on culture fit, leadership potential, and long-term fit at Microsoft.",
-          duration: "45-60 minutes"
-        }
-      ],
-
-      technicalQuestions: [
-        "Design a distributed caching system for Azure",
-        "Implement a feature for real-time collaboration in Office 365",
-        "Design the notification system for Microsoft Teams",
-        "Optimize query performance for a large-scale database in Azure SQL",
-        "Implement version control for documents in OneDrive",
-        "Design a recommendation engine for the Microsoft Store",
-        "Build a monitoring system for Azure services",
-        "Implement authentication and authorization for a multi-tenant application",
-        "Design the file sync mechanism for OneDrive across devices",
-        "Optimize startup time for Windows or Office applications"
-      ],
-
-      behavioralQuestions: [
-        "Tell me about a time when you demonstrated a growth mindset",
-        "Describe a situation where you had to collaborate with a difficult colleague",
-        "How have you handled feedback that was hard to hear?",
-        "Tell me about a time when you failed and what you learned",
-        "Describe a project where you had to work across multiple teams",
-        "How do you stay current with new technologies and approaches?",
-        "Tell me about a time when you disagreed with a technical decision",
-        "Describe a situation where you had to balance competing priorities"
-      ],
-
-      whatTheyLookFor: [
-        "Growth mindset - willingness to learn, adapt, and improve continuously",
-        "Strong fundamentals in computer science and software engineering",
-        "Experience with cloud technologies, distributed systems, or large-scale applications",
-        "Collaborative approach and ability to work across diverse teams",
-        "Customer focus and understanding of business impact",
-        "Adaptability to work on different products and technologies",
-        "Strong communication skills for global collaboration",
-        "Passion for Microsoft's mission to empower every person and organization"
-      ],
-
-      interviewTips: [
-        "Use Microsoft products (Azure, Office 365, Teams, VS Code) and understand their features",
-        "Demonstrate growth mindset - talk about learning from failures and continuous improvement",
-        "Emphasize collaboration and cross-functional experience",
-        "Be ready to discuss both code-level and system-level design",
-        "Show interest in Microsoft's open-source contributions and community engagement",
-        "Research Microsoft's culture and values - growth mindset is central",
-        "Prepare examples of working with diverse teams and handling ambiguity",
-        "Ask thoughtful questions about the team's mission and Microsoft's technology strategy"
-      ],
-
-      dayInLife: {
-        overview: "Microsoft engineers work in collaborative, global teams on products serving billions. Your day includes coding, design reviews, team collaboration, and continuous learning. Microsoft emphasizes work-life balance and flexible work arrangements.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Team Standup",
-            description: "Daily sync with global team members, review progress and blockers"
-          },
-          {
-            time: "9:30 AM",
-            activity: "Feature Development",
-            description: "Code new features for Azure service, write tests, update documentation"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Design Review",
-            description: "Review technical design for upcoming feature with senior engineers"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Lunch & Learning",
-            description: "Lunch with team, followed by internal tech talk on new Azure capabilities"
-          },
-          {
-            time: "1:30 PM",
-            activity: "Code Review",
-            description: "Review pull requests from team members across different time zones"
-          },
-          {
-            time: "3:00 PM",
-            activity: "Cross-team Collaboration",
-            description: "Meet with partner team to integrate services"
-          },
-          {
-            time: "4:00 PM",
-            activity: "Debugging & Testing",
-            description: "Investigate production issue, deploy fix to Azure staging environment"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Open Source Contribution",
-            description: "Work on open-source project or personal learning goal"
-          }
-        ]
-      },
-
-      similarRoles: [
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
-      ]
-    },
-
-    'product-manager': {
-      roleDescription: "Product Managers at Microsoft drive product strategy and execution for world-class products serving billions of users and millions of businesses. From Azure and Office 365 to Windows, Teams, and Xbox, you'll define vision, prioritize features, and work with engineering, design, and business teams to deliver customer value at massive scale.",
-
-      responsibilities: [
-        "Define product vision, strategy, and roadmap for Microsoft products",
-        "Gather customer insights through research, data analysis, and direct engagement",
-        "Prioritize features and make trade-off decisions balancing user needs and business goals",
-        "Collaborate with engineering, design, marketing, and sales teams",
-        "Track product metrics, analyze performance, and iterate based on data"
-      ],
-
-      growthOpportunities: [
-        "Lead products that impact billions of users and millions of businesses globally",
-        "Access to extensive customer data, research resources, and AI tools",
-        "Work across consumer, enterprise, and developer product lines",
-        "Strong emphasis on data-driven decision making and experimentation",
-        "Career growth into Senior PM, Group PM, or GM roles"
-      ],
-
-      interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your PM experience, interest in Microsoft products, and role fit. Overview of compensation and team structure.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Hiring Manager Interview",
-          description: "Deep dive into your PM experience, approach to product management, and fit with the team's needs. May include case discussion.",
-          duration: "45-60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Multiple interviews covering product design, strategy, execution, analytics, and behavioral/values. Focus on customer obsession and growth mindset.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "As Appropriate (AA) Round",
-          description: "Final interview with senior PM or GM if previous rounds go well. Assess leadership potential and cultural fit.",
-          duration: "45-60 minutes"
-        }
-      ],
-
-      technicalQuestions: [
-        "How would you improve Microsoft Teams for small businesses?",
-        "Design a new feature for Azure that helps developers reduce costs",
-        "Should Microsoft build a new productivity app? How would you decide?",
-        "How would you prioritize the Office 365 roadmap for the next year?",
-        "Design an experience to onboard new Windows users",
-        "How would you measure success for a new Teams feature?",
-        "Should Microsoft enter a new market segment? Walk through your analysis",
-        "Design a feature to increase collaboration in Office 365",
-        "How would you improve discoverability of Azure services?",
-        "Analyze declining engagement for a Microsoft product - what would you do?"
-      ],
-
-      behavioralQuestions: [
-        "Tell me about a product you shipped that didn't meet expectations",
-        "Describe a time when you had to make a difficult trade-off decision",
-        "How have you handled disagreement with engineering on priorities?",
-        "Tell me about a time when you used data to change a product direction",
-        "Describe a situation where you had to influence without authority",
-        "How do you balance customer needs with business constraints?",
-        "Tell me about a time when you advocated for the customer",
-        "Describe how you've worked with cross-functional teams across time zones"
-      ],
-
-      whatTheyLookFor: [
-        "Customer obsession - deep empathy for user needs and pain points",
-        "Strong analytical skills and data-driven decision making",
-        "Technical depth to collaborate effectively with engineering",
-        "Growth mindset and willingness to learn from failures",
-        "Experience with enterprise products, cloud, or consumer at scale",
-        "Excellent communication and stakeholder management skills",
-        "Strategic thinking balanced with execution excellence",
-        "Passion for Microsoft's mission and products"
-      ],
-
-      interviewTips: [
-        "Use Microsoft products deeply - Office 365, Azure, Teams, Windows",
-        "Bring data and metrics to back up your product decisions",
-        "Demonstrate growth mindset and learning from product failures",
-        "Show understanding of both consumer and enterprise product challenges",
-        "Emphasize collaboration across engineering, design, and business teams",
-        "Research Microsoft's product strategy and recent announcements",
-        "Prepare examples of working with technical teams and making trade-offs",
-        "Ask about the team's product area, customers, and key challenges"
-      ],
-
-      dayInLife: {
-        overview: "Microsoft PMs balance customer research, data analysis, strategic planning, and cross-functional collaboration. Your day includes customer calls, data reviews, feature planning, and working closely with engineering and design teams.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Metrics Review",
-            description: "Analyze product telemetry and user engagement data from previous week"
+            activity: "Morning Review",
+            description: "Check dashboards for anomalies, review overnight experiment results, respond to urgent stakeholder questions."
           },
           {
             time: "10:00 AM",
-            activity: "Customer Interviews",
-            description: "Calls with enterprise customers to understand their Azure challenges"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Engineering Sync",
-            description: "Daily standup with engineering team, discuss feature progress and blockers"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Lunch & Networking",
-            description: "Lunch with PMs from other Microsoft product teams"
-          },
-          {
-            time: "1:30 PM",
-            activity: "Design Review",
-            description: "Review UX designs for new feature with design team"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Strategy Meeting",
-            description: "Quarterly planning session with leadership on product roadmap"
-          },
-          {
-            time: "4:00 PM",
-            activity: "Spec Writing",
-            description: "Document feature requirements and user stories for next sprint"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Stakeholder Updates",
-            description: "Share progress updates with sales and marketing teams"
-          }
-        ]
-      },
-
-      similarRoles: [
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
-      ]
-    },
-
-    'engineering-manager': {
-      roleDescription: "Engineering Managers at Microsoft lead and grow high-performing engineering teams building world-class products. You'll balance technical leadership with people management, set direction for your team, and drive execution while fostering Microsoft's growth mindset culture. EMs at Microsoft manage teams of 8-12 engineers across diverse products and technologies.",
-
-      responsibilities: [
-        "Lead and mentor a team of 8-12 software engineers across the full development lifecycle",
-        "Set technical direction and make architectural decisions for your team's area",
-        "Hire top engineering talent and develop career growth plans",
-        "Drive execution on product roadmap in collaboration with PM and design",
-        "Foster growth mindset culture and continuous learning in your team"
-      ],
-
-      growthOpportunities: [
-        "Lead teams building products used by billions of users globally",
-        "Access to extensive management training and leadership development programs",
-        "Opportunity to work across diverse product areas from cloud to consumer",
-        "Clear path to senior leadership roles (Senior EM, Director, Partner)",
-        "Culture that values both technical and people leadership"
-      ],
-
-      interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your management experience, team size, technical background, and interest in Microsoft.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Hiring Manager Interview",
-          description: "Deep dive into your leadership philosophy, management approach, and technical credibility. Discussion of team challenges.",
-          duration: "60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering technical leadership (architecture/coding), people management, stakeholder management, and values. May include case studies.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "As Appropriate (AA) Round",
-          description: "Final round with senior leader assessing long-term potential and cultural fit. Focus on strategic thinking and leadership.",
-          duration: "45-60 minutes"
-        }
-      ],
-
-      technicalQuestions: [
-        "Design the architecture for a new Azure service handling millions of requests",
-        "How would you scale a system that's experiencing performance issues?",
-        "Your team is debating between two technical approaches - how do you decide?",
-        "Design the CI/CD pipeline for a large-scale distributed system",
-        "How do you balance technical debt with feature development?",
-        "Walk through how you'd architect a real-time collaboration feature for Teams",
-        "Your team is missing deadlines - how do you diagnose and fix this?",
-        "How do you ensure code quality across a team of 10 engineers?",
-        "Design a monitoring and alerting system for production services",
-        "How would you migrate a legacy system to modern architecture?"
-      ],
-
-      behavioralQuestions: [
-        "Tell me about a time when you had to manage a low performer",
-        "Describe a situation where your team missed a critical deadline",
-        "How have you built and scaled an engineering team?",
-        "Tell me about a time when you had to make a difficult technical trade-off",
-        "Describe a conflict between team members and how you resolved it",
-        "How have you fostered a culture of growth mindset in your team?",
-        "Tell me about a time when you had to deliver difficult feedback",
-        "Describe how you've balanced technical work with people management"
-      ],
-
-      whatTheyLookFor: [
-        "Strong technical credibility - ability to guide architecture and review code",
-        "People management experience leading teams of 5+ engineers",
-        "Growth mindset - developing others and learning continuously",
-        "Track record of shipping quality products on schedule",
-        "Experience with distributed systems, cloud, or large-scale applications",
-        "Excellent communication and collaboration across functions",
-        "Ability to build diverse, inclusive teams",
-        "Strategic thinking combined with execution excellence"
-      ],
-
-      interviewTips: [
-        "Prepare specific examples of developing engineers and building high-performing teams",
-        "Demonstrate technical depth - be ready to discuss architecture and code",
-        "Show how you've embodied and promoted growth mindset culture",
-        "Emphasize collaboration with PM, design, and other engineering teams",
-        "Be ready to discuss hiring, performance management, and difficult conversations",
-        "Research Microsoft's engineering culture and leadership principles",
-        "Prepare examples of balancing technical debt, quality, and feature velocity",
-        "Ask about the team's mission, technical challenges, and growth opportunities"
-      ],
-
-      dayInLife: {
-        overview: "Microsoft Engineering Managers balance technical leadership, people development, and strategic planning. Your day includes 1-on-1s, code/design reviews, cross-functional collaboration, hiring, and removing blockers for your team.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Team Standup",
-            description: "Daily sync with team on progress, blockers, and priorities across features"
-          },
-          {
-            time: "9:30 AM",
-            activity: "1-on-1 Meetings",
-            description: "Career development conversations with two engineers, provide coaching"
+            activity: "Experiment Review Meeting",
+            description: "Weekly meeting to review active experiments, discuss statistical significance, and make launch decisions."
           },
           {
             time: "11:00 AM",
-            activity: "Architecture Review",
-            description: "Review technical design for major Azure feature with team architects"
+            activity: "Deep Analysis Work",
+            description: "Focused time for exploratory data analysis. Write SQL queries to investigate user behavior patterns for new feature planning."
           },
           {
-            time: "12:00 PM",
-            activity: "Recruiting Lunch",
-            description: "Lunch interview with senior engineer candidate"
+            time: "12:30 PM",
+            activity: "Lunch",
+            description: "Lunch at Apple Park cafe. Informal discussions with product and engineering colleagues."
           },
           {
             time: "1:30 PM",
-            activity: "Code Review",
-            description: "Review critical pull requests and provide technical guidance"
+            activity: "Product Partnership Meeting",
+            description: "Meet with product manager to discuss metric definitions for upcoming feature launch. Align on measurement approach."
           },
           {
             time: "2:30 PM",
-            activity: "Cross-team Sync",
-            description: "Meet with partner team EMs to align on dependencies and timelines"
+            activity: "Model Development",
+            description: "Build and validate predictive model for user engagement. Work on feature engineering and cross-validation."
           },
           {
-            time: "3:30 PM",
-            activity: "Sprint Planning",
-            description: "Work with PM to prioritize backlog and plan next sprint"
+            time: "4:00 PM",
+            activity: "Data Science Team Sync",
+            description: "Weekly team meeting to share learnings, discuss methodology questions, and review privacy constraints for new projects."
           },
           {
-            time: "4:30 PM",
-            activity: "Performance Reviews",
-            description: "Write performance reviews and calibrate with peer managers"
+            time: "5:00 PM",
+            activity: "Documentation & Communication",
+            description: "Write up analysis findings, create visualizations for stakeholder presentation, update experiment documentation."
           },
           {
-            time: "5:30 PM",
-            activity: "Technical Mentorship",
-            description: "Mentor junior engineers on system design and career growth"
+            time: "5:45 PM",
+            activity: "Wrap Up",
+            description: "Finalize code commits, respond to outstanding questions, plan tomorrow's priorities."
           }
         ]
       },
-
       similarRoles: [
         { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
         { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
       ]
     }
   },
-
   'netflix': {
     'software-engineer': {
       roleDescription: "Software Engineers at Netflix build and maintain the streaming service that entertains 250+ million members worldwide. You'll work on challenging problems in streaming technology, personalization, content delivery, and studio operations. Netflix's culture emphasizes freedom and responsibility, context over control, and high performance. Engineers have significant autonomy and impact.",
