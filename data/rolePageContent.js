@@ -15351,6 +15351,654 @@ export const rolePageContent = {
 ,
 
   },
+  'microsoft': {
+    'software-engineer': {
+      roleDescription: "Software Engineers at Microsoft build products and platforms that power billions of devices and users worldwide, from Windows and Office to Azure, Xbox, and LinkedIn. Microsoft's engineering culture has transformed dramatically under Satya Nadella's leadership, embracing open source, cloud-first development, and a growth mindset philosophy. You'll work on systems at massive scale - Azure hosts over 60 regions globally, Office 365 serves 400+ million users, and Windows runs on 1.4 billion devices. Microsoft's unique breadth means engineers can work on consumer products, enterprise software, cloud infrastructure, gaming, AI (Copilot, OpenAI partnership), or developer tools (VS Code, GitHub). The company offers exceptional work-life balance compared to other Big Tech, generous benefits including 401k matching, and one of the most inclusive cultures in tech. Career growth follows a clear ladder system (59-80 levels) with both IC and management tracks, and internal mobility is strongly encouraged.",
+      responsibilities: [
+        "Design, develop, test, and deploy software for Microsoft products and cloud services at global scale",
+        "Write clean, maintainable code following Microsoft's engineering best practices and coding standards",
+        "Participate in code reviews, design discussions, and technical planning sessions with your team",
+        "Collaborate with product managers, designers, and partner teams to define and deliver features",
+        "Debug complex issues across distributed systems and drive root cause analysis",
+        "Contribute to technical documentation, specifications, and architectural decisions",
+        "Mentor junior engineers and participate in recruiting through technical interviews",
+        "Operate and maintain services in production, participating in on-call rotations as needed",
+        "Stay current with industry trends and evaluate new technologies for potential adoption",
+        "Drive engineering excellence through testing, automation, and continuous improvement"
+      ],
+      growthOpportunities: [
+        "Clear career ladder (Levels 59-80) with well-defined expectations for IC and management tracks",
+        "Internal mobility program allowing movement across teams, orgs, and locations globally",
+        "Access to cutting-edge technology: Azure, AI/ML, quantum computing, mixed reality",
+        "Work on products used by billions: Windows, Office, Azure, Teams, Xbox, LinkedIn",
+        "Growth mindset culture actively encourages learning from failures and experimentation",
+        "Path to technical leadership (Principal, Partner, Distinguished Engineer) or management",
+        "Collaboration with Microsoft Research on breakthrough technologies and publications",
+        "Strong investment in employee development with learning resources and certifications",
+        "Opportunity to work on open source projects (VS Code, TypeScript, .NET Core)"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute initial call with a Microsoft recruiter to discuss your background, experience, and career goals. The recruiter explains the interview process, answers questions about teams and roles, and assesses basic qualifications. They'll ask about your preferred technologies, areas of interest (cloud, AI, productivity, gaming), and location preferences. Microsoft recruiters are generally responsive and transparent about timeline and expectations.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute technical interview via Microsoft Teams with a senior engineer. You'll solve 1-2 coding problems while sharing your screen and explaining your thought process. Expect questions on data structures, algorithms, and problem-solving. Unlike some companies, Microsoft interviewers often engage more conversationally and may help guide you if you're stuck. The interviewer evaluates your coding ability, communication, and how you handle feedback.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual/On-site Interview Loop (4-5 rounds)",
+          description: "Full interview day consisting of: (1) Two coding interviews focused on data structures and algorithms - problems are generally more practical than pure LeetCode; (2) One system design interview where you'll architect a large-scale system relevant to Microsoft's products (like designing OneDrive, Teams, or Xbox matchmaking); (3) One or two behavioral interviews assessing growth mindset, collaboration, and cultural fit - Microsoft calls this 'culture fit' round and values learning from failure; (4) The final round is often with the hiring manager to discuss team specifics, career growth, and mutual fit.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "As-Appropriate (AA) Interview",
+          description: "If initial feedback is positive but mixed, you may have an additional 'As-Appropriate' interview with a senior leader. This person reviews all prior feedback and conducts a final assessment to make the hiring decision. The AA interviewer often focuses on your overall potential, growth mindset, and how you'd contribute to the team. This round exists to ensure high-quality hiring decisions when the loop feedback isn't unanimous.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 5,
+          title: "Offer & Team Placement",
+          description: "After approval, you'll receive an offer from the recruiting team. Microsoft offers are competitive and include base salary, signing bonus, annual performance bonus (typically 10-25% based on level), and RSU grants vesting over 4 years. Unlike Google's team matching, Microsoft typically hires for specific teams, so you'll already know your team. Offer negotiation is possible, especially for competing offers. The process from final interview to offer is typically 1-2 weeks.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Design a URL shortening service like bit.ly. How would you handle high read/write throughput?",
+        "Implement an LRU cache with O(1) get and put operations. Walk through your design decisions.",
+        "Given a binary tree, write a function to serialize and deserialize it. Handle all edge cases.",
+        "Design the backend for Microsoft Teams chat messaging. How would you ensure message ordering?",
+        "Write a function to find all anagrams of a word in a list. Optimize for large dictionaries.",
+        "Design a distributed file storage system like OneDrive. How would you handle sync conflicts?",
+        "Implement a function to find the kth largest element in an array. What's the optimal approach?",
+        "Design the architecture for Xbox Live matchmaking. How would you balance skill-based matching with wait times?",
+        "Write a function to detect a cycle in a directed graph. When would you use DFS vs BFS?",
+        "Design Azure's blob storage service. How would you handle replication across regions?",
+        "Implement a thread-safe singleton pattern. What are the trade-offs of different approaches?",
+        "Given a stream of log events, design a system to detect anomalies in real-time.",
+        "Write a function to find the longest palindromic substring. What's the time complexity?",
+        "Design the autocomplete feature for Outlook email. How would you rank suggestions?",
+        "Implement a rate limiter for an API. How would you make it work across distributed servers?",
+        "Design a real-time collaborative document editor like Word Online. How would you handle conflicts?",
+        "Write a function to validate if a binary tree is a valid BST. Consider integer overflow cases.",
+        "Design the notification system for Microsoft Teams. How would you handle millions of concurrent users?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you demonstrated growth mindset when facing a challenge.",
+        "Describe a situation where you received critical feedback. How did you respond and grow from it?",
+        "Give an example of a time you failed. What did you learn and how did you apply those lessons?",
+        "Tell me about a time you had to work with a difficult teammate. How did you handle it?",
+        "Describe a project where you had to learn a new technology quickly. What was your approach?",
+        "Tell me about a time you disagreed with your manager's decision. How did you handle it?",
+        "Give an example of when you helped someone else succeed or grow.",
+        "Describe a time when you had to make a decision with incomplete information.",
+        "Tell me about your most impactful project. What was your specific contribution?",
+        "Give an example of a time you went above and beyond what was expected.",
+        "Describe a situation where you had to influence others without authority.",
+        "Tell me about a time you simplified something complex for a broader audience.",
+        "How do you prioritize when you have multiple competing deadlines?",
+        "Describe a time when you advocated for an unpopular decision that turned out to be right.",
+        "Tell me about a time you had to balance multiple stakeholders with conflicting needs."
+      ],
+      whatTheyLookFor: [
+        "Growth mindset: genuine curiosity, willingness to learn from failures, and embrace of challenges",
+        "Strong coding fundamentals with clean, readable, and well-structured code",
+        "Problem-solving ability and systematic approach to debugging complex issues",
+        "Clear communication skills: ability to explain technical concepts to various audiences",
+        "Collaboration and teamwork: evidence of working effectively across teams and disciplines",
+        "Customer obsession: focus on end-user impact and solving real customer problems",
+        "Technical depth in relevant areas: systems, algorithms, or domain-specific knowledge",
+        "Leadership potential: ownership mentality, initiative, and ability to drive results",
+        "Inclusive behavior: respect for diverse perspectives and creating an inclusive environment",
+        "Adaptability: comfort with ambiguity and ability to navigate changing priorities"
+      ],
+      interviewTips: [
+        "Emphasize growth mindset in behavioral answers - Microsoft explicitly values learning from failures",
+        "Practice system design for Microsoft-specific products: Teams, Azure, Office, Xbox Live",
+        "Be conversational during coding interviews - Microsoft interviewers often engage in dialogue",
+        "Research the specific team and product you're interviewing for deeply",
+        "Prepare stories about collaboration and helping others succeed - not just individual achievements",
+        "Understand Microsoft's cultural transformation under Satya Nadella and reference it authentically",
+        "Practice explaining your thought process clearly while coding - communication matters as much as solution",
+        "Be ready to discuss trade-offs and alternatives, not just optimal solutions",
+        "Show genuine enthusiasm for Microsoft's mission to empower every person and organization",
+        "Prepare questions about the team's current challenges and how they align with company priorities",
+        "For system design, start with requirements gathering and scale estimation",
+        "Be honest about what you don't know - growth mindset means acknowledging gaps",
+        "Review Microsoft's Leadership Principles and have examples for each",
+        "Practice with Microsoft-relevant technologies: Azure, .NET, C#, TypeScript if applicable"
+      ],
+      salary: {
+        min: 140000,
+        max: 225000
+      },
+      compensation: [
+        "Competitive base salary with annual performance bonuses (10-25% based on level and performance)",
+        "RSU grants vesting over 4 years with annual refresher grants based on performance",
+        "401(k) matching: 50% match up to IRS limit (one of the best in industry)",
+        "Employee Stock Purchase Plan (ESPP) at 10% discount with 6-month lookback",
+        "Comprehensive health insurance with multiple plan options and low deductibles",
+        "Annual wellness benefit ($1,200) for gym, fitness equipment, or wellness activities",
+        "Generous PTO: 15-20 days vacation plus sick leave, holidays, and discretionary time off",
+        "20 weeks paid parental leave for all new parents (birth, adoption, foster)",
+        "Fertility and family planning benefits including adoption assistance up to $10,000",
+        "Microsoft product discounts and free subscriptions (Xbox, Office 365, etc.)",
+        "Flexible work arrangements with hybrid options and work-from-home support",
+        "Career development budget for conferences, training, and certifications"
+      ],
+      dayInLife: {
+        overview: "Software Engineers at Microsoft typically work 9 AM to 6 PM with genuine respect for work-life balance - a dramatic shift from the pre-Nadella era. The culture emphasizes async communication, meeting-free focus time, and sustainable pace. Most teams operate in a hybrid model with 2-3 days in office.",
+        schedule: [
+          { time: "9:00 AM", activity: "Start of day", description: "Check emails, Teams messages, and review any overnight production alerts or deployment status" },
+          { time: "9:30 AM", activity: "Team standup", description: "Quick 15-minute sync with your team on progress, blockers, and daily priorities" },
+          { time: "10:00 AM", activity: "Focus time", description: "Deep coding work on your current feature or bug fixes - Microsoft protects focus time seriously" },
+          { time: "12:00 PM", activity: "Lunch", description: "Break for lunch, often with teammates in the cafeteria or nearby restaurants; campus has diverse food options" },
+          { time: "1:00 PM", activity: "Design review", description: "Participate in or present design documents for upcoming features with architects and partner teams" },
+          { time: "2:30 PM", activity: "Code review", description: "Review pull requests from teammates and address feedback on your own PRs" },
+          { time: "3:30 PM", activity: "1:1 or mentoring", description: "Weekly 1:1 with your manager or mentoring session with a junior engineer" },
+          { time: "4:30 PM", activity: "Afternoon coding", description: "Continue development work, write tests, update documentation" },
+          { time: "6:00 PM", activity: "End of day", description: "Wrap up, update work items, and disconnect - on-call rotations handle after-hours issues" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
+      ]
+    },
+    'program-manager': {
+      roleDescription: "Program Managers at Microsoft hold a unique and influential role that doesn't have a direct equivalent at most other tech companies. Unlike Product Managers who focus primarily on strategy and roadmap, Microsoft PMs own the complete product lifecycle - from customer research and spec writing to driving engineering execution and shipping features. You'll be the connective tissue between engineering, design, marketing, and leadership, translating customer needs into detailed specifications and ensuring flawless execution. Microsoft invented this role, and PMs here have exceptional influence over product direction. You'll work on products reaching billions: Windows, Office, Azure, Teams, Xbox, or emerging areas like Copilot AI. The PM role at Microsoft is known for its technical depth requirement - you won't code daily, but you need to understand architecture deeply to earn engineering respect and make informed trade-offs. Career growth is excellent, with many Microsoft executives having PM backgrounds, and the role offers a compelling alternative to pure engineering or business tracks.",
+      responsibilities: [
+        "Define product requirements and write detailed specification documents driving engineering implementation",
+        "Conduct customer research, analyze usage data, and translate insights into product features and improvements",
+        "Partner closely with engineering teams to scope work, prioritize features, and manage the development lifecycle",
+        "Drive cross-team coordination for features requiring collaboration across multiple organizations",
+        "Create and maintain product roadmaps aligned with organizational strategy and customer needs",
+        "Represent the customer perspective in technical discussions and ensure features meet user needs",
+        "Manage feature trade-offs balancing customer value, technical feasibility, and business impact",
+        "Lead product reviews with senior leadership, presenting strategy, progress, and key decisions",
+        "Coordinate with design, research, marketing, and support teams to ensure successful product launches",
+        "Analyze product metrics and telemetry to measure success and identify improvement opportunities"
+      ],
+      growthOpportunities: [
+        "PM career ladder with clear progression from PM to Senior PM to Principal PM to Partner PM",
+        "Path to executive leadership - many Microsoft VPs and CVPs started as Program Managers",
+        "Opportunity to define products used by billions of users across consumer and enterprise",
+        "Internal mobility across diverse product areas: productivity, cloud, gaming, AI, devices",
+        "Access to world-class user research, data science, and design resources",
+        "Exposure to the full product lifecycle from inception to launch to iteration",
+        "Cross-functional leadership experience managing without direct authority",
+        "Technical growth through deep collaboration with engineering teams",
+        "Opportunity to lead 0-to-1 product initiatives in emerging areas like AI and mixed reality"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call with a Microsoft recruiter to discuss your background and PM experience. They'll assess your fit for the PM role specifically, asking about your experience with specifications, customer research, and cross-functional collaboration. The recruiter explains Microsoft's unique PM role and how it differs from other companies, and discusses team options based on your interests.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Screen",
+          description: "45-60 minute call with the hiring manager to dive deeper into your PM experience. Expect questions about your product sense, how you've worked with engineering teams, and your approach to prioritization. The manager will share details about the team, current challenges, and opportunities. They're assessing both your PM skills and potential fit with the team culture.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual/On-site Interview Loop (4-5 rounds)",
+          description: "Full interview day with: (1) Product design round - design a new feature or product from scratch, considering user needs, technical constraints, and business goals; (2) Analytical/metrics round - analyze data, define success metrics, and make product decisions based on numbers; (3) Technical round - demonstrate understanding of system architecture and ability to communicate with engineers; (4) Behavioral round - assess collaboration, leadership, and growth mindset through past experiences; (5) Hiring manager round - final discussion on team fit and career aspirations.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "As-Appropriate Review",
+          description: "Senior leader reviews all feedback and may conduct an additional interview if needed. For PM roles, this often involves discussing your vision for the product area and how you'd approach strategic challenges. The AA interviewer is looking for big-picture thinking, leadership potential, and cultural fit at a higher level than individual rounds assess.",
+          duration: "45-60 minutes if needed"
+        },
+        {
+          step: 5,
+          title: "Offer & Negotiation",
+          description: "If approved, you'll receive a competitive offer including base salary, annual bonus, and RSUs. PM compensation at Microsoft is strong and comparable to engineering. The recruiter will walk through the offer details and discuss any questions. There's room for negotiation, especially with competing offers. Team placement is typically determined before the offer.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Design a new feature for Microsoft Teams to improve remote collaboration. Walk through your process.",
+        "How would you measure the success of a new Outlook mobile feature? What metrics would you track?",
+        "A partner team wants to add a feature that conflicts with your roadmap priorities. How do you handle this?",
+        "Design the first version of an AI assistant for Excel. What would you include and exclude? Why?",
+        "How would you prioritize these five features given limited engineering resources? Walk through your framework.",
+        "A major customer is threatening to churn unless we build their requested feature. What do you do?",
+        "Design the notification system for a new Microsoft product. Consider user experience and technical constraints.",
+        "How would you approach writing a spec for a feature in a domain you're not familiar with?",
+        "Product telemetry shows a feature you championed has low adoption. How do you investigate and respond?",
+        "Design the onboarding experience for a new enterprise product. How do you balance simplicity with power features?",
+        "How would you handle a situation where engineering says your spec is technically infeasible?",
+        "Walk through how you'd approach launching a product in a new international market.",
+        "How do you balance customer requests with platform or architectural constraints?",
+        "Design a gamification system for Microsoft Learn. What are the key product decisions?",
+        "How would you evaluate whether to build, buy, or partner for a new capability?",
+        "A launch deadline is at risk. Walk through how you'd assess trade-offs and communicate decisions."
+      ],
+      behavioralQuestions: [
+        "Tell me about a product you shipped that you're most proud of. What was your specific contribution?",
+        "Describe a time you had to influence engineering to change direction. How did you build the case?",
+        "Give an example of a time you made a difficult trade-off between customer requests and technical constraints.",
+        "Tell me about a product failure you were involved in. What did you learn?",
+        "Describe a situation where you had to manage stakeholders with conflicting priorities.",
+        "Give an example of how you used data to make a product decision.",
+        "Tell me about a time you had to say no to a customer or stakeholder request.",
+        "Describe a time you worked with a difficult engineering partner. How did you build the relationship?",
+        "Give an example of when you identified a customer problem before others recognized it.",
+        "Tell me about a time you had to drive alignment across multiple teams with different priorities.",
+        "Describe a situation where you had to learn a new technical domain quickly.",
+        "Give an example of how you incorporated feedback to significantly improve a product.",
+        "Tell me about a time you had to present a controversial recommendation to leadership.",
+        "Describe how you've mentored or developed other PMs or team members.",
+        "Give an example of a time you demonstrated growth mindset in a challenging situation."
+      ],
+      whatTheyLookFor: [
+        "Product sense: ability to identify customer problems and design elegant solutions",
+        "Technical depth: understanding of system architecture sufficient to partner effectively with engineering",
+        "Customer obsession: genuine focus on solving real customer problems, not just shipping features",
+        "Analytical rigor: data-driven decision making and ability to define and measure success",
+        "Communication skills: clear writing, compelling presentations, and ability to influence without authority",
+        "Cross-functional leadership: track record of driving results through collaboration",
+        "Strategic thinking: ability to connect feature decisions to broader business and customer outcomes",
+        "Growth mindset: learning orientation, humility about what you don't know, and resilience",
+        "Execution focus: proven ability to ship products and drive engineering teams to deliver",
+        "Customer empathy: deep understanding of user needs through research and direct engagement"
+      ],
+      interviewTips: [
+        "Understand Microsoft's unique PM role - it's more execution-focused than PM roles at other companies",
+        "Prepare product design cases for Microsoft products: Teams, Outlook, Office, Xbox, Azure",
+        "Practice structured product frameworks: CIRCLES, user journey mapping, prioritization matrices",
+        "Be ready to discuss technical trade-offs even if you're not writing code",
+        "Prepare stories about influencing engineering teams and driving cross-functional alignment",
+        "Research the specific product area and come with informed perspectives on its challenges",
+        "Demonstrate customer obsession with examples of user research and customer engagement",
+        "Show data literacy - be ready to discuss metrics, experimentation, and data-driven decisions",
+        "Emphasize growth mindset and learning from product failures or mistakes",
+        "Prepare questions about the team's current roadmap challenges and priorities",
+        "Practice presenting product recommendations clearly and concisely",
+        "Understand Microsoft's mission and how your product area contributes to it",
+        "Be ready to discuss both consumer and enterprise product considerations",
+        "Show humility - acknowledge what you don't know and how you'd learn"
+      ],
+      salary: {
+        min: 130000,
+        max: 210000
+      },
+      compensation: [
+        "Competitive base salary comparable to engineering compensation at same levels",
+        "Annual performance bonus typically 15-30% based on individual and company performance",
+        "RSU grants vesting over 4 years with annual refreshers based on performance",
+        "401(k) matching: 50% match up to IRS limit",
+        "Employee Stock Purchase Plan (ESPP) at 10% discount",
+        "Comprehensive health, dental, and vision insurance",
+        "Annual wellness benefit ($1,200) for health and fitness activities",
+        "20 weeks paid parental leave for all new parents",
+        "Generous PTO plus sick leave and company holidays",
+        "Home office setup support and equipment budget",
+        "Professional development budget for conferences and training",
+        "Microsoft product subscriptions and employee discounts"
+      ],
+      dayInLife: {
+        overview: "Program Managers at Microsoft balance strategic thinking with execution detail. Your days involve customer research, spec writing, engineering collaboration, and stakeholder management. PMs typically work 9 AM to 6 PM with reasonable work-life balance, though launch periods can be more intense.",
+        schedule: [
+          { time: "9:00 AM", activity: "Start of day", description: "Review emails, Teams messages, and overnight feedback from global teams or customers" },
+          { time: "9:30 AM", activity: "Customer insights review", description: "Review telemetry dashboards, support tickets, and user research findings" },
+          { time: "10:30 AM", activity: "Engineering sync", description: "Meet with engineering leads to discuss implementation progress and technical decisions" },
+          { time: "11:30 AM", activity: "Spec writing", description: "Work on detailed specification documents for upcoming features" },
+          { time: "12:30 PM", activity: "Lunch", description: "Often used for informal 1:1s with partner teams or networking" },
+          { time: "1:30 PM", activity: "Cross-team meeting", description: "Coordinate with partner teams on feature dependencies and integration points" },
+          { time: "3:00 PM", activity: "Customer call or research", description: "Participate in customer interviews, usability studies, or partner meetings" },
+          { time: "4:00 PM", activity: "Leadership review prep", description: "Prepare materials for upcoming product reviews with senior leadership" },
+          { time: "5:00 PM", activity: "Planning", description: "Prioritize backlog, update roadmap, and plan next sprint with the team" },
+          { time: "6:00 PM", activity: "End of day", description: "Wrap up, address any urgent issues, and prepare for tomorrow" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Microsoft leverage the company's unparalleled data assets to drive product innovation, optimize business operations, and advance AI capabilities across the entire Microsoft ecosystem. You'll work with data at extraordinary scale - Microsoft 365 generates petabytes of interaction data, Azure serves millions of customers, and Xbox connects 100+ million gamers. The role spans experimentation and A/B testing, machine learning model development, causal inference, and strategic analytics. Microsoft's data science culture emphasizes rigorous methodology, reproducible research, and direct business impact. You'll collaborate closely with PMs, engineers, and leadership to translate data insights into product decisions and features. The rise of AI at Microsoft, including the OpenAI partnership and Copilot initiatives, makes this an especially exciting time for data scientists, with opportunities to shape how AI augments productivity tools used by billions.",
+      responsibilities: [
+        "Design and analyze experiments (A/B tests) to measure feature impact and guide product decisions",
+        "Build machine learning models for personalization, recommendation, and prediction use cases",
+        "Develop dashboards and reporting systems to track product health and business metrics",
+        "Conduct causal inference studies to understand the impact of product changes and interventions",
+        "Partner with product and engineering teams to translate business questions into analytical frameworks",
+        "Create data pipelines and ETL processes to enable analysis at scale",
+        "Present findings and recommendations to stakeholders at all levels including senior leadership",
+        "Collaborate with ML engineers to productionize models and scale algorithms",
+        "Mentor junior data scientists and contribute to team best practices and methodology",
+        "Stay current with advances in statistics, ML, and causal inference methodology"
+      ],
+      growthOpportunities: [
+        "Work with some of the largest and richest datasets in the world across diverse product areas",
+        "Clear career ladder from Data Scientist to Senior to Principal to Partner levels",
+        "Opportunity to publish research and present at top conferences",
+        "Collaborate with Microsoft Research on cutting-edge methodology and AI advances",
+        "Shape how AI and ML are integrated into products used by billions",
+        "Internal mobility across diverse domains: productivity, cloud, gaming, ads, LinkedIn",
+        "Access to world-class compute infrastructure including Azure ML and OpenAI resources",
+        "Technical leadership track for those who want to remain ICs at senior levels",
+        "Exposure to the full ML lifecycle from research to production deployment"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call to discuss your background, experience, and interest in data science at Microsoft. The recruiter will explain the different data science teams and help match your interests to appropriate opportunities. They'll ask about your statistical background, ML experience, and industry domain expertise.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute technical interview with a senior data scientist. You'll cover a mix of statistical concepts, ML methodology, and applied problem-solving. Expect questions about experiment design, hypothesis testing, common ML algorithms, and how you'd approach a data problem. You may be asked to work through a case study or analyze a sample dataset.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual/On-site Interview Loop (4-5 rounds)",
+          description: "Full day of interviews including: (1) Statistical methodology round - deep dive into experimentation, causal inference, or advanced statistical methods; (2) Machine learning round - model selection, feature engineering, and ML system design; (3) Coding round - typically Python or R, focused on data manipulation and analysis; (4) Case study round - open-ended business problem requiring data-driven approach; (5) Behavioral round assessing collaboration, communication, and growth mindset.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Manager Discussion",
+          description: "In-depth conversation with the hiring manager about team fit, career goals, and specific project opportunities. They'll share details about current team challenges and how your skills would contribute. This is your opportunity to ask detailed questions about the team's work and assess mutual fit.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 5,
+          title: "Offer Decision",
+          description: "Following successful interviews, you'll receive an offer typically within 1-2 weeks. Microsoft data science compensation is competitive with strong base, bonus, and equity. The recruiting team will walk through the complete package and discuss any questions.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "How would you design an A/B test for a new Microsoft Teams feature? What metrics would you track?",
+        "Explain the difference between correlation and causation. How would you establish causality from observational data?",
+        "What's the difference between L1 and L2 regularization? When would you use each?",
+        "How would you handle a dataset where the positive class is only 1% of the data?",
+        "Explain the bias-variance tradeoff. How does it relate to model complexity?",
+        "How would you evaluate and compare different recommendation algorithms for Xbox Game Pass?",
+        "Describe a time you had to choose between interpretability and predictive performance. What did you decide?",
+        "How do you determine the minimum sample size needed for an experiment?",
+        "Explain how you would detect and handle data leakage in a machine learning pipeline.",
+        "What methods would you use to handle missing data? What are the trade-offs?",
+        "How would you design a system to detect anomalies in Azure service metrics at scale?",
+        "Explain the concept of statistical power and its relationship to sample size.",
+        "How would you approach building a churn prediction model for Microsoft 365 subscribers?",
+        "What's the difference between supervised, unsupervised, and reinforcement learning? Give examples.",
+        "How do you validate the assumptions of a linear regression model?",
+        "Explain the concept of p-hacking and how you prevent it in your work.",
+        "How would you design an experimentation platform for a company like Microsoft?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a data project that had significant business impact. What was your role?",
+        "Describe a time when your analysis contradicted what stakeholders expected. How did you handle it?",
+        "Give an example of when you had to communicate complex statistical concepts to non-technical audiences.",
+        "Tell me about a time you had to make a decision with incomplete or noisy data.",
+        "Describe a situation where you identified a problem in your methodology after starting work. What did you do?",
+        "Give an example of a time you had to push back on a request for analysis. Why and how?",
+        "Tell me about a time you collaborated with engineers to productionize a model.",
+        "Describe a project where you had to learn a new methodology or domain quickly.",
+        "Give an example of how you've mentored or helped develop other data scientists.",
+        "Tell me about a time when an experiment you designed didn't work as expected.",
+        "Describe how you stay current with advances in data science and ML.",
+        "Give an example of a time you improved a team process or best practice.",
+        "Tell me about a situation where you had to prioritize multiple competing analysis requests.",
+        "Describe a time you demonstrated growth mindset in your work.",
+        "Give an example of when you had to balance rigor with speed in your analysis."
+      ],
+      whatTheyLookFor: [
+        "Strong statistical foundation: hypothesis testing, experimentation, causal inference",
+        "Machine learning expertise: practical knowledge of algorithms, their strengths and limitations",
+        "Programming proficiency: Python or R for data manipulation, analysis, and modeling",
+        "Business acumen: ability to translate business problems into analytical questions",
+        "Communication skills: clear explanation of technical concepts to diverse audiences",
+        "Rigor and methodology: commitment to reproducible, well-documented analysis",
+        "Curiosity and learning orientation: genuine interest in exploring data and finding insights",
+        "Collaboration: ability to work effectively with PMs, engineers, and other stakeholders",
+        "Pragmatism: balancing methodological ideals with real-world constraints and timelines",
+        "Growth mindset: learning from mistakes and continuously improving skills and methods"
+      ],
+      interviewTips: [
+        "Review core statistics: hypothesis testing, confidence intervals, p-values, power analysis",
+        "Be ready to explain common ML algorithms at both intuitive and mathematical levels",
+        "Practice SQL - data manipulation questions are common even for senior roles",
+        "Prepare examples of experiments you've designed and what you learned from them",
+        "Be ready to discuss model evaluation beyond just accuracy: precision, recall, AUC, calibration",
+        "Practice case studies: approach open-ended business problems with structured frameworks",
+        "Know how to handle common data issues: missing data, outliers, class imbalance",
+        "Be prepared to discuss productionization: model monitoring, retraining, and MLOps",
+        "Research the specific product area and think about data science opportunities there",
+        "Emphasize collaboration and communication skills - data science is a team sport at Microsoft",
+        "Prepare questions about the team's current challenges and methodology",
+        "Be ready to discuss ethical considerations in data science and ML",
+        "Practice explaining trade-offs: interpretability vs performance, speed vs rigor",
+        "Demonstrate growth mindset with examples of learning from mistakes or failures"
+      ],
+      salary: {
+        min: 135000,
+        max: 215000
+      },
+      compensation: [
+        "Competitive base salary with level-based progression",
+        "Annual performance bonus typically 15-25% of base salary",
+        "RSU grants vesting over 4 years with annual refreshers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Employee Stock Purchase Plan at 10% discount",
+        "Comprehensive health, dental, and vision insurance",
+        "Annual wellness benefit for health and fitness",
+        "20 weeks paid parental leave",
+        "Generous PTO plus sick leave and holidays",
+        "Home office setup and equipment budget",
+        "Conference and professional development budget",
+        "Access to premium data science tools and compute resources"
+      ],
+      dayInLife: {
+        overview: "Data Scientists at Microsoft split time between independent analysis work, collaboration with product teams, and presenting findings. The role offers flexibility in how you structure your day, with many DS teams having focus time norms to protect deep work.",
+        schedule: [
+          { time: "9:00 AM", activity: "Start of day", description: "Check experiment results, review overnight alerts, and respond to urgent analysis requests" },
+          { time: "9:30 AM", activity: "Analysis work", description: "Deep dive into current analysis project - data exploration, modeling, or writing up findings" },
+          { time: "11:00 AM", activity: "Team sync", description: "Quick standup with data science team to share progress and discuss methodology questions" },
+          { time: "11:30 AM", activity: "Partner meeting", description: "Sync with PM or engineering partner on analysis requirements and insights" },
+          { time: "12:30 PM", activity: "Lunch", description: "Often combined with informal learning or tech talks" },
+          { time: "1:30 PM", activity: "Experiment review", description: "Analyze results from running experiments and prepare recommendations" },
+          { time: "3:00 PM", activity: "Code review/modeling", description: "Continue modeling work or review code from teammates" },
+          { time: "4:00 PM", activity: "Presentation prep", description: "Prepare slides or documentation for upcoming leadership review" },
+          { time: "5:00 PM", activity: "Learning", description: "Read papers, explore new tools, or work through internal learning resources" },
+          { time: "6:00 PM", activity: "End of day", description: "Wrap up, queue overnight jobs if needed, and disconnect" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+      ]
+    },
+    'cloud-solutions-architect': {
+      roleDescription: "Cloud Solutions Architects at Microsoft are the technical visionaries who help enterprise customers design and implement transformative Azure solutions. You'll work at the intersection of technology and business, translating complex customer requirements into scalable cloud architectures that leverage Azure's 200+ services. This role combines deep technical expertise with consultative skills - you're not just designing systems, you're enabling digital transformation for some of the world's largest organizations. Microsoft CSAs typically focus on strategic accounts, working closely with sales teams to drive Azure adoption while ensuring customers are successful and realizing value from their cloud investments. The role offers exceptional variety, from greenfield cloud migrations to modernizing legacy applications with containers and serverless, to implementing cutting-edge AI/ML solutions. You'll have direct impact on multi-million dollar deals and shape how enterprises leverage cloud technology for competitive advantage.",
+      responsibilities: [
+        "Design comprehensive Azure solutions addressing customer business and technical requirements",
+        "Lead architectural design sessions and workshops with customer technical teams",
+        "Create solution architectures including infrastructure, security, data, and application layers",
+        "Advise customers on Azure best practices, Well-Architected Framework, and cloud adoption strategy",
+        "Partner with sales teams to develop technical strategies for strategic account opportunities",
+        "Deliver technical presentations, proof-of-concepts, and architecture reviews to customer stakeholders",
+        "Guide customers through cloud migration planning and implementation approaches",
+        "Stay current with Azure services and translate new capabilities into customer solutions",
+        "Mentor other architects and contribute to internal knowledge sharing and communities",
+        "Collaborate with Azure engineering teams on customer feedback and product improvements"
+      ],
+      growthOpportunities: [
+        "Deep expertise in one of the world's leading cloud platforms with 25%+ market share",
+        "Career path from Cloud Solutions Architect to Principal to Cloud Solution Area Lead",
+        "Opportunity to work with Fortune 500 companies on transformative cloud initiatives",
+        "Access to Azure product teams and ability to influence roadmap based on customer needs",
+        "Path to technical leadership roles in Azure engineering or customer success",
+        "Broad exposure across industries: financial services, healthcare, retail, manufacturing",
+        "Certifications supported: Azure Solutions Architect Expert, various specialty certifications",
+        "Global opportunities with Azure's presence in 60+ regions worldwide",
+        "Thought leadership through blogs, speaking at conferences, and community contribution"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call to discuss your background, cloud experience, and interest in the CSA role. The recruiter will explain the different CSA specializations (infrastructure, data, app innovation, security) and team structures. They'll assess your Azure knowledge level and customer-facing experience.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute conversation with the hiring manager covering your architecture experience, customer engagement approach, and career aspirations. Expect scenario-based questions about handling customer objections, designing solutions under constraints, and driving cloud adoption. The manager is assessing both technical depth and sales acumen.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Technical Deep Dive (2 rounds)",
+          description: "Two 60-minute technical interviews with senior architects. One focuses on solution design - you'll whiteboard an Azure architecture for a complex scenario (migrating a legacy application, building a data platform, or implementing a hybrid cloud). The other covers technical breadth across Azure services, security, networking, and best practices. Expect probing questions on design decisions and trade-offs.",
+          duration: "2 hours"
+        },
+        {
+          step: 4,
+          title: "Customer Presentation Round",
+          description: "You'll prepare and deliver a 30-minute presentation on a technical topic of your choice to a panel including architects and sales leaders. This simulates a customer executive briefing and tests your ability to communicate complex technical concepts clearly and persuasively. Expect Q&A that challenges your positions and recommendations.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 5,
+          title: "Final Round & Offer",
+          description: "Final conversation with a senior leader (often a Director or GM) to discuss vision for the role, career development, and mutual fit. Following successful interviews, you'll receive an offer typically within 1-2 weeks. CSA compensation includes base, variable pay tied to Azure consumption, and equity.",
+          duration: "45 minutes + 1-2 weeks for offer"
+        }
+      ],
+      technicalQuestions: [
+        "Design a highly available, globally distributed e-commerce platform on Azure. Walk through your architecture decisions.",
+        "A customer wants to migrate 500 servers to Azure in 6 months. How would you approach the assessment and planning?",
+        "Explain the differences between Azure VMs, App Services, Containers, and Serverless. When would you recommend each?",
+        "How would you design a secure hybrid cloud network connecting on-premises data centers to Azure?",
+        "A customer is concerned about data sovereignty and compliance. How does Azure address these concerns?",
+        "Design a data platform on Azure for a retailer processing 1 billion transactions daily with real-time analytics needs.",
+        "What's your approach to cost optimization for a customer whose Azure spend has grown unexpectedly?",
+        "Explain Azure's security model and how you'd implement defense in depth for a regulated industry customer.",
+        "A customer wants to modernize their monolithic application. What migration strategies would you recommend?",
+        "How would you design a disaster recovery solution with an RTO of 15 minutes and RPO of 5 minutes?",
+        "Compare Azure Synapse, Databricks, and HDInsight. When would you recommend each?",
+        "How do you approach a customer who is committed to AWS or GCP but wants to explore Azure?",
+        "Design an IoT solution on Azure for a manufacturing company with 10,000 devices generating sensor data.",
+        "What Azure services would you use to implement a machine learning pipeline for fraud detection?",
+        "How would you ensure a customer's Azure environment meets SOC 2 and HIPAA requirements?",
+        "A customer complains Azure is too expensive compared to on-premises. How do you respond?",
+        "Design a multi-tenant SaaS application architecture on Azure. What isolation strategies would you use?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex architecture you designed. What trade-offs did you make and why?",
+        "Describe a situation where you had to push back on a customer's technical decision. How did you handle it?",
+        "Give an example of a time you lost a deal to a competitor. What did you learn?",
+        "Tell me about a time you had to simplify a complex technical concept for an executive audience.",
+        "Describe a situation where a customer implementation didn't go as planned. How did you recover?",
+        "Give an example of how you've influenced a customer's cloud strategy beyond a single project.",
+        "Tell me about a time you collaborated with sales to win a strategic deal.",
+        "Describe a situation where you had to quickly learn a new Azure service to address a customer need.",
+        "Give an example of a time you received negative feedback from a customer. How did you respond?",
+        "Tell me about a time you identified a growth opportunity with an existing customer.",
+        "Describe how you stay current with Azure's rapidly evolving service portfolio.",
+        "Give an example of how you've mentored other architects or contributed to your team's growth.",
+        "Tell me about a time you had to balance competing priorities from multiple customers.",
+        "Describe a situation where you disagreed with your manager's approach. How did you handle it?",
+        "Give an example of demonstrating growth mindset in your career."
+      ],
+      whatTheyLookFor: [
+        "Deep Azure expertise: comprehensive knowledge of core services and architecture patterns",
+        "Customer obsession: genuine focus on customer success and business outcomes",
+        "Consultative skills: ability to understand business requirements and translate to technical solutions",
+        "Communication excellence: clear presentation of complex technical concepts to diverse audiences",
+        "Sales acumen: understanding of enterprise sales cycles and how to drive cloud adoption",
+        "Competitive intelligence: knowledge of AWS and GCP to position Azure effectively",
+        "Industry knowledge: understanding of specific industry challenges and compliance requirements",
+        "Executive presence: confidence and credibility when engaging with senior customer stakeholders",
+        "Learning agility: ability to rapidly learn new Azure services and apply them to customer scenarios",
+        "Growth mindset: continuous learning and development orientation"
+      ],
+      interviewTips: [
+        "Get Azure certified (AZ-305 Solutions Architect Expert is essential) if you aren't already",
+        "Practice whiteboarding complex architectures - this is the core skill being assessed",
+        "Prepare customer stories demonstrating business impact, not just technical implementation",
+        "Know Azure's competitive positioning vs AWS and GCP - you'll be asked about this",
+        "Prepare a polished technical presentation you can deliver confidently",
+        "Research the specific industry focus of the team you're interviewing with",
+        "Be ready to discuss cost optimization - it's always a customer concern",
+        "Understand Azure's Well-Architected Framework and be able to apply it",
+        "Practice handling objections and difficult customer scenarios",
+        "Prepare questions about the team's strategic accounts and major initiatives",
+        "Show commercial awareness - understand how the CSA role contributes to Azure revenue",
+        "Demonstrate thought leadership through blogs, presentations, or community contributions",
+        "Be ready to discuss hybrid cloud and migration strategies in depth",
+        "Know security and compliance capabilities - these are critical for enterprise customers"
+      ],
+      salary: {
+        min: 140000,
+        max: 235000
+      },
+      compensation: [
+        "Competitive base salary at target level",
+        "Variable compensation tied to Azure consumption and customer success metrics",
+        "RSU grants vesting over 4 years with annual refreshers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Comprehensive health, dental, and vision insurance",
+        "Annual wellness benefit ($1,200)",
+        "20 weeks paid parental leave",
+        "Generous PTO plus sick leave and holidays",
+        "Home office setup and technology budget",
+        "Conference attendance and certification reimbursement",
+        "Premium access to Azure services for learning and development",
+        "Travel budget for customer engagements and team events"
+      ],
+      dayInLife: {
+        overview: "Cloud Solutions Architects balance customer engagements with solution development and internal collaboration. Travel expectations vary by account portfolio but typically range from 20-50%. Work hours are generally flexible but customer needs drive schedule.",
+        schedule: [
+          { time: "8:00 AM", activity: "Prep for customer meeting", description: "Review account context, prepare architecture diagrams, and align with sales rep on objectives" },
+          { time: "9:00 AM", activity: "Customer workshop", description: "Lead architecture design session with customer technical team, whiteboarding Azure solutions" },
+          { time: "11:00 AM", activity: "Follow-up work", description: "Document architecture decisions, create detailed diagrams, and draft recommendations" },
+          { time: "12:00 PM", activity: "Lunch", description: "Often customer lunch or internal team sync" },
+          { time: "1:00 PM", activity: "Internal sync", description: "Account team meeting to discuss strategy, upcoming opportunities, and blockers" },
+          { time: "2:00 PM", activity: "Proof of concept work", description: "Build and test proof of concept for customer scenario in Azure" },
+          { time: "4:00 PM", activity: "Deal support", description: "Review proposal, validate technical approach, and prepare customer presentation" },
+          { time: "5:00 PM", activity: "Learning and development", description: "Explore new Azure services, complete certifications, or contribute to internal communities" },
+          { time: "6:00 PM", activity: "End of day", description: "Wrap up, respond to customer questions, and plan tomorrow's activities" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Oracle", companySlug: "oracle", industry: "Technology" },
+        { companyName: "IBM", companySlug: "ibm", industry: "Technology" }
+      ]
+    }
+  },
   'netflix': {
     'software-engineer': {
       roleDescription: "Software Engineers at Netflix build and maintain the streaming service that entertains 250+ million members worldwide. You'll work on challenging problems in streaming technology, personalization, content delivery, and studio operations. Netflix's culture emphasizes freedom and responsibility, context over control, and high performance. Engineers have significant autonomy and impact.",
