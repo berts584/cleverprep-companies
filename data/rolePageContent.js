@@ -1586,6 +1586,787 @@ export const rolePageContent = {
         { companyName: "DeepMind", companySlug: "deepmind", industry: "Technology" }
       ]
     },
+    'cloud-engineer': {
+      roleDescription: "Cloud Engineers at Google Cloud build, deploy, and manage the infrastructure and services that power enterprise customers' cloud workloads. You'll work with Google Cloud Platform (GCP) - the third-largest cloud provider globally - helping organizations migrate to the cloud, optimize their infrastructure, and leverage Google's cutting-edge technology including BigQuery, Kubernetes (which Google created), and AI/ML services. The role combines deep technical expertise in cloud architecture, networking, security, and DevOps with customer-facing skills to solve complex enterprise challenges. Google Cloud Engineers work on diverse projects from startups to Fortune 500 companies, helping them scale globally using the same infrastructure that powers YouTube, Gmail, and Search. Career growth follows the engineering ladder with opportunities to specialize in areas like security, data, networking, or AI/ML, or move into solutions architecture, customer engineering management, or product roles. Google Cloud is growing rapidly (30%+ YoY revenue growth) creating abundant opportunities for advancement.",
+      responsibilities: [
+        "Design and implement cloud architectures using GCP services (Compute Engine, GKE, Cloud Storage, BigQuery, etc.)",
+        "Build and maintain CI/CD pipelines, infrastructure-as-code, and automation using Terraform, Deployment Manager, or Cloud Build",
+        "Implement cloud security best practices including IAM, VPC design, encryption, and compliance frameworks",
+        "Optimize cloud costs and performance through architecture reviews, monitoring, and resource rightsizing",
+        "Migrate customer workloads from on-premises or other clouds to GCP with minimal disruption",
+        "Troubleshoot complex issues across compute, networking, storage, and application layers",
+        "Collaborate with customer engineering and sales teams to design solutions meeting customer requirements",
+        "Create technical documentation, architecture diagrams, and runbooks for cloud environments",
+        "Stay current with GCP service releases and evaluate new features for customer applicability",
+        "Contribute to internal tools, automation frameworks, and best practices documentation"
+      ],
+      growthOpportunities: [
+        "Work with Google Cloud Platform - the fastest-growing major cloud provider with 30%+ YoY growth",
+        "Clear career ladder from Cloud Engineer → Senior → Staff with increasing scope and complexity",
+        "Opportunity to earn Google Cloud certifications (Professional Cloud Architect, DevOps Engineer, etc.)",
+        "Exposure to diverse enterprise customers across industries: finance, healthcare, retail, media, etc.",
+        "Path to Solutions Architect, Customer Engineer, or Technical Account Manager roles",
+        "Access to Google's internal cloud infrastructure and tools not available elsewhere",
+        "Collaboration with GCP product teams to influence service development based on customer needs",
+        "Global mobility with cloud teams across North America, Europe, Asia, and other regions",
+        "Strong exit opportunities to cloud architecture roles at enterprises or consulting firms"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your background, cloud experience, and interest in Google Cloud. The recruiter assesses your GCP/cloud expertise, customer-facing experience, and alignment with open roles. Be prepared to discuss your cloud certifications, most complex cloud projects, and why you're interested in Google Cloud specifically.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute interview with a Google Cloud Engineer covering cloud architecture and technical problem-solving. Expect questions on GCP services (when to use Compute Engine vs GKE vs Cloud Functions), networking (VPC design, load balancing, DNS), and hands-on scenarios like 'Design a highly available web application on GCP.' You may also discuss Linux fundamentals, scripting, and infrastructure-as-code. The interviewer evaluates technical depth and ability to translate requirements into cloud solutions.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interviews (4-5 rounds)",
+          description: "Full day of interviews including: (1) Cloud Architecture Design - design a complete cloud solution for a business scenario, discussing compute, storage, networking, security, and cost optimization; (2) Technical Deep Dive - detailed questions on your cloud experience, troubleshooting scenarios, and GCP-specific knowledge; (3) Coding/Scripting - write code to automate cloud tasks or solve infrastructure problems (Python, Bash, or Go); (4) Customer Scenarios - how you would handle customer situations, explain technical concepts, or manage competing priorities; (5) Googleyness & Leadership - behavioral interview on collaboration and cultural fit.",
+          duration: "Full day (4-5 hours)"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee Review",
+          description: "Your interview feedback is reviewed by a committee of senior Cloud Engineers. The committee evaluates cloud architecture skills, technical depth, customer-facing ability, and Googleyness. Google Cloud Engineers must balance deep technical expertise with the ability to communicate effectively with customers. Committee review typically takes 1-2 weeks.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Team Matching & Offer",
+          description: "After committee approval, you'll meet with hiring managers from Cloud teams matching your interests (infrastructure, data, security, specific industries, etc.). Understand the customer base, technical challenges, and team culture. Ask about travel expectations, customer interaction level, and certification support. Once a mutual match is found, you'll receive a competitive offer.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Design a highly available, scalable web application on GCP. What services would you use?",
+        "Explain the difference between Compute Engine, GKE, Cloud Run, and Cloud Functions. When would you use each?",
+        "How would you design a VPC for a multi-tier application with public and private subnets?",
+        "A customer's application on GKE is experiencing intermittent latency. How would you troubleshoot?",
+        "Explain GCP's IAM model. How do you implement least-privilege access?",
+        "How would you migrate a large on-premises database to Cloud SQL with minimal downtime?",
+        "Design a data pipeline using GCP services to process and analyze streaming data.",
+        "What's the difference between global, regional, and zonal resources in GCP? Give examples.",
+        "How would you implement disaster recovery for a critical application on GCP?",
+        "Explain Cloud CDN and Cloud Armor. When would you use each?",
+        "A customer wants to reduce their GCP bill by 30%. What would you recommend?",
+        "How does GKE's autopilot mode differ from standard mode? When would you recommend each?",
+        "Design a secure architecture for handling PCI-DSS compliant payment data on GCP.",
+        "Explain the difference between Cloud Storage classes. How do you choose the right one?",
+        "How would you implement a blue-green deployment strategy on GCP?",
+        "A customer's BigQuery costs are unexpectedly high. How would you investigate and optimize?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex cloud migration you led. What challenges did you face?",
+        "Describe a time you had to explain a technical cloud concept to a non-technical stakeholder.",
+        "Tell me about a situation where a customer's requirements conflicted with best practices.",
+        "Give an example of how you optimized cloud costs for a customer or organization.",
+        "Describe a time you had to troubleshoot a critical production issue in the cloud.",
+        "Tell me about a project where you had to learn a new cloud technology quickly.",
+        "How do you stay current with the rapidly evolving cloud landscape?",
+        "Describe a situation where you had to push back on a customer's technical approach.",
+        "Tell me about a time you collaborated with sales or product teams on a customer solution.",
+        "Give an example of how you've automated a previously manual cloud operation.",
+        "Describe a time you had to balance multiple customer priorities simultaneously.",
+        "Tell me about a cloud project that didn't go as planned. What did you learn?",
+        "How do you approach documentation and knowledge sharing in your cloud work?",
+        "Describe a time you mentored someone on cloud technologies."
+      ],
+      whatTheyLookFor: [
+        "Deep GCP expertise: hands-on experience with core services (Compute, GKE, Storage, BigQuery, Networking)",
+        "Cloud architecture skills: ability to design scalable, secure, cost-effective solutions",
+        "Troubleshooting ability: systematic approach to diagnosing complex cloud issues",
+        "Infrastructure-as-code experience: Terraform, Deployment Manager, or similar tools",
+        "Scripting/automation skills: Python, Bash, or Go for cloud automation",
+        "Networking knowledge: VPCs, load balancing, DNS, firewalls, and hybrid connectivity",
+        "Security awareness: IAM, encryption, compliance frameworks, and security best practices",
+        "Customer-facing skills: ability to communicate technical concepts to diverse audiences",
+        "Googleyness: collaboration, intellectual curiosity, and comfort with ambiguity",
+        "Certifications preferred: GCP Professional Cloud Architect or similar credentials"
+      ],
+      interviewTips: [
+        "Get hands-on with GCP: use the free tier to build projects and understand service interactions",
+        "Obtain GCP certifications: Professional Cloud Architect is highly valued for this role",
+        "Practice cloud architecture design: be ready to whiteboard complete solutions with tradeoffs",
+        "Know GCP vs AWS/Azure: understand GCP's differentiators and when to recommend specific services",
+        "Review networking fundamentals: VPC design, subnetting, load balancing, and hybrid connectivity",
+        "Prepare customer scenario stories: use STAR format for situations involving customer challenges",
+        "Understand GCP pricing: be able to discuss cost optimization strategies and pricing models",
+        "Practice explaining technical concepts simply: you'll work with customers of varying technical levels",
+        "Review Kubernetes concepts: GKE is central to many GCP architectures",
+        "Know security best practices: IAM, encryption, VPC Service Controls, and compliance",
+        "Be ready to write code: practice Python or Bash scripts for cloud automation tasks",
+        "Research Google Cloud's recent announcements and new service launches",
+        "Prepare questions about customer base, travel expectations, and certification support",
+        "Show passion for cloud technology and helping customers succeed"
+      ],
+      salary: {
+        min: 140000,
+        max: 240000
+      },
+      compensation: [
+        "Base salary: $140-240K depending on level (L4-L6) and location",
+        "Annual performance bonus: 15-20% of base salary based on individual and team performance",
+        "Initial RSU grant: $100-350K+ vesting over 4 years",
+        "Stock refresh grants: Annual RSU refreshes based on performance",
+        "Signing bonus: $20-80K depending on level and competing offers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Comprehensive health insurance: Medical, dental, vision with excellent coverage",
+        "Free meals and on-site amenities valued at ~$15K annually",
+        "Certification reimbursement: GCP and other cloud certifications fully covered",
+        "Paid parental leave: 18-24 weeks",
+        "Total first-year compensation typically ranges from $200K to $450K depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Cloud Engineer at Google Cloud balances technical work with customer interaction and collaboration. You'll spend time designing architectures, troubleshooting issues, building automation, and working with customers to solve their cloud challenges. Google Cloud's culture emphasizes both technical excellence and customer success. Most Cloud Engineers work 45-50 hours per week with some flexibility for remote work. Travel varies by role - some positions are customer-facing with 20-30% travel, while others are more internally focused.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Stand-up",
+            description: "Quick sync with cloud team on customer projects, active issues, and priorities for the day."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Customer Architecture Review",
+            description: "Review customer's proposed GCP architecture with solutions team. Provide recommendations on security, scalability, and cost optimization."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Technical Deep Dive",
+            description: "Work on automation project: building Terraform modules for common customer deployment patterns."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Learning",
+            description: "Lunch combined with team learning session on new GCP service launch (e.g., new BigQuery feature)."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Customer Call",
+            description: "Troubleshooting call with customer experiencing GKE networking issues. Diagnose problem and implement fix."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Documentation Work",
+            description: "Update internal documentation based on customer engagement learnings. Create architecture reference for common patterns."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Cross-team Collaboration",
+            description: "Meeting with GCP product team to provide customer feedback on service improvements."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Technical Development",
+            description: "Continue Terraform automation work. Test modules and prepare for code review."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up",
+            description: "Respond to customer emails, update project tracking, and plan tomorrow's priorities."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Oracle", companySlug: "oracle", industry: "Technology" },
+        { companyName: "IBM", companySlug: "ibm", industry: "Technology" }
+      ]
+    },
+    'product-marketing-manager': {
+      roleDescription: "Product Marketing Managers (PMMs) at Google are the strategic bridge between products and the market, responsible for positioning, messaging, and go-to-market strategy for products used by billions of users and millions of businesses. You'll work on some of the world's most recognizable brands - Google Search, YouTube, Android, Google Cloud, Pixel, and more - crafting narratives that resonate with consumers, developers, and enterprises globally. Google PMMs combine deep product knowledge with market insights to define positioning, drive launches, enable sales teams, and measure marketing effectiveness. The role requires both analytical rigor (Google is data-driven) and creative storytelling (compelling narratives matter). You'll collaborate closely with product management, engineering, sales, and creative teams to bring products to market successfully. Google's PMM organization is highly respected in tech, with alumni going on to lead marketing at major companies or found their own ventures. Career growth follows a clear path from PMM → Senior PMM → Group PMM → Director → VP, with opportunities to specialize in consumer, enterprise, or developer marketing.",
+      responsibilities: [
+        "Develop product positioning and messaging that differentiates Google products in competitive markets",
+        "Lead go-to-market strategy and execution for product launches, from planning through post-launch analysis",
+        "Create compelling marketing content including website copy, sales materials, case studies, and presentations",
+        "Conduct market research, competitive analysis, and customer research to inform product and marketing strategy",
+        "Enable sales teams with training, battle cards, objection handling guides, and customer-facing materials",
+        "Partner with product management to influence roadmap based on market needs and competitive dynamics",
+        "Develop and manage integrated marketing campaigns across channels (digital, events, PR, etc.)",
+        "Define and track key marketing metrics, optimize campaigns based on performance data",
+        "Present marketing strategy and results to leadership, advocating for resources and strategic direction",
+        "Collaborate with creative and brand teams to develop impactful marketing assets and campaigns"
+      ],
+      growthOpportunities: [
+        "Work on iconic brands: Google Search, YouTube, Android, Chrome, Google Cloud, Pixel, and more",
+        "Clear career ladder from PMM → Senior → Group PMM → Director → VP with increasing scope",
+        "Exposure to both consumer and enterprise marketing at massive scale",
+        "Opportunity to launch products reaching billions of users with global marketing campaigns",
+        "Path to CMO roles, product management, or business development through cross-functional experience",
+        "Internal mobility across product areas and marketing specializations",
+        "Access to Google's marketing resources, data, and tools for campaign optimization",
+        "Collaboration with world-class creative agencies and internal Google creative teams",
+        "Strong alumni network with Google PMMs leading marketing at top tech companies"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your background, PMM experience, and interest in Google. The recruiter assesses marketing experience, product knowledge, and alignment with open roles. Be prepared to discuss your most successful product launch, your marketing philosophy, and which Google product areas interest you.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Marketing Phone Screen",
+          description: "45-60 minute interview with a Google PMM covering marketing strategy and analytical thinking. Expect questions like 'How would you position Google Cloud against AWS?', 'Walk me through a product launch you led', or 'How would you measure the success of a brand campaign?' The interviewer evaluates strategic thinking, marketing fundamentals, and ability to structure complex problems.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interviews (4-5 rounds)",
+          description: "Full day of interviews including: (1) Marketing Strategy - develop positioning or GTM strategy for a Google product scenario; (2) Analytical/Metrics - define marketing metrics, analyze campaign performance, or size a market opportunity; (3) Cross-functional Collaboration - interview with PM or sales partner on how you work with stakeholders; (4) Creative/Storytelling - present a marketing campaign or narrative you developed; (5) Googleyness & Leadership - behavioral interview on leadership and cultural fit. Each round evaluates different marketing competencies.",
+          duration: "Full day (4-5 hours)"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee Review",
+          description: "Your interview feedback is reviewed by a committee of senior PMMs. The committee evaluates strategic thinking, analytical ability, creativity, cross-functional skills, and Googleyness. Google PMMs must balance data-driven decision making with compelling storytelling. Committee review typically takes 1-2 weeks.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Team Matching & Offer",
+          description: "After committee approval, you'll meet with hiring managers from PMM teams matching your interests (Consumer, Cloud, Ads, Hardware, etc.). Understand the product portfolio, marketing challenges, and team dynamics. Ask about agency relationships, budget ownership, and cross-functional structure. Once a mutual match is found, you'll receive a competitive offer.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "How would you position Google Cloud against AWS and Azure? What's Google's differentiation?",
+        "Walk me through how you would launch a new feature for YouTube to creators.",
+        "Google is launching a new Pixel phone. Develop a go-to-market strategy for the US market.",
+        "How would you measure the success of a brand awareness campaign for Google Search?",
+        "A competitor just launched a product that matches our key feature. How do you respond?",
+        "Develop positioning and messaging for Google Workspace targeting small businesses.",
+        "How would you prioritize marketing channels for a B2B product launch with limited budget?",
+        "Walk me through a marketing funnel for Google Cloud. What metrics matter at each stage?",
+        "How would you segment the market for YouTube Premium? Which segments would you prioritize?",
+        "Develop a competitive battle card for Google Meet vs. Zoom and Microsoft Teams.",
+        "How would you approach marketing a Google product in a new international market?",
+        "A product team wants to remove a feature customers love. How do you communicate this?",
+        "How would you use data to optimize a digital marketing campaign?",
+        "Develop a customer case study strategy for Google Cloud. What makes an effective case study?",
+        "How would you enable sales teams for a complex enterprise product launch?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a product launch you led. What was your strategy and what were the results?",
+        "Describe a time you had to influence a product roadmap based on market insights.",
+        "Tell me about a marketing campaign that didn't meet expectations. What did you learn?",
+        "Give an example of how you used data to change a marketing strategy.",
+        "Describe a time you had to simplify a complex product for marketing purposes.",
+        "Tell me about a situation where you had to manage competing priorities from stakeholders.",
+        "How do you stay current with marketing trends and competitive dynamics?",
+        "Describe a time you collaborated with sales to improve marketing effectiveness.",
+        "Tell me about a creative campaign you developed. What was the insight behind it?",
+        "Give an example of how you've measured marketing ROI or campaign effectiveness.",
+        "Describe a time you had to advocate for a marketing strategy that others disagreed with.",
+        "Tell me about working with creative agencies or internal creative teams.",
+        "How do you approach building relationships with product management partners?",
+        "Describe a time you had to pivot a marketing strategy quickly due to market changes."
+      ],
+      whatTheyLookFor: [
+        "Strategic thinking: ability to develop positioning, GTM strategy, and marketing plans",
+        "Analytical skills: data-driven approach to marketing decisions and campaign optimization",
+        "Storytelling ability: crafting compelling narratives that resonate with target audiences",
+        "Product knowledge: deep understanding of technology products and how to market them",
+        "Cross-functional collaboration: effectiveness working with PM, sales, engineering, and creative",
+        "Customer insight: understanding of customer needs, motivations, and decision-making",
+        "Competitive awareness: knowledge of market dynamics and competitor positioning",
+        "Communication skills: clear, persuasive written and verbal communication",
+        "Execution excellence: ability to drive complex launches and campaigns to completion",
+        "Googleyness: intellectual curiosity, collaboration, and comfort with ambiguity"
+      ],
+      interviewTips: [
+        "Know Google's products deeply: have opinions on positioning, competitive dynamics, and opportunities",
+        "Prepare a portfolio of marketing work: be ready to discuss 2-3 launches or campaigns in detail",
+        "Practice positioning exercises: develop clear, differentiated positioning statements",
+        "Use structured frameworks: approach strategy questions with clear methodology",
+        "Balance creativity with analytics: show both storytelling ability and data-driven thinking",
+        "Understand the marketing funnel: be able to discuss metrics and optimization at each stage",
+        "Research Google's marketing: analyze recent campaigns, launches, and brand positioning",
+        "Prepare for cross-functional scenarios: discuss how you work with PM, sales, and creative",
+        "Know competitive landscape: understand Google's position vs. key competitors in your area",
+        "Use STAR format for behavioral questions with specific metrics and outcomes",
+        "Show customer empathy: ground your strategies in customer insights and needs",
+        "Prepare questions about product portfolio, marketing budget, and agency relationships",
+        "Demonstrate intellectual curiosity about technology and market trends",
+        "Be ready to present: you may need to pitch a campaign or strategy during interviews"
+      ],
+      salary: {
+        min: 140000,
+        max: 250000
+      },
+      compensation: [
+        "Base salary: $140-250K depending on level (L5-L7) and location",
+        "Annual performance bonus: 15-25% of base salary based on individual and marketing performance",
+        "Initial RSU grant: $100-400K+ vesting over 4 years",
+        "Stock refresh grants: Annual RSU refreshes based on performance",
+        "Signing bonus: $25-100K depending on level and competing offers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Comprehensive health insurance: Medical, dental, vision with excellent coverage",
+        "Free meals and on-site amenities valued at ~$15K annually",
+        "Marketing conference budget for industry events",
+        "Paid parental leave: 18-24 weeks",
+        "Total first-year compensation typically ranges from $200K to $450K depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Product Marketing Manager at Google balances strategic planning with tactical execution. You'll spend time developing positioning, collaborating with product and sales teams, analyzing campaign performance, and working on content and creative. Google's PMM culture emphasizes data-driven decision making, customer insight, and cross-functional partnership. Most PMMs work 45-55 hours per week with flexibility for remote work. The role involves significant collaboration and meetings, balanced with independent strategic work.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Review",
+            description: "Review campaign performance dashboards, competitive news alerts, and overnight emails from global teams."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Product Team Sync",
+            description: "Weekly sync with product management on roadmap updates, upcoming features, and marketing implications."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Positioning Workshop",
+            description: "Working session to refine messaging for upcoming product launch. Collaborate with creative and content teams."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Cross-functional Networking",
+            description: "Lunch with sales enablement team to discuss field feedback and upcoming training needs."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Campaign Planning",
+            description: "Develop media plan and channel strategy for Q4 launch. Work with agency partners on creative brief."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Customer Research Review",
+            description: "Review findings from recent customer research study. Identify insights for messaging and positioning."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Sales Enablement",
+            description: "Present new competitive battle cards to sales team. Answer questions and gather feedback."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Content Development",
+            description: "Write website copy and review case study draft for upcoming customer story."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up",
+            description: "Respond to stakeholder requests, update project tracking, and prepare for tomorrow's executive review."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" }
+      ]
+    },
+    'data-engineer': {
+      roleDescription: "Data Engineers at Google build and maintain the data infrastructure that powers products serving billions of users and enables data-driven decision making across the company. You'll work with data at unprecedented scale - Google processes over 20 petabytes of data daily - building pipelines, data warehouses, and systems that make data accessible and useful for engineers, data scientists, and analysts. Google pioneered many foundational data technologies (MapReduce, BigQuery, Dataflow, Pub/Sub) and you'll work with cutting-edge tools both internal and open-source. Data Engineers partner with product teams to ensure data quality, build ETL/ELT pipelines, design data models, and create the infrastructure for machine learning and analytics. The role requires strong software engineering fundamentals combined with expertise in distributed systems, databases, and data processing frameworks. Career growth follows the engineering ladder (L4-L8) with paths to Staff/Principal Data Engineer, data architecture leadership, or transitions to ML engineering or data science roles.",
+      responsibilities: [
+        "Design, build, and maintain scalable data pipelines processing petabytes of data daily",
+        "Develop ETL/ELT processes to ingest, transform, and load data from diverse sources",
+        "Build and optimize data warehouses and data lakes using BigQuery, Spanner, and other Google technologies",
+        "Implement data quality monitoring, validation, and alerting systems",
+        "Partner with data scientists and analysts to understand data requirements and build supporting infrastructure",
+        "Design data models and schemas optimizing for query performance and analytical needs",
+        "Develop and maintain streaming data systems using Pub/Sub, Dataflow, and Kafka",
+        "Create documentation, data catalogs, and metadata management systems",
+        "Optimize query performance and reduce data processing costs",
+        "Ensure data security, privacy, and compliance with regulations (GDPR, CCPA, etc.)"
+      ],
+      growthOpportunities: [
+        "Work with data at Google scale - over 20 petabytes processed daily",
+        "Clear career ladder from Data Engineer → Senior → Staff → Principal with increasing scope",
+        "Access to Google's pioneering data technologies: BigQuery, Dataflow, Pub/Sub, and internal tools",
+        "Opportunity to work on data infrastructure for iconic products: Search, YouTube, Ads, Cloud",
+        "Path to data architecture, ML engineering, or data science through cross-functional exposure",
+        "Collaboration with world-class data scientists and ML engineers",
+        "Internal mobility across product areas and data platform teams",
+        "Influence on Google's data infrastructure used by thousands of engineers",
+        "Strong exit opportunities to lead data engineering at other companies or startups"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your background, data engineering experience, and interest in Google. The recruiter assesses your experience with data pipelines, distributed systems, and SQL/Python proficiency. Be prepared to discuss your most complex data project, technologies you've used, and what aspects of data engineering interest you most.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute interview covering data engineering concepts and coding. Expect questions on SQL (complex queries, optimization), Python data processing, and system design for data pipelines. You may be asked to write SQL queries, design a data pipeline, or discuss how you would handle a specific data engineering challenge. The interviewer evaluates technical depth and problem-solving approach.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interviews (4-5 rounds)",
+          description: "Full day of interviews including: (1) Coding - write Python or Java code for data processing tasks, similar to SWE interviews; (2) SQL Deep Dive - complex queries, optimization, and database design; (3) Data System Design - design end-to-end data pipelines, data warehouses, or streaming systems at scale; (4) Data Modeling - design schemas, discuss normalization, and optimize for analytical workloads; (5) Googleyness & Leadership - behavioral interview on collaboration and cultural fit.",
+          duration: "Full day (4-5 hours)"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee Review",
+          description: "Your interview feedback is reviewed by a committee of senior Data Engineers. The committee evaluates coding ability, SQL proficiency, system design skills, data modeling expertise, and Googleyness. Data Engineers must be strong programmers who can also think about data architecture and quality. Committee review typically takes 1-2 weeks.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Team Matching & Offer",
+          description: "After committee approval, you'll meet with hiring managers from data teams across Google (Ads, Search, YouTube, Cloud, Core Data Platform, etc.). Understand the data challenges, tech stack, and team structure. Ask about data scale, pipeline complexity, and collaboration with data scientists. Once a mutual match is found, you'll receive a competitive offer.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Design a data pipeline to process clickstream data from 1 billion daily users.",
+        "Write a SQL query to find the top 10 products by revenue for each category, including ties.",
+        "How would you design a data warehouse for an e-commerce platform? What schema would you use?",
+        "Explain the difference between batch and streaming processing. When would you use each?",
+        "A data pipeline is taking 12 hours instead of the expected 2 hours. How would you diagnose the issue?",
+        "Design a system to detect and handle duplicate events in a streaming pipeline.",
+        "Explain the CAP theorem and how it affects data system design.",
+        "How would you implement slowly changing dimensions (SCD) in a data warehouse?",
+        "Write a SQL query using window functions to calculate running totals and moving averages.",
+        "Design a data quality monitoring system. What metrics would you track?",
+        "Explain the difference between star schema and snowflake schema. When would you use each?",
+        "How would you design a system to join a streaming data source with a large static dataset?",
+        "A table has 10 billion rows and queries are slow. How would you optimize?",
+        "Design a data pipeline for machine learning feature engineering at Google scale.",
+        "Explain partitioning and clustering in BigQuery. How do they affect query performance?",
+        "How would you handle schema evolution in a data lake?"
+      ],
+      behavioralQuestions: [
+        "Tell me about the most complex data pipeline you've built. What challenges did you face?",
+        "Describe a time you improved the performance of a data system significantly.",
+        "Tell me about a data quality issue you discovered and how you resolved it.",
+        "Give an example of collaborating with data scientists or analysts on their data needs.",
+        "Describe a time you had to make tradeoffs in data system design.",
+        "Tell me about a project where you had to work with messy or unreliable data sources.",
+        "How do you approach documentation and knowledge sharing for data systems?",
+        "Describe a time you had to balance data freshness with processing cost.",
+        "Tell me about a situation where data requirements changed mid-project.",
+        "Give an example of how you've automated a previously manual data process.",
+        "Describe a time you had to debug a complex data pipeline issue.",
+        "Tell me about working with stakeholders to define data requirements.",
+        "How do you stay current with data engineering technologies and best practices?",
+        "Describe a time you had to ensure data privacy or compliance in your work."
+      ],
+      whatTheyLookFor: [
+        "Strong coding skills: proficiency in Python, Java, or Scala for data processing",
+        "SQL mastery: complex queries, optimization, and database design",
+        "System design ability: can design scalable data pipelines and architectures",
+        "Distributed systems knowledge: understanding of how data systems work at scale",
+        "Data modeling expertise: schema design, normalization, and optimization for analytics",
+        "Data quality mindset: focus on validation, monitoring, and reliability",
+        "ETL/ELT experience: hands-on experience with data transformation and loading",
+        "Cloud data technologies: familiarity with BigQuery, Dataflow, or equivalent tools",
+        "Communication skills: can work effectively with data scientists and stakeholders",
+        "Googleyness: intellectual curiosity, collaboration, and attention to detail"
+      ],
+      interviewTips: [
+        "Master SQL: practice complex queries with JOINs, window functions, CTEs, and optimization",
+        "Practice coding: data engineering interviews include algorithmic coding similar to SWE",
+        "Study system design for data: be ready to design pipelines, warehouses, and streaming systems",
+        "Know data modeling: understand star schema, snowflake, normalization, and denormalization",
+        "Understand batch vs. streaming: know tradeoffs and when to use each approach",
+        "Review distributed systems concepts: partitioning, replication, consistency models",
+        "Prepare project stories: be ready to discuss your data engineering work in detail",
+        "Know Google's data technologies: BigQuery, Dataflow, Pub/Sub, Cloud Storage",
+        "Practice optimization: be ready to discuss query tuning and pipeline performance",
+        "Understand data quality: discuss monitoring, validation, and handling bad data",
+        "Review ETL/ELT patterns: know common approaches and their tradeoffs",
+        "Prepare questions about data scale, team structure, and collaboration model",
+        "Be ready to write code on a whiteboard or in a shared doc",
+        "Show passion for working with data at scale"
+      ],
+      salary: {
+        min: 145000,
+        max: 260000
+      },
+      compensation: [
+        "Base salary: $145-260K depending on level (L4-L7) and location",
+        "Annual performance bonus: 15-20% of base salary based on individual and team performance",
+        "Initial RSU grant: $120-400K+ vesting over 4 years",
+        "Stock refresh grants: Annual RSU refreshes based on performance",
+        "Signing bonus: $25-100K depending on level and competing offers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Comprehensive health insurance: Medical, dental, vision with excellent coverage",
+        "Free meals and on-site amenities valued at ~$15K annually",
+        "Education budget for conferences and certifications",
+        "Paid parental leave: 18-24 weeks",
+        "Total first-year compensation typically ranges from $220K to $500K depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Data Engineer at Google balances pipeline development with optimization and collaboration. You'll spend time writing code, designing data systems, troubleshooting issues, and working with data scientists and analysts to meet their data needs. Google's data engineering culture emphasizes reliability, scalability, and data quality. Most Data Engineers work 45-50 hours per week with flexibility for remote work. The role offers variety - from building new pipelines to optimizing existing systems to investigating data quality issues.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Morning Check-in",
+            description: "Review pipeline monitoring dashboards, check for failed jobs or data quality alerts, respond to urgent issues."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Team Standup",
+            description: "Quick sync with data engineering team on project progress, blockers, and priorities."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Pipeline Development",
+            description: "Focused coding time on new data pipeline. Write Python/SQL transformations, implement data validation logic."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Tech Talk",
+            description: "Lunch combined with internal tech talk on new BigQuery features or data architecture patterns."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Data Scientist Collaboration",
+            description: "Meeting with data science team to understand requirements for new ML feature pipeline. Discuss data sources and transformation needs."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Code Review",
+            description: "Review code changes from teammates for pipeline updates. Provide feedback on efficiency, readability, and error handling."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Performance Optimization",
+            description: "Investigate slow-running queries flagged by monitoring. Analyze execution plans and implement optimizations."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Design Discussion",
+            description: "Work on design doc for new data warehouse schema. Get feedback from senior data engineer on approach."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up",
+            description: "Run final pipeline tests, update documentation, and plan tomorrow's work."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Snowflake", companySlug: "snowflake", industry: "Technology" }
+      ]
+    },
+    'solutions-engineer': {
+      roleDescription: "Solutions Engineers at Google are technical experts who work directly with customers to design and implement solutions using Google's products, primarily Google Cloud Platform and Google Workspace. You'll be the trusted technical advisor for enterprise customers, helping them understand how Google technology can solve their business challenges, architecting solutions, and ensuring successful implementation. The role combines deep technical expertise with customer-facing skills - you'll give technical presentations, lead proof-of-concepts, troubleshoot issues, and build relationships with technical stakeholders at customer organizations. Solutions Engineers work closely with sales teams, supporting deals from initial technical discovery through close and beyond. Google's Solutions Engineering team serves customers ranging from startups to Fortune 500 companies across all industries. Career growth leads to Senior/Principal Solutions Engineer, Solutions Architecture, Customer Engineering Management, or transitions to Product Management or Sales leadership roles.",
+      responsibilities: [
+        "Partner with sales teams to understand customer business and technical requirements",
+        "Design and present technical solutions using Google Cloud and Workspace products",
+        "Deliver compelling technical presentations, demos, and proof-of-concepts to customer stakeholders",
+        "Lead technical discovery sessions to understand customer architecture, challenges, and goals",
+        "Build and maintain relationships with technical decision-makers at customer organizations",
+        "Create technical proposals, architecture diagrams, and solution documentation",
+        "Support customer implementations, troubleshooting issues and ensuring success",
+        "Provide product feedback to engineering and product teams based on customer needs",
+        "Stay current with Google product releases and competitive landscape",
+        "Mentor junior Solutions Engineers and contribute to team knowledge sharing"
+      ],
+      growthOpportunities: [
+        "Work with diverse enterprise customers across industries: finance, healthcare, retail, media, tech",
+        "Clear career path from Solutions Engineer → Senior → Principal with increasing deal complexity",
+        "Deep expertise in Google Cloud Platform and enterprise technology solutions",
+        "Customer-facing experience building relationships with C-level and technical executives",
+        "Path to Solutions Architecture, Customer Engineering Management, or Sales leadership",
+        "Exposure to cutting-edge Google technologies before they're widely available",
+        "Internal mobility across product areas (Cloud, Workspace, Maps, etc.) and industries",
+        "Strong network building with enterprise customers and partners",
+        "Exit opportunities to CTO, VP Engineering, or consulting leadership roles"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your background, technical expertise, and customer-facing experience. The recruiter assesses your cloud knowledge, sales support experience, and alignment with open roles. Be prepared to discuss your most successful customer engagement, your technical specialization, and why you're interested in Solutions Engineering at Google.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute interview with a Google Solutions Engineer covering technical knowledge and customer scenarios. Expect questions on cloud architecture, your technical background, and how you would handle specific customer situations. You may be asked to walk through a solution you designed, discuss technical tradeoffs, or explain how you would approach a customer objection. The interviewer evaluates both technical depth and communication skills.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interviews (4-5 rounds)",
+          description: "Full day of interviews including: (1) Technical Deep Dive - detailed discussion of cloud architecture, your technical experience, and solution design; (2) Customer Presentation - present a technical solution to mock customer stakeholders (you'll receive a scenario in advance); (3) Customer Scenario Role-play - handle a challenging customer situation with an interviewer playing the customer; (4) Sales Partnership - interview with sales leader on how you work with account teams; (5) Googleyness & Leadership - behavioral interview on collaboration and cultural fit.",
+          duration: "Full day (4-5 hours)"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee Review",
+          description: "Your interview feedback is reviewed by a committee of senior Solutions Engineers. The committee evaluates technical expertise, presentation skills, customer-facing ability, sales partnership, and Googleyness. Solutions Engineers must balance deep technical knowledge with the ability to communicate effectively and drive deals forward. Committee review typically takes 1-2 weeks.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Team Matching & Offer",
+          description: "After committee approval, you'll meet with hiring managers from Solutions Engineering teams covering different customer segments or industries. Understand the customer base, deal sizes, travel expectations, and team structure. Ask about quota alignment with sales, technical depth vs. breadth, and career development. Once a mutual match is found, you'll receive a competitive offer.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through how you would architect a migration from on-premises to Google Cloud for a large enterprise.",
+        "A customer is comparing Google Cloud to AWS. How would you position GCP's advantages?",
+        "Design a solution for a retail customer who wants real-time inventory analytics across 1000 stores.",
+        "How would you explain Kubernetes to a customer's CTO who has no container experience?",
+        "A customer's proof-of-concept is failing due to performance issues. How do you handle this?",
+        "What questions would you ask in a technical discovery session for a cloud migration?",
+        "Design a data analytics architecture on GCP for a customer with 10TB of daily data.",
+        "How would you handle a customer who insists on an architecture approach you think is wrong?",
+        "Explain the security features of Google Cloud to a customer's CISO.",
+        "A deal is stalled because the customer's IT team prefers AWS. How do you approach this?",
+        "Design a hybrid cloud solution for a customer who can't move all workloads to public cloud.",
+        "How would you scope a proof-of-concept for a customer evaluating BigQuery?",
+        "Explain the pricing model for Google Cloud to a customer concerned about costs.",
+        "How do you handle a situation where Google Cloud doesn't have a feature the customer needs?",
+        "Walk me through preparing for a technical presentation to a customer's executive team."
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex solution you designed for a customer. What was your approach?",
+        "Describe a time you turned around a deal that was at risk due to technical concerns.",
+        "Tell me about a presentation that didn't go well. What happened and what did you learn?",
+        "Give an example of collaborating with sales on a strategic deal.",
+        "Describe a situation where you had to say 'no' to a customer request.",
+        "Tell me about a time you had to quickly learn a new technology for a customer engagement.",
+        "How do you build trust with technical stakeholders at customer organizations?",
+        "Describe a proof-of-concept that failed. What happened and how did you handle it?",
+        "Tell me about a time you provided product feedback that influenced the roadmap.",
+        "Give an example of managing multiple customer engagements simultaneously.",
+        "Describe a situation where you disagreed with a sales approach to a deal.",
+        "Tell me about your most successful customer engagement. What made it successful?",
+        "How do you stay current with cloud technologies and competitive landscape?",
+        "Describe a time you mentored or helped develop a junior team member."
+      ],
+      whatTheyLookFor: [
+        "Technical expertise: deep knowledge of cloud architecture, infrastructure, and applications",
+        "Presentation skills: ability to deliver compelling technical presentations to diverse audiences",
+        "Customer-facing ability: building relationships and trust with technical decision-makers",
+        "Problem-solving: designing solutions that address customer business and technical needs",
+        "Communication skills: explaining complex concepts clearly to both technical and non-technical audiences",
+        "Sales partnership: working effectively with account teams to advance deals",
+        "Competitive knowledge: understanding of AWS, Azure, and other competitors",
+        "Adaptability: handling unexpected challenges in customer engagements",
+        "Business acumen: understanding how technical solutions drive business outcomes",
+        "Googleyness: collaboration, intellectual curiosity, and customer focus"
+      ],
+      interviewTips: [
+        "Prepare a customer presentation: you'll likely need to present a solution to mock stakeholders",
+        "Know Google Cloud deeply: be ready to discuss GCP services, architecture patterns, and best practices",
+        "Practice handling objections: prepare for competitive scenarios and customer pushback",
+        "Have customer success stories ready: use STAR format with specific outcomes and metrics",
+        "Understand the sales process: be ready to discuss how you support deals from discovery to close",
+        "Study competitive positioning: know how to position GCP vs. AWS and Azure",
+        "Practice technical explanations: explain complex concepts simply for non-technical audiences",
+        "Prepare discovery questions: show how you uncover customer requirements and challenges",
+        "Research Google Cloud customers: know reference cases and success stories",
+        "Be ready for role-play: you may need to handle a live customer scenario",
+        "Know the Google Cloud pricing model and be able to discuss TCO",
+        "Prepare questions about territory, travel expectations, and quota structure",
+        "Show passion for customer success and technical problem-solving",
+        "Demonstrate how you balance technical depth with customer relationship skills"
+      ],
+      salary: {
+        min: 150000,
+        max: 270000
+      },
+      compensation: [
+        "Base salary: $150-270K depending on level and location",
+        "Variable compensation: Sales-aligned bonus/commission structure (can add 30-50% of base)",
+        "Initial RSU grant: $100-350K+ vesting over 4 years",
+        "Stock refresh grants: Annual RSU refreshes based on performance",
+        "Signing bonus: $25-75K depending on level and competing offers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Comprehensive health insurance: Medical, dental, vision with excellent coverage",
+        "Free meals and on-site amenities valued at ~$15K annually",
+        "Travel expense coverage for customer engagements",
+        "Certification reimbursement for GCP and other relevant certifications",
+        "Paid parental leave: 18-24 weeks",
+        "Total compensation (base + variable + equity) typically ranges from $250K to $500K+"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Solutions Engineer at Google balances customer-facing work with technical preparation and internal collaboration. You'll spend time on customer calls, preparing presentations, designing solutions, and working with sales partners on deal strategy. The role involves meaningful travel (20-40% depending on territory) for customer meetings, workshops, and events. Google's Solutions Engineering culture emphasizes customer success, technical excellence, and partnership with sales. Most Solutions Engineers work 45-55 hours per week with flexibility to manage their schedule around customer needs.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Prep",
+            description: "Review customer materials and agenda for today's calls. Check email for overnight customer requests or deal updates."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Sales Team Huddle",
+            description: "Quick sync with sales partner on today's customer meeting. Align on objectives, roles, and key messages."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Customer Discovery Call",
+            description: "Technical discovery session with prospective customer. Understand their architecture, challenges, and cloud migration goals."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Solution Design",
+            description: "Design and document technical solution based on discovery findings. Create architecture diagram and preliminary proposal."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Customer Prep",
+            description: "Working lunch while preparing demo environment for afternoon customer presentation."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Customer Executive Presentation",
+            description: "Deliver technical presentation and demo to customer's CTO and IT leadership team. Handle technical questions and objections."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Post-Meeting Debrief",
+            description: "Debrief with sales partner on customer feedback. Identify follow-up actions and next steps for deal."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Technical Follow-up",
+            description: "Prepare answers to customer's technical questions from the meeting. Research specific features they asked about."
+          },
+          {
+            time: "4:30 PM",
+            activity: "POC Support",
+            description: "Join call with existing customer running a proof-of-concept. Help troubleshoot configuration issue they encountered."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up & Planning",
+            description: "Update deal notes in CRM, respond to internal messages, and plan tomorrow's customer engagements."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Snowflake", companySlug: "snowflake", industry: "Technology" },
+        { companyName: "Databricks", companySlug: "databricks", industry: "Technology" }
+      ]
+    }
+,
 
   },
   'goldman-sachs': {
