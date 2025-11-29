@@ -16637,6 +16637,649 @@ export const rolePageContent = {
         { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
         { companyName: "Databricks", companySlug: "databricks", industry: "Technology" }
       ]
+    },
+    'security-engineer': {
+      roleDescription: "Security Engineers at Microsoft protect the digital infrastructure that billions of people and organizations rely on daily, from Windows and Azure to Microsoft 365 and Xbox Live. Microsoft's security organization is one of the largest in the world, investing over $1 billion annually in security research and development. You'll work on challenges spanning endpoint protection (Windows Defender), cloud security (Azure Sentinel, Defender for Cloud), identity (Azure AD, Entra), and threat intelligence. The role offers unique visibility into the global threat landscape - Microsoft's security teams analyze 24 trillion security signals daily and track over 300 threat actor groups. Under the Secure Future Initiative, security has become a top priority across the company, making this an exceptional time to join. Security Engineers enjoy the satisfaction of protecting critical infrastructure, competitive compensation, excellent work-life balance, and the opportunity to shape security products used by organizations worldwide.",
+      responsibilities: [
+        "Design and implement security controls, mechanisms, and architectures for Microsoft products and services",
+        "Conduct security assessments, threat modeling, and code reviews to identify vulnerabilities",
+        "Develop detection capabilities, security monitoring, and incident response procedures",
+        "Research emerging threats and attack techniques to inform defensive strategies",
+        "Collaborate with product teams to integrate security into the development lifecycle (SDL)",
+        "Build security tools and automation to improve detection and response capabilities",
+        "Respond to security incidents, conducting forensic analysis and driving remediation",
+        "Contribute to security documentation, playbooks, and training materials",
+        "Partner with external researchers through bug bounty programs and responsible disclosure",
+        "Stay current with security research, vulnerabilities, and industry developments"
+      ],
+      growthOpportunities: [
+        "Work on security at unprecedented scale protecting billions of users and devices",
+        "Career path from Security Engineer to Senior to Principal to Partner-level security architect",
+        "Access to world-class threat intelligence and security research capabilities",
+        "Opportunity to shape security products used by enterprises worldwide (Defender, Sentinel, Entra)",
+        "Internal mobility across security domains: cloud, identity, endpoint, threat intelligence",
+        "Publish research and present at top security conferences (Black Hat, DEF CON, RSA)",
+        "Collaborate with Microsoft Threat Intelligence Center (MSTIC) on nation-state threats",
+        "Path to security leadership roles in architecture, engineering, or research",
+        "Contribute to open source security tools and community"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your security background, experience areas, and career interests. The recruiter explains the various security teams at Microsoft (product security, cloud security, identity, threat intelligence, red team) and helps match your experience to appropriate opportunities.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute technical interview with a senior security engineer. Expect questions covering security fundamentals (cryptography, authentication, network security), attack techniques, and defensive strategies. You may be asked to walk through how you'd secure a system or investigate an incident. The interviewer is assessing both breadth and depth of security knowledge.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual/On-site Loop (4-5 rounds)",
+          description: "Full interview day including: (1) Security deep dive - thorough assessment of your specialty area (cloud security, AppSec, identity, etc.); (2) Threat modeling round - walk through threat modeling a Microsoft product or architecture; (3) Coding/scripting round - security automation, detection logic, or tool development; (4) Incident response scenario - how you'd investigate and respond to a security incident; (5) Behavioral round assessing collaboration, communication, and growth mindset.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Manager Discussion",
+          description: "Conversation with the hiring manager about team fit, specific projects, and career development. They'll share details about current security challenges, team culture, and growth opportunities. This is your chance to ask detailed questions about the work.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 5,
+          title: "Offer Decision",
+          description: "Following successful interviews, you'll receive an offer typically within 1-2 weeks. Security engineering compensation is competitive with premium for specialized skills. Some roles may require background checks or security clearances.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Walk through how you would threat model a new Azure service before launch.",
+        "Explain the differences between symmetric and asymmetric cryptography. When would you use each?",
+        "How would you detect and respond to a supply chain compromise in a CI/CD pipeline?",
+        "Design an authentication and authorization system for a multi-tenant cloud application.",
+        "Explain how you would investigate a suspected data breach in a cloud environment.",
+        "What security controls would you implement to protect against ransomware?",
+        "How does Azure AD/Entra ID implement zero trust principles? What gaps exist?",
+        "Walk through the MITRE ATT&CK framework and how you'd use it for threat detection.",
+        "How would you secure a Kubernetes cluster in a production environment?",
+        "Explain the security implications of moving from on-premises to cloud infrastructure.",
+        "Design a security monitoring and alerting architecture for a large-scale cloud deployment.",
+        "How would you approach securing a legacy application that can't be easily updated?",
+        "Explain how you would implement and validate least privilege access in Azure.",
+        "Walk through a SQL injection attack and the defenses at different layers.",
+        "How would you design a secrets management solution for a microservices architecture?",
+        "Explain the security considerations for implementing SSO across multiple applications.",
+        "How would you build detection for living-off-the-land (LOLBin) attacks?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a security vulnerability you discovered. How did you handle disclosure and remediation?",
+        "Describe a security incident you responded to. What was your role and approach?",
+        "Give an example of when you had to balance security requirements with business needs.",
+        "Tell me about a time you had to convince engineers to prioritize security.",
+        "Describe a situation where you had to learn a new security domain quickly.",
+        "Give an example of a security tool or automation you built that had significant impact.",
+        "Tell me about a time you received pushback on a security recommendation. How did you handle it?",
+        "Describe how you stay current with security threats and research.",
+        "Give an example of a time you collaborated across teams to address a security issue.",
+        "Tell me about a security project that didn't go as planned. What did you learn?",
+        "Describe a time you had to explain a complex security concept to non-security engineers.",
+        "Give an example of how you've mentored others in security.",
+        "Tell me about a time you had to make a quick decision during a security incident.",
+        "Describe how you approach threat modeling for a new feature or product.",
+        "Give an example of demonstrating growth mindset in your security work."
+      ],
+      whatTheyLookFor: [
+        "Strong security fundamentals: deep understanding of security principles and attack/defense techniques",
+        "Technical depth: expertise in at least one area (cloud, identity, AppSec, detection, etc.)",
+        "Coding/scripting ability: Python, PowerShell, or similar for automation and tool development",
+        "Threat modeling skills: systematic approach to identifying and mitigating security risks",
+        "Incident response experience: ability to investigate, contain, and remediate security issues",
+        "Communication: clear articulation of security risks to technical and non-technical audiences",
+        "Attacker mindset: ability to think like an adversary while building defenses",
+        "Collaboration: working effectively with product teams, not just security",
+        "Continuous learning: keeping up with rapidly evolving threat landscape",
+        "Growth mindset: curiosity, learning from mistakes, and improving security practices"
+      ],
+      interviewTips: [
+        "Prepare for deep technical questions in your specialty area - expect expert-level probing",
+        "Practice threat modeling using Microsoft products as examples",
+        "Be ready to discuss real incidents you've worked on (appropriately anonymized)",
+        "Know Microsoft's security products: Defender, Sentinel, Entra, Intune",
+        "Understand zero trust principles and how they apply in practice",
+        "Prepare examples of security automation or tools you've built",
+        "Review MITRE ATT&CK and be ready to discuss detection strategies",
+        "Practice explaining security concepts to non-security audiences",
+        "Research Microsoft's Secure Future Initiative and recent security investments",
+        "Be prepared to discuss cloud security (Azure) in depth",
+        "Show awareness of current threat landscape and recent high-profile incidents",
+        "Demonstrate growth mindset with examples of learning from security challenges",
+        "Prepare questions about the team's current security priorities and challenges",
+        "Be ready to discuss the balance between security and usability"
+      ],
+      salary: {
+        min: 145000,
+        max: 240000
+      },
+      compensation: [
+        "Competitive base salary with premium for specialized security skills",
+        "Annual performance bonus typically 15-25% of base salary",
+        "RSU grants vesting over 4 years with annual refreshers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Employee Stock Purchase Plan (ESPP) at 10% discount",
+        "Comprehensive health, dental, and vision insurance",
+        "Annual wellness benefit ($1,200)",
+        "20 weeks paid parental leave",
+        "Generous PTO plus sick leave and holidays",
+        "Security conference attendance and training budget",
+        "Certification support (OSCP, CISSP, Azure Security, etc.)",
+        "Home office setup and technology budget"
+      ],
+      dayInLife: {
+        overview: "Security Engineers at Microsoft balance proactive security work with incident response and collaboration. Days typically run 9 AM to 6 PM, though on-call rotations and incidents can require after-hours work. The role involves both focused technical work and cross-team collaboration.",
+        schedule: [
+          { time: "9:00 AM", activity: "Start of day", description: "Check security alerts, review overnight incident reports, and triage any new issues" },
+          { time: "9:30 AM", activity: "Team standup", description: "Quick sync with security team on priorities, active incidents, and blockers" },
+          { time: "10:00 AM", activity: "Technical work", description: "Deep focus on security assessments, detection development, or tool building" },
+          { time: "12:00 PM", activity: "Lunch", description: "Break, often combined with security reading or informal discussions" },
+          { time: "1:00 PM", activity: "Product team meeting", description: "Security review with engineering teams or consultation on new features" },
+          { time: "2:30 PM", activity: "Threat modeling", description: "Lead or participate in threat modeling sessions for new products or features" },
+          { time: "4:00 PM", activity: "Code/detection review", description: "Review security code, detection rules, or incident response procedures" },
+          { time: "5:00 PM", activity: "Research/learning", description: "Explore new attack techniques, review threat intelligence, or work on security research" },
+          { time: "6:00 PM", activity: "End of day", description: "Wrap up, hand off any active issues, and disconnect (unless on-call)" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "CrowdStrike", companySlug: "crowdstrike", industry: "Technology" }
+      ]
+    },
+    'technical-program-manager': {
+      roleDescription: "Technical Program Managers at Microsoft drive the execution of complex, cross-functional programs that span multiple engineering teams, orgs, and sometimes the entire company. Unlike Program Managers who focus on a single product's lifecycle, TPMs orchestrate large-scale technical initiatives - major platform migrations, infrastructure modernizations, security remediations, or cross-product integrations. You'll be the connective tissue that ensures engineering alignment, manages dependencies, mitigates risks, and drives programs to successful completion. The role requires both technical depth to earn engineering credibility and program management skills to coordinate complex workstreams. Microsoft TPMs work on programs at unprecedented scale - Azure infrastructure serving millions of customers, Windows updates reaching 1.4 billion devices, or company-wide security initiatives like the Secure Future Initiative. The role offers exceptional visibility across Microsoft's engineering landscape and a clear path to senior leadership.",
+      responsibilities: [
+        "Lead complex technical programs spanning multiple engineering teams and organizations",
+        "Define program scope, milestones, success criteria, and communication plans",
+        "Manage dependencies, risks, and issues across workstreams, driving mitigation and resolution",
+        "Coordinate with engineering teams to align on priorities, resource allocation, and timelines",
+        "Drive program governance including status reporting, executive reviews, and escalations",
+        "Facilitate cross-team technical alignment and decision-making on complex issues",
+        "Partner with engineering leadership to ensure program success and organizational alignment",
+        "Track and report program health metrics to stakeholders at all levels",
+        "Identify and implement process improvements to increase program effectiveness",
+        "Build relationships across organizations to enable effective collaboration"
+      ],
+      growthOpportunities: [
+        "Lead programs that impact billions of users and shape Microsoft's technical direction",
+        "Career path from TPM to Senior TPM to Principal TPM to Director of Program Management",
+        "Visibility across Microsoft's engineering landscape and senior leadership",
+        "Path to engineering leadership or chief of staff roles",
+        "Work on company-defining initiatives: AI/Copilot, cloud infrastructure, security",
+        "Internal mobility across Azure, Windows, M365, Gaming, and other organizations",
+        "Develop both deep technical expertise and executive-level program leadership skills",
+        "Build relationships with senior leaders across the company",
+        "Opportunity to shape how Microsoft delivers complex engineering programs"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your TPM background, program experience, and career goals. The recruiter explains the different TPM organizations at Microsoft (Azure, Windows, M365, etc.) and helps match your experience to appropriate opportunities. They'll ask about the scale and complexity of programs you've managed.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute conversation with the hiring manager diving into your program management experience. Expect questions about complex programs you've led, how you've handled challenges, and your approach to stakeholder management. The manager shares team context and assesses fit for the specific role.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Interview Loop (4-5 rounds)",
+          description: "Full interview day including: (1) Technical depth round - validate your ability to understand and engage with complex technical systems; (2) Program management round - deep dive into how you plan, track, and execute programs; (3) Stakeholder management round - scenarios about managing complex relationships and conflicts; (4) Risk and problem-solving round - how you identify, mitigate, and resolve program challenges; (5) Behavioral round assessing leadership, collaboration, and growth mindset.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Executive/Skip-level Interview",
+          description: "For senior TPM roles, conversation with a Director or GM to assess strategic thinking, executive presence, and alignment with organizational priorities. They're evaluating your ability to operate at senior levels and contribute to organizational leadership.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 5,
+          title: "Offer Decision",
+          description: "Following successful interviews, you'll receive an offer typically within 1-2 weeks. TPM compensation is competitive with strong base, bonus, and equity reflecting the strategic importance of the role.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Tell me about the most complex program you've managed. What made it challenging?",
+        "How do you approach program planning for a major initiative with significant uncertainty?",
+        "Describe your risk management framework. How do you identify and mitigate program risks?",
+        "How do you manage dependencies across multiple engineering teams with different priorities?",
+        "Walk me through how you'd plan a major migration affecting millions of users.",
+        "How do you handle a situation where a key dependency team is falling behind?",
+        "Describe your approach to program status reporting at different levels (team, leadership, executive).",
+        "How do you balance depth of involvement in technical details with program-level oversight?",
+        "Walk me through a program that was at risk and how you got it back on track.",
+        "How do you facilitate alignment when engineering teams have conflicting technical approaches?",
+        "Describe how you measure program success beyond just on-time delivery.",
+        "How do you approach stakeholder management when you have competing executive priorities?",
+        "Walk me through your process for program scoping and milestone definition.",
+        "How do you ensure quality in large-scale programs with multiple parallel workstreams?",
+        "Describe a situation where you had to escalate an issue. How did you approach it?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a program that failed or significantly underperformed. What did you learn?",
+        "Describe a time you had to influence senior leaders to change direction on a program.",
+        "Give an example of how you've built relationships with skeptical or resistant stakeholders.",
+        "Tell me about a time you had to make a difficult program trade-off. How did you decide?",
+        "Describe a situation where you had to drive alignment across competing organizational priorities.",
+        "Give an example of a process improvement you implemented that had significant impact.",
+        "Tell me about a time you had to manage through significant ambiguity or change.",
+        "Describe how you've handled conflict between teams you were coordinating.",
+        "Give an example of how you stay technically current while managing programs.",
+        "Tell me about a time you had to deliver difficult news to senior leadership.",
+        "Describe a situation where you exceeded stakeholder expectations on a program.",
+        "Give an example of how you've mentored or developed other program managers.",
+        "Tell me about a time you had to balance multiple competing programs.",
+        "Describe how you approach building trust with new engineering teams.",
+        "Give an example of demonstrating growth mindset in a challenging program situation."
+      ],
+      whatTheyLookFor: [
+        "Program management excellence: proven track record of delivering complex programs",
+        "Technical credibility: enough depth to understand and engage with engineering decisions",
+        "Stakeholder management: ability to influence and align diverse groups without authority",
+        "Communication: clear articulation of program status, risks, and recommendations",
+        "Risk management: systematic approach to identifying and mitigating program risks",
+        "Problem-solving: ability to navigate complex challenges and find solutions",
+        "Executive presence: confidence and clarity when engaging with senior leadership",
+        "Collaboration: building relationships and working effectively across organizations",
+        "Adaptability: navigating ambiguity and adjusting to changing program needs",
+        "Growth mindset: learning from program challenges and continuously improving"
+      ],
+      interviewTips: [
+        "Prepare detailed stories about complex programs you've led with specific metrics",
+        "Be ready to discuss technical systems you've worked with at a moderate depth",
+        "Practice explaining your risk management and stakeholder management frameworks",
+        "Research the specific org and think about their major programs and challenges",
+        "Prepare examples of recovering at-risk programs and learning from failures",
+        "Be ready to discuss how you balance technical involvement with program oversight",
+        "Practice executive-level communication - concise, clear, and action-oriented",
+        "Prepare questions about current programs and how TPMs contribute",
+        "Show awareness of Microsoft's major initiatives (AI, cloud, security)",
+        "Demonstrate growth mindset with examples of learning from program challenges",
+        "Be ready to discuss metrics and how you measure program success",
+        "Practice scenario-based questions about handling program challenges",
+        "Show ability to operate at both strategic and tactical levels",
+        "Prepare examples of influencing without authority"
+      ],
+      salary: {
+        min: 150000,
+        max: 255000
+      },
+      compensation: [
+        "Competitive base salary reflecting program scope and complexity",
+        "Annual performance bonus typically 15-30% of base salary",
+        "RSU grants vesting over 4 years with annual refreshers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Employee Stock Purchase Plan (ESPP) at 10% discount",
+        "Comprehensive health, dental, and vision insurance",
+        "Annual wellness benefit ($1,200)",
+        "20 weeks paid parental leave",
+        "Generous PTO plus sick leave and holidays",
+        "Professional development and certification budget",
+        "Home office setup and technology budget",
+        "Travel budget for program-related work"
+      ],
+      dayInLife: {
+        overview: "Technical Program Managers at Microsoft balance strategic program planning with day-to-day execution tracking and stakeholder engagement. Days are meeting-heavy due to coordination responsibilities, typically running 8:30 AM to 6 PM. The role requires being responsive to program issues and stakeholders.",
+        schedule: [
+          { time: "8:30 AM", activity: "Start of day", description: "Review overnight updates, program dashboards, and triage any new issues or risks" },
+          { time: "9:00 AM", activity: "Program standup", description: "Quick sync with workstream leads on progress, blockers, and dependencies" },
+          { time: "10:00 AM", activity: "Workstream meetings", description: "Deep dives with individual workstreams on technical progress and challenges" },
+          { time: "12:00 PM", activity: "Lunch", description: "Often used for informal stakeholder conversations or quick syncs" },
+          { time: "1:00 PM", activity: "Cross-team coordination", description: "Meetings to align on dependencies, resolve conflicts, and drive decisions" },
+          { time: "2:30 PM", activity: "Risk review", description: "Review and update program risk register, plan mitigation activities" },
+          { time: "3:30 PM", activity: "Executive prep", description: "Prepare materials for leadership reviews and status updates" },
+          { time: "4:30 PM", activity: "1:1s and stakeholder syncs", description: "Connect with key stakeholders, address concerns, build relationships" },
+          { time: "5:30 PM", activity: "Program hygiene", description: "Update tracking tools, send status communications, plan tomorrow" },
+          { time: "6:00 PM", activity: "End of day", description: "Wrap up, address any urgent items, and disconnect" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" }
+      ]
+    },
+    'customer-engineer': {
+      roleDescription: "Customer Engineers at Microsoft serve as trusted technical advisors to enterprise customers, ensuring they successfully adopt and maximize value from Microsoft's cloud and productivity solutions. You'll work with some of the world's largest organizations helping them transform their businesses with Azure, Microsoft 365, Dynamics, and AI-powered solutions. The role combines deep technical expertise with customer relationship skills - you're the bridge between Microsoft's products and customer success. Customer Engineers typically focus on a portfolio of strategic accounts, developing deep relationships with technical decision-makers and becoming an extension of their IT teams. Unlike traditional support roles, CEs are proactive, helping customers architect solutions, optimize environments, and adopt new capabilities before issues arise. The role offers variety, customer impact, and the opportunity to see how Microsoft technology is used across diverse industries.",
+      responsibilities: [
+        "Serve as the primary technical advisor for assigned enterprise accounts",
+        "Develop and maintain deep relationships with customer technical leadership",
+        "Assess customer environments and develop technical adoption and optimization plans",
+        "Provide proactive guidance on architecture, best practices, and new capabilities",
+        "Lead technical workshops, architecture reviews, and enablement sessions",
+        "Partner with account teams to identify expansion opportunities and address technical blockers",
+        "Coordinate with product teams on customer feedback and escalations",
+        "Drive consumption and adoption of Microsoft cloud services",
+        "Maintain expertise across Microsoft's cloud and productivity portfolio",
+        "Serve as an escalation point for complex technical customer issues"
+      ],
+      growthOpportunities: [
+        "Build deep relationships with Fortune 500 technical leadership",
+        "Career path from CE to Senior CE to Principal CE to CE Manager",
+        "Path to solution architecture, technical sales leadership, or product roles",
+        "Become an expert across Microsoft's cloud and AI portfolio",
+        "Industry specialization opportunities (financial services, healthcare, manufacturing)",
+        "Global opportunities with multinational customer portfolios",
+        "Direct impact on customers' digital transformation journeys",
+        "Access to cutting-edge technology before general availability",
+        "Thought leadership through customer stories and industry presentations"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your technical background, customer experience, and career interests. The recruiter explains the CE role, customer portfolio options (by industry or technology focus), and assesses your fit. They'll ask about your experience working with enterprise customers and technical solutions.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute conversation with the hiring manager about your customer engagement experience and technical expertise. Expect scenarios about handling customer challenges, building relationships, and demonstrating technical value. The manager shares team context and assesses fit for the specific role.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Interview Loop (4 rounds)",
+          description: "Full interview day including: (1) Technical depth round - demonstrate deep expertise in Azure, M365, or your specialty area; (2) Customer scenario round - roleplay a customer engagement, handling objections and providing guidance; (3) Cross-functional collaboration round - working with sales, support, and product teams; (4) Behavioral round assessing customer obsession, communication, and growth mindset.",
+          duration: "4 hours"
+        },
+        {
+          step: 4,
+          title: "Customer Presentation",
+          description: "Prepare and deliver a 20-30 minute technical presentation as if you were presenting to a customer audience. This tests your ability to communicate complex technical concepts clearly and engagingly. Expect challenging questions that test your depth and how you handle uncertainty.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 5,
+          title: "Offer Decision",
+          description: "Following successful interviews, you'll receive an offer typically within 1-2 weeks. CE compensation includes base salary plus variable pay tied to customer success metrics and Azure consumption.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through how you would assess a customer's cloud readiness for Azure migration.",
+        "How would you design a hybrid identity solution connecting on-premises AD with Azure AD?",
+        "A customer is experiencing performance issues with their Azure SQL deployment. How would you troubleshoot?",
+        "Explain the differences between Azure IaaS, PaaS, and SaaS offerings. When would you recommend each?",
+        "How would you help a customer optimize their Azure spend while maintaining performance?",
+        "Design a high-availability architecture for a customer's mission-critical application on Azure.",
+        "A customer is concerned about data security in the cloud. How would you address their concerns?",
+        "Walk me through the Microsoft 365 security stack and how components work together.",
+        "How would you help a customer adopt Azure AI services for their business processes?",
+        "Explain Azure governance best practices for a large enterprise with multiple business units.",
+        "A customer wants to move their on-premises data warehouse to Azure. What are their options?",
+        "How would you design a disaster recovery solution for a customer with strict RTO/RPO requirements?",
+        "Walk me through the Zero Trust security model and how to implement it with Microsoft solutions.",
+        "How would you help a customer adopt Teams for their global workforce?",
+        "Explain the licensing considerations for a customer considering Microsoft 365 E5."
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you turned around a struggling customer relationship.",
+        "Describe a situation where you had to deliver news a customer didn't want to hear.",
+        "Give an example of how you've driven adoption of a new technology with a resistant customer.",
+        "Tell me about a time you went above and beyond for a customer.",
+        "Describe a situation where you had to balance customer requests with Microsoft's interests.",
+        "Give an example of a complex technical problem you solved for a customer.",
+        "Tell me about a time you had to influence a customer's technical direction.",
+        "Describe how you stay current with Microsoft's rapidly evolving technology portfolio.",
+        "Give an example of how you've collaborated with sales to win or grow a customer.",
+        "Tell me about a time you received difficult feedback from a customer. How did you respond?",
+        "Describe a situation where you had to escalate a customer issue. What was your approach?",
+        "Give an example of how you've mentored others in customer success.",
+        "Tell me about a time you identified an expansion opportunity with an existing customer.",
+        "Describe how you prioritize when you have multiple customers with competing needs.",
+        "Give an example of demonstrating growth mindset in a customer engagement."
+      ],
+      whatTheyLookFor: [
+        "Technical depth: strong expertise in Azure, M365, or Microsoft's cloud platform",
+        "Customer obsession: genuine focus on customer success and relationship building",
+        "Communication: ability to explain technical concepts to various audiences",
+        "Consultative skills: understanding customer needs and providing strategic guidance",
+        "Problem-solving: diagnosing and resolving complex technical issues",
+        "Business acumen: understanding how technology drives customer business outcomes",
+        "Collaboration: working effectively with sales, support, and product teams",
+        "Resilience: handling customer challenges and escalations with composure",
+        "Learning agility: keeping up with Microsoft's rapidly evolving portfolio",
+        "Growth mindset: continuous learning and improvement"
+      ],
+      interviewTips: [
+        "Get certified in Azure or M365 if you aren't already - it demonstrates commitment",
+        "Prepare specific customer stories with metrics on impact and outcomes",
+        "Research the industries or accounts the role focuses on",
+        "Practice presenting technical content clearly and engagingly",
+        "Be ready for roleplay scenarios - practice handling customer objections",
+        "Understand Microsoft's customer success methodology and frameworks",
+        "Show commercial awareness - understand how CE work drives consumption",
+        "Prepare examples of driving adoption and overcoming resistance",
+        "Be ready to discuss competitive positioning vs AWS/GCP",
+        "Demonstrate growth mindset with examples of learning from challenges",
+        "Prepare thoughtful questions about customer portfolio and success metrics",
+        "Show passion for helping customers succeed, not just technical depth",
+        "Practice the balance between technical depth and business value",
+        "Be ready to discuss how you stay current with Microsoft's product evolution"
+      ],
+      salary: {
+        min: 130000,
+        max: 210000
+      },
+      compensation: [
+        "Competitive base salary",
+        "Variable pay (10-20%) tied to customer success and consumption metrics",
+        "RSU grants vesting over 4 years with annual refreshers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Comprehensive health, dental, and vision insurance",
+        "Annual wellness benefit ($1,200)",
+        "20 weeks paid parental leave",
+        "Generous PTO plus sick leave and holidays",
+        "Microsoft certification incentives and training budget",
+        "Travel budget for customer engagements",
+        "Home office setup and technology budget",
+        "Customer entertainment budget"
+      ],
+      dayInLife: {
+        overview: "Customer Engineers split time between customer engagements, internal collaboration, and continuous learning. Travel varies by customer portfolio (typically 20-40%). Days are customer-driven and can flex based on account needs.",
+        schedule: [
+          { time: "8:30 AM", activity: "Prep and planning", description: "Review customer health dashboards, prepare for upcoming customer meetings" },
+          { time: "9:00 AM", activity: "Customer call", description: "Weekly sync with customer technical leadership on initiatives and blockers" },
+          { time: "10:30 AM", activity: "Internal sync", description: "Coordinate with account team on customer strategy and upcoming opportunities" },
+          { time: "11:30 AM", activity: "Technical work", description: "Prepare architecture review, build demo, or research customer question" },
+          { time: "12:30 PM", activity: "Lunch", description: "Break, often combined with learning or informal customer conversations" },
+          { time: "1:30 PM", activity: "Customer workshop", description: "Lead technical workshop or architecture review session with customer team" },
+          { time: "3:30 PM", activity: "Follow-up work", description: "Document recommendations, create deliverables, update account plans" },
+          { time: "4:30 PM", activity: "Learning", description: "Explore new Azure features, complete certifications, or attend tech talks" },
+          { time: "5:30 PM", activity: "Admin and planning", description: "Update CRM, plan upcoming engagements, respond to customer questions" },
+          { time: "6:00 PM", activity: "End of day", description: "Wrap up and disconnect" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Oracle", companySlug: "oracle", industry: "Technology" },
+        { companyName: "ServiceNow", companySlug: "servicenow", industry: "Technology" }
+      ]
+    },
+    'ai-ml-engineer': {
+      roleDescription: "AI/ML Engineers at Microsoft build the intelligent systems powering products used by billions, from Copilot in Office and Windows to Azure AI services and conversational experiences. Microsoft's partnership with OpenAI and $10+ billion investment in AI makes this one of the most exciting places to work in machine learning. You'll develop models, pipelines, and infrastructure that bring AI capabilities to enterprise and consumer products at unprecedented scale. The role spans the full ML lifecycle from research and experimentation to training, deployment, and monitoring in production. Microsoft AI/ML Engineers work across diverse domains: natural language processing (Copilot, Bing), computer vision (Azure Cognitive Services), recommendation systems (Xbox, LinkedIn), and foundational models. The company's hybrid research/product culture means you can contribute to cutting-edge research while building products used by real users. AI/ML Engineers enjoy strong compensation, access to massive compute resources, and the opportunity to shape how AI transforms work and life.",
+      responsibilities: [
+        "Design, develop, and deploy machine learning models for production systems at scale",
+        "Build and optimize ML pipelines for data processing, training, and inference",
+        "Collaborate with researchers to translate innovations into production-ready systems",
+        "Develop and maintain ML infrastructure for model training, deployment, and monitoring",
+        "Partner with product teams to identify ML opportunities and integrate AI capabilities",
+        "Implement evaluation frameworks and conduct experiments to improve model performance",
+        "Optimize models for latency, cost, and accuracy in production environments",
+        "Contribute to responsible AI practices ensuring fairness, transparency, and safety",
+        "Stay current with ML research and evaluate new techniques for product applications",
+        "Mentor other engineers and contribute to ML best practices and platform development"
+      ],
+      growthOpportunities: [
+        "Work on AI at unprecedented scale with access to massive compute resources",
+        "Career path from AI/ML Engineer to Senior to Principal to Partner-level technical leader",
+        "Collaborate with Microsoft Research and OpenAI on cutting-edge AI development",
+        "Shape AI products reaching billions: Copilot, Bing, Azure AI, Xbox, LinkedIn",
+        "Publish research and present at top ML conferences (NeurIPS, ICML, ACL)",
+        "Access to frontier models and capabilities before general availability",
+        "Path to research scientist, applied science, or AI architecture roles",
+        "Internal mobility across diverse AI applications: NLP, vision, recommendation, speech",
+        "Influence responsible AI practices at scale"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your ML background, research/industry experience, and career interests. The recruiter explains the different AI/ML teams at Microsoft (Azure AI, Copilot, Bing, Gaming, LinkedIn) and helps match your expertise to opportunities. They'll ask about your ML specializations and the scale of systems you've worked on.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute technical interview with a senior ML engineer or scientist. Expect questions on ML fundamentals (loss functions, optimization, model architectures), your specialty area (NLP, vision, etc.), and applied problem-solving. You may be asked to discuss a paper or walk through how you'd approach an ML problem.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual/On-site Loop (5 rounds)",
+          description: "Full interview day including: (1) ML fundamentals - deep dive into algorithms, optimization, and theoretical foundations; (2) ML system design - design an end-to-end ML system for a real product scenario; (3) Coding round - implement ML algorithms or data processing pipelines; (4) Specialty deep dive - thorough assessment of your specific ML domain expertise; (5) Behavioral round assessing collaboration, communication, and growth mindset.",
+          duration: "5 hours"
+        },
+        {
+          step: 4,
+          title: "Research/Paper Discussion",
+          description: "For some roles, you'll discuss a recent paper (either yours or from the literature) in depth. This tests your ability to understand, critique, and extend ML research. For applied roles, you might instead discuss a production ML system you've built.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 5,
+          title: "Offer Decision",
+          description: "Following successful interviews, you'll receive an offer typically within 1-2 weeks. AI/ML compensation is highly competitive, often with premium over general software engineering roles given the demand for ML talent.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through the architecture of a transformer model. Why has it been so successful?",
+        "Design an ML system for content moderation at scale for a social platform.",
+        "Explain the bias-variance tradeoff. How do modern deep learning models challenge this?",
+        "How would you approach fine-tuning a large language model for a specific domain?",
+        "Design a recommendation system for Xbox Game Pass. How would you handle cold start?",
+        "Explain different approaches to handling imbalanced datasets. What are the trade-offs?",
+        "How would you design a real-time inference system with strict latency requirements?",
+        "Walk me through how you'd debug a model that's performing poorly in production.",
+        "Explain the differences between various attention mechanisms and when you'd use each.",
+        "Design an ML pipeline for detecting malicious content in documents at scale.",
+        "How would you approach model evaluation for a generative AI system?",
+        "Explain techniques for reducing model size and inference latency (distillation, quantization).",
+        "Design a system for continuous model training and updating in production.",
+        "How would you implement responsible AI checks in an ML pipeline?",
+        "Walk me through the training process for a large language model. What are the challenges?",
+        "How would you design an A/B testing framework for ML model changes?",
+        "Explain reinforcement learning from human feedback (RLHF) and its applications."
+      ],
+      behavioralQuestions: [
+        "Tell me about an ML model you built that had significant product impact. What was your approach?",
+        "Describe a time you had to debug a difficult ML problem. How did you approach it?",
+        "Give an example of when you had to balance model accuracy with other constraints (latency, cost).",
+        "Tell me about a time you collaborated with researchers to productionize a model.",
+        "Describe a situation where an ML approach didn't work as expected. What did you learn?",
+        "Give an example of how you've kept up with the rapidly evolving ML field.",
+        "Tell me about a time you had to explain ML concepts to non-technical stakeholders.",
+        "Describe how you've approached responsible AI in your work.",
+        "Give an example of a time you improved an ML system through better data or features.",
+        "Tell me about a time you had to scale an ML system to handle increased load.",
+        "Describe a situation where you had to push back on an ML solution that wasn't appropriate.",
+        "Give an example of how you've mentored others in ML.",
+        "Tell me about a time you had to work with ambiguous requirements for an ML project.",
+        "Describe how you approach evaluating whether ML is the right solution for a problem.",
+        "Give an example of demonstrating growth mindset in your ML work."
+      ],
+      whatTheyLookFor: [
+        "Strong ML fundamentals: deep understanding of algorithms, optimization, and theory",
+        "Applied experience: track record of building and deploying ML systems in production",
+        "Coding proficiency: strong Python/PyTorch/TensorFlow skills for ML implementation",
+        "System thinking: ability to design end-to-end ML systems addressing real requirements",
+        "Research awareness: familiarity with recent advances and ability to apply new techniques",
+        "Problem-solving: debugging complex ML issues and improving model performance",
+        "Communication: explaining ML concepts and trade-offs to diverse audiences",
+        "Collaboration: working effectively with researchers, engineers, and product teams",
+        "Responsible AI mindset: awareness of fairness, bias, and safety considerations",
+        "Growth mindset: continuous learning in a rapidly evolving field"
+      ],
+      interviewTips: [
+        "Review ML fundamentals deeply - expect rigorous questions on theory and algorithms",
+        "Practice ML system design - design complete pipelines from data to deployment",
+        "Be ready to discuss papers in depth, especially in your specialty area",
+        "Practice coding ML algorithms from scratch (not just using libraries)",
+        "Prepare examples of production ML systems with specific metrics and impact",
+        "Understand responsible AI: fairness, bias, transparency, safety",
+        "Research the specific team's work and come with informed perspectives",
+        "Be ready to discuss scale - Microsoft ML operates at massive scale",
+        "Show awareness of the current ML landscape: LLMs, generative AI, etc.",
+        "Demonstrate growth mindset - ML evolves rapidly, show you keep up",
+        "Prepare questions about compute resources, research collaboration, and product impact",
+        "Be ready to discuss trade-offs: accuracy vs latency, complexity vs maintainability",
+        "Show you can bridge research and production - both are valued",
+        "Prepare to discuss evaluation: how do you know your model is good?"
+      ],
+      salary: {
+        min: 155000,
+        max: 270000
+      },
+      compensation: [
+        "Premium base salary reflecting AI/ML market demand",
+        "Annual performance bonus typically 15-30% of base salary",
+        "Significant RSU grants vesting over 4 years with annual refreshers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Employee Stock Purchase Plan (ESPP) at 10% discount",
+        "Comprehensive health, dental, and vision insurance",
+        "Annual wellness benefit ($1,200)",
+        "20 weeks paid parental leave",
+        "Generous PTO plus sick leave and holidays",
+        "Access to compute resources for personal research/learning",
+        "Conference attendance (NeurIPS, ICML, etc.) and publication support",
+        "Home office setup and equipment budget"
+      ],
+      dayInLife: {
+        overview: "AI/ML Engineers balance research exploration with production engineering. Days typically run 9 AM to 6 PM with flexibility for deep work. The role involves both independent experimentation and collaboration with researchers and product teams.",
+        schedule: [
+          { time: "9:00 AM", activity: "Start of day", description: "Check experiment results from overnight runs, review alerts, and plan the day" },
+          { time: "9:30 AM", activity: "Team standup", description: "Quick sync with ML team on progress, blockers, and experiments" },
+          { time: "10:00 AM", activity: "Deep work", description: "Focused time on model development, experimentation, or pipeline work" },
+          { time: "12:00 PM", activity: "Lunch", description: "Break, often combined with paper discussions or learning sessions" },
+          { time: "1:00 PM", activity: "Paper reading group", description: "Weekly discussion of recent ML research with the team" },
+          { time: "2:00 PM", activity: "Experimentation", description: "Run experiments, analyze results, iterate on approaches" },
+          { time: "3:30 PM", activity: "Product sync", description: "Meet with product team on ML integration and requirements" },
+          { time: "4:30 PM", activity: "Code review/documentation", description: "Review code, document experiments, update model cards" },
+          { time: "5:30 PM", activity: "Learning/research", description: "Read papers, explore new techniques, or work on side projects" },
+          { time: "6:00 PM", activity: "End of day", description: "Queue overnight training jobs, wrap up, and disconnect" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "OpenAI", companySlug: "openai", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+      ]
     }
   },
   'netflix': {
