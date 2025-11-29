@@ -12079,454 +12079,629 @@ export const rolePageContent = {
     }
   },
   'amazon': {
-    'software-engineer': {
-      roleDescription: "Software Development Engineers at Amazon build and own services that power everything from retail and AWS to Alexa and Prime Video. You'll work in a fast-paced environment with a strong bias for action, designing scalable distributed systems and writing production code that serves millions of customers. Amazon's culture emphasizes ownership, customer obsession, and data-driven decision making.",
+    'software-development-engineer': {
+      roleDescription: "Software Development Engineers (SDEs) at Amazon build the services and systems that power the world's most customer-centric company, from Amazon.com's retail platform serving hundreds of millions of customers to AWS's cloud infrastructure running critical workloads for millions of businesses worldwide. Amazon's SDE role is defined by ownership - you don't just write code, you own your systems end-to-end, including design, development, testing, deployment, and operations. The company's Leadership Principles, particularly Customer Obsession, Ownership, and Bias for Action, shape daily work and hiring decisions. SDEs operate in small, autonomous 'two-pizza teams' that can move fast and innovate. The scale is unmatched: Amazon processes millions of orders daily, AWS spans 30+ regions with 100+ services, and Alexa handles billions of voice interactions. Career growth follows a clear ladder (SDE I → II → III → Principal → Distinguished), with both technical and management paths. The compensation structure heavily emphasizes stock, with the unique 5/15/40/40 RSU vesting schedule meaning total compensation grows significantly in years 3-4.",
       responsibilities: [
-        "Design and build scalable, distributed systems and services",
-        "Own features end-to-end from design through deployment and operations",
-        "Write high-quality, maintainable code with comprehensive testing",
-        "Participate in code reviews and architectural discussions",
-        "Monitor systems, debug issues, and implement operational excellence"
+        "Design, develop, and maintain highly scalable distributed systems serving millions of customers",
+        "Own your services end-to-end: architecture, coding, testing, deployment, monitoring, and on-call operations",
+        "Write clean, efficient code with comprehensive unit and integration testing",
+        "Create and review design documents for new features and systems",
+        "Participate in code reviews, ensuring high quality standards across the team",
+        "Operate services in production with on-call rotations (typically 1 week every 6-8 weeks)",
+        "Drive operational excellence through metrics, alarms, runbooks, and continuous improvement",
+        "Collaborate with product managers, scientists, and other teams to deliver customer value",
+        "Mentor junior engineers and contribute to team hiring through interviews",
+        "Stay current with industry trends and evaluate new technologies for adoption"
       ],
       growthOpportunities: [
-        "Work on services serving millions of customers globally",
-        "Ownership of systems with direct customer impact",
-        "Cross-team mobility within Amazon's diverse business units",
-        "Path to Principal Engineer or management track",
-        "Exposure to AWS and cutting-edge cloud technologies"
+        "Clear career ladder: SDE I → II → III → Principal → Senior Principal → Distinguished Engineer",
+        "Work on services at unprecedented scale affecting hundreds of millions of customers",
+        "Build expertise across Amazon's diverse businesses: retail, AWS, devices, entertainment, logistics",
+        "Internal transfers supported across teams, organizations, and global locations",
+        "Both technical IC track and engineering management track available",
+        "Opportunity to publish papers and contribute to open source (Amazon open sources many tools)",
+        "Access to AWS services and credits for learning and experimentation",
+        "Mentorship from world-class engineers who built foundational systems",
+        "Patent program for innovative solutions"
       ],
       interviewProcess: [
         {
           step: 1,
-          title: "Online Assessment",
-          description: "90-minute coding assessment with 2 algorithm problems and work simulation exercises testing Amazon's Leadership Principles.",
-          duration: "90 minutes"
+          title: "Online Assessment (OA)",
+          description: "90-120 minute online assessment including 2 coding problems (algorithmic, medium-hard difficulty) and a work simulation section testing Leadership Principles through multiple-choice scenarios. The coding portion is auto-graded, and the work simulation assesses your decision-making aligned with Amazon's culture. Some positions skip this step and go directly to phone screen.",
+          duration: "90-120 minutes"
         },
         {
           step: 2,
-          title: "Phone Screen",
-          description: "45-minute technical interview with coding and behavioral questions focused on Leadership Principles.",
-          duration: "45 minutes"
+          title: "Phone/Video Technical Screen",
+          description: "45-60 minute interview with an Amazon SDE including 1-2 coding problems and 2-3 behavioral questions mapped to Leadership Principles. You'll code in a shared document or IDE while explaining your approach. The interviewer evaluates coding ability, problem-solving process, and LP alignment. Strong candidates demonstrate ownership, diving deep, and customer obsession.",
+          duration: "45-60 minutes"
         },
         {
           step: 3,
-          title: "Virtual or On-site Loop",
-          description: "4-5 rounds including coding (2-3 rounds), system design (1 round), and behavioral/LP questions (all rounds).",
+          title: "Virtual On-site Loop (4-5 interviews)",
+          description: "Full day of interviews including: (1-2) Coding rounds - algorithmic problems testing data structures, algorithms, and optimization; (3) System design round - design a large-scale distributed system like Amazon's order processing or recommendation engine; (4) Bar Raiser round - a trained interviewer from outside the hiring team who ensures Amazon's hiring bar is maintained. Each round includes behavioral LP questions. The Bar Raiser has veto power over hiring decisions.",
           duration: "4-5 hours"
         },
         {
           step: 4,
-          title: "Bar Raiser Round",
-          description: "Interview with a Bar Raiser (interviewer from different team) who ensures Amazon's hiring standards. This is typically the most challenging round."
+          title: "Debrief & Decision",
+          description: "After interviews, all interviewers submit written feedback independently before joining a debrief meeting. The Bar Raiser facilitates discussion and ensures fair evaluation against Amazon's hiring bar. Decisions are typically communicated within 5 business days. The process emphasizes avoiding false positives - Amazon prefers to not hire rather than make a bad hire.",
+          duration: "5 business days typical"
         }
       ],
       technicalQuestions: [
-        "Design Amazon's inventory management system. How would you handle millions of items across fulfillment centers?",
-        "Implement a function to find the top K most viewed products in the last hour.",
-        "Given a list of package dependencies, determine a valid installation order.",
-        "Design a rate limiter for Amazon's API Gateway.",
-        "Write a function to validate parentheses/brackets in an expression.",
-        "How would you design Amazon's recommendation engine?",
-        "Implement a function to find the median of a stream of numbers.",
-        "Design a distributed cache system like Amazon ElastiCache.",
-        "Given a 2D grid representing a warehouse, find the shortest path to pick all items in an order.",
-        "How would you design Amazon Prime Video's content delivery system?"
+        "Design Amazon's product recommendation system. How would you handle cold start for new users?",
+        "Implement an LRU cache with O(1) get and put operations. Now extend it to be distributed across multiple servers.",
+        "Design Amazon's order processing system handling millions of orders during Prime Day. How do you ensure reliability?",
+        "Given a stream of product purchases, find the top K most frequently bought items in the last hour.",
+        "Design the inventory management system for Amazon's fulfillment centers. How do you handle real-time updates?",
+        "Write a function to determine if a binary tree is balanced. What's the time and space complexity?",
+        "Design Amazon's shopping cart service. How would you handle millions of concurrent users?",
+        "Given a list of package dependencies, determine a valid installation order. Handle circular dependencies.",
+        "Design the rate limiting system for AWS API Gateway. How would you make it distributed?",
+        "Implement a function to find the longest palindromic substring. Optimize for both time and space.",
+        "Design Amazon Prime Video's content delivery system. How would you handle global distribution?",
+        "Given a warehouse layout as a 2D grid, find the optimal path to pick all items in an order.",
+        "Design Amazon's search autocomplete feature. How would you rank suggestions?",
+        "Implement a thread-safe bounded queue. What synchronization primitives would you use?",
+        "Design the system that determines 'Frequently bought together' recommendations.",
+        "Given a log file with billions of entries, find the most common error in the last 24 hours with limited memory.",
+        "Design Amazon's deals and promotions system. How would you handle flash sales with high traffic?",
+        "Implement a function to serialize and deserialize a binary tree. Handle all edge cases."
       ],
       behavioralQuestions: [
-        "Tell me about a time you disagreed with your manager. (Have Backbone; Disagree and Commit)",
-        "Give an example of when you took a calculated risk. (Bias for Action)",
-        "Describe a time you failed. What did you learn? (Learn and Be Curious)",
-        "Tell me about the most complex problem you've solved. (Dive Deep)",
-        "Give an example of when you delivered results despite obstacles. (Deliver Results)",
+        "Tell me about a time you took ownership of a problem outside your immediate responsibilities. (Ownership)",
+        "Describe a situation where you disagreed with your manager or team. How did you handle it? (Have Backbone; Disagree and Commit)",
+        "Give an example of a time you failed. What did you learn? (Learn and Be Curious)",
+        "Tell me about a time you made a decision with incomplete information. (Bias for Action)",
         "Describe a time you went above and beyond for a customer. (Customer Obsession)",
-        "Tell me about a time you simplified a complex process. (Invent and Simplify)",
-        "Give an example of when you made a decision with incomplete information. (Bias for Action)"
+        "Give an example of when you simplified a complex process or system. (Invent and Simplify)",
+        "Tell me about your most significant technical achievement. (Deliver Results)",
+        "Describe a time you had to dive deep to solve a problem. (Dive Deep)",
+        "Give an example of when you raised the bar for your team. (Insist on the Highest Standards)",
+        "Tell me about a time you had to earn someone's trust. (Earn Trust)",
+        "Describe a situation where you had to think big about a solution. (Think Big)",
+        "Give an example of a time you delivered results under tight constraints. (Deliver Results)",
+        "Tell me about a time you mentored someone or helped them grow. (Develop the Best)",
+        "Describe a time you had to make a frugal decision to accomplish more with less. (Frugality)",
+        "Give an example of when you took a calculated risk. (Bias for Action)"
       ],
       whatTheyLookFor: [
-        "Alignment with Amazon's 16 Leadership Principles",
-        "Strong coding skills in at least one language (Java, Python, C++)",
-        "System design and scalability mindset",
-        "Ownership mentality and bias for action",
-        "Customer-first thinking in technical decisions",
-        "Ability to deliver results under pressure",
-        "Clear communication and collaboration skills",
-        "Data-driven problem solving"
+        "Strong alignment with Amazon's 16 Leadership Principles - demonstrated through specific examples",
+        "Solid coding fundamentals: data structures, algorithms, and clean code practices",
+        "System design ability: designing scalable, reliable distributed systems",
+        "Ownership mentality: willingness to own problems end-to-end including operations",
+        "Customer obsession: making decisions that prioritize customer experience",
+        "Bias for action: ability to move fast and make decisions with incomplete information",
+        "Ability to dive deep: getting into details while maintaining big-picture thinking",
+        "Clear communication: explaining technical concepts and decisions clearly",
+        "Operational excellence: understanding of production systems, monitoring, and reliability",
+        "Learning orientation: curiosity and ability to quickly learn new technologies"
       ],
       interviewTips: [
-        "Study Amazon's 16 Leadership Principles - prepare STAR stories for each",
-        "Every interview round includes behavioral LP questions - prepare 8-10 detailed stories",
-        "Focus on ownership and delivery - Amazon values getting things done",
-        "For system design, emphasize scalability and operational excellence",
-        "Practice LeetCode medium/hard problems - Amazon favors algorithm questions",
-        "Understand distributed systems concepts (caching, load balancing, databases)",
-        "Be ready to discuss trade-offs and data-driven decision making",
-        "Show customer obsession in your examples and technical decisions"
-      ],
-      salary: {
-        min: 115000,
-        max: 180000
-      },
-      compensation: [
-        "Sign-on bonus ($20-50K typically, vesting over 2 years)",
-        "Restricted Stock Units (RSUs) with non-linear vesting (5/15/40/40)",
-        "Performance-based annual raises and stock refreshers",
-        "Comprehensive health benefits",
-        "401(k) with company match",
-        "Employee discount and Amazon Prime membership"
-      ],
-      dayInLife: {
-        overview: "Amazon SDEs work in fast-paced teams with strong ownership culture. You'll spend time coding, reviewing, on-call rotations, and operational responsibilities. The day varies between building new features and maintaining production systems.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Team Standup",
-            description: "Quick 15-minute sync on sprint progress, blockers, and on-call issues"
-          },
-          {
-            time: "9:30 AM",
-            activity: "Code Development",
-            description: "Deep work on feature implementation or bug fixes with local testing"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Design Review",
-            description: "Review design document for upcoming feature with team and stakeholders"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Lunch Break",
-            description: "Grab lunch from cafeteria or nearby options"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Code Review",
-            description: "Review teammates' pull requests and address feedback on your own code"
-          },
-          {
-            time: "2:30 PM",
-            activity: "On-call Duty",
-            description: "Respond to production alerts, debug issues, and deploy fixes if needed"
-          },
-          {
-            time: "4:00 PM",
-            activity: "Sprint Planning",
-            description: "Estimate and commit to work for next sprint with team"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Operational Review",
-            description: "Check metrics, alarms, and operational health of your service"
-          }
-        ]
-      },
-      similarRoles: [
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
-      ]
-    },
-    'product-manager': {
-      roleDescription: "Product Managers at Amazon are customer-obsessed leaders who define product vision and drive execution. You'll own the product roadmap, work closely with engineering and design teams, and use data to make decisions. Amazon PMs operate with high autonomy and are expected to 'think big' while maintaining operational excellence.",
-      responsibilities: [
-        "Define product vision, strategy, and roadmap aligned with business goals",
-        "Write detailed PRDs (Product Requirement Documents) and press releases",
-        "Gather and prioritize product requirements from customers and stakeholders",
-        "Work with engineering teams to deliver features on schedule",
-        "Analyze metrics and customer feedback to iterate on products"
-      ],
-      growthOpportunities: [
-        "Ownership of products serving millions of Amazon customers",
-        "Exposure to diverse business units (Retail, AWS, Devices, etc.)",
-        "Path to Senior PM, Principal PM, or GM roles",
-        "Access to Amazon's data and scale for product decisions",
-        "Opportunity to launch new products and businesses"
-      ],
-      interviewProcess: [
-        {
-          step: 1,
-          title: "Phone Screen",
-          description: "45-minute conversation covering product sense, analytical skills, and Leadership Principles with specific examples.",
-          duration: "45 minutes"
-        },
-        {
-          step: 2,
-          title: "Product Design Round",
-          description: "Design a product or feature. Demonstrate customer obsession and structured thinking.",
-          duration: "60 minutes"
-        },
-        {
-          step: 3,
-          title: "Technical Round",
-          description: "Discuss technical concepts, APIs, databases, or solve a technical problem. PMs need technical credibility.",
-          duration: "60 minutes"
-        },
-        {
-          step: 4,
-          title: "Analytical/Metrics Round",
-          description: "Solve a business problem using data. Define metrics, analyze trends, make recommendations.",
-          duration: "60 minutes"
-        },
-        {
-          step: 5,
-          title: "Bar Raiser + Leadership",
-          description: "Deep dive into Leadership Principles with Bar Raiser. Expect tough behavioral questions.",
-          duration: "60 minutes"
-        }
-      ],
-      technicalQuestions: [
-        "How would you improve Amazon Prime membership?",
-        "Design a feature to reduce shopping cart abandonment.",
-        "Should Amazon enter the grocery delivery market? (before Whole Foods acquisition)",
-        "How would you prioritize features for Alexa's next release?",
-        "If product page conversions dropped 5%, how would you investigate?",
-        "Design a returns experience for Amazon customers.",
-        "How would you measure success for Amazon's Subscribe & Save?",
-        "Should Amazon build a social shopping feature?",
-        "How would you improve the search experience on Amazon.com?",
-        "Estimate the market size for Amazon Business (B2B marketplace)."
-      ],
-      behavioralQuestions: [
-        "Tell me about a time you had to make a decision with incomplete data. (Bias for Action)",
-        "Give an example of when you made a customer-first decision that hurt short-term metrics. (Customer Obsession)",
-        "Describe a time you challenged the status quo. (Think Big)",
-        "Tell me about your biggest product failure. What did you learn? (Learn and Be Curious)",
-        "Give an example of when you had to influence without authority. (Earn Trust)",
-        "Describe a situation where you had to disagree with leadership. (Have Backbone)",
-        "Tell me about a time you delivered results despite constraints. (Deliver Results)",
-        "Give an example of when you dove deep into data to solve a problem. (Dive Deep)"
-      ],
-      whatTheyLookFor: [
-        "Customer obsession and user-first thinking",
-        "Data-driven decision making and analytical rigor",
-        "Technical depth and credibility with engineering teams",
-        "Ownership mindset and bias for action",
-        "Strong written and verbal communication (6-pagers, PRDs)",
-        "Strategic thinking balanced with execution",
-        "Demonstrated results and delivery track record",
-        "Alignment with all 16 Leadership Principles"
-      ],
-      interviewTips: [
-        "Master Amazon's Leadership Principles - prepare detailed STAR stories",
-        "Practice writing PR/FAQ documents (Amazon's 6-pager format)",
-        "Be ready to discuss metrics in depth - Amazon is very data-driven",
-        "Show customer obsession in every answer - bring customer examples",
-        "Understand Amazon's business model and recent product launches",
-        "For product design, start with customer pain points, not features",
-        "Prepare technical questions - Amazon PMs need engineering credibility",
-        "Have strong opinions backed by data, but be willing to 'disagree and commit'"
+        "Master Amazon's 16 Leadership Principles - prepare 2-3 STAR stories for each principle",
+        "Every interview round includes LP questions - behavioral prep is just as important as technical",
+        "For coding: practice medium-hard LeetCode problems, especially trees, graphs, and dynamic programming",
+        "In system design, start with requirements and constraints, then build incrementally",
+        "Show ownership by discussing how you'd operate and monitor the systems you design",
+        "Demonstrate customer obsession - always bring decisions back to customer impact",
+        "Be specific and quantify impact: 'reduced latency by 40%' not 'improved performance'",
+        "The Bar Raiser is looking for LP alignment and raising the bar - bring your best stories",
+        "When asked about failures, focus on learnings and how you applied them",
+        "Prepare questions about the team - show genuine interest in their challenges",
+        "Understand Amazon's unique RSU vesting (5/15/40/40) when evaluating offers",
+        "For senior roles (SDE II+), system design is critical - practice designing Amazon-scale systems",
+        "Show bias for action - Amazon values getting things done over perfect planning",
+        "Demonstrate frugality - efficient solutions that accomplish more with less"
       ],
       salary: {
         min: 130000,
-        max: 190000
+        max: 210000
       },
       compensation: [
-        "Sign-on bonus ($25-60K over 2 years)",
-        "Restricted Stock Units with 5/15/40/40 vesting schedule",
-        "Annual performance-based raises and stock refreshers",
-        "Comprehensive health and wellness benefits",
-        "Relocation assistance if applicable",
-        "Employee discounts and Prime membership"
+        "Base salary competitive with market, with geographic adjustment",
+        "Sign-on bonus: $20-60K typically, paid over first 2 years to offset RSU vesting curve",
+        "Restricted Stock Units (RSUs) with unique 5/15/40/40 vesting over 4 years",
+        "Total compensation grows significantly in years 3-4 as more stock vests",
+        "Annual stock refreshers based on performance (can be substantial at senior levels)",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision insurance",
+        "Employee discount on Amazon purchases",
+        "Complimentary Amazon Prime membership",
+        "Relocation assistance for eligible moves",
+        "Career Choice program for continued education",
+        "Employee Assistance Program and mental health resources"
       ],
       dayInLife: {
-        overview: "Amazon PMs balance strategic planning with tactical execution. You'll spend time with customers, analyze data, write documents, align stakeholders, and work closely with engineering teams to ship products.",
+        overview: "Amazon SDEs work in autonomous two-pizza teams with strong ownership culture. Days balance feature development, operational responsibilities, and collaboration. On-call rotations (typically 1 week every 6-8 weeks) are a significant part of the role, emphasizing operational excellence.",
         schedule: [
-          {
-            time: "8:30 AM",
-            activity: "Customer Research",
-            description: "Review customer feedback from support tickets and user research sessions"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Sprint Planning",
-            description: "Prioritize backlog and commit to features with engineering team"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Metrics Deep Dive",
-            description: "Analyze product metrics, A/B test results, and business KPIs"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Working Lunch",
-            description: "Grab lunch while working on PRD or 6-pager document"
-          },
-          {
-            time: "1:30 PM",
-            activity: "Leadership Review",
-            description: "Present product strategy and results to director or VP"
-          },
-          {
-            time: "3:00 PM",
-            activity: "Design Review",
-            description: "Review UX mocks and prototypes with design team"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Stakeholder Sync",
-            description: "Align with marketing, ops, and business teams on product launch"
-          },
-          {
-            time: "6:00 PM",
-            activity: "Document Writing",
-            description: "Write or revise PR/FAQ for upcoming product review meeting"
-          }
+          { time: "9:00 AM", activity: "Team standup", description: "15-minute daily sync on sprint progress, blockers, and on-call handoff" },
+          { time: "9:30 AM", activity: "Code development", description: "Deep focus time working on feature implementation, bug fixes, or technical improvements" },
+          { time: "11:00 AM", activity: "Design review", description: "Review design document for upcoming feature with team architects and stakeholders" },
+          { time: "12:00 PM", activity: "Lunch", description: "Break for lunch - many Amazon buildings have multiple food options" },
+          { time: "1:00 PM", activity: "Code review", description: "Review pull requests from teammates and address feedback on your own code" },
+          { time: "2:30 PM", activity: "Operational review", description: "Check service metrics, alarms, and operational dashboards; address any issues" },
+          { time: "3:30 PM", activity: "Technical deep dive", description: "Work on complex technical problem or investigate production issue" },
+          { time: "5:00 PM", activity: "Sprint planning prep", description: "Estimate upcoming stories and prepare for sprint planning meeting" },
+          { time: "5:30 PM", activity: "End of day", description: "Wrap up, commit work, and handoff any on-call items if applicable" }
         ]
       },
       similarRoles: [
         { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
         { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
       ]
     },
-    'data-scientist': {
-      roleDescription: "Data Scientists at Amazon use machine learning, statistical analysis, and big data technologies to solve complex business problems. You'll work on everything from product recommendations and pricing optimization to fraud detection and supply chain forecasting. Amazon's scale provides unique opportunities to impact millions of customers through data-driven solutions.",
+    'solutions-architect': {
+      roleDescription: "Solutions Architects at Amazon Web Services (AWS) are the trusted technical advisors who help customers design and implement cloud solutions that transform their businesses. You'll work with organizations ranging from startups to Fortune 500 enterprises, understanding their technical requirements and translating them into AWS architectures that are secure, scalable, reliable, and cost-optimized. The role combines deep technical expertise with consultative skills - you're not just designing systems, you're enabling digital transformation. AWS SAs typically specialize in a domain (migration, security, data analytics, machine learning) or industry vertical (financial services, healthcare, retail). The position offers exceptional variety: one day you might be whiteboarding architecture for a startup, the next presenting to a Fortune 500 CTO. You'll have direct impact on AWS adoption and customer success, with clear metrics on your contribution. The role requires travel (typically 25-50%) for customer engagements and provides unparalleled exposure to how organizations across industries leverage cloud technology.",
       responsibilities: [
-        "Build machine learning models to solve business problems",
-        "Analyze large datasets to extract insights and drive decisions",
-        "Design and analyze A/B tests and experiments",
-        "Partner with product and engineering teams to implement ML solutions",
-        "Communicate complex technical findings to non-technical stakeholders"
+        "Design comprehensive AWS solutions addressing customer technical and business requirements",
+        "Lead architectural design sessions and workshops with customer technical teams",
+        "Create solution architectures covering compute, storage, networking, security, and data services",
+        "Advise customers on AWS best practices, Well-Architected Framework, and cloud adoption strategy",
+        "Partner with sales teams to develop technical strategies for customer opportunities",
+        "Deliver technical presentations, demos, and proof-of-concepts to customer stakeholders",
+        "Guide customers through cloud migration planning and modernization approaches",
+        "Stay current with AWS services (200+) and translate new capabilities into customer solutions",
+        "Create and share reusable architectures, blog posts, and technical content",
+        "Collaborate with AWS service teams on customer feedback and product improvements"
       ],
       growthOpportunities: [
-        "Work with massive datasets and cutting-edge ML technologies",
-        "Apply ML to diverse problems across retail, AWS, and devices",
-        "Path to Principal Data Scientist or ML engineering roles",
-        "Access to AWS's ML infrastructure and tools",
-        "Opportunity to publish research and innovate in ML/AI"
+        "Deep expertise in the world's leading cloud platform with 30%+ market share",
+        "Career path from SA to Senior SA to Principal SA to Director of Solutions Architecture",
+        "Work with industry-leading companies on transformative cloud initiatives",
+        "Access to AWS service teams and ability to influence product roadmap",
+        "Path to technical leadership roles in AWS engineering or specialized domains",
+        "Industry specialization opportunities: financial services, healthcare, media, retail",
+        "All AWS certifications supported with time and resources for preparation",
+        "Global opportunities with AWS's presence in 30+ regions worldwide",
+        "Thought leadership through re:Invent presentations, blogs, and community engagement"
       ],
       interviewProcess: [
         {
           step: 1,
-          title: "Phone Screen",
-          description: "Technical discussion covering statistics, ML concepts, and past projects. Includes behavioral LP questions.",
-          duration: "45-60 minutes"
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your background, cloud experience, and interest in the SA role. The recruiter explains different SA specializations and teams, and assesses your AWS knowledge level and customer-facing experience.",
+          duration: "30 minutes"
         },
         {
           step: 2,
-          title: "ML/Statistics Round",
-          description: "Deep dive into ML algorithms, model selection, evaluation metrics, and statistical concepts.",
+          title: "Hiring Manager Interview",
+          description: "60-minute conversation with the hiring manager covering your architecture experience, customer engagement approach, and Leadership Principles alignment. Expect scenario-based questions about handling customer challenges and designing solutions under constraints.",
           duration: "60 minutes"
         },
         {
           step: 3,
-          title: "Coding Round",
-          description: "Solve data manipulation and algorithm problems in Python or R. May include SQL queries.",
-          duration: "60 minutes"
+          title: "Technical Deep Dive (2 rounds)",
+          description: "Two 60-minute technical interviews with senior SAs. One focuses on solution design - you'll whiteboard an AWS architecture for a complex scenario. The other covers technical breadth across AWS services, networking, security, and operational best practices.",
+          duration: "2 hours"
         },
         {
           step: 4,
-          title: "Case Study/Applied ML",
-          description: "Solve a business problem using data science. Design experiment, choose metrics, and present solution.",
-          duration: "60 minutes"
+          title: "Customer Presentation Round",
+          description: "You'll prepare and deliver a 30-minute technical presentation to a panel simulating a customer executive briefing. This tests your ability to communicate complex concepts clearly and persuasively. Expect challenging Q&A testing your technical depth.",
+          duration: "45-60 minutes"
         },
         {
           step: 5,
-          title: "Bar Raiser + Behavioral",
-          description: "Leadership Principles deep dive with examples of customer obsession and data-driven decisions.",
-          duration: "60 minutes"
+          title: "Bar Raiser & Final Round",
+          description: "Interview with a Bar Raiser focused on Leadership Principles and a final technical or behavioral round. The Bar Raiser ensures you meet AWS's hiring bar for customer obsession, ownership, and technical excellence.",
+          duration: "90 minutes total"
         }
       ],
       technicalQuestions: [
-        "How would you build a product recommendation system for Amazon?",
-        "Explain the bias-variance tradeoff and how it applies to model selection.",
-        "Design an experiment to test a new pricing strategy. What metrics would you use?",
-        "How would you detect fraudulent transactions on Amazon?",
-        "Explain XGBoost and when you would use it over other algorithms.",
-        "Given imbalanced classes in fraud detection, how would you handle it?",
-        "How would you forecast demand for a new product with limited historical data?",
-        "Design a search ranking algorithm for Amazon.com.",
-        "Explain how you would validate a machine learning model in production.",
-        "How would you identify which products to show in 'Customers also bought' section?"
+        "Design a highly available, globally distributed e-commerce platform on AWS. Walk through your architecture.",
+        "A customer wants to migrate 1000 servers to AWS in 12 months. How would you approach the discovery and planning?",
+        "Explain the differences between EC2, ECS, EKS, Lambda, and Fargate. When would you recommend each?",
+        "Design a secure multi-account AWS environment for an enterprise with compliance requirements.",
+        "How would you architect a real-time data analytics platform processing millions of events per second?",
+        "A customer's application is experiencing latency issues after migration. How would you troubleshoot?",
+        "Design a disaster recovery solution with RPO of 5 minutes and RTO of 30 minutes.",
+        "Explain AWS networking concepts: VPC, subnets, security groups, NACLs, Transit Gateway.",
+        "How would you help a customer optimize their AWS spend that has grown 40% unexpectedly?",
+        "Design an ML pipeline on AWS for a fraud detection system processing 100K transactions per hour.",
+        "Compare S3 storage classes and when you'd recommend each for a media company.",
+        "How do you approach a customer who is committed to Azure or GCP but exploring AWS?",
+        "Design a serverless architecture for a document processing workflow.",
+        "Explain the AWS Well-Architected Framework pillars and how you'd apply them.",
+        "A customer needs to connect their on-premises data center to AWS. What options would you present?",
+        "Design a multi-region active-active architecture for a critical financial application.",
+        "How would you implement zero trust security principles on AWS?"
       ],
       behavioralQuestions: [
-        "Tell me about a time when your model didn't perform as expected. (Learn and Be Curious)",
-        "Describe a situation where you used data to influence a business decision. (Dive Deep)",
-        "Give an example of when you had to explain complex technical concepts to non-technical stakeholders. (Earn Trust)",
-        "Tell me about a time you disagreed with the approach to a data science problem. (Have Backbone)",
-        "Describe your most impactful project. How did it affect customers? (Customer Obsession)",
-        "Give an example of when you had to deliver results with limited data. (Bias for Action)",
-        "Tell me about a time you improved an existing ML system. (Invent and Simplify)",
-        "Describe a situation where you had to prioritize multiple competing projects. (Deliver Results)"
+        "Tell me about a complex architecture you designed. What trade-offs did you make? (Invent and Simplify)",
+        "Describe a time you had to push back on a customer's technical decision. (Have Backbone; Disagree and Commit)",
+        "Give an example of when you failed to meet a customer's expectations. What did you learn? (Customer Obsession)",
+        "Tell me about a time you simplified a complex technical concept for an executive audience. (Earn Trust)",
+        "Describe a situation where a customer implementation had issues. How did you take ownership? (Ownership)",
+        "Give an example of how you've influenced a customer's cloud strategy beyond a single project. (Think Big)",
+        "Tell me about a time you had to quickly learn a new AWS service to help a customer. (Learn and Be Curious)",
+        "Describe a time you went above and beyond for a customer even when it wasn't required. (Customer Obsession)",
+        "Give an example of a frugal solution you designed that maximized value for a customer. (Frugality)",
+        "Tell me about a time you identified a growth opportunity with an existing customer. (Deliver Results)",
+        "Describe how you stay current with AWS's rapidly evolving service portfolio. (Learn and Be Curious)",
+        "Give an example of when you had to balance competing priorities from multiple customers. (Deliver Results)",
+        "Tell me about a time you mentored other architects or contributed to team knowledge. (Develop the Best)",
+        "Describe a situation where you disagreed with a customer's approach but ultimately committed. (Have Backbone)",
+        "Give an example of diving deep into a technical issue to find the root cause for a customer. (Dive Deep)"
       ],
       whatTheyLookFor: [
-        "Strong foundation in statistics and machine learning",
-        "Programming skills in Python/R and SQL",
-        "Experience with large-scale data processing (Spark, Hadoop)",
-        "Ability to translate business problems into ML solutions",
-        "Clear communication of technical concepts",
-        "Customer-focused approach to data science",
-        "Track record of delivering impactful projects",
-        "Alignment with Amazon's Leadership Principles"
+        "Deep AWS expertise: comprehensive knowledge of core services and architecture patterns",
+        "Customer obsession: genuine focus on customer success and business outcomes",
+        "Consultative skills: understanding business requirements and translating to technical solutions",
+        "Communication excellence: clear presentation of complex concepts to diverse audiences",
+        "Technical breadth: understanding of compute, storage, networking, security, and data services",
+        "Sales partnership: ability to support account teams and contribute to technical win strategies",
+        "Leadership Principles alignment: demonstrated through specific examples in interviews",
+        "Learning agility: keeping up with 200+ AWS services and new releases",
+        "Executive presence: confidence when engaging with senior customer stakeholders",
+        "Industry knowledge: understanding of specific industry challenges and compliance requirements"
       ],
       interviewTips: [
-        "Review ML fundamentals: supervised/unsupervised learning, common algorithms, evaluation metrics",
-        "Practice coding in Python - be comfortable with pandas, numpy, and basic algorithms",
-        "Prepare examples of end-to-end ML projects you've completed",
-        "Study A/B testing methodology and experimental design",
-        "Understand how to work with imbalanced datasets and missing data",
-        "Be ready to discuss trade-offs in model selection and deployment",
-        "Show business impact in your project examples, not just technical details",
-        "Prepare LP stories that demonstrate data-driven decision making"
+        "Get AWS certified (Solutions Architect Associate at minimum, Professional preferred)",
+        "Practice whiteboarding complex architectures - this is the core skill being assessed",
+        "Prepare customer stories demonstrating business impact, not just technical implementation",
+        "Know AWS's competitive positioning vs Azure and GCP - you'll be asked about this",
+        "Prepare a polished 30-minute technical presentation you can deliver confidently",
+        "Master the Well-Architected Framework and be ready to apply it to scenarios",
+        "Practice handling objections and challenging customer scenarios",
+        "Prepare STAR stories for each Leadership Principle with customer-facing examples",
+        "Understand hybrid cloud and migration strategies in depth",
+        "Show commercial awareness - understand how SAs contribute to AWS revenue",
+        "Research the specific industry or domain the role focuses on",
+        "Be ready to discuss cost optimization - it's always a customer concern",
+        "Know security and compliance capabilities - critical for enterprise customers",
+        "Prepare thoughtful questions about the team's customer portfolio and challenges"
       ],
       salary: {
-        min: 125000,
-        max: 190000
+        min: 140000,
+        max: 235000
       },
       compensation: [
+        "Competitive base salary reflecting technical and customer-facing requirements",
         "Sign-on bonus ($20-50K over 2 years)",
-        "Restricted Stock Units with non-linear vesting",
-        "Annual performance bonuses and stock refreshers",
-        "Comprehensive health benefits",
-        "AWS credits for personal projects",
-        "Conference and education budget"
+        "RSUs with 5/15/40/40 vesting schedule",
+        "Annual stock refreshers based on performance",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Travel reimbursement and expense account",
+        "All AWS certification exams and prep materials covered",
+        "re:Invent and conference attendance",
+        "Home office setup for customer-facing work",
+        "Amazon Prime membership and employee discounts",
+        "Relocation assistance for eligible moves"
       ],
       dayInLife: {
-        overview: "Amazon Data Scientists balance model development with business partnership. You'll analyze data, build ML models, run experiments, and work closely with product and engineering teams to deploy solutions that impact customers.",
+        overview: "Solutions Architects balance customer engagements with solution development and internal collaboration. Travel varies by customer portfolio (typically 25-50%). Days are customer-driven and can include on-site workshops, virtual meetings, and independent architecture work.",
         schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Model Performance Review",
-            description: "Check production metrics and model performance dashboards"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Data Analysis",
-            description: "Explore customer behavior data to identify opportunities for ML solutions"
-          },
-          {
-            time: "11:30 AM",
-            activity: "A/B Test Review",
-            description: "Analyze experiment results and prepare recommendations"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Lunch & Learning",
-            description: "Attend ML tech talk or grab lunch with team"
-          },
-          {
-            time: "1:30 PM",
-            activity: "Model Development",
-            description: "Feature engineering and model training for recommendation system"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Stakeholder Meeting",
-            description: "Present insights and ML solution proposal to product team"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Code Review",
-            description: "Review ML code from teammates and collaborate on model improvements"
-          }
+          { time: "8:00 AM", activity: "Prep for customer meeting", description: "Review account context, prepare architecture diagrams, align with sales on objectives" },
+          { time: "9:00 AM", activity: "Customer workshop", description: "Lead architecture design session with customer technical team, whiteboarding AWS solutions" },
+          { time: "11:30 AM", activity: "Follow-up documentation", description: "Document architecture decisions, create detailed diagrams, draft recommendations" },
+          { time: "12:30 PM", activity: "Lunch", description: "Often customer lunch or quick break between engagements" },
+          { time: "1:30 PM", activity: "Account team sync", description: "Meeting with sales team on customer strategy and upcoming opportunities" },
+          { time: "2:30 PM", activity: "Proof of concept", description: "Build and test proof of concept for customer scenario in AWS console" },
+          { time: "4:00 PM", activity: "Deal support", description: "Review technical proposal, validate architecture, prepare for customer presentation" },
+          { time: "5:00 PM", activity: "Learning", description: "Explore new AWS services, work on certifications, or create reusable content" },
+          { time: "6:00 PM", activity: "End of day", description: "Respond to customer questions, plan tomorrow's activities" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "Oracle", companySlug: "oracle", industry: "Technology" },
+        { companyName: "Snowflake", companySlug: "snowflake", industry: "Technology" }
+      ]
+    },
+    'technical-program-manager': {
+      roleDescription: "Technical Program Managers at Amazon drive the execution of complex, cross-functional programs that span multiple teams, organizations, and sometimes the entire company. Amazon's TPM role is highly technical - you're expected to understand system architecture, read code, and make informed technical trade-offs. You'll orchestrate large-scale initiatives like infrastructure migrations, new product launches, or company-wide platform adoptions that impact millions of customers. The role requires both technical depth to earn engineering credibility and exceptional program management skills to coordinate hundreds of workstreams. Amazon TPMs work on programs at unprecedented scale - launching new AWS regions, building next-generation fulfillment systems, or delivering new Alexa capabilities. The Bar Raiser culture applies to TPMs too: you're expected to raise the bar on program execution and operational excellence. Career growth is excellent, with clear paths to Principal TPM and Director roles for those who deliver results.",
+      responsibilities: [
+        "Lead complex technical programs spanning multiple engineering teams and organizations",
+        "Define program scope, milestones, success criteria, and communication plans",
+        "Manage dependencies, risks, and issues across workstreams, driving mitigation and resolution",
+        "Coordinate with engineering teams on technical architecture decisions and trade-offs",
+        "Drive program governance including status reporting, executive reviews, and escalations",
+        "Partner with engineering leadership to ensure program success and resource alignment",
+        "Facilitate technical design discussions and drive alignment on architectural decisions",
+        "Track and report program health metrics to stakeholders at all levels",
+        "Own operational readiness and launch excellence for new products and services",
+        "Identify and implement process improvements to increase program effectiveness"
+      ],
+      growthOpportunities: [
+        "Lead programs that impact hundreds of millions of customers and shape Amazon's technical direction",
+        "Career path from TPM to Senior TPM to Principal TPM to Director of Technical Program Management",
+        "Visibility across Amazon's engineering landscape and senior leadership",
+        "Work on Amazon's most critical initiatives: new AWS services, Prime features, fulfillment innovation",
+        "Path to technical leadership or executive roles through demonstrated delivery",
+        "Internal mobility across Amazon's diverse businesses: retail, AWS, devices, entertainment",
+        "Build expertise in complex system integration and large-scale program delivery",
+        "Opportunity to work with world-class engineers on challenging technical problems",
+        "Influence Amazon's technical and operational practices at scale"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your TPM background, program experience, and interest in Amazon. The recruiter explains different TPM organizations (retail, AWS, devices) and assesses fit based on your experience with technical programs.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Screen",
+          description: "60-minute interview with a TPM covering your program management experience, technical depth, and Leadership Principles. Expect scenario-based questions about handling program challenges and demonstrating LP alignment.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site Loop (5-6 rounds)",
+          description: "Full interview day including: (1) Technical depth round - validate understanding of systems, architecture, and technical trade-offs; (2) Program management round - deep dive into how you plan, execute, and deliver programs; (3) Stakeholder management round - scenarios about managing complex relationships and driving alignment; (4) Operational excellence round - how you ensure quality, manage risks, and drive launch readiness; (5) Bar Raiser round - thorough LP assessment from trained interviewer outside the hiring team.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Debrief & Decision",
+          description: "All interviewers submit written feedback before the debrief meeting. The Bar Raiser facilitates discussion to ensure fair evaluation against Amazon's hiring standards. Decisions typically communicated within 5 business days.",
+          duration: "5 business days typical"
+        }
+      ],
+      technicalQuestions: [
+        "Tell me about the most complex technical program you've managed. What made it challenging?",
+        "Walk me through how you'd plan a major data center migration affecting millions of customers.",
+        "Describe your risk management framework. How do you identify and mitigate program risks?",
+        "How do you manage dependencies across multiple engineering teams with different priorities?",
+        "Walk me through a program that was at risk and how you got it back on track.",
+        "How do you balance depth of involvement in technical decisions with program-level oversight?",
+        "Describe your approach to launch readiness and operational excellence.",
+        "How do you handle a situation where engineering and product disagree on scope or timeline?",
+        "Walk me through your process for program scoping when requirements are unclear.",
+        "How do you ensure quality and customer experience in programs with aggressive timelines?",
+        "Describe a technical trade-off you facilitated between teams. How did you drive alignment?",
+        "How do you manage programs that span multiple time zones and organizations?",
+        "Walk me through your status reporting at different levels (team, leadership, executive).",
+        "How do you handle a critical dependency that's running behind schedule?",
+        "Describe a time you had to make a difficult program decision with incomplete information.",
+        "How do you measure program success beyond just on-time delivery?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a program that failed or significantly underperformed. What did you learn? (Learn and Be Curious)",
+        "Describe a time you had to influence senior leaders to change direction on a program. (Have Backbone)",
+        "Give an example of when you took ownership of a program issue that wasn't your responsibility. (Ownership)",
+        "Tell me about a time you had to make a quick decision to keep a program on track. (Bias for Action)",
+        "Describe a situation where you had to drive alignment across competing organizational priorities. (Deliver Results)",
+        "Give an example of when you simplified a complex program process. (Invent and Simplify)",
+        "Tell me about a time you went above and beyond for program stakeholders. (Customer Obsession)",
+        "Describe how you've raised the bar on program execution for your team. (Insist on the Highest Standards)",
+        "Give an example of diving deep into technical details to solve a program issue. (Dive Deep)",
+        "Tell me about a time you had to build trust with a skeptical engineering team. (Earn Trust)",
+        "Describe a situation where you thought big about program scope or impact. (Think Big)",
+        "Give an example of how you've mentored other program managers. (Develop the Best)",
+        "Tell me about a frugal decision you made that improved program outcomes. (Frugality)",
+        "Describe a time you had to deliver a program with minimal resources. (Frugality)",
+        "Give an example of when you disagreed with stakeholders but ultimately committed. (Have Backbone)"
+      ],
+      whatTheyLookFor: [
+        "Technical depth: ability to understand system architecture and engage in technical discussions",
+        "Program execution: proven track record of delivering complex programs at scale",
+        "Leadership Principles alignment: demonstrated through specific examples in interviews",
+        "Risk management: systematic approach to identifying and mitigating program risks",
+        "Stakeholder management: ability to influence and align diverse groups without authority",
+        "Communication: clear articulation of program status, risks, and recommendations",
+        "Operational excellence: focus on quality, reliability, and customer experience",
+        "Ownership: willingness to take responsibility for program outcomes end-to-end",
+        "Bias for action: ability to move fast and make decisions with incomplete information",
+        "Learning agility: quickly understanding new technical domains and business contexts"
+      ],
+      interviewTips: [
+        "Prepare detailed STAR stories for each Leadership Principle with program examples",
+        "Be ready to discuss technical systems at a moderate depth - TPMs need technical credibility",
+        "Practice explaining complex programs simply - show you can communicate at all levels",
+        "Research the specific team's programs and come with informed questions",
+        "Prepare examples of recovering at-risk programs and learning from failures",
+        "Show operational excellence - discuss how you ensure quality and launch readiness",
+        "Be ready to discuss how you balance technical involvement with program oversight",
+        "Practice executive-level communication - concise, clear, and action-oriented",
+        "Demonstrate ownership - show you take responsibility for outcomes, not just process",
+        "Prepare metrics and quantified impact for your program examples",
+        "Show bias for action - discuss times you made quick decisions to unblock programs",
+        "Understand Amazon's two-pizza team culture and how TPMs coordinate across teams",
+        "Be ready for Bar Raiser deep dives on LP - this is a critical part of the evaluation",
+        "Prepare questions about the team's current programs and biggest challenges"
+      ],
+      salary: {
+        min: 145000,
+        max: 250000
+      },
+      compensation: [
+        "Competitive base salary reflecting program scope and technical depth",
+        "Sign-on bonus ($25-60K over 2 years)",
+        "RSUs with 5/15/40/40 vesting schedule",
+        "Annual stock refreshers based on performance and impact",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Relocation assistance for eligible moves",
+        "Professional development and training budget",
+        "Conference attendance (AWS re:Invent, etc.)",
+        "Amazon Prime membership and employee discounts",
+        "Home office setup support"
+      ],
+      dayInLife: {
+        overview: "Amazon TPMs balance strategic program planning with day-to-day execution tracking and stakeholder engagement. Days are meeting-heavy due to coordination responsibilities. The role requires being responsive to program issues and stakeholders across time zones.",
+        schedule: [
+          { time: "8:30 AM", activity: "Program status review", description: "Check dashboards, review overnight updates, triage any new issues or risks" },
+          { time: "9:00 AM", activity: "Team standups", description: "Quick syncs with workstream leads on progress, blockers, and dependencies" },
+          { time: "10:00 AM", activity: "Technical deep dive", description: "Meeting with engineering teams on architecture decisions or technical blockers" },
+          { time: "11:30 AM", activity: "Cross-team alignment", description: "Coordinate with dependent teams on integration points and timelines" },
+          { time: "12:30 PM", activity: "Lunch", description: "Quick break, often combined with informal stakeholder conversations" },
+          { time: "1:00 PM", activity: "Risk review", description: "Update program risk register, plan mitigation activities, prepare escalations" },
+          { time: "2:30 PM", activity: "Executive update", description: "Weekly sync with director or VP on program status and key decisions" },
+          { time: "3:30 PM", activity: "Operational planning", description: "Work on launch readiness, runbooks, or operational excellence items" },
+          { time: "4:30 PM", activity: "Documentation", description: "Update program documents, send status communications, plan next day" },
+          { time: "5:30 PM", activity: "End of day", description: "Address any urgent items, hand off to other time zones if applicable" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Amazon leverage the company's unparalleled data assets to drive decisions that impact hundreds of millions of customers worldwide. You'll work on challenges spanning customer experience optimization, supply chain and logistics, fraud detection, advertising effectiveness, and AWS product intelligence. Amazon's data science culture emphasizes practical impact over academic elegance - you're expected to build models that ship to production and drive measurable business outcomes. The scale is extraordinary: Amazon processes billions of transactions, manages millions of products, and operates one of the world's largest logistics networks. Data Scientists partner closely with business leaders, product managers, and engineers to identify opportunities, build solutions, and measure impact. The role ranges from experimentation and causal inference to machine learning model development. Amazon's Leadership Principles apply here too - customer obsession means your models should improve customer experience, and ownership means you're responsible for your models in production.",
+      responsibilities: [
+        "Design and analyze experiments (A/B tests) to measure feature impact and guide product decisions",
+        "Build machine learning models for personalization, demand forecasting, fraud detection, and optimization",
+        "Develop dashboards and reporting systems to track business metrics and model performance",
+        "Conduct causal inference studies to understand the impact of business interventions",
+        "Partner with product and engineering teams to translate business problems into data science solutions",
+        "Own models end-to-end from development through production deployment and monitoring",
+        "Present findings and recommendations to senior leadership and business stakeholders",
+        "Create data pipelines and feature engineering to enable analysis at scale",
+        "Mentor junior data scientists and contribute to team best practices",
+        "Stay current with advances in statistics, ML, and data science methodology"
+      ],
+      growthOpportunities: [
+        "Work with some of the largest and richest datasets in the world across diverse domains",
+        "Clear career ladder from Data Scientist to Senior to Principal to Distinguished Scientist",
+        "Direct impact on Amazon's core business: improving customer experience, optimizing operations",
+        "Path to Applied Scientist roles for those interested in more research-oriented work",
+        "Internal mobility across Amazon's businesses: retail, AWS, advertising, devices, entertainment",
+        "Opportunity to publish research and present at conferences",
+        "Access to massive compute resources for training and experimentation",
+        "Work alongside world-class scientists and engineers",
+        "Shape how data science is practiced at one of the most data-driven companies"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call to discuss your background, experience, and interest in data science at Amazon. The recruiter explains different DS teams across Amazon's businesses and assesses fit based on your experience and interests.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute technical interview covering statistics, machine learning, and coding. Expect questions on experiment design, ML algorithms, and a SQL or Python coding exercise. The interviewer assesses both technical depth and problem-solving approach.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site Loop (5 rounds)",
+          description: "Full interview day including: (1) Statistical methodology round - experimentation, causal inference, hypothesis testing; (2) Machine learning round - model selection, feature engineering, and ML system design; (3) Coding round - SQL and Python for data manipulation and analysis; (4) Case study round - open-ended business problem requiring data-driven approach; (5) Bar Raiser round - thorough LP assessment from trained interviewer.",
+          duration: "5 hours"
+        },
+        {
+          step: 4,
+          title: "Debrief & Decision",
+          description: "Interviewers submit written feedback before debrief. Bar Raiser ensures fair evaluation. Decisions typically communicated within 5 business days.",
+          duration: "5 business days typical"
+        }
+      ],
+      technicalQuestions: [
+        "How would you design an A/B test to measure the impact of a new homepage layout on conversion?",
+        "Explain the difference between correlation and causation. How would you establish causality from observational data?",
+        "Design a demand forecasting model for Amazon's inventory management. What features would you include?",
+        "How would you detect and handle selection bias in an observational study?",
+        "Explain regularization (L1 vs L2). When would you use each?",
+        "How would you build a fraud detection model for Amazon payments? How would you handle class imbalance?",
+        "Explain the bias-variance tradeoff. How does it relate to model complexity?",
+        "Design a recommendation system for 'Customers who bought this also bought'. What algorithm would you use?",
+        "How do you determine the minimum sample size needed for an experiment?",
+        "Explain how you would handle missing data in a production ML pipeline.",
+        "Design an ML system to optimize delivery route planning.",
+        "How would you measure the long-term value of Prime membership?",
+        "Explain the concept of statistical power and its relationship to sample size.",
+        "How would you approach building a search ranking model?",
+        "What methods would you use to explain a complex model's predictions to business stakeholders?",
+        "Design an experiment to test a new pricing strategy. What metrics would you track?",
+        "How would you detect anomalies in Amazon's sales data at scale?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a data science project that had significant business impact. What was your contribution? (Deliver Results)",
+        "Describe a time when your analysis contradicted what stakeholders expected. How did you handle it? (Have Backbone)",
+        "Give an example of when you had to simplify a complex model for production. What trade-offs did you make? (Invent and Simplify)",
+        "Tell me about a time you had to make a decision with incomplete data. (Bias for Action)",
+        "Describe a data science project that didn't work as planned. What did you learn? (Learn and Be Curious)",
+        "Give an example of how you prioritized customer impact in your modeling decisions. (Customer Obsession)",
+        "Tell me about a time you dove deep into data to find a surprising insight. (Dive Deep)",
+        "Describe how you've taken ownership of a model through its entire lifecycle. (Ownership)",
+        "Give an example of when you raised the bar on data quality or methodology for your team. (Insist on the Highest Standards)",
+        "Tell me about a time you collaborated with engineers to productionize a model. (Earn Trust)",
+        "Describe a situation where you had to communicate complex results to non-technical stakeholders. (Earn Trust)",
+        "Give an example of a frugal modeling approach that achieved good results. (Frugality)",
+        "Tell me about a time you mentored another data scientist. (Develop the Best)",
+        "Describe how you stay current with advances in data science. (Learn and Be Curious)",
+        "Give an example of thinking big about a data science opportunity. (Think Big)"
+      ],
+      whatTheyLookFor: [
+        "Statistical rigor: strong foundation in experimentation, hypothesis testing, causal inference",
+        "Machine learning expertise: practical knowledge of algorithms and their applications",
+        "Programming skills: Python, SQL for data manipulation, analysis, and modeling",
+        "Business impact focus: ability to translate models into business value",
+        "Leadership Principles alignment: demonstrated through specific examples",
+        "Ownership mentality: taking responsibility for models from development to production",
+        "Communication: explaining technical results to diverse audiences",
+        "Collaboration: working effectively with engineering and business partners",
+        "Customer obsession: prioritizing customer experience in modeling decisions",
+        "Pragmatism: balancing methodological rigor with business constraints"
+      ],
+      interviewTips: [
+        "Review core statistics: hypothesis testing, confidence intervals, power analysis, causal inference",
+        "Practice ML fundamentals: be ready to explain algorithms at intuitive and mathematical levels",
+        "Prepare STAR stories for each Leadership Principle with data science examples",
+        "Practice SQL - data manipulation questions are common across all levels",
+        "Be ready for case studies: approach business problems with structured frameworks",
+        "Know how to handle common data issues: missing data, outliers, class imbalance",
+        "Prepare examples of productionizing models and monitoring in production",
+        "Show customer obsession: discuss how your models improved customer experience",
+        "Demonstrate ownership: talk about full lifecycle, not just model building",
+        "Quantify impact: 'increased conversion by 12%' not 'improved the model'",
+        "Practice explaining models to non-technical audiences",
+        "Research the specific team's business area and prepare relevant examples",
+        "Be ready for the Bar Raiser - LP questions are just as important as technical",
+        "Prepare questions about the team's current data science challenges"
+      ],
+      salary: {
+        min: 130000,
+        max: 220000
+      },
+      compensation: [
+        "Competitive base salary with level-based progression",
+        "Sign-on bonus ($20-50K over 2 years)",
+        "RSUs with 5/15/40/40 vesting schedule",
+        "Annual stock refreshers based on performance",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Relocation assistance for eligible moves",
+        "AWS credits for personal learning projects",
+        "Conference attendance and professional development",
+        "Amazon Prime membership and employee discounts"
+      ],
+      dayInLife: {
+        overview: "Amazon Data Scientists balance model development with business partnership and production operations. Days include both independent analysis work and collaboration with business and engineering stakeholders.",
+        schedule: [
+          { time: "9:00 AM", activity: "Model monitoring", description: "Check production model metrics, review any alerts or anomalies" },
+          { time: "9:30 AM", activity: "Team standup", description: "Quick sync with data science team on progress and blockers" },
+          { time: "10:00 AM", activity: "Analysis work", description: "Deep focus on model development, feature engineering, or experimentation" },
+          { time: "12:00 PM", activity: "Lunch", description: "Break, often combined with learning sessions or paper discussions" },
+          { time: "1:00 PM", activity: "Stakeholder meeting", description: "Sync with product or business teams on requirements and findings" },
+          { time: "2:00 PM", activity: "Experiment review", description: "Analyze A/B test results and prepare recommendations" },
+          { time: "3:30 PM", activity: "Code review", description: "Review teammates' code or collaborate on model improvements" },
+          { time: "4:30 PM", activity: "Documentation", description: "Update model documentation, create presentations for leadership" },
+          { time: "5:30 PM", activity: "Learning", description: "Read papers, explore new techniques, or work on side projects" },
+          { time: "6:00 PM", activity: "End of day", description: "Queue overnight training jobs, wrap up, and disconnect" }
         ]
       },
       similarRoles: [
         { companyName: "Google", companySlug: "google", industry: "Technology" },
         { companyName: "Meta", companySlug: "meta", industry: "Technology" },
         { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
       ]
     }
   },
