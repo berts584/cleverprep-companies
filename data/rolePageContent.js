@@ -793,7 +793,800 @@ export const rolePageContent = {
         { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
         { companyName: "Uber", companySlug: "uber", industry: "Technology" }
       ]
-    }
+    },
+    'ux-designer': {
+      roleDescription: "UX Designers at Google shape the user experience for products used by billions of people worldwide, from Search and Gmail to Android and Google Cloud. You'll work at the intersection of user research, visual design, and interaction design to create intuitive, accessible, and delightful experiences. Google's design culture values user-centered thinking, data-informed decisions, and craft excellence - your designs will be tested with real users and validated through rigorous experimentation. The role offers unique challenges given Google's scale: a small design change can impact billions of users across diverse cultures, devices, and contexts. You'll collaborate with world-class designers, researchers, engineers, and PMs in a highly collaborative environment. Google's UX organization includes specialists in visual design, motion design, UX writing, and research, allowing deep specialization or broad generalist work. Career growth follows a clear ladder from UX Designer → Senior → Staff → Principal, with opportunities to lead design teams, define product vision, or transition to design leadership roles. The Material Design system, created at Google, demonstrates the company's commitment to design excellence and provides a strong foundation for your work.",
+      responsibilities: [
+        "Lead end-to-end UX design for product features from concept through launch, including user flows, wireframes, and high-fidelity mockups",
+        "Conduct user research including interviews, usability studies, and contextual inquiry to understand user needs and pain points",
+        "Create interactive prototypes using Figma to communicate design concepts and test with users",
+        "Collaborate closely with product managers, engineers, and researchers to define requirements and feasibility",
+        "Apply Material Design principles while adapting to specific product needs and user contexts",
+        "Present design work to stakeholders and leadership, articulating design rationale and user impact",
+        "Analyze quantitative data and A/B test results to inform design decisions and measure success",
+        "Contribute to design systems and component libraries ensuring consistency across products",
+        "Mentor junior designers and participate in design critiques and portfolio reviews",
+        "Advocate for accessibility and inclusive design practices across your product area"
+      ],
+      growthOpportunities: [
+        "Clear career ladder from UX Designer → Senior → Staff → Principal Designer with increasing scope",
+        "Opportunity to design products used by billions of users with immediate global impact",
+        "Access to Google's world-class UX research infrastructure and user testing facilities",
+        "Collaboration with specialists in motion design, UX writing, visual design, and research",
+        "Internal mobility across product areas: Search, Maps, YouTube, Android, Cloud, Hardware, etc.",
+        "Leadership opportunities managing design teams or leading cross-product design initiatives",
+        "Contribution to Material Design and influence on industry-wide design standards",
+        "Professional development through Google's design conferences, workshops, and mentorship programs",
+        "Path to design management or continued growth as an individual contributor at Staff+ levels"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen & Portfolio Review",
+          description: "Initial 30-minute call with a recruiter to discuss your background and design experience. The recruiter will ask about your portfolio highlights, design process, and interest in specific product areas. They'll explain the interview process and assess whether your experience aligns with open roles. Ensure your portfolio is polished and accessible online - recruiters will review it before and after the call. Be prepared to discuss 2-3 projects in depth, including your role, process, and outcomes.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Portfolio Deep Dive (Phone/Video)",
+          description: "60-minute interview with a Google UX designer where you'll walk through 2-3 portfolio projects in detail. The interviewer evaluates your design process, problem-solving approach, collaboration skills, and ability to articulate design decisions. Be prepared to discuss: How did you define the problem? What research informed your design? How did you iterate based on feedback? What were the constraints and tradeoffs? What was the impact? Show process work, not just final designs. The interviewer wants to understand how you think, not just what you produced.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interviews (4-5 rounds)",
+          description: "Full day of interviews including: (1) Portfolio presentations to 2 different panels - prepare a 20-minute presentation of 2-3 projects with Q&A; (2) Design exercise - a 45-60 minute whiteboard challenge where you'll solve a design problem from scratch, demonstrating your process from understanding the problem through ideation to solution; (3) Googleyness & Leadership interview assessing collaboration, handling ambiguity, and cultural fit; (4) Cross-functional interview with a PM or engineer evaluating how you work with partners. Each interviewer evaluates different competencies and submits independent feedback.",
+          duration: "Full day (4-5 hours)"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee Review",
+          description: "Your interview packet including portfolio, interview feedback, and design exercise results is reviewed by a committee of senior designers. The committee evaluates craft quality, design thinking, collaboration ability, and Googleyness. This process ensures consistent hiring standards and typically takes 1-2 weeks. Strong candidates demonstrate both exceptional design skills and the ability to work effectively with cross-functional partners.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Team Matching & Offer",
+          description: "After committee approval, you'll meet with hiring managers from teams that match your interests and skills (Search, Android, Cloud, YouTube, Hardware, etc.). These conversations help you understand team culture, current projects, and design challenges. Ask about designer-to-PM ratio, research support, and design team structure. Once a mutual match is found, you'll receive an offer including competitive salary, bonus, and RSU grants.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your design process for [portfolio project]. What would you do differently now?",
+        "How would you redesign Google Maps for users with visual impairments?",
+        "Design a feature to help users discover new music on YouTube Music. Walk through your process.",
+        "How would you measure the success of a redesigned checkout flow?",
+        "A PM wants to add 5 new features to a settings page. How would you approach this?",
+        "Design an onboarding experience for a new Google product. What information do you need first?",
+        "How do you handle disagreements with engineers about implementation feasibility?",
+        "Walk me through how you would conduct user research for a new feature.",
+        "Design a notification system that balances user engagement with avoiding notification fatigue.",
+        "How would you approach designing for a global audience with diverse cultural contexts?",
+        "Critique the current design of Google Calendar. What would you improve and why?",
+        "How do you decide when to follow design patterns vs. create something new?",
+        "Design a dashboard for small business owners to track their Google Ads performance.",
+        "How would you design for accessibility from the start of a project?",
+        "Walk me through a time when user research changed your design direction significantly."
+      ],
+      behavioralQuestions: [
+        "Tell me about a project where you had to advocate for the user against business pressure.",
+        "Describe a time you received critical feedback on your design. How did you respond?",
+        "Tell me about a project that failed or didn't launch. What did you learn?",
+        "Give an example of how you collaborated with engineers to solve a design challenge.",
+        "Describe a time you had to simplify a complex feature for users.",
+        "Tell me about a design decision you made based on data rather than intuition.",
+        "How do you handle working on multiple projects with competing deadlines?",
+        "Describe a time you had to influence stakeholders without direct authority.",
+        "Tell me about a project where you worked with constraints (time, resources, technical).",
+        "Give an example of how you've mentored or helped develop other designers.",
+        "Describe your process for staying current with design trends and tools.",
+        "Tell me about a time you had to balance user needs with business goals.",
+        "How do you handle ambiguity when starting a new project?",
+        "Describe a cross-functional collaboration that was particularly challenging."
+      ],
+      whatTheyLookFor: [
+        "Strong portfolio demonstrating end-to-end design process and craft excellence",
+        "User-centered thinking with ability to translate research insights into design solutions",
+        "Visual design skills including typography, color, layout, and attention to detail",
+        "Interaction design ability including user flows, wireframes, and prototyping",
+        "Clear communication of design rationale and ability to present to diverse audiences",
+        "Collaboration skills working with PMs, engineers, researchers, and other designers",
+        "Data-informed design approach using metrics and experimentation to validate decisions",
+        "Accessibility awareness and inclusive design practices",
+        "Googleyness: intellectual humility, comfort with ambiguity, and user focus",
+        "Growth mindset with openness to feedback and continuous improvement"
+      ],
+      interviewTips: [
+        "Prepare a polished online portfolio with 3-5 strong projects showing your process, not just final designs",
+        "Practice presenting your portfolio in 20 minutes - be concise but thorough on process and impact",
+        "For each project, be ready to discuss: problem definition, research, iterations, constraints, and outcomes",
+        "For the design exercise, spend time understanding the problem before jumping to solutions",
+        "Think out loud during exercises - interviewers want to see your process and reasoning",
+        "Show how you use data and research to inform decisions, not just intuition",
+        "Prepare examples of collaboration with engineers, PMs, and researchers",
+        "Know Google's products and have informed opinions on their UX strengths and weaknesses",
+        "Familiarize yourself with Material Design principles and Google's design language",
+        "For behavioral questions, use STAR format with specific examples and outcomes",
+        "Ask thoughtful questions about team structure, design culture, and current projects",
+        "Be prepared to sketch on a whiteboard or in Figma - practice basic wireframing",
+        "Show passion for design and genuine interest in improving user experiences",
+        "Demonstrate accessibility knowledge - it's increasingly important at Google"
+      ],
+      salary: {
+        min: 130000,
+        max: 220000
+      },
+      compensation: [
+        "Base salary: $130-220K depending on level (L4-L6) and location",
+        "Annual performance bonus: 15-20% of base salary based on individual and team performance",
+        "Initial RSU grant: $100-300K+ vesting over 4 years",
+        "Stock refresh grants: Annual RSU refreshes based on performance",
+        "Signing bonus: $20-75K depending on level and competing offers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Comprehensive health insurance: Medical, dental, vision with excellent coverage",
+        "Free meals and on-site amenities valued at ~$15K annually",
+        "Professional development budget for conferences and design tools",
+        "Paid parental leave: 18-24 weeks",
+        "Total first-year compensation typically ranges from $180K to $400K depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for a UX Designer at Google balances creative design work with collaboration and research. You'll spend time in Figma creating designs, meeting with PMs and engineers to align on requirements, and reviewing user research to inform your work. Google's design culture emphasizes craft, collaboration, and data-informed decisions. Most designers work 40-50 hours per week with flexibility for remote work. The environment is highly collaborative with regular design critiques, cross-functional reviews, and opportunities to learn from world-class designers.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Morning Review",
+            description: "Review overnight feedback on design specs, check Figma comments, and respond to questions from engineers or PMs about current designs."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Design Critique",
+            description: "Weekly team design critique where designers present work-in-progress and receive feedback from peers. Great opportunity to get diverse perspectives on your designs."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Focused Design Time",
+            description: "Deep work creating wireframes, mockups, or prototypes in Figma. Iterate on current feature designs based on feedback from critique and stakeholders."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Design Talk",
+            description: "Lunch at campus cafe, often combined with attending a design talk or workshop on topics like motion design, accessibility, or new tools."
+          },
+          {
+            time: "1:30 PM",
+            activity: "User Research Debrief",
+            description: "Review findings from recent usability study with UX researcher. Discuss insights and implications for current design work."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Cross-functional Sync",
+            description: "Meeting with PM and engineering lead to review design specs, discuss feasibility, and align on timeline for upcoming feature launch."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Design Iteration",
+            description: "Continue design work incorporating feedback from research and cross-functional discussions. Update design specs and component documentation."
+          },
+          {
+            time: "4:30 PM",
+            activity: "1:1 with Design Manager",
+            description: "Weekly check-in to discuss project progress, career development, and get feedback on recent work."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up",
+            description: "Finalize design updates, respond to remaining comments, and plan tomorrow's priorities. Most designers leave by 6pm."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Spotify", companySlug: "spotify", industry: "Technology" }
+      ]
+    },
+    'technical-program-manager': {
+      roleDescription: "Technical Program Managers (TPMs) at Google drive the execution of complex, cross-functional technical programs that span multiple teams, products, and sometimes years. You'll be the connective tissue between engineering, product, and business teams, ensuring that ambitious technical initiatives are delivered on time, on budget, and with the intended impact. Google TPMs work on some of the most challenging programs in tech: launching new products to billions of users, migrating massive infrastructure systems, coordinating hardware/software integration for devices like Pixel and Nest, or orchestrating multi-year platform initiatives. The role requires deep technical understanding (many TPMs have engineering backgrounds), exceptional organizational skills, and the ability to influence without authority across a matrixed organization. Unlike project managers at other companies, Google TPMs are expected to understand system architecture, make technical tradeoffs, and earn credibility with senior engineers. Career growth follows a clear path from TPM → Senior TPM → Staff TPM → Principal TPM, with opportunities to lead increasingly complex programs or transition to engineering management or product roles.",
+      responsibilities: [
+        "Define program scope, milestones, and success criteria for complex multi-team technical initiatives",
+        "Create and maintain detailed program plans, timelines, and resource allocations across engineering teams",
+        "Identify technical dependencies, risks, and blockers; develop mitigation strategies and drive resolution",
+        "Facilitate cross-functional coordination between engineering, product, design, legal, and operations teams",
+        "Lead program reviews with senior leadership, communicating progress, risks, and decisions needed",
+        "Drive technical decision-making by facilitating architecture reviews and tradeoff discussions",
+        "Establish processes and tools for tracking program health, metrics, and deliverables",
+        "Manage external partnerships and vendor relationships for programs requiring third-party integration",
+        "Ensure quality and reliability by coordinating testing, launch readiness, and rollout strategies",
+        "Mentor junior TPMs and contribute to TPM community best practices"
+      ],
+      growthOpportunities: [
+        "Clear career ladder from TPM → Senior TPM → Staff TPM → Principal TPM with increasing program scope",
+        "Opportunity to lead flagship programs: product launches, infrastructure migrations, hardware releases",
+        "Deep exposure to Google's technical architecture and systems at unprecedented scale",
+        "Cross-functional visibility with executives across engineering, product, and business",
+        "Path to engineering management, product management, or technical director roles",
+        "Internal mobility across program areas: Cloud, Consumer Hardware, Ads, Core Infrastructure, etc.",
+        "Leadership development through managing complex stakeholder relationships and ambiguous problems",
+        "Global scope with programs spanning multiple offices, time zones, and teams",
+        "Strong network building with senior engineers and leaders across the company"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your background, TPM experience, and interest in Google. The recruiter assesses technical depth, program management experience, and alignment with open roles. Be prepared to discuss your most complex program, your technical background (CS degree, engineering experience), and what types of programs interest you (infrastructure, consumer products, hardware, etc.).",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute interview with a Google TPM or engineer covering technical depth and program management skills. Expect questions about your experience managing technical programs, how you handle technical tradeoffs, and your understanding of system design concepts. You may be asked to walk through a complex program you managed, discuss how you handled a major technical risk, or analyze a hypothetical technical scenario. The interviewer evaluates both technical credibility and program management acumen.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interviews (4-5 rounds)",
+          description: "Full day of interviews including: (1) Technical Program Deep Dive - detailed walkthrough of a program you led, with probing questions on decisions, tradeoffs, and outcomes; (2) Technical Assessment - system design discussion or technical problem-solving to evaluate your ability to engage with engineers; (3) Program Management Scenarios - case studies on handling risks, dependencies, stakeholder conflicts, or program pivots; (4) Cross-functional Collaboration - interview with a PM or engineer on how you work with partners; (5) Googleyness & Leadership - behavioral interview on leadership, influence, and cultural fit.",
+          duration: "Full day (4-5 hours)"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee Review",
+          description: "Your interview feedback is reviewed by a committee of senior TPMs who weren't involved in your interviews. The committee evaluates technical depth, program management skills, leadership ability, and Googleyness. Google's TPM bar is high - they look for candidates who can earn credibility with senior engineers while driving complex programs. Committee review typically takes 1-2 weeks.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Team Matching & Offer",
+          description: "After committee approval, you'll meet with hiring managers from programs matching your interests (Cloud, Ads, Hardware, Core Infra, etc.). Understand the program scope, team structure, and current challenges. Ask about executive visibility, technical complexity, and career growth. Once a mutual match is found, you'll receive an offer with competitive compensation including base, bonus, and significant RSU grants.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through the most complex technical program you've managed. What made it complex?",
+        "Describe a time you had to make a technical tradeoff decision. How did you approach it?",
+        "How would you design a rollout strategy for a new feature going to 2 billion users?",
+        "Tell me about a time a program was at risk of missing a critical deadline. What did you do?",
+        "How do you establish credibility with senior engineers who may be skeptical of TPMs?",
+        "Describe how you would coordinate a migration of a major system with zero downtime.",
+        "How do you prioritize when multiple critical paths are all blocked?",
+        "Walk me through how you would create a program plan for launching a new Google hardware product.",
+        "Tell me about a time you had to kill or significantly pivot a program. How did you handle it?",
+        "How do you track and communicate program health to leadership?",
+        "Describe a situation where you had to resolve a conflict between two engineering teams.",
+        "How would you approach a program with significant technical uncertainty?",
+        "Tell me about a time you identified a technical risk that others had missed.",
+        "How do you balance moving fast with ensuring quality and reliability?",
+        "Describe your approach to managing dependencies across teams in different time zones."
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you influenced a decision without having direct authority.",
+        "Describe a situation where you had to deliver bad news to leadership. How did you handle it?",
+        "Tell me about a program that failed or didn't meet expectations. What did you learn?",
+        "Give an example of how you built trust with a skeptical stakeholder.",
+        "Describe a time you had to manage competing priorities from multiple senior leaders.",
+        "Tell me about a situation where you had to push back on a technical decision.",
+        "How do you handle a team member who is consistently missing their commitments?",
+        "Describe your approach to onboarding onto a new, complex program.",
+        "Tell me about a time you had to make a decision with incomplete information.",
+        "Give an example of how you improved a process or tool for your program.",
+        "Describe a time you had to navigate organizational ambiguity or politics.",
+        "Tell me about your most successful stakeholder relationship. What made it work?",
+        "How do you stay organized when managing multiple programs simultaneously?",
+        "Describe a time you had to escalate an issue. How did you approach it?"
+      ],
+      whatTheyLookFor: [
+        "Strong technical foundation: ability to understand system architecture and engage credibly with engineers",
+        "Program management expertise: experience driving complex, multi-team technical initiatives",
+        "Leadership without authority: ability to influence senior stakeholders and drive alignment",
+        "Risk management: proactive identification and mitigation of technical and execution risks",
+        "Communication skills: clear, concise communication to diverse audiences from engineers to executives",
+        "Organizational skills: ability to manage complexity, dependencies, and competing priorities",
+        "Problem-solving: structured approach to ambiguous problems and ability to drive to resolution",
+        "Collaboration: effectiveness working across engineering, product, and business functions",
+        "Googleyness: intellectual humility, bias to action, and comfort with ambiguity",
+        "Resilience: ability to navigate setbacks and keep programs moving forward"
+      ],
+      interviewTips: [
+        "Prepare 3-4 detailed program stories covering complexity, technical depth, risk management, and outcomes",
+        "Be ready to go deep on technical details - Google TPMs must be credible with engineers",
+        "Quantify your impact: programs delivered, scale achieved, time/resources saved",
+        "Practice explaining technical concepts clearly - you'll work with diverse audiences",
+        "For scenario questions, structure your answer: clarify → approach → execution → outcome",
+        "Show how you build relationships and influence without authority - specific examples matter",
+        "Understand Google's products and think about the program management challenges behind them",
+        "Be honest about failures - Google values learning from mistakes and intellectual humility",
+        "Prepare questions about program scope, team structure, and executive visibility",
+        "Review system design basics - you should be able to discuss architecture tradeoffs",
+        "Practice case studies on risk management, dependency coordination, and stakeholder conflict",
+        "Show curiosity about the technical domain - TPMs who are genuinely interested in technology thrive",
+        "Demonstrate structured thinking - use frameworks to organize complex problems",
+        "Be prepared to discuss how you handle ambiguity and changing requirements"
+      ],
+      salary: {
+        min: 150000,
+        max: 260000
+      },
+      compensation: [
+        "Base salary: $150-260K depending on level (L5-L7) and location",
+        "Annual performance bonus: 15-25% of base salary based on individual and program performance",
+        "Initial RSU grant: $120-400K+ vesting over 4 years",
+        "Stock refresh grants: Annual RSU refreshes based on performance and level",
+        "Signing bonus: $25-100K depending on level and competing offers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Comprehensive health insurance: Medical, dental, vision with excellent coverage",
+        "Free meals and on-site amenities valued at ~$15K annually",
+        "Professional development budget for certifications and conferences",
+        "Paid parental leave: 18-24 weeks",
+        "Total first-year compensation typically ranges from $220K to $500K+ depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Technical Program Manager at Google is meeting-intensive, balancing coordination across teams with deep technical engagement. You'll run program reviews, chase down blockers, and work with engineering leads to keep complex initiatives on track. Google's TPM culture emphasizes technical credibility, proactive risk management, and clear communication. Most TPMs work 45-55 hours per week with flexibility for remote work. The role requires constant context-switching between strategic planning and tactical problem-solving, with significant visibility to leadership.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Morning Prep",
+            description: "Review overnight updates from teams in other time zones, check program dashboards, and prioritize blockers to address today."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Program Standup",
+            description: "Daily sync with engineering leads across workstreams. Review progress, surface blockers, and align on priorities for the day."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Risk Review Meeting",
+            description: "Weekly review of program risks with technical leads. Update risk register, assign owners, and track mitigation progress."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Architecture Review",
+            description: "Participate in design review for a new system component. Ensure alignment with program requirements and timeline implications."
+          },
+          {
+            time: "11:30 AM",
+            activity: "1:1 with Engineering Lead",
+            description: "Check in with key engineering partner on workstream progress, upcoming challenges, and resource needs."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & TPM Community",
+            description: "Join TPM community lunch to share best practices, discuss common challenges, and learn from peers."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Cross-functional Sync",
+            description: "Coordination meeting with product, design, and legal teams to align on launch requirements and timeline."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Executive Update Prep",
+            description: "Prepare slides and talking points for weekly leadership review. Summarize progress, risks, and decisions needed."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Leadership Program Review",
+            description: "Present program status to VP/Director leadership. Discuss critical path, escalate blockers, and get decisions on tradeoffs."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Blocker Resolution",
+            description: "Follow up on action items from leadership review. Drive resolution of escalated issues with relevant teams."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Planning & Documentation",
+            description: "Update program plan, timeline, and documentation. Send status update to stakeholders and plan tomorrow's priorities."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
+      ]
+    },
+    'site-reliability-engineer': {
+      roleDescription: "Site Reliability Engineers (SREs) at Google are responsible for keeping the world's most critical internet infrastructure running reliably at massive scale. Google invented the SRE discipline, and you'll work on systems that handle billions of requests per second, store exabytes of data, and serve users across every country on Earth. SREs combine software engineering skills with systems expertise to build automation, improve reliability, and ensure that Google's products - Search, YouTube, Gmail, Cloud - achieve their availability targets (often 99.99% or higher). The role involves writing code to automate operations, designing systems for reliability, responding to incidents, and working with development teams to build reliability into products from the start. Google SREs enjoy a unique position: you're an engineer first, with expectations to spend at least 50% of your time on development work rather than operational toil. The SRE model Google created has been adopted across the industry and is documented in the famous 'Site Reliability Engineering' book written by Google SREs. Career growth follows engineering levels (L3-L8+) with paths to Staff/Principal SRE or management roles leading SRE teams.",
+      responsibilities: [
+        "Design, build, and maintain highly available, scalable systems serving billions of users globally",
+        "Write software to automate operational tasks, improve monitoring, and reduce manual toil",
+        "Participate in on-call rotations, responding to incidents and conducting post-mortems",
+        "Define and track Service Level Objectives (SLOs), error budgets, and reliability metrics",
+        "Collaborate with development teams to ensure new features and services meet reliability requirements",
+        "Conduct capacity planning and performance analysis to ensure systems can handle growth",
+        "Design and implement disaster recovery procedures and chaos engineering practices",
+        "Improve incident response through better tooling, runbooks, and training",
+        "Lead post-incident reviews to identify root causes and prevent recurrence",
+        "Contribute to SRE best practices and mentor junior engineers on reliability principles"
+      ],
+      growthOpportunities: [
+        "Work at the birthplace of SRE - Google literally wrote the book on site reliability engineering",
+        "Clear career ladder from SRE → Senior → Staff → Principal with increasing scope and impact",
+        "Opportunity to work on systems at unprecedented scale: Search, YouTube, Gmail, Cloud, etc.",
+        "Deep expertise in distributed systems, infrastructure, and reliability engineering",
+        "Path to management leading SRE teams, or technical leadership as Staff+ individual contributor",
+        "Internal mobility across product areas and infrastructure teams",
+        "Influence on industry practices - Google SREs have defined standards adopted worldwide",
+        "Access to Google's cutting-edge infrastructure and internal tools",
+        "Strong exit opportunities to lead SRE/platform organizations at other companies"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your background, SRE/systems experience, and interest in Google. The recruiter assesses technical background (coding ability, systems knowledge), operational experience, and alignment with SRE values. Be prepared to discuss your experience with production systems, incident response, and automation projects.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute interview combining coding and systems questions. You'll write code in a Google Doc (typically Python, Go, or C++) to solve an algorithmic problem, and answer questions about systems concepts like networking, operating systems, or distributed systems. The interviewer evaluates coding proficiency, systems knowledge, and problem-solving approach. Expect questions like 'What happens when you type google.com in your browser?' or debugging a system performance issue.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interviews (5 rounds)",
+          description: "Full day of interviews including: (1) Two coding interviews - algorithmic problems similar to SWE interviews, demonstrating strong programming skills; (2) Systems Design - design a large-scale distributed system focusing on reliability, scalability, and fault tolerance; (3) Troubleshooting/Systems - debug a complex system issue or discuss systems internals (Linux, networking, storage); (4) Googleyness & Leadership - behavioral interview on collaboration, handling pressure, and cultural fit. SRE interviews uniquely emphasize both coding ability and systems/operational expertise.",
+          duration: "Full day (4-5 hours)"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee Review",
+          description: "Your interview packet is reviewed by a committee of senior SREs. The committee evaluates coding ability, systems knowledge, operational experience, and Googleyness. Google SREs must be strong coders (50%+ of the job is development) AND have deep systems expertise. Committee review typically takes 1-2 weeks. The bar is high - Google looks for engineers who can both build reliable systems and respond effectively to incidents.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Team Matching & Offer",
+          description: "After committee approval, you'll meet with SRE teams supporting different products (Search, Ads, YouTube, Cloud, Core Infrastructure, etc.). Understand the systems you'd be supporting, on-call expectations, and team culture. Ask about automation projects, toil reduction efforts, and SLO targets. Once a mutual match is found, you'll receive an offer with competitive compensation and on-call stipends.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "What happens when you type 'google.com' into your browser? Go as deep as you can.",
+        "Design a highly available, globally distributed key-value store. What are the tradeoffs?",
+        "A service is responding slowly. Walk me through how you would diagnose and fix the issue.",
+        "Explain the difference between TCP and UDP. When would you use each?",
+        "How would you design a load balancing system for a service with 1 million requests per second?",
+        "Describe the Linux boot process. What happens from power-on to user login?",
+        "What is the CAP theorem? How does it affect distributed system design?",
+        "How would you implement rate limiting for an API? What data structures would you use?",
+        "A server is running out of memory. How would you investigate and resolve this?",
+        "Explain how DNS works. How would you design a DNS system for Google's scale?",
+        "What is an SLO? How do you set appropriate SLOs for a service?",
+        "How would you design a system to handle 10x traffic spikes during major events?",
+        "Explain the difference between processes and threads. When would you use each?",
+        "How does HTTPS work? Walk me through the TLS handshake.",
+        "Design a monitoring and alerting system for a large-scale web service.",
+        "What causes a thundering herd problem? How would you prevent it?",
+        "How would you conduct a post-mortem after a major outage? What makes a good post-mortem?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you responded to a major production incident. What was your role?",
+        "Describe a situation where you automated a manual process. What was the impact?",
+        "Tell me about a time you had to balance reliability with feature velocity.",
+        "Give an example of a post-mortem you led. What systemic changes resulted?",
+        "Describe a time you had to work with a development team to improve their service's reliability.",
+        "Tell me about a situation where you had to make a quick decision during an outage.",
+        "How do you handle on-call stress and maintain work-life balance?",
+        "Describe a project where you significantly reduced operational toil.",
+        "Tell me about a time you had to push back on a launch due to reliability concerns.",
+        "Give an example of how you've mentored or developed other engineers.",
+        "Describe a time you had to deal with a recurring production issue.",
+        "Tell me about a situation where you disagreed with a technical decision. How did you handle it?",
+        "How do you stay current with new technologies and reliability practices?",
+        "Describe a time you had to communicate a complex technical issue to non-technical stakeholders."
+      ],
+      whatTheyLookFor: [
+        "Strong coding skills: ability to write production-quality code in Python, Go, C++, or Java",
+        "Deep systems knowledge: expertise in Linux, networking, distributed systems, and infrastructure",
+        "Operational experience: track record of running reliable production systems at scale",
+        "Problem-solving ability: systematic approach to debugging and troubleshooting complex issues",
+        "Automation mindset: preference for building tools over doing repetitive manual work",
+        "Communication skills: ability to collaborate with development teams and explain technical concepts",
+        "Calm under pressure: effectiveness during incidents without panic or blame",
+        "Continuous improvement: drive to make systems more reliable and reduce toil over time",
+        "Googleyness: intellectual humility, collaboration, and comfort with ambiguity",
+        "On-call readiness: willingness to participate in rotations and respond to incidents"
+      ],
+      interviewTips: [
+        "Brush up on coding - SRE interviews include LeetCode-style problems. Practice in Python, Go, or C++",
+        "Study systems fundamentals: Linux internals, networking (TCP/IP, DNS, HTTP), and storage systems",
+        "Be ready to go deep on 'what happens when' questions - interviewers probe until you hit your limit",
+        "For system design, emphasize reliability: fault tolerance, redundancy, graceful degradation, monitoring",
+        "Prepare incident response stories using STAR format with specific technical details",
+        "Understand SRE concepts: SLOs, error budgets, toil, blameless post-mortems",
+        "Read the Google SRE book (free online) - it's the definitive guide to the discipline",
+        "Practice troubleshooting scenarios - describe your systematic approach to diagnosis",
+        "Show your automation mindset - discuss projects where you reduced manual work",
+        "Be honest about on-call expectations and how you manage stress",
+        "Prepare questions about SLO targets, on-call rotation, and team's biggest reliability challenges",
+        "Demonstrate intellectual curiosity about how systems work at scale",
+        "Review Google's public incident reports and post-mortems for examples of their approach",
+        "Practice whiteboarding system designs with reliability as the primary concern"
+      ],
+      salary: {
+        min: 150000,
+        max: 280000
+      },
+      compensation: [
+        "Base salary: $150-280K depending on level (L4-L7) and location",
+        "Annual performance bonus: 15-20% of base salary based on individual and team performance",
+        "Initial RSU grant: $120-400K+ vesting over 4 years",
+        "Stock refresh grants: Annual RSU refreshes based on performance",
+        "On-call stipend: Additional compensation for on-call rotations (varies by team)",
+        "Signing bonus: $25-100K depending on level and competing offers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Comprehensive health insurance: Medical, dental, vision with excellent coverage",
+        "Free meals and on-site amenities valued at ~$15K annually",
+        "Paid parental leave: 18-24 weeks",
+        "Total first-year compensation typically ranges from $220K to $500K+ depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Site Reliability Engineer at Google balances development work with operational responsibilities. Google's SRE model aims for engineers to spend at least 50% of their time on development (automation, tooling, infrastructure improvements) rather than operational toil. You'll write code, review designs, respond to incidents when on-call, and collaborate with product teams on reliability. On-call rotations are typically one week every 4-8 weeks, with robust escalation paths and support. The environment is intellectually stimulating with exposure to systems at unprecedented scale and a strong culture of learning from incidents.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Morning Check-in",
+            description: "Review overnight alerts and handoff notes from SREs in other time zones. Check dashboards for any anomalies in service health."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Team Standup",
+            description: "Quick sync with SRE team on project progress, incident follow-ups, and on-call handoff. Discuss any emerging reliability concerns."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Development Work",
+            description: "Focused time on automation project - building a tool to automatically remediate a class of common alerts."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Tech Talk",
+            description: "Lunch at campus cafe, often combined with attending a tech talk on distributed systems, new infrastructure, or incident learnings."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Design Review",
+            description: "Participate in design review for a new service being built by a product team. Provide reliability requirements and suggest architectural improvements."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Post-mortem Meeting",
+            description: "Lead post-mortem discussion for last week's incident. Identify root causes, document timeline, and assign action items to prevent recurrence."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Code Review",
+            description: "Review code changes from teammates working on monitoring improvements. Provide feedback on reliability and maintainability."
+          },
+          {
+            time: "4:00 PM",
+            activity: "SLO Review",
+            description: "Analyze service's SLO performance over the past month. Identify trends and propose error budget policies."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Continued Development",
+            description: "Continue work on automation project. Write tests and documentation before submitting for review."
+          },
+          {
+            time: "5:45 PM",
+            activity: "Wrap Up",
+            description: "Review on-call dashboard one more time (if on-call), respond to any pending reviews, and plan tomorrow's work."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Cloudflare", companySlug: "cloudflare", industry: "Technology" }
+      ]
+    },
+    'machine-learning-engineer': {
+      roleDescription: "Machine Learning Engineers at Google build and deploy the AI/ML systems that power products used by billions of people - from Search ranking and YouTube recommendations to Google Assistant and Cloud AI. You'll work at the forefront of applied machine learning, bridging the gap between research breakthroughs and production systems at unprecedented scale. Google is the birthplace of transformative ML technologies like TensorFlow, Transformers, BERT, and more recently, large language models that power Bard and Gemini. As an ML Engineer, you'll design ML architectures, build training pipelines, optimize inference systems, and collaborate with researchers to productionize cutting-edge algorithms. The role requires strong software engineering fundamentals combined with deep ML expertise - you'll write production code, not just notebooks. Google's ML Engineers have access to unmatched infrastructure (TPUs, massive datasets, internal tools), collaboration with Google Research and DeepMind, and the opportunity to work on problems that don't exist anywhere else. Career growth follows the engineering ladder (L4-L8+) with paths to Staff/Principal ML Engineer, research scientist, or management roles.",
+      responsibilities: [
+        "Design, build, and deploy machine learning models and systems at Google scale",
+        "Develop end-to-end ML pipelines including data processing, feature engineering, training, and serving",
+        "Optimize model performance for latency, throughput, and resource efficiency in production",
+        "Collaborate with researchers to productionize state-of-the-art ML algorithms and techniques",
+        "Write production-quality code in Python, C++, and/or Java following Google's engineering practices",
+        "Design and implement experiments to evaluate model performance and drive improvements",
+        "Build monitoring and debugging tools for ML systems in production",
+        "Work with product teams to understand requirements and translate them into ML solutions",
+        "Contribute to ML infrastructure and frameworks used across Google",
+        "Stay current with ML research and evaluate applicability to Google's products"
+      ],
+      growthOpportunities: [
+        "Work at the forefront of AI/ML with access to Google's unmatched research and infrastructure",
+        "Clear career ladder from ML Engineer → Senior → Staff → Principal with increasing scope",
+        "Opportunity to work on products reaching billions: Search, YouTube, Assistant, Cloud, etc.",
+        "Collaboration with Google Research and DeepMind on cutting-edge ML techniques",
+        "Access to TPUs, massive datasets, and internal ML tools not available elsewhere",
+        "Path to research scientist, engineering management, or continued IC growth",
+        "Internal mobility across ML application areas: NLP, Vision, Recommendations, Speech, etc.",
+        "Opportunity to publish papers and contribute to the ML research community",
+        "Shape the future of ML infrastructure used across the industry (TensorFlow, JAX, etc.)"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your background, ML experience, and interest in Google. The recruiter assesses your ML expertise, coding background, and alignment with open roles. Be prepared to discuss your most impactful ML projects, your ML specialization areas (NLP, Vision, Recommendations, etc.), and types of problems you enjoy solving.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute interview combining ML concepts and coding. Expect questions on ML fundamentals (bias-variance, regularization, model evaluation), algorithm implementation (code an ML algorithm or data processing pipeline), and discussion of your ML project experience. You may be asked to write code in a Google Doc and explain your ML design decisions. The interviewer evaluates both ML depth and coding ability.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interviews (5 rounds)",
+          description: "Full day of interviews including: (1) Two coding interviews - algorithmic problems plus ML-specific implementation tasks (e.g., implement a specific loss function, data processing pipeline); (2) ML System Design - design an end-to-end ML system for a Google-scale problem (recommendation system, search ranking, etc.); (3) ML Depth - deep dive into ML concepts, algorithms, and your past work; (4) Googleyness & Leadership - behavioral interview on collaboration and cultural fit. ML Engineer interviews emphasize the intersection of strong coding skills and deep ML expertise.",
+          duration: "Full day (4-5 hours)"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee Review",
+          description: "Your interview packet is reviewed by a committee of senior ML Engineers who weren't involved in your interviews. The committee evaluates coding ability, ML knowledge, system design skills, and Googleyness. Google ML Engineers must be strong software engineers first - production ML requires engineering rigor. Committee review typically takes 1-2 weeks.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Team Matching & Offer",
+          description: "After committee approval, you'll meet with hiring managers from ML teams across Google (Search, Ads, YouTube, Cloud AI, Assistant, etc.). Understand the ML problems they're solving, tech stack, and team culture. Ask about research collaboration, publication opportunities, and infrastructure access. Once a mutual match is found, you'll receive a competitive offer with premium ML compensation.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Explain the bias-variance tradeoff. How do you manage it in practice?",
+        "Design a recommendation system for YouTube. How would you handle cold start?",
+        "What is the difference between L1 and L2 regularization? When would you use each?",
+        "Explain how transformers work. What makes them better than RNNs for sequence tasks?",
+        "How would you design an ML system to detect hate speech at Google's scale?",
+        "Implement gradient descent from scratch. How would you add momentum?",
+        "Explain precision, recall, F1, and AUC-ROC. When would you optimize for each?",
+        "Design an ML pipeline for training a model on petabytes of data.",
+        "What is overfitting? How do you detect and prevent it?",
+        "Explain how attention mechanisms work. What is self-attention?",
+        "How would you design a system to serve ML models with sub-100ms latency?",
+        "Explain the difference between discriminative and generative models. Give examples.",
+        "How would you handle class imbalance in a fraud detection system?",
+        "Design an A/B testing framework to evaluate ML model improvements.",
+        "Explain how batch normalization works. Why does it help training?",
+        "How would you debug a model that performs well on training data but poorly in production?",
+        "Explain the difference between online and offline evaluation for recommendation systems.",
+        "Design an ML system for autocomplete in Google Search."
+      ],
+      behavioralQuestions: [
+        "Tell me about an ML project you're most proud of. What was your specific contribution?",
+        "Describe a time when your ML model didn't work as expected. How did you debug it?",
+        "Tell me about a situation where you had to make tradeoffs in ML system design.",
+        "Give an example of collaborating with researchers to productionize a model.",
+        "Describe a time you had to explain ML concepts to non-technical stakeholders.",
+        "Tell me about a project where you had to work with messy or limited data.",
+        "How do you decide when to use ML vs. a simpler heuristic approach?",
+        "Describe a time you improved an existing ML system significantly.",
+        "Tell me about a situation where you had to balance model accuracy with latency/cost.",
+        "Give an example of how you stay current with ML research and apply it to your work.",
+        "Describe a time you had to push back on an ML solution that wasn't appropriate.",
+        "Tell me about a project with significant technical uncertainty. How did you navigate it?",
+        "How do you approach ML fairness and bias in your work?",
+        "Describe a time you mentored someone on ML concepts or best practices."
+      ],
+      whatTheyLookFor: [
+        "Strong coding skills: ability to write production-quality code, not just notebooks",
+        "Deep ML fundamentals: thorough understanding of algorithms, optimization, and evaluation",
+        "System design ability: can design end-to-end ML systems at scale",
+        "Practical experience: track record of building and deploying ML models in production",
+        "Research awareness: staying current with ML literature and ability to apply new techniques",
+        "Data intuition: understanding of data quality, feature engineering, and data pipelines",
+        "Engineering rigor: testing, monitoring, and maintaining ML systems over time",
+        "Communication skills: explaining ML concepts and tradeoffs to diverse audiences",
+        "Collaboration: working effectively with researchers, engineers, and product teams",
+        "Googleyness: intellectual curiosity, humility, and comfort with ambiguity"
+      ],
+      interviewTips: [
+        "Master ML fundamentals: know how major algorithms work, not just how to call APIs",
+        "Practice coding ML from scratch: implement gradient descent, decision trees, neural network layers",
+        "Be ready to discuss your ML projects deeply: architecture decisions, tradeoffs, and results",
+        "For ML system design, structure your answer: requirements → data → modeling → training → serving → evaluation",
+        "Practice explaining complex ML concepts simply - you'll work with non-ML engineers",
+        "Review recent ML papers in your area of interest and be ready to discuss them",
+        "Understand productionization challenges: latency, scale, monitoring, A/B testing",
+        "Brush up on algorithms and data structures - ML Engineer interviews include coding rounds",
+        "Know the difference between research and production ML - emphasize engineering skills",
+        "Prepare questions about ML infrastructure, research collaboration, and publication culture",
+        "Be familiar with TensorFlow and/or PyTorch - understand the tradeoffs",
+        "Practice ML system design problems: recommendation systems, search ranking, fraud detection",
+        "Review ML fairness and bias concepts - increasingly important at Google",
+        "Show passion for both ML and engineering - Google wants ML Engineers, not just ML researchers"
+      ],
+      salary: {
+        min: 160000,
+        max: 300000
+      },
+      compensation: [
+        "Base salary: $160-300K depending on level (L4-L7) and location",
+        "Annual performance bonus: 15-25% of base salary based on individual and team performance",
+        "Initial RSU grant: $150-500K+ vesting over 4 years (higher for senior levels)",
+        "Stock refresh grants: Substantial annual refreshes based on performance",
+        "Signing bonus: $30-150K depending on level and competing offers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Comprehensive health insurance: Medical, dental, vision with excellent coverage",
+        "Free meals and on-site amenities valued at ~$15K annually",
+        "Conference attendance and education budget for ML conferences (NeurIPS, ICML, etc.)",
+        "Paid parental leave: 18-24 weeks",
+        "Total first-year compensation typically ranges from $250K to $600K+ depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Machine Learning Engineer at Google balances model development with production engineering. You'll spend time exploring data, training models, and working on serving infrastructure, while also collaborating with researchers and product teams. Google's ML culture emphasizes both innovation and engineering rigor - your models need to work reliably at massive scale. Most ML Engineers work 45-55 hours per week with flexibility for remote work. The environment is intellectually stimulating with access to cutting-edge research, massive compute resources, and collaboration with world-class ML talent.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Morning Review",
+            description: "Check model training jobs started overnight. Review metrics, identify any issues with training runs, and analyze experiment results."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Team Standup",
+            description: "Quick sync with ML team on project progress, experiment results, and blockers. Discuss upcoming launches and research collaboration."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Model Development",
+            description: "Focused time on model architecture improvements. Implement new attention mechanism based on recent paper, run ablation studies."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & ML Reading Group",
+            description: "Lunch combined with weekly ML reading group where team members present and discuss recent papers from NeurIPS, ICML, etc."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Data Pipeline Work",
+            description: "Improve feature engineering pipeline. Add new features, optimize data processing, and ensure pipeline reliability."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Research Collaboration",
+            description: "Meeting with Google Research team to discuss productionizing a new technique they've developed. Evaluate feasibility and resource requirements."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Code Review",
+            description: "Review code changes from teammates working on model serving infrastructure. Provide feedback on performance and reliability."
+          },
+          {
+            time: "4:45 PM",
+            activity: "Experiment Planning",
+            description: "Design next round of experiments based on today's results. Set up training jobs to run overnight on TPU clusters."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Documentation & Wrap Up",
+            description: "Document experiment results and findings. Update project tracker and plan tomorrow's priorities."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "OpenAI", companySlug: "openai", industry: "Technology" },
+        { companyName: "DeepMind", companySlug: "deepmind", industry: "Technology" }
+      ]
+    },
+
   },
   'goldman-sachs': {
     'investment-banking-analyst': {
