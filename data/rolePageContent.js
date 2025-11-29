@@ -13767,7 +13767,786 @@ export const rolePageContent = {
         { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
         { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
       ]
-    }
+    },
+    'asic-design-engineer': {
+      roleDescription: "ASIC Design Engineers at Apple create the custom silicon that powers every Apple device - the revolutionary M-series chips for Mac, A-series for iPhone, S-series for Apple Watch, and specialized processors for AirPods and Vision Pro. Apple's decision to design its own chips has become one of the most successful technology transitions in history, delivering industry-leading performance per watt that competitors cannot match. You'll work on everything from CPU and GPU microarchitecture to Neural Engine design, secure enclaves, and specialized accelerators. Apple Silicon represents the ultimate integration of hardware and software - chips designed specifically for iOS, macOS, and Apple's frameworks. The ASIC team spans thousands of engineers across disciplines: RTL design, verification, physical design, circuit design, and architecture. What makes Apple unique is seeing your silicon ship in hundreds of millions of devices, with direct impact on battery life, performance, and user experience. Career paths lead from design engineer to principal engineer, architect, or management roles leading chip development programs.",
+      responsibilities: [
+        "Design and implement RTL for CPU, GPU, Neural Engine, or specialized accelerator blocks",
+        "Develop microarchitecture for high-performance, power-efficient processor designs",
+        "Create and maintain verification environments using SystemVerilog, UVM, and formal methods",
+        "Optimize designs for power, performance, and area (PPA) within aggressive targets",
+        "Collaborate with software teams to define instruction sets and hardware-software interfaces",
+        "Work with physical design teams on timing closure, power analysis, and DFT implementation",
+        "Debug silicon issues through simulation, emulation, and post-silicon validation",
+        "Develop performance models and simulators for architecture exploration",
+        "Review and improve design methodologies, flows, and best practices",
+        "Mentor junior engineers and contribute to technical excellence across the team"
+      ],
+      growthOpportunities: [
+        "Design chips for products used by over 2 billion devices worldwide",
+        "Work on industry-leading Apple Silicon: M-series, A-series, Neural Engine",
+        "Clear career ladder from design engineer to architect, principal engineer, or Fellow",
+        "Opportunity to shape the future of computing with custom silicon",
+        "Deep specialization in CPU, GPU, ML accelerators, security, or interconnects",
+        "Collaboration with world-class architects who designed breakthrough chips",
+        "Path to architecture roles defining next-generation processor features",
+        "Internal mobility across chip teams: iPhone, Mac, Watch, accessories",
+        "Patent opportunities for novel design innovations"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your chip design background, experience with RTL/verification, and interest in Apple Silicon. The recruiter assesses qualifications and explains the role's focus area (CPU, GPU, Neural Engine, etc.). Be prepared to discuss your experience with design tools, methodologies, and most complex chip projects.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-90 minute technical interview with an Apple ASIC engineer. Expect deep questions in your specialty: RTL coding, microarchitecture concepts, verification methodology, or circuit design. You may be asked to write Verilog/SystemVerilog code, analyze timing diagrams, or discuss design trade-offs. The interviewer evaluates technical depth and problem-solving approach.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interview Loop",
+          description: "Full day of 5-6 interviews including: (1) RTL Design - write and debug Verilog code for a logic block; (2) Microarchitecture - discuss processor concepts, pipelines, caches, memory systems; (3) Verification - develop test strategies, coverage plans, or debug methodologies; (4) Problem Solving - work through complex design scenarios; (5) Behavioral - assess collaboration, communication, and cultural fit; (6) Hiring manager discussion about team and role specifics.",
+          duration: "Full day (5-6 hours)"
+        },
+        {
+          step: 4,
+          title: "Debrief & Hiring Decision",
+          description: "Interview panel reviews feedback and makes hiring recommendation. Apple ASIC hiring emphasizes both deep technical expertise and ability to work in large, complex chip programs. The process typically takes 1-2 weeks.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Offer & Team Placement",
+          description: "Successful candidates receive offers for specific teams (CPU, GPU, Neural Engine, platform, etc.). ASIC engineer offers are highly competitive with significant RSU grants given the specialized skills. Background checks are thorough given the sensitive nature of chip development.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Design a simple FIFO in Verilog. How would you handle full and empty conditions?",
+        "Explain the differences between synchronous and asynchronous FIFO designs.",
+        "Walk through a 5-stage RISC pipeline. What are the hazards and how do you handle them?",
+        "How does branch prediction work? Describe different prediction schemes and trade-offs.",
+        "Design a cache controller. How do you handle coherency in a multi-core system?",
+        "Explain clock domain crossing techniques. When would you use each approach?",
+        "What is metastability? How do you design synchronizers to minimize its effects?",
+        "Describe verification methodologies you've used. How do you achieve coverage closure?",
+        "How would you debug a timing violation in a design? Walk through your approach.",
+        "Explain low-power design techniques: clock gating, power gating, voltage scaling.",
+        "Design an arbiter for multiple requestors. How do you ensure fairness?",
+        "What is the difference between blocking and non-blocking assignments in Verilog?",
+        "Describe the trade-offs between performance and power in processor design.",
+        "How do you verify a complex protocol like PCIe or AXI?",
+        "Explain formal verification. When would you use it vs. simulation?",
+        "Design a simple ALU. How would you optimize it for timing or area?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a chip design project you're most proud of. What was your contribution?",
+        "Describe a time you debugged a complex silicon issue. What was your approach?",
+        "Give an example of when you had to balance competing design requirements (power, performance, area).",
+        "Tell me about a time you collaborated with software teams on a hardware-software interface.",
+        "Describe a situation where verification found a critical bug late in the project. How did you handle it?",
+        "Give an example of when you improved a design methodology or flow.",
+        "Tell me about a time you had to make a difficult design trade-off decision.",
+        "Describe how you've mentored junior engineers on chip design best practices.",
+        "Give an example of when you pushed back on a schedule or requirement that wasn't feasible.",
+        "Tell me about a time you had to learn a new technology or design technique quickly.",
+        "Describe your experience with cross-functional collaboration in chip development.",
+        "Give an example of when attention to detail prevented a silicon bug.",
+        "Tell me about a project where you had to work with legacy designs or constraints.",
+        "Describe how you stay current with advances in chip design and architecture."
+      ],
+      whatTheyLookFor: [
+        "Deep expertise in RTL design, verification, or chip architecture",
+        "Strong Verilog/SystemVerilog skills with clean, synthesizable coding practices",
+        "Understanding of microarchitecture concepts: pipelines, caches, memory systems",
+        "Experience with verification methodologies: UVM, formal, emulation",
+        "Knowledge of low-power design techniques and trade-offs",
+        "Understanding of physical design constraints: timing, area, power",
+        "Problem-solving ability for complex debugging and design challenges",
+        "Collaboration skills for working in large, multi-disciplinary chip teams",
+        "Communication skills to document designs and work across teams",
+        "Passion for creating chips that ship in world-class products"
+      ],
+      interviewTips: [
+        "Review digital design fundamentals: state machines, timing, synchronization",
+        "Practice writing clean Verilog/SystemVerilog code by hand",
+        "Study computer architecture: pipelines, caches, branch prediction, memory hierarchy",
+        "Understand verification methodologies and coverage-driven approaches",
+        "Review low-power design techniques used in mobile chips",
+        "Prepare examples of chip projects with specific technical challenges and solutions",
+        "Be ready to whiteboard designs and walk through your thought process",
+        "Understand Apple Silicon and what makes it industry-leading",
+        "Know common design pitfalls: metastability, clock domain crossing, race conditions",
+        "Practice explaining complex technical concepts clearly",
+        "Research the specific team/chip area and prepare relevant questions",
+        "Review timing analysis concepts: setup, hold, clock skew",
+        "Be prepared to discuss trade-offs in your past design decisions",
+        "Show enthusiasm for shipping silicon in products used by millions"
+      ],
+      salary: {
+        min: 165000,
+        max: 300000
+      },
+      compensation: [
+        "Base salary: $165-300K depending on level and specialty",
+        "Annual performance bonus: 10-20% of base salary",
+        "Initial RSU grant: $150-500K+ vesting over 4 years (ASIC roles command premium equity)",
+        "Stock refresh grants: Substantial annual refreshes based on performance",
+        "Signing bonus: $40-150K depending on level and competing offers",
+        "401(k) matching: 50% match up to 6% of salary",
+        "Employee Stock Purchase Plan (ESPP): 15% discount on Apple stock",
+        "Comprehensive health insurance: Medical, dental, vision",
+        "Patent bonuses: Additional compensation for filed and granted patents",
+        "Product discounts: 25% off Apple products",
+        "Total first-year compensation typically ranges from $280K to $600K+ depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for an ASIC Design Engineer at Apple balances focused design work with collaboration across the chip development team. Chip development follows multi-year cycles with varying intensity: early phases allow architecture exploration, while final stages before tape-out involve intense verification and timing closure. You'll split time between RTL coding, simulation debugging, design reviews, and cross-functional meetings. Apple's chip culture emphasizes both individual excellence and team collaboration, with engineers expected to own their blocks while contributing to the broader chip.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Review",
+            description: "Review overnight regression results. Check for simulation failures, coverage gaps, or timing violations that need attention."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Design Work",
+            description: "Focused time on RTL development. Implement new microarchitecture feature, optimize critical path, or address review feedback."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Block Meeting",
+            description: "Weekly sync with block team to review progress, discuss technical challenges, and coordinate dependencies."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch at Apple Park with colleagues. Informal technical discussions about design approaches."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Design Review",
+            description: "Present design changes to senior engineers and architects. Receive feedback on microarchitecture and implementation."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Debug Session",
+            description: "Debug failing test case in simulation. Trace through waveforms to identify root cause of protocol violation."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Cross-functional Sync",
+            description: "Meet with software team to discuss firmware interface for new hardware feature."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update design specification with latest changes. Document microarchitecture for verification team."
+          },
+          {
+            time: "5:45 PM",
+            activity: "Regression Launch",
+            description: "Launch overnight regressions with latest RTL changes. Configure coverage collection for verification closure."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "NVIDIA", companySlug: "nvidia", industry: "Technology" },
+        { companyName: "Intel", companySlug: "intel", industry: "Technology" },
+        { companyName: "AMD", companySlug: "amd", industry: "Technology" },
+        { companyName: "Qualcomm", companySlug: "qualcomm", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" }
+      ]
+    },
+    'product-designer': {
+      roleDescription: "Product Designers (UX) at Apple create the interface designs that define how billions of people interact with technology every day. You'll design experiences for iOS, macOS, watchOS, visionOS, and Apple's services - from the gestures that navigate iPhone to the spatial interfaces of Vision Pro. Apple's design philosophy emphasizes simplicity, clarity, and deference to content, requiring designers who can distill complex functionality into intuitive experiences. Unlike many tech companies, Apple designers work in tight collaboration with engineering throughout the process, ensuring designs are not just beautiful but buildable and performant. You'll work within Apple's Human Interface Guidelines while pushing boundaries for new platforms and interactions. The design organization includes specialists in interaction design, visual design, motion design, prototyping, and design research. Career growth leads from designer to senior designer, principal designer, or design management, with opportunities to define experiences for revolutionary new products.",
+      responsibilities: [
+        "Design user interfaces for Apple products and services from concept through launch",
+        "Create wireframes, mockups, prototypes, and detailed specifications for engineering",
+        "Collaborate with engineering to implement designs with attention to detail and performance",
+        "Work with Human Interface Design teams to ensure consistency with Apple design language",
+        "Conduct design reviews and iterate based on feedback from design leadership",
+        "Partner with user research to inform designs with user insights and validate solutions",
+        "Create motion design and interaction specifications for smooth, delightful experiences",
+        "Develop and contribute to design systems ensuring consistency across products",
+        "Advocate for accessibility and inclusive design in all work",
+        "Present design work to stakeholders and incorporate feedback effectively"
+      ],
+      growthOpportunities: [
+        "Design interfaces used by over 2 billion Apple devices worldwide",
+        "Shape the future of human-computer interaction for new platforms like Vision Pro",
+        "Clear career ladder from designer to senior, principal, or design director",
+        "Work with Apple's legendary Human Interface Design organization",
+        "Opportunity to define design patterns adopted industry-wide",
+        "Deep specialization in interaction, visual, motion, or research",
+        "Collaboration with industrial designers on hardware-software experience",
+        "Internal mobility across platforms: iOS, macOS, watchOS, visionOS, services",
+        "Path to design leadership or cross-functional roles in product management"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen & Portfolio Review",
+          description: "Initial 30-minute call with recruiter to discuss your design background and experience. The recruiter will review your portfolio before the call, so ensure it's polished and accessible. Be prepared to discuss 2-3 projects highlighting your design process, not just final designs. Apple looks for demonstrated craft, user-centered thinking, and attention to detail.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Design Manager Screen",
+          description: "45-60 minute call with a design manager to go deeper into your portfolio. You'll walk through projects in detail, discussing your role, design decisions, constraints, and outcomes. Expect questions about your design process, how you collaborate with engineering, and how you handle feedback. The manager assesses design thinking and potential team fit.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interview Loop (6 rounds)",
+          description: "Full day of interviews including: (1-2) Portfolio presentations to different design panels - prepare a 20-25 minute presentation with Q&A; (3) Design exercise - whiteboard challenge to design an interface or solve a design problem live; (4) Cross-functional interview with engineering or product partner; (5) Design craft deep dive on visual, interaction, or motion skills; (6) Behavioral interview on collaboration, feedback, and cultural fit. Each round is 30-45 minutes.",
+          duration: "Full day (5-6 hours)"
+        },
+        {
+          step: 4,
+          title: "Debrief & Hiring Decision",
+          description: "Design leadership reviews interview feedback and portfolio assessment. Apple design hiring emphasizes craft excellence, user-centered thinking, and ability to collaborate with engineering. Decisions typically take 1-2 weeks.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Offer & Team Placement",
+          description: "Successful candidates receive offers for specific teams (iOS, macOS, Services, visionOS, etc.). Design roles at Apple include competitive compensation with significant RSU grants. Team placement considers your interests and portfolio strengths.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your design process for [portfolio project]. What would you do differently now?",
+        "How would you redesign the iOS Settings app to be more intuitive?",
+        "Design an interface for controlling smart home devices on Apple Watch.",
+        "How would you approach designing for spatial computing on Vision Pro?",
+        "Design a feature to help users manage their screen time more effectively.",
+        "How do you balance simplicity with feature complexity in your designs?",
+        "Design an onboarding experience for a new Apple service.",
+        "How would you make an existing feature more accessible for users with disabilities?",
+        "Critique the current design of [Apple app]. What would you improve?",
+        "Design an interface for a health feature that needs to communicate urgent information.",
+        "How do you approach designing for different screen sizes and contexts?",
+        "Design a notification experience that reduces interruption while ensuring importance.",
+        "How would you design for a feature that needs to work across iPhone, iPad, and Mac?",
+        "Walk me through how you would hand off a design to engineering.",
+        "Design an interface for a feature that helps users protect their privacy."
+      ],
+      behavioralQuestions: [
+        "Tell me about a design you created that you're most proud of. What made it successful?",
+        "Describe a time you received critical feedback on your design. How did you handle it?",
+        "Give an example of when you advocated for the user experience against business or technical pressure.",
+        "Tell me about a project where engineering constraints changed your design approach.",
+        "Describe how you've collaborated with engineers to ensure design quality in implementation.",
+        "Give an example of when you simplified a complex feature for users.",
+        "Tell me about a design that didn't ship or didn't work as expected. What did you learn?",
+        "Describe your process for staying current with design trends and tools.",
+        "Give an example of how you've incorporated accessibility into your design process.",
+        "Tell me about a time you had to design with incomplete information or ambiguous requirements.",
+        "Describe how you handle multiple stakeholders with different design opinions.",
+        "Give an example of when attention to detail significantly improved a design.",
+        "Tell me about mentoring or helping develop other designers.",
+        "Describe a design decision you made based on user research or data."
+      ],
+      whatTheyLookFor: [
+        "Exceptional craft: visual design, interaction design, and attention to detail",
+        "User-centered thinking with ability to translate research into design solutions",
+        "Understanding of Apple's Human Interface Guidelines and design philosophy",
+        "Prototyping skills to communicate motion and interaction",
+        "Collaboration skills to work effectively with engineering and cross-functional teams",
+        "Clear communication of design rationale and ability to receive feedback",
+        "Problem-solving ability for complex design challenges",
+        "Accessibility awareness and inclusive design practices",
+        "Passion for Apple products and creating exceptional user experiences",
+        "Growth mindset with continuous improvement orientation"
+      ],
+      interviewTips: [
+        "Polish your portfolio: show process, not just final designs - Apple wants to see how you think",
+        "Practice presenting: you'll give multiple portfolio presentations, so rehearse timing and flow",
+        "Know Apple's Human Interface Guidelines deeply - demonstrate you understand Apple's design philosophy",
+        "Prepare for whiteboard exercises: practice designing interfaces under time pressure",
+        "Show attention to detail in your portfolio - Apple notices the small things",
+        "Be ready to discuss how you work with engineers and handle implementation constraints",
+        "Prepare examples of how you've incorporated feedback and iterated on designs",
+        "Understand accessibility and be ready to discuss inclusive design",
+        "Know Apple's products well and have thoughtful opinions on their design",
+        "Use STAR format for behavioral questions with specific outcomes",
+        "Prepare questions about design team structure, tools, and review processes",
+        "Be ready to critique your own work - show self-awareness and growth mindset",
+        "Practice sketching and whiteboard design - tools may not be available",
+        "Show enthusiasm for Apple's mission and design culture"
+      ],
+      salary: {
+        min: 140000,
+        max: 250000
+      },
+      compensation: [
+        "Base salary: $140-250K depending on level and location",
+        "Annual performance bonus: 10-15% of base salary",
+        "Initial RSU grant: $100-350K+ vesting over 4 years",
+        "Stock refresh grants: Annual refreshes based on performance",
+        "Signing bonus: $25-80K depending on level and competing offers",
+        "401(k) matching: 50% match up to 6% of salary",
+        "Employee Stock Purchase Plan (ESPP): 15% discount on Apple stock",
+        "Comprehensive health insurance: Medical, dental, vision",
+        "Design software and tools: All necessary design tools provided",
+        "Product discounts: 25% off Apple products",
+        "Total first-year compensation typically ranges from $200K to $450K depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Product Designer at Apple balances focused design work with collaboration and reviews. You'll spend time in Figma or Sketch creating designs, meeting with engineering on implementation, and participating in design critiques. Apple's design culture emphasizes craft, iteration, and attention to detail - expect thorough reviews and high expectations. Most designers work 45-50 hours per week with intensity varying by project phase. The environment is collaborative with regular design critiques and opportunities to learn from world-class designers.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Morning Arrival",
+            description: "Arrive at Apple Park, review overnight feedback on design specs, respond to engineering questions about implementation details."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Design Critique",
+            description: "Weekly team design critique where designers present work-in-progress and receive feedback from peers and leadership."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Focused Design Time",
+            description: "Deep work on current feature designs in Figma. Iterate on interface based on critique feedback, refine interactions and visual details."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch",
+            description: "Lunch at Apple Park's cafe. Informal discussions with colleagues about design challenges and industry trends."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Engineering Sync",
+            description: "Meet with engineering team to review design implementation, answer questions, and discuss technical constraints."
+          },
+          {
+            time: "2:30 PM",
+            activity: "User Research Debrief",
+            description: "Review findings from recent usability study with design researcher. Identify insights for current project."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Prototyping",
+            description: "Build interactive prototype to communicate motion and transitions to engineering and stakeholders."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Design Leadership Review",
+            description: "Present design progress to design director. Receive feedback on direction and alignment with product goals."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up",
+            description: "Update design files, respond to comments, and prepare for tomorrow's activities."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Spotify", companySlug: "spotify", industry: "Technology" }
+      ]
+    },
+    'industrial-designer': {
+      roleDescription: "Industrial Designers at Apple create the physical form of the world's most iconic products - iPhone, Mac, iPad, Apple Watch, AirPods, and Vision Pro. Apple's industrial design team, once led by Jony Ive, has defined the aesthetic of modern consumer electronics and continues to push boundaries in materials, manufacturing, and user experience. You'll work on products that will be held, worn, and used by hundreds of millions of people, where every curve, material choice, and surface finish matters. Apple Industrial Designers combine artistic vision with engineering pragmatism - understanding manufacturing processes, material science, and human factors alongside aesthetic excellence. The role involves extensive physical prototyping, material exploration, and close collaboration with engineering, product design, and operations teams. Projects span from concept exploration for future products to refinement of products approaching production. The team is small but legendary, producing designs that have won hundreds of design awards and defined Apple's brand. Career growth is highly selective, with advancement based on contribution to shipped products and design excellence.",
+      responsibilities: [
+        "Develop product concepts through sketching, 3D modeling, and physical prototyping",
+        "Create detailed CAD models and renderings for product development",
+        "Explore materials, finishes, and manufacturing processes for new products",
+        "Build and evaluate physical prototypes to refine form, ergonomics, and user experience",
+        "Collaborate with engineering to ensure designs are manufacturable at scale",
+        "Work with color, material, and finish (CMF) specialists on product aesthetics",
+        "Present design concepts to leadership and incorporate feedback",
+        "Partner with packaging and accessory teams on cohesive product experiences",
+        "Collaborate with product designers on hardware-software interface points",
+        "Participate in design reviews and contribute to team design language"
+      ],
+      growthOpportunities: [
+        "Design products used by hundreds of millions of people worldwide",
+        "Work with Apple's legendary industrial design team",
+        "Shape the physical form of revolutionary products: Vision Pro, future devices",
+        "Deep expertise in materials, manufacturing, and product development",
+        "Clear career path from designer to senior designer to principal designer",
+        "Opportunity to define Apple's design language for new product categories",
+        "Collaboration with world-class engineers, material scientists, and manufacturers",
+        "Work with cutting-edge manufacturing processes and materials",
+        "Create designs that win industry recognition and define product categories"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Portfolio Submission & Recruiter Screen",
+          description: "Submit portfolio showcasing industrial design work. Initial 30-minute call if portfolio meets requirements. Be prepared to discuss your design philosophy, material and manufacturing experience, and interest in Apple products. Apple looks for exceptional craft, innovation, and understanding of mass production.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Design Lead Interview",
+          description: "60-90 minute deep dive into your portfolio with a senior industrial designer or design lead. You'll discuss 3-4 projects in detail: concept development, design decisions, material choices, manufacturing considerations, and outcomes. Expect probing questions about why you made specific design choices.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interview Loop",
+          description: "Full day including: (1-2) Portfolio presentations to different design panels - show physical prototypes if possible; (3) Design exercise - sketch or model a product concept based on a prompt; (4) Materials and manufacturing discussion with engineering partner; (5) Behavioral interview on collaboration and design philosophy; (6) Tour and discussion with hiring manager. Physical prototypes and sketch samples are highly valued.",
+          duration: "Full day (6+ hours)"
+        },
+        {
+          step: 4,
+          title: "Design Leadership Review",
+          description: "Senior design leadership reviews candidate portfolio and interview feedback. Industrial design hiring at Apple is extremely selective, with emphasis on craft excellence, innovation, and fit with the design team culture. This process may take several weeks.",
+          duration: "2-4 weeks"
+        },
+        {
+          step: 5,
+          title: "Offer",
+          description: "Successful candidates receive offers with competitive compensation. The Apple industrial design team is small and exclusive, so offers are extended carefully. Expect comprehensive background checks and NDAs given the sensitive nature of product development.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your design process for [portfolio project]. What alternatives did you explore?",
+        "How do you balance aesthetic vision with manufacturing constraints?",
+        "Describe your experience with different prototyping methods and when you'd use each.",
+        "How do you approach material selection for a new product?",
+        "Design a portable electronic device for outdoor use. Walk through your process.",
+        "What manufacturing processes are you familiar with? Discuss trade-offs between them.",
+        "How would you approach designing a product that needs to be water resistant?",
+        "Describe your experience with CMF (color, material, finish) development.",
+        "How do you ensure ergonomics and human factors in your designs?",
+        "Design the form factor for a new wearable device. What considerations are important?",
+        "How do you work with engineers to refine designs for production?",
+        "Describe a time when you pushed the boundaries of a manufacturing process.",
+        "How do you evaluate whether a design is 'right'? What makes a successful product design?",
+        "Walk me through how you would develop a new product from concept to production intent.",
+        "How do you stay current with materials, manufacturing, and design trends?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a product you designed that went into production. What were the challenges?",
+        "Describe a time when you had to significantly change a design based on manufacturing feedback.",
+        "Give an example of innovative material or process use in your work.",
+        "Tell me about a design that didn't work out. What did you learn?",
+        "Describe how you've collaborated with engineers to solve a product design challenge.",
+        "Give an example of when you obsessed over a detail that others might overlook.",
+        "Tell me about a time you had to defend a design decision to stakeholders.",
+        "Describe your experience working with prototyping shops and manufacturers.",
+        "Give an example of how you've balanced user needs with business constraints.",
+        "Tell me about a project with aggressive timeline. How did you manage quality?",
+        "Describe how you handle feedback that significantly changes your design direction.",
+        "Give an example of when you were inspired by something outside of product design.",
+        "Tell me about mentoring or developing other designers.",
+        "Describe your design philosophy and how it influences your work."
+      ],
+      whatTheyLookFor: [
+        "Exceptional design craft: sketching, 3D modeling, rendering, and prototyping skills",
+        "Understanding of manufacturing processes and design for production",
+        "Materials expertise: metals, plastics, glass, composites, and finishing techniques",
+        "Human factors and ergonomics understanding",
+        "Innovation and ability to push boundaries while maintaining feasibility",
+        "Attention to detail at every level from concept to production",
+        "Collaboration skills to work with engineering and cross-functional teams",
+        "Communication ability to present and defend design decisions",
+        "Passion for Apple products and design excellence",
+        "Curiosity and continuous learning about materials and processes"
+      ],
+      interviewTips: [
+        "Bring physical prototypes if possible - Apple values hands-on design work",
+        "Portfolio should show process: sketches, explorations, prototypes, not just final renders",
+        "Demonstrate deep understanding of manufacturing processes relevant to Apple products",
+        "Know materials: aluminum, stainless steel, glass, plastics, composites used in Apple products",
+        "Be prepared to sketch during the interview - practice hand sketching",
+        "Understand Apple's design language and be able to articulate what makes it distinctive",
+        "Show projects that went to production, not just concept work",
+        "Prepare to discuss failures and what you learned from them",
+        "Know Apple's environmental and sustainability initiatives in product design",
+        "Research recent Apple products and be ready to discuss their design merits",
+        "Prepare thoughtful questions about the design process and team",
+        "Show passion for physical product design and user experience",
+        "Be ready to discuss ergonomics and how people physically interact with products",
+        "Demonstrate curiosity about emerging materials and manufacturing technologies"
+      ],
+      salary: {
+        min: 130000,
+        max: 240000
+      },
+      compensation: [
+        "Base salary: $130-240K depending on level and experience",
+        "Annual performance bonus: 10-15% of base salary",
+        "Initial RSU grant: $100-350K+ vesting over 4 years",
+        "Stock refresh grants: Annual refreshes based on performance and impact",
+        "Signing bonus: $25-75K depending on level",
+        "401(k) matching: 50% match up to 6% of salary",
+        "Employee Stock Purchase Plan (ESPP): 15% discount on Apple stock",
+        "Comprehensive health insurance: Medical, dental, vision",
+        "Design tools and prototyping budget",
+        "Product discounts: 25% off Apple products",
+        "Total first-year compensation typically ranges from $190K to $420K depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for an Industrial Designer at Apple is hands-on and exploratory, balancing creative ideation with engineering collaboration. You'll spend time sketching, modeling, and evaluating prototypes, with regular reviews with design leadership. Apple's industrial design culture emphasizes craft, iteration, and attention to every detail. Projects move through phases from early concept exploration to production refinement, with different activities at each stage. Most designers work 45-55 hours per week, with intensity varying by project phase.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Studio Arrival",
+            description: "Arrive at design studio, review overnight model shop output, examine newly machined prototypes."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Sketching Session",
+            description: "Focused sketching to explore form variations for new product concept. Generate multiple directions."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Team Review",
+            description: "Informal review with fellow designers to discuss explorations and get feedback on directions."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch at Apple Park with design colleagues. Discussion of materials and industry trends."
+          },
+          {
+            time: "1:00 PM",
+            activity: "CAD Development",
+            description: "Translate sketches into 3D CAD models. Refine surfaces and details for machining."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Engineering Meeting",
+            description: "Review design with mechanical engineering team. Discuss internal component packaging and structural requirements."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Model Shop Visit",
+            description: "Work with model makers on prototype details. Evaluate finish samples and material options."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Materials Research",
+            description: "Research new materials and finishes for upcoming project. Evaluate supplier samples."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Documentation",
+            description: "Update design documentation, prepare files for leadership review, plan next prototype iteration."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Samsung", companySlug: "samsung", industry: "Technology" },
+        { companyName: "Sony", companySlug: "sony", industry: "Technology" },
+        { companyName: "Tesla", companySlug: "tesla", industry: "Automotive" }
+      ]
+    },
+    'product-manager': {
+      roleDescription: "Product Managers at Apple define the vision and strategy for products used by over 2 billion devices, from iPhone and Mac to Apple Watch, Vision Pro, and services like iCloud and Apple Music. Apple PMs are distinctive - the company's design-led culture means PMs must have exceptional design taste, deep technical understanding, and ability to influence through expertise rather than authority. You'll work at the intersection of hardware, software, and services in ways not possible at other companies. Apple PMs often have engineering or design backgrounds and are expected to go deep technically, understanding system architecture, performance trade-offs, and implementation details. The role involves defining product requirements, working with engineering and design on execution, and driving features from conception through launch. Apple's culture of secrecy means products are often revealed at launch, so PMs experience the unique satisfaction of surprising the world with innovations they've shepherded. Career growth leads from PM to Senior PM, GPM, Director, and VP roles, with some PMs transitioning to executive positions.",
+      responsibilities: [
+        "Define product vision, strategy, and requirements for hardware, software, or services",
+        "Write detailed Product Requirements Documents (PRDs) specifying features and user experiences",
+        "Collaborate with engineering, design, and marketing teams to deliver exceptional products",
+        "Make trade-off decisions balancing user experience, technical feasibility, and timeline",
+        "Conduct competitive analysis and market research to inform product direction",
+        "Define and track metrics for product success and user engagement",
+        "Present product strategy to leadership and incorporate feedback",
+        "Champion user experience in every decision, working closely with design",
+        "Coordinate cross-functional teams for complex product initiatives",
+        "Drive products through Apple's development process from concept to launch"
+      ],
+      growthOpportunities: [
+        "Shape products used by over 2 billion Apple devices worldwide",
+        "Work at the unique intersection of hardware, software, and services",
+        "Clear career ladder from PM to Senior PM, GPM, Director, and VP",
+        "Opportunity to work on revolutionary products: Vision Pro, future devices, services",
+        "Deep exposure to Apple's legendary product development process",
+        "Collaboration with world-class engineering and design teams",
+        "Path to executive roles leading major product lines",
+        "Internal mobility across products: iPhone, Mac, Watch, Services, and more",
+        "Experience the thrill of product launches that surprise the world"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your product management background, experience, and interest in Apple. The recruiter assesses qualifications, discusses which product areas match your background (hardware, software, services), and explains Apple's unique PM culture. Be prepared to discuss products you've shipped and why Apple's approach appeals to you.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "PM Phone Screen",
+          description: "60-minute interview with an Apple PM covering product sense and background. Expect a product design question ('How would you improve Apple Music?') and discussion of products you've launched. The interviewer evaluates product intuition, design taste, technical depth, and communication skills. Apple PMs need to demonstrate both strategic thinking and attention to detail.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "PRD Writing Exercise",
+          description: "Some Apple PM interviews include a written exercise where you create a Product Requirements Document for a given feature or product. This is often done before the on-site with a 24-48 hour deadline. The PRD evaluates how you define requirements, consider edge cases, and communicate with engineering.",
+          duration: "24-48 hours (take-home)"
+        },
+        {
+          step: 4,
+          title: "On-site/Virtual Interview Loop",
+          description: "Full day of 5-6 interviews including: (1) Product Sense - design a product or improve an Apple product; (2) Technical Depth - discuss system design, technical trade-offs, or engineering considerations; (3) Strategy - product strategy case or market analysis; (4) Execution - how you ship products, handle edge cases, and work with teams; (5) Behavioral - collaboration, leadership, and cultural fit; (6) Hiring manager discussion about role and team.",
+          duration: "Full day (5-6 hours)"
+        },
+        {
+          step: 5,
+          title: "Leadership Review & Offer",
+          description: "Senior leadership reviews interview feedback and PRD exercise. Apple PM hiring emphasizes design taste, technical depth, and cultural fit. Offers specify team placement and include competitive compensation. The process may take 2-3 weeks given the multiple evaluation components.",
+          duration: "2-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve the iPhone Camera app? Be specific about features and prioritization.",
+        "Design a new Apple Watch feature focused on mental health. Walk through your process.",
+        "Should Apple build a search engine? Analyze the opportunity and make a recommendation.",
+        "How would you measure success for Apple TV+? What metrics matter most?",
+        "If Apple Music subscriber growth slowed, how would you diagnose and address it?",
+        "Design the next generation of Siri. What capabilities would you prioritize and why?",
+        "How would you improve the Mac and iPhone integration experience?",
+        "Design a product for students in the education market using iPad.",
+        "How would you prioritize features for the next iOS release? Walk through your framework.",
+        "What new health feature should Apple Watch add next? Justify your recommendation.",
+        "How would you approach launching Apple Vision Pro to enterprise customers?",
+        "Design an accessibility feature for iOS that doesn't exist today.",
+        "How would you improve the App Store experience for users and developers?",
+        "If you were PM for AirPods, what would you focus on for the next generation?",
+        "Analyze Apple's services strategy. What should the next major service be?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a product you shipped that you're most proud of. What was your specific role?",
+        "Describe a time you made a difficult product trade-off decision. What was your framework?",
+        "Give an example of when you advocated for user experience over business metrics.",
+        "Tell me about a product decision you made that was wrong. What did you learn?",
+        "Describe how you've worked with design teams to achieve exceptional user experiences.",
+        "Give an example of when you had to say no to a feature request from leadership.",
+        "Tell me about a time you had to influence without authority to ship a product.",
+        "Describe how you've used data to inform product decisions.",
+        "Give an example of when you simplified a complex product for users.",
+        "Tell me about a time you had to manage competing priorities from multiple stakeholders.",
+        "Describe your process for gathering and incorporating user feedback.",
+        "Give an example of when you had to make a decision with incomplete information.",
+        "Tell me about a challenging cross-functional collaboration and how you navigated it.",
+        "Describe how you stay current with technology trends and user needs."
+      ],
+      whatTheyLookFor: [
+        "Exceptional design taste and intuition for great user experiences",
+        "Technical depth to engage credibly with engineering teams",
+        "Strategic thinking with ability to see the big picture and market context",
+        "Execution excellence with attention to detail and edge cases",
+        "Communication skills to write clear PRDs and present to leadership",
+        "Collaboration ability to work across engineering, design, and marketing",
+        "User empathy with deep understanding of customer needs and behavior",
+        "Data-informed decision making while not being data-paralyzed",
+        "Leadership presence to drive alignment without direct authority",
+        "Cultural fit with Apple's values: excellence, privacy, user focus"
+      ],
+      interviewTips: [
+        "Know Apple's products deeply - use them, understand their design choices, have opinions",
+        "Practice product design questions with structured frameworks while remaining creative",
+        "Demonstrate design taste - Apple PMs need exceptional aesthetic sensibility",
+        "Show technical depth - be ready to discuss system design and technical trade-offs",
+        "Prepare PRD writing samples or be ready to write detailed requirements",
+        "Understand Apple's culture: design-led, secretive, focused on excellence",
+        "Have thoughtful opinions on Apple's product strategy and competitive positioning",
+        "Prepare examples of shipped products with specific outcomes and your role",
+        "Practice explaining trade-off decisions and prioritization frameworks",
+        "Be ready to critique Apple products - thoughtful criticism shows you care",
+        "Prepare questions about team structure, product development process, and culture",
+        "Demonstrate passion for creating products that improve people's lives",
+        "Show attention to detail - Apple notices how you think about edge cases",
+        "Be genuine about why Apple specifically - authentic interest matters"
+      ],
+      salary: {
+        min: 160000,
+        max: 280000
+      },
+      compensation: [
+        "Base salary: $160-280K depending on level (PM to GPM) and location",
+        "Annual performance bonus: 15-25% of base salary based on individual and product performance",
+        "Initial RSU grant: $150-450K+ vesting over 4 years",
+        "Stock refresh grants: Substantial annual refreshes based on performance",
+        "Signing bonus: $40-120K depending on level and competing offers",
+        "401(k) matching: 50% match up to 6% of salary",
+        "Employee Stock Purchase Plan (ESPP): 15% discount on Apple stock",
+        "Comprehensive health insurance: Medical, dental, vision",
+        "Education reimbursement for relevant coursework",
+        "Product discounts: 25% off Apple products",
+        "Total first-year compensation typically ranges from $250K to $550K+ depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Product Manager at Apple balances strategic thinking with hands-on execution. You'll spend time writing requirements, working with design and engineering, and driving decisions for your product area. Apple's PM culture emphasizes depth over breadth - PMs go deep on their products rather than context-switching constantly. Most PMs work 50-55 hours per week, with intensity increasing as product launches approach. The environment values excellence, attention to detail, and shipping products that surprise and delight users.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Review",
+            description: "Review overnight bug reports, customer feedback, and market news. Prepare for day's meetings."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Engineering Sync",
+            description: "Weekly sync with engineering leads on feature progress, blockers, and technical decisions."
+          },
+          {
+            time: "10:30 AM",
+            activity: "PRD Writing",
+            description: "Focused time writing or refining product requirements. Define edge cases and acceptance criteria."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Design Review",
+            description: "Review design progress with HI design team. Discuss user experience details and iterate on approach."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Lunch",
+            description: "Lunch at Apple Park with cross-functional colleagues from engineering and design."
+          },
+          {
+            time: "2:00 PM",
+            activity: "Cross-functional Meeting",
+            description: "Coordination meeting with marketing, legal, and ops on upcoming product launch requirements."
+          },
+          {
+            time: "3:00 PM",
+            activity: "User Research Debrief",
+            description: "Review findings from user study with research team. Incorporate insights into product planning."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Competitive Analysis",
+            description: "Analyze competitor product launch. Document insights and implications for roadmap."
+          },
+          {
+            time: "5:00 PM",
+            activity: "1:1 with Manager",
+            description: "Weekly check-in on product progress, strategy alignment, and career development."
+          },
+          {
+            time: "5:45 PM",
+            activity: "Wrap Up",
+            description: "Respond to outstanding questions, update project tracking, plan tomorrow's priorities."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
+      ]
+    },
+
   },
   'netflix': {
     'software-engineer': {
