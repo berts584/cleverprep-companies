@@ -4,293 +4,794 @@
 export const rolePageContent = {
   'google': {
     'software-engineer': {
-      roleDescription: "As a Software Engineer at Google, you'll work on products that impact billions of users. You'll design and implement scalable systems, write clean code, and collaborate with world-class engineers. Google engineers work on everything from Search and Ads to Cloud and Android, with opportunities to switch teams and explore new technologies.",
+      roleDescription: "Software Engineers at Google build products and infrastructure that serve billions of users worldwide, from Search and YouTube to Google Cloud and Android. You'll work alongside world-class engineers solving complex technical challenges at unprecedented scale - Google Search processes over 8.5 billion queries daily, YouTube serves over 1 billion hours of video per day, and Gmail handles over 300 billion emails weekly. Google's engineering culture emphasizes code quality, peer review, and technical excellence, with a rigorous hiring bar that ensures you'll collaborate with exceptional talent. The role offers unparalleled learning opportunities, access to cutting-edge technology (TensorFlow, Kubernetes, and numerous internal tools originated at Google), and the chance to work on problems that simply don't exist elsewhere. Google's ladder system (L3-L10) provides clear career progression, while the famous '20% time' encourages innovation and exploration. Engineers enjoy significant autonomy, strong work-life balance compared to startups, and compensation packages among the highest in the industry.",
       responsibilities: [
-        "Design, develop, test, deploy, maintain, and improve software",
-        "Manage individual project priorities, deadlines and deliverables",
-        "Write product or system development code",
-        "Participate in, or lead design reviews with peers",
-        "Review code developed by other developers"
+        "Design, develop, test, deploy, and maintain software systems serving millions to billions of users globally",
+        "Write clean, efficient, well-documented code following Google's engineering best practices and style guides",
+        "Participate in thorough code reviews - both reviewing others' code and incorporating feedback on your own",
+        "Collaborate with product managers, UX designers, and cross-functional teams to define requirements and technical specifications",
+        "Design and implement scalable distributed systems that handle massive data volumes and traffic",
+        "Debug and optimize performance-critical systems, identifying bottlenecks and implementing solutions",
+        "Contribute to technical documentation, design docs, and engineering best practices",
+        "Mentor junior engineers and participate in hiring through conducting technical interviews",
+        "Stay current with emerging technologies and evaluate their potential application to Google's products",
+        "Participate in on-call rotations for production systems (varies by team)"
       ],
       growthOpportunities: [
-        "Work on products used by billions globally",
-        "Access to cutting-edge technology and research",
-        "Internal mobility across teams and products",
-        "20% time for passion projects",
-        "World-class mentorship and learning resources"
+        "Clear leveling system (L3-L10) with well-defined expectations and promotion criteria at each level",
+        "Internal mobility program allowing transfers between teams, products, and offices worldwide",
+        "20% time to work on passion projects - many Google products (Gmail, AdSense) started as 20% projects",
+        "Access to Google's world-class learning resources including internal tech talks, courses, and documentation",
+        "Opportunity to work on products used by billions: Search, Maps, YouTube, Android, Chrome, Cloud",
+        "Path to technical leadership (Staff, Principal, Distinguished Engineer) or management track",
+        "Collaboration with Google Research and DeepMind on cutting-edge AI/ML projects",
+        "Global mobility with offices in 50+ countries and support for international transfers",
+        "Open source contribution encouraged - many Google engineers are maintainers of major projects"
       ],
       interviewProcess: [
         {
           step: 1,
-          title: "Phone Screen",
-          description: "45-minute technical interview focusing on data structures and algorithms. You'll be coding in a Google Doc while discussing your approach with the interviewer.",
-          duration: "45 minutes"
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call with a Google recruiter to discuss your background, experience, and interest in Google. The recruiter will explain the interview process, answer questions about the role and team matching, and assess basic qualifications. They may ask about your preferred programming languages, areas of interest (infrastructure, mobile, ML, etc.), and location preferences. This is also your opportunity to ask about timeline, team options, and what to expect.",
+          duration: "30 minutes"
         },
         {
           step: 2,
-          title: "Virtual or On-site Interviews",
-          description: "4-5 rounds of technical interviews covering coding, algorithms, system design, and Googleyness (cultural fit). Expect to write code on a whiteboard or shared document.",
+          title: "Technical Phone Screen",
+          description: "45-60 minute technical interview conducted via Google Meet with a shared Google Doc for coding. You'll solve 1-2 algorithmic problems while explaining your thought process aloud. The interviewer evaluates your coding ability, problem-solving approach, communication skills, and how you handle hints. Expect questions on data structures (arrays, trees, graphs, hashmaps), algorithms (sorting, searching, dynamic programming), and time/space complexity analysis. The interviewer is looking for clean, working code and clear articulation of your approach.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interviews (5 rounds)",
+          description: "Full day of interviews consisting of: (1) Two coding interviews focusing on data structures and algorithms - expect medium to hard LeetCode-style problems; (2) One system design interview where you'll design a large-scale distributed system like YouTube, Google Drive, or a URL shortener; (3) One 'Googleyness & Leadership' (G&L) behavioral interview assessing cultural fit, collaboration, and how you handle ambiguity; (4) One additional technical interview that may focus on your specialty area or general coding. Each interview is 45 minutes with 5-minute breaks between. Interviewers submit independent feedback without discussing with each other.",
           duration: "Full day (4-5 hours)"
         },
         {
-          step: 3,
+          step: 4,
           title: "Hiring Committee Review",
-          description: "Your interview feedback is reviewed by a hiring committee that makes the final decision independently of your interviewers."
+          description: "Your interview packet (feedback from all interviewers, resume, and any work samples) is reviewed by a hiring committee of senior engineers who weren't involved in your interviews. This committee makes an unbiased hiring decision based solely on the documented feedback. The committee evaluates: coding ability, algorithm knowledge, system design skills, communication, Googleyness, and overall potential. This process typically takes 1-2 weeks. The committee may request additional interviews if feedback is mixed.",
+          duration: "1-2 weeks"
         },
         {
-          step: 4,
-          title: "Team Matching",
-          description: "After approval, you'll meet with potential teams to find the best fit for your interests and skills."
+          step: 5,
+          title: "Team Matching & Offer",
+          description: "After hiring committee approval, you enter team matching where you'll have conversations with 2-5 potential teams based on your interests and their needs. These are typically 30-minute calls with hiring managers to discuss team projects, tech stack, and culture. You can ask about work-life balance, on-call expectations, and growth opportunities. Once you and a team mutually agree on fit, you'll receive a formal offer. Google offers are competitive and typically include base salary, signing bonus, annual bonus (15-20%), and RSU grants vesting over 4 years.",
+          duration: "1-3 weeks"
         }
       ],
       technicalQuestions: [
-        "Given a binary tree, write a function to determine if it's a valid binary search tree.",
-        "Design a data structure that supports insert, delete, and getRandom in O(1) time.",
-        "Implement a function to find the longest substring without repeating characters.",
-        "Design a URL shortener like bit.ly. What are the main components and how would you scale it?",
+        "Given a binary tree, write a function to determine if it's a valid binary search tree. What's the time and space complexity?",
+        "Design a data structure that supports insert, delete, getRandom, and getMin all in O(1) average time.",
+        "Implement LRU (Least Recently Used) cache with O(1) get and put operations. Walk through your design choices.",
+        "Given a large file with billions of URLs, how would you find all duplicate URLs using limited memory?",
+        "Write a function to find the longest substring without repeating characters. Optimize for both time and space.",
+        "Design YouTube's video upload and streaming infrastructure. How would you handle different video qualities?",
+        "Implement a function to serialize and deserialize a binary tree. Handle edge cases like null nodes.",
+        "Given an array of integers, find all unique triplets that sum to zero. What's the optimal approach?",
+        "Design Google Maps' route-finding algorithm. How would you handle real-time traffic updates?",
         "Write a function to detect a cycle in a linked list and return the node where the cycle begins.",
-        "Given a large log file, how would you find the top K most frequent IP addresses?",
-        "Implement an LRU (Least Recently Used) cache with O(1) operations.",
-        "Design YouTube's infrastructure. How would you handle video upload, storage, and streaming?",
-        "Write a function to serialize and deserialize a binary tree.",
-        "How would you design Google Maps' route finding algorithm?"
+        "Design a URL shortener like bit.ly. Discuss database schema, encoding strategy, and scaling approach.",
+        "Implement a thread-safe bounded blocking queue. What synchronization primitives would you use?",
+        "Given a stream of integers, design a data structure to find the median at any point efficiently.",
+        "How would you design Google Search's autocomplete feature? Discuss data structures and latency requirements.",
+        "Implement a trie (prefix tree) with insert, search, and startsWith operations.",
+        "Design a distributed key-value store. How would you handle partitioning, replication, and consistency?",
+        "Write a function to find the kth largest element in an unsorted array. What's the optimal approach?",
+        "How would you design Google Docs' real-time collaboration feature? Discuss conflict resolution."
       ],
       behavioralQuestions: [
-        "Tell me about a time when you had to work with a difficult team member.",
-        "Describe a situation where you had to make a trade-off between code quality and meeting a deadline.",
-        "Give an example of a complex technical problem you solved. What was your approach?",
-        "Tell me about a time when you disagreed with your manager. How did you handle it?",
-        "Describe a project you're most proud of. What was your specific contribution?",
-        "How do you stay current with new technologies and programming languages?",
-        "Tell me about a time when you failed. What did you learn from it?",
-        "Describe a situation where you had to explain a complex technical concept to a non-technical audience."
+        "Tell me about a time you had to work with a difficult team member. How did you handle the situation?",
+        "Describe a complex technical problem you solved. Walk me through your approach and the outcome.",
+        "Tell me about a time you disagreed with your manager or tech lead. How did you resolve it?",
+        "Give an example of a project where you had to make a significant trade-off. What was your decision process?",
+        "Describe a situation where you had to learn a new technology quickly. How did you approach it?",
+        "Tell me about a time when you failed. What did you learn and how did you apply those lessons?",
+        "How do you handle ambiguous requirements or unclear product direction?",
+        "Describe a time you had to explain a complex technical concept to a non-technical audience.",
+        "Tell me about your most impactful project. What was your specific contribution?",
+        "Give an example of when you went above and beyond what was expected of you.",
+        "Describe a time you received critical feedback. How did you respond?",
+        "Tell me about a time you had to push back on a feature request or deadline. What was the outcome?",
+        "How do you prioritize when you have multiple competing deadlines?",
+        "Describe a situation where you had to make a decision without complete information.",
+        "Tell me about a time you mentored someone or helped a teammate grow."
       ],
       whatTheyLookFor: [
-        "Strong coding and algorithmic problem-solving skills",
-        "Clean, readable, and maintainable code",
-        "Ability to think about scale and system design",
-        "Communication and collaboration skills",
-        "Googleyness: comfort with ambiguity, bias to action, collaborative nature",
-        "Passion for technology and continuous learning",
-        "Problem-solving approach and thought process",
-        "Ability to handle feedback and iterate quickly"
+        "Strong coding skills: ability to write clean, efficient, bug-free code under time pressure",
+        "Deep understanding of data structures and algorithms with ability to analyze time/space complexity",
+        "System design thinking: ability to design scalable, reliable distributed systems",
+        "Problem-solving approach: how you break down problems, consider edge cases, and optimize solutions",
+        "Communication skills: ability to explain your thought process clearly while coding",
+        "Googleyness: intellectual humility, comfort with ambiguity, collaborative nature, bias to action",
+        "Learning agility: curiosity, ability to learn quickly, and passion for technology",
+        "Code quality awareness: understanding of testing, code review, and engineering best practices",
+        "Leadership potential: ability to influence without authority and drive technical decisions",
+        "Cultural fit: alignment with Google's mission to organize the world's information"
       ],
       interviewTips: [
-        "Practice coding on a whiteboard or Google Doc - get comfortable thinking out loud",
-        "Study data structures and algorithms thoroughly - focus on trees, graphs, hashmaps, and dynamic programming",
-        "For system design questions, start with clarifying questions before diving into the solution",
-        "Demonstrate your thought process - explain your approach before writing code",
-        "Consider edge cases and discuss time/space complexity of your solutions",
-        "Be prepared to optimize your initial solution when prompted",
-        "Research Google's products and engineering culture before your interview",
-        "Prepare questions about team structure, tech stack, and growth opportunities"
+        "Practice coding in Google Docs without syntax highlighting or autocomplete - this simulates the actual interview environment",
+        "Think out loud throughout the interview - interviewers want to understand your thought process, not just see the final answer",
+        "Always clarify the problem before coding: ask about input constraints, edge cases, and expected output format",
+        "Start with a brute force solution, then optimize - it's better to have a working solution than an incomplete optimal one",
+        "Analyze time and space complexity for every solution without being asked - this demonstrates thoroughness",
+        "For system design, use a structured approach: requirements → high-level design → deep dive → trade-offs",
+        "Prepare 5-7 STAR stories for behavioral questions covering teamwork, conflict, failure, and leadership",
+        "Research the specific products and teams you're interested in - show genuine enthusiasm during team matching",
+        "Practice on LeetCode focusing on medium and hard problems, especially trees, graphs, and dynamic programming",
+        "Review Google's engineering blog and recent product launches to discuss during interviews",
+        "Get comfortable with whiteboarding or screensharing while coding - practice with a friend",
+        "Prepare thoughtful questions for each interviewer about their team, projects, and Google culture",
+        "For the G&L interview, emphasize collaboration, handling ambiguity, and user impact in your stories",
+        "Don't be afraid to ask for hints if stuck - how you respond to guidance is part of the evaluation"
       ],
       salary: {
-        min: 120000,
-        max: 200000
+        min: 150000,
+        max: 250000
       },
       compensation: [
-        "Annual bonus (15% of base salary)",
-        "Stock options (RSUs) vesting over 4 years",
-        "Generous 401(k) matching",
-        "Comprehensive health, dental, and vision insurance",
-        "Free gourmet meals and snacks",
-        "On-site amenities (gym, massage, dry cleaning)"
+        "Base salary: $150-250K depending on level (L3-L6) and location (higher in Bay Area, NYC, Seattle)",
+        "Annual performance bonus: 15-20% of base salary based on individual and company performance",
+        "Stock refresh grants: Additional RSU grants each year based on performance (can be substantial at higher levels)",
+        "Initial RSU grant: $100-400K+ vesting over 4 years (higher for senior levels)",
+        "Signing bonus: $15-100K depending on level and competing offers",
+        "401(k) matching: 50% match up to IRS limit (~$11K annual company contribution)",
+        "Comprehensive health insurance: Medical, dental, vision with low premiums and excellent coverage",
+        "Free gourmet meals: Breakfast, lunch, and dinner at on-site cafeterias (valued at ~$15K/year)",
+        "On-site amenities: Gym, massage, haircuts, dry cleaning, bike repair, and more",
+        "Education reimbursement: Up to $12K/year for continuing education",
+        "Paid parental leave: 18-24 weeks depending on primary/secondary caregiver status",
+        "Total compensation typically ranges from $200K (L3) to $500K+ (L6) in first year"
       ],
       dayInLife: {
-        overview: "A typical day for a Software Engineer at Google balances coding, collaboration, and continuous learning. You'll write code, review pull requests, attend design meetings, and work closely with cross-functional teams.",
+        overview: "A typical day for a Software Engineer at Google balances focused coding time with collaboration and learning. Google's engineering culture emphasizes deep work, code quality, and work-life balance - most engineers work 40-50 hours per week with flexibility to work from home. You'll write and review code, participate in design discussions, and collaborate with world-class engineers on products used by billions. The environment is intellectually stimulating with access to cutting-edge technology, internal tech talks, and opportunities to work on challenging problems at scale. Teams vary in their practices, but most follow agile methodologies with sprints, standups, and regular retrospectives.",
         schedule: [
           {
-            time: "9:00 AM",
-            activity: "Team Standup",
-            description: "Quick sync with your team on progress, blockers, and daily goals"
-          },
-          {
             time: "9:30 AM",
-            activity: "Coding Session",
-            description: "Deep work on your current feature or bug fix, writing tests and documentation"
+            activity: "Morning Arrival & Email",
+            description: "Arrive at office (or log in remotely), grab breakfast from the cafeteria, review emails, Buganizer tickets, and code review requests. Check team chat for any urgent issues from overnight."
           },
           {
-            time: "11:00 AM",
-            activity: "Code Review",
-            description: "Review teammates' code and respond to feedback on your own pull requests"
+            time: "10:00 AM",
+            activity: "Team Standup",
+            description: "Quick 15-minute sync with your team on progress, blockers, and daily priorities. Discuss any production issues, upcoming launches, or cross-team dependencies."
+          },
+          {
+            time: "10:15 AM",
+            activity: "Deep Coding Session",
+            description: "Focus time for writing code on your current project. Work on implementing a new feature, fixing bugs, or improving system performance. Use internal tools like Cider IDE and Piper for code management."
           },
           {
             time: "12:00 PM",
-            activity: "Lunch & Learning",
-            description: "Enjoy free gourmet lunch, often combined with tech talks or casual learning sessions"
+            activity: "Lunch & Tech Talk",
+            description: "Enjoy free gourmet lunch at one of the campus cafeterias. Often combined with internal tech talks on topics like new ML techniques, system architecture, or product launches."
           },
           {
             time: "1:00 PM",
+            activity: "Code Review Session",
+            description: "Review code changes from teammates in Critique (Google's code review tool). Provide constructive feedback on design, efficiency, and code quality. Respond to comments on your own pending changes."
+          },
+          {
+            time: "2:30 PM",
             activity: "Design Discussion",
-            description: "Collaborate on system architecture for an upcoming feature with senior engineers"
+            description: "Collaborate on system design for an upcoming feature. Review design docs, discuss trade-offs, and align on technical approach with senior engineers and tech leads."
           },
           {
-            time: "3:00 PM",
-            activity: "Coding & Testing",
-            description: "Continue development, run tests, and address any CI/CD issues"
+            time: "3:30 PM",
+            activity: "Continued Development",
+            description: "Continue implementation work, write unit tests, and run integration tests. Address code review feedback and iterate on your changes."
           },
           {
-            time: "4:30 PM",
-            activity: "Office Hours / Mentoring",
-            description: "Help onboard new team members or contribute to internal tech communities"
+            time: "5:00 PM",
+            activity: "1:1 with Manager or Mentor",
+            description: "Weekly check-in to discuss project progress, career development, and any blockers. Get feedback on your work and align on priorities."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up & Planning",
+            description: "Respond to remaining code reviews, update task tracking, and plan tomorrow's priorities. Most engineers leave by 6pm unless there's an urgent deadline or on-call issue."
           }
         ]
       },
       similarRoles: [
         { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
         { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
       ]
     },
     'product-manager': {
-      roleDescription: "Product Managers at Google define product vision and strategy for products used by billions. You'll work at the intersection of technology, business, and user experience, making critical decisions that shape how people interact with Google's products. This role requires strong technical acumen, strategic thinking, and exceptional communication skills.",
+      roleDescription: "Product Managers at Google shape products that impact billions of users daily, from Search and YouTube to Google Cloud and Workspace. As a Google PM, you'll define product vision, drive strategy, and work at the intersection of technology, business, and user experience. Google's PM culture is uniquely technical - you'll need to hold your own in conversations with world-class engineers and make data-driven decisions backed by rigorous analysis. The role requires balancing user needs, business goals, and technical feasibility while navigating Google's consensus-driven culture. Google PMs enjoy significant autonomy and ownership, access to unprecedented user data and experimentation infrastructure (billions of users for A/B testing), and the opportunity to launch features that immediately reach global scale. The APM (Associate Product Manager) program is legendary for developing future tech leaders, with alumni founding companies like Yahoo (Marissa Mayer), Dropbox, and others. Career growth follows a clear ladder from PM → Senior PM → Group PM → Director → VP, with some paths leading to executive roles or entrepreneurship.",
       responsibilities: [
-        "Define product vision, strategy, and roadmap",
-        "Work with engineers, designers, and stakeholders to ship products",
-        "Analyze data and user research to inform product decisions",
-        "Prioritize features and manage product backlog",
-        "Communicate product strategy to leadership and cross-functional teams"
+        "Define product vision, strategy, and multi-year roadmap for your product area",
+        "Write detailed Product Requirements Documents (PRDs) specifying features, user flows, and success metrics",
+        "Collaborate closely with engineering, design, and research teams to ship high-quality products",
+        "Analyze user data, run A/B experiments, and make data-driven decisions to optimize product performance",
+        "Prioritize features using frameworks like RICE, opportunity sizing, and strategic alignment",
+        "Present product strategy and updates to leadership, cross-functional stakeholders, and executives",
+        "Conduct competitive analysis and market research to inform product direction",
+        "Define and track key metrics (OKRs) measuring product success and user impact",
+        "Gather user feedback through research studies, surveys, and direct user interviews",
+        "Coordinate launches across marketing, sales, legal, and international teams"
       ],
       growthOpportunities: [
-        "Lead products impacting billions of users globally",
-        "Work across Google's diverse product portfolio",
-        "Access to world-class product mentorship",
-        "Career advancement to Senior PM, GPM, Director roles",
-        "Exposure to cutting-edge technology and AI/ML"
+        "Clear career ladder from PM → Senior PM → Group PM → Director → VP of Product",
+        "Opportunity to lead products reaching billions of users with immediate global impact",
+        "Access to Google's legendary APM program and product management training resources",
+        "Exposure to AI/ML integration across all products - work on cutting-edge technology applications",
+        "Path to founding your own company - many Google PM alumni become successful entrepreneurs",
+        "Internal mobility to explore different product areas: Search, Ads, Cloud, YouTube, Hardware, etc.",
+        "Leadership development through managing PM teams and cross-functional stakeholders",
+        "Executive exposure through product reviews with SVPs and C-level leadership",
+        "Global scope with opportunity to adapt products for international markets"
       ],
       interviewProcess: [
         {
           step: 1,
-          title: "Phone Screen",
-          description: "45-minute conversation covering product sense, analytical thinking, and background. You may discuss a product you've worked on or analyze a Google product.",
-          duration: "45 minutes"
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your background, PM experience, and interest in Google. The recruiter assesses basic qualifications, explains the interview process, and gathers information about your product area preferences. Be prepared to discuss products you've launched, your PM philosophy, and why you're interested in Google specifically. The recruiter will also answer questions about timeline, team options, and compensation expectations.",
+          duration: "30 minutes"
         },
         {
           step: 2,
-          title: "Product Design Interview",
-          description: "Design a product or feature from scratch. Focus on user needs, prioritization, and trade-offs.",
+          title: "PM Phone Screen",
+          description: "45-60 minute interview with a Google PM covering product sense and analytical thinking. Expect questions like 'How would you improve Google Maps?' or 'Design a product for X user segment.' The interviewer evaluates your product intuition, structured thinking, user empathy, and ability to prioritize. You may also face an analytical question like 'Gmail engagement dropped 10% - how would you investigate?' Come prepared with a framework for product design questions and be ready to make trade-offs.",
           duration: "45-60 minutes"
         },
         {
           step: 3,
-          title: "Analytical Interview",
-          description: "Solve a business problem using data and metrics. Demonstrate your analytical and quantitative skills.",
-          duration: "45-60 minutes"
+          title: "On-site/Virtual Interviews (4-5 rounds)",
+          description: "Full day of interviews including: (1) Product Design/Sense - design a product from scratch or improve an existing one; (2) Analytical/Metrics - solve a business problem using data, define metrics, or analyze an experiment; (3) Technical Interview - discuss system architecture, work with engineering constraints, or solve a technical estimation problem; (4) Strategy/Vision - demonstrate strategic thinking through a product strategy case; (5) Leadership/Googleyness - behavioral interview assessing collaboration, influence without authority, and cultural fit. Each round is 45 minutes with a different interviewer.",
+          duration: "Full day (4-5 hours)"
         },
         {
           step: 4,
-          title: "Technical Interview",
-          description: "Discuss technical concepts, system design, or work with engineering teams. May include algorithm questions.",
-          duration: "45-60 minutes"
+          title: "Hiring Committee Review",
+          description: "Your interview packet is reviewed by a committee of senior PMs who weren't involved in your interviews. The committee evaluates your performance across all dimensions: product sense, analytical ability, technical depth, strategic thinking, and leadership/Googleyness. This process ensures consistent hiring standards and removes individual interviewer bias. Committee review typically takes 1-2 weeks. If feedback is mixed, the committee may request additional interviews or references.",
+          duration: "1-2 weeks"
         },
         {
           step: 5,
-          title: "Strategy/Leadership Interview",
-          description: "Demonstrate strategic thinking, leadership, and Googleyness through behavioral questions and case discussions.",
-          duration: "45-60 minutes"
+          title: "Team Matching & Offer",
+          description: "After committee approval, you'll meet with 3-5 hiring managers from teams that match your interests (Search, YouTube, Cloud, Ads, etc.). These 30-minute conversations help you understand team dynamics, current projects, and growth opportunities. Ask about team culture, PM-to-engineer ratio, and typical project scope. Once you and a team mutually agree, you'll receive a formal offer including base salary, signing bonus, annual bonus (up to 30%), and significant RSU grants.",
+          duration: "1-3 weeks"
         }
       ],
       technicalQuestions: [
-        "How would you improve Google Maps?",
-        "Design a product for drivers (not riders) for Uber.",
-        "Should Google build a smart TV? Why or why not?",
-        "How would you set goals for YouTube?",
-        "Design a todo list app for blind users.",
-        "How would you measure the success of Google Photos?",
-        "If engagement on Gmail dropped 10%, how would you investigate?",
-        "Design a product to help people find parking in San Francisco.",
-        "How would you prioritize features for the next version of Google Drive?",
-        "Estimate the number of Gmail users in the US."
+        "How would you improve Google Maps? Walk me through your prioritization process.",
+        "Design a product to help elderly users stay connected with family. What features would you prioritize?",
+        "You're the PM for YouTube Shorts. How would you increase creator engagement?",
+        "Gmail's daily active users dropped 5% this quarter. How would you investigate and address this?",
+        "Should Google build a smart home robot? Walk me through your analysis.",
+        "Design a product for teachers to manage remote classrooms. What metrics would you track?",
+        "How would you measure the success of Google Search? What are the key metrics?",
+        "You have $10M to improve Google Chrome. How would you allocate the budget?",
+        "Design an accessibility feature for Google Photos for users with visual impairments.",
+        "How would you prioritize features for the next version of Google Docs?",
+        "Estimate the market size for Google Cloud in healthcare. What segments would you target?",
+        "How would you design Google's strategy for competing with TikTok?",
+        "You're launching a new Google product in India. What localization considerations would you prioritize?",
+        "Design a feature to reduce misinformation on YouTube. What trade-offs would you consider?",
+        "How would you evaluate whether to kill a struggling Google product?"
       ],
       behavioralQuestions: [
-        "Tell me about a time you had to influence a team without authority.",
-        "Describe a situation where you disagreed with engineers about a product decision.",
-        "Give an example of a product you shipped that didn't meet expectations. What did you learn?",
-        "Tell me about a time you had to make a decision without complete information.",
-        "Describe your most challenging stakeholder management experience.",
-        "How do you prioritize when you have multiple competing demands?",
-        "Tell me about a time you changed your mind about a product decision based on data.",
-        "Describe a situation where you had to say no to a feature request from a key stakeholder."
+        "Tell me about a product you launched. What was your role and what was the impact?",
+        "Describe a time you had to influence engineers or stakeholders without direct authority.",
+        "Tell me about a product decision you made that turned out to be wrong. What did you learn?",
+        "Give an example of using data to change a product direction or strategy.",
+        "Describe a situation where you had to say no to a feature request from leadership.",
+        "Tell me about a time you had to make a decision with incomplete information.",
+        "How do you prioritize when everything seems urgent and important?",
+        "Describe a conflict with an engineering team. How did you resolve it?",
+        "Tell me about a time you had to simplify a complex product for users.",
+        "Give an example of a time you advocated for the user against business pressure.",
+        "Describe your process for getting buy-in on a new product vision.",
+        "Tell me about a time you failed to ship a product. What happened?",
+        "How do you stay current on technology trends and user behavior?",
+        "Describe a time you had to balance short-term metrics with long-term strategy."
       ],
       whatTheyLookFor: [
-        "Strong product sense and user empathy",
-        "Data-driven decision making and analytical skills",
-        "Technical depth and ability to work with engineers",
-        "Strategic thinking and vision",
-        "Excellent communication and stakeholder management",
-        "Leadership and ability to influence without authority",
-        "Passion for Google's products and mission",
-        "Ability to thrive in ambiguity and move fast"
+        "Strong product sense and intuition for what makes great user experiences",
+        "Analytical rigor with ability to define metrics, analyze data, and make evidence-based decisions",
+        "Technical depth to engage credibly with engineering teams and understand system constraints",
+        "Strategic thinking and ability to connect product decisions to business outcomes",
+        "User empathy and genuine curiosity about user problems and needs",
+        "Communication skills to influence stakeholders, present to executives, and write clear PRDs",
+        "Leadership ability to drive alignment across engineering, design, and cross-functional teams",
+        "Execution track record with examples of shipped products and measurable impact",
+        "Googleyness: intellectual humility, bias to action, comfort with ambiguity",
+        "Passion for Google's products and mission to organize the world's information"
       ],
       interviewTips: [
-        "Use structured frameworks (e.g., user needs, business goals, technical feasibility) for product design questions",
-        "Always start with clarifying questions to understand scope and constraints",
-        "Demonstrate user empathy - talk about real user problems and pain points",
-        "Back up your answers with data when possible, or discuss what metrics you'd track",
-        "Show your technical understanding - PMs at Google need to be credible with engineers",
-        "Prepare examples of products you've shipped, including challenges and outcomes",
-        "Be familiar with Google's products and have opinions on how to improve them",
-        "Practice estimation questions and frameworks for breaking down complex problems"
+        "Use structured frameworks for product design: clarify goals → identify users → prioritize needs → design solutions → define metrics",
+        "Always start with clarifying questions - understand the user, context, and success criteria before solutioning",
+        "Demonstrate user empathy by discussing real user pain points, not just features",
+        "Back up your prioritization with data or logical reasoning - explain why something is #1 vs #2",
+        "For analytical questions, structure your approach before diving into calculations",
+        "Show technical depth - discuss APIs, data infrastructure, or ML when relevant",
+        "Prepare specific examples of products you've shipped with quantifiable impact",
+        "Know Google's products deeply - have opinions on how to improve Search, YouTube, Maps, etc.",
+        "Practice estimation questions (market sizing, capacity planning) with clear assumptions",
+        "For behavioral questions, use STAR format with specific details and outcomes",
+        "Research your target product area and come with informed perspectives on strategy",
+        "Prepare thoughtful questions about team structure, PM-to-eng ratio, and decision-making culture",
+        "Show you can make trade-offs - don't try to do everything, prioritize ruthlessly",
+        "Demonstrate Googleyness: collaboration, intellectual humility, and user focus"
       ],
       salary: {
-        min: 140000,
-        max: 210000
+        min: 160000,
+        max: 280000
       },
       compensation: [
-        "Annual bonus (up to 20% of base)",
-        "Stock options (RSUs) vesting over 4 years",
-        "Sign-on bonus for experienced candidates",
-        "Comprehensive health benefits",
-        "Free meals, gym, and campus amenities",
-        "Education reimbursement and career development"
+        "Base salary: $160-280K depending on level (L4-L7) and location",
+        "Annual performance bonus: 20-30% of base salary based on individual and product performance",
+        "Initial RSU grant: $150-500K+ vesting over 4 years (higher for senior levels)",
+        "Stock refresh grants: Substantial annual refreshes based on performance",
+        "Signing bonus: $30-150K depending on level and competing offers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Comprehensive benefits: Medical, dental, vision with excellent coverage",
+        "Free meals, gym, and on-site amenities valued at ~$15-20K annually",
+        "Education reimbursement and professional development budget",
+        "Paid parental leave: 18-24 weeks",
+        "Total first-year compensation ranges from $250K (L4) to $700K+ (L7)"
       ],
       dayInLife: {
-        overview: "Google Product Managers wear many hats - strategist, analyst, communicator, and leader. Your day involves aligning teams, analyzing data, making decisions, and driving products forward.",
+        overview: "A typical day for a Google Product Manager balances strategic thinking with tactical execution. You'll spend time analyzing data, writing specs, meeting with engineers and designers, and presenting to stakeholders. Google's PM culture emphasizes data-driven decision making, cross-functional collaboration, and user focus. Most PMs work 45-55 hours per week with flexibility for remote work. The role requires context-switching between detailed execution and big-picture strategy, with significant time spent in meetings but also protected time for deep work on PRDs and analysis.",
         schedule: [
           {
             time: "9:00 AM",
-            activity: "Sprint Planning",
-            description: "Prioritize backlog and plan upcoming sprint with engineering team"
+            activity: "Morning Data Review",
+            description: "Review overnight metrics dashboards, experiment results, and user feedback. Check for any anomalies in key metrics that need investigation."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Sprint Planning/Standup",
+            description: "Weekly sprint planning with engineering team to prioritize backlog, or daily standup to sync on progress and blockers. Ensure team is aligned on priorities."
           },
           {
             time: "10:30 AM",
-            activity: "User Research Review",
-            description: "Analyze recent user research findings with UX researcher to inform roadmap"
+            activity: "Design Review",
+            description: "Review UX mocks and prototypes with design team for upcoming feature. Provide feedback on user flows, edge cases, and alignment with product vision."
           },
           {
-            time: "12:00 PM",
-            activity: "Product Review",
-            description: "Present product updates and strategy to leadership team"
+            time: "11:30 AM",
+            activity: "PRD Writing",
+            description: "Deep work time to write or refine Product Requirements Documents. Define user stories, acceptance criteria, and success metrics for upcoming features."
           },
           {
-            time: "1:00 PM",
-            activity: "Lunch & Networking",
-            description: "Connect with other PMs or engineers over lunch in the cafe"
+            time: "12:30 PM",
+            activity: "Lunch & PM Sync",
+            description: "Lunch with other PMs to share learnings, discuss cross-product dependencies, or get feedback on strategy documents."
           },
           {
-            time: "2:00 PM",
-            activity: "Data Analysis",
-            description: "Deep dive into product metrics and A/B test results"
+            time: "1:30 PM",
+            activity: "User Research Debrief",
+            description: "Review findings from recent user research study with UX researcher. Identify insights to incorporate into product roadmap."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Stakeholder Meeting",
+            description: "Align with marketing, sales, or policy teams on upcoming launch. Discuss positioning, GTM strategy, or compliance requirements."
           },
           {
             time: "3:30 PM",
-            activity: "Design Review",
-            description: "Review mockups with design team for upcoming feature"
+            activity: "Engineering Deep Dive",
+            description: "Technical discussion with engineers on implementation approach, architecture decisions, or technical constraints affecting product design."
           },
           {
-            time: "5:00 PM",
-            activity: "Stakeholder Sync",
-            description: "Update cross-functional partners on product progress and decisions"
+            time: "4:30 PM",
+            activity: "Experiment Analysis",
+            description: "Analyze A/B test results for recently launched feature. Determine statistical significance and decide on next steps."
+          },
+          {
+            time: "5:30 PM",
+            activity: "1:1 with Manager",
+            description: "Weekly check-in to discuss product strategy, career development, and cross-team dynamics. Get feedback on roadmap and priorities."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Wrap Up",
+            description: "Respond to remaining messages, update OKR tracking, and plan tomorrow's priorities. Most PMs leave by 6-6:30pm."
           }
         ]
       },
       similarRoles: [
         { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
         { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Google leverage massive datasets and cutting-edge analytical techniques to drive product decisions, optimize systems, and uncover insights that impact billions of users. Working at the intersection of statistics, machine learning, and business strategy, you'll have access to data at unprecedented scale - Search logs, YouTube watch patterns, Maps navigation data, and more. Google's data science culture combines rigorous statistical methodology with practical business impact, expecting both technical depth and clear communication of insights to stakeholders. The role spans various teams including Search Quality, Ads, YouTube, Cloud, and Research, each with unique data challenges and impact opportunities. You'll work alongside world-class researchers and engineers, contribute to published papers, and shape products used globally. Google provides unmatched infrastructure for data science including BigQuery, TensorFlow, and proprietary internal tools that make large-scale analysis efficient. Career paths include technical leadership (Staff/Principal Data Scientist), management, or transition to research scientist or PM roles.",
+      responsibilities: [
+        "Design and analyze large-scale experiments (A/B tests) to evaluate product changes and feature launches",
+        "Build predictive models and machine learning solutions to optimize product performance and user experience",
+        "Conduct deep-dive analyses to understand user behavior, identify trends, and uncover actionable insights",
+        "Define key metrics and develop dashboards to track product health and business performance",
+        "Partner with PMs and engineers to inform product strategy with data-driven recommendations",
+        "Write SQL queries and Python/R scripts to extract, transform, and analyze terabytes of data",
+        "Present findings to leadership and cross-functional stakeholders through clear visualizations and narratives",
+        "Develop statistical frameworks and methodologies to improve measurement and analysis practices",
+        "Collaborate with ML engineers to productionize models and integrate predictions into products",
+        "Mentor junior data scientists and contribute to team's analytical best practices"
+      ],
+      growthOpportunities: [
+        "Clear career ladder from Data Scientist → Senior → Staff → Principal with increasing scope and impact",
+        "Access to unprecedented data scale - work with petabytes of data on cutting-edge infrastructure",
+        "Opportunity to publish research papers and present at top conferences (KDD, NeurIPS, etc.)",
+        "Collaboration with Google Research and DeepMind on advanced ML applications",
+        "Internal mobility across product areas: Search, Ads, YouTube, Cloud, Hardware, and more",
+        "Path to management leading data science teams, or technical leadership as Staff+ IC",
+        "Exposure to cutting-edge statistical methods and ML techniques in production",
+        "Global impact with insights affecting billions of users worldwide",
+        "Strong network and exit opportunities to leading tech companies or founding startups"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your background, data science experience, and interest in Google. The recruiter assesses basic qualifications (typically MS/PhD in quantitative field or equivalent experience), explains the interview process, and gathers information about your preferred product areas. Be prepared to discuss your most impactful data science projects and what type of problems you enjoy solving.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute technical interview covering statistics, SQL, and analytical problem-solving. Expect questions like: 'Design an experiment to test X feature', 'How would you measure success for Y product?', or 'Explain a sampling methodology for Z problem.' You may also be asked to write SQL queries or solve probability problems. The interviewer evaluates statistical rigor, practical problem-solving, and communication of technical concepts.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interviews (4-5 rounds)",
+          description: "Full day of interviews including: (1) Statistics & Probability - theoretical questions on distributions, hypothesis testing, experimental design; (2) Applied Analysis - case study requiring you to design an analysis approach for a product question; (3) Coding/SQL - write queries to extract and analyze data, may include Python/R coding; (4) Machine Learning - discuss ML concepts, model selection, evaluation metrics; (5) Behavioral/Googleyness - assess collaboration, communication, and cultural fit. Each interview is 45 minutes.",
+          duration: "Full day (4-5 hours)"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee Review",
+          description: "Your interview feedback is reviewed by a committee of senior data scientists. The committee evaluates technical skills (statistics, ML, coding), analytical thinking, communication ability, and Googleyness. This process ensures consistent hiring standards and typically takes 1-2 weeks. Strong candidates demonstrate both technical depth and business impact orientation.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Team Matching & Offer",
+          description: "After committee approval, you'll have conversations with hiring managers from teams matching your interests (Ads, Search, YouTube, Cloud, etc.). Understand team structure, data challenges, and growth opportunities. Once a mutual match is found, you'll receive an offer including competitive base salary, bonus, and substantial RSU grants.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Design an A/B test to evaluate a new YouTube recommendation algorithm. What metrics would you track?",
+        "We ran an A/B test and got a p-value of 0.03. The PM wants to launch. What questions would you ask?",
+        "How would you detect if an experiment has a novelty effect vs. true long-term impact?",
+        "Explain the difference between correlation and causation. How would you establish causality without an experiment?",
+        "Write a SQL query to find users who watched more than 5 videos yesterday but none today.",
+        "How would you build a model to predict which users are likely to churn from YouTube Premium?",
+        "Explain the bias-variance tradeoff. How does it affect model selection?",
+        "Search quality metrics improved but user satisfaction scores dropped. How would you investigate?",
+        "Design a metric to measure the quality of Google Search results. What are the tradeoffs?",
+        "How would you handle missing data in a dataset with 30% missing values?",
+        "Explain how you would validate a propensity score matching analysis.",
+        "What's the difference between L1 and L2 regularization? When would you use each?",
+        "Design an algorithm to detect fraudulent advertisers on Google Ads.",
+        "How would you measure the long-term impact of a feature that affects user trust?",
+        "Explain the assumptions of linear regression. What happens when they're violated?",
+        "How would you design a sample size calculation for an experiment with multiple treatment arms?",
+        "Describe how you would build a recommendation system for Google Play apps.",
+        "What statistical tests would you use to compare user engagement across 5 different UI designs?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a data science project where your analysis directly influenced a product decision.",
+        "Describe a time you had to communicate complex statistical results to non-technical stakeholders.",
+        "Tell me about an analysis where your initial hypothesis was wrong. What did you learn?",
+        "Give an example of a time you had to push back on a flawed analysis or metric definition.",
+        "Describe a situation where you had to balance rigor with speed in delivering insights.",
+        "Tell me about a time you mentored or helped upskill a colleague in data science.",
+        "How do you prioritize between multiple urgent analysis requests?",
+        "Describe a project where you had to work with messy or incomplete data.",
+        "Tell me about a time you disagreed with a PM or engineer about how to interpret results.",
+        "Give an example of how you've improved a team's data science processes or infrastructure.",
+        "Describe a situation where you identified an important insight that others had missed.",
+        "Tell me about a failed experiment and what you learned from it.",
+        "How do you stay current with new developments in data science and machine learning?",
+        "Describe a time you had to scope down an ambitious analysis to deliver value quickly."
+      ],
+      whatTheyLookFor: [
+        "Strong statistical foundation: solid understanding of probability, hypothesis testing, and experimental design",
+        "Practical ML knowledge: ability to select, implement, and evaluate appropriate models for business problems",
+        "SQL proficiency: comfortable writing complex queries to extract and transform large datasets",
+        "Programming skills: fluency in Python or R for data manipulation, analysis, and visualization",
+        "Business acumen: ability to connect analytical insights to product and business outcomes",
+        "Communication skills: can explain technical findings clearly to diverse audiences",
+        "Intellectual curiosity: passion for exploring data and uncovering unexpected insights",
+        "Rigor and attention to detail: catches errors, validates assumptions, and documents methodology",
+        "Collaboration: works effectively with PMs, engineers, and cross-functional stakeholders",
+        "Googleyness: intellectual humility, bias to action, and user-focused mindset"
+      ],
+      interviewTips: [
+        "Review core statistics: know hypothesis testing, confidence intervals, p-values, and when to use different tests",
+        "Practice experimental design: be able to design A/B tests, handle multiple comparisons, and detect biases",
+        "Brush up on SQL: practice complex queries with JOINs, window functions, and aggregations",
+        "Prepare ML fundamentals: know common algorithms, overfitting/underfitting, evaluation metrics",
+        "Practice case studies out loud: structure your approach before diving into analysis",
+        "Be ready to discuss tradeoffs: there's rarely one right answer - show you can think through alternatives",
+        "Prepare examples of business impact: quantify the outcomes of your past work where possible",
+        "Know Google's products and think about how data science applies to them",
+        "For behavioral questions, use STAR format with specific details and measurable outcomes",
+        "Ask clarifying questions before answering: understand the context and constraints",
+        "Be honest about what you don't know but show how you'd approach learning it",
+        "Review common pitfalls: Simpson's paradox, multiple comparisons, selection bias",
+        "Practice mental math for quick estimations and sanity checks",
+        "Prepare thoughtful questions about team structure, data infrastructure, and impact opportunities"
+      ],
+      salary: {
+        min: 150000,
+        max: 260000
+      },
+      compensation: [
+        "Base salary: $150-260K depending on level and location (higher in Bay Area, NYC)",
+        "Annual performance bonus: 15-25% of base salary based on individual and team performance",
+        "Initial RSU grant: $120-400K+ vesting over 4 years",
+        "Stock refresh grants: Annual RSU refreshes based on performance",
+        "Signing bonus: $20-100K depending on level and competing offers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Comprehensive health insurance: Medical, dental, vision with excellent coverage",
+        "Free meals and on-site amenities valued at ~$15K annually",
+        "Education reimbursement and conference attendance budget",
+        "Paid parental leave: 18-24 weeks",
+        "Total first-year compensation typically ranges from $220K to $500K+ depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Google Data Scientist balances deep analytical work with collaboration and communication. You'll spend significant time writing SQL queries, building models, and exploring data, but also meeting with PMs and engineers to translate findings into product decisions. Google's data science culture emphasizes rigorous methodology, reproducible analysis, and clear communication of uncertainty. Most data scientists work 45-50 hours per week with flexibility for remote work. The role requires both technical depth in statistics/ML and the ability to drive business impact through insights.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Morning Check-in",
+            description: "Review overnight experiment results, check dashboards for anomalies, and respond to urgent Slack messages from PMs or engineers."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Experiment Review Meeting",
+            description: "Weekly meeting to review active A/B tests, discuss statistical significance, and make launch decisions with the product team."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Deep Analysis Work",
+            description: "Focused time for exploratory data analysis, writing SQL queries, or building statistical models. Investigate user behavior patterns or test hypotheses."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learning",
+            description: "Lunch at the campus cafe, often combined with attending a tech talk on new ML techniques or statistical methods."
+          },
+          {
+            time: "1:30 PM",
+            activity: "PM Partnership Meeting",
+            description: "Sync with product manager to discuss upcoming feature launches, define success metrics, and prioritize analysis requests."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Model Development",
+            description: "Build and validate predictive models. Iterate on feature engineering, test different algorithms, and evaluate performance metrics."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Data Science Team Sync",
+            description: "Weekly team meeting to share learnings, review methodologies, and discuss best practices. Present recent analysis for peer feedback."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation & Communication",
+            description: "Document analysis methodology, create visualizations for stakeholders, or prepare presentation slides for upcoming product review."
+          },
+          {
+            time: "5:45 PM",
+            activity: "Wrap Up",
+            description: "Finalize code commits, update project tracking, and plan tomorrow's priorities. Most data scientists leave by 6pm."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
         { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+      ]
+    },
+    'data-analyst': {
+      roleDescription: "Data Analysts at Google transform raw data into actionable insights that drive product decisions and business strategy across the company's portfolio of products serving billions of users. Working with massive datasets using SQL, spreadsheets, and visualization tools, you'll answer critical business questions, build dashboards, and partner with PMs and engineers to optimize product performance. Google's data analyst role emphasizes both technical SQL skills and business acumen - you need to not just pull numbers but tell compelling stories that influence decisions. The role exists across virtually every product team including Search, Ads, YouTube, Cloud, and Operations, each offering unique data challenges. Data Analysts at Google enjoy access to world-class data infrastructure (BigQuery processes petabytes in seconds), collaboration with exceptionally talented colleagues, and the opportunity to see your insights immediately impact products used by billions. Career paths lead to Senior/Staff Analyst roles, transitions to Data Science or PM, or management positions leading analyst teams.",
+      responsibilities: [
+        "Build and maintain dashboards and reports tracking key product and business metrics",
+        "Write complex SQL queries to extract, transform, and analyze large datasets from multiple sources",
+        "Partner with PMs and stakeholders to define KPIs and measurement frameworks for product launches",
+        "Conduct ad-hoc analyses to answer urgent business questions and support decision-making",
+        "Design and analyze A/B experiments to evaluate feature performance and user behavior",
+        "Create compelling visualizations and presentations to communicate insights to stakeholders",
+        "Identify trends, anomalies, and opportunities through exploratory data analysis",
+        "Develop automated reporting solutions to improve efficiency and data accessibility",
+        "Collaborate with data engineers to improve data quality and pipeline reliability",
+        "Document methodology, assumptions, and findings for reproducibility and knowledge sharing"
+      ],
+      growthOpportunities: [
+        "Clear career progression from Data Analyst → Senior → Staff Analyst with increasing scope",
+        "Opportunity to transition to Data Science, Product Management, or Business Operations roles",
+        "Access to Google's data infrastructure and tools used by world-class analysts",
+        "Exposure to massive scale data problems not available elsewhere",
+        "Internal mobility across product areas: Ads, Search, YouTube, Cloud, Hardware, etc.",
+        "Leadership opportunities managing analyst teams or cross-functional analytics programs",
+        "Professional development through Google's extensive training resources and analyst community",
+        "Global scope with opportunity to analyze international markets and user segments",
+        "Strong exit opportunities to leading tech companies, startups, or consulting"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your background, analytics experience, and interest in Google. The recruiter assesses basic qualifications, explains the interview process, and gathers information about your preferred product areas. Be prepared to discuss your most impactful analysis projects, SQL proficiency, and what types of business problems you enjoy solving.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute interview focusing on SQL and analytical problem-solving. Expect to write SQL queries (JOINs, aggregations, window functions) and solve business case questions like 'How would you measure success for YouTube Shorts?' or 'User signups dropped 15% - how would you investigate?' The interviewer evaluates SQL skills, structured thinking, and ability to translate business questions into analytical approaches.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interviews (4 rounds)",
+          description: "Full day of interviews including: (1) SQL & Coding - write queries to solve analytical problems, may include spreadsheet or Python tasks; (2) Business Case/Analysis - solve a product or business problem using structured analytical approach; (3) Metrics & Measurement - define KPIs, design measurement frameworks, interpret data scenarios; (4) Behavioral/Googleyness - assess collaboration, communication, stakeholder management, and cultural fit. Each interview is 45 minutes with different interviewers.",
+          duration: "Full day (3-4 hours)"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee Review",
+          description: "Your interview feedback is reviewed by a committee of senior analysts who weren't involved in your interviews. The committee evaluates SQL proficiency, analytical thinking, business acumen, communication skills, and Googleyness. This ensures consistent hiring standards across the organization. Committee review typically takes 1-2 weeks.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Team Matching & Offer",
+          description: "After committee approval, you'll have conversations with hiring managers from teams matching your interests. Understand the team's business context, types of analyses they perform, and growth opportunities. Once a mutual match is found, you'll receive an offer with competitive base salary, annual bonus, and RSU grants.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Write a SQL query to find the top 10 videos by watch time in the last 30 days, along with their daily trend.",
+        "How would you design a dashboard to monitor YouTube Premium subscription health?",
+        "Users in Europe have lower engagement than US users. How would you investigate this?",
+        "Write a query to calculate week-over-week retention rates for new users.",
+        "How would you measure the success of a new Google Maps feature?",
+        "A PM says 'revenue is down 10% this quarter.' What questions would you ask?",
+        "Design a SQL query using window functions to identify users whose activity increased significantly.",
+        "How would you segment users for a targeted marketing campaign?",
+        "Write a query to find products that were viewed but never purchased.",
+        "The conversion rate increased but total conversions decreased. What might explain this?",
+        "How would you calculate the lifetime value of a Google Cloud customer?",
+        "Design an analysis to understand why users uninstall a mobile app.",
+        "Write a query to identify anomalies in daily active user counts.",
+        "How would you measure cannibalization between two Google products?",
+        "A metric improved in an A/B test but the PM is skeptical. How would you validate the result?",
+        "Design a framework to prioritize which metrics to include in an executive dashboard."
+      ],
+      behavioralQuestions: [
+        "Tell me about an analysis that directly influenced a business decision. What was the impact?",
+        "Describe a time you had to explain complex data findings to a non-technical audience.",
+        "Tell me about a situation where your analysis revealed something unexpected.",
+        "Give an example of when you had to push back on a flawed data request or interpretation.",
+        "Describe how you've improved a reporting or analysis process.",
+        "Tell me about a time you had to work with incomplete or messy data.",
+        "How do you prioritize when multiple stakeholders have urgent analysis requests?",
+        "Describe a situation where you collaborated with engineers or PMs to solve a problem.",
+        "Tell me about a time you made a mistake in an analysis. How did you handle it?",
+        "Give an example of how you've proactively identified an insight without being asked.",
+        "Describe your approach to learning a new domain or business area quickly.",
+        "Tell me about a time you had to say 'I don't know' and how you found the answer.",
+        "How do you ensure your analyses are accurate and reproducible?",
+        "Describe a situation where you had to balance thoroughness with speed."
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills: ability to write complex queries efficiently with JOINs, aggregations, and window functions",
+        "Analytical thinking: structured approach to breaking down ambiguous business problems",
+        "Business acumen: understanding of how data connects to product and business outcomes",
+        "Communication skills: ability to present findings clearly and influence stakeholders",
+        "Attention to detail: catches errors, validates data quality, and ensures accuracy",
+        "Proactive mindset: identifies insights and opportunities without being asked",
+        "Stakeholder management: works effectively with PMs, engineers, and leadership",
+        "Tool proficiency: comfortable with spreadsheets, visualization tools, and basic scripting",
+        "Curiosity: genuine interest in exploring data and understanding user behavior",
+        "Googleyness: collaboration, intellectual humility, and user-focused thinking"
+      ],
+      interviewTips: [
+        "Practice SQL extensively: focus on JOINs, GROUP BY, window functions (LAG, LEAD, ROW_NUMBER), and CTEs",
+        "Structure your case answers: clarify the question → define metrics → outline approach → present findings",
+        "Know common metrics: DAU, MAU, retention, conversion, LTV, churn - and when to use each",
+        "Practice explaining your SQL queries as you write them - communication matters as much as correctness",
+        "Prepare examples of analyses you've done with quantifiable business impact",
+        "For metric definition questions, discuss tradeoffs and potential gaming or unintended consequences",
+        "Know Google's products and think about what metrics matter for each",
+        "Be ready to discuss data quality: how you validate data, handle missing values, and ensure accuracy",
+        "Use STAR format for behavioral questions with specific examples and outcomes",
+        "Ask clarifying questions before diving into analysis - understand context and stakeholder needs",
+        "Practice mental math for quick sanity checks on your results",
+        "Prepare thoughtful questions about team structure, tools used, and types of business problems",
+        "Show curiosity: demonstrate genuine interest in understanding the 'why' behind the data",
+        "Review basic statistics: averages, medians, percentiles, and when to use each"
+      ],
+      salary: {
+        min: 110000,
+        max: 180000
+      },
+      compensation: [
+        "Base salary: $110-180K depending on level and location (higher in Bay Area, NYC, Seattle)",
+        "Annual performance bonus: 15-20% of base salary based on individual and team performance",
+        "Initial RSU grant: $60-200K vesting over 4 years",
+        "Stock refresh grants: Annual RSU refreshes based on performance",
+        "Signing bonus: $10-50K depending on level and competing offers",
+        "401(k) matching: 50% match up to IRS limit",
+        "Comprehensive health insurance: Medical, dental, vision with excellent coverage",
+        "Free meals and on-site amenities valued at ~$15K annually",
+        "Education reimbursement for professional development",
+        "Paid parental leave: 18-24 weeks",
+        "Total first-year compensation typically ranges from $150K to $300K depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Data Analyst at Google balances deep analytical work with stakeholder collaboration. You'll spend significant time writing SQL, building dashboards, and exploring data, while also meeting with PMs and business partners to translate insights into action. Google's analyst culture emphasizes data quality, clear communication, and business impact. Most analysts work 40-50 hours per week with flexibility for remote work. The role offers variety - from quick ad-hoc queries to complex multi-week analyses - and direct visibility into how your work influences product decisions.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Morning Dashboard Review",
+            description: "Check key metric dashboards for anomalies, review overnight data pipeline status, and respond to urgent Slack questions from stakeholders."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Weekly Business Review Prep",
+            description: "Finalize analysis and visualizations for weekly business review with leadership. Ensure numbers are accurate and insights are clearly communicated."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Stakeholder Meeting",
+            description: "Meet with PM to discuss upcoming product launch and define success metrics. Align on measurement approach and reporting requirements."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Grab lunch at the campus cafe. May join an analyst community lunch to network and share best practices with peers."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Deep Analysis Work",
+            description: "Focused time for writing SQL queries and conducting analysis. Investigate user behavior patterns or build models for the current project."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Ad-hoc Request",
+            description: "Handle urgent analysis request from marketing team. Quick SQL query to pull campaign performance data for executive presentation."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Dashboard Development",
+            description: "Build or update Looker dashboard for product team. Add new metrics, improve visualizations, and test data accuracy."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Team Meeting",
+            description: "Weekly analyst team sync to share learnings, discuss methodology questions, and coordinate on cross-functional projects."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Documentation & Wrap Up",
+            description: "Document analysis methodology, update project tracker, and respond to remaining messages. Plan tomorrow's priorities before leaving."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" }
       ]
     }
   },
