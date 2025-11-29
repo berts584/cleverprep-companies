@@ -14546,6 +14546,809 @@ export const rolePageContent = {
         { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
       ]
     },
+    'operations-manager': {
+      roleDescription: "Operations Managers at Apple orchestrate one of the world's most sophisticated supply chains, ensuring that hundreds of millions of iPhones, Macs, iPads, and Apple Watches reach customers seamlessly. Apple's operations organization, built under Tim Cook's leadership, is a legendary competitive advantage - achieving 99%+ on-time delivery while managing thousands of suppliers across dozens of countries. You'll work on demand planning, supply chain optimization, manufacturing operations, logistics, or procurement, making decisions that impact billions of dollars in inventory and affect product availability worldwide. Apple Operations combines analytical rigor with operational excellence, using advanced forecasting models, optimization algorithms, and real-time monitoring to manage complexity at massive scale. The role requires balancing efficiency with flexibility, quality with speed, and cost with customer experience. Career paths lead from operations manager to senior manager, director, and VP roles, with opportunities to specialize in specific functions or lead cross-functional programs spanning the entire supply chain.",
+      responsibilities: [
+        "Develop and execute supply chain strategies ensuring product availability and operational efficiency",
+        "Manage relationships with suppliers and manufacturing partners to meet quality and delivery targets",
+        "Create demand forecasts and inventory plans balancing availability with working capital",
+        "Identify and resolve supply chain risks, bottlenecks, and operational issues",
+        "Drive continuous improvement initiatives to reduce costs and improve efficiency",
+        "Collaborate with engineering, product, and finance teams on new product launches",
+        "Analyze operational data to identify trends, opportunities, and areas for optimization",
+        "Lead cross-functional teams to execute complex logistics and manufacturing programs",
+        "Develop and manage budgets for operational programs and capital investments",
+        "Build and develop high-performing teams to achieve operational excellence"
+      ],
+      growthOpportunities: [
+        "Work with Apple's legendary supply chain - a key competitive advantage",
+        "Clear career ladder from manager to senior manager, director, and VP",
+        "Opportunity to impact products reaching hundreds of millions of customers",
+        "Deep expertise in world-class operations and supply chain management",
+        "Path to leadership roles spanning procurement, manufacturing, or logistics",
+        "Exposure to cutting-edge operations technology and analytics",
+        "Global scope with operations spanning suppliers in 40+ countries",
+        "Cross-functional experience with engineering, product, and finance teams",
+        "Learn from teams that execute flawless global product launches"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your operations background, supply chain experience, and interest in Apple. The recruiter assesses qualifications and explains the specific role focus (demand planning, supply chain, manufacturing, logistics, procurement). Be prepared to discuss your experience managing complex operations and driving improvements.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Screen",
+          description: "45-60 minute call with the hiring manager to discuss your background in depth. Expect questions about your operations experience, problem-solving approach, and leadership style. You may discuss specific operational challenges you've solved and how you'd approach Apple's scale and complexity.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interview Loop",
+          description: "Full day of 5-6 interviews including: (1) Operations Case Study - analyze a supply chain scenario and recommend solutions; (2) Analytical Assessment - demonstrate quantitative skills with data analysis or forecasting problem; (3) Cross-functional Interview - with engineering or product partner; (4) Leadership/Behavioral - assess management skills and cultural fit; (5) Technical Deep Dive - detailed discussion of your operations expertise; (6) Senior leadership conversation.",
+          duration: "Full day (5-6 hours)"
+        },
+        {
+          step: 4,
+          title: "Debrief & Decision",
+          description: "Interview panel reviews feedback and makes hiring recommendation. Apple operations hiring emphasizes analytical ability, operational excellence, and leadership skills. The process typically takes 1-2 weeks.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Offer",
+          description: "Successful candidates receive offers specifying team and level. Operations roles are based in Cupertino or Austin with some roles in global locations. Compensation includes competitive base, bonus, and RSU grants.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "How would you approach forecasting demand for a new iPhone model launch?",
+        "Describe how you would evaluate and select a new supplier for a critical component.",
+        "A key supplier is at risk of missing delivery. Walk through your response plan.",
+        "How would you optimize inventory levels while maintaining high product availability?",
+        "Design a metrics framework to monitor supply chain health across global operations.",
+        "How would you approach reducing manufacturing costs without impacting quality?",
+        "Describe your experience with demand planning tools and forecasting methodologies.",
+        "A natural disaster impacts a major supplier region. How do you manage the crisis?",
+        "How would you evaluate make vs. buy decisions for a new product component?",
+        "Describe how you would manage a complex new product introduction across global manufacturing.",
+        "How do you balance the trade-off between inventory costs and product availability?",
+        "Explain your approach to supplier quality management and continuous improvement.",
+        "How would you use data analytics to identify supply chain optimization opportunities?",
+        "Describe your experience with ERP systems and supply chain planning tools.",
+        "How would you structure a team to manage operations for a global product line?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you significantly improved an operational process. What was the impact?",
+        "Describe a supply chain crisis you managed. How did you respond?",
+        "Give an example of when you had to balance competing priorities in operations.",
+        "Tell me about a time you built a relationship with a difficult supplier or partner.",
+        "Describe how you've used data to drive operational decisions.",
+        "Give an example of when you led a cross-functional team to achieve an operational goal.",
+        "Tell me about a time you had to make a difficult trade-off decision in operations.",
+        "Describe how you've developed and mentored team members in operations roles.",
+        "Give an example of when you identified and mitigated a supply chain risk.",
+        "Tell me about a complex product launch you supported operationally.",
+        "Describe a situation where you had to influence stakeholders without direct authority.",
+        "Give an example of when an operational plan didn't work out. What did you learn?",
+        "Tell me about how you stay current with operations and supply chain best practices.",
+        "Describe your experience working with global teams across different time zones."
+      ],
+      whatTheyLookFor: [
+        "Strong analytical skills with ability to work with complex data and models",
+        "Operations expertise in supply chain, manufacturing, logistics, or procurement",
+        "Problem-solving ability for complex, ambiguous operational challenges",
+        "Leadership skills to manage teams and drive cross-functional alignment",
+        "Communication ability to influence stakeholders across the organization",
+        "Results orientation with track record of delivering operational improvements",
+        "Global mindset with experience working across cultures and time zones",
+        "Technical proficiency with operations tools, ERP systems, and analytics",
+        "Attention to detail while maintaining big-picture perspective",
+        "Cultural fit with Apple's values of excellence and innovation"
+      ],
+      interviewTips: [
+        "Prepare specific examples of operational improvements with quantified impact",
+        "Study Apple's supply chain - understand what makes it a competitive advantage",
+        "Practice case studies on supply chain scenarios: forecasting, risk management, optimization",
+        "Know operations fundamentals: inventory management, demand planning, logistics",
+        "Be ready to discuss experience with supply chain tools and analytics",
+        "Prepare examples of leadership and cross-functional collaboration",
+        "Understand Apple's product portfolio and the operational complexity it creates",
+        "Practice explaining technical operations concepts to diverse audiences",
+        "Show passion for operational excellence and continuous improvement",
+        "Prepare questions about team structure, key challenges, and growth opportunities",
+        "Review recent Apple product launches and supply chain news",
+        "Be ready to discuss how you'd handle scale - Apple operates at massive volume",
+        "Demonstrate global perspective - Apple's supply chain spans 40+ countries",
+        "Show you can balance efficiency with quality and customer experience"
+      ],
+      salary: {
+        min: 150000,
+        max: 260000
+      },
+      compensation: [
+        "Base salary: $150-260K depending on level and function",
+        "Annual performance bonus: 15-25% of base salary",
+        "Initial RSU grant: $120-400K+ vesting over 4 years",
+        "Stock refresh grants: Annual refreshes based on performance",
+        "Signing bonus: $30-100K depending on level and competing offers",
+        "401(k) matching: 50% match up to 6% of salary",
+        "Employee Stock Purchase Plan (ESPP): 15% discount on Apple stock",
+        "Comprehensive health insurance: Medical, dental, vision",
+        "Relocation assistance for out-of-area hires",
+        "Product discounts: 25% off Apple products",
+        "Total first-year compensation typically ranges from $230K to $500K depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for an Operations Manager at Apple balances strategic planning with tactical execution and crisis management. You'll spend time analyzing data, meeting with suppliers and cross-functional partners, and driving operational improvements. Apple's operations culture emphasizes precision, continuous improvement, and flawless execution - especially during product launches. Most operations managers work 50-55 hours per week, with intensity increasing during launch periods. The global nature of the supply chain means some early morning or evening calls with international partners.",
+        schedule: [
+          {
+            time: "7:30 AM",
+            activity: "Morning Review",
+            description: "Review overnight supplier updates and production reports from Asia. Check dashboards for any supply or quality issues."
+          },
+          {
+            time: "8:00 AM",
+            activity: "Supplier Call",
+            description: "Call with key component supplier in Asia to review delivery status and address production issues."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Quick sync with operations team on daily priorities, issues, and escalations."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Demand Planning Review",
+            description: "Review forecast updates with planning team. Adjust inventory positions based on demand signals."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Cross-functional Meeting",
+            description: "Meet with product and engineering teams to discuss new product launch timeline and requirements."
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch",
+            description: "Lunch at Apple Park with operations colleagues. Informal discussion of supply chain challenges."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Data Analysis",
+            description: "Analyze operational data to identify improvement opportunities. Build business case for cost reduction initiative."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Supplier Business Review",
+            description: "Quarterly business review with key supplier covering performance, capacity, and roadmap."
+          },
+          {
+            time: "4:00 PM",
+            activity: "Process Improvement",
+            description: "Work on continuous improvement initiative to streamline logistics process."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Wrap Up",
+            description: "Respond to outstanding issues, update project status, prepare for tomorrow's meetings."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Tesla", companySlug: "tesla", industry: "Automotive" },
+        { companyName: "Nike", companySlug: "nike", industry: "Retail" }
+      ]
+    },
+    'software-engineering-manager': {
+      roleDescription: "Software Engineering Managers at Apple lead teams building the software that powers products used by over 2 billion devices worldwide. You'll manage engineers working on iOS, macOS, watchOS, visionOS, or Apple's services while contributing to technical direction and organizational health. Apple's engineering management culture emphasizes technical credibility - managers are expected to understand the codebase, participate in design discussions, and make technical decisions. You'll balance people leadership (hiring, coaching, career development) with program leadership (planning, execution, cross-functional coordination) and technical leadership (architecture, code quality, technical strategy). Apple EMs typically manage teams of 5-12 engineers and report to senior managers or directors. The role requires partnering closely with product management and design to deliver exceptional user experiences on schedule. Career paths lead to senior engineering manager, director, and VP of Engineering roles, with some managers returning to individual contributor tracks at senior levels.",
+      responsibilities: [
+        "Lead and develop a team of software engineers, providing coaching, feedback, and career guidance",
+        "Drive technical excellence through code reviews, architecture discussions, and quality standards",
+        "Partner with product and design to define requirements and deliver features on schedule",
+        "Hire exceptional talent through interviewing, recruiting, and team building",
+        "Manage project execution, removing blockers and ensuring team delivers commitments",
+        "Contribute to technical strategy and architecture decisions for your area",
+        "Foster inclusive team culture aligned with Apple's values",
+        "Conduct performance reviews and calibrations, providing growth opportunities",
+        "Collaborate with peer managers and leadership on organizational initiatives",
+        "Balance technical debt, feature development, and team health"
+      ],
+      growthOpportunities: [
+        "Lead teams building software for products used by billions worldwide",
+        "Clear career ladder from EM to Senior EM, Director, and VP of Engineering",
+        "Develop leadership skills managing engineers at a world-class company",
+        "Opportunity to shape engineering culture and technical direction",
+        "Deep exposure to Apple's product development process",
+        "Path to general management or return to senior IC roles",
+        "Internal mobility across iOS, macOS, services, and platform teams",
+        "Build and develop high-performing engineering teams",
+        "Influence product direction through technical leadership"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your engineering management background, team leadership experience, and interest in Apple. The recruiter assesses qualifications, discusses open roles (platform, application, services), and explains Apple's EM expectations. Be prepared to discuss teams you've built, technical areas of expertise, and management philosophy.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Screen",
+          description: "60-minute call with the hiring manager (typically a director or senior EM) to discuss your leadership experience in depth. Expect questions about team building, performance management, and technical leadership. You'll discuss specific challenges you've navigated and how you'd approach Apple's environment.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interview Loop",
+          description: "Full day of 5-6 interviews including: (1) Technical Deep Dive - assess technical credibility through system design or architecture discussion; (2) People Leadership - scenarios on coaching, feedback, and career development; (3) Program Management - execution, planning, and cross-functional collaboration; (4) Behavioral/Cultural Fit - leadership style and Apple values alignment; (5) Cross-functional Interview with PM or design partner; (6) Senior leadership conversation.",
+          duration: "Full day (5-6 hours)"
+        },
+        {
+          step: 4,
+          title: "Debrief & Decision",
+          description: "Interview panel reviews feedback across all dimensions: technical credibility, people leadership, execution, and cultural fit. Apple EM hiring emphasizes managers who can earn respect from engineers while delivering results. Process typically takes 1-2 weeks.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Offer & Team Placement",
+          description: "Successful candidates receive offers specifying team and level. EM compensation includes competitive base, bonus, and significant RSU grants. Team placement considers your technical background and leadership experience.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Describe your technical background. How do you maintain technical credibility as a manager?",
+        "Walk me through a system design for a feature your team might build at Apple.",
+        "How do you approach technical debt vs. feature development with your team?",
+        "Describe how you've driven technical quality and code review standards.",
+        "How do you evaluate and make build vs. buy decisions for your team?",
+        "Tell me about a technical architecture decision you drove as a manager.",
+        "How do you stay current technically while managing a team?",
+        "Describe how you've handled a major technical disagreement on your team.",
+        "How would you approach ramping up on a new codebase and technical domain?",
+        "Tell me about a time you had to make a technical trade-off decision.",
+        "How do you balance innovation with stability in your team's work?",
+        "Describe your approach to technical planning and estimation.",
+        "How do you handle technical risk in projects your team owns?",
+        "Tell me about a technical crisis your team faced and how you managed it.",
+        "How do you ensure knowledge sharing and documentation on your team?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a team you built. How did you hire and develop engineers?",
+        "Describe a time you had to give difficult feedback to an underperforming engineer.",
+        "Give an example of how you've helped an engineer grow in their career.",
+        "Tell me about a time you had to manage conflict on your team.",
+        "Describe how you've handled a situation where your team missed a commitment.",
+        "Give an example of how you've built trust with your team.",
+        "Tell me about a time you had to advocate for your team's needs to leadership.",
+        "Describe how you've worked with difficult stakeholders or cross-functional partners.",
+        "Give an example of how you've created an inclusive team environment.",
+        "Tell me about a decision you made that was unpopular but right.",
+        "Describe how you balance being hands-on vs. empowering your team.",
+        "Give an example of how you've handled a high-performing but difficult team member.",
+        "Tell me about your approach to 1:1s and regular feedback.",
+        "Describe a situation where you had to make a tough prioritization call."
+      ],
+      whatTheyLookFor: [
+        "Technical credibility to earn respect from engineers and contribute to decisions",
+        "People leadership skills: hiring, coaching, developing, and retaining talent",
+        "Execution ability to deliver commitments and manage complex projects",
+        "Communication skills to work across engineering, product, and design",
+        "Team building ability to create high-performing, inclusive cultures",
+        "Strategic thinking to balance short-term delivery with long-term health",
+        "Adaptability to handle ambiguity and changing priorities",
+        "Results orientation with track record of delivering impactful work",
+        "Growth mindset with commitment to developing yourself and others",
+        "Cultural fit with Apple's values of excellence, innovation, and user focus"
+      ],
+      interviewTips: [
+        "Prepare specific examples of team building, coaching, and performance management",
+        "Be ready for technical depth - Apple EMs must be technically credible",
+        "Have examples of both successful projects and failures with learnings",
+        "Practice system design to demonstrate technical ability",
+        "Prepare stories about hiring - how you evaluate and attract talent",
+        "Show how you balance people, program, and technical leadership",
+        "Know Apple's products and be ready to discuss technical aspects",
+        "Prepare examples of cross-functional collaboration and conflict resolution",
+        "Have a clear management philosophy you can articulate",
+        "Be ready to discuss how you'd ramp up and build trust with a new team",
+        "Prepare questions about team structure, challenges, and culture",
+        "Show passion for developing engineers and building great teams",
+        "Be honest about areas for growth - self-awareness matters",
+        "Demonstrate how you've created inclusive environments"
+      ],
+      salary: {
+        min: 180000,
+        max: 300000
+      },
+      compensation: [
+        "Base salary: $180-300K depending on level and team scope",
+        "Annual performance bonus: 15-25% of base salary",
+        "Initial RSU grant: $200-500K+ vesting over 4 years",
+        "Stock refresh grants: Substantial annual refreshes based on performance",
+        "Signing bonus: $50-150K depending on level and competing offers",
+        "401(k) matching: 50% match up to 6% of salary",
+        "Employee Stock Purchase Plan (ESPP): 15% discount on Apple stock",
+        "Comprehensive health insurance: Medical, dental, vision",
+        "Education reimbursement for leadership development",
+        "Product discounts: 25% off Apple products",
+        "Total first-year compensation typically ranges from $300K to $600K+ depending on level"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Software Engineering Manager at Apple balances people leadership with technical contribution and cross-functional coordination. You'll spend time in 1:1s with engineers, participating in technical discussions, and working with product and design partners. Apple's EM culture expects managers to be deeply involved in the technical work, not just administrative. Most EMs work 50-55 hours per week, with intensity increasing during major releases. The role requires constant context-switching between people issues, technical decisions, and project management.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Morning Prep",
+            description: "Review overnight code reviews and CI/CD results. Check on any blockers or urgent issues for the team."
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily standup with engineering team to sync on progress, blockers, and priorities."
+          },
+          {
+            time: "10:00 AM",
+            activity: "1:1 Meeting",
+            description: "Weekly 1:1 with team member. Discuss career development, current work, and any concerns."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Design Review",
+            description: "Participate in technical design review for major feature. Provide feedback on architecture and approach."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Cross-functional Sync",
+            description: "Meet with product manager and design lead to discuss upcoming sprint and priorities."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch",
+            description: "Lunch at Apple Park with team members or peer managers."
+          },
+          {
+            time: "1:30 PM",
+            activity: "1:1 Meetings",
+            description: "Two more 1:1s with team members. Mix of project updates and development conversations."
+          },
+          {
+            time: "2:30 PM",
+            activity: "Hiring",
+            description: "Interview debrief meeting to discuss recent candidate. Calibrate feedback with other interviewers."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Planning Session",
+            description: "Work on quarterly planning with team leads. Balance feature work with tech debt and team health."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Code Review",
+            description: "Review code from team members to stay connected to technical work and provide feedback."
+          },
+          {
+            time: "5:30 PM",
+            activity: "Manager Sync",
+            description: "Weekly sync with manager to discuss team health, escalations, and organizational topics."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
+      ]
+    },
+    'technical-specialist': {
+      roleDescription: "Technical Specialists (also known as Geniuses) at Apple Retail are the technical experts who diagnose and repair Apple products, provide expert consultation, and deliver exceptional customer experiences at the Genius Bar. You'll work directly with customers to solve complex technical issues with iPhone, Mac, iPad, Apple Watch, and Apple's ecosystem of products and services. Apple Retail's Technical Specialists combine deep product knowledge with outstanding customer service skills - you're not just fixing devices, you're representing Apple's commitment to customer experience. The role involves hands-on repair work, software troubleshooting, data recovery, and teaching customers how to get the most from their Apple products. Technical Specialists work in Apple's 500+ retail stores worldwide, serving customers ranging from first-time Apple users to professionals with complex technical needs. Career paths lead to Lead Genius, Technical Expert, or management roles within Apple Retail, with some transitioning to corporate technical or engineering positions.",
+      responsibilities: [
+        "Diagnose and repair hardware and software issues for Apple products",
+        "Provide expert technical consultation to customers at the Genius Bar",
+        "Perform hands-on repairs including display replacements, battery service, and component repairs",
+        "Troubleshoot software issues, operating system problems, and connectivity challenges",
+        "Assist customers with data backup, transfer, and recovery",
+        "Educate customers on Apple products, features, and best practices",
+        "Manage customer interactions with empathy, patience, and professionalism",
+        "Stay current with Apple's product updates, repair procedures, and service policies",
+        "Collaborate with store team to deliver exceptional customer experiences",
+        "Meet service metrics while maintaining quality and customer satisfaction"
+      ],
+      growthOpportunities: [
+        "Represent Apple directly to customers at the Genius Bar",
+        "Deep expertise in Apple's entire product ecosystem",
+        "Career path to Lead Genius, Technical Expert, or store management",
+        "Opportunity to transition to corporate technical or engineering roles",
+        "Apple Certified technician training and certifications",
+        "Develop customer service and problem-solving skills at world-class level",
+        "Work with latest Apple products before and after launch",
+        "Access to internal training and professional development programs",
+        "Global mobility with Apple Retail locations in 25+ countries"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Online Application",
+          description: "Submit application through Apple careers site. Include resume highlighting technical experience and customer service skills. Applications are reviewed by retail recruiting team who assess technical background and Apple values alignment.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 2,
+          title: "Phone Screen",
+          description: "20-30 minute call with a recruiter or hiring manager to discuss your background, technical experience, and passion for Apple. Expect questions about why you want to work at Apple Retail, your troubleshooting approach, and customer service philosophy. Enthusiasm for Apple products matters.",
+          duration: "20-30 minutes"
+        },
+        {
+          step: 3,
+          title: "Group Interview / Hiring Event",
+          description: "Apple Retail often conducts group hiring events where candidates interact with current employees and participate in group activities. You'll demonstrate customer service skills, teamwork, and Apple values. Individual conversations with hiring managers follow to assess technical depth and cultural fit.",
+          duration: "2-3 hours"
+        },
+        {
+          step: 4,
+          title: "Technical Interview",
+          description: "One-on-one interview focusing on technical knowledge and troubleshooting ability. You may be asked to diagnose a hypothetical customer issue, explain technical concepts simply, or discuss your experience with Apple products. Interviewers assess both technical skills and ability to communicate with customers.",
+          duration: "30-45 minutes"
+        },
+        {
+          step: 5,
+          title: "Offer & Training",
+          description: "Successful candidates receive offers specifying store location and role. New Technical Specialists complete extensive training including Apple Certified technician certification, product knowledge, customer service, and repair procedures. Training typically spans several weeks.",
+          duration: "1-2 weeks (offer), 4-6 weeks (training)"
+        }
+      ],
+      technicalQuestions: [
+        "A customer's iPhone won't turn on. Walk me through your troubleshooting process.",
+        "How would you explain iCloud backup to a customer who isn't tech-savvy?",
+        "A customer's Mac is running slowly. What steps would you take to diagnose the issue?",
+        "Describe the difference between a hardware and software issue. How do you determine which it is?",
+        "A customer lost data and doesn't have a backup. How would you handle this situation?",
+        "Explain how you would help a customer set up a new iPhone from their old device.",
+        "A customer's Apple Watch isn't pairing with their iPhone. How would you troubleshoot?",
+        "What questions would you ask to understand a customer's technical problem?",
+        "How would you explain Apple's privacy features to a concerned customer?",
+        "A customer is frustrated that their repair will take multiple days. How do you respond?",
+        "Describe your understanding of Apple's ecosystem and how devices work together.",
+        "How would you help a customer decide between repairing and replacing their device?",
+        "A customer wants to transfer photos from their old Android phone to a new iPhone. Walk through the process.",
+        "Explain the difference between AppleCare+ and standard warranty coverage.",
+        "How do you stay current with Apple's new products and features?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you solved a difficult technical problem for someone.",
+        "Describe a situation where you had to deliver bad news to a customer. How did you handle it?",
+        "Give an example of when you went above and beyond for a customer.",
+        "Tell me about a time you had to explain something technical to someone non-technical.",
+        "Describe a situation where you had to handle an upset or frustrated customer.",
+        "Give an example of when you had to learn something new quickly.",
+        "Tell me about a time you worked as part of a team to achieve a goal.",
+        "Describe how you handle multiple customers or tasks at once.",
+        "Give an example of when you received critical feedback. How did you respond?",
+        "Tell me about your experience with Apple products. What do you love about them?",
+        "Describe a time you had to admit you didn't know something. What did you do?",
+        "Give an example of how you've helped someone feel more comfortable with technology.",
+        "Tell me about a time you had to balance efficiency with providing great service.",
+        "Describe what exceptional customer service means to you."
+      ],
+      whatTheyLookFor: [
+        "Technical aptitude: ability to troubleshoot and solve complex technical problems",
+        "Customer service excellence: patience, empathy, and dedication to customer experience",
+        "Communication skills: explaining technical concepts in accessible ways",
+        "Passion for Apple: genuine enthusiasm for Apple products and ecosystem",
+        "Problem-solving: systematic approach to diagnosing and resolving issues",
+        "Teamwork: collaboration with store team to create great experiences",
+        "Adaptability: handling varied customer needs and busy store environments",
+        "Attention to detail: accuracy in repairs and documentation",
+        "Continuous learning: staying current with evolving products and procedures",
+        "Apple values alignment: commitment to enriching lives through technology"
+      ],
+      interviewTips: [
+        "Know Apple products deeply - use them, understand features, have opinions",
+        "Practice explaining technical concepts simply - customers have varied backgrounds",
+        "Prepare examples of customer service excellence from your experience",
+        "Show genuine passion for Apple - enthusiasm is essential for retail roles",
+        "Practice troubleshooting scenarios - walk through your diagnostic process",
+        "Understand Apple's values and be ready to discuss why they resonate with you",
+        "Be ready to handle hypothetical difficult customer situations",
+        "Research the specific store and local community you're applying to",
+        "Dress appropriately - Apple Retail values personal expression within guidelines",
+        "Ask thoughtful questions about the team, training, and growth opportunities",
+        "Show you can balance technical accuracy with customer empathy",
+        "Be prepared for group activities - demonstrate collaboration and leadership",
+        "Discuss how you stay current with technology and Apple news",
+        "Share specific examples of helping others with technology problems"
+      ],
+      salary: {
+        min: 50000,
+        max: 85000
+      },
+      compensation: [
+        "Base hourly rate: $24-41/hour depending on location and experience (approximately $50-85K annually)",
+        "Additional pay for certain certifications and specializations",
+        "Employee Stock Purchase Plan (ESPP): 15% discount on Apple stock",
+        "Product discounts: 25% off Apple products plus periodic additional discounts",
+        "Comprehensive health insurance: Medical, dental, vision (full-time employees)",
+        "401(k) with company match",
+        "Paid time off including vacation, sick leave, and holidays",
+        "Tuition reimbursement for educational advancement",
+        "Free Apple products for training and certification",
+        "Career development and internal mobility opportunities",
+        "Store-based bonuses tied to team performance"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Technical Specialist at Apple Retail revolves around the Genius Bar, helping customers solve technical problems with their Apple devices. You'll diagnose issues, perform repairs, educate customers, and represent Apple's commitment to service excellence. The retail environment is fast-paced with constant customer interaction. Shifts vary based on store hours, including evenings and weekends. The work is rewarding but demanding, requiring both technical expertise and exceptional people skills throughout long shifts.",
+        schedule: [
+          {
+            time: "9:45 AM",
+            activity: "Shift Start",
+            description: "Arrive before store opens. Review daily schedule, check repair queue, and prepare Genius Bar workspace."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Store Opens",
+            description: "Begin customer appointments. First appointment: iPhone with cracked screen - assess damage and discuss repair options."
+          },
+          {
+            time: "10:30 AM",
+            activity: "Software Consultation",
+            description: "Help customer with Mac running slowly. Run diagnostics, clean up storage, and educate on maintenance."
+          },
+          {
+            time: "11:00 AM",
+            activity: "Device Repair",
+            description: "Perform iPhone battery replacement in back of house. Follow precise repair procedures."
+          },
+          {
+            time: "11:45 AM",
+            activity: "Walk-up Support",
+            description: "Handle walk-up customer with Apple Watch pairing issue. Troubleshoot and resolve connectivity."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch Break",
+            description: "30-minute break away from the floor. Decompress and recharge for afternoon appointments."
+          },
+          {
+            time: "1:00 PM",
+            activity: "Afternoon Appointments",
+            description: "Back-to-back Genius Bar appointments: data transfer, iCloud setup, and printer connectivity issue."
+          },
+          {
+            time: "3:30 PM",
+            activity: "Complex Diagnosis",
+            description: "Customer with intermittent Mac kernel panic. Run extensive diagnostics, review logs, determine repair path."
+          },
+          {
+            time: "4:30 PM",
+            activity: "Team Huddle",
+            description: "Quick team meeting to discuss new iOS release, common issues, and share troubleshooting tips."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Final Appointments",
+            description: "Complete remaining appointments. Help elderly customer set up Face ID with patience and care."
+          },
+          {
+            time: "6:00 PM",
+            activity: "Shift End",
+            description: "Complete documentation for repairs, update customer records, hand off any pending issues to evening team."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Samsung", companySlug: "samsung", industry: "Technology" },
+        { companyName: "Best Buy", companySlug: "best-buy", industry: "Retail" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Tesla", companySlug: "tesla", industry: "Automotive" }
+      ]
+    },
+    'solutions-engineer': {
+      roleDescription: "Solutions Engineers at Apple work with enterprise, education, and government customers to design and implement solutions using Apple's ecosystem of products and services. You'll be the technical expert helping organizations understand how iPhone, iPad, Mac, and Apple's enterprise features can transform their operations. Apple's enterprise business has grown significantly, with major deployments at companies like IBM, SAP, and Cisco, as well as thousands of schools and government agencies. Solutions Engineers combine deep Apple product knowledge with enterprise IT expertise - understanding MDM, identity management, security, and integration with existing systems. You'll partner with Apple's sales teams to support complex deals, lead proof-of-concepts, and ensure successful deployments. The role requires both technical depth and customer-facing skills, translating Apple's consumer-focused innovation into enterprise value propositions. Career paths lead to senior technical roles, sales leadership, or product management positions within Apple's enterprise organization.",
+      responsibilities: [
+        "Partner with sales teams to provide technical expertise for enterprise, education, and government customers",
+        "Design solutions using Apple products, MDM platforms, and enterprise integration",
+        "Lead technical discovery sessions to understand customer requirements and infrastructure",
+        "Deliver presentations and demos showcasing Apple's enterprise capabilities",
+        "Conduct proof-of-concepts and pilot programs for prospective customers",
+        "Provide technical guidance on deployment architecture, security, and integration",
+        "Work with customers to resolve technical challenges during implementation",
+        "Collaborate with Apple engineering teams to address customer needs and feedback",
+        "Stay current with Apple's enterprise features, security capabilities, and partner ecosystem",
+        "Develop technical collateral, best practices, and reference architectures"
+      ],
+      growthOpportunities: [
+        "Work at the intersection of Apple's consumer innovation and enterprise needs",
+        "Clear career path to senior technical roles or sales leadership",
+        "Deep expertise in Apple's enterprise ecosystem and large-scale deployments",
+        "Exposure to diverse industries: enterprise, education, healthcare, government",
+        "Path to product management, engineering, or business development roles",
+        "Global scope with major enterprise customers worldwide",
+        "Collaboration with Apple engineering on enterprise features",
+        "Build relationships with IT leaders at major organizations",
+        "Shape how enterprises adopt Apple technology at scale"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "Initial 30-minute call to discuss your technical sales background, enterprise experience, and Apple knowledge. The recruiter assesses qualifications and explains the role's focus on enterprise, education, or government sectors. Be prepared to discuss your experience with enterprise mobility, large-scale deployments, and customer-facing technical work.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute interview with a Solutions Engineer or manager covering technical expertise and customer scenarios. Expect questions about Apple's enterprise features (DEP, MDM, Managed Apple IDs), integration approaches, and how you'd handle specific customer situations. The interviewer evaluates technical depth and communication skills.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site/Virtual Interview Loop",
+          description: "Full day of 4-5 interviews including: (1) Technical Deep Dive - detailed discussion of enterprise architecture and Apple deployment; (2) Customer Presentation - present a solution to mock customer stakeholders (scenario provided in advance); (3) Sales Partnership - interview with sales leader on collaboration approach; (4) Behavioral - assess customer-facing skills and cultural fit; (5) Leadership conversation about role and team.",
+          duration: "Full day (4-5 hours)"
+        },
+        {
+          step: 4,
+          title: "Debrief & Decision",
+          description: "Interview panel reviews feedback on technical expertise, presentation skills, and customer-facing ability. Apple Solutions Engineer hiring emphasizes both deep Apple knowledge and enterprise sales experience. Process typically takes 1-2 weeks.",
+          duration: "1-2 weeks"
+        },
+        {
+          step: 5,
+          title: "Offer",
+          description: "Successful candidates receive offers specifying territory/segment and compensation. Solutions Engineer roles include base salary plus variable compensation tied to territory performance. Some travel required for customer engagements.",
+          duration: "1-2 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through how you would architect an iPhone deployment for 50,000 employees.",
+        "Explain Apple Business Manager and how it integrates with MDM solutions.",
+        "A customer is concerned about Apple device security. How would you address their concerns?",
+        "Describe how you would approach a Mac deployment in a Windows-centric environment.",
+        "How do Managed Apple IDs work and when would you recommend them?",
+        "A school district wants to deploy 10,000 iPads. Walk through your recommended approach.",
+        "Explain Apple's approach to device supervision and what it enables.",
+        "How would you integrate Apple devices with a customer's existing identity provider?",
+        "Describe the differences between BYOD and corporate-owned deployment models.",
+        "A customer wants to ensure app data stays on corporate devices. What solutions exist?",
+        "How does Declarative Device Management differ from traditional MDM?",
+        "Walk me through Apple's security features relevant to enterprise customers.",
+        "A customer is comparing Apple to competitor tablets for their workforce. How do you position Apple?",
+        "Describe how Apple devices can integrate with common enterprise tools (Microsoft 365, Google Workspace).",
+        "How would you scope a proof-of-concept for a hesitant enterprise customer?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex enterprise deal you supported technically. What was your role?",
+        "Describe a time you had to handle technical objections from a skeptical customer.",
+        "Give an example of a presentation that didn't go well. What did you learn?",
+        "Tell me about collaborating with sales teams on a strategic deal.",
+        "Describe a situation where you had to say 'no' or set expectations with a customer.",
+        "Give an example of when you quickly learned a new technology for a customer engagement.",
+        "Tell me about a proof-of-concept or pilot you led. What made it successful?",
+        "Describe how you've built trust with technical stakeholders at customer organizations.",
+        "Give an example of providing product feedback that influenced development.",
+        "Tell me about managing multiple customer engagements simultaneously.",
+        "Describe a situation where you disagreed with a sales approach. How did you handle it?",
+        "Give an example of a customer deployment challenge and how you resolved it.",
+        "Tell me about staying current with Apple technology and enterprise trends.",
+        "Describe your experience working with channel partners or resellers."
+      ],
+      whatTheyLookFor: [
+        "Deep Apple product knowledge: iOS, macOS, MDM, enterprise features",
+        "Enterprise IT expertise: identity, security, integration, deployment at scale",
+        "Presentation skills: engaging technical audiences from engineers to executives",
+        "Customer-facing ability: building relationships and trust with IT leaders",
+        "Sales partnership: collaborating effectively with account teams",
+        "Problem-solving: designing solutions that meet complex customer requirements",
+        "Technical credibility: earning respect from enterprise IT teams",
+        "Business acumen: understanding ROI and business value of Apple solutions",
+        "Passion for Apple: genuine enthusiasm for Apple products and ecosystem",
+        "Adaptability: handling diverse customers and evolving technology landscape"
+      ],
+      interviewTips: [
+        "Know Apple's enterprise features deeply: Apple Business Manager, DEP, MDM, Managed Apple IDs",
+        "Prepare a customer presentation - you'll likely need to present during interviews",
+        "Understand enterprise IT: identity providers, security frameworks, compliance requirements",
+        "Practice handling objections about Apple in the enterprise",
+        "Have examples of complex deals or deployments you've supported",
+        "Know Apple vs. competitors - be ready to position Apple's enterprise value",
+        "Understand different deployment models: BYOD, COPE, dedicated devices",
+        "Prepare to discuss how Apple integrates with Microsoft, Google, and other enterprise platforms",
+        "Research Apple's enterprise customer references and case studies",
+        "Be ready for role-play customer scenarios",
+        "Show passion for Apple products while demonstrating enterprise sophistication",
+        "Prepare questions about territory, customer base, and sales team structure",
+        "Understand Apple's partner ecosystem (MDM vendors, resellers, integrators)",
+        "Demonstrate how you stay current with Apple releases and enterprise features"
+      ],
+      salary: {
+        min: 140000,
+        max: 240000
+      },
+      compensation: [
+        "Base salary: $140-240K depending on level and location",
+        "Variable compensation: Sales-aligned bonus/commission (can add 20-40% of base)",
+        "Initial RSU grant: $100-300K+ vesting over 4 years",
+        "Stock refresh grants: Annual refreshes based on performance",
+        "Signing bonus: $25-75K depending on level",
+        "401(k) matching: 50% match up to 6% of salary",
+        "Employee Stock Purchase Plan (ESPP): 15% discount on Apple stock",
+        "Comprehensive health insurance: Medical, dental, vision",
+        "Travel expense coverage for customer engagements",
+        "Product discounts: 25% off Apple products",
+        "Total compensation (base + variable + equity) typically ranges from $200K to $400K+"
+      ],
+      dayInLife: {
+        overview: "A typical day for a Solutions Engineer at Apple balances customer-facing activities with technical preparation and internal collaboration. You'll spend time on customer calls and presentations, preparing demos and proposals, and working with sales partners on deal strategy. The role involves meaningful travel (20-40%) for customer meetings, events, and training. Apple's Solutions Engineering culture emphasizes technical excellence, customer success, and partnership with sales. Most Solutions Engineers work 45-55 hours per week with flexibility around customer needs.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Morning Prep",
+            description: "Review customer emails, prepare for day's customer calls, update on overnight developments."
+          },
+          {
+            time: "9:00 AM",
+            activity: "Sales Sync",
+            description: "Weekly sync with sales partner on pipeline, customer needs, and deal strategies."
+          },
+          {
+            time: "10:00 AM",
+            activity: "Customer Discovery Call",
+            description: "Technical discovery session with enterprise customer exploring Mac deployment. Understand requirements and current infrastructure."
+          },
+          {
+            time: "11:30 AM",
+            activity: "Solution Design",
+            description: "Design deployment architecture based on discovery findings. Document recommendations and integration approach."
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch",
+            description: "Lunch while catching up on Apple enterprise news and product updates."
+          },
+          {
+            time: "1:30 PM",
+            activity: "Customer Presentation",
+            description: "Present iPad solution to school district IT team. Demo device management, Apple School Manager, and education apps."
+          },
+          {
+            time: "3:00 PM",
+            activity: "Post-meeting Debrief",
+            description: "Debrief with sales on presentation feedback. Identify follow-up actions and next steps."
+          },
+          {
+            time: "3:30 PM",
+            activity: "POC Setup",
+            description: "Configure proof-of-concept environment for enterprise customer evaluating iPhone deployment."
+          },
+          {
+            time: "5:00 PM",
+            activity: "Internal Training",
+            description: "Attend team session on new iOS enterprise features from recent release."
+          },
+          {
+            time: "5:45 PM",
+            activity: "Wrap Up",
+            description: "Respond to customer questions, update CRM with engagement notes, plan tomorrow's activities."
+          }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "VMware", companySlug: "vmware", industry: "Technology" },
+        { companyName: "Cisco", companySlug: "cisco", industry: "Technology" }
+      ]
+    }
+,
 
   },
   'netflix': {
