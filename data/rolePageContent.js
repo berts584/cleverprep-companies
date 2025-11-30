@@ -32150,6 +32150,1606 @@ export const rolePageContent = {
     }
   },
 
+  // Priority 3: Workday (Enterprise Cloud Applications)
+  'workday': {
+    'software-engineer': {
+      roleDescription: `Software Engineers at Workday build the enterprise cloud applications that power HR, finance, and planning for over 10,000 organizations worldwide. You'll work on Workday's flagship Human Capital Management (HCM) system, Financial Management platform, or Adaptive Planning tools that help companies manage their most valuable resources—their people and capital. Workday's architecture handles billions of transactions for Fortune 500 companies while maintaining the reliability and security that enterprise customers demand. Engineers here work with modern cloud technologies, contribute to Workday's proprietary object-oriented programming language, and help develop Workday Illuminate—the company's AI and machine learning engine. The engineering culture emphasizes quality, collaboration, and sustainable pace, reflecting Workday's recognition as one of Fortune's 100 Best Companies to Work For. With a people-first philosophy embodied in their VIBE (Value Inclusion, Belonging, and Equity) culture, you'll build software that genuinely improves how millions of employees interact with their workplace systems.`,
+      responsibilities: [
+        'Design and develop features for Workday HCM, Financial Management, or Adaptive Planning products',
+        'Write clean, efficient code using Workday\'s proprietary technology stack and modern languages',
+        'Collaborate with product managers and UX designers to translate requirements into technical solutions',
+        'Participate in code reviews and maintain high standards for code quality and test coverage',
+        'Contribute to the continuous improvement of Workday\'s cloud infrastructure and deployment pipelines',
+        'Debug and resolve complex issues across distributed systems serving enterprise customers',
+        'Mentor junior engineers and contribute to team knowledge sharing',
+        'Work with Workday Illuminate to integrate AI and ML capabilities into products',
+        'Ensure compliance with enterprise security and data privacy requirements'
+      ],
+      growthOpportunities: [
+        'Progress from Software Engineer to Senior Engineer, Principal Engineer, or Distinguished Engineer',
+        'Transition into technical leadership as an Engineering Manager or Architect',
+        'Specialize in AI/ML through Workday Illuminate initiatives',
+        'Move into product management or technical program management',
+        'Lead cross-functional initiatives spanning multiple product areas',
+        'Contribute to Workday\'s open-source projects and developer community',
+        'Rotate across HCM, Financials, and Planning product lines',
+        'Pursue international opportunities across Workday\'s global offices'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial call to discuss your background, interest in Workday, and role expectations' },
+        { stage: 'Technical Phone Screen', description: 'Coding interview focused on data structures, algorithms, and problem-solving' },
+        { stage: 'Virtual Onsite', description: '4-5 interviews including coding, system design, and behavioral assessments' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your experience, career goals, and team fit' },
+        { stage: 'Team Match', description: 'Optional conversations with potential teams to find the best fit' }
+      ],
+      technicalQuestions: [
+        'Design a multi-tenant SaaS system that handles payroll processing for thousands of companies',
+        'How would you implement a workflow engine for HR approval processes?',
+        'Explain how you would build a real-time analytics dashboard for financial reporting',
+        'Design a system for handling complex organizational hierarchies with millions of employees',
+        'How would you implement role-based access control for sensitive HR data?',
+        'Describe your approach to building APIs that serve both web and mobile clients',
+        'How would you design a system for handling time-zone-aware scheduling across global organizations?',
+        'Explain how you would implement audit logging for compliance requirements',
+        'Design a notification system that handles preferences across multiple channels',
+        'How would you optimize database queries for reports spanning years of transaction data?',
+        'Describe your approach to handling currency conversion in a global financial system',
+        'How would you implement data migration tools for enterprise customers?',
+        'Design a system for managing employee benefits enrollment with complex eligibility rules',
+        'How would you build a search feature across structured HR and financial data?',
+        'Explain your approach to handling eventual consistency in distributed systems',
+        'How would you implement a recommendation engine for internal job postings?'
+      ],
+      behavioralQuestions: [
+        'Tell me about a time you had to balance technical debt with feature delivery',
+        'Describe a situation where you had to push back on a product requirement',
+        'How have you contributed to building an inclusive team environment?',
+        'Tell me about a complex bug you debugged in a production system',
+        'Describe how you\'ve mentored a junior engineer through a challenging project',
+        'How do you stay current with evolving technology trends?',
+        'Tell me about a time you had to learn a new technology quickly to deliver a project',
+        'Describe a situation where you had to communicate technical concepts to non-technical stakeholders',
+        'How have you handled disagreements with teammates about technical approaches?',
+        'Tell me about a project where you had to work across multiple teams',
+        'Describe how you\'ve contributed to improving engineering processes',
+        'How do you approach work-life balance while meeting project deadlines?',
+        'Tell me about a time you identified and addressed a potential security vulnerability',
+        'Describe how you\'ve handled feedback that was difficult to hear'
+      ],
+      whatTheyLookFor: [
+        'Strong computer science fundamentals and coding proficiency',
+        'Experience with enterprise software development and cloud technologies',
+        'Collaborative mindset aligned with Workday\'s people-first culture',
+        'Ability to balance quality with pragmatic delivery',
+        'Interest in HR, finance, or enterprise technology domains',
+        'Growth mindset and commitment to continuous learning',
+        'Clear communication skills for cross-functional collaboration',
+        'Understanding of software security and data privacy principles',
+        'Passion for building products that improve workplace experiences',
+        'Alignment with Workday\'s VIBE values and ethical business practices'
+      ],
+      interviewTips: [
+        'Research Workday\'s products—understand HCM, Financials, and Planning at a high level',
+        'Prepare examples that demonstrate both technical skills and collaborative approach',
+        'Understand multi-tenant SaaS architecture challenges and solutions',
+        'Be ready to discuss how you\'ve contributed to inclusive team environments',
+        'Practice system design questions focused on enterprise-scale problems',
+        'Show genuine interest in HR tech or financial systems domain',
+        'Prepare questions about Workday\'s engineering culture and team dynamics',
+        'Highlight experiences with quality-focused development practices',
+        'Demonstrate understanding of compliance and security in enterprise software',
+        'Be authentic—Workday values cultural fit alongside technical ability',
+        'Review Workday\'s core values and be prepared to discuss how you embody them',
+        'Prepare examples of balancing technical excellence with business impact',
+        'Research Workday Illuminate and AI initiatives if interested in ML',
+        'Practice explaining complex technical concepts in accessible terms'
+      ],
+      salary: {
+        min: 140000,
+        max: 250000,
+        average: 180000
+      },
+      compensation: [
+        'Competitive base salary with annual merit increases',
+        'Restricted Stock Units (RSUs) with annual refresh grants',
+        'Annual performance bonus based on company and individual performance',
+        'Employee Stock Purchase Plan (ESPP) at 15% discount',
+        '401(k) with company match',
+        'Comprehensive health, dental, and vision insurance',
+        'Flexible time off policy',
+        'Parental leave for all parents',
+        'Wellness reimbursement program',
+        'Learning and development stipend'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a Workday Software Engineer balances focused coding time with collaborative design sessions.',
+        schedule: [
+          '8:30 AM - Start day with coffee, review overnight alerts and team Slack channels',
+          '9:00 AM - Daily standup with your squad to sync on progress and blockers',
+          '9:30 AM - Deep work session: coding on current sprint features',
+          '11:30 AM - Code review session with teammates',
+          '12:00 PM - Lunch break, often with teammates in Workday\'s café',
+          '1:00 PM - Technical design discussion for upcoming features',
+          '2:30 PM - Pair programming session to tackle complex integration',
+          '4:00 PM - Address pull request feedback and merge approved changes',
+          '5:00 PM - Document decisions and update tickets for next day',
+          '5:30 PM - Wrap up, occasional team social event or head home'
+        ],
+        closing: 'Workday emphasizes sustainable pace, and engineers rarely work beyond standard hours except during critical releases.'
+      },
+      similarRoles: [
+        'Backend Engineer',
+        'Full Stack Engineer',
+        'Platform Engineer',
+        'Cloud Engineer',
+        'Application Developer'
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: `Product Managers at Workday shape the future of enterprise cloud applications used by thousands of organizations worldwide. You'll own the product strategy and roadmap for Workday's Human Capital Management, Financial Management, or Planning solutions—products that directly impact how millions of employees experience their workplace. Workday PMs work closely with engineering, design, and customer success teams to deliver features that solve real business problems for HR leaders, CFOs, and workforce planners. The role requires deep understanding of enterprise customer needs, competitive landscape, and emerging trends in HR tech and finance. Workday's collaborative culture, embodied in their VIBE (Value Inclusion, Belonging, and Equity) values, creates an environment where PMs can drive meaningful product decisions. With recognition as one of Fortune's Best Companies to Work For and the World's Most Ethical Companies, you'll build products for a company that genuinely prioritizes both customer success and employee wellbeing.`,
+      responsibilities: [
+        'Define product vision and strategy for Workday HCM, Financials, or Planning features',
+        'Gather requirements from enterprise customers, internal stakeholders, and market research',
+        'Prioritize product backlog based on customer value, business impact, and technical feasibility',
+        'Write detailed product requirements documents and user stories for engineering teams',
+        'Collaborate with UX designers to create intuitive experiences for complex enterprise workflows',
+        'Partner with engineering to balance innovation with reliability for enterprise customers',
+        'Present product roadmaps to leadership, customers, and at Workday Rising conferences',
+        'Analyze product metrics and customer feedback to inform iteration decisions',
+        'Work with go-to-market teams on product launches and customer enablement'
+      ],
+      growthOpportunities: [
+        'Progress from Product Manager to Senior PM, Principal PM, or Group Product Manager',
+        'Transition to Director or VP of Product Management',
+        'Move into general management or business unit leadership',
+        'Specialize in emerging areas like AI/ML through Workday Illuminate',
+        'Lead cross-product initiatives spanning HCM, Financials, and Planning',
+        'Transition to customer-facing roles in solutions or customer success',
+        'Build expertise in specific verticals like healthcare, financial services, or retail',
+        'Take international product leadership roles across global markets'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your product management background and interest in Workday' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your PM experience, product thinking, and leadership style' },
+        { stage: 'Product Case Study', description: 'Present a product strategy case, demonstrating prioritization and customer focus' },
+        { stage: 'Cross-Functional Interviews', description: 'Meet with engineering, design, and business partners to assess collaboration skills' },
+        { stage: 'Executive Interview', description: 'Final conversation with product leadership about vision and cultural fit' }
+      ],
+      technicalQuestions: [
+        'How would you prioritize features for a new employee onboarding module?',
+        'Design a product strategy for adding AI capabilities to performance management',
+        'How would you approach building a mobile-first experience for HR tasks?',
+        'Describe how you would measure success for a payroll compliance feature',
+        'How would you balance enterprise customization needs with product simplicity?',
+        'Design a roadmap for integrating acquired company features into Workday platform',
+        'How would you approach pricing strategy for a new Planning add-on module?',
+        'Describe your framework for evaluating build vs. buy vs. partner decisions',
+        'How would you design a self-service analytics feature for HR leaders?',
+        'What metrics would you track for employee engagement features?',
+        'How would you approach localization for a global workforce management product?',
+        'Design a product strategy for competing with point solutions in benefits administration',
+        'How would you handle feature requests that conflict with platform architecture?',
+        'Describe your approach to managing technical debt in product planning',
+        'How would you validate demand for a new vertical-specific solution?'
+      ],
+      behavioralQuestions: [
+        'Tell me about a product decision you made that faced significant pushback',
+        'Describe how you\'ve built relationships with engineering teams',
+        'How have you incorporated customer feedback that contradicted your initial hypothesis?',
+        'Tell me about a time you had to make a difficult prioritization tradeoff',
+        'Describe how you\'ve handled a product launch that didn\'t go as planned',
+        'How do you stay connected to customer needs in enterprise software?',
+        'Tell me about a time you influenced without authority across teams',
+        'Describe how you\'ve contributed to building inclusive product teams',
+        'How have you balanced short-term customer requests with long-term vision?',
+        'Tell me about a product you\'re proud of and why',
+        'Describe how you\'ve handled competing priorities from different stakeholders',
+        'How do you approach building products for users with varying technical sophistication?',
+        'Tell me about a time you had to pivot product strategy based on market changes',
+        'Describe how you\'ve mentored other product managers'
+      ],
+      whatTheyLookFor: [
+        'Strong product sense with enterprise software experience',
+        'Customer empathy and ability to translate needs into product requirements',
+        'Data-driven decision making balanced with strategic intuition',
+        'Excellent communication skills for diverse stakeholder audiences',
+        'Collaborative leadership style aligned with Workday culture',
+        'Understanding of HR, finance, or enterprise technology domains',
+        'Ability to manage complexity while maintaining product simplicity',
+        'Growth mindset and commitment to continuous learning',
+        'Alignment with Workday\'s VIBE values and ethical practices',
+        'Track record of shipping successful products at scale'
+      ],
+      interviewTips: [
+        'Deep dive into Workday\'s products—try demos and read customer case studies',
+        'Understand the HR tech and finance software competitive landscape',
+        'Prepare frameworks for prioritization that balance customer value and business impact',
+        'Practice product case studies focused on enterprise B2B scenarios',
+        'Research Workday Rising to understand how they engage with customers',
+        'Prepare examples demonstrating cross-functional leadership',
+        'Be ready to discuss how you\'ve handled enterprise customer complexity',
+        'Show genuine interest in improving workplace experiences',
+        'Highlight experience with products serving non-technical end users',
+        'Prepare questions about Workday\'s product culture and decision-making',
+        'Demonstrate understanding of compliance and security in enterprise products',
+        'Research Workday Illuminate and be ready to discuss AI in enterprise software',
+        'Be authentic about your PM philosophy—Workday values cultural alignment',
+        'Prepare to discuss how you\'ve built inclusive products and teams'
+      ],
+      salary: {
+        min: 150000,
+        max: 280000,
+        average: 200000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs) with ongoing refresh grants',
+        'Annual performance bonus tied to company and individual goals',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with generous company match',
+        'Premium health, dental, and vision coverage',
+        'Flexible time off policy',
+        'Extended parental leave',
+        'Wellness and fitness reimbursement',
+        'Professional development budget'
+      ],
+      dayInLife: {
+        intro: 'A Product Manager at Workday balances strategic thinking with hands-on collaboration across engineering, design, and customers.',
+        schedule: [
+          '8:00 AM - Review customer feedback from support tickets and NPS surveys',
+          '9:00 AM - Sprint planning meeting with engineering squad',
+          '10:00 AM - Customer call to gather requirements for upcoming feature',
+          '11:00 AM - Product requirements review with UX design team',
+          '12:00 PM - Lunch meeting with engineering manager to discuss technical constraints',
+          '1:00 PM - Competitive analysis and market research',
+          '2:30 PM - Roadmap planning session with product leadership',
+          '3:30 PM - Demo review for upcoming release features',
+          '4:30 PM - Cross-functional sync with customer success team',
+          '5:30 PM - Wrap up with backlog grooming and documentation'
+        ],
+        closing: 'Workday PMs maintain sustainable schedules while staying deeply connected to customer needs through regular engagement.'
+      },
+      similarRoles: [
+        'Senior Product Manager',
+        'Principal Product Manager',
+        'Technical Product Manager',
+        'Product Owner',
+        'Group Product Manager'
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: `Engineering Managers at Workday lead teams building enterprise cloud applications that transform how organizations manage their people and finances. You'll guide engineers developing Workday's Human Capital Management, Financial Management, or Adaptive Planning products—software trusted by over 10,000 customers including more than 50% of Fortune 500 companies. The role balances technical leadership with people management, requiring you to set technical direction while growing engineer careers and building high-performing teams. Workday's people-first culture, reflected in their VIBE (Value Inclusion, Belonging, and Equity) values, creates an environment where managers are expected to genuinely invest in their team's wellbeing and development. As one of Fortune's Best Companies to Work For, Workday offers engineering managers the support to build sustainable, inclusive teams while delivering enterprise-grade software that makes a real difference in how people experience work.`,
+      responsibilities: [
+        'Lead and develop a team of 6-10 software engineers working on Workday products',
+        'Set technical direction and architectural standards for your team\'s domain',
+        'Partner with product management to translate roadmaps into technical execution plans',
+        'Conduct regular 1:1s focused on career growth, feedback, and team member wellbeing',
+        'Drive hiring efforts including interviewing, calibration, and offer decisions',
+        'Foster an inclusive team environment aligned with Workday\'s VIBE values',
+        'Manage delivery timelines while maintaining quality and sustainable pace',
+        'Collaborate with other engineering managers to share best practices and resources',
+        'Remove blockers and advocate for your team\'s needs across the organization'
+      ],
+      growthOpportunities: [
+        'Progress from Engineering Manager to Senior Manager or Director of Engineering',
+        'Expand scope to lead multiple teams or entire product areas',
+        'Transition to VP of Engineering or technical executive leadership',
+        'Move into Principal or Distinguished Engineer technical track',
+        'Lead cross-functional initiatives spanning engineering, product, and design',
+        'Drive organizational transformation and engineering excellence programs',
+        'Mentor other engineering managers and develop leadership bench',
+        'Take international leadership roles across Workday\'s global offices'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial discussion of your management experience and interest in Workday' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into your leadership philosophy and management approach' },
+        { stage: 'Technical Assessment', description: 'Discussion of technical background, system design, and architectural decision-making' },
+        { stage: 'Leadership Panel', description: 'Interviews with peers, skip-levels, and cross-functional partners' },
+        { stage: 'Executive Interview', description: 'Final conversation with engineering leadership about vision and cultural alignment' }
+      ],
+      technicalQuestions: [
+        'How do you balance technical debt reduction with feature delivery?',
+        'Describe your approach to setting technical standards for your team',
+        'How do you evaluate build vs. buy decisions for enterprise software?',
+        'What\'s your approach to ensuring code quality and reducing production incidents?',
+        'How do you keep your technical skills current while managing people?',
+        'Describe how you\'ve improved engineering processes and team velocity',
+        'How do you approach capacity planning and resource allocation?',
+        'What metrics do you track to measure engineering team health and productivity?',
+        'How do you handle technical disagreements within your team?',
+        'Describe your approach to system design reviews and architecture governance',
+        'How do you ensure your team delivers secure, compliant enterprise software?',
+        'What\'s your strategy for managing technical dependencies across teams?',
+        'How do you approach production support and on-call responsibilities?',
+        'Describe how you\'ve managed platform migrations or major technical transitions'
+      ],
+      behavioralQuestions: [
+        'Tell me about a time you had to deliver difficult feedback to an engineer',
+        'Describe how you\'ve built an inclusive team environment',
+        'How have you handled a high performer who was negatively impacting team dynamics?',
+        'Tell me about a project that failed and how you led the team through it',
+        'Describe your approach to developing engineers at different career stages',
+        'How have you managed through organizational change or uncertainty?',
+        'Tell me about a time you had to advocate for your team with leadership',
+        'Describe how you\'ve handled competing priorities from different stakeholders',
+        'How do you approach work-life balance for yourself and your team?',
+        'Tell me about a time you made an unpopular decision and how you communicated it',
+        'Describe how you\'ve built trust with a new team',
+        'How have you handled performance issues while maintaining team morale?',
+        'Tell me about your most successful hire and what made them successful',
+        'Describe how you\'ve collaborated with product management on roadmap planning'
+      ],
+      whatTheyLookFor: [
+        'Strong engineering background with enterprise software experience',
+        'Proven track record of building and developing high-performing teams',
+        'People-first leadership approach aligned with Workday\'s VIBE values',
+        'Ability to balance technical excellence with pragmatic delivery',
+        'Excellent communication skills across technical and business audiences',
+        'Experience managing through growth, change, and ambiguity',
+        'Commitment to building inclusive, psychologically safe teams',
+        'Strategic thinking combined with operational execution',
+        'Growth mindset and continuous improvement orientation',
+        'Genuine care for team member development and wellbeing'
+      ],
+      interviewTips: [
+        'Prepare specific examples of growing engineers through career milestones',
+        'Understand Workday\'s VIBE values and be ready to discuss inclusive leadership',
+        'Be ready to discuss both technical depth and management philosophy',
+        'Research Workday\'s engineering blog and understand their technology approach',
+        'Prepare examples of balancing team needs with business requirements',
+        'Be authentic about your management style—Workday values genuine leaders',
+        'Have concrete examples of building psychological safety on teams',
+        'Be ready to discuss how you\'ve handled difficult personnel situations',
+        'Prepare questions about Workday\'s engineering culture and management support',
+        'Understand enterprise software challenges around security and compliance',
+        'Show genuine interest in HR tech or financial systems domain',
+        'Highlight experience with sustainable pace and preventing burnout',
+        'Be prepared to discuss technical decisions at an architectural level',
+        'Demonstrate how you stay connected to engineering while managing'
+      ],
+      salary: {
+        min: 180000,
+        max: 320000,
+        average: 240000
+      },
+      compensation: [
+        'Competitive base salary reflecting management responsibility',
+        'Significant RSU grants with annual refresh',
+        'Annual bonus based on company and team performance',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with generous company match',
+        'Executive health benefits package',
+        'Flexible time off policy',
+        'Extended parental leave',
+        'Leadership development programs',
+        'Executive coaching available'
+      ],
+      dayInLife: {
+        intro: 'An Engineering Manager at Workday balances people leadership with technical guidance, focused on enabling team success.',
+        schedule: [
+          '8:30 AM - Review team dashboards, check on overnight deployments and alerts',
+          '9:00 AM - Daily standup with engineering squad',
+          '9:30 AM - 1:1 with senior engineer discussing career growth',
+          '10:00 AM - Technical design review for upcoming sprint work',
+          '11:00 AM - Sync with product manager on roadmap and priorities',
+          '12:00 PM - Team lunch and informal bonding',
+          '1:00 PM - Interview candidate for open engineering role',
+          '2:00 PM - Engineering managers sync to discuss cross-team dependencies',
+          '3:00 PM - 1:1 with newer team member on project progress',
+          '4:00 PM - Sprint planning preparation and backlog review',
+          '5:00 PM - Skip-level meeting with engineering director',
+          '5:30 PM - Wrap up administrative tasks and head home'
+        ],
+        closing: 'Workday EMs model sustainable work practices, and the company supports managers in maintaining boundaries and preventing burnout.'
+      },
+      similarRoles: [
+        'Senior Engineering Manager',
+        'Software Development Manager',
+        'Technical Lead Manager',
+        'Director of Engineering',
+        'Engineering Lead'
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: `Data Scientists at Workday unlock insights from one of the richest enterprise datasets in the world—workforce and financial data from over 10,000 organizations. You'll develop machine learning models and analytics that power Workday Illuminate, the company's AI engine, helping customers make better decisions about talent, compensation, workforce planning, and financial operations. The role combines advanced analytics with product thinking, as your models directly impact features used by millions of users. Workday's data science team works across diverse problem domains including anomaly detection for fraud prevention, natural language processing for skills matching, predictive analytics for attrition, and recommendation systems for learning content. With Workday's commitment to ethical AI and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll build models that are not only effective but fair and transparent. As one of Fortune's Best Companies to Work For, Workday offers data scientists the unique opportunity to apply cutting-edge techniques to problems that genuinely improve people's work lives.`,
+      responsibilities: [
+        'Develop machine learning models for Workday Illuminate and product features',
+        'Analyze large-scale workforce and financial datasets to uncover actionable insights',
+        'Design and implement features for predictive analytics, NLP, and recommendation systems',
+        'Collaborate with product and engineering teams to deploy models to production',
+        'Ensure model fairness, transparency, and compliance with ethical AI principles',
+        'Build and maintain data pipelines for model training and inference',
+        'Present findings and recommendations to technical and business stakeholders',
+        'Stay current with ML research and evaluate new techniques for enterprise applications',
+        'Mentor junior data scientists and contribute to team best practices'
+      ],
+      growthOpportunities: [
+        'Progress from Data Scientist to Senior, Staff, or Principal Data Scientist',
+        'Specialize in ML engineering, NLP, or computer vision domains',
+        'Transition into data science management or technical leadership',
+        'Lead Workday Illuminate initiatives and AI product strategy',
+        'Move into product management for AI/ML-powered features',
+        'Become a subject matter expert in workforce analytics or financial modeling',
+        'Contribute to Workday\'s research publications and external thought leadership',
+        'Transition to applied research roles focused on emerging AI capabilities'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your data science background and interest in Workday' },
+        { stage: 'Technical Screen', description: 'Coding and statistics assessment focused on practical data science skills' },
+        { stage: 'Virtual Onsite', description: '4-5 interviews covering ML depth, coding, case studies, and behavioral' },
+        { stage: 'Presentation', description: 'Present a past project or solve a case study demonstrating end-to-end DS skills' },
+        { stage: 'Hiring Manager', description: 'Discussion of role expectations, career goals, and team fit' }
+      ],
+      technicalQuestions: [
+        'How would you build a model to predict employee attrition?',
+        'Design a recommendation system for internal job postings',
+        'How would you detect anomalies in expense report data?',
+        'Explain your approach to building a skills taxonomy from job descriptions',
+        'How would you measure and mitigate bias in a hiring recommendation model?',
+        'Design a system for predicting workforce demand across departments',
+        'How would you approach building a compensation benchmarking model?',
+        'Explain how you would implement a classification model for support tickets',
+        'How would you design A/B tests for ML model improvements in enterprise software?',
+        'Describe your approach to feature engineering for time-series workforce data',
+        'How would you build a model to identify high-potential employees?',
+        'Explain your approach to NLP for extracting skills from resumes',
+        'How would you handle class imbalance in fraud detection models?',
+        'Design a system for personalized learning content recommendations',
+        'How would you evaluate model performance for business stakeholders?',
+        'Explain your approach to model interpretability for HR decision-making'
+      ],
+      behavioralQuestions: [
+        'Tell me about a model you built that had significant business impact',
+        'Describe a time when you had to explain complex results to non-technical stakeholders',
+        'How have you handled a situation where your analysis contradicted business assumptions?',
+        'Tell me about a project that failed and what you learned from it',
+        'Describe how you\'ve approached ethical considerations in ML projects',
+        'How do you stay current with rapidly evolving ML techniques?',
+        'Tell me about a time you had to work with messy or incomplete data',
+        'Describe how you\'ve collaborated with engineering teams to deploy models',
+        'How have you contributed to building inclusive team environments?',
+        'Tell me about a time you had to make tradeoffs between model accuracy and fairness',
+        'Describe how you\'ve mentored other data scientists',
+        'How do you approach prioritization when you have multiple competing projects?',
+        'Tell me about a creative solution you developed for a challenging problem',
+        'Describe how you\'ve built trust with business stakeholders in your models'
+      ],
+      whatTheyLookFor: [
+        'Strong foundation in statistics, machine learning, and data analysis',
+        'Programming proficiency in Python and SQL',
+        'Experience deploying ML models to production systems',
+        'Understanding of model fairness, bias, and ethical AI principles',
+        'Ability to translate business problems into data science solutions',
+        'Clear communication skills for technical and non-technical audiences',
+        'Collaborative approach aligned with Workday\'s VIBE values',
+        'Interest in HR, workforce analytics, or financial systems domains',
+        'Growth mindset and commitment to continuous learning',
+        'Product thinking combined with technical depth'
+      ],
+      interviewTips: [
+        'Review ML fundamentals including regression, classification, and clustering',
+        'Prepare to discuss model fairness and bias mitigation techniques',
+        'Understand Workday Illuminate and how AI fits into enterprise HR/finance',
+        'Practice explaining technical concepts to non-technical audiences',
+        'Prepare a past project presentation that shows end-to-end DS skills',
+        'Research workforce analytics and people analytics industry trends',
+        'Be ready to discuss tradeoffs between model complexity and interpretability',
+        'Practice coding in Python including pandas, sklearn, and basic algorithms',
+        'Understand A/B testing and experimentation in enterprise contexts',
+        'Prepare questions about Workday\'s data science team and AI initiatives',
+        'Be authentic about your experience level—Workday values growth mindset',
+        'Highlight any experience with HR, finance, or enterprise software data',
+        'Be ready to discuss ethical considerations in AI for HR decisions',
+        'Show genuine interest in improving workplace experiences through analytics'
+      ],
+      salary: {
+        min: 150000,
+        max: 280000,
+        average: 195000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs) with annual refresh',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health, dental, and vision coverage',
+        'Flexible time off policy',
+        'Parental leave',
+        'Conference attendance and learning budget',
+        'Wellness reimbursement program'
+      ],
+      dayInLife: {
+        intro: 'A Data Scientist at Workday balances exploratory analysis with model development, always focused on delivering business impact.',
+        schedule: [
+          '9:00 AM - Check model performance dashboards and overnight training jobs',
+          '9:30 AM - Team standup to sync on project progress and blockers',
+          '10:00 AM - Deep work: feature engineering for attrition prediction model',
+          '11:30 AM - Code review session for teammate\'s model implementation',
+          '12:00 PM - Lunch, often with cross-functional partners from product team',
+          '1:00 PM - Meeting with product manager to discuss model requirements',
+          '2:00 PM - Exploratory data analysis for new workforce planning project',
+          '3:30 PM - Collaborate with ML engineer on model deployment pipeline',
+          '4:30 PM - Document findings and prepare stakeholder presentation',
+          '5:30 PM - Wrap up, review tomorrow\'s priorities'
+        ],
+        closing: 'Workday data scientists enjoy sustainable hours and protected focus time for deep analytical work.'
+      },
+      similarRoles: [
+        'Machine Learning Engineer',
+        'Applied Scientist',
+        'People Analytics Specialist',
+        'Quantitative Analyst',
+        'AI Engineer'
+      ]
+    },
+
+    'solutions-architect': {
+      roleDescription: `Solutions Architects at Workday design and guide the technical implementation of Workday's enterprise cloud applications for customers worldwide. You'll partner with sales teams to demonstrate how Workday HCM, Financial Management, and Adaptive Planning solutions address complex business requirements for organizations ranging from mid-market companies to Fortune 500 enterprises. The role combines deep product expertise with consultative selling, requiring you to understand customer pain points, design elegant solutions, and build confidence in Workday's platform. Solutions Architects serve as trusted technical advisors throughout the sales cycle, translating business needs into technical architectures and ensuring customers understand how Workday's unified platform delivers value. With Workday's commitment to customer success and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll work in a collaborative environment that genuinely prioritizes long-term customer relationships over short-term wins. As part of one of Fortune's Best Companies to Work For, you'll help organizations transform how they manage their most important resources.`,
+      responsibilities: [
+        'Partner with sales teams to provide technical expertise throughout the enterprise sales cycle',
+        'Design solution architectures that address complex customer requirements for HCM, Financials, or Planning',
+        'Lead technical discovery sessions to understand customer business processes and pain points',
+        'Deliver compelling product demonstrations and proof-of-concept solutions',
+        'Create technical proposals and architecture documentation for customer stakeholders',
+        'Address technical objections and competitive challenges with authoritative expertise',
+        'Collaborate with product and engineering teams to influence roadmap based on customer feedback',
+        'Support customer reference calls and participate in Workday Rising presentations',
+        'Mentor junior solutions architects and contribute to best practices'
+      ],
+      growthOpportunities: [
+        'Progress from Solutions Architect to Senior or Principal Solutions Architect',
+        'Transition to Director of Solutions Architecture leading regional or industry teams',
+        'Move into product management leveraging deep customer knowledge',
+        'Transition to customer-facing consulting or professional services leadership',
+        'Specialize in strategic verticals like healthcare, financial services, or public sector',
+        'Move into enterprise sales leadership or general management',
+        'Become a thought leader through speaking at industry events and publishing',
+        'Transition to partner ecosystem leadership roles'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your background in pre-sales or solutions architecture' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your consultative selling approach and technical expertise' },
+        { stage: 'Technical Presentation', description: 'Deliver a mock product demonstration or solution architecture presentation' },
+        { stage: 'Cross-Functional Interviews', description: 'Meet with sales, product, and services partners to assess collaboration skills' },
+        { stage: 'Executive Interview', description: 'Final conversation with leadership about strategic thinking and cultural fit' }
+      ],
+      technicalQuestions: [
+        'How would you architect a Workday implementation for a global organization with 50,000 employees?',
+        'Describe your approach to integrating Workday with existing ERP and HR systems',
+        'How would you address concerns about data migration from legacy HRIS systems?',
+        'Design a solution for a customer requiring complex organizational hierarchies',
+        'How would you approach security and compliance requirements for a financial services customer?',
+        'Describe your methodology for scoping enterprise software implementations',
+        'How would you differentiate Workday from competitors in a technical evaluation?',
+        'Explain your approach to demonstrating ROI for Workday investments',
+        'How would you handle a customer requirement that Workday doesn\'t currently support?',
+        'Describe your approach to multi-tenant SaaS architecture discussions',
+        'How would you design a reporting and analytics strategy for a Workday customer?',
+        'Explain your approach to change management in enterprise transformations',
+        'How would you address concerns about cloud security for sensitive HR data?',
+        'Describe your methodology for building business cases for HR technology investments'
+      ],
+      behavioralQuestions: [
+        'Tell me about a complex deal you helped win through technical expertise',
+        'Describe a time when you had to manage a difficult customer relationship',
+        'How have you handled a situation where the product couldn\'t meet a customer requirement?',
+        'Tell me about a presentation that didn\'t go well and what you learned',
+        'Describe how you\'ve collaborated with sales to develop account strategies',
+        'How do you stay current with enterprise technology trends?',
+        'Tell me about a time you influenced product direction based on customer feedback',
+        'Describe how you\'ve built trust with technical and executive stakeholders',
+        'How have you contributed to building inclusive customer relationships?',
+        'Tell me about a time you had to disagree with a sales approach',
+        'Describe how you\'ve mentored other solutions architects',
+        'How do you balance customer advocacy with realistic expectation setting?',
+        'Tell me about a creative solution you designed for an unusual requirement',
+        'Describe how you\'ve handled competitive pressure in technical evaluations'
+      ],
+      whatTheyLookFor: [
+        'Deep enterprise software expertise, ideally in HR, finance, or ERP systems',
+        'Strong presentation and demonstration skills',
+        'Consultative approach to understanding customer needs',
+        'Ability to translate technical concepts for business audiences',
+        'Collaborative partnership with sales and services teams',
+        'Understanding of enterprise integration and architecture patterns',
+        'Customer-first mindset aligned with Workday values',
+        'Strategic thinking combined with hands-on technical capability',
+        'Growth mindset and adaptability to evolving product capabilities',
+        'Alignment with Workday\'s VIBE values and ethical business practices'
+      ],
+      interviewTips: [
+        'Prepare a polished product demonstration—practice until it\'s seamless',
+        'Understand Workday\'s competitive positioning against SAP, Oracle, and point solutions',
+        'Research common enterprise HR and finance challenges that Workday addresses',
+        'Prepare examples of influencing deals through technical expertise',
+        'Be ready to discuss integration patterns and data migration strategies',
+        'Understand multi-tenant SaaS architecture advantages',
+        'Prepare questions about Workday\'s sales culture and deal support',
+        'Research Workday Rising to understand customer engagement approach',
+        'Be authentic about your pre-sales experience and philosophy',
+        'Highlight experience with complex enterprise sales cycles',
+        'Show genuine interest in helping organizations transform',
+        'Be ready to discuss how you handle rejection or lost deals',
+        'Prepare to discuss compliance requirements for different industries',
+        'Demonstrate understanding of Workday\'s unified platform advantage'
+      ],
+      salary: {
+        min: 150000,
+        max: 280000,
+        average: 200000
+      },
+      compensation: [
+        'Competitive base salary',
+        'Variable compensation tied to team quota attainment',
+        'Restricted Stock Units (RSUs)',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Home office setup allowance',
+        'Professional development budget'
+      ],
+      dayInLife: {
+        intro: 'A Solutions Architect at Workday balances customer-facing activities with internal collaboration and continuous learning.',
+        schedule: [
+          '8:00 AM - Review customer meeting prep materials and product updates',
+          '9:00 AM - Internal sync with sales team on strategic account strategy',
+          '10:00 AM - Customer discovery call for new enterprise opportunity',
+          '11:30 AM - Build demo environment with customer-specific scenarios',
+          '12:00 PM - Lunch while catching up on industry news',
+          '1:00 PM - Executive presentation and product demonstration for prospect',
+          '3:00 PM - Debrief with sales team and document follow-up items',
+          '3:30 PM - Technical proposal development for pending RFP',
+          '5:00 PM - Product team call to discuss customer feature requests',
+          '5:30 PM - Wrap up and prepare for tomorrow\'s customer meetings'
+        ],
+        closing: 'Solutions Architects travel 30-50% depending on territory, with flexibility for remote customer engagements.'
+      },
+      similarRoles: [
+        'Pre-Sales Engineer',
+        'Technical Account Manager',
+        'Sales Engineer',
+        'Enterprise Architect',
+        'Customer Solutions Consultant'
+      ]
+    },
+
+    'implementation-consultant': {
+      roleDescription: `Implementation Consultants at Workday guide customers through the journey of deploying and adopting Workday's enterprise cloud applications. You'll work directly with HR leaders, finance teams, and IT organizations to configure, test, and launch Workday HCM, Financial Management, or Adaptive Planning solutions. The role combines deep product expertise with project management and change management skills, requiring you to understand complex business processes and translate them into optimal Workday configurations. Implementation Consultants serve as trusted advisors who not only deploy software but help organizations transform how they manage their people and finances. With Workday's methodology emphasizing customer success and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll work in collaborative project teams focused on delivering outcomes that genuinely improve how customers work. As part of one of Fortune's Best Companies to Work For, you'll help organizations realize the full value of their Workday investment.`,
+      responsibilities: [
+        'Lead workstreams for Workday HCM, Financials, or Planning implementations',
+        'Gather and document customer business requirements through discovery sessions',
+        'Configure Workday tenant based on customer requirements and best practices',
+        'Design and execute testing strategies including UAT support',
+        'Develop training materials and support customer change management efforts',
+        'Manage customer relationships and project timelines for your workstreams',
+        'Collaborate with project managers and other consultants on integrated delivery',
+        'Document configurations and create customer-specific runbooks',
+        'Support go-live activities and post-deployment hypercare'
+      ],
+      growthOpportunities: [
+        'Progress from Consultant to Senior Consultant or Lead Consultant',
+        'Transition to Engagement Manager or Project Manager roles',
+        'Specialize in complex functional areas like benefits, compensation, or financial close',
+        'Move into solutions architecture or pre-sales consulting',
+        'Become a subject matter expert and internal trainer',
+        'Transition to customer success management',
+        'Move to product management leveraging implementation experience',
+        'Build expertise in specific industries for vertical specialization'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your consulting or implementation background' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your consulting approach and customer engagement experience' },
+        { stage: 'Technical Assessment', description: 'Case study or scenario-based assessment of problem-solving skills' },
+        { stage: 'Panel Interview', description: 'Meet with consultants and engagement managers to assess collaboration' },
+        { stage: 'Final Interview', description: 'Conversation with services leadership about career goals and fit' }
+      ],
+      technicalQuestions: [
+        'How would you approach gathering requirements for a payroll implementation?',
+        'Describe your methodology for data migration in enterprise software deployments',
+        'How would you handle a configuration conflict between business requirements and best practices?',
+        'Explain your approach to testing complex HR workflows',
+        'How would you design a training program for end users with varying technical skills?',
+        'Describe your methodology for managing scope changes during implementation',
+        'How would you approach integrating Workday with downstream systems?',
+        'Explain your strategy for supporting parallel payroll runs during go-live',
+        'How would you handle a customer who wants to replicate legacy processes exactly?',
+        'Describe your approach to post-go-live optimization and adoption',
+        'How would you configure complex organizational structures in Workday?',
+        'Explain your methodology for security role design and testing',
+        'How would you approach a multi-country implementation with different requirements?',
+        'Describe your strategy for managing customer expectations during delays'
+      ],
+      behavioralQuestions: [
+        'Tell me about a challenging implementation you successfully delivered',
+        'Describe a time when you had to push back on a customer requirement',
+        'How have you handled a project that was behind schedule?',
+        'Tell me about a time you had to manage a difficult customer relationship',
+        'Describe how you\'ve collaborated with diverse project teams',
+        'How do you stay current with evolving product capabilities?',
+        'Tell me about a time you identified a risk that others missed',
+        'Describe how you\'ve contributed to building inclusive project environments',
+        'How have you handled conflicting priorities from different stakeholders?',
+        'Tell me about a time you had to learn new functionality quickly',
+        'Describe how you\'ve mentored junior consultants',
+        'How do you balance quality with project timeline pressures?',
+        'Tell me about a creative solution you developed for a customer challenge',
+        'Describe how you\'ve built trust with skeptical customer stakeholders'
+      ],
+      whatTheyLookFor: [
+        'Experience implementing enterprise software, especially HCM or ERP',
+        'Strong analytical skills for understanding complex business processes',
+        'Excellent communication skills with technical and business audiences',
+        'Consulting mindset focused on customer outcomes',
+        'Project management capabilities and organizational skills',
+        'Ability to work effectively in team-based delivery models',
+        'Adaptability to travel and customer site work',
+        'Growth mindset and commitment to continuous learning',
+        'Alignment with Workday\'s VIBE values and customer-first approach',
+        'Understanding of HR, finance, or enterprise technology domains'
+      ],
+      interviewTips: [
+        'Prepare specific examples of implementations you\'ve led or contributed to',
+        'Understand Workday\'s implementation methodology and deployment approach',
+        'Be ready to discuss how you gather and document requirements',
+        'Research common HR and finance business processes',
+        'Prepare for scenario-based questions about implementation challenges',
+        'Highlight experience with customer stakeholder management',
+        'Be ready to discuss data migration strategies and challenges',
+        'Show genuine interest in helping organizations transform',
+        'Prepare questions about Workday\'s consulting culture and career paths',
+        'Understand the consultant lifestyle including travel expectations',
+        'Be authentic about your experience level—Workday provides training',
+        'Highlight change management and user adoption experience',
+        'Be ready to discuss how you handle project scope challenges',
+        'Demonstrate understanding of enterprise security and compliance requirements'
+      ],
+      salary: {
+        min: 100000,
+        max: 180000,
+        average: 135000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs)',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Travel rewards and per diem allowances',
+        'Professional certification support'
+      ],
+      dayInLife: {
+        intro: 'An Implementation Consultant at Workday works closely with customers, balancing configuration work with stakeholder engagement.',
+        schedule: [
+          '8:00 AM - Travel to customer site or log into remote session',
+          '8:30 AM - Daily standup with project team to sync on progress',
+          '9:00 AM - Requirements gathering session with customer HR leadership',
+          '11:00 AM - Configure payroll earning and deduction types in tenant',
+          '12:00 PM - Working lunch with customer project team',
+          '1:00 PM - Review and resolve data migration issues',
+          '3:00 PM - User acceptance testing support and issue triage',
+          '4:00 PM - Document configuration decisions and update project documentation',
+          '5:00 PM - Sync with Workday project manager on timeline and risks',
+          '5:30 PM - Prepare materials for tomorrow\'s training session'
+        ],
+        closing: 'Implementation Consultants typically travel 50-75% during active projects, with periods of less travel between engagements.'
+      },
+      similarRoles: [
+        'HCM Consultant',
+        'Functional Consultant',
+        'Business Analyst',
+        'Configuration Specialist',
+        'Deployment Consultant'
+      ]
+    },
+
+    'customer-success-manager': {
+      roleDescription: `Customer Success Managers at Workday ensure customers achieve maximum value from their Workday investment throughout the entire customer lifecycle. You'll serve as the strategic partner for enterprise customers, understanding their business objectives and helping them leverage Workday HCM, Financial Management, and Planning solutions to achieve measurable outcomes. The role goes beyond support to proactive guidance, helping customers adopt new features, optimize configurations, and expand their Workday usage. CSMs build deep relationships with customer executives, serving as advocates within Workday while driving adoption and renewal success. With Workday's legendary focus on customer satisfaction and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll work in an environment that genuinely prioritizes customer success over short-term metrics. As part of one of Fortune's Best Companies to Work For, you'll help organizations continuously improve how they manage their most important resources—their people and their capital.`,
+      responsibilities: [
+        'Own the post-implementation relationship for a portfolio of enterprise customers',
+        'Develop and execute success plans aligned with customer business objectives',
+        'Drive product adoption by helping customers leverage new features and best practices',
+        'Monitor customer health indicators and proactively address risks',
+        'Coordinate cross-functional Workday resources to resolve customer issues',
+        'Lead quarterly business reviews with customer executives',
+        'Advocate for customer needs with product, engineering, and services teams',
+        'Support contract renewals and identify expansion opportunities',
+        'Build relationships across customer organizations to ensure broad success'
+      ],
+      growthOpportunities: [
+        'Progress from CSM to Senior CSM or Principal CSM for strategic accounts',
+        'Transition to Customer Success Director leading regional or vertical teams',
+        'Move into solutions consulting or professional services',
+        'Transition to product management leveraging customer insights',
+        'Move into sales leadership as an Account Executive',
+        'Specialize in specific industries or product areas',
+        'Become a thought leader in customer success methodologies',
+        'Transition to partner success or ecosystem management'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your customer success or account management background' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your approach to customer relationships and success metrics' },
+        { stage: 'Case Study', description: 'Present a customer success scenario demonstrating strategic thinking' },
+        { stage: 'Cross-Functional Interviews', description: 'Meet with sales, services, and support partners to assess collaboration' },
+        { stage: 'Executive Interview', description: 'Final conversation about customer philosophy and cultural alignment' }
+      ],
+      technicalQuestions: [
+        'How would you develop a success plan for a customer struggling with user adoption?',
+        'Describe your approach to monitoring and measuring customer health',
+        'How would you handle a customer who is at risk of churning?',
+        'Explain your methodology for conducting effective quarterly business reviews',
+        'How would you prioritize features to recommend for a customer\'s roadmap?',
+        'Describe your approach to coordinating multiple stakeholders on customer issues',
+        'How would you measure the ROI customers are achieving from Workday?',
+        'Explain your strategy for driving adoption of new product capabilities',
+        'How would you handle a customer escalation involving multiple departments?',
+        'Describe your approach to identifying expansion opportunities within accounts',
+        'How would you build executive relationships at customer organizations?',
+        'Explain your methodology for balancing proactive and reactive customer work',
+        'How would you approach a customer who wants to add a competitive solution?',
+        'Describe your strategy for managing a large portfolio of customers'
+      ],
+      behavioralQuestions: [
+        'Tell me about a time you turned around a struggling customer relationship',
+        'Describe how you\'ve driven adoption for a product customers were resistant to',
+        'How have you handled a customer situation that required executive escalation?',
+        'Tell me about a time you identified and addressed a risk before it became critical',
+        'Describe how you\'ve collaborated across functions to solve customer problems',
+        'How do you stay current with product changes and industry trends?',
+        'Tell me about a time you had to deliver difficult news to a customer',
+        'Describe how you\'ve contributed to building inclusive customer relationships',
+        'How have you balanced customer advocacy with business requirements?',
+        'Tell me about a creative solution you developed to improve customer outcomes',
+        'Describe how you\'ve mentored other customer success managers',
+        'How do you manage time across a portfolio of customers with different needs?',
+        'Tell me about a time you influenced product direction based on customer feedback',
+        'Describe how you\'ve built trust with skeptical customer stakeholders'
+      ],
+      whatTheyLookFor: [
+        'Experience in customer success, account management, or consulting',
+        'Strong relationship-building skills with executive and technical audiences',
+        'Strategic thinking combined with execution capability',
+        'Data-driven approach to measuring and improving customer health',
+        'Excellent communication and presentation skills',
+        'Empathy and genuine commitment to customer outcomes',
+        'Understanding of enterprise software and SaaS business models',
+        'Collaborative approach to cross-functional problem solving',
+        'Growth mindset and adaptability to evolving customer needs',
+        'Alignment with Workday\'s VIBE values and customer-first culture'
+      ],
+      interviewTips: [
+        'Prepare specific examples of customer relationships you\'ve transformed',
+        'Understand customer success metrics like NPS, adoption rates, and renewal rates',
+        'Research Workday\'s customer success philosophy and approach',
+        'Be ready to present a structured approach to success planning',
+        'Prepare examples of cross-functional collaboration on customer issues',
+        'Highlight experience with executive-level relationships',
+        'Show genuine passion for customer outcomes over transactional metrics',
+        'Prepare questions about Workday\'s customer success team and culture',
+        'Be ready to discuss how you balance proactive and reactive work',
+        'Understand enterprise SaaS renewal and expansion dynamics',
+        'Be authentic about your customer philosophy—Workday values alignment',
+        'Highlight experience with HR, finance, or enterprise technology customers',
+        'Be ready to discuss how you handle difficult customer conversations',
+        'Demonstrate understanding of change management and adoption challenges'
+      ],
+      salary: {
+        min: 110000,
+        max: 180000,
+        average: 140000
+      },
+      compensation: [
+        'Competitive base salary',
+        'Variable compensation tied to customer retention and expansion',
+        'Restricted Stock Units (RSUs)',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Professional development budget',
+        'Customer site travel allowances'
+      ],
+      dayInLife: {
+        intro: 'A Customer Success Manager at Workday balances strategic planning with proactive customer engagement.',
+        schedule: [
+          '8:00 AM - Review customer health dashboards and overnight support tickets',
+          '9:00 AM - Team sync to discuss at-risk accounts and share best practices',
+          '10:00 AM - Quarterly business review preparation for strategic customer',
+          '11:00 AM - Call with customer HR leader to discuss adoption challenges',
+          '12:00 PM - Lunch while catching up on product release notes',
+          '1:00 PM - Internal escalation meeting for customer technical issue',
+          '2:00 PM - Success plan review and update for portfolio accounts',
+          '3:00 PM - Customer executive check-in call',
+          '4:00 PM - Collaborate with services team on customer optimization project',
+          '5:00 PM - Document customer interactions and update success metrics',
+          '5:30 PM - Prepare for tomorrow\'s customer meetings'
+        ],
+        closing: 'CSMs typically travel 25-40% for customer meetings and Workday events, with flexibility for remote engagement.'
+      },
+      similarRoles: [
+        'Strategic Account Manager',
+        'Customer Relationship Manager',
+        'Client Success Director',
+        'Enterprise Customer Manager',
+        'Customer Experience Manager'
+      ]
+    },
+
+    'technical-writer': {
+      roleDescription: `Technical Writers at Workday create the documentation, help content, and educational materials that enable millions of users to effectively leverage Workday's enterprise cloud applications. You'll develop content for Workday HCM, Financial Management, and Planning products—from in-app guidance and help articles to comprehensive implementation guides and API documentation. The role combines deep product knowledge with exceptional writing skills, requiring you to translate complex enterprise workflows into clear, accessible content for diverse audiences including HR administrators, finance professionals, and IT teams. Technical Writers at Workday work closely with product managers, UX designers, and engineers to ensure documentation evolves with the product. With Workday's commitment to user experience and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll contribute to an inclusive documentation strategy that serves users of all skill levels. As part of one of Fortune's Best Companies to Work For, you'll help customers realize the full value of their Workday investment through exceptional documentation.`,
+      responsibilities: [
+        'Create and maintain product documentation for Workday HCM, Financials, or Planning',
+        'Develop in-app guidance, tooltips, and contextual help content',
+        'Write implementation guides, configuration documentation, and best practices',
+        'Create API documentation for developers and integration specialists',
+        'Collaborate with product and UX teams to ensure content aligns with user needs',
+        'Develop multimedia content including videos, tutorials, and interactive guides',
+        'Maintain documentation standards and style guidelines',
+        'Gather feedback from customers and support teams to improve content',
+        'Support localization efforts for global documentation needs'
+      ],
+      growthOpportunities: [
+        'Progress from Technical Writer to Senior or Lead Technical Writer',
+        'Transition to Content Strategy or Documentation Manager roles',
+        'Move into UX writing or product design',
+        'Specialize in developer documentation or API content',
+        'Transition to product management leveraging deep product knowledge',
+        'Lead documentation transformation initiatives',
+        'Become a subject matter expert in specific functional areas',
+        'Move into customer education or training development'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your technical writing background and portfolio' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your writing approach and collaboration style' },
+        { stage: 'Writing Exercise', description: 'Complete a writing sample demonstrating technical documentation skills' },
+        { stage: 'Team Interviews', description: 'Meet with writers, product managers, and developers to assess fit' },
+        { stage: 'Final Interview', description: 'Conversation with content leadership about career goals and philosophy' }
+      ],
+      technicalQuestions: [
+        'How would you approach documenting a complex HR workflow for non-technical users?',
+        'Describe your methodology for gathering requirements from subject matter experts',
+        'How would you structure documentation for a new product feature?',
+        'Explain your approach to maintaining consistency across a large documentation set',
+        'How would you write API documentation for developers with varying experience levels?',
+        'Describe your strategy for creating effective in-app guidance',
+        'How would you measure the effectiveness of documentation?',
+        'Explain your approach to documentation versioning and release management',
+        'How would you handle conflicting feedback from stakeholders?',
+        'Describe your methodology for simplifying complex technical concepts',
+        'How would you approach documentation for accessibility requirements?',
+        'Explain your strategy for creating reusable content components',
+        'How would you document a feature with multiple configuration options?',
+        'Describe your approach to supporting localization and translation'
+      ],
+      behavioralQuestions: [
+        'Tell me about a documentation project you\'re particularly proud of',
+        'Describe a time when you had to quickly learn a complex product area',
+        'How have you handled feedback that significantly changed your approach?',
+        'Tell me about a time you advocated for documentation improvements',
+        'Describe how you\'ve collaborated with engineers who are resistant to documentation',
+        'How do you stay current with technical writing trends and tools?',
+        'Tell me about a time you had to meet a tight deadline without sacrificing quality',
+        'Describe how you\'ve contributed to building inclusive documentation',
+        'How have you handled conflicting priorities from different stakeholders?',
+        'Tell me about a creative solution you developed for a documentation challenge',
+        'Describe how you\'ve mentored other writers',
+        'How do you balance completeness with usability in documentation?',
+        'Tell me about a time you identified a documentation gap that others missed',
+        'Describe how you\'ve incorporated user feedback into documentation improvements'
+      ],
+      whatTheyLookFor: [
+        'Excellent writing skills with ability to explain complex concepts clearly',
+        'Experience with enterprise software or SaaS documentation',
+        'Strong collaboration skills with technical and non-technical stakeholders',
+        'Proficiency with documentation tools and content management systems',
+        'Understanding of information architecture and content strategy',
+        'Attention to detail and commitment to quality',
+        'Ability to learn complex products quickly',
+        'User empathy and focus on audience needs',
+        'Growth mindset and adaptability to evolving tools and methods',
+        'Alignment with Workday\'s VIBE values and inclusive content practices'
+      ],
+      interviewTips: [
+        'Prepare a portfolio showcasing diverse technical writing samples',
+        'Be ready to discuss your writing process from research to publication',
+        'Understand Workday\'s products at a high level before interviewing',
+        'Practice explaining complex concepts in simple terms',
+        'Prepare examples of collaborating with engineers and product managers',
+        'Research documentation tools and be ready to discuss preferences',
+        'Highlight experience with enterprise or B2B documentation',
+        'Show genuine interest in helping users succeed',
+        'Prepare questions about Workday\'s documentation team and processes',
+        'Be ready to discuss accessibility and inclusive writing practices',
+        'Bring examples of how you\'ve measured documentation effectiveness',
+        'Highlight experience with structured authoring or content reuse',
+        'Be authentic about your writing philosophy and approach',
+        'Demonstrate understanding of user-centered content design'
+      ],
+      salary: {
+        min: 90000,
+        max: 160000,
+        average: 120000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs)',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Professional development and conference budget',
+        'Home office setup allowance'
+      ],
+      dayInLife: {
+        intro: 'A Technical Writer at Workday balances content creation with collaboration and research.',
+        schedule: [
+          '8:30 AM - Review content feedback and prioritize writing tasks',
+          '9:00 AM - Team standup to sync on documentation projects',
+          '9:30 AM - Deep writing session: drafting help content for new feature',
+          '11:00 AM - Meeting with product manager to clarify feature behavior',
+          '12:00 PM - Lunch, often with teammates',
+          '1:00 PM - Review and incorporate feedback on draft documentation',
+          '2:00 PM - Shadow user research session to understand pain points',
+          '3:00 PM - Collaborate with UX writer on in-app guidance content',
+          '4:00 PM - Edit and finalize content for upcoming release',
+          '5:00 PM - Update documentation backlog and plan tomorrow\'s priorities',
+          '5:30 PM - Wrap up and head home'
+        ],
+        closing: 'Technical Writers at Workday work primarily from office or remote, with occasional travel for team events and user research.'
+      },
+      similarRoles: [
+        'Documentation Specialist',
+        'Content Developer',
+        'UX Writer',
+        'Information Developer',
+        'Knowledge Base Author'
+      ]
+    },
+
+    'ux-designer': {
+      roleDescription: `UX Designers at Workday shape the experiences that millions of employees use every day to manage their work lives—from checking pay stubs and enrolling in benefits to submitting expense reports and reviewing performance goals. You'll design for Workday's Human Capital Management, Financial Management, or Adaptive Planning products, creating interfaces that make complex enterprise workflows feel intuitive and even delightful. The role requires balancing enterprise requirements like accessibility, configurability, and compliance with consumer-grade usability. UX Designers at Workday work closely with product managers, engineers, and researchers to understand user needs and deliver solutions that genuinely improve how people interact with workplace systems. With Workday's commitment to user experience and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll contribute to products designed for diverse global users. As part of one of Fortune's Best Companies to Work For, you'll help transform enterprise software from something people have to use into something they want to use.`,
+      responsibilities: [
+        'Design user interfaces for Workday HCM, Financials, or Planning products',
+        'Create wireframes, prototypes, and high-fidelity designs for new features',
+        'Collaborate with product managers to translate requirements into design solutions',
+        'Partner with UX researchers to understand user needs and validate designs',
+        'Work with engineers to ensure design intent is maintained through implementation',
+        'Contribute to and evolve Workday\'s design system and component library',
+        'Design for accessibility, ensuring WCAG compliance across all interfaces',
+        'Participate in design critiques and contribute to team standards',
+        'Advocate for user needs throughout the product development process'
+      ],
+      growthOpportunities: [
+        'Progress from UX Designer to Senior or Staff UX Designer',
+        'Transition to UX Design Manager leading product area teams',
+        'Move into UX research or content design specializations',
+        'Become a design system or interaction design specialist',
+        'Transition to product management leveraging user expertise',
+        'Lead cross-product design initiatives and strategy',
+        'Move into Director of UX roles for larger organizations',
+        'Build thought leadership through speaking and publishing'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your design background and portfolio' },
+        { stage: 'Portfolio Review', description: 'Present your portfolio and discuss your design process' },
+        { stage: 'Design Exercise', description: 'Complete a design challenge demonstrating problem-solving approach' },
+        { stage: 'Team Interviews', description: 'Meet with designers, product managers, and engineers' },
+        { stage: 'Final Interview', description: 'Conversation with design leadership about vision and cultural fit' }
+      ],
+      technicalQuestions: [
+        'How would you design an employee self-service portal for HR tasks?',
+        'Describe your approach to designing complex data entry forms',
+        'How would you balance customization needs with design consistency?',
+        'Explain your methodology for designing accessible interfaces',
+        'How would you approach mobile design for enterprise applications?',
+        'Describe your strategy for designing configurable components',
+        'How would you handle designing for multiple user personas with different needs?',
+        'Explain your approach to information architecture for complex workflows',
+        'How would you design a dashboard for HR analytics?',
+        'Describe your methodology for testing designs with enterprise users',
+        'How would you approach designing for global audiences with different conventions?',
+        'Explain your strategy for documenting design decisions for engineers',
+        'How would you design error states and empty states for enterprise apps?',
+        'Describe your approach to designing for power users vs. occasional users'
+      ],
+      behavioralQuestions: [
+        'Tell me about a design you\'re particularly proud of and why',
+        'Describe a time when user research changed your design direction',
+        'How have you handled design feedback you disagreed with?',
+        'Tell me about a project where you had to work within significant constraints',
+        'Describe how you\'ve collaborated with engineers on complex implementations',
+        'How do you stay current with design trends and tools?',
+        'Tell me about a time you advocated for users against business pressure',
+        'Describe how you\'ve contributed to building inclusive design practices',
+        'How have you handled conflicting stakeholder feedback?',
+        'Tell me about a design that didn\'t work and what you learned',
+        'Describe how you\'ve mentored other designers',
+        'How do you balance perfectionism with shipping on time?',
+        'Tell me about a creative solution you developed for a difficult problem',
+        'Describe how you\'ve built relationships with product and engineering partners'
+      ],
+      whatTheyLookFor: [
+        'Strong portfolio demonstrating end-to-end design process',
+        'Experience with enterprise or complex B2B application design',
+        'Proficiency with design tools like Figma, Sketch, or similar',
+        'Understanding of accessibility standards and inclusive design',
+        'Strong collaboration skills with cross-functional teams',
+        'Ability to articulate design decisions and rationale',
+        'User empathy and commitment to research-informed design',
+        'Systematic thinking about design systems and component reuse',
+        'Growth mindset and openness to feedback',
+        'Alignment with Workday\'s VIBE values and user-centered approach'
+      ],
+      interviewTips: [
+        'Prepare a polished portfolio that tells the story of your design process',
+        'Include enterprise or complex application examples if available',
+        'Be ready to discuss how you\'ve handled constraints and tradeoffs',
+        'Understand Workday\'s products and user base before interviewing',
+        'Practice articulating your design decisions clearly',
+        'Prepare examples of collaboration with engineers and PMs',
+        'Be ready to discuss accessibility and inclusive design practices',
+        'Research Workday\'s design system and visual language',
+        'Show genuine interest in improving enterprise user experiences',
+        'Prepare questions about Workday\'s design culture and team structure',
+        'Be authentic about your design philosophy—Workday values diversity of thought',
+        'Highlight experience designing for diverse user populations',
+        'Be ready to discuss how you balance user needs with business requirements',
+        'Demonstrate comfort with ambiguity and iterative design processes'
+      ],
+      salary: {
+        min: 120000,
+        max: 220000,
+        average: 160000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs) with refresh grants',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Design conference and education budget',
+        'Home office and equipment allowance'
+      ],
+      dayInLife: {
+        intro: 'A UX Designer at Workday balances creative design work with collaboration and user research.',
+        schedule: [
+          '9:00 AM - Review feedback on designs shared yesterday',
+          '9:30 AM - Design team standup to sync on projects and blockers',
+          '10:00 AM - Deep design work: iterating on onboarding flow wireframes',
+          '11:30 AM - Design critique session with UX team',
+          '12:00 PM - Lunch, often with teammates from product and engineering',
+          '1:00 PM - User research session: observing user testing of new feature',
+          '2:00 PM - Debrief with UX researcher on findings and insights',
+          '3:00 PM - Design review with engineering team on implementation questions',
+          '4:00 PM - Update component documentation in design system',
+          '5:00 PM - Prototype interactions for stakeholder presentation',
+          '5:30 PM - Wrap up and head home'
+        ],
+        closing: 'UX Designers at Workday enjoy creative autonomy with collaborative support, working primarily from office or remote locations.'
+      },
+      similarRoles: [
+        'Product Designer',
+        'Interaction Designer',
+        'UI Designer',
+        'Experience Designer',
+        'Visual Designer'
+      ]
+    },
+
+    'security-engineer': {
+      roleDescription: `Security Engineers at Workday protect the sensitive HR and financial data of over 10,000 organizations worldwide. You'll work on securing Workday's enterprise cloud platform, ensuring that payroll data, personal information, and financial records remain protected against evolving threats. The role spans application security, infrastructure security, and security operations, requiring deep expertise in securing cloud-native architectures at enterprise scale. Security Engineers partner with development teams to build security into products from the start, respond to security incidents, and continuously improve Workday's security posture. With enterprise customers including over 50% of Fortune 500 companies, the stakes are high—and so is the impact. Workday's commitment to security and their VIBE (Value Inclusion, Belonging, and Equity) values create an environment where security professionals can make a real difference. As part of one of Fortune's Best Companies to Work For, you'll help protect the data that organizations depend on to manage their most valuable resources.`,
+      responsibilities: [
+        'Design and implement security controls for Workday\'s cloud infrastructure',
+        'Conduct security assessments and code reviews for application security',
+        'Respond to security incidents and lead forensic investigations',
+        'Develop security automation and monitoring capabilities',
+        'Partner with engineering teams to integrate security into development processes',
+        'Evaluate and implement security tools and technologies',
+        'Support compliance audits for SOC 2, ISO 27001, and other frameworks',
+        'Create security documentation and training materials',
+        'Stay current with emerging threats and security research'
+      ],
+      growthOpportunities: [
+        'Progress from Security Engineer to Senior or Staff Security Engineer',
+        'Transition to Security Architecture or Principal Security roles',
+        'Move into Security Engineering Manager or Director positions',
+        'Specialize in application security, cloud security, or incident response',
+        'Become a subject matter expert for compliance frameworks',
+        'Transition to CISO or security executive leadership',
+        'Lead enterprise-wide security transformation initiatives',
+        'Build thought leadership through research and speaking'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your security background and interests' },
+        { stage: 'Technical Screen', description: 'Assessment of security fundamentals and problem-solving approach' },
+        { stage: 'Virtual Onsite', description: '4-5 interviews covering security depth, coding, design, and behavioral' },
+        { stage: 'Security Case Study', description: 'Present analysis of a security scenario or past incident' },
+        { stage: 'Hiring Manager', description: 'Discussion of role expectations and career goals' }
+      ],
+      technicalQuestions: [
+        'How would you secure a multi-tenant SaaS application handling sensitive HR data?',
+        'Describe your approach to implementing zero-trust architecture',
+        'How would you design a security monitoring system for cloud infrastructure?',
+        'Explain your methodology for conducting threat modeling',
+        'How would you approach securing an API that handles payroll data?',
+        'Describe your strategy for implementing least-privilege access controls',
+        'How would you detect and respond to a data exfiltration attempt?',
+        'Explain your approach to securing container orchestration platforms',
+        'How would you implement secrets management across a large engineering organization?',
+        'Describe your methodology for security code review',
+        'How would you approach securing machine learning pipelines?',
+        'Explain your strategy for managing security in a CI/CD pipeline',
+        'How would you design a security awareness program for developers?',
+        'Describe your approach to vulnerability management at scale',
+        'How would you handle a potential insider threat investigation?',
+        'Explain your methodology for penetration testing web applications'
+      ],
+      behavioralQuestions: [
+        'Tell me about a security incident you responded to and how you handled it',
+        'Describe a time when you had to convince developers to fix a security issue',
+        'How have you balanced security requirements with development velocity?',
+        'Tell me about a security control you implemented that had significant impact',
+        'Describe how you\'ve built security culture within an engineering organization',
+        'How do you stay current with evolving threats and security research?',
+        'Tell me about a time you had to make a difficult risk-based decision',
+        'Describe how you\'ve contributed to building inclusive security teams',
+        'How have you handled disagreements about security priorities?',
+        'Tell me about a creative solution you developed for a security challenge',
+        'Describe how you\'ve mentored other security professionals',
+        'How do you approach explaining security risks to non-technical stakeholders?',
+        'Tell me about a time you identified a vulnerability others missed',
+        'Describe how you\'ve collaborated across teams on security initiatives'
+      ],
+      whatTheyLookFor: [
+        'Strong security fundamentals across application and infrastructure domains',
+        'Experience securing cloud-native and SaaS architectures',
+        'Programming ability for security automation and tool development',
+        'Understanding of enterprise compliance requirements',
+        'Collaborative approach to working with development teams',
+        'Clear communication skills for technical and non-technical audiences',
+        'Ability to balance security with business and development needs',
+        'Growth mindset and commitment to continuous learning',
+        'Alignment with Workday\'s VIBE values and ethical security practices',
+        'Experience with incident response and forensics'
+      ],
+      interviewTips: [
+        'Review cloud security fundamentals, especially AWS or GCP',
+        'Prepare examples of security controls you\'ve implemented',
+        'Be ready to discuss threat modeling and risk assessment approaches',
+        'Understand compliance frameworks relevant to HR and financial data',
+        'Practice explaining security concepts to non-security audiences',
+        'Prepare a case study of an incident or security project you led',
+        'Research Workday\'s security certifications and published security practices',
+        'Be ready to code—security engineering requires programming skills',
+        'Highlight experience with security in CI/CD and DevSecOps',
+        'Prepare questions about Workday\'s security team and culture',
+        'Be authentic about your security philosophy and approach',
+        'Show genuine interest in protecting sensitive employee data',
+        'Be ready to discuss how you stay current with security research',
+        'Demonstrate balanced thinking about security and usability tradeoffs'
+      ],
+      salary: {
+        min: 150000,
+        max: 280000,
+        average: 200000
+      },
+      compensation: [
+        'Competitive base salary reflecting security expertise',
+        'Restricted Stock Units (RSUs) with annual refresh',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Security conference and training budget',
+        'Home office and security tool allowances'
+      ],
+      dayInLife: {
+        intro: 'A Security Engineer at Workday balances proactive security work with incident response and collaboration.',
+        schedule: [
+          '8:30 AM - Review overnight security alerts and threat intelligence',
+          '9:00 AM - Security team standup to sync on projects and incidents',
+          '9:30 AM - Code review session for new authentication feature',
+          '11:00 AM - Threat modeling workshop with product team',
+          '12:00 PM - Lunch, often with security teammates',
+          '1:00 PM - Develop automation for security monitoring improvements',
+          '3:00 PM - Incident response: investigate potential phishing attempt',
+          '4:00 PM - Update security documentation and runbooks',
+          '5:00 PM - Sync with compliance team on upcoming audit',
+          '5:30 PM - Wrap up, check alerts before heading home'
+        ],
+        closing: 'Security Engineers participate in on-call rotation but Workday emphasizes sustainable schedules and incident prevention.'
+      },
+      similarRoles: [
+        'Application Security Engineer',
+        'Cloud Security Engineer',
+        'Security Operations Engineer',
+        'Infrastructure Security Engineer',
+        'Product Security Engineer'
+      ]
+    },
+
+    'sales-engineer': {
+      roleDescription: `Sales Engineers at Workday serve as the technical bridge between Workday's enterprise cloud solutions and the customers who depend on them. You'll partner with account executives to demonstrate how Workday HCM, Financial Management, and Adaptive Planning address complex business requirements for organizations ranging from mid-market companies to global enterprises. The role combines deep product expertise with consultative selling, requiring you to understand customer pain points in HR and finance and articulate how Workday's unified platform delivers value. Sales Engineers lead product demonstrations, answer technical questions, and build confidence in Workday's technology throughout the sales process. With Workday's customer-first approach and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll work in a collaborative sales environment that prioritizes long-term customer success over aggressive tactics. As part of one of Fortune's Best Companies to Work For, you'll help organizations make informed decisions about transforming their enterprise systems.`,
+      responsibilities: [
+        'Partner with account executives to provide technical expertise in sales engagements',
+        'Deliver compelling product demonstrations tailored to customer requirements',
+        'Lead technical discovery sessions to understand customer business processes',
+        'Answer technical questions and address objections during the sales process',
+        'Create custom demo environments and proof-of-concept solutions',
+        'Develop technical proposals and respond to RFP questions',
+        'Collaborate with solutions architects on complex deal architectures',
+        'Support customer reference calls and Workday Rising presentations',
+        'Provide market feedback to product teams based on customer interactions'
+      ],
+      growthOpportunities: [
+        'Progress from Sales Engineer to Senior or Principal Sales Engineer',
+        'Transition to Solutions Architect for strategic deals',
+        'Move into Sales Engineering Manager or Director roles',
+        'Transition to product management leveraging customer insights',
+        'Move into enterprise sales as an Account Executive',
+        'Specialize in specific industries or product areas',
+        'Become a demo and presentation skills coach',
+        'Transition to partner-facing technical roles'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your pre-sales or technical sales background' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your sales engineering approach and customer engagement style' },
+        { stage: 'Demo Presentation', description: 'Deliver a product demonstration showing presentation and technical skills' },
+        { stage: 'Sales Team Interview', description: 'Meet with account executives and sales leaders to assess collaboration fit' },
+        { stage: 'Final Interview', description: 'Conversation with regional leadership about territory and career goals' }
+      ],
+      technicalQuestions: [
+        'How would you demonstrate Workday HCM to a global enterprise with complex requirements?',
+        'Describe your approach to handling a competitive bake-off situation',
+        'How would you address concerns about SaaS vs. on-premise deployment?',
+        'Explain your methodology for discovery in enterprise sales cycles',
+        'How would you demonstrate ROI for a Workday investment?',
+        'Describe your approach to handling technical objections about integrations',
+        'How would you tailor a demo for HR vs. finance vs. IT stakeholders?',
+        'Explain your strategy for managing proof-of-concept requests',
+        'How would you differentiate Workday from Oracle or SAP in a demo?',
+        'Describe your approach to RFP responses for enterprise deals',
+        'How would you handle a question about functionality you\'re unsure of?',
+        'Explain your methodology for building customer-specific demo environments',
+        'How would you present Workday\'s security and compliance capabilities?',
+        'Describe your approach to multi-stakeholder presentations'
+      ],
+      behavioralQuestions: [
+        'Tell me about a complex deal you helped win through technical expertise',
+        'Describe a demo that went wrong and how you recovered',
+        'How have you built trust with customers who were skeptical of SaaS?',
+        'Tell me about a time you had to deliver bad news about product capabilities',
+        'Describe how you\'ve collaborated with sales teams on account strategies',
+        'How do you stay current with product changes and competitive landscape?',
+        'Tell me about a creative solution you presented to address a customer gap',
+        'Describe how you\'ve contributed to building inclusive customer relationships',
+        'How have you handled pressure from sales to overpromise on capabilities?',
+        'Tell me about a lost deal and what you learned from it',
+        'Describe how you\'ve mentored other sales engineers',
+        'How do you balance multiple deal support requests?',
+        'Tell me about a time you influenced product direction through customer feedback',
+        'Describe how you\'ve handled a difficult customer stakeholder'
+      ],
+      whatTheyLookFor: [
+        'Strong presentation and demo skills with executive presence',
+        'Technical depth in enterprise software, especially HCM or ERP',
+        'Consultative approach to understanding customer needs',
+        'Ability to translate technical concepts for business audiences',
+        'Collaborative partnership with sales teams',
+        'Resilience and professionalism under pressure',
+        'Understanding of enterprise sales cycles and stakeholders',
+        'Growth mindset and product learning agility',
+        'Alignment with Workday\'s VIBE values and ethical sales practices',
+        'Customer empathy and genuine interest in solving problems'
+      ],
+      interviewTips: [
+        'Prepare a polished demo presentation—practice until it\'s flawless',
+        'Research Workday\'s products and competitive positioning',
+        'Be ready to discuss enterprise sales cycles and stakeholder management',
+        'Prepare examples of deals you\'ve influenced through technical expertise',
+        'Understand common HR and finance pain points that Workday addresses',
+        'Practice handling objections gracefully and confidently',
+        'Prepare questions about Workday\'s sales culture and team dynamics',
+        'Be authentic about your sales engineering philosophy',
+        'Highlight experience with enterprise customers and complex requirements',
+        'Show genuine interest in customer success beyond closing deals',
+        'Be ready to discuss how you handle competitive situations',
+        'Research Workday Rising to understand customer engagement approach',
+        'Prepare to discuss how you stay current with product capabilities',
+        'Demonstrate comfort with travel and customer-facing work'
+      ],
+      salary: {
+        min: 130000,
+        max: 220000,
+        average: 170000
+      },
+      compensation: [
+        'Competitive base salary',
+        'Variable compensation tied to team quota attainment',
+        'Restricted Stock Units (RSUs)',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Travel expense coverage and per diem',
+        'Demo equipment and home office allowance'
+      ],
+      dayInLife: {
+        intro: 'A Sales Engineer at Workday balances customer-facing activities with demo preparation and internal collaboration.',
+        schedule: [
+          '8:00 AM - Review product updates and prep for customer demo',
+          '9:00 AM - Team sync with account executives on deal strategies',
+          '10:00 AM - Customer discovery call for new enterprise opportunity',
+          '11:30 AM - Build custom demo scenarios based on discovery findings',
+          '12:00 PM - Lunch, sometimes with sales teammates',
+          '1:00 PM - Executive product presentation for prospect CIO and CHRO',
+          '3:00 PM - Debrief with AE and document follow-up items',
+          '3:30 PM - RFP response drafting for pending deal',
+          '4:30 PM - Prep demo environment for tomorrow\'s presentation',
+          '5:30 PM - Wrap up and review tomorrow\'s schedule'
+        ],
+        closing: 'Sales Engineers travel 40-60% depending on territory, with flexibility for remote customer engagements.'
+      },
+      similarRoles: [
+        'Pre-Sales Engineer',
+        'Solutions Consultant',
+        'Technical Sales Specialist',
+        'Demo Engineer',
+        'Customer Solutions Engineer'
+      ]
+    },
+
+    'support-engineer': {
+      roleDescription: `Support Engineers at Workday ensure that customers can successfully leverage their Workday investment to manage HR, finance, and planning operations. You'll troubleshoot and resolve technical issues for organizations that depend on Workday for critical business processes—from processing payroll for thousands of employees to closing financial books on time. The role combines deep product expertise with problem-solving skills, requiring you to diagnose issues across Workday's integrated platform and provide clear guidance to customers of varying technical sophistication. Support Engineers collaborate with engineering teams to escalate and resolve complex issues, contributing to product improvements based on customer feedback. With Workday's legendary focus on customer satisfaction and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll work in an environment that genuinely prioritizes customer success. As part of one of Fortune's Best Companies to Work For, you'll help ensure that organizations can rely on Workday for their most important operations.`,
+      responsibilities: [
+        'Diagnose and resolve technical issues for Workday HCM, Financials, or Planning',
+        'Provide expert guidance to customers on product functionality and best practices',
+        'Collaborate with engineering teams to escalate and resolve complex issues',
+        'Create and maintain knowledge base articles and documentation',
+        'Monitor customer tenants and proactively identify potential issues',
+        'Support customers during critical events like payroll runs and financial close',
+        'Contribute to continuous improvement of support processes and tools',
+        'Mentor junior support engineers and share expertise with the team',
+        'Participate in root cause analysis for systemic issues'
+      ],
+      growthOpportunities: [
+        'Progress from Support Engineer to Senior or Principal Support Engineer',
+        'Transition to Support Engineering Manager or Team Lead roles',
+        'Move into product engineering or site reliability engineering',
+        'Specialize in complex functional areas as a subject matter expert',
+        'Transition to customer success management',
+        'Move into implementation consulting or professional services',
+        'Become a technical trainer or enablement specialist',
+        'Transition to product management leveraging customer insights'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your support or technical background' },
+        { stage: 'Technical Assessment', description: 'Problem-solving and troubleshooting assessment' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your support philosophy and customer service approach' },
+        { stage: 'Team Interviews', description: 'Meet with support engineers and partners to assess collaboration fit' },
+        { stage: 'Final Interview', description: 'Conversation about role expectations and career goals' }
+      ],
+      technicalQuestions: [
+        'How would you troubleshoot a payroll calculation that appears incorrect?',
+        'Describe your methodology for diagnosing integration failures',
+        'How would you approach a customer reporting slow performance?',
+        'Explain your process for escalating issues to engineering teams',
+        'How would you handle a critical issue during a customer\'s payroll run?',
+        'Describe your approach to documenting complex troubleshooting steps',
+        'How would you prioritize multiple urgent customer issues?',
+        'Explain your methodology for root cause analysis',
+        'How would you explain a technical issue to a non-technical HR administrator?',
+        'Describe your approach to testing and validating issue resolutions',
+        'How would you handle a customer frustrated by a recurring issue?',
+        'Explain your strategy for staying current with product changes',
+        'How would you approach an issue that spans multiple product areas?',
+        'Describe your methodology for creating knowledge base articles'
+      ],
+      behavioralQuestions: [
+        'Tell me about a complex technical issue you resolved and how you approached it',
+        'Describe a time when you turned around a frustrated customer relationship',
+        'How have you handled a situation where you couldn\'t immediately solve the issue?',
+        'Tell me about a time you identified a systemic issue that affected multiple customers',
+        'Describe how you\'ve collaborated with engineering on escalated issues',
+        'How do you stay calm and effective during high-pressure situations?',
+        'Tell me about a time you went above and beyond for a customer',
+        'Describe how you\'ve contributed to building inclusive support environments',
+        'How have you balanced helping customers with completing other responsibilities?',
+        'Tell me about a creative solution you developed for a challenging issue',
+        'Describe how you\'ve mentored other support engineers',
+        'How do you approach learning new product functionality?',
+        'Tell me about a time you received difficult feedback and how you responded',
+        'Describe how you\'ve contributed to improving support processes'
+      ],
+      whatTheyLookFor: [
+        'Strong troubleshooting and analytical skills',
+        'Customer service orientation with patience and empathy',
+        'Technical aptitude for learning enterprise software',
+        'Clear written and verbal communication skills',
+        'Ability to work effectively under pressure',
+        'Collaborative approach to working with teams and customers',
+        'Attention to detail in documentation and issue tracking',
+        'Growth mindset and commitment to continuous learning',
+        'Alignment with Workday\'s VIBE values and customer-first culture',
+        'Understanding of enterprise business processes in HR or finance'
+      ],
+      interviewTips: [
+        'Prepare examples of complex issues you\'ve troubleshot and resolved',
+        'Be ready to discuss your approach to difficult customer situations',
+        'Understand enterprise HR and finance concepts at a basic level',
+        'Practice explaining technical concepts to non-technical audiences',
+        'Prepare for scenario-based troubleshooting questions',
+        'Highlight experience with ticket systems and case management',
+        'Show genuine passion for helping customers succeed',
+        'Prepare questions about Workday\'s support culture and processes',
+        'Be ready to discuss how you handle stress and prioritization',
+        'Understand the importance of documentation in support roles',
+        'Be authentic about your experience level—Workday provides training',
+        'Highlight any experience with SaaS or enterprise software support',
+        'Be ready to discuss how you stay current with product changes',
+        'Demonstrate understanding of critical business processes like payroll'
+      ],
+      salary: {
+        min: 80000,
+        max: 150000,
+        average: 110000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs)',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Professional certification support',
+        'Shift differentials for coverage requirements'
+      ],
+      dayInLife: {
+        intro: 'A Support Engineer at Workday focuses on resolving customer issues while contributing to team knowledge and process improvement.',
+        schedule: [
+          '8:00 AM - Review overnight tickets and critical alerts',
+          '8:30 AM - Handoff meeting with previous shift on open issues',
+          '9:00 AM - Work on high-priority customer case: payroll calculation issue',
+          '10:30 AM - Team sync to discuss trends and share learnings',
+          '11:00 AM - Customer call to gather additional information on integration issue',
+          '12:00 PM - Lunch break',
+          '1:00 PM - Collaborate with engineering on escalated case',
+          '2:00 PM - Work on moderate priority cases from queue',
+          '3:30 PM - Document resolution and update knowledge base',
+          '4:00 PM - Proactive monitoring of assigned customer tenants',
+          '5:00 PM - Handoff notes for next shift and wrap up'
+        ],
+        closing: 'Support Engineers may participate in on-call rotation but Workday emphasizes work-life balance with sustainable scheduling.'
+      },
+      similarRoles: [
+        'Technical Support Specialist',
+        'Product Support Engineer',
+        'Application Support Analyst',
+        'Customer Support Engineer',
+        'Technical Customer Service Representative'
+      ]
+    }
+  },
+
   'lyft': {
     'software-engineer': {
       title: 'Software Engineer',
