@@ -20075,298 +20075,609 @@ export const rolePageContent = {
   },
   'netflix': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Netflix build and maintain the streaming service that entertains 250+ million members worldwide. You'll work on challenging problems in streaming technology, personalization, content delivery, and studio operations. Netflix's culture emphasizes freedom and responsibility, context over control, and high performance. Engineers have significant autonomy and impact.",
-
+      roleDescription: "Software Engineers at Netflix build and operate the streaming platform that entertains over 283 million members in 190+ countries. You'll work on challenging distributed systems problems across streaming technology, content delivery, personalization, studio operations, gaming, and advertising platforms. Netflix's legendary culture emphasizes freedom and responsibility—engineers have significant autonomy to make decisions and own their work end-to-end. The company operates without traditional management hierarchy, instead trusting talented individuals to act in Netflix's best interest. You'll work with cutting-edge technology including microservices architecture, cloud-native infrastructure on AWS, and real-time systems processing millions of events per second. Netflix engineers are expected to demonstrate good judgment, communicate candidly, and take ownership of both successes and failures. The compensation philosophy is simple: top-of-market pay with the flexibility to choose your salary vs stock options mix.",
       responsibilities: [
-        "Build scalable microservices and systems for Netflix's streaming platform",
-        "Design and implement features for content delivery, recommendation, or studio systems",
+        "Design and build scalable microservices powering Netflix's streaming platform",
         "Own services end-to-end including architecture, development, deployment, and operations",
-        "Collaborate across teams to deliver member-facing or internal platform features",
-        "Participate in on-call rotation and ensure service reliability"
+        "Build features for content delivery, recommendation, or studio production systems",
+        "Participate in on-call rotation ensuring service reliability for 283M+ members",
+        "Collaborate across teams to deliver member-facing and internal platform features",
+        "Conduct A/B experiments to measure impact of changes on member experience",
+        "Contribute to Netflix's open-source projects and engineering community",
+        "Make technical decisions balancing innovation with operational stability",
+        "Mentor team members and contribute to engineering culture"
       ],
-
       growthOpportunities: [
-        "Work on streaming technology serving 250+ million members globally",
-        "Significant autonomy and ownership with freedom and responsibility culture",
-        "Access to cutting-edge technology in cloud computing, distributed systems, and ML",
-        "Strong compensation including high cash and stock options",
-        "Opportunity to work on diverse problems from consumer to studio operations"
+        "Work on streaming technology at unprecedented global scale",
+        "Significant autonomy with Netflix's freedom and responsibility culture",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Access to cutting-edge cloud computing and distributed systems technology",
+        "Opportunity to work across diverse domains from consumer to studio to gaming",
+        "Contribute to influential open-source projects like Zuul, Eureka, and Chaos Monkey",
+        "Career growth through impact rather than traditional promotion ladders",
+        "Work with world-class engineers in a high-performance culture"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your background, interest in Netflix culture, and role fit. Overview of Netflix's freedom and responsibility principles.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of background, interest in Netflix culture, and alignment with freedom and responsibility values"
         },
         {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Coding interview focused on problem-solving, data structures, and algorithms. May also cover system design depending on level.",
-          duration: "60 minutes"
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Coding interview focused on problem-solving, data structures, and algorithms with emphasis on practical application"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Deep technical interviews including coding (2 rounds), system design (1-2 rounds), and culture fit. Focus on ownership, judgment, and communication.",
-          duration: "4-5 hours"
+          stage: "Onsite - Coding Round 1",
+          duration: "60 minutes",
+          description: "Algorithm and data structures problem with focus on code quality and problem-solving approach"
         },
         {
-          step: 4,
-          title: "Team Matching",
-          description: "If interviews go well, conversations with potential teams to find the best fit for your skills and interests.",
-          duration: "Varies"
+          stage: "Onsite - Coding Round 2",
+          duration: "60 minutes",
+          description: "Second coding round often focused on different problem domain or complexity level"
+        },
+        {
+          stage: "Onsite - System Design",
+          duration: "60 minutes",
+          description: "Design a large-scale distributed system relevant to Netflix's domain"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Deep dive into alignment with Netflix culture, judgment, and communication style"
         }
       ],
-
       technicalQuestions: [
-        "Design Netflix's video streaming and content delivery system",
-        "How would you implement the recommendation algorithm for Netflix homepage?",
-        "Design a system to detect and handle fraudulent account sharing",
-        "Implement A/B testing infrastructure for Netflix's UI",
-        "Design the encoding and transcoding pipeline for new content",
-        "How would you optimize Netflix's CDN for global content delivery?",
-        "Design a system to track and analyze viewing patterns across 250M members",
-        "Implement personalized search for Netflix content catalog",
-        "Design the system for managing Netflix's production studio operations",
-        "How would you handle service degradation gracefully during peak viewing times?"
+        "Design Netflix's video streaming and content delivery architecture",
+        "How would you build the recommendation system for Netflix's homepage?",
+        "Design a system to handle 283 million concurrent streaming sessions",
+        "How would you implement adaptive bitrate streaming for variable network conditions?",
+        "Design Netflix's A/B testing infrastructure for UI experiments",
+        "How would you build the encoding and transcoding pipeline for 4K HDR content?",
+        "Design a system to detect and prevent account sharing at scale",
+        "How would you implement Netflix's search and discovery features?",
+        "Design the architecture for Netflix's Open Connect CDN",
+        "How would you handle service degradation gracefully during peak viewing?",
+        "Design a real-time analytics system for viewing patterns across 190+ countries",
+        "How would you build Netflix's studio production scheduling system?",
+        "Design the payment and subscription management system for global markets",
+        "How would you implement Netflix's download-for-offline feature?",
+        "Design a system for personalized thumbnail selection at scale",
+        "How would you architect Netflix's gaming platform infrastructure?"
       ],
-
       behavioralQuestions: [
-        "Tell me about a time when you demonstrated good judgment in ambiguity",
-        "Describe a situation where you took ownership of a problem outside your scope",
-        "How have you given or received candid feedback?",
-        "Tell me about a time when you disagreed with a teammate and how you handled it",
-        "Describe a project where you had significant autonomy and responsibility",
+        "Tell me about a time you demonstrated good judgment in an ambiguous situation",
+        "Describe a situation where you took ownership of a problem outside your defined scope",
+        "How have you given or received candid, direct feedback?",
+        "Tell me about a time you disagreed with a teammate and how you resolved it",
+        "Describe a project where you had significant autonomy and how you handled it",
         "How do you prioritize when you have multiple competing demands?",
-        "Tell me about a time when you made a mistake - how did you handle it?",
-        "Describe how you've contributed to team culture and collaboration"
+        "Tell me about a mistake you made and how you handled it",
+        "Describe how you've contributed to building positive team culture",
+        "Tell me about a time you had to make a difficult decision without all the information",
+        "How have you balanced moving fast with maintaining quality?",
+        "Describe a situation where you had to influence others without authority",
+        "Tell me about a time you simplified a complex technical problem",
+        "How have you helped others grow in their careers?",
+        "Describe a time you had to communicate bad news to stakeholders",
+        "Tell me about a project that failed and what you learned"
       ],
-
       whatTheyLookFor: [
         "Strong coding skills and computer science fundamentals",
         "Experience building and operating distributed systems at scale",
         "Good judgment and decision-making in ambiguous situations",
-        "Ownership mentality - taking initiative and following through",
+        "Ownership mentality—taking initiative and following through completely",
         "Self-direction and ability to thrive with freedom and responsibility",
-        "Strong communication skills and ability to work collaboratively",
-        "Passion for entertainment and Netflix's member experience",
-        "Cultural fit with Netflix values - honesty, selflessness, and courage"
+        "Excellent communication skills with candor and directness",
+        "Passion for Netflix's mission to entertain the world",
+        "Cultural fit with Netflix values: judgment, communication, curiosity, courage",
+        "Track record of high impact in previous roles",
+        "Ability to work collaboratively across teams and functions"
       ],
-
       interviewTips: [
-        "Research Netflix's culture deck and understand freedom & responsibility principles",
-        "Use Netflix heavily - understand the product, UI, and member experience",
-        "Prepare examples demonstrating ownership, good judgment, and autonomy",
-        "Be ready for deep technical discussions on distributed systems and scalability",
-        "Show passion for entertainment technology and streaming innovation",
-        "Emphasize candid communication - Netflix values direct, honest feedback",
-        "Understand Netflix's technology blog and key engineering challenges",
-        "Ask thoughtful questions about team culture, technical challenges, and impact"
+        "Study Netflix's culture deck thoroughly—it's the foundation of everything",
+        "Use Netflix extensively and understand the product deeply",
+        "Prepare specific examples demonstrating ownership and good judgment",
+        "Practice system design for streaming and distributed systems problems",
+        "Be ready for candid, direct conversations—Netflix values honesty",
+        "Research Netflix's tech blog and understand their engineering challenges",
+        "Prepare examples of times you operated with autonomy and responsibility",
+        "Show passion for entertainment technology and member experience",
+        "Be prepared to discuss trade-offs and decision-making frameworks",
+        "Ask thoughtful questions about team culture and technical challenges",
+        "Demonstrate curiosity and continuous learning mindset",
+        "Be authentic—Netflix culture fit is about genuine alignment, not performance",
+        "Prepare to discuss failures openly and what you learned",
+        "Understand Netflix's compensation model and be ready to discuss expectations"
       ],
-
-      dayInLife: {
-        overview: "Netflix engineers have significant autonomy and ownership. Your day includes coding, system design, cross-team collaboration, and operational responsibilities. Netflix emphasizes context over control and trusts engineers to make good decisions.",
-        schedule: [
-          {
-            time: "10:00 AM",
-            activity: "Check Metrics & Alerts",
-            description: "Review service health dashboards and any overnight alerts"
-          },
-          {
-            time: "10:30 AM",
-            activity: "Feature Development",
-            description: "Code new personalization algorithm for homepage recommendations"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Lunch & Team Discussion",
-            description: "Informal team lunch discussing technical approaches"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Design Collaboration",
-            description: "Work with PM and design to finalize new feature specifications"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Code Review",
-            description: "Review pull requests from teammates, provide detailed feedback"
-          },
-          {
-            time: "3:30 PM",
-            activity: "System Design Discussion",
-            description: "Architecture review for scaling content delivery system"
-          },
-          {
-            time: "4:30 PM",
-            activity: "A/B Test Analysis",
-            description: "Analyze results from recent experiment, decide on rollout"
-          },
-          {
-            time: "5:30 PM",
-            activity: "On-call Response",
-            description: "Investigate and resolve service degradation alert"
-          }
-        ]
+      salary: {
+        min: 180000,
+        max: 450000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
-      ]
+      compensation: [
+        "Base salary range: $180,000 - $450,000 depending on level and location",
+        "No traditional bonus—all compensation in salary and stock options",
+        "Employees choose annually how to allocate between salary and options",
+        "Stock options vest monthly over 4 years with no cliff",
+        "Top-of-market pay philosophy based on what it would take to replace you",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO (take what you need, when you need it)",
+        "No tracking of vacation days—trust-based system",
+        "Comprehensive health, dental, and vision coverage",
+        "Generous parental leave policy"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Software Engineer at Netflix involves significant autonomy, ownership of your work, and collaboration with talented colleagues in a high-trust environment.",
+        schedule: [
+          "10:00 AM - Check service health dashboards and review overnight alerts",
+          "10:30 AM - Deep work on new feature for streaming quality optimization",
+          "12:00 PM - Lunch with teammates, informal discussion of technical approaches",
+          "1:00 PM - Cross-functional sync with product and design on upcoming initiative",
+          "2:00 PM - Code review and architecture discussion with team",
+          "3:30 PM - A/B test analysis for recently launched experiment",
+          "4:30 PM - On-call triage and incident response preparation",
+          "5:30 PM - Personal learning time—exploring new technology or Netflix tech blog"
+        ],
+        closing: "Netflix engineers enjoy tremendous autonomy and ownership, with the responsibility to use good judgment in service of entertaining the world."
+      },
+      similarRoles: ["Machine Learning Engineer", "Site Reliability Engineer", "Data Engineer", "Security Engineer"]
     },
-
     'machine-learning-engineer': {
-      roleDescription: "Machine Learning Engineers at Netflix build the recommendation and personalization systems that help 250+ million members discover content they'll love. You'll work on large-scale ML systems for personalization, search, content understanding, and studio analytics. Netflix combines cutting-edge ML research with production engineering at massive scale.",
-
+      roleDescription: "Machine Learning Engineers at Netflix build the recommendation and personalization systems that help 283 million members discover content they'll love. You'll work on large-scale ML systems including the famous Netflix recommendation engine, search ranking, content understanding, promotional media optimization, and predictive models for content investment decisions. Netflix pioneered the use of ML in entertainment—the $1 million Netflix Prize in 2009 launched modern recommendation systems. Today, ML touches nearly every aspect of the member experience, from personalized artwork to viewing predictions. You'll have access to massive-scale data, cutting-edge infrastructure, and the freedom to experiment with novel approaches. Netflix ML Engineers combine research innovation with production engineering excellence, deploying models that serve billions of predictions daily while maintaining the reliability members expect.",
       responsibilities: [
         "Design and implement ML models for recommendation, personalization, and search",
-        "Build scalable ML infrastructure and pipelines for model training and serving",
-        "Conduct A/B experiments to measure impact of ML improvements on member experience",
-        "Collaborate with product, engineering, and data science teams",
-        "Monitor and optimize ML model performance in production"
+        "Build scalable ML infrastructure and pipelines for training and serving at scale",
+        "Conduct rigorous A/B experiments measuring ML impact on member engagement",
+        "Develop novel algorithms for content understanding and metadata enrichment",
+        "Optimize model serving for low latency across 283 million members",
+        "Collaborate with product, engineering, and research teams on ML strategy",
+        "Monitor and improve ML model performance in production",
+        "Contribute to Netflix's ML platform enabling other teams to leverage ML",
+        "Stay current with ML research and apply innovations to Netflix problems"
       ],
-
       growthOpportunities: [
-        "Work on ML systems impacting content discovery for 250+ million members",
-        "Access to massive-scale data and cutting-edge ML technologies",
-        "Significant autonomy to experiment and innovate with ML approaches",
-        "Strong compensation with high cash and stock options",
-        "Opportunity to publish research and contribute to ML community"
+        "Work on ML systems directly impacting content discovery for 283M members",
+        "Access to massive-scale data and world-class ML infrastructure",
+        "Significant autonomy to experiment with novel ML approaches",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Opportunity to publish research and present at top ML conferences",
+        "Contribute to Netflix's influential ML blog and open-source projects",
+        "Work alongside leading ML researchers and practitioners",
+        "Shape the future of entertainment through personalization at scale"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your ML experience, interest in Netflix, and role fit. Overview of Netflix's ML work and culture.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of ML background, Netflix culture fit, and role expectations"
         },
         {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "ML fundamentals covering algorithms, model design, and practical ML problems. May include coding or system design.",
-          duration: "60 minutes"
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "ML fundamentals covering algorithms, model design, and practical problem-solving"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Deep ML interviews covering algorithms, system design, coding, and experimentation. Focus on practical ML engineering and production systems.",
-          duration: "4-5 hours"
+          stage: "Onsite - ML Depth",
+          duration: "60 minutes",
+          description: "Deep dive into ML algorithms, model architecture, and optimization techniques"
         },
         {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with ML teams (recommendations, search, content understanding) to find best fit.",
-          duration: "Varies"
+          stage: "Onsite - Coding",
+          duration: "60 minutes",
+          description: "Programming interview with ML-relevant problems and data manipulation"
+        },
+        {
+          stage: "Onsite - ML System Design",
+          duration: "60 minutes",
+          description: "Design an end-to-end ML system for a Netflix-scale recommendation problem"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of alignment with Netflix values and collaboration style"
         }
       ],
-
       technicalQuestions: [
-        "Design Netflix's recommendation system architecture",
-        "How would you improve click-through rate for Netflix homepage rows?",
+        "Design Netflix's recommendation system from data collection to serving",
+        "How would you improve the homepage personalization algorithm?",
         "Design an ML system to predict which shows a member will binge-watch",
-        "How would you personalize Netflix search results?",
-        "Design a content understanding system to tag and categorize new titles",
-        "How would you detect and reduce bias in recommendation algorithms?",
-        "Design an A/B testing framework for ML model improvements",
-        "How would you optimize model serving latency for 250M members?",
+        "How would you personalize search results for different member segments?",
+        "Design a content understanding system to automatically tag and categorize titles",
+        "How would you detect and mitigate bias in recommendation algorithms?",
+        "Design the A/B testing framework for ML model experiments",
+        "How would you handle the cold-start problem for new Netflix members?",
         "Design a system to predict content popularity before release",
-        "How would you handle cold-start problem for new Netflix members?"
+        "How would you optimize model serving latency for real-time recommendations?",
+        "Design a personalized thumbnail selection system at scale",
+        "How would you build a multi-objective ranking system for homepage rows?",
+        "Design an ML system to optimize promotional media effectiveness",
+        "How would you implement explore-exploit strategies in recommendations?",
+        "Design a system to predict member churn and suggest interventions",
+        "How would you build embeddings for Netflix's content catalog?"
       ],
-
       behavioralQuestions: [
         "Tell me about an ML project that didn't perform as expected in production",
         "Describe how you've balanced model complexity with production constraints",
         "How have you communicated ML results to non-technical stakeholders?",
-        "Tell me about a time when you had to debug a complex ML model issue",
-        "Describe your approach to A/B testing and experimentation",
-        "How do you stay current with ML research and apply it to production?",
-        "Tell me about a time when you took ownership of an ML infrastructure problem",
-        "Describe how you've collaborated with product and engineering teams"
+        "Tell me about debugging a complex ML model issue in production",
+        "Describe your approach to experimentation and measuring ML impact",
+        "How do you stay current with ML research and apply it practically?",
+        "Tell me about taking ownership of ML infrastructure improvements",
+        "Describe collaborating with product teams to define ML success metrics",
+        "How have you handled disagreements about model design decisions?",
+        "Tell me about a time you simplified an overly complex ML solution",
+        "Describe building an ML system from research prototype to production",
+        "How have you mentored others on ML best practices?",
+        "Tell me about a risky ML experiment you advocated for",
+        "Describe handling unexpected model behavior in production",
+        "How have you contributed to ML platform improvements for other teams?"
       ],
-
       whatTheyLookFor: [
-        "Strong ML fundamentals - algorithms, model design, and evaluation",
-        "Production ML experience - deploying and operating ML systems at scale",
-        "Software engineering skills - writing clean, scalable code",
-        "Experimentation mindset - rigorous A/B testing and data analysis",
-        "Experience with recommendation systems, personalization, or search",
+        "Strong ML fundamentals—algorithms, model design, and evaluation methodology",
+        "Production ML experience—deploying and operating models at scale",
+        "Solid software engineering skills—clean, maintainable, efficient code",
+        "Experimentation mindset—rigorous A/B testing and causal inference",
+        "Experience with recommendation systems, personalization, or ranking",
         "Strong communication skills to explain ML concepts to diverse audiences",
-        "Ownership and autonomy - self-directed problem-solving",
-        "Passion for using ML to improve member experience"
+        "Ownership mentality—end-to-end responsibility for ML systems",
+        "Curiosity and passion for applying ML to entertainment",
+        "Track record of shipping impactful ML features",
+        "Collaborative approach to working across teams"
       ],
-
       interviewTips: [
-        "Use Netflix and think deeply about how personalization works",
+        "Use Netflix extensively and think deeply about how personalization works",
         "Prepare to discuss end-to-end ML projects from research to production",
-        "Understand recommendation systems, collaborative filtering, and ranking algorithms",
-        "Be ready to discuss A/B testing, experimentation, and metrics",
-        "Show examples of balancing model accuracy with production constraints",
-        "Research Netflix's ML tech blog and publications",
-        "Emphasize both ML depth and software engineering skills",
-        "Ask about the team's ML challenges, data, and infrastructure"
+        "Master recommendation algorithms: collaborative filtering, matrix factorization, deep learning",
+        "Understand A/B testing, experimentation design, and statistical significance",
+        "Be ready to discuss balancing model accuracy with latency and cost",
+        "Research Netflix's ML tech blog and published papers thoroughly",
+        "Prepare examples showing both ML depth and engineering excellence",
+        "Understand Netflix's culture deck and values deeply",
+        "Be ready to whiteboard ML system designs with clear trade-offs",
+        "Show genuine passion for entertainment and member experience",
+        "Prepare questions about the team's ML challenges and infrastructure",
+        "Be honest about what you don't know—intellectual humility is valued",
+        "Practice explaining complex ML concepts simply",
+        "Demonstrate curiosity about novel ML approaches and research"
       ],
-
-      dayInLife: {
-        overview: "Netflix ML Engineers combine research, experimentation, and production engineering. Your day includes model development, A/B test analysis, infrastructure work, and cross-functional collaboration with significant autonomy.",
-        schedule: [
-          {
-            time: "9:30 AM",
-            activity: "Experiment Analysis",
-            description: "Analyze A/B test results for new ranking algorithm"
-          },
-          {
-            time: "10:30 AM",
-            activity: "Model Development",
-            description: "Train and evaluate new recommendation model with updated features"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Lunch & ML Discussion",
-            description: "Informal lunch discussing latest ML research papers"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Cross-functional Collaboration",
-            description: "Meet with product team to discuss personalization strategy"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Infrastructure Improvement",
-            description: "Optimize ML feature pipeline for lower latency"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Model Debugging",
-            description: "Investigate why certain recommendations underperformed"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Production Deployment",
-            description: "Deploy new model to production with canary rollout"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Research & Learning",
-            description: "Read new papers on transformer-based recommendation systems"
-          }
-        ]
+      salary: {
+        min: 200000,
+        max: 500000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
-      ]
+      compensation: [
+        "Base salary range: $200,000 - $500,000 depending on level and expertise",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy benchmarked against leading tech companies",
+        "Annual market-based compensation adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Comprehensive health benefits including mental health support",
+        "Generous parental leave and family support",
+        "Learning and development budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as an ML Engineer at Netflix combines research, experimentation, and production engineering with significant autonomy to drive your work.",
+        schedule: [
+          "9:30 AM - Analyze A/B test results from new ranking algorithm experiment",
+          "10:30 AM - Train and evaluate updated recommendation model with new features",
+          "12:00 PM - Lunch and informal ML paper discussion with colleagues",
+          "1:00 PM - Sync with product team on personalization strategy and metrics",
+          "2:30 PM - Optimize ML feature pipeline for improved serving latency",
+          "3:30 PM - Debug recommendation quality issues for specific member segments",
+          "4:30 PM - Deploy new model to production with careful canary rollout",
+          "5:30 PM - Research time—review latest papers on transformer-based recommendations"
+        ],
+        closing: "Netflix ML Engineers enjoy the unique opportunity to directly impact how hundreds of millions of people discover entertainment they love."
+      },
+      similarRoles: ["Software Engineer", "Data Scientist", "Research Scientist", "Data Engineer"]
+    },
+    'data-engineer': {
+      roleDescription: "Data Engineers at Netflix build and maintain the data infrastructure that powers decisions across every aspect of the business—from content investment and personalization to streaming optimization and financial planning. You'll work with petabyte-scale data pipelines processing billions of events daily from 283 million members worldwide. Netflix pioneered many data engineering practices now standard in the industry, and the team continues to push boundaries with cutting-edge technologies. You'll work with the Netflix data platform including Apache Spark, Presto, Iceberg, and proprietary systems built for entertainment-scale data challenges. The role spans multiple domains: content analytics helping decide which shows to produce, member analytics understanding viewing behavior, streaming analytics optimizing quality of experience, and financial analytics driving business decisions. Netflix Data Engineers operate with significant autonomy, owning their pipelines end-to-end and making architectural decisions that impact how the entire company uses data.",
+      responsibilities: [
+        "Design and build scalable data pipelines processing petabytes of streaming and behavioral data",
+        "Develop and maintain data warehouse architecture supporting analytics and ML use cases",
+        "Create self-service data platforms enabling analysts and scientists across Netflix",
+        "Implement data quality frameworks ensuring accuracy for critical business decisions",
+        "Build real-time streaming systems for immediate data availability",
+        "Optimize query performance on Spark and Presto for interactive analytics",
+        "Design data models supporting content, member, and financial analytics",
+        "Collaborate with ML teams on feature engineering and model data pipelines",
+        "Ensure data governance and privacy compliance across global data assets"
+      ],
+      growthOpportunities: [
+        "Work on data infrastructure at unprecedented entertainment industry scale",
+        "Contribute to and learn from Netflix's influential open-source data projects",
+        "Significant autonomy to design and build data systems end-to-end",
+        "Top-of-market compensation with flexible salary/stock mix",
+        "Opportunity to shape how Netflix uses data across all business functions",
+        "Access to cutting-edge data technologies and massive compute resources",
+        "Work with world-class data engineers and scientists",
+        "Career growth through impact on critical business decisions"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of data engineering background and Netflix culture alignment"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "SQL proficiency, data modeling concepts, and pipeline architecture discussion"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "60 minutes",
+          description: "Python/Scala coding focused on data manipulation and efficient processing"
+        },
+        {
+          stage: "Onsite - SQL Deep Dive",
+          duration: "60 minutes",
+          description: "Complex SQL problems including window functions, optimization, and schema design"
+        },
+        {
+          stage: "Onsite - Data System Design",
+          duration: "60 minutes",
+          description: "Design a data pipeline or warehouse architecture for a Netflix-scale problem"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and collaboration approach"
+        }
+      ],
+      technicalQuestions: [
+        "Design a data pipeline to process Netflix viewing events from 283M members",
+        "How would you build a real-time analytics system for streaming quality metrics?",
+        "Design a data model for analyzing content performance across regions",
+        "How would you implement exactly-once processing in a distributed data pipeline?",
+        "Design the data architecture for Netflix's content recommendation features",
+        "How would you handle late-arriving data in streaming analytics?",
+        "Design a system to track A/B test metrics in real-time",
+        "How would you optimize a Spark job processing terabytes of viewing data?",
+        "Design a data quality monitoring system for critical business metrics",
+        "How would you implement data lineage tracking across thousands of pipelines?",
+        "Design a feature store for ML models serving recommendations",
+        "How would you handle schema evolution in Netflix's data lake?",
+        "Design a system for content metadata enrichment and cataloging",
+        "How would you implement cost-efficient data retention policies?",
+        "Design the data infrastructure for Netflix's gaming analytics",
+        "How would you build data pipelines supporting financial reporting?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a data pipeline you built that had significant business impact",
+        "Describe a time you improved data quality for a critical system",
+        "How have you handled conflicting requirements from multiple stakeholders?",
+        "Tell me about debugging a complex data pipeline failure",
+        "Describe balancing data freshness with accuracy requirements",
+        "How have you approached documentation for complex data systems?",
+        "Tell me about simplifying a complex data architecture",
+        "Describe mentoring others on data engineering best practices",
+        "How have you handled privacy requirements in data projects?",
+        "Tell me about making a difficult trade-off in data system design",
+        "Describe proactively identifying and fixing a data issue before impact",
+        "How do you stay current with evolving data technologies?",
+        "Tell me about driving alignment in a cross-functional data project",
+        "Describe optimizing costs for data infrastructure",
+        "How have you handled data incidents requiring immediate response?"
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills including complex queries and performance optimization",
+        "Experience with large-scale data processing (Spark, Presto, Hive)",
+        "Python or Scala proficiency for pipeline development",
+        "Understanding of distributed systems and data infrastructure",
+        "Track record building reliable, maintainable data systems",
+        "Experience with both batch and streaming data processing",
+        "Data quality mindset with attention to correctness and reliability",
+        "Ability to communicate data concepts to diverse stakeholders",
+        "Self-direction and ownership mentality aligned with Netflix culture",
+        "Collaborative approach to solving cross-functional data problems"
+      ],
+      interviewTips: [
+        "Practice complex SQL including window functions, CTEs, and optimization",
+        "Be ready to discuss data modeling trade-offs for different use cases",
+        "Prepare examples of pipelines you've built and their business impact",
+        "Study distributed data processing and failure handling patterns",
+        "Understand Netflix's data stack and their open-source contributions",
+        "Practice data system design for streaming and batch scenarios",
+        "Be prepared to discuss data quality and testing strategies",
+        "Research Netflix's data engineering blog posts and talks",
+        "Show genuine interest in entertainment data challenges",
+        "Understand Netflix culture and prepare values-aligned examples",
+        "Be ready to discuss real-time vs batch processing trade-offs",
+        "Prepare questions about Netflix's data platform and challenges",
+        "Demonstrate understanding of data governance and privacy",
+        "Show ownership mentality in how you discuss past projects"
+      ],
+      salary: {
+        min: 170000,
+        max: 400000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $170,000 - $400,000 depending on level",
+        "No bonus structure—all compensation in salary and stock options",
+        "Annual choice to allocate between salary and options",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay based on skills and market conditions",
+        "Annual compensation review and market adjustments",
+        "Unlimited PTO with trust-based flexibility",
+        "Comprehensive health, dental, and vision benefits",
+        "Parental leave and family support programs",
+        "Home office setup and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Data Engineer at Netflix involves building and maintaining critical data infrastructure while collaborating with teams across the company.",
+        schedule: [
+          "9:30 AM - Check data pipeline health dashboards and address any failures",
+          "10:00 AM - Deep work on new Spark pipeline for content performance analytics",
+          "12:00 PM - Lunch with data platform teammates discussing architecture",
+          "1:00 PM - Office hours helping analysts optimize their queries",
+          "2:00 PM - Design review for new data model supporting ML features",
+          "3:30 PM - Code review for teammate's data quality monitoring job",
+          "4:30 PM - Cross-functional sync with content strategy on data requirements",
+          "5:30 PM - Documentation and planning for next sprint priorities"
+        ],
+        closing: "Netflix Data Engineers enjoy the unique challenge of working with entertainment data at massive scale while maintaining the quality and reliability the business depends on."
+      },
+      similarRoles: ["Software Engineer", "Machine Learning Engineer", "Data Scientist", "Analytics Engineer"]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Netflix combine statistical rigor with business acumen to drive decisions that shape the future of entertainment. You'll work on problems ranging from content valuation and investment optimization to member behavior understanding and product experimentation. Netflix pioneered data-driven entertainment—using analytics to inform everything from which shows to produce to how to personalize the member experience. The Data Science team partners closely with content, product, marketing, and finance teams to translate business questions into analytical frameworks and actionable insights. You'll design and analyze A/B experiments at scale, build predictive models for content performance, and develop causal inference frameworks to understand what drives member engagement. Netflix Data Scientists operate with significant autonomy, owning their analyses end-to-end and presenting findings directly to senior leadership. The role requires both technical depth and the communication skills to influence decisions across the organization.",
+      responsibilities: [
+        "Design and analyze A/B experiments measuring product and content impact",
+        "Build predictive models for content valuation and investment decisions",
+        "Develop causal inference frameworks to understand member behavior",
+        "Partner with content teams to optimize programming strategy",
+        "Create dashboards and tools enabling self-service analytics across Netflix",
+        "Conduct deep-dive analyses answering strategic business questions",
+        "Communicate findings and recommendations to senior leadership",
+        "Collaborate with ML engineers on model development and deployment",
+        "Define success metrics and measurement frameworks for new initiatives"
+      ],
+      growthOpportunities: [
+        "Directly influence content investment decisions worth billions of dollars",
+        "Work with massive-scale behavioral data from 283M members globally",
+        "Significant autonomy to define and execute analytical projects",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Access to world-class experimentation and analytics infrastructure",
+        "Opportunity to shape how Netflix measures success across products",
+        "Present findings directly to C-suite executives and content leaders",
+        "Career growth through business impact rather than traditional hierarchy"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of data science background and Netflix culture alignment"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Statistics, experimentation design, and analytical problem-solving"
+        },
+        {
+          stage: "Onsite - Statistics & Experimentation",
+          duration: "60 minutes",
+          description: "Deep dive into statistical methods, A/B testing, and causal inference"
+        },
+        {
+          stage: "Onsite - SQL & Analytics",
+          duration: "60 minutes",
+          description: "Complex SQL problems and analytical case study discussion"
+        },
+        {
+          stage: "Onsite - Business Case",
+          duration: "60 minutes",
+          description: "Work through a business problem demonstrating analytical thinking"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and communication style"
+        }
+      ],
+      technicalQuestions: [
+        "Design an A/B test to measure impact of a new homepage layout",
+        "How would you build a model to predict which shows will be successful?",
+        "Design an experiment to understand optimal content release strategy",
+        "How would you measure the value of personalization to Netflix?",
+        "Design a framework for attributing member engagement to different factors",
+        "How would you detect and handle selection bias in observational data?",
+        "Design a metric to measure content quality across different genres",
+        "How would you build a churn prediction model and measure its impact?",
+        "Design an experiment with network effects (e.g., social features)",
+        "How would you optimize content investment across different regions?",
+        "Design a framework for measuring long-term vs short-term member value",
+        "How would you approach causal inference when A/B testing isn't possible?",
+        "Design metrics for measuring success of Netflix's gaming initiative",
+        "How would you balance exploration and exploitation in content recommendations?",
+        "Design an analysis to understand why certain demographics engage differently"
+      ],
+      behavioralQuestions: [
+        "Tell me about an analysis that changed a significant business decision",
+        "Describe a time you had to communicate complex statistical findings simply",
+        "How have you handled disagreement with stakeholders about methodology?",
+        "Tell me about an experiment that produced surprising results",
+        "Describe defining success metrics for an ambiguous business problem",
+        "How have you balanced statistical rigor with business timeline pressures?",
+        "Tell me about a time you identified a flaw in existing analysis",
+        "Describe collaborating with engineers to productionize an analysis",
+        "How have you influenced decisions when the data was inconclusive?",
+        "Tell me about building relationships with non-technical stakeholders",
+        "Describe a project where you had to be scrappy with limited data",
+        "How have you prioritized among multiple analytical requests?",
+        "Tell me about mentoring others on analytical best practices",
+        "Describe handling a situation where your analysis was wrong",
+        "How have you contributed to improving analytical practices on your team?"
+      ],
+      whatTheyLookFor: [
+        "Strong statistical foundations including experimentation and causal inference",
+        "SQL proficiency for complex analytical queries",
+        "Python or R skills for statistical analysis and modeling",
+        "Experience translating business questions into analytical frameworks",
+        "Track record of influencing decisions through data-driven insights",
+        "Excellent communication skills for diverse audiences",
+        "Intellectual curiosity and passion for understanding behavior",
+        "Ownership mentality aligned with Netflix culture",
+        "Ability to work independently and drive projects to completion",
+        "Collaborative approach to partnering with cross-functional teams"
+      ],
+      interviewTips: [
+        "Master A/B testing concepts: power analysis, multiple comparisons, duration",
+        "Be ready to discuss causal inference beyond randomized experiments",
+        "Practice SQL for complex analytical queries with real business context",
+        "Prepare examples of analyses that drove business decisions",
+        "Understand Netflix's content strategy and how data informs it",
+        "Study Netflix's experimentation culture and tech blog posts",
+        "Be ready to work through ambiguous business cases live",
+        "Show strong communication skills—clarity and conciseness matter",
+        "Prepare to discuss trade-offs in analytical methodology",
+        "Demonstrate genuine curiosity about entertainment and media",
+        "Understand Netflix culture deeply and prepare aligned examples",
+        "Be ready to explain statistical concepts without jargon",
+        "Prepare questions about the team's most impactful analyses",
+        "Show ownership mentality in how you discuss your work"
+      ],
+      salary: {
+        min: 170000,
+        max: 420000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $170,000 - $420,000 depending on level and expertise",
+        "No bonus—compensation through salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy based on impact and skills",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Comprehensive health, dental, and vision coverage",
+        "Mental health and wellness support",
+        "Generous parental leave policy"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Data Scientist at Netflix involves deep analytical work combined with cross-functional collaboration to drive business decisions.",
+        schedule: [
+          "9:30 AM - Review A/B test results from content placement experiment",
+          "10:30 AM - Deep analysis on content performance drivers for strategy meeting",
+          "12:00 PM - Lunch with content strategy partners discussing upcoming projects",
+          "1:00 PM - Present findings on member engagement patterns to leadership",
+          "2:30 PM - Design new experiment for testing release timing hypotheses",
+          "3:30 PM - Office hours helping product teams interpret their metrics",
+          "4:30 PM - Code review for teammate's predictive model",
+          "5:30 PM - Reading time—catching up on latest causal inference research"
+        ],
+        closing: "Netflix Data Scientists enjoy the unique opportunity to directly influence how billions of dollars in content investment are allocated while shaping the entertainment experience for hundreds of millions of members."
+      },
+      similarRoles: ["Machine Learning Engineer", "Data Engineer", "Product Manager", "Research Scientist"]
     }
   },
-
   'uber': {
     'software-engineer': {
       roleDescription: "Software Engineers at Uber build the technology that powers one of the world's largest mobility and delivery platforms, serving millions of riders, drivers, and eaters globally. You'll work on challenging problems in marketplace matching, real-time systems, mapping, payments, and logistics at massive scale. Uber values bold innovation, customer obsession, and moving fast.",
