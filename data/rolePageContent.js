@@ -27133,6 +27133,209 @@ export const rolePageContent = {
         { companyName: "Apple", companySlug: "apple", industry: "Technology" },
         { companyName: "Google", companySlug: "google", industry: "Technology" }
       ]
+    },
+
+    'account-executive': {
+      roleDescription: "Account Executives at Salesforce drive the company's growth by selling the world's leading CRM and AI platform to businesses of all sizes. You'll own the full sales cycle—from prospecting and discovery through negotiation and close—for Salesforce's suite of cloud products including Sales Cloud, Service Cloud, Marketing Cloud, and the revolutionary Agentforce AI platform. Salesforce AEs are trusted advisors who help customers transform their businesses through technology, backed by world-class sales training and a culture that celebrates success. With 8,000+ AE positions and compensation ranging from $60K-$200K+ OTE, this is one of the most sought-after enterprise sales roles in tech.",
+
+      responsibilities: [
+        "Own full sales cycle from prospecting through close for assigned territory or accounts",
+        "Develop and execute territory/account plans to achieve and exceed quota",
+        "Conduct discovery to understand customer business challenges and requirements",
+        "Demonstrate Salesforce solutions and articulate business value to stakeholders",
+        "Build relationships with C-level executives and key decision makers",
+        "Collaborate with Sales Engineers, Customer Success, and partners on deals",
+        "Accurately forecast pipeline and manage opportunities in Salesforce CRM",
+        "Stay current on Salesforce products, competitive landscape, and industry trends",
+        "Leverage Agentforce and AI tools to enhance sales productivity"
+      ],
+
+      growthOpportunities: [
+        "Clear promotion path from SMB AE to Mid-Market to Enterprise to Strategic accounts",
+        "Uncapped commission potential with accelerators for exceeding quota",
+        "Opportunity to specialize in industry verticals (Financial Services, Healthcare, Manufacturing)",
+        "Path to sales leadership, solutions engineering, or customer success roles",
+        "Access to Salesforce's renowned sales training and enablement programs",
+        "Internal mobility across Salesforce's cloud products and acquired companies",
+        "President's Club recognition for top performers",
+        "Build expertise in AI-powered sales with Agentforce"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about sales background, quota attainment history, and interest in Salesforce. Overview of territory, compensation, and team structure.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on sales methodology, deal experience, and approach to territory management. Expect detailed questions about past performance.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Role Play / Mock Pitch",
+          description: "Prepare and deliver a mock sales pitch or discovery call. Evaluated on questioning, objection handling, and ability to articulate value.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Panel Interview",
+          description: "Meet with cross-functional partners (SE, CSM, leadership) to assess collaboration skills, culture fit, and sales acumen.",
+          duration: "2-3 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base salary, uncapped commission, equity, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Walk me through your most complex deal from start to finish",
+        "How do you approach building pipeline in a new territory?",
+        "Describe your discovery process—what questions do you ask and why?",
+        "How would you position Salesforce against Microsoft Dynamics or HubSpot?",
+        "Tell me about a deal you lost and what you learned from it",
+        "How do you identify and engage multiple stakeholders in an enterprise deal?",
+        "Describe your approach to negotiation and closing",
+        "How do you leverage partners and internal resources to advance deals?",
+        "What's your methodology for accurate forecasting?",
+        "How would you explain the value of AI and Agentforce to a skeptical prospect?",
+        "Describe how you prioritize accounts in your territory",
+        "How do you handle a prospect who says they're happy with their current solution?",
+        "Walk me through how you'd conduct a business value assessment",
+        "How do you maintain urgency and momentum in long sales cycles?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you significantly exceeded your quota—what drove your success?",
+        "Describe a deal that was at risk and how you turned it around",
+        "How have you handled a situation where a customer was unhappy post-sale?",
+        "Tell me about a time you had to sell a product or feature you weren't confident in",
+        "Describe your approach to time management with competing priorities",
+        "How have you collaborated with solutions engineers on complex deals?",
+        "Tell me about a time you had to push back on a customer's unreasonable request",
+        "Describe how you've adapted your sales approach to different buyer personas",
+        "How have you handled rejection and maintained motivation?",
+        "Tell me about a creative approach you took to get into a difficult account",
+        "Describe your experience with multi-threaded selling",
+        "How have you leveraged customer references and case studies?",
+        "Tell me about a time you identified an upsell or cross-sell opportunity",
+        "Describe how you stay organized and manage your pipeline effectively"
+      ],
+
+      whatTheyLookFor: [
+        "Consistent track record of meeting or exceeding sales quota",
+        "Strong discovery and consultative selling skills",
+        "Ability to articulate business value to C-level executives",
+        "Experience with complex, multi-stakeholder enterprise sales",
+        "Excellent communication and presentation abilities",
+        "Resilience, competitiveness, and drive to succeed",
+        "Coachability and commitment to continuous improvement",
+        "Collaboration skills with internal teams and partners",
+        "Understanding of CRM, SaaS, and cloud technology",
+        "Alignment with Salesforce's values and Ohana culture"
+      ],
+
+      interviewTips: [
+        "Know your numbers—quota attainment, deal sizes, win rates, pipeline metrics",
+        "Prepare specific examples using STAR method (Situation, Task, Action, Result)",
+        "Research Salesforce products, especially newer offerings like Agentforce and Data Cloud",
+        "Understand Salesforce's competitive positioning vs Microsoft, HubSpot, Oracle",
+        "Practice your mock pitch—focus on discovery and value articulation",
+        "Show genuine curiosity about the prospect's business during role plays",
+        "Demonstrate your sales methodology (MEDDIC, Challenger, etc.)",
+        "Prepare thoughtful questions about territory, ramp expectations, and success metrics",
+        "Show enthusiasm for Salesforce's mission and culture",
+        "Be ready to discuss how you've used Salesforce CRM in your current role",
+        "Highlight examples of cross-functional collaboration",
+        "Show coachability—ask for feedback during role plays",
+        "Research the specific team/segment you're interviewing for",
+        "Understand Salesforce's approach to AI in sales"
+      ],
+
+      salary: {
+        min: 60000,
+        max: 120000,
+        avg: 85000
+      },
+
+      compensation: [
+        "Base salary: $60K-$120K depending on segment (SMB, Mid-Market, Enterprise)",
+        "On-target earnings (OTE): $120K-$250K+ with uncapped commission",
+        "Commission: Typically 50/50 split (base/variable) with accelerators",
+        "RSUs: Equity grants with 4-year vesting",
+        "Sign-on bonus for experienced hires",
+        "President's Club trips for top performers",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "7 paid volunteer days annually",
+        "Monthly wellness reimbursement",
+        "Flexible time off policy"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as a Salesforce Account Executive involves a mix of prospecting, customer meetings, deal progression, and collaboration with internal teams—all focused on helping customers succeed with Salesforce.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Pipeline Review",
+            description: "Review CRM dashboard, prioritize activities, and prepare for the day's meetings"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Prospecting Block",
+            description: "Execute outbound prospecting—calls, emails, LinkedIn outreach to target accounts"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Discovery Call",
+            description: "Conduct discovery meeting with new prospect to understand business challenges"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Deal Strategy",
+            description: "Meet with Solutions Engineer to prepare for afternoon demo"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Team Lunch",
+            description: "Lunch with team, share wins and learnings from recent deals"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Product Demo",
+            description: "Deliver customized Salesforce demo to prospect with SE support"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Proposal Review",
+            description: "Finalize pricing proposal and business case for opportunity in negotiation"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Executive Meeting",
+            description: "Join call with prospect's CFO to discuss ROI and business value"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Forecast Update",
+            description: "Update pipeline, log activities, and prepare forecast for weekly commit call"
+          }
+        ],
+        closing: "Salesforce AEs thrive in a fast-paced, high-energy environment where success is celebrated and the mission of customer success drives everything."
+      },
+
+      similarRoles: [
+        "Oracle Account Executive",
+        "Microsoft Account Executive",
+        "ServiceNow Account Executive",
+        "SAP Account Executive"
+      ]
     }
   },
 
@@ -28918,6 +29121,405 @@ export const rolePageContent = {
         closing: "Oracle Engineering Managers enjoy building teams that create foundational technology while developing engineers who become industry experts."
       },
       similarRoles: ["Software Engineer", "Cloud Solutions Architect", "Product Manager", "Director of Engineering"]
+    },
+
+    'account-executive': {
+      roleDescription: "Account Executives at Oracle drive revenue growth by selling the world's most comprehensive cloud infrastructure and enterprise software portfolio to businesses globally. You'll own relationships with enterprise customers, selling Oracle Cloud Infrastructure (OCI), Oracle Fusion Applications (ERP, HCM, SCM, CX), Autonomous Database, and industry-specific solutions. Oracle AEs are strategic partners who help customers modernize their technology infrastructure and business processes, competing head-to-head with AWS, Microsoft, and Salesforce. With compensation ranging from $100K-$300K+ OTE and access to Oracle's vast product portfolio, this role offers significant earning potential and career growth.",
+
+      responsibilities: [
+        "Own full sales cycle for Oracle Cloud and Applications within assigned territory or accounts",
+        "Develop strategic account plans to penetrate and grow enterprise relationships",
+        "Conduct discovery to understand customer's technology landscape and business objectives",
+        "Position Oracle solutions against AWS, Microsoft Azure, Salesforce, and SAP",
+        "Build relationships with C-suite executives, IT leaders, and line-of-business buyers",
+        "Collaborate with Solution Engineers, Consultants, and Partners on complex deals",
+        "Manage accurate pipeline and forecasting in Oracle's CRM systems",
+        "Drive cloud migration and modernization conversations with existing Oracle customers",
+        "Leverage Oracle's partner ecosystem to extend reach and accelerate deals"
+      ],
+
+      growthOpportunities: [
+        "Progression from Commercial to Enterprise to Strategic/Named accounts",
+        "Uncapped commission with significant accelerators for overachievement",
+        "Specialization opportunities in OCI, Applications, Industries, or Database",
+        "Path to sales leadership, solutions consulting, or business development roles",
+        "Access to Oracle's extensive sales training and certification programs",
+        "Global mobility opportunities across Oracle's worldwide operations",
+        "Build expertise across the full enterprise technology stack",
+        "Oracle Club recognition and incentive trips for top performers"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about sales background, enterprise experience, and interest in Oracle. Overview of territory, product focus, and compensation structure.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute deep dive on sales methodology, quota attainment, and experience with complex enterprise deals. Expect detailed questions about competitive wins.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Role Play / Presentation",
+          description: "Deliver a mock pitch or executive presentation. Focus on articulating business value and handling objections against competitors.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Panel Interview",
+          description: "Meet with sales leadership, solution engineers, and cross-functional partners to assess enterprise selling capabilities and culture fit.",
+          duration: "2-3 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, uncapped commission, equity, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Walk me through a complex enterprise deal you closed—what was your strategy?",
+        "How do you approach competitive displacement of AWS or Microsoft Azure?",
+        "Describe your discovery process for understanding a customer's technology landscape",
+        "How would you position Oracle Cloud Infrastructure against hyperscalers?",
+        "Tell me about a deal you won against Salesforce or SAP—what made the difference?",
+        "How do you navigate long enterprise sales cycles with multiple stakeholders?",
+        "Describe your approach to selling to both IT and line-of-business buyers",
+        "How do you leverage partners and system integrators in your deals?",
+        "What's your methodology for building pipeline in a mature territory?",
+        "How would you approach an existing Oracle customer for cloud migration?",
+        "Describe how you handle procurement and legal negotiations",
+        "How do you stay current on Oracle's product portfolio and competitive landscape?",
+        "Walk me through how you'd build an executive business case",
+        "How do you maintain deal momentum across 6-12+ month sales cycles?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about your most significant quota achievement and what drove it",
+        "Describe a competitive deal you lost and what you learned from it",
+        "How have you turned around a deal that was going to a competitor?",
+        "Tell me about a time you had to navigate complex internal politics at a customer",
+        "Describe your approach to building executive relationships",
+        "How have you collaborated with partners to accelerate or close deals?",
+        "Tell me about a time you had to sell a new product with limited customer references",
+        "Describe how you've managed a large territory with many accounts",
+        "How have you handled a situation where a customer was unhappy post-implementation?",
+        "Tell me about a creative approach you took to break into a competitive account",
+        "Describe your experience with multi-product or platform deals",
+        "How have you leveraged customer success stories in your selling?",
+        "Tell me about a time you had to push back on a customer's unrealistic expectations",
+        "Describe how you stay motivated during challenging quarters"
+      ],
+
+      whatTheyLookFor: [
+        "Proven track record of exceeding quota in enterprise software/cloud sales",
+        "Experience selling against major competitors (AWS, Microsoft, Salesforce, SAP)",
+        "Strong executive presence and C-suite relationship building skills",
+        "Understanding of enterprise technology—cloud, ERP, database, infrastructure",
+        "Strategic account planning and territory management capabilities",
+        "Resilience and persistence in complex, long-cycle enterprise deals",
+        "Collaboration skills with technical teams and channel partners",
+        "Strong business acumen and ability to build ROI-based value propositions",
+        "Hunter mentality with proven prospecting and pipeline generation skills",
+        "Competitive drive and commitment to winning"
+      ],
+
+      interviewTips: [
+        "Know your numbers inside and out—quota, attainment, deal sizes, win rates",
+        "Prepare detailed stories about competitive wins, especially against AWS/Azure/Salesforce",
+        "Research Oracle's product portfolio—OCI, Fusion Applications, Autonomous Database",
+        "Understand Oracle's competitive positioning and recent wins",
+        "Practice your executive pitch—focus on business outcomes and ROI",
+        "Be ready to discuss your approach to multi-stakeholder enterprise deals",
+        "Show understanding of cloud migration and digital transformation trends",
+        "Prepare thoughtful questions about territory, quota, and team structure",
+        "Demonstrate familiarity with Oracle's industry solutions if applying to a vertical",
+        "Be ready to discuss how you'd approach existing Oracle customers vs net-new",
+        "Show your competitive intelligence and market awareness",
+        "Highlight experience with partners and channel-led deals",
+        "Understand Oracle's strengths (database, integration, security)",
+        "Be prepared to discuss your sales methodology and process"
+      ],
+
+      salary: {
+        min: 100000,
+        max: 150000,
+        avg: 120000
+      },
+
+      compensation: [
+        "Base salary: $100K-$150K depending on segment and experience",
+        "On-target earnings (OTE): $200K-$350K+ with uncapped commission",
+        "Commission: Accelerators for exceeding quota (2-3x above 100%)",
+        "RSUs: Equity grants for senior roles",
+        "Sign-on bonus for experienced enterprise sellers",
+        "Oracle Club trips and recognition for top performers",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Employee Stock Purchase Plan (ESPP)",
+        "Paid time off and company holidays",
+        "Car allowance for field roles"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Oracle Account Executive involves strategic account planning, customer engagement, competitive positioning, and collaboration with technical teams to win complex enterprise deals.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Pipeline Review",
+            description: "Review opportunities, update forecast, and prioritize daily activities"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Account Planning",
+            description: "Develop strategy for strategic account, map stakeholders and competitive landscape"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Executive Briefing",
+            description: "Host customer CIO at Oracle office for executive briefing on OCI roadmap"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Partner Lunch",
+            description: "Meet with system integrator partner to discuss joint pipeline and deals"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Deal Strategy Session",
+            description: "Internal meeting with solution engineer and overlay specialists on key opportunity"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Customer Workshop",
+            description: "Lead cloud migration workshop with prospect's IT team"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Proposal Development",
+            description: "Work with deal desk on pricing and proposal for enterprise deal"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Prospecting",
+            description: "Execute outreach to target accounts for pipeline development"
+          }
+        ],
+        closing: "Oracle AEs operate as strategic advisors to enterprise customers, leveraging Oracle's comprehensive technology portfolio to drive transformational business outcomes."
+      },
+
+      similarRoles: [
+        "Salesforce Account Executive",
+        "SAP Account Executive",
+        "Microsoft Account Executive",
+        "AWS Account Executive"
+      ]
+    },
+
+    'customer-success-manager': {
+      roleDescription: "Customer Success Managers at Oracle ensure enterprise customers achieve maximum value from their Oracle Cloud investments, driving adoption, retention, and expansion across Oracle's comprehensive product portfolio. You'll serve as a trusted advisor to Fortune 500 companies and global enterprises, guiding them through cloud migrations, ERP transformations, and digital modernization initiatives. Oracle CSMs combine deep product expertise with strategic consulting skills to help customers realize ROI from Oracle Cloud Infrastructure (OCI), Fusion Applications, and Autonomous Database—with over 1,000+ CSM positions and compensation ranging from $100K-$200K+.",
+
+      responsibilities: [
+        "Own customer relationships and drive adoption of Oracle Cloud solutions post-sale",
+        "Develop and execute success plans aligned with customer business objectives",
+        "Monitor customer health metrics and proactively address risks to retention",
+        "Drive product adoption, usage optimization, and expansion opportunities",
+        "Coordinate with Support, Services, and Product teams to resolve customer issues",
+        "Conduct Executive Business Reviews (EBRs) to demonstrate value and ROI",
+        "Guide customers through cloud migrations, implementations, and go-lives",
+        "Identify upsell and cross-sell opportunities for account growth",
+        "Serve as voice of the customer to influence product roadmap"
+      ],
+
+      growthOpportunities: [
+        "Advance from CSM through Senior, Principal, to Director of Customer Success",
+        "Deep expertise across Oracle's comprehensive cloud and application portfolio",
+        "Path to customer success leadership, solutions consulting, or sales roles",
+        "Opportunity to specialize in OCI, Applications, Industries, or Database",
+        "Access to Oracle's extensive training and certification programs",
+        "Global mobility across Oracle's worldwide customer success organization",
+        "Build strategic relationships with enterprise executives",
+        "Influence product development through customer feedback"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about customer success background, Oracle product experience, and interest in the role. Overview of team structure and customer portfolio.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on customer success methodology, retention experience, and approach to driving adoption and value realization.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case Study / Presentation",
+          description: "Present a customer success scenario—develop a success plan, identify risks, and propose strategies for driving adoption and expansion.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Panel Interview",
+          description: "Meet with cross-functional partners (Sales, Services, Support, Product) to assess collaboration skills and customer-centric mindset.",
+          duration: "2-3 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base salary, bonus, equity, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How do you develop a success plan for a customer implementing Oracle Fusion ERP?",
+        "Describe your approach to driving adoption when users are resistant to change",
+        "How would you handle a customer at risk of churning due to implementation challenges?",
+        "Walk me through conducting an Executive Business Review with a C-level audience",
+        "How do you measure and demonstrate ROI for Oracle Cloud investments?",
+        "Describe your approach to identifying expansion opportunities within an account",
+        "How would you coordinate with Services and Support on a troubled implementation?",
+        "What metrics do you track to monitor customer health?",
+        "How do you balance reactive support with proactive success activities?",
+        "Describe your approach to guiding a customer through a cloud migration",
+        "How would you handle competing priorities across multiple enterprise customers?",
+        "What's your methodology for building executive relationships?",
+        "How do you stay current on Oracle's product portfolio and roadmap?",
+        "Describe how you'd approach a customer considering competitive alternatives"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you turned around an at-risk customer relationship",
+        "Describe a significant expansion or upsell you drove within a customer account",
+        "How have you handled a situation where a customer's expectations exceeded product capabilities?",
+        "Tell me about a time you had to deliver difficult news to a customer executive",
+        "Describe your approach to managing a large portfolio of enterprise customers",
+        "How have you collaborated with sales on renewal and expansion opportunities?",
+        "Tell me about a time you advocated for a customer with product or engineering teams",
+        "Describe how you've built executive relationships at customer organizations",
+        "How have you handled a customer escalation that required cross-functional coordination?",
+        "Tell me about a creative approach you took to drive product adoption",
+        "Describe your experience with enterprise software implementations or migrations",
+        "How have you measured and improved customer satisfaction in your role?",
+        "Tell me about a time you identified a risk before it became a major issue",
+        "Describe how you stay organized managing multiple customer relationships"
+      ],
+
+      whatTheyLookFor: [
+        "Proven track record in customer success, account management, or consulting",
+        "Experience with enterprise software, cloud platforms, or ERP systems",
+        "Strong executive communication and presentation skills",
+        "Ability to build trusted advisor relationships with C-level stakeholders",
+        "Analytical mindset with experience using data to drive decisions",
+        "Cross-functional collaboration skills",
+        "Understanding of customer success metrics (NPS, CSAT, adoption, retention)",
+        "Experience managing complex enterprise customer relationships",
+        "Technical aptitude to understand Oracle's product portfolio",
+        "Results-oriented with focus on customer outcomes"
+      ],
+
+      interviewTips: [
+        "Research Oracle's product portfolio—OCI, Fusion Applications, Autonomous Database",
+        "Prepare specific examples of customer retention and expansion success",
+        "Be ready to discuss your customer success methodology and metrics",
+        "Understand Oracle's competitive landscape (AWS, Microsoft, Salesforce, SAP)",
+        "Practice presenting an Executive Business Review or success plan",
+        "Show understanding of enterprise software implementation challenges",
+        "Prepare examples of cross-functional collaboration",
+        "Be ready to discuss how you handle at-risk customers",
+        "Demonstrate familiarity with customer health scoring and monitoring",
+        "Show genuine passion for customer success and outcomes",
+        "Prepare thoughtful questions about customer portfolio and team structure",
+        "Understand cloud migration and digital transformation trends",
+        "Be ready to discuss your approach to building executive relationships",
+        "Show how you balance reactive and proactive customer engagement"
+      ],
+
+      salary: {
+        min: 100000,
+        max: 180000,
+        avg: 135000
+      },
+
+      compensation: [
+        "Base salary: $100K-$180K depending on level and experience",
+        "Annual bonus: 15-25% of base salary tied to retention and expansion metrics",
+        "RSUs: Equity grants for senior roles",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Employee Stock Purchase Plan (ESPP)",
+        "Paid time off and company holidays",
+        "Learning and certification budget",
+        "Home office allowance for remote roles"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Oracle Customer Success Manager involves a mix of strategic planning, customer engagement, cross-functional coordination, and proactive outreach to ensure customers achieve their business objectives.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Health Dashboard Review",
+            description: "Review customer health scores, usage metrics, and support ticket status"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Internal Sync",
+            description: "Meet with support team on escalated issue for strategic customer"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Customer Check-in",
+            description: "Quarterly business review call with customer's IT leadership team"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Success Planning",
+            description: "Develop success plan for customer beginning Fusion ERP implementation"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Team Lunch",
+            description: "CSM team meeting to share best practices and learnings"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Executive Meeting",
+            description: "Meet with customer CFO to discuss ROI and expansion opportunities"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Cross-Functional Sync",
+            description: "Coordinate with Sales on upcoming renewal and expansion strategy"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Adoption Review",
+            description: "Analyze usage data and prepare adoption recommendations for customer"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update customer records, log activities, prepare for tomorrow"
+          }
+        ],
+        closing: "Oracle CSMs serve as strategic partners to enterprise customers, ensuring they realize maximum value from Oracle's comprehensive cloud and application portfolio."
+      },
+
+      similarRoles: [
+        "Salesforce Customer Success Manager",
+        "SAP Customer Success Manager",
+        "Microsoft Customer Success Manager",
+        "AWS Customer Success Manager"
+      ]
     }
   },
   'adobe': {
@@ -31303,6 +31905,406 @@ export const rolePageContent = {
         "Amazon DevOps Engineer",
         "Microsoft DevOps Engineer",
         "Netflix Platform Engineer"
+      ]
+    },
+
+    'account-executive': {
+      roleDescription: "Account Executives at Adobe drive enterprise growth by selling the world's leading digital experience and creative solutions to Fortune 500 companies and global brands. You'll own relationships with enterprise customers, selling Adobe Experience Cloud (marketing technology, analytics, personalization), Creative Cloud for Enterprise, and Document Cloud solutions. Adobe AEs help CMOs, CIOs, and digital leaders transform customer experiences and creative workflows, with total target compensation ranging from $155K-$357K. This role combines strategic enterprise selling with the opportunity to represent iconic products that shape how the world creates and engages digitally.",
+
+      responsibilities: [
+        "Own full sales cycle for Adobe Experience Cloud and Enterprise solutions",
+        "Develop and execute strategic account plans for Fortune 500 and enterprise customers",
+        "Conduct discovery to understand customer's digital experience and creative challenges",
+        "Build relationships with CMOs, CIOs, CDOs, and key decision makers",
+        "Position Adobe solutions against Salesforce, Oracle, and other competitors",
+        "Collaborate with Solutions Architects, Customer Success, and Partners on deals",
+        "Drive land-and-expand strategy within existing Adobe customers",
+        "Accurately forecast pipeline and manage opportunities in Salesforce",
+        "Stay current on Adobe products, digital experience trends, and competitive landscape"
+      ],
+
+      growthOpportunities: [
+        "Progression from Commercial to Enterprise to Strategic/Named accounts",
+        "Significant earning potential with TTC ranging from $155K-$357K+",
+        "Specialization in Experience Cloud, Creative Cloud Enterprise, or Document Cloud",
+        "Path to sales leadership, solutions architecture, or customer success roles",
+        "Access to Adobe's sales enablement and training programs",
+        "Global mobility across Adobe's worldwide operations",
+        "Build expertise in digital experience, marketing technology, and creative workflows",
+        "President's Club recognition for top performers"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about enterprise sales background and interest in Adobe. Overview of territory, product focus, and compensation structure.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute deep dive on sales methodology, quota attainment, and experience selling to marketing and IT executives.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Role Play / Executive Pitch",
+          description: "Deliver a mock executive pitch or discovery session. Focus on articulating digital transformation value and business outcomes.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Panel Interview",
+          description: "Meet with sales leadership, solutions architects, and customer success to assess enterprise selling capabilities and culture fit.",
+          duration: "2-3 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive TTC offer with base, commission, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Walk me through a complex enterprise deal you closed in the digital experience or marketing technology space",
+        "How do you approach selling to CMOs versus CIOs—what's different?",
+        "Describe your discovery process for understanding a customer's digital experience maturity",
+        "How would you position Adobe Experience Cloud against Salesforce Marketing Cloud?",
+        "Tell me about a competitive win and what differentiated your approach",
+        "How do you navigate long sales cycles with multiple stakeholders across marketing and IT?",
+        "Describe your approach to land-and-expand within existing customers",
+        "How do you leverage customer success and professional services in your deals?",
+        "What's your methodology for building executive-level relationships?",
+        "How would you approach a customer evaluating Adobe vs Oracle for their experience platform?",
+        "Describe how you build business cases and ROI models for enterprise deals",
+        "How do you stay current on digital experience trends and Adobe's product roadmap?",
+        "Walk me through how you'd structure a multi-product Adobe deal",
+        "How do you handle procurement and legal negotiations in enterprise deals?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about your most significant enterprise deal and what drove your success",
+        "Describe a deal you lost to a competitor and what you learned",
+        "How have you built relationships with C-level marketing executives?",
+        "Tell me about a time you had to navigate complex organizational dynamics at a customer",
+        "Describe your approach to managing a large territory with multiple enterprise accounts",
+        "How have you collaborated with solutions architects and customer success on deals?",
+        "Tell me about a time you had to sell a vision before a product was fully mature",
+        "Describe how you've adapted your approach for different industries",
+        "How have you handled a situation where a customer had a poor implementation experience?",
+        "Tell me about a creative approach you took to break into a strategic account",
+        "Describe your experience with executive presentations and board-level discussions",
+        "How have you leveraged customer references and case studies?",
+        "Tell me about a time you identified a significant expansion opportunity",
+        "Describe how you balance hunting new logos vs. growing existing accounts"
+      ],
+
+      whatTheyLookFor: [
+        "Proven track record of exceeding quota in enterprise software/SaaS sales",
+        "Experience selling to CMOs, marketing executives, and/or IT leadership",
+        "Understanding of digital experience, marketing technology, or creative workflows",
+        "Strong executive presence and relationship building skills",
+        "Strategic account planning and complex deal management capabilities",
+        "Experience with consultative, value-based selling methodologies",
+        "Collaboration skills with technical teams and partners",
+        "Competitive drive and passion for winning enterprise deals",
+        "Ability to articulate business value and ROI",
+        "Alignment with Adobe's mission of changing the world through digital experiences"
+      ],
+
+      interviewTips: [
+        "Know your numbers—quota attainment, deal sizes, average sales cycle, win rates",
+        "Prepare detailed stories about enterprise wins, especially in marketing tech or digital experience",
+        "Research Adobe's product portfolio—Experience Cloud, Creative Cloud Enterprise, Document Cloud",
+        "Understand Adobe's competitive positioning vs Salesforce, Oracle, and SAP",
+        "Practice your executive pitch focused on digital transformation and business outcomes",
+        "Be ready to discuss experience selling to marketing and/or IT executives",
+        "Show understanding of customer experience, personalization, and content management trends",
+        "Prepare thoughtful questions about territory, quota, and team structure",
+        "Demonstrate familiarity with Adobe's customer success stories and use cases",
+        "Be ready to discuss how you'd approach different industries (retail, financial services, etc.)",
+        "Show your approach to multi-threading and stakeholder management",
+        "Highlight experience with complex, multi-product enterprise deals",
+        "Understand Adobe's strengths in creative and experience technology",
+        "Be prepared to discuss your sales methodology and process"
+      ],
+
+      salary: {
+        min: 110000,
+        max: 180000,
+        avg: 140000
+      },
+
+      compensation: [
+        "Base salary: $110K-$180K depending on segment and experience",
+        "Total target compensation (TTC): $155K-$357K+ (base + commission)",
+        "Commission: Sales incentive plans with accelerators for overachievement",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for experienced enterprise sellers",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Free Creative Cloud subscription",
+        "Generous PTO and company holidays"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Account Executive involves strategic account engagement, executive relationship building, and positioning Adobe's digital experience solutions to transform how enterprises engage their customers.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Pipeline Review",
+            description: "Review opportunities, update forecast, and prepare for customer meetings"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Account Strategy",
+            description: "Develop strategy for strategic account expansion, coordinate with customer success"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Executive Meeting",
+            description: "Meet with prospect CMO to discuss digital experience transformation vision"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Internal Sync",
+            description: "Strategy session with solutions architect on upcoming technical workshop"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Customer Lunch",
+            description: "Lunch with existing customer stakeholder to discuss expansion opportunities"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Product Demo",
+            description: "Lead Experience Cloud demo for prospect's marketing and IT team"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Proposal Development",
+            description: "Work with deal desk on enterprise pricing and proposal"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Partner Call",
+            description: "Coordinate with SI partner on joint customer opportunity"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Admin & Planning",
+            description: "Update CRM, respond to emails, prepare for tomorrow's meetings"
+          }
+        ],
+        closing: "Adobe AEs serve as strategic partners to enterprise customers, helping them transform digital experiences and creative capabilities through Adobe's industry-leading technology."
+      },
+
+      similarRoles: [
+        "Salesforce Account Executive",
+        "Oracle Account Executive",
+        "SAP Account Executive",
+        "Microsoft Account Executive"
+      ]
+    },
+
+    'customer-success-manager': {
+      roleDescription: "Customer Success Managers at Adobe ensure enterprise customers achieve transformational outcomes from Adobe Experience Cloud, Creative Cloud for Enterprise, and Document Cloud investments. You'll serve as a trusted advisor to Fortune 500 companies and global brands, driving adoption, retention, and expansion of Adobe's digital experience and creative solutions. Adobe CSMs help CMOs, CDOs, and digital leaders maximize ROI from their Adobe investments—with compensation ranging from $135K-$234K and the opportunity to represent iconic products that shape how the world creates and engages digitally.",
+
+      responsibilities: [
+        "Own customer relationships and drive adoption of Adobe Experience Cloud solutions",
+        "Develop and execute success plans aligned with customer's digital experience goals",
+        "Monitor customer health metrics and proactively address risks to retention and renewal",
+        "Drive product adoption, usage optimization, and identification of expansion opportunities",
+        "Conduct Executive Business Reviews to demonstrate value and strategic alignment",
+        "Coordinate with Support, Professional Services, and Product teams on customer needs",
+        "Guide customers through implementations, integrations, and go-lives",
+        "Partner with Sales on renewals and expansion opportunities",
+        "Serve as voice of the customer to influence Adobe's product roadmap"
+      ],
+
+      growthOpportunities: [
+        "Advance from CSM through Senior, Principal, to Director of Customer Success",
+        "Deep expertise in digital experience, marketing technology, and creative workflows",
+        "Path to customer success leadership, solutions consulting, or sales roles",
+        "Specialization in Experience Cloud, Creative Cloud Enterprise, or Document Cloud",
+        "Access to Adobe's training and certification programs",
+        "Global mobility across Adobe's worldwide customer success organization",
+        "Build strategic relationships with CMOs and digital leaders at global brands",
+        "Influence Adobe's product development through customer feedback"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about customer success background, digital experience expertise, and interest in Adobe. Overview of team structure and customer portfolio.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on customer success methodology, experience with marketing technology, and approach to driving adoption and value realization.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case Study / Presentation",
+          description: "Present a customer success scenario—develop a success plan for a customer implementing Adobe Experience Cloud, identify risks, and propose adoption strategies.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Panel Interview",
+          description: "Meet with cross-functional partners (Sales, Solutions, Support, Product) to assess collaboration skills and customer-centric mindset.",
+          duration: "2-3 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base salary, bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How do you develop a success plan for a customer implementing Adobe Experience Platform?",
+        "Describe your approach to driving adoption of marketing technology solutions",
+        "How would you handle a customer at risk due to implementation delays or challenges?",
+        "Walk me through conducting an Executive Business Review with a CMO",
+        "How do you measure and demonstrate ROI for digital experience investments?",
+        "Describe your approach to identifying expansion opportunities within an account",
+        "How would you coordinate with Professional Services on a complex implementation?",
+        "What metrics do you track to monitor customer health for marketing technology?",
+        "How do you balance reactive support with proactive success activities?",
+        "Describe how you'd guide a customer through digital experience transformation",
+        "How would you handle a customer considering Salesforce Marketing Cloud instead?",
+        "What's your methodology for building relationships with marketing executives?",
+        "How do you stay current on Adobe's products and digital experience trends?",
+        "Describe your approach to driving user adoption across different stakeholder groups"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you turned around an at-risk enterprise customer",
+        "Describe a significant expansion or upsell you drove within a customer account",
+        "How have you handled a situation where customer expectations exceeded product capabilities?",
+        "Tell me about a time you had to deliver difficult news to a customer CMO or CDO",
+        "Describe your approach to managing a portfolio of enterprise customers",
+        "How have you collaborated with sales on strategic renewals?",
+        "Tell me about a time you advocated for a customer with product teams",
+        "Describe how you've built executive relationships at customer organizations",
+        "How have you handled an escalation requiring cross-functional coordination?",
+        "Tell me about a creative approach you took to drive product adoption",
+        "Describe your experience with digital experience or marketing technology implementations",
+        "How have you measured and improved customer satisfaction?",
+        "Tell me about a time you identified a risk before it became a major issue",
+        "Describe how you stay organized managing multiple enterprise relationships"
+      ],
+
+      whatTheyLookFor: [
+        "Proven track record in customer success, account management, or consulting",
+        "Experience with marketing technology, digital experience, or creative software",
+        "Strong executive communication and presentation skills",
+        "Ability to build trusted advisor relationships with CMOs and digital leaders",
+        "Analytical mindset with experience using data to drive decisions",
+        "Cross-functional collaboration skills",
+        "Understanding of customer success metrics (NPS, CSAT, adoption, retention)",
+        "Experience managing complex enterprise customer relationships",
+        "Passion for digital experiences and creative technology",
+        "Results-oriented with focus on customer outcomes"
+      ],
+
+      interviewTips: [
+        "Research Adobe's product portfolio—Experience Cloud, Creative Cloud Enterprise, Document Cloud",
+        "Prepare specific examples of customer retention and expansion success",
+        "Be ready to discuss your customer success methodology and metrics",
+        "Understand Adobe's competitive landscape (Salesforce, Oracle, SAP)",
+        "Practice presenting an Executive Business Review or success plan",
+        "Show understanding of digital experience and marketing technology challenges",
+        "Prepare examples of cross-functional collaboration",
+        "Be ready to discuss how you handle at-risk customers",
+        "Demonstrate familiarity with customer health scoring and monitoring",
+        "Show genuine passion for Adobe's mission of changing the world through digital experiences",
+        "Prepare thoughtful questions about customer portfolio and team structure",
+        "Understand digital transformation trends in enterprise marketing",
+        "Be ready to discuss your approach to building executive relationships",
+        "Show how you balance reactive and proactive customer engagement"
+      ],
+
+      salary: {
+        min: 100000,
+        max: 180000,
+        avg: 135000
+      },
+
+      compensation: [
+        "Base salary: $100K-$180K depending on level and experience",
+        "Annual bonus: 15-20% of base salary tied to retention and expansion metrics",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Free Creative Cloud subscription",
+        "Learning and certification budget",
+        "Generous PTO and company holidays"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Customer Success Manager involves strategic customer engagement, adoption planning, cross-functional coordination, and ensuring enterprise customers achieve their digital experience objectives.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Health Dashboard Review",
+            description: "Review customer health scores, usage metrics, and support ticket status"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Customer Check-in",
+            description: "Quarterly business review with customer's digital marketing team"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Internal Sync",
+            description: "Meet with solutions architect on customer's upcoming integration project"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Learn",
+            description: "Adobe product team presentation on new Experience Platform features"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Success Planning",
+            description: "Develop adoption roadmap for customer launching personalization initiative"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Executive Meeting",
+            description: "Meet with customer CMO to discuss digital transformation roadmap"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Cross-Functional Sync",
+            description: "Coordinate with Sales on strategic renewal and expansion strategy"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update customer records, prepare reports, plan tomorrow's activities"
+          }
+        ],
+        closing: "Adobe CSMs serve as strategic partners to enterprise customers, ensuring they realize transformational value from Adobe's digital experience and creative solutions."
+      },
+
+      similarRoles: [
+        "Salesforce Customer Success Manager",
+        "Oracle Customer Success Manager",
+        "Microsoft Customer Success Manager",
+        "SAP Customer Success Manager"
       ]
     }
   },
