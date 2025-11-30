@@ -20676,6 +20676,610 @@ export const rolePageContent = {
         closing: "Netflix Data Scientists enjoy the unique opportunity to directly influence how billions of dollars in content investment are allocated while shaping the entertainment experience for hundreds of millions of members."
       },
       similarRoles: ["Machine Learning Engineer", "Data Engineer", "Product Manager", "Research Scientist"]
+    },
+    'site-reliability-engineer': {
+      roleDescription: "Site Reliability Engineers at Netflix ensure the streaming platform remains available and performant for 283 million members across 190+ countries. You'll work on reliability challenges at unprecedented scale—handling millions of concurrent streams, managing the world's largest CDN (Open Connect), and maintaining services that process billions of events daily. Netflix pioneered many SRE practices including Chaos Engineering with the famous Chaos Monkey. The SRE team operates with significant autonomy, partnering with product engineering teams to build reliability into systems from the ground up rather than bolting it on afterward. You'll work on capacity planning for tentpole events like new season releases, incident response for global outages, and building the observability infrastructure that makes Netflix's complex distributed systems understandable. The role combines deep systems expertise with Netflix's freedom and responsibility culture—you'll have significant autonomy to make decisions that impact the experience of hundreds of millions of members.",
+      responsibilities: [
+        "Ensure availability and performance of Netflix's global streaming platform",
+        "Design and implement reliability improvements for critical services",
+        "Build observability infrastructure for distributed systems monitoring",
+        "Conduct capacity planning for peak events and growth projections",
+        "Lead incident response and conduct thorough post-incident reviews",
+        "Partner with product teams to embed reliability into system design",
+        "Develop and maintain chaos engineering practices and tools",
+        "Optimize infrastructure costs while maintaining reliability targets",
+        "Create automation for operational tasks and toil reduction"
+      ],
+      growthOpportunities: [
+        "Work on reliability challenges at unprecedented global streaming scale",
+        "Contribute to and evolve Netflix's famous chaos engineering practices",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Significant autonomy aligned with freedom and responsibility culture",
+        "Shape reliability practices that influence the entire industry",
+        "Work with cutting-edge cloud infrastructure and distributed systems",
+        "Career growth through impact on critical business outcomes",
+        "Collaborate with world-class engineers on challenging problems"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of SRE background and Netflix culture alignment"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Systems design and troubleshooting focused on reliability concepts"
+        },
+        {
+          stage: "Onsite - Systems Design",
+          duration: "60 minutes",
+          description: "Design a reliable distributed system for a Netflix-scale problem"
+        },
+        {
+          stage: "Onsite - Troubleshooting",
+          duration: "60 minutes",
+          description: "Debug a complex system issue demonstrating systematic approach"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "60 minutes",
+          description: "Programming interview focused on automation and tooling"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and incident management style"
+        }
+      ],
+      technicalQuestions: [
+        "Design a highly available video streaming architecture for 283M members",
+        "How would you implement graceful degradation during partial outages?",
+        "Design Netflix's Open Connect CDN for global content delivery",
+        "How would you handle capacity planning for a major content release?",
+        "Design an observability system for Netflix's microservices architecture",
+        "How would you implement chaos engineering for a critical payment service?",
+        "Design a system for automatic failover across AWS regions",
+        "How would you approach incident response for a global streaming outage?",
+        "Design load shedding strategies for protecting critical services",
+        "How would you measure and improve the reliability of Netflix's homepage?",
+        "Design a system for canary deployments at Netflix scale",
+        "How would you implement circuit breakers across thousands of microservices?",
+        "Design capacity planning for Netflix's encoding and transcoding pipeline",
+        "How would you approach reliability for Netflix's real-time gaming platform?",
+        "Design a system for detecting and mitigating cascading failures"
+      ],
+      behavioralQuestions: [
+        "Tell me about a major incident you managed and lessons learned",
+        "Describe implementing a reliability improvement that had significant impact",
+        "How have you balanced reliability investments with feature development?",
+        "Tell me about building relationships with product engineering teams",
+        "Describe a time you had to make a difficult decision during an incident",
+        "How have you improved incident response processes on your team?",
+        "Tell me about proactively identifying and fixing a reliability risk",
+        "Describe implementing chaos engineering in a risk-averse environment",
+        "How have you communicated reliability trade-offs to leadership?",
+        "Tell me about reducing operational toil through automation",
+        "Describe a post-incident review that led to meaningful improvements",
+        "How have you handled disagreements about reliability priorities?",
+        "Tell me about capacity planning that prevented a potential outage",
+        "Describe mentoring others on SRE best practices",
+        "How have you balanced on-call responsibilities with project work?"
+      ],
+      whatTheyLookFor: [
+        "Deep understanding of distributed systems and failure modes",
+        "Experience with large-scale production systems and incident management",
+        "Strong programming skills for automation and tooling",
+        "Systematic approach to troubleshooting complex problems",
+        "Track record of improving reliability metrics meaningfully",
+        "Excellent communication skills for incident coordination",
+        "Ownership mentality aligned with Netflix culture",
+        "Experience with cloud infrastructure (AWS preferred)",
+        "Understanding of capacity planning and performance optimization",
+        "Collaborative approach to partnering with product teams"
+      ],
+      interviewTips: [
+        "Study Netflix's tech blog posts on chaos engineering and reliability",
+        "Understand the Chaos Monkey and broader Simian Army tools",
+        "Prepare detailed examples of incidents you've managed",
+        "Practice system design with explicit reliability requirements",
+        "Be ready to discuss trade-offs between reliability and velocity",
+        "Understand Netflix culture deeply—read the culture deck",
+        "Prepare examples showing ownership and good judgment",
+        "Study distributed systems failure modes and mitigations",
+        "Be ready to discuss observability and monitoring strategies",
+        "Prepare questions about Netflix's reliability challenges",
+        "Show passion for building systems that serve millions reliably",
+        "Demonstrate systematic troubleshooting methodology",
+        "Be honest about incidents where things went wrong",
+        "Understand Netflix's infrastructure and AWS partnership"
+      ],
+      salary: {
+        min: 180000,
+        max: 450000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $450,000 depending on level",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy based on impact and skills",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Comprehensive health, dental, and vision benefits",
+        "On-call compensation included in base salary",
+        "Home office setup and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as an SRE at Netflix involves balancing proactive reliability work with incident response and cross-team collaboration.",
+        schedule: [
+          "9:00 AM - Review overnight alerts and service health dashboards",
+          "9:30 AM - Incident review meeting discussing yesterday's issues",
+          "10:30 AM - Deep work on reliability improvement for streaming service",
+          "12:00 PM - Lunch with product engineering team discussing upcoming changes",
+          "1:00 PM - Capacity planning session for upcoming content release",
+          "2:30 PM - Code review for chaos engineering experiment",
+          "3:30 PM - On-call handoff and documentation update",
+          "4:30 PM - Architecture review ensuring reliability requirements",
+          "5:30 PM - Personal development time—reading SRE research papers"
+        ],
+        closing: "Netflix SREs enjoy the unique challenge of keeping the world's leading streaming platform running smoothly for hundreds of millions of members."
+      },
+      similarRoles: ["Software Engineer", "Security Engineer", "Data Engineer", "Infrastructure Engineer"]
+    },
+    'security-engineer': {
+      roleDescription: "Security Engineers at Netflix protect the streaming platform, content, and member data for 283 million subscribers worldwide. You'll work on security challenges unique to entertainment—protecting unreleased content worth billions of dollars, securing streaming infrastructure at massive scale, and safeguarding member accounts and payment data. Netflix's security team operates across multiple domains including application security, infrastructure security, content protection, and incident response. The role combines deep technical expertise with Netflix's freedom and responsibility culture—security engineers have significant autonomy to identify risks and drive remediation across the organization. You'll work with cutting-edge security technologies, participate in bug bounty triage, and help build security into products from design through deployment. Netflix security is proactive rather than reactive, embedding security thinking into engineering culture rather than acting as gatekeepers.",
+      responsibilities: [
+        "Conduct security reviews of new features and architectural designs",
+        "Identify and remediate vulnerabilities through code review and testing",
+        "Build automated security tooling and detection systems at scale",
+        "Respond to security incidents and conduct thorough investigations",
+        "Protect unreleased content through DRM and access controls",
+        "Develop security training and guidance for engineering teams",
+        "Evaluate security of third-party integrations and dependencies",
+        "Design security controls for member data and payment protection",
+        "Contribute to bug bounty program triage and remediation"
+      ],
+      growthOpportunities: [
+        "Protect content and infrastructure serving 283M members globally",
+        "Work on unique entertainment security challenges (content protection, DRM)",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Significant autonomy aligned with Netflix culture",
+        "Shape security practices for a company at the forefront of streaming",
+        "Access to cutting-edge security technologies and research",
+        "Career growth through impact on critical security outcomes",
+        "Collaborate with world-class security professionals"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of security background and Netflix culture fit"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Security-focused technical interview in your domain area"
+        },
+        {
+          stage: "Onsite - Security Deep Dive",
+          duration: "60 minutes",
+          description: "Deep technical interview in your security expertise area"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "60 minutes",
+          description: "Programming interview with security-relevant problems"
+        },
+        {
+          stage: "Onsite - Security Design",
+          duration: "60 minutes",
+          description: "Design secure systems or threat model a streaming feature"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and collaboration style"
+        }
+      ],
+      technicalQuestions: [
+        "Design a secure authentication system for 283 million Netflix accounts",
+        "How would you protect unreleased content from leaks before premiere?",
+        "Design Netflix's DRM system for content protection across devices",
+        "How would you detect and prevent credential stuffing attacks at scale?",
+        "Design a security monitoring system for Netflix's microservices",
+        "How would you secure the content delivery pipeline from studio to member?",
+        "Design access controls for Netflix's internal studio production systems",
+        "How would you implement secure payment processing for global subscriptions?",
+        "Design a system to detect compromised member accounts",
+        "How would you approach security for Netflix's gaming platform?",
+        "Design certificate management for Netflix's CDN (Open Connect)",
+        "How would you secure API endpoints serving billions of requests?",
+        "Design a vulnerability management program for thousands of services",
+        "How would you implement security logging for incident investigation?",
+        "Design content watermarking for leak attribution"
+      ],
+      behavioralQuestions: [
+        "Tell me about a significant vulnerability you discovered and fixed",
+        "Describe convincing an engineering team to prioritize a security fix",
+        "How have you handled security vs feature development trade-offs?",
+        "Tell me about a security incident you responded to and lessons learned",
+        "Describe improving security culture on a team or organization",
+        "How have you balanced security with user experience?",
+        "Tell me about making a difficult security risk decision",
+        "Describe a security project from conception to completion",
+        "How have you stayed current with evolving security threats?",
+        "Tell me about collaborating with non-security engineers effectively",
+        "Describe explaining a complex security issue to leadership",
+        "How have you handled pushback on security recommendations?",
+        "Tell me about triaging multiple security issues with limited resources",
+        "Describe mentoring others in security practices",
+        "How have you contributed to the broader security community?"
+      ],
+      whatTheyLookFor: [
+        "Deep expertise in at least one security domain with broad knowledge",
+        "Strong programming skills for security tooling and automation",
+        "Experience with security at scale in large distributed systems",
+        "Track record of discovering and fixing vulnerabilities",
+        "Ability to communicate security risks to diverse audiences",
+        "Collaborative approach to working with engineering teams",
+        "Understanding of entertainment-specific security (DRM, content protection)",
+        "Ownership mentality aligned with Netflix culture",
+        "Commitment to continuous learning in evolving threat landscape",
+        "Passion for protecting members and their data"
+      ],
+      interviewTips: [
+        "Study Netflix's security challenges unique to streaming",
+        "Understand content protection and DRM technologies",
+        "Prepare examples of vulnerabilities you've found and fixed",
+        "Practice explaining security concepts to non-security engineers",
+        "Research Netflix's tech blog for security-related posts",
+        "Be ready to discuss entertainment industry security concerns",
+        "Understand Netflix culture and prepare aligned examples",
+        "Have opinions on current security trends and threats",
+        "Be ready to discuss trade-offs between security and usability",
+        "Prepare threat models for streaming platform components",
+        "Show genuine passion for protecting users at scale",
+        "Demonstrate systematic approach to security assessment",
+        "Be honest about security incidents and lessons learned",
+        "Prepare thoughtful questions about Netflix's security team"
+      ],
+      salary: {
+        min: 180000,
+        max: 480000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $480,000 depending on level and expertise",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy for security talent",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Security conference attendance budget",
+        "Comprehensive health, dental, and vision benefits",
+        "Home office setup and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Security Engineer at Netflix involves proactive security work, incident response, and embedding security into engineering culture.",
+        schedule: [
+          "9:30 AM - Review overnight security alerts and bug bounty submissions",
+          "10:00 AM - Security design review for new streaming feature",
+          "11:30 AM - Deep dive into suspicious activity flagged by detection systems",
+          "12:30 PM - Lunch with security team discussing emerging threats",
+          "1:30 PM - Code review for security-critical authentication changes",
+          "2:30 PM - Build automated scanning for vulnerability patterns",
+          "4:00 PM - Office hours helping engineers with security questions",
+          "5:00 PM - Research time exploring new attack techniques",
+          "6:00 PM - Document findings and update security guidance"
+        ],
+        closing: "Netflix Security Engineers enjoy the unique challenge of protecting both world-class content and hundreds of millions of member accounts."
+      },
+      similarRoles: ["Software Engineer", "Site Reliability Engineer", "Data Engineer", "Infrastructure Engineer"]
+    },
+    'product-manager': {
+      roleDescription: "Product Managers at Netflix shape how 283 million members discover and enjoy entertainment across TV, film, games, and live events. You'll work on products spanning the member experience—from personalization and discovery to playback and payments—or on internal tools empowering content creators and operations teams. Netflix PMs operate with significant autonomy in a culture of freedom and responsibility, making high-stakes decisions that impact hundreds of millions of members. The role requires strong analytical skills to leverage Netflix's rich experimentation culture, business acumen to understand entertainment economics, and the communication skills to align cross-functional teams. Netflix doesn't have traditional product hierarchies—PMs are expected to be strategic thinkers who can also dive deep into details. You'll work closely with world-class engineering, design, and data science teams while partnering with content and marketing to deliver experiences that delight members globally.",
+      responsibilities: [
+        "Define product strategy and roadmap for member-facing or internal products",
+        "Partner with engineering, design, and data science to deliver experiences",
+        "Design and analyze A/B experiments to optimize member experience",
+        "Translate business objectives into product requirements and success metrics",
+        "Make data-driven decisions leveraging Netflix's rich analytics infrastructure",
+        "Collaborate with content teams on features supporting programming strategy",
+        "Present product vision and results to leadership and cross-functional partners",
+        "Balance global member needs across 190+ countries and diverse preferences",
+        "Drive alignment across teams while maintaining velocity"
+      ],
+      growthOpportunities: [
+        "Shape products used by 283 million members across 190+ countries",
+        "Work in a culture of freedom and responsibility with significant autonomy",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Access to world-class experimentation and analytics infrastructure",
+        "Partner with leading engineers, designers, and data scientists",
+        "Influence entertainment industry through product innovation",
+        "Career growth through impact rather than traditional hierarchy",
+        "Work on diverse products from consumer to gaming to live events"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of PM background and Netflix culture alignment"
+        },
+        {
+          stage: "Hiring Manager Screen",
+          duration: "45 minutes",
+          description: "Deep dive into product experience and strategic thinking"
+        },
+        {
+          stage: "Onsite - Product Sense",
+          duration: "60 minutes",
+          description: "Product design exercise for a Netflix-relevant problem"
+        },
+        {
+          stage: "Onsite - Analytical",
+          duration: "60 minutes",
+          description: "Data analysis and experimentation design case study"
+        },
+        {
+          stage: "Onsite - Execution",
+          duration: "60 minutes",
+          description: "Discussion of how you've shipped products and handled trade-offs"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and leadership style"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve Netflix's homepage personalization?",
+        "Design a feature to help members discover content outside their usual genres",
+        "How would you measure success for Netflix's gaming initiative?",
+        "Design an experiment to test a new content release strategy",
+        "How would you approach product strategy for Netflix in a new market?",
+        "Design features to reduce member churn in competitive markets",
+        "How would you prioritize between improving discovery vs playback experience?",
+        "Design a social feature for Netflix while respecting member privacy",
+        "How would you measure the value of personalized thumbnails?",
+        "Design the product experience for Netflix Live events",
+        "How would you approach localization beyond just subtitles and dubbing?",
+        "Design features to improve the mobile viewing experience",
+        "How would you balance member experience with content creator needs?",
+        "Design an experiment to test ad-supported tier optimizations",
+        "How would you think about Netflix's expansion into live sports?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a product you shipped that had significant member impact",
+        "Describe making a difficult prioritization decision with incomplete data",
+        "How have you handled disagreement with engineering on product direction?",
+        "Tell me about an experiment that produced surprising results",
+        "Describe defining success metrics for an ambiguous product initiative",
+        "How have you balanced global vs local product needs?",
+        "Tell me about a product decision you regret and what you learned",
+        "Describe influencing stakeholders without direct authority",
+        "How have you partnered with data science to inform product decisions?",
+        "Tell me about navigating tension between short-term and long-term goals",
+        "Describe building relationships with cross-functional partners",
+        "How have you handled a product launch that didn't meet expectations?",
+        "Tell me about simplifying a complex product problem",
+        "Describe communicating a difficult decision to stakeholders",
+        "How have you contributed to product culture on your team?"
+      ],
+      whatTheyLookFor: [
+        "Strong product sense and ability to design delightful experiences",
+        "Analytical skills for experimentation and data-driven decisions",
+        "Strategic thinking balanced with execution excellence",
+        "Excellent communication skills for diverse audiences",
+        "Track record of shipping impactful products",
+        "Ownership mentality aligned with Netflix culture",
+        "Ability to work effectively with engineering and design partners",
+        "Understanding of entertainment and media industry dynamics",
+        "Global perspective for products serving 190+ countries",
+        "Comfort with ambiguity and autonomous decision-making"
+      ],
+      interviewTips: [
+        "Use Netflix extensively and develop strong opinions about the product",
+        "Understand Netflix's business model and competitive landscape",
+        "Prepare examples demonstrating ownership and good judgment",
+        "Practice product design exercises for entertainment products",
+        "Master A/B testing concepts and experimentation design",
+        "Study Netflix's culture deck thoroughly",
+        "Be ready to discuss entertainment industry trends",
+        "Prepare examples of data-driven decision making",
+        "Show genuine passion for entertainment and member experience",
+        "Be ready to articulate trade-offs clearly",
+        "Understand Netflix's global expansion and localization challenges",
+        "Prepare thoughtful questions about team and product challenges",
+        "Be authentic—Netflix values genuine culture alignment",
+        "Practice explaining complex product decisions simply"
+      ],
+      salary: {
+        min: 180000,
+        max: 500000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $500,000 depending on level and scope",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay based on impact and market conditions",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Comprehensive health, dental, and vision benefits",
+        "Generous parental leave policy",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Product Manager at Netflix involves strategic thinking, cross-functional collaboration, and data analysis with significant autonomy.",
+        schedule: [
+          "9:30 AM - Review experiment results and member feedback",
+          "10:00 AM - Cross-functional sync with engineering and design",
+          "11:00 AM - Deep work on product strategy document",
+          "12:00 PM - Lunch with content partners discussing upcoming releases",
+          "1:00 PM - A/B experiment design session with data science",
+          "2:30 PM - Product review with leadership presenting roadmap",
+          "3:30 PM - 1:1 with engineering lead on technical trade-offs",
+          "4:30 PM - User research review and insights synthesis",
+          "5:30 PM - Personal time to use Netflix and observe member experience"
+        ],
+        closing: "Netflix PMs enjoy the unique opportunity to shape entertainment experiences for hundreds of millions of members while operating with significant autonomy."
+      },
+      similarRoles: ["Data Scientist", "Product Designer", "Engineering Manager", "Content Strategist"]
+    },
+    'product-designer': {
+      roleDescription: "Product Designers at Netflix craft the experiences that help 283 million members discover and enjoy entertainment they'll love. You'll design interfaces for over 1,000 device types—from smart TVs and gaming consoles to mobile phones and web browsers—creating cohesive experiences across diverse platforms. Netflix design challenges are unique: designing for the 10-foot TV experience, creating interfaces that work across 190+ countries and 30+ languages, and balancing personalization with discovery. The design team includes visual designers, interaction designers, and prototypers working together to push the boundaries of entertainment UX. Netflix designers operate with significant autonomy, owning design decisions end-to-end while partnering closely with product, engineering, and data science. You'll design and test experiences through Netflix's rigorous A/B experimentation culture, using data to validate design intuition. The work spans member-facing products and internal tools supporting content creation, from browse and search to playback and beyond.",
+      responsibilities: [
+        "Design member experiences across TV, mobile, web, and gaming platforms",
+        "Create cohesive design systems working across 1,000+ device types",
+        "Partner with product and engineering to define and deliver features",
+        "Design for global audiences across 190+ countries and 30+ languages",
+        "Create prototypes to test and validate design concepts",
+        "Design and analyze A/B experiments measuring design impact",
+        "Develop interaction patterns for TV, mobile, and web experiences",
+        "Contribute to and evolve Netflix's design system and standards",
+        "Present design work to leadership and cross-functional partners"
+      ],
+      growthOpportunities: [
+        "Design experiences used by 283 million members globally",
+        "Work on unique challenges of TV, mobile, and multi-device design",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Significant autonomy aligned with Netflix culture",
+        "Pioneer entertainment UX at scale with rigorous experimentation",
+        "Collaborate with world-class designers, engineers, and researchers",
+        "Career growth through impact rather than traditional hierarchy",
+        "Shape the future of how people discover and enjoy entertainment"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of design background and Netflix culture alignment"
+        },
+        {
+          stage: "Portfolio Review",
+          duration: "60 minutes",
+          description: "Deep dive into portfolio work with hiring manager"
+        },
+        {
+          stage: "Onsite - Design Exercise",
+          duration: "90 minutes",
+          description: "Design challenge for a Netflix-relevant problem (may be take-home)"
+        },
+        {
+          stage: "Onsite - Cross-functional",
+          duration: "45 minutes",
+          description: "Discussion with product and engineering partners"
+        },
+        {
+          stage: "Onsite - Design Critique",
+          duration: "45 minutes",
+          description: "Critique session demonstrating design thinking and collaboration"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and working style"
+        }
+      ],
+      technicalQuestions: [
+        "How would you redesign Netflix's TV browse experience?",
+        "Design a feature to help members find content to watch together",
+        "How would you improve content discovery for new Netflix members?",
+        "Design the experience for Netflix Games on TV",
+        "How would you approach designing for accessibility across devices?",
+        "Design a feature to help members manage their watchlist",
+        "How would you think about localization beyond translation?",
+        "Design the experience for live events on Netflix",
+        "How would you improve the search experience on mobile?",
+        "Design onboarding for Netflix's ad-supported tier",
+        "How would you balance personalization with serendipitous discovery?",
+        "Design a social feature respecting member privacy",
+        "How would you approach designing for the 10-foot TV experience?",
+        "Design the profile selection experience for families",
+        "How would you measure success for a design change?"
+      ],
+      behavioralQuestions: [
+        "Walk me through a design project from concept to launch",
+        "Tell me about a design decision you made based on data",
+        "Describe handling feedback that conflicted with your design direction",
+        "How have you designed for global audiences with diverse preferences?",
+        "Tell me about a design that didn't test well and what you learned",
+        "Describe collaborating with engineers on a technically complex feature",
+        "How have you balanced user needs with business objectives?",
+        "Tell me about evolving a design system or component library",
+        "Describe making a design decision with incomplete information",
+        "How have you advocated for design quality under time pressure?",
+        "Tell me about mentoring others or contributing to design culture",
+        "Describe a project where you had to simplify a complex experience",
+        "How have you incorporated accessibility into your design process?",
+        "Tell me about designing for multiple platforms simultaneously",
+        "Describe how you stay current with design trends and tools"
+      ],
+      whatTheyLookFor: [
+        "Strong portfolio demonstrating end-to-end product design",
+        "Experience designing for TV, mobile, or multi-platform experiences",
+        "Ability to balance aesthetics with usability and business goals",
+        "Data-informed design approach with experimentation mindset",
+        "Excellent visual and interaction design skills",
+        "Strong communication and presentation abilities",
+        "Experience with design systems and scalable design",
+        "Understanding of accessibility and inclusive design",
+        "Ownership mentality aligned with Netflix culture",
+        "Passion for entertainment and member experience"
+      ],
+      interviewTips: [
+        "Prepare a strong portfolio with detailed case studies",
+        "Use Netflix extensively across different devices and platforms",
+        "Understand Netflix's design language and UI patterns",
+        "Prepare to discuss design decisions with data rationale",
+        "Study Netflix's tech blog for design-related content",
+        "Understand the unique challenges of TV and 10-foot UI design",
+        "Prepare examples showing collaboration with cross-functional teams",
+        "Be ready to do live design exercises confidently",
+        "Study Netflix culture and prepare aligned examples",
+        "Show genuine passion for entertainment and storytelling",
+        "Understand accessibility challenges across diverse devices",
+        "Prepare questions about the design team and challenges",
+        "Be authentic about your design process and thinking",
+        "Practice articulating design trade-offs clearly"
+      ],
+      salary: {
+        min: 160000,
+        max: 400000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $160,000 - $400,000 depending on level",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy based on impact",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Design tools and equipment budget",
+        "Comprehensive health, dental, and vision benefits",
+        "Home office setup support"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Product Designer at Netflix involves creative design work, cross-functional collaboration, and data-informed iteration.",
+        schedule: [
+          "9:30 AM - Review user research findings and experiment results",
+          "10:00 AM - Design exploration for new browse feature",
+          "11:30 AM - Design critique session with design team",
+          "12:30 PM - Lunch with product and engineering partners",
+          "1:30 PM - Cross-functional sync on feature specifications",
+          "2:30 PM - Prototype development for user testing",
+          "4:00 PM - Review A/B test results with data science",
+          "5:00 PM - Personal exploration—watching Netflix on different devices",
+          "5:30 PM - Documentation and design system updates"
+        ],
+        closing: "Netflix Product Designers enjoy the creative challenge of designing entertainment experiences that delight hundreds of millions of members globally."
+      },
+      similarRoles: ["Product Manager", "Software Engineer", "User Researcher", "Content Designer"]
     }
   },
   'uber': {
