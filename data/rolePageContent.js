@@ -28922,608 +28922,2387 @@ export const rolePageContent = {
   },
   'adobe': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Adobe build creative and marketing software empowering millions of creators, designers, and marketers worldwide. You'll work on products like Photoshop, Illustrator, Premiere Pro, or Adobe Experience Cloud, combining creativity with cutting-edge technology. Engineers at Adobe solve unique challenges in graphics, video, AI/ML, and creative workflows.",
+      roleDescription: "Software Engineers at Adobe build the creative and marketing software that empowers over 30 million Creative Cloud subscribers and hundreds of thousands of enterprises worldwide. You'll work on iconic products like Photoshop, Illustrator, Premiere Pro, After Effects, and Adobe Experience Cloud, combining cutting-edge technology with deep understanding of creative workflows. Adobe engineers tackle unique challenges in graphics rendering, video processing, AI/ML, cloud infrastructure, and real-time collaboration—building tools that define industry standards for digital creativity and marketing technology.",
 
       responsibilities: [
-        "Design and build features for Creative Cloud applications",
-        "Develop marketing and analytics platforms for Adobe Experience Cloud",
-        "Work on graphics rendering, video processing, or AI-powered tools",
-        "Build cross-platform applications (desktop, web, mobile)",
-        "Optimize performance for creative workflows and large files",
-        "Collaborate with designers and product managers on user experiences",
-        "Integrate AI and machine learning into creative tools (Adobe Sensei)",
-        "Contribute to open-source projects and web standards"
+        "Design and develop features for Creative Cloud applications (Photoshop, Illustrator, Premiere Pro, After Effects, InDesign)",
+        "Build scalable cloud services for Document Cloud and Experience Cloud platforms",
+        "Implement AI-powered creative features using Adobe Sensei and Firefly technologies",
+        "Develop real-time collaboration features for cross-functional creative teams",
+        "Optimize graphics rendering, video processing, and performance for professional workflows",
+        "Create cross-platform applications spanning desktop, web, and mobile experiences",
+        "Build APIs and extensibility frameworks for third-party developer ecosystem",
+        "Contribute to open-source projects and web standards initiatives",
+        "Collaborate closely with designers, researchers, and product managers on user experiences"
       ],
 
       growthOpportunities: [
-        "Career progression from IC to principal engineer or technical lead",
-        "Exposure to graphics, video, AI, and creative technology",
-        "Work on products used by millions of creative professionals",
-        "Opportunities across Creative Cloud, Document Cloud, and Experience Cloud",
-        "Internal mobility between product teams and technology stacks",
-        "Collaborate with world-class designers and UX teams",
-        "Influence on creative industry standards and workflows",
-        "Global impact on digital creativity and marketing technology"
+        "Career progression from IC through Staff, Principal, to Distinguished Engineer levels",
+        "Deep exposure to graphics, video, AI/ML, and creative technology domains",
+        "Work on products used by millions of creative professionals globally",
+        "Opportunities across Creative Cloud, Document Cloud, Experience Cloud, and Adobe Research",
+        "Internal mobility between product teams, technology stacks, and global offices",
+        "Collaborate with world-class designers, researchers, and UX teams",
+        "Influence creative industry standards and professional workflows",
+        "Contribute to Adobe's generative AI initiatives (Firefly, Sensei)"
       ],
 
       interviewProcess: [
         {
-          step: 1,
+          stage: 1,
           title: "Recruiter Screen",
-          description: "30-minute conversation about background, skills, and interest in Adobe.",
-          duration: "30 minutes"
+          description: "30-45 minute conversation about your background, technical interests, and passion for creative technology. Discussion of Adobe's product portfolio and team opportunities.",
+          duration: "30-45 minutes"
         },
         {
-          step: 2,
+          stage: 2,
           title: "Technical Phone Screen",
-          description: "60-minute coding interview on data structures, algorithms, and problem-solving.",
+          description: "60-minute coding interview covering data structures, algorithms, and problem-solving. Questions often relate to graphics, string manipulation, or creative domain challenges.",
           duration: "60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Coding (2 rounds), system design, behavioral/culture fit, and sometimes domain-specific technical discussion.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including two coding interviews (LeetCode medium level), system design (creative tools or cloud architecture), behavioral/culture fit, and domain-specific technical discussion for senior roles.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Team review of interview feedback. Competitive offer with equity and benefits.",
+          stage: 4,
+          title: "Hiring Committee Review",
+          description: "Cross-functional panel reviews interview feedback, technical depth, and creative passion. Team matching discussions for best fit.",
+          duration: "3-5 days"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer including base salary, annual bonus, RSUs with 4-year vesting, and comprehensive benefits. Adobe's compensation is competitive with top tech companies.",
           duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "Design the architecture for a collaborative editing tool like Adobe XD",
-        "Implement an image filter or effect for Photoshop",
-        "Design Adobe's cloud document sync system",
-        "How would you optimize video rendering performance?",
-        "Design a real-time collaboration feature for creative tools",
-        "Implement an undo/redo system for complex creative operations",
-        "Design Adobe's font delivery and rendering system",
-        "How would you build AI-powered content-aware fill?",
-        "Design the analytics platform for Adobe Experience Cloud",
-        "Implement a plugin architecture for Creative Cloud apps"
+        "Design the architecture for a real-time collaborative editing system like Adobe XD or Figma",
+        "Implement an image filter or effect algorithm for Photoshop (blur, sharpen, color adjustment)",
+        "Design Adobe's cloud document sync system handling large creative files across devices",
+        "How would you optimize video rendering performance for 4K/8K content in Premiere Pro?",
+        "Design a real-time collaboration feature allowing multiple designers to work simultaneously",
+        "Implement an undo/redo system for complex creative operations with branching history",
+        "Design Adobe Fonts' font delivery, rendering, and licensing system at scale",
+        "How would you build AI-powered content-aware fill using computer vision?",
+        "Design the analytics and personalization platform for Adobe Experience Cloud",
+        "Implement a plugin architecture for Creative Cloud apps supporting third-party extensions",
+        "Design a system to handle layer management and compositing in a graphics application",
+        "How would you implement real-time preview for video effects during editing?",
+        "Design Adobe Stock's asset management, search, and licensing infrastructure",
+        "Implement a vector graphics rendering engine with smooth zoom and pan",
+        "How would you design Adobe Acrobat's PDF processing and conversion pipeline?",
+        "Design a system for AI-generated content with proper attribution and licensing"
       ],
 
       behavioralQuestions: [
         "Tell me about a time you built creative or design-focused software",
         "Describe your experience with graphics, video, or multimedia technology",
         "How have you collaborated with designers on product development?",
-        "Tell me about a time you optimized application performance",
-        "Describe your approach to building user-friendly interfaces",
-        "How do you stay current with creative technology trends?",
-        "Tell me about a project where user experience was critical",
-        "Describe a time you implemented AI or ML in a product"
+        "Tell me about a time you significantly optimized application performance",
+        "Describe your approach to building user-friendly interfaces for complex workflows",
+        "How do you stay current with creative technology trends and industry standards?",
+        "Tell me about a project where user experience was critical to success",
+        "Describe a time you implemented AI or ML in a product feature",
+        "How have you balanced innovation with maintaining stability for professional users?",
+        "Tell me about a technically challenging problem you solved creatively",
+        "Describe your experience working on cross-platform applications",
+        "How have you handled technical debt while shipping new features?",
+        "Tell me about a time you advocated for a technical decision against opposition",
+        "Describe how you've mentored junior engineers or contributed to team growth"
       ],
 
       whatTheyLookFor: [
-        "Strong computer science fundamentals and coding skills",
-        "Interest in creative technology, graphics, or multimedia",
-        "Collaboration skills with design and product teams",
+        "Strong computer science fundamentals and coding skills (Java, C++, JavaScript/TypeScript)",
+        "Genuine interest in creative technology, graphics, or multimedia",
+        "Collaboration skills with design, product, and research teams",
         "User-centric thinking and attention to UX details",
-        "Performance optimization mindset",
-        "Passion for creativity and empowering creators",
+        "Performance optimization mindset for professional creative workflows",
+        "Passion for creativity and empowering creators worldwide",
         "Problem-solving with ambiguous creative requirements",
-        "Experience with cross-platform development a plus"
+        "Experience with cross-platform development (desktop, web, mobile)",
+        "Understanding of AI/ML applications in creative tools",
+        "Ability to balance innovation with reliability for professional users"
       ],
 
       interviewTips: [
-        "Understand Adobe's product portfolio (Creative Cloud, Experience Cloud)",
-        "Show passion for creative tools and design technology",
-        "Be prepared to discuss graphics, rendering, or video processing if applicable",
+        "Understand Adobe's product portfolio—Creative Cloud, Document Cloud, Experience Cloud",
+        "Show genuine passion for creative tools and design technology",
+        "Be prepared to discuss graphics rendering, video processing, or computer vision if relevant",
         "Demonstrate user-centric thinking in technical solutions",
-        "Research Adobe's AI initiatives (Adobe Sensei)",
+        "Research Adobe Firefly and Sensei AI initiatives thoroughly",
         "Prepare examples of performance optimization work",
         "Be ready to discuss cross-platform development challenges",
-        "Express interest in empowering creativity through technology"
+        "Express interest in empowering creativity through technology",
+        "Practice LeetCode medium problems with focus on string/array manipulation",
+        "Prepare system design for collaborative, real-time creative applications",
+        "Research Adobe's engineering blog and open-source contributions",
+        "Understand the competitive landscape (Figma, Canva, DaVinci Resolve)",
+        "Show awareness of creative professional workflows and pain points",
+        "Be ready to discuss how AI is transforming creative tools"
+      ],
+
+      salary: {
+        min: 140000,
+        max: 280000,
+        avg: 195000
+      },
+
+      compensation: [
+        "Base salary: $140K-$280K depending on level and location",
+        "Annual bonus: 10-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Generous PTO and company holidays",
+        "Learning and development budget",
+        "Free Creative Cloud subscription for employees and family"
       ],
 
       dayInLife: {
-        overview: "Adobe engineers work in collaborative teams building products for creative professionals. Days involve coding, design collaboration, performance optimization, and solving unique creative technology challenges.",
+        intro: "A typical day as an Adobe Software Engineer blends technical problem-solving with creative product development, collaborating closely with designers and product managers to build tools that empower millions of creators.",
         schedule: [
           {
-            time: "9:30 AM",
-            activity: "Team Standup",
-            description: "Daily sync on feature development for Photoshop release"
+            time: "9:00 AM",
+            activity: "Morning Focus",
+            description: "Deep work on implementing new AI-powered selection tool for Photoshop, optimizing performance"
           },
           {
-            time: "10:00 AM",
-            activity: "Feature Development",
-            description: "Implement AI-powered image selection tool using machine learning"
+            time: "10:30 AM",
+            activity: "Design Review",
+            description: "Collaborate with UX designer on new layer management interface, discuss technical constraints"
           },
           {
             time: "11:30 AM",
-            activity: "Design Review",
-            description: "Collaborate with designers on new creative workflow UX"
+            activity: "Code Review",
+            description: "Review teammate's PR for cloud sync feature, provide feedback on architecture"
           },
           {
             time: "12:30 PM",
-            activity: "Lunch & Demo",
-            description: "Watch team demo of new generative AI features"
+            activity: "Lunch & Learn",
+            description: "Attend tech talk on Adobe Firefly's generative AI architecture"
           },
           {
             time: "1:30 PM",
-            activity: "Performance Optimization",
-            description: "Profile and optimize rendering performance for large documents"
+            activity: "Sprint Planning",
+            description: "Team standup and sprint planning for next release cycle"
           },
           {
-            time: "3:00 PM",
-            activity: "Code Review",
-            description: "Review pull requests and provide feedback on graphics code"
+            time: "2:30 PM",
+            activity: "Feature Development",
+            description: "Implement real-time collaboration backend for multi-user editing"
           },
           {
             time: "4:00 PM",
-            activity: "User Testing",
-            description: "Observe creative professionals testing new brush engine"
+            activity: "User Research",
+            description: "Watch recording of professional photographer testing new feature, note feedback"
           },
           {
             time: "5:00 PM",
-            activity: "Innovation Time",
-            description: "Experiment with new creative technology and ML models"
+            activity: "Documentation",
+            description: "Update API documentation and write technical design doc for next quarter's project"
           }
-        ]
+        ],
+        closing: "Days at Adobe balance individual coding with collaborative design sessions, always focused on building tools that creative professionals love to use."
       },
 
       similarRoles: [
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+        "Apple Software Engineer",
+        "Google Software Engineer",
+        "Microsoft Software Engineer",
+        "Figma Software Engineer"
       ]
     },
 
     'product-manager': {
-      roleDescription: "Product Managers at Adobe shape creative and marketing software used by millions worldwide. You'll work on Creative Cloud applications, Document Cloud, or Adobe Experience Cloud, balancing creative professional needs with technical innovation. PMs combine user empathy, creative industry knowledge, and technical product expertise.",
+      roleDescription: "Product Managers at Adobe define the future of creative and marketing technology, shaping products that empower over 30 million subscribers and transform how the world creates, communicates, and does business. You'll own product strategy for iconic tools like Photoshop, Illustrator, Premiere Pro, or Adobe Experience Cloud, working at the intersection of creativity, technology, and business. Adobe PMs deeply understand creative professionals—photographers, designers, filmmakers, marketers—and translate their needs into innovative features that set industry standards.",
 
       responsibilities: [
-        "Define product vision and roadmap for creative or marketing tools",
-        "Collaborate with designers and engineers on feature development",
-        "Conduct user research with creative professionals and marketers",
-        "Analyze product metrics and user engagement data",
-        "Drive AI and machine learning integration into products",
-        "Balance innovation with workflow continuity for professionals",
-        "Present product strategy to executives and at industry events",
-        "Monitor competitive landscape and creative industry trends"
+        "Define product vision and strategy for Creative Cloud or Experience Cloud products",
+        "Develop and prioritize product roadmaps based on user research, market analysis, and business goals",
+        "Partner with engineering, design, and research to deliver innovative features",
+        "Conduct user research with creative professionals, marketers, and enterprise customers",
+        "Analyze product metrics, engagement data, and subscription/retention trends",
+        "Define success metrics and KPIs for product launches and feature releases",
+        "Collaborate with marketing on go-to-market strategy and positioning",
+        "Manage stakeholder relationships across engineering, design, sales, and executives",
+        "Drive AI/generative AI product strategy with Adobe Firefly and Sensei teams"
       ],
 
       growthOpportunities: [
-        "Rapid career advancement based on product impact",
-        "Exposure to creative industry and digital marketing technology",
-        "Opportunities to own products serving creative professionals globally",
-        "Cross-functional leadership with design, engineering, and marketing",
-        "Internal mobility across Creative Cloud, Document Cloud, and Experience Cloud",
-        "Influence on creative workflows and industry standards",
-        "Access to creative community and customer events",
-        "Global impact on digital creativity and content creation"
+        "Career progression from PM through Senior PM, Group PM, to Director and VP levels",
+        "Influence products used by millions of creative professionals worldwide",
+        "Deep exposure to creative technology, AI/ML, and marketing technology domains",
+        "Opportunities across Creative Cloud, Document Cloud, Experience Cloud, and emerging products",
+        "Work with world-class designers, researchers, and engineers on iconic products",
+        "Shape the future of generative AI in creative tools (Firefly)",
+        "Internal mobility between product lines and global offices",
+        "Strong PM community and mentorship culture at Adobe"
       ],
 
       interviewProcess: [
         {
-          step: 1,
+          stage: 1,
           title: "Recruiter Screen",
-          description: "30-minute conversation about PM experience and passion for creative products.",
+          description: "30-minute conversation about PM experience, passion for creative products, and career goals. Overview of Adobe's product portfolio and team structure.",
           duration: "30 minutes"
         },
         {
-          step: 2,
+          stage: 2,
           title: "Product Case Interview",
-          description: "60-minute product design or strategy case focused on creative tools or marketing technology.",
+          description: "60-minute product design or strategy case focused on creative tools or marketing technology. Expect questions about improving Adobe products or designing new features.",
           duration: "60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Product design, technical collaboration, customer empathy, analytics, and leadership interviews.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering product design case, technical collaboration assessment, customer empathy, analytics/metrics, and leadership/behavioral interviews.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Cross-functional review of product thinking and creative passion. Competitive offer with equity.",
+          stage: 4,
+          title: "Hiring Committee Review",
+          description: "Cross-functional review of product thinking, creative passion, and leadership potential. Team matching for best fit.",
+          duration: "3-5 days"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, RSUs, and comprehensive benefits. Adobe PM compensation is competitive with top tech companies.",
           duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "How would you improve Photoshop for new users?",
-        "Design a new AI feature for creative professionals",
-        "How would you measure success for Adobe XD?",
-        "What metrics would you track for Creative Cloud subscriptions?",
-        "How would you compete against free creative tools (Figma, Canva)?",
+        "How would you improve Photoshop for new users while maintaining power for professionals?",
+        "Design a new AI feature for Adobe Firefly that would delight creative professionals",
+        "How would you measure success for Adobe XD in a competitive market with Figma?",
+        "What metrics would you track for Creative Cloud subscription health and growth?",
+        "How would you compete against free creative tools like Canva while protecting the pro market?",
         "Design a feature to improve collaboration for remote creative teams",
-        "How would you prioritize features for video creators vs photographers?",
-        "What would you do if engagement declined for a Creative Cloud app?",
-        "Design a strategy for Adobe's generative AI tools",
-        "How would you approach launching a new creative application?"
+        "How would you prioritize features for video creators vs photographers vs designers?",
+        "What would you do if engagement declined for a major Creative Cloud application?",
+        "Design Adobe's generative AI product strategy for the next 3 years",
+        "How would you approach launching a new creative application in a crowded market?",
+        "Design a pricing strategy for Adobe's AI features (Firefly credits, Sensei capabilities)",
+        "How would you improve Adobe Acrobat for enterprise document workflows?",
+        "What's your strategy for Adobe Experience Cloud competing with Salesforce?",
+        "Design an onboarding experience for creative professionals new to Adobe products",
+        "How would you leverage AI to reduce friction in complex creative workflows?"
       ],
 
       behavioralQuestions: [
-        "Tell me about a creative or design product you've managed",
-        "Describe how you've worked with designers and engineers",
-        "How have you gathered insights from creative professionals?",
-        "Tell me about a product decision based on user research",
-        "Describe your experience with SaaS or subscription products",
-        "How do you balance innovation with maintaining pro workflows?",
-        "Tell me about a time you championed a controversial feature",
-        "Describe a product that didn't meet expectations and lessons learned"
+        "Tell me about a creative or design product you've managed and its impact",
+        "Describe how you've worked effectively with designers and engineers",
+        "How have you gathered deep insights from creative professionals or power users?",
+        "Tell me about a product decision you made based primarily on user research",
+        "Describe your experience with SaaS, subscription products, or freemium models",
+        "How do you balance innovation with maintaining professional workflows users depend on?",
+        "Tell me about a time you championed a controversial product feature",
+        "Describe a product that didn't meet expectations and what you learned",
+        "How have you navigated competing stakeholder priorities?",
+        "Tell me about a time you had to make a decision with incomplete data",
+        "Describe how you've built and maintained relationships with enterprise customers",
+        "How have you incorporated AI/ML into product strategy?",
+        "Tell me about a time you killed a feature or project you had invested in",
+        "Describe your approach to competitive analysis and market positioning"
       ],
 
       whatTheyLookFor: [
-        "Passion for creativity and creative technology",
-        "User empathy for designers, photographers, and marketers",
-        "Technical understanding to collaborate with engineers",
-        "Analytical skills and data-driven decision making",
-        "Understanding of creative industry trends and workflows",
-        "Strong communication and storytelling abilities",
-        "Balance of innovation and respect for professional tools",
-        "Experience with design tools or creative software a plus"
+        "Genuine passion for creativity and creative technology",
+        "Deep empathy for designers, photographers, videographers, and marketers",
+        "Technical understanding to collaborate effectively with engineers",
+        "Strong analytical skills and data-driven decision making",
+        "Understanding of creative industry trends, workflows, and pain points",
+        "Excellent communication and storytelling abilities",
+        "Balance of innovation and respect for professional tools users depend on",
+        "Experience with design tools, creative software, or marketing technology",
+        "Strategic thinking about AI/ML and its impact on creative work",
+        "Ability to navigate complex stakeholder environments"
       ],
 
       interviewTips: [
-        "Use Adobe products and understand creative workflows",
-        "Show genuine passion for empowering creativity",
-        "Be prepared to discuss AI in creative tools",
-        "Research Adobe's product strategy and competitive landscape",
-        "Demonstrate understanding of creative professional needs",
-        "Prepare ideas for Adobe's product evolution",
-        "Be ready to discuss subscription business models",
-        "Express interest in the intersection of creativity and technology"
+        "Use Adobe products extensively and understand creative workflows deeply",
+        "Show genuine passion for empowering creativity and creative professionals",
+        "Be prepared to discuss AI's role in creative tools—opportunities and concerns",
+        "Research Adobe's competitive landscape (Figma, Canva, DaVinci Resolve, Affinity)",
+        "Demonstrate understanding of creative professional needs and pain points",
+        "Prepare specific ideas for Adobe's product evolution with clear rationale",
+        "Be ready to discuss subscription business models and retention strategies",
+        "Express interest in the intersection of creativity and technology",
+        "Know Adobe's product portfolio across Creative, Document, and Experience Clouds",
+        "Prepare to discuss how you'd balance prosumer and enterprise needs",
+        "Understand Adobe's generative AI strategy (Firefly) and its implications",
+        "Be ready with metrics frameworks for creative product success",
+        "Show awareness of creative industry trends (remote work, video content, social media)",
+        "Practice product cases that involve complex trade-offs"
+      ],
+
+      salary: {
+        min: 150000,
+        max: 320000,
+        avg: 220000
+      },
+
+      compensation: [
+        "Base salary: $150K-$320K depending on level and location",
+        "Annual bonus: 15-25% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Generous PTO and company holidays",
+        "Learning and development budget",
+        "Free Creative Cloud subscription"
       ],
 
       dayInLife: {
-        overview: "Adobe PMs balance strategic planning, user research with creative professionals, engineering collaboration, and product innovation. Days involve customer engagement, data analysis, and creative technology exploration.",
+        intro: "A typical day as an Adobe Product Manager balances strategic planning, user research with creative professionals, engineering collaboration, and product innovation to shape tools that millions of creators depend on.",
         schedule: [
           {
             time: "9:00 AM",
-            activity: "User Research",
-            description: "Watch recordings of photographer interviews on workflow pain points"
+            activity: "User Research Review",
+            description: "Watch recordings of professional photographer interviews about workflow pain points"
           },
           {
             time: "10:00 AM",
-            activity: "Product Planning",
-            description: "Review roadmap priorities with engineering and design leads"
+            activity: "Roadmap Planning",
+            description: "Review quarterly roadmap priorities with engineering and design leads"
           },
           {
             time: "11:00 AM",
             activity: "Feature Review",
-            description: "Evaluate beta version of new AI-powered content creation tool"
+            description: "Evaluate beta version of new AI-powered content creation tool with the team"
           },
           {
             time: "12:00 PM",
             activity: "Lunch with Designer",
-            description: "Discuss emerging creative trends and user experience patterns"
+            description: "Discuss emerging creative trends and UX patterns over lunch"
           },
           {
             time: "1:00 PM",
-            activity: "Data Analysis",
-            description: "Analyze Creative Cloud engagement metrics and subscription trends"
+            activity: "Metrics Deep Dive",
+            description: "Analyze Creative Cloud engagement metrics and subscription trends with analytics"
           },
           {
-            time: "2:00 PM",
+            time: "2:30 PM",
             activity: "Customer Advisory Board",
-            description: "Virtual meeting with professional designers and creative directors"
+            description: "Virtual meeting with professional designers and creative directors for feedback"
           },
           {
             time: "3:30 PM",
             activity: "Competitive Analysis",
-            description: "Research new features from Figma and other creative tools"
+            description: "Research new Figma features and assess competitive implications"
           },
           {
             time: "4:30 PM",
-            activity: "Strategy Presentation",
-            description: "Present generative AI product strategy to VP and leadership"
+            activity: "Leadership Presentation",
+            description: "Present generative AI product strategy to VP and executive leadership"
           }
-        ]
+        ],
+        closing: "Adobe PMs spend significant time with creative professionals, translating their needs into product features that push the boundaries of what's possible in digital creativity."
       },
 
       similarRoles: [
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Figma", companySlug: "figma", industry: "Technology" }
+        "Apple Product Manager",
+        "Google Product Manager",
+        "Microsoft Product Manager",
+        "Figma Product Manager"
       ]
     },
 
     'engineering-manager': {
-      roleDescription: "Engineering Managers at Adobe lead teams building creative and marketing software that empowers millions of professionals worldwide. You'll manage engineers working on Creative Cloud, Document Cloud, or Experience Cloud products, fostering innovation while maintaining the reliability creative professionals depend on. EMs balance technical leadership with creative product vision.",
+      roleDescription: "Engineering Managers at Adobe lead teams building the creative and marketing software that empowers millions of professionals worldwide. You'll manage engineers working on iconic products like Photoshop, Premiere Pro, Illustrator, or Adobe Experience Cloud, fostering innovation while maintaining the reliability that creative professionals depend on for their livelihoods. Adobe EMs balance technical leadership with creative product vision, building high-performing teams in an environment that values craft, quality, and user empathy.",
 
       responsibilities: [
-        "Lead team of engineers on creative or marketing cloud products",
-        "Drive technical strategy and architecture for product features",
-        "Partner with product and design on roadmap execution",
-        "Recruit, develop, and retain top engineering talent",
-        "Conduct 1:1s, performance reviews, and career coaching",
-        "Foster collaborative culture between engineering and design",
-        "Ensure product quality and performance for creative professionals",
-        "Balance innovation with stability for production workflows"
+        "Lead teams of 6-12 engineers building Creative Cloud, Document Cloud, or Experience Cloud products",
+        "Drive technical strategy and architecture decisions for product features and platform capabilities",
+        "Partner closely with product management and design on roadmap planning and execution",
+        "Recruit, develop, and retain top engineering talent in competitive markets",
+        "Conduct regular 1:1s, performance reviews, and career development coaching",
+        "Foster collaborative culture between engineering, design, and research teams",
+        "Ensure product quality, performance, and reliability for professional creative workflows",
+        "Balance innovation and experimentation with stability for production users",
+        "Manage cross-team dependencies and coordinate with other engineering leaders"
       ],
 
       growthOpportunities: [
-        "Scale management skills in creative technology environment",
-        "Exposure to graphics, AI, and creative software engineering",
-        "Opportunities to grow into senior engineering leadership",
-        "Cross-functional influence with design, product, and research",
-        "Shape engineering culture emphasizing craft and quality",
-        "Mentor engineers working on industry-leading creative tools",
-        "Internal mobility across Adobe's product portfolio",
-        "Impact on global creative industry and digital content creation"
+        "Scale leadership skills managing larger teams and multiple product areas",
+        "Deep exposure to graphics, video, AI/ML, and creative software engineering",
+        "Opportunities to grow into Senior EM, Director, and VP of Engineering roles",
+        "Cross-functional influence with design, product, research, and executive teams",
+        "Shape Adobe's engineering culture emphasizing craft, quality, and user empathy",
+        "Mentor engineers working on industry-defining creative tools",
+        "Internal mobility across Adobe's product portfolio and global offices",
+        "Lead teams working on cutting-edge AI/generative AI initiatives"
       ],
 
       interviewProcess: [
         {
-          step: 1,
+          stage: 1,
           title: "Recruiter Screen",
-          description: "30-minute conversation about management experience and interest in creative technology.",
+          description: "30-minute conversation about management philosophy, technical background, and interest in creative technology. Overview of Adobe's engineering culture and team structures.",
           duration: "30 minutes"
         },
         {
-          step: 2,
-          title: "Technical Discussion",
-          description: "60-minute discussion on system design, technical leadership, and creative software challenges.",
+          stage: 2,
+          title: "Hiring Manager Screen",
+          description: "60-minute deep dive on management experience, technical leadership, and team building approach. Discussion of specific challenges and opportunities in the role.",
           duration: "60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "People management, technical leadership, collaboration with design/product, system design, and values fit.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering technical depth, system design, people management scenarios, cross-functional collaboration, and leadership/culture fit interviews.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Leadership review and team fit assessment. Competitive offer with equity and benefits.",
+          stage: 4,
+          title: "Executive Interview",
+          description: "Conversation with Director or VP about leadership philosophy, strategic thinking, and alignment with Adobe's engineering values.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer including base, bonus, RSUs, and comprehensive benefits. Adobe EM compensation reflects the strategic importance of technical leadership.",
           duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "How would you architect a real-time collaboration system for creative tools?",
-        "Describe your approach to optimizing graphics rendering performance",
-        "How do you balance technical debt with feature velocity?",
-        "What's your strategy for integrating AI into creative applications?",
-        "How would you approach cross-platform development (desktop, web, mobile)?",
-        "Describe your framework for performance optimization decisions",
-        "How do you ensure product quality for professional creative workflows?",
-        "What's your approach to managing plugin ecosystems?"
+        "How would you approach building a team to work on real-time collaboration for creative tools?",
+        "Describe your strategy for managing technical debt while shipping features on schedule",
+        "How would you scale an engineering team from 6 to 20 engineers while maintaining velocity?",
+        "Design the architecture for a new AI-powered creative feature—how would you organize the team?",
+        "How do you balance feature development with platform investments and infrastructure work?",
+        "Describe your approach to performance optimization for creative professional workflows",
+        "How would you handle a situation where your team's work is blocked by another team?",
+        "What's your framework for making build vs. buy decisions for creative technology?",
+        "How do you ensure quality in a codebase that serves millions of professional users?",
+        "Describe how you'd approach migrating a legacy desktop application to cloud architecture",
+        "How would you structure a team working on both desktop and web versions of a product?",
+        "What's your approach to managing engineers with deep domain expertise (graphics, video)?",
+        "How do you balance innovation and experimentation with reliability for production users?",
+        "Describe your strategy for cross-team coordination on platform-wide initiatives"
       ],
 
       behavioralQuestions: [
-        "Tell me about managing engineers on creative or design-focused products",
-        "Describe how you've built strong engineering-design partnerships",
-        "How have you developed engineers' technical and career growth?",
-        "Tell me about balancing innovation with reliability for pro users",
-        "Describe your experience managing cross-platform teams",
-        "How do you build culture that values craft and quality?",
-        "Tell me about a difficult technical decision involving user experience",
-        "Describe how you've improved engineering team productivity"
+        "Tell me about a time you turned around an underperforming engineering team",
+        "Describe how you've built and maintained a strong engineering culture",
+        "How have you handled a situation where you had to let an engineer go?",
+        "Tell me about your approach to developing senior engineers into tech leads",
+        "Describe a time you had to make a difficult trade-off between speed and quality",
+        "How have you managed conflict between engineers with different technical opinions?",
+        "Tell me about a time you championed a significant technical investment",
+        "Describe how you've balanced individual contributor ambitions with management responsibilities",
+        "How have you handled situations where product and engineering disagreed on approach?",
+        "Tell me about your experience managing remote or distributed engineering teams",
+        "Describe a time you had to deliver difficult feedback to a high performer",
+        "How have you fostered innovation and experimentation within your teams?",
+        "Tell me about a major technical failure and how you handled it as a manager",
+        "Describe your approach to succession planning and building leadership bench strength"
       ],
 
       whatTheyLookFor: [
-        "Strong people leadership and team development skills",
-        "Technical depth in creative software, graphics, or multimedia",
-        "Collaboration skills with design and product teams",
-        "User-centric mindset and respect for creative professionals",
-        "Balance of innovation and operational excellence",
-        "Passion for creativity and empowering creators",
-        "Experience with cross-platform or performance-critical software",
-        "Commitment to engineering quality and craft"
+        "Strong technical background with ability to guide architectural decisions",
+        "Proven track record of building and scaling high-performing engineering teams",
+        "Interest in creative technology and empathy for creative professional users",
+        "Collaboration skills with design, product, and research partners",
+        "Balance of technical depth and people leadership capabilities",
+        "Experience with performance-critical or user-facing software",
+        "Ability to attract and retain top engineering talent",
+        "Strategic thinking about technology investments and team structure",
+        "Culture of quality, craft, and continuous improvement",
+        "Effective communication with executives and cross-functional stakeholders"
       ],
 
       interviewTips: [
-        "Understand Adobe's product portfolio and creative focus",
-        "Prepare examples of managing creative or design-focused products",
-        "Show experience collaborating closely with designers",
-        "Demonstrate understanding of graphics or multimedia technology",
-        "Discuss your approach to performance optimization",
+        "Understand Adobe's product portfolio and the engineering challenges in creative software",
+        "Show genuine interest in creative technology and empowering creators",
+        "Prepare specific examples of building and scaling engineering teams",
+        "Be ready to discuss technical architecture at a senior level",
         "Research Adobe's engineering culture and values",
-        "Be ready to discuss cross-platform development challenges",
-        "Express passion for empowering creativity through technology"
+        "Prepare examples of managing through ambiguity and competing priorities",
+        "Be ready to discuss how you balance innovation with reliability",
+        "Show understanding of the unique challenges in creative software (performance, UX, domain expertise)",
+        "Prepare to discuss your approach to growing senior engineers and tech leads",
+        "Be ready to discuss cross-functional collaboration with design and product",
+        "Show awareness of AI/ML trends and their impact on creative tools",
+        "Prepare examples of managing technical debt and platform investments",
+        "Understand Adobe's competitive landscape and market position",
+        "Be ready to discuss remote/hybrid team management approaches"
+      ],
+
+      salary: {
+        min: 180000,
+        max: 350000,
+        avg: 260000
+      },
+
+      compensation: [
+        "Base salary: $180K-$350K depending on level and location",
+        "Annual bonus: 20-30% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus common for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Generous PTO and company holidays",
+        "Executive development programs",
+        "Free Creative Cloud subscription"
       ],
 
       dayInLife: {
-        overview: "Adobe EMs balance people management, technical leadership, design collaboration, and product strategy. Days include 1:1s, design reviews, technical discussions, and fostering engineering-design partnership.",
+        intro: "A typical day as an Adobe Engineering Manager balances people leadership, technical guidance, cross-functional collaboration, and strategic planning—all focused on building products that creative professionals love.",
         schedule: [
           {
             time: "9:00 AM",
-            activity: "1:1 Meetings",
-            description: "Career development conversations with two engineers"
+            activity: "1:1 with Engineer",
+            description: "Career development discussion with senior engineer exploring tech lead path"
           },
           {
             time: "10:00 AM",
-            activity: "Design Collaboration",
-            description: "Joint review of new creative workflow with design team"
+            activity: "Technical Review",
+            description: "Review architecture proposal for new AI-powered creative feature with tech leads"
           },
           {
             time: "11:00 AM",
-            activity: "Technical Review",
-            description: "Review architecture for AI-powered content generation feature"
+            activity: "Cross-Functional Sync",
+            description: "Weekly sync with product manager and design lead on roadmap priorities"
           },
           {
             time: "12:00 PM",
-            activity: "Product Planning",
-            description: "Collaborate with PM on Creative Cloud roadmap priorities"
+            activity: "Lunch with Team",
+            description: "Casual lunch with engineers, discussing recent tech conference learnings"
           },
           {
             time: "1:00 PM",
             activity: "User Session",
-            description: "Observe professional designer using new features in beta"
+            description: "Observe professional designer using new features in beta to gather feedback"
           },
           {
             time: "2:00 PM",
-            activity: "Team Sync",
-            description: "Weekly team meeting on sprint progress and technical blockers"
+            activity: "Team Meeting",
+            description: "Weekly team meeting reviewing sprint progress, celebrating wins, addressing blockers"
           },
           {
             time: "3:00 PM",
             activity: "Recruiting",
-            description: "Interview graphics engineer candidate"
+            description: "Interview graphics engineer candidate for open position"
           },
           {
             time: "4:00 PM",
-            activity: "Engineering Leadership",
-            description: "Cross-team meeting on performance optimization strategies"
+            activity: "Leadership Sync",
+            description: "Engineering leadership meeting on cross-team platform initiatives"
           }
-        ]
+        ],
+        closing: "Adobe EMs spend their time enabling their teams to do their best work, balancing hands-on technical guidance with strategic leadership to build products that define the creative industry."
       },
 
       similarRoles: [
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Figma", companySlug: "figma", industry: "Technology" }
+        "Apple Engineering Manager",
+        "Google Engineering Manager",
+        "Microsoft Engineering Manager",
+        "Figma Engineering Manager"
       ]
     },
 
     'data-scientist': {
-      roleDescription: "Data Scientists at Adobe use data, analytics, and machine learning to enhance creative and marketing products. You'll work on personalization, content intelligence, marketing analytics, or AI-powered creative tools, collaborating with product, engineering, and research teams. Adobe data scientists combine technical rigor with understanding of creative and marketing domains.",
+      roleDescription: "Data Scientists at Adobe combine advanced analytics, machine learning, and deep product intuition to enhance creative and marketing products used by millions worldwide. You'll work on personalization, content intelligence, marketing analytics, recommendation systems, or AI-powered creative tools, collaborating with product, engineering, and Adobe Research teams. From improving content-aware fill in Photoshop to optimizing Adobe Experience Cloud's personalization engine, Adobe data scientists solve complex problems at the intersection of creativity, technology, and data—with compensation ranging from $145K to $275K+ for senior roles.",
 
       responsibilities: [
-        "Build machine learning models for creative and marketing applications",
-        "Develop content intelligence and image/video understanding systems",
-        "Design and analyze experiments to measure product impact",
-        "Create analytics frameworks for Creative Cloud and Experience Cloud",
-        "Work on Adobe Sensei AI platform and generative models",
-        "Partner with product managers on feature development",
-        "Analyze user behavior and creative workflow patterns",
-        "Contribute to data infrastructure and ML platforms"
+        "Build machine learning models for creative applications (computer vision, generative AI, content understanding)",
+        "Develop content intelligence and image/video understanding systems for Creative Cloud",
+        "Design and analyze A/B experiments to measure product feature impact",
+        "Create analytics frameworks for Creative Cloud engagement and Experience Cloud campaigns",
+        "Contribute to Adobe Sensei AI platform and Adobe Firefly generative models",
+        "Partner with product managers on feature development and optimization",
+        "Analyze user behavior patterns and creative workflow data",
+        "Build and maintain data infrastructure, ML pipelines, and model serving systems",
+        "Collaborate with Adobe Research on cutting-edge ML techniques"
       ],
 
       growthOpportunities: [
-        "Advance from IC to senior data scientist or ML engineer roles",
-        "Exposure to creative AI, computer vision, and marketing analytics",
-        "Work on products impacting millions of creative professionals",
-        "Opportunities across Creative Cloud, Experience Cloud, and research",
-        "Internal mobility between product teams and technology areas",
-        "Collaborate with Adobe Research on cutting-edge ML",
-        "Publish research and present at industry conferences",
-        "Impact on future of creative technology and AI-assisted creativity"
+        "Advance from IC through Senior, Staff, and Principal Data Scientist levels",
+        "Deep exposure to creative AI, computer vision, NLP, and marketing analytics",
+        "Work on products impacting millions of creative professionals and enterprises",
+        "Opportunities across Creative Cloud, Experience Cloud, Document Cloud, and Adobe Research",
+        "Internal mobility between product teams and research domains",
+        "Collaborate with Adobe Research on cutting-edge ML research",
+        "Publish papers and present at top ML and creative technology conferences",
+        "Shape the future of AI-assisted creativity and marketing technology"
       ],
 
       interviewProcess: [
         {
-          step: 1,
+          stage: 1,
           title: "Recruiter Screen",
-          description: "30-minute conversation about data science background and interest in Adobe.",
+          description: "30-minute conversation about data science background, ML expertise, and interest in creative technology. Overview of Adobe's data science opportunities.",
           duration: "30 minutes"
         },
         {
-          step: 2,
+          stage: 2,
           title: "Technical Screen",
-          description: "60-minute interview on statistics, ML, and analytical problem-solving.",
+          description: "60-minute interview covering statistics, ML fundamentals, and analytical problem-solving. May include coding component for algorithm implementation.",
           duration: "60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Analytics case, machine learning, coding/SQL, product sense, and behavioral interviews.",
+          stage: 3,
+          title: "Take-Home Project (Optional)",
+          description: "Some teams include a take-home ML project—design an image classifier, solve a content recommendation problem, or analyze a creative dataset.",
+          duration: "3-5 hours"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including analytics case study, ML system design, coding/SQL, product sense, and behavioral interviews. Senior roles include presentation of past work.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Review of technical skills and cultural fit. Competitive offer with equity.",
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base ($145K-$275K+), bonus, RSUs, and comprehensive benefits.",
           duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "How would you build a content-aware fill system for Photoshop?",
-        "Design a recommendation system for Creative Cloud assets",
-        "Build a model to classify and tag images automatically",
-        "How would you measure success of an AI-powered creative feature?",
-        "Design an experiment to test a new generative AI tool",
-        "Build a model to predict Creative Cloud subscription churn",
-        "How would you personalize content recommendations for designers?",
-        "Design analytics for Adobe Experience Cloud marketing campaigns",
-        "Build a system to detect and remove inappropriate content",
-        "How would you improve image search with computer vision?"
+        "How would you build a content-aware fill system for Photoshop using computer vision?",
+        "Design a recommendation system for Creative Cloud assets and templates",
+        "Build a model to classify and tag images automatically for Adobe Stock",
+        "How would you measure the success of an AI-powered creative feature?",
+        "Design an A/B experiment to test a new generative AI tool in Firefly",
+        "Build a model to predict Creative Cloud subscription churn and identify at-risk users",
+        "How would you personalize content recommendations for designers vs photographers?",
+        "Design analytics for Adobe Experience Cloud marketing campaign attribution",
+        "Build a system to detect and remove inappropriate content from user-generated images",
+        "How would you improve image search with computer vision and semantic understanding?",
+        "Design a model to automatically enhance photo quality (exposure, color, sharpness)",
+        "How would you evaluate the quality of generative AI outputs?",
+        "Build a system to predict which creative assets will perform best in marketing campaigns",
+        "Design an ML pipeline for real-time personalization in Experience Cloud",
+        "How would you balance model accuracy with latency for interactive creative features?",
+        "Build a model to suggest font pairings and design elements based on user style"
       ],
 
       behavioralQuestions: [
         "Tell me about a computer vision or creative ML project you built",
-        "Describe how you've worked with product teams on AI features",
-        "How have you balanced model accuracy with user experience?",
-        "Tell me about an experiment that produced surprising results",
+        "Describe how you've worked with product teams to translate ML into product features",
+        "How have you balanced model accuracy with user experience and latency requirements?",
+        "Tell me about an A/B experiment that produced surprising results",
         "Describe your experience with generative models or creative AI",
-        "How do you approach explaining ML models to non-technical stakeholders?",
-        "Tell me about a time your analysis influenced product direction",
-        "Describe a project where you balanced speed with rigor"
+        "How do you approach explaining complex ML models to non-technical stakeholders?",
+        "Tell me about a time you had to make trade-offs between model complexity and maintainability",
+        "Describe how you've handled model failures or unexpected behavior in production",
+        "How have you stayed current with rapidly evolving ML research and techniques?",
+        "Tell me about a time you identified a new ML opportunity that wasn't on the roadmap",
+        "Describe your experience building ML infrastructure or platform capabilities",
+        "How have you collaborated with researchers on translating research into products?",
+        "Tell me about a project where you had to work with limited or noisy data",
+        "Describe your approach to model monitoring and iteration in production"
       ],
 
       whatTheyLookFor: [
-        "Strong foundation in machine learning and computer vision",
-        "Experience with image/video processing or creative applications",
-        "Proficiency in Python, ML frameworks, and data analysis",
-        "Product sense for creative tools and workflows",
-        "Ability to translate ML into user-facing features",
-        "Strong communication skills for technical and creative audiences",
-        "Passion for creativity and AI-assisted creative work",
-        "Understanding of responsible AI and ethics"
+        "Strong foundations in statistics, machine learning, and experimental design",
+        "Programming proficiency in Python with ML frameworks (PyTorch, TensorFlow, scikit-learn)",
+        "Experience with computer vision, NLP, or generative AI models",
+        "Ability to translate business problems into ML solutions",
+        "Interest in creative technology and understanding of creative professional workflows",
+        "Strong communication skills for explaining technical concepts to diverse audiences",
+        "Experience with large-scale data processing and ML pipelines",
+        "Track record of shipping ML models to production",
+        "Collaboration skills with product, engineering, and research teams",
+        "Curiosity about the intersection of AI and creativity"
       ],
 
       interviewTips: [
-        "Understand Adobe's AI initiatives (Adobe Sensei, Firefly)",
-        "Be prepared to discuss computer vision and generative models",
-        "Show passion for creative applications of AI",
-        "Research Adobe's products and creative workflows",
-        "Demonstrate understanding of responsible AI practices",
-        "Prepare examples of ML models you've deployed",
-        "Be ready to discuss ML model interpretability and UX",
-        "Express interest in empowering creativity through AI"
+        "Brush up on ML fundamentals—supervised/unsupervised learning, evaluation metrics, experimental design",
+        "Be ready to discuss computer vision and generative AI given Adobe's focus areas",
+        "Prepare examples of ML projects you've shipped to production",
+        "Understand Adobe's AI initiatives—Sensei platform and Firefly generative AI",
+        "Be ready to discuss trade-offs between model performance, latency, and user experience",
+        "Prepare to walk through your approach to a creative ML problem end-to-end",
+        "Know common ML system design patterns (feature stores, model serving, monitoring)",
+        "Research Adobe's creative product portfolio and identify ML opportunities",
+        "Be ready to discuss how you'd measure success for creative AI features",
+        "Prepare questions about Adobe's data science culture and research collaboration",
+        "Practice explaining complex ML concepts in accessible terms",
+        "Be ready to discuss ethical considerations in generative AI",
+        "Understand the competitive landscape in creative AI (Midjourney, DALL-E, Stable Diffusion)",
+        "Prepare to discuss your experience with A/B testing and experimentation platforms"
+      ],
+
+      salary: {
+        min: 145000,
+        max: 275000,
+        avg: 195000
+      },
+
+      compensation: [
+        "Base salary: $145K-$275K+ depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Conference and learning budget",
+        "Free Creative Cloud subscription"
       ],
 
       dayInLife: {
-        overview: "Adobe data scientists balance ML model development, product collaboration, experimentation, and creative technology research. Work involves Python, computer vision, generative models, and creative product thinking.",
+        intro: "A typical day as an Adobe Data Scientist blends ML research, product collaboration, and experimentation—all focused on using AI to enhance creative and marketing products for millions of users.",
         schedule: [
           {
-            time: "9:30 AM",
-            activity: "Model Development",
-            description: "Improve generative AI model for creative content generation"
+            time: "9:00 AM",
+            activity: "Model Review",
+            description: "Review training metrics for image tagging model, analyze error cases"
           },
           {
-            time: "10:30 AM",
-            activity: "Team Sync",
-            description: "Data science team standup on ongoing ML projects"
+            time: "10:00 AM",
+            activity: "Product Sync",
+            description: "Meet with Photoshop PM to discuss ML feature requirements and success metrics"
           },
           {
             time: "11:00 AM",
-            activity: "Research Review",
-            description: "Review latest papers on diffusion models and creative AI"
+            activity: "Research Reading",
+            description: "Review recent papers on diffusion models and generative AI techniques"
           },
           {
             time: "12:00 PM",
-            activity: "Product Collaboration",
-            description: "Discuss AI feature requirements with Photoshop PM"
+            activity: "Lunch & Learn",
+            description: "Attend Adobe Research presentation on new computer vision techniques"
           },
           {
             time: "1:00 PM",
             activity: "User Testing",
-            description: "Observe designers using AI-powered selection tool prototype"
+            description: "Observe designers using AI-powered selection tool prototype, gather feedback"
           },
           {
-            time: "2:00 PM",
+            time: "2:30 PM",
             activity: "Experiment Analysis",
-            description: "Analyze A/B test results for content intelligence feature"
+            description: "Analyze A/B test results for content intelligence feature, prepare readout"
           },
           {
-            time: "3:00 PM",
-            activity: "Model Training",
-            description: "Train and evaluate computer vision model on creative assets"
+            time: "3:30 PM",
+            activity: "Model Development",
+            description: "Train and evaluate new computer vision model on creative asset dataset"
           },
           {
-            time: "4:30 PM",
-            activity: "Research Presentation",
-            description: "Present generative AI findings to Adobe Research team"
+            time: "5:00 PM",
+            activity: "Team Presentation",
+            description: "Present generative AI findings to Firefly team and discuss next steps"
           }
-        ]
+        ],
+        closing: "Adobe Data Scientists work at the cutting edge of creative AI, collaborating closely with product teams and researchers to build ML features that genuinely delight creative professionals."
       },
 
       similarRoles: [
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" }
+        "Google Data Scientist",
+        "Meta Data Scientist",
+        "Apple Data Scientist",
+        "Microsoft Data Scientist"
+      ]
+    },
+
+    'machine-learning-engineer': {
+      roleDescription: "Machine Learning Engineers at Adobe build the AI systems powering the next generation of creative and marketing technology, including Adobe Firefly (generative AI), Adobe Sensei (intelligence platform), and AI features across Creative Cloud and Experience Cloud. You'll develop and deploy production ML systems for computer vision, natural language processing, generative models, and recommendation systems—creating AI capabilities that millions of creative professionals use daily. Adobe MLEs work at the intersection of cutting-edge research and production engineering, with compensation ranging from $160K to $320K+ for senior roles.",
+
+      responsibilities: [
+        "Design and build production ML systems for Adobe Firefly generative AI platform",
+        "Develop computer vision models for image understanding, object detection, and content analysis",
+        "Build and optimize deep learning models for Creative Cloud applications",
+        "Create ML infrastructure and pipelines for training, evaluation, and serving at scale",
+        "Implement generative AI models (diffusion, transformers) for creative applications",
+        "Collaborate with Adobe Research to productionize cutting-edge research",
+        "Optimize model performance for latency, throughput, and cost efficiency",
+        "Build recommendation and personalization systems for Experience Cloud",
+        "Develop NLP models for content understanding and creative assistance"
+      ],
+
+      growthOpportunities: [
+        "Advance from MLE through Senior, Staff, and Principal levels",
+        "Work on cutting-edge generative AI with Adobe Firefly team",
+        "Deep exposure to computer vision, NLP, and creative AI applications",
+        "Collaborate with world-class researchers at Adobe Research",
+        "Shape the future of AI-assisted creativity for millions of users",
+        "Opportunities to publish research and present at top conferences",
+        "Internal mobility across Creative Cloud, Experience Cloud, and Research",
+        "Lead ML platform and infrastructure initiatives at scale"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-45 minute conversation about ML background, systems experience, and interest in creative AI. Overview of Adobe's ML teams and Firefly/Sensei initiatives.",
+          duration: "30-45 minutes"
+        },
+        {
+          stage: 2,
+          title: "Technical Screen",
+          description: "60-minute interview covering ML fundamentals, coding (Python), and system design basics. May include algorithm implementation or ML problem discussion.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "ML Take-Home (Some Teams)",
+          description: "Technical take-home project—design an image classifier, implement a model optimization, or solve a creative ML problem. Presented to panel.",
+          duration: "4-6 hours + presentation"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including ML system design, coding (LeetCode medium), ML fundamentals deep dive, product sense, and behavioral interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base ($160K-$320K+), bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design an ML system for Adobe Firefly to generate images from text prompts",
+        "How would you build a content-aware fill system using deep learning?",
+        "Design the ML pipeline for real-time style transfer in creative applications",
+        "How would you optimize a large language model for interactive creative assistance?",
+        "Build a system to automatically tag and categorize images for Adobe Stock",
+        "Design an ML system to remove backgrounds from images with high accuracy",
+        "How would you implement semantic search for creative assets?",
+        "Build a recommendation system for suggesting fonts and design elements",
+        "Design a model serving infrastructure for low-latency creative AI features",
+        "How would you fine-tune a diffusion model for specific creative styles?",
+        "Build a system to evaluate and filter inappropriate generative AI outputs",
+        "Design an ML pipeline for personalization at scale in Experience Cloud",
+        "How would you reduce inference latency for computer vision models in Photoshop?",
+        "Build a multi-modal model that understands both images and text for creative search",
+        "Design a system for continual learning as users provide feedback on AI features",
+        "How would you handle model versioning and A/B testing for ML features?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about an ML system you built and deployed to production",
+        "Describe your experience with generative AI or diffusion models",
+        "How have you balanced model accuracy with inference latency requirements?",
+        "Tell me about a time you optimized an ML pipeline for scale or cost",
+        "Describe your collaboration with researchers on productionizing research",
+        "How have you handled model failures or unexpected behavior in production?",
+        "Tell me about your experience with ML infrastructure and platforms",
+        "Describe a challenging ML problem you solved creatively",
+        "How do you stay current with rapidly evolving ML research?",
+        "Tell me about a time you had to make trade-offs in ML system design",
+        "Describe your experience with computer vision or NLP applications",
+        "How have you worked with product teams to define ML feature requirements?",
+        "Tell me about a project where you had to work with limited training data",
+        "Describe your approach to model monitoring and iteration in production"
+      ],
+
+      whatTheyLookFor: [
+        "Strong ML fundamentals—deep learning, computer vision, NLP, generative models",
+        "Production ML engineering experience with model training and serving at scale",
+        "Programming proficiency in Python with PyTorch, TensorFlow, or JAX",
+        "Experience with ML infrastructure (MLOps, feature stores, model serving)",
+        "Understanding of generative AI techniques (diffusion, transformers, GANs)",
+        "Ability to translate research papers into production systems",
+        "Interest in creative technology and understanding of user needs",
+        "Strong systems thinking and software engineering fundamentals",
+        "Track record of shipping ML systems to production",
+        "Collaboration skills with research, product, and engineering teams"
+      ],
+
+      interviewTips: [
+        "Deep dive on generative AI—understand diffusion models, transformers, RLHF",
+        "Review computer vision fundamentals given Adobe's creative focus",
+        "Prepare examples of ML systems you've built and deployed to production",
+        "Understand Adobe Firefly and Sensei—their capabilities and architecture",
+        "Be ready to discuss trade-offs in ML system design (accuracy vs latency vs cost)",
+        "Practice ML system design questions end-to-end",
+        "Know common ML infrastructure patterns (feature stores, model serving, monitoring)",
+        "Research Adobe's creative product portfolio and identify ML opportunities",
+        "Be ready to discuss ethical considerations in generative AI",
+        "Prepare to walk through your approach to a creative ML problem",
+        "Understand the competitive landscape (Midjourney, DALL-E, Stable Diffusion)",
+        "Be ready to discuss model optimization techniques (quantization, distillation)",
+        "Prepare questions about Adobe's ML culture and research collaboration",
+        "Practice coding problems in Python with focus on algorithm implementation"
+      ],
+
+      salary: {
+        min: 160000,
+        max: 320000,
+        avg: 225000
+      },
+
+      compensation: [
+        "Base salary: $160K-$320K+ depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Conference attendance and learning budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Machine Learning Engineer blends ML development, production engineering, and research collaboration—building AI systems that power creative tools for millions of users.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Model Training Review",
+            description: "Check overnight training runs for generative model, analyze metrics and samples"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync with Firefly ML team on sprint progress and blockers"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Research Collaboration",
+            description: "Meet with Adobe Research scientist to discuss new diffusion model techniques"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Paper Discussion",
+            description: "ML reading group discussing recent generative AI paper"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Model Development",
+            description: "Implement model optimization to reduce inference latency for production"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Code Review",
+            description: "Review teammate's PR for new ML pipeline component"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Product Sync",
+            description: "Meet with Photoshop PM to discuss AI feature requirements and success metrics"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Write technical documentation for new model serving architecture"
+          }
+        ],
+        closing: "Adobe MLEs work at the cutting edge of creative AI, shipping production ML systems that power features used by millions of creative professionals worldwide."
+      },
+
+      similarRoles: [
+        "Google Machine Learning Engineer",
+        "Meta Machine Learning Engineer",
+        "Apple Machine Learning Engineer",
+        "OpenAI Research Engineer"
+      ]
+    },
+
+    'ux-designer': {
+      roleDescription: "UX Designers at Adobe shape the experiences of the world's most influential creative and marketing tools, designing for products used by over 30 million Creative Cloud subscribers and hundreds of thousands of enterprises. You'll work on iconic products like Photoshop, Illustrator, Premiere Pro, Adobe XD, or Experience Cloud, creating intuitive interfaces for complex professional workflows. Adobe UX designers have unique influence—designing tools that other designers use daily, contributing to the Redwood Design System, and shaping how millions of people create and communicate visually.",
+
+      responsibilities: [
+        "Design user experiences for Creative Cloud applications (Photoshop, Illustrator, Premiere Pro, After Effects)",
+        "Create intuitive interfaces for complex professional creative workflows",
+        "Contribute to and evolve Adobe's Redwood Design System",
+        "Conduct user research with creative professionals, photographers, filmmakers, and marketers",
+        "Design for cross-platform consistency (desktop, web, mobile, iPad)",
+        "Create wireframes, prototypes, and high-fidelity designs using Adobe XD and other tools",
+        "Collaborate with engineering on implementation and interaction details",
+        "Design AI-powered features that enhance rather than replace human creativity",
+        "Balance innovation with respect for workflows professionals depend on"
+      ],
+
+      growthOpportunities: [
+        "Advance from UX Designer through Senior, Principal, to Design Director levels",
+        "Design tools used by millions of creative professionals worldwide",
+        "Influence Adobe's design language through Redwood Design System",
+        "Work on cutting-edge AI/generative AI creative features",
+        "Opportunities across Creative Cloud, Document Cloud, Experience Cloud, and Adobe XD",
+        "Collaborate with world-class designers, researchers, and product managers",
+        "Shape the future of creative software and design tools",
+        "Internal mobility between product teams and global design studios"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about design background, portfolio highlights, and interest in creative tools. Overview of Adobe's design culture and team structure.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Portfolio Review",
+          description: "60-minute deep dive into your portfolio with hiring manager or senior designer. Focus on process, rationale, and impact of your design work.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Design Exercise",
+          description: "Take-home design challenge related to creative tools or enterprise workflows. 3-4 hour exercise followed by presentation and critique.",
+          duration: "3-4 hours + 60-minute presentation"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including design critique, cross-functional collaboration (with PM/eng), design systems discussion, and behavioral/culture fit interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you redesign the Photoshop toolbar for new users while maintaining power for professionals?",
+        "Design an AI-powered feature that helps users discover creative possibilities in their work",
+        "How would you approach designing the settings and preferences experience for a complex creative app?",
+        "Design a collaboration experience for creative teams working on the same project",
+        "How would you make Adobe's mobile apps feel native while maintaining cross-platform consistency?",
+        "Design an onboarding experience for creative professionals new to Adobe products",
+        "How would you approach accessibility in complex creative applications?",
+        "Design a feature to help users organize and find assets across Creative Cloud",
+        "How would you design error states and feedback for long-running creative operations?",
+        "Design an experience for users to customize and personalize their creative workspace",
+        "How would you approach designing AI suggestions that don't interrupt creative flow?",
+        "Design a system for users to learn keyboard shortcuts and power features",
+        "How would you design the experience of exporting work to multiple formats and platforms?",
+        "Design a feature to help users share and get feedback on creative work in progress",
+        "How would you balance feature density with simplicity in professional creative tools?"
+      ],
+
+      behavioralQuestions: [
+        "Walk me through a project where you designed for creative professionals or power users",
+        "Tell me about a time you had to balance innovation with maintaining familiar workflows",
+        "Describe your process for conducting user research with specialized professionals",
+        "How have you collaborated with engineers on complex interaction implementation?",
+        "Tell me about a design you fought for that was initially controversial",
+        "Describe your experience working within and contributing to design systems",
+        "How have you designed for accessibility in complex applications?",
+        "Tell me about a time you had to simplify a complex workflow or feature",
+        "Describe your approach to getting feedback and iterating on designs",
+        "How have you handled situations where user research contradicted stakeholder assumptions?",
+        "Tell me about a project where you had to design for multiple platforms",
+        "Describe your experience designing AI-powered features or interactions",
+        "How have you balanced user needs with business and technical constraints?",
+        "Tell me about a design failure and what you learned from it"
+      ],
+
+      whatTheyLookFor: [
+        "Strong portfolio demonstrating complex interaction design and visual craft",
+        "Experience designing for professional or power users with complex workflows",
+        "Deep understanding of creative tools and creative professional needs",
+        "Systems thinking and ability to design scalable, consistent experiences",
+        "Proficiency with design tools (Adobe XD, Figma, Sketch, Photoshop, Illustrator)",
+        "User research skills and ability to translate insights into design decisions",
+        "Collaboration skills with engineering, product, and research partners",
+        "Passion for creativity and empowering creative professionals",
+        "Understanding of accessibility and inclusive design principles",
+        "Ability to present and defend design decisions clearly"
+      ],
+
+      interviewTips: [
+        "Use Adobe products extensively and identify UX opportunities",
+        "Prepare portfolio case studies with clear problem, process, and outcome",
+        "Show genuine passion for creative tools and empowering creativity",
+        "Be ready to discuss design systems and component-based design",
+        "Research Adobe's Redwood Design System and design culture",
+        "Prepare to discuss how AI is changing creative tool design",
+        "Be ready to critique your own work and discuss what you'd do differently",
+        "Understand the unique challenges of designing for professional users",
+        "Prepare to discuss cross-platform design consistency",
+        "Show awareness of accessibility considerations in creative tools",
+        "Be ready to discuss how you handle complex enterprise requirements",
+        "Prepare questions about Adobe's design culture and team structure",
+        "Practice articulating your design rationale clearly",
+        "Be ready to sketch or whiteboard during interviews"
+      ],
+
+      salary: {
+        min: 120000,
+        max: 240000,
+        avg: 165000
+      },
+
+      compensation: [
+        "Base salary: $120K-$240K depending on level and location",
+        "Annual bonus: 10-15% of base salary",
+        "RSUs: Equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Conference attendance and learning budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe UX Designer blends user research, design exploration, collaboration with engineers and product managers, and contributing to products that millions of creative professionals depend on.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Design Iteration",
+            description: "Refine designs for new layer management feature based on user feedback"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Design Critique",
+            description: "Present work-in-progress designs to team for feedback and discussion"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Engineering Sync",
+            description: "Work with engineers on interaction details and implementation constraints"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Inspiration",
+            description: "Browse design inspiration and creative industry trends"
+          },
+          {
+            time: "1:00 PM",
+            activity: "User Research",
+            description: "Conduct remote interview with professional photographer about workflow"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Prototyping",
+            description: "Build interactive prototype for AI feature in Adobe XD"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Design System Work",
+            description: "Contribute new component patterns to Redwood Design System"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Cross-Team Review",
+            description: "Review designs from other product teams for consistency and feedback"
+          }
+        ],
+        closing: "Adobe UX Designers have the unique opportunity to design tools that other designers use, shaping the creative workflows of millions while contributing to products that define the industry."
+      },
+
+      similarRoles: [
+        "Apple UX Designer",
+        "Google UX Designer",
+        "Figma Product Designer",
+        "Microsoft UX Designer"
+      ]
+    },
+
+    'research-scientist': {
+      roleDescription: "Research Scientists at Adobe Research push the boundaries of computer vision, machine learning, graphics, and creative AI, conducting world-class research that shapes the future of creative and marketing technology. You'll work on fundamental research in generative AI, computational photography, video understanding, natural language processing, and human-computer interaction—with the unique opportunity to see your research productionized into tools used by millions. Adobe Research scientists publish at top venues (CVPR, SIGGRAPH, NeurIPS, CHI), collaborate with academic partners, and have significant autonomy to pursue high-impact research directions.",
+
+      responsibilities: [
+        "Conduct original research in computer vision, machine learning, graphics, or HCI",
+        "Publish papers at top academic venues (CVPR, SIGGRAPH, NeurIPS, ICCV, CHI, ICLR)",
+        "Develop novel algorithms and techniques for creative AI applications",
+        "Collaborate with product teams to transfer research into production features",
+        "Mentor research interns and collaborate with university faculty",
+        "Contribute to Adobe's generative AI initiatives (Firefly, Sensei)",
+        "Build prototypes demonstrating research concepts for creative applications",
+        "Present research at conferences and represent Adobe in the research community",
+        "Define research direction and identify high-impact research opportunities"
+      ],
+
+      growthOpportunities: [
+        "Advance from Research Scientist through Senior, Principal, to Distinguished levels",
+        "Publish at top venues with Adobe Research's strong publication record",
+        "See your research productionized into tools used by millions of creators",
+        "Collaborate with world-class researchers across computer vision, ML, graphics, and HCI",
+        "Significant autonomy to define and pursue research directions",
+        "Work with cutting-edge computational resources and datasets",
+        "Collaborate with academic partners and mentor research interns",
+        "Shape the future of creative AI and generative technology"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about research background, publications, and interest in creative technology. Overview of Adobe Research culture and focus areas.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Technical Screen",
+          description: "60-minute technical discussion with researcher about your research area, methodology, and results. Deep dive on publications and technical contributions.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Research Talk",
+          description: "45-60 minute research presentation to Adobe Research team followed by Q&A. Present your best research work with technical depth.",
+          duration: "60-90 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-6 rounds with researchers across different areas. Includes technical discussions, research vision, coding/systems assessment, and culture fit.",
+          duration: "5-6 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, RSUs, and comprehensive benefits. Adobe Research compensation is competitive with top research labs.",
+          duration: "1-2 weeks"
+        }
+      ],
+
+      technicalQuestions: [
+        "Describe your most impactful research contribution and its significance",
+        "How would you approach developing a new generative model for creative content?",
+        "Design a research project to improve image editing with AI",
+        "What are the key challenges in making generative AI useful for creative professionals?",
+        "How would you evaluate the quality of AI-generated creative content?",
+        "Describe your approach to identifying high-impact research problems",
+        "How do you balance novelty with practical applicability in research?",
+        "Design an experiment to test a new hypothesis in your research area",
+        "What research directions do you think are most promising for creative AI?",
+        "How would you approach the challenge of controllable generation for creative tools?",
+        "Describe your experience transferring research into production systems",
+        "What role should AI play in creative workflows without replacing human creativity?",
+        "How do you stay current with the rapidly evolving ML/AI research landscape?",
+        "Design a research project that could have significant product impact at Adobe",
+        "What ethical considerations are important in generative AI research?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a research project that didn't work out and what you learned",
+        "Describe your collaboration with product teams to productionize research",
+        "How have you mentored students or junior researchers?",
+        "Tell me about a time you had to pivot your research direction",
+        "Describe your experience publishing at top venues—what made your work successful?",
+        "How do you prioritize research directions when many seem promising?",
+        "Tell me about research collaboration across institutions or teams",
+        "Describe how you've communicated research findings to non-technical stakeholders",
+        "How have you handled disagreements about research direction?",
+        "Tell me about your most creative research insight and how you arrived at it",
+        "Describe your experience with large-scale experiments or data",
+        "How do you balance exploring new ideas vs. completing ongoing projects?",
+        "Tell me about a research idea you championed against skepticism",
+        "Describe your vision for where your research area is heading"
+      ],
+
+      whatTheyLookFor: [
+        "Strong publication record at top venues (CVPR, SIGGRAPH, NeurIPS, ICCV, CHI)",
+        "Deep expertise in relevant research area (CV, ML, graphics, HCI, NLP)",
+        "Ability to identify and pursue high-impact research problems",
+        "Technical depth combined with systems building ability",
+        "Interest in creative applications and technology transfer to products",
+        "Collaboration skills for interdisciplinary research",
+        "Strong communication and presentation abilities",
+        "PhD in Computer Science, Electrical Engineering, or related field",
+        "Track record of research impact beyond publication metrics",
+        "Curiosity about the intersection of AI and human creativity"
+      ],
+
+      interviewTips: [
+        "Prepare a compelling research talk showcasing your best work with technical depth",
+        "Be ready to discuss future research directions and their potential impact",
+        "Understand Adobe Research's focus areas and recent publications",
+        "Show genuine interest in creative applications and technology transfer",
+        "Be ready to discuss how your research could impact Adobe products",
+        "Prepare to discuss the broader significance of your research contributions",
+        "Show awareness of the creative AI landscape and Adobe's position",
+        "Be ready to discuss collaboration with product teams and researchers",
+        "Prepare examples of successful technology transfer or product impact",
+        "Show understanding of the unique challenges in creative AI",
+        "Be ready to discuss ethical considerations in generative AI",
+        "Prepare questions about research culture and autonomy at Adobe Research",
+        "Demonstrate systems building ability beyond theoretical contributions",
+        "Show passion for creative technology and empowering human creativity"
+      ],
+
+      salary: {
+        min: 180000,
+        max: 400000,
+        avg: 275000
+      },
+
+      compensation: [
+        "Base salary: $180K-$400K depending on level and research impact",
+        "Annual bonus: 15-25% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior researchers",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Conference travel budget",
+        "Research equipment and compute budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Research Scientist blends deep research work, collaboration with product teams, mentoring, and engaging with the broader research community—all focused on advancing creative AI.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Research Time",
+            description: "Deep work on new diffusion model architecture for controllable generation"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Intern Sync",
+            description: "Meet with PhD intern to review progress on research project and paper draft"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lab Lunch",
+            description: "Weekly research lunch with Adobe Research colleagues discussing recent papers"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Product Collaboration",
+            description: "Meet with Firefly team to discuss research transfer and feature requirements"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Paper Writing",
+            description: "Write and revise CVPR submission with collaborators"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Research Seminar",
+            description: "Attend external researcher talk and Q&A on latest generative AI techniques"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Experimentation",
+            description: "Run experiments on new model architecture, analyze results"
+          }
+        ],
+        closing: "Adobe Research Scientists enjoy significant autonomy to pursue impactful research while having the unique opportunity to see their work deployed in products used by millions of creative professionals."
+      },
+
+      similarRoles: [
+        "Google Research Scientist",
+        "Meta Research Scientist",
+        "Microsoft Research Scientist",
+        "Apple Research Scientist"
+      ]
+    },
+
+    'solutions-architect': {
+      roleDescription: "Solutions Architects at Adobe design and implement enterprise solutions using Adobe Experience Cloud, the industry-leading digital experience platform for marketing, analytics, content management, and customer journey orchestration. You'll work with Fortune 500 companies and global brands to architect complex integrations, ensure successful implementations, and drive adoption of Adobe's marketing technology stack. Adobe SAs combine deep technical expertise with business acumen, translating customer needs into scalable solutions that transform how enterprises engage with their customers.",
+
+      responsibilities: [
+        "Design enterprise architecture solutions using Adobe Experience Cloud products",
+        "Lead technical discovery and requirements gathering with enterprise customers",
+        "Architect integrations between Adobe products and customer systems (CRM, ERP, data platforms)",
+        "Create solution designs, technical specifications, and implementation roadmaps",
+        "Conduct technical workshops and proof-of-concept demonstrations",
+        "Collaborate with sales, customer success, and consulting teams on deals",
+        "Stay current on Adobe product roadmap and communicate to customers",
+        "Troubleshoot complex technical issues during implementation and post-launch",
+        "Contribute to best practices, reference architectures, and reusable assets"
+      ],
+
+      growthOpportunities: [
+        "Advance from SA through Senior SA, Principal SA, to Chief Architect",
+        "Deep expertise in enterprise marketing technology and digital experience",
+        "Work with Fortune 500 companies on transformative digital initiatives",
+        "Influence Adobe product roadmap through customer feedback",
+        "Opportunities to specialize in specific products or industries",
+        "Path to customer-facing leadership or product management roles",
+        "Global travel and exposure to diverse enterprise environments",
+        "Build reputation as trusted advisor to enterprise executives"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about technical background, enterprise experience, and interest in Adobe Experience Cloud. Overview of SA role and team structure.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Technical Screen",
+          description: "60-minute technical interview covering architecture principles, web technologies, and integration patterns. May include discussion of past enterprise implementations.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Solution Design Exercise",
+          description: "Prepare and present a solution design for a hypothetical enterprise customer scenario. Focus on architecture, integration, and business alignment.",
+          duration: "90 minutes (prep + presentation)"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering technical depth, customer engagement scenarios, cross-functional collaboration, and behavioral/culture fit.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design an architecture for a global retail brand's personalization strategy using Adobe Experience Cloud",
+        "How would you integrate Adobe Experience Platform with a customer's existing data warehouse and CRM?",
+        "Design a solution for real-time customer journey orchestration across web, mobile, and email",
+        "How would you approach migrating a customer from a legacy marketing stack to Adobe?",
+        "Design an architecture for content management and delivery at global scale using Adobe Experience Manager",
+        "How would you handle identity resolution and customer profile unification across channels?",
+        "Design a solution for marketing analytics that combines Adobe Analytics with third-party data",
+        "How would you architect a headless content delivery solution using Adobe products?",
+        "Design a customer data platform implementation using Adobe Experience Platform",
+        "How would you approach data governance and privacy compliance in an enterprise implementation?",
+        "Design a solution for A/B testing and optimization at scale using Adobe Target",
+        "How would you integrate Adobe products with a customer's existing e-commerce platform?",
+        "Design an architecture for audience activation and media buying using Adobe products",
+        "How would you approach performance optimization for high-traffic enterprise implementations?",
+        "Design a solution for cross-channel campaign orchestration using Adobe Campaign"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a complex enterprise implementation you architected and its impact",
+        "Describe a time you had to navigate competing stakeholder priorities on a project",
+        "How have you handled a customer who wanted to implement something you knew wouldn't work?",
+        "Tell me about a time you turned around a troubled implementation or customer relationship",
+        "Describe your approach to explaining complex technical concepts to business executives",
+        "How have you stayed current with rapidly evolving marketing technology?",
+        "Tell me about a creative solution you designed for a challenging customer requirement",
+        "Describe your experience working with sales teams on technical deals",
+        "How have you handled situations where customer expectations exceeded product capabilities?",
+        "Tell me about a time you identified an opportunity to expand a customer relationship",
+        "Describe your experience with global enterprise implementations and regional requirements",
+        "How have you balanced customer customization requests with best practices?",
+        "Tell me about a time you had to push back on a customer's technical approach",
+        "Describe how you've contributed to reusable assets or best practices for other SAs"
+      ],
+
+      whatTheyLookFor: [
+        "Strong enterprise architecture skills and systems integration experience",
+        "Deep understanding of web technologies (JavaScript, APIs, CDNs, cloud infrastructure)",
+        "Experience with marketing technology, digital experience platforms, or related domains",
+        "Excellent communication and presentation skills for technical and business audiences",
+        "Customer-facing experience with enterprise sales and implementation",
+        "Ability to translate business requirements into technical solutions",
+        "Problem-solving skills for complex integration challenges",
+        "Project management and stakeholder alignment abilities",
+        "Understanding of data architecture, privacy, and compliance requirements",
+        "Consultative approach and trusted advisor mindset"
+      ],
+
+      interviewTips: [
+        "Understand Adobe Experience Cloud products—AEM, AEP, Analytics, Target, Campaign",
+        "Prepare examples of enterprise implementations you've architected",
+        "Be ready to discuss integration patterns and data architecture",
+        "Practice presenting technical solutions to mixed technical/business audiences",
+        "Research Adobe's competitive positioning vs Salesforce, Oracle, SAP",
+        "Be ready to discuss digital transformation trends in marketing technology",
+        "Prepare to discuss data privacy and compliance considerations",
+        "Show understanding of enterprise sales cycles and stakeholder management",
+        "Be ready to whiteboard solution architectures during interviews",
+        "Understand common enterprise integration challenges and solutions",
+        "Prepare questions about Adobe's partner ecosystem and implementation methodology",
+        "Show genuine interest in helping enterprises transform customer experiences",
+        "Be ready to discuss your approach to customer discovery and requirements",
+        "Demonstrate consultative selling and trusted advisor capabilities"
+      ],
+
+      salary: {
+        min: 150000,
+        max: 280000,
+        avg: 200000
+      },
+
+      compensation: [
+        "Base salary: $150K-$280K depending on level and location",
+        "Annual bonus: 15-25% of base salary (may include deal-based incentives)",
+        "RSUs: Equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Travel and expense budget",
+        "Learning and certification budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Solutions Architect blends customer engagement, solution design, technical enablement, and collaboration with sales and delivery teams to drive successful enterprise implementations.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Customer Call (EMEA)",
+            description: "Technical discovery call with European financial services customer"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Solution Design",
+            description: "Finalize architecture document for retail customer's personalization initiative"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Internal Sync",
+            description: "Meet with sales team to prepare for upcoming enterprise proposal"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Learning",
+            description: "Adobe product team presentation on new Experience Platform features"
+          },
+          {
+            time: "1:00 PM",
+            activity: "POC Development",
+            description: "Build proof-of-concept demo for customer's integration requirements"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Customer Workshop",
+            description: "Lead technical workshop with customer's IT team on AEM architecture"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Deal Support",
+            description: "Review RFP response and contribute technical sections"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Documentation",
+            description: "Update reference architecture based on recent implementation learnings"
+          }
+        ],
+        closing: "Adobe Solutions Architects serve as trusted technical advisors to enterprise customers, designing solutions that transform how global brands engage with their customers through digital experiences."
+      },
+
+      similarRoles: [
+        "Salesforce Solutions Architect",
+        "AWS Solutions Architect",
+        "Microsoft Solutions Architect",
+        "Google Cloud Customer Engineer"
+      ]
+    },
+
+    'technical-program-manager': {
+      roleDescription: "Technical Program Managers at Adobe drive the delivery of complex, cross-functional programs that shape Creative Cloud, Document Cloud, and Experience Cloud products used by over 30 million subscribers worldwide. You'll orchestrate engineering teams, navigate dependencies across Adobe's product portfolio, and ensure successful delivery of major initiatives—from AI-powered creative features to enterprise platform capabilities. Adobe TPMs combine technical depth with program management expertise, operating at the intersection of engineering, product, and business to deliver transformative creative technology.",
+
+      responsibilities: [
+        "Lead cross-functional programs spanning multiple engineering teams and products",
+        "Define program roadmaps, milestones, and success metrics for complex initiatives",
+        "Manage dependencies across Creative Cloud, Document Cloud, and Experience Cloud",
+        "Drive alignment between engineering, product, design, and business stakeholders",
+        "Identify and mitigate technical and organizational risks proactively",
+        "Coordinate cross-team architecture decisions and technical standards",
+        "Run effective program reviews and executive communications",
+        "Establish processes and tools for program tracking and transparency",
+        "Drive post-launch retrospectives and continuous improvement"
+      ],
+
+      growthOpportunities: [
+        "Advance from TPM through Senior, Principal, to Director of Program Management",
+        "Lead Adobe's most strategic technical initiatives",
+        "Deep exposure to creative technology, AI/ML, and enterprise software",
+        "Cross-functional influence with engineering, product, and executive leadership",
+        "Opportunities across Creative Cloud, Document Cloud, Experience Cloud, and platform",
+        "Build expertise in complex systems integration and platform development",
+        "Path to engineering leadership or product management roles",
+        "Shape Adobe's technical program management practices and culture"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about TPM background, technical depth, and interest in creative technology. Overview of Adobe's TPM organization and program types.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Screen",
+          description: "60-minute discussion on program management approach, technical understanding, and experience with complex cross-functional programs.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering program management scenarios, technical depth, stakeholder management, execution/risk assessment, and behavioral/culture fit.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 4,
+          title: "Executive Interview",
+          description: "Conversation with Director or VP about leadership approach, strategic thinking, and alignment with Adobe's technical culture.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer including base, bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you lead a program to integrate generative AI across multiple Creative Cloud products?",
+        "Describe your approach to managing a platform migration affecting multiple product teams",
+        "How would you handle a program where key dependencies are at risk of slipping?",
+        "Design a program plan for launching a new collaborative feature across desktop and mobile",
+        "How would you structure a program to modernize Adobe's cloud infrastructure?",
+        "Describe your approach to aligning engineering and product on competing priorities",
+        "How would you manage a program with significant external partner dependencies?",
+        "Design a program for improving performance across Creative Cloud applications",
+        "How would you approach a program requiring coordination across multiple time zones?",
+        "Describe your strategy for communicating program status to executives",
+        "How would you handle scope creep on a program with fixed delivery dates?",
+        "Design a program plan for Adobe's annual MAX conference product launches",
+        "How would you manage technical debt reduction alongside feature delivery?",
+        "Describe your approach to program retrospectives and continuous improvement"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a complex cross-functional program you led and its outcome",
+        "Describe a time you had to navigate competing stakeholder priorities",
+        "How have you handled a program that was at risk of missing its commitments?",
+        "Tell me about a time you had to make a difficult trade-off decision",
+        "Describe your approach to building relationships with engineering teams",
+        "How have you influenced engineering decisions without direct authority?",
+        "Tell me about a time you had to communicate bad news to executives",
+        "Describe how you've driven process improvements for program management",
+        "How have you handled conflict between teams you're coordinating?",
+        "Tell me about a program where requirements changed significantly mid-stream",
+        "Describe your experience managing programs with significant technical uncertainty",
+        "How have you ensured technical quality while meeting delivery timelines?",
+        "Tell me about a time you anticipated and prevented a program risk",
+        "Describe your approach to managing remote or distributed teams"
+      ],
+
+      whatTheyLookFor: [
+        "Strong technical background with ability to understand complex systems",
+        "Proven track record leading cross-functional programs at scale",
+        "Excellent communication skills for technical and executive audiences",
+        "Ability to influence without direct authority",
+        "Experience with software development lifecycle and agile methodologies",
+        "Risk identification and mitigation skills",
+        "Stakeholder management and relationship building abilities",
+        "Problem-solving mindset with bias for action",
+        "Interest in creative technology and Adobe's product portfolio",
+        "Organizational skills and attention to detail"
+      ],
+
+      interviewTips: [
+        "Understand Adobe's product portfolio—Creative Cloud, Document Cloud, Experience Cloud",
+        "Prepare specific examples of complex programs you've led with measurable outcomes",
+        "Be ready to discuss technical architecture at a high level",
+        "Show your approach to stakeholder management and influence",
+        "Prepare examples of risk identification and mitigation",
+        "Be ready to discuss how you balance quality with delivery timelines",
+        "Show understanding of cross-team coordination challenges",
+        "Prepare to discuss your program management philosophy and tools",
+        "Research Adobe's recent product launches and major initiatives",
+        "Be ready to discuss how you handle ambiguity and changing requirements",
+        "Show awareness of creative technology trends and AI impact",
+        "Prepare questions about Adobe's TPM culture and career growth",
+        "Be ready to walk through your approach to executive communication",
+        "Demonstrate genuine interest in creative software and Adobe's mission"
+      ],
+
+      salary: {
+        min: 150000,
+        max: 290000,
+        avg: 205000
+      },
+
+      compensation: [
+        "Base salary: $150K-$290K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Learning and development budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Technical Program Manager involves coordinating complex cross-functional programs, managing stakeholders, identifying risks, and driving execution across teams building creative technology.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Program Review Prep",
+            description: "Review status updates from teams and prepare executive summary"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Engineering Sync",
+            description: "Meet with engineering leads on AI feature integration progress and blockers"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Executive Review",
+            description: "Present program status to VP of Engineering, highlight risks and decisions needed"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Dependency Management",
+            description: "Coordinate with platform team on shared infrastructure timeline"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch with PM",
+            description: "Discuss upcoming roadmap changes and program implications"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Risk Review",
+            description: "Review program risks with leads, update mitigation plans"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Cross-Team Alignment",
+            description: "Facilitate alignment meeting between mobile and desktop teams"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Process Improvement",
+            description: "Work on program templates and tracking improvements"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Planning",
+            description: "Update program plan and prepare for tomorrow's reviews"
+          }
+        ],
+        closing: "Adobe TPMs drive the delivery of creative technology that empowers millions, navigating complexity across engineering teams to ensure successful delivery of transformative products."
+      },
+
+      similarRoles: [
+        "Google Technical Program Manager",
+        "Apple Technical Program Manager",
+        "Meta Technical Program Manager",
+        "Microsoft Program Manager"
+      ]
+    },
+
+    'security-engineer': {
+      roleDescription: "Security Engineers at Adobe protect the creative and marketing platforms trusted by over 30 million subscribers and hundreds of thousands of enterprises worldwide. You'll secure Creative Cloud applications, Document Cloud services, Experience Cloud infrastructure, and the AI systems powering Adobe Firefly and Sensei. Adobe security engineers work across application security, infrastructure security, incident response, and security engineering—ensuring that creative professionals and enterprises can trust Adobe with their most valuable work and sensitive customer data.",
+
+      responsibilities: [
+        "Design and implement security controls for Creative Cloud, Document Cloud, and Experience Cloud",
+        "Conduct security reviews and threat modeling for new features and architecture",
+        "Perform penetration testing and vulnerability assessments on Adobe products",
+        "Build security automation and tooling for continuous security validation",
+        "Lead incident response and forensic investigations",
+        "Develop secure coding guidelines and train engineering teams",
+        "Implement identity, access management, and data protection controls",
+        "Ensure compliance with SOC 2, ISO 27001, GDPR, and industry regulations",
+        "Collaborate with product teams to balance security with user experience"
+      ],
+
+      growthOpportunities: [
+        "Advance from Security Engineer through Senior, Staff, to Principal levels",
+        "Deep expertise in application security for creative and enterprise software",
+        "Work on cutting-edge AI security challenges with Firefly and Sensei",
+        "Opportunities across product security, cloud security, and security engineering",
+        "Path to security leadership, CISO organization, or security architecture roles",
+        "Shape Adobe's security culture and practices",
+        "Collaborate with industry partners and contribute to security standards",
+        "Build expertise in securing enterprise-scale SaaS platforms"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about security background, areas of expertise, and interest in Adobe. Overview of security organization and team structure.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Technical Screen",
+          description: "60-minute technical interview covering security fundamentals, threat modeling, and practical security scenarios.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including security design, application security assessment, coding/scripting, incident response scenario, and behavioral/culture fit.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 4,
+          title: "Security Leadership Interview",
+          description: "Conversation with security leadership about security philosophy and approach to complex challenges.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you approach threat modeling for Adobe Firefly's generative AI system?",
+        "Design a security architecture for protecting creative assets in Adobe's cloud",
+        "How would you secure the integration between Creative Cloud and third-party plugins?",
+        "Describe your approach to securing a system processing sensitive customer data",
+        "How would you detect and respond to a potential breach in cloud infrastructure?",
+        "Design an authentication and authorization system for enterprise creative workflows",
+        "How would you approach securing AI/ML models from adversarial attacks?",
+        "Describe your methodology for conducting a security review of a new feature",
+        "How would you implement secure file sharing for creative collaboration?",
+        "Design a secrets management system for Adobe's microservices architecture",
+        "How would you approach securing sensitive content in Document Cloud?",
+        "Describe your approach to vulnerability management at enterprise scale",
+        "How would you secure real-time collaboration features in creative applications?",
+        "Design a security monitoring and detection system for SaaS applications"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a significant security vulnerability you discovered and how you handled it",
+        "Describe your experience building security into development workflows",
+        "How have you balanced security requirements with product delivery timelines?",
+        "Tell me about a security incident you responded to and lessons learned",
+        "Describe your approach to training engineers on secure coding practices",
+        "How have you handled pushback when recommending security controls?",
+        "Tell me about a time you had to make a risk-based security decision",
+        "Describe your experience with compliance and regulatory requirements",
+        "How have you stayed current with evolving security threats and techniques?",
+        "Tell me about a creative solution you developed for a security challenge",
+        "Describe your experience with cloud security and infrastructure protection",
+        "How have you collaborated with non-security teams to improve security posture?",
+        "Tell me about a time you had to communicate security risks to executives",
+        "Describe your approach to automating security processes"
+      ],
+
+      whatTheyLookFor: [
+        "Strong foundation in application security, infrastructure security, or security engineering",
+        "Experience with threat modeling and security architecture design",
+        "Programming skills for security tooling and automation (Python, Go, JavaScript)",
+        "Knowledge of web application security (OWASP Top 10, secure coding)",
+        "Understanding of cloud security (AWS, Azure, GCP)",
+        "Experience with penetration testing and vulnerability assessment",
+        "Incident response and forensic investigation skills",
+        "Knowledge of identity, authentication, and access control",
+        "Understanding of compliance frameworks (SOC 2, ISO 27001, GDPR)",
+        "Collaboration skills for working with engineering and product teams"
+      ],
+
+      interviewTips: [
+        "Review Adobe's security practices and published security content",
+        "Be ready to discuss application security for SaaS platforms",
+        "Prepare examples of security design and threat modeling work",
+        "Understand the unique security challenges for creative software (IP protection, content security)",
+        "Be ready to discuss AI security given Adobe's Firefly and Sensei focus",
+        "Prepare to walk through your approach to security reviews",
+        "Show understanding of balancing security with user experience",
+        "Be ready to discuss incident response methodology",
+        "Prepare examples of security automation and tooling you've built",
+        "Show awareness of creative industry security concerns",
+        "Be ready to discuss cloud security architecture",
+        "Prepare questions about Adobe's security culture and team structure",
+        "Demonstrate your approach to continuous learning in security",
+        "Show genuine interest in protecting creative professionals and enterprises"
+      ],
+
+      salary: {
+        min: 145000,
+        max: 290000,
+        avg: 200000
+      },
+
+      compensation: [
+        "Base salary: $145K-$290K depending on level and specialization",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Security conference and training budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Security Engineer blends proactive security work, collaboration with engineering teams, and protecting the platforms that millions of creative professionals trust with their work.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Security Review",
+            description: "Conduct security review of new AI feature for Creative Cloud application"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Vulnerability Triage",
+            description: "Review and prioritize security findings from automated scanning"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Engineering Consultation",
+            description: "Meet with engineering team to discuss secure design for new integration"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learning",
+            description: "Attend security team presentation on emerging threat landscape"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Penetration Testing",
+            description: "Continue security assessment of Document Cloud API endpoints"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Tooling Development",
+            description: "Build automation for security testing in CI/CD pipeline"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Threat Modeling",
+            description: "Lead threat modeling session for upcoming collaboration feature"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Documentation",
+            description: "Update security guidelines and document findings"
+          }
+        ],
+        closing: "Adobe Security Engineers protect the creative tools and enterprise platforms trusted by millions, balancing rigorous security with the seamless user experiences creative professionals expect."
+      },
+
+      similarRoles: [
+        "Google Security Engineer",
+        "Apple Security Engineer",
+        "Microsoft Security Engineer",
+        "Meta Security Engineer"
+      ]
+    },
+
+    'sales-engineer': {
+      roleDescription: "Sales Engineers at Adobe serve as the technical bridge between Adobe's enterprise solutions and Fortune 500 customers, demonstrating how Adobe Experience Cloud, Creative Cloud for Enterprise, and Document Cloud can transform digital experiences and creative workflows. You'll conduct compelling product demonstrations, build custom proofs-of-concept, and provide technical expertise throughout complex enterprise sales cycles. Adobe SEs combine deep product knowledge with consultative selling skills to help global brands understand how Adobe technology can drive business outcomes.",
+
+      responsibilities: [
+        "Conduct technical product demonstrations for Adobe Experience Cloud and enterprise solutions",
+        "Build proofs-of-concept and custom demos tailored to customer requirements",
+        "Provide technical expertise during enterprise sales cycles and RFP responses",
+        "Partner with sales teams on deal strategy and technical qualification",
+        "Conduct technical discovery to understand customer environments and requirements",
+        "Present at customer events, conferences, and executive briefings",
+        "Collaborate with product teams on customer feedback and roadmap input",
+        "Stay current on Adobe products, competitive landscape, and industry trends",
+        "Train customers on Adobe solutions and best practices"
+      ],
+
+      growthOpportunities: [
+        "Advance from SE through Senior, Principal, to Distinguished SE levels",
+        "Path to SE leadership, solutions architecture, or product management roles",
+        "Deep expertise in enterprise marketing technology and digital experience",
+        "Work with Fortune 500 companies on transformative digital initiatives",
+        "Influence Adobe product roadmap through customer feedback",
+        "Develop thought leadership and industry expertise",
+        "Global travel and exposure to diverse enterprise environments",
+        "Build network of relationships with enterprise executives"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about SE background, technical depth, and interest in Adobe. Overview of SE role structure and territory/product focus.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Screen",
+          description: "60-minute discussion on presales experience, technical background, and approach to customer engagement.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Demo Presentation",
+          description: "Prepare and deliver a mock product demonstration for a hypothetical customer scenario. Evaluated on technical depth, presentation skills, and business alignment.",
+          duration: "60-90 minutes (prep + presentation)"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering technical depth, customer scenarios, sales collaboration, product knowledge, and behavioral/culture fit.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, commission/bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you demonstrate Adobe Experience Platform's value to a retail CMO?",
+        "Walk through how you'd build a POC for a customer's personalization use case",
+        "How would you position Adobe against Salesforce in a competitive deal?",
+        "Describe your approach to technical discovery with an enterprise prospect",
+        "How would you handle a customer objection about Adobe's pricing model?",
+        "Design a demo strategy for a customer evaluating Adobe Experience Cloud vs competitors",
+        "How would you explain Adobe's AI capabilities (Sensei, Firefly) to a non-technical buyer?",
+        "Describe your approach to responding to technical sections of an RFP",
+        "How would you handle a situation where Adobe's product doesn't meet a specific requirement?",
+        "Walk through how you'd support a proof-of-concept evaluation",
+        "How would you demonstrate ROI for an Adobe implementation?",
+        "Describe your approach to presenting to technical vs business audiences",
+        "How would you handle a customer who had a poor experience with a previous Adobe implementation?",
+        "Design a demo flow for Adobe Experience Manager for a media company"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a complex deal you supported and your role in closing it",
+        "Describe a time you turned around a customer who was leaning toward a competitor",
+        "How have you handled a situation where a product limitation impacted a deal?",
+        "Tell me about a challenging demo you delivered and what made it successful",
+        "Describe your approach to building relationships with technical and business buyers",
+        "How have you stayed current with rapidly evolving product capabilities?",
+        "Tell me about a creative solution you developed for a customer's unique requirements",
+        "Describe your experience collaborating with sales teams on deal strategy",
+        "How have you handled disagreements with sales about technical qualification?",
+        "Tell me about a time you provided feedback that influenced product development",
+        "Describe your experience presenting to C-level executives",
+        "How have you balanced supporting multiple deals with competing priorities?",
+        "Tell me about a deal you lost and what you learned from it",
+        "Describe your approach to continuous learning on new products and features"
+      ],
+
+      whatTheyLookFor: [
+        "Strong presales or technical sales experience with enterprise software",
+        "Deep understanding of marketing technology, digital experience, or related domains",
+        "Excellent presentation and demonstration skills",
+        "Technical depth to engage with IT and developer audiences",
+        "Business acumen to connect technology to outcomes",
+        "Customer-facing communication skills",
+        "Ability to build and customize demos and proofs-of-concept",
+        "Understanding of enterprise sales cycles and stakeholder management",
+        "Competitive awareness and positioning skills",
+        "Consultative approach and trusted advisor mindset"
+      ],
+
+      interviewTips: [
+        "Understand Adobe Experience Cloud products—AEM, AEP, Analytics, Target, Campaign",
+        "Prepare a compelling demo presentation for the interview",
+        "Be ready to discuss competitive positioning vs Salesforce, Oracle, SAP",
+        "Practice translating technical capabilities into business value",
+        "Research Adobe's customer success stories and use cases",
+        "Be ready to discuss your presales methodology and approach",
+        "Prepare examples of deals you've supported with measurable outcomes",
+        "Show understanding of enterprise sales cycles and buying processes",
+        "Be ready to handle objections and technical deep dives",
+        "Demonstrate your ability to connect with different stakeholder types",
+        "Prepare questions about territory, quota, and team structure",
+        "Show genuine enthusiasm for Adobe's technology and mission",
+        "Be ready to discuss how you stay current with product and industry trends",
+        "Practice whiteboarding technical architectures"
+      ],
+
+      salary: {
+        min: 130000,
+        max: 250000,
+        avg: 175000
+      },
+
+      compensation: [
+        "Base salary: $130K-$250K depending on level and location",
+        "Commission/bonus: 30-50% of base for on-target earnings",
+        "RSUs: Equity grants with 4-year vesting",
+        "Accelerators for exceeding quota",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Travel and expense budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Sales Engineer involves customer demonstrations, POC development, sales collaboration, and serving as the technical expert for enterprise deals.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Demo Prep",
+            description: "Finalize custom demo environment for afternoon customer presentation"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Deal Strategy",
+            description: "Meet with sales team to plan approach for enterprise account"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Discovery Call",
+            description: "Technical discovery with prospect's IT team on integration requirements"
+          },
+          {
+            time: "11:30 AM",
+            activity: "POC Development",
+            description: "Build proof-of-concept demo for customer's personalization use case"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch Learning",
+            description: "Product team webinar on new Experience Platform features"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Customer Demo",
+            description: "Present Adobe Experience Cloud to financial services prospect"
+          },
+          {
+            time: "3:30 PM",
+            activity: "RFP Response",
+            description: "Complete technical sections of enterprise RFP response"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Follow-Up",
+            description: "Send follow-up materials and schedule next steps with customer"
+          }
+        ],
+        closing: "Adobe Sales Engineers serve as trusted technical advisors to enterprise customers, demonstrating how Adobe technology can transform digital experiences and drive business outcomes."
+      },
+
+      similarRoles: [
+        "Salesforce Sales Engineer",
+        "AWS Solutions Architect",
+        "Microsoft Solutions Specialist",
+        "Google Cloud Customer Engineer"
+      ]
+    },
+
+    'devops-engineer': {
+      roleDescription: "DevOps Engineers at Adobe build and maintain the infrastructure, CI/CD pipelines, and automation that power Creative Cloud, Document Cloud, and Experience Cloud—platforms serving over 30 million subscribers and processing petabytes of creative content. You'll work on cloud infrastructure (primarily AWS), container orchestration, deployment automation, observability, and reliability engineering to ensure Adobe's creative and marketing tools are always available and performant. Adobe DevOps engineers operate at massive scale, supporting real-time collaboration, content delivery, and AI inference workloads.",
+
+      responsibilities: [
+        "Design and maintain cloud infrastructure for Adobe's SaaS platforms (AWS, Azure)",
+        "Build and optimize CI/CD pipelines for reliable, fast software delivery",
+        "Implement container orchestration and microservices infrastructure (Kubernetes, Docker)",
+        "Develop Infrastructure as Code using Terraform, CloudFormation, or Pulumi",
+        "Build observability solutions—monitoring, logging, alerting, and tracing",
+        "Automate operational processes and reduce manual toil",
+        "Ensure high availability and disaster recovery for critical services",
+        "Optimize cloud costs and resource utilization at scale",
+        "Support production systems and participate in on-call rotations"
+      ],
+
+      growthOpportunities: [
+        "Advance from DevOps Engineer through Senior, Staff, to Principal levels",
+        "Deep expertise in cloud-native infrastructure at massive scale",
+        "Work on cutting-edge AI/ML infrastructure for Firefly and Sensei",
+        "Opportunities across Creative Cloud, Experience Cloud, and platform teams",
+        "Path to infrastructure architecture or engineering leadership roles",
+        "Shape Adobe's DevOps practices and culture",
+        "Build expertise in real-time systems, content delivery, and collaboration infrastructure",
+        "Contribute to open-source projects and industry best practices"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about DevOps background, cloud experience, and interest in Adobe. Overview of infrastructure teams and technology stack.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Technical Screen",
+          description: "60-minute technical interview covering cloud infrastructure, CI/CD, containers, and automation scripting.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including infrastructure design, automation/coding, troubleshooting scenario, observability, and behavioral/culture fit.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 4,
+          title: "Team Match Discussion",
+          description: "Conversation with potential teams about specific projects and technical challenges.",
+          duration: "30-45 minutes"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design a CI/CD pipeline for a Creative Cloud application with desktop and cloud components",
+        "How would you architect high-availability infrastructure for real-time collaboration?",
+        "Design a container orchestration strategy for Adobe's microservices architecture",
+        "How would you implement blue-green or canary deployments at scale?",
+        "Design an observability stack for a SaaS platform serving millions of users",
+        "How would you optimize cloud costs for a large-scale creative content platform?",
+        "Describe your approach to Infrastructure as Code and its benefits",
+        "How would you design disaster recovery for Adobe's cloud services?",
+        "Design a secrets management solution for microservices",
+        "How would you scale infrastructure to handle peak loads during product launches?",
+        "Describe your approach to container security and image management",
+        "How would you implement zero-downtime deployments for a database-backed service?",
+        "Design a logging and tracing infrastructure for distributed systems",
+        "How would you approach cloud migration for a legacy service?",
+        "Describe your strategy for managing multiple environments (dev, staging, prod)"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a complex infrastructure project you led and its impact",
+        "Describe a production incident you responded to and how you resolved it",
+        "How have you balanced reliability with speed of delivery?",
+        "Tell me about a time you significantly improved deployment frequency or reliability",
+        "Describe your experience with cost optimization at scale",
+        "How have you worked with development teams to improve their deployment experience?",
+        "Tell me about automation you built that had significant impact",
+        "Describe your approach to on-call and incident management",
+        "How have you handled situations with technical debt in infrastructure?",
+        "Tell me about a time you had to troubleshoot a complex distributed system issue",
+        "Describe your experience migrating systems to containers or cloud",
+        "How have you ensured security in your infrastructure designs?",
+        "Tell me about a time you had to make trade-offs between competing priorities",
+        "Describe your approach to documentation and knowledge sharing"
+      ],
+
+      whatTheyLookFor: [
+        "Strong experience with cloud platforms (AWS, Azure, or GCP)",
+        "Expertise with container technologies (Kubernetes, Docker)",
+        "CI/CD pipeline design and implementation experience",
+        "Infrastructure as Code skills (Terraform, CloudFormation, Pulumi)",
+        "Programming/scripting proficiency (Python, Go, Bash)",
+        "Experience with observability tools (Prometheus, Grafana, ELK, Datadog)",
+        "Understanding of distributed systems and microservices architecture",
+        "Security-minded approach to infrastructure design",
+        "Problem-solving skills for complex troubleshooting",
+        "Collaboration skills with development and operations teams"
+      ],
+
+      interviewTips: [
+        "Be ready to discuss cloud infrastructure design at scale",
+        "Prepare examples of CI/CD pipelines you've built or improved",
+        "Understand containerization and Kubernetes deeply",
+        "Be ready to whiteboard infrastructure architectures",
+        "Review Adobe's technology stack and infrastructure approach",
+        "Prepare examples of automation with measurable impact",
+        "Be ready to discuss incident response and troubleshooting methodology",
+        "Show understanding of security in infrastructure design",
+        "Prepare to discuss cost optimization strategies",
+        "Be ready to discuss Infrastructure as Code best practices",
+        "Show awareness of DevOps culture and SRE principles",
+        "Prepare questions about on-call, incident management, and team structure",
+        "Be ready to discuss how you stay current with infrastructure technologies",
+        "Demonstrate genuine interest in enabling developer productivity"
+      ],
+
+      salary: {
+        min: 140000,
+        max: 270000,
+        avg: 190000
+      },
+
+      compensation: [
+        "Base salary: $140K-$270K depending on level and location",
+        "Annual bonus: 10-15% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Conference attendance and learning budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe DevOps Engineer involves infrastructure development, automation work, collaboration with engineering teams, and ensuring the reliability and performance of Adobe's cloud platforms.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Monitoring Review",
+            description: "Review overnight alerts and system health dashboards"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with infrastructure team on sprint progress"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Pipeline Development",
+            description: "Improve CI/CD pipeline for faster Creative Cloud deployments"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Engineering Support",
+            description: "Help development team troubleshoot deployment issue"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learn",
+            description: "Team presentation on new Kubernetes features and best practices"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Infrastructure as Code",
+            description: "Develop Terraform modules for new microservice infrastructure"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Architecture Review",
+            description: "Review infrastructure design for new Experience Cloud feature"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Automation",
+            description: "Build automated scaling policies for AI inference workloads"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update runbooks and operational documentation"
+          }
+        ],
+        closing: "Adobe DevOps Engineers enable creative professionals and enterprises by building and maintaining the reliable, scalable infrastructure that powers Adobe's cloud platforms."
+      },
+
+      similarRoles: [
+        "Google DevOps Engineer",
+        "Amazon DevOps Engineer",
+        "Microsoft DevOps Engineer",
+        "Netflix Platform Engineer"
       ]
     }
   },
