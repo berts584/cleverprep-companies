@@ -12703,6 +12703,614 @@ export const rolePageContent = {
         { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
         { companyName: "Apple", companySlug: "apple", industry: "Technology" }
       ]
+    },
+    'product-manager-technical': {
+      roleDescription: "Product Managers (Technical) at Amazon define the vision and strategy for technical products that power Amazon's consumer experience, AWS services, and internal platforms. Unlike pure product roles, Amazon's PMT position requires substantial technical depth - you're expected to understand system architecture, evaluate technical trade-offs, and work as a peer with engineers. You'll own the product roadmap, write detailed product requirement documents (PRDs) using Amazon's famous 6-pager format, and drive execution through cross-functional teams. The role is defined by Amazon's Leadership Principles, particularly Customer Obsession, Think Big, and Ownership. PMTs work on products at extraordinary scale: millions of daily active users, billions of transactions, and systems that directly impact Amazon's core business. Career progression follows a clear path from PMT to Senior PMT to Principal PMT, with some transitioning to General Manager roles owning entire business lines. The compensation structure heavily emphasizes stock, with total compensation growing significantly in years 3-4.",
+      responsibilities: [
+        "Define product vision, strategy, and roadmap aligned with customer needs and business goals",
+        "Write detailed PRDs using Amazon's 6-pager and PR/FAQ formats for stakeholder alignment",
+        "Gather and prioritize product requirements through customer research and data analysis",
+        "Partner with engineering teams to scope work, make technical trade-offs, and deliver features",
+        "Own product metrics and use data to drive product decisions and iterations",
+        "Present product strategy and progress to senior leadership through weekly business reviews",
+        "Drive go-to-market planning in collaboration with marketing, operations, and sales teams",
+        "Analyze competitive landscape and market trends to inform product direction",
+        "Manage product lifecycle from conception through launch and ongoing optimization",
+        "Represent the customer perspective in all product and technical discussions"
+      ],
+      growthOpportunities: [
+        "Own products serving hundreds of millions of customers with direct business impact",
+        "Clear career path from PMT to Senior PMT to Principal PMT to Director/GM",
+        "Path to General Manager roles owning entire business lines with P&L responsibility",
+        "Work across Amazon's diverse businesses: retail, AWS, devices, entertainment, logistics",
+        "Opportunity to launch new products and businesses from zero to scale",
+        "Access to Amazon's world-class data and experimentation infrastructure",
+        "Internal transfers supported across organizations and business units",
+        "Build both technical and business leadership skills in a rigorous environment",
+        "Work alongside world-class engineers, scientists, and business leaders"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your background, product experience, and interest in Amazon. The recruiter explains different PMT organizations and assesses fit based on your technical depth and product track record.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Screen",
+          description: "60-minute interview covering product sense, analytical skills, and Leadership Principles. Expect a mix of product case questions, metrics discussions, and behavioral LP questions with specific examples.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site Loop (5-6 rounds)",
+          description: "Full interview day including: (1) Product design round - design a product or feature demonstrating customer obsession; (2) Technical round - discuss system design, APIs, or technical trade-offs to validate technical credibility; (3) Analytical/metrics round - solve a business problem using data and define success metrics; (4) Strategy round - think big about product opportunities and market dynamics; (5) Bar Raiser round - deep dive into Leadership Principles. Each round includes LP behavioral questions.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Debrief & Decision",
+          description: "Interviewers submit independent written feedback before the debrief. Bar Raiser ensures fair evaluation against Amazon's hiring bar. Decisions typically within 5 business days.",
+          duration: "5 business days typical"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve the Amazon Prime membership experience? What metrics would you track?",
+        "Design a feature to reduce shopping cart abandonment. Walk through your prioritization.",
+        "You're launching a new AWS service. How would you approach the go-to-market strategy?",
+        "Product page conversions dropped 5% week-over-week. How would you investigate?",
+        "Design the returns experience for Amazon customers. What are the key customer pain points?",
+        "How would you prioritize features for Alexa's next major release?",
+        "Should Amazon build a social shopping feature? Walk through your analysis.",
+        "How would you measure the success of Amazon's Subscribe & Save program?",
+        "Design a new seller tool for third-party marketplace sellers. What problems would you solve?",
+        "Estimate the market opportunity for Amazon entering a new product category.",
+        "How would you improve Amazon's search experience? What data would you need?",
+        "Design the product strategy for expanding Amazon Fresh to new markets.",
+        "A major feature launch had low adoption. How would you diagnose and address this?",
+        "How would you think about pricing for a new subscription service?",
+        "Design an experience for helping customers discover new products they'll love."
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you made a customer-first decision that conflicted with short-term metrics. (Customer Obsession)",
+        "Describe a product you launched that failed. What did you learn? (Learn and Be Curious)",
+        "Give an example of when you had to influence engineering without authority. (Earn Trust)",
+        "Tell me about a time you disagreed with leadership on product direction. (Have Backbone; Disagree and Commit)",
+        "Describe how you used data to make a critical product decision. (Dive Deep)",
+        "Give an example of thinking big about a product opportunity. (Think Big)",
+        "Tell me about a time you shipped a product despite significant constraints. (Deliver Results)",
+        "Describe a situation where you simplified a complex product problem. (Invent and Simplify)",
+        "Give an example of taking ownership of a problem outside your scope. (Ownership)",
+        "Tell me about a time you raised the bar on product quality for your team. (Insist on the Highest Standards)",
+        "Describe how you balanced speed with quality in a product decision. (Bias for Action)",
+        "Give an example of when you had to make a frugal decision on product scope. (Frugality)",
+        "Tell me about a time you developed someone on your team. (Develop the Best)",
+        "Describe a situation where you built trust with a skeptical stakeholder. (Earn Trust)",
+        "Give an example of a bold product bet you made. (Have Backbone)"
+      ],
+      whatTheyLookFor: [
+        "Customer obsession: every decision starts with customer needs and pain points",
+        "Technical depth: ability to engage with engineers as a peer on technical decisions",
+        "Data-driven decision making: using metrics and experimentation to guide product choices",
+        "Leadership Principles alignment: demonstrated through specific examples in every interview",
+        "Strategic thinking: ability to think big while also delivering incremental value",
+        "Strong written communication: Amazon's 6-pager culture requires clear, structured writing",
+        "Ownership mentality: taking responsibility for product outcomes end-to-end",
+        "Bias for action: ability to move fast and make decisions with incomplete information",
+        "Delivery track record: proven ability to ship products that customers love",
+        "Cross-functional leadership: influencing diverse teams without direct authority"
+      ],
+      interviewTips: [
+        "Master Amazon's 16 Leadership Principles - prepare 2-3 STAR stories for each",
+        "Practice Amazon's PR/FAQ format for product cases - it's how decisions are made",
+        "Be deeply customer-obsessed - every answer should connect to customer benefit",
+        "Prepare for technical depth - you need credibility with engineering teams",
+        "Quantify everything: 'increased conversion by 15%' not 'improved the experience'",
+        "Practice product design cases using Amazon products as examples",
+        "Understand Amazon's business model across retail, AWS, and devices",
+        "Show ownership - discuss products end-to-end, not just features you defined",
+        "Prepare strong opinions backed by data, but be willing to 'disagree and commit'",
+        "For metrics questions, start with customer-facing metrics, then business impact",
+        "Research the specific team and come with informed questions about their challenges",
+        "Practice the Bar Raiser round - it's often the deciding factor",
+        "Demonstrate bias for action - show you ship, not just plan",
+        "Be ready to discuss failures and learnings - Amazon values learning from mistakes"
+      ],
+      salary: {
+        min: 140000,
+        max: 230000
+      },
+      compensation: [
+        "Competitive base salary with level-based progression",
+        "Sign-on bonus ($30-70K over 2 years) to offset RSU vesting curve",
+        "RSUs with 5/15/40/40 vesting schedule - total comp grows years 3-4",
+        "Annual stock refreshers based on performance",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Relocation assistance for eligible moves",
+        "Professional development budget",
+        "Amazon Prime membership and employee discounts",
+        "Parental leave benefits"
+      ],
+      dayInLife: {
+        overview: "Amazon PMTs balance strategic product work with cross-functional collaboration and stakeholder management. Days include document writing, data analysis, customer research, and meetings with engineering and business partners.",
+        schedule: [
+          { time: "9:00 AM", activity: "Metrics review", description: "Check product dashboards, analyze overnight experiment results, review customer feedback" },
+          { time: "9:30 AM", activity: "Engineering sync", description: "Daily standup with engineering team on sprint progress and blockers" },
+          { time: "10:00 AM", activity: "Document writing", description: "Deep work on PRDs, 6-pagers, or PR/FAQ documents for upcoming features" },
+          { time: "12:00 PM", activity: "Lunch", description: "Break, often combined with informal stakeholder conversations" },
+          { time: "1:00 PM", activity: "Customer research", description: "Review user studies, analyze support tickets, or participate in customer interviews" },
+          { time: "2:00 PM", activity: "Product review", description: "Present product updates to director or VP in weekly business review" },
+          { time: "3:30 PM", activity: "Cross-functional meeting", description: "Align with marketing, operations, or partner teams on launch plans" },
+          { time: "5:00 PM", activity: "Prioritization", description: "Review and prioritize backlog, prepare for upcoming planning cycles" },
+          { time: "6:00 PM", activity: "End of day", description: "Wrap up, respond to urgent items, prepare for tomorrow" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" }
+      ]
+    },
+    'business-analyst': {
+      roleDescription: "Business Analysts at Amazon translate complex business problems into data-driven solutions that impact millions of customers and billions of dollars in revenue. You'll work across Amazon's diverse businesses - retail, AWS, operations, advertising, and more - using SQL, Excel, and visualization tools to uncover insights and drive decisions. Amazon's BA role emphasizes operational rigor and customer impact over pure analytics elegance. You're expected to own the metrics that matter, build dashboards that drive action, and partner with business leaders to optimize processes at scale. The role offers unique exposure to Amazon's legendary operational excellence, including Weekly Business Reviews (WBRs) where leadership makes data-driven decisions. BAs at Amazon often become experts in their domain - inventory optimization, seller performance, customer experience, or financial planning - with clear paths to Senior BA, Lead Analyst, or transition to Product or Program Management roles.",
+      responsibilities: [
+        "Develop and maintain dashboards and reports that drive business decisions",
+        "Analyze large datasets to identify trends, patterns, and opportunities for improvement",
+        "Define and track key performance indicators (KPIs) aligned with business goals",
+        "Partner with business stakeholders to translate requirements into analytical solutions",
+        "Build automated reporting systems that scale across the organization",
+        "Conduct deep-dive analyses to understand root causes of business performance changes",
+        "Present findings and recommendations to leadership in Weekly Business Reviews",
+        "Create forecasting models for demand planning, financial projections, or operational capacity",
+        "Collaborate with engineering teams to improve data infrastructure and quality",
+        "Document methodologies and train stakeholders on self-service analytics tools"
+      ],
+      growthOpportunities: [
+        "Work with massive datasets across Amazon's diverse business units",
+        "Career path from BA to Senior BA to Lead Analyst to Analytics Manager",
+        "Opportunity to transition to Product Management, Program Management, or Data Science",
+        "Deep expertise in Amazon's operational excellence and metrics-driven culture",
+        "Internal mobility across retail, AWS, operations, advertising, and finance",
+        "Exposure to senior leadership through Weekly Business Reviews",
+        "Build technical skills in SQL, Python, and data engineering",
+        "Learn Amazon's legendary approach to metrics and operational rigor",
+        "Develop business acumen across e-commerce, cloud, logistics, and more"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your background, analytical experience, and interest in Amazon. The recruiter explains different BA organizations and assesses fit based on your SQL proficiency and business experience.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute interview with a BA or hiring manager covering SQL skills (you may write queries), analytical problem-solving, and Leadership Principles. Expect to walk through past analyses and demonstrate your approach to business problems.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site Loop (4-5 rounds)",
+          description: "Full interview day including: (1) SQL round - write complex queries to answer business questions; (2) Case study round - analyze a business problem and present recommendations; (3) Analytical deep dive - walk through a past analysis demonstrating your methodology; (4) Stakeholder management round - assess how you partner with business teams; (5) Bar Raiser round - thorough LP assessment.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Debrief & Decision",
+          description: "Interviewers submit independent feedback. Bar Raiser facilitates fair evaluation. Decisions typically within 5 business days.",
+          duration: "5 business days typical"
+        }
+      ],
+      technicalQuestions: [
+        "Write a SQL query to find the top 10 best-selling products by revenue in the last 30 days.",
+        "How would you design a dashboard to monitor seller performance on Amazon Marketplace?",
+        "Conversion rate dropped 3% last week. Walk through how you would investigate.",
+        "Write a SQL query to identify customers who made their first purchase in the last 90 days.",
+        "How would you forecast demand for a new product category with limited historical data?",
+        "Design metrics to measure the success of Amazon Prime membership.",
+        "Write a SQL query to calculate month-over-month growth in order volume by category.",
+        "A stakeholder wants to understand why returns are increasing. How would you approach this?",
+        "How would you build a self-service reporting solution for a business team?",
+        "Write a SQL query to find products that are frequently bought together.",
+        "Design an alerting system for key business metrics. What thresholds would you set?",
+        "How would you measure the impact of a promotional campaign?",
+        "Write a query to calculate customer lifetime value segmented by acquisition channel.",
+        "A VP asks why revenue is flat despite increasing traffic. How do you investigate?",
+        "How would you prioritize multiple analytical requests from different stakeholders?"
+      ],
+      behavioralQuestions: [
+        "Tell me about an analysis that changed how a business operated. (Deliver Results)",
+        "Describe a time you found an insight that contradicted conventional wisdom. (Dive Deep)",
+        "Give an example of when you simplified a complex analytical problem. (Invent and Simplify)",
+        "Tell me about a time you had to make a recommendation with incomplete data. (Bias for Action)",
+        "Describe how you prioritized requests from multiple stakeholders. (Customer Obsession)",
+        "Give an example of taking ownership of a data quality issue. (Ownership)",
+        "Tell me about a time your analysis was challenged. How did you respond? (Have Backbone)",
+        "Describe a situation where you learned a new tool or technique to solve a problem. (Learn and Be Curious)",
+        "Give an example of building trust with a skeptical business partner. (Earn Trust)",
+        "Tell me about a time you raised the bar on data quality for your team. (Insist on the Highest Standards)",
+        "Describe how you communicated complex findings to non-technical stakeholders. (Earn Trust)",
+        "Give an example of when you automated a manual process. (Invent and Simplify)",
+        "Tell me about a failed analysis. What did you learn? (Learn and Be Curious)",
+        "Describe a time you had to meet a tight deadline with limited resources. (Frugality)",
+        "Give an example of thinking big about an analytical opportunity. (Think Big)"
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills: complex queries, optimization, and data manipulation",
+        "Analytical problem-solving: structured approach to ambiguous business problems",
+        "Business acumen: understanding how analytics drives business decisions and outcomes",
+        "Leadership Principles alignment: demonstrated through specific examples",
+        "Communication skills: translating technical findings for business audiences",
+        "Attention to detail: accuracy and quality in data analysis",
+        "Customer obsession: focusing on metrics that matter for customers",
+        "Ownership mentality: taking responsibility for data quality and impact",
+        "Bias for action: delivering actionable insights, not just reports",
+        "Learning orientation: staying current with tools and techniques"
+      ],
+      interviewTips: [
+        "Practice SQL extensively - expect to write complex queries on a whiteboard or screen share",
+        "Prepare STAR stories for each Leadership Principle with analytical examples",
+        "Be ready to walk through past analyses in detail - methodology matters",
+        "Practice case studies: structured approach to ambiguous business problems",
+        "Quantify your impact: 'reduced costs by $2M' not 'improved efficiency'",
+        "Show customer obsession - connect your analyses to customer impact",
+        "Prepare to discuss how you've automated reporting or improved data quality",
+        "Research the specific team's business area and come with relevant questions",
+        "Practice explaining technical concepts to non-technical audiences",
+        "Demonstrate ownership - discuss analyses you owned end-to-end",
+        "Be ready for the Bar Raiser - LP questions are just as important as SQL",
+        "Show bias for action - focus on actionable insights over perfect analysis",
+        "Prepare questions about the team's key metrics and current challenges",
+        "Know Excel deeply - pivots, lookups, and modeling are often tested"
+      ],
+      salary: {
+        min: 75000,
+        max: 145000
+      },
+      compensation: [
+        "Competitive base salary with level-based progression",
+        "Sign-on bonus ($10-30K over 2 years)",
+        "RSUs with 5/15/40/40 vesting schedule",
+        "Annual stock refreshers based on performance",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Relocation assistance for eligible moves",
+        "Professional development and training budget",
+        "Amazon Prime membership and employee discounts",
+        "Flexible work arrangements in many teams"
+      ],
+      dayInLife: {
+        overview: "Amazon Business Analysts balance reporting and dashboard maintenance with deep-dive analysis and stakeholder partnership. Days include SQL work, meeting with business partners, and presenting insights in business reviews.",
+        schedule: [
+          { time: "9:00 AM", activity: "Metrics review", description: "Check overnight data loads, validate dashboards, review key metrics for anomalies" },
+          { time: "9:30 AM", activity: "SQL work", description: "Write queries for ongoing analysis or ad-hoc requests from stakeholders" },
+          { time: "11:00 AM", activity: "Stakeholder meeting", description: "Sync with business partner to understand new requirements or review findings" },
+          { time: "12:00 PM", activity: "Lunch", description: "Break, often combined with team discussions or learning" },
+          { time: "1:00 PM", activity: "Deep-dive analysis", description: "Focused time on complex analysis - root cause investigation or forecasting" },
+          { time: "3:00 PM", activity: "WBR prep", description: "Prepare materials for Weekly Business Review with leadership" },
+          { time: "4:00 PM", activity: "Dashboard development", description: "Build or improve automated reports and visualizations" },
+          { time: "5:00 PM", activity: "Documentation", description: "Document methodologies, update wikis, respond to questions" },
+          { time: "5:30 PM", activity: "End of day", description: "Wrap up, plan tomorrow's priorities" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" }
+      ]
+    },
+    'operations-manager': {
+      roleDescription: "Operations Managers at Amazon lead the fulfillment operations that enable Amazon to deliver millions of packages daily to customers worldwide. You'll manage teams of 50-150+ associates in a fast-paced, metrics-driven environment, driving safety, quality, and productivity in one of the world's most sophisticated logistics networks. Amazon's fulfillment centers are marvels of operational engineering, combining robotics, machine learning, and human expertise. As an Operations Manager, you'll own the performance of your shift and team, making real-time decisions that impact customer experience. The role emphasizes Amazon's Leadership Principles, particularly Ownership, Deliver Results, and Insist on the Highest Standards. Ops Managers develop deep expertise in lean manufacturing, continuous improvement, and people leadership. Career progression is clear: from Area Manager to Operations Manager to Senior Ops Manager to General Manager, with many leaders advancing to regional and corporate roles. The role offers competitive compensation with significant bonus potential tied to operational performance.",
+      responsibilities: [
+        "Lead a team of 50-150+ hourly associates in a fulfillment center operation",
+        "Drive safety culture and compliance with OSHA and Amazon safety standards",
+        "Achieve productivity, quality, and cost targets for your operational area",
+        "Manage labor planning, scheduling, and shift coverage to meet volume demand",
+        "Coach and develop front-line leaders (Area Managers and Process Assistants)",
+        "Conduct performance management including feedback, coaching, and recognition",
+        "Implement continuous improvement initiatives using Lean and Six Sigma methods",
+        "Monitor real-time metrics and make operational adjustments to meet targets",
+        "Partner with support functions (HR, Safety, Engineering) on site initiatives",
+        "Lead through peak periods including Prime Day and holiday seasons"
+      ],
+      growthOpportunities: [
+        "Lead operations in one of the world's most advanced fulfillment networks",
+        "Clear career path: Area Manager → Operations Manager → Senior Ops → General Manager",
+        "Path to regional leadership, corporate operations, or other Amazon businesses",
+        "Develop expertise in Lean, Six Sigma, and continuous improvement",
+        "Build people leadership skills managing large, diverse teams",
+        "Amazon Pathways program fast-tracks development for high performers",
+        "Internal transfers to different fulfillment types (sortation, delivery, robotics)",
+        "MBA sponsorship program for qualifying leaders",
+        "Compensation tied to operational performance with significant upside"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your background, leadership experience, and interest in operations. The recruiter explains different fulfillment center types and assesses fit based on your people management and operational experience.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Phone Screen",
+          description: "60-minute interview with an Operations Manager or Senior Ops covering your leadership experience and Leadership Principles. Expect scenario-based questions about managing teams, driving performance, and handling operational challenges.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "On-site Interview Loop (5-6 rounds)",
+          description: "Full day at a fulfillment center including: (1) Operations deep dive - discuss your experience driving metrics and leading teams; (2) People leadership round - scenarios about coaching, performance management, and team development; (3) Safety and compliance round - commitment to creating safe work environment; (4) Problem-solving round - analyze operational data and recommend improvements; (5) Bar Raiser round - thorough LP assessment. Includes a facility tour.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Debrief & Decision",
+          description: "Interviewers submit independent feedback. Bar Raiser ensures fair evaluation. Decisions typically within 5 business days.",
+          duration: "5 business days typical"
+        }
+      ],
+      technicalQuestions: [
+        "Your productivity metrics are 15% below target mid-shift. What steps would you take?",
+        "How would you handle a situation where you don't have enough staff to meet volume?",
+        "Walk me through how you would investigate a quality issue in your operation.",
+        "Describe your approach to implementing a continuous improvement initiative.",
+        "How would you manage conflicting priorities between safety, quality, and productivity?",
+        "Your team is experiencing high attrition. How would you diagnose and address this?",
+        "Walk me through how you would plan staffing for peak season.",
+        "How would you approach coaching an underperforming Area Manager?",
+        "Describe how you would use data to identify improvement opportunities in your operation.",
+        "How would you handle a safety incident in your area?",
+        "Walk me through your approach to shift handoff and communication.",
+        "How would you build engagement and morale during a challenging period?",
+        "Describe your process for running effective team meetings.",
+        "How would you balance standard work with flexibility for different situations?",
+        "Walk me through how you would prepare your team for Prime Day."
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you led a team to achieve a difficult goal. (Deliver Results)",
+        "Describe a situation where you had to make a quick decision with limited information. (Bias for Action)",
+        "Give an example of when you improved a process in your operation. (Invent and Simplify)",
+        "Tell me about a time you had a difficult conversation with an underperforming employee. (Have Backbone)",
+        "Describe how you built engagement and trust with a new team. (Earn Trust)",
+        "Give an example of taking ownership of a problem outside your direct responsibility. (Ownership)",
+        "Tell me about a time you prioritized safety over productivity. (Insist on the Highest Standards)",
+        "Describe a situation where you learned from a failure. (Learn and Be Curious)",
+        "Give an example of when you developed someone on your team. (Develop the Best)",
+        "Tell me about a time you went above and beyond for your team. (Earn Trust)",
+        "Describe how you handle stress during peak periods. (Deliver Results)",
+        "Give an example of diving deep into data to solve an operational problem. (Dive Deep)",
+        "Tell me about a time you disagreed with your manager. How did you handle it? (Have Backbone)",
+        "Describe a situation where you had to do more with less. (Frugality)",
+        "Give an example of thinking big about improving your operation. (Think Big)"
+      ],
+      whatTheyLookFor: [
+        "Leadership ability: proven track record of leading and developing teams",
+        "Operational mindset: data-driven approach to managing performance and driving results",
+        "Safety commitment: genuine prioritization of associate safety and wellbeing",
+        "Leadership Principles alignment: demonstrated through specific examples",
+        "Bias for action: ability to make quick decisions in fast-paced environment",
+        "Ownership mentality: taking responsibility for team and operational outcomes",
+        "Continuous improvement: mindset of always looking for ways to get better",
+        "Communication skills: effective at all levels from associates to senior leaders",
+        "Adaptability: thriving in changing, ambiguous situations",
+        "Physical stamina: role requires standing, walking, and being on the floor"
+      ],
+      interviewTips: [
+        "Prepare STAR stories for each Leadership Principle with operations/leadership examples",
+        "Bring specific examples of driving metrics - quantify your impact",
+        "Show genuine passion for people leadership and developing teams",
+        "Demonstrate safety commitment - it's non-negotiable at Amazon",
+        "Practice scenario-based questions about operational challenges",
+        "Research Amazon's fulfillment network and different building types",
+        "Be ready to discuss how you've handled difficult personnel situations",
+        "Show data-driven decision making - Amazon is metrics-obsessed",
+        "Prepare questions about the specific site and its challenges",
+        "Dress business casual and wear comfortable shoes for the tour",
+        "Demonstrate ownership - discuss times you took initiative beyond your role",
+        "Be ready to discuss work-life balance honestly - ops roles are demanding",
+        "Show adaptability - operations leaders must handle constant change",
+        "Practice the Bar Raiser round - it's often the deciding factor"
+      ],
+      salary: {
+        min: 65000,
+        max: 115000
+      },
+      compensation: [
+        "Competitive base salary with geographic adjustments",
+        "Sign-on bonus ($10-20K over first 2 years)",
+        "RSUs with 5/15/40/40 vesting schedule",
+        "Performance-based bonuses tied to operational metrics",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Relocation assistance for eligible moves",
+        "Shift differential for night and weekend shifts",
+        "Career development programs and training",
+        "Amazon Prime membership and employee discounts",
+        "Tuition assistance through Career Choice program"
+      ],
+      dayInLife: {
+        overview: "Operations Managers work shifts aligned with fulfillment center hours, which operate 24/7. Days include team meetings, floor walks, performance monitoring, and stakeholder engagement. Peak seasons (Prime Day, holidays) require extended hours.",
+        schedule: [
+          { time: "5:30 AM", activity: "Shift start / handoff", description: "Receive handoff from previous shift, review overnight metrics and issues" },
+          { time: "6:00 AM", activity: "Team briefing", description: "Communicate daily goals, safety focus, and key messages to associates" },
+          { time: "6:30 AM", activity: "Floor walk", description: "Walk the operation, observe processes, engage with associates, identify issues" },
+          { time: "8:00 AM", activity: "Area Manager syncs", description: "Check in with Area Managers on team performance and support needs" },
+          { time: "9:00 AM", activity: "Performance review", description: "Review real-time metrics, adjust staffing and resources as needed" },
+          { time: "10:00 AM", activity: "Problem solving", description: "Work on operational issues, continuous improvement, or associate concerns" },
+          { time: "12:00 PM", activity: "Lunch", description: "Quick break, often on the floor or near the operation" },
+          { time: "1:00 PM", activity: "Coaching / 1:1s", description: "Development conversations with Area Managers and high-potential associates" },
+          { time: "3:00 PM", activity: "Planning", description: "Review upcoming volume, staffing needs, and prepare for next shifts" },
+          { time: "4:00 PM", activity: "Shift handoff", description: "Brief incoming shift on status, priorities, and outstanding issues" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Walmart", companySlug: "walmart", industry: "Retail" },
+        { companyName: "UPS", companySlug: "ups", industry: "Logistics" },
+        { companyName: "FedEx", companySlug: "fedex", industry: "Logistics" },
+        { companyName: "Target", companySlug: "target", industry: "Retail" },
+        { companyName: "DHL", companySlug: "dhl", industry: "Logistics" }
+      ]
+    },
+    'cloud-support-engineer': {
+      roleDescription: "Cloud Support Engineers at AWS provide world-class technical support to customers running mission-critical workloads on the world's leading cloud platform. You'll troubleshoot complex issues across AWS's 200+ services, working directly with customers from startups to Fortune 500 enterprises. The role combines deep technical expertise with customer obsession - you're often the difference between a customer's success and failure on AWS. CSEs develop specialized expertise in domains like compute, networking, databases, security, or machine learning, becoming trusted advisors for the most challenging technical issues. The support environment is dynamic: you might debug a Lambda function in the morning and troubleshoot a multi-AZ RDS failover in the afternoon. Career growth is excellent, with paths to Senior CSE, Technical Account Manager, Solutions Architect, or AWS service teams. The role offers competitive compensation, on-call premium pay, and the satisfaction of directly helping customers succeed.",
+      responsibilities: [
+        "Provide technical support to AWS customers across diverse services and architectures",
+        "Troubleshoot complex issues spanning compute, storage, networking, databases, and more",
+        "Analyze logs, metrics, and configurations to diagnose root causes",
+        "Write technical documentation and knowledge base articles for common issues",
+        "Collaborate with AWS service teams to escalate and resolve critical issues",
+        "Develop expertise in specialized domain (compute, networking, security, ML, etc.)",
+        "Conduct customer enablement sessions and best practices reviews",
+        "Participate in on-call rotation for premium support customers",
+        "Contribute to internal tools and automation to improve support efficiency",
+        "Mentor junior engineers and contribute to team knowledge sharing"
+      ],
+      growthOpportunities: [
+        "Develop deep expertise across AWS's 200+ services",
+        "Career path to Senior CSE, Technical Account Manager, or Solutions Architect",
+        "Opportunity to join AWS service teams in engineering or product roles",
+        "Work with diverse customers across all industries and company sizes",
+        "Build relationships with customers that drive career opportunities",
+        "All AWS certifications supported with study time and exam coverage",
+        "Internal mobility across AWS regions and specializations",
+        "Develop consulting and customer relationship skills",
+        "Access to AWS internal resources and expertise"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your background, technical experience, and interest in AWS support. The recruiter explains different CSE specializations and assesses your cloud knowledge and customer service experience.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute technical interview covering networking, Linux/Windows administration, and troubleshooting methodology. You may be asked to walk through how you'd debug a specific technical scenario.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site Loop (4-5 rounds)",
+          description: "Full interview day including: (1) Technical deep dive - thorough assessment of your specialization area; (2) Troubleshooting scenario - walk through debugging a complex customer issue; (3) Customer obsession round - scenarios testing your approach to difficult customer situations; (4) Writing sample - demonstrate your ability to create clear technical documentation; (5) Bar Raiser round - LP assessment.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Debrief & Decision",
+          description: "Interviewers submit independent feedback. Bar Raiser facilitates fair evaluation. Decisions typically within 5 business days.",
+          duration: "5 business days typical"
+        }
+      ],
+      technicalQuestions: [
+        "A customer's EC2 instance is unreachable. Walk through your troubleshooting process.",
+        "Explain the difference between security groups and NACLs. When would you use each?",
+        "A Lambda function is timing out intermittently. How would you diagnose this?",
+        "Walk me through how VPC peering works and common configuration issues.",
+        "A customer's RDS database is running slow. What would you investigate?",
+        "Explain how S3 bucket policies and IAM policies interact.",
+        "A customer can't connect to their VPN. What would you check?",
+        "Describe the boot process for an EC2 instance and common failure points.",
+        "How would you troubleshoot high latency on an Application Load Balancer?",
+        "Explain the difference between synchronous and asynchronous Lambda invocation.",
+        "A customer's Auto Scaling group isn't scaling. What would you investigate?",
+        "Walk me through how you would debug an intermittent EBS performance issue.",
+        "Explain IAM roles for EC2 instances. How do credentials work?",
+        "A customer's CloudFormation stack is stuck in UPDATE_ROLLBACK_FAILED. What do you do?",
+        "How would you help a customer understand and optimize their AWS costs?",
+        "Describe the differences between AWS regions, AZs, and edge locations.",
+        "A customer needs to achieve HIPAA compliance on AWS. What would you advise?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you went above and beyond for a customer. (Customer Obsession)",
+        "Describe a complex technical issue you resolved. Walk me through your approach. (Dive Deep)",
+        "Give an example of when you had to explain a technical concept to a non-technical audience. (Earn Trust)",
+        "Tell me about a time you received critical feedback. How did you respond? (Learn and Be Curious)",
+        "Describe a situation where you had to push back on a customer request. (Have Backbone)",
+        "Give an example of taking ownership of an issue outside your normal scope. (Ownership)",
+        "Tell me about a time you improved a process or created documentation. (Invent and Simplify)",
+        "Describe how you prioritize when you have multiple urgent customer issues. (Deliver Results)",
+        "Give an example of a time you learned a new technology quickly to help a customer. (Learn and Be Curious)",
+        "Tell me about a time you collaborated with another team to resolve a customer issue. (Earn Trust)",
+        "Describe a situation where you had to manage a frustrated customer. (Customer Obsession)",
+        "Give an example of when you raised the bar on support quality. (Insist on the Highest Standards)",
+        "Tell me about a time you made a mistake with a customer. What did you learn? (Learn and Be Curious)",
+        "Describe how you stay current with AWS services and features. (Learn and Be Curious)",
+        "Give an example of a time you had to make a quick decision with limited information. (Bias for Action)"
+      ],
+      whatTheyLookFor: [
+        "Technical depth: strong foundation in networking, operating systems, and troubleshooting",
+        "AWS knowledge: understanding of core services (EC2, S3, VPC, IAM, RDS, Lambda)",
+        "Customer obsession: genuine passion for helping customers succeed",
+        "Communication skills: ability to explain complex technical concepts clearly",
+        "Problem-solving: structured approach to debugging complex issues",
+        "Leadership Principles alignment: demonstrated through specific examples",
+        "Learning agility: ability to quickly learn new AWS services and technologies",
+        "Written communication: clear, accurate technical documentation",
+        "Ownership mentality: taking responsibility for customer outcomes",
+        "Adaptability: handling diverse issues across different services and architectures"
+      ],
+      interviewTips: [
+        "Know AWS fundamentals deeply: EC2, VPC, S3, IAM, RDS - these come up in every interview",
+        "Practice troubleshooting scenarios - explain your methodology step by step",
+        "Get AWS certified if possible (Solutions Architect Associate is a good start)",
+        "Prepare STAR stories for each Leadership Principle with support/customer examples",
+        "Practice writing technical explanations - you may be asked to do a writing sample",
+        "Show customer obsession - bring examples of going above and beyond for users",
+        "Demonstrate learning agility - discuss how you've quickly learned new technologies",
+        "Be ready to whiteboard or explain networking concepts (TCP/IP, DNS, routing)",
+        "Research the specific CSE specialization you're applying for",
+        "Prepare questions about the team's customer base and common issues",
+        "Show ownership - discuss times you took responsibility for customer outcomes",
+        "Practice explaining technical concepts to non-technical audiences",
+        "Be honest about what you don't know - show how you'd learn quickly",
+        "Understand the on-call expectations and be prepared to discuss"
+      ],
+      salary: {
+        min: 80000,
+        max: 150000
+      },
+      compensation: [
+        "Competitive base salary with level-based progression",
+        "Sign-on bonus ($10-25K over 2 years)",
+        "RSUs with 5/15/40/40 vesting schedule",
+        "On-call premium pay for after-hours support",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "All AWS certification exams and prep materials covered",
+        "Professional development budget for training and conferences",
+        "Amazon Prime membership and employee discounts",
+        "Relocation assistance for eligible moves"
+      ],
+      dayInLife: {
+        overview: "Cloud Support Engineers work in shifts to provide 24/7 coverage for AWS customers. Days involve handling customer cases, collaborating with service teams, and developing expertise. On-call rotations are part of premium support coverage.",
+        schedule: [
+          { time: "9:00 AM", activity: "Shift start", description: "Review queue, prioritize cases, handoff from overnight shift if applicable" },
+          { time: "9:30 AM", activity: "Case work", description: "Deep troubleshooting on customer cases - analyzing logs, testing solutions" },
+          { time: "11:00 AM", activity: "Customer call", description: "Screenshare with customer to debug issue together and explain findings" },
+          { time: "12:00 PM", activity: "Lunch", description: "Break, often combined with AWS service reading or learning" },
+          { time: "1:00 PM", activity: "Escalation work", description: "Collaborate with AWS service team on complex issue requiring internal expertise" },
+          { time: "2:30 PM", activity: "Documentation", description: "Write knowledge base article for common issue pattern" },
+          { time: "3:30 PM", activity: "Team sync", description: "Weekly team meeting for knowledge sharing and process updates" },
+          { time: "4:30 PM", activity: "Case work", description: "Continue troubleshooting and responding to customer cases" },
+          { time: "5:30 PM", activity: "End of day", description: "Update case notes, handoff any urgent issues, prep for next day" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Oracle", companySlug: "oracle", industry: "Technology" },
+        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
+        { companyName: "IBM", companySlug: "ibm", industry: "Technology" }
+      ]
     }
   },
   'meta': {
