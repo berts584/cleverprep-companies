@@ -23515,449 +23515,611 @@ export const rolePageContent = {
 
   'salesforce': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Salesforce build the world's leading CRM platform and cloud-based enterprise software, serving hundreds of thousands of businesses globally. You'll work on challenging problems in multi-tenant architecture, enterprise SaaS, AI/ML integration, and scalable cloud infrastructure. Salesforce values Ohana (family), trust, customer success, and equality.",
-
+      roleDescription: "Software Engineers at Salesforce build the world's #1 CRM platform and enterprise cloud applications serving over 150,000 companies worldwide. You'll work on multi-tenant architecture at massive scale, developing products across Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, and the core Salesforce Platform. The company's Ohana (family) culture emphasizes trust, customer success, innovation, and equality—values that permeate everything from product decisions to community engagement. Salesforce pioneered cloud computing and SaaS, and continues to lead with innovations like Einstein AI, Agentforce autonomous agents, and Data Cloud. Engineers work in collaborative teams with significant autonomy, contributing to products that help businesses of all sizes connect with their customers in entirely new ways. The 1-1-1 philanthropic model means 1% of equity, 1% of employee time, and 1% of product go to community initiatives, making Salesforce a leader in stakeholder capitalism.",
       responsibilities: [
-        "Build and maintain Salesforce's CRM platform and enterprise cloud applications",
-        "Design multi-tenant architecture for scalable SaaS products",
-        "Develop features for Sales Cloud, Service Cloud, Marketing Cloud, or platform tools",
+        "Design and build scalable multi-tenant architecture for enterprise SaaS products",
+        "Develop features for Salesforce's cloud products (Sales, Service, Marketing, Commerce)",
         "Ensure security, reliability, and performance for enterprise customers",
-        "Collaborate with product, UX, and customer success teams"
+        "Build APIs and integrations enabling the Salesforce ecosystem",
+        "Collaborate with product, UX, and customer success teams on features",
+        "Participate in code reviews ensuring quality and security standards",
+        "Contribute to platform infrastructure serving billions of transactions daily",
+        "Work on AI/ML features through Einstein and Agentforce platforms",
+        "Engage with customers through feedback sessions and Dreamforce"
       ],
-
       growthOpportunities: [
-        "Work on technology serving hundreds of thousands of businesses globally",
-        "Strong focus on innovation with AI, automation, and cloud technologies",
-        "Ohana culture emphasizing community, equality, and social impact",
-        "Competitive compensation with strong benefits and equity",
-        "Career growth with clear technical and leadership tracks"
+        "Work on technology serving 150,000+ companies and millions of users",
+        "Contribute to industry-leading AI innovations (Einstein, Agentforce, Data Cloud)",
+        "Strong Ohana culture emphasizing community and work-life balance",
+        "Clear technical career ladder from MTS to Principal Architect",
+        "Competitive compensation with strong equity and benefits",
+        "1-1-1 model providing paid volunteer time and giving opportunities",
+        "Access to Trailhead learning platform and certification support",
+        "Work across diverse product areas from CRM to AI to infrastructure"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your background, interest in Salesforce's mission, and role fit. Overview of Ohana culture.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of background, interest in Salesforce, and alignment with Ohana values"
         },
         {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Coding interview covering algorithms, data structures, and problem-solving. May include OOP and system design discussion.",
-          duration: "45-60 minutes"
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Coding interview covering algorithms, data structures, and problem-solving"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Multiple interviews including coding (2 rounds), system design, and behavioral/cultural fit. Focus on Salesforce values.",
-          duration: "4-5 hours"
+          stage: "Onsite - Coding Round 1",
+          duration: "45 minutes",
+          description: "Algorithm and data structure problems with emphasis on code quality"
         },
         {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with potential teams to find the best fit for your skills and interests.",
-          duration: "Varies"
+          stage: "Onsite - Coding Round 2",
+          duration: "45 minutes",
+          description: "Second coding round, often OOP design or practical problem"
+        },
+        {
+          stage: "Onsite - System Design",
+          duration: "45 minutes",
+          description: "Design a multi-tenant system or enterprise SaaS architecture"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview focused on Salesforce values and Ohana culture fit"
         }
       ],
-
       technicalQuestions: [
-        "Design Salesforce's multi-tenant architecture",
-        "Implement a permission system for enterprise users",
-        "Design the data model for a CRM contact management system",
-        "How would you ensure data isolation in a multi-tenant system?",
-        "Design Salesforce's workflow automation engine",
-        "Implement role-based access control (RBAC) for organizations",
-        "Design the reporting and analytics system for Salesforce",
-        "How would you handle schema migrations in a multi-tenant database?",
-        "Design Salesforce's API rate limiting system",
-        "Implement a custom object framework for users to extend Salesforce"
+        "Design Salesforce's multi-tenant architecture for 150K+ customers",
+        "How would you implement data isolation in a shared database model?",
+        "Design the workflow automation engine for Sales Cloud",
+        "How would you build a permission system for enterprise organizations?",
+        "Design the API gateway handling billions of daily requests",
+        "How would you implement custom objects allowing users to extend Salesforce?",
+        "Design the reporting and analytics system for enterprise dashboards",
+        "How would you handle schema migrations across 150K customer orgs?",
+        "Design the real-time sync between Salesforce and external systems",
+        "How would you implement Einstein AI recommendations at scale?",
+        "Design the AppExchange marketplace architecture",
+        "How would you build governor limits to ensure fair resource usage?",
+        "Design the mobile offline sync for Salesforce Mobile",
+        "How would you implement record-level security in a multi-tenant system?",
+        "Design the platform event system for real-time integrations"
       ],
-
       behavioralQuestions: [
-        "Tell me about a time when you demonstrated trust and integrity",
-        "Describe a situation where you championed equality or diversity",
-        "How have you embodied customer success in your work?",
-        "Tell me about a time when you contributed to your team's Ohana",
-        "Describe a project where you had to balance innovation with reliability",
-        "How do you approach working with enterprise customers?",
-        "Tell me about a time when you gave back to your community",
-        "Describe how you've collaborated across distributed teams"
+        "Tell me about a time you demonstrated trust and integrity in your work",
+        "Describe a situation where you championed customer success",
+        "How have you contributed to equality and inclusion on your team?",
+        "Tell me about building something that had significant business impact",
+        "Describe a time you collaborated across teams to solve a problem",
+        "How have you balanced innovation with reliability requirements?",
+        "Tell me about giving back to your community or mentoring others",
+        "Describe a situation where you had to make a difficult technical trade-off",
+        "How have you worked with enterprise customers to understand their needs?",
+        "Tell me about a time you improved a process or system significantly",
+        "Describe how you've contributed to team culture and collaboration",
+        "How have you handled disagreement with a colleague or manager?",
+        "Tell me about learning a new technology to solve a problem",
+        "Describe a project where you had to balance multiple stakeholder needs",
+        "How have you demonstrated innovation in your work?"
       ],
-
       whatTheyLookFor: [
-        "Strong coding skills with enterprise software development experience",
+        "Strong coding skills with Java, Python, or JavaScript experience",
         "Understanding of multi-tenant architecture and SaaS principles",
         "Alignment with Salesforce values: Trust, Customer Success, Innovation, Equality",
-        "Experience with cloud platforms, distributed systems, or enterprise software",
-        "Customer-first mindset with focus on business impact",
-        "Collaborative approach across product, engineering, and customer success",
-        "Commitment to diversity, equality, and social responsibility",
-        "Passion for building products that empower businesses"
+        "Experience with cloud platforms and distributed systems",
+        "Customer-first mindset focused on business impact",
+        "Collaborative approach working across teams and functions",
+        "Commitment to diversity, equality, and inclusion",
+        "Passion for building products that transform how businesses operate",
+        "Strong communication skills for cross-functional work",
+        "Track record of delivering reliable, scalable software"
       ],
-
       interviewTips: [
-        "Use Salesforce products - understand CRM, Sales Cloud, and platform capabilities",
-        "Study Salesforce's Ohana culture and core values deeply",
+        "Use Salesforce products and understand the platform ecosystem",
+        "Study Ohana culture and Salesforce's core values deeply",
         "Prepare examples demonstrating trust, customer success, and equality",
-        "Understand enterprise SaaS and multi-tenant architecture concepts",
-        "Show customer empathy and business impact orientation",
-        "Research Salesforce's technology blog and innovation initiatives",
-        "Be ready to discuss scalability and enterprise requirements",
-        "Ask about the team's product area, culture, and social impact"
+        "Understand multi-tenant architecture and enterprise SaaS patterns",
+        "Research Salesforce's technology blog and engineering innovations",
+        "Be ready to discuss scalability for enterprise customers",
+        "Show genuine interest in helping businesses succeed",
+        "Prepare questions about team culture and social impact initiatives",
+        "Understand Einstein AI and how Salesforce approaches ML",
+        "Be authentic about your values and community involvement",
+        "Practice system design for B2B SaaS applications",
+        "Know Salesforce's competitive position and recent acquisitions",
+        "Prepare to discuss how you've handled enterprise requirements",
+        "Show enthusiasm for the 1-1-1 philanthropy model"
       ],
-
-      dayInLife: {
-        overview: "Salesforce engineers work in collaborative teams building enterprise cloud products with focus on customer success and innovation. Your day includes coding, design reviews, customer feedback sessions, and community engagement.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Team Standup",
-            description: "Daily sync with team on progress, blockers, and customer priorities"
-          },
-          {
-            time: "9:30 AM",
-            activity: "Feature Development",
-            description: "Build new automation workflow feature for Sales Cloud"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Customer Feedback Session",
-            description: "Review feedback from enterprise customers on new features"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Lunch & Volunteer Event",
-            description: "Team lunch followed by 1:1:1 volunteer activity planning"
-          },
-          {
-            time: "2:00 PM",
-            activity: "System Design Review",
-            description: "Architecture review for multi-tenant data storage optimization"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Code Review",
-            description: "Review pull requests with focus on security and scalability"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Cross-functional Sync",
-            description: "Meet with product and UX on enterprise customer requirements"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Innovation Time",
-            description: "Work on AI/ML integration for Einstein features"
-          }
-        ]
+      salary: {
+        min: 140000,
+        max: 280000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" }
-      ]
+      compensation: [
+        "Base salary range: $140,000 - $280,000 depending on level (MTS to Principal)",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Wellness reimbursement program",
+        "7 days paid volunteer time off (VTO) annually",
+        "Education reimbursement and certification support",
+        "Generous parental leave policy"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Software Engineer at Salesforce involves collaborative development, customer focus, and meaningful community engagement within the Ohana culture.",
+        schedule: [
+          "9:00 AM - Team standup discussing sprint progress and customer priorities",
+          "9:30 AM - Feature development for Sales Cloud automation workflow",
+          "11:00 AM - Architecture review for multi-tenant optimization",
+          "12:00 PM - Lunch with team, often discussing Dreamforce or community events",
+          "1:00 PM - Customer feedback session reviewing enterprise requirements",
+          "2:30 PM - Code review with focus on security and scalability",
+          "3:30 PM - Cross-functional sync with product and UX on upcoming features",
+          "4:30 PM - Innovation time exploring Einstein AI integration possibilities",
+          "5:30 PM - Volunteer planning for upcoming 1-1-1 community event"
+        ],
+        closing: "Salesforce engineers enjoy working on technology that transforms businesses while being part of a culture that genuinely values giving back and community impact."
+      },
+      similarRoles: ["Data Scientist", "Technical Architect", "DevOps Engineer", "AI/ML Engineer"]
     },
-
     'product-manager': {
-      roleDescription: "Product Managers at Salesforce define and execute product strategy for the world's #1 CRM platform and enterprise cloud applications. From Sales Cloud to AI-powered Einstein, you'll work on products serving hundreds of thousands of businesses globally. Salesforce PMs are known for customer obsession, strategic thinking, and commitment to the Ohana culture.",
-
+      roleDescription: "Product Managers at Salesforce define and execute product strategy for the world's #1 CRM platform, shaping how over 150,000 companies connect with their customers. You'll own products across Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, Einstein AI, Data Cloud, or Agentforce—each serving diverse customers from SMBs to Fortune 500 enterprises. Salesforce PMs are known for deep customer obsession, working directly with customers at events like Dreamforce and through ongoing feedback programs. The role requires balancing innovation with enterprise reliability, managing complex stakeholder ecosystems, and driving adoption across a vast partner network. PMs work within the Ohana culture, where trust, customer success, innovation, and equality guide every product decision. With Salesforce's leadership in AI through Einstein and Agentforce, PMs are at the forefront of defining how autonomous agents transform business processes.",
       responsibilities: [
-        "Define product vision and strategy for Salesforce's cloud products",
-        "Gather customer insights through research, feedback, and data analysis",
+        "Define product vision and strategy for Salesforce cloud products",
+        "Gather customer insights through research, Dreamforce, and ongoing feedback",
         "Prioritize features balancing customer needs, business goals, and technical feasibility",
-        "Collaborate with engineering, UX, customer success, and business teams",
-        "Ship products that drive customer success and business transformation"
+        "Partner with engineering, UX, and customer success to deliver products",
+        "Drive product adoption through enablement, documentation, and partner ecosystem",
+        "Define success metrics and measure product impact on customer success",
+        "Present roadmap and vision to customers, analysts, and at Dreamforce",
+        "Collaborate with AppExchange partners on ecosystem strategy",
+        "Guide AI/ML product features for Einstein and Agentforce"
       ],
-
       growthOpportunities: [
-        "Own products serving hundreds of thousands of businesses globally",
-        "Work on diverse product areas from CRM to AI to platform tools",
-        "Strong focus on customer success and business impact",
-        "Ohana culture with emphasis on community and social responsibility",
-        "Career growth into senior PM, VP, or leadership roles"
+        "Own products serving 150,000+ companies across all industries",
+        "Shape the future of AI in business through Einstein and Agentforce",
+        "Direct customer engagement at Dreamforce and throughout the year",
+        "Clear career path to Senior PM, Director, VP, and SVP roles",
+        "Work across diverse product areas from CRM to AI to platform",
+        "Strong Ohana culture with emphasis on work-life balance",
+        "Influence the Salesforce ecosystem of 10M+ developers and admins",
+        "Competitive compensation with equity participation"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your PM experience, interest in enterprise software, and role fit.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of PM background and alignment with Salesforce values"
         },
         {
-          step: 2,
-          title: "Hiring Manager Interview",
-          description: "Deep dive into product experience, strategic thinking, and customer focus.",
-          duration: "45-60 minutes"
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into product experience, strategic thinking, and customer focus"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering product design, strategy, analytics, execution, and values. Focus on customer success and Salesforce culture.",
-          duration: "4-5 hours"
+          stage: "Onsite - Product Sense",
+          duration: "45 minutes",
+          description: "Product design exercise for an enterprise SaaS problem"
         },
         {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with product teams to find the best fit.",
-          duration: "Varies"
+          stage: "Onsite - Analytical",
+          duration: "45 minutes",
+          description: "Data analysis and metrics definition for product decisions"
+        },
+        {
+          stage: "Onsite - Execution",
+          duration: "45 minutes",
+          description: "Discussion of shipping products and managing stakeholders"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and customer success"
         }
       ],
-
       technicalQuestions: [
-        "How would you improve Salesforce Sales Cloud for small businesses?",
-        "Design a new feature for customer service automation",
-        "Should Salesforce enter a new market vertical? How would you evaluate?",
-        "How would you measure success for Einstein AI features?",
-        "Design the mobile experience for Salesforce",
-        "How would you improve adoption of Salesforce platform features?",
-        "Should Salesforce build a new industry cloud? Walk through your analysis",
-        "Design a feature to reduce time-to-value for new customers",
-        "How would you improve the AppExchange marketplace?",
-        "Analyze declining engagement for a Salesforce product"
+        "How would you improve Sales Cloud for mid-market companies?",
+        "Design a new feature for AI-powered customer service automation",
+        "How would you measure success for Einstein AI recommendations?",
+        "Design the product strategy for Salesforce entering a new vertical",
+        "How would you improve adoption of Salesforce Platform features?",
+        "Design a feature reducing time-to-value for new customers",
+        "How would you approach building an Agentforce autonomous agent?",
+        "Design the mobile experience for field sales representatives",
+        "How would you improve the AppExchange partner experience?",
+        "Design features helping SMBs get started with Salesforce faster",
+        "How would you balance enterprise vs SMB customer needs?",
+        "Design the integration experience between Salesforce clouds",
+        "How would you measure and improve customer health scores?",
+        "Design a product addressing data quality challenges",
+        "How would you approach pricing for a new Salesforce feature?"
       ],
-
       behavioralQuestions: [
         "Tell me about a product that drove significant customer success",
-        "Describe a time when you had to balance multiple stakeholder needs",
-        "How have you championed equality or diversity in product decisions?",
-        "Tell me about a time when you used customer feedback to change direction",
-        "Describe a situation where you had to influence without authority",
-        "How do you prioritize between enterprise and SMB customer needs?",
-        "Tell me about a time when you demonstrated trust and integrity",
-        "Describe how you've collaborated with customer success teams"
+        "Describe balancing conflicting stakeholder needs",
+        "How have you championed equality in product decisions?",
+        "Tell me about using customer feedback to change product direction",
+        "Describe influencing engineering without direct authority",
+        "How do you prioritize between enterprise and SMB customers?",
+        "Tell me about demonstrating trust and integrity as a PM",
+        "Describe collaborating with customer success on product adoption",
+        "How have you worked with partners to extend your product?",
+        "Tell me about a product launch that didn't meet expectations",
+        "Describe presenting product vision to customers or analysts",
+        "How have you handled technical debt vs feature trade-offs?",
+        "Tell me about building consensus across a complex organization",
+        "Describe a time you advocated for a customer need internally",
+        "How have you contributed to Ohana culture on your team?"
       ],
-
       whatTheyLookFor: [
         "Strong customer obsession with enterprise software experience",
-        "Strategic thinking with execution excellence",
+        "Strategic thinking balanced with execution excellence",
+        "Deep understanding of CRM, SaaS, and enterprise business processes",
         "Analytical skills and data-driven decision making",
-        "Understanding of CRM, SaaS, and enterprise business processes",
         "Alignment with Salesforce values and Ohana culture",
-        "Excellent communication and stakeholder management",
-        "Technical depth to collaborate effectively with engineering",
-        "Passion for driving customer success and business transformation"
+        "Experience managing complex stakeholder ecosystems",
+        "Track record shipping products that drive customer success",
+        "Technical depth to partner effectively with engineering",
+        "Excellent communication and presentation skills",
+        "Passion for transforming how businesses connect with customers"
       ],
-
       interviewTips: [
-        "Use Salesforce products extensively - understand the platform and ecosystem",
-        "Study Salesforce's Ohana culture and values (Trust, Customer Success, Innovation, Equality)",
-        "Prepare examples showing customer obsession and business impact",
-        "Understand enterprise software dynamics and CRM market",
-        "Bring data and metrics to support product decisions",
-        "Research Salesforce's product strategy and recent innovations",
-        "Show empathy for both enterprise and SMB customers",
-        "Ask about the team's product area, customer base, and roadmap"
+        "Use Salesforce products extensively—become a power user",
+        "Study Ohana culture and Salesforce's four core values",
+        "Prepare customer success stories with measurable impact",
+        "Understand the Salesforce ecosystem including AppExchange",
+        "Research recent Dreamforce announcements and product direction",
+        "Be ready to discuss enterprise vs SMB market dynamics",
+        "Prepare examples of stakeholder management in complex orgs",
+        "Show genuine passion for customer success and business transformation",
+        "Understand Einstein AI, Data Cloud, and Agentforce capabilities",
+        "Be ready to discuss the competitive landscape (Microsoft, Oracle, etc.)",
+        "Prepare thoughtful questions about the team and product area",
+        "Show how you balance innovation with enterprise reliability",
+        "Understand Salesforce's partner and ISV ecosystem",
+        "Be authentic about your values and community involvement"
       ],
-
-      dayInLife: {
-        overview: "Salesforce PMs balance customer research, data analysis, strategic planning, and cross-functional collaboration. Your day includes customer calls, design reviews, engineering syncs, and community engagement.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Metrics Review",
-            description: "Analyze product adoption, usage, and customer success metrics"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Customer Interviews",
-            description: "Calls with enterprise customers about their business challenges"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Engineering Sync",
-            description: "Sprint planning with engineering team on new features"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Lunch & Ohana Time",
-            description: "Team lunch discussing community initiatives"
-          },
-          {
-            time: "1:30 PM",
-            activity: "UX Collaboration",
-            description: "Design review for new automation workflow UI"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Data Analysis",
-            description: "Analyze feature adoption and conversion funnels"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Strategy Meeting",
-            description: "Quarterly planning with leadership on product roadmap"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Customer Success Sync",
-            description: "Align with CS team on enterprise customer feedback"
-          }
-        ]
+      salary: {
+        min: 150000,
+        max: 320000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
-      ]
+      compensation: [
+        "Base salary range: $150,000 - $320,000 depending on level",
+        "Annual bonus typically 15-25% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Wellness reimbursement program",
+        "7 days paid volunteer time off annually",
+        "Attendance at Dreamforce and customer events",
+        "Education and certification reimbursement"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Product Manager at Salesforce involves customer engagement, strategic thinking, and cross-functional collaboration within the Ohana culture.",
+        schedule: [
+          "9:00 AM - Review product metrics and customer health dashboards",
+          "9:30 AM - Customer call discussing their business challenges and needs",
+          "10:30 AM - Engineering sync on sprint priorities and technical decisions",
+          "11:30 AM - UX review for upcoming feature designs",
+          "12:30 PM - Lunch with customer success team discussing adoption trends",
+          "1:30 PM - Roadmap planning session with product leadership",
+          "3:00 PM - Partner meeting with AppExchange ISV on integration",
+          "4:00 PM - Prepare customer presentation for upcoming event",
+          "5:00 PM - Analyst briefing on new AI capabilities"
+        ],
+        closing: "Salesforce PMs enjoy direct customer engagement and the opportunity to shape products that genuinely transform how businesses operate and connect with their customers."
+      },
+      similarRoles: ["Software Engineer", "UX Designer", "Customer Success Manager", "Solution Engineer"]
     },
-
     'engineering-manager': {
-      roleDescription: "Engineering Managers at Salesforce lead teams building enterprise cloud products that transform how businesses connect with customers. You'll balance technical leadership with people management, drive product execution, and foster the Ohana culture. EMs at Salesforce typically manage teams of 6-10 engineers working on CRM, platform, or cloud infrastructure.",
-
+      roleDescription: "Engineering Managers at Salesforce lead teams building enterprise cloud products that transform how over 150,000 companies connect with their customers. You'll manage teams of 6-12 engineers working on Sales Cloud, Service Cloud, Platform, Einstein AI, or core infrastructure, balancing technical leadership with people development. Salesforce EMs are expected to maintain technical credibility while fostering the Ohana culture—building inclusive teams where everyone belongs. The company's commitment to equality means EMs actively champion diversity in hiring and development. You'll partner closely with product and design while ensuring your team delivers reliable, scalable enterprise software. Salesforce's clear leveling system provides growth paths for both managers and individual contributors, and the 1-1-1 philanthropic model means you'll also lead your team's community engagement and volunteer initiatives.",
       responsibilities: [
-        "Lead and mentor a team of 6-10 engineers on cloud products or platform systems",
-        "Set technical direction and ensure quality for enterprise-grade software",
-        "Drive product execution in partnership with PM and UX",
-        "Hire exceptional talent and develop career growth plans",
-        "Foster Salesforce's Ohana culture and commitment to equality"
+        "Lead and develop a team of 6-12 software engineers",
+        "Set technical direction ensuring enterprise-grade quality and reliability",
+        "Drive product execution partnering with PM and UX",
+        "Hire diverse talent and develop inclusive team culture",
+        "Foster Ohana culture and commitment to equality",
+        "Manage performance through continuous feedback and coaching",
+        "Balance technical debt with feature development velocity",
+        "Ensure team engagement with customer success and feedback",
+        "Lead team's 1-1-1 volunteer and community initiatives",
+        "Represent engineering in cross-functional planning and strategy"
       ],
-
       growthOpportunities: [
-        "Lead teams building products for hundreds of thousands of businesses",
-        "Strong emphasis on leadership development and Ohana culture",
-        "Clear path to senior leadership roles (Senior EM, Director, VP)",
-        "Work on diverse product areas from CRM to AI to platform",
-        "Competitive compensation with strong benefits and equity"
+        "Lead teams building products serving 150,000+ companies",
+        "Strong emphasis on leadership development and Ohana values",
+        "Clear path to Senior EM, Director, VP, and SVP roles",
+        "Work across diverse product areas from CRM to AI to infrastructure",
+        "Competitive compensation with meaningful equity participation",
+        "1-1-1 model providing leadership opportunities in community",
+        "Access to executive coaching and leadership programs",
+        "Influence engineering culture at a market-leading company"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of management experience, technical background, and alignment with Salesforce values.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of management experience and alignment with Ohana values"
         },
         {
-          step: 2,
-          title: "Hiring Manager Interview",
-          description: "Deep dive into leadership philosophy, technical credibility, and people management approach.",
-          duration: "60 minutes"
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into leadership philosophy and people management approach"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering technical leadership, people management, system design, and values. Focus on Ohana culture and customer success.",
-          duration: "4-5 hours"
+          stage: "Onsite - Technical Leadership",
+          duration: "45 minutes",
+          description: "System design demonstrating technical credibility"
         },
         {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with teams to find the best fit.",
-          duration: "Varies"
+          stage: "Onsite - People Management",
+          duration: "45 minutes",
+          description: "Scenarios covering hiring, development, and performance management"
+        },
+        {
+          stage: "Onsite - Execution",
+          duration: "45 minutes",
+          description: "Discussion of delivering projects and managing cross-functional work"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Deep assessment of Salesforce values alignment and inclusive leadership"
         }
       ],
-
       technicalQuestions: [
-        "Design the architecture for Salesforce's multi-tenant CRM system",
-        "How would you improve scalability for enterprise customers?",
-        "Your team is behind on a critical customer-facing feature - how do you recover?",
-        "Design the infrastructure for Salesforce's AI/Einstein platform",
+        "Design the architecture for Salesforce's multi-tenant platform",
+        "How would you improve reliability for enterprise customers?",
+        "Your team is behind on a critical feature—how do you recover?",
+        "Design the scaling strategy for Einstein AI inference at scale",
         "How do you balance technical debt with new feature development?",
-        "Walk through scaling a SaaS product from 10K to 100K customers",
-        "Your team has a production incident affecting enterprise customers - how do you respond?",
-        "Design the testing strategy for multi-tenant applications",
-        "How would you architect Salesforce's integration platform?",
-        "Design monitoring and alerting for enterprise SaaS reliability"
+        "Walk through scaling a team from 6 to 12 engineers",
+        "Your team has a P1 incident affecting customers—how do you respond?",
+        "Design the testing strategy for enterprise SaaS reliability",
+        "How would you approach a major platform migration with your team?",
+        "Design the monitoring and alerting strategy for your services",
+        "How do you ensure security in a multi-tenant environment?",
+        "Walk through building a new team for a greenfield product",
+        "How would you improve developer productivity for your team?",
+        "Design the CI/CD pipeline for enterprise deployments"
       ],
-
       behavioralQuestions: [
-        "Tell me about a time when you built a diverse and inclusive team",
-        "Describe a situation where you had to manage a performance issue",
-        "How have you embodied the Ohana culture as a leader?",
-        "Tell me about a time when you championed customer success",
-        "Describe a conflict between team members and resolution",
-        "How do you foster trust and integrity in your team?",
-        "Tell me about a time when you had to deliver difficult feedback",
-        "Describe how you've mentored engineers from diverse backgrounds"
+        "Tell me about building a diverse and inclusive team",
+        "Describe managing a performance issue with empathy",
+        "How have you embodied Ohana culture as a leader?",
+        "Tell me about championing customer success with your team",
+        "Describe resolving a conflict between team members",
+        "How do you foster trust and psychological safety?",
+        "Tell me about delivering difficult feedback effectively",
+        "Describe mentoring engineers from underrepresented backgrounds",
+        "How have you handled a team member leaving for a competitor?",
+        "Tell me about a hiring mistake and what you learned",
+        "Describe leading your team through organizational change",
+        "How do you balance being hands-on with delegation?",
+        "Tell me about developing an engineer's career significantly",
+        "Describe leading a 1-1-1 volunteer initiative with your team",
+        "How have you handled burnout on your team?"
       ],
-
       whatTheyLookFor: [
-        "Strong technical credibility with enterprise software or SaaS experience",
+        "Strong technical credibility with enterprise software experience",
         "People management experience leading teams of 5+ engineers",
-        "Commitment to diversity, equality, and inclusive culture",
-        "Track record of shipping reliable enterprise products",
-        "Customer-first mindset with focus on business success",
-        "Excellent communication and collaboration skills",
-        "Experience with multi-tenant architecture, cloud platforms, or distributed systems",
-        "Passion for building teams and empowering others"
+        "Commitment to diversity, equality, and inclusive leadership",
+        "Track record shipping reliable enterprise products",
+        "Alignment with Salesforce values and Ohana culture",
+        "Customer-first mindset focused on business success",
+        "Experience with multi-tenant architecture or cloud platforms",
+        "Excellence in hiring, developing, and retaining talent",
+        "Strong communication and stakeholder management skills",
+        "Passion for building high-performing, inclusive teams"
       ],
-
       interviewTips: [
         "Prepare examples of building diverse, inclusive teams",
-        "Demonstrate technical depth in enterprise software and cloud platforms",
-        "Show alignment with Salesforce's Ohana culture and values",
+        "Demonstrate technical depth in enterprise software",
+        "Show deep alignment with Ohana culture and values",
         "Emphasize customer success and business impact",
-        "Be ready to discuss hiring, performance management, and team development",
-        "Understand Salesforce's products and technical challenges",
-        "Prepare examples of fostering trust and community in teams",
-        "Ask about the team's mission, culture, and social impact initiatives"
+        "Prepare specific examples of people development",
+        "Be ready to discuss performance management approaches",
+        "Understand Salesforce's products and engineering challenges",
+        "Show how you've championed equality in hiring and promotion",
+        "Prepare examples of leading through change and ambiguity",
+        "Be authentic about your leadership style and values",
+        "Ask about team culture and 1-1-1 initiatives",
+        "Show passion for developing engineers' careers",
+        "Understand Salesforce's leveling and growth framework",
+        "Prepare questions about the team's challenges and roadmap"
       ],
-
-      dayInLife: {
-        overview: "Salesforce Engineering Managers balance technical leadership, people development, and Ohana culture. Your day includes 1-on-1s, technical reviews, customer success collaboration, and community engagement.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "System Health Review",
-            description: "Review platform health, customer success metrics, and incidents"
-          },
-          {
-            time: "9:30 AM",
-            activity: "1-on-1 Meetings",
-            description: "Career development and coaching conversations with engineers"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Technical Design Review",
-            description: "Review architecture for new Einstein AI feature"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Ohana Lunch",
-            description: "Team lunch discussing volunteer and community initiatives"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Code Review",
-            description: "Review critical pull requests for enterprise features"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Product Planning",
-            description: "Quarterly planning with PM on customer-driven roadmap"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Diversity & Inclusion",
-            description: "Participate in ERG meeting and diversity initiatives"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Customer Success Sync",
-            description: "Align with CS team on enterprise customer technical needs"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Technical Strategy",
-            description: "Plan platform evolution and architecture improvements"
-          }
-        ]
+      salary: {
+        min: 200000,
+        max: 380000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
-      ]
+      compensation: [
+        "Base salary range: $200,000 - $380,000 depending on level and scope",
+        "Annual bonus typically 15-25% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Executive health benefits at senior levels",
+        "Wellness reimbursement program",
+        "7 days paid volunteer time off annually",
+        "Leadership development and executive coaching",
+        "Attendance at internal leadership summits"
+      ],
+      dayInLife: {
+        intro: "A typical day as an Engineering Manager at Salesforce involves people leadership, technical guidance, and fostering Ohana culture across your team.",
+        schedule: [
+          "9:00 AM - Review team metrics and customer escalation queue",
+          "9:30 AM - 1:1 with senior engineer on career development",
+          "10:00 AM - Team standup and sprint health check",
+          "10:30 AM - Architecture review for multi-tenant optimization",
+          "11:30 AM - Interview candidate for open position",
+          "12:30 PM - Lunch with product manager discussing roadmap",
+          "1:30 PM - Cross-functional sync with UX and customer success",
+          "2:30 PM - 1:1 with engineer working through performance goals",
+          "3:30 PM - Manager peer group discussing people challenges",
+          "4:30 PM - Planning team's quarterly volunteer initiative"
+        ],
+        closing: "Salesforce Engineering Managers enjoy building high-performing teams while making a genuine impact on both customer success and community through the Ohana culture."
+      },
+      similarRoles: ["Software Engineer", "Technical Architect", "Director of Engineering", "Product Manager"]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Salesforce leverage data to drive product decisions, optimize customer experiences, and build the AI/ML capabilities that power Einstein and Agentforce. You'll work with massive datasets from over 150,000 companies, developing insights that shape product strategy and building models that serve billions of predictions daily. The Product Data Science team partners directly with engineering and product to make Salesforce smarter and more valuable for customers. Strategic Data Scientists work on business-critical analyses informing executive decisions about market strategy, pricing, and growth. Whether you're building recommendation systems for Einstein, developing autonomous agent capabilities for Agentforce, or analyzing product usage to improve customer success, you'll have access to rich data at unprecedented enterprise scale. Salesforce's commitment to responsible AI means data scientists also work on fairness, explainability, and ethical AI practices.",
+      responsibilities: [
+        "Build predictive models and advanced algorithms for Salesforce products",
+        "Partner with product and engineering on data-driven decision making",
+        "Design and analyze A/B experiments measuring product impact",
+        "Develop machine learning models for Einstein and Agentforce features",
+        "Create dashboards and analytics enabling self-service insights",
+        "Conduct strategic analyses informing business and product decisions",
+        "Define success metrics and measurement frameworks for products",
+        "Work on responsible AI including fairness and explainability",
+        "Communicate findings to executives and cross-functional partners"
+      ],
+      growthOpportunities: [
+        "Work with data from 150,000+ companies across all industries",
+        "Build ML models powering Einstein AI and Agentforce autonomous agents",
+        "Direct impact on product strategy and business decisions",
+        "Clear career path from IC to Staff, Principal, and Director",
+        "Work on cutting-edge AI including large language models",
+        "Strong Ohana culture with work-life balance emphasis",
+        "Competitive compensation with meaningful equity",
+        "Access to Salesforce's massive data and compute infrastructure"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of data science background and Salesforce values alignment"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Statistics, ML fundamentals, and analytical problem-solving"
+        },
+        {
+          stage: "Onsite - ML/Statistics",
+          duration: "45 minutes",
+          description: "Deep dive into machine learning algorithms and statistical methods"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "SQL and Python coding for data manipulation and analysis"
+        },
+        {
+          stage: "Onsite - Case Study",
+          duration: "60 minutes",
+          description: "Work through a product or business analytics problem"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and collaboration"
+        }
+      ],
+      technicalQuestions: [
+        "Design a recommendation system for Einstein Sales Cloud insights",
+        "How would you build a lead scoring model for enterprise customers?",
+        "Design an experiment measuring impact of a new AI feature",
+        "How would you predict customer churn for Salesforce subscribers?",
+        "Build a model for optimal next-best-action in Service Cloud",
+        "How would you measure the ROI of Einstein AI features?",
+        "Design the analytics for Agentforce autonomous agent performance",
+        "How would you handle class imbalance in enterprise datasets?",
+        "Build a model for forecasting enterprise deal outcomes",
+        "How would you ensure fairness in AI recommendations?",
+        "Design a system for real-time personalization at scale",
+        "How would you measure product adoption and engagement?",
+        "Build a model for identifying expansion opportunities",
+        "How would you approach causal inference for product decisions?",
+        "Design the metrics framework for a new Salesforce product"
+      ],
+      behavioralQuestions: [
+        "Tell me about an analysis that significantly influenced a decision",
+        "Describe communicating complex findings to non-technical stakeholders",
+        "How have you balanced model complexity with business needs?",
+        "Tell me about debugging an ML model in production",
+        "Describe a project where you had to be scrappy with limited data",
+        "How have you handled disagreement about methodology?",
+        "Tell me about building relationships with product partners",
+        "Describe ensuring responsible AI in your work",
+        "How have you prioritized across multiple analytical requests?",
+        "Tell me about a model that didn't work as expected",
+        "Describe mentoring others on data science best practices",
+        "How have you stayed current with ML research?",
+        "Tell me about working with engineering to deploy a model",
+        "Describe balancing exploration with delivering results",
+        "How have you contributed to team culture and Ohana values?"
+      ],
+      whatTheyLookFor: [
+        "Strong ML and statistics fundamentals with practical experience",
+        "SQL and Python proficiency for data analysis",
+        "Experience building models for production deployment",
+        "Track record translating data into business insights",
+        "Excellent communication skills for diverse audiences",
+        "Alignment with Salesforce values and Ohana culture",
+        "Experience with A/B testing and experimentation",
+        "Understanding of enterprise software and SaaS metrics",
+        "Passion for customer success and business impact",
+        "Collaborative approach to working with product and engineering"
+      ],
+      interviewTips: [
+        "Prepare to discuss ML algorithms in depth—both theory and practice",
+        "Practice SQL and Python coding for data problems",
+        "Have examples of analyses that drove business decisions",
+        "Understand Salesforce products and how AI enhances them",
+        "Be ready to discuss experimentation and causal inference",
+        "Study Einstein AI and Agentforce capabilities",
+        "Prepare case study approaches for product analytics",
+        "Show genuine interest in enterprise software challenges",
+        "Understand responsible AI and fairness considerations",
+        "Be ready to explain complex concepts simply",
+        "Prepare examples of cross-functional collaboration",
+        "Show alignment with Ohana culture and values",
+        "Understand the Salesforce data ecosystem",
+        "Prepare thoughtful questions about the team's work"
+      ],
+      salary: {
+        min: 150000,
+        max: 320000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $150,000 - $320,000 depending on level",
+        "Annual bonus typically 10-20% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Wellness reimbursement program",
+        "7 days paid volunteer time off annually",
+        "Conference attendance and learning budget",
+        "Access to cloud compute resources for research"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Data Scientist at Salesforce involves analytical work, model development, and close collaboration with product and engineering partners.",
+        schedule: [
+          "9:00 AM - Review model performance dashboards and alerts",
+          "9:30 AM - Deep analysis on product adoption patterns",
+          "11:00 AM - Sync with product manager on upcoming experiment",
+          "12:00 PM - Lunch with data science team discussing ML approaches",
+          "1:00 PM - Model development for Einstein lead scoring",
+          "2:30 PM - Present analysis findings to product leadership",
+          "3:30 PM - Code review for teammate's production model",
+          "4:30 PM - Cross-functional planning for new AI feature",
+          "5:30 PM - Learning time—reviewing latest ML research papers"
+        ],
+        closing: "Salesforce Data Scientists enjoy the unique opportunity to work with rich enterprise data while building AI that genuinely helps businesses succeed."
+      },
+      similarRoles: ["Software Engineer", "AI/ML Engineer", "Product Manager", "Technical Architect"]
     }
   },
-
   'doordash': {
     'software-engineer': {
       roleDescription: "Software Engineers at DoorDash build technology for the leading food delivery platform, connecting consumers, merchants, and Dashers across three-sided marketplace. You'll work on challenging problems in logistics optimization, real-time matching, mobile applications, and global operations. DoorDash values customer obsession, bias for action, and operational excellence.",
