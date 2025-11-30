@@ -20075,298 +20075,1817 @@ export const rolePageContent = {
   },
   'netflix': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Netflix build and maintain the streaming service that entertains 250+ million members worldwide. You'll work on challenging problems in streaming technology, personalization, content delivery, and studio operations. Netflix's culture emphasizes freedom and responsibility, context over control, and high performance. Engineers have significant autonomy and impact.",
-
+      roleDescription: "Software Engineers at Netflix build and operate the streaming platform that entertains over 283 million members in 190+ countries. You'll work on challenging distributed systems problems across streaming technology, content delivery, personalization, studio operations, gaming, and advertising platforms. Netflix's legendary culture emphasizes freedom and responsibility—engineers have significant autonomy to make decisions and own their work end-to-end. The company operates without traditional management hierarchy, instead trusting talented individuals to act in Netflix's best interest. You'll work with cutting-edge technology including microservices architecture, cloud-native infrastructure on AWS, and real-time systems processing millions of events per second. Netflix engineers are expected to demonstrate good judgment, communicate candidly, and take ownership of both successes and failures. The compensation philosophy is simple: top-of-market pay with the flexibility to choose your salary vs stock options mix.",
       responsibilities: [
-        "Build scalable microservices and systems for Netflix's streaming platform",
-        "Design and implement features for content delivery, recommendation, or studio systems",
+        "Design and build scalable microservices powering Netflix's streaming platform",
         "Own services end-to-end including architecture, development, deployment, and operations",
-        "Collaborate across teams to deliver member-facing or internal platform features",
-        "Participate in on-call rotation and ensure service reliability"
+        "Build features for content delivery, recommendation, or studio production systems",
+        "Participate in on-call rotation ensuring service reliability for 283M+ members",
+        "Collaborate across teams to deliver member-facing and internal platform features",
+        "Conduct A/B experiments to measure impact of changes on member experience",
+        "Contribute to Netflix's open-source projects and engineering community",
+        "Make technical decisions balancing innovation with operational stability",
+        "Mentor team members and contribute to engineering culture"
       ],
-
       growthOpportunities: [
-        "Work on streaming technology serving 250+ million members globally",
-        "Significant autonomy and ownership with freedom and responsibility culture",
-        "Access to cutting-edge technology in cloud computing, distributed systems, and ML",
-        "Strong compensation including high cash and stock options",
-        "Opportunity to work on diverse problems from consumer to studio operations"
+        "Work on streaming technology at unprecedented global scale",
+        "Significant autonomy with Netflix's freedom and responsibility culture",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Access to cutting-edge cloud computing and distributed systems technology",
+        "Opportunity to work across diverse domains from consumer to studio to gaming",
+        "Contribute to influential open-source projects like Zuul, Eureka, and Chaos Monkey",
+        "Career growth through impact rather than traditional promotion ladders",
+        "Work with world-class engineers in a high-performance culture"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your background, interest in Netflix culture, and role fit. Overview of Netflix's freedom and responsibility principles.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of background, interest in Netflix culture, and alignment with freedom and responsibility values"
         },
         {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Coding interview focused on problem-solving, data structures, and algorithms. May also cover system design depending on level.",
-          duration: "60 minutes"
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Coding interview focused on problem-solving, data structures, and algorithms with emphasis on practical application"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Deep technical interviews including coding (2 rounds), system design (1-2 rounds), and culture fit. Focus on ownership, judgment, and communication.",
-          duration: "4-5 hours"
+          stage: "Onsite - Coding Round 1",
+          duration: "60 minutes",
+          description: "Algorithm and data structures problem with focus on code quality and problem-solving approach"
         },
         {
-          step: 4,
-          title: "Team Matching",
-          description: "If interviews go well, conversations with potential teams to find the best fit for your skills and interests.",
-          duration: "Varies"
+          stage: "Onsite - Coding Round 2",
+          duration: "60 minutes",
+          description: "Second coding round often focused on different problem domain or complexity level"
+        },
+        {
+          stage: "Onsite - System Design",
+          duration: "60 minutes",
+          description: "Design a large-scale distributed system relevant to Netflix's domain"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Deep dive into alignment with Netflix culture, judgment, and communication style"
         }
       ],
-
       technicalQuestions: [
-        "Design Netflix's video streaming and content delivery system",
-        "How would you implement the recommendation algorithm for Netflix homepage?",
-        "Design a system to detect and handle fraudulent account sharing",
-        "Implement A/B testing infrastructure for Netflix's UI",
-        "Design the encoding and transcoding pipeline for new content",
-        "How would you optimize Netflix's CDN for global content delivery?",
-        "Design a system to track and analyze viewing patterns across 250M members",
-        "Implement personalized search for Netflix content catalog",
-        "Design the system for managing Netflix's production studio operations",
-        "How would you handle service degradation gracefully during peak viewing times?"
+        "Design Netflix's video streaming and content delivery architecture",
+        "How would you build the recommendation system for Netflix's homepage?",
+        "Design a system to handle 283 million concurrent streaming sessions",
+        "How would you implement adaptive bitrate streaming for variable network conditions?",
+        "Design Netflix's A/B testing infrastructure for UI experiments",
+        "How would you build the encoding and transcoding pipeline for 4K HDR content?",
+        "Design a system to detect and prevent account sharing at scale",
+        "How would you implement Netflix's search and discovery features?",
+        "Design the architecture for Netflix's Open Connect CDN",
+        "How would you handle service degradation gracefully during peak viewing?",
+        "Design a real-time analytics system for viewing patterns across 190+ countries",
+        "How would you build Netflix's studio production scheduling system?",
+        "Design the payment and subscription management system for global markets",
+        "How would you implement Netflix's download-for-offline feature?",
+        "Design a system for personalized thumbnail selection at scale",
+        "How would you architect Netflix's gaming platform infrastructure?"
       ],
-
       behavioralQuestions: [
-        "Tell me about a time when you demonstrated good judgment in ambiguity",
-        "Describe a situation where you took ownership of a problem outside your scope",
-        "How have you given or received candid feedback?",
-        "Tell me about a time when you disagreed with a teammate and how you handled it",
-        "Describe a project where you had significant autonomy and responsibility",
+        "Tell me about a time you demonstrated good judgment in an ambiguous situation",
+        "Describe a situation where you took ownership of a problem outside your defined scope",
+        "How have you given or received candid, direct feedback?",
+        "Tell me about a time you disagreed with a teammate and how you resolved it",
+        "Describe a project where you had significant autonomy and how you handled it",
         "How do you prioritize when you have multiple competing demands?",
-        "Tell me about a time when you made a mistake - how did you handle it?",
-        "Describe how you've contributed to team culture and collaboration"
+        "Tell me about a mistake you made and how you handled it",
+        "Describe how you've contributed to building positive team culture",
+        "Tell me about a time you had to make a difficult decision without all the information",
+        "How have you balanced moving fast with maintaining quality?",
+        "Describe a situation where you had to influence others without authority",
+        "Tell me about a time you simplified a complex technical problem",
+        "How have you helped others grow in their careers?",
+        "Describe a time you had to communicate bad news to stakeholders",
+        "Tell me about a project that failed and what you learned"
       ],
-
       whatTheyLookFor: [
         "Strong coding skills and computer science fundamentals",
         "Experience building and operating distributed systems at scale",
         "Good judgment and decision-making in ambiguous situations",
-        "Ownership mentality - taking initiative and following through",
+        "Ownership mentality—taking initiative and following through completely",
         "Self-direction and ability to thrive with freedom and responsibility",
-        "Strong communication skills and ability to work collaboratively",
-        "Passion for entertainment and Netflix's member experience",
-        "Cultural fit with Netflix values - honesty, selflessness, and courage"
+        "Excellent communication skills with candor and directness",
+        "Passion for Netflix's mission to entertain the world",
+        "Cultural fit with Netflix values: judgment, communication, curiosity, courage",
+        "Track record of high impact in previous roles",
+        "Ability to work collaboratively across teams and functions"
       ],
-
       interviewTips: [
-        "Research Netflix's culture deck and understand freedom & responsibility principles",
-        "Use Netflix heavily - understand the product, UI, and member experience",
-        "Prepare examples demonstrating ownership, good judgment, and autonomy",
-        "Be ready for deep technical discussions on distributed systems and scalability",
-        "Show passion for entertainment technology and streaming innovation",
-        "Emphasize candid communication - Netflix values direct, honest feedback",
-        "Understand Netflix's technology blog and key engineering challenges",
-        "Ask thoughtful questions about team culture, technical challenges, and impact"
+        "Study Netflix's culture deck thoroughly—it's the foundation of everything",
+        "Use Netflix extensively and understand the product deeply",
+        "Prepare specific examples demonstrating ownership and good judgment",
+        "Practice system design for streaming and distributed systems problems",
+        "Be ready for candid, direct conversations—Netflix values honesty",
+        "Research Netflix's tech blog and understand their engineering challenges",
+        "Prepare examples of times you operated with autonomy and responsibility",
+        "Show passion for entertainment technology and member experience",
+        "Be prepared to discuss trade-offs and decision-making frameworks",
+        "Ask thoughtful questions about team culture and technical challenges",
+        "Demonstrate curiosity and continuous learning mindset",
+        "Be authentic—Netflix culture fit is about genuine alignment, not performance",
+        "Prepare to discuss failures openly and what you learned",
+        "Understand Netflix's compensation model and be ready to discuss expectations"
       ],
-
-      dayInLife: {
-        overview: "Netflix engineers have significant autonomy and ownership. Your day includes coding, system design, cross-team collaboration, and operational responsibilities. Netflix emphasizes context over control and trusts engineers to make good decisions.",
-        schedule: [
-          {
-            time: "10:00 AM",
-            activity: "Check Metrics & Alerts",
-            description: "Review service health dashboards and any overnight alerts"
-          },
-          {
-            time: "10:30 AM",
-            activity: "Feature Development",
-            description: "Code new personalization algorithm for homepage recommendations"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Lunch & Team Discussion",
-            description: "Informal team lunch discussing technical approaches"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Design Collaboration",
-            description: "Work with PM and design to finalize new feature specifications"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Code Review",
-            description: "Review pull requests from teammates, provide detailed feedback"
-          },
-          {
-            time: "3:30 PM",
-            activity: "System Design Discussion",
-            description: "Architecture review for scaling content delivery system"
-          },
-          {
-            time: "4:30 PM",
-            activity: "A/B Test Analysis",
-            description: "Analyze results from recent experiment, decide on rollout"
-          },
-          {
-            time: "5:30 PM",
-            activity: "On-call Response",
-            description: "Investigate and resolve service degradation alert"
-          }
-        ]
+      salary: {
+        min: 180000,
+        max: 450000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
-      ]
+      compensation: [
+        "Base salary range: $180,000 - $450,000 depending on level and location",
+        "No traditional bonus—all compensation in salary and stock options",
+        "Employees choose annually how to allocate between salary and options",
+        "Stock options vest monthly over 4 years with no cliff",
+        "Top-of-market pay philosophy based on what it would take to replace you",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO (take what you need, when you need it)",
+        "No tracking of vacation days—trust-based system",
+        "Comprehensive health, dental, and vision coverage",
+        "Generous parental leave policy"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Software Engineer at Netflix involves significant autonomy, ownership of your work, and collaboration with talented colleagues in a high-trust environment.",
+        schedule: [
+          "10:00 AM - Check service health dashboards and review overnight alerts",
+          "10:30 AM - Deep work on new feature for streaming quality optimization",
+          "12:00 PM - Lunch with teammates, informal discussion of technical approaches",
+          "1:00 PM - Cross-functional sync with product and design on upcoming initiative",
+          "2:00 PM - Code review and architecture discussion with team",
+          "3:30 PM - A/B test analysis for recently launched experiment",
+          "4:30 PM - On-call triage and incident response preparation",
+          "5:30 PM - Personal learning time—exploring new technology or Netflix tech blog"
+        ],
+        closing: "Netflix engineers enjoy tremendous autonomy and ownership, with the responsibility to use good judgment in service of entertaining the world."
+      },
+      similarRoles: ["Machine Learning Engineer", "Site Reliability Engineer", "Data Engineer", "Security Engineer"]
     },
-
     'machine-learning-engineer': {
-      roleDescription: "Machine Learning Engineers at Netflix build the recommendation and personalization systems that help 250+ million members discover content they'll love. You'll work on large-scale ML systems for personalization, search, content understanding, and studio analytics. Netflix combines cutting-edge ML research with production engineering at massive scale.",
-
+      roleDescription: "Machine Learning Engineers at Netflix build the recommendation and personalization systems that help 283 million members discover content they'll love. You'll work on large-scale ML systems including the famous Netflix recommendation engine, search ranking, content understanding, promotional media optimization, and predictive models for content investment decisions. Netflix pioneered the use of ML in entertainment—the $1 million Netflix Prize in 2009 launched modern recommendation systems. Today, ML touches nearly every aspect of the member experience, from personalized artwork to viewing predictions. You'll have access to massive-scale data, cutting-edge infrastructure, and the freedom to experiment with novel approaches. Netflix ML Engineers combine research innovation with production engineering excellence, deploying models that serve billions of predictions daily while maintaining the reliability members expect.",
       responsibilities: [
         "Design and implement ML models for recommendation, personalization, and search",
-        "Build scalable ML infrastructure and pipelines for model training and serving",
-        "Conduct A/B experiments to measure impact of ML improvements on member experience",
-        "Collaborate with product, engineering, and data science teams",
-        "Monitor and optimize ML model performance in production"
+        "Build scalable ML infrastructure and pipelines for training and serving at scale",
+        "Conduct rigorous A/B experiments measuring ML impact on member engagement",
+        "Develop novel algorithms for content understanding and metadata enrichment",
+        "Optimize model serving for low latency across 283 million members",
+        "Collaborate with product, engineering, and research teams on ML strategy",
+        "Monitor and improve ML model performance in production",
+        "Contribute to Netflix's ML platform enabling other teams to leverage ML",
+        "Stay current with ML research and apply innovations to Netflix problems"
       ],
-
       growthOpportunities: [
-        "Work on ML systems impacting content discovery for 250+ million members",
-        "Access to massive-scale data and cutting-edge ML technologies",
-        "Significant autonomy to experiment and innovate with ML approaches",
-        "Strong compensation with high cash and stock options",
-        "Opportunity to publish research and contribute to ML community"
+        "Work on ML systems directly impacting content discovery for 283M members",
+        "Access to massive-scale data and world-class ML infrastructure",
+        "Significant autonomy to experiment with novel ML approaches",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Opportunity to publish research and present at top ML conferences",
+        "Contribute to Netflix's influential ML blog and open-source projects",
+        "Work alongside leading ML researchers and practitioners",
+        "Shape the future of entertainment through personalization at scale"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your ML experience, interest in Netflix, and role fit. Overview of Netflix's ML work and culture.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of ML background, Netflix culture fit, and role expectations"
         },
         {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "ML fundamentals covering algorithms, model design, and practical ML problems. May include coding or system design.",
-          duration: "60 minutes"
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "ML fundamentals covering algorithms, model design, and practical problem-solving"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Deep ML interviews covering algorithms, system design, coding, and experimentation. Focus on practical ML engineering and production systems.",
-          duration: "4-5 hours"
+          stage: "Onsite - ML Depth",
+          duration: "60 minutes",
+          description: "Deep dive into ML algorithms, model architecture, and optimization techniques"
         },
         {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with ML teams (recommendations, search, content understanding) to find best fit.",
-          duration: "Varies"
+          stage: "Onsite - Coding",
+          duration: "60 minutes",
+          description: "Programming interview with ML-relevant problems and data manipulation"
+        },
+        {
+          stage: "Onsite - ML System Design",
+          duration: "60 minutes",
+          description: "Design an end-to-end ML system for a Netflix-scale recommendation problem"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of alignment with Netflix values and collaboration style"
         }
       ],
-
       technicalQuestions: [
-        "Design Netflix's recommendation system architecture",
-        "How would you improve click-through rate for Netflix homepage rows?",
+        "Design Netflix's recommendation system from data collection to serving",
+        "How would you improve the homepage personalization algorithm?",
         "Design an ML system to predict which shows a member will binge-watch",
-        "How would you personalize Netflix search results?",
-        "Design a content understanding system to tag and categorize new titles",
-        "How would you detect and reduce bias in recommendation algorithms?",
-        "Design an A/B testing framework for ML model improvements",
-        "How would you optimize model serving latency for 250M members?",
+        "How would you personalize search results for different member segments?",
+        "Design a content understanding system to automatically tag and categorize titles",
+        "How would you detect and mitigate bias in recommendation algorithms?",
+        "Design the A/B testing framework for ML model experiments",
+        "How would you handle the cold-start problem for new Netflix members?",
         "Design a system to predict content popularity before release",
-        "How would you handle cold-start problem for new Netflix members?"
+        "How would you optimize model serving latency for real-time recommendations?",
+        "Design a personalized thumbnail selection system at scale",
+        "How would you build a multi-objective ranking system for homepage rows?",
+        "Design an ML system to optimize promotional media effectiveness",
+        "How would you implement explore-exploit strategies in recommendations?",
+        "Design a system to predict member churn and suggest interventions",
+        "How would you build embeddings for Netflix's content catalog?"
       ],
-
       behavioralQuestions: [
         "Tell me about an ML project that didn't perform as expected in production",
         "Describe how you've balanced model complexity with production constraints",
         "How have you communicated ML results to non-technical stakeholders?",
-        "Tell me about a time when you had to debug a complex ML model issue",
-        "Describe your approach to A/B testing and experimentation",
-        "How do you stay current with ML research and apply it to production?",
-        "Tell me about a time when you took ownership of an ML infrastructure problem",
-        "Describe how you've collaborated with product and engineering teams"
+        "Tell me about debugging a complex ML model issue in production",
+        "Describe your approach to experimentation and measuring ML impact",
+        "How do you stay current with ML research and apply it practically?",
+        "Tell me about taking ownership of ML infrastructure improvements",
+        "Describe collaborating with product teams to define ML success metrics",
+        "How have you handled disagreements about model design decisions?",
+        "Tell me about a time you simplified an overly complex ML solution",
+        "Describe building an ML system from research prototype to production",
+        "How have you mentored others on ML best practices?",
+        "Tell me about a risky ML experiment you advocated for",
+        "Describe handling unexpected model behavior in production",
+        "How have you contributed to ML platform improvements for other teams?"
       ],
-
       whatTheyLookFor: [
-        "Strong ML fundamentals - algorithms, model design, and evaluation",
-        "Production ML experience - deploying and operating ML systems at scale",
-        "Software engineering skills - writing clean, scalable code",
-        "Experimentation mindset - rigorous A/B testing and data analysis",
-        "Experience with recommendation systems, personalization, or search",
+        "Strong ML fundamentals—algorithms, model design, and evaluation methodology",
+        "Production ML experience—deploying and operating models at scale",
+        "Solid software engineering skills—clean, maintainable, efficient code",
+        "Experimentation mindset—rigorous A/B testing and causal inference",
+        "Experience with recommendation systems, personalization, or ranking",
         "Strong communication skills to explain ML concepts to diverse audiences",
-        "Ownership and autonomy - self-directed problem-solving",
-        "Passion for using ML to improve member experience"
+        "Ownership mentality—end-to-end responsibility for ML systems",
+        "Curiosity and passion for applying ML to entertainment",
+        "Track record of shipping impactful ML features",
+        "Collaborative approach to working across teams"
       ],
-
       interviewTips: [
-        "Use Netflix and think deeply about how personalization works",
+        "Use Netflix extensively and think deeply about how personalization works",
         "Prepare to discuss end-to-end ML projects from research to production",
-        "Understand recommendation systems, collaborative filtering, and ranking algorithms",
-        "Be ready to discuss A/B testing, experimentation, and metrics",
-        "Show examples of balancing model accuracy with production constraints",
-        "Research Netflix's ML tech blog and publications",
-        "Emphasize both ML depth and software engineering skills",
-        "Ask about the team's ML challenges, data, and infrastructure"
+        "Master recommendation algorithms: collaborative filtering, matrix factorization, deep learning",
+        "Understand A/B testing, experimentation design, and statistical significance",
+        "Be ready to discuss balancing model accuracy with latency and cost",
+        "Research Netflix's ML tech blog and published papers thoroughly",
+        "Prepare examples showing both ML depth and engineering excellence",
+        "Understand Netflix's culture deck and values deeply",
+        "Be ready to whiteboard ML system designs with clear trade-offs",
+        "Show genuine passion for entertainment and member experience",
+        "Prepare questions about the team's ML challenges and infrastructure",
+        "Be honest about what you don't know—intellectual humility is valued",
+        "Practice explaining complex ML concepts simply",
+        "Demonstrate curiosity about novel ML approaches and research"
       ],
-
-      dayInLife: {
-        overview: "Netflix ML Engineers combine research, experimentation, and production engineering. Your day includes model development, A/B test analysis, infrastructure work, and cross-functional collaboration with significant autonomy.",
-        schedule: [
-          {
-            time: "9:30 AM",
-            activity: "Experiment Analysis",
-            description: "Analyze A/B test results for new ranking algorithm"
-          },
-          {
-            time: "10:30 AM",
-            activity: "Model Development",
-            description: "Train and evaluate new recommendation model with updated features"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Lunch & ML Discussion",
-            description: "Informal lunch discussing latest ML research papers"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Cross-functional Collaboration",
-            description: "Meet with product team to discuss personalization strategy"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Infrastructure Improvement",
-            description: "Optimize ML feature pipeline for lower latency"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Model Debugging",
-            description: "Investigate why certain recommendations underperformed"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Production Deployment",
-            description: "Deploy new model to production with canary rollout"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Research & Learning",
-            description: "Read new papers on transformer-based recommendation systems"
-          }
-        ]
+      salary: {
+        min: 200000,
+        max: 500000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
-      ]
+      compensation: [
+        "Base salary range: $200,000 - $500,000 depending on level and expertise",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy benchmarked against leading tech companies",
+        "Annual market-based compensation adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Comprehensive health benefits including mental health support",
+        "Generous parental leave and family support",
+        "Learning and development budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as an ML Engineer at Netflix combines research, experimentation, and production engineering with significant autonomy to drive your work.",
+        schedule: [
+          "9:30 AM - Analyze A/B test results from new ranking algorithm experiment",
+          "10:30 AM - Train and evaluate updated recommendation model with new features",
+          "12:00 PM - Lunch and informal ML paper discussion with colleagues",
+          "1:00 PM - Sync with product team on personalization strategy and metrics",
+          "2:30 PM - Optimize ML feature pipeline for improved serving latency",
+          "3:30 PM - Debug recommendation quality issues for specific member segments",
+          "4:30 PM - Deploy new model to production with careful canary rollout",
+          "5:30 PM - Research time—review latest papers on transformer-based recommendations"
+        ],
+        closing: "Netflix ML Engineers enjoy the unique opportunity to directly impact how hundreds of millions of people discover entertainment they love."
+      },
+      similarRoles: ["Software Engineer", "Data Scientist", "Research Scientist", "Data Engineer"]
+    },
+    'data-engineer': {
+      roleDescription: "Data Engineers at Netflix build and maintain the data infrastructure that powers decisions across every aspect of the business—from content investment and personalization to streaming optimization and financial planning. You'll work with petabyte-scale data pipelines processing billions of events daily from 283 million members worldwide. Netflix pioneered many data engineering practices now standard in the industry, and the team continues to push boundaries with cutting-edge technologies. You'll work with the Netflix data platform including Apache Spark, Presto, Iceberg, and proprietary systems built for entertainment-scale data challenges. The role spans multiple domains: content analytics helping decide which shows to produce, member analytics understanding viewing behavior, streaming analytics optimizing quality of experience, and financial analytics driving business decisions. Netflix Data Engineers operate with significant autonomy, owning their pipelines end-to-end and making architectural decisions that impact how the entire company uses data.",
+      responsibilities: [
+        "Design and build scalable data pipelines processing petabytes of streaming and behavioral data",
+        "Develop and maintain data warehouse architecture supporting analytics and ML use cases",
+        "Create self-service data platforms enabling analysts and scientists across Netflix",
+        "Implement data quality frameworks ensuring accuracy for critical business decisions",
+        "Build real-time streaming systems for immediate data availability",
+        "Optimize query performance on Spark and Presto for interactive analytics",
+        "Design data models supporting content, member, and financial analytics",
+        "Collaborate with ML teams on feature engineering and model data pipelines",
+        "Ensure data governance and privacy compliance across global data assets"
+      ],
+      growthOpportunities: [
+        "Work on data infrastructure at unprecedented entertainment industry scale",
+        "Contribute to and learn from Netflix's influential open-source data projects",
+        "Significant autonomy to design and build data systems end-to-end",
+        "Top-of-market compensation with flexible salary/stock mix",
+        "Opportunity to shape how Netflix uses data across all business functions",
+        "Access to cutting-edge data technologies and massive compute resources",
+        "Work with world-class data engineers and scientists",
+        "Career growth through impact on critical business decisions"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of data engineering background and Netflix culture alignment"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "SQL proficiency, data modeling concepts, and pipeline architecture discussion"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "60 minutes",
+          description: "Python/Scala coding focused on data manipulation and efficient processing"
+        },
+        {
+          stage: "Onsite - SQL Deep Dive",
+          duration: "60 minutes",
+          description: "Complex SQL problems including window functions, optimization, and schema design"
+        },
+        {
+          stage: "Onsite - Data System Design",
+          duration: "60 minutes",
+          description: "Design a data pipeline or warehouse architecture for a Netflix-scale problem"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and collaboration approach"
+        }
+      ],
+      technicalQuestions: [
+        "Design a data pipeline to process Netflix viewing events from 283M members",
+        "How would you build a real-time analytics system for streaming quality metrics?",
+        "Design a data model for analyzing content performance across regions",
+        "How would you implement exactly-once processing in a distributed data pipeline?",
+        "Design the data architecture for Netflix's content recommendation features",
+        "How would you handle late-arriving data in streaming analytics?",
+        "Design a system to track A/B test metrics in real-time",
+        "How would you optimize a Spark job processing terabytes of viewing data?",
+        "Design a data quality monitoring system for critical business metrics",
+        "How would you implement data lineage tracking across thousands of pipelines?",
+        "Design a feature store for ML models serving recommendations",
+        "How would you handle schema evolution in Netflix's data lake?",
+        "Design a system for content metadata enrichment and cataloging",
+        "How would you implement cost-efficient data retention policies?",
+        "Design the data infrastructure for Netflix's gaming analytics",
+        "How would you build data pipelines supporting financial reporting?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a data pipeline you built that had significant business impact",
+        "Describe a time you improved data quality for a critical system",
+        "How have you handled conflicting requirements from multiple stakeholders?",
+        "Tell me about debugging a complex data pipeline failure",
+        "Describe balancing data freshness with accuracy requirements",
+        "How have you approached documentation for complex data systems?",
+        "Tell me about simplifying a complex data architecture",
+        "Describe mentoring others on data engineering best practices",
+        "How have you handled privacy requirements in data projects?",
+        "Tell me about making a difficult trade-off in data system design",
+        "Describe proactively identifying and fixing a data issue before impact",
+        "How do you stay current with evolving data technologies?",
+        "Tell me about driving alignment in a cross-functional data project",
+        "Describe optimizing costs for data infrastructure",
+        "How have you handled data incidents requiring immediate response?"
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills including complex queries and performance optimization",
+        "Experience with large-scale data processing (Spark, Presto, Hive)",
+        "Python or Scala proficiency for pipeline development",
+        "Understanding of distributed systems and data infrastructure",
+        "Track record building reliable, maintainable data systems",
+        "Experience with both batch and streaming data processing",
+        "Data quality mindset with attention to correctness and reliability",
+        "Ability to communicate data concepts to diverse stakeholders",
+        "Self-direction and ownership mentality aligned with Netflix culture",
+        "Collaborative approach to solving cross-functional data problems"
+      ],
+      interviewTips: [
+        "Practice complex SQL including window functions, CTEs, and optimization",
+        "Be ready to discuss data modeling trade-offs for different use cases",
+        "Prepare examples of pipelines you've built and their business impact",
+        "Study distributed data processing and failure handling patterns",
+        "Understand Netflix's data stack and their open-source contributions",
+        "Practice data system design for streaming and batch scenarios",
+        "Be prepared to discuss data quality and testing strategies",
+        "Research Netflix's data engineering blog posts and talks",
+        "Show genuine interest in entertainment data challenges",
+        "Understand Netflix culture and prepare values-aligned examples",
+        "Be ready to discuss real-time vs batch processing trade-offs",
+        "Prepare questions about Netflix's data platform and challenges",
+        "Demonstrate understanding of data governance and privacy",
+        "Show ownership mentality in how you discuss past projects"
+      ],
+      salary: {
+        min: 170000,
+        max: 400000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $170,000 - $400,000 depending on level",
+        "No bonus structure—all compensation in salary and stock options",
+        "Annual choice to allocate between salary and options",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay based on skills and market conditions",
+        "Annual compensation review and market adjustments",
+        "Unlimited PTO with trust-based flexibility",
+        "Comprehensive health, dental, and vision benefits",
+        "Parental leave and family support programs",
+        "Home office setup and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Data Engineer at Netflix involves building and maintaining critical data infrastructure while collaborating with teams across the company.",
+        schedule: [
+          "9:30 AM - Check data pipeline health dashboards and address any failures",
+          "10:00 AM - Deep work on new Spark pipeline for content performance analytics",
+          "12:00 PM - Lunch with data platform teammates discussing architecture",
+          "1:00 PM - Office hours helping analysts optimize their queries",
+          "2:00 PM - Design review for new data model supporting ML features",
+          "3:30 PM - Code review for teammate's data quality monitoring job",
+          "4:30 PM - Cross-functional sync with content strategy on data requirements",
+          "5:30 PM - Documentation and planning for next sprint priorities"
+        ],
+        closing: "Netflix Data Engineers enjoy the unique challenge of working with entertainment data at massive scale while maintaining the quality and reliability the business depends on."
+      },
+      similarRoles: ["Software Engineer", "Machine Learning Engineer", "Data Scientist", "Analytics Engineer"]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Netflix combine statistical rigor with business acumen to drive decisions that shape the future of entertainment. You'll work on problems ranging from content valuation and investment optimization to member behavior understanding and product experimentation. Netflix pioneered data-driven entertainment—using analytics to inform everything from which shows to produce to how to personalize the member experience. The Data Science team partners closely with content, product, marketing, and finance teams to translate business questions into analytical frameworks and actionable insights. You'll design and analyze A/B experiments at scale, build predictive models for content performance, and develop causal inference frameworks to understand what drives member engagement. Netflix Data Scientists operate with significant autonomy, owning their analyses end-to-end and presenting findings directly to senior leadership. The role requires both technical depth and the communication skills to influence decisions across the organization.",
+      responsibilities: [
+        "Design and analyze A/B experiments measuring product and content impact",
+        "Build predictive models for content valuation and investment decisions",
+        "Develop causal inference frameworks to understand member behavior",
+        "Partner with content teams to optimize programming strategy",
+        "Create dashboards and tools enabling self-service analytics across Netflix",
+        "Conduct deep-dive analyses answering strategic business questions",
+        "Communicate findings and recommendations to senior leadership",
+        "Collaborate with ML engineers on model development and deployment",
+        "Define success metrics and measurement frameworks for new initiatives"
+      ],
+      growthOpportunities: [
+        "Directly influence content investment decisions worth billions of dollars",
+        "Work with massive-scale behavioral data from 283M members globally",
+        "Significant autonomy to define and execute analytical projects",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Access to world-class experimentation and analytics infrastructure",
+        "Opportunity to shape how Netflix measures success across products",
+        "Present findings directly to C-suite executives and content leaders",
+        "Career growth through business impact rather than traditional hierarchy"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of data science background and Netflix culture alignment"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Statistics, experimentation design, and analytical problem-solving"
+        },
+        {
+          stage: "Onsite - Statistics & Experimentation",
+          duration: "60 minutes",
+          description: "Deep dive into statistical methods, A/B testing, and causal inference"
+        },
+        {
+          stage: "Onsite - SQL & Analytics",
+          duration: "60 minutes",
+          description: "Complex SQL problems and analytical case study discussion"
+        },
+        {
+          stage: "Onsite - Business Case",
+          duration: "60 minutes",
+          description: "Work through a business problem demonstrating analytical thinking"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and communication style"
+        }
+      ],
+      technicalQuestions: [
+        "Design an A/B test to measure impact of a new homepage layout",
+        "How would you build a model to predict which shows will be successful?",
+        "Design an experiment to understand optimal content release strategy",
+        "How would you measure the value of personalization to Netflix?",
+        "Design a framework for attributing member engagement to different factors",
+        "How would you detect and handle selection bias in observational data?",
+        "Design a metric to measure content quality across different genres",
+        "How would you build a churn prediction model and measure its impact?",
+        "Design an experiment with network effects (e.g., social features)",
+        "How would you optimize content investment across different regions?",
+        "Design a framework for measuring long-term vs short-term member value",
+        "How would you approach causal inference when A/B testing isn't possible?",
+        "Design metrics for measuring success of Netflix's gaming initiative",
+        "How would you balance exploration and exploitation in content recommendations?",
+        "Design an analysis to understand why certain demographics engage differently"
+      ],
+      behavioralQuestions: [
+        "Tell me about an analysis that changed a significant business decision",
+        "Describe a time you had to communicate complex statistical findings simply",
+        "How have you handled disagreement with stakeholders about methodology?",
+        "Tell me about an experiment that produced surprising results",
+        "Describe defining success metrics for an ambiguous business problem",
+        "How have you balanced statistical rigor with business timeline pressures?",
+        "Tell me about a time you identified a flaw in existing analysis",
+        "Describe collaborating with engineers to productionize an analysis",
+        "How have you influenced decisions when the data was inconclusive?",
+        "Tell me about building relationships with non-technical stakeholders",
+        "Describe a project where you had to be scrappy with limited data",
+        "How have you prioritized among multiple analytical requests?",
+        "Tell me about mentoring others on analytical best practices",
+        "Describe handling a situation where your analysis was wrong",
+        "How have you contributed to improving analytical practices on your team?"
+      ],
+      whatTheyLookFor: [
+        "Strong statistical foundations including experimentation and causal inference",
+        "SQL proficiency for complex analytical queries",
+        "Python or R skills for statistical analysis and modeling",
+        "Experience translating business questions into analytical frameworks",
+        "Track record of influencing decisions through data-driven insights",
+        "Excellent communication skills for diverse audiences",
+        "Intellectual curiosity and passion for understanding behavior",
+        "Ownership mentality aligned with Netflix culture",
+        "Ability to work independently and drive projects to completion",
+        "Collaborative approach to partnering with cross-functional teams"
+      ],
+      interviewTips: [
+        "Master A/B testing concepts: power analysis, multiple comparisons, duration",
+        "Be ready to discuss causal inference beyond randomized experiments",
+        "Practice SQL for complex analytical queries with real business context",
+        "Prepare examples of analyses that drove business decisions",
+        "Understand Netflix's content strategy and how data informs it",
+        "Study Netflix's experimentation culture and tech blog posts",
+        "Be ready to work through ambiguous business cases live",
+        "Show strong communication skills—clarity and conciseness matter",
+        "Prepare to discuss trade-offs in analytical methodology",
+        "Demonstrate genuine curiosity about entertainment and media",
+        "Understand Netflix culture deeply and prepare aligned examples",
+        "Be ready to explain statistical concepts without jargon",
+        "Prepare questions about the team's most impactful analyses",
+        "Show ownership mentality in how you discuss your work"
+      ],
+      salary: {
+        min: 170000,
+        max: 420000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $170,000 - $420,000 depending on level and expertise",
+        "No bonus—compensation through salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy based on impact and skills",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Comprehensive health, dental, and vision coverage",
+        "Mental health and wellness support",
+        "Generous parental leave policy"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Data Scientist at Netflix involves deep analytical work combined with cross-functional collaboration to drive business decisions.",
+        schedule: [
+          "9:30 AM - Review A/B test results from content placement experiment",
+          "10:30 AM - Deep analysis on content performance drivers for strategy meeting",
+          "12:00 PM - Lunch with content strategy partners discussing upcoming projects",
+          "1:00 PM - Present findings on member engagement patterns to leadership",
+          "2:30 PM - Design new experiment for testing release timing hypotheses",
+          "3:30 PM - Office hours helping product teams interpret their metrics",
+          "4:30 PM - Code review for teammate's predictive model",
+          "5:30 PM - Reading time—catching up on latest causal inference research"
+        ],
+        closing: "Netflix Data Scientists enjoy the unique opportunity to directly influence how billions of dollars in content investment are allocated while shaping the entertainment experience for hundreds of millions of members."
+      },
+      similarRoles: ["Machine Learning Engineer", "Data Engineer", "Product Manager", "Research Scientist"]
+    },
+    'site-reliability-engineer': {
+      roleDescription: "Site Reliability Engineers at Netflix ensure the streaming platform remains available and performant for 283 million members across 190+ countries. You'll work on reliability challenges at unprecedented scale—handling millions of concurrent streams, managing the world's largest CDN (Open Connect), and maintaining services that process billions of events daily. Netflix pioneered many SRE practices including Chaos Engineering with the famous Chaos Monkey. The SRE team operates with significant autonomy, partnering with product engineering teams to build reliability into systems from the ground up rather than bolting it on afterward. You'll work on capacity planning for tentpole events like new season releases, incident response for global outages, and building the observability infrastructure that makes Netflix's complex distributed systems understandable. The role combines deep systems expertise with Netflix's freedom and responsibility culture—you'll have significant autonomy to make decisions that impact the experience of hundreds of millions of members.",
+      responsibilities: [
+        "Ensure availability and performance of Netflix's global streaming platform",
+        "Design and implement reliability improvements for critical services",
+        "Build observability infrastructure for distributed systems monitoring",
+        "Conduct capacity planning for peak events and growth projections",
+        "Lead incident response and conduct thorough post-incident reviews",
+        "Partner with product teams to embed reliability into system design",
+        "Develop and maintain chaos engineering practices and tools",
+        "Optimize infrastructure costs while maintaining reliability targets",
+        "Create automation for operational tasks and toil reduction"
+      ],
+      growthOpportunities: [
+        "Work on reliability challenges at unprecedented global streaming scale",
+        "Contribute to and evolve Netflix's famous chaos engineering practices",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Significant autonomy aligned with freedom and responsibility culture",
+        "Shape reliability practices that influence the entire industry",
+        "Work with cutting-edge cloud infrastructure and distributed systems",
+        "Career growth through impact on critical business outcomes",
+        "Collaborate with world-class engineers on challenging problems"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of SRE background and Netflix culture alignment"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Systems design and troubleshooting focused on reliability concepts"
+        },
+        {
+          stage: "Onsite - Systems Design",
+          duration: "60 minutes",
+          description: "Design a reliable distributed system for a Netflix-scale problem"
+        },
+        {
+          stage: "Onsite - Troubleshooting",
+          duration: "60 minutes",
+          description: "Debug a complex system issue demonstrating systematic approach"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "60 minutes",
+          description: "Programming interview focused on automation and tooling"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and incident management style"
+        }
+      ],
+      technicalQuestions: [
+        "Design a highly available video streaming architecture for 283M members",
+        "How would you implement graceful degradation during partial outages?",
+        "Design Netflix's Open Connect CDN for global content delivery",
+        "How would you handle capacity planning for a major content release?",
+        "Design an observability system for Netflix's microservices architecture",
+        "How would you implement chaos engineering for a critical payment service?",
+        "Design a system for automatic failover across AWS regions",
+        "How would you approach incident response for a global streaming outage?",
+        "Design load shedding strategies for protecting critical services",
+        "How would you measure and improve the reliability of Netflix's homepage?",
+        "Design a system for canary deployments at Netflix scale",
+        "How would you implement circuit breakers across thousands of microservices?",
+        "Design capacity planning for Netflix's encoding and transcoding pipeline",
+        "How would you approach reliability for Netflix's real-time gaming platform?",
+        "Design a system for detecting and mitigating cascading failures"
+      ],
+      behavioralQuestions: [
+        "Tell me about a major incident you managed and lessons learned",
+        "Describe implementing a reliability improvement that had significant impact",
+        "How have you balanced reliability investments with feature development?",
+        "Tell me about building relationships with product engineering teams",
+        "Describe a time you had to make a difficult decision during an incident",
+        "How have you improved incident response processes on your team?",
+        "Tell me about proactively identifying and fixing a reliability risk",
+        "Describe implementing chaos engineering in a risk-averse environment",
+        "How have you communicated reliability trade-offs to leadership?",
+        "Tell me about reducing operational toil through automation",
+        "Describe a post-incident review that led to meaningful improvements",
+        "How have you handled disagreements about reliability priorities?",
+        "Tell me about capacity planning that prevented a potential outage",
+        "Describe mentoring others on SRE best practices",
+        "How have you balanced on-call responsibilities with project work?"
+      ],
+      whatTheyLookFor: [
+        "Deep understanding of distributed systems and failure modes",
+        "Experience with large-scale production systems and incident management",
+        "Strong programming skills for automation and tooling",
+        "Systematic approach to troubleshooting complex problems",
+        "Track record of improving reliability metrics meaningfully",
+        "Excellent communication skills for incident coordination",
+        "Ownership mentality aligned with Netflix culture",
+        "Experience with cloud infrastructure (AWS preferred)",
+        "Understanding of capacity planning and performance optimization",
+        "Collaborative approach to partnering with product teams"
+      ],
+      interviewTips: [
+        "Study Netflix's tech blog posts on chaos engineering and reliability",
+        "Understand the Chaos Monkey and broader Simian Army tools",
+        "Prepare detailed examples of incidents you've managed",
+        "Practice system design with explicit reliability requirements",
+        "Be ready to discuss trade-offs between reliability and velocity",
+        "Understand Netflix culture deeply—read the culture deck",
+        "Prepare examples showing ownership and good judgment",
+        "Study distributed systems failure modes and mitigations",
+        "Be ready to discuss observability and monitoring strategies",
+        "Prepare questions about Netflix's reliability challenges",
+        "Show passion for building systems that serve millions reliably",
+        "Demonstrate systematic troubleshooting methodology",
+        "Be honest about incidents where things went wrong",
+        "Understand Netflix's infrastructure and AWS partnership"
+      ],
+      salary: {
+        min: 180000,
+        max: 450000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $450,000 depending on level",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy based on impact and skills",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Comprehensive health, dental, and vision benefits",
+        "On-call compensation included in base salary",
+        "Home office setup and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as an SRE at Netflix involves balancing proactive reliability work with incident response and cross-team collaboration.",
+        schedule: [
+          "9:00 AM - Review overnight alerts and service health dashboards",
+          "9:30 AM - Incident review meeting discussing yesterday's issues",
+          "10:30 AM - Deep work on reliability improvement for streaming service",
+          "12:00 PM - Lunch with product engineering team discussing upcoming changes",
+          "1:00 PM - Capacity planning session for upcoming content release",
+          "2:30 PM - Code review for chaos engineering experiment",
+          "3:30 PM - On-call handoff and documentation update",
+          "4:30 PM - Architecture review ensuring reliability requirements",
+          "5:30 PM - Personal development time—reading SRE research papers"
+        ],
+        closing: "Netflix SREs enjoy the unique challenge of keeping the world's leading streaming platform running smoothly for hundreds of millions of members."
+      },
+      similarRoles: ["Software Engineer", "Security Engineer", "Data Engineer", "Infrastructure Engineer"]
+    },
+    'security-engineer': {
+      roleDescription: "Security Engineers at Netflix protect the streaming platform, content, and member data for 283 million subscribers worldwide. You'll work on security challenges unique to entertainment—protecting unreleased content worth billions of dollars, securing streaming infrastructure at massive scale, and safeguarding member accounts and payment data. Netflix's security team operates across multiple domains including application security, infrastructure security, content protection, and incident response. The role combines deep technical expertise with Netflix's freedom and responsibility culture—security engineers have significant autonomy to identify risks and drive remediation across the organization. You'll work with cutting-edge security technologies, participate in bug bounty triage, and help build security into products from design through deployment. Netflix security is proactive rather than reactive, embedding security thinking into engineering culture rather than acting as gatekeepers.",
+      responsibilities: [
+        "Conduct security reviews of new features and architectural designs",
+        "Identify and remediate vulnerabilities through code review and testing",
+        "Build automated security tooling and detection systems at scale",
+        "Respond to security incidents and conduct thorough investigations",
+        "Protect unreleased content through DRM and access controls",
+        "Develop security training and guidance for engineering teams",
+        "Evaluate security of third-party integrations and dependencies",
+        "Design security controls for member data and payment protection",
+        "Contribute to bug bounty program triage and remediation"
+      ],
+      growthOpportunities: [
+        "Protect content and infrastructure serving 283M members globally",
+        "Work on unique entertainment security challenges (content protection, DRM)",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Significant autonomy aligned with Netflix culture",
+        "Shape security practices for a company at the forefront of streaming",
+        "Access to cutting-edge security technologies and research",
+        "Career growth through impact on critical security outcomes",
+        "Collaborate with world-class security professionals"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of security background and Netflix culture fit"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Security-focused technical interview in your domain area"
+        },
+        {
+          stage: "Onsite - Security Deep Dive",
+          duration: "60 minutes",
+          description: "Deep technical interview in your security expertise area"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "60 minutes",
+          description: "Programming interview with security-relevant problems"
+        },
+        {
+          stage: "Onsite - Security Design",
+          duration: "60 minutes",
+          description: "Design secure systems or threat model a streaming feature"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and collaboration style"
+        }
+      ],
+      technicalQuestions: [
+        "Design a secure authentication system for 283 million Netflix accounts",
+        "How would you protect unreleased content from leaks before premiere?",
+        "Design Netflix's DRM system for content protection across devices",
+        "How would you detect and prevent credential stuffing attacks at scale?",
+        "Design a security monitoring system for Netflix's microservices",
+        "How would you secure the content delivery pipeline from studio to member?",
+        "Design access controls for Netflix's internal studio production systems",
+        "How would you implement secure payment processing for global subscriptions?",
+        "Design a system to detect compromised member accounts",
+        "How would you approach security for Netflix's gaming platform?",
+        "Design certificate management for Netflix's CDN (Open Connect)",
+        "How would you secure API endpoints serving billions of requests?",
+        "Design a vulnerability management program for thousands of services",
+        "How would you implement security logging for incident investigation?",
+        "Design content watermarking for leak attribution"
+      ],
+      behavioralQuestions: [
+        "Tell me about a significant vulnerability you discovered and fixed",
+        "Describe convincing an engineering team to prioritize a security fix",
+        "How have you handled security vs feature development trade-offs?",
+        "Tell me about a security incident you responded to and lessons learned",
+        "Describe improving security culture on a team or organization",
+        "How have you balanced security with user experience?",
+        "Tell me about making a difficult security risk decision",
+        "Describe a security project from conception to completion",
+        "How have you stayed current with evolving security threats?",
+        "Tell me about collaborating with non-security engineers effectively",
+        "Describe explaining a complex security issue to leadership",
+        "How have you handled pushback on security recommendations?",
+        "Tell me about triaging multiple security issues with limited resources",
+        "Describe mentoring others in security practices",
+        "How have you contributed to the broader security community?"
+      ],
+      whatTheyLookFor: [
+        "Deep expertise in at least one security domain with broad knowledge",
+        "Strong programming skills for security tooling and automation",
+        "Experience with security at scale in large distributed systems",
+        "Track record of discovering and fixing vulnerabilities",
+        "Ability to communicate security risks to diverse audiences",
+        "Collaborative approach to working with engineering teams",
+        "Understanding of entertainment-specific security (DRM, content protection)",
+        "Ownership mentality aligned with Netflix culture",
+        "Commitment to continuous learning in evolving threat landscape",
+        "Passion for protecting members and their data"
+      ],
+      interviewTips: [
+        "Study Netflix's security challenges unique to streaming",
+        "Understand content protection and DRM technologies",
+        "Prepare examples of vulnerabilities you've found and fixed",
+        "Practice explaining security concepts to non-security engineers",
+        "Research Netflix's tech blog for security-related posts",
+        "Be ready to discuss entertainment industry security concerns",
+        "Understand Netflix culture and prepare aligned examples",
+        "Have opinions on current security trends and threats",
+        "Be ready to discuss trade-offs between security and usability",
+        "Prepare threat models for streaming platform components",
+        "Show genuine passion for protecting users at scale",
+        "Demonstrate systematic approach to security assessment",
+        "Be honest about security incidents and lessons learned",
+        "Prepare thoughtful questions about Netflix's security team"
+      ],
+      salary: {
+        min: 180000,
+        max: 480000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $480,000 depending on level and expertise",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy for security talent",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Security conference attendance budget",
+        "Comprehensive health, dental, and vision benefits",
+        "Home office setup and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Security Engineer at Netflix involves proactive security work, incident response, and embedding security into engineering culture.",
+        schedule: [
+          "9:30 AM - Review overnight security alerts and bug bounty submissions",
+          "10:00 AM - Security design review for new streaming feature",
+          "11:30 AM - Deep dive into suspicious activity flagged by detection systems",
+          "12:30 PM - Lunch with security team discussing emerging threats",
+          "1:30 PM - Code review for security-critical authentication changes",
+          "2:30 PM - Build automated scanning for vulnerability patterns",
+          "4:00 PM - Office hours helping engineers with security questions",
+          "5:00 PM - Research time exploring new attack techniques",
+          "6:00 PM - Document findings and update security guidance"
+        ],
+        closing: "Netflix Security Engineers enjoy the unique challenge of protecting both world-class content and hundreds of millions of member accounts."
+      },
+      similarRoles: ["Software Engineer", "Site Reliability Engineer", "Data Engineer", "Infrastructure Engineer"]
+    },
+    'product-manager': {
+      roleDescription: "Product Managers at Netflix shape how 283 million members discover and enjoy entertainment across TV, film, games, and live events. You'll work on products spanning the member experience—from personalization and discovery to playback and payments—or on internal tools empowering content creators and operations teams. Netflix PMs operate with significant autonomy in a culture of freedom and responsibility, making high-stakes decisions that impact hundreds of millions of members. The role requires strong analytical skills to leverage Netflix's rich experimentation culture, business acumen to understand entertainment economics, and the communication skills to align cross-functional teams. Netflix doesn't have traditional product hierarchies—PMs are expected to be strategic thinkers who can also dive deep into details. You'll work closely with world-class engineering, design, and data science teams while partnering with content and marketing to deliver experiences that delight members globally.",
+      responsibilities: [
+        "Define product strategy and roadmap for member-facing or internal products",
+        "Partner with engineering, design, and data science to deliver experiences",
+        "Design and analyze A/B experiments to optimize member experience",
+        "Translate business objectives into product requirements and success metrics",
+        "Make data-driven decisions leveraging Netflix's rich analytics infrastructure",
+        "Collaborate with content teams on features supporting programming strategy",
+        "Present product vision and results to leadership and cross-functional partners",
+        "Balance global member needs across 190+ countries and diverse preferences",
+        "Drive alignment across teams while maintaining velocity"
+      ],
+      growthOpportunities: [
+        "Shape products used by 283 million members across 190+ countries",
+        "Work in a culture of freedom and responsibility with significant autonomy",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Access to world-class experimentation and analytics infrastructure",
+        "Partner with leading engineers, designers, and data scientists",
+        "Influence entertainment industry through product innovation",
+        "Career growth through impact rather than traditional hierarchy",
+        "Work on diverse products from consumer to gaming to live events"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of PM background and Netflix culture alignment"
+        },
+        {
+          stage: "Hiring Manager Screen",
+          duration: "45 minutes",
+          description: "Deep dive into product experience and strategic thinking"
+        },
+        {
+          stage: "Onsite - Product Sense",
+          duration: "60 minutes",
+          description: "Product design exercise for a Netflix-relevant problem"
+        },
+        {
+          stage: "Onsite - Analytical",
+          duration: "60 minutes",
+          description: "Data analysis and experimentation design case study"
+        },
+        {
+          stage: "Onsite - Execution",
+          duration: "60 minutes",
+          description: "Discussion of how you've shipped products and handled trade-offs"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and leadership style"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve Netflix's homepage personalization?",
+        "Design a feature to help members discover content outside their usual genres",
+        "How would you measure success for Netflix's gaming initiative?",
+        "Design an experiment to test a new content release strategy",
+        "How would you approach product strategy for Netflix in a new market?",
+        "Design features to reduce member churn in competitive markets",
+        "How would you prioritize between improving discovery vs playback experience?",
+        "Design a social feature for Netflix while respecting member privacy",
+        "How would you measure the value of personalized thumbnails?",
+        "Design the product experience for Netflix Live events",
+        "How would you approach localization beyond just subtitles and dubbing?",
+        "Design features to improve the mobile viewing experience",
+        "How would you balance member experience with content creator needs?",
+        "Design an experiment to test ad-supported tier optimizations",
+        "How would you think about Netflix's expansion into live sports?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a product you shipped that had significant member impact",
+        "Describe making a difficult prioritization decision with incomplete data",
+        "How have you handled disagreement with engineering on product direction?",
+        "Tell me about an experiment that produced surprising results",
+        "Describe defining success metrics for an ambiguous product initiative",
+        "How have you balanced global vs local product needs?",
+        "Tell me about a product decision you regret and what you learned",
+        "Describe influencing stakeholders without direct authority",
+        "How have you partnered with data science to inform product decisions?",
+        "Tell me about navigating tension between short-term and long-term goals",
+        "Describe building relationships with cross-functional partners",
+        "How have you handled a product launch that didn't meet expectations?",
+        "Tell me about simplifying a complex product problem",
+        "Describe communicating a difficult decision to stakeholders",
+        "How have you contributed to product culture on your team?"
+      ],
+      whatTheyLookFor: [
+        "Strong product sense and ability to design delightful experiences",
+        "Analytical skills for experimentation and data-driven decisions",
+        "Strategic thinking balanced with execution excellence",
+        "Excellent communication skills for diverse audiences",
+        "Track record of shipping impactful products",
+        "Ownership mentality aligned with Netflix culture",
+        "Ability to work effectively with engineering and design partners",
+        "Understanding of entertainment and media industry dynamics",
+        "Global perspective for products serving 190+ countries",
+        "Comfort with ambiguity and autonomous decision-making"
+      ],
+      interviewTips: [
+        "Use Netflix extensively and develop strong opinions about the product",
+        "Understand Netflix's business model and competitive landscape",
+        "Prepare examples demonstrating ownership and good judgment",
+        "Practice product design exercises for entertainment products",
+        "Master A/B testing concepts and experimentation design",
+        "Study Netflix's culture deck thoroughly",
+        "Be ready to discuss entertainment industry trends",
+        "Prepare examples of data-driven decision making",
+        "Show genuine passion for entertainment and member experience",
+        "Be ready to articulate trade-offs clearly",
+        "Understand Netflix's global expansion and localization challenges",
+        "Prepare thoughtful questions about team and product challenges",
+        "Be authentic—Netflix values genuine culture alignment",
+        "Practice explaining complex product decisions simply"
+      ],
+      salary: {
+        min: 180000,
+        max: 500000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $500,000 depending on level and scope",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay based on impact and market conditions",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Comprehensive health, dental, and vision benefits",
+        "Generous parental leave policy",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Product Manager at Netflix involves strategic thinking, cross-functional collaboration, and data analysis with significant autonomy.",
+        schedule: [
+          "9:30 AM - Review experiment results and member feedback",
+          "10:00 AM - Cross-functional sync with engineering and design",
+          "11:00 AM - Deep work on product strategy document",
+          "12:00 PM - Lunch with content partners discussing upcoming releases",
+          "1:00 PM - A/B experiment design session with data science",
+          "2:30 PM - Product review with leadership presenting roadmap",
+          "3:30 PM - 1:1 with engineering lead on technical trade-offs",
+          "4:30 PM - User research review and insights synthesis",
+          "5:30 PM - Personal time to use Netflix and observe member experience"
+        ],
+        closing: "Netflix PMs enjoy the unique opportunity to shape entertainment experiences for hundreds of millions of members while operating with significant autonomy."
+      },
+      similarRoles: ["Data Scientist", "Product Designer", "Engineering Manager", "Content Strategist"]
+    },
+    'product-designer': {
+      roleDescription: "Product Designers at Netflix craft the experiences that help 283 million members discover and enjoy entertainment they'll love. You'll design interfaces for over 1,000 device types—from smart TVs and gaming consoles to mobile phones and web browsers—creating cohesive experiences across diverse platforms. Netflix design challenges are unique: designing for the 10-foot TV experience, creating interfaces that work across 190+ countries and 30+ languages, and balancing personalization with discovery. The design team includes visual designers, interaction designers, and prototypers working together to push the boundaries of entertainment UX. Netflix designers operate with significant autonomy, owning design decisions end-to-end while partnering closely with product, engineering, and data science. You'll design and test experiences through Netflix's rigorous A/B experimentation culture, using data to validate design intuition. The work spans member-facing products and internal tools supporting content creation, from browse and search to playback and beyond.",
+      responsibilities: [
+        "Design member experiences across TV, mobile, web, and gaming platforms",
+        "Create cohesive design systems working across 1,000+ device types",
+        "Partner with product and engineering to define and deliver features",
+        "Design for global audiences across 190+ countries and 30+ languages",
+        "Create prototypes to test and validate design concepts",
+        "Design and analyze A/B experiments measuring design impact",
+        "Develop interaction patterns for TV, mobile, and web experiences",
+        "Contribute to and evolve Netflix's design system and standards",
+        "Present design work to leadership and cross-functional partners"
+      ],
+      growthOpportunities: [
+        "Design experiences used by 283 million members globally",
+        "Work on unique challenges of TV, mobile, and multi-device design",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Significant autonomy aligned with Netflix culture",
+        "Pioneer entertainment UX at scale with rigorous experimentation",
+        "Collaborate with world-class designers, engineers, and researchers",
+        "Career growth through impact rather than traditional hierarchy",
+        "Shape the future of how people discover and enjoy entertainment"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of design background and Netflix culture alignment"
+        },
+        {
+          stage: "Portfolio Review",
+          duration: "60 minutes",
+          description: "Deep dive into portfolio work with hiring manager"
+        },
+        {
+          stage: "Onsite - Design Exercise",
+          duration: "90 minutes",
+          description: "Design challenge for a Netflix-relevant problem (may be take-home)"
+        },
+        {
+          stage: "Onsite - Cross-functional",
+          duration: "45 minutes",
+          description: "Discussion with product and engineering partners"
+        },
+        {
+          stage: "Onsite - Design Critique",
+          duration: "45 minutes",
+          description: "Critique session demonstrating design thinking and collaboration"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and working style"
+        }
+      ],
+      technicalQuestions: [
+        "How would you redesign Netflix's TV browse experience?",
+        "Design a feature to help members find content to watch together",
+        "How would you improve content discovery for new Netflix members?",
+        "Design the experience for Netflix Games on TV",
+        "How would you approach designing for accessibility across devices?",
+        "Design a feature to help members manage their watchlist",
+        "How would you think about localization beyond translation?",
+        "Design the experience for live events on Netflix",
+        "How would you improve the search experience on mobile?",
+        "Design onboarding for Netflix's ad-supported tier",
+        "How would you balance personalization with serendipitous discovery?",
+        "Design a social feature respecting member privacy",
+        "How would you approach designing for the 10-foot TV experience?",
+        "Design the profile selection experience for families",
+        "How would you measure success for a design change?"
+      ],
+      behavioralQuestions: [
+        "Walk me through a design project from concept to launch",
+        "Tell me about a design decision you made based on data",
+        "Describe handling feedback that conflicted with your design direction",
+        "How have you designed for global audiences with diverse preferences?",
+        "Tell me about a design that didn't test well and what you learned",
+        "Describe collaborating with engineers on a technically complex feature",
+        "How have you balanced user needs with business objectives?",
+        "Tell me about evolving a design system or component library",
+        "Describe making a design decision with incomplete information",
+        "How have you advocated for design quality under time pressure?",
+        "Tell me about mentoring others or contributing to design culture",
+        "Describe a project where you had to simplify a complex experience",
+        "How have you incorporated accessibility into your design process?",
+        "Tell me about designing for multiple platforms simultaneously",
+        "Describe how you stay current with design trends and tools"
+      ],
+      whatTheyLookFor: [
+        "Strong portfolio demonstrating end-to-end product design",
+        "Experience designing for TV, mobile, or multi-platform experiences",
+        "Ability to balance aesthetics with usability and business goals",
+        "Data-informed design approach with experimentation mindset",
+        "Excellent visual and interaction design skills",
+        "Strong communication and presentation abilities",
+        "Experience with design systems and scalable design",
+        "Understanding of accessibility and inclusive design",
+        "Ownership mentality aligned with Netflix culture",
+        "Passion for entertainment and member experience"
+      ],
+      interviewTips: [
+        "Prepare a strong portfolio with detailed case studies",
+        "Use Netflix extensively across different devices and platforms",
+        "Understand Netflix's design language and UI patterns",
+        "Prepare to discuss design decisions with data rationale",
+        "Study Netflix's tech blog for design-related content",
+        "Understand the unique challenges of TV and 10-foot UI design",
+        "Prepare examples showing collaboration with cross-functional teams",
+        "Be ready to do live design exercises confidently",
+        "Study Netflix culture and prepare aligned examples",
+        "Show genuine passion for entertainment and storytelling",
+        "Understand accessibility challenges across diverse devices",
+        "Prepare questions about the design team and challenges",
+        "Be authentic about your design process and thinking",
+        "Practice articulating design trade-offs clearly"
+      ],
+      salary: {
+        min: 160000,
+        max: 400000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $160,000 - $400,000 depending on level",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy based on impact",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Design tools and equipment budget",
+        "Comprehensive health, dental, and vision benefits",
+        "Home office setup support"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Product Designer at Netflix involves creative design work, cross-functional collaboration, and data-informed iteration.",
+        schedule: [
+          "9:30 AM - Review user research findings and experiment results",
+          "10:00 AM - Design exploration for new browse feature",
+          "11:30 AM - Design critique session with design team",
+          "12:30 PM - Lunch with product and engineering partners",
+          "1:30 PM - Cross-functional sync on feature specifications",
+          "2:30 PM - Prototype development for user testing",
+          "4:00 PM - Review A/B test results with data science",
+          "5:00 PM - Personal exploration—watching Netflix on different devices",
+          "5:30 PM - Documentation and design system updates"
+        ],
+        closing: "Netflix Product Designers enjoy the creative challenge of designing entertainment experiences that delight hundreds of millions of members globally."
+      },
+      similarRoles: ["Product Manager", "Software Engineer", "User Researcher", "Content Designer"]
+    },
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Netflix lead teams building the streaming platform that entertains 283 million members worldwide. You'll manage teams of 5-10 engineers while maintaining technical credibility and contributing to architectural decisions. Netflix's unique culture means engineering managers operate very differently than at traditional companies—there are no formal performance reviews, no stack ranking, and managers focus on context-setting rather than control. The keeper test guides talent decisions: would you fight to keep this person? Netflix EMs are expected to build high-performing teams that operate autonomously, provide candid feedback continuously, and make difficult talent decisions when necessary. You'll partner closely with product, design, and data science while ensuring your team has the context needed to make good decisions independently. The role requires both technical depth to guide architecture and leadership skills to develop world-class engineers in a culture of freedom and responsibility.",
+      responsibilities: [
+        "Lead and develop a team of 5-10 world-class software engineers",
+        "Drive technical roadmap and architecture decisions for your domain",
+        "Partner with product, design, and data science on feature strategy",
+        "Provide continuous, candid feedback and coaching to team members",
+        "Make talent decisions using the keeper test framework",
+        "Set context enabling team to make autonomous decisions",
+        "Recruit and hire top engineering talent in competitive market",
+        "Remove blockers and ensure team has resources to succeed",
+        "Foster inclusive team culture aligned with Netflix values",
+        "Balance technical debt with feature development velocity"
+      ],
+      growthOpportunities: [
+        "Lead teams building products used by 283 million members",
+        "Operate with significant autonomy in freedom and responsibility culture",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Develop leadership skills in unique high-trust environment",
+        "Progress to director or VP roles with broader organizational scope",
+        "Shape engineering culture at an industry-leading company",
+        "Build expertise in managing through context rather than control",
+        "Work with world-class engineers and cross-functional partners"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of management background and Netflix culture alignment"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into management philosophy and leadership style"
+        },
+        {
+          stage: "Onsite - Technical Assessment",
+          duration: "60 minutes",
+          description: "System design or coding to assess technical credibility"
+        },
+        {
+          stage: "Onsite - People Management",
+          duration: "60 minutes",
+          description: "Scenarios covering feedback, talent decisions, and team building"
+        },
+        {
+          stage: "Onsite - Execution",
+          duration: "60 minutes",
+          description: "Discussion of delivering complex projects and managing trade-offs"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Deep assessment of Netflix values alignment and leadership approach"
+        }
+      ],
+      technicalQuestions: [
+        "How would you approach a system design review for a major streaming feature?",
+        "Describe evaluating build vs buy decisions for your team's domain",
+        "How do you stay technically current while managing a team?",
+        "What's your approach to technical debt prioritization?",
+        "How would you handle an engineer wanting to rewrite a critical system?",
+        "Describe structuring a team for a new streaming product initiative",
+        "How do you ensure code quality and engineering best practices?",
+        "What metrics indicate a healthy engineering team?",
+        "How would you approach migrating a legacy service to modern architecture?",
+        "Describe your experience with incident management as a manager",
+        "How do you balance innovation time with delivery commitments?",
+        "What's your approach to architecture review and governance?",
+        "How have you scaled engineering processes as your team grew?",
+        "Describe handling a major production incident affecting members"
+      ],
+      behavioralQuestions: [
+        "Tell me about applying the keeper test to a difficult talent decision",
+        "Describe giving candid feedback that was hard to deliver",
+        "How have you handled a conflict between engineers on your team?",
+        "Tell me about pushing back on product requirements you disagreed with",
+        "Describe building an inclusive team culture",
+        "How have you handled disagreement with your own manager?",
+        "Tell me about a hiring decision that didn't work out",
+        "Describe making a difficult prioritization decision under pressure",
+        "How have you developed an engineer's career significantly?",
+        "Tell me about a project that failed and how you handled it",
+        "Describe building trust with a new team quickly",
+        "How have you managed through organizational change?",
+        "Tell me about letting someone go using the keeper test",
+        "Describe balancing hands-on involvement with delegation",
+        "How have you handled burnout or morale issues on your team?"
+      ],
+      whatTheyLookFor: [
+        "Proven track record building high-performing engineering teams",
+        "Technical credibility to guide architectural decisions",
+        "Strong communication and candid feedback skills",
+        "Experience with continuous feedback vs formal reviews",
+        "Ability to recruit and retain top engineering talent",
+        "Track record delivering complex projects through teams",
+        "Deep alignment with Netflix freedom and responsibility culture",
+        "Context-setting leadership style rather than controlling",
+        "Courage to make difficult talent decisions",
+        "Inclusive leadership valuing diverse perspectives"
+      ],
+      interviewTips: [
+        "Study Netflix culture memo deeply—management is very different here",
+        "Understand the keeper test and prepare examples of applying it",
+        "Prepare specific examples with quantifiable team outcomes",
+        "Be ready to demonstrate technical depth through design discussion",
+        "Have clear frameworks for management scenarios",
+        "Prepare examples of giving and receiving candid feedback",
+        "Show how you set context rather than controlling decisions",
+        "Demonstrate comfort with Netflix's no-formal-reviews approach",
+        "Have examples of difficult talent decisions and outcomes",
+        "Prepare thoughtful questions about the team and challenges",
+        "Show genuine passion for developing engineers' careers",
+        "Be ready to discuss Netflix-specific management scenarios",
+        "Demonstrate comfort with high autonomy and responsibility",
+        "Show how you build inclusive team cultures"
+      ],
+      salary: {
+        min: 250000,
+        max: 550000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $250,000 - $550,000 depending on level and scope",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy for engineering leadership",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Comprehensive health, dental, and vision benefits",
+        "Generous parental leave policy",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as an Engineering Manager at Netflix involves people leadership, technical guidance, and cross-functional partnership in a high-trust environment.",
+        schedule: [
+          "9:30 AM - 1:1 with senior engineer discussing career growth",
+          "10:00 AM - Review team's technical designs and provide feedback",
+          "10:30 AM - Team sync focused on context-setting for current priorities",
+          "11:00 AM - Cross-functional meeting with product and design",
+          "12:00 PM - Lunch with potential candidate (recruiting)",
+          "1:00 PM - Technical architecture review for new feature",
+          "2:00 PM - Manager peer sync discussing organizational challenges",
+          "3:00 PM - 1:1 focused on giving candid developmental feedback",
+          "4:00 PM - Interview debrief and hiring decision discussion",
+          "5:00 PM - Planning and strategic thinking time"
+        ],
+        closing: "Netflix Engineering Managers enjoy the unique challenge of building world-class teams in a culture that emphasizes context over control and trusts people to use good judgment."
+      },
+      similarRoles: ["Software Engineer", "Product Manager", "Technical Program Manager", "Director of Engineering"]
+    },
+    'content-strategist': {
+      roleDescription: "Content Strategists at Netflix shape the programming strategy that entertains 283 million members across 190+ countries. You'll work at the intersection of data, business, and creative, using analytics to inform which content Netflix should acquire, license, or produce. The role requires understanding both the art and science of entertainment—combining quantitative analysis of viewing patterns with qualitative understanding of what makes stories resonate. Netflix Content Strategists partner with content executives, data scientists, and finance teams to evaluate opportunities worth millions to billions of dollars. You'll develop frameworks for content valuation, analyze competitive dynamics across streaming platforms, and identify programming gaps and opportunities in different markets. The work directly impacts Netflix's $17+ billion annual content spend and shapes what hundreds of millions of members will watch. Netflix's data-driven approach to content combined with creative intuition makes this role uniquely influential in the entertainment industry.",
+      responsibilities: [
+        "Develop content strategy recommendations using data and market analysis",
+        "Build frameworks for evaluating content acquisition and licensing opportunities",
+        "Partner with content executives on programming decisions worth millions",
+        "Analyze viewing patterns to identify content gaps and opportunities",
+        "Evaluate competitive landscape across streaming platforms globally",
+        "Create presentations and analysis for senior leadership decisions",
+        "Collaborate with data science on content performance measurement",
+        "Support negotiations with studios and content partners",
+        "Develop market-specific content strategies for international expansion",
+        "Track industry trends and emerging content opportunities"
+      ],
+      growthOpportunities: [
+        "Directly influence Netflix's $17+ billion annual content investment",
+        "Work at the intersection of entertainment, data, and business strategy",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Significant autonomy aligned with Netflix culture",
+        "Shape programming strategy serving 283 million members globally",
+        "Access to rich data and analytics on content performance",
+        "Career paths into content leadership, strategy, or analytics",
+        "Work with world-class entertainment and business professionals"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of content/strategy background and Netflix culture fit"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into strategic thinking and entertainment industry knowledge"
+        },
+        {
+          stage: "Onsite - Case Study",
+          duration: "90 minutes",
+          description: "Content strategy case analyzing programming opportunity"
+        },
+        {
+          stage: "Onsite - Analytical",
+          duration: "60 minutes",
+          description: "Data analysis and quantitative reasoning assessment"
+        },
+        {
+          stage: "Onsite - Cross-functional",
+          duration: "45 minutes",
+          description: "Discussion with content and finance partners"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and communication style"
+        }
+      ],
+      technicalQuestions: [
+        "How would you evaluate whether Netflix should acquire a major film franchise?",
+        "Design a framework for measuring content ROI across different genres",
+        "How would you approach content strategy for Netflix entering a new market?",
+        "Analyze the competitive implications of a major studio launching its own streaming service",
+        "How would you identify programming gaps in Netflix's current content library?",
+        "Design metrics for comparing content performance across different regions",
+        "How would you evaluate the strategic value of live sports content?",
+        "Analyze the economics of original production vs licensing for a specific genre",
+        "How would you approach content strategy for Netflix's ad-supported tier?",
+        "Design a framework for talent deal evaluation",
+        "How would you measure the value of a hit series vs a diverse content portfolio?",
+        "Analyze the strategic implications of simultaneous theatrical/streaming release",
+        "How would you approach content localization strategy beyond dubbing?",
+        "Design a content investment prioritization framework"
+      ],
+      behavioralQuestions: [
+        "Tell me about a strategic recommendation that influenced a major decision",
+        "Describe communicating complex analysis to creative stakeholders",
+        "How have you handled disagreement with leadership on strategic direction?",
+        "Tell me about a content or media analysis that produced surprising insights",
+        "Describe working at the intersection of data and creative decision-making",
+        "How have you balanced quantitative analysis with qualitative judgment?",
+        "Tell me about building relationships with cross-functional partners",
+        "Describe a strategic analysis you're particularly proud of",
+        "How have you adapted your approach for different audiences?",
+        "Tell me about a recommendation that didn't work out and what you learned",
+        "Describe navigating ambiguity in a strategic project",
+        "How have you influenced decisions when the data was inconclusive?",
+        "Tell me about understanding a market or audience you weren't familiar with",
+        "Describe balancing short-term and long-term strategic considerations"
+      ],
+      whatTheyLookFor: [
+        "Strong strategic and analytical thinking skills",
+        "Deep interest in entertainment and media industry",
+        "Ability to combine quantitative analysis with creative judgment",
+        "Excellent communication and presentation skills",
+        "Experience with financial modeling and business case development",
+        "Understanding of content economics and entertainment industry dynamics",
+        "Track record of influencing strategic decisions",
+        "Ownership mentality aligned with Netflix culture",
+        "Ability to work effectively with diverse stakeholders",
+        "Intellectual curiosity about what makes content resonate"
+      ],
+      interviewTips: [
+        "Watch Netflix extensively and develop informed content opinions",
+        "Understand Netflix's content strategy and competitive positioning",
+        "Study the streaming industry landscape and competitive dynamics",
+        "Prepare to discuss content economics and industry trends",
+        "Practice case studies on content acquisition and strategy",
+        "Understand Netflix culture and prepare aligned examples",
+        "Be ready to combine data analysis with creative insight",
+        "Prepare examples of strategic analysis influencing decisions",
+        "Show genuine passion for entertainment and storytelling",
+        "Understand international content markets and localization",
+        "Be ready to discuss trade-offs in content investment",
+        "Prepare thoughtful questions about the content team",
+        "Demonstrate business acumen alongside creative judgment",
+        "Show ability to communicate complex analysis simply"
+      ],
+      salary: {
+        min: 150000,
+        max: 350000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $150,000 - $350,000 depending on level",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy based on impact",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Comprehensive health, dental, and vision benefits",
+        "Industry event and conference attendance",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Content Strategist at Netflix involves analytical work, cross-functional collaboration, and strategic thinking at the intersection of data and entertainment.",
+        schedule: [
+          "9:30 AM - Review overnight content performance metrics",
+          "10:00 AM - Deep analysis on competitive content landscape",
+          "11:30 AM - Sync with data science on content measurement methodology",
+          "12:30 PM - Lunch with content executive discussing upcoming decisions",
+          "1:30 PM - Prepare presentation on content opportunity for leadership",
+          "3:00 PM - Cross-functional meeting on international content strategy",
+          "4:00 PM - Financial modeling for potential acquisition",
+          "5:00 PM - Industry reading and competitive monitoring",
+          "5:30 PM - Watch new content releases for competitive awareness"
+        ],
+        closing: "Netflix Content Strategists enjoy the unique opportunity to shape entertainment strategy using data while working alongside creative leaders defining what the world watches."
+      },
+      similarRoles: ["Data Scientist", "Product Manager", "Business Development", "Content Finance"]
+    },
+    'senior-software-engineer-mobile': {
+      roleDescription: "Senior Software Engineers on Netflix's mobile teams build the iOS and Android applications used by hundreds of millions of members to discover and enjoy entertainment on the go. You'll work on challenging problems in mobile development—from optimizing video playback for diverse network conditions to building smooth, responsive interfaces for browsing thousands of titles. Netflix mobile apps are used in 190+ countries on countless device configurations, requiring engineering that scales globally while feeling native and performant locally. The role spans UI development, playback optimization, download functionality, and mobile-specific features like picture-in-picture and offline viewing. Netflix mobile engineers work with autonomy, owning features end-to-end from design through deployment. You'll partner with product, design, and platform teams while contributing to Netflix's shared mobile infrastructure. The freedom and responsibility culture means you'll make significant technical decisions while being accountable for their outcomes across millions of devices.",
+      responsibilities: [
+        "Build and maintain Netflix iOS or Android applications serving millions of members",
+        "Design and implement features for content discovery, playback, and user experience",
+        "Optimize app performance for diverse devices, networks, and global regions",
+        "Own features end-to-end from design through deployment and monitoring",
+        "Contribute to shared mobile infrastructure and architecture decisions",
+        "Partner with product and design on mobile-specific user experiences",
+        "Implement A/B experiments and analyze mobile-specific metrics",
+        "Ensure app quality through testing, monitoring, and incident response",
+        "Mentor other engineers and contribute to mobile engineering culture"
+      ],
+      growthOpportunities: [
+        "Build mobile apps used by hundreds of millions of members globally",
+        "Work on unique challenges of video streaming on mobile devices",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Significant autonomy in freedom and responsibility culture",
+        "Contribute to mobile architecture decisions impacting all Netflix apps",
+        "Access to cutting-edge mobile technologies and experimentation",
+        "Career growth through impact on critical mobile experiences",
+        "Work with world-class mobile engineers and cross-functional partners"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of mobile engineering background and Netflix culture fit"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Mobile-focused coding and architecture discussion"
+        },
+        {
+          stage: "Onsite - Mobile Coding",
+          duration: "60 minutes",
+          description: "Coding interview with iOS/Android specific problems"
+        },
+        {
+          stage: "Onsite - System Design",
+          duration: "60 minutes",
+          description: "Mobile architecture design for Netflix-scale problems"
+        },
+        {
+          stage: "Onsite - Platform Deep Dive",
+          duration: "60 minutes",
+          description: "Deep technical discussion on iOS or Android platform expertise"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and collaboration style"
+        }
+      ],
+      technicalQuestions: [
+        "Design the architecture for Netflix's video player on mobile",
+        "How would you optimize app startup time across diverse Android devices?",
+        "Design the offline download feature for Netflix mobile",
+        "How would you implement smooth scrolling for the browse experience?",
+        "Design a caching strategy for images and metadata on mobile",
+        "How would you handle video playback quality adaptation on variable networks?",
+        "Design the mobile architecture for Netflix's new gaming features",
+        "How would you implement picture-in-picture functionality?",
+        "Design a testing strategy for mobile apps supporting thousands of devices",
+        "How would you optimize battery consumption during video playback?",
+        "Design the mobile notification and engagement strategy",
+        "How would you handle authentication and security on mobile?",
+        "Design a modular architecture supporting rapid feature development",
+        "How would you implement deep linking across the Netflix app?",
+        "Design performance monitoring for mobile applications at scale"
+      ],
+      behavioralQuestions: [
+        "Tell me about a mobile feature you shipped that had significant member impact",
+        "Describe debugging a complex issue across multiple device configurations",
+        "How have you handled mobile platform fragmentation challenges?",
+        "Tell me about improving mobile app performance significantly",
+        "Describe working with designers on mobile-specific interactions",
+        "How have you balanced native development with cross-platform approaches?",
+        "Tell me about a technical decision that improved developer productivity",
+        "Describe handling a production incident affecting mobile users",
+        "How have you approached mobile accessibility in your work?",
+        "Tell me about building shared infrastructure for mobile teams",
+        "Describe navigating platform-specific constraints in feature design",
+        "How have you mentored other mobile engineers?",
+        "Tell me about a mobile technology decision you advocated for",
+        "Describe adapting to major platform changes (iOS/Android updates)",
+        "How have you approached mobile testing and quality?"
+      ],
+      whatTheyLookFor: [
+        "Deep expertise in iOS (Swift) or Android (Kotlin) development",
+        "Experience building and shipping mobile apps at scale",
+        "Understanding of mobile video playback and streaming",
+        "Strong architecture and design skills for mobile applications",
+        "Performance optimization experience for diverse devices",
+        "Track record of mobile features with user impact",
+        "Ownership mentality aligned with Netflix culture",
+        "Experience with A/B testing and data-driven development",
+        "Collaboration skills for cross-functional partnerships",
+        "Passion for mobile user experience and entertainment"
+      ],
+      interviewTips: [
+        "Use the Netflix mobile app extensively and form specific opinions",
+        "Prepare deep expertise in either iOS or Android (know your platform deeply)",
+        "Study mobile video streaming challenges and approaches",
+        "Prepare examples of performance optimization work",
+        "Understand Netflix's mobile architecture through tech blog posts",
+        "Be ready for platform-specific technical deep dives",
+        "Practice mobile system design for streaming applications",
+        "Understand Netflix culture and prepare aligned examples",
+        "Prepare examples demonstrating ownership and autonomy",
+        "Be ready to discuss mobile testing and quality strategies",
+        "Show passion for mobile user experience",
+        "Understand global mobile challenges (devices, networks, regions)",
+        "Prepare questions about the mobile team and challenges",
+        "Be authentic about your mobile development experience"
+      ],
+      salary: {
+        min: 200000,
+        max: 500000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $200,000 - $500,000 depending on level",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy for mobile talent",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Mobile devices and equipment for testing",
+        "Comprehensive health, dental, and vision benefits",
+        "Home office setup budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Senior Mobile Engineer at Netflix involves building features, optimizing performance, and collaborating with cross-functional partners.",
+        schedule: [
+          "9:30 AM - Check crash reports and mobile app health metrics",
+          "10:00 AM - Deep work on new browse feature implementation",
+          "11:30 AM - Code review and architecture discussion with team",
+          "12:30 PM - Lunch with product manager discussing upcoming features",
+          "1:30 PM - A/B experiment analysis for recent UI changes",
+          "2:30 PM - Cross-platform sync on shared infrastructure",
+          "3:30 PM - Performance optimization work on video player",
+          "4:30 PM - Testing across multiple device configurations",
+          "5:30 PM - Personal time using Netflix mobile to observe experience"
+        ],
+        closing: "Netflix mobile engineers enjoy the challenge of building entertainment experiences that delight members on their most personal devices."
+      },
+      similarRoles: ["Software Engineer", "Machine Learning Engineer", "Product Designer", "Site Reliability Engineer"]
+    },
+    'solutions-architect': {
+      roleDescription: "Solutions Architects at Netflix work at the intersection of technology and partnerships, designing integrations and technical solutions for Netflix's business partners, device manufacturers, and content delivery network. You'll work with TV manufacturers, gaming consoles, set-top boxes, and ISPs to ensure Netflix delivers optimal experiences across thousands of device types in 190+ countries. The role combines deep technical expertise with partnership skills—you'll design architectures that work within partners' constraints while meeting Netflix's quality bar. Solutions Architects also work on Netflix's Open Connect CDN, the world's largest content delivery network, partnering with ISPs globally to optimize streaming delivery. You'll evaluate new platforms and technologies, create technical specifications, and guide partner implementations. The work directly impacts how hundreds of millions of members experience Netflix across their devices. Netflix's freedom and responsibility culture means you'll have significant autonomy to make technical decisions while ensuring partnerships succeed.",
+      responsibilities: [
+        "Design technical solutions for device manufacturers and platform partners",
+        "Partner with ISPs on Open Connect CDN deployment and optimization",
+        "Create technical specifications and architecture documentation",
+        "Evaluate new platforms and technologies for Netflix integration",
+        "Guide partner engineering teams through implementation",
+        "Troubleshoot and resolve complex integration issues",
+        "Ensure partner implementations meet Netflix quality standards",
+        "Collaborate with internal engineering on partner requirements",
+        "Present technical solutions to partner leadership teams",
+        "Stay current on device ecosystem and streaming technology trends"
+      ],
+      growthOpportunities: [
+        "Shape how Netflix appears on devices used by 283 million members",
+        "Work on world's largest CDN serving entertainment globally",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Significant autonomy in freedom and responsibility culture",
+        "Build expertise in streaming technology and global partnerships",
+        "Career paths into engineering leadership or strategic partnerships",
+        "Work with major technology companies and device manufacturers",
+        "Travel opportunities for partner engagements globally"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of technical and partnership background"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into solutions architecture experience"
+        },
+        {
+          stage: "Onsite - Technical Design",
+          duration: "60 minutes",
+          description: "Design a solution for a partner integration scenario"
+        },
+        {
+          stage: "Onsite - Systems Knowledge",
+          duration: "60 minutes",
+          description: "Deep technical discussion on streaming and networking"
+        },
+        {
+          stage: "Onsite - Partner Scenario",
+          duration: "60 minutes",
+          description: "Role-play partner engagement demonstrating communication skills"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment"
+        }
+      ],
+      technicalQuestions: [
+        "Design the integration architecture for Netflix on a new smart TV platform",
+        "How would you optimize video delivery for an ISP with network constraints?",
+        "Design a solution for Netflix on a gaming console with limited resources",
+        "How would you approach integrating Netflix with a set-top box platform?",
+        "Design the Open Connect cache deployment for a major ISP",
+        "How would you handle a partner device with unique playback limitations?",
+        "Design a testing framework for certifying new device integrations",
+        "How would you optimize Netflix startup time on constrained devices?",
+        "Design the architecture for Netflix on an automotive platform",
+        "How would you approach quality assurance for partner implementations?",
+        "Design a solution for Netflix delivery in a region with challenging network infrastructure",
+        "How would you handle DRM requirements across different device platforms?",
+        "Design the partner portal for device certification and testing",
+        "How would you approach Netflix integration with voice assistants?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex technical solution you designed for a partner",
+        "Describe navigating a difficult partner relationship",
+        "How have you handled technical constraints that limited your solution?",
+        "Tell me about explaining complex technology to non-technical partners",
+        "Describe a partnership integration that didn't go as planned",
+        "How have you balanced Netflix requirements with partner limitations?",
+        "Tell me about influencing a partner's technical decisions",
+        "Describe managing expectations when timelines were at risk",
+        "How have you handled disagreements with internal engineering teams?",
+        "Tell me about a creative solution to an unusual partner challenge",
+        "Describe building trust with a new partner organization",
+        "How have you stayed current with device and streaming technology?",
+        "Tell me about documentation or process you created to scale partnerships",
+        "Describe handling a production issue affecting partner devices",
+        "How have you prioritized across multiple partner engagements?"
+      ],
+      whatTheyLookFor: [
+        "Strong technical background in streaming, networking, or device platforms",
+        "Experience with technical partnerships and external relationships",
+        "Excellent communication skills for diverse technical audiences",
+        "Problem-solving ability for complex integration challenges",
+        "Understanding of video streaming and content delivery",
+        "Track record delivering technical solutions through partners",
+        "Ownership mentality aligned with Netflix culture",
+        "Ability to work autonomously on partner engagements",
+        "Experience with embedded systems or consumer electronics (helpful)",
+        "Global perspective for partnerships across regions"
+      ],
+      interviewTips: [
+        "Understand Netflix's device ecosystem and Open Connect CDN",
+        "Study streaming technology and video delivery challenges",
+        "Prepare examples of partner technical engagements",
+        "Practice explaining complex concepts to varied audiences",
+        "Research Netflix's partner certification and device requirements",
+        "Understand Netflix culture and prepare aligned examples",
+        "Be ready to role-play partner conversations",
+        "Prepare to discuss trade-offs in solution design",
+        "Show genuine interest in device technology and streaming",
+        "Understand global challenges in content delivery",
+        "Prepare questions about the partnerships team",
+        "Be ready to discuss managing external relationships",
+        "Show ability to influence without direct authority",
+        "Demonstrate patience and communication skills"
+      ],
+      salary: {
+        min: 180000,
+        max: 400000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $400,000 depending on level",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy based on impact",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Travel budget for partner engagements",
+        "Comprehensive health, dental, and vision benefits",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Solutions Architect at Netflix involves technical design work, partner engagement, and collaboration with internal engineering teams.",
+        schedule: [
+          "9:00 AM - Review partner support tickets and integration issues",
+          "9:30 AM - Call with Asian TV manufacturer on new integration",
+          "11:00 AM - Technical specification writing for partner requirements",
+          "12:00 PM - Lunch with internal engineering discussing partner needs",
+          "1:00 PM - Architecture review for ISP Open Connect deployment",
+          "2:30 PM - Partner certification testing and issue resolution",
+          "3:30 PM - Cross-functional sync on upcoming partner launches",
+          "4:30 PM - Research on emerging device platforms and technologies",
+          "5:30 PM - Documentation and email follow-up with partners"
+        ],
+        closing: "Netflix Solutions Architects enjoy the unique challenge of ensuring excellent streaming experiences across thousands of devices and partnerships worldwide."
+      },
+      similarRoles: ["Software Engineer", "Site Reliability Engineer", "Technical Program Manager", "Partner Engineer"]
     }
   },
-
   'uber': {
     'software-engineer': {
       roleDescription: "Software Engineers at Uber build the technology that powers one of the world's largest mobility and delivery platforms, serving millions of riders, drivers, and eaters globally. You'll work on challenging problems in marketplace matching, real-time systems, mapping, payments, and logistics at massive scale. Uber values bold innovation, customer obsession, and moving fast.",
@@ -21996,449 +23515,1818 @@ export const rolePageContent = {
 
   'salesforce': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Salesforce build the world's leading CRM platform and cloud-based enterprise software, serving hundreds of thousands of businesses globally. You'll work on challenging problems in multi-tenant architecture, enterprise SaaS, AI/ML integration, and scalable cloud infrastructure. Salesforce values Ohana (family), trust, customer success, and equality.",
-
+      roleDescription: "Software Engineers at Salesforce build the world's #1 CRM platform and enterprise cloud applications serving over 150,000 companies worldwide. You'll work on multi-tenant architecture at massive scale, developing products across Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, and the core Salesforce Platform. The company's Ohana (family) culture emphasizes trust, customer success, innovation, and equality—values that permeate everything from product decisions to community engagement. Salesforce pioneered cloud computing and SaaS, and continues to lead with innovations like Einstein AI, Agentforce autonomous agents, and Data Cloud. Engineers work in collaborative teams with significant autonomy, contributing to products that help businesses of all sizes connect with their customers in entirely new ways. The 1-1-1 philanthropic model means 1% of equity, 1% of employee time, and 1% of product go to community initiatives, making Salesforce a leader in stakeholder capitalism.",
       responsibilities: [
-        "Build and maintain Salesforce's CRM platform and enterprise cloud applications",
-        "Design multi-tenant architecture for scalable SaaS products",
-        "Develop features for Sales Cloud, Service Cloud, Marketing Cloud, or platform tools",
+        "Design and build scalable multi-tenant architecture for enterprise SaaS products",
+        "Develop features for Salesforce's cloud products (Sales, Service, Marketing, Commerce)",
         "Ensure security, reliability, and performance for enterprise customers",
-        "Collaborate with product, UX, and customer success teams"
+        "Build APIs and integrations enabling the Salesforce ecosystem",
+        "Collaborate with product, UX, and customer success teams on features",
+        "Participate in code reviews ensuring quality and security standards",
+        "Contribute to platform infrastructure serving billions of transactions daily",
+        "Work on AI/ML features through Einstein and Agentforce platforms",
+        "Engage with customers through feedback sessions and Dreamforce"
       ],
-
       growthOpportunities: [
-        "Work on technology serving hundreds of thousands of businesses globally",
-        "Strong focus on innovation with AI, automation, and cloud technologies",
-        "Ohana culture emphasizing community, equality, and social impact",
-        "Competitive compensation with strong benefits and equity",
-        "Career growth with clear technical and leadership tracks"
+        "Work on technology serving 150,000+ companies and millions of users",
+        "Contribute to industry-leading AI innovations (Einstein, Agentforce, Data Cloud)",
+        "Strong Ohana culture emphasizing community and work-life balance",
+        "Clear technical career ladder from MTS to Principal Architect",
+        "Competitive compensation with strong equity and benefits",
+        "1-1-1 model providing paid volunteer time and giving opportunities",
+        "Access to Trailhead learning platform and certification support",
+        "Work across diverse product areas from CRM to AI to infrastructure"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your background, interest in Salesforce's mission, and role fit. Overview of Ohana culture.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of background, interest in Salesforce, and alignment with Ohana values"
         },
         {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Coding interview covering algorithms, data structures, and problem-solving. May include OOP and system design discussion.",
-          duration: "45-60 minutes"
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Coding interview covering algorithms, data structures, and problem-solving"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Multiple interviews including coding (2 rounds), system design, and behavioral/cultural fit. Focus on Salesforce values.",
-          duration: "4-5 hours"
+          stage: "Onsite - Coding Round 1",
+          duration: "45 minutes",
+          description: "Algorithm and data structure problems with emphasis on code quality"
         },
         {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with potential teams to find the best fit for your skills and interests.",
-          duration: "Varies"
+          stage: "Onsite - Coding Round 2",
+          duration: "45 minutes",
+          description: "Second coding round, often OOP design or practical problem"
+        },
+        {
+          stage: "Onsite - System Design",
+          duration: "45 minutes",
+          description: "Design a multi-tenant system or enterprise SaaS architecture"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview focused on Salesforce values and Ohana culture fit"
         }
       ],
-
       technicalQuestions: [
-        "Design Salesforce's multi-tenant architecture",
-        "Implement a permission system for enterprise users",
-        "Design the data model for a CRM contact management system",
-        "How would you ensure data isolation in a multi-tenant system?",
-        "Design Salesforce's workflow automation engine",
-        "Implement role-based access control (RBAC) for organizations",
-        "Design the reporting and analytics system for Salesforce",
-        "How would you handle schema migrations in a multi-tenant database?",
-        "Design Salesforce's API rate limiting system",
-        "Implement a custom object framework for users to extend Salesforce"
+        "Design Salesforce's multi-tenant architecture for 150K+ customers",
+        "How would you implement data isolation in a shared database model?",
+        "Design the workflow automation engine for Sales Cloud",
+        "How would you build a permission system for enterprise organizations?",
+        "Design the API gateway handling billions of daily requests",
+        "How would you implement custom objects allowing users to extend Salesforce?",
+        "Design the reporting and analytics system for enterprise dashboards",
+        "How would you handle schema migrations across 150K customer orgs?",
+        "Design the real-time sync between Salesforce and external systems",
+        "How would you implement Einstein AI recommendations at scale?",
+        "Design the AppExchange marketplace architecture",
+        "How would you build governor limits to ensure fair resource usage?",
+        "Design the mobile offline sync for Salesforce Mobile",
+        "How would you implement record-level security in a multi-tenant system?",
+        "Design the platform event system for real-time integrations"
       ],
-
       behavioralQuestions: [
-        "Tell me about a time when you demonstrated trust and integrity",
-        "Describe a situation where you championed equality or diversity",
-        "How have you embodied customer success in your work?",
-        "Tell me about a time when you contributed to your team's Ohana",
-        "Describe a project where you had to balance innovation with reliability",
-        "How do you approach working with enterprise customers?",
-        "Tell me about a time when you gave back to your community",
-        "Describe how you've collaborated across distributed teams"
+        "Tell me about a time you demonstrated trust and integrity in your work",
+        "Describe a situation where you championed customer success",
+        "How have you contributed to equality and inclusion on your team?",
+        "Tell me about building something that had significant business impact",
+        "Describe a time you collaborated across teams to solve a problem",
+        "How have you balanced innovation with reliability requirements?",
+        "Tell me about giving back to your community or mentoring others",
+        "Describe a situation where you had to make a difficult technical trade-off",
+        "How have you worked with enterprise customers to understand their needs?",
+        "Tell me about a time you improved a process or system significantly",
+        "Describe how you've contributed to team culture and collaboration",
+        "How have you handled disagreement with a colleague or manager?",
+        "Tell me about learning a new technology to solve a problem",
+        "Describe a project where you had to balance multiple stakeholder needs",
+        "How have you demonstrated innovation in your work?"
       ],
-
       whatTheyLookFor: [
-        "Strong coding skills with enterprise software development experience",
+        "Strong coding skills with Java, Python, or JavaScript experience",
         "Understanding of multi-tenant architecture and SaaS principles",
         "Alignment with Salesforce values: Trust, Customer Success, Innovation, Equality",
-        "Experience with cloud platforms, distributed systems, or enterprise software",
-        "Customer-first mindset with focus on business impact",
-        "Collaborative approach across product, engineering, and customer success",
-        "Commitment to diversity, equality, and social responsibility",
-        "Passion for building products that empower businesses"
+        "Experience with cloud platforms and distributed systems",
+        "Customer-first mindset focused on business impact",
+        "Collaborative approach working across teams and functions",
+        "Commitment to diversity, equality, and inclusion",
+        "Passion for building products that transform how businesses operate",
+        "Strong communication skills for cross-functional work",
+        "Track record of delivering reliable, scalable software"
       ],
-
       interviewTips: [
-        "Use Salesforce products - understand CRM, Sales Cloud, and platform capabilities",
-        "Study Salesforce's Ohana culture and core values deeply",
+        "Use Salesforce products and understand the platform ecosystem",
+        "Study Ohana culture and Salesforce's core values deeply",
         "Prepare examples demonstrating trust, customer success, and equality",
-        "Understand enterprise SaaS and multi-tenant architecture concepts",
-        "Show customer empathy and business impact orientation",
-        "Research Salesforce's technology blog and innovation initiatives",
-        "Be ready to discuss scalability and enterprise requirements",
-        "Ask about the team's product area, culture, and social impact"
+        "Understand multi-tenant architecture and enterprise SaaS patterns",
+        "Research Salesforce's technology blog and engineering innovations",
+        "Be ready to discuss scalability for enterprise customers",
+        "Show genuine interest in helping businesses succeed",
+        "Prepare questions about team culture and social impact initiatives",
+        "Understand Einstein AI and how Salesforce approaches ML",
+        "Be authentic about your values and community involvement",
+        "Practice system design for B2B SaaS applications",
+        "Know Salesforce's competitive position and recent acquisitions",
+        "Prepare to discuss how you've handled enterprise requirements",
+        "Show enthusiasm for the 1-1-1 philanthropy model"
       ],
-
-      dayInLife: {
-        overview: "Salesforce engineers work in collaborative teams building enterprise cloud products with focus on customer success and innovation. Your day includes coding, design reviews, customer feedback sessions, and community engagement.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Team Standup",
-            description: "Daily sync with team on progress, blockers, and customer priorities"
-          },
-          {
-            time: "9:30 AM",
-            activity: "Feature Development",
-            description: "Build new automation workflow feature for Sales Cloud"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Customer Feedback Session",
-            description: "Review feedback from enterprise customers on new features"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Lunch & Volunteer Event",
-            description: "Team lunch followed by 1:1:1 volunteer activity planning"
-          },
-          {
-            time: "2:00 PM",
-            activity: "System Design Review",
-            description: "Architecture review for multi-tenant data storage optimization"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Code Review",
-            description: "Review pull requests with focus on security and scalability"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Cross-functional Sync",
-            description: "Meet with product and UX on enterprise customer requirements"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Innovation Time",
-            description: "Work on AI/ML integration for Einstein features"
-          }
-        ]
+      salary: {
+        min: 140000,
+        max: 280000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" }
-      ]
+      compensation: [
+        "Base salary range: $140,000 - $280,000 depending on level (MTS to Principal)",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Wellness reimbursement program",
+        "7 days paid volunteer time off (VTO) annually",
+        "Education reimbursement and certification support",
+        "Generous parental leave policy"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Software Engineer at Salesforce involves collaborative development, customer focus, and meaningful community engagement within the Ohana culture.",
+        schedule: [
+          "9:00 AM - Team standup discussing sprint progress and customer priorities",
+          "9:30 AM - Feature development for Sales Cloud automation workflow",
+          "11:00 AM - Architecture review for multi-tenant optimization",
+          "12:00 PM - Lunch with team, often discussing Dreamforce or community events",
+          "1:00 PM - Customer feedback session reviewing enterprise requirements",
+          "2:30 PM - Code review with focus on security and scalability",
+          "3:30 PM - Cross-functional sync with product and UX on upcoming features",
+          "4:30 PM - Innovation time exploring Einstein AI integration possibilities",
+          "5:30 PM - Volunteer planning for upcoming 1-1-1 community event"
+        ],
+        closing: "Salesforce engineers enjoy working on technology that transforms businesses while being part of a culture that genuinely values giving back and community impact."
+      },
+      similarRoles: ["Data Scientist", "Technical Architect", "DevOps Engineer", "AI/ML Engineer"]
     },
-
     'product-manager': {
-      roleDescription: "Product Managers at Salesforce define and execute product strategy for the world's #1 CRM platform and enterprise cloud applications. From Sales Cloud to AI-powered Einstein, you'll work on products serving hundreds of thousands of businesses globally. Salesforce PMs are known for customer obsession, strategic thinking, and commitment to the Ohana culture.",
-
+      roleDescription: "Product Managers at Salesforce define and execute product strategy for the world's #1 CRM platform, shaping how over 150,000 companies connect with their customers. You'll own products across Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, Einstein AI, Data Cloud, or Agentforce—each serving diverse customers from SMBs to Fortune 500 enterprises. Salesforce PMs are known for deep customer obsession, working directly with customers at events like Dreamforce and through ongoing feedback programs. The role requires balancing innovation with enterprise reliability, managing complex stakeholder ecosystems, and driving adoption across a vast partner network. PMs work within the Ohana culture, where trust, customer success, innovation, and equality guide every product decision. With Salesforce's leadership in AI through Einstein and Agentforce, PMs are at the forefront of defining how autonomous agents transform business processes.",
       responsibilities: [
-        "Define product vision and strategy for Salesforce's cloud products",
-        "Gather customer insights through research, feedback, and data analysis",
+        "Define product vision and strategy for Salesforce cloud products",
+        "Gather customer insights through research, Dreamforce, and ongoing feedback",
         "Prioritize features balancing customer needs, business goals, and technical feasibility",
-        "Collaborate with engineering, UX, customer success, and business teams",
-        "Ship products that drive customer success and business transformation"
+        "Partner with engineering, UX, and customer success to deliver products",
+        "Drive product adoption through enablement, documentation, and partner ecosystem",
+        "Define success metrics and measure product impact on customer success",
+        "Present roadmap and vision to customers, analysts, and at Dreamforce",
+        "Collaborate with AppExchange partners on ecosystem strategy",
+        "Guide AI/ML product features for Einstein and Agentforce"
       ],
-
       growthOpportunities: [
-        "Own products serving hundreds of thousands of businesses globally",
-        "Work on diverse product areas from CRM to AI to platform tools",
-        "Strong focus on customer success and business impact",
-        "Ohana culture with emphasis on community and social responsibility",
-        "Career growth into senior PM, VP, or leadership roles"
+        "Own products serving 150,000+ companies across all industries",
+        "Shape the future of AI in business through Einstein and Agentforce",
+        "Direct customer engagement at Dreamforce and throughout the year",
+        "Clear career path to Senior PM, Director, VP, and SVP roles",
+        "Work across diverse product areas from CRM to AI to platform",
+        "Strong Ohana culture with emphasis on work-life balance",
+        "Influence the Salesforce ecosystem of 10M+ developers and admins",
+        "Competitive compensation with equity participation"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your PM experience, interest in enterprise software, and role fit.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of PM background and alignment with Salesforce values"
         },
         {
-          step: 2,
-          title: "Hiring Manager Interview",
-          description: "Deep dive into product experience, strategic thinking, and customer focus.",
-          duration: "45-60 minutes"
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into product experience, strategic thinking, and customer focus"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering product design, strategy, analytics, execution, and values. Focus on customer success and Salesforce culture.",
-          duration: "4-5 hours"
+          stage: "Onsite - Product Sense",
+          duration: "45 minutes",
+          description: "Product design exercise for an enterprise SaaS problem"
         },
         {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with product teams to find the best fit.",
-          duration: "Varies"
+          stage: "Onsite - Analytical",
+          duration: "45 minutes",
+          description: "Data analysis and metrics definition for product decisions"
+        },
+        {
+          stage: "Onsite - Execution",
+          duration: "45 minutes",
+          description: "Discussion of shipping products and managing stakeholders"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and customer success"
         }
       ],
-
       technicalQuestions: [
-        "How would you improve Salesforce Sales Cloud for small businesses?",
-        "Design a new feature for customer service automation",
-        "Should Salesforce enter a new market vertical? How would you evaluate?",
-        "How would you measure success for Einstein AI features?",
-        "Design the mobile experience for Salesforce",
-        "How would you improve adoption of Salesforce platform features?",
-        "Should Salesforce build a new industry cloud? Walk through your analysis",
-        "Design a feature to reduce time-to-value for new customers",
-        "How would you improve the AppExchange marketplace?",
-        "Analyze declining engagement for a Salesforce product"
+        "How would you improve Sales Cloud for mid-market companies?",
+        "Design a new feature for AI-powered customer service automation",
+        "How would you measure success for Einstein AI recommendations?",
+        "Design the product strategy for Salesforce entering a new vertical",
+        "How would you improve adoption of Salesforce Platform features?",
+        "Design a feature reducing time-to-value for new customers",
+        "How would you approach building an Agentforce autonomous agent?",
+        "Design the mobile experience for field sales representatives",
+        "How would you improve the AppExchange partner experience?",
+        "Design features helping SMBs get started with Salesforce faster",
+        "How would you balance enterprise vs SMB customer needs?",
+        "Design the integration experience between Salesforce clouds",
+        "How would you measure and improve customer health scores?",
+        "Design a product addressing data quality challenges",
+        "How would you approach pricing for a new Salesforce feature?"
       ],
-
       behavioralQuestions: [
         "Tell me about a product that drove significant customer success",
-        "Describe a time when you had to balance multiple stakeholder needs",
-        "How have you championed equality or diversity in product decisions?",
-        "Tell me about a time when you used customer feedback to change direction",
-        "Describe a situation where you had to influence without authority",
-        "How do you prioritize between enterprise and SMB customer needs?",
-        "Tell me about a time when you demonstrated trust and integrity",
-        "Describe how you've collaborated with customer success teams"
+        "Describe balancing conflicting stakeholder needs",
+        "How have you championed equality in product decisions?",
+        "Tell me about using customer feedback to change product direction",
+        "Describe influencing engineering without direct authority",
+        "How do you prioritize between enterprise and SMB customers?",
+        "Tell me about demonstrating trust and integrity as a PM",
+        "Describe collaborating with customer success on product adoption",
+        "How have you worked with partners to extend your product?",
+        "Tell me about a product launch that didn't meet expectations",
+        "Describe presenting product vision to customers or analysts",
+        "How have you handled technical debt vs feature trade-offs?",
+        "Tell me about building consensus across a complex organization",
+        "Describe a time you advocated for a customer need internally",
+        "How have you contributed to Ohana culture on your team?"
       ],
-
       whatTheyLookFor: [
         "Strong customer obsession with enterprise software experience",
-        "Strategic thinking with execution excellence",
+        "Strategic thinking balanced with execution excellence",
+        "Deep understanding of CRM, SaaS, and enterprise business processes",
         "Analytical skills and data-driven decision making",
-        "Understanding of CRM, SaaS, and enterprise business processes",
         "Alignment with Salesforce values and Ohana culture",
-        "Excellent communication and stakeholder management",
-        "Technical depth to collaborate effectively with engineering",
-        "Passion for driving customer success and business transformation"
+        "Experience managing complex stakeholder ecosystems",
+        "Track record shipping products that drive customer success",
+        "Technical depth to partner effectively with engineering",
+        "Excellent communication and presentation skills",
+        "Passion for transforming how businesses connect with customers"
       ],
-
       interviewTips: [
-        "Use Salesforce products extensively - understand the platform and ecosystem",
-        "Study Salesforce's Ohana culture and values (Trust, Customer Success, Innovation, Equality)",
-        "Prepare examples showing customer obsession and business impact",
-        "Understand enterprise software dynamics and CRM market",
-        "Bring data and metrics to support product decisions",
-        "Research Salesforce's product strategy and recent innovations",
-        "Show empathy for both enterprise and SMB customers",
-        "Ask about the team's product area, customer base, and roadmap"
+        "Use Salesforce products extensively—become a power user",
+        "Study Ohana culture and Salesforce's four core values",
+        "Prepare customer success stories with measurable impact",
+        "Understand the Salesforce ecosystem including AppExchange",
+        "Research recent Dreamforce announcements and product direction",
+        "Be ready to discuss enterprise vs SMB market dynamics",
+        "Prepare examples of stakeholder management in complex orgs",
+        "Show genuine passion for customer success and business transformation",
+        "Understand Einstein AI, Data Cloud, and Agentforce capabilities",
+        "Be ready to discuss the competitive landscape (Microsoft, Oracle, etc.)",
+        "Prepare thoughtful questions about the team and product area",
+        "Show how you balance innovation with enterprise reliability",
+        "Understand Salesforce's partner and ISV ecosystem",
+        "Be authentic about your values and community involvement"
       ],
-
-      dayInLife: {
-        overview: "Salesforce PMs balance customer research, data analysis, strategic planning, and cross-functional collaboration. Your day includes customer calls, design reviews, engineering syncs, and community engagement.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Metrics Review",
-            description: "Analyze product adoption, usage, and customer success metrics"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Customer Interviews",
-            description: "Calls with enterprise customers about their business challenges"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Engineering Sync",
-            description: "Sprint planning with engineering team on new features"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Lunch & Ohana Time",
-            description: "Team lunch discussing community initiatives"
-          },
-          {
-            time: "1:30 PM",
-            activity: "UX Collaboration",
-            description: "Design review for new automation workflow UI"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Data Analysis",
-            description: "Analyze feature adoption and conversion funnels"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Strategy Meeting",
-            description: "Quarterly planning with leadership on product roadmap"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Customer Success Sync",
-            description: "Align with CS team on enterprise customer feedback"
-          }
-        ]
+      salary: {
+        min: 150000,
+        max: 320000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
-      ]
+      compensation: [
+        "Base salary range: $150,000 - $320,000 depending on level",
+        "Annual bonus typically 15-25% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Wellness reimbursement program",
+        "7 days paid volunteer time off annually",
+        "Attendance at Dreamforce and customer events",
+        "Education and certification reimbursement"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Product Manager at Salesforce involves customer engagement, strategic thinking, and cross-functional collaboration within the Ohana culture.",
+        schedule: [
+          "9:00 AM - Review product metrics and customer health dashboards",
+          "9:30 AM - Customer call discussing their business challenges and needs",
+          "10:30 AM - Engineering sync on sprint priorities and technical decisions",
+          "11:30 AM - UX review for upcoming feature designs",
+          "12:30 PM - Lunch with customer success team discussing adoption trends",
+          "1:30 PM - Roadmap planning session with product leadership",
+          "3:00 PM - Partner meeting with AppExchange ISV on integration",
+          "4:00 PM - Prepare customer presentation for upcoming event",
+          "5:00 PM - Analyst briefing on new AI capabilities"
+        ],
+        closing: "Salesforce PMs enjoy direct customer engagement and the opportunity to shape products that genuinely transform how businesses operate and connect with their customers."
+      },
+      similarRoles: ["Software Engineer", "UX Designer", "Customer Success Manager", "Solution Engineer"]
     },
-
     'engineering-manager': {
-      roleDescription: "Engineering Managers at Salesforce lead teams building enterprise cloud products that transform how businesses connect with customers. You'll balance technical leadership with people management, drive product execution, and foster the Ohana culture. EMs at Salesforce typically manage teams of 6-10 engineers working on CRM, platform, or cloud infrastructure.",
-
+      roleDescription: "Engineering Managers at Salesforce lead teams building enterprise cloud products that transform how over 150,000 companies connect with their customers. You'll manage teams of 6-12 engineers working on Sales Cloud, Service Cloud, Platform, Einstein AI, or core infrastructure, balancing technical leadership with people development. Salesforce EMs are expected to maintain technical credibility while fostering the Ohana culture—building inclusive teams where everyone belongs. The company's commitment to equality means EMs actively champion diversity in hiring and development. You'll partner closely with product and design while ensuring your team delivers reliable, scalable enterprise software. Salesforce's clear leveling system provides growth paths for both managers and individual contributors, and the 1-1-1 philanthropic model means you'll also lead your team's community engagement and volunteer initiatives.",
       responsibilities: [
-        "Lead and mentor a team of 6-10 engineers on cloud products or platform systems",
-        "Set technical direction and ensure quality for enterprise-grade software",
-        "Drive product execution in partnership with PM and UX",
-        "Hire exceptional talent and develop career growth plans",
-        "Foster Salesforce's Ohana culture and commitment to equality"
+        "Lead and develop a team of 6-12 software engineers",
+        "Set technical direction ensuring enterprise-grade quality and reliability",
+        "Drive product execution partnering with PM and UX",
+        "Hire diverse talent and develop inclusive team culture",
+        "Foster Ohana culture and commitment to equality",
+        "Manage performance through continuous feedback and coaching",
+        "Balance technical debt with feature development velocity",
+        "Ensure team engagement with customer success and feedback",
+        "Lead team's 1-1-1 volunteer and community initiatives",
+        "Represent engineering in cross-functional planning and strategy"
       ],
-
       growthOpportunities: [
-        "Lead teams building products for hundreds of thousands of businesses",
-        "Strong emphasis on leadership development and Ohana culture",
-        "Clear path to senior leadership roles (Senior EM, Director, VP)",
-        "Work on diverse product areas from CRM to AI to platform",
-        "Competitive compensation with strong benefits and equity"
+        "Lead teams building products serving 150,000+ companies",
+        "Strong emphasis on leadership development and Ohana values",
+        "Clear path to Senior EM, Director, VP, and SVP roles",
+        "Work across diverse product areas from CRM to AI to infrastructure",
+        "Competitive compensation with meaningful equity participation",
+        "1-1-1 model providing leadership opportunities in community",
+        "Access to executive coaching and leadership programs",
+        "Influence engineering culture at a market-leading company"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of management experience, technical background, and alignment with Salesforce values.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of management experience and alignment with Ohana values"
         },
         {
-          step: 2,
-          title: "Hiring Manager Interview",
-          description: "Deep dive into leadership philosophy, technical credibility, and people management approach.",
-          duration: "60 minutes"
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into leadership philosophy and people management approach"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering technical leadership, people management, system design, and values. Focus on Ohana culture and customer success.",
-          duration: "4-5 hours"
+          stage: "Onsite - Technical Leadership",
+          duration: "45 minutes",
+          description: "System design demonstrating technical credibility"
         },
         {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with teams to find the best fit.",
-          duration: "Varies"
+          stage: "Onsite - People Management",
+          duration: "45 minutes",
+          description: "Scenarios covering hiring, development, and performance management"
+        },
+        {
+          stage: "Onsite - Execution",
+          duration: "45 minutes",
+          description: "Discussion of delivering projects and managing cross-functional work"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Deep assessment of Salesforce values alignment and inclusive leadership"
         }
       ],
-
       technicalQuestions: [
-        "Design the architecture for Salesforce's multi-tenant CRM system",
-        "How would you improve scalability for enterprise customers?",
-        "Your team is behind on a critical customer-facing feature - how do you recover?",
-        "Design the infrastructure for Salesforce's AI/Einstein platform",
+        "Design the architecture for Salesforce's multi-tenant platform",
+        "How would you improve reliability for enterprise customers?",
+        "Your team is behind on a critical feature—how do you recover?",
+        "Design the scaling strategy for Einstein AI inference at scale",
         "How do you balance technical debt with new feature development?",
-        "Walk through scaling a SaaS product from 10K to 100K customers",
-        "Your team has a production incident affecting enterprise customers - how do you respond?",
-        "Design the testing strategy for multi-tenant applications",
-        "How would you architect Salesforce's integration platform?",
-        "Design monitoring and alerting for enterprise SaaS reliability"
+        "Walk through scaling a team from 6 to 12 engineers",
+        "Your team has a P1 incident affecting customers—how do you respond?",
+        "Design the testing strategy for enterprise SaaS reliability",
+        "How would you approach a major platform migration with your team?",
+        "Design the monitoring and alerting strategy for your services",
+        "How do you ensure security in a multi-tenant environment?",
+        "Walk through building a new team for a greenfield product",
+        "How would you improve developer productivity for your team?",
+        "Design the CI/CD pipeline for enterprise deployments"
       ],
-
       behavioralQuestions: [
-        "Tell me about a time when you built a diverse and inclusive team",
-        "Describe a situation where you had to manage a performance issue",
-        "How have you embodied the Ohana culture as a leader?",
-        "Tell me about a time when you championed customer success",
-        "Describe a conflict between team members and resolution",
-        "How do you foster trust and integrity in your team?",
-        "Tell me about a time when you had to deliver difficult feedback",
-        "Describe how you've mentored engineers from diverse backgrounds"
+        "Tell me about building a diverse and inclusive team",
+        "Describe managing a performance issue with empathy",
+        "How have you embodied Ohana culture as a leader?",
+        "Tell me about championing customer success with your team",
+        "Describe resolving a conflict between team members",
+        "How do you foster trust and psychological safety?",
+        "Tell me about delivering difficult feedback effectively",
+        "Describe mentoring engineers from underrepresented backgrounds",
+        "How have you handled a team member leaving for a competitor?",
+        "Tell me about a hiring mistake and what you learned",
+        "Describe leading your team through organizational change",
+        "How do you balance being hands-on with delegation?",
+        "Tell me about developing an engineer's career significantly",
+        "Describe leading a 1-1-1 volunteer initiative with your team",
+        "How have you handled burnout on your team?"
       ],
-
       whatTheyLookFor: [
-        "Strong technical credibility with enterprise software or SaaS experience",
+        "Strong technical credibility with enterprise software experience",
         "People management experience leading teams of 5+ engineers",
-        "Commitment to diversity, equality, and inclusive culture",
-        "Track record of shipping reliable enterprise products",
-        "Customer-first mindset with focus on business success",
-        "Excellent communication and collaboration skills",
-        "Experience with multi-tenant architecture, cloud platforms, or distributed systems",
-        "Passion for building teams and empowering others"
+        "Commitment to diversity, equality, and inclusive leadership",
+        "Track record shipping reliable enterprise products",
+        "Alignment with Salesforce values and Ohana culture",
+        "Customer-first mindset focused on business success",
+        "Experience with multi-tenant architecture or cloud platforms",
+        "Excellence in hiring, developing, and retaining talent",
+        "Strong communication and stakeholder management skills",
+        "Passion for building high-performing, inclusive teams"
       ],
-
       interviewTips: [
         "Prepare examples of building diverse, inclusive teams",
-        "Demonstrate technical depth in enterprise software and cloud platforms",
-        "Show alignment with Salesforce's Ohana culture and values",
+        "Demonstrate technical depth in enterprise software",
+        "Show deep alignment with Ohana culture and values",
         "Emphasize customer success and business impact",
-        "Be ready to discuss hiring, performance management, and team development",
-        "Understand Salesforce's products and technical challenges",
-        "Prepare examples of fostering trust and community in teams",
-        "Ask about the team's mission, culture, and social impact initiatives"
+        "Prepare specific examples of people development",
+        "Be ready to discuss performance management approaches",
+        "Understand Salesforce's products and engineering challenges",
+        "Show how you've championed equality in hiring and promotion",
+        "Prepare examples of leading through change and ambiguity",
+        "Be authentic about your leadership style and values",
+        "Ask about team culture and 1-1-1 initiatives",
+        "Show passion for developing engineers' careers",
+        "Understand Salesforce's leveling and growth framework",
+        "Prepare questions about the team's challenges and roadmap"
       ],
-
-      dayInLife: {
-        overview: "Salesforce Engineering Managers balance technical leadership, people development, and Ohana culture. Your day includes 1-on-1s, technical reviews, customer success collaboration, and community engagement.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "System Health Review",
-            description: "Review platform health, customer success metrics, and incidents"
-          },
-          {
-            time: "9:30 AM",
-            activity: "1-on-1 Meetings",
-            description: "Career development and coaching conversations with engineers"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Technical Design Review",
-            description: "Review architecture for new Einstein AI feature"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Ohana Lunch",
-            description: "Team lunch discussing volunteer and community initiatives"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Code Review",
-            description: "Review critical pull requests for enterprise features"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Product Planning",
-            description: "Quarterly planning with PM on customer-driven roadmap"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Diversity & Inclusion",
-            description: "Participate in ERG meeting and diversity initiatives"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Customer Success Sync",
-            description: "Align with CS team on enterprise customer technical needs"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Technical Strategy",
-            description: "Plan platform evolution and architecture improvements"
-          }
-        ]
+      salary: {
+        min: 200000,
+        max: 380000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
-      ]
+      compensation: [
+        "Base salary range: $200,000 - $380,000 depending on level and scope",
+        "Annual bonus typically 15-25% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Executive health benefits at senior levels",
+        "Wellness reimbursement program",
+        "7 days paid volunteer time off annually",
+        "Leadership development and executive coaching",
+        "Attendance at internal leadership summits"
+      ],
+      dayInLife: {
+        intro: "A typical day as an Engineering Manager at Salesforce involves people leadership, technical guidance, and fostering Ohana culture across your team.",
+        schedule: [
+          "9:00 AM - Review team metrics and customer escalation queue",
+          "9:30 AM - 1:1 with senior engineer on career development",
+          "10:00 AM - Team standup and sprint health check",
+          "10:30 AM - Architecture review for multi-tenant optimization",
+          "11:30 AM - Interview candidate for open position",
+          "12:30 PM - Lunch with product manager discussing roadmap",
+          "1:30 PM - Cross-functional sync with UX and customer success",
+          "2:30 PM - 1:1 with engineer working through performance goals",
+          "3:30 PM - Manager peer group discussing people challenges",
+          "4:30 PM - Planning team's quarterly volunteer initiative"
+        ],
+        closing: "Salesforce Engineering Managers enjoy building high-performing teams while making a genuine impact on both customer success and community through the Ohana culture."
+      },
+      similarRoles: ["Software Engineer", "Technical Architect", "Director of Engineering", "Product Manager"]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Salesforce leverage data to drive product decisions, optimize customer experiences, and build the AI/ML capabilities that power Einstein and Agentforce. You'll work with massive datasets from over 150,000 companies, developing insights that shape product strategy and building models that serve billions of predictions daily. The Product Data Science team partners directly with engineering and product to make Salesforce smarter and more valuable for customers. Strategic Data Scientists work on business-critical analyses informing executive decisions about market strategy, pricing, and growth. Whether you're building recommendation systems for Einstein, developing autonomous agent capabilities for Agentforce, or analyzing product usage to improve customer success, you'll have access to rich data at unprecedented enterprise scale. Salesforce's commitment to responsible AI means data scientists also work on fairness, explainability, and ethical AI practices.",
+      responsibilities: [
+        "Build predictive models and advanced algorithms for Salesforce products",
+        "Partner with product and engineering on data-driven decision making",
+        "Design and analyze A/B experiments measuring product impact",
+        "Develop machine learning models for Einstein and Agentforce features",
+        "Create dashboards and analytics enabling self-service insights",
+        "Conduct strategic analyses informing business and product decisions",
+        "Define success metrics and measurement frameworks for products",
+        "Work on responsible AI including fairness and explainability",
+        "Communicate findings to executives and cross-functional partners"
+      ],
+      growthOpportunities: [
+        "Work with data from 150,000+ companies across all industries",
+        "Build ML models powering Einstein AI and Agentforce autonomous agents",
+        "Direct impact on product strategy and business decisions",
+        "Clear career path from IC to Staff, Principal, and Director",
+        "Work on cutting-edge AI including large language models",
+        "Strong Ohana culture with work-life balance emphasis",
+        "Competitive compensation with meaningful equity",
+        "Access to Salesforce's massive data and compute infrastructure"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of data science background and Salesforce values alignment"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Statistics, ML fundamentals, and analytical problem-solving"
+        },
+        {
+          stage: "Onsite - ML/Statistics",
+          duration: "45 minutes",
+          description: "Deep dive into machine learning algorithms and statistical methods"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "SQL and Python coding for data manipulation and analysis"
+        },
+        {
+          stage: "Onsite - Case Study",
+          duration: "60 minutes",
+          description: "Work through a product or business analytics problem"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and collaboration"
+        }
+      ],
+      technicalQuestions: [
+        "Design a recommendation system for Einstein Sales Cloud insights",
+        "How would you build a lead scoring model for enterprise customers?",
+        "Design an experiment measuring impact of a new AI feature",
+        "How would you predict customer churn for Salesforce subscribers?",
+        "Build a model for optimal next-best-action in Service Cloud",
+        "How would you measure the ROI of Einstein AI features?",
+        "Design the analytics for Agentforce autonomous agent performance",
+        "How would you handle class imbalance in enterprise datasets?",
+        "Build a model for forecasting enterprise deal outcomes",
+        "How would you ensure fairness in AI recommendations?",
+        "Design a system for real-time personalization at scale",
+        "How would you measure product adoption and engagement?",
+        "Build a model for identifying expansion opportunities",
+        "How would you approach causal inference for product decisions?",
+        "Design the metrics framework for a new Salesforce product"
+      ],
+      behavioralQuestions: [
+        "Tell me about an analysis that significantly influenced a decision",
+        "Describe communicating complex findings to non-technical stakeholders",
+        "How have you balanced model complexity with business needs?",
+        "Tell me about debugging an ML model in production",
+        "Describe a project where you had to be scrappy with limited data",
+        "How have you handled disagreement about methodology?",
+        "Tell me about building relationships with product partners",
+        "Describe ensuring responsible AI in your work",
+        "How have you prioritized across multiple analytical requests?",
+        "Tell me about a model that didn't work as expected",
+        "Describe mentoring others on data science best practices",
+        "How have you stayed current with ML research?",
+        "Tell me about working with engineering to deploy a model",
+        "Describe balancing exploration with delivering results",
+        "How have you contributed to team culture and Ohana values?"
+      ],
+      whatTheyLookFor: [
+        "Strong ML and statistics fundamentals with practical experience",
+        "SQL and Python proficiency for data analysis",
+        "Experience building models for production deployment",
+        "Track record translating data into business insights",
+        "Excellent communication skills for diverse audiences",
+        "Alignment with Salesforce values and Ohana culture",
+        "Experience with A/B testing and experimentation",
+        "Understanding of enterprise software and SaaS metrics",
+        "Passion for customer success and business impact",
+        "Collaborative approach to working with product and engineering"
+      ],
+      interviewTips: [
+        "Prepare to discuss ML algorithms in depth—both theory and practice",
+        "Practice SQL and Python coding for data problems",
+        "Have examples of analyses that drove business decisions",
+        "Understand Salesforce products and how AI enhances them",
+        "Be ready to discuss experimentation and causal inference",
+        "Study Einstein AI and Agentforce capabilities",
+        "Prepare case study approaches for product analytics",
+        "Show genuine interest in enterprise software challenges",
+        "Understand responsible AI and fairness considerations",
+        "Be ready to explain complex concepts simply",
+        "Prepare examples of cross-functional collaboration",
+        "Show alignment with Ohana culture and values",
+        "Understand the Salesforce data ecosystem",
+        "Prepare thoughtful questions about the team's work"
+      ],
+      salary: {
+        min: 150000,
+        max: 320000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $150,000 - $320,000 depending on level",
+        "Annual bonus typically 10-20% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Wellness reimbursement program",
+        "7 days paid volunteer time off annually",
+        "Conference attendance and learning budget",
+        "Access to cloud compute resources for research"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Data Scientist at Salesforce involves analytical work, model development, and close collaboration with product and engineering partners.",
+        schedule: [
+          "9:00 AM - Review model performance dashboards and alerts",
+          "9:30 AM - Deep analysis on product adoption patterns",
+          "11:00 AM - Sync with product manager on upcoming experiment",
+          "12:00 PM - Lunch with data science team discussing ML approaches",
+          "1:00 PM - Model development for Einstein lead scoring",
+          "2:30 PM - Present analysis findings to product leadership",
+          "3:30 PM - Code review for teammate's production model",
+          "4:30 PM - Cross-functional planning for new AI feature",
+          "5:30 PM - Learning time—reviewing latest ML research papers"
+        ],
+        closing: "Salesforce Data Scientists enjoy the unique opportunity to work with rich enterprise data while building AI that genuinely helps businesses succeed."
+      },
+      similarRoles: ["Software Engineer", "AI/ML Engineer", "Product Manager", "Technical Architect"]
+    },
+    'technical-architect': {
+      roleDescription: "Technical Architects at Salesforce design and lead the delivery of complex enterprise solutions for Salesforce's most strategic customers. You'll architect solutions spanning multiple Salesforce clouds (Sales, Service, Marketing, Commerce, Experience), integrations with external systems, and customizations using Apex, Lightning Web Components, and Flow. The role sits at the intersection of technology and business, requiring deep technical expertise combined with consultative skills to translate customer requirements into scalable, performant architectures. Salesforce Technical Architects work across the customer lifecycle—from pre-sales solution design to implementation oversight and ongoing optimization. With Salesforce's continued investment in AI through Einstein and Agentforce, architects are increasingly designing solutions that incorporate intelligent automation and autonomous agents. The Certified Technical Architect (CTA) credential is one of the most prestigious in the Salesforce ecosystem, with demand for architects growing 1,292% over recent years.",
+      responsibilities: [
+        "Design scalable, secure Salesforce solutions for enterprise customers",
+        "Lead technical design sessions translating business requirements into architecture",
+        "Guide implementation teams on best practices and governance",
+        "Design integrations between Salesforce and external systems",
+        "Evaluate technical risks and develop mitigation strategies",
+        "Create architecture documentation and technical specifications",
+        "Partner with pre-sales on solution design for complex opportunities",
+        "Mentor developers and consultants on Salesforce architecture patterns",
+        "Stay current on Salesforce releases and incorporate new capabilities"
+      ],
+      growthOpportunities: [
+        "Work on complex solutions for Fortune 500 and strategic customers",
+        "Clear path to Certified Technical Architect (CTA) credential",
+        "Demand for architects growing 1,292% annually in ecosystem",
+        "Transition to customer-facing leadership or product roles",
+        "Work across all Salesforce clouds and emerging AI capabilities",
+        "High visibility role with direct customer and executive engagement",
+        "Competitive compensation among highest in Salesforce ecosystem",
+        "Global travel opportunities for customer engagements"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of architecture background and Salesforce experience"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into technical architecture experience and customer engagement"
+        },
+        {
+          stage: "Technical Architecture Review",
+          duration: "90 minutes",
+          description: "Present and defend a solution architecture you've designed"
+        },
+        {
+          stage: "Scenario-Based Design",
+          duration: "60 minutes",
+          description: "Design a multi-cloud Salesforce solution for a given scenario"
+        },
+        {
+          stage: "Stakeholder Management",
+          duration: "45 minutes",
+          description: "Role-play customer engagement demonstrating communication skills"
+        },
+        {
+          stage: "Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and customer success"
+        }
+      ],
+      technicalQuestions: [
+        "Design a multi-cloud Salesforce solution for a global retailer",
+        "How would you architect a high-volume Service Cloud implementation?",
+        "Design the integration architecture between Salesforce and SAP",
+        "How would you approach data migration for 50M+ records?",
+        "Design a solution handling 10K+ API calls per minute",
+        "How would you architect a B2B Commerce implementation?",
+        "Design the identity and access management strategy for SSO",
+        "How would you handle governor limits in a high-volume org?",
+        "Design a marketing automation solution across multiple business units",
+        "How would you architect an Einstein AI-enhanced service solution?",
+        "Design the release management strategy for a multi-team project",
+        "How would you approach performance optimization for a slow org?",
+        "Design a solution for complex CPQ (Configure-Price-Quote) requirements",
+        "How would you architect a customer 360 view across channels?",
+        "Design the disaster recovery strategy for a mission-critical implementation"
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex architecture you designed and delivered",
+        "Describe navigating conflicting requirements from stakeholders",
+        "How have you handled a technical decision that was challenged?",
+        "Tell me about coaching a customer on Salesforce best practices",
+        "Describe a solution that didn't go as planned and what you learned",
+        "How have you influenced a customer to change their approach?",
+        "Tell me about balancing innovation with enterprise stability",
+        "Describe working with offshore or distributed implementation teams",
+        "How have you handled scope creep in architecture engagements?",
+        "Tell me about explaining complex technical concepts to executives",
+        "Describe mentoring junior architects or developers",
+        "How have you stayed current with Salesforce's rapid release cycle?",
+        "Tell me about a creative solution to an unusual customer problem",
+        "Describe managing expectations when a solution had limitations",
+        "How have you contributed to customer success beyond the project?"
+      ],
+      whatTheyLookFor: [
+        "Deep Salesforce platform knowledge across multiple clouds",
+        "Experience designing enterprise-scale solutions",
+        "Strong understanding of integration patterns and middleware",
+        "Excellent communication skills for executive audiences",
+        "Track record of successful implementation delivery",
+        "Salesforce certifications (Platform Developer, Application Architect)",
+        "Customer-facing presence and consultative skills",
+        "Understanding of enterprise architecture principles",
+        "Alignment with Salesforce values and Ohana culture",
+        "Ability to mentor and lead technical teams"
+      ],
+      interviewTips: [
+        "Prepare to present and defend an architecture you've designed",
+        "Study multi-cloud solution patterns across Salesforce products",
+        "Be ready for scenario-based design exercises",
+        "Understand integration patterns (ETL, ESB, API-led)",
+        "Know Salesforce governor limits and optimization strategies",
+        "Prepare examples of customer stakeholder management",
+        "Study the CTA board review format even if not certified",
+        "Show balance of technical depth and business understanding",
+        "Understand Einstein AI and how it fits into solutions",
+        "Be ready to discuss trade-offs in architecture decisions",
+        "Know Salesforce's security model and compliance capabilities",
+        "Prepare questions about the customer portfolio and challenges",
+        "Show passion for customer success and Ohana values",
+        "Demonstrate continuous learning with Salesforce releases"
+      ],
+      salary: {
+        min: 180000,
+        max: 350000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $350,000 depending on level",
+        "Annual bonus typically 15-20% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Certification bonus for CTA achievement",
+        "Travel expenses for customer engagements",
+        "7 days paid volunteer time off annually",
+        "Conference attendance (Dreamforce, TrailheadDX)"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Technical Architect at Salesforce involves customer engagement, solution design, and technical leadership across complex projects.",
+        schedule: [
+          "8:30 AM - Review customer requirements documentation",
+          "9:00 AM - Solution design session with customer technical team",
+          "11:00 AM - Internal sync with delivery team on implementation approach",
+          "12:00 PM - Lunch with solution engineering discussing pre-sales opportunity",
+          "1:00 PM - Architecture review for multi-cloud integration design",
+          "2:30 PM - Customer executive presentation on proposed architecture",
+          "3:30 PM - Mentor junior consultant on integration patterns",
+          "4:30 PM - Document architecture decisions and rationale",
+          "5:30 PM - Review new Salesforce release features for customer impact"
+        ],
+        closing: "Salesforce Technical Architects enjoy the intellectual challenge of designing complex solutions while building lasting relationships with customers."
+      },
+      similarRoles: ["Solution Engineer", "Software Engineer", "Success Architect", "Engineering Manager"]
+    },
+    'solution-engineer': {
+      roleDescription: "Solution Engineers at Salesforce are the technical backbone of the sales organization, demonstrating how Salesforce products solve real business problems for prospective customers. You'll partner with Account Executives on strategic opportunities, delivering compelling product demonstrations, building proof-of-concept solutions, and designing architectures that address customer requirements. The role combines deep Salesforce technical knowledge with sales acumen—you're equally comfortable coding a custom demo as presenting to a C-suite audience. Solution Engineers work across the full Salesforce portfolio including Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, Einstein AI, and Agentforce. With Salesforce's focus on AI, SEs increasingly demonstrate how autonomous agents and intelligent automation transform business processes. The role offers a unique blend of technical work and customer engagement, with significant earning potential through the commission component.",
+      responsibilities: [
+        "Deliver product demonstrations tailored to customer business needs",
+        "Build proof-of-concept solutions for strategic opportunities",
+        "Design solution architectures addressing customer requirements",
+        "Partner with Account Executives throughout the sales cycle",
+        "Respond to RFPs and technical questions from prospects",
+        "Present Salesforce's vision and roadmap to customer executives",
+        "Conduct discovery sessions understanding customer pain points",
+        "Stay current on Salesforce products, competitors, and industry trends",
+        "Contribute to demo assets and best practices for the SE team"
+      ],
+      growthOpportunities: [
+        "High earning potential through base + commission structure",
+        "Work with Fortune 500 companies and strategic accounts",
+        "Clear path to Principal SE, SE Manager, or Solution Architect",
+        "Develop expertise across all Salesforce clouds and AI",
+        "Build lasting relationships with customers and executives",
+        "Travel opportunities for customer engagements and events",
+        "Strong Ohana culture with work-life balance focus",
+        "Transition paths to product, customer success, or leadership"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of SE background and Salesforce experience"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "45 minutes",
+          description: "Deep dive into sales engineering experience and customer engagement"
+        },
+        {
+          stage: "Demo Presentation",
+          duration: "60 minutes",
+          description: "Deliver a product demonstration to a mock customer scenario"
+        },
+        {
+          stage: "Technical Assessment",
+          duration: "45 minutes",
+          description: "Salesforce platform knowledge and solution design questions"
+        },
+        {
+          stage: "Cross-functional Interview",
+          duration: "45 minutes",
+          description: "Discussion with sales leadership on collaboration approach"
+        },
+        {
+          stage: "Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and customer success"
+        }
+      ],
+      technicalQuestions: [
+        "How would you demonstrate Sales Cloud value to a sales leader?",
+        "Design a solution for a customer with complex approval requirements",
+        "How would you position Salesforce against Microsoft Dynamics?",
+        "Demonstrate how Einstein AI improves sales productivity",
+        "Design a Service Cloud solution for an omnichannel contact center",
+        "How would you handle objections about Salesforce's pricing?",
+        "Demonstrate the value of Agentforce autonomous agents",
+        "Design a solution for a customer with Salesforce and SAP integration needs",
+        "How would you approach a technical evaluation against a competitor?",
+        "Demonstrate Marketing Cloud personalization capabilities",
+        "Design a B2B Commerce solution for a manufacturer",
+        "How would you position Data Cloud for customer 360 use cases?",
+        "Demonstrate Flow automation for a business process",
+        "Design a solution for a customer in a regulated industry",
+        "How would you scope a proof-of-concept for a complex opportunity?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a deal you helped win with a compelling demo",
+        "Describe handling technical objections from a skeptical customer",
+        "How have you partnered effectively with Account Executives?",
+        "Tell me about a proof-of-concept that exceeded expectations",
+        "Describe a situation where you had to deliver difficult news to a customer",
+        "How have you positioned Salesforce against competitors?",
+        "Tell me about tailoring a demo for different audience levels",
+        "Describe building relationships with customer technical teams",
+        "How have you handled a demo that didn't go as planned?",
+        "Tell me about staying current with Salesforce's rapid release cycle",
+        "Describe contributing to the broader SE team's success",
+        "How have you balanced multiple opportunities simultaneously?",
+        "Tell me about a creative solution you developed for a customer",
+        "Describe transitioning a customer from sales to implementation",
+        "How have you embodied Salesforce values in customer engagements?"
+      ],
+      whatTheyLookFor: [
+        "Strong Salesforce platform knowledge (Admin, Developer certifications)",
+        "Excellent presentation and demonstration skills",
+        "Ability to translate business needs into technical solutions",
+        "Sales acumen and understanding of enterprise sales cycles",
+        "Customer-facing presence with executive communication skills",
+        "Problem-solving ability for diverse customer scenarios",
+        "Collaborative approach working with sales and delivery teams",
+        "Alignment with Salesforce values and Ohana culture",
+        "Technical curiosity and continuous learning mindset",
+        "Resilience and positive attitude in competitive situations"
+      ],
+      interviewTips: [
+        "Prepare a polished demo that tells a compelling story",
+        "Practice handling common objections and competitor comparisons",
+        "Know Salesforce products across all clouds deeply",
+        "Be ready to design solutions live for customer scenarios",
+        "Understand enterprise sales cycles and SE's role in them",
+        "Show balance of technical expertise and business acumen",
+        "Prepare examples of customer success from your demos",
+        "Research Salesforce's competitive positioning",
+        "Understand Einstein AI, Data Cloud, and Agentforce",
+        "Be ready to discuss how you stay current with releases",
+        "Show genuine passion for helping customers succeed",
+        "Prepare questions about the territory and account focus",
+        "Demonstrate collaborative approach with sales partners",
+        "Show alignment with Ohana culture and values"
+      ],
+      salary: {
+        min: 140000,
+        max: 280000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $140,000 - $200,000 depending on level",
+        "On-target earnings (OTE) with commission: $200,000 - $350,000+",
+        "Commission tied to team and individual deal performance",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Travel and entertainment budget for customers",
+        "7 days paid volunteer time off annually",
+        "Presidents Club trips for top performers"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Solution Engineer at Salesforce involves customer demonstrations, solution design, and close partnership with the sales team.",
+        schedule: [
+          "8:30 AM - Prepare demo environment for morning customer presentation",
+          "9:30 AM - Customer demo presenting Service Cloud capabilities",
+          "11:00 AM - Debrief with Account Executive on demo feedback",
+          "12:00 PM - Lunch with SE team sharing demo best practices",
+          "1:00 PM - Discovery call understanding new prospect's requirements",
+          "2:30 PM - Build proof-of-concept solution for strategic opportunity",
+          "4:00 PM - Review RFP response with sales team",
+          "5:00 PM - Research customer's industry for upcoming presentation",
+          "5:30 PM - Update demo org with latest release features"
+        ],
+        closing: "Salesforce Solution Engineers enjoy the variety of customer engagements and the satisfaction of helping win deals that transform how businesses operate."
+      },
+      similarRoles: ["Technical Architect", "Customer Success Manager", "Product Manager", "Software Engineer"]
+    },
+    'customer-success-manager': {
+      roleDescription: "Customer Success Managers at Salesforce ensure customers achieve their business outcomes and maximize value from their Salesforce investment. You'll own a portfolio of enterprise accounts, building relationships from C-suite to end users, driving adoption, and identifying expansion opportunities. CSMs are trusted advisors who understand both the Salesforce platform and their customers' business challenges, connecting the two to deliver measurable results. The role sits at the intersection of relationship management, technical knowledge, and business consulting. With Salesforce's subscription model, customer success directly impacts revenue retention and growth—making CSMs critical to the company's success. You'll leverage Success Plans, adoption metrics, and business reviews to proactively identify risks and opportunities. Salesforce's Ohana culture extends to customers, and CSMs embody this by genuinely caring about their customers' success beyond just renewal metrics.",
+      responsibilities: [
+        "Own relationships with a portfolio of enterprise customer accounts",
+        "Develop Success Plans aligning Salesforce capabilities to business outcomes",
+        "Drive product adoption and usage across customer organizations",
+        "Conduct Executive Business Reviews demonstrating value and ROI",
+        "Identify and mitigate churn risks through proactive engagement",
+        "Partner with sales on expansion and cross-sell opportunities",
+        "Advocate for customers internally across product and support",
+        "Build relationships from executive sponsors to end users",
+        "Connect customers with resources (training, community, partners)"
+      ],
+      growthOpportunities: [
+        "Own strategic enterprise accounts with significant business impact",
+        "Clear path to Senior CSM, CSM Manager, and leadership roles",
+        "Develop expertise across industries and Salesforce products",
+        "Strong earning potential with expansion bonuses",
+        "Build lasting relationships with customer executives",
+        "Transition paths to sales, product, or consulting roles",
+        "Global travel opportunities for customer engagements",
+        "1-1-1 model providing community engagement opportunities"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of customer success background and Salesforce experience"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "45 minutes",
+          description: "Deep dive into account management and customer relationship experience"
+        },
+        {
+          stage: "Customer Scenario Role-Play",
+          duration: "60 minutes",
+          description: "Conduct a mock business review or handle a customer escalation"
+        },
+        {
+          stage: "Cross-functional Interview",
+          duration: "45 minutes",
+          description: "Discussion with sales and support partners on collaboration"
+        },
+        {
+          stage: "Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and customer obsession"
+        }
+      ],
+      technicalQuestions: [
+        "How would you measure and demonstrate ROI for a customer?",
+        "Design an adoption strategy for a new Sales Cloud implementation",
+        "How would you approach a customer with declining usage metrics?",
+        "Create a Success Plan for a customer expanding to Service Cloud",
+        "How would you handle a customer considering switching to a competitor?",
+        "Design an Executive Business Review for a strategic account",
+        "How would you identify expansion opportunities in your portfolio?",
+        "Approach for a customer struggling with user adoption",
+        "How would you prioritize across accounts with competing needs?",
+        "Design an enablement program for a customer's admin team",
+        "How would you leverage Einstein AI to demonstrate value?",
+        "Approach for escalating a critical customer issue internally",
+        "How would you build relationships across a customer organization?",
+        "Design a health score framework for your account portfolio",
+        "How would you prepare a customer for renewal conversations?"
+      ],
+      behavioralQuestions: [
+        "Tell me about turning around a customer relationship at risk",
+        "Describe demonstrating value that led to an expansion deal",
+        "How have you handled a customer escalation to executives?",
+        "Tell me about building a relationship with a difficult stakeholder",
+        "Describe advocating for a customer need internally",
+        "How have you balanced multiple demanding accounts?",
+        "Tell me about a customer success story you're proud of",
+        "Describe handling a situation where you couldn't meet expectations",
+        "How have you partnered with sales on expansion opportunities?",
+        "Tell me about coaching a customer on Salesforce best practices",
+        "Describe building executive relationships with C-suite sponsors",
+        "How have you used data to drive customer conversations?",
+        "Tell me about a creative solution for a customer challenge",
+        "Describe transitioning a customer through organizational change",
+        "How have you embodied Ohana values with your customers?"
+      ],
+      whatTheyLookFor: [
+        "Strong relationship-building and communication skills",
+        "Experience managing enterprise customer portfolios",
+        "Understanding of Salesforce platform and products",
+        "Business acumen to connect technology to outcomes",
+        "Track record of driving adoption and retention",
+        "Executive presence for C-suite engagement",
+        "Problem-solving ability for diverse customer challenges",
+        "Collaborative approach with sales and support partners",
+        "Alignment with Salesforce values and Ohana culture",
+        "Data-driven approach to customer health and success"
+      ],
+      interviewTips: [
+        "Prepare specific customer success stories with metrics",
+        "Practice conducting an Executive Business Review",
+        "Understand Salesforce's customer success methodology",
+        "Be ready to discuss portfolio management strategies",
+        "Know how to calculate and communicate customer ROI",
+        "Prepare for role-play scenarios with difficult customers",
+        "Show balance of relationship skills and business acumen",
+        "Understand Salesforce products at a functional level",
+        "Research the customer segment you'd be supporting",
+        "Be ready to discuss adoption and change management",
+        "Show genuine passion for customer success beyond metrics",
+        "Prepare questions about the portfolio and team structure",
+        "Demonstrate data-driven approach to account management",
+        "Show alignment with Ohana culture and values"
+      ],
+      salary: {
+        min: 120000,
+        max: 200000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $120,000 - $160,000 depending on level",
+        "Variable compensation for retention and expansion: $40,000 - $80,000",
+        "Total on-target earnings: $160,000 - $240,000",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Travel budget for customer visits",
+        "7 days paid volunteer time off annually",
+        "Customer success achievement awards"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Customer Success Manager at Salesforce involves customer engagement, strategic planning, and cross-functional collaboration.",
+        schedule: [
+          "8:30 AM - Review customer health scores and adoption metrics",
+          "9:00 AM - Preparation for Executive Business Review",
+          "10:00 AM - Executive Business Review with strategic customer",
+          "11:30 AM - Internal sync with Account Executive on expansion",
+          "12:30 PM - Lunch with fellow CSMs sharing best practices",
+          "1:30 PM - Customer call addressing adoption challenges",
+          "3:00 PM - Update Success Plans for portfolio accounts",
+          "4:00 PM - Partner with support on customer escalation",
+          "5:00 PM - Prepare for tomorrow's customer engagements"
+        ],
+        closing: "Salesforce Customer Success Managers enjoy building meaningful relationships while directly impacting how customers transform their businesses."
+      },
+      similarRoles: ["Solution Engineer", "Technical Architect", "Success Architect", "Product Manager"]
+    },
+    'ux-designer': {
+      roleDescription: "UX Designers at Salesforce craft the experiences that over 150,000 companies use to run their businesses. You'll design interfaces for enterprise products including Sales Cloud, Service Cloud, Marketing Cloud, and Platform—each used by millions of users daily for critical business processes. Salesforce UX challenges are unique: designing for diverse user personas from sales reps to service agents to administrators, creating consistency across a massive product suite, and balancing power with simplicity. The Salesforce Lightning Design System provides the foundation, but designers innovate within and extend it. With Salesforce's investment in AI through Einstein and Agentforce, designers increasingly shape how autonomous agents and intelligent automation integrate into workflows. The UX team works within the Ohana culture, emphasizing accessibility, inclusion, and designing for diverse global users. User research is integral—designers engage directly with customers through research programs and events like Dreamforce.",
+      responsibilities: [
+        "Design user experiences for enterprise Salesforce products",
+        "Conduct user research to understand customer needs and pain points",
+        "Create wireframes, prototypes, and high-fidelity designs",
+        "Contribute to and extend the Lightning Design System",
+        "Partner with product and engineering throughout development",
+        "Design for accessibility and inclusive experiences",
+        "Test designs with users and iterate based on feedback",
+        "Present design work to stakeholders and leadership",
+        "Collaborate with designers across the organization on patterns"
+      ],
+      growthOpportunities: [
+        "Design products used by millions of enterprise users daily",
+        "Shape the Lightning Design System influencing all Salesforce products",
+        "Work on AI-powered experiences with Einstein and Agentforce",
+        "Clear career path from Designer to Senior, Principal, and Director",
+        "Direct customer engagement through research and Dreamforce",
+        "Strong Ohana culture emphasizing work-life balance",
+        "Competitive compensation with meaningful equity",
+        "Influence enterprise UX across the industry"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of design background and Salesforce interest"
+        },
+        {
+          stage: "Portfolio Review",
+          duration: "60 minutes",
+          description: "Deep dive into portfolio work with hiring manager"
+        },
+        {
+          stage: "Design Exercise",
+          duration: "90-120 minutes",
+          description: "Design challenge for a Salesforce-relevant problem (often take-home)"
+        },
+        {
+          stage: "Design Presentation",
+          duration: "60 minutes",
+          description: "Present design exercise solution to design panel"
+        },
+        {
+          stage: "Cross-functional Interview",
+          duration: "45 minutes",
+          description: "Discussion with product and engineering partners"
+        },
+        {
+          stage: "Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and collaboration"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve the Sales Cloud opportunity detail page?",
+        "Design an AI assistant experience integrated into Salesforce",
+        "How would you approach designing for first-time Salesforce admins?",
+        "Design a mobile experience for field service technicians",
+        "How would you improve data visualization in Salesforce reports?",
+        "Design an onboarding experience for new Salesforce users",
+        "How would you approach accessibility for enterprise software?",
+        "Design an experience for managing AI agents in Agentforce",
+        "How would you design for consistency across Salesforce clouds?",
+        "Design a workflow builder for business users",
+        "How would you approach localization for global enterprise users?",
+        "Design an experience helping users recover from errors",
+        "How would you balance power-user needs with simplicity?",
+        "Design a dashboard customization experience",
+        "How would you improve discoverability of Salesforce features?"
+      ],
+      behavioralQuestions: [
+        "Walk me through a design project from research to launch",
+        "Tell me about designing for diverse user personas",
+        "Describe handling conflicting feedback from stakeholders",
+        "How have you advocated for user needs against business pressure?",
+        "Tell me about designing for accessibility",
+        "Describe collaborating with engineers on a complex feature",
+        "How have you influenced product direction through design?",
+        "Tell me about a design that didn't test well and what you learned",
+        "Describe contributing to a design system",
+        "How have you balanced speed with design quality?",
+        "Tell me about designing for enterprise vs consumer users",
+        "Describe presenting design to skeptical stakeholders",
+        "How have you incorporated user research into your process?",
+        "Tell me about mentoring other designers",
+        "How have you contributed to team culture and Ohana values?"
+      ],
+      whatTheyLookFor: [
+        "Strong portfolio demonstrating end-to-end product design",
+        "Experience designing enterprise or B2B applications",
+        "Proficiency with design tools (Figma, Sketch, prototyping)",
+        "Understanding of design systems and component-based design",
+        "User research skills and empathy for diverse users",
+        "Excellent visual and interaction design abilities",
+        "Strong communication and presentation skills",
+        "Collaborative approach with product and engineering",
+        "Commitment to accessibility and inclusive design",
+        "Alignment with Salesforce values and Ohana culture"
+      ],
+      interviewTips: [
+        "Prepare a portfolio with detailed enterprise UX case studies",
+        "Use Salesforce products and form specific design opinions",
+        "Study the Lightning Design System thoroughly",
+        "Practice presenting design work to diverse audiences",
+        "Be ready for a take-home or live design exercise",
+        "Understand enterprise UX challenges (complexity, personas, scale)",
+        "Show user research integrated throughout your process",
+        "Demonstrate accessibility knowledge and practices",
+        "Prepare examples of cross-functional collaboration",
+        "Understand how AI might change enterprise UX",
+        "Show genuine passion for solving complex problems",
+        "Prepare questions about the design team and culture",
+        "Be ready to discuss trade-offs in design decisions",
+        "Show alignment with Ohana values and inclusive design"
+      ],
+      salary: {
+        min: 130000,
+        max: 260000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $130,000 - $260,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Design tools and equipment budget",
+        "Conference attendance (design events, Dreamforce)",
+        "7 days paid volunteer time off annually",
+        "Education reimbursement for design courses"
+      ],
+      dayInLife: {
+        intro: "A typical day as a UX Designer at Salesforce involves creative design work, user research, and cross-functional collaboration within the Ohana culture.",
+        schedule: [
+          "9:00 AM - Review user research findings from recent study",
+          "9:30 AM - Design exploration for new AI feature",
+          "11:00 AM - Design critique session with UX team",
+          "12:00 PM - Lunch with product manager discussing roadmap",
+          "1:00 PM - Cross-functional sync with engineering on feasibility",
+          "2:30 PM - Prototype development for user testing",
+          "3:30 PM - User testing session with customer",
+          "4:30 PM - Document design decisions and rationale",
+          "5:30 PM - Contribute updates to Lightning Design System"
+        ],
+        closing: "Salesforce UX Designers enjoy solving complex enterprise problems while directly impacting how millions of users work every day."
+      },
+      similarRoles: ["Product Manager", "Software Engineer", "UX Researcher", "Design System Engineer"]
+    },
+    'security-engineer': {
+      roleDescription: "Security Engineers at Salesforce protect the data and operations of over 150,000 companies who trust the platform with their most critical business information. Trust is Salesforce's #1 value, and the security team provides the fundamental building blocks that preserve and enhance that trust. You'll work on security challenges at massive enterprise scale—securing multi-tenant infrastructure, protecting customer data across compliance regimes, and building security into products from design through deployment. The role spans application security, infrastructure security, security operations, and compliance engineering. Salesforce Security Engineers partner with product teams to embed security into features, develop automated detection and response capabilities, and ensure compliance with global regulations from GDPR to SOC 2 to FedRAMP. With Salesforce's expansion into AI through Einstein and Agentforce, security engineers are tackling new challenges around AI safety, model security, and autonomous agent governance.",
+      responsibilities: [
+        "Conduct security reviews of product features and architecture designs",
+        "Build and maintain security tools and automation at scale",
+        "Respond to security incidents and conduct thorough investigations",
+        "Ensure compliance with security frameworks (SOC 2, ISO, FedRAMP)",
+        "Partner with product teams to build security into features",
+        "Develop detection and response capabilities for threats",
+        "Perform penetration testing and vulnerability assessments",
+        "Design security controls for multi-tenant data protection",
+        "Contribute to security awareness and training programs",
+        "Evaluate security of AI/ML features and autonomous agents"
+      ],
+      growthOpportunities: [
+        "Protect data for 150,000+ companies across all industries",
+        "Work on cutting-edge challenges in AI security and governance",
+        "Clear career path from Engineer to Senior, Staff, and Principal",
+        "Influence security practices across the enterprise software industry",
+        "Access to advanced security tools and research opportunities",
+        "Strong Ohana culture with work-life balance emphasis",
+        "Competitive compensation with meaningful equity",
+        "Contribute to Trust as Salesforce's #1 value"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of security background and Salesforce interest"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Security technical interview in your domain area"
+        },
+        {
+          stage: "Onsite - Security Deep Dive",
+          duration: "45 minutes",
+          description: "Deep technical interview in your security expertise"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "Programming interview for security tooling"
+        },
+        {
+          stage: "Onsite - Security Design",
+          duration: "45 minutes",
+          description: "Design secure systems or threat model a feature"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and Trust"
+        }
+      ],
+      technicalQuestions: [
+        "Design the security architecture for Salesforce's multi-tenant platform",
+        "How would you implement data isolation between customer orgs?",
+        "Design a detection system for credential stuffing attacks at scale",
+        "How would you approach security for Einstein AI features?",
+        "Design the access control model for enterprise organizations",
+        "How would you secure API endpoints handling billions of requests?",
+        "Design the encryption strategy for customer data at rest and in transit",
+        "How would you approach security for Agentforce autonomous agents?",
+        "Design the incident response process for a data breach scenario",
+        "How would you implement secure secrets management at scale?",
+        "Design a vulnerability management program for thousands of services",
+        "How would you ensure FedRAMP compliance for government customers?",
+        "Design security logging and monitoring for the Salesforce platform",
+        "How would you approach third-party integration security review?",
+        "Design the security model for Lightning Web Components"
+      ],
+      behavioralQuestions: [
+        "Tell me about a significant security vulnerability you discovered",
+        "Describe influencing a team to prioritize a security fix",
+        "How have you balanced security with product velocity?",
+        "Tell me about a security incident you responded to",
+        "Describe improving security culture in an organization",
+        "How have you approached security for new technologies?",
+        "Tell me about a difficult security risk decision",
+        "Describe explaining security concepts to non-technical stakeholders",
+        "How have you handled pushback on security requirements?",
+        "Tell me about building security into the development process",
+        "Describe staying current with evolving threats",
+        "How have you mentored others on security practices?",
+        "Tell me about a creative solution to a security challenge",
+        "Describe handling conflicting compliance requirements",
+        "How have you contributed to Trust as Salesforce's #1 value?"
+      ],
+      whatTheyLookFor: [
+        "Deep expertise in at least one security domain",
+        "Strong programming skills for security tooling (Python, Go, Java)",
+        "Experience with cloud security at scale",
+        "Understanding of enterprise compliance requirements",
+        "Track record discovering and remediating vulnerabilities",
+        "Ability to communicate security risks to diverse audiences",
+        "Collaborative approach working with product teams",
+        "Knowledge of multi-tenant security architecture",
+        "Alignment with Salesforce values especially Trust",
+        "Commitment to continuous learning in security"
+      ],
+      interviewTips: [
+        "Study Salesforce's Trust site and security architecture",
+        "Understand multi-tenant security challenges",
+        "Prepare examples of vulnerabilities you've found and fixed",
+        "Know enterprise compliance frameworks (SOC 2, FedRAMP)",
+        "Be ready to discuss AI/ML security considerations",
+        "Understand Salesforce's security model and permissions",
+        "Prepare threat models for enterprise SaaS scenarios",
+        "Show passion for protecting customer data",
+        "Be ready to discuss security vs usability trade-offs",
+        "Demonstrate systematic security assessment approach",
+        "Know Salesforce's approach to secure development",
+        "Prepare questions about the security team and challenges",
+        "Show alignment with Trust as the #1 value",
+        "Be honest about security incidents and lessons learned"
+      ],
+      salary: {
+        min: 160000,
+        max: 320000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $160,000 - $320,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Security conference attendance budget",
+        "Certification support and bonuses",
+        "7 days paid volunteer time off annually",
+        "Home office security equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Security Engineer at Salesforce involves protecting customer data, building security tools, and partnering with product teams on Trust.",
+        schedule: [
+          "9:00 AM - Review security alerts and overnight vulnerability reports",
+          "9:30 AM - Security design review for new Einstein feature",
+          "11:00 AM - Build automated scanning tool for vulnerability detection",
+          "12:00 PM - Lunch with security team discussing emerging threats",
+          "1:00 PM - Code review for security-critical authentication change",
+          "2:30 PM - Compliance documentation for SOC 2 audit",
+          "3:30 PM - Partner with product team on secure development",
+          "4:30 PM - Research new attack techniques and defenses",
+          "5:30 PM - Update security guidance documentation"
+        ],
+        closing: "Salesforce Security Engineers enjoy the mission-critical work of protecting customer trust while tackling cutting-edge security challenges."
+      },
+      similarRoles: ["Software Engineer", "DevOps Engineer", "Technical Architect", "Data Scientist"]
+    },
+    'devops-engineer': {
+      roleDescription: "DevOps Engineers at Salesforce build and maintain the infrastructure that powers the world's #1 CRM platform, serving over 150,000 companies with billions of transactions daily. You'll work on CI/CD pipelines, infrastructure automation, and platform reliability for one of the largest SaaS platforms in the world. Salesforce pioneered multi-tenant cloud architecture, and DevOps engineers ensure this infrastructure scales, performs, and remains secure across multiple data centers globally. The role combines software engineering with operational expertise—you'll write code for automation and tooling while ensuring production systems meet enterprise reliability requirements. With Salesforce's growing investment in AI through Einstein and Agentforce, DevOps engineers are building the infrastructure for ML model deployment and autonomous agent execution at scale. The highest-paying role in recent Salesforce ecosystem surveys, DevOps Engineering offers significant compensation potential alongside meaningful technical challenges.",
+      responsibilities: [
+        "Design and maintain CI/CD pipelines for enterprise deployments",
+        "Build infrastructure automation using Infrastructure as Code",
+        "Ensure platform reliability meeting enterprise SLA requirements",
+        "Develop monitoring, alerting, and observability solutions",
+        "Automate operational tasks reducing toil and human error",
+        "Partner with engineering teams on deployment and release processes",
+        "Manage production operations and incident response",
+        "Optimize infrastructure costs while maintaining performance",
+        "Support compliance requirements through automated controls",
+        "Build infrastructure for AI/ML model deployment at scale"
+      ],
+      growthOpportunities: [
+        "Work on infrastructure serving 150,000+ companies globally",
+        "Highest-paying role in Salesforce ecosystem ($192K+ average)",
+        "Clear path from Engineer to Senior, Staff, and Principal",
+        "Build expertise in enterprise-scale cloud infrastructure",
+        "Work on cutting-edge ML infrastructure for Einstein and Agentforce",
+        "Strong Ohana culture with work-life balance focus",
+        "Competitive compensation with meaningful equity",
+        "Shape DevOps practices across the organization"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of DevOps background and Salesforce interest"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Technical interview on infrastructure and automation"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "Programming interview for automation and tooling"
+        },
+        {
+          stage: "Onsite - System Design",
+          duration: "45 minutes",
+          description: "Design infrastructure for a Salesforce-scale problem"
+        },
+        {
+          stage: "Onsite - Operations",
+          duration: "45 minutes",
+          description: "Discussion of incident response and operational practices"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and collaboration"
+        }
+      ],
+      technicalQuestions: [
+        "Design the CI/CD pipeline for Salesforce's multi-tenant platform",
+        "How would you implement blue-green deployments at enterprise scale?",
+        "Design the monitoring and alerting strategy for 150K+ customer orgs",
+        "How would you approach infrastructure for AI model serving?",
+        "Design the disaster recovery strategy for a multi-region deployment",
+        "How would you implement Infrastructure as Code for Salesforce scale?",
+        "Design the deployment strategy for zero-downtime releases",
+        "How would you handle capacity planning for unpredictable growth?",
+        "Design the secrets management approach for enterprise infrastructure",
+        "How would you implement automated compliance controls?",
+        "Design the logging and observability stack for billions of transactions",
+        "How would you approach database migration at scale?",
+        "Design the containerization strategy for microservices",
+        "How would you optimize cloud costs while maintaining performance?",
+        "Design the incident response automation for production issues"
+      ],
+      behavioralQuestions: [
+        "Tell me about a CI/CD improvement that had significant impact",
+        "Describe handling a major production incident",
+        "How have you balanced automation with operational stability?",
+        "Tell me about reducing toil through automation",
+        "Describe implementing Infrastructure as Code at scale",
+        "How have you partnered with development teams on DevOps?",
+        "Tell me about optimizing infrastructure costs significantly",
+        "Describe a deployment that didn't go as planned",
+        "How have you improved monitoring and observability?",
+        "Tell me about building a culture of operational excellence",
+        "Describe handling on-call and incident response",
+        "How have you approached security in DevOps practices?",
+        "Tell me about a creative solution to an infrastructure challenge",
+        "Describe mentoring others on DevOps best practices",
+        "How have you contributed to Salesforce values in your work?"
+      ],
+      whatTheyLookFor: [
+        "Strong programming skills (Python, Go, or similar)",
+        "Experience with CI/CD tools and practices",
+        "Knowledge of Infrastructure as Code (Terraform, Ansible)",
+        "Cloud platform expertise (AWS, GCP, or Azure)",
+        "Understanding of containerization and orchestration",
+        "Experience with monitoring and observability tools",
+        "Track record improving reliability and deployment velocity",
+        "Collaborative approach working with development teams",
+        "On-call experience and incident management skills",
+        "Alignment with Salesforce values and Ohana culture"
+      ],
+      interviewTips: [
+        "Prepare examples of CI/CD pipelines you've built",
+        "Know Infrastructure as Code patterns deeply",
+        "Be ready to discuss incident response and postmortems",
+        "Understand Salesforce's scale and multi-tenant challenges",
+        "Study cloud platform services and trade-offs",
+        "Prepare for live infrastructure design exercises",
+        "Show balance of automation skills and operational judgment",
+        "Know monitoring and observability best practices",
+        "Be ready to discuss security in DevOps (DevSecOps)",
+        "Understand compliance automation approaches",
+        "Prepare questions about the infrastructure team",
+        "Show genuine passion for operational excellence",
+        "Demonstrate collaborative approach with developers",
+        "Show alignment with Ohana culture and values"
+      ],
+      salary: {
+        min: 160000,
+        max: 320000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $160,000 - $320,000 depending on level",
+        "Average salary $192,000 (highest in Salesforce ecosystem)",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "On-call compensation included",
+        "7 days paid volunteer time off annually",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a DevOps Engineer at Salesforce involves building automation, ensuring reliability, and partnering with engineering teams on infrastructure.",
+        schedule: [
+          "9:00 AM - Review overnight deployment status and alerts",
+          "9:30 AM - Improve CI/CD pipeline for faster build times",
+          "11:00 AM - Architecture review for new microservice deployment",
+          "12:00 PM - Lunch with infrastructure team",
+          "1:00 PM - Build Terraform modules for standardized infrastructure",
+          "2:30 PM - Partner with security on compliance automation",
+          "3:30 PM - Incident postmortem review and improvement items",
+          "4:30 PM - Monitoring dashboard improvements",
+          "5:30 PM - On-call handoff and documentation"
+        ],
+        closing: "Salesforce DevOps Engineers enjoy building the infrastructure that powers one of the world's largest enterprise platforms while driving operational excellence."
+      },
+      similarRoles: ["Software Engineer", "Security Engineer", "Site Reliability Engineer", "Technical Architect"]
+    },
+    'success-architect': {
+      roleDescription: "Success Architects at Salesforce are technical leaders within Customer Success, providing expert guidance to the most strategic customers on solution design, performance optimization, and technical best practices. You'll work with Signature Success customers—enterprise accounts with significant Salesforce investments—ensuring they maximize value and achieve business outcomes. The role combines deep Salesforce technical expertise with consultative skills, helping customers navigate complex challenges from integration architecture to performance tuning to AI adoption. Success Architects partner with Customer Success Managers, Support, and Product teams to deliver proactive technical engagement rather than reactive support. With Salesforce's expansion through acquisitions like MuleSoft and Tableau, and investments in Einstein and Agentforce, Success Architects guide customers through adopting these technologies effectively. The role offers significant customer impact while leveraging technical expertise in a customer-facing capacity.",
+      responsibilities: [
+        "Provide expert technical guidance to Signature Success customers",
+        "Design solutions ensuring scalability, security, and performance",
+        "Conduct architecture reviews and optimization recommendations",
+        "Partner with CSMs on technical aspects of customer success",
+        "Guide customers on Salesforce best practices and governance",
+        "Assess system health and identify improvement opportunities",
+        "Support customers through major implementations and upgrades",
+        "Collaborate with Product on customer feedback and issues",
+        "Develop technical enablement for customer teams",
+        "Guide AI adoption including Einstein and Agentforce"
+      ],
+      growthOpportunities: [
+        "Work with Salesforce's most strategic enterprise customers",
+        "Combine technical expertise with customer relationship skills",
+        "Clear path to Senior Success Architect and leadership roles",
+        "Develop expertise across Salesforce clouds and acquisitions",
+        "High visibility role with executive customer engagement",
+        "Transition paths to Technical Architect or Product roles",
+        "Competitive compensation with success-based bonuses",
+        "Global travel opportunities for customer engagements"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of technical background and customer success experience"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into Salesforce expertise and customer engagement"
+        },
+        {
+          stage: "Technical Assessment",
+          duration: "60 minutes",
+          description: "Salesforce architecture and troubleshooting scenarios"
+        },
+        {
+          stage: "Customer Scenario",
+          duration: "60 minutes",
+          description: "Role-play customer engagement demonstrating technical consulting"
+        },
+        {
+          stage: "Cross-functional Interview",
+          duration: "45 minutes",
+          description: "Discussion with CSM and Support partners"
+        },
+        {
+          stage: "Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and customer success"
+        }
+      ],
+      technicalQuestions: [
+        "How would you assess the health of a large Salesforce implementation?",
+        "Design an optimization plan for a slow-performing org",
+        "How would you guide a customer on Einstein AI adoption?",
+        "Diagnose and resolve a complex integration issue",
+        "How would you approach a governor limit problem?",
+        "Design a release management strategy for an enterprise customer",
+        "How would you help a customer improve data quality?",
+        "Guide a customer on multi-cloud architecture best practices",
+        "How would you assess security posture for a Salesforce org?",
+        "Design an adoption strategy for MuleSoft integration",
+        "How would you help a customer prepare for a major release?",
+        "Diagnose performance issues in a high-volume Service Cloud org",
+        "How would you guide Agentforce adoption for a customer?",
+        "Design a governance framework for a multi-business unit org",
+        "How would you approach technical debt reduction for a customer?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex technical issue you resolved for a customer",
+        "Describe guiding a customer through a difficult architecture decision",
+        "How have you built trust with technical stakeholders?",
+        "Tell me about proactively identifying a customer risk",
+        "Describe handling a customer escalation effectively",
+        "How have you influenced a customer to adopt best practices?",
+        "Tell me about translating technical findings for executives",
+        "Describe partnering with product on a customer issue",
+        "How have you balanced multiple customer priorities?",
+        "Tell me about a customer success story you're proud of",
+        "Describe coaching a customer's technical team",
+        "How have you stayed current with Salesforce's rapid evolution?",
+        "Tell me about a creative solution for a customer challenge",
+        "Describe managing expectations when solutions had limitations",
+        "How have you embodied Salesforce values with customers?"
+      ],
+      whatTheyLookFor: [
+        "Deep Salesforce platform expertise with certifications",
+        "Experience in customer-facing technical roles",
+        "Strong troubleshooting and problem-solving skills",
+        "Excellent communication for executive audiences",
+        "Understanding of enterprise architecture principles",
+        "Track record driving customer outcomes through technical guidance",
+        "Consultative approach to customer engagement",
+        "Knowledge of integration patterns and best practices",
+        "Alignment with Salesforce values and customer success focus",
+        "Ability to build relationships across technical and business teams"
+      ],
+      interviewTips: [
+        "Prepare examples of technical customer engagements",
+        "Know Salesforce architecture and optimization deeply",
+        "Be ready for troubleshooting scenarios",
+        "Practice explaining technical concepts to executives",
+        "Understand the Signature Success program",
+        "Study MuleSoft, Tableau, and recent acquisitions",
+        "Prepare examples of building customer relationships",
+        "Know Einstein AI and Agentforce capabilities",
+        "Show balance of technical depth and consulting skills",
+        "Be ready to discuss customer success metrics",
+        "Understand Salesforce's customer success methodology",
+        "Prepare questions about the customer portfolio",
+        "Show genuine passion for customer outcomes",
+        "Demonstrate alignment with Ohana values"
+      ],
+      salary: {
+        min: 150000,
+        max: 280000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $150,000 - $220,000 depending on level",
+        "Variable compensation for customer outcomes: $30,000 - $60,000",
+        "Total on-target earnings: $180,000 - $280,000",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Travel budget for customer engagements",
+        "7 days paid volunteer time off annually",
+        "Conference attendance (Dreamforce, etc.)"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Success Architect at Salesforce involves proactive customer engagement, technical consulting, and cross-functional collaboration.",
+        schedule: [
+          "8:30 AM - Review customer health metrics and alert queues",
+          "9:00 AM - Architecture review session with strategic customer",
+          "10:30 AM - Internal sync with CSM on customer expansion plans",
+          "11:30 AM - Prepare optimization recommendations for account",
+          "12:30 PM - Lunch with Success Architect team sharing best practices",
+          "1:30 PM - Customer call addressing integration challenges",
+          "3:00 PM - Partner with Support on escalated technical issue",
+          "4:00 PM - Document technical findings and recommendations",
+          "5:00 PM - Review new Salesforce release for customer impact"
+        ],
+        closing: "Salesforce Success Architects enjoy combining technical expertise with customer relationships to drive meaningful business outcomes for strategic accounts."
+      },
+      similarRoles: ["Technical Architect", "Customer Success Manager", "Solution Engineer", "Software Engineer"]
+    },
+    'ai-ml-engineer': {
+      roleDescription: "AI/ML Engineers at Salesforce build the intelligent systems that power Einstein AI, Data Cloud, and Agentforce—bringing artificial intelligence to over 150,000 companies worldwide. You'll work on machine learning models for predictions, recommendations, natural language processing, and autonomous agents that transform how businesses operate. Salesforce pioneered enterprise AI with Einstein, and continues to lead with innovations like Agentforce for autonomous business agents and Data Cloud for unified customer intelligence. The role combines cutting-edge ML research with production engineering—you'll develop models that serve billions of predictions daily while meeting enterprise reliability and security requirements. AI/ML Engineers work across the ML lifecycle from research and experimentation through production deployment and monitoring. With Salesforce's commitment to responsible AI, you'll also work on fairness, explainability, and ethical AI practices. The team is at the forefront of bringing large language models and generative AI to enterprise applications.",
+      responsibilities: [
+        "Develop machine learning models for Einstein and Agentforce products",
+        "Build ML infrastructure for training and serving at enterprise scale",
+        "Design autonomous agent capabilities for business automation",
+        "Implement natural language processing for conversational AI",
+        "Ensure ML models meet enterprise reliability and performance requirements",
+        "Work on responsible AI including fairness and explainability",
+        "Partner with product teams on AI feature development",
+        "Optimize models for latency, accuracy, and cost trade-offs",
+        "Contribute to ML platform enabling other teams to leverage AI",
+        "Stay current with ML research and apply innovations to products"
+      ],
+      growthOpportunities: [
+        "Build AI serving billions of predictions for 150K+ companies",
+        "Work on cutting-edge LLMs and generative AI for enterprise",
+        "Shape the future of autonomous business agents",
+        "Clear career path from Engineer to Senior, Staff, and Principal",
+        "Publish research and contribute to ML community",
+        "Strong Ohana culture with work-life balance focus",
+        "Competitive compensation among highest in the industry",
+        "Access to massive compute resources and enterprise data"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of ML background and Salesforce AI interest"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "ML fundamentals and problem-solving interview"
+        },
+        {
+          stage: "Onsite - ML Depth",
+          duration: "45 minutes",
+          description: "Deep dive into ML algorithms and model design"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "Programming interview for ML implementation"
+        },
+        {
+          stage: "Onsite - ML System Design",
+          duration: "45 minutes",
+          description: "Design an ML system for a Salesforce-scale problem"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and collaboration"
+        }
+      ],
+      technicalQuestions: [
+        "Design the recommendation system for Einstein Next Best Action",
+        "How would you build a lead scoring model for enterprise customers?",
+        "Design the ML architecture for Agentforce autonomous agents",
+        "How would you approach NLP for Einstein Bots conversation understanding?",
+        "Design a system for real-time predictions at enterprise scale",
+        "How would you ensure fairness in AI recommendations?",
+        "Design the ML pipeline for Data Cloud customer predictions",
+        "How would you handle class imbalance in enterprise ML datasets?",
+        "Design an LLM-powered feature for Sales Cloud",
+        "How would you approach model monitoring and drift detection?",
+        "Design the training infrastructure for large-scale ML models",
+        "How would you implement explainability for enterprise AI?",
+        "Design an experiment framework for ML model comparison",
+        "How would you optimize model serving latency for real-time use cases?",
+        "Design the ML system for Einstein Search personalization"
+      ],
+      behavioralQuestions: [
+        "Tell me about an ML model you deployed to production",
+        "Describe balancing model accuracy with production constraints",
+        "How have you communicated ML concepts to non-technical partners?",
+        "Tell me about debugging a model that underperformed in production",
+        "Describe your approach to responsible AI development",
+        "How have you stayed current with ML research?",
+        "Tell me about building ML infrastructure for a team",
+        "Describe collaborating with product on AI feature requirements",
+        "How have you handled ambiguity in ML projects?",
+        "Tell me about a creative approach to an ML problem",
+        "Describe mentoring others on ML best practices",
+        "How have you approached ML experimentation and iteration?",
+        "Tell me about translating business needs into ML solutions",
+        "Describe optimizing a model for production constraints",
+        "How have you contributed to Salesforce values in your work?"
+      ],
+      whatTheyLookFor: [
+        "Strong ML fundamentals—algorithms, model design, evaluation",
+        "Production ML experience—deploying and operating models at scale",
+        "Programming skills (Python, TensorFlow/PyTorch)",
+        "Experience with LLMs and generative AI (increasingly important)",
+        "Understanding of ML infrastructure and MLOps",
+        "Track record building ML features with business impact",
+        "Commitment to responsible AI practices",
+        "Strong communication skills for cross-functional work",
+        "Collaborative approach working with product and engineering",
+        "Alignment with Salesforce values and Ohana culture"
+      ],
+      interviewTips: [
+        "Prepare to discuss ML algorithms in depth",
+        "Know production ML challenges and solutions",
+        "Be ready for ML system design at enterprise scale",
+        "Understand Einstein AI and Agentforce capabilities",
+        "Study LLMs and their enterprise applications",
+        "Prepare examples of production ML projects",
+        "Know responsible AI practices and fairness approaches",
+        "Be ready to code ML algorithms and data processing",
+        "Understand Salesforce products and how AI enhances them",
+        "Show balance of research innovation and practical engineering",
+        "Prepare questions about the ML team and challenges",
+        "Demonstrate genuine passion for enterprise AI",
+        "Show collaborative approach to ML development",
+        "Understand Salesforce's Ohana culture"
+      ],
+      salary: {
+        min: 180000,
+        max: 400000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $400,000 depending on level",
+        "Annual bonus typically 10-20% of base salary",
+        "RSU grants vesting over 4 years (significant at senior levels)",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Conference attendance budget",
+        "Cloud compute credits for research",
+        "7 days paid volunteer time off annually",
+        "Learning and development budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as an AI/ML Engineer at Salesforce involves model development, production engineering, and cross-functional collaboration on AI features.",
+        schedule: [
+          "9:00 AM - Review model performance metrics and alerts",
+          "9:30 AM - Deep work on new recommendation model development",
+          "11:00 AM - Cross-functional sync with product on AI feature",
+          "12:00 PM - Lunch with ML team discussing research papers",
+          "1:00 PM - Model experimentation and evaluation",
+          "2:30 PM - Code review for teammate's production model",
+          "3:30 PM - Partner with platform team on ML infrastructure",
+          "4:30 PM - Document model decisions and architecture",
+          "5:30 PM - Learning time—latest ML research and techniques"
+        ],
+        closing: "Salesforce AI/ML Engineers enjoy building cutting-edge AI that transforms how millions of enterprise users work while pushing the boundaries of responsible AI."
+      },
+      similarRoles: ["Software Engineer", "Data Scientist", "Technical Architect", "DevOps Engineer"]
     }
   },
-
   'doordash': {
     'software-engineer': {
       roleDescription: "Software Engineers at DoorDash build technology for the leading food delivery platform, connecting consumers, merchants, and Dashers across three-sided marketplace. You'll work on challenging problems in logistics optimization, real-time matching, mobile applications, and global operations. DoorDash values customer obsession, bias for action, and operational excellence.",
