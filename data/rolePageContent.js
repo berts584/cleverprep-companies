@@ -14550,6 +14550,627 @@ export const rolePageContent = {
         { companyName: "OpenAI", companySlug: "openai", industry: "Technology" },
         { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
       ]
+    },
+    'research-scientist': {
+      roleDescription: "Research Scientists at Meta work at the frontier of AI and computing, advancing fundamental research while applying discoveries to products used by billions. Meta AI (formerly FAIR - Facebook AI Research) is one of the world's premier AI research labs, known for groundbreaking work in deep learning, computer vision, natural language processing, and reinforcement learning. Unlike pure academic research, Meta Research Scientists have the unique opportunity to see their innovations deployed at massive scale - research on transformers, self-supervised learning, and generative AI directly powers Meta's products. The role spans fundamental research (publishing at NeurIPS, ICML, CVPR), applied research (adapting techniques for production), and product-focused research (solving specific product challenges). You'll collaborate with world-class researchers, have access to unprecedented computational resources, and work on problems that define the future of AI. Career progression leads to Senior, Staff, and Distinguished Research Scientist roles, with many researchers maintaining academic connections through publications, teaching, and conference organizing.",
+      responsibilities: [
+        "Conduct cutting-edge research in AI/ML, publishing at top conferences and journals",
+        "Develop novel algorithms, models, and techniques advancing the state of the art",
+        "Collaborate with product teams to apply research to Meta's products at scale",
+        "Mentor research scientists and engineers, building research capabilities across teams",
+        "Present research internally and externally at conferences, workshops, and seminars",
+        "Contribute to open source projects sharing Meta's research with the community",
+        "Identify new research directions aligned with Meta's long-term technical vision",
+        "Collaborate with academic partners and contribute to the broader research community",
+        "Build prototypes and proofs of concept demonstrating research applicability",
+        "Review and stay current with research literature across relevant domains"
+      ],
+      growthOpportunities: [
+        "Work at one of the world's premier AI research labs (Meta AI/FAIR)",
+        "Career path: Research Scientist → Senior → Staff → Distinguished Research Scientist",
+        "Publish at top venues: NeurIPS, ICML, CVPR, ACL, ICLR",
+        "Access to massive computational resources for large-scale experiments",
+        "See research deployed in products used by billions",
+        "Collaborate with luminaries in AI research",
+        "Maintain academic connections through publications and conferences",
+        "Work on diverse AI domains: NLP, vision, speech, RL, generative AI",
+        "Shape the future of AI through both research and real-world application"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call to discuss your research background, publications, and interest in Meta AI. The recruiter explains different research areas and assesses fit based on your expertise and Meta's current focus areas.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Research Phone Screen",
+          description: "60-minute technical interview with a Meta researcher. You'll discuss your research in depth, including methodology, results, and impact. May include technical questions about fundamentals or discussion of research directions.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Research Presentation",
+          description: "You'll present your research (typically 30-45 minutes plus Q&A) to a group of Meta researchers. This tests your ability to communicate complex ideas, defend your methodology, and engage with challenging questions.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 4,
+          title: "Virtual On-site Loop (4-5 rounds)",
+          description: "Full interview day: (1) Research deep dive - thorough discussion of your work and field; (2) Technical/Coding round - validate implementation skills; (3) Research vision - discuss future research directions; (4) Collaboration/Behavioral - assess Meta values and collaboration style. Each round is with different researchers.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 5,
+          title: "Hiring Committee & Team Matching",
+          description: "Research hiring committee reviews all feedback. If approved, you'll match with teams based on research interests and mutual fit.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your most impactful research paper. What was novel about the approach?",
+        "Explain the transformer architecture. What are its limitations and how might they be addressed?",
+        "How would you approach building a multimodal foundation model?",
+        "Design an experiment to evaluate the quality of generated text from an LLM.",
+        "What are the key challenges in self-supervised learning? How would you address them?",
+        "Explain attention mechanisms and their computational complexity. How can they be made more efficient?",
+        "How would you approach detecting and mitigating bias in large language models?",
+        "Design a research agenda for improving reasoning capabilities in AI systems.",
+        "What are the limitations of current approaches to AI safety? How would you address them?",
+        "Explain contrastive learning. When does it work well and when does it fail?",
+        "How would you scale training to models with trillions of parameters?",
+        "Design an approach for few-shot learning in computer vision.",
+        "What research directions do you think will be most impactful in the next 5 years?",
+        "How do you balance research novelty with practical applicability?",
+        "Explain reinforcement learning from human feedback (RLHF). What are its limitations?"
+      ],
+      behavioralQuestions: [
+        "Tell me about your most significant research contribution. What was its impact?",
+        "Describe a research project that failed. What did you learn?",
+        "Give an example of when you collaborated across research groups or institutions.",
+        "Tell me about a time you had to defend your research approach against skepticism.",
+        "Describe how you choose research problems to work on.",
+        "Give an example of when your research was applied to a real product or system.",
+        "Tell me about a time you mentored another researcher.",
+        "Describe how you stay current with the rapidly evolving AI research landscape.",
+        "Give an example of when you simplified a complex research concept for a broader audience.",
+        "Tell me about a time you changed your research direction based on new findings.",
+        "Describe your approach to balancing novelty with reproducibility.",
+        "Give an example of contributing to the open research community.",
+        "Tell me about your experience presenting research at conferences.",
+        "Describe how you handle conflicting feedback from reviewers.",
+        "Give an example of when you demonstrated Move Fast in research."
+      ],
+      whatTheyLookFor: [
+        "Strong publication record at top AI/ML venues",
+        "Deep expertise in one or more AI domains (NLP, vision, RL, etc.)",
+        "Ability to conduct independent, high-impact research",
+        "Technical implementation skills in Python, PyTorch, etc.",
+        "Clear communication of complex research concepts",
+        "Collaboration skills for working with research and product teams",
+        "Vision for impactful research directions",
+        "Passion for advancing the field and sharing knowledge",
+        "Ability to apply research to real-world problems at scale",
+        "Intellectual curiosity and commitment to continuous learning"
+      ],
+      interviewTips: [
+        "Prepare a polished research presentation you can deliver confidently",
+        "Know your papers inside out - expect detailed questions on methodology and results",
+        "Be ready to discuss limitations and future directions of your work",
+        "Review fundamentals - transformers, attention, optimization, etc.",
+        "Understand Meta AI's recent research and how your work relates",
+        "Practice explaining your research to both experts and non-experts",
+        "Be prepared to write code - implementation skills matter",
+        "Think about how your research could apply to Meta's products",
+        "Prepare thoughtful questions about Meta AI's research direction",
+        "Show passion for both advancing research and real-world impact",
+        "Be ready to discuss AI safety, bias, and responsible AI",
+        "Understand the difference between Research Scientist and MLE roles",
+        "Research Meta AI publications and blog posts",
+        "Be prepared to defend your methodology against alternatives"
+      ],
+      salary: {
+        min: 170000,
+        max: 320000
+      },
+      compensation: [
+        "Premium base salary reflecting research market",
+        "Substantial RSU grants - often largest component of total comp",
+        "RSUs vest quarterly after first year",
+        "Sign-on bonus ($80-150K for experienced researchers)",
+        "Semi-annual performance bonuses",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision insurance",
+        "Conference attendance and publication support",
+        "Sabbatical programs for tenured researchers",
+        "Free meals on campus",
+        "Generous parental leave (4 months)",
+        "Research equipment and computational resources"
+      ],
+      dayInLife: {
+        overview: "Research Scientists balance independent research with collaboration and publication. Days include experiments, paper writing, reading, and discussions with fellow researchers. The environment is academic-like but with access to unprecedented scale.",
+        schedule: [
+          { time: "10:00 AM", activity: "Check experiments", description: "Review overnight training runs, analyze results, plan next experiments" },
+          { time: "11:00 AM", activity: "Paper writing", description: "Work on current paper - writing, figures, or addressing reviewer comments" },
+          { time: "12:30 PM", activity: "Lunch seminar", description: "Attend internal talk or lunch discussion with visiting researcher" },
+          { time: "2:00 PM", activity: "Research collaboration", description: "Meet with collaborators to discuss results and plan next steps" },
+          { time: "3:30 PM", activity: "Literature review", description: "Read recent papers, review arxiv postings in your area" },
+          { time: "4:30 PM", activity: "Implementation", description: "Code new experiments, build prototypes, debug training issues" },
+          { time: "6:00 PM", activity: "Research planning", description: "Plan tomorrow's experiments, queue training jobs" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "OpenAI", companySlug: "openai", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "DeepMind", companySlug: "deepmind", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+      ]
+    },
+    'production-engineer': {
+      roleDescription: "Production Engineers at Meta are a unique hybrid of software engineers and site reliability engineers, ensuring that Meta's infrastructure reliably serves over 3 billion people. This role, pioneered by Meta (then Facebook), combines software development with systems engineering to build and operate infrastructure at unprecedented scale. You'll work on systems handling millions of requests per second, petabytes of data, and billions of daily active users. Unlike traditional SRE roles focused primarily on operations, Production Engineers write significant amounts of code - building automation, developing tools, and improving infrastructure software. The role requires deep systems knowledge (Linux, networking, distributed systems) combined with strong software engineering skills. PEs work embedded in product teams, ensuring reliability is built into products from the start, not bolted on after. Career growth leads to Senior and Staff PE roles, with opportunities to specialize in areas like capacity planning, networking, or storage, or transition to pure SWE or management roles.",
+      responsibilities: [
+        "Build and maintain infrastructure serving billions of users across Meta's products",
+        "Develop tools and automation to improve reliability, efficiency, and developer productivity",
+        "Respond to and resolve production incidents, conducting thorough post-mortems",
+        "Collaborate with software engineers to design systems that are reliable and scalable",
+        "Optimize performance and capacity of large-scale distributed systems",
+        "Participate in on-call rotations for critical infrastructure",
+        "Build monitoring, alerting, and observability systems",
+        "Drive reliability improvements through automation and eliminating manual processes",
+        "Partner with teams to establish SLOs and error budgets",
+        "Contribute to infrastructure planning and capacity forecasting"
+      ],
+      growthOpportunities: [
+        "Work on infrastructure at unprecedented scale - billions of users",
+        "Career path: PE → Senior PE → Staff PE → Principal PE",
+        "Deep expertise in distributed systems, networking, and infrastructure",
+        "Path to SWE, management, or specialized infrastructure roles",
+        "Strong internal mobility across infrastructure and product teams",
+        "Shape how Meta builds and operates reliable systems",
+        "Work on cutting-edge infrastructure for AI training and serving",
+        "Contribute to open source infrastructure tools (HHVM, etc.)",
+        "Learn from world-class infrastructure engineers"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call to discuss your background, systems experience, and interest in the PE role. The recruiter explains the unique hybrid nature of the role and assesses basic qualifications.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute interview combining coding and systems. You'll solve an algorithmic problem and answer systems/networking questions. May include troubleshooting scenarios.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site Loop (4-5 rounds)",
+          description: "Full interview day: (1) Coding round - algorithmic problem-solving; (2) Systems round - deep dive into Linux, networking, distributed systems; (3) Design round - design a reliable, scalable system; (4) Troubleshooting round - debug a production issue scenario; (5) Behavioral round - Meta values and collaboration.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Team Matching",
+          description: "Hiring committee reviews feedback. If approved, you'll match with teams working on areas like compute, storage, networking, or product infrastructure.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "A service is experiencing increased latency. Walk through how you would troubleshoot.",
+        "Explain what happens when you type 'facebook.com' in a browser and press enter.",
+        "Design a load balancing system for Meta's web servers.",
+        "How would you debug a Linux process that's consuming excessive CPU?",
+        "Design a distributed caching system for Meta's scale.",
+        "Explain TCP/IP in detail. How does congestion control work?",
+        "How would you design a system to detect and mitigate DDoS attacks?",
+        "A database is slow. What would you check and how would you improve it?",
+        "Design a log aggregation system for millions of servers.",
+        "Explain how DNS works. How would you design DNS for high availability?",
+        "How would you automate the deployment of a new service to thousands of servers?",
+        "Design a monitoring and alerting system for Meta's infrastructure.",
+        "Explain Linux memory management. What causes OOM kills?",
+        "How would you design capacity planning for a rapidly growing service?",
+        "A new deployment caused a production incident. How do you handle it and prevent future occurrences?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a production incident you resolved. What was your approach?",
+        "Describe a time you built automation that significantly improved reliability.",
+        "Give an example of when you had to balance reliability with shipping speed.",
+        "Tell me about a time you improved a process or system proactively.",
+        "Describe a challenging debugging scenario. How did you approach it?",
+        "Give an example of when you collaborated with software engineers to improve reliability.",
+        "Tell me about a post-mortem you led. What were the outcomes?",
+        "Describe how you handle on-call stress and incident pressure.",
+        "Give an example of when you had to make a quick decision during an incident.",
+        "Tell me about a time you pushed back on a change that risked reliability.",
+        "Describe your experience with capacity planning or performance optimization.",
+        "Give an example of documentation or tooling you created for others.",
+        "Tell me about a time you learned a new technology to solve a problem.",
+        "Describe how you prioritize between reactive work and proactive improvements.",
+        "Give an example of demonstrating Meta values in your infrastructure work."
+      ],
+      whatTheyLookFor: [
+        "Strong coding skills: ability to write clean, production-quality code",
+        "Deep systems knowledge: Linux, networking, distributed systems",
+        "Troubleshooting ability: systematic approach to debugging complex issues",
+        "Reliability focus: building systems that work at scale",
+        "Automation mindset: eliminating manual work through tooling",
+        "Collaboration: working effectively with SWEs and other teams",
+        "Communication: clear incident communication and documentation",
+        "On-call readiness: ability to handle production pressure",
+        "Move Fast: bias for action while maintaining reliability",
+        "Continuous learning: keeping up with infrastructure evolution"
+      ],
+      interviewTips: [
+        "Practice coding - LeetCode medium problems with focus on efficiency",
+        "Review systems fundamentals: Linux internals, TCP/IP, HTTP, DNS",
+        "Study distributed systems concepts: consistency, availability, partitioning",
+        "Prepare troubleshooting scenarios - be systematic in your approach",
+        "Understand Meta's infrastructure scale and challenges",
+        "Be ready to design systems for reliability at scale",
+        "Practice explaining systems concepts clearly",
+        "Research Meta's open source infrastructure projects",
+        "Prepare examples from your ops/reliability experience",
+        "Understand the PE role's hybrid nature - it's not pure ops",
+        "Be ready to discuss on-call experience and incident handling",
+        "Practice system design with focus on reliability and monitoring",
+        "Prepare questions about the teams and infrastructure areas",
+        "Show passion for building reliable systems that serve billions"
+      ],
+      salary: {
+        min: 145000,
+        max: 240000
+      },
+      compensation: [
+        "Competitive base salary",
+        "Substantial RSU grants",
+        "RSUs vest quarterly after first year",
+        "Sign-on bonus ($40-80K for experienced candidates)",
+        "Semi-annual performance bonuses",
+        "On-call compensation for incident response",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Free meals on campus",
+        "Generous parental leave (4 months)",
+        "Professional development budget",
+        "Home office setup support"
+      ],
+      dayInLife: {
+        overview: "Production Engineers balance proactive reliability work with reactive incident response. Days include coding, systems work, collaboration with product teams, and on-call responsibilities. The mix varies based on team and current priorities.",
+        schedule: [
+          { time: "9:30 AM", activity: "Check dashboards", description: "Review monitoring, check for overnight alerts, assess system health" },
+          { time: "10:00 AM", activity: "Team standup", description: "Sync on priorities, incidents, and ongoing projects" },
+          { time: "10:30 AM", activity: "Project work", description: "Code automation, build tooling, or improve infrastructure" },
+          { time: "12:30 PM", activity: "Lunch", description: "Free campus lunch with teammates" },
+          { time: "1:30 PM", activity: "Design review", description: "Review reliability aspects of new product feature design" },
+          { time: "3:00 PM", activity: "Incident review", description: "Post-mortem meeting for recent incident, identify improvements" },
+          { time: "4:00 PM", activity: "Code review", description: "Review infrastructure code from teammates" },
+          { time: "5:00 PM", activity: "Documentation", description: "Update runbooks, document new processes" },
+          { time: "5:30 PM", activity: "On-call handoff", description: "If transitioning on-call, brief next engineer on current state" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "LinkedIn", companySlug: "linkedin", industry: "Technology" }
+      ]
+    },
+    'technical-program-manager': {
+      roleDescription: "Technical Program Managers at Meta drive the execution of complex, cross-functional programs that shape products used by billions. Meta TPMs work at the intersection of technical execution and business strategy, partnering with engineering, product, and leadership to deliver ambitious initiatives. Unlike some companies where TPMs are primarily schedulers, Meta TPMs are deeply technical - you're expected to understand system architecture, participate in design discussions, and make informed trade-offs. The role spans diverse areas: product launches across the family of apps, infrastructure programs supporting massive scale, AR/VR initiatives at Reality Labs, and AI/ML platform development. Meta's Move Fast culture means TPMs must balance speed with coordination, keeping complex programs on track without creating bureaucracy. Career progression leads to Senior TPM, Group TPM, and Director of TPM roles, with strong visibility to senior leadership.",
+      responsibilities: [
+        "Lead complex technical programs spanning multiple engineering teams and organizations",
+        "Define program scope, milestones, and success criteria aligned with business goals",
+        "Drive cross-functional alignment between engineering, product, design, and other teams",
+        "Manage technical dependencies, risks, and trade-offs across workstreams",
+        "Communicate program status to leadership with clarity and actionable insights",
+        "Partner with engineering to make informed technical decisions and trade-offs",
+        "Facilitate technical discussions and drive consensus on complex issues",
+        "Ensure successful launches through operational readiness and coordination",
+        "Identify and remove blockers to keep programs moving fast",
+        "Drive continuous improvement in how Meta delivers complex programs"
+      ],
+      growthOpportunities: [
+        "Lead programs that impact billions of users across Meta's products",
+        "Career path: TPM → Senior TPM → Group TPM → Director of TPM",
+        "Work on diverse areas: products, infrastructure, AR/VR, AI/ML",
+        "Strong visibility to senior leadership through program delivery",
+        "Path to product management or engineering leadership roles",
+        "Shape how Meta executes complex technical initiatives",
+        "Work with world-class engineers on challenging problems",
+        "High impact culture where TPMs directly influence product success",
+        "Internal mobility across product areas and technical domains"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call to discuss your background, TPM experience, and interest in Meta. The recruiter explains different TPM organizations and assesses fit.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute interview covering your TPM experience and technical depth. You'll discuss past programs and may face technical scenario questions. The interviewer assesses your ability to engage technically.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site Loop (4-5 rounds)",
+          description: "Full interview day: (1) Technical deep dive - assess your technical understanding and ability to engage with engineers; (2) Program management - how you plan, execute, and deliver programs; (3) Cross-functional leadership - driving alignment without authority; (4) Problem-solving scenario - work through a complex program challenge; (5) Behavioral - Meta values and collaboration.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Team Matching",
+          description: "Hiring committee reviews feedback. If approved, you'll match with teams based on interests and program areas.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Tell me about the most complex program you've led. What made it challenging?",
+        "Walk me through how you'd approach planning a major product launch at Meta scale.",
+        "Describe your approach to managing technical risks across multiple teams.",
+        "How do you balance moving fast with ensuring quality in program delivery?",
+        "Walk me through a program that was at risk. How did you get it back on track?",
+        "How do you manage dependencies between teams with different priorities?",
+        "Describe your approach to stakeholder communication at different levels.",
+        "How do you assess technical feasibility when planning program scope?",
+        "Walk me through how you'd facilitate a technical design decision with disagreeing teams.",
+        "How do you measure program success beyond just on-time delivery?",
+        "Describe a situation where you had to push back on scope or timeline.",
+        "How do you handle a critical dependency that's slipping?",
+        "Walk me through your approach to launch readiness and go/no-go decisions.",
+        "How do you stay technically current while managing programs?",
+        "Describe how you'd approach a program spanning multiple product areas."
+      ],
+      behavioralQuestions: [
+        "Tell me about a program that failed. What did you learn?",
+        "Describe a time you moved fast to unblock a program. What trade-offs did you make?",
+        "Give an example of when you had to influence without authority.",
+        "Tell me about a time you built consensus among disagreeing teams.",
+        "Describe how you handle the pressure of multiple competing priorities.",
+        "Give an example of when you raised a risk that others had missed.",
+        "Tell me about a time you simplified a complex program process.",
+        "Describe how you've built trust with engineering teams.",
+        "Give an example of bold decision-making in program management.",
+        "Tell me about a time you had to deliver difficult news to leadership.",
+        "Describe how you've improved program management practices on your team.",
+        "Give an example of when data changed your approach to a program.",
+        "Tell me about a time you had to make a quick decision with limited information.",
+        "Describe how you balance program management with technical depth.",
+        "Give an example of demonstrating Meta values in your TPM work."
+      ],
+      whatTheyLookFor: [
+        "Technical depth: ability to understand and engage with system architecture",
+        "Program execution: track record of delivering complex programs at scale",
+        "Cross-functional leadership: driving alignment without direct authority",
+        "Communication: clear, concise updates to leadership and teams",
+        "Problem-solving: navigating complex challenges and unblocking teams",
+        "Move Fast: bias for action while managing coordination",
+        "Focus on Impact: prioritizing work that creates meaningful outcomes",
+        "Risk management: identifying and mitigating program risks",
+        "Stakeholder management: building trust and driving alignment",
+        "Adaptability: handling ambiguity and changing priorities"
+      ],
+      interviewTips: [
+        "Prepare detailed stories about complex programs you've led",
+        "Be ready to demonstrate technical understanding - you need engineering credibility",
+        "Practice explaining your program management frameworks",
+        "Research Meta's products and think about program challenges",
+        "Show how you balance speed with coordination",
+        "Prepare examples of driving cross-functional alignment",
+        "Practice executive-level communication - clear and concise",
+        "Be ready to discuss trade-offs and decision-making processes",
+        "Understand Meta's culture and Move Fast values",
+        "Prepare questions about program areas you're interested in",
+        "Show you can operate at both strategic and tactical levels",
+        "Practice scenario-based questions about handling program challenges",
+        "Demonstrate impact-focused mindset",
+        "Be ready to discuss how you stay technically current"
+      ],
+      salary: {
+        min: 155000,
+        max: 260000
+      },
+      compensation: [
+        "Competitive base salary",
+        "Substantial RSU grants",
+        "RSUs vest quarterly after first year",
+        "Sign-on bonus ($50-100K for experienced candidates)",
+        "Semi-annual performance bonuses",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Free meals on campus",
+        "Generous parental leave (4 months)",
+        "Professional development budget",
+        "Conference attendance support",
+        "Home office setup"
+      ],
+      dayInLife: {
+        overview: "Meta TPMs balance program coordination with technical engagement. Days include cross-functional meetings, program tracking, problem-solving, and communication to leadership. The role requires managing multiple priorities while moving fast.",
+        schedule: [
+          { time: "9:30 AM", activity: "Program review", description: "Check dashboards, review overnight updates, assess program health" },
+          { time: "10:00 AM", activity: "Engineering sync", description: "Daily standup with engineering leads on progress and blockers" },
+          { time: "10:30 AM", activity: "Technical discussion", description: "Participate in design review or technical decision meeting" },
+          { time: "12:00 PM", activity: "Cross-team alignment", description: "Meeting to align on dependencies with partner teams" },
+          { time: "1:00 PM", activity: "Lunch", description: "Free campus lunch, often with program stakeholders" },
+          { time: "2:00 PM", activity: "Program planning", description: "Update roadmaps, assess risks, plan mitigation strategies" },
+          { time: "3:30 PM", activity: "Leadership update", description: "Prepare and present program status to director or VP" },
+          { time: "4:30 PM", activity: "1:1s and follow-ups", description: "Individual syncs, address action items, unblock teams" },
+          { time: "5:30 PM", activity: "Documentation", description: "Update program docs, send status communications" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" }
+      ]
+    },
+    'product-designer': {
+      roleDescription: "Product Designers at Meta create experiences for products used by over 3 billion people, shaping how the world connects through Facebook, Instagram, WhatsApp, Messenger, and emerging platforms like Quest VR. Meta's design culture emphasizes impact, iteration, and cross-functional partnership - designers work as equals with PMs and engineers, not just as pixel-pushers. You'll define product experiences end-to-end, from user research and concept development to detailed interaction design and prototyping. Meta's scale means your design decisions have extraordinary impact: a small improvement to Facebook's composer or Instagram's feed affects billions of interactions daily. The design organization spans diverse areas: social experiences, commerce, messaging, AR/VR (Reality Labs), and AI-powered features. Career progression follows clear levels (IC3-IC8), with both IC and management tracks. Meta's compensation for designers is highly competitive, reflecting the central role design plays in product success.",
+      responsibilities: [
+        "Design end-to-end product experiences for Meta's family of apps and platforms",
+        "Conduct user research and usability testing to inform design decisions",
+        "Create wireframes, prototypes, and high-fidelity designs",
+        "Collaborate closely with PMs, engineers, and researchers throughout the product lifecycle",
+        "Define and advocate for user needs in product discussions",
+        "Contribute to and evolve Meta's design systems",
+        "Present designs to leadership and stakeholders with clear rationale",
+        "Participate in design critiques, giving and receiving constructive feedback",
+        "Partner with engineering to ensure designs are implemented with fidelity",
+        "Use data and experimentation to validate and iterate on designs"
+      ],
+      growthOpportunities: [
+        "Shape experiences used by over 3 billion people worldwide",
+        "Career path: IC3 → IC4 → IC5 → IC6 (Staff) → IC7 → IC8 (Principal)",
+        "Both IC and design management tracks supported",
+        "Work on diverse products: social, messaging, commerce, AR/VR, AI",
+        "Strong internal mobility - designers move between product areas",
+        "Access to world-class user research capabilities",
+        "Design for emerging platforms: Quest VR, Ray-Ban Meta glasses",
+        "Collaborate with leading researchers on human-centered AI",
+        "Shape the future of how people connect and interact"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call to discuss your design background and portfolio highlights. The recruiter explains Meta's design org and assesses fit based on your experience.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Portfolio Review",
+          description: "60-90 minute deep dive into your portfolio with a design manager or senior designer. You'll walk through 2-3 projects in detail, explaining process, decisions, and outcomes. This is the most critical round.",
+          duration: "60-90 minutes"
+        },
+        {
+          step: 3,
+          title: "Design Exercise",
+          description: "You'll complete a design exercise (typically given in advance). This may involve improving a Meta product or designing a new feature. You'll present your work and discuss your design decisions.",
+          duration: "60-90 minutes (plus prep time)"
+        },
+        {
+          step: 4,
+          title: "Virtual On-site Loop (4 rounds)",
+          description: "Full interview day: (1) Design deep dive - detailed discussion of your work and approach; (2) App critique - evaluate and improve an existing product; (3) Cross-functional collaboration - how you work with PM and engineering; (4) Behavioral - Meta values and design leadership.",
+          duration: "4 hours"
+        },
+        {
+          step: 5,
+          title: "Hiring Committee & Team Matching",
+          description: "Design hiring committee reviews feedback. If approved, you'll match with teams based on interests and mutual fit.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through your design process from problem identification to final solution.",
+        "How would you redesign Facebook's onboarding experience for new users?",
+        "Critique Instagram's current Stories feature. What would you change?",
+        "How do you approach designing for accessibility?",
+        "Design a feature to improve meaningful connections on Facebook.",
+        "How do you handle design feedback you disagree with?",
+        "Walk me through how you use data to inform your design decisions.",
+        "Design an experience to help small businesses succeed on Instagram.",
+        "How do you design for different platforms (mobile, web, VR)?",
+        "Critique WhatsApp's group messaging experience. How would you improve it?",
+        "How do you balance user needs with business goals in your designs?",
+        "Design an AI-powered feature for Messenger that enhances conversations.",
+        "How do you approach designing for global audiences with diverse needs?",
+        "Walk me through how you validate your designs through research.",
+        "How do you approach designing for privacy while maintaining usability?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a design you're most proud of. What made it successful?",
+        "Describe a design that didn't go as planned. What did you learn?",
+        "Give an example of when you advocated for users against business pressure.",
+        "Tell me about a time you received difficult design feedback. How did you respond?",
+        "Describe how you've collaborated with engineers to ship a great experience.",
+        "Give an example of when you moved fast to ship a design.",
+        "Tell me about a time you simplified a complex experience for users.",
+        "Describe how you stay current with design trends and tools.",
+        "Give an example of when you mentored another designer.",
+        "Tell me about a time you challenged a product decision based on design principles.",
+        "Describe how you balance quality with shipping speed.",
+        "Give an example of using data to change your design direction.",
+        "Tell me about a cross-functional collaboration that was particularly effective.",
+        "Describe how you approach designing for billions of diverse users.",
+        "Give an example of demonstrating Meta values in your design work."
+      ],
+      whatTheyLookFor: [
+        "Strong portfolio demonstrating end-to-end design thinking",
+        "User-centered approach with research-informed decisions",
+        "Craft excellence in interaction and visual design",
+        "Systems thinking and scalable design patterns",
+        "Clear communication of design rationale",
+        "Collaboration skills with PM, engineering, and research",
+        "Move Fast: shipping and iterating over perfection",
+        "Focus on Impact: prioritizing designs that create outcomes",
+        "Passion for connecting people through design",
+        "Data-informed design approach"
+      ],
+      interviewTips: [
+        "Prepare 3-4 portfolio projects with deep stories about your process",
+        "Practice presenting your portfolio concisely while being ready for deep dives",
+        "Research Meta's design system and product experiences",
+        "Be ready to critique Meta products constructively",
+        "Prepare for design exercises using Meta products as context",
+        "Show your process, not just final outputs",
+        "Practice giving and receiving design critique",
+        "Understand Meta's design philosophy and values",
+        "Prepare examples of how you've used data in design",
+        "Be ready to discuss accessibility and inclusive design",
+        "Research the specific product area you're interested in",
+        "Show passion for designing experiences that connect people",
+        "Practice whiteboarding design concepts",
+        "Be ready to discuss trade-offs in your design decisions"
+      ],
+      salary: {
+        min: 140000,
+        max: 240000
+      },
+      compensation: [
+        "Competitive base salary at each design level",
+        "Substantial RSU grants - often exceeds base for senior designers",
+        "RSUs vest quarterly after first year",
+        "Sign-on bonus ($40-80K for experienced candidates)",
+        "Semi-annual performance bonuses",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Free meals on campus",
+        "Generous parental leave (4 months)",
+        "Design tool subscriptions and equipment",
+        "Conference attendance support",
+        "Home office setup"
+      ],
+      dayInLife: {
+        overview: "Meta Product Designers balance focused design work with cross-functional collaboration. Days include design exploration, reviews, user research, and partnering with PM and engineering. The culture emphasizes shipping and iteration.",
+        schedule: [
+          { time: "10:00 AM", activity: "Design work", description: "Deep focus time on current design project - wireframes, prototypes, or specs" },
+          { time: "11:30 AM", activity: "Design critique", description: "Share work in progress with design team, receive and give feedback" },
+          { time: "12:30 PM", activity: "Lunch", description: "Free campus lunch, often with teammates" },
+          { time: "1:30 PM", activity: "User research", description: "Review research findings or observe usability study" },
+          { time: "2:30 PM", activity: "PM/Eng sync", description: "Collaborate with PM and engineering on feature requirements and feasibility" },
+          { time: "4:00 PM", activity: "Design iteration", description: "Incorporate feedback and continue design work" },
+          { time: "5:00 PM", activity: "Design review", description: "Present designs to stakeholders or leadership" },
+          { time: "6:00 PM", activity: "Wrap up", description: "Document decisions, update design files, plan tomorrow" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
+        { companyName: "Figma", companySlug: "figma", industry: "Technology" },
+        { companyName: "Spotify", companySlug: "spotify", industry: "Technology" }
+      ]
     }
   },
   'apple': {
