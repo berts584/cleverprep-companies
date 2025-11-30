@@ -25835,610 +25835,1557 @@ export const rolePageContent = {
 
   'lyft': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Lyft build technology that improves people's lives through the world's best transportation. You'll work on critical systems powering millions of rides, from real-time dispatch and pricing to safety features and driver/rider experiences. Engineers operate in a collaborative culture emphasizing impact, inclusivity, and continuous learning.",
-
+      title: 'Software Engineer',
+      slug: 'software-engineer',
+      industry: 'Technology',
+      roleDescription: `Software Engineers at Lyft build the technology powering millions of rides daily, creating transportation solutions that improve people's lives and transform cities. Working on one of the most complex real-time systems in technology, you'll tackle challenges spanning ride matching algorithms, dynamic pricing, mapping and routing, fraud detection, and seamless rider-driver experiences. Lyft's engineering culture emphasizes collaboration, impact, and building products that genuinely help communities. Engineers work in cross-functional teams with significant ownership over their domains, from mobile apps handling location updates every second to backend systems processing billions of events daily. The company's mission—improving people's lives through better transportation—drives technical decisions, whether optimizing for driver earnings, reducing wait times, or ensuring safety. Lyft uses a modern tech stack including Python, Go, and Kotlin, with extensive investment in machine learning and real-time data infrastructure. The interview process evaluates both technical skills and alignment with Lyft's values of collaboration, inclusion, and community impact.`,
       responsibilities: [
-        "Design and build scalable services for ride matching, routing, and dispatch systems",
-        "Develop features for rider and driver mobile and web applications",
-        "Optimize algorithms for pricing, ETAs, and marketplace efficiency",
-        "Build safety and trust systems including real-time fraud detection",
-        "Collaborate with product, design, and data science on feature development",
-        "Participate in on-call rotation supporting production services",
-        "Contribute to engineering culture through mentorship and code reviews",
-        "Work with big data systems processing billions of location events"
+        'Design and build scalable backend services for ride matching, dispatch, and routing',
+        'Develop features for rider and driver mobile applications across iOS and Android',
+        'Optimize algorithms for pricing, ETAs, and marketplace efficiency',
+        'Build safety and trust systems including real-time fraud detection',
+        'Collaborate with product, design, and data science on feature development',
+        'Participate in on-call rotations supporting 24/7 production reliability',
+        'Contribute to engineering culture through mentorship and code reviews',
+        'Work with big data systems processing billions of location events daily',
+        'Drive technical architecture decisions and documentation'
       ],
-
       growthOpportunities: [
-        "Rapid advancement based on impact rather than tenure",
-        "Exposure to large-scale distributed systems and real-time processing",
-        "Cross-functional collaboration with product, data science, and operations teams",
-        "Opportunities to lead projects with measurable business impact",
-        "Internal mobility across marketplace, mapping, safety, and platform teams",
-        "Access to continuous learning resources and conference sponsorships",
-        "Mentorship from experienced engineers in rideshare technology",
-        "Chance to influence product direction and technical strategy"
+        'Progress through IC levels from L3 to Staff (L6) and Principal (L7) engineering',
+        'Transition into engineering management while staying technically engaged',
+        'Lead cross-functional initiatives spanning multiple teams and systems',
+        'Become a domain expert in areas like marketplace, mapping, safety, or payments',
+        'Contribute to Lyft\'s open source projects and technical blog',
+        'Shape technical strategy and architecture for major product initiatives',
+        'Build expertise in real-time systems, ML infrastructure, and location services'
       ],
-
       interviewProcess: [
-        {
-          step: 1,
-          title: "Phone Screen",
-          description: "30-45 minute conversation with recruiter covering background, interest in Lyft, and logistics.",
-          duration: "30-45 minutes"
-        },
-        {
-          step: 2,
-          title: "Technical Phone Screen",
-          description: "60-minute coding interview focusing on data structures, algorithms, and problem-solving. Live coding in shared editor.",
-          duration: "60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Multiple interviews including coding (2 rounds), system design (1 round), behavioral/culture fit (1 round), and sometimes domain-specific deep dive.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Feedback compiled and reviewed by hiring committee. Competitive offer including equity and benefits.",
-          duration: "1 week"
-        }
+        { stage: 'Recruiter Screen', description: '30-minute conversation covering background, interest in Lyft, and logistics' },
+        { stage: 'Technical Phone Screen', description: '60-minute coding interview focusing on data structures, algorithms, and problem-solving via CoderPad' },
+        { stage: 'Onsite - Coding Round 1', description: '60-minute coding interview testing algorithmic thinking and code quality' },
+        { stage: 'Onsite - Coding Round 2', description: '60-minute coding interview with different focus area or domain-specific problems' },
+        { stage: 'Onsite - System Design', description: '60-minute system design discussion designing scalable systems relevant to rideshare' },
+        { stage: 'Onsite - Behavioral', description: '45-minute behavioral interview assessing collaboration, impact, and values alignment' },
+        { stage: 'Team Matching', description: 'If successful, exploratory calls with potential teams to find right fit' }
       ],
-
       technicalQuestions: [
-        "Design Lyft's ride matching and dispatch system",
-        "Implement an algorithm for efficient driver-rider pairing",
-        "Design the surge pricing system that responds to demand",
-        "How would you calculate accurate ETAs for pickups and dropoffs?",
-        "Design a real-time tracking system for rides in progress",
-        "Implement a routing algorithm considering traffic and multiple waypoints",
-        "Design the driver availability and shift management system",
-        "How would you detect and prevent fraudulent rides?",
-        "Design a scalable notification system for riders and drivers",
-        "Implement a queueing system for high-demand pickup locations (airports, venues)"
+        'Design Lyft\'s ride matching system that pairs drivers with riders in real-time',
+        'How would you implement a surge pricing algorithm that responds to supply and demand?',
+        'Design a real-time tracking system showing driver location to waiting riders',
+        'How would you calculate accurate ETAs accounting for traffic and routing?',
+        'Implement an algorithm for efficient driver-rider pairing minimizing wait times',
+        'Design the notification system that alerts drivers of new ride requests',
+        'How would you build a fraud detection system for fake rides or payment fraud?',
+        'Design a routing algorithm that handles multiple stops and traffic conditions',
+        'How would you implement a queuing system for high-demand locations like airports?',
+        'Design the driver availability system managing when drivers go online/offline',
+        'How would you build a ratings system that\'s fair to both drivers and riders?',
+        'Implement a geofencing system for airport pickups and special zones',
+        'Design a system for scheduled rides that books drivers in advance',
+        'How would you handle payment processing across millions of daily transactions?',
+        'Design a system for driver incentives and bonus programs',
+        'How would you build real-time analytics for marketplace health monitoring?'
       ],
-
       behavioralQuestions: [
-        "Tell me about a time you improved transportation or mobility through technology",
-        "Describe a situation where you had to make trade-offs between speed and quality",
-        "How have you worked with product managers and designers to ship features?",
-        "Tell me about a time you identified and solved a production issue",
-        "Describe your experience with real-time systems or location-based services",
-        "How do you approach making technical decisions with incomplete information?",
-        "Tell me about a time you advocated for a better user experience",
-        "Describe a project where you had significant impact on business metrics"
+        'Tell me about a time you improved a product that impacted users\' daily lives',
+        'Describe a situation where you had to balance technical quality with shipping speed',
+        'How have you collaborated with product managers and designers to ship features?',
+        'Tell me about a time you identified and resolved a critical production issue',
+        'Describe your experience building real-time systems or location-based services',
+        'How do you approach making technical decisions with incomplete information?',
+        'Tell me about a time you advocated for a better user experience',
+        'Describe a project where your work had significant measurable business impact',
+        'How have you contributed to building an inclusive engineering team?',
+        'Tell me about a time you simplified a complex system or process',
+        'Describe how you\'ve mentored other engineers or helped teammates grow',
+        'How have you approached debugging a challenging distributed systems problem?',
+        'Tell me about a time you had to push back on a product decision',
+        'Describe how you balance innovation with maintaining system reliability'
       ],
-
       whatTheyLookFor: [
-        "Strong computer science fundamentals in data structures and algorithms",
-        "Experience building scalable distributed systems",
-        "Product thinking and understanding of user impact",
-        "Collaboration skills and ability to work cross-functionally",
-        "Passion for transportation and improving cities",
-        "Bias for action and ability to ship iteratively",
-        "Problem-solving with ambiguous requirements",
-        "Commitment to inclusion and diversity"
+        'Strong computer science fundamentals in data structures and algorithms',
+        'Experience building scalable distributed systems and real-time applications',
+        'Product thinking and understanding of how technology impacts users',
+        'Collaboration skills and ability to work effectively cross-functionally',
+        'Passion for transportation, mobility, and improving communities',
+        'Bias for action and ability to ship iteratively',
+        'Problem-solving skills in ambiguous situations',
+        'Commitment to inclusion, diversity, and building welcoming teams',
+        'Clear communication skills for technical and non-technical audiences',
+        'Growth mindset with curiosity to learn new technologies'
       ],
-
       interviewTips: [
-        "Understand Lyft's mission and how it differs from competitors",
-        "Be prepared to discuss trade-offs in real-time systems design",
-        "Show product thinking beyond just technical implementation",
-        "Demonstrate experience with large-scale systems if applicable",
-        "Prepare examples of collaborating across functions",
-        "Research Lyft's engineering blog for insights on their tech stack",
-        "Be ready to discuss location-based services and mapping challenges",
-        "Express genuine interest in transportation and community impact"
+        'Study Lyft\'s mission and understand how it differs from competitors',
+        'Practice system design problems using rideshare domain examples',
+        'Be ready to discuss trade-offs in real-time systems (latency vs consistency)',
+        'Show product thinking—how technical decisions impact riders and drivers',
+        'Prepare examples demonstrating collaboration and cross-functional work',
+        'Research Lyft\'s engineering blog for insights into their tech stack',
+        'Practice coding problems focusing on graphs, dynamic programming, and optimization',
+        'Express genuine interest in transportation and community impact',
+        'Be ready to discuss location-based services and mapping challenges',
+        'Prepare questions about team culture and engineering practices',
+        'Show how you\'ve contributed to inclusive team environments',
+        'Be authentic about both successes and failures with learnings',
+        'Understand Lyft\'s marketplace dynamics—two-sided platform challenges',
+        'Prepare to discuss on-call experience and production reliability'
       ],
-
+      salary: { min: 140000, max: 250000 },
+      compensation: [
+        'Competitive base salary based on level and location',
+        'Equity grants (RSUs) with annual refreshers',
+        'Annual performance bonuses',
+        'Comprehensive health, dental, and vision insurance',
+        'Lyft Pink membership (unlimited Lyft rides)',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Mental health and wellness benefits',
+        'Professional development and conference budget',
+        'Home office stipend for hybrid work'
+      ],
       dayInLife: {
-        overview: "Lyft engineers work in collaborative teams building features that directly impact millions of riders and drivers. Days involve coding, design discussions, on-call responsibilities, and cross-functional collaboration.",
+        intro: 'A day as a Software Engineer at Lyft combines focused coding with collaborative problem-solving on real-time transportation systems.',
         schedule: [
-          {
-            time: "9:30 AM",
-            activity: "Team Standup",
-            description: "Daily sync on progress, blockers, and priorities with engineering team"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Feature Development",
-            description: "Code new marketplace optimization feature with pair programming session"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Product Review",
-            description: "Demo completed driver experience feature to PM and design partners"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Lunch & Team Time",
-            description: "Team lunch with casual discussion about tech trends and projects"
-          },
-          {
-            time: "2:00 PM",
-            activity: "System Design Discussion",
-            description: "Collaborate with team on architecture for new safety feature"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Code Review & Monitoring",
-            description: "Review PRs from teammates and check dashboards for service health"
-          },
-          {
-            time: "4:30 PM",
-            activity: "1:1 with Manager",
-            description: "Bi-weekly career growth discussion and project prioritization"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Learning Time",
-            description: "Read engineering blog posts on real-time systems and experiment with new tools"
-          }
-        ]
+          '9:30 AM - Start day reviewing overnight metrics and any on-call alerts',
+          '10:00 AM - Team standup covering sprint progress, blockers, and priorities',
+          '10:30 AM - Deep coding block working on new ride matching optimization',
+          '12:00 PM - Product review demoing completed driver experience feature',
+          '12:30 PM - Lunch with team discussing recent engineering blog posts',
+          '1:30 PM - System design discussion collaborating on architecture for new safety feature',
+          '3:00 PM - Code review session providing feedback on teammates\' PRs',
+          '4:00 PM - 1:1 with manager discussing career growth and project priorities',
+          '4:30 PM - Monitoring dashboards and deploying feature to production',
+          '5:30 PM - Wrap up documenting decisions and updating tickets for tomorrow'
+        ],
+        closing: 'Engineering at Lyft means building technology that directly improves how millions of people get around, working with a collaborative team passionate about transportation\'s impact on communities.'
       },
-
-      similarRoles: [
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" }
-      ]
+      similarRoles: ['Senior Software Engineer at Lyft', 'Staff Engineer at Lyft', 'Mobile Engineer at Lyft', 'Backend Engineer at Lyft', 'Platform Engineer at Lyft']
     },
 
     'product-manager': {
-      roleDescription: "Product Managers at Lyft drive product strategy and execution for features impacting millions of riders and drivers. You'll work closely with engineering, design, data science, and operations to build transportation solutions that improve cities and create economic opportunities. PMs at Lyft combine analytical rigor with customer empathy and strategic thinking.",
-
+      title: 'Product Manager',
+      slug: 'product-manager',
+      industry: 'Technology',
+      roleDescription: `Product Managers at Lyft drive product strategy and execution for features impacting millions of riders and drivers daily. Working at the intersection of business, technology, and user experience, you'll own products that shape how people move through cities. Lyft's PM culture emphasizes data-driven decision making, deep user empathy for both sides of the marketplace, and rapid iteration. PMs partner closely with engineering, design, data science, and operations to build transportation solutions that improve communities. The two-sided marketplace presents unique challenges—every feature affects both riders and drivers, often with competing needs. You'll work on problems ranging from reducing wait times and improving driver earnings to launching new markets and products. Lyft's mission of improving people's lives through better transportation means PMs must balance business metrics with genuine community impact. The company values PMs who can think strategically while staying grounded in execution details.`,
       responsibilities: [
-        "Define product vision and roadmap for rider or driver experiences",
-        "Collaborate with engineering and design on feature development",
-        "Analyze data and user research to inform product decisions",
-        "Drive marketplace efficiency through pricing and matching improvements",
-        "Partner with operations on launch strategies and rollouts",
-        "Monitor metrics and iterate based on performance",
-        "Communicate product strategy to leadership and stakeholders",
-        "Balance needs of riders, drivers, and business objectives"
+        'Define product vision and roadmap for rider, driver, or platform experiences',
+        'Partner with engineering and design to ship features that improve the marketplace',
+        'Analyze data and user research to inform product strategy and prioritization',
+        'Drive marketplace efficiency through pricing, matching, and incentive improvements',
+        'Collaborate with operations on launch strategies and city-specific rollouts',
+        'Define and monitor success metrics, iterating based on performance data',
+        'Communicate product strategy to leadership and stakeholders across the company',
+        'Balance needs of riders, drivers, and business objectives in every decision',
+        'Lead cross-functional initiatives spanning multiple teams and domains'
       ],
-
       growthOpportunities: [
-        "Rapid career progression based on product impact and leadership",
-        "Exposure to complex marketplace dynamics and real-time systems",
-        "Opportunities to own products affecting millions of users",
-        "Cross-functional leadership experience with diverse teams",
-        "Internal mobility across rider, driver, and platform product areas",
-        "Mentorship from experienced product leaders in tech",
-        "Access to data science and research resources",
-        "Influence on transportation and urban mobility strategy"
+        'Progress from PM to Senior PM to Group PM leading multiple product areas',
+        'Advance to Director of Product overseeing entire product domains',
+        'Move into general management roles with broader business scope',
+        'Become an expert in marketplace dynamics, pricing, or growth',
+        'Lead new product initiatives from zero to one',
+        'Build and lead high-performing product teams',
+        'Shape company strategy through executive-level influence'
       ],
-
       interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Screen",
-          description: "30-minute conversation about background, product experience, and interest in Lyft's mission.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Product Case Interview",
-          description: "60-minute product design or analytical case study with PM. Focus on problem-solving and structured thinking.",
-          duration: "60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Product design, analytics/metrics, technical discussion with engineers, behavioral/leadership, and sometimes market sizing or strategy.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Cross-functional review of interview feedback. Offer includes competitive salary, equity, and benefits.",
-          duration: "1 week"
-        }
+        { stage: 'Recruiter Screen', description: '30-minute conversation about background, product experience, and interest in Lyft\'s mission' },
+        { stage: 'Hiring Manager Call', description: '45-minute deep dive into PM philosophy, past products, and team fit' },
+        { stage: 'Product Design Case', description: '60-minute product design case study solving a Lyft-relevant problem' },
+        { stage: 'Analytical Case', description: '60-minute case testing data analysis, metrics definition, and structured thinking' },
+        { stage: 'Technical Interview', description: '45-minute discussion with engineering partner assessing technical fluency' },
+        { stage: 'Behavioral Interview', description: '45-minute interview assessing leadership, collaboration, and values alignment' },
+        { stage: 'Leadership Interview', description: 'Final round with senior product leader discussing strategy and fit' }
       ],
-
       technicalQuestions: [
-        "How would you improve rider retention at Lyft?",
-        "Design a feature to increase driver earnings",
-        "How would you measure the success of a new safety feature?",
-        "What metrics would you track for the ride-matching system?",
-        "How would you prioritize building a new rider feature vs driver feature?",
-        "Design a loyalty program for frequent riders",
-        "How would you approach launching Lyft in a new city?",
-        "What would you do if average wait times increased by 20%?",
-        "How would you improve the airport pickup experience?",
-        "Design a feature to reduce rider cancellations"
+        'How would you improve rider retention at Lyft?',
+        'Design a feature to increase driver earnings without hurting rider experience',
+        'How would you measure the success of a new safety feature?',
+        'What metrics would you track for the ride matching system?',
+        'How would you prioritize building a rider feature vs driver feature?',
+        'Design a loyalty program for frequent Lyft riders',
+        'How would you approach launching Lyft in a new city?',
+        'What would you do if average wait times increased 20% in a major market?',
+        'How would you improve the airport pickup experience?',
+        'Design a feature to reduce rider cancellations',
+        'How would you approach pricing for a new product like scheduled rides?',
+        'What would you build to improve driver onboarding and retention?',
+        'How would you measure and improve marketplace liquidity?',
+        'Design a feature to increase shared ride adoption',
+        'How would you approach a situation where driver supply is consistently low?',
+        'What metrics define a healthy transportation marketplace?'
       ],
-
       behavioralQuestions: [
-        "Tell me about a product you launched and its impact",
-        "Describe a time you used data to make a difficult product decision",
-        "How have you worked with engineering teams to ship features?",
-        "Tell me about a time you had to balance competing stakeholder needs",
-        "Describe your experience building marketplace or platform products",
-        "How do you prioritize features with limited engineering resources?",
-        "Tell me about a product that failed and what you learned",
-        "Describe a time you influenced without authority"
+        'Tell me about a product you launched and its measurable impact',
+        'Describe a time you used data to make a difficult product decision',
+        'How have you worked with engineering teams to ship features on tight timelines?',
+        'Tell me about balancing competing stakeholder needs in a product decision',
+        'Describe your experience building marketplace or platform products',
+        'How do you prioritize features with limited engineering resources?',
+        'Tell me about a product that failed and what you learned from it',
+        'Describe a time you influenced a decision without direct authority',
+        'How have you incorporated user research into product decisions?',
+        'Tell me about navigating ambiguity in a product role',
+        'Describe how you\'ve built trust with engineering and design partners',
+        'How have you communicated difficult trade-offs to stakeholders?',
+        'Tell me about a time you had to kill a feature or project you believed in',
+        'Describe your approach to learning a new product domain quickly'
       ],
-
       whatTheyLookFor: [
-        "Strong analytical and data-driven decision making",
-        "Customer empathy for both riders and drivers",
-        "Technical fluency to collaborate with engineers",
-        "Strategic thinking about marketplace dynamics",
-        "Execution focus and ability to ship products",
-        "Cross-functional leadership and communication",
-        "Passion for transportation and community impact",
-        "Comfort with ambiguity and fast-paced environment"
+        'Strong analytical skills with data-driven decision making approach',
+        'Deep empathy for users on both sides of the marketplace',
+        'Technical fluency to collaborate effectively with engineers',
+        'Strategic thinking about marketplace dynamics and network effects',
+        'Execution focus with proven ability to ship products',
+        'Cross-functional leadership and clear communication',
+        'Passion for transportation and genuine interest in community impact',
+        'Comfort with ambiguity in fast-paced environments',
+        'Product intuition balanced with data validation',
+        'Inclusive mindset considering diverse user needs'
       ],
-
       interviewTips: [
-        "Understand Lyft's two-sided marketplace (riders and drivers)",
-        "Be prepared with product metrics frameworks (e.g., AARRR)",
-        "Show examples of data-driven product decisions",
-        "Research Lyft's products and competitive landscape",
-        "Demonstrate understanding of unit economics in rideshare",
-        "Prepare transportation or mobility-related product ideas",
-        "Be ready to discuss trade-offs between stakeholder groups",
-        "Express genuine passion for improving cities through technology"
+        'Deeply understand Lyft\'s two-sided marketplace dynamics',
+        'Prepare product cases using frameworks like AARRR or HEART metrics',
+        'Have specific examples of data-driven product decisions ready',
+        'Research Lyft\'s products, competitors, and recent launches',
+        'Understand unit economics in rideshare (take rate, incentives, LTV)',
+        'Prepare transportation-related product ideas and opinions',
+        'Practice discussing trade-offs between rider and driver needs',
+        'Express genuine passion for improving cities through technology',
+        'Be ready to do quick calculations and estimations',
+        'Show how you\'ve partnered with engineering on technical products',
+        'Prepare questions about PM culture and team structure',
+        'Research Lyft\'s mission and values—authenticity matters',
+        'Practice structuring answers for case interviews',
+        'Be ready to discuss mobile product challenges'
       ],
-
+      salary: { min: 150000, max: 270000 },
+      compensation: [
+        'Competitive base salary with equity grants (RSUs)',
+        'Annual performance bonuses based on individual and company goals',
+        'Lyft Pink membership (unlimited Lyft rides)',
+        'Comprehensive health, dental, and vision insurance',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Mental health benefits and wellness programs',
+        'Professional development budget',
+        'Parental leave',
+        'Home office stipend for hybrid work'
+      ],
       dayInLife: {
-        overview: "Lyft PMs balance strategic planning, cross-functional collaboration, data analysis, and customer research. Days are varied with meetings, product reviews, and deep work on roadmaps and requirements.",
+        intro: 'A day as a Product Manager at Lyft balances strategic thinking with hands-on execution across the rider-driver marketplace.',
         schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Metrics Review",
-            description: "Analyze overnight data on rider conversion and driver utilization"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Product Sync",
-            description: "Weekly sync with engineering lead on feature development progress"
-          },
-          {
-            time: "11:00 AM",
-            activity: "User Research Session",
-            description: "Observe driver interviews to understand pain points with current app"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Lunch with Designer",
-            description: "Working lunch reviewing mockups for new rider onboarding flow"
-          },
-          {
-            time: "1:30 PM",
-            activity: "Product Review",
-            description: "Present upcoming feature roadmap to VP and gather feedback"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Planning Session",
-            description: "Collaborate with team on Q2 OKRs and prioritization"
-          },
-          {
-            time: "4:00 PM",
-            activity: "Data Analysis",
-            description: "Deep dive into A/B test results for pricing experiment"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Stakeholder Update",
-            description: "Send weekly update email to cross-functional partners on launches"
-          }
-        ]
+          '8:30 AM - Review overnight metrics and market performance dashboards',
+          '9:00 AM - Team standup with engineering and design on sprint progress',
+          '9:30 AM - User research debrief discussing recent driver interview findings',
+          '10:30 AM - Product review with leadership presenting roadmap updates',
+          '11:30 AM - 1:1 with engineering lead on technical approach for new feature',
+          '12:00 PM - Lunch with cross-functional partners from operations',
+          '1:00 PM - A/B test analysis session with data science partner',
+          '2:00 PM - Design critique providing feedback on new rider flow mockups',
+          '3:00 PM - Stakeholder alignment meeting on upcoming market launch',
+          '4:00 PM - Write product spec for next sprint\'s priority feature',
+          '5:00 PM - Quick sync with PM peers on cross-team dependencies',
+          '5:30 PM - Wrap up reviewing tomorrow\'s schedule and priorities'
+        ],
+        closing: 'Product management at Lyft means owning products that directly affect how millions of people get around, partnering with talented teams to build transportation that improves communities.'
       },
-
-      similarRoles: [
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" }
-      ]
+      similarRoles: ['Senior Product Manager at Lyft', 'Group Product Manager at Lyft', 'Product Lead at Lyft', 'Growth PM at Lyft', 'Platform PM at Lyft']
     },
 
     'engineering-manager': {
-      roleDescription: "Engineering Managers at Lyft lead teams building technology that powers millions of rides daily. You'll manage engineers working on critical systems from matching algorithms to mobile apps, while fostering an inclusive culture of learning and impact. EMs balance technical leadership, people management, and strategic planning.",
-
+      title: 'Engineering Manager',
+      slug: 'engineering-manager',
+      industry: 'Technology',
+      roleDescription: `Engineering Managers at Lyft lead teams building the real-time systems that power millions of rides daily. You'll manage engineers working on critical infrastructure—ride matching, pricing, mapping, safety, and marketplace optimization—while developing talent and shaping technical direction. Lyft's EM culture expects strong people leadership combined with technical credibility; EMs participate in architecture decisions, contribute to code review, and maintain deep understanding of their team's systems. You'll partner closely with Product Managers and Design leads as part of cross-functional teams with shared accountability for outcomes. The role requires balancing individual engineer growth with team delivery, technical excellence with shipping pragmatism, and immediate needs with long-term sustainability. Lyft values EMs who build inclusive teams, foster psychological safety, and help engineers do their best work. The company's mission of improving lives through better transportation means your team's work has direct impact on communities.`,
       responsibilities: [
-        "Lead team of 5-10 engineers on rider, driver, or platform products",
-        "Drive technical strategy and architecture decisions",
-        "Partner with product and design on roadmap and execution",
-        "Recruit, develop, and retain top engineering talent",
-        "Conduct 1:1s, performance reviews, and career development planning",
-        "Foster inclusive and high-performing team culture",
-        "Balance technical debt with feature velocity",
-        "Contribute to engineering org strategy and best practices"
+        'Lead, mentor, and grow a team of 5-10 software engineers',
+        'Partner with Product and Design to drive product strategy and execution',
+        'Conduct regular 1:1s, performance reviews, and career development conversations',
+        'Contribute to technical architecture and maintain credibility with the team',
+        'Build inclusive team culture aligned with Lyft\'s values',
+        'Drive hiring for your team including interview calibration and process improvement',
+        'Manage project execution ensuring quality delivery on commitments',
+        'Collaborate with peer EMs on cross-team dependencies and engineering initiatives',
+        'Handle escalations and ensure team maintains production reliability'
       ],
-
       growthOpportunities: [
-        "Scale management skills leading critical transportation systems",
-        "Exposure to large-scale real-time systems and marketplace dynamics",
-        "Opportunities to grow into senior leadership roles",
-        "Cross-functional influence with product, operations, and data science",
-        "Shape engineering culture and technical standards",
-        "Mentor and develop future engineering leaders",
-        "Internal mobility across different product areas",
-        "Impact on Lyft's technical strategy and architecture"
+        'Progress to Senior EM managing multiple teams or larger scope',
+        'Advance to Director of Engineering overseeing product areas',
+        'Move into VP of Engineering with executive responsibilities',
+        'Transition back to Staff or Principal Engineer (path is supported)',
+        'Lead new organization formation for emerging products',
+        'Drive engineering-wide transformation initiatives',
+        'Build expertise in specific domains becoming company authority'
       ],
-
       interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Screen",
-          description: "30-minute conversation about management experience, leadership style, and interest in Lyft.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Technical/Architecture Discussion",
-          description: "60-minute discussion on system design, technical decision-making, and past technical leadership.",
-          duration: "60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-6 rounds)",
-          description: "People management, technical leadership, collaboration with product/design, system design, and leadership/values interviews.",
-          duration: "5-6 hours"
-        },
-        {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Cross-functional review of leadership capability and technical judgment. Competitive offer with equity.",
-          duration: "1 week"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial discussion of management experience, leadership style, and interest in Lyft' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into management philosophy, team building, and technical background' },
+        { stage: 'Technical Assessment', description: 'System design or architecture discussion demonstrating technical depth' },
+        { stage: 'People Management Interview', description: 'Scenarios covering coaching, difficult conversations, and team development' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of partnership skills with Product, Design, and peer EMs' },
+        { stage: 'Behavioral Interview', description: 'Leadership examples and values alignment assessment' },
+        { stage: 'Executive Interview', description: 'Final round with senior engineering leader on strategy and fit' }
       ],
-
       technicalQuestions: [
-        "How would you architect Lyft's real-time ride tracking system?",
-        "Describe your approach to reducing technical debt while maintaining velocity",
-        "How do you make build-vs-buy decisions for infrastructure?",
-        "What's your strategy for scaling systems from 1M to 10M users?",
-        "How do you balance technical excellence with shipping quickly?",
-        "Describe your approach to managing on-call and production incidents",
-        "How would you improve engineering productivity on your team?",
-        "What's your framework for technical decision-making with uncertainty?"
+        'How do you balance technical debt reduction with feature development?',
+        'Describe your approach to making build vs. buy decisions',
+        'Walk me through a complex system your team owns and key architectural decisions',
+        'How do you ensure your team maintains production reliability standards?',
+        'Describe your approach to driving engineering standards across teams',
+        'How do you stay technically credible while managing a growing team?',
+        'How would you approach migrating a critical system without downtime?',
+        'Describe your process for conducting architecture reviews',
+        'How do you balance team velocity with code quality and testing?',
+        'What\'s your approach to capacity planning for systems with variable load?',
+        'How do you evaluate and adopt new technologies on your team?',
+        'Describe a technical decision that didn\'t work out and how you handled it',
+        'How do you approach incident response and post-mortems?',
+        'What\'s your philosophy on code review and engineering best practices?',
+        'How do you handle technical disagreements within your team?',
+        'Describe your approach to on-call and production support'
       ],
-
       behavioralQuestions: [
-        "Tell me about a time you grew a direct report's career",
-        "Describe how you've built inclusive and diverse teams",
-        "How have you handled underperformance on your team?",
-        "Tell me about a difficult trade-off between product and engineering",
-        "Describe your experience managing remote or distributed teams",
-        "How do you build trust with product and design partners?",
-        "Tell me about a time you had to deliver difficult feedback",
-        "Describe a situation where you changed your leadership approach"
+        'Tell me about helping an underperforming engineer improve',
+        'Describe how you\'ve built inclusive teams where everyone belongs',
+        'How have you handled a situation where you disagreed with product direction?',
+        'Tell me about a time you had to make a difficult termination decision',
+        'Describe your approach to giving critical feedback to a strong performer',
+        'How have you managed through organizational change or uncertainty?',
+        'Tell me about developing an engineer from junior to senior level',
+        'Describe how you\'ve partnered with Product to influence roadmap',
+        'How do you build psychological safety on your team?',
+        'Tell me about handling conflicting priorities from leadership',
+        'Describe your most effective team building or culture initiative',
+        'How have you approached a situation with low team morale?',
+        'Tell me about a time you had to deliver difficult news to your team',
+        'Describe how you balance being hands-on with delegating'
       ],
-
       whatTheyLookFor: [
-        "Strong people leadership and team development skills",
-        "Technical depth in distributed systems and architecture",
-        "Cross-functional collaboration with product and design",
-        "Strategic thinking about technology and product roadmap",
-        "Commitment to diversity, equity, and inclusion",
-        "Experience building high-performing engineering teams",
-        "Balance of technical excellence and business pragmatism",
-        "Passion for Lyft's mission and transportation impact"
+        'Strong people leadership with genuine investment in engineer growth',
+        'Technical credibility to earn respect and guide architectural decisions',
+        'Inclusive leadership building teams where everyone can belong',
+        'Strategic thinking about team structure and technical direction',
+        'Excellent partnership skills with Product and Design',
+        'Track record of building high-performing, engaged teams',
+        'Clear communication across engineers, peers, and leadership',
+        'Growth mindset applying to both self and team development',
+        'Alignment with Lyft\'s mission and community impact values',
+        'Comfort with ambiguity and leading through change'
       ],
-
       interviewTips: [
-        "Prepare specific examples of team development and coaching",
-        "Be ready to discuss technical architecture and system design",
-        "Show how you've partnered with product managers effectively",
-        "Demonstrate understanding of marketplace and real-time systems",
-        "Discuss your approach to building inclusive team culture",
-        "Prepare examples of managing through ambiguity and change",
-        "Research Lyft's engineering culture and values",
-        "Be ready to discuss trade-offs between quality and speed"
+        'Prepare specific examples of developing engineers at different levels',
+        'Be ready to discuss technical architecture with depth—Lyft EMs stay technical',
+        'Have concrete examples of building inclusive team culture',
+        'Practice discussing difficult management situations with nuance',
+        'Understand Lyft\'s cross-functional model and triad partnerships',
+        'Research Lyft\'s engineering culture through blog and talks',
+        'Be authentic about your leadership style and philosophy',
+        'Prepare questions about EM growth paths and support',
+        'Show how you\'ve connected team work to company mission',
+        'Be ready to discuss managing through ambiguity and change',
+        'Prepare examples of balancing people needs with delivery pressure',
+        'Show vulnerability—discuss mistakes and what you learned',
+        'Practice articulating how you\'ve grown engineers\' careers',
+        'Understand the two-sided marketplace and real-time systems challenges'
       ],
-
+      salary: { min: 180000, max: 300000 },
+      compensation: [
+        'Competitive base salary with significant equity grants (RSUs)',
+        'Annual refresher grants based on performance',
+        'Performance bonuses tied to team and company goals',
+        'Lyft Pink membership (unlimited Lyft rides)',
+        'Comprehensive health, dental, and vision coverage',
+        'Generous parental leave',
+        'Flexible PTO with expectation that managers model healthy time off',
+        '401(k) with company match',
+        'Leadership development programs and coaching',
+        'Home office stipend for hybrid work'
+      ],
       dayInLife: {
-        overview: "Lyft EMs balance people management, technical leadership, and strategic planning. Days include 1:1s, technical reviews, cross-functional collaboration, and team development.",
+        intro: 'A day as an Engineering Manager at Lyft balances people leadership, technical engagement, and strategic partnership.',
         schedule: [
-          {
-            time: "9:00 AM",
-            activity: "1:1s with Engineers",
-            description: "Career development conversation and project feedback with two team members"
-          },
-          {
-            time: "10:30 AM",
-            activity: "Technical Design Review",
-            description: "Review architecture proposal for new matching algorithm with team"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Product Planning",
-            description: "Collaborate with PM and design on Q2 roadmap and capacity planning"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Recruiting Interview",
-            description: "Conduct system design interview for senior engineer candidate"
-          },
-          {
-            time: "2:00 PM",
-            activity: "Incident Retrospective",
-            description: "Lead postmortem discussion on last week's production issue"
-          },
-          {
-            time: "3:00 PM",
-            activity: "Team Sync",
-            description: "Weekly team meeting to review sprint progress and unblock issues"
-          },
-          {
-            time: "4:00 PM",
-            activity: "Peer Manager Sync",
-            description: "Coordinate cross-team dependencies with another engineering manager"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Performance Reviews",
-            description: "Write mid-year performance reviews for team members"
-          }
-        ]
+          '9:00 AM - Review team dashboards and overnight on-call activity',
+          '9:30 AM - 1:1 with engineer discussing career growth and current project',
+          '10:00 AM - Team standup facilitating discussion of blockers and priorities',
+          '10:30 AM - Architecture review providing input on new system design',
+          '11:30 AM - Cross-functional sync with PM and Design on quarterly planning',
+          '12:00 PM - Lunch with new team member as part of onboarding',
+          '1:00 PM - Engineering leadership meeting on hiring and org topics',
+          '2:00 PM - Code review staying connected to team\'s technical work',
+          '3:00 PM - Interview debrief calibrating on recent candidates',
+          '3:30 PM - 1:1 with direct report working through a challenging situation',
+          '4:30 PM - Performance review prep for upcoming cycle',
+          '5:30 PM - Quick wins celebration with team before wrapping up'
+        ],
+        closing: 'Engineering management at Lyft means building teams that ship impactful transportation technology while creating environments where engineers grow and thrive.'
       },
-
-      similarRoles: [
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" }
-      ]
+      similarRoles: ['Senior Engineering Manager at Lyft', 'Director of Engineering at Lyft', 'Technical Program Manager at Lyft', 'Staff Engineer at Lyft']
     },
 
     'data-scientist': {
-      roleDescription: "Data Scientists at Lyft use data, analytics, and machine learning to optimize the transportation marketplace and improve experiences for riders and drivers. You'll work on problems ranging from surge pricing to fraud detection, partnering with product, engineering, and operations teams. Lyft's data culture emphasizes experimentation, rigor, and measurable impact.",
-
+      title: 'Data Scientist',
+      slug: 'data-scientist',
+      industry: 'Technology',
+      roleDescription: `Data Scientists at Lyft use data, analytics, and machine learning to optimize the transportation marketplace serving millions of riders and drivers. Working with one of the richest real-time datasets in technology—every ride generates location traces, pricing decisions, and behavioral signals—you'll tackle challenges spanning dynamic pricing, demand forecasting, fraud detection, and marketplace optimization. Lyft's data culture emphasizes experimentation, statistical rigor, and measurable impact. Data Scientists partner closely with product, engineering, and operations to turn insights into products and features. The company's two-sided marketplace presents unique analytical challenges: optimizing for riders and drivers simultaneously, understanding network effects, and building models that work across diverse cities and conditions. Lyft invests heavily in data infrastructure, with sophisticated platforms for experimentation, feature engineering, and ML deployment. The interview process evaluates both technical depth and ability to translate analysis into business impact.`,
       responsibilities: [
-        "Analyze marketplace dynamics and driver-rider matching efficiency",
-        "Build machine learning models for pricing, ETAs, and fraud detection",
-        "Design and analyze A/B experiments to measure product impact",
-        "Create dashboards and metrics frameworks for product teams",
-        "Partner with product managers on feature development and prioritization",
-        "Develop predictive models for demand forecasting",
-        "Conduct statistical analysis to inform strategic decisions",
-        "Present insights and recommendations to leadership"
+        'Analyze marketplace dynamics including supply-demand patterns and driver-rider matching',
+        'Build machine learning models for pricing, ETAs, fraud detection, and personalization',
+        'Design and analyze A/B experiments measuring product and algorithm impact',
+        'Create dashboards and metrics frameworks for product and operations teams',
+        'Partner with product managers on feature development and prioritization',
+        'Develop deep domain expertise in assigned areas of the marketplace',
+        'Present findings and recommendations to leadership',
+        'Collaborate with ML engineers to deploy models at scale',
+        'Mentor junior data scientists and contribute to team best practices'
       ],
-
       growthOpportunities: [
-        "Advance from IC data scientist to senior leadership roles",
-        "Exposure to complex marketplace and optimization problems",
-        "Build production ML systems at scale",
-        "Cross-functional collaboration with product, engineering, and ops",
-        "Internal mobility across pricing, matching, safety, and growth teams",
-        "Access to massive datasets on transportation behavior",
-        "Opportunity to publish research and speak at conferences",
-        "Impact on real-world transportation and urban mobility"
+        'Progress through IC levels to Staff and Principal Data Scientist',
+        'Transition into Data Science management leading teams',
+        'Specialize in machine learning engineering or applied research',
+        'Move into Product Management leveraging analytical foundation',
+        'Become domain expert in pricing, marketplace, or specific verticals',
+        'Lead cross-functional initiatives shaping company data strategy',
+        'Contribute to research and publish findings'
       ],
-
       interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Screen",
-          description: "30-minute conversation about background, data science experience, and interest in Lyft.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Technical Screen",
-          description: "60-minute interview covering SQL, statistics, and analytical problem-solving.",
-          duration: "60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Analytics case study, machine learning, coding/SQL, product sense, and behavioral interviews.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Review of technical depth, analytical ability, and product thinking. Competitive offer with equity.",
-          duration: "1 week"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial conversation about background, experience, and interest in Lyft' },
+        { stage: 'Technical Phone Screen', description: '45-minute screen covering statistics, SQL, and analytical problem-solving' },
+        { stage: 'Take-Home Assignment', description: 'Data analysis project with sample dataset, typically 3-4 hours of work' },
+        { stage: 'Onsite - Case Study', description: 'Product analytics case testing metrics definition and business thinking' },
+        { stage: 'Onsite - Technical Deep Dive', description: 'Statistics, ML, and coding assessment through applied problems' },
+        { stage: 'Onsite - Behavioral', description: 'Assessment of collaboration, communication, and values alignment' },
+        { stage: 'Onsite - Presentation', description: 'Present take-home results demonstrating communication and rigor' }
       ],
-
       technicalQuestions: [
-        "How would you design an experiment to test a new surge pricing algorithm?",
-        "Build a model to predict rider demand in the next hour",
-        "How would you detect fraudulent rides in real-time?",
-        "What metrics would you use to measure driver satisfaction?",
-        "Design a recommendation system for ride destinations",
-        "How would you optimize driver-rider matching to reduce wait times?",
-        "Analyze the impact of a price increase on rider conversion",
-        "Build a model to predict driver churn",
-        "How would you measure the success of a new safety feature?",
-        "Design an experiment to test different cancellation fee policies"
+        'How would you design an experiment to test a new surge pricing algorithm?',
+        'Explain how you\'d handle network effects when analyzing a marketplace feature',
+        'How would you build a model to predict driver churn?',
+        'Describe your approach to measuring long-term impact of incentive programs',
+        'How would you design a fraud detection system for fake rides?',
+        'Explain techniques for handling multiple comparisons in experimentation',
+        'How would you build a demand forecasting model for different markets?',
+        'Describe approaches to handling selection bias in marketplace experiments',
+        'How would you measure the impact of a feature on both riders and drivers?',
+        'Explain your approach to causal inference when A/B testing isn\'t possible',
+        'How would you build a recommendation system for driver positioning?',
+        'Describe techniques for analyzing cannibalization effects',
+        'How would you design metrics to capture marketplace health?',
+        'Explain approaches to real-time model scoring at scale',
+        'How would you approach customer lifetime value modeling?',
+        'Describe your process for feature engineering in transportation ML'
       ],
-
       behavioralQuestions: [
-        "Tell me about a data analysis that led to significant product impact",
-        "Describe a time you had to explain complex analysis to non-technical stakeholders",
-        "How have you collaborated with product managers and engineers?",
-        "Tell me about an A/B test that produced surprising results",
-        "Describe your experience with machine learning in production",
-        "How do you approach problems with incomplete or messy data?",
-        "Tell me about a time your analysis changed a strategic decision",
-        "Describe a project where you balanced speed with analytical rigor"
+        'Tell me about an analysis that significantly changed a product decision',
+        'Describe a time your data contradicted stakeholder expectations',
+        'How have you communicated complex findings to non-technical audiences?',
+        'Tell me about an experiment that produced surprising results',
+        'Describe a model you built that was deployed in production',
+        'How have you balanced statistical rigor with practical business needs?',
+        'Tell me about an analysis you later realized had flaws',
+        'Describe how you\'ve partnered with product managers effectively',
+        'How have you influenced product direction through data insights?',
+        'Tell me about navigating ambiguity in an analytical project',
+        'Describe how you prioritize when you have multiple analysis requests',
+        'How have you mentored other data scientists?',
+        'Tell me about working with engineers to deploy ML models',
+        'Describe building dashboards that drove business decisions'
       ],
-
       whatTheyLookFor: [
-        "Strong foundation in statistics, experimentation, and causal inference",
-        "Proficiency in SQL, Python/R, and data analysis tools",
-        "Experience with machine learning and predictive modeling",
-        "Product intuition and business sense",
-        "Ability to translate analysis into actionable insights",
-        "Strong communication skills for technical and non-technical audiences",
-        "Passion for transportation and marketplace problems",
-        "Collaboration skills and cross-functional partnership"
+        'Strong statistical foundation with expertise in experimentation and causal inference',
+        'Machine learning skills applicable to ranking, forecasting, and classification',
+        'Excellent communication translating analysis into business recommendations',
+        'Product intuition connecting data to user and business impact',
+        'Strong coding skills in Python and SQL',
+        'Intellectual curiosity about transportation and marketplace dynamics',
+        'Collaborative mindset working with Product, Engineering, and Operations',
+        'Rigor balanced with pragmatism—knowing when good enough is enough',
+        'Growth mindset with desire to continuously learn',
+        'Alignment with Lyft\'s mission and values'
       ],
-
       interviewTips: [
-        "Understand two-sided marketplace dynamics and challenges",
-        "Be prepared to discuss experimentation methodology and causal inference",
-        "Show examples of data-driven product decisions you influenced",
-        "Demonstrate SQL proficiency and ability to work with large datasets",
-        "Research Lyft's approach to pricing, matching, and marketplace optimization",
-        "Prepare examples of ML models you've built and deployed",
-        "Be ready to discuss trade-offs in model complexity vs interpretability",
-        "Express interest in real-world transportation problems"
+        'Review Lyft\'s engineering blog for data science and experimentation posts',
+        'Practice product analytics cases using rideshare context',
+        'Be ready to discuss experimentation challenges: network effects, interference',
+        'Prepare to write SQL and Python code for analytical problems',
+        'Understand two-sided marketplace dynamics and how they affect analysis',
+        'Practice explaining statistical concepts to non-technical audiences',
+        'Review past work for examples of analysis driving business impact',
+        'Be ready to discuss ML fundamentals and production deployment',
+        'Prepare thoughtful questions about data culture and team challenges',
+        'Show genuine curiosity about transportation and marketplace problems',
+        'Practice presenting analysis clearly with appropriate caveats',
+        'Be ready to discuss handling bias and ensuring fair models',
+        'Prepare examples of collaborating with engineering on data products',
+        'Show how you balance speed with analytical rigor'
       ],
-
+      salary: { min: 145000, max: 260000 },
+      compensation: [
+        'Competitive base salary with equity grants (RSUs)',
+        'Annual performance bonuses and equity refreshers',
+        'Lyft Pink membership (unlimited Lyft rides)',
+        'Comprehensive health, dental, and vision insurance',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Conference attendance and professional development budget',
+        'Access to internal data science training',
+        'Parental leave',
+        'Home office stipend'
+      ],
       dayInLife: {
-        overview: "Lyft data scientists balance exploratory analysis, model development, experimentation, and cross-functional collaboration. Work involves SQL, Python, dashboards, and strategic thinking.",
+        intro: 'A day as a Data Scientist at Lyft balances deep analytical work with collaborative partnership on marketplace challenges.',
         schedule: [
-          {
-            time: "9:30 AM",
-            activity: "Experiment Results Review",
-            description: "Analyze A/B test results for new driver incentive program"
-          },
-          {
-            time: "10:30 AM",
-            activity: "Data Science Team Sync",
-            description: "Weekly standup with DS team to discuss ongoing projects"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Model Development",
-            description: "Build and tune ML model for demand forecasting"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Lunch & Learn",
-            description: "Attend internal tech talk on causal inference methods"
-          },
-          {
-            time: "1:30 PM",
-            activity: "Product Collaboration",
-            description: "Partner with PM to define metrics for new rider feature"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Ad-hoc Analysis",
-            description: "Investigate unexpected spike in cancellation rates"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Dashboard Building",
-            description: "Create Looker dashboard for marketplace health metrics"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Insights Presentation",
-            description: "Present pricing optimization findings to leadership team"
-          }
-        ]
+          '9:00 AM - Review experiment results from overnight pipeline runs',
+          '9:30 AM - Team standup discussing ongoing analyses and priorities',
+          '10:00 AM - Deep work on pricing model feature engineering',
+          '11:30 AM - Meeting with PM to discuss metrics for new feature',
+          '12:00 PM - Lunch with data science colleagues sharing interesting findings',
+          '1:00 PM - Experiment review presenting A/B test results to stakeholders',
+          '2:00 PM - Code review for teammate\'s model implementation',
+          '2:30 PM - SQL analysis exploring driver behavior patterns',
+          '4:00 PM - Office hours helping product team with dashboard questions',
+          '4:30 PM - 1:1 with manager on career growth',
+          '5:00 PM - Document findings and prepare for tomorrow\'s presentation',
+          '5:30 PM - Wrap up with quick experiment monitoring check'
+        ],
+        closing: 'Data Science at Lyft means working on problems that directly impact how millions of people get around, using one of the richest real-time datasets in technology.'
       },
+      similarRoles: ['Senior Data Scientist at Lyft', 'Staff Data Scientist at Lyft', 'ML Engineer at Lyft', 'Analytics Manager at Lyft', 'Research Scientist at Lyft']
+    },
 
-      similarRoles: [
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" }
-      ]
+    'machine-learning-engineer': {
+      title: 'Machine Learning Engineer',
+      slug: 'machine-learning-engineer',
+      industry: 'Technology',
+      roleDescription: `Machine Learning Engineers at Lyft build the intelligent systems that power real-time transportation for millions of riders and drivers. Working with one of the richest mobility datasets in technology, you'll develop ML models for dynamic pricing, demand forecasting, driver positioning, ETA prediction, fraud detection, and personalized recommendations. Unlike pure research roles, MLEs at Lyft focus on production systems—building models that serve millions of predictions per minute with strict latency requirements. The role bridges data science and engineering, requiring both ML expertise and strong software engineering skills. You'll work on unique challenges: models must adapt to real-time market conditions, handle the cold-start problem in new cities, and balance optimization for riders and drivers simultaneously. Lyft's ML infrastructure is sophisticated, with internal platforms for feature stores, model training, and online serving. Teams collaborate closely with Data Scientists who develop experimental models and Software Engineers who integrate ML into products.`,
+      responsibilities: [
+        'Design and deploy machine learning models for pricing, matching, and demand forecasting',
+        'Build robust ML pipelines handling feature engineering, training, and serving at scale',
+        'Develop real-time prediction systems meeting strict latency requirements',
+        'Partner with Data Scientists to translate experimental models into production',
+        'Build and maintain ML infrastructure including feature stores and model serving',
+        'Conduct A/B tests measuring model impact on marketplace metrics',
+        'Optimize models for latency, cost, and accuracy trade-offs',
+        'Collaborate with Product teams to identify ML opportunities',
+        'Stay current with ML research and evaluate applicability to Lyft problems'
+      ],
+      growthOpportunities: [
+        'Progress through IC levels to Staff and Principal ML Engineer',
+        'Specialize in areas like real-time systems, NLP, computer vision, or forecasting',
+        'Transition into ML Platform engineering building core infrastructure',
+        'Move into Research Scientist roles for more exploratory work',
+        'Lead ML architecture decisions across multiple product areas',
+        'Build and lead ML teams as an Engineering Manager',
+        'Contribute to open source and industry ML standards'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial call covering ML experience, background, and interest in Lyft' },
+        { stage: 'Technical Phone Screen', description: '60-minute interview covering ML fundamentals, coding, and system design' },
+        { stage: 'Onsite - ML Depth', description: 'Deep dive into ML algorithms, model selection, and feature engineering' },
+        { stage: 'Onsite - Coding', description: 'Algorithmic coding interview testing implementation skills' },
+        { stage: 'Onsite - ML System Design', description: 'Design end-to-end ML system for rideshare-relevant problem' },
+        { stage: 'Onsite - Behavioral', description: 'Assessment of collaboration, communication, and values alignment' },
+        { stage: 'Team Matching', description: 'Discussions with potential teams to find right fit' }
+      ],
+      technicalQuestions: [
+        'Design a real-time pricing model that responds to supply and demand',
+        'How would you build a demand forecasting system for different cities?',
+        'Explain your approach to the cold-start problem for new markets',
+        'Design a fraud detection system for fake rides and payment fraud',
+        'How would you build a driver positioning recommendation system?',
+        'Describe techniques for handling class imbalance in churn prediction',
+        'How would you design an ETA prediction model accounting for traffic?',
+        'Explain your approach to feature engineering for marketplace ML',
+        'How would you detect and handle concept drift in pricing models?',
+        'Design an ML pipeline for real-time predictions at scale',
+        'How would you approach multi-objective optimization in matching?',
+        'Explain techniques for interpretable ML in pricing decisions',
+        'How would you build a personalized ride recommendation system?',
+        'Describe your approach to online learning for real-time adaptation',
+        'How would you design A/B testing for ML model changes?',
+        'Explain strategies for reducing model serving latency'
+      ],
+      behavioralQuestions: [
+        'Tell me about an ML model you deployed that had significant business impact',
+        'Describe a time you chose a simpler model over a more complex one',
+        'How have you communicated ML limitations to non-technical stakeholders?',
+        'Tell me about an ML project that failed and what you learned',
+        'Describe how you balance model accuracy with serving latency',
+        'How have you collaborated with data scientists on production ML?',
+        'Tell me about debugging a challenging ML issue in production',
+        'Describe how you approach feature engineering for a new problem',
+        'How have you handled disagreements about model approaches?',
+        'Tell me about improving an existing ML system significantly',
+        'Describe your approach to monitoring models in production',
+        'How have you mentored others in ML best practices?',
+        'Tell me about working with engineers to integrate ML into products',
+        'Describe handling a situation where model performance degraded'
+      ],
+      whatTheyLookFor: [
+        'Strong ML fundamentals with production deployment experience',
+        'Excellent software engineering skills for robust ML systems',
+        'Experience with real-time prediction and low-latency serving',
+        'Pragmatic approach choosing the right technique for the problem',
+        'Strong communication explaining ML to diverse audiences',
+        'Collaborative mindset with Data Science, Product, and Engineering',
+        'Understanding of marketplace dynamics and network effects',
+        'Experience with ML infrastructure at scale',
+        'Growth mindset with continuous learning orientation',
+        'Alignment with Lyft\'s mission and values'
+      ],
+      interviewTips: [
+        'Review Lyft\'s engineering blog for ML posts on pricing and marketplace',
+        'Practice ML system design with focus on production requirements',
+        'Be ready to discuss latency vs accuracy trade-offs',
+        'Prepare examples of deployed models with business impact',
+        'Understand rideshare-specific ML challenges (real-time, two-sided)',
+        'Practice coding ML implementations in Python',
+        'Be ready to explain feature engineering strategies',
+        'Prepare questions about ML infrastructure and team structure',
+        'Show genuine interest in transportation ML problems',
+        'Be ready to discuss model monitoring and production issues',
+        'Review recommendation system and time-series forecasting fundamentals',
+        'Prepare to discuss when simpler models beat complex ones',
+        'Show how you balance innovation with shipping pragmatism',
+        'Be authentic about both successes and failures'
+      ],
+      salary: { min: 160000, max: 280000 },
+      compensation: [
+        'Highly competitive base salary with significant equity (RSUs)',
+        'Annual refresher grants based on performance',
+        'Lyft Pink membership (unlimited Lyft rides)',
+        'Comprehensive health, dental, and vision coverage',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Conference attendance and ML learning budget',
+        'Access to compute resources for experimentation',
+        'Parental leave',
+        'Home office stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as an ML Engineer at Lyft combines deep technical work with collaborative product partnership on real-time systems.',
+        schedule: [
+          '9:00 AM - Review model performance dashboards and overnight metrics',
+          '9:30 AM - Team standup discussing ML projects and blockers',
+          '10:00 AM - Deep work on feature engineering for new pricing model',
+          '12:00 PM - Lunch with ML colleagues discussing recent papers',
+          '1:00 PM - Meeting with PM on ML approach for new product feature',
+          '2:00 PM - Code review for teammate\'s model training pipeline',
+          '3:00 PM - A/B test analysis meeting with Data Science partners',
+          '4:00 PM - Debug model serving latency issue with platform team',
+          '5:00 PM - Write design doc for upcoming ML system improvement',
+          '5:30 PM - Wrap up with experiment monitoring check'
+        ],
+        closing: 'ML Engineering at Lyft means building systems that directly improve transportation for millions while working on unique real-time marketplace challenges.'
+      },
+      similarRoles: ['Senior ML Engineer at Lyft', 'Staff ML Engineer at Lyft', 'Data Scientist at Lyft', 'ML Platform Engineer at Lyft', 'Research Scientist at Lyft']
+    },
+
+    'operations-manager': {
+      title: 'Operations Manager',
+      slug: 'operations-manager',
+      industry: 'Technology',
+      roleDescription: `Operations Managers at Lyft ensure the transportation marketplace runs smoothly in cities across the country, balancing rider availability with driver supply to create reliable experiences. This role bridges technology and on-the-ground execution, managing the complex operational challenges of a real-time marketplace. You'll work on driver supply management, market performance optimization, local partnerships, and incident response—ensuring that when someone opens the Lyft app, there's a driver available nearby. Operations at Lyft requires analytical thinking combined with practical problem-solving; you'll use data to identify issues and develop solutions that work in the real world. The role involves managing local market dynamics, which vary significantly—airport regulations, event traffic, commute patterns, and weather all affect how the marketplace performs. Operations partners closely with Product, Data Science, and Marketing to translate operational insights into platform improvements and localized strategies.`,
+      responsibilities: [
+        'Manage market performance ensuring strong supply-demand balance',
+        'Develop and execute driver acquisition and retention strategies',
+        'Analyze marketplace data to identify opportunities and issues',
+        'Build and manage relationships with local partners and stakeholders',
+        'Lead operational response for special events and high-demand periods',
+        'Collaborate with Product on operational tools and improvements',
+        'Execute localized marketing and driver incentive programs',
+        'Handle escalations and incident response for market issues',
+        'Report on market performance and develop improvement plans'
+      ],
+      growthOpportunities: [
+        'Progress to Senior Operations Manager overseeing multiple markets',
+        'Advance to Regional Operations Director',
+        'Move into General Management with P&L responsibility',
+        'Transition to Product Management with operational expertise',
+        'Lead new market launches and expansion',
+        'Move into corporate strategy or business development',
+        'Build and lead operations teams'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial discussion of operations background and interest in Lyft' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into operations experience, analytical skills, and problem-solving' },
+        { stage: 'Case Study', description: 'Operational case analyzing market performance and developing solutions' },
+        { stage: 'Analytical Assessment', description: 'Data analysis exercise testing Excel/SQL skills and business thinking' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of partnership skills with Product, Marketing, and Data teams' },
+        { stage: 'Behavioral Interview', description: 'Leadership examples and values alignment assessment' },
+        { stage: 'Leadership Interview', description: 'Final round with senior operations leader' }
+      ],
+      technicalQuestions: [
+        'How would you diagnose and address consistently high wait times in a market?',
+        'Design a driver incentive program for a supply-constrained market',
+        'How would you prepare operations for a major sporting event?',
+        'Walk me through how you\'d analyze marketplace health metrics',
+        'How would you approach launching Lyft in a new city?',
+        'Design an operational playbook for weather-related demand spikes',
+        'How would you improve driver retention in a competitive market?',
+        'Walk me through analyzing driver supply patterns to optimize incentives',
+        'How would you balance rider pricing with driver earnings?',
+        'Design a system for managing airport pickup operations',
+        'How would you measure the success of an operational improvement?',
+        'Walk me through troubleshooting a sudden drop in driver online rates',
+        'How would you approach partnering with local government on regulations?',
+        'Design a process for handling high-volume event traffic',
+        'How would you prioritize operational improvements with limited resources?',
+        'Walk me through capacity planning for a market expansion'
+      ],
+      behavioralQuestions: [
+        'Tell me about an operational improvement you led with measurable impact',
+        'Describe handling a crisis or urgent operational issue',
+        'How have you used data to change an operational strategy?',
+        'Tell me about managing competing priorities in operations',
+        'Describe building relationships with external stakeholders',
+        'How have you worked with product teams to improve operations?',
+        'Tell me about a difficult decision balancing driver and rider needs',
+        'Describe leading a team through operational change',
+        'How have you approached operations in unfamiliar markets?',
+        'Tell me about an initiative that didn\'t work and what you learned',
+        'Describe collaborating with marketing on driver acquisition',
+        'How have you handled pushback from stakeholders?',
+        'Tell me about improving team processes or efficiency',
+        'Describe managing operations during a major event or surge'
+      ],
+      whatTheyLookFor: [
+        'Strong analytical skills with ability to use data for decision-making',
+        'Operational experience in fast-paced, complex environments',
+        'Problem-solving ability for ambiguous, real-world challenges',
+        'Cross-functional collaboration with Product, Marketing, and Data',
+        'Communication skills for stakeholder management',
+        'Strategic thinking balancing short-term execution with long-term goals',
+        'Comfort with ambiguity and changing conditions',
+        'Passion for transportation and community impact',
+        'Leadership ability to drive results through others',
+        'Alignment with Lyft\'s values and mission'
+      ],
+      interviewTips: [
+        'Prepare examples of operational improvements with quantified impact',
+        'Be ready to work through market analysis problems analytically',
+        'Understand Lyft\'s marketplace dynamics and two-sided challenges',
+        'Research local market conditions and competitive landscape',
+        'Prepare to discuss handling ambiguity and changing priorities',
+        'Show how you use data while acknowledging real-world constraints',
+        'Be ready to discuss stakeholder management experiences',
+        'Prepare questions about team structure and growth opportunities',
+        'Show genuine interest in transportation and cities',
+        'Be ready to discuss both successes and failures with learnings',
+        'Understand driver and rider perspectives on the marketplace',
+        'Prepare examples of cross-functional collaboration',
+        'Practice case study frameworks for operational problems',
+        'Research Lyft\'s recent operational initiatives and challenges'
+      ],
+      salary: { min: 90000, max: 150000 },
+      compensation: [
+        'Competitive base salary',
+        'Equity grants (RSUs)',
+        'Annual performance bonuses',
+        'Lyft Pink membership (unlimited Lyft rides)',
+        'Comprehensive health, dental, and vision insurance',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Professional development budget',
+        'Parental leave',
+        'Phone and connectivity stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as an Operations Manager at Lyft balances data analysis with on-the-ground problem-solving and stakeholder management.',
+        schedule: [
+          '8:00 AM - Review overnight market performance and any issues',
+          '8:30 AM - Check driver supply levels and adjust incentives if needed',
+          '9:00 AM - Team standup covering market priorities and active issues',
+          '9:30 AM - Analyze weekly marketplace data and identify trends',
+          '11:00 AM - Call with airport authority on pickup zone improvements',
+          '12:00 PM - Lunch with local driver partner for feedback gathering',
+          '1:00 PM - Cross-functional meeting with Product on operational tools',
+          '2:00 PM - Prepare operations plan for upcoming major event',
+          '3:30 PM - Driver incentive program review with Marketing',
+          '4:30 PM - Update market performance report for leadership',
+          '5:00 PM - Review next day\'s expected demand and supply positioning',
+          '5:30 PM - Wrap up with quick check on evening market conditions'
+        ],
+        closing: 'Operations at Lyft means ensuring millions of rides happen smoothly every day, bridging data-driven decisions with real-world execution in communities.'
+      },
+      similarRoles: ['Senior Operations Manager at Lyft', 'Regional Operations Manager at Lyft', 'Market Manager at Lyft', 'Driver Operations Manager at Lyft', 'City Manager at Lyft']
+    },
+
+    'marketing-manager': {
+      title: 'Marketing Manager',
+      slug: 'marketing-manager',
+      industry: 'Technology',
+      roleDescription: `Marketing Managers at Lyft drive growth and brand awareness for one of the most recognized names in transportation. Working across channels including digital, brand, partnerships, and local activation, you'll develop campaigns that acquire riders, retain existing users, and build Lyft's reputation as the friendlier alternative in rideshare. Lyft's marketing is distinctive—emphasizing community impact, driver welfare, and the human connections that happen in cars. The role requires balancing brand building with performance marketing, national campaigns with local relevance, and rider acquisition with driver recruitment. Marketing partners closely with Product on feature launches, Operations on local campaigns, and Data Science on measurement and optimization. Lyft's two-sided marketplace means marketing must speak to both riders and drivers, often with different messages and channels. The company values marketers who combine creative thinking with analytical rigor, building campaigns that resonate emotionally while delivering measurable results.`,
+      responsibilities: [
+        'Develop and execute marketing campaigns driving rider acquisition and engagement',
+        'Manage multi-channel programs across digital, social, partnerships, and events',
+        'Analyze campaign performance and optimize for ROI and growth metrics',
+        'Partner with Creative on campaign concepts and content development',
+        'Collaborate with Product Marketing on feature launches and adoption',
+        'Develop localized marketing strategies for different markets',
+        'Manage agency relationships and external partners',
+        'Build brand awareness while driving performance goals',
+        'Coordinate with Driver Marketing on two-sided campaigns'
+      ],
+      growthOpportunities: [
+        'Progress to Senior Marketing Manager and Director roles',
+        'Specialize in brand, performance, partnerships, or driver marketing',
+        'Move into Head of Marketing for regions or verticals',
+        'Transition to Product Marketing or Growth PM roles',
+        'Lead marketing for new products or market expansion',
+        'Build and lead marketing teams',
+        'Shape company marketing strategy at executive level'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial discussion of marketing experience and interest in Lyft' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into marketing philosophy, campaigns, and team fit' },
+        { stage: 'Case Study', description: 'Marketing strategy exercise for Lyft-relevant challenge' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of collaboration with Product, Operations, and Creative' },
+        { stage: 'Presentation Round', description: 'Present past campaign demonstrating strategy and results' },
+        { stage: 'Behavioral Interview', description: 'Values alignment and leadership assessment' },
+        { stage: 'Leadership Interview', description: 'Final round with senior marketing leader' }
+      ],
+      technicalQuestions: [
+        'How would you design a campaign to acquire riders in a new market?',
+        'Walk me through your approach to marketing attribution',
+        'How would you balance brand marketing with performance goals?',
+        'Design a campaign targeting riders who\'ve churned',
+        'How would you approach marketing during a competitive promotional period?',
+        'Walk me through optimizing a campaign based on performance data',
+        'How would you market a new Lyft product feature?',
+        'Design a loyalty program marketing strategy',
+        'How would you approach localized marketing for different cities?',
+        'Walk me through your media mix optimization approach',
+        'How would you market Lyft\'s differentiated brand values?',
+        'Design a co-marketing campaign with a partner brand',
+        'How would you measure brand awareness lift from a campaign?',
+        'Walk me through A/B testing for marketing campaigns',
+        'How would you balance rider and driver marketing messages?',
+        'Design a marketing response to competitor promotions'
+      ],
+      behavioralQuestions: [
+        'Tell me about a campaign you led that exceeded goals',
+        'Describe pivoting a campaign strategy based on performance',
+        'How have you balanced creative vision with data-driven decisions?',
+        'Tell me about marketing to an audience different from yourself',
+        'Describe building relationships with creative partners',
+        'How have you handled budget constraints while driving growth?',
+        'Tell me about a campaign that underperformed and what you learned',
+        'Describe collaborating with product teams on launches',
+        'How have you approached competitive marketing situations?',
+        'Tell me about leading through ambiguity in marketing strategy',
+        'Describe managing agency relationships effectively',
+        'How have you built brand while driving performance?',
+        'Tell me about adapting national campaigns for local markets',
+        'Describe influencing stakeholders on marketing strategy'
+      ],
+      whatTheyLookFor: [
+        'Strong marketing track record with measurable campaign success',
+        'Balance of creative thinking and analytical optimization',
+        'Brand sensibility aligned with Lyft\'s values',
+        'Multi-channel expertise across digital, social, and traditional',
+        'Strategic thinking connecting marketing to business outcomes',
+        'Local market sensitivity for relevant campaigns',
+        'Collaboration skills with Product, Operations, and Creative',
+        'Alignment with Lyft\'s mission and community values',
+        'Comfort with fast-paced, changing environments',
+        'Passion for transportation and mobility'
+      ],
+      interviewTips: [
+        'Study Lyft\'s recent marketing campaigns and brand positioning',
+        'Prepare campaign examples with clear metrics and learnings',
+        'Be ready to discuss both brand and performance marketing',
+        'Research Lyft\'s competitive differentiation vs Uber',
+        'Show understanding of two-sided marketplace marketing',
+        'Prepare questions about marketing culture and team structure',
+        'Be ready to present creative ideas with strategic rationale',
+        'Understand Lyft\'s brand values (community, friendliness, drivers)',
+        'Show genuine passion for Lyft\'s mission',
+        'Prepare to discuss marketing measurement and attribution',
+        'Be authentic about both successes and failures',
+        'Show how you balance data with creative intuition',
+        'Research local market conditions and competitive dynamics',
+        'Practice case study frameworks for marketing problems'
+      ],
+      salary: { min: 110000, max: 190000 },
+      compensation: [
+        'Competitive base salary with equity (RSUs)',
+        'Annual performance bonuses',
+        'Lyft Pink membership (unlimited Lyft rides)',
+        'Comprehensive health, dental, and vision insurance',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Marketing conference and professional development budget',
+        'Parental leave',
+        'Home office stipend',
+        'Creative tools and software access'
+      ],
+      dayInLife: {
+        intro: 'A day as a Marketing Manager at Lyft balances strategic planning with campaign execution and cross-functional collaboration.',
+        schedule: [
+          '9:00 AM - Review overnight campaign performance dashboards',
+          '9:30 AM - Team standup on active campaigns and priorities',
+          '10:00 AM - Creative review meeting on new campaign concepts',
+          '11:00 AM - Partner with Analytics on campaign optimization',
+          '12:00 PM - Lunch with colleagues from Product Marketing',
+          '1:00 PM - Agency call reviewing upcoming production',
+          '2:00 PM - Strategy session on Q4 campaign planning',
+          '3:00 PM - Cross-functional sync with Operations on local campaigns',
+          '4:00 PM - Budget review and reallocation based on performance',
+          '5:00 PM - Social listening and competitive monitoring',
+          '5:30 PM - Wrap up with campaign status updates'
+        ],
+        closing: 'Marketing at Lyft means building campaigns that grow ridership while reinforcing the brand values that differentiate Lyft in the market.'
+      },
+      similarRoles: ['Senior Marketing Manager at Lyft', 'Brand Marketing Manager at Lyft', 'Growth Marketing Manager at Lyft', 'Driver Marketing Manager at Lyft', 'Product Marketing Manager at Lyft']
+    },
+
+    'ux-designer': {
+      title: 'UX Designer',
+      slug: 'ux-designer',
+      industry: 'Technology',
+      roleDescription: `UX Designers at Lyft create the experiences that help millions of riders get where they're going and drivers earn a living. Working on one of the most used mobile apps in transportation, you'll design for complex real-time scenarios—from requesting a ride to tracking your driver to navigating as a driver. Lyft's design culture emphasizes user empathy for both sides of the marketplace, inclusive design that works for diverse users, and the craft details that make experiences feel polished. Designers work in cross-functional teams with Product Managers and Engineers, having significant ownership over their product areas. The challenge is unique: designing for users in motion, with divided attention, in varied contexts from daily commutes to late-night rides home. Lyft's design system ensures consistency across rider and driver apps while allowing for context-appropriate innovation. The company's commitment to making transportation accessible means designers must consider users with disabilities, seniors, and those in underserved communities.`,
+      responsibilities: [
+        'Design intuitive user experiences for rider and driver mobile apps',
+        'Conduct user research including interviews, usability testing, and ride-alongs',
+        'Create wireframes, prototypes, and high-fidelity designs using Figma',
+        'Partner with PM and Engineering to ship features that improve the marketplace',
+        'Contribute to and evolve Lyft\'s design system',
+        'Design for accessibility across diverse user needs and abilities',
+        'Present design work and incorporate stakeholder feedback',
+        'Collaborate with researchers to develop deep user empathy',
+        'Mentor junior designers and contribute to design culture'
+      ],
+      growthOpportunities: [
+        'Progress through IC levels to Senior, Staff, and Principal Designer',
+        'Specialize in areas like motion design, design systems, or research',
+        'Transition into Design Management leading design teams',
+        'Move into Product Management leveraging design foundation',
+        'Lead design for major new product initiatives',
+        'Shape company design direction and strategy',
+        'Represent Lyft at industry conferences and events'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about design background and portfolio' },
+        { stage: 'Hiring Manager Call', description: 'Deep discussion of design philosophy and team fit' },
+        { stage: 'Portfolio Review', description: 'Detailed walkthrough of past work focusing on process and outcomes' },
+        { stage: 'Design Exercise', description: 'Take-home or whiteboard exercise solving transportation design problem' },
+        { stage: 'Onsite - Craft Review', description: 'Assessment of design skills, attention to detail, and systems thinking' },
+        { stage: 'Onsite - Cross-functional', description: 'Interviews with PM and Engineering assessing collaboration' },
+        { stage: 'Onsite - Behavioral', description: 'Values alignment and culture fit assessment' }
+      ],
+      technicalQuestions: [
+        'Walk me through your design process from research to launch',
+        'How would you redesign the Lyft ride request experience?',
+        'Design a feature to help drivers navigate to pickup locations more easily',
+        'How do you approach designing for users in motion with divided attention?',
+        'Show how you\'ve used data to inform design decisions',
+        'How would you design the first-time rider experience?',
+        'Describe your approach to mobile design for diverse contexts',
+        'How do you balance consistency with innovation in a design system?',
+        'Design an experience for scheduling rides in advance',
+        'How would you approach accessibility in the Lyft app?',
+        'Show how you collaborate with engineers during implementation',
+        'How would you design for users with disabilities?',
+        'Design a feature to help riders compare ride options',
+        'How do you handle feedback that challenges your design direction?',
+        'Show how you prototype and test ideas quickly',
+        'How would you design for both rider and driver apps with shared patterns?'
+      ],
+      behavioralQuestions: [
+        'Tell me about a design you\'re most proud of and why',
+        'Describe advocating for users when business wanted different direction',
+        'How have you designed for users very different from yourself?',
+        'Tell me about design feedback that changed your approach',
+        'Describe collaborating with engineering on complex implementation',
+        'How have you balanced design quality with shipping quickly?',
+        'Tell me about a design that didn\'t work as expected',
+        'Describe how you\'ve built inclusive design culture',
+        'How have you mentored or helped grow other designers?',
+        'Tell me about navigating ambiguity in a design project',
+        'Describe building trust with cross-functional partners',
+        'How have you approached designing for accessibility?',
+        'Tell me about handling conflicting stakeholder feedback',
+        'Describe your most challenging design problem and how you solved it'
+      ],
+      whatTheyLookFor: [
+        'Strong portfolio demonstrating end-to-end product design',
+        'Deep user empathy for diverse audiences including riders and drivers',
+        'Excellent collaboration with PM, Engineering, and Research',
+        'Clear communication presenting design rationale',
+        'Design system thinking balancing consistency with innovation',
+        'Mobile design expertise for complex, real-time experiences',
+        'Commitment to accessibility and inclusive design',
+        'Growth mindset open to feedback and iteration',
+        'Alignment with Lyft\'s mission and values',
+        'Craft excellence with attention to detail'
+      ],
+      interviewTips: [
+        'Prepare a portfolio that tells stories of process, not just finals',
+        'Use Lyft as a rider and driver if possible to understand both perspectives',
+        'Practice presenting designs with clear rationale',
+        'Be ready to discuss designing for mobile and real-time contexts',
+        'Show how you collaborate with PM and Engineering',
+        'Prepare for design exercises with structured approach',
+        'Research Lyft\'s design culture and recent product changes',
+        'Be ready to discuss accessibility and inclusive design',
+        'Show genuine passion for transportation and mobility',
+        'Prepare thoughtful questions about design team and culture',
+        'Be authentic—Lyft values genuine fit',
+        'Practice articulating trade-offs in design decisions',
+        'Show how you use research and data alongside intuition',
+        'Be ready to discuss failures and what you learned'
+      ],
+      salary: { min: 120000, max: 210000 },
+      compensation: [
+        'Competitive base salary with equity (RSUs)',
+        'Annual performance bonuses',
+        'Lyft Pink membership (unlimited Lyft rides)',
+        'Comprehensive health, dental, and vision insurance',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Design conference and learning budget',
+        'Latest hardware and design tools',
+        'Parental leave',
+        'Home office stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as a UX Designer at Lyft blends creative exploration with user research and collaborative refinement.',
+        schedule: [
+          '9:00 AM - Review user feedback and research findings',
+          '9:30 AM - Team standup with PM and Engineering on sprint progress',
+          '10:00 AM - Deep design work on new feature concepts in Figma',
+          '12:00 PM - Lunch with design teammates sharing inspiration',
+          '1:00 PM - User testing session observing riders request rides',
+          '2:30 PM - Design critique with broader design team',
+          '3:30 PM - Sync with engineer on implementation details',
+          '4:30 PM - Prototype new interaction for testing',
+          '5:00 PM - Document design decisions and update specs',
+          '5:30 PM - Wrap up reviewing tomorrow\'s priorities'
+        ],
+        closing: 'Design at Lyft means creating experiences that help people move through their lives, from daily commutes to nights out, with craft and care.'
+      },
+      similarRoles: ['Senior UX Designer at Lyft', 'Product Designer at Lyft', 'Design Lead at Lyft', 'Visual Designer at Lyft', 'UX Researcher at Lyft']
+    },
+
+    'safety-manager': {
+      title: 'Safety Manager',
+      slug: 'safety-manager',
+      industry: 'Technology',
+      roleDescription: `Safety Managers at Lyft protect the millions of riders and drivers who use the platform daily, developing programs and policies that make transportation safer for everyone. This role combines operational excellence with policy development, working across the company to prevent incidents, respond effectively when they occur, and continuously improve safety systems. You'll lead initiatives spanning driver screening, in-app safety features, incident response, and regulatory compliance. Lyft's commitment to safety is central to its brand—riders and drivers choose Lyft because they trust they'll be protected. Safety at Lyft means balancing protection with accessibility, implementing measures that prevent harm without creating unnecessary friction. You'll partner with Product on safety features, Legal on compliance, Operations on implementation, and Government Relations on regulatory requirements. The role requires analytical thinking to identify risks, operational skills to implement solutions, and empathy to handle sensitive situations affecting real people.`,
+      responsibilities: [
+        'Develop and implement safety policies protecting riders and drivers',
+        'Lead incident response and escalation processes for safety events',
+        'Partner with Product on safety feature requirements and priorities',
+        'Manage driver screening and background check programs',
+        'Analyze safety data to identify trends and improvement opportunities',
+        'Collaborate with Legal and Government Relations on regulatory compliance',
+        'Build and train teams on safety protocols and procedures',
+        'Lead crisis response for high-profile safety incidents',
+        'Develop safety communications and education for users'
+      ],
+      growthOpportunities: [
+        'Progress to Senior Safety Manager and Director roles',
+        'Specialize in areas like driver safety, rider safety, or fraud prevention',
+        'Move into Head of Safety with executive responsibilities',
+        'Transition to Policy or Legal roles leveraging safety expertise',
+        'Lead safety for new products and markets',
+        'Shape industry standards for rideshare safety',
+        'Build and lead safety teams'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial discussion of safety background and interest in Lyft' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into safety philosophy, experience, and problem-solving' },
+        { stage: 'Case Study', description: 'Scenario-based exercise on handling safety situations' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of collaboration with Legal, Product, and Operations' },
+        { stage: 'Leadership Interview', description: 'Discussion of crisis management and stakeholder handling' },
+        { stage: 'Behavioral Interview', description: 'Values alignment and culture fit assessment' },
+        { stage: 'Executive Interview', description: 'Final round with senior safety leader' }
+      ],
+      technicalQuestions: [
+        'How would you design a driver screening program that balances safety with accessibility?',
+        'Walk me through handling a high-profile safety incident',
+        'How would you measure the effectiveness of a safety feature?',
+        'Design a protocol for responding to in-ride emergencies',
+        'How would you approach safety differently in different markets?',
+        'Walk me through analyzing safety data to identify risk patterns',
+        'How would you balance rider safety with driver safety?',
+        'Design a safety training program for new drivers',
+        'How would you communicate a safety incident to the public?',
+        'Walk me through evaluating a new safety technology',
+        'How would you handle a regulatory requirement that conflicts with operations?',
+        'Design a framework for escalation decisions in ambiguous situations',
+        'How would you measure the impact of safety programs on user trust?',
+        'Walk me through developing safety protocols for autonomous vehicles',
+        'How would you approach safety for vulnerable populations?',
+        'Design a system for user safety reporting and response'
+      ],
+      behavioralQuestions: [
+        'Tell me about a safety program you implemented with measurable impact',
+        'Describe handling a crisis situation under pressure',
+        'How have you balanced safety requirements with business needs?',
+        'Tell me about a difficult decision involving user safety',
+        'Describe building relationships with regulatory agencies',
+        'How have you communicated sensitive safety information to stakeholders?',
+        'Tell me about a safety initiative that didn\'t work as expected',
+        'Describe leading a team through a challenging safety event',
+        'How have you approached safety for users different from yourself?',
+        'Tell me about influencing product decisions with safety concerns',
+        'Describe building a culture of safety in an organization',
+        'How have you handled pushback on safety requirements?',
+        'Tell me about developing others in safety roles',
+        'Describe managing competing priorities in safety decisions'
+      ],
+      whatTheyLookFor: [
+        'Strong safety experience in transportation, technology, or related fields',
+        'Excellent judgment in crisis situations and ambiguous scenarios',
+        'Analytical skills for identifying risks and measuring impact',
+        'Cross-functional collaboration with Legal, Product, and Operations',
+        'Communication skills for sensitive topics and diverse audiences',
+        'Strategic thinking about safety systems and programs',
+        'Empathy for affected users while maintaining objectivity',
+        'Alignment with Lyft\'s mission and values',
+        'Resilience for emotionally challenging work',
+        'Commitment to accessibility alongside safety'
+      ],
+      interviewTips: [
+        'Research Lyft\'s public safety initiatives and features',
+        'Prepare examples of safety programs with measurable outcomes',
+        'Practice articulating decision frameworks for difficult situations',
+        'Be ready to discuss balancing safety with accessibility',
+        'Show understanding of rideshare-specific safety challenges',
+        'Prepare questions about safety team structure and culture',
+        'Be authentic about the challenges of safety work',
+        'Show empathy while demonstrating analytical rigor',
+        'Research regulatory landscape for rideshare safety',
+        'Be ready to discuss crisis communication approaches',
+        'Show strategic thinking beyond individual incidents',
+        'Prepare examples of cross-functional collaboration',
+        'Practice discussing sensitive topics professionally',
+        'Be ready to discuss maintaining personal resilience'
+      ],
+      salary: { min: 120000, max: 200000 },
+      compensation: [
+        'Competitive base salary with equity (RSUs)',
+        'Annual performance bonuses',
+        'Lyft Pink membership (unlimited Lyft rides)',
+        'Comprehensive health, dental, and vision coverage including mental health',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Professional development budget',
+        'Wellness and resilience support',
+        'Parental leave',
+        'Home office stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as a Safety Manager at Lyft balances strategic program development with responsive incident handling.',
+        schedule: [
+          '8:30 AM - Review overnight incident reports and escalations',
+          '9:00 AM - Morning sync with safety team on priorities and active issues',
+          '9:30 AM - Partner meeting with Product on upcoming safety feature',
+          '10:30 AM - Analyze safety data identifying emerging patterns',
+          '11:30 AM - Call with Legal on regulatory compliance requirements',
+          '12:00 PM - Lunch with cross-functional partners',
+          '1:00 PM - Case review calibration on escalated incidents',
+          '2:30 PM - Policy development work on new screening guidelines',
+          '3:30 PM - Cross-functional sync with Operations on implementation',
+          '4:30 PM - Strategic planning for upcoming quarter',
+          '5:30 PM - Wrap up with incident monitoring check'
+        ],
+        closing: 'Safety at Lyft is demanding but meaningful work—ensuring millions of rides happen safely every day and maintaining the trust that makes the platform possible.'
+      },
+      similarRoles: ['Senior Safety Manager at Lyft', 'Safety Director at Lyft', 'Trust & Safety Manager at Lyft', 'Risk Manager at Lyft', 'Security Manager at Lyft']
+    },
+
+    'business-development-manager': {
+      title: 'Business Development Manager',
+      slug: 'business-development-manager',
+      industry: 'Technology',
+      roleDescription: `Business Development Managers at Lyft build and manage partnerships that expand Lyft's reach and create value for riders, drivers, and partners. Working across industries including healthcare, hospitality, enterprise, and entertainment, you'll develop relationships that integrate Lyft transportation into partners' ecosystems. This role combines strategic thinking with relationship management—identifying opportunities, structuring deals, and ensuring partnerships deliver results. Lyft's business development is distinctive because transportation touches nearly every industry; partners range from hospitals transporting patients to arenas moving fans to enterprises providing employee benefits. You'll work closely with Product on partner integrations, Operations on implementation, and Legal on deal structure. The role requires understanding partners' businesses deeply, crafting solutions that address their needs while advancing Lyft's strategic priorities.`,
+      responsibilities: [
+        'Identify and develop strategic partnerships expanding Lyft\'s market reach',
+        'Build and maintain relationships with partner executives and stakeholders',
+        'Structure partnership deals including commercial terms and integration requirements',
+        'Partner with Product on partner integration features and APIs',
+        'Collaborate with Operations on partnership implementation and success',
+        'Manage partnership performance and optimize for growth',
+        'Develop industry expertise in assigned verticals',
+        'Present partnership opportunities to leadership',
+        'Coordinate with Legal on contract negotiations'
+      ],
+      growthOpportunities: [
+        'Progress to Senior BD Manager and Director roles',
+        'Specialize in verticals like healthcare, enterprise, or hospitality',
+        'Move into Head of Business Development',
+        'Transition to General Management with P&L responsibility',
+        'Lead new market or product expansion through partnerships',
+        'Move into corporate development or M&A',
+        'Build and lead BD teams'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial discussion of BD experience and interest in Lyft' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into partnership experience and deal structuring' },
+        { stage: 'Case Study', description: 'Partnership strategy exercise for relevant vertical' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of collaboration with Product, Operations, and Legal' },
+        { stage: 'Role Play', description: 'Partnership pitch or negotiation simulation' },
+        { stage: 'Behavioral Interview', description: 'Values alignment and relationship-building assessment' },
+        { stage: 'Leadership Interview', description: 'Final round with BD or business leader' }
+      ],
+      technicalQuestions: [
+        'How would you approach developing partnerships in the healthcare vertical?',
+        'Walk me through structuring a partnership deal with a major hotel chain',
+        'How would you prioritize partnership opportunities with limited resources?',
+        'Design a partnership program for enterprise employee transportation',
+        'How would you measure partnership success and ROI?',
+        'Walk me through evaluating a potential partner\'s fit with Lyft',
+        'How would you handle a partnership that\'s underperforming?',
+        'Design an integration approach for a major partner API',
+        'How would you approach a partnership renewal negotiation?',
+        'Walk me through developing a new vertical for partnerships',
+        'How would you balance partner needs with Lyft\'s strategic priorities?',
+        'Design a partnership go-to-market strategy',
+        'How would you approach competitive partnerships?',
+        'Walk me through presenting a partnership opportunity to leadership',
+        'How would you structure incentives in a partnership agreement?',
+        'Design a partner success program ensuring long-term value'
+      ],
+      behavioralQuestions: [
+        'Tell me about a partnership you developed from scratch to launch',
+        'Describe negotiating a complex deal with challenging terms',
+        'How have you built relationships with senior executives?',
+        'Tell me about a partnership that didn\'t work and what you learned',
+        'Describe managing a partner relationship through difficulties',
+        'How have you balanced multiple partnership priorities?',
+        'Tell me about influencing internal stakeholders for partnership support',
+        'Describe developing expertise in a new industry vertical',
+        'How have you approached partnerships with competitors?',
+        'Tell me about a creative partnership structure you developed',
+        'Describe working with product teams on partner integrations',
+        'How have you handled partner expectations that exceeded capacity?',
+        'Tell me about turning around an underperforming partnership',
+        'Describe building a partnership team or function'
+      ],
+      whatTheyLookFor: [
+        'Strong BD track record with complex partnership deals',
+        'Excellent relationship-building skills at executive level',
+        'Strategic thinking about partnership opportunities and fit',
+        'Deal structuring and negotiation expertise',
+        'Cross-functional collaboration with Product, Ops, and Legal',
+        'Industry knowledge in relevant verticals',
+        'Communication skills for diverse stakeholders',
+        'Alignment with Lyft\'s mission and values',
+        'Execution ability to move from strategy to implementation',
+        'Creativity in developing partnership solutions'
+      ],
+      interviewTips: [
+        'Research Lyft\'s existing partnerships and verticals',
+        'Prepare examples of partnerships with measurable outcomes',
+        'Practice articulating deal structures and terms',
+        'Be ready to discuss industry verticals relevant to Lyft',
+        'Show understanding of transportation\'s role in different industries',
+        'Prepare questions about BD team structure and priorities',
+        'Practice partnership pitches and negotiation scenarios',
+        'Show strategic thinking about partnership opportunities',
+        'Research competitive partnership landscape',
+        'Be ready to discuss handling partnership challenges',
+        'Show cross-functional collaboration experience',
+        'Prepare examples of executive relationship building',
+        'Practice presenting partnership cases clearly',
+        'Be authentic about both successes and failures'
+      ],
+      salary: { min: 130000, max: 220000 },
+      compensation: [
+        'Competitive base salary with equity (RSUs)',
+        'Performance bonuses tied to partnership metrics',
+        'Lyft Pink membership (unlimited Lyft rides)',
+        'Comprehensive health, dental, and vision insurance',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Professional development budget',
+        'Travel budget for partner meetings',
+        'Parental leave',
+        'Home office stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as a Business Development Manager at Lyft balances strategic opportunity development with partner relationship management.',
+        schedule: [
+          '9:00 AM - Review partnership performance dashboards and metrics',
+          '9:30 AM - Team standup on active deals and priorities',
+          '10:00 AM - Call with potential healthcare partner exploring integration',
+          '11:00 AM - Internal meeting with Product on partner API requirements',
+          '12:00 PM - Lunch with existing partner contact for relationship building',
+          '1:30 PM - Deal structuring session with Legal on contract terms',
+          '2:30 PM - Partnership opportunity analysis for new vertical',
+          '3:30 PM - Cross-functional sync with Operations on partnership launch',
+          '4:30 PM - Prepare presentation for leadership on pipeline update',
+          '5:00 PM - Follow-up emails with partners and stakeholders',
+          '5:30 PM - Wrap up with next-day prep'
+        ],
+        closing: 'Business Development at Lyft means building partnerships that expand how and where people access transportation, connecting Lyft with industries that benefit from mobility solutions.'
+      },
+      similarRoles: ['Senior BD Manager at Lyft', 'Strategic Partnerships Manager at Lyft', 'Enterprise Sales Manager at Lyft', 'Healthcare Partnerships Lead at Lyft', 'Corporate Development at Lyft']
+    },
+
+    'finance-analyst': {
+      title: 'Finance Analyst',
+      slug: 'finance-analyst',
+      industry: 'Technology',
+      roleDescription: `Finance Analysts at Lyft provide the financial insights and analysis that drive strategic decision-making for this transportation marketplace. Working with complex marketplace economics—driver incentives, pricing dynamics, and market-by-market performance—you'll help leaders understand business performance and make investment decisions. Lyft's finance function is sophisticated and strategic; analysts are true business partners who influence decisions rather than simply report numbers. The role requires understanding the unique economics of a two-sided marketplace: every incentive affects both rider demand and driver supply, often with complex interactions. You'll work on challenges spanning market profitability analysis, incentive ROI, budget planning, and investor relations support. As a public company, Lyft's finance team plays a critical role in governance and accountability while still maintaining the agility to support a dynamic business.`,
+      responsibilities: [
+        'Build financial models analyzing market performance and profitability',
+        'Partner with operations teams to develop budgets and forecasts',
+        'Analyze marketplace economics including incentive effectiveness',
+        'Support monthly and quarterly business reviews with financial insights',
+        'Evaluate investment opportunities and ROI for market initiatives',
+        'Develop dashboards and reports for financial performance monitoring',
+        'Collaborate with Accounting on close processes',
+        'Support investor relations with financial data and analysis',
+        'Identify opportunities for financial process improvement'
+      ],
+      growthOpportunities: [
+        'Progress to Senior Finance Analyst and Manager levels',
+        'Move into FP&A leadership overseeing major business areas',
+        'Transition to Strategic Finance or Corporate Development',
+        'Become Finance Business Partner embedded with operations',
+        'Lead investor relations or treasury functions',
+        'Move into operations roles leveraging financial expertise',
+        'Build finance teams as a people manager'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial discussion of finance background and interest in Lyft' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into analytical skills and business acumen' },
+        { stage: 'Technical Assessment', description: 'Financial modeling exercise testing analytical skills' },
+        { stage: 'Case Study', description: 'Business analysis case testing strategic thinking' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of business partnership skills' },
+        { stage: 'Behavioral Interview', description: 'Values alignment assessment' },
+        { stage: 'Leadership Interview', description: 'Final round with finance leader' }
+      ],
+      technicalQuestions: [
+        'Walk me through building a market profitability model',
+        'How would you analyze the ROI of driver incentive programs?',
+        'Describe your approach to forecasting in a seasonal business',
+        'How would you evaluate investment in a new market?',
+        'Build a sensitivity analysis for key marketplace drivers',
+        'How would you approach pricing analysis for ride products?',
+        'Describe your process for annual budget development',
+        'How would you analyze the financial impact of a product feature?',
+        'Walk me through variance analysis for market performance',
+        'How would you model driver economics and earnings?',
+        'Describe your approach to cash flow forecasting',
+        'How would you analyze customer lifetime value?',
+        'Build a framework for evaluating market expansion',
+        'How would you approach scenario planning for uncertainty?',
+        'Describe your process for investor presentations',
+        'How would you measure return on marketing investment?'
+      ],
+      behavioralQuestions: [
+        'Tell me about a financial analysis that influenced a business decision',
+        'Describe delivering unwelcome financial news to stakeholders',
+        'How have you communicated complex financial concepts simply?',
+        'Tell me about an analysis where you discovered errors',
+        'Describe balancing analytical rigor with delivering quickly',
+        'How have you partnered with operations teams effectively?',
+        'Tell me about navigating ambiguity in financial planning',
+        'Describe building relationships with business stakeholders',
+        'How have you approached analyzing an unfamiliar business area?',
+        'Tell me about improving a financial process or model',
+        'Describe handling conflicting priorities from stakeholders',
+        'How have you developed others in finance skills?',
+        'Tell me about a strategic recommendation based on your analysis',
+        'Describe managing through business uncertainty'
+      ],
+      whatTheyLookFor: [
+        'Strong financial modeling and analytical skills',
+        'Business acumen connecting finance to strategic decisions',
+        'Excel/Sheets expertise for complex modeling',
+        'Clear communication explaining financial concepts',
+        'Strategic thinking beyond numbers',
+        'Collaborative business partner mindset',
+        'Intellectual curiosity about marketplace dynamics',
+        'Alignment with Lyft\'s mission and values',
+        'Attention to detail with big-picture perspective',
+        'Growth mindset adapting to business changes'
+      ],
+      interviewTips: [
+        'Prepare for technical modeling exercises',
+        'Understand Lyft\'s business model and key financial metrics',
+        'Review Lyft\'s investor relations materials and earnings',
+        'Practice explaining complex analyses simply',
+        'Be ready to discuss marketplace economics',
+        'Prepare questions about finance team and culture',
+        'Show business partnership orientation',
+        'Research transportation industry financial dynamics',
+        'Be ready to discuss prioritization and time management',
+        'Show intellectual curiosity about Lyft\'s challenges',
+        'Prepare to walk through a complex model you\'ve built',
+        'Be authentic about both strengths and development areas',
+        'Demonstrate attention to detail in your work',
+        'Show how finance supports business decisions'
+      ],
+      salary: { min: 85000, max: 150000 },
+      compensation: [
+        'Competitive base salary with equity (RSUs)',
+        'Annual performance bonuses',
+        'Lyft Pink membership (unlimited Lyft rides)',
+        'Comprehensive health, dental, and vision insurance',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Professional development and CFA support',
+        'Parental leave',
+        'Home office stipend',
+        'Finance certification sponsorship'
+      ],
+      dayInLife: {
+        intro: 'A day as a Finance Analyst at Lyft balances deep analytical work with business partnership.',
+        schedule: [
+          '8:30 AM - Review overnight market performance data',
+          '9:00 AM - Team standup on financial close and priorities',
+          '9:30 AM - Deep work on market profitability model',
+          '11:00 AM - Business partner meeting with operations on budget',
+          '12:00 PM - Lunch with finance colleagues',
+          '1:00 PM - Monthly business review preparation',
+          '2:30 PM - Incentive ROI analysis deep dive',
+          '3:30 PM - Cross-functional planning meeting',
+          '4:30 PM - Dashboard updates and reporting',
+          '5:00 PM - Prep materials for leadership presentation',
+          '5:30 PM - Wrap up with quick metric review'
+        ],
+        closing: 'Finance at Lyft means being a strategic partner helping leaders make decisions that drive the business forward in a dynamic marketplace.'
+      },
+      similarRoles: ['Senior Finance Analyst at Lyft', 'FP&A Analyst at Lyft', 'Strategic Finance at Lyft', 'Finance Business Partner at Lyft', 'Market Finance Analyst at Lyft']
+    },
+
+    'driver-operations-manager': {
+      title: 'Driver Operations Manager',
+      slug: 'driver-operations-manager',
+      industry: 'Technology',
+      roleDescription: `Driver Operations Managers at Lyft ensure the driver side of the marketplace thrives, managing programs that attract, retain, and support the hundreds of thousands of drivers who make Lyft possible. This role focuses on the driver experience—from onboarding and activation to earnings optimization and long-term retention. You'll work on driver incentive programs, activation campaigns, support operations, and driver communications. Lyft's commitment to treating drivers well is core to its brand differentiation; drivers choose Lyft because of how they're treated. The role requires balancing driver experience with marketplace economics, implementing programs that help drivers succeed while maintaining healthy business metrics. You'll partner with Product on driver app features, Marketing on recruitment, Data Science on analytics, and Policy on driver programs. The work has real impact on people's livelihoods—helping drivers earn more and have better experiences on the platform.`,
+      responsibilities: [
+        'Develop and execute driver acquisition, activation, and retention programs',
+        'Manage driver incentive programs optimizing for engagement and economics',
+        'Analyze driver supply and performance data to inform strategy',
+        'Partner with Product on driver app improvements and features',
+        'Coordinate with Marketing on driver recruitment campaigns',
+        'Build and manage driver communication strategies',
+        'Lead driver support operations and quality improvement',
+        'Develop driver education and onboarding programs',
+        'Report on driver metrics and develop improvement plans'
+      ],
+      growthOpportunities: [
+        'Progress to Senior Driver Ops Manager and Director roles',
+        'Move into Head of Driver Operations',
+        'Transition to General Operations or General Management',
+        'Lead driver operations for new markets or products',
+        'Move into Product Management for driver experience',
+        'Build and lead driver operations teams',
+        'Shape company strategy for driver relations'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial discussion of operations background and interest in Lyft' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into driver operations experience and philosophy' },
+        { stage: 'Case Study', description: 'Driver program design or analysis exercise' },
+        { stage: 'Analytical Assessment', description: 'Data analysis testing driver metrics understanding' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of collaboration with Product, Marketing, and Data' },
+        { stage: 'Behavioral Interview', description: 'Values alignment and driver empathy assessment' },
+        { stage: 'Leadership Interview', description: 'Final round with operations leader' }
+      ],
+      technicalQuestions: [
+        'How would you design a driver activation program for new signups?',
+        'Walk me through analyzing driver churn and developing retention strategies',
+        'How would you optimize driver incentive spend for ROI?',
+        'Design an onboarding program that sets drivers up for success',
+        'How would you approach driver communication for a major policy change?',
+        'Walk me through driver segmentation for targeted programs',
+        'How would you measure driver satisfaction and experience?',
+        'Design a program to improve driver earnings',
+        'How would you balance driver experience with marketplace economics?',
+        'Walk me through investigating a drop in driver activation rates',
+        'How would you approach driver operations in a competitive market?',
+        'Design a driver loyalty or rewards program',
+        'How would you prioritize driver improvements with limited resources?',
+        'Walk me through driver supply planning for a major event',
+        'How would you approach driver feedback and communication channels?',
+        'Design a program to reduce driver support contact rates'
+      ],
+      behavioralQuestions: [
+        'Tell me about a driver program you implemented with measurable impact',
+        'Describe handling a driver relations crisis or complaint surge',
+        'How have you used data to improve driver experience?',
+        'Tell me about balancing driver needs with business requirements',
+        'Describe building relationships with drivers or driver communities',
+        'How have you worked with product teams on driver features?',
+        'Tell me about a driver initiative that didn\'t work as planned',
+        'Describe leading a team through operational challenges',
+        'How have you approached understanding driver perspectives?',
+        'Tell me about an unpopular decision you had to communicate to drivers',
+        'Describe collaborating with marketing on driver recruitment',
+        'How have you handled competing priorities in driver operations?',
+        'Tell me about improving driver support operations',
+        'Describe developing others in driver-focused roles'
+      ],
+      whatTheyLookFor: [
+        'Strong operations experience with driver or supply-side focus',
+        'Analytical skills for data-driven program optimization',
+        'Deep empathy for drivers and their experience',
+        'Cross-functional collaboration with Product, Marketing, and Data',
+        'Communication skills for driver audiences',
+        'Strategic thinking about driver programs and economics',
+        'Execution ability to implement programs at scale',
+        'Alignment with Lyft\'s mission and driver-focused values',
+        'Problem-solving for complex operational challenges',
+        'Balance of driver advocacy with business needs'
+      ],
+      interviewTips: [
+        'Research Lyft\'s driver programs and value proposition',
+        'Prepare examples of driver or supply-side programs',
+        'Be ready to work through driver data analysis problems',
+        'Show understanding of driver economics and motivations',
+        'Prepare to discuss driver experience from their perspective',
+        'Practice discussing program ROI and optimization',
+        'Show cross-functional collaboration experience',
+        'Prepare questions about driver ops team structure',
+        'Be authentic about driver empathy and advocacy',
+        'Research competitive driver programs and dynamics',
+        'Be ready to discuss balancing driver and business needs',
+        'Prepare examples of handling operational challenges',
+        'Show analytical rigor alongside operational execution',
+        'Be ready to discuss driver communications approaches'
+      ],
+      salary: { min: 95000, max: 160000 },
+      compensation: [
+        'Competitive base salary with equity (RSUs)',
+        'Annual performance bonuses',
+        'Lyft Pink membership (unlimited Lyft rides)',
+        'Comprehensive health, dental, and vision insurance',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Professional development budget',
+        'Parental leave',
+        'Home office stipend',
+        'Phone and connectivity stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as a Driver Operations Manager at Lyft balances program development with driver-focused execution and analysis.',
+        schedule: [
+          '8:30 AM - Review driver metrics dashboards and overnight issues',
+          '9:00 AM - Team standup on driver programs and priorities',
+          '9:30 AM - Analyze driver activation data and develop improvements',
+          '10:30 AM - Partner meeting with Product on driver app features',
+          '11:30 AM - Driver incentive program optimization review',
+          '12:00 PM - Lunch with driver support team for feedback',
+          '1:00 PM - Cross-functional sync with Marketing on recruitment',
+          '2:00 PM - Develop communication plan for upcoming driver changes',
+          '3:30 PM - Data Science meeting on driver segmentation analysis',
+          '4:30 PM - Update driver performance report for leadership',
+          '5:00 PM - Review driver support trends and escalations',
+          '5:30 PM - Wrap up with driver supply check for evening'
+        ],
+        closing: 'Driver Operations at Lyft means directly impacting the livelihoods of hundreds of thousands of drivers while building the supply that makes reliable transportation possible.'
+      },
+      similarRoles: ['Senior Driver Ops Manager at Lyft', 'Driver Experience Manager at Lyft', 'Supply Operations Manager at Lyft', 'Driver Success Manager at Lyft', 'Fleet Operations Manager at Lyft']
     }
+
+
+
   },
 
   // Priority 3A: Spotify
