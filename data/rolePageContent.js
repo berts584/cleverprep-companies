@@ -28319,6 +28319,605 @@ export const rolePageContent = {
         closing: "Oracle Security Engineers enjoy protecting mission-critical enterprise systems while building security capabilities at global cloud scale."
       },
       similarRoles: ["Software Engineer", "Cloud Solutions Architect", "DevOps Engineer", "Database Administrator"]
+    },
+    'devops-engineer': {
+      roleDescription: "DevOps Engineers at Oracle build and maintain the infrastructure automation that powers Oracle Cloud Infrastructure (OCI) and internal development platforms. You'll work on CI/CD pipelines, infrastructure as code, and site reliability for one of the fastest-growing cloud platforms in the enterprise market. Oracle's DevOps challenges are unique—supporting the deployment of over 150 cloud services across global regions while maintaining the reliability that enterprise customers demand. The role combines software engineering with operational expertise, building automation that enables thousands of engineers to deploy services reliably. With Oracle's investment in Autonomous Database and self-managing cloud services, DevOps engineers are at the forefront of building intelligent, automated infrastructure. You'll work with cutting-edge tools including Kubernetes, Terraform, and Oracle's own OCI services, often contributing to the very infrastructure products that OCI customers use.",
+      responsibilities: [
+        "Design and maintain CI/CD pipelines for OCI service deployments",
+        "Build infrastructure automation using Terraform and OCI services",
+        "Ensure platform reliability meeting enterprise SLA requirements",
+        "Develop monitoring, alerting, and observability solutions",
+        "Automate operational tasks and reduce manual toil",
+        "Partner with engineering teams on deployment best practices",
+        "Manage production operations and incident response",
+        "Optimize infrastructure costs while maintaining performance",
+        "Contribute to internal DevOps platforms and tooling"
+      ],
+      growthOpportunities: [
+        "Build infrastructure for one of the fastest-growing enterprise clouds",
+        "Work on automation at massive scale across global regions",
+        "Clear path to Senior, Principal, and Staff Engineer roles",
+        "Contribute to OCI DevOps products used by customers",
+        "Develop expertise in enterprise-scale cloud operations",
+        "Internal mobility across OCI services and products",
+        "Influence DevOps practices across the organization",
+        "Work with cutting-edge cloud-native technologies"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of DevOps background and interest in OCI"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Technical interview on infrastructure and automation"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "Programming interview for automation and tooling"
+        },
+        {
+          stage: "Onsite - System Design",
+          duration: "45 minutes",
+          description: "Design infrastructure for a cloud-scale problem"
+        },
+        {
+          stage: "Onsite - Operations",
+          duration: "45 minutes",
+          description: "Discussion of incident response and operational practices"
+        },
+        {
+          stage: "Onsite - Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of experience and collaboration approach"
+        }
+      ],
+      technicalQuestions: [
+        "Design the CI/CD pipeline for OCI service deployments",
+        "How would you implement infrastructure as code for multi-region deployments?",
+        "Design the monitoring strategy for 150+ cloud services",
+        "How would you approach zero-downtime deployments at enterprise scale?",
+        "Design the disaster recovery automation for OCI regions",
+        "How would you implement automated compliance controls?",
+        "Design a deployment strategy supporting canary and blue-green releases",
+        "How would you handle capacity planning for unpredictable growth?",
+        "Design the secrets management approach for cloud infrastructure",
+        "How would you optimize CI/CD pipeline performance?",
+        "Design the logging and observability stack for cloud services",
+        "How would you approach database deployment automation?",
+        "Design the containerization strategy for OCI microservices",
+        "How would you implement GitOps for infrastructure management?",
+        "Design the incident response automation for production issues"
+      ],
+      behavioralQuestions: [
+        "Tell me about a CI/CD improvement that had significant impact",
+        "Describe handling a major production incident",
+        "How have you balanced automation with operational stability?",
+        "Tell me about reducing toil through automation",
+        "Describe implementing infrastructure as code at scale",
+        "How have you partnered with development teams on DevOps?",
+        "Tell me about optimizing infrastructure costs significantly",
+        "Describe a deployment that didn't go as planned",
+        "How have you improved monitoring and observability?",
+        "Tell me about building a culture of operational excellence",
+        "Describe handling on-call and incident response",
+        "How have you approached security in DevOps practices?",
+        "Tell me about a creative solution to an infrastructure challenge",
+        "Describe mentoring others on DevOps best practices",
+        "How have you stayed current with DevOps technologies?"
+      ],
+      whatTheyLookFor: [
+        "Strong programming skills (Python, Go, or similar)",
+        "Experience with CI/CD tools and practices",
+        "Knowledge of infrastructure as code (Terraform, Ansible)",
+        "Cloud platform expertise (OCI, AWS, Azure, or GCP)",
+        "Understanding of containerization and Kubernetes",
+        "Experience with monitoring and observability tools",
+        "Track record improving reliability and deployment velocity",
+        "Collaborative approach with development teams",
+        "On-call experience and incident management skills",
+        "Interest in enterprise cloud and infrastructure"
+      ],
+      interviewTips: [
+        "Prepare examples of CI/CD pipelines you've built",
+        "Know infrastructure as code patterns deeply",
+        "Be ready to discuss incident response and postmortems",
+        "Study OCI services and DevOps offerings",
+        "Understand enterprise deployment requirements",
+        "Prepare for live infrastructure design exercises",
+        "Show balance of automation skills and operational judgment",
+        "Know monitoring and observability best practices",
+        "Be ready to discuss security in DevOps (DevSecOps)",
+        "Understand compliance automation for enterprises",
+        "Prepare questions about the DevOps team and practices",
+        "Show genuine passion for infrastructure automation",
+        "Demonstrate collaborative approach with developers",
+        "Know Oracle's cloud competitive positioning"
+      ],
+      salary: {
+        min: 130000,
+        max: 250000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $130,000 - $250,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "On-call compensation included",
+        "Certification bonuses for cloud credentials",
+        "Flexible work arrangements",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a DevOps Engineer at Oracle involves building automation, ensuring reliability, and supporting engineering teams on cloud infrastructure.",
+        schedule: [
+          "9:00 AM - Review overnight deployment status and alerts",
+          "9:30 AM - Improve CI/CD pipeline for faster build times",
+          "11:00 AM - Architecture review for new service deployment",
+          "12:00 PM - Lunch with infrastructure team",
+          "1:00 PM - Build Terraform modules for OCI resources",
+          "2:30 PM - Partner with security on compliance automation",
+          "3:30 PM - Incident postmortem review and action items",
+          "4:30 PM - Monitoring dashboard improvements",
+          "5:30 PM - Documentation and knowledge sharing"
+        ],
+        closing: "Oracle DevOps Engineers enjoy building the automation that powers one of the world's leading enterprise cloud platforms."
+      },
+      similarRoles: ["Software Engineer", "Cloud Solutions Architect", "Security Engineer", "Database Administrator"]
+    },
+    'ux-designer': {
+      roleDescription: "UX Designers at Oracle create experiences for enterprise software used by millions of users to run critical business operations. You'll design interfaces for Oracle Cloud applications (Fusion ERP, HCM, CX), Oracle Cloud Infrastructure console, and developer tools. Oracle UX challenges are unique—designing for complex business processes, diverse user personas from finance managers to HR administrators to developers, and maintaining consistency across a massive product portfolio. The Redwood design system provides the foundation for Oracle's modern user experience, and designers contribute to its evolution while applying it to specific product contexts. With Oracle's investment in AI and automation, designers increasingly shape how intelligent features integrate into enterprise workflows. You'll work closely with product management and engineering while engaging with enterprise customers who provide direct feedback on designs. The role offers the opportunity to impact how the world's largest organizations operate through thoughtful, user-centered design.",
+      responsibilities: [
+        "Design user experiences for Oracle Cloud applications and services",
+        "Conduct user research to understand enterprise user needs",
+        "Create wireframes, prototypes, and high-fidelity designs",
+        "Apply and contribute to the Redwood design system",
+        "Partner with product and engineering throughout development",
+        "Design for accessibility and global enterprise users",
+        "Test designs with users and iterate based on feedback",
+        "Present design work to stakeholders and leadership",
+        "Design AI-powered features integrating into enterprise workflows"
+      ],
+      growthOpportunities: [
+        "Design products used by millions of enterprise users globally",
+        "Shape the Redwood design system across Oracle products",
+        "Work on AI integration into enterprise experiences",
+        "Clear career path from Designer to Senior, Principal, and Director",
+        "Direct engagement with enterprise customers",
+        "Internal mobility across cloud, applications, and developer tools",
+        "Present at design conferences and Oracle events",
+        "Influence enterprise UX across the industry"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of design background and interest in enterprise UX"
+        },
+        {
+          stage: "Portfolio Review",
+          duration: "60 minutes",
+          description: "Deep dive into portfolio work with hiring manager"
+        },
+        {
+          stage: "Design Exercise",
+          duration: "90-120 minutes",
+          description: "Design challenge for an enterprise UX problem"
+        },
+        {
+          stage: "Design Presentation",
+          duration: "60 minutes",
+          description: "Present design exercise to design panel"
+        },
+        {
+          stage: "Cross-functional Interview",
+          duration: "45 minutes",
+          description: "Discussion with product and engineering partners"
+        },
+        {
+          stage: "Behavioral Interview",
+          duration: "45 minutes",
+          description: "Discussion of experience and collaboration approach"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve the Oracle Cloud ERP user experience?",
+        "Design an AI assistant for enterprise application users",
+        "How would you approach designing for complex approval workflows?",
+        "Design a dashboard for financial reporting and analytics",
+        "How would you improve the Oracle Cloud Infrastructure console?",
+        "Design an onboarding experience for enterprise software",
+        "How would you approach accessibility for enterprise applications?",
+        "Design a mobile experience for HR self-service",
+        "How would you handle designing for multiple user personas?",
+        "Design the experience for configuring business rules",
+        "How would you approach localization for global enterprise users?",
+        "Design an experience for managing cloud resources",
+        "How would you balance power-user needs with simplicity?",
+        "Design a data visualization for supply chain management",
+        "How would you measure success for an enterprise UX redesign?"
+      ],
+      behavioralQuestions: [
+        "Walk me through a design project from research to launch",
+        "Tell me about designing for complex enterprise workflows",
+        "Describe handling conflicting feedback from stakeholders",
+        "How have you advocated for user needs in enterprise software?",
+        "Tell me about designing for accessibility",
+        "Describe collaborating with engineers on complex features",
+        "How have you influenced product direction through design?",
+        "Tell me about a design that didn't test well and what you learned",
+        "Describe contributing to a design system",
+        "How have you balanced user needs with business requirements?",
+        "Tell me about designing for enterprise users you couldn't directly access",
+        "Describe presenting design to skeptical stakeholders",
+        "How have you incorporated research into your process?",
+        "Tell me about mentoring other designers",
+        "How have you stayed current with enterprise UX trends?"
+      ],
+      whatTheyLookFor: [
+        "Strong portfolio demonstrating enterprise or B2B design",
+        "Experience designing complex workflow applications",
+        "Proficiency with design tools (Figma, Sketch)",
+        "Understanding of design systems and component-based design",
+        "User research skills and empathy for enterprise users",
+        "Strong visual and interaction design abilities",
+        "Communication skills for diverse stakeholders",
+        "Collaborative approach with product and engineering",
+        "Commitment to accessibility and inclusive design",
+        "Interest in enterprise software and business processes"
+      ],
+      interviewTips: [
+        "Prepare portfolio with enterprise or B2B UX case studies",
+        "Study Oracle Cloud applications and the Redwood design system",
+        "Practice designing for complex business workflows",
+        "Show user research integrated into your process",
+        "Be ready for take-home or live design exercises",
+        "Understand enterprise UX challenges (complexity, personas)",
+        "Demonstrate accessibility knowledge and practices",
+        "Prepare examples of cross-functional collaboration",
+        "Show how you handle ambiguity in requirements",
+        "Understand how AI is changing enterprise UX",
+        "Prepare questions about the design team and products",
+        "Show genuine passion for enterprise software",
+        "Be ready to discuss trade-offs in design decisions",
+        "Demonstrate continuous learning with design trends"
+      ],
+      salary: {
+        min: 120000,
+        max: 220000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $120,000 - $220,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Design tools and equipment budget",
+        "Conference attendance budget",
+        "Flexible work arrangements",
+        "Education reimbursement"
+      ],
+      dayInLife: {
+        intro: "A typical day as a UX Designer at Oracle involves creative design work, user research, and cross-functional collaboration on enterprise products.",
+        schedule: [
+          "9:00 AM - Review user research findings from recent study",
+          "9:30 AM - Design exploration for workflow improvement",
+          "11:00 AM - Design critique session with UX team",
+          "12:00 PM - Lunch with product manager discussing roadmap",
+          "1:00 PM - Cross-functional sync with engineering on feasibility",
+          "2:30 PM - Prototype development for user testing",
+          "3:30 PM - User testing session with enterprise customer",
+          "4:30 PM - Document design decisions and specifications",
+          "5:30 PM - Contribute updates to Redwood design system"
+        ],
+        closing: "Oracle UX Designers enjoy solving complex enterprise problems while directly impacting how millions of users work every day."
+      },
+      similarRoles: ["Product Manager", "Software Engineer", "UX Researcher", "Product Designer"]
+    },
+    'sales-engineer': {
+      roleDescription: "Sales Engineers at Oracle are the technical experts who demonstrate how Oracle technology solves complex business problems for enterprise customers. You'll partner with Account Executives on strategic opportunities, delivering product demonstrations, building proof-of-concepts, and designing solutions across Oracle's portfolio—from Oracle Cloud Infrastructure to Autonomous Database to Fusion Applications. The role combines deep technical knowledge with sales acumen, requiring you to engage effectively with both IT teams and C-suite executives. Oracle Sales Engineers work on some of the largest technology deals in the industry, often involving multi-year, multi-million dollar commitments. With Oracle's competitive position against AWS, Microsoft, and Salesforce, SEs must articulate Oracle's unique value in cloud, database, and applications. The role offers significant earning potential through the commission structure and the satisfaction of closing transformational deals that reshape how enterprises operate.",
+      responsibilities: [
+        "Deliver product demonstrations tailored to customer requirements",
+        "Build proof-of-concept solutions for strategic opportunities",
+        "Design solution architectures addressing customer business needs",
+        "Partner with Account Executives throughout the sales cycle",
+        "Respond to RFPs and technical evaluations",
+        "Present Oracle's vision and roadmap to customer executives",
+        "Conduct discovery sessions understanding customer pain points",
+        "Competitive positioning against AWS, Microsoft, and others",
+        "Support customer references and case study development"
+      ],
+      growthOpportunities: [
+        "High earning potential through base + commission structure",
+        "Work on transformational deals with Fortune 500 companies",
+        "Clear path to Principal SE, SE Manager, or Solution Architect",
+        "Develop expertise across Oracle's entire technology portfolio",
+        "Build relationships with C-suite executives",
+        "Travel opportunities for customer engagements globally",
+        "Transition paths to product, consulting, or leadership",
+        "Present at CloudWorld and major industry events"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of sales engineering background and Oracle interest"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into SE experience and customer engagement approach"
+        },
+        {
+          stage: "Demo Presentation",
+          duration: "60 minutes",
+          description: "Deliver a product demonstration for a mock scenario"
+        },
+        {
+          stage: "Technical Assessment",
+          duration: "45 minutes",
+          description: "Oracle product knowledge and solution design questions"
+        },
+        {
+          stage: "Sales Collaboration",
+          duration: "45 minutes",
+          description: "Discussion with sales leadership on partnership approach"
+        }
+      ],
+      technicalQuestions: [
+        "How would you position Oracle Cloud against AWS for an enterprise customer?",
+        "Design a solution for a customer migrating from on-premises Oracle to OCI",
+        "How would you demonstrate Autonomous Database value to a DBA team?",
+        "Design a proof-of-concept for Oracle Fusion ERP implementation",
+        "How would you handle technical objections about Oracle's cloud maturity?",
+        "Demonstrate the value of Oracle's multi-cloud strategy",
+        "Design a solution for a customer with complex compliance requirements",
+        "How would you position Oracle against Salesforce for CRM?",
+        "Design a cloud migration strategy for a large Oracle Database customer",
+        "How would you approach a competitive evaluation against Microsoft?",
+        "Demonstrate Oracle's AI capabilities for an enterprise customer",
+        "Design a solution integrating OCI with existing AWS investments",
+        "How would you handle pricing objections in an enterprise deal?",
+        "Design a high-availability architecture for mission-critical workloads",
+        "How would you scope a proof-of-concept to set up success?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a deal you helped win with a compelling demo",
+        "Describe handling technical objections from a skeptical customer",
+        "How have you partnered effectively with Account Executives?",
+        "Tell me about a proof-of-concept that led to a major deal",
+        "Describe building relationships with customer technical teams",
+        "How have you positioned Oracle against strong competition?",
+        "Tell me about a demo that didn't go as planned",
+        "Describe navigating a complex enterprise sales cycle",
+        "How have you stayed current with Oracle's rapid product evolution?",
+        "Tell me about influencing deal strategy with the sales team",
+        "Describe presenting to C-suite executives",
+        "How have you balanced multiple opportunities simultaneously?",
+        "Tell me about a creative solution for a customer challenge",
+        "Describe transitioning a customer from evaluation to purchase",
+        "How have you contributed to the broader SE team's success?"
+      ],
+      whatTheyLookFor: [
+        "Strong knowledge of Oracle products (Database, Cloud, Applications)",
+        "Excellent presentation and demonstration skills",
+        "Ability to translate business needs into technical solutions",
+        "Sales acumen and understanding of enterprise sales cycles",
+        "Customer-facing presence with executive communication skills",
+        "Competitive knowledge (AWS, Microsoft, Salesforce)",
+        "Problem-solving for diverse customer scenarios",
+        "Collaborative approach with sales teams",
+        "Technical curiosity and continuous learning",
+        "Resilience in competitive situations"
+      ],
+      interviewTips: [
+        "Prepare a polished demo showcasing Oracle technology",
+        "Know Oracle's competitive positioning deeply",
+        "Practice handling common objections",
+        "Understand enterprise sales cycles and stakeholders",
+        "Show balance of technical depth and sales acumen",
+        "Prepare examples of deals you've helped win",
+        "Know OCI, Autonomous Database, and Fusion Applications",
+        "Be ready to design solutions for customer scenarios",
+        "Understand how Oracle differentiates from AWS and Microsoft",
+        "Show genuine passion for Oracle technology",
+        "Prepare questions about the territory and accounts",
+        "Demonstrate collaborative approach with sales",
+        "Know Oracle's recent announcements and roadmap",
+        "Be ready to discuss commission and deal expectations"
+      ],
+      salary: {
+        min: 130000,
+        max: 200000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $130,000 - $180,000 depending on level",
+        "On-target earnings (OTE) with commission: $200,000 - $350,000+",
+        "Commission tied to team and individual deal performance",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Travel and entertainment budget",
+        "CloudWorld and conference attendance",
+        "Presidents Club for top performers"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Sales Engineer at Oracle involves customer demonstrations, solution design, and close partnership with the sales team.",
+        schedule: [
+          "8:00 AM - Prepare demo environment for morning customer meeting",
+          "9:00 AM - Customer demo presenting Oracle Cloud Infrastructure",
+          "11:00 AM - Debrief with Account Executive on opportunity",
+          "12:00 PM - Lunch with SE team sharing competitive insights",
+          "1:00 PM - Discovery call for new enterprise opportunity",
+          "2:30 PM - Build proof-of-concept for Autonomous Database",
+          "4:00 PM - Review RFP response with sales team",
+          "5:00 PM - Research customer's industry for presentation",
+          "5:30 PM - Update demo with latest OCI features"
+        ],
+        closing: "Oracle Sales Engineers enjoy the variety of customer engagements and the satisfaction of winning deals that transform how enterprises operate."
+      },
+      similarRoles: ["Cloud Solutions Architect", "Consultant", "Product Manager", "Software Engineer"]
+    },
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Oracle lead teams building the enterprise software and cloud infrastructure that powers the world's largest organizations. You'll manage teams of 6-12 engineers working on Oracle Database, Oracle Cloud Infrastructure, Fusion Applications, or developer platforms, balancing technical leadership with people development. Oracle EMs are expected to maintain technical credibility—understanding database internals, cloud architecture, or application development deeply enough to guide architectural decisions. The role requires building high-performing teams that deliver enterprise-grade software meeting the reliability, security, and performance expectations of Fortune 500 customers. With Oracle's global engineering presence, managers often work with distributed teams across time zones. The company's decades of enterprise software experience means EMs can learn from deep institutional knowledge while driving innovation in cloud and AI.",
+      responsibilities: [
+        "Lead and develop a team of 6-12 software engineers",
+        "Set technical direction ensuring enterprise-grade quality",
+        "Drive product execution partnering with product management",
+        "Hire diverse talent and develop inclusive team culture",
+        "Manage performance through continuous feedback and coaching",
+        "Balance technical debt with feature development velocity",
+        "Ensure team engagement with customer success and feedback",
+        "Coordinate with global engineering teams across time zones",
+        "Represent engineering in cross-functional planning"
+      ],
+      growthOpportunities: [
+        "Lead teams building technology for Fortune 500 companies",
+        "Clear path to Senior EM, Director, VP, and SVP roles",
+        "Work on foundational technologies with global impact",
+        "Develop leadership skills in enterprise software context",
+        "Internal mobility across cloud, database, and applications",
+        "Access to executive leadership and strategic planning",
+        "Build expertise managing distributed global teams",
+        "Shape Oracle's engineering culture and practices"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of management experience and interest in Oracle"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into leadership philosophy and people management"
+        },
+        {
+          stage: "Technical Leadership",
+          duration: "45 minutes",
+          description: "System design demonstrating technical credibility"
+        },
+        {
+          stage: "People Management",
+          duration: "45 minutes",
+          description: "Scenarios covering hiring, development, and performance"
+        },
+        {
+          stage: "Execution",
+          duration: "45 minutes",
+          description: "Discussion of delivering projects and cross-functional work"
+        },
+        {
+          stage: "Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of leadership style and collaboration approach"
+        }
+      ],
+      technicalQuestions: [
+        "Design the architecture for Oracle Database's query optimizer",
+        "How would you improve reliability for OCI compute services?",
+        "Your team is behind on a critical enterprise feature—how do you recover?",
+        "Design the scaling strategy for Oracle's autonomous database",
+        "How do you balance technical debt with new feature development?",
+        "Walk through scaling a team from 6 to 12 engineers",
+        "Your team has a P1 incident affecting customers—how do you respond?",
+        "Design the testing strategy for enterprise database software",
+        "How would you approach a major database version upgrade?",
+        "Design monitoring strategy for cloud service reliability",
+        "How do you ensure security in enterprise software development?",
+        "Walk through building a new team for a greenfield product",
+        "How would you improve developer productivity for your team?",
+        "Design the release process for enterprise software"
+      ],
+      behavioralQuestions: [
+        "Tell me about building a high-performing engineering team",
+        "Describe managing a performance issue with an engineer",
+        "How have you built inclusive team culture?",
+        "Tell me about driving technical excellence in your team",
+        "Describe resolving a conflict between team members",
+        "How do you foster innovation while maintaining reliability?",
+        "Tell me about delivering difficult feedback effectively",
+        "Describe mentoring engineers to senior levels",
+        "How have you managed remote or distributed teams?",
+        "Tell me about a hiring mistake and what you learned",
+        "Describe leading your team through organizational change",
+        "How do you balance being hands-on with delegation?",
+        "Tell me about developing an engineer's career significantly",
+        "Describe managing stakeholder expectations across functions",
+        "How have you handled burnout on your team?"
+      ],
+      whatTheyLookFor: [
+        "Strong technical credibility in enterprise software",
+        "People management experience leading teams of 5+ engineers",
+        "Track record shipping reliable enterprise products",
+        "Customer-focused mindset for business-critical systems",
+        "Excellent communication and stakeholder management",
+        "Experience with databases, cloud, or enterprise applications",
+        "Excellence in hiring, developing, and retaining talent",
+        "Ability to work with distributed global teams",
+        "Strategic thinking about technology and team direction",
+        "Passion for building high-performing teams"
+      ],
+      interviewTips: [
+        "Prepare examples of building high-performing teams",
+        "Demonstrate technical depth in enterprise software",
+        "Show customer focus and enterprise mindset",
+        "Prepare specific examples of people development",
+        "Be ready to discuss performance management approaches",
+        "Understand Oracle's products and engineering challenges",
+        "Prepare examples of leading through change",
+        "Show how you balance technical and people leadership",
+        "Be ready for system design to show technical credibility",
+        "Prepare questions about the team and organization",
+        "Show genuine passion for developing engineers",
+        "Understand Oracle's engineering culture and values",
+        "Be ready to discuss distributed team management",
+        "Demonstrate strategic thinking about technology"
+      ],
+      salary: {
+        min: 180000,
+        max: 320000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $320,000 depending on level and scope",
+        "Annual bonus typically 15-25% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Executive health benefits at senior levels",
+        "Flexible work arrangements",
+        "Leadership development programs",
+        "Conference and training budget",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as an Engineering Manager at Oracle involves people leadership, technical guidance, and cross-functional collaboration on enterprise software.",
+        schedule: [
+          "9:00 AM - Review team metrics and customer escalation queue",
+          "9:30 AM - 1:1 with senior engineer on career development",
+          "10:00 AM - Team standup and sprint health check",
+          "10:30 AM - Architecture review for database optimization",
+          "11:30 AM - Interview candidate for open position",
+          "12:30 PM - Lunch with product manager discussing roadmap",
+          "1:30 PM - Cross-functional sync with QA and operations",
+          "2:30 PM - 1:1 with engineer on performance goals",
+          "3:30 PM - Manager peer group on organizational initiatives",
+          "4:30 PM - Planning and strategic thinking time"
+        ],
+        closing: "Oracle Engineering Managers enjoy building teams that create foundational technology while developing engineers who become industry experts."
+      },
+      similarRoles: ["Software Engineer", "Cloud Solutions Architect", "Product Manager", "Director of Engineering"]
     }
   },
   'adobe': {
