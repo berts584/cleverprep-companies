@@ -27731,6 +27731,594 @@ export const rolePageContent = {
         closing: "Oracle DBAs enjoy working with the industry's leading database technology while supporting mission-critical systems for the world's largest organizations."
       },
       similarRoles: ["Software Engineer", "Cloud Solutions Architect", "Data Scientist", "Technical Support Engineer"]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Oracle build AI and machine learning solutions that power Autonomous Database, cloud services, and enterprise applications. You'll work on predictive analytics, natural language processing, computer vision, and the generative AI capabilities being integrated across Oracle's product portfolio. Oracle's data science teams tackle unique challenges at the intersection of databases and ML—optimizing query performance through machine learning, building autonomous operations for cloud infrastructure, and developing AI features for healthcare, finance, and enterprise applications. With access to massive enterprise datasets and Oracle's database expertise, data scientists can develop and deploy models at scale that directly impact how businesses operate. The role spans research and applied science, with opportunities to work on cutting-edge problems in LLMs and generative AI while delivering production solutions for enterprise customers.",
+      responsibilities: [
+        "Develop machine learning models for Oracle products and cloud services",
+        "Build AI capabilities for Autonomous Database self-tuning features",
+        "Design predictive analytics for enterprise applications (HCM, ERP, CX)",
+        "Work on natural language processing for conversational AI",
+        "Develop generative AI solutions for healthcare and enterprise use cases",
+        "Partner with product teams to integrate AI into Oracle offerings",
+        "Deploy models at scale serving enterprise customers globally",
+        "Conduct research advancing Oracle's AI/ML capabilities",
+        "Ensure responsible AI practices in model development"
+      ],
+      growthOpportunities: [
+        "Work at the intersection of databases and machine learning",
+        "Build AI features used by Fortune 500 companies",
+        "Clear path from Data Scientist to Principal and Distinguished",
+        "Publish research and present at top conferences",
+        "Work on cutting-edge LLMs and generative AI",
+        "Access to massive enterprise datasets and compute resources",
+        "Internal mobility across cloud, applications, and research",
+        "Shape Oracle's AI strategy and product direction"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of data science background and interest in Oracle AI"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "ML fundamentals, statistics, and problem-solving discussion"
+        },
+        {
+          stage: "Onsite - ML Deep Dive",
+          duration: "45 minutes",
+          description: "Deep technical discussion on ML algorithms and model design"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "Python coding for data manipulation and ML implementation"
+        },
+        {
+          stage: "Onsite - Case Study",
+          duration: "60 minutes",
+          description: "Work through an applied ML problem relevant to Oracle"
+        },
+        {
+          stage: "Onsite - Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of experience and collaboration approach"
+        }
+      ],
+      technicalQuestions: [
+        "Design an ML system for Oracle's Autonomous Database query optimization",
+        "How would you build a predictive model for enterprise software usage?",
+        "Design an anomaly detection system for cloud infrastructure",
+        "How would you approach NLP for Oracle's conversational AI assistant?",
+        "Design a recommendation system for Oracle Cloud services",
+        "How would you build a demand forecasting model for supply chain?",
+        "Design the ML pipeline for production model deployment at Oracle",
+        "How would you approach time series forecasting for database performance?",
+        "Design an LLM-based solution for enterprise document processing",
+        "How would you handle class imbalance in enterprise ML datasets?",
+        "Design a model for predicting customer churn in SaaS applications",
+        "How would you approach explainability for enterprise AI decisions?",
+        "Design a computer vision solution for healthcare applications",
+        "How would you optimize model serving latency for real-time use cases?",
+        "Design a framework for evaluating generative AI outputs"
+      ],
+      behavioralQuestions: [
+        "Tell me about an ML model you deployed to production",
+        "Describe translating business requirements into ML solutions",
+        "How have you communicated ML concepts to non-technical stakeholders?",
+        "Tell me about debugging a model that underperformed in production",
+        "Describe your approach to responsible AI development",
+        "How have you stayed current with ML research?",
+        "Tell me about building ML infrastructure for a team",
+        "Describe collaborating with product teams on AI features",
+        "How have you handled ambiguity in ML projects?",
+        "Tell me about a creative approach to an ML problem",
+        "Describe balancing model accuracy with production constraints",
+        "How have you approached ML experimentation and iteration?",
+        "Tell me about working with large enterprise datasets",
+        "Describe mentoring others on data science best practices",
+        "How have you contributed to ML best practices at your organization?"
+      ],
+      whatTheyLookFor: [
+        "Strong ML fundamentals—algorithms, statistics, model design",
+        "Production experience deploying models at scale",
+        "Python proficiency with ML frameworks (TensorFlow, PyTorch)",
+        "SQL expertise for working with Oracle databases",
+        "Experience with enterprise data and business applications",
+        "Track record building ML features with business impact",
+        "Strong communication skills for cross-functional work",
+        "Interest in LLMs and generative AI applications",
+        "Understanding of responsible AI practices",
+        "Collaborative approach with product and engineering"
+      ],
+      interviewTips: [
+        "Prepare to discuss ML algorithms in depth",
+        "Know production ML challenges and deployment patterns",
+        "Be ready for SQL questions given Oracle's database focus",
+        "Study how ML applies to database optimization",
+        "Understand Oracle's AI products (OCI AI services, Autonomous DB)",
+        "Prepare examples of production ML projects",
+        "Know responsible AI practices and fairness approaches",
+        "Be ready to code ML algorithms and data processing",
+        "Show interest in enterprise AI applications",
+        "Understand how Oracle differentiates in AI (database + AI)",
+        "Prepare questions about the team and AI initiatives",
+        "Demonstrate both research interest and practical focus",
+        "Show ability to work with business stakeholders",
+        "Be ready to discuss LLMs and generative AI trends"
+      ],
+      salary: {
+        min: 140000,
+        max: 280000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $140,000 - $280,000 depending on level",
+        "Annual bonus typically 10-20% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Conference attendance budget",
+        "Cloud compute resources for research",
+        "Education reimbursement",
+        "Flexible work arrangements"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Data Scientist at Oracle involves model development, research, and collaboration with product teams on AI features.",
+        schedule: [
+          "9:00 AM - Review model training results from overnight jobs",
+          "9:30 AM - Deep work on recommendation model improvements",
+          "11:00 AM - Cross-functional sync with product on AI feature",
+          "12:00 PM - Lunch with data science team discussing papers",
+          "1:00 PM - Model experimentation and evaluation",
+          "2:30 PM - Code review for teammate's production pipeline",
+          "3:30 PM - Partner with engineering on model deployment",
+          "4:30 PM - Document model decisions and architecture",
+          "5:30 PM - Research time—latest ML papers and techniques"
+        ],
+        closing: "Oracle Data Scientists enjoy building AI that powers enterprise applications while pushing the boundaries of what's possible at the intersection of databases and machine learning."
+      },
+      similarRoles: ["Software Engineer", "Cloud Solutions Architect", "Product Manager", "AI/ML Engineer"]
+    },
+    'consultant': {
+      roleDescription: "Consultants at Oracle serve as the bridge between Oracle technology and customer success, implementing and optimizing Oracle solutions for enterprises worldwide. You'll work on complex projects deploying Oracle Cloud applications (Fusion ERP, HCM, SCM), database migrations, and cloud infrastructure implementations. Oracle Consulting combines deep product expertise with business process knowledge to help customers transform their operations. The role offers variety—from greenfield implementations to upgrade projects to performance optimization engagements. Consultants develop expertise in specific Oracle products while building business acumen across industries from manufacturing to financial services to healthcare. With Oracle's breadth of offerings across cloud, applications, and database, consultants can specialize or work across the portfolio. The global consulting practice provides opportunities for travel, customer engagement, and career advancement to senior consultant, solution architect, or practice leadership roles.",
+      responsibilities: [
+        "Implement Oracle Cloud applications (Fusion, NetSuite, industry solutions)",
+        "Configure and customize Oracle products to meet business requirements",
+        "Lead requirements gathering and solution design sessions",
+        "Develop data migration strategies and execute migrations",
+        "Design integrations between Oracle and third-party systems",
+        "Conduct user training and change management activities",
+        "Troubleshoot and resolve implementation issues",
+        "Document solutions and create knowledge transfer materials",
+        "Support go-live activities and post-implementation optimization"
+      ],
+      growthOpportunities: [
+        "Develop deep expertise in Oracle's enterprise applications",
+        "Clear path to Senior Consultant, Principal, and Practice Lead",
+        "Work with Fortune 500 and global enterprise customers",
+        "Build business process knowledge across industries",
+        "Travel opportunities for customer engagements globally",
+        "Transition paths to product management or solution architecture",
+        "Oracle certifications and continuous learning",
+        "Lead complex, high-visibility transformation projects"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of consulting background and Oracle experience"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into implementation experience and customer engagement"
+        },
+        {
+          stage: "Technical Assessment",
+          duration: "60 minutes",
+          description: "Oracle product knowledge and implementation scenario"
+        },
+        {
+          stage: "Case Study",
+          duration: "60 minutes",
+          description: "Walk through an implementation scenario demonstrating approach"
+        },
+        {
+          stage: "Behavioral Interview",
+          duration: "45 minutes",
+          description: "Discussion of customer situations and collaboration"
+        }
+      ],
+      technicalQuestions: [
+        "Walk through your approach to an Oracle Fusion ERP implementation",
+        "How would you design a data migration strategy for a large enterprise?",
+        "Describe your experience with Oracle Cloud HCM configuration",
+        "How would you approach requirements gathering for a transformation project?",
+        "Design an integration architecture between Oracle and legacy systems",
+        "How would you handle scope changes during an implementation?",
+        "Describe your experience with Oracle reporting and analytics",
+        "How would you approach testing strategy for a cloud implementation?",
+        "Design a change management approach for ERP go-live",
+        "How would you troubleshoot performance issues in Oracle applications?",
+        "Describe your experience with Oracle workflow configuration",
+        "How would you approach a multi-country rollout?",
+        "Design a security model for Oracle Cloud applications",
+        "How would you handle a difficult customer situation during implementation?",
+        "Describe your experience with Oracle upgrade projects"
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex implementation you led successfully",
+        "Describe managing a project that faced significant challenges",
+        "How have you handled a difficult customer relationship?",
+        "Tell me about translating business requirements into Oracle configuration",
+        "Describe working with offshore or distributed teams",
+        "How have you managed competing priorities across projects?",
+        "Tell me about a time you had to learn a new Oracle module quickly",
+        "Describe building relationships with customer stakeholders",
+        "How have you handled scope creep during an engagement?",
+        "Tell me about mentoring junior consultants",
+        "Describe presenting to customer executives",
+        "How have you stayed current with Oracle product updates?",
+        "Tell me about a creative solution to a customer challenge",
+        "Describe managing customer expectations during delays",
+        "How have you contributed to practice development?"
+      ],
+      whatTheyLookFor: [
+        "Experience with Oracle applications or cloud products",
+        "Strong consulting and customer-facing skills",
+        "Understanding of business processes (finance, HR, supply chain)",
+        "Project management abilities for complex implementations",
+        "Problem-solving skills for configuration challenges",
+        "Excellent communication for diverse stakeholders",
+        "Oracle certifications preferred",
+        "Willingness to travel for customer engagements",
+        "Team collaboration across distributed environments",
+        "Track record of successful implementations"
+      ],
+      interviewTips: [
+        "Prepare detailed examples of Oracle implementations",
+        "Know Oracle Cloud applications architecture",
+        "Be ready to discuss implementation methodology",
+        "Show understanding of enterprise business processes",
+        "Prepare for scenario-based problem solving",
+        "Demonstrate customer management skills",
+        "Know Oracle's competitive positioning vs Workday, SAP",
+        "Show willingness to travel and work on-site",
+        "Prepare questions about the practice and projects",
+        "Demonstrate continuous learning with Oracle products",
+        "Show passion for helping customers succeed",
+        "Be ready to discuss change management approaches",
+        "Understand Oracle's industry solutions",
+        "Show ability to work independently with customers"
+      ],
+      salary: {
+        min: 100000,
+        max: 180000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $100,000 - $180,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Travel per diem and expense reimbursement",
+        "Certification bonuses and training budget",
+        "Flexible work arrangements between engagements",
+        "Career development and internal mobility"
+      ],
+      dayInLife: {
+        intro: "A typical day as an Oracle Consultant involves customer engagement, configuration work, and collaboration with project teams.",
+        schedule: [
+          "8:00 AM - Travel to customer site or set up remote workspace",
+          "9:00 AM - Daily standup with implementation team",
+          "9:30 AM - Requirements workshop with customer finance team",
+          "11:00 AM - Configuration work on Oracle Cloud Financials",
+          "12:00 PM - Working lunch with customer project manager",
+          "1:00 PM - Integration testing with technical team",
+          "3:00 PM - Issue resolution and troubleshooting session",
+          "4:30 PM - Document configuration decisions and rationale",
+          "5:30 PM - Prepare materials for tomorrow's steering committee"
+        ],
+        closing: "Oracle Consultants enjoy the variety of customer engagements and the satisfaction of helping enterprises transform their operations with Oracle technology."
+      },
+      similarRoles: ["Cloud Solutions Architect", "Technical Support Engineer", "Product Manager", "Sales Engineer"]
+    },
+    'technical-support-engineer': {
+      roleDescription: "Technical Support Engineers at Oracle provide expert assistance to enterprise customers running mission-critical Oracle systems. You'll troubleshoot complex issues across Oracle Database, Cloud Infrastructure, and enterprise applications, working on problems that directly impact business operations. Oracle Support is renowned for its depth of expertise—engineers have access to source code, product engineering teams, and the most advanced diagnostic tools in the industry. The role combines technical problem-solving with customer service, often working under pressure when customers face critical outages. Support Engineers develop deep product expertise, frequently becoming subject matter experts consulted by customers and internal teams alike. With Oracle's breadth of products, engineers can specialize in database internals, cloud infrastructure, specific applications, or work across the portfolio. The 24/7 nature of enterprise support means flexible scheduling options, and top performers often transition to product engineering, consulting, or solution architecture roles.",
+      responsibilities: [
+        "Diagnose and resolve complex technical issues for enterprise customers",
+        "Analyze logs, traces, and diagnostic data to identify root causes",
+        "Collaborate with product engineering on product defects and fixes",
+        "Develop and maintain technical documentation and knowledge base",
+        "Provide guidance on Oracle best practices and product usage",
+        "Manage critical customer escalations and outage situations",
+        "Participate in on-call rotation for 24/7 customer support",
+        "Create patches and workarounds for customer-specific issues",
+        "Contribute to product improvement through customer feedback"
+      ],
+      growthOpportunities: [
+        "Develop world-class expertise in Oracle technologies",
+        "Access to source code and product engineering teams",
+        "Clear path to Senior, Principal, and Distinguished Engineer",
+        "Transition opportunities to engineering, consulting, or architecture",
+        "Global customer exposure and diverse technical challenges",
+        "Oracle certifications and continuous learning",
+        "On-call premiums and flexible scheduling",
+        "Recognition as subject matter expert"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of technical support background and Oracle experience"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Technical troubleshooting questions and problem-solving approach"
+        },
+        {
+          stage: "Onsite - Technical Deep Dive",
+          duration: "60 minutes",
+          description: "Advanced technical questions in your area of expertise"
+        },
+        {
+          stage: "Onsite - Troubleshooting Scenario",
+          duration: "60 minutes",
+          description: "Walk through diagnosing a complex technical issue"
+        },
+        {
+          stage: "Onsite - Customer Scenario",
+          duration: "45 minutes",
+          description: "Role-play handling a difficult customer situation"
+        }
+      ],
+      technicalQuestions: [
+        "Walk through your approach to diagnosing a database performance issue",
+        "How would you troubleshoot an ORA-600 internal error?",
+        "Describe your methodology for analyzing Oracle trace files",
+        "How would you approach a customer reporting intermittent hangs?",
+        "Walk through troubleshooting a replication lag issue with Data Guard",
+        "How would you diagnose memory-related issues in Oracle Database?",
+        "Describe your experience with Oracle AWR and performance analysis",
+        "How would you approach a customer experiencing data corruption?",
+        "Walk through troubleshooting network connectivity to OCI",
+        "How would you diagnose application performance issues?",
+        "Describe your experience with Oracle RAC troubleshooting",
+        "How would you approach a customer's security vulnerability concern?",
+        "Walk through your process for reproducing a customer issue",
+        "How would you handle a situation where you can't reproduce the problem?",
+        "Describe escalating an issue to product engineering"
+      ],
+      behavioralQuestions: [
+        "Tell me about a critical customer issue you resolved under pressure",
+        "Describe handling a frustrated customer during an outage",
+        "How have you managed multiple high-priority cases simultaneously?",
+        "Tell me about collaborating with engineering on a product defect",
+        "Describe a time you went above and beyond for a customer",
+        "How have you handled a situation where you didn't know the answer?",
+        "Tell me about mentoring other support engineers",
+        "Describe working with international customers and time zones",
+        "How have you contributed to knowledge base or documentation?",
+        "Tell me about a complex issue that took weeks to resolve",
+        "Describe balancing thoroughness with customer urgency",
+        "How have you stayed current with Oracle product changes?",
+        "Tell me about improving a support process or tool",
+        "Describe handling a customer who disagreed with your analysis",
+        "How have you managed on-call responsibilities?"
+      ],
+      whatTheyLookFor: [
+        "Strong troubleshooting and analytical skills",
+        "Experience with Oracle Database, Cloud, or Applications",
+        "Understanding of operating systems (Linux, Unix, Windows)",
+        "Customer service orientation and communication skills",
+        "Ability to work under pressure during critical situations",
+        "Systematic approach to problem diagnosis",
+        "SQL and scripting skills for analysis",
+        "Willingness to participate in on-call rotation",
+        "Collaborative approach with customers and internal teams",
+        "Continuous learning mindset for evolving technologies"
+      ],
+      interviewTips: [
+        "Prepare detailed examples of complex issues you've resolved",
+        "Know Oracle diagnostic tools (AWR, ASH, trace files)",
+        "Be ready for hands-on troubleshooting scenarios",
+        "Show your systematic approach to problem-solving",
+        "Demonstrate customer empathy and communication skills",
+        "Understand Oracle's support organization and processes",
+        "Prepare for questions about handling difficult situations",
+        "Show willingness for on-call and flexible scheduling",
+        "Know the Oracle product you're interviewing for deeply",
+        "Prepare questions about the support team and cases",
+        "Show passion for solving complex technical problems",
+        "Demonstrate ability to explain technical concepts clearly",
+        "Be ready to discuss continuous learning approach",
+        "Show interest in Oracle's product portfolio"
+      ],
+      salary: {
+        min: 90000,
+        max: 160000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $90,000 - $160,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "On-call premium pay for rotation participation",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Shift differentials for non-standard hours",
+        "Certification bonuses and training",
+        "Flexible scheduling options"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Technical Support Engineer at Oracle involves diagnosing complex issues, collaborating with customers, and contributing to knowledge sharing.",
+        schedule: [
+          "8:00 AM - Review queue and prioritize incoming cases",
+          "8:30 AM - Customer call on critical database performance issue",
+          "10:00 AM - Deep analysis of trace files and diagnostic data",
+          "11:30 AM - Collaborate with product engineering on potential bug",
+          "12:30 PM - Lunch and catch up on internal communications",
+          "1:30 PM - Work on multiple lower-priority cases",
+          "3:00 PM - Document resolution for knowledge base article",
+          "4:00 PM - Team meeting sharing recent learnings",
+          "5:00 PM - Hand off critical cases to global team"
+        ],
+        closing: "Oracle Technical Support Engineers enjoy solving challenging problems while developing world-class expertise in enterprise technology."
+      },
+      similarRoles: ["Database Administrator", "Cloud Solutions Architect", "Consultant", "Software Engineer"]
+    },
+    'security-engineer': {
+      roleDescription: "Security Engineers at Oracle protect the infrastructure, applications, and data that enterprises trust for their most critical operations. You'll work on securing Oracle Cloud Infrastructure, Oracle Database, and enterprise applications used by Fortune 500 companies, government agencies, and healthcare organizations. Oracle's security challenges are unique—protecting multi-tenant cloud infrastructure, ensuring database security for regulated industries, and maintaining compliance across global data centers. Security Engineers work across domains including cloud security, application security, identity management, and compliance engineering. With Oracle's Autonomous Database featuring self-securing capabilities and OCI's security-first architecture, you'll be at the forefront of automated security innovation. The role offers depth in enterprise security, working on systems where security breaches could impact millions of users and billions of dollars in business operations.",
+      responsibilities: [
+        "Design and implement security controls for Oracle Cloud Infrastructure",
+        "Conduct security assessments and penetration testing",
+        "Develop security automation and detection capabilities",
+        "Ensure compliance with security frameworks (FedRAMP, SOC 2, HIPAA)",
+        "Partner with product teams to build security into Oracle products",
+        "Respond to security incidents and conduct investigations",
+        "Review architecture designs for security vulnerabilities",
+        "Develop security policies and standards",
+        "Contribute to Oracle's security certifications and audits"
+      ],
+      growthOpportunities: [
+        "Protect infrastructure serving Fortune 500 and government customers",
+        "Work on security at unprecedented enterprise scale",
+        "Clear path to Senior, Principal, and Chief Security roles",
+        "Develop expertise across cloud, database, and application security",
+        "Influence Oracle's security product direction",
+        "Access to advanced security tools and research",
+        "Present at security conferences and publish research",
+        "Internal mobility across security domains"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of security background and interest in Oracle"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Security technical questions in your domain area"
+        },
+        {
+          stage: "Onsite - Security Deep Dive",
+          duration: "60 minutes",
+          description: "Advanced security concepts and architecture"
+        },
+        {
+          stage: "Onsite - Practical Scenario",
+          duration: "60 minutes",
+          description: "Security assessment or incident response scenario"
+        },
+        {
+          stage: "Onsite - Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of experience and collaboration approach"
+        }
+      ],
+      technicalQuestions: [
+        "Design the security architecture for Oracle Cloud Infrastructure",
+        "How would you approach database security for regulated industries?",
+        "Design a detection system for cloud infrastructure threats",
+        "How would you implement identity and access management at scale?",
+        "Design the security model for multi-tenant cloud services",
+        "How would you approach penetration testing for cloud infrastructure?",
+        "Design encryption strategy for data at rest and in transit",
+        "How would you secure Oracle's Autonomous Database capabilities?",
+        "Design incident response procedures for a major breach scenario",
+        "How would you implement secure secrets management for OCI?",
+        "Design a vulnerability management program for cloud services",
+        "How would you ensure FedRAMP compliance for government cloud?",
+        "Design security logging and monitoring for enterprise cloud",
+        "How would you approach third-party integration security review?",
+        "Design the security architecture for containerized workloads"
+      ],
+      behavioralQuestions: [
+        "Tell me about a significant security vulnerability you discovered",
+        "Describe influencing a team to prioritize a security fix",
+        "How have you balanced security with product velocity?",
+        "Tell me about a security incident you responded to",
+        "Describe improving security culture in an organization",
+        "How have you approached security for new technologies?",
+        "Tell me about a difficult security risk decision",
+        "Describe explaining security concepts to executives",
+        "How have you handled pushback on security requirements?",
+        "Tell me about building security into the development process",
+        "Describe staying current with evolving threats",
+        "How have you mentored others on security practices?",
+        "Tell me about a creative solution to a security challenge",
+        "Describe handling conflicting compliance requirements",
+        "How have you contributed to security certifications or audits?"
+      ],
+      whatTheyLookFor: [
+        "Deep expertise in cloud or application security",
+        "Experience with enterprise security at scale",
+        "Understanding of compliance frameworks (FedRAMP, SOC 2, HIPAA)",
+        "Strong programming skills for security tooling",
+        "Track record discovering and remediating vulnerabilities",
+        "Knowledge of cryptography and identity management",
+        "Communication skills for diverse audiences",
+        "Experience with security automation and detection",
+        "Understanding of database and application security",
+        "Security certifications preferred (CISSP, OSCP)"
+      ],
+      interviewTips: [
+        "Study Oracle Cloud's security architecture",
+        "Understand enterprise compliance requirements",
+        "Prepare examples of security work with measurable impact",
+        "Know cloud security patterns and best practices",
+        "Be ready for hands-on security assessment scenarios",
+        "Understand Oracle Database security features",
+        "Prepare for questions on incident response",
+        "Show passion for protecting enterprise systems",
+        "Know the threat landscape for cloud and databases",
+        "Demonstrate systematic security assessment approach",
+        "Prepare questions about the security team",
+        "Show continuous learning with security trends",
+        "Be ready to discuss security automation",
+        "Understand Oracle's security product offerings"
+      ],
+      salary: {
+        min: 140000,
+        max: 260000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $140,000 - $260,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Security conference attendance budget",
+        "Certification bonuses and support",
+        "Flexible work arrangements",
+        "Home office security equipment"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Security Engineer at Oracle involves protecting enterprise infrastructure, building security capabilities, and collaborating with product teams.",
+        schedule: [
+          "9:00 AM - Review security alerts and overnight scanning results",
+          "9:30 AM - Security architecture review for new OCI service",
+          "11:00 AM - Build automated security testing pipeline",
+          "12:00 PM - Lunch with security team discussing threat landscape",
+          "1:00 PM - Penetration testing for cloud service component",
+          "3:00 PM - Compliance documentation for FedRAMP audit",
+          "4:00 PM - Partner with product team on security requirements",
+          "5:00 PM - Research emerging threats and attack techniques"
+        ],
+        closing: "Oracle Security Engineers enjoy protecting mission-critical enterprise systems while building security capabilities at global cloud scale."
+      },
+      similarRoles: ["Software Engineer", "Cloud Solutions Architect", "DevOps Engineer", "Database Administrator"]
     }
   },
   'adobe': {
