@@ -27139,461 +27139,600 @@ export const rolePageContent = {
   // Priority 3B: Oracle
   'oracle': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Oracle build enterprise software and cloud infrastructure powering businesses worldwide. You'll work on database systems, cloud services, applications, and Java ecosystem products serving Fortune 500 companies. Engineers tackle complex enterprise challenges at massive scale in a company with decades of software engineering expertise.",
-
+      roleDescription: "Software Engineers at Oracle build enterprise software and cloud infrastructure that powers the world's most critical business operations. You'll work on foundational technologies including Oracle Database (the industry standard for 40+ years), Oracle Cloud Infrastructure (OCI), Java (used by 12+ million developers), MySQL, and enterprise applications for ERP, HCM, and supply chain. Oracle engineers tackle complex challenges at massive scale—from database internals handling petabytes of data to cloud services competing with AWS and Azure. The company offers unique depth in enterprise computing, with engineers often becoming world experts in database systems, distributed computing, or cloud infrastructure. Oracle's engineering culture emphasizes technical excellence, with clear career paths from individual contributor to principal engineer and architect roles. With over 150 cloud services and data centers globally, engineers work on systems serving Fortune 500 companies and government agencies worldwide.",
       responsibilities: [
         "Design and build enterprise-grade database and cloud infrastructure",
         "Develop features for Oracle Cloud Infrastructure (OCI) services",
-        "Work on Oracle Database, MySQL, or Java ecosystem products",
-        "Build SaaS applications for ERP, HCM, and business applications",
+        "Work on Oracle Database internals, query optimization, and storage engines",
+        "Build enterprise SaaS applications (Fusion, NetSuite, HCM, ERP)",
+        "Contribute to Java ecosystem and open-source projects like GraalVM",
         "Optimize performance for large-scale enterprise deployments",
+        "Ensure security, reliability, and compliance for regulated industries",
         "Collaborate with product managers and architects on technical design",
-        "Ensure security, reliability, and compliance for enterprise customers",
-        "Contribute to open-source projects like Java, MySQL, and VirtualBox"
+        "Support mission-critical customer deployments and escalations"
       ],
-
       growthOpportunities: [
-        "Career progression from IC engineer to principal engineer or architect",
-        "Exposure to enterprise-scale systems and database internals",
+        "Become a world expert in database systems or cloud infrastructure",
+        "Clear career path from IC to Principal Engineer and Architect",
         "Work on foundational technologies used by thousands of companies",
-        "Opportunities across cloud infrastructure, databases, and applications",
-        "Internal mobility between product groups and technologies",
-        "Access to deep technical expertise in distributed systems",
-        "Influence on Java language and ecosystem evolution",
-        "Global impact on enterprise computing and business operations"
+        "Contribute to open-source projects with global impact (Java, MySQL)",
+        "Internal mobility across cloud, database, applications, and hardware",
+        "Access to deep technical expertise in enterprise computing",
+        "Influence enterprise technology standards and best practices",
+        "Work on systems serving Fortune 500 and government customers"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Screen",
-          description: "30-minute conversation about background, experience, and interest in Oracle.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of background, experience, and interest in Oracle's technology"
         },
         {
-          step: 2,
-          title: "Technical Phone Screen",
-          description: "60-minute coding interview covering data structures, algorithms, and system design concepts.",
-          duration: "60 minutes"
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Coding interview covering data structures, algorithms, and systems concepts"
         },
         {
-          step: 3,
-          title: "Onsite/Virtual Onsite (3-5 rounds)",
-          description: "Coding interviews (2 rounds), system design, behavioral, and sometimes domain-specific technical discussion.",
-          duration: "4-5 hours"
+          stage: "Onsite - Coding Round 1",
+          duration: "45 minutes",
+          description: "Algorithm and data structure problems with emphasis on efficiency"
         },
         {
-          step: 4,
-          title: "Hiring Manager & Offer",
-          description: "Final discussion with hiring manager. Competitive offer with benefits and stock options.",
-          duration: "1 week"
+          stage: "Onsite - Coding Round 2",
+          duration: "45 minutes",
+          description: "Systems-focused coding or database/cloud-relevant problems"
+        },
+        {
+          stage: "Onsite - System Design",
+          duration: "45 minutes",
+          description: "Design a distributed system or database component"
+        },
+        {
+          stage: "Onsite - Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of experience, collaboration, and alignment with Oracle"
         }
       ],
-
       technicalQuestions: [
         "Design a distributed database system with ACID guarantees",
-        "Implement a B-tree index for database queries",
-        "Design Oracle Cloud's object storage system",
-        "How would you optimize SQL query performance?",
+        "Implement a B-tree index for efficient database queries",
+        "Design Oracle Cloud's object storage system architecture",
+        "How would you optimize SQL query performance for complex joins?",
         "Design a multi-tenant SaaS application architecture",
-        "Implement database replication across data centers",
-        "Design a caching layer for database queries",
-        "How would you handle database schema migrations at scale?",
-        "Design an identity and access management system",
-        "Implement a distributed transaction coordinator"
+        "Implement database replication across geographically distributed data centers",
+        "Design a caching layer for high-throughput database queries",
+        "How would you handle database schema migrations at enterprise scale?",
+        "Design an identity and access management system for cloud services",
+        "Implement a distributed transaction coordinator with 2PC",
+        "Design the query optimizer for a relational database",
+        "How would you implement automatic failover for database clusters?",
+        "Design Oracle's Autonomous Database self-tuning capabilities",
+        "Implement a storage engine for OLTP workloads",
+        "Design a cloud resource scheduler for compute instances"
       ],
-
       behavioralQuestions: [
         "Tell me about a time you worked on enterprise-scale systems",
-        "Describe your experience with databases or cloud infrastructure",
+        "Describe your experience with databases or distributed systems",
         "How have you handled complex technical requirements from customers?",
-        "Tell me about a time you improved system performance or reliability",
+        "Tell me about a time you significantly improved system performance",
         "Describe your experience with backwards compatibility challenges",
         "How do you approach designing for enterprise security requirements?",
-        "Tell me about a time you collaborated across multiple teams",
-        "Describe a project where you had to maintain legacy systems"
+        "Tell me about collaborating across multiple teams on a large project",
+        "Describe a project where you had to maintain legacy systems",
+        "How have you handled technical debt in long-lived systems?",
+        "Tell me about debugging a complex production issue",
+        "Describe contributing to a system used by millions of users",
+        "How have you balanced new features with stability requirements?",
+        "Tell me about a time you influenced technical direction",
+        "Describe working with enterprise customers on critical issues",
+        "How have you mentored junior engineers on complex systems?"
       ],
-
       whatTheyLookFor: [
-        "Strong fundamentals in computer science and systems",
+        "Strong fundamentals in computer science and systems programming",
         "Experience with databases, distributed systems, or cloud infrastructure",
-        "Understanding of enterprise software requirements",
-        "Attention to reliability, security, and performance",
-        "Ability to work with complex codebases and legacy systems",
-        "Customer focus and understanding of business needs",
+        "Understanding of enterprise software requirements and constraints",
+        "Attention to reliability, security, and performance at scale",
+        "Ability to work with complex codebases and long-lived systems",
+        "Customer focus and understanding of business-critical needs",
         "Strong problem-solving and debugging skills",
-        "Collaboration skills across product and engineering teams"
+        "Collaboration skills across product and engineering teams",
+        "Interest in foundational technologies and deep technical expertise",
+        "Track record delivering robust, maintainable software"
       ],
-
       interviewTips: [
         "Understand enterprise software challenges (scale, security, compliance)",
-        "Be prepared to discuss database concepts and distributed systems",
-        "Show experience with performance optimization if applicable",
-        "Research Oracle's cloud offerings and product portfolio",
+        "Be prepared to discuss database concepts and SQL optimization",
+        "Study distributed systems patterns relevant to cloud infrastructure",
+        "Research Oracle's cloud offerings (OCI) and competitive positioning",
         "Demonstrate understanding of multi-tenancy and SaaS architecture",
         "Prepare examples of working on complex, large-scale systems",
         "Be ready to discuss backwards compatibility and migration challenges",
-        "Express interest in foundational infrastructure and enterprise impact"
+        "Show interest in foundational infrastructure and enterprise impact",
+        "Know Oracle's product portfolio (Database, Cloud, Applications)",
+        "Understand trade-offs in database design (ACID, performance, scale)",
+        "Prepare questions about the team's technology and challenges",
+        "Show genuine interest in enterprise computing and databases",
+        "Be ready to code efficiently in Java, C++, or Python",
+        "Demonstrate systematic debugging and problem-solving approach"
       ],
-
-      dayInLife: {
-        overview: "Oracle engineers work on enterprise-grade systems with focus on reliability, performance, and customer needs. Days involve coding, design reviews, collaboration with product teams, and solving complex technical challenges.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Team Standup",
-            description: "Daily sync with team on sprint progress and blockers"
-          },
-          {
-            time: "9:30 AM",
-            activity: "Feature Development",
-            description: "Implement new cloud storage optimization feature"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Design Review",
-            description: "Review architecture proposal for multi-region database replication"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Lunch Break",
-            description: "Team lunch discussion about database performance patterns"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Customer Escalation",
-            description: "Debug performance issue for enterprise customer deployment"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Code Review",
-            description: "Review pull requests and provide feedback to team members"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Product Planning",
-            description: "Meet with PM to discuss requirements for next quarter features"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Technical Research",
-            description: "Research new database indexing techniques for performance improvement"
-          }
-        ]
+      salary: {
+        min: 130000,
+        max: 280000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
-        { companyName: "IBM", companySlug: "ibm", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" }
-      ]
+      compensation: [
+        "Base salary range: $130,000 - $280,000 depending on level (IC2-IC5)",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP) at 5% discount",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Flexible work arrangements (remote, hybrid, office)",
+        "Education reimbursement and certification support",
+        "Patent bonus program for innovations",
+        "Generous PTO and sabbatical programs"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Software Engineer at Oracle involves deep technical work on enterprise-grade systems with focus on reliability, performance, and customer impact.",
+        schedule: [
+          "9:00 AM - Team standup discussing sprint progress and blockers",
+          "9:30 AM - Deep work on database query optimizer improvements",
+          "11:00 AM - Design review for multi-region replication feature",
+          "12:00 PM - Lunch with team discussing database performance patterns",
+          "1:00 PM - Customer escalation—debug performance issue for Fortune 500",
+          "2:30 PM - Code review for storage engine changes",
+          "3:30 PM - Architecture discussion on cloud service scalability",
+          "4:30 PM - Technical research on new indexing techniques",
+          "5:30 PM - Documentation and planning for next sprint"
+        ],
+        closing: "Oracle engineers enjoy working on foundational technologies that power the world's most critical business systems while building deep expertise in enterprise computing."
+      },
+      similarRoles: ["Cloud Solutions Architect", "Database Administrator", "DevOps Engineer", "Data Scientist"]
     },
-
     'product-manager': {
-      roleDescription: "Product Managers at Oracle drive strategy and execution for enterprise software products serving the world's largest organizations. You'll work on cloud infrastructure, database systems, business applications, or SaaS products, balancing customer needs with technical complexity. PMs combine deep product expertise with understanding of enterprise buyer needs.",
-
+      roleDescription: "Product Managers at Oracle drive strategy and execution for enterprise software products serving the world's largest organizations. You'll own products across Oracle Cloud Infrastructure (OCI), Oracle Database, Fusion Applications (ERP, HCM, SCM), NetSuite, or developer platforms like Java and GraalVM. Oracle PMs work at the intersection of deep technology and complex enterprise needs—balancing innovation with the reliability and backwards compatibility that Fortune 500 customers require. The role demands both technical depth to engage with engineering and business acumen to understand enterprise buyer needs and competitive dynamics. With Oracle's multi-cloud strategy and AI investments, PMs are shaping how enterprises adopt cloud, autonomous databases, and generative AI. You'll engage directly with CIOs, CTOs, and enterprise architects who make technology decisions affecting thousands of users.",
       responsibilities: [
         "Define product strategy and roadmap for cloud or application products",
-        "Gather requirements from enterprise customers and partners",
-        "Collaborate with engineering on feature prioritization and design",
-        "Analyze market trends and competitive landscape",
-        "Drive go-to-market strategy with sales and marketing teams",
-        "Present product vision to customers and at industry events",
-        "Monitor product metrics and customer adoption",
-        "Balance innovation with backwards compatibility requirements"
+        "Gather requirements from enterprise customers, partners, and field teams",
+        "Collaborate with engineering on feature prioritization and technical design",
+        "Analyze market trends, competitive landscape, and customer feedback",
+        "Drive go-to-market strategy with sales, marketing, and consulting",
+        "Present product vision to customers at events like CloudWorld",
+        "Monitor product metrics, adoption, and customer success outcomes",
+        "Balance innovation with backwards compatibility and migration paths",
+        "Partner with support and services on customer escalations"
       ],
-
       growthOpportunities: [
-        "Rapid advancement based on product success and leadership",
-        "Exposure to enterprise software and complex B2B sales cycles",
-        "Opportunities to own products serving Fortune 500 companies",
-        "Cross-functional leadership across engineering, sales, and marketing",
+        "Own products serving Fortune 500 companies and government agencies",
+        "Clear career path to Senior PM, Director, VP, and SVP roles",
+        "Work on foundational technologies with global enterprise impact",
+        "Engage directly with CIOs and enterprise technology leaders",
+        "Shape Oracle's cloud and AI strategy against AWS, Azure, Google",
         "Internal mobility across cloud, database, and application products",
-        "Access to customer executives and strategic accounts",
-        "Influence on enterprise technology trends and standards",
-        "Global impact on business operations and digital transformation"
+        "Present at CloudWorld and major industry conferences",
+        "Build expertise in enterprise software and B2B markets"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Screen",
-          description: "30-minute conversation about PM experience and interest in enterprise software.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of PM experience and interest in enterprise software"
         },
         {
-          step: 2,
-          title: "Product Case Interview",
-          description: "60-minute product strategy or design case focused on enterprise software challenges.",
-          duration: "60 minutes"
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into product experience, strategic thinking, and enterprise focus"
         },
         {
-          step: 3,
-          title: "Onsite/Virtual (4-5 rounds)",
-          description: "Product strategy, technical collaboration, customer focus, business acumen, and leadership interviews.",
-          duration: "4-5 hours"
+          stage: "Onsite - Product Strategy",
+          duration: "45 minutes",
+          description: "Product strategy case focused on enterprise cloud or application"
         },
         {
-          step: 4,
-          title: "Hiring Manager & Offer",
-          description: "Final discussion on product fit and team alignment. Competitive offer with stock options.",
-          duration: "1 week"
+          stage: "Onsite - Technical Depth",
+          duration: "45 minutes",
+          description: "Discussion of technical understanding and engineering collaboration"
+        },
+        {
+          stage: "Onsite - Customer Focus",
+          duration: "45 minutes",
+          description: "Enterprise customer scenarios and stakeholder management"
+        },
+        {
+          stage: "Onsite - Leadership",
+          duration: "45 minutes",
+          description: "Behavioral interview on leadership and cross-functional collaboration"
         }
       ],
-
       technicalQuestions: [
         "How would you prioritize features for Oracle Cloud Infrastructure?",
         "Design a product strategy for database migration to the cloud",
-        "How would you approach launching a new SaaS product for enterprises?",
-        "What metrics would you track for a cloud database service?",
-        "How would you compete against AWS in the cloud infrastructure market?",
-        "Design a pricing strategy for an enterprise SaaS application",
-        "How would you handle a major customer requesting a custom feature?",
-        "What would you do if product adoption is slow among enterprise customers?",
-        "Design a go-to-market strategy for a new developer tool",
-        "How would you balance innovation with supporting legacy products?"
+        "How would you position Oracle against AWS in enterprise markets?",
+        "What metrics would you track for Oracle Autonomous Database?",
+        "Design a go-to-market strategy for a new AI cloud service",
+        "How would you handle a major customer requesting custom features?",
+        "Design a pricing strategy for enterprise SaaS applications",
+        "What would you do if cloud adoption is slow among existing customers?",
+        "How would you balance innovation with supporting legacy deployments?",
+        "Design a product strategy for Oracle's multi-cloud approach",
+        "How would you approach developer experience for OCI?",
+        "Design features to accelerate enterprise cloud migration",
+        "How would you integrate generative AI into Oracle applications?",
+        "Design a competitive response to a major AWS announcement",
+        "How would you improve Oracle Database for modern workloads?"
       ],
-
       behavioralQuestions: [
         "Tell me about an enterprise product you launched and its impact",
-        "Describe how you've worked with sales teams to win major accounts",
-        "How have you balanced competing customer requirements?",
-        "Tell me about a time you influenced technical decisions",
+        "Describe working with sales teams to win major accounts",
+        "How have you balanced competing enterprise customer requirements?",
+        "Tell me about influencing technical decisions with engineering",
         "Describe your experience with enterprise buyer personas (CIOs, CTOs)",
         "How do you prioritize features for different customer segments?",
-        "Tell me about a product decision that required long-term thinking",
-        "Describe a time you managed a complex product migration"
+        "Tell me about a product decision requiring long-term thinking",
+        "Describe managing a complex product migration or upgrade",
+        "How have you handled a product that faced strong competition?",
+        "Tell me about presenting to executive customers",
+        "Describe balancing innovation with backwards compatibility",
+        "How have you worked with consulting on customer implementations?",
+        "Tell me about using data to drive product decisions",
+        "Describe a product pivot based on market feedback",
+        "How have you built consensus across a large organization?"
       ],
-
       whatTheyLookFor: [
-        "Understanding of enterprise software and B2B markets",
-        "Technical depth to collaborate with engineering teams",
-        "Customer empathy for IT buyers and business users",
-        "Strategic thinking about competitive positioning",
+        "Deep understanding of enterprise software and B2B markets",
+        "Technical depth to engage with engineering on complex systems",
+        "Customer empathy for IT buyers, developers, and business users",
+        "Strategic thinking about competitive positioning (AWS, Azure, Google)",
         "Strong communication skills for diverse audiences",
         "Business acumen and understanding of enterprise economics",
-        "Ability to balance innovation with stability",
-        "Experience with long sales cycles and complex deployments"
+        "Ability to balance innovation with stability requirements",
+        "Experience with long sales cycles and complex enterprise deployments",
+        "Track record shipping products for enterprise customers",
+        "Leadership skills for cross-functional influence"
       ],
-
       interviewTips: [
-        "Understand Oracle's product portfolio and cloud strategy",
-        "Be prepared to discuss enterprise software challenges",
-        "Show examples of working with large enterprise customers",
-        "Research competitive landscape (AWS, Azure, Google Cloud)",
-        "Demonstrate understanding of database and cloud technologies",
-        "Prepare ideas for Oracle's product strategy",
-        "Be ready to discuss B2B sales cycles and enterprise buying",
-        "Express interest in foundational enterprise technology"
+        "Understand Oracle's product portfolio and cloud strategy deeply",
+        "Research competitive landscape (AWS, Azure, Google Cloud, Salesforce)",
+        "Prepare examples of working with large enterprise customers",
+        "Show understanding of database and cloud technologies",
+        "Be ready to discuss enterprise buying cycles and stakeholders",
+        "Demonstrate strategic thinking about Oracle's market position",
+        "Prepare ideas for Oracle's cloud and AI product strategy",
+        "Show customer empathy for enterprise IT challenges",
+        "Understand backwards compatibility and migration challenges",
+        "Be ready to discuss B2B SaaS metrics and business models",
+        "Prepare questions about the product area and team",
+        "Show genuine interest in enterprise technology",
+        "Demonstrate analytical skills with data and metrics",
+        "Be ready to present your product thinking clearly"
       ],
-
-      dayInLife: {
-        overview: "Oracle PMs balance strategic planning, customer engagement, engineering collaboration, and go-to-market execution. Days involve stakeholder management, product decisions, and driving enterprise adoption.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Customer Call",
-            description: "Discuss product roadmap with CIO of Fortune 500 customer"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Product Planning",
-            description: "Review feature prioritization with engineering leadership"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Competitive Analysis",
-            description: "Analyze AWS feature announcements and competitive positioning"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Lunch with Sales",
-            description: "Discuss customer feedback and win/loss analysis with sales team"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Product Review",
-            description: "Present quarterly product strategy to VP and executive team"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Engineering Sync",
-            description: "Collaborate on technical design for multi-tenant feature"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Customer Advisory Board",
-            description: "Virtual meeting with strategic customer advisory board"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Metrics Review",
-            description: "Analyze product adoption and usage metrics for cloud services"
-          }
-        ]
+      salary: {
+        min: 140000,
+        max: 300000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
-        { companyName: "IBM", companySlug: "ibm", industry: "Technology" },
-        { companyName: "SAP", companySlug: "sap", industry: "Technology" }
-      ]
+      compensation: [
+        "Base salary range: $140,000 - $300,000 depending on level",
+        "Annual bonus typically 15-25% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Flexible work arrangements",
+        "Travel budget for customer and conference engagement",
+        "Education reimbursement",
+        "CloudWorld and industry conference attendance"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Product Manager at Oracle involves strategic planning, customer engagement, and cross-functional collaboration on enterprise products.",
+        schedule: [
+          "8:30 AM - Review product metrics and customer support trends",
+          "9:00 AM - Customer call with Fortune 500 CTO on cloud migration",
+          "10:30 AM - Engineering sync on quarterly roadmap priorities",
+          "11:30 AM - Competitive analysis on recent AWS announcement",
+          "12:30 PM - Lunch with sales team discussing enterprise opportunities",
+          "1:30 PM - Product requirements review with architects",
+          "3:00 PM - Go-to-market planning with marketing team",
+          "4:00 PM - Prepare presentation for upcoming CloudWorld session",
+          "5:00 PM - Analyst briefing on new product capabilities"
+        ],
+        closing: "Oracle PMs enjoy shaping enterprise technology strategy while engaging directly with the world's largest organizations on their most critical technology decisions."
+      },
+      similarRoles: ["Software Engineer", "Cloud Solutions Architect", "Sales Engineer", "Consultant"]
     },
-
-    'engineering-manager': {
-      roleDescription: "Engineering Managers at Oracle lead teams building enterprise software and cloud infrastructure used by the world's largest organizations. You'll manage engineers working on databases, cloud services, or business applications, balancing technical excellence with customer needs. EMs foster strong engineering culture while delivering reliable enterprise-grade products.",
-
+    'cloud-solutions-architect': {
+      roleDescription: "Cloud Solutions Architects at Oracle design and deliver complex cloud solutions for enterprise customers migrating to Oracle Cloud Infrastructure (OCI). You'll work with Fortune 500 companies, government agencies, and global enterprises, translating business requirements into scalable, secure cloud architectures. The role combines deep technical expertise in cloud infrastructure with consultative skills to guide customers through digital transformation. Oracle's differentiation in cloud includes Autonomous Database, high-performance computing, and the only cloud offering sovereign regions and dedicated cloud options. Solutions Architects engage across the customer lifecycle—from pre-sales solution design through implementation oversight and ongoing optimization. With enterprises increasingly adopting multi-cloud strategies, architects help customers integrate OCI with existing investments while leveraging Oracle's unique capabilities in database and enterprise applications.",
       responsibilities: [
-        "Lead team of engineers on database, cloud, or application products",
-        "Drive technical strategy and architecture decisions",
-        "Partner with product managers on roadmap and execution",
-        "Recruit, develop, and retain engineering talent",
-        "Conduct performance reviews and career development planning",
-        "Ensure product quality, security, and enterprise reliability",
-        "Manage customer escalations and technical support",
-        "Contribute to engineering processes and best practices"
+        "Design scalable, secure cloud architectures for enterprise customers",
+        "Lead technical discovery and requirements gathering sessions",
+        "Create architecture documentation and implementation roadmaps",
+        "Guide customers on OCI best practices and Well-Architected Framework",
+        "Partner with sales on technical strategy for strategic opportunities",
+        "Present solutions to customer technical teams and executives",
+        "Support implementations and resolve complex technical challenges",
+        "Develop reference architectures and reusable solution patterns",
+        "Stay current on OCI services and competitive cloud offerings"
       ],
-
       growthOpportunities: [
-        "Scale management skills in enterprise software environment",
-        "Exposure to complex systems used by Fortune 500 companies",
-        "Opportunities to grow into senior engineering leadership",
-        "Cross-functional influence with product, sales, and support teams",
-        "Shape engineering culture and technical standards",
-        "Mentor engineers working on foundational technologies",
-        "Internal mobility across Oracle's product portfolio",
-        "Impact on enterprise computing and digital transformation"
+        "Work with Fortune 500 and government customers on critical projects",
+        "Develop expertise across 150+ OCI services",
+        "Clear path to Principal Architect and technical leadership",
+        "High visibility with customers and Oracle leadership",
+        "Competitive compensation with performance incentives",
+        "Global travel opportunities for customer engagements",
+        "Influence OCI product direction through customer feedback",
+        "Build reputation as enterprise cloud expert"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Screen",
-          description: "30-minute conversation about management experience and interest in Oracle.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of cloud architecture background and customer experience"
         },
         {
-          step: 2,
-          title: "Technical Discussion",
-          description: "60-minute discussion on system design, technical leadership, and enterprise software challenges.",
-          duration: "60 minutes"
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into architecture experience and solution design approach"
         },
         {
-          step: 3,
-          title: "Onsite/Virtual (4-5 rounds)",
-          description: "People management, technical leadership, collaboration, system design, and leadership values.",
-          duration: "4-5 hours"
+          stage: "Technical Architecture Review",
+          duration: "90 minutes",
+          description: "Present and defend a cloud architecture you've designed"
         },
         {
-          step: 4,
-          title: "Hiring Manager & Offer",
-          description: "Discussion with senior leadership. Competitive offer with equity and benefits.",
-          duration: "1 week"
+          stage: "Scenario-Based Design",
+          duration: "60 minutes",
+          description: "Design an OCI solution for an enterprise customer scenario"
+        },
+        {
+          stage: "Customer Engagement",
+          duration: "45 minutes",
+          description: "Role-play customer engagement demonstrating communication skills"
         }
       ],
-
       technicalQuestions: [
-        "How would you architect a globally distributed database system?",
-        "Describe your approach to managing technical debt in legacy systems",
-        "How do you balance feature development with enterprise reliability?",
-        "What's your strategy for database performance optimization?",
-        "How would you approach migrating customers to a new platform?",
-        "Describe your framework for making build-vs-buy decisions",
-        "How do you ensure security and compliance for enterprise customers?",
-        "What's your approach to managing customer escalations?"
+        "Design a cloud architecture for a Fortune 500 company migrating from on-premises",
+        "How would you architect a multi-region disaster recovery solution on OCI?",
+        "Design the migration strategy for an Oracle Database to Autonomous Database",
+        "How would you architect a high-performance computing solution on OCI?",
+        "Design a hybrid cloud architecture connecting OCI with on-premises",
+        "How would you approach security and compliance for a regulated industry?",
+        "Design a solution for running VMware workloads on OCI",
+        "How would you architect a data lakehouse on OCI?",
+        "Design a Kubernetes deployment strategy using OKE",
+        "How would you optimize costs for a large OCI deployment?",
+        "Design a multi-cloud architecture integrating OCI with AWS or Azure",
+        "How would you architect an AI/ML platform on OCI?",
+        "Design the networking architecture for a global enterprise on OCI",
+        "How would you approach database migration at petabyte scale?",
+        "Design a solution for Oracle Fusion Applications on OCI"
       ],
-
       behavioralQuestions: [
-        "Tell me about a time you led a team on enterprise-scale systems",
-        "Describe how you've handled complex customer requirements",
-        "How have you developed engineers on your team?",
-        "Tell me about managing trade-offs between innovation and stability",
-        "Describe your experience with distributed or global teams",
-        "How do you build partnerships with product and sales teams?",
-        "Tell me about a difficult technical decision you made",
-        "Describe how you've improved engineering productivity"
+        "Tell me about a complex cloud architecture you designed and delivered",
+        "Describe navigating conflicting requirements from customer stakeholders",
+        "How have you handled technical objections from a skeptical customer?",
+        "Tell me about guiding a customer through a difficult migration",
+        "Describe building relationships with customer technical teams",
+        "How have you positioned Oracle against AWS or Azure?",
+        "Tell me about a solution that didn't go as planned",
+        "Describe explaining complex technical concepts to executives",
+        "How have you stayed current with rapidly evolving cloud services?",
+        "Tell me about influencing a customer to adopt best practices",
+        "Describe working with sales on a strategic opportunity",
+        "How have you handled scope changes during an engagement?",
+        "Tell me about mentoring other architects",
+        "Describe a creative solution to an unusual customer requirement",
+        "How have you contributed to reusable solution patterns?"
       ],
-
       whatTheyLookFor: [
-        "Strong people leadership and team development skills",
-        "Technical depth in systems, databases, or cloud infrastructure",
-        "Understanding of enterprise customer needs",
-        "Cross-functional collaboration skills",
-        "Experience with large-scale production systems",
-        "Balance of innovation and operational excellence",
-        "Customer focus and business acumen",
-        "Commitment to engineering quality and best practices"
+        "Deep expertise in cloud architecture (OCI, AWS, Azure, or GCP)",
+        "Experience designing enterprise-scale solutions",
+        "Understanding of database, networking, and security architecture",
+        "Strong communication skills for executive and technical audiences",
+        "Customer-facing presence and consultative skills",
+        "Track record of successful customer engagements",
+        "Knowledge of enterprise application migration patterns",
+        "Understanding of compliance and regulatory requirements",
+        "Ability to balance customer needs with best practices",
+        "Oracle certifications or willingness to obtain them"
       ],
-
       interviewTips: [
-        "Understand enterprise software development challenges",
-        "Prepare examples of managing complex technical projects",
-        "Show experience with customer-facing engineering work",
-        "Demonstrate understanding of databases or cloud infrastructure",
-        "Discuss your approach to managing legacy systems",
-        "Research Oracle's engineering culture and products",
-        "Be ready to discuss enterprise reliability and security",
-        "Express interest in foundational infrastructure impact"
+        "Prepare to present an architecture you've designed",
+        "Study OCI services and differentiation vs AWS/Azure/GCP",
+        "Know Oracle Database and Autonomous Database capabilities",
+        "Be ready for scenario-based design exercises",
+        "Understand enterprise migration challenges and patterns",
+        "Prepare examples of customer stakeholder management",
+        "Know the OCI Well-Architected Framework",
+        "Show balance of technical depth and business understanding",
+        "Understand Oracle's enterprise application portfolio",
+        "Be ready to discuss security and compliance approaches",
+        "Prepare questions about the customer portfolio",
+        "Show genuine passion for helping customers succeed",
+        "Demonstrate continuous learning with cloud technologies",
+        "Be ready to discuss competitive positioning"
       ],
-
-      dayInLife: {
-        overview: "Oracle EMs balance people management, technical guidance, customer engagement, and strategic planning. Days include 1:1s, design reviews, customer escalations, and cross-functional collaboration.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "1:1 Meetings",
-            description: "Career development discussions with two team members"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Architecture Review",
-            description: "Review technical design for cloud database feature with architects"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Customer Escalation",
-            description: "Meet with team to resolve critical customer issue"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Product Planning",
-            description: "Collaborate with PM on Q2 roadmap and engineering capacity"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Recruiting",
-            description: "Interview senior engineer candidate for database team"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Team Sync",
-            description: "Weekly team meeting on sprint progress and technical challenges"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Engineering Leadership",
-            description: "Attend engineering leadership meeting on org strategy"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Performance Planning",
-            description: "Prepare performance reviews and promotion cases"
-          }
-        ]
+      salary: {
+        min: 150000,
+        max: 280000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" }
-      ]
+      compensation: [
+        "Base salary range: $150,000 - $280,000 depending on level",
+        "Annual bonus typically 15-20% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Travel budget for customer engagements",
+        "Certification bonuses for OCI credentials",
+        "CloudWorld and conference attendance",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Cloud Solutions Architect at Oracle involves customer engagement, solution design, and technical leadership across complex cloud projects.",
+        schedule: [
+          "8:30 AM - Review customer requirements for today's design session",
+          "9:00 AM - Architecture workshop with financial services customer",
+          "11:00 AM - Internal sync with sales on strategic opportunity",
+          "12:00 PM - Lunch with consulting team discussing implementation",
+          "1:00 PM - Design review for multi-region DR architecture",
+          "2:30 PM - Customer presentation on Autonomous Database migration",
+          "4:00 PM - Update reference architecture documentation",
+          "5:00 PM - Research new OCI services for customer use cases",
+          "5:30 PM - Prepare for tomorrow's customer engagement"
+        ],
+        closing: "Oracle Cloud Solutions Architects enjoy the intellectual challenge of designing enterprise cloud solutions while building lasting relationships with strategic customers."
+      },
+      similarRoles: ["Software Engineer", "Sales Engineer", "Consultant", "Database Administrator"]
+    },
+    'database-administrator': {
+      roleDescription: "Database Administrators at Oracle manage the world's most critical database systems, supporting enterprise customers running Oracle Database, MySQL, and cloud database services. You'll work on database installations, performance tuning, backup and recovery, high availability, and migrations to Oracle Cloud. Oracle DBAs are recognized as industry experts—many customers specifically seek Oracle-employed DBAs for their depth of knowledge in database internals and best practices. The role spans on-premises databases, cloud migrations to Autonomous Database, and hybrid deployments. With Oracle's invention of the relational database and continued innovation with Autonomous Database, DBAs have access to the most advanced database technology in the industry. You'll work with Fortune 500 companies, government agencies, and enterprises running mission-critical workloads where database availability directly impacts business operations.",
+      responsibilities: [
+        "Install, configure, and maintain Oracle Database environments",
+        "Perform database performance tuning and query optimization",
+        "Design and implement backup, recovery, and disaster recovery strategies",
+        "Configure high availability solutions (RAC, Data Guard, GoldenGate)",
+        "Plan and execute database migrations to Oracle Cloud and Autonomous DB",
+        "Monitor database health and proactively address issues",
+        "Implement security controls and compliance requirements",
+        "Support enterprise customers with database-related issues",
+        "Develop automation for database operations and maintenance"
+      ],
+      growthOpportunities: [
+        "Become a recognized expert in Oracle Database technology",
+        "Clear path to Senior DBA, Principal, and Architect roles",
+        "Work with Fortune 500 and government customers",
+        "Learn Autonomous Database and cloud-native technologies",
+        "Access to Oracle's internal training and certification",
+        "Internal mobility to cloud engineering or consulting",
+        "Present at Oracle OpenWorld/CloudWorld and user groups",
+        "Shape Oracle's database product direction through feedback"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of DBA background and Oracle Database experience"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Oracle Database technical questions covering administration and performance"
+        },
+        {
+          stage: "Onsite - Technical Deep Dive",
+          duration: "60 minutes",
+          description: "Advanced Oracle Database concepts and troubleshooting scenarios"
+        },
+        {
+          stage: "Onsite - Practical Scenario",
+          duration: "60 minutes",
+          description: "Walk through database administration scenarios and problem-solving"
+        },
+        {
+          stage: "Onsite - Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of experience, customer focus, and collaboration"
+        }
+      ],
+      technicalQuestions: [
+        "Walk through your approach to Oracle Database performance tuning",
+        "How would you design a high availability architecture using RAC and Data Guard?",
+        "Explain the Oracle Database architecture (SGA, PGA, background processes)",
+        "How would you troubleshoot a slow-running SQL query?",
+        "Design a backup and recovery strategy for a mission-critical database",
+        "How would you migrate a large database to Autonomous Database?",
+        "Explain AWR and how you use it for performance analysis",
+        "How would you implement Oracle GoldenGate for replication?",
+        "Design the database architecture for a multi-tenant SaaS application",
+        "How would you approach patching and upgrades with minimal downtime?",
+        "Explain Oracle's Automatic Storage Management (ASM)",
+        "How would you troubleshoot an ORA-600 or ORA-7445 error?",
+        "Design a database security strategy including encryption and auditing",
+        "How would you optimize database memory configuration?",
+        "Explain the differences between Autonomous Database options"
+      ],
+      behavioralQuestions: [
+        "Tell me about a critical database issue you resolved under pressure",
+        "Describe managing a complex database migration",
+        "How have you handled a production outage affecting customers?",
+        "Tell me about improving database performance significantly",
+        "Describe working with application teams on database optimization",
+        "How have you implemented disaster recovery for critical databases?",
+        "Tell me about automating database administration tasks",
+        "Describe training or mentoring others on Oracle Database",
+        "How have you stayed current with Oracle Database features?",
+        "Tell me about a database security challenge you addressed",
+        "Describe managing multiple database environments simultaneously",
+        "How have you handled difficult conversations with customers?",
+        "Tell me about planning a major database upgrade",
+        "Describe a time you had to balance competing priorities",
+        "How have you contributed to database best practices?"
+      ],
+      whatTheyLookFor: [
+        "Deep expertise in Oracle Database administration",
+        "Experience with performance tuning and SQL optimization",
+        "Knowledge of high availability technologies (RAC, Data Guard)",
+        "Understanding of backup, recovery, and disaster recovery",
+        "Experience with database migrations and upgrades",
+        "Strong troubleshooting and problem-solving skills",
+        "Customer focus and communication abilities",
+        "Familiarity with Oracle Cloud and Autonomous Database",
+        "Scripting skills (SQL, PL/SQL, shell scripting)",
+        "Oracle certifications (OCP, OCM) preferred"
+      ],
+      interviewTips: [
+        "Review Oracle Database architecture and internals deeply",
+        "Be prepared to discuss performance tuning methodologies",
+        "Know AWR, ASH, and other diagnostic tools thoroughly",
+        "Understand RAC, Data Guard, and GoldenGate architectures",
+        "Prepare examples of critical issues you've resolved",
+        "Study Autonomous Database capabilities and migration paths",
+        "Be ready for hands-on troubleshooting scenarios",
+        "Know the differences between Oracle Database editions",
+        "Understand Oracle's cloud database offerings",
+        "Prepare questions about the team and customer environment",
+        "Show passion for database technology and continuous learning",
+        "Demonstrate customer-focused problem-solving approach",
+        "Be ready to discuss automation and scripting experience",
+        "Understand compliance and security requirements"
+      ],
+      salary: {
+        min: 110000,
+        max: 200000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $110,000 - $200,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "On-call compensation for production support",
+        "Certification bonuses for Oracle credentials",
+        "Training and conference attendance",
+        "Flexible work arrangements"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Database Administrator at Oracle involves maintaining critical database systems, performance optimization, and customer support.",
+        schedule: [
+          "8:00 AM - Review overnight alerts and database health dashboards",
+          "8:30 AM - Performance analysis for customer-reported slow queries",
+          "10:00 AM - Plan database upgrade for enterprise customer",
+          "11:00 AM - Customer call on Autonomous Database migration strategy",
+          "12:00 PM - Lunch with DBA team discussing best practices",
+          "1:00 PM - Implement Data Guard configuration for DR setup",
+          "3:00 PM - Troubleshoot replication issue with GoldenGate",
+          "4:00 PM - Documentation and knowledge base updates",
+          "5:00 PM - Review and approve backup job configurations"
+        ],
+        closing: "Oracle DBAs enjoy working with the industry's leading database technology while supporting mission-critical systems for the world's largest organizations."
+      },
+      similarRoles: ["Software Engineer", "Cloud Solutions Architect", "Data Scientist", "Technical Support Engineer"]
     }
   },
-
-  // Priority 3B: Adobe
   'adobe': {
     'software-engineer': {
       roleDescription: "Software Engineers at Adobe build creative and marketing software empowering millions of creators, designers, and marketers worldwide. You'll work on products like Photoshop, Illustrator, Premiere Pro, or Adobe Experience Cloud, combining creativity with cutting-edge technology. Engineers at Adobe solve unique challenges in graphics, video, AI/ML, and creative workflows.",
