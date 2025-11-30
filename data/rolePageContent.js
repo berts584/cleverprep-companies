@@ -27391,813 +27391,1561 @@ export const rolePageContent = {
   // Priority 3A: Spotify
   'spotify': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Spotify build products that bring music and audio to hundreds of millions of users worldwide. You'll work on features spanning personalization, discovery, content platforms, and creator tools, using cutting-edge technology in a culture that values autonomy, innovation, and collaboration. Engineers operate in cross-functional 'squads' with high ownership and impact.",
-
+      title: 'Software Engineer',
+      slug: 'software-engineer',
+      industry: 'Technology',
+      roleDescription: `Software Engineers at Spotify build the products that bring music and audio to over 600 million users worldwide. Working in autonomous "squads" with product managers and designers, you'll tackle challenges spanning personalization algorithms, audio streaming infrastructure, creator tools, and discovery features that shape how people experience sound. Spotify's engineering culture is defined by high autonomy and aligned autonomy—squads own their missions end-to-end while staying connected to company goals. Engineers work on cutting-edge technology including machine learning for recommendations, large-scale data systems, real-time audio streaming, and mobile experiences across platforms. The company's commitment to experimentation means A/B testing is fundamental to how features ship. Spotify invests heavily in engineering culture with internal tech conferences, extensive open-source contributions, and a collaborative environment where engineers share code and knowledge across squads. The interview process evaluates technical skills alongside cultural fit, with a unique "values interview" assessing alignment with Spotify's band culture.`,
       responsibilities: [
-        "Design and build features for music streaming and audio platforms",
-        "Develop personalization and recommendation algorithms",
-        "Build scalable backend services handling billions of requests",
-        "Create engaging mobile and desktop user experiences",
-        "Optimize audio streaming quality and performance",
-        "Collaborate in autonomous squads with product and design",
-        "Contribute to Spotify's open-source projects and engineering culture",
-        "Work with massive datasets on user behavior and content metadata"
+        'Design and build features for music streaming, discovery, and personalization',
+        'Develop scalable backend services handling billions of requests daily',
+        'Create engaging mobile and desktop user experiences across platforms',
+        'Build recommendation and personalization algorithms using machine learning',
+        'Collaborate in autonomous squads with product managers and designers',
+        'Participate in A/B testing and experimentation to validate features',
+        'Contribute to Spotify\'s open-source projects and engineering culture',
+        'Work with massive datasets on user behavior, audio content, and creator metrics',
+        'Optimize audio streaming quality and performance across network conditions'
       ],
-
       growthOpportunities: [
-        "Rapid career growth through impact and technical leadership",
-        "Exposure to machine learning, audio engineering, and large-scale systems",
-        "High autonomy in squad-based organizational model",
-        "Opportunities to work on creator tools, podcasts, and emerging audio formats",
-        "Internal mobility across product areas and engineering disciplines",
-        "Access to cutting-edge technology and research",
-        "Strong engineering culture with emphasis on open source",
-        "Global impact on how people experience music and audio"
+        'Progress through IC levels to Staff and Principal Engineer',
+        'Specialize in areas like ML, audio engineering, mobile, or infrastructure',
+        'Transition into engineering management while maintaining technical work',
+        'Lead cross-squad initiatives with company-wide impact',
+        'Contribute to open source and represent Spotify at conferences',
+        'Work on emerging audio formats including podcasts, audiobooks, and live audio',
+        'Shape technical strategy through architecture guilds and chapters',
+        'Internal mobility across listener, creator, and platform squads'
       ],
-
       interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Screen",
-          description: "30-minute conversation about background, experience, and interest in Spotify.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Technical Phone Screen",
-          description: "60-minute coding interview on data structures, algorithms, and problem-solving.",
-          duration: "60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Coding (2 rounds), system design (1 round), culture/values fit, and sometimes domain-specific technical discussion.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Cross-functional review. Offer includes competitive compensation, equity, and comprehensive benefits.",
-          duration: "1 week"
-        }
+        { stage: 'Recruiter Screen', description: '30-minute conversation about background, experience, and interest in Spotify' },
+        { stage: 'Technical Phone Screen', description: '75-minute technical interview combining coding, domain discussion, and behavioral questions' },
+        { stage: 'Onsite - Coding Round 1', description: '60-minute coding interview testing algorithms and problem-solving' },
+        { stage: 'Onsite - System Design', description: '60-minute system design discussion for audio/streaming relevant problems' },
+        { stage: 'Onsite - Case Study', description: '60-minute production debugging scenario simulating real on-call situations' },
+        { stage: 'Onsite - Values Interview', description: '45-minute behavioral interview assessing fit with Spotify\'s band culture and values' },
+        { stage: 'Team Matching', description: 'Discussions with potential squads to find right fit based on interests and skills' }
       ],
-
       technicalQuestions: [
-        "Design Spotify's music recommendation system",
-        "Implement a shuffle algorithm that feels random but doesn't repeat",
-        "Design the audio streaming and caching architecture",
-        "How would you build a real-time collaborative playlist feature?",
-        "Design Spotify's search system for songs, artists, and playlists",
-        "Implement an algorithm for generating personalized daily mixes",
-        "Design the offline download and sync system",
-        "How would you optimize audio quality based on network conditions?",
-        "Design a system for tracking and reporting music royalties",
-        "Implement a lyrics synchronization feature with audio playback"
+        'Design Spotify\'s music recommendation system for Discover Weekly',
+        'Implement a shuffle algorithm that feels random but doesn\'t repeat songs',
+        'Design the audio streaming architecture that adapts to network conditions',
+        'How would you build a real-time collaborative playlist feature?',
+        'Design Spotify\'s search system for songs, artists, playlists, and podcasts',
+        'Implement an algorithm for generating personalized Daily Mix playlists',
+        'Design the offline download and sync system for mobile',
+        'How would you optimize audio quality based on bandwidth and user preferences?',
+        'Design a system for tracking music royalties across millions of plays',
+        'Implement lyrics synchronization with audio playback',
+        'How would you design the podcast episode recommendation system?',
+        'Design a system for detecting explicit content in audio automatically',
+        'How would you build the audio fingerprinting system for copyright detection?',
+        'Design the infrastructure for Spotify Wrapped year-end statistics',
+        'How would you implement crossfade between tracks with different audio properties?',
+        'Design a system for real-time audio transcription and search'
       ],
-
       behavioralQuestions: [
-        "Tell me about a time you innovated on a product feature",
-        "Describe how you've worked in autonomous, cross-functional teams",
-        "How have you balanced user needs with technical constraints?",
-        "Tell me about a time you improved system performance or scalability",
-        "Describe your experience with recommendation systems or personalization",
-        "How do you stay current with new technologies and best practices?",
-        "Tell me about a project where you had high ownership and impact",
-        "Describe a time you collaborated across engineering disciplines"
+        'Tell me about a time you innovated on a product feature',
+        'Describe how you\'ve worked in autonomous, cross-functional teams',
+        'How have you balanced user needs with technical constraints?',
+        'Tell me about improving system performance or scalability significantly',
+        'Describe your experience with recommendation systems or personalization',
+        'How do you stay current with new technologies and best practices?',
+        'Tell me about a project where you had high ownership and impact',
+        'Describe collaborating across engineering disciplines or teams',
+        'How have you contributed to engineering culture or mentorship?',
+        'Tell me about a time you failed and what you learned',
+        'Describe how you approach experimentation and A/B testing',
+        'How have you handled disagreements about technical approaches?',
+        'Tell me about adapting to a new codebase or technology quickly',
+        'Describe a time you simplified a complex system or process'
       ],
-
       whatTheyLookFor: [
-        "Strong computer science fundamentals and coding ability",
-        "Experience with distributed systems and scalability",
-        "Product mindset and user-centric thinking",
-        "Autonomy and ability to drive projects independently",
-        "Collaboration skills in cross-functional squad environment",
-        "Passion for music, audio, and creator economy",
-        "Innovative thinking and willingness to experiment",
-        "Cultural fit with Spotify's values of sincerity, passion, and collaboration"
+        'Strong computer science fundamentals in algorithms and data structures',
+        'Experience building scalable distributed systems',
+        'Product mindset with user-centric thinking about features',
+        'Autonomy and ability to drive projects independently within squads',
+        'Collaboration skills for cross-functional squad environment',
+        'Passion for music, audio, and the creator economy',
+        'Innovative thinking with willingness to experiment',
+        'Cultural fit with Spotify\'s values: innovative, collaborative, sincere, passionate, playful',
+        'Experience with A/B testing and data-driven development',
+        'Growth mindset with curiosity to learn continuously'
       ],
-
       interviewTips: [
-        "Understand Spotify's squad model and autonomous culture",
-        "Be prepared to discuss recommendation systems and personalization",
-        "Show passion for music and audio experiences",
-        "Demonstrate experience with large-scale distributed systems",
-        "Research Spotify's engineering blog and tech stack",
-        "Prepare examples of working with high autonomy",
-        "Be ready to discuss audio streaming challenges",
-        "Express interest in creator tools and emerging audio formats"
+        'Understand Spotify\'s squad model and autonomous culture deeply',
+        'Be prepared to discuss recommendation systems and personalization',
+        'Show genuine passion for music and audio experiences',
+        'Research Spotify\'s engineering blog for technical insights',
+        'Prepare for the case study round—practice debugging production scenarios',
+        'Know Spotify\'s values: innovative, collaborative, sincere, passionate, playful',
+        'Be ready to discuss audio streaming challenges and trade-offs',
+        'Prepare examples of working with high autonomy and ownership',
+        'Research Spotify\'s open-source contributions',
+        'Express interest in creator tools and emerging audio formats',
+        'Practice system design with music/audio domain problems',
+        'Be authentic in the values interview—cultural fit matters significantly',
+        'Prepare questions about squad culture and team dynamics',
+        'Know the difference between squads, chapters, tribes, and guilds'
       ],
-
+      salary: { min: 150000, max: 270000 },
+      compensation: [
+        'Competitive base salary based on level and location',
+        'Equity grants (RSUs) with annual refreshers',
+        'Annual performance bonuses',
+        'Spotify Premium subscription for life',
+        'Comprehensive health, dental, and vision insurance',
+        'Generous parental leave (6 months)',
+        'Flexible PTO with minimum vacation requirements',
+        '401(k) with company match',
+        'Mental health and wellness benefits',
+        'Home office stipend and equipment budget',
+        'Learning and development budget'
+      ],
       dayInLife: {
-        overview: "Spotify engineers work in autonomous squads with high ownership. Days involve coding, collaboration with product and design, experimentation, and squad rituals.",
+        intro: 'A day as a Software Engineer at Spotify combines autonomous work with collaborative squad culture, all focused on improving how people experience music.',
         schedule: [
-          {
-            time: "9:30 AM",
-            activity: "Squad Standup",
-            description: "Daily sync with squad on progress, blockers, and priorities"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Feature Development",
-            description: "Build recommendation feature using machine learning models"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Product Critique",
-            description: "Review design prototypes for new playlist creation flow"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Lunch & Music",
-            description: "Team lunch with discussion about favorite new releases"
-          },
-          {
-            time: "2:00 PM",
-            activity: "A/B Test Analysis",
-            description: "Review experiment results with data scientist on discovery feature"
-          },
-          {
-            time: "3:00 PM",
-            activity: "Technical Design",
-            description: "Collaborate on architecture for offline playback improvements"
-          },
-          {
-            time: "4:00 PM",
-            activity: "Code Review & Pairing",
-            description: "Review PRs and pair program on streaming optimization"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Hack Time",
-            description: "Experiment with new audio codec for better quality at lower bitrate"
-          }
-        ]
+          '9:30 AM - Start day reviewing overnight metrics and experiment results',
+          '10:00 AM - Squad standup syncing on progress, blockers, and priorities',
+          '10:30 AM - Deep coding block building recommendation feature',
+          '12:00 PM - Product critique reviewing design prototypes for playlist flow',
+          '12:30 PM - Lunch with squad discussing favorite new music releases',
+          '1:30 PM - A/B test analysis session with data scientist',
+          '2:30 PM - Technical design collaboration on offline playback improvements',
+          '3:30 PM - Code review and pairing on streaming optimization',
+          '4:30 PM - Hack time experimenting with new audio codec ideas',
+          '5:30 PM - Wrap up with quick check on experiment dashboards'
+        ],
+        closing: 'Engineering at Spotify means building technology that connects hundreds of millions of people with the music and audio they love, working with talented squads in a culture that values autonomy and innovation.'
       },
-
-      similarRoles: [
-        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
-        { companyName: "YouTube", companySlug: "youtube", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
-      ]
+      similarRoles: ['Senior Software Engineer at Spotify', 'Staff Engineer at Spotify', 'Mobile Engineer at Spotify', 'Backend Engineer at Spotify', 'Platform Engineer at Spotify']
     },
 
     'product-manager': {
-      roleDescription: "Product Managers at Spotify shape how hundreds of millions of users discover, listen to, and create audio content. You'll work in autonomous squads on products ranging from personalized recommendations to creator tools, balancing user needs, creator success, and business objectives. PMs at Spotify combine analytical rigor with creative thinking in a data-driven culture.",
-
+      title: 'Product Manager',
+      slug: 'product-manager',
+      industry: 'Technology',
+      roleDescription: `Product Managers at Spotify shape how over 600 million users discover, listen to, and create audio content. Working in autonomous squads alongside engineers and designers, you'll own products ranging from personalized recommendations (Discover Weekly, Daily Mix) to creator tools and emerging audio experiences. Spotify's PM culture emphasizes user empathy, data-driven decision making, and balancing the needs of listeners, creators, and the business. The company's "band" metaphor extends to PMs—you're part of a squad making music together, not a traditional hierarchy. PMs at Spotify have significant autonomy to define strategy and execute within their squads, while staying aligned with company bets through transparent goal-setting. The role requires navigating complex multi-sided marketplace dynamics: what's good for listeners must also work for artists, labels, and podcasters. Spotify's rich data on listening behavior enables sophisticated experimentation, and PMs are expected to be fluent in using data to drive decisions.`,
       responsibilities: [
-        "Define product vision and strategy for music or audio features",
-        "Collaborate with engineers, designers, and data scientists in squads",
-        "Analyze data and user research to inform product decisions",
-        "Drive discovery and personalization features",
-        "Partner with content teams on artist and creator experiences",
-        "Design and analyze A/B experiments to measure impact",
-        "Balance needs of listeners, creators, and business",
-        "Communicate product strategy to leadership and stakeholders"
+        'Define product vision and strategy for listener or creator experiences',
+        'Collaborate with engineers, designers, and data scientists in autonomous squads',
+        'Analyze data and user research to inform product decisions and priorities',
+        'Drive discovery, personalization, and engagement features',
+        'Partner with content teams on artist, podcaster, and creator experiences',
+        'Design and analyze A/B experiments to validate hypotheses',
+        'Balance needs of listeners, creators, labels, and business objectives',
+        'Communicate product strategy to leadership and stakeholders',
+        'Define success metrics and monitor product health'
       ],
-
       growthOpportunities: [
-        "Rapid advancement based on product impact and leadership",
-        "Exposure to recommendation systems, audio technology, and creator economy",
-        "Work on products affecting hundreds of millions of users",
-        "High autonomy in squad-based organization",
-        "Internal mobility across listener, creator, and platform products",
-        "Collaborate with world-class engineers and designers",
-        "Access to rich data on music consumption and behavior",
-        "Influence on future of audio and creator monetization"
+        'Progress from PM to Senior PM to Group PM leading multiple squads',
+        'Advance to Director of Product overseeing product areas',
+        'Specialize in areas like personalization, creator tools, or platform',
+        'Work on products affecting hundreds of millions of users',
+        'High autonomy in squad-based organization to drive strategy',
+        'Internal mobility across listener, creator, and platform products',
+        'Collaborate with world-class engineers, designers, and data scientists',
+        'Influence the future of audio and creator monetization'
       ],
-
       interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Screen",
-          description: "30-minute conversation about PM experience, background, and passion for Spotify.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Product Case Interview",
-          description: "60-minute product design or strategy case with PM. Focus on user insight and structured thinking.",
-          duration: "60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Product design, analytics/metrics, technical collaboration, behavioral/leadership, and sometimes strategy or domain-specific.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Cross-functional review of product thinking and cultural fit. Competitive offer with equity.",
-          duration: "1 week"
-        }
+        { stage: 'Recruiter Screen', description: '30-minute conversation about PM experience and passion for Spotify' },
+        { stage: 'Product Case Interview', description: '60-minute product design or strategy case with focus on user insight and structured thinking' },
+        { stage: 'Onsite - Product Sense', description: '60-minute deep dive into product intuition and feature design' },
+        { stage: 'Onsite - Analytical', description: '60-minute case testing metrics definition, data analysis, and experimentation' },
+        { stage: 'Onsite - Technical Collaboration', description: '45-minute discussion with engineers on technical trade-offs and partnership' },
+        { stage: 'Onsite - Values Interview', description: '45-minute behavioral interview assessing cultural fit with Spotify\'s band values' },
+        { stage: 'Leadership Interview', description: 'Final round with senior product leader on strategy and fit' }
       ],
-
       technicalQuestions: [
-        "How would you improve music discovery for new users?",
-        "Design a feature to help emerging artists grow their audience",
-        "How would you measure the success of personalized playlists?",
-        "What metrics would you track for podcast discovery?",
-        "How would you prioritize features for the mobile app?",
-        "Design a social feature to increase engagement",
-        "How would you approach launching Spotify in a new market?",
-        "What would you do if daily active users declined 5%?",
-        "Design a monetization feature for creators",
-        "How would you improve the search experience?"
+        'How would you improve Spotify\'s Discover Weekly playlist?',
+        'Design a feature to help new artists get discovered on Spotify',
+        'How would you measure the success of personalized Daily Mixes?',
+        'Design a feature to increase podcast listening engagement',
+        'How would you approach monetization for podcast creators?',
+        'Design the product strategy for audiobooks on Spotify',
+        'How would you improve the social features on Spotify?',
+        'Design a feature to reduce music streaming churn',
+        'How would you prioritize between listener features and creator tools?',
+        'Design a live audio feature for Spotify',
+        'How would you approach lyrics as a product feature?',
+        'Design metrics for measuring playlist quality and engagement',
+        'How would you improve the search experience on Spotify?',
+        'Design a feature to help listeners discover local artists',
+        'How would you approach the cold-start problem for new users?',
+        'Design Spotify Wrapped to maximize engagement and sharing'
       ],
-
       behavioralQuestions: [
-        "Tell me about a product you launched and its impact on users",
-        "Describe a time you used data to make a difficult product decision",
-        "How have you worked with engineering and design in autonomous teams?",
-        "Tell me about a time you balanced competing stakeholder priorities",
-        "Describe your experience with recommendation or personalization products",
-        "How do you approach prioritization with limited resources?",
-        "Tell me about a product experiment that surprised you",
-        "Describe a time you advocated for a better user experience"
+        'Tell me about a product you launched and its impact',
+        'Describe using data to make a difficult product decision',
+        'How have you balanced competing stakeholder needs?',
+        'Tell me about a product that failed and what you learned',
+        'Describe your experience with marketplace products',
+        'How do you prioritize features with limited resources?',
+        'Tell me about influencing without authority',
+        'Describe collaborating with engineers on technical trade-offs',
+        'How have you incorporated user research into product decisions?',
+        'Tell me about navigating ambiguity in a product role',
+        'Describe building trust with design and engineering partners',
+        'How have you communicated product strategy to leadership?',
+        'Tell me about a time you had to kill a feature you believed in',
+        'Describe your approach to experimentation and A/B testing'
       ],
-
       whatTheyLookFor: [
-        "Strong analytical skills and data-driven decision making",
-        "User empathy for listeners and creators",
-        "Technical understanding to collaborate with engineers",
-        "Product sense for music, audio, and content discovery",
-        "Execution focus and ability to ship in squad environment",
-        "Creativity in solving ambiguous problems",
-        "Passion for music and creator economy",
-        "Autonomy and ability to drive without constant direction"
+        'Strong product sense with deep user empathy',
+        'Analytical rigor and data-driven decision making',
+        'Experience with consumer products and marketplace dynamics',
+        'Strategic thinking balanced with execution ability',
+        'Collaboration skills for autonomous squad environment',
+        'Technical fluency to partner effectively with engineers',
+        'Passion for music, audio, and creator economy',
+        'Cultural fit with Spotify\'s values: innovative, collaborative, sincere, passionate, playful',
+        'Experience with experimentation and growth',
+        'Clear communication for diverse stakeholders'
       ],
-
       interviewTips: [
-        "Understand Spotify's mission to unlock human creativity",
-        "Be prepared with product metrics frameworks",
-        "Show examples of data-driven product decisions",
-        "Research Spotify's features and competitive landscape",
-        "Demonstrate understanding of two-sided platform (listeners + creators)",
-        "Prepare ideas for discovery and personalization",
-        "Be ready to discuss experimentation methodology",
-        "Express genuine passion for music and audio innovation"
+        'Use Spotify extensively and form opinions about the product',
+        'Understand Spotify\'s squad model and autonomous culture',
+        'Prepare product cases using Spotify\'s actual features',
+        'Know Spotify\'s values and be ready for the values interview',
+        'Research Spotify\'s personalization features (Discover Weekly, Daily Mix, Wrapped)',
+        'Understand the multi-sided marketplace: listeners, artists, labels, podcasters',
+        'Be ready to discuss metrics and experimentation deeply',
+        'Prepare examples of working with high autonomy',
+        'Research recent Spotify product launches and form opinions',
+        'Show genuine passion for music and audio experiences',
+        'Practice structuring answers for case interviews',
+        'Be authentic—cultural fit is heavily weighted',
+        'Prepare thoughtful questions about squad culture',
+        'Know the difference between squads, chapters, tribes, and guilds'
       ],
-
+      salary: { min: 160000, max: 290000 },
+      compensation: [
+        'Competitive base salary with significant equity (RSUs)',
+        'Annual performance bonuses',
+        'Spotify Premium subscription for life',
+        'Comprehensive health, dental, and vision insurance',
+        'Generous parental leave (6 months)',
+        'Flexible PTO with minimum vacation requirements',
+        '401(k) with company match',
+        'Mental health and wellness benefits',
+        'Learning and development budget',
+        'Home office stipend'
+      ],
       dayInLife: {
-        overview: "Spotify PMs work in autonomous squads balancing strategy, data analysis, user research, and cross-functional collaboration. Days are varied with rituals, deep work, and experimentation.",
+        intro: 'A day as a Product Manager at Spotify balances strategic thinking with squad collaboration on products that shape how people experience audio.',
         schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Metrics Review",
-            description: "Analyze overnight data on playlist engagement and discovery metrics"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Squad Planning",
-            description: "Weekly planning session with engineers and designer on sprint priorities"
-          },
-          {
-            time: "11:00 AM",
-            activity: "User Research",
-            description: "Watch recordings of user interviews on discovery flow"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Product Critique",
-            description: "Present feature mockups to design leadership for feedback"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Lunch with Creator Team",
-            description: "Discuss upcoming artist tools and creator monetization strategy"
-          },
-          {
-            time: "2:00 PM",
-            activity: "A/B Test Review",
-            description: "Analyze experiment results with data scientist on recommendation algorithm"
-          },
-          {
-            time: "3:00 PM",
-            activity: "Product Strategy",
-            description: "Work on Q2 roadmap and OKRs for personalization squad"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Stakeholder Sync",
-            description: "Update content partnerships team on upcoming feature launch"
-          }
-        ]
+          '9:00 AM - Review overnight metrics and user feedback',
+          '9:30 AM - Squad standup with engineering and design on sprint progress',
+          '10:00 AM - User research debrief discussing recent listener interviews',
+          '11:00 AM - Product strategy session with leadership on quarterly bets',
+          '12:00 PM - Lunch with cross-squad PMs discussing shared challenges',
+          '1:00 PM - A/B test analysis session with data scientist',
+          '2:00 PM - Design review providing feedback on new discovery feature',
+          '3:00 PM - Technical trade-off discussion with engineering lead',
+          '4:00 PM - Write product brief for upcoming initiative',
+          '5:00 PM - Stakeholder sync with creator partnerships team',
+          '5:30 PM - Wrap up reviewing tomorrow\'s priorities'
+        ],
+        closing: 'Product management at Spotify means owning products that connect hundreds of millions of people with the music and audio they love, working with autonomous squads in a culture that values experimentation and impact.'
       },
-
-      similarRoles: [
-        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
-        { companyName: "YouTube", companySlug: "youtube", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
-      ]
+      similarRoles: ['Senior Product Manager at Spotify', 'Group Product Manager at Spotify', 'Product Lead at Spotify', 'Growth PM at Spotify', 'Platform PM at Spotify']
     },
 
     'engineering-manager': {
-      roleDescription: "Engineering Managers at Spotify lead squads building products for hundreds of millions of music and audio fans. You'll manage engineers in Spotify's autonomous squad model, balancing technical leadership, people development, and product impact. EMs foster innovation, collaboration, and a culture where engineers thrive.",
-
+      title: 'Engineering Manager',
+      slug: 'engineering-manager',
+      industry: 'Technology',
+      roleDescription: `Engineering Managers at Spotify lead squads building the technology that brings music and audio to over 600 million users. The EM role at Spotify is unique—you're part of the squad's "band," leading engineers while partnering with Product and Design as equals. Spotify's autonomous squad model means EMs have significant ownership over their teams' technical direction and delivery, while also investing heavily in people development. The company uses a "chapter" structure where EMs belong to engineering chapters that support career growth, share practices, and build community across squads. EMs are expected to maintain technical credibility, participating in architecture discussions and code review, while focusing primarily on people leadership. The role requires balancing individual engineer growth with squad delivery, technical excellence with shipping pragmatism, and squad autonomy with cross-squad alignment. Spotify's values—innovative, collaborative, sincere, passionate, playful—shape how EMs lead their teams.`,
       responsibilities: [
-        "Lead engineering squad of 5-8 engineers in autonomous team structure",
-        "Drive technical strategy and architecture decisions",
-        "Partner with product and design on roadmap and execution",
-        "Recruit, develop, and retain engineering talent",
-        "Conduct 1:1s, performance reviews, and career coaching",
-        "Foster inclusive team culture emphasizing autonomy and impact",
-        "Balance innovation with reliability and technical excellence",
-        "Contribute to engineering organization and leadership"
+        'Lead, mentor, and grow a squad of 5-8 software engineers',
+        'Partner with Product Manager and Design as part of squad leadership',
+        'Conduct regular 1:1s, performance reviews, and career development conversations',
+        'Contribute to technical direction and maintain credibility with engineers',
+        'Build inclusive squad culture aligned with Spotify\'s band values',
+        'Drive hiring for your squad including interview calibration',
+        'Participate in chapter activities supporting engineering excellence',
+        'Manage project execution ensuring quality delivery on squad mission',
+        'Collaborate with other EMs in your tribe on cross-squad initiatives'
       ],
-
       growthOpportunities: [
-        "Grow management skills in high-autonomy squad environment",
-        "Exposure to audio technology, ML systems, and content platforms",
-        "Opportunities to scale into senior engineering leadership",
-        "Cross-functional influence with product, design, and data science",
-        "Shape engineering culture and technical standards",
-        "Mentor and develop future engineering leaders",
-        "Internal mobility across product areas and engineering disciplines",
-        "Impact on global music and audio innovation"
+        'Progress to Senior EM managing multiple squads or leading chapters',
+        'Advance to Engineering Director overseeing tribes',
+        'Move into VP of Engineering with executive scope',
+        'Transition back to Staff or Principal Engineer (supported path)',
+        'Lead chapter or guild initiatives improving engineering practice',
+        'Drive tribe-wide technical strategy and architecture',
+        'Build expertise in specific domains (personalization, audio, platform)',
+        'Shape engineering culture through organizational initiatives'
       ],
-
       interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Screen",
-          description: "30-minute conversation about management experience, leadership philosophy, and interest in Spotify.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Technical/Architecture Discussion",
-          description: "60-minute discussion on system design, technical leadership, and past technical decisions.",
-          duration: "60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-6 rounds)",
-          description: "People management, technical leadership, product collaboration, system design, and values/culture fit.",
-          duration: "5-6 hours"
-        },
-        {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Review of leadership capability and technical depth. Competitive offer with equity and benefits.",
-          duration: "1 week"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial discussion of management experience and interest in Spotify' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into leadership philosophy, squad experience, and technical background' },
+        { stage: 'Technical Assessment', description: 'System design or architecture discussion demonstrating technical depth' },
+        { stage: 'People Leadership Interview', description: 'Scenarios on coaching, difficult conversations, and team development' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of partnership with Product and Design' },
+        { stage: 'Values Interview', description: 'Behavioral interview assessing fit with Spotify\'s band culture' },
+        { stage: 'Executive Interview', description: 'Final round with senior engineering leader' }
       ],
-
       technicalQuestions: [
-        "How would you architect Spotify's recommendation system at scale?",
-        "Describe your approach to managing technical debt in a fast-moving product",
-        "How do you make technical decisions in a squad-based organization?",
-        "What's your strategy for maintaining service reliability while shipping quickly?",
-        "How would you approach building vs buying for audio streaming infrastructure?",
-        "Describe your framework for data architecture decisions",
-        "How do you balance experimentation with technical excellence?",
-        "What's your approach to managing incidents and on-call?"
+        'How do you balance technical debt with feature development in your squad?',
+        'Describe your approach to making architecture decisions with your team',
+        'How do you ensure your squad maintains production reliability?',
+        'Walk me through a complex system your squad owns',
+        'How do you stay technically credible while managing a growing team?',
+        'Describe your approach to driving engineering standards',
+        'How would you handle a major incident in your squad\'s service?',
+        'What\'s your philosophy on code review and engineering practices?',
+        'How do you approach capacity planning for your squad?',
+        'Describe how you evaluate and adopt new technologies',
+        'How do you handle technical disagreements within your squad?',
+        'What\'s your approach to on-call and production support?',
+        'How do you balance squad autonomy with alignment to company goals?',
+        'Describe your approach to technical hiring and interview calibration',
+        'How do you support engineers\' technical growth?',
+        'What role do chapters play in your engineering leadership?'
       ],
-
       behavioralQuestions: [
-        "Tell me about a time you developed an engineer's career",
-        "Describe how you've fostered autonomy while maintaining alignment",
-        "How have you built inclusive and diverse engineering teams?",
-        "Tell me about a difficult technical decision you made with your team",
-        "Describe your experience managing in a product-driven organization",
-        "How do you build trust across engineering, product, and design?",
-        "Tell me about a time you had to deliver constructive feedback",
-        "Describe a situation where you changed your management approach"
+        'Tell me about helping an underperforming engineer improve',
+        'Describe building inclusive squad culture where everyone belongs',
+        'How have you handled disagreements with Product about priorities?',
+        'Tell me about a difficult termination decision you made',
+        'Describe giving critical feedback to a high performer',
+        'How have you managed through organizational change?',
+        'Tell me about developing an engineer from junior to senior',
+        'Describe partnering with Product to influence roadmap',
+        'How do you build psychological safety on your squad?',
+        'Tell me about handling conflicting priorities from leadership',
+        'Describe your most effective team building initiative',
+        'How have you approached a situation with low team morale?',
+        'Tell me about delivering difficult news to your squad',
+        'Describe balancing being hands-on with delegating'
       ],
-
       whatTheyLookFor: [
-        "Strong people leadership and coaching skills",
-        "Technical depth in distributed systems and scalability",
-        "Experience with autonomous team structures",
-        "Product-minded engineering approach",
-        "Commitment to diversity and inclusion",
-        "Balance of innovation and operational excellence",
-        "Collaboration skills in cross-functional squads",
-        "Passion for music, audio, and creator economy"
+        'Strong people leadership with genuine investment in engineer growth',
+        'Technical credibility to guide architectural decisions',
+        'Experience with autonomous, empowered team structures',
+        'Partnership skills working as equals with Product and Design',
+        'Track record building high-performing, engaged teams',
+        'Clear communication across squads, chapters, and leadership',
+        'Cultural fit with Spotify\'s values: innovative, collaborative, sincere, passionate, playful',
+        'Growth mindset for self and team development',
+        'Experience with chapter or community-of-practice models',
+        'Comfort with ambiguity and leading through change'
       ],
-
       interviewTips: [
-        "Understand Spotify's squad model and guild structure",
-        "Prepare examples of fostering autonomy and ownership",
-        "Be ready to discuss technical architecture at scale",
-        "Show experience balancing innovation with reliability",
-        "Demonstrate cross-functional partnership skills",
-        "Research Spotify's engineering culture and values",
-        "Prepare examples of developing direct reports",
-        "Express passion for music and audio technology"
+        'Understand Spotify\'s squad model and how EMs fit in',
+        'Research chapters, tribes, and guilds—know how they work',
+        'Prepare examples of leading autonomous, empowered teams',
+        'Be ready to demonstrate technical depth—Spotify EMs stay technical',
+        'Know Spotify\'s values and prepare examples demonstrating them',
+        'Practice discussing difficult management situations with nuance',
+        'Show how you\'ve partnered with Product as an equal',
+        'Prepare questions about chapter culture and EM community',
+        'Be authentic about your leadership style and philosophy',
+        'Research Spotify\'s engineering blog and culture',
+        'Show vulnerability—discuss mistakes and what you learned',
+        'Prepare examples of building inclusive team culture',
+        'Understand the balance between squad autonomy and alignment',
+        'Be ready to discuss how you stay technically engaged'
       ],
-
+      salary: { min: 190000, max: 320000 },
+      compensation: [
+        'Competitive base salary with significant equity (RSUs)',
+        'Annual refresher grants based on performance',
+        'Performance bonuses tied to squad and company goals',
+        'Spotify Premium subscription for life',
+        'Comprehensive health, dental, and vision coverage',
+        'Generous parental leave (6 months)',
+        'Flexible PTO with managers modeling healthy time off',
+        '401(k) with company match',
+        'Leadership development programs',
+        'Home office stipend and equipment budget'
+      ],
       dayInLife: {
-        overview: "Spotify EMs balance people leadership, technical guidance, and strategic planning in an autonomous squad environment. Days include 1:1s, technical discussions, and cross-functional collaboration.",
+        intro: 'A day as an Engineering Manager at Spotify balances people leadership with technical engagement in an autonomous squad structure.',
         schedule: [
-          {
-            time: "9:00 AM",
-            activity: "1:1 Meetings",
-            description: "Career development discussions with two squad members"
-          },
-          {
-            time: "10:30 AM",
-            activity: "Technical Architecture Review",
-            description: "Review recommendation system improvements with senior engineers"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Squad Sync",
-            description: "Weekly squad meeting on sprint progress and upcoming priorities"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Guild Meeting",
-            description: "Backend guild discussion on microservices patterns and best practices"
-          },
-          {
-            time: "1:30 PM",
-            activity: "Recruiting",
-            description: "Interview senior engineer candidate for personalization squad"
-          },
-          {
-            time: "3:00 PM",
-            activity: "Product Planning",
-            description: "Collaborate with PM and design on Q2 roadmap and technical feasibility"
-          },
-          {
-            time: "4:00 PM",
-            activity: "Incident Review",
-            description: "Conduct postmortem on streaming service latency issue"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Leadership Sync",
-            description: "Engineering leadership meeting on organizational priorities"
-          }
-        ]
+          '9:00 AM - Review squad dashboards and overnight activity',
+          '9:30 AM - 1:1 with engineer discussing career growth',
+          '10:00 AM - Squad standup facilitating discussion of priorities',
+          '10:30 AM - Architecture review providing input on design',
+          '11:30 AM - Cross-functional sync with PM and Design on planning',
+          '12:00 PM - Lunch with new squad member for onboarding',
+          '1:00 PM - Chapter meeting with fellow EMs sharing practices',
+          '2:00 PM - Code review staying connected to squad\'s work',
+          '3:00 PM - Interview debrief calibrating on candidates',
+          '3:30 PM - 1:1 coaching conversation with struggling engineer',
+          '4:30 PM - Performance review preparation',
+          '5:30 PM - Squad celebration for shipped feature'
+        ],
+        closing: 'Engineering management at Spotify means leading autonomous squads that build products for hundreds of millions of users, while investing deeply in engineer growth within a unique band culture.'
       },
-
-      similarRoles: [
-        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
-      ]
+      similarRoles: ['Senior Engineering Manager at Spotify', 'Engineering Director at Spotify', 'Chapter Lead at Spotify', 'Staff Engineer at Spotify']
     },
 
     'data-scientist': {
-      roleDescription: "Data Scientists at Spotify use data, analytics, and machine learning to personalize music experiences for hundreds of millions of users. You'll work on recommendation systems, content understanding, creator analytics, and growth optimization, collaborating with engineers, product managers, and researchers in autonomous squads. Spotify's data-driven culture emphasizes experimentation and measurable impact.",
-
+      title: 'Data Scientist',
+      slug: 'data-scientist',
+      industry: 'Technology',
+      roleDescription: `Data Scientists at Spotify power the personalization, recommendations, and insights that help over 600 million users discover music and audio they love. Working with one of the richest behavioral datasets in consumer technology—billions of streams, skips, saves, and playlist additions—you'll build models that shape how people experience sound. Spotify's data science culture emphasizes both rigorous ML research and practical product impact. Data Scientists work embedded in squads alongside engineers and PMs, owning everything from exploratory analysis to production ML models. The company's recommendation systems are legendary (Discover Weekly serves 100+ million users), and DS teams continuously innovate on personalization, search ranking, content understanding, and creator analytics. Spotify invests in research with publications at top conferences and a dedicated research organization. The interview evaluates both technical depth in ML and statistics alongside product intuition and experimentation rigor.`,
       responsibilities: [
-        "Build recommendation and personalization algorithms for music discovery",
-        "Develop ML models for content understanding and audio analysis",
-        "Design and analyze A/B experiments across product features",
-        "Create analytics frameworks and dashboards for squads",
-        "Partner with product managers on feature development and strategy",
-        "Analyze user behavior and listening patterns",
-        "Build predictive models for user engagement and retention",
-        "Contribute to data infrastructure and tooling"
+        'Build recommendation and personalization models serving millions of users',
+        'Design and analyze A/B experiments measuring product and algorithm impact',
+        'Develop ML models for content understanding, search ranking, and user modeling',
+        'Partner with engineers to deploy models in production at scale',
+        'Collaborate with PMs to define metrics and inform product strategy',
+        'Conduct exploratory analysis to uncover user behavior insights',
+        'Present findings and recommendations to leadership and stakeholders',
+        'Contribute to Spotify\'s research agenda and publications',
+        'Mentor junior data scientists and contribute to team practices'
       ],
-
       growthOpportunities: [
-        "Advance from IC data scientist to research or leadership roles",
-        "Exposure to large-scale recommendation systems and audio ML",
-        "Work on products impacting hundreds of millions of users",
-        "High autonomy in squad-based organization",
-        "Internal mobility across personalization, creator tools, and growth teams",
-        "Access to unique datasets on music consumption and behavior",
-        "Opportunity to publish research and speak at conferences",
-        "Influence on future of music discovery and audio technology"
+        'Progress through IC levels to Staff and Principal Data Scientist',
+        'Specialize in areas like recommendations, NLP, audio ML, or experimentation',
+        'Transition into Data Science management leading teams',
+        'Move into Research Scientist roles for more exploratory work',
+        'Become domain expert in personalization, creator analytics, or search',
+        'Lead cross-squad initiatives shaping company data strategy',
+        'Publish research and represent Spotify at conferences',
+        'Internal mobility across listener, creator, and platform squads'
       ],
-
       interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Screen",
-          description: "30-minute conversation about data science background and interest in Spotify.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Technical Screen",
-          description: "60-minute interview on statistics, machine learning, and analytical problem-solving.",
-          duration: "60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Analytics case study, machine learning deep dive, coding/SQL, product sense, and behavioral interviews.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Review of technical skills, analytical ability, and cultural fit. Competitive offer with equity.",
-          duration: "1 week"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial conversation about background and interest in Spotify' },
+        { stage: 'Technical Phone Screen', description: '60-minute interview covering statistics, ML, and analytical problem-solving' },
+        { stage: 'Onsite - ML Deep Dive', description: '60-minute assessment of machine learning fundamentals and applied experience' },
+        { stage: 'Onsite - Product/Analytics Case', description: '60-minute case testing metrics definition, analysis approach, and product thinking' },
+        { stage: 'Onsite - Coding/SQL', description: '45-minute assessment of coding skills and data manipulation' },
+        { stage: 'Onsite - Values Interview', description: '45-minute behavioral interview assessing cultural fit' },
+        { stage: 'Presentation', description: 'Present past work demonstrating technical depth and communication' }
       ],
-
       technicalQuestions: [
-        "How would you improve Spotify's Discover Weekly playlist?",
-        "Build a recommendation system for podcast discovery",
-        "How would you measure the success of personalized daily mixes?",
-        "Design an experiment to test a new shuffle algorithm",
-        "Build a model to predict user churn",
-        "How would you categorize and tag millions of songs automatically?",
-        "Design metrics for measuring playlist quality",
-        "Build a model to detect explicit content in audio",
-        "How would you optimize audio quality recommendations based on network?",
-        "Design an A/B test for a new discovery feature"
+        'How would you improve Spotify\'s Discover Weekly recommendation algorithm?',
+        'Design a recommendation system for podcast discovery',
+        'How would you measure the success of personalized Daily Mixes?',
+        'Build a model to predict user churn and intervention strategies',
+        'How would you categorize and tag millions of songs automatically?',
+        'Design an experiment to test a new shuffle algorithm',
+        'Build a model to detect explicit content in audio',
+        'How would you handle the cold-start problem for new users?',
+        'Design metrics for measuring playlist quality and engagement',
+        'How would you build a search ranking model for Spotify?',
+        'Design an algorithm for generating Spotify Wrapped statistics',
+        'How would you approach music similarity and artist recommendation?',
+        'Build a model to predict which songs will go viral',
+        'How would you optimize audio quality recommendations based on network?',
+        'Design an ML system for real-time personalization',
+        'How would you approach fairness in recommendation systems?'
       ],
-
       behavioralQuestions: [
-        "Tell me about a recommendation system or ML model you built",
-        "Describe a time you used data to influence product strategy",
-        "How have you collaborated with engineers and product managers?",
-        "Tell me about an A/B test that produced unexpected results",
-        "Describe your experience with audio data or content understanding",
-        "How do you approach problems with ambiguous requirements?",
-        "Tell me about a time your analysis changed a key decision",
-        "Describe a project where you balanced rigor with speed"
+        'Tell me about a recommendation system or ML model you built',
+        'Describe using data to influence product strategy',
+        'How have you collaborated with engineers on production ML?',
+        'Tell me about an A/B test that produced unexpected results',
+        'Describe your experience with audio data or content understanding',
+        'How do you approach problems with ambiguous requirements?',
+        'Tell me about analysis that changed a key decision',
+        'Describe balancing rigor with speed in your work',
+        'How have you communicated complex findings to non-technical audiences?',
+        'Tell me about a model that didn\'t work and what you learned',
+        'Describe collaborating with product managers effectively',
+        'How have you mentored other data scientists?',
+        'Tell me about staying current with ML research',
+        'Describe handling disagreement about analytical approaches'
       ],
-
       whatTheyLookFor: [
-        "Strong foundation in machine learning and recommendation systems",
-        "Proficiency in Python, SQL, and data science tools",
-        "Experience with large-scale ML systems",
-        "Understanding of experimentation and causal inference",
-        "Product sense for music and audio experiences",
-        "Ability to translate analysis into actionable insights",
-        "Strong communication skills for diverse audiences",
-        "Passion for music and content discovery"
+        'Strong foundation in machine learning and recommendation systems',
+        'Proficiency in Python, SQL, and data science tools',
+        'Experience deploying ML models in production',
+        'Understanding of experimentation and causal inference',
+        'Product sense for music and audio experiences',
+        'Ability to translate analysis into actionable insights',
+        'Strong communication for diverse audiences',
+        'Passion for music and content discovery',
+        'Cultural fit with Spotify\'s values',
+        'Collaborative mindset for squad environment'
       ],
-
       interviewTips: [
-        "Understand collaborative filtering and recommendation algorithms",
-        "Be prepared to discuss audio ML and content understanding",
-        "Show examples of ML models you've built and deployed",
-        "Research Spotify's personalization features (Discover Weekly, Daily Mix)",
-        "Demonstrate experimentation methodology expertise",
-        "Prepare ideas for improving music discovery",
-        "Be ready to discuss cold-start problems in recommendations",
-        "Express genuine passion for music and audio technology"
+        'Review collaborative filtering and recommendation algorithms',
+        'Understand Spotify\'s personalization features deeply',
+        'Be prepared to discuss audio ML and content understanding',
+        'Prepare examples of ML models you\'ve deployed in production',
+        'Know Spotify\'s values for the values interview',
+        'Practice experimentation methodology and A/B testing',
+        'Prepare ideas for improving music discovery',
+        'Be ready to discuss cold-start and long-tail problems',
+        'Research Spotify\'s published research papers',
+        'Express genuine passion for music and audio',
+        'Practice presenting technical work clearly',
+        'Be ready for both ML depth and product breadth questions',
+        'Prepare questions about research culture and squad structure',
+        'Show how you balance innovation with practical impact'
       ],
-
+      salary: { min: 155000, max: 280000 },
+      compensation: [
+        'Competitive base salary with significant equity (RSUs)',
+        'Annual performance bonuses',
+        'Spotify Premium subscription for life',
+        'Comprehensive health, dental, and vision insurance',
+        'Generous parental leave (6 months)',
+        'Flexible PTO with minimum vacation requirements',
+        '401(k) with company match',
+        'Conference attendance and research budget',
+        'Learning and development support',
+        'Home office stipend'
+      ],
       dayInLife: {
-        overview: "Spotify data scientists balance model development, experimentation, analytics, and cross-functional collaboration in autonomous squads. Work involves Python, SQL, ML frameworks, and strategic thinking.",
+        intro: 'A day as a Data Scientist at Spotify balances model development, experimentation, and collaboration on products that shape how people discover music.',
         schedule: [
-          {
-            time: "9:30 AM",
-            activity: "Experiment Analysis",
-            description: "Review A/B test results for new recommendation algorithm"
-          },
-          {
-            time: "10:30 AM",
-            activity: "Squad Standup",
-            description: "Daily sync with personalization squad on progress and blockers"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Model Development",
-            description: "Improve playlist generation model with new features"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Research Seminar",
-            description: "Attend internal talk on transformer models for audio understanding"
-          },
-          {
-            time: "1:30 PM",
-            activity: "Product Collaboration",
-            description: "Partner with PM to define metrics for new discovery feature"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Deep Dive Analysis",
-            description: "Investigate patterns in user skip behavior for podcast recommendations"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Model Review",
-            description: "Present content tagging model results to content team"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Experiment Design",
-            description: "Design A/B test with engineer for new playlist creation feature"
-          }
-        ]
+          '9:30 AM - Review experiment results from overnight pipeline runs',
+          '10:00 AM - Squad standup with personalization team',
+          '10:30 AM - Deep work on recommendation model improvements',
+          '12:00 PM - Research seminar on transformer models for audio',
+          '1:00 PM - Lunch with DS colleagues discussing new papers',
+          '2:00 PM - Product collaboration defining metrics for new feature',
+          '3:00 PM - Analysis investigating patterns in skip behavior',
+          '4:00 PM - Model review presenting results to content team',
+          '5:00 PM - Experiment design session with engineer',
+          '5:30 PM - Wrap up with documentation and planning'
+        ],
+        closing: 'Data Science at Spotify means building the algorithms that connect hundreds of millions of people with music they love, working at the intersection of cutting-edge ML and products people use every day.'
       },
-
-      similarRoles: [
-        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" }
-      ]
+      similarRoles: ['Senior Data Scientist at Spotify', 'Staff Data Scientist at Spotify', 'ML Engineer at Spotify', 'Research Scientist at Spotify', 'Analytics Lead at Spotify']
     },
 
-    'account-executive': {
-      roleDescription: "Account Executives at Salesforce drive the company's growth by selling the world's leading CRM and AI platform to businesses of all sizes. You'll own the full sales cycle—from prospecting and discovery through negotiation and close—for Salesforce's suite of cloud products including Sales Cloud, Service Cloud, Marketing Cloud, and the revolutionary Agentforce AI platform. Salesforce AEs are trusted advisors who help customers transform their businesses through technology, backed by world-class sales training and a culture that celebrates success. With 8,000+ AE positions and compensation ranging from $60K-$200K+ OTE, this is one of the most sought-after enterprise sales roles in tech.",
-
+    'machine-learning-engineer': {
+      title: 'Machine Learning Engineer',
+      slug: 'machine-learning-engineer',
+      industry: 'Technology',
+      roleDescription: `Machine Learning Engineers at Spotify build the production systems that power personalization for over 600 million users. Unlike data scientists who develop experimental models, MLEs focus on building robust, scalable ML infrastructure that serves recommendations in real-time. You'll work on systems like Discover Weekly, Daily Mix, and search ranking—features that define how people experience music discovery. Spotify's ML infrastructure handles billions of predictions daily with strict latency requirements, requiring expertise in both ML and distributed systems. MLEs partner closely with Data Scientists who develop models and Backend Engineers who integrate ML into products. The role spans the full ML lifecycle: feature engineering, model training pipelines, serving infrastructure, and monitoring. Spotify invests heavily in ML infrastructure with internal platforms for experimentation, feature stores, and model deployment. Teams work on cutting-edge problems including real-time personalization, audio understanding, natural language processing for podcasts, and fairness in recommendations.`,
       responsibilities: [
-        "Own full sales cycle from prospecting through close for assigned territory or accounts",
-        "Develop and execute territory/account plans to achieve and exceed quota",
-        "Conduct discovery to understand customer business challenges and requirements",
-        "Demonstrate Salesforce solutions and articulate business value to stakeholders",
-        "Build relationships with C-level executives and key decision makers",
-        "Collaborate with Sales Engineers, Customer Success, and partners on deals",
-        "Accurately forecast pipeline and manage opportunities in Salesforce CRM",
-        "Stay current on Salesforce products, competitive landscape, and industry trends",
-        "Leverage Agentforce and AI tools to enhance sales productivity"
+        'Build production ML systems for personalization, search, and content understanding',
+        'Design and maintain ML pipelines handling feature engineering, training, and serving',
+        'Develop real-time prediction infrastructure meeting strict latency requirements',
+        'Partner with Data Scientists to productionize experimental models',
+        'Build and improve ML platform tools including feature stores and model serving',
+        'Conduct A/B tests measuring model impact on user engagement',
+        'Optimize models for inference efficiency and cost',
+        'Collaborate with product teams on ML-powered features',
+        'Contribute to ML best practices and team knowledge sharing'
       ],
-
       growthOpportunities: [
-        "Clear promotion path from SMB AE to Mid-Market to Enterprise to Strategic accounts",
-        "Uncapped commission potential with accelerators for exceeding quota",
-        "Opportunity to specialize in industry verticals (Financial Services, Healthcare, Manufacturing)",
-        "Path to sales leadership, solutions engineering, or customer success roles",
-        "Access to Salesforce's renowned sales training and enablement programs",
-        "Internal mobility across Salesforce's cloud products and acquired companies",
-        "President's Club recognition for top performers",
-        "Build expertise in AI-powered sales with Agentforce"
+        'Progress through IC levels to Staff and Principal ML Engineer',
+        'Specialize in areas like recommendations, NLP, audio ML, or ML infrastructure',
+        'Transition into ML Platform engineering building core tools',
+        'Move into Research roles for more exploratory work',
+        'Lead ML architecture decisions across multiple squads',
+        'Build and lead ML teams as an Engineering Manager',
+        'Contribute to open source ML tools and Spotify\'s research publications',
+        'Shape ML strategy for major product areas'
       ],
-
       interviewProcess: [
-        {
-          stage: 1,
-          title: "Recruiter Screen",
-          description: "30-minute conversation about sales background, quota attainment history, and interest in Salesforce. Overview of territory, compensation, and team structure.",
-          duration: "30 minutes"
-        },
-        {
-          stage: 2,
-          title: "Hiring Manager Interview",
-          description: "60-minute discussion on sales methodology, deal experience, and approach to territory management. Expect detailed questions about past performance.",
-          duration: "60 minutes"
-        },
-        {
-          stage: 3,
-          title: "Role Play / Mock Pitch",
-          description: "Prepare and deliver a mock sales pitch or discovery call. Evaluated on questioning, objection handling, and ability to articulate value.",
-          duration: "45-60 minutes"
-        },
-        {
-          stage: 4,
-          title: "Panel Interview",
-          description: "Meet with cross-functional partners (SE, CSM, leadership) to assess collaboration skills, culture fit, and sales acumen.",
-          duration: "2-3 hours"
-        },
-        {
-          stage: 5,
-          title: "Offer & Negotiation",
-          description: "Competitive offer with base salary, uncapped commission, equity, and comprehensive benefits.",
-          duration: "1 week"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial call covering ML experience and interest in Spotify' },
+        { stage: 'Technical Phone Screen', description: '75-minute interview combining ML fundamentals, coding, and system design' },
+        { stage: 'Onsite - ML Depth', description: '60-minute deep dive into ML algorithms, training, and production systems' },
+        { stage: 'Onsite - Coding', description: '60-minute algorithmic coding interview' },
+        { stage: 'Onsite - ML System Design', description: '60-minute design of end-to-end ML system for audio/personalization' },
+        { stage: 'Onsite - Values Interview', description: '45-minute behavioral interview assessing cultural fit' },
+        { stage: 'Team Matching', description: 'Discussions with potential squads to find right fit' }
       ],
-
       technicalQuestions: [
-        "Walk me through your most complex deal from start to finish",
-        "How do you approach building pipeline in a new territory?",
-        "Describe your discovery process—what questions do you ask and why?",
-        "How would you position Salesforce against Microsoft Dynamics or HubSpot?",
-        "Tell me about a deal you lost and what you learned from it",
-        "How do you identify and engage multiple stakeholders in an enterprise deal?",
-        "Describe your approach to negotiation and closing",
-        "How do you leverage partners and internal resources to advance deals?",
-        "What's your methodology for accurate forecasting?",
-        "How would you explain the value of AI and Agentforce to a skeptical prospect?",
-        "Describe how you prioritize accounts in your territory",
-        "How do you handle a prospect who says they're happy with their current solution?",
-        "Walk me through how you'd conduct a business value assessment",
-        "How do you maintain urgency and momentum in long sales cycles?"
+        'Design the ML system powering Discover Weekly recommendations',
+        'How would you build a real-time personalization system for the home feed?',
+        'Design a search ranking model for songs, artists, and playlists',
+        'How would you handle the cold-start problem for new users at scale?',
+        'Design an ML pipeline for audio content understanding',
+        'How would you build a model serving system with sub-100ms latency?',
+        'Design a feature store for Spotify\'s recommendation systems',
+        'How would you approach incremental model updates for personalization?',
+        'Design an ML system for podcast episode recommendations',
+        'How would you detect and handle concept drift in recommendation models?',
+        'Design the training pipeline for a model on billions of interactions',
+        'How would you approach multi-objective optimization in recommendations?',
+        'Design an ML system for automatic music categorization',
+        'How would you build an embedding model for songs and users?',
+        'Design A/B testing infrastructure for ML model experiments',
+        'How would you approach fairness in Spotify\'s recommendation systems?'
       ],
-
       behavioralQuestions: [
-        "Tell me about a time you significantly exceeded your quota—what drove your success?",
-        "Describe a deal that was at risk and how you turned it around",
-        "How have you handled a situation where a customer was unhappy post-sale?",
-        "Tell me about a time you had to sell a product or feature you weren't confident in",
-        "Describe your approach to time management with competing priorities",
-        "How have you collaborated with solutions engineers on complex deals?",
-        "Tell me about a time you had to push back on a customer's unreasonable request",
-        "Describe how you've adapted your sales approach to different buyer personas",
-        "How have you handled rejection and maintained motivation?",
-        "Tell me about a creative approach you took to get into a difficult account",
-        "Describe your experience with multi-threaded selling",
-        "How have you leveraged customer references and case studies?",
-        "Tell me about a time you identified an upsell or cross-sell opportunity",
-        "Describe how you stay organized and manage your pipeline effectively"
+        'Tell me about an ML model you deployed in production at scale',
+        'Describe choosing between model complexity and serving efficiency',
+        'How have you collaborated with data scientists on production ML?',
+        'Tell me about an ML project that failed and what you learned',
+        'Describe debugging a production ML issue',
+        'How have you communicated ML trade-offs to non-technical stakeholders?',
+        'Tell me about improving an existing ML system significantly',
+        'Describe your approach to monitoring models in production',
+        'How have you handled disagreements about ML approaches?',
+        'Tell me about working with engineers to integrate ML into products',
+        'Describe balancing research exploration with production needs',
+        'How have you mentored others in ML best practices?',
+        'Tell me about staying current with ML research',
+        'Describe a creative approach to an ML infrastructure challenge'
       ],
-
       whatTheyLookFor: [
-        "Consistent track record of meeting or exceeding sales quota",
-        "Strong discovery and consultative selling skills",
-        "Ability to articulate business value to C-level executives",
-        "Experience with complex, multi-stakeholder enterprise sales",
-        "Excellent communication and presentation abilities",
-        "Resilience, competitiveness, and drive to succeed",
-        "Coachability and commitment to continuous improvement",
-        "Collaboration skills with internal teams and partners",
-        "Understanding of CRM, SaaS, and cloud technology",
-        "Alignment with Salesforce's values and Ohana culture"
+        'Strong ML fundamentals with production deployment experience',
+        'Excellent software engineering skills for robust systems',
+        'Experience with recommendation systems and personalization',
+        'Proficiency in Python and ML frameworks (TensorFlow, PyTorch)',
+        'Understanding of distributed systems and data engineering',
+        'Pragmatic approach balancing model quality with operational concerns',
+        'Collaborative mindset for squad environment',
+        'Passion for music and audio technology',
+        'Cultural fit with Spotify\'s values',
+        'Growth mindset with continuous learning orientation'
       ],
-
       interviewTips: [
-        "Know your numbers—quota attainment, deal sizes, win rates, pipeline metrics",
-        "Prepare specific examples using STAR method (Situation, Task, Action, Result)",
-        "Research Salesforce products, especially newer offerings like Agentforce and Data Cloud",
-        "Understand Salesforce's competitive positioning vs Microsoft, HubSpot, Oracle",
-        "Practice your mock pitch—focus on discovery and value articulation",
-        "Show genuine curiosity about the prospect's business during role plays",
-        "Demonstrate your sales methodology (MEDDIC, Challenger, etc.)",
-        "Prepare thoughtful questions about territory, ramp expectations, and success metrics",
-        "Show enthusiasm for Salesforce's mission and culture",
-        "Be ready to discuss how you've used Salesforce CRM in your current role",
-        "Highlight examples of cross-functional collaboration",
-        "Show coachability—ask for feedback during role plays",
-        "Research the specific team/segment you're interviewing for",
-        "Understand Salesforce's approach to AI in sales"
+        'Review recommendation system architectures and algorithms',
+        'Practice ML system design with audio/personalization problems',
+        'Be ready to discuss latency vs accuracy trade-offs',
+        'Prepare examples of production ML with business impact',
+        'Understand Spotify\'s personalization features deeply',
+        'Know Spotify\'s values for the values interview',
+        'Practice coding ML implementations in Python',
+        'Be ready to discuss model monitoring and production issues',
+        'Research Spotify\'s ML research and blog posts',
+        'Show passion for music discovery and personalization',
+        'Prepare questions about ML infrastructure and culture',
+        'Be ready to discuss cold-start and long-tail problems',
+        'Show how you balance innovation with shipping pragmatism',
+        'Be authentic about both successes and failures'
       ],
-
-      salary: {
-        min: 60000,
-        max: 120000,
-        avg: 85000
-      },
-
+      salary: { min: 170000, max: 300000 },
       compensation: [
-        "Base salary: $60K-$120K depending on segment (SMB, Mid-Market, Enterprise)",
-        "On-target earnings (OTE): $120K-$250K+ with uncapped commission",
-        "Commission: Typically 50/50 split (base/variable) with accelerators",
-        "RSUs: Equity grants with 4-year vesting",
-        "Sign-on bonus for experienced hires",
-        "President's Club trips for top performers",
-        "401(k) with company match",
-        "Comprehensive health, dental, and vision coverage",
-        "7 paid volunteer days annually",
-        "Monthly wellness reimbursement",
-        "Flexible time off policy"
+        'Highly competitive base salary with significant equity (RSUs)',
+        'Annual refresher grants and performance bonuses',
+        'Spotify Premium subscription for life',
+        'Comprehensive health, dental, and vision coverage',
+        'Generous parental leave (6 months)',
+        'Flexible PTO with minimum vacation requirements',
+        '401(k) with company match',
+        'Conference and research budget',
+        'Learning and development support',
+        'Home office stipend'
       ],
-
       dayInLife: {
-        intro: "A typical day as a Salesforce Account Executive involves a mix of prospecting, customer meetings, deal progression, and collaboration with internal teams—all focused on helping customers succeed with Salesforce.",
+        intro: 'A day as an ML Engineer at Spotify combines building production systems with advancing how people discover music.',
         schedule: [
-          {
-            time: "8:00 AM",
-            activity: "Pipeline Review",
-            description: "Review CRM dashboard, prioritize activities, and prepare for the day's meetings"
-          },
-          {
-            time: "9:00 AM",
-            activity: "Prospecting Block",
-            description: "Execute outbound prospecting—calls, emails, LinkedIn outreach to target accounts"
-          },
-          {
-            time: "10:30 AM",
-            activity: "Discovery Call",
-            description: "Conduct discovery meeting with new prospect to understand business challenges"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Deal Strategy",
-            description: "Meet with Solutions Engineer to prepare for afternoon demo"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Team Lunch",
-            description: "Lunch with team, share wins and learnings from recent deals"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Product Demo",
-            description: "Deliver customized Salesforce demo to prospect with SE support"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Proposal Review",
-            description: "Finalize pricing proposal and business case for opportunity in negotiation"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Executive Meeting",
-            description: "Join call with prospect's CFO to discuss ROI and business value"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Forecast Update",
-            description: "Update pipeline, log activities, and prepare forecast for weekly commit call"
-          }
+          '9:30 AM - Review model performance dashboards and alerts',
+          '10:00 AM - Squad standup with personalization team',
+          '10:30 AM - Deep work on feature engineering for new ranking model',
+          '12:00 PM - Lunch with ML colleagues discussing recent papers',
+          '1:00 PM - Meeting with DS partner on productionizing new model',
+          '2:00 PM - Code review for teammate\'s training pipeline',
+          '3:00 PM - A/B test analysis meeting reviewing experiment results',
+          '4:00 PM - Debug model serving latency issue',
+          '5:00 PM - Design doc review for upcoming ML system improvement',
+          '5:30 PM - Wrap up with experiment monitoring check'
         ],
-        closing: "Salesforce AEs thrive in a fast-paced, high-energy environment where success is celebrated and the mission of customer success drives everything."
+        closing: 'ML Engineering at Spotify means building systems that directly improve music discovery for hundreds of millions of users, working at the intersection of cutting-edge ML and massive scale.'
       },
+      similarRoles: ['Senior ML Engineer at Spotify', 'Staff ML Engineer at Spotify', 'ML Platform Engineer at Spotify', 'Research Scientist at Spotify', 'Data Scientist at Spotify']
+    },
 
-      similarRoles: [
-        "Oracle Account Executive",
-        "Microsoft Account Executive",
-        "ServiceNow Account Executive",
-        "SAP Account Executive"
-      ]
+    'backend-engineer': {
+      title: 'Backend Engineer',
+      slug: 'backend-engineer',
+      industry: 'Technology',
+      roleDescription: `Backend Engineers at Spotify build the distributed systems that deliver music and audio to over 600 million users worldwide. Working on services handling billions of requests daily, you'll tackle challenges spanning audio streaming infrastructure, content delivery, playlist management, user data, and creator tools. Spotify's backend architecture is microservices-based with extensive investment in real-time processing, event-driven systems, and global content delivery. Engineers work in autonomous squads using technologies including Java, Python, Google Cloud Platform, and Spotify's internal platform tools. The company's commitment to scale is serious—backend systems must handle peak loads during new album releases and events like Spotify Wrapped. Backend Engineers partner with ML teams on serving recommendations, with mobile teams on API design, and with data teams on analytics infrastructure. The role offers opportunities to work on foundational platform services or product-focused features, all contributing to how people experience sound.`,
+      responsibilities: [
+        'Design and build scalable backend services handling billions of requests',
+        'Develop APIs for mobile, web, and partner integrations',
+        'Build audio streaming and content delivery infrastructure',
+        'Collaborate in autonomous squads with product and design',
+        'Ensure service reliability, performance, and observability',
+        'Participate in on-call rotation supporting production services',
+        'Contribute to Spotify\'s microservices platform and tooling',
+        'Work with massive datasets on user behavior and content',
+        'Partner with ML teams on model serving infrastructure'
+      ],
+      growthOpportunities: [
+        'Progress through IC levels to Staff and Principal Engineer',
+        'Specialize in areas like streaming, platform, or data infrastructure',
+        'Transition into engineering management',
+        'Lead cross-squad technical initiatives',
+        'Contribute to open source and represent Spotify at conferences',
+        'Shape platform strategy and architecture',
+        'Work on emerging areas like live audio and creator tools',
+        'Internal mobility across product and platform squads'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about background and interest in Spotify' },
+        { stage: 'Technical Phone Screen', description: '75-minute interview combining coding, architecture, and behavioral' },
+        { stage: 'Onsite - Coding Round 1', description: '60-minute algorithmic coding interview' },
+        { stage: 'Onsite - Coding Round 2', description: '60-minute coding with focus on system implementation' },
+        { stage: 'Onsite - System Design', description: '60-minute distributed systems design' },
+        { stage: 'Onsite - Values Interview', description: '45-minute behavioral interview on cultural fit' },
+        { stage: 'Team Matching', description: 'Discussions with potential squads' }
+      ],
+      technicalQuestions: [
+        'Design Spotify\'s audio streaming architecture for global delivery',
+        'How would you build a playlist service handling millions of playlists?',
+        'Design a system for real-time play counting across millions of tracks',
+        'How would you implement the follow/follower graph for artists and users?',
+        'Design the content delivery system for new album releases',
+        'How would you build the search indexing pipeline for all Spotify content?',
+        'Design a system for managing user library and saved content',
+        'How would you implement offline sync for mobile devices?',
+        'Design the API gateway for Spotify\'s mobile and web clients',
+        'How would you build the notification system for new releases?',
+        'Design a system for handling payments and subscriptions globally',
+        'How would you implement rate limiting for Spotify\'s APIs?',
+        'Design the infrastructure for Spotify Wrapped statistics',
+        'How would you build a service for lyrics synchronization?',
+        'Design a system for real-time collaborative playlists',
+        'How would you handle database scaling for user data?'
+      ],
+      behavioralQuestions: [
+        'Tell me about designing a system that handles massive scale',
+        'Describe debugging a complex distributed systems issue',
+        'How have you approached service reliability and on-call?',
+        'Tell me about collaborating with mobile or frontend teams',
+        'Describe improving the performance of a critical system',
+        'How have you balanced technical debt with feature work?',
+        'Tell me about a project with high autonomy and ownership',
+        'Describe working in cross-functional squads',
+        'How have you approached capacity planning?',
+        'Tell me about contributing to engineering culture',
+        'Describe handling a production incident',
+        'How have you mentored other engineers?',
+        'Tell me about adopting a new technology on your team',
+        'Describe making a difficult technical trade-off'
+      ],
+      whatTheyLookFor: [
+        'Strong distributed systems and backend engineering skills',
+        'Experience building services at scale',
+        'Proficiency in Java, Python, or similar languages',
+        'Understanding of microservices and event-driven architecture',
+        'Problem-solving in ambiguous situations',
+        'Collaboration skills for squad environment',
+        'Passion for music and audio technology',
+        'Cultural fit with Spotify\'s values',
+        'Experience with cloud platforms (GCP preferred)',
+        'Growth mindset and continuous learning'
+      ],
+      interviewTips: [
+        'Practice system design with audio/streaming problems',
+        'Be ready to code clean, production-quality solutions',
+        'Understand Spotify\'s scale and technical challenges',
+        'Know Spotify\'s values for the values interview',
+        'Research Spotify\'s engineering blog',
+        'Prepare examples of working with high autonomy',
+        'Be ready to discuss microservices and event-driven systems',
+        'Practice explaining technical decisions clearly',
+        'Prepare questions about squad culture',
+        'Show genuine passion for music and audio',
+        'Be authentic about both successes and failures',
+        'Understand the squad, chapter, tribe, guild structure',
+        'Be ready to discuss on-call and operational excellence',
+        'Prepare examples of cross-functional collaboration'
+      ],
+      salary: { min: 150000, max: 270000 },
+      compensation: [
+        'Competitive base salary with equity (RSUs)',
+        'Annual performance bonuses and refreshers',
+        'Spotify Premium subscription for life',
+        'Comprehensive health, dental, and vision coverage',
+        'Generous parental leave (6 months)',
+        'Flexible PTO with minimum vacation',
+        '401(k) with company match',
+        'Learning and conference budget',
+        'Home office stipend',
+        'Mental health benefits'
+      ],
+      dayInLife: {
+        intro: 'A day as a Backend Engineer at Spotify combines building scalable systems with collaborative squad work.',
+        schedule: [
+          '9:30 AM - Review service dashboards and overnight alerts',
+          '10:00 AM - Squad standup on progress and priorities',
+          '10:30 AM - Deep work on new API implementation',
+          '12:00 PM - Design review for new service architecture',
+          '12:30 PM - Lunch discussing favorite new music',
+          '1:30 PM - Code review for teammates\' PRs',
+          '2:30 PM - Pairing session on streaming optimization',
+          '3:30 PM - Meeting with mobile team on API requirements',
+          '4:30 PM - Incident retro for last week\'s issue',
+          '5:30 PM - Wrap up deploying changes to staging'
+        ],
+        closing: 'Backend Engineering at Spotify means building the infrastructure that delivers music to hundreds of millions of people, working with talented squads on systems at massive scale.'
+      },
+      similarRoles: ['Senior Backend Engineer at Spotify', 'Staff Backend Engineer at Spotify', 'Platform Engineer at Spotify', 'Infrastructure Engineer at Spotify', 'Software Engineer at Spotify']
+    },
+
+    'content-strategist': {
+      title: 'Content Strategist',
+      slug: 'content-strategist',
+      industry: 'Technology',
+      roleDescription: `Content Strategists at Spotify shape how over 600 million users discover and engage with music, podcasts, and audio content. Working at the intersection of editorial curation, data insights, and platform features, you'll develop strategies that surface the right content to the right listeners. Spotify's content strategy spans playlist programming, genre and mood categorization, editorial features, and algorithmic content understanding. Content Strategists partner with Data Science on content recommendations, with Product on discovery features, and with Music and Podcast teams on editorial initiatives. The role requires balancing art and science—understanding cultural trends and artist narratives while using data to measure impact. Spotify's global scale means content strategy must work across cultures, languages, and listening contexts. You'll work on flagship playlists like RapCaviar and Today's Top Hits, editorial features like Spotify Sessions, and emerging formats like audiobooks and live audio.`,
+      responsibilities: [
+        'Develop content strategies that improve listener discovery and engagement',
+        'Curate and program playlists across genres, moods, and listening contexts',
+        'Partner with Data Science on content recommendation and categorization',
+        'Collaborate with Product on content-focused features and experiences',
+        'Analyze listening data to inform content decisions and measure impact',
+        'Work with artist and label partners on content initiatives',
+        'Develop editorial voice and content for Spotify\'s owned properties',
+        'Identify emerging trends and cultural moments for content programming',
+        'Support global content strategy working with regional teams'
+      ],
+      growthOpportunities: [
+        'Progress to Senior Content Strategist and Lead roles',
+        'Specialize in genres, formats, or regional content',
+        'Move into Head of Content Strategy for major areas',
+        'Transition to Product Management with content expertise',
+        'Lead content strategy for new formats like audiobooks or live',
+        'Shape company content direction at strategic level',
+        'Build and lead content teams',
+        'Represent Spotify in industry and creator relationships'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about content background and passion for music' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into content philosophy, strategy experience, and cultural knowledge' },
+        { stage: 'Content Case Study', description: 'Develop content strategy for given scenario demonstrating thinking' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of collaboration with Product, Data, and Music teams' },
+        { stage: 'Editorial/Creative Review', description: 'Discussion of music knowledge, trends, and editorial judgment' },
+        { stage: 'Values Interview', description: 'Behavioral interview on cultural fit' },
+        { stage: 'Leadership Interview', description: 'Final round with content leadership' }
+      ],
+      technicalQuestions: [
+        'How would you develop a content strategy for a new genre playlist?',
+        'Design a framework for categorizing songs by mood and activity',
+        'How would you measure the success of a curated playlist?',
+        'Develop a content strategy for breaking new artists',
+        'How would you approach content programming for a major cultural moment?',
+        'Design a strategy for podcast content discovery',
+        'How would you balance editorial curation with algorithmic recommendations?',
+        'Develop a content approach for audiobooks on Spotify',
+        'How would you localize content strategy for different markets?',
+        'Design a content strategy for seasonal listening (summer, holidays)',
+        'How would you approach content for emerging audio formats?',
+        'Develop a framework for playlist refreshes and updates',
+        'How would you measure and improve playlist diversity?',
+        'Design a content strategy for listener re-engagement',
+        'How would you approach content for specific listening contexts?',
+        'Develop a strategy for editorial content (articles, stories, features)'
+      ],
+      behavioralQuestions: [
+        'Tell me about a content strategy you developed with measurable impact',
+        'Describe using data to inform a content decision',
+        'How have you collaborated with product teams on features?',
+        'Tell me about identifying and capitalizing on a cultural trend',
+        'Describe balancing editorial judgment with data insights',
+        'How have you worked with artists or creators on content?',
+        'Tell me about a content initiative that didn\'t work',
+        'Describe developing content for audiences different from yourself',
+        'How have you approached global content strategy?',
+        'Tell me about partnering with data teams effectively',
+        'Describe managing competing priorities in content',
+        'How have you communicated content strategy to stakeholders?',
+        'Tell me about building or leading content teams',
+        'Describe your approach to staying current with music trends'
+      ],
+      whatTheyLookFor: [
+        'Deep music and audio content knowledge across genres',
+        'Strategic thinking connecting content to listener engagement',
+        'Data fluency for measuring impact and informing decisions',
+        'Collaboration skills for cross-functional partnership',
+        'Editorial judgment balanced with analytical rigor',
+        'Cultural awareness across global markets',
+        'Communication skills for diverse stakeholders',
+        'Passion for music discovery and creator success',
+        'Cultural fit with Spotify\'s values',
+        'Adaptability to evolving audio landscape'
+      ],
+      interviewTips: [
+        'Know Spotify\'s major playlists and editorial properties',
+        'Prepare a content case demonstrating strategic thinking',
+        'Show deep music knowledge across genres and eras',
+        'Be ready to discuss balancing art and science in content',
+        'Research Spotify\'s content initiatives and recent launches',
+        'Know Spotify\'s values for the values interview',
+        'Prepare examples of data-informed content decisions',
+        'Show awareness of cultural trends and moments',
+        'Be ready to discuss global content considerations',
+        'Prepare questions about content team culture',
+        'Show genuine passion for music discovery',
+        'Be authentic about your music tastes and knowledge',
+        'Prepare to discuss emerging audio formats',
+        'Show how you stay current with music and culture'
+      ],
+      salary: { min: 100000, max: 170000 },
+      compensation: [
+        'Competitive base salary with equity (RSUs)',
+        'Annual performance bonuses',
+        'Spotify Premium subscription for life',
+        'Comprehensive health, dental, and vision coverage',
+        'Generous parental leave (6 months)',
+        'Flexible PTO with minimum vacation',
+        '401(k) with company match',
+        'Industry event access',
+        'Learning and development budget',
+        'Home office stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as a Content Strategist at Spotify balances cultural curation with data analysis and cross-functional collaboration.',
+        schedule: [
+          '9:00 AM - Review playlist performance metrics and listener feedback',
+          '9:30 AM - Team standup on content priorities',
+          '10:00 AM - Listen to new releases and update playlist queues',
+          '11:00 AM - Meeting with Data Science on content recommendation model',
+          '12:00 PM - Lunch with Music team discussing upcoming releases',
+          '1:00 PM - Product review for new discovery feature',
+          '2:00 PM - Develop content brief for upcoming cultural moment',
+          '3:00 PM - Analyze A/B test results for playlist experiment',
+          '4:00 PM - Cross-functional sync on editorial content',
+          '5:00 PM - Review regional content team submissions',
+          '5:30 PM - Wrap up with music discovery and planning'
+        ],
+        closing: 'Content Strategy at Spotify means shaping how hundreds of millions of people discover music and audio, combining cultural expertise with data-driven insights.'
+      },
+      similarRoles: ['Senior Content Strategist at Spotify', 'Playlist Editor at Spotify', 'Music Editor at Spotify', 'Podcast Content Strategist at Spotify', 'Editorial Manager at Spotify']
+    },
+
+    'ux-designer': {
+      title: 'UX Designer',
+      slug: 'ux-designer',
+      industry: 'Technology',
+      roleDescription: `UX Designers at Spotify create the experiences that help over 600 million users discover, listen to, and create audio. Working in autonomous squads alongside engineers and PMs, you'll design for one of the most used apps in the world across mobile, desktop, and emerging platforms. Spotify's design culture values craft, experimentation, and understanding users deeply—from casual listeners to music obsessives to podcast creators. Designers work on challenges spanning personalization interfaces, search and discovery, playback experiences, social features, and creator tools. The company's design system ensures consistency while enabling creativity for novel experiences. Spotify's global scale means designing for diverse users, contexts, and cultures—from commute listening to workout playlists to focused work sessions. The interview process evaluates both design craft and cultural fit, with emphasis on how you collaborate with cross-functional partners.`,
+      responsibilities: [
+        'Design intuitive experiences for music discovery, playback, and creation',
+        'Conduct user research including interviews, usability testing, and data analysis',
+        'Create wireframes, prototypes, and high-fidelity designs',
+        'Partner with PM and Engineering in autonomous squads',
+        'Contribute to and evolve Spotify\'s design system',
+        'Present designs and incorporate feedback across stakeholders',
+        'Design for accessibility and diverse global users',
+        'Collaborate with researchers to develop deep user empathy',
+        'Mentor junior designers and contribute to design culture'
+      ],
+      growthOpportunities: [
+        'Progress through IC levels to Senior, Staff, and Principal Designer',
+        'Specialize in areas like interaction, visual, motion, or research',
+        'Transition into Design Management leading teams',
+        'Move into Product Management with design foundation',
+        'Lead design for major product initiatives',
+        'Shape company design direction and strategy',
+        'Represent Spotify at design conferences',
+        'Work on emerging platforms and experiences'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about design background and portfolio' },
+        { stage: 'Hiring Manager Call', description: 'Discussion of design philosophy and squad fit' },
+        { stage: 'Portfolio Review', description: 'Detailed walkthrough of past work focusing on process' },
+        { stage: 'Design Exercise', description: 'Take-home or whiteboard exercise for audio/music problem' },
+        { stage: 'Onsite - Craft Review', description: 'Assessment of design skills and systems thinking' },
+        { stage: 'Onsite - Cross-functional', description: 'Interviews with PM and Engineering on collaboration' },
+        { stage: 'Onsite - Values Interview', description: 'Behavioral interview on cultural fit' }
+      ],
+      technicalQuestions: [
+        'How would you redesign Spotify\'s home screen experience?',
+        'Design a feature to help users discover new music genres',
+        'Walk me through your design process from research to launch',
+        'How would you approach designing for audio playback?',
+        'Design a social feature for sharing music with friends',
+        'How do you approach designing for diverse global users?',
+        'Design an improved search experience for Spotify',
+        'How would you design for accessibility in an audio app?',
+        'Design a feature to help creators engage with listeners',
+        'How do you balance consistency with innovation in design systems?',
+        'Design an onboarding experience for new Spotify users',
+        'How would you approach designing for different listening contexts?',
+        'Design a feature to help users manage their music library',
+        'How do you collaborate with engineers during implementation?',
+        'Design a visualization for personal listening statistics',
+        'How would you approach designing for emerging audio formats?'
+      ],
+      behavioralQuestions: [
+        'Tell me about a design you\'re most proud of and why',
+        'Describe advocating for users when stakeholders disagreed',
+        'How have you used data to inform design decisions?',
+        'Tell me about design feedback that changed your approach',
+        'Describe collaborating with engineers on complex implementation',
+        'How have you designed for users different from yourself?',
+        'Tell me about a design that didn\'t work as expected',
+        'Describe building inclusive design culture',
+        'How have you mentored other designers?',
+        'Tell me about navigating ambiguity in a design project',
+        'Describe your approach to design systems',
+        'How have you balanced craft with shipping quickly?',
+        'Tell me about handling conflicting feedback',
+        'Describe growing in your design practice'
+      ],
+      whatTheyLookFor: [
+        'Strong portfolio demonstrating end-to-end product design',
+        'User empathy and research skills',
+        'Excellent collaboration with PM and Engineering',
+        'Design systems thinking and craft excellence',
+        'Communication skills for presenting and incorporating feedback',
+        'Passion for music and audio experiences',
+        'Cultural fit with Spotify\'s values',
+        'Experience with mobile and multi-platform design',
+        'Data-informed design approach',
+        'Growth mindset and curiosity'
+      ],
+      interviewTips: [
+        'Prepare a portfolio that tells process stories',
+        'Use Spotify extensively and form opinions about the design',
+        'Practice presenting designs with clear rationale',
+        'Know Spotify\'s values for the values interview',
+        'Research Spotify\'s design system and recent launches',
+        'Be ready to discuss designing for audio experiences',
+        'Show how you collaborate with PM and Engineering',
+        'Prepare for design exercises with audio/music context',
+        'Be authentic about your design philosophy',
+        'Prepare thoughtful questions about design culture',
+        'Show passion for music and discovery',
+        'Be ready to discuss accessibility and inclusive design',
+        'Practice articulating design trade-offs',
+        'Show how you use data alongside design intuition'
+      ],
+      salary: { min: 130000, max: 230000 },
+      compensation: [
+        'Competitive base salary with equity (RSUs)',
+        'Annual performance bonuses',
+        'Spotify Premium subscription for life',
+        'Comprehensive health, dental, and vision coverage',
+        'Generous parental leave (6 months)',
+        'Flexible PTO with minimum vacation',
+        '401(k) with company match',
+        'Design conference and learning budget',
+        'Latest design tools and hardware',
+        'Home office stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as a UX Designer at Spotify blends creative exploration with user research and squad collaboration.',
+        schedule: [
+          '9:00 AM - Review user feedback and research findings',
+          '9:30 AM - Squad standup with PM and Engineering',
+          '10:00 AM - Deep design work on new feature concepts',
+          '12:00 PM - Lunch with design team sharing inspiration',
+          '1:00 PM - User testing session observing listener behavior',
+          '2:30 PM - Design critique with broader design team',
+          '3:30 PM - Sync with engineer on implementation details',
+          '4:30 PM - Prototype new interaction for testing',
+          '5:00 PM - Document design decisions and update specs',
+          '5:30 PM - Wrap up with music discovery'
+        ],
+        closing: 'Design at Spotify means creating experiences that connect hundreds of millions of people with music and audio they love, working with autonomous squads that value craft and collaboration.'
+      },
+      similarRoles: ['Senior UX Designer at Spotify', 'Product Designer at Spotify', 'Design Lead at Spotify', 'Visual Designer at Spotify', 'Interaction Designer at Spotify']
+    },
+
+    'audio-engineer': {
+      title: 'Audio Engineer',
+      slug: 'audio-engineer',
+      industry: 'Technology',
+      roleDescription: `Audio Engineers at Spotify work on the science and technology of sound that delivers music to over 600 million listeners. This unique role combines software engineering with audio signal processing, psychoacoustics, and codec development. You'll work on challenges spanning audio quality optimization, codec development, loudness normalization, spatial audio, and acoustic fingerprinting. Spotify streams billions of songs daily, and Audio Engineers ensure every track sounds as the artist intended across devices, network conditions, and listening environments. The team works on cutting-edge projects including high-resolution audio, Dolby Atmos integration, AI-powered audio enhancement, and next-generation codecs. Audio Engineers partner with ML teams on audio understanding, with Backend teams on streaming infrastructure, and with Product teams on audio quality features. The role requires deep expertise in digital signal processing alongside software engineering skills to implement solutions at scale.`,
+      responsibilities: [
+        'Develop audio codecs and processing algorithms for streaming at scale',
+        'Build audio quality optimization systems adapting to network conditions',
+        'Work on spatial audio, Dolby Atmos, and immersive sound experiences',
+        'Implement loudness normalization and audio enhancement features',
+        'Develop acoustic fingerprinting and content identification systems',
+        'Partner with ML teams on audio understanding and classification',
+        'Ensure audio quality across diverse devices and playback environments',
+        'Research and prototype new audio technologies and formats',
+        'Contribute to industry audio standards and open-source projects'
+      ],
+      growthOpportunities: [
+        'Progress through IC levels to Staff and Principal Audio Engineer',
+        'Specialize in areas like codecs, spatial audio, or ML for audio',
+        'Lead audio technology strategy for major initiatives',
+        'Transition into research roles for exploratory work',
+        'Shape the future of audio streaming technology',
+        'Contribute to industry standards bodies',
+        'Build and lead audio engineering teams',
+        'Work on emerging formats like high-res and immersive audio'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about audio engineering background' },
+        { stage: 'Technical Phone Screen', description: '60-minute interview on DSP, audio systems, and coding' },
+        { stage: 'Onsite - Audio Deep Dive', description: '60-minute assessment of audio signal processing expertise' },
+        { stage: 'Onsite - Coding', description: '60-minute algorithmic and systems coding interview' },
+        { stage: 'Onsite - System Design', description: '60-minute design of audio processing system at scale' },
+        { stage: 'Onsite - Values Interview', description: '45-minute behavioral interview on cultural fit' },
+        { stage: 'Team Matching', description: 'Discussions with potential teams' }
+      ],
+      technicalQuestions: [
+        'Design an audio codec optimized for music streaming',
+        'How would you implement adaptive bitrate audio streaming?',
+        'Design a loudness normalization system for diverse music',
+        'How would you build spatial audio for different playback devices?',
+        'Design an acoustic fingerprinting system at scale',
+        'How would you implement audio quality measurement at scale?',
+        'Design a system for seamless crossfade between tracks',
+        'How would you optimize audio for different network conditions?',
+        'Design an audio enhancement system using ML',
+        'How would you implement Dolby Atmos support for mobile?',
+        'Design a system for detecting audio quality issues',
+        'How would you approach high-resolution audio streaming?',
+        'Design a lyrics timing synchronization system',
+        'How would you build audio watermarking for content protection?',
+        'Design a system for audio-to-audio recommendations',
+        'How would you approach real-time audio processing for live streaming?'
+      ],
+      behavioralQuestions: [
+        'Tell me about an audio system you built at scale',
+        'Describe solving a complex audio quality issue',
+        'How have you balanced audio quality with bandwidth constraints?',
+        'Tell me about collaborating with non-audio engineers',
+        'Describe working on audio standards or specifications',
+        'How have you approached perceptual audio evaluation?',
+        'Tell me about an audio project that didn\'t work as expected',
+        'Describe staying current with audio technology advances',
+        'How have you made audio trade-offs for different devices?',
+        'Tell me about your passion for audio and music',
+        'Describe communicating audio concepts to non-experts',
+        'How have you mentored others in audio engineering?',
+        'Tell me about contributing to open-source audio projects',
+        'Describe adapting to new audio formats or standards'
+      ],
+      whatTheyLookFor: [
+        'Deep expertise in digital signal processing and audio systems',
+        'Strong software engineering skills (C++, Python)',
+        'Experience with audio codecs and streaming',
+        'Understanding of psychoacoustics and perceptual audio',
+        'Problem-solving at the intersection of audio and scale',
+        'Collaboration skills for cross-functional work',
+        'Passion for music and audio quality',
+        'Cultural fit with Spotify\'s values',
+        'Research orientation for emerging audio technology',
+        'Experience with ML for audio applications'
+      ],
+      interviewTips: [
+        'Review DSP fundamentals and audio processing',
+        'Be ready to discuss audio codec architectures',
+        'Understand perceptual audio quality metrics',
+        'Know Spotify\'s audio quality features',
+        'Prepare for the values interview',
+        'Research Spotify\'s audio technology publications',
+        'Be ready to code DSP algorithms efficiently',
+        'Prepare examples of audio systems at scale',
+        'Show passion for audio quality and music',
+        'Be ready to discuss spatial and immersive audio',
+        'Understand the challenges of streaming audio',
+        'Prepare questions about audio team culture',
+        'Show how you stay current with audio research',
+        'Be authentic about your audio expertise'
+      ],
+      salary: { min: 160000, max: 280000 },
+      compensation: [
+        'Highly competitive base salary with equity (RSUs)',
+        'Annual refresher grants and bonuses',
+        'Spotify Premium subscription for life',
+        'Comprehensive health, dental, and vision coverage',
+        'Generous parental leave (6 months)',
+        'Flexible PTO with minimum vacation',
+        '401(k) with company match',
+        'Conference and research budget',
+        'Professional audio equipment budget',
+        'Home office and studio stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as an Audio Engineer at Spotify combines deep technical work on sound with collaboration on streaming infrastructure.',
+        schedule: [
+          '9:30 AM - Review audio quality metrics and test results',
+          '10:00 AM - Squad standup with audio team',
+          '10:30 AM - Deep work on codec optimization',
+          '12:00 PM - Listening session evaluating audio improvements',
+          '1:00 PM - Lunch with colleagues discussing audio research',
+          '2:00 PM - Meeting with ML team on audio understanding models',
+          '3:00 PM - Research prototype for spatial audio feature',
+          '4:00 PM - Code review for streaming audio changes',
+          '5:00 PM - Document findings and update specifications',
+          '5:30 PM - Wrap up with music listening'
+        ],
+        closing: 'Audio Engineering at Spotify means ensuring hundreds of millions of people hear music exactly as artists intended, working on the cutting edge of sound technology.'
+      },
+      similarRoles: ['Senior Audio Engineer at Spotify', 'Staff Audio Engineer at Spotify', 'DSP Engineer at Spotify', 'ML Audio Engineer at Spotify', 'Backend Engineer at Spotify']
+    },
+
+    'marketing-manager': {
+      title: 'Marketing Manager',
+      slug: 'marketing-manager',
+      industry: 'Technology',
+      roleDescription: `Marketing Managers at Spotify drive growth and engagement for one of the world's most beloved audio brands. Working across consumer marketing, brand campaigns, and product marketing, you'll develop strategies that connect listeners with music and audio they love. Spotify's marketing is distinctive—from viral campaigns like Wrapped to artist partnerships and culturally resonant moments. The role requires balancing data-driven performance marketing with creative brand building, local relevance with global scale, and listener acquisition with creator partnerships. Marketing Managers partner with Product on feature launches, with Content on editorial campaigns, and with regional teams on localization. Spotify's rich data on listening behavior enables sophisticated targeting and personalization, and marketers are expected to leverage these insights. The brand's playful, music-obsessed personality means marketing must feel authentic to music culture while driving measurable results.`,
+      responsibilities: [
+        'Develop and execute marketing campaigns driving growth and engagement',
+        'Manage multi-channel programs across digital, social, partnerships, and events',
+        'Analyze campaign performance and optimize for ROI and brand metrics',
+        'Partner with Creative on campaign concepts and content',
+        'Collaborate with Product Marketing on feature launches',
+        'Develop localized marketing strategies for different markets',
+        'Build brand awareness while driving acquisition and retention',
+        'Work with artist and creator partnerships on co-marketing',
+        'Leverage Spotify\'s data for targeting and personalization'
+      ],
+      growthOpportunities: [
+        'Progress to Senior Marketing Manager and Director roles',
+        'Specialize in brand, performance, product marketing, or partnerships',
+        'Move into Head of Marketing for regions or products',
+        'Transition to Product Management with marketing expertise',
+        'Lead marketing for new products like audiobooks or podcasts',
+        'Build and lead marketing teams',
+        'Shape company marketing strategy at executive level',
+        'Work on flagship campaigns like Wrapped'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial discussion of marketing experience and passion for Spotify' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into marketing philosophy and campaign experience' },
+        { stage: 'Marketing Case Study', description: 'Develop marketing strategy for given scenario' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of collaboration with Product, Creative, and Data' },
+        { stage: 'Creative/Campaign Review', description: 'Discussion of past campaigns and creative thinking' },
+        { stage: 'Values Interview', description: 'Behavioral interview on cultural fit' },
+        { stage: 'Leadership Interview', description: 'Final round with marketing leader' }
+      ],
+      technicalQuestions: [
+        'How would you design a campaign to acquire new Spotify users?',
+        'Develop a marketing strategy for Spotify Wrapped',
+        'How would you approach marketing in a new international market?',
+        'Design a campaign to increase podcast listening engagement',
+        'How would you balance brand building with performance marketing?',
+        'Develop a marketing strategy for Spotify Premium conversion',
+        'How would you leverage Spotify data for marketing personalization?',
+        'Design a co-marketing campaign with an artist partner',
+        'How would you measure brand awareness impact?',
+        'Develop a strategy for marketing audiobooks on Spotify',
+        'How would you approach competitive marketing moments?',
+        'Design a campaign for re-engaging lapsed users',
+        'How would you localize a global campaign?',
+        'Develop a social media strategy for Spotify',
+        'How would you approach influencer partnerships?',
+        'Design a marketing strategy for a new product feature'
+      ],
+      behavioralQuestions: [
+        'Tell me about a marketing campaign you led that exceeded goals',
+        'Describe pivoting a campaign based on performance data',
+        'How have you balanced creative vision with data-driven decisions?',
+        'Tell me about marketing to an audience different from yourself',
+        'Describe collaborating with creative teams effectively',
+        'How have you handled budget constraints while driving growth?',
+        'Tell me about a campaign that underperformed',
+        'Describe working with product teams on launches',
+        'How have you built brand while driving performance?',
+        'Tell me about leading through ambiguity',
+        'Describe managing agency relationships',
+        'How have you approached competitive situations?',
+        'Tell me about adapting campaigns for local markets',
+        'Describe influencing stakeholders on strategy'
+      ],
+      whatTheyLookFor: [
+        'Strong marketing track record with measurable success',
+        'Balance of creative thinking and analytical optimization',
+        'Brand sensibility aligned with Spotify\'s culture',
+        'Multi-channel expertise across digital and traditional',
+        'Strategic thinking connecting marketing to business goals',
+        'Cultural awareness and music passion',
+        'Collaboration skills for cross-functional work',
+        'Cultural fit with Spotify\'s values',
+        'Data-driven approach with creative intuition',
+        'Global mindset with local sensitivity'
+      ],
+      interviewTips: [
+        'Study Spotify\'s marketing campaigns and brand voice',
+        'Prepare campaign examples with clear metrics',
+        'Be ready to discuss both brand and performance marketing',
+        'Know Spotify\'s values for the values interview',
+        'Research Spotify Wrapped and understand its success',
+        'Show genuine passion for music and audio',
+        'Prepare for marketing cases with Spotify context',
+        'Understand Spotify\'s competitive positioning',
+        'Be ready to discuss data-driven personalization',
+        'Prepare questions about marketing culture',
+        'Show creative thinking with strategic rationale',
+        'Be authentic about your marketing philosophy',
+        'Research recent Spotify launches and campaigns',
+        'Show how you balance art and science in marketing'
+      ],
+      salary: { min: 120000, max: 200000 },
+      compensation: [
+        'Competitive base salary with equity (RSUs)',
+        'Annual performance bonuses',
+        'Spotify Premium subscription for life',
+        'Comprehensive health, dental, and vision coverage',
+        'Generous parental leave (6 months)',
+        'Flexible PTO with minimum vacation',
+        '401(k) with company match',
+        'Marketing conference and learning budget',
+        'Industry event access',
+        'Home office stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as a Marketing Manager at Spotify balances strategic planning with creative collaboration on campaigns that connect people with music.',
+        schedule: [
+          '9:00 AM - Review campaign performance dashboards',
+          '9:30 AM - Team standup on active campaigns',
+          '10:00 AM - Creative review meeting on new campaign',
+          '11:00 AM - Partner with Analytics on targeting optimization',
+          '12:00 PM - Lunch with colleagues from product marketing',
+          '1:00 PM - Agency call on upcoming production',
+          '2:00 PM - Strategy session on Q4 campaign planning',
+          '3:00 PM - Cross-functional sync with Product on launch',
+          '4:00 PM - Budget review and allocation',
+          '5:00 PM - Social and cultural trend monitoring',
+          '5:30 PM - Wrap up with campaign status updates'
+        ],
+        closing: 'Marketing at Spotify means building campaigns that connect hundreds of millions of people with music they love, combining creative excellence with data-driven impact.'
+      },
+      similarRoles: ['Senior Marketing Manager at Spotify', 'Brand Marketing Manager at Spotify', 'Growth Marketing Manager at Spotify', 'Product Marketing Manager at Spotify', 'Content Marketing Manager at Spotify']
+    },
+
+    'product-designer': {
+      title: 'Product Designer',
+      slug: 'product-designer',
+      industry: 'Technology',
+      roleDescription: `Product Designers at Spotify shape the end-to-end experience of how over 600 million users interact with music and audio. Working in autonomous squads, you'll own design from concept through launch, combining UX strategy, interaction design, and visual craft. Product Designers at Spotify are T-shaped—deep in design craft while broad in understanding product strategy, user research, and technical constraints. The role differs from UX Design in its emphasis on owning the full product experience and partnering as equals with PM and Engineering. You'll work on features that define how people discover music, create playlists, follow artists, and engage with creators. Spotify's design culture values craft excellence, experimentation, and deep user understanding. The interview process evaluates both design skills and how you collaborate to ship products that matter.`,
+      responsibilities: [
+        'Own end-to-end product design from concept through launch',
+        'Develop design strategy aligned with product and business goals',
+        'Create user flows, wireframes, prototypes, and production designs',
+        'Partner with PM and Engineering as equals in squad leadership',
+        'Lead design research to inform product decisions',
+        'Contribute to and evolve Spotify\'s design system',
+        'Present design work and build alignment across stakeholders',
+        'Mentor designers and elevate team craft',
+        'Design for accessibility and diverse global users'
+      ],
+      growthOpportunities: [
+        'Progress through IC levels to Staff and Principal Product Designer',
+        'Lead design for major product areas',
+        'Transition into Design Management',
+        'Move into Product Management',
+        'Shape company design direction and strategy',
+        'Lead design system evolution',
+        'Work on new products and emerging platforms',
+        'Represent Spotify at design conferences'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about design background' },
+        { stage: 'Hiring Manager Call', description: 'Discussion of design philosophy and experience' },
+        { stage: 'Portfolio Deep Dive', description: 'Detailed walkthrough of 2-3 projects showing process' },
+        { stage: 'Design Exercise', description: 'Collaborative design session on audio/music problem' },
+        { stage: 'Cross-functional Interviews', description: 'Sessions with PM, Engineering, and Design partners' },
+        { stage: 'Values Interview', description: 'Behavioral interview on cultural fit' },
+        { stage: 'Leadership Interview', description: 'Final round with design leadership' }
+      ],
+      technicalQuestions: [
+        'How would you approach redesigning the Spotify library experience?',
+        'Walk me through a project from research to launch',
+        'Design a feature to help users discover live concerts',
+        'How do you approach design systems at scale?',
+        'Design an improved sharing experience for Spotify',
+        'How do you balance user needs with business objectives?',
+        'Design a feature for collaborative listening',
+        'How do you approach designing for multiple platforms?',
+        'Design a more personalized home screen experience',
+        'How do you validate design decisions with research?',
+        'Design a feature for podcast creators',
+        'How do you handle design debt and system evolution?',
+        'Design an improved onboarding for new users',
+        'How do you approach accessibility in your designs?',
+        'Design a new way to visualize listening history',
+        'How do you collaborate with engineers on complex interactions?'
+      ],
+      behavioralQuestions: [
+        'Tell me about a product you designed end-to-end',
+        'Describe leading design strategy for a major initiative',
+        'How have you built alignment across stakeholders?',
+        'Tell me about a design you championed that faced resistance',
+        'Describe collaborating with engineers on challenging implementation',
+        'How have you mentored other designers?',
+        'Tell me about using research to change product direction',
+        'Describe designing for users unlike yourself',
+        'How have you contributed to design systems?',
+        'Tell me about balancing craft with shipping speed',
+        'Describe handling conflicting feedback',
+        'How have you grown as a designer?',
+        'Tell me about a design failure and what you learned',
+        'Describe your approach to presenting design work'
+      ],
+      whatTheyLookFor: [
+        'Strong end-to-end product design portfolio',
+        'Strategic thinking connecting design to product goals',
+        'Craft excellence in interaction and visual design',
+        'Experience partnering with PM and Engineering as equals',
+        'Research skills and data-informed design',
+        'Systems thinking for design at scale',
+        'Communication skills for building alignment',
+        'Passion for music and audio experiences',
+        'Cultural fit with Spotify\'s values',
+        'Growth mindset and design leadership'
+      ],
+      interviewTips: [
+        'Prepare portfolio showing full design process',
+        'Use Spotify and form strong opinions',
+        'Be ready to discuss design strategy and rationale',
+        'Know Spotify\'s values for the values interview',
+        'Research Spotify\'s design principles',
+        'Prepare for collaborative design exercises',
+        'Show how you partner with PM and Engineering',
+        'Be ready to discuss design systems',
+        'Show genuine passion for music and audio',
+        'Prepare thoughtful questions about design culture',
+        'Be authentic about your design philosophy',
+        'Practice articulating design decisions',
+        'Show how you use data alongside intuition',
+        'Be ready to discuss design leadership'
+      ],
+      salary: { min: 140000, max: 250000 },
+      compensation: [
+        'Competitive base salary with significant equity (RSUs)',
+        'Annual performance bonuses',
+        'Spotify Premium subscription for life',
+        'Comprehensive health, dental, and vision coverage',
+        'Generous parental leave (6 months)',
+        'Flexible PTO with minimum vacation',
+        '401(k) with company match',
+        'Design conference and learning budget',
+        'Latest design tools and hardware',
+        'Home office stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as a Product Designer at Spotify combines strategic thinking with hands-on craft in autonomous squads.',
+        schedule: [
+          '9:00 AM - Review user feedback and analytics',
+          '9:30 AM - Squad standup with PM and Engineering',
+          '10:00 AM - Deep design work on new feature',
+          '11:30 AM - Research synthesis session',
+          '12:00 PM - Lunch with design team',
+          '1:00 PM - Design review with stakeholders',
+          '2:30 PM - Collaboration session with engineer',
+          '3:30 PM - Design system contribution',
+          '4:30 PM - Prototype and test new interaction',
+          '5:30 PM - Wrap up with documentation'
+        ],
+        closing: 'Product Design at Spotify means owning the experience that connects hundreds of millions of people with music, working with talented squads that value craft and impact.'
+      },
+      similarRoles: ['Senior Product Designer at Spotify', 'Staff Product Designer at Spotify', 'Design Lead at Spotify', 'UX Designer at Spotify', 'Interaction Designer at Spotify']
+    },
+
+    'creator-partnerships-manager': {
+      title: 'Creator Partnerships Manager',
+      slug: 'creator-partnerships-manager',
+      industry: 'Technology',
+      roleDescription: `Creator Partnerships Managers at Spotify build relationships with the artists, podcasters, and audio creators who make the platform possible. Working at the intersection of entertainment, technology, and business, you'll develop partnerships that help creators succeed while growing Spotify's content ecosystem. The role spans artist marketing partnerships, podcast deals, exclusive content, and creator tools adoption. Spotify's mission includes giving creators opportunities to live off their art, and partnerships are central to this goal. You'll work with labels, management, agencies, and directly with creators to develop initiatives that benefit both Spotify and the creative community. The role requires understanding both the creative and business sides of the music and podcast industries, building relationships based on trust and mutual value. Creator Partnerships partners with Content Strategy on editorial features, with Product on creator tools, and with Marketing on campaigns.`,
+      responsibilities: [
+        'Build and manage relationships with artists, podcasters, and creators',
+        'Develop partnership deals including exclusives, marketing, and content',
+        'Partner with labels, management, and agencies on strategic initiatives',
+        'Drive adoption of Spotify\'s creator tools and platform features',
+        'Collaborate with Content Strategy on editorial partnerships',
+        'Work with Marketing on creator-focused campaigns',
+        'Analyze partnership performance and optimize strategies',
+        'Represent Spotify at industry events and with creator community',
+        'Identify emerging creators and new partnership opportunities'
+      ],
+      growthOpportunities: [
+        'Progress to Senior Partnerships Manager and Director',
+        'Specialize in music, podcasts, or emerging audio formats',
+        'Move into Head of Creator Partnerships for regions or verticals',
+        'Transition to General Management or business leadership',
+        'Lead partnerships for new products like audiobooks',
+        'Build and lead partnerships teams',
+        'Shape creator strategy at executive level',
+        'Work on flagship creator relationships and deals'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial discussion of partnerships experience and industry knowledge' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into partnership philosophy and deal experience' },
+        { stage: 'Partnership Case Study', description: 'Develop partnership strategy for given scenario' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of collaboration with Content, Product, and Marketing' },
+        { stage: 'Industry/Relationship Discussion', description: 'Discussion of creator relationships and industry knowledge' },
+        { stage: 'Values Interview', description: 'Behavioral interview on cultural fit' },
+        { stage: 'Leadership Interview', description: 'Final round with partnerships or business leader' }
+      ],
+      technicalQuestions: [
+        'How would you approach a partnership with a major label for exclusive content?',
+        'Develop a strategy for growing podcast creator partnerships',
+        'How would you measure the success of a creator partnership?',
+        'Design a partnership program for emerging artists',
+        'How would you approach a high-profile artist relationship?',
+        'Develop a strategy for driving Spotify for Artists adoption',
+        'How would you structure an exclusive content deal?',
+        'Design a partnership initiative for podcast creators',
+        'How would you handle a difficult creator relationship?',
+        'Develop a strategy for regional creator partnerships',
+        'How would you balance creator needs with Spotify\'s goals?',
+        'Design a co-marketing campaign with a creator',
+        'How would you approach partnerships in emerging audio?',
+        'Develop a framework for evaluating partnership opportunities',
+        'How would you scale partnerships for long-tail creators?',
+        'Design a creator success program for the platform'
+      ],
+      behavioralQuestions: [
+        'Tell me about a partnership you developed that had significant impact',
+        'Describe navigating a complex deal negotiation',
+        'How have you built trust with creative partners?',
+        'Tell me about a partnership that didn\'t work out',
+        'Describe managing relationships across stakeholder types',
+        'How have you balanced multiple partnership priorities?',
+        'Tell me about advocating for creators internally',
+        'Describe collaborating with product teams on creator tools',
+        'How have you approached new areas of partnerships?',
+        'Tell me about turning around a difficult relationship',
+        'Describe measuring and communicating partnership value',
+        'How have you built partnerships teams or functions?',
+        'Tell me about representing your company at industry events',
+        'Describe adapting partnership strategy based on results'
+      ],
+      whatTheyLookFor: [
+        'Strong partnerships experience in music, media, or entertainment',
+        'Deep industry knowledge and relationships',
+        'Deal structuring and negotiation skills',
+        'Cross-functional collaboration abilities',
+        'Strategic thinking about partnership opportunities',
+        'Communication skills for diverse stakeholders',
+        'Passion for creators and the creative community',
+        'Cultural fit with Spotify\'s values',
+        'Results orientation with relationship focus',
+        'Adaptability to evolving audio landscape'
+      ],
+      interviewTips: [
+        'Know Spotify\'s creator initiatives and tools',
+        'Prepare partnership examples with clear outcomes',
+        'Show deep industry knowledge and relationships',
+        'Know Spotify\'s values for the values interview',
+        'Research recent Spotify creator partnerships',
+        'Be ready to discuss deal structuring',
+        'Show how you balance creator and platform needs',
+        'Prepare questions about partnerships culture',
+        'Show genuine passion for creators and music',
+        'Be ready to discuss industry trends',
+        'Prepare partnership cases with strategic thinking',
+        'Show how you measure partnership success',
+        'Be authentic about your industry experience',
+        'Understand Spotify for Artists and creator tools'
+      ],
+      salary: { min: 120000, max: 200000 },
+      compensation: [
+        'Competitive base salary with equity (RSUs)',
+        'Annual performance bonuses',
+        'Spotify Premium subscription for life',
+        'Comprehensive health, dental, and vision coverage',
+        'Generous parental leave (6 months)',
+        'Flexible PTO with minimum vacation',
+        '401(k) with company match',
+        'Industry event and conference budget',
+        'Entertainment expense allowance',
+        'Home office stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as a Creator Partnerships Manager at Spotify balances relationship building with strategic partnership development.',
+        schedule: [
+          '9:00 AM - Review partnership metrics and creator feedback',
+          '9:30 AM - Team standup on active deals and relationships',
+          '10:00 AM - Call with label partner on upcoming release',
+          '11:00 AM - Cross-functional meeting with Product on creator tools',
+          '12:00 PM - Lunch with artist manager relationship building',
+          '1:30 PM - Develop partnership proposal for new initiative',
+          '3:00 PM - Sync with Content Strategy on editorial partnership',
+          '4:00 PM - Meeting with Marketing on creator campaign',
+          '5:00 PM - Prepare for tomorrow\'s industry event',
+          '5:30 PM - Wrap up with creator communication'
+        ],
+        closing: 'Creator Partnerships at Spotify means building relationships that help artists and creators succeed while growing the platform, working at the intersection of creativity and technology.'
+      },
+      similarRoles: ['Senior Creator Partnerships Manager at Spotify', 'Artist Partnerships Manager at Spotify', 'Podcast Partnerships Manager at Spotify', 'Music Partnerships Lead at Spotify', 'Business Development Manager at Spotify']
     }
+
+
+
   },
 
   // Priority 3B: Oracle
