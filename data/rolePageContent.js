@@ -21888,129 +21888,182 @@ export const rolePageContent = {
   },
   'uber': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Uber build the technology that powers one of the world's largest mobility and delivery platforms, serving millions of riders, drivers, and eaters globally. You'll work on challenging problems in marketplace matching, real-time systems, mapping, payments, and logistics at massive scale. Uber values bold innovation, customer obsession, and moving fast.",
+      roleDescription: "Software Engineers at Uber build the technology powering one of the world's largest mobility and delivery platforms, serving over 170 million monthly active users across 70+ countries. You'll tackle challenging problems in real-time marketplace matching, dynamic pricing, geo-spatial systems, payments, fraud detection, and logistics at massive scale—processing millions of transactions per second. Uber engineers work in a fast-paced environment where bold innovation, customer obsession, and moving fast are core to the culture. With base salaries ranging from $167K-$185K+ and significant equity, this is one of the most impactful engineering roles in tech.",
 
       responsibilities: [
-        "Build scalable services for Uber's marketplace, matching, or delivery platforms",
-        "Design and implement features for rider, driver, or eater-facing applications",
-        "Work on real-time systems handling millions of requests per minute",
-        "Collaborate with cross-functional teams to ship products quickly",
-        "Own services end-to-end including architecture, deployment, and monitoring"
+        "Build scalable microservices for Uber's marketplace, matching, or delivery platforms",
+        "Design and implement features for rider, driver, courier, or merchant-facing applications",
+        "Work on real-time systems handling millions of requests per minute globally",
+        "Develop algorithms for dynamic pricing, ETA prediction, and route optimization",
+        "Own services end-to-end including architecture, deployment, monitoring, and on-call",
+        "Collaborate with cross-functional teams (Product, Design, Data Science, Operations) to ship quickly",
+        "Contribute to Uber's open-source projects and engineering blog",
+        "Participate in incident response and ensure platform reliability",
+        "Drive technical decisions and mentor junior engineers"
       ],
 
       growthOpportunities: [
-        "Work on technology serving millions of users across 70+ countries",
+        "Work on technology serving 170M+ users across 70+ countries",
         "Tackle challenging problems in real-time matching, geo-spatial systems, and logistics",
-        "Fast-paced environment with significant impact and ownership",
-        "Exposure to diverse product areas from ridesharing to food delivery to freight",
-        "Strong compensation with equity and growth potential"
+        "Fast-paced environment with significant impact and ownership from day one",
+        "Exposure to diverse product areas from Rides to Eats to Freight to Autonomous",
+        "Strong compensation with equity and rapid career growth potential",
+        "Clear career ladder from IC through Staff, Principal, and Distinguished Engineer",
+        "Opportunity to work on cutting-edge ML/AI applications in mobility",
+        "Global mobility across Uber's engineering hubs"
       ],
 
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your background, interest in Uber, and role fit. Overview of Uber's mission and culture.",
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your background, interest in Uber, and role fit. Overview of Uber's mission, culture, and team opportunities.",
           duration: "30 minutes"
         },
         {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Coding interview focusing on data structures, algorithms, and problem-solving. May include discussion of past projects.",
+          stage: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute coding interview focusing on data structures, algorithms, and problem-solving. LeetCode medium-to-hard level questions.",
           duration: "45-60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Multiple interviews covering coding (2 rounds), system design (1-2 rounds), and behavioral/values. Focus on customer obsession and execution.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including two coding interviews, 1-2 system design rounds (senior+), and behavioral/values interview. Focus on customer obsession, bias for action, and technical depth.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
+          stage: 4,
           title: "Team Matching",
-          description: "Conversations with potential teams to find the best fit for your interests and skills.",
-          duration: "Varies"
+          description: "Conversations with potential teams (Rides, Eats, Freight, Platform) to find the best fit for your interests and skills.",
+          duration: "1-2 weeks"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base salary, annual bonus, and significant RSU grants. Uber's compensation is competitive with top tech companies.",
+          duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "Design Uber's ride matching and dispatch system",
-        "Implement surge pricing algorithm for dynamic demand",
-        "Design the ETA calculation system for pickup and dropoff",
-        "How would you detect fraudulent rides or drivers?",
-        "Design Uber Eats restaurant ranking and delivery routing",
-        "Implement geofencing for service area boundaries",
-        "Design a real-time location tracking system for drivers",
-        "How would you optimize driver positioning for demand?",
-        "Design the payment processing system for rides",
-        "Implement fare splitting feature for multiple riders"
+        "Design Uber's ride matching and dispatch system handling millions of concurrent requests",
+        "Implement a surge pricing algorithm that balances supply and demand in real-time",
+        "Design the ETA calculation system for pickup and dropoff predictions",
+        "How would you detect fraudulent rides, drivers, or payment fraud?",
+        "Design Uber Eats restaurant ranking and delivery routing optimization",
+        "Implement geofencing for service area boundaries and surge zones",
+        "Design a real-time location tracking system for drivers and couriers",
+        "How would you optimize driver positioning to minimize pickup times?",
+        "Design the payment processing system handling multiple currencies and payment methods",
+        "Implement fare splitting for multiple riders in a shared trip",
+        "Design Uber's notification system for real-time updates to riders and drivers",
+        "How would you build a recommendation engine for restaurant suggestions?",
+        "Design the rating and feedback system for drivers, riders, and restaurants",
+        "Implement dynamic batching for Uber Eats delivery optimization",
+        "Design Uber's data pipeline for real-time analytics and ML model training",
+        "How would you handle a cascade failure in Uber's microservices architecture?"
       ],
 
       behavioralQuestions: [
-        "Tell me about a time when you moved fast and broke things - what did you learn?",
+        "Tell me about a time when you moved fast and broke things—what did you learn?",
         "Describe a situation where you obsessed over customer experience",
         "How have you handled ambiguity in a fast-moving project?",
-        "Tell me about a time when you disagreed with a product decision",
+        "Tell me about a time when you disagreed with a product or technical decision",
         "Describe a project where you had to make trade-offs between speed and quality",
         "How do you prioritize when you have multiple urgent requests?",
         "Tell me about a time when you championed bold innovation",
-        "Describe how you've collaborated across multiple teams"
+        "Describe how you've collaborated across multiple teams to ship a feature",
+        "Tell me about a production incident you handled and lessons learned",
+        "How have you mentored junior engineers or contributed to team growth?",
+        "Describe a time you had to quickly learn a new technology or domain",
+        "Tell me about a time you pushed back on requirements and why",
+        "How have you balanced technical debt with feature development?",
+        "Describe a project that failed and what you learned from it"
       ],
 
       whatTheyLookFor: [
         "Strong coding skills and computer science fundamentals",
         "Experience with distributed systems, real-time systems, or geo-spatial data",
-        "Customer obsession - deep focus on rider and driver experience",
-        "Bias for action - ability to move fast and iterate",
-        "Systems thinking - understanding complex marketplace dynamics",
-        "Collaborative mindset across product, design, and operations",
+        "Customer obsession—deep focus on rider, driver, and eater experience",
+        "Bias for action—ability to move fast, ship, and iterate",
+        "Systems thinking—understanding complex marketplace dynamics",
+        "Collaborative mindset across product, design, and operations teams",
         "Entrepreneurial spirit and ownership mentality",
-        "Passion for Uber's mission to move the world"
+        "Passion for Uber's mission to ignite opportunity by setting the world in motion",
+        "Experience with high-scale systems processing millions of requests",
+        "Strong communication and ability to work in cross-functional teams"
       ],
 
       interviewTips: [
-        "Use Uber and Uber Eats frequently - understand the product deeply",
+        "Use Uber and Uber Eats frequently—understand the product deeply as a user",
         "Prepare for questions about real-time systems and geo-spatial algorithms",
         "Show examples of moving fast, iterating, and learning from failures",
         "Understand two-sided marketplace dynamics and matching algorithms",
         "Emphasize customer obsession and data-driven decision making",
-        "Research Uber's engineering blog and technical challenges",
+        "Research Uber's engineering blog for technical challenges and solutions",
         "Be ready to discuss trade-offs between speed, quality, and scale",
-        "Ask about team's mission, technical stack, and key challenges"
+        "Practice system design for ride-sharing and delivery scenarios",
+        "Understand Uber's tech stack (Go, Java, Python, Kafka, Cassandra)",
+        "Prepare examples of handling production incidents or reliability challenges",
+        "Show genuine interest in mobility, logistics, and marketplace problems",
+        "Be ready to discuss how you'd approach surge pricing or ETA prediction",
+        "Understand Uber's various business lines (Rides, Eats, Freight, Autonomous)",
+        "Ask thoughtful questions about team's mission and technical challenges"
+      ],
+
+      salary: {
+        min: 167000,
+        max: 280000,
+        avg: 210000
+      },
+
+      compensation: [
+        "Base salary: $167K-$280K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Cell phone reimbursement",
+        "Learning and development budget",
+        "Wellness programs and gym reimbursement"
       ],
 
       dayInLife: {
-        overview: "Uber engineers work in fast-paced, cross-functional teams shipping features that impact millions of users. Your day includes coding, design discussions, cross-team collaboration, and data analysis. Uber emphasizes moving fast and customer obsession.",
+        intro: "A typical day as an Uber Software Engineer involves building features that impact millions of users, collaborating across teams, and moving fast in a dynamic environment where real-time systems and customer obsession drive everything.",
         schedule: [
           {
             time: "9:30 AM",
             activity: "Standup & Metrics Review",
-            description: "Team sync on progress and review key marketplace metrics"
+            description: "Team sync on progress and review key marketplace metrics and SLAs"
           },
           {
             time: "10:00 AM",
             activity: "Feature Development",
-            description: "Code new matching algorithm improvements for driver dispatch"
+            description: "Code improvements to matching algorithm for faster driver dispatch"
           },
           {
             time: "12:00 PM",
-            activity: "Lunch & Product Discussion",
-            description: "Working lunch with PM discussing upcoming features"
+            activity: "Lunch & Tech Talk",
+            description: "Grab lunch and attend engineering talk on ML for fraud detection"
           },
           {
             time: "1:00 PM",
             activity: "System Design Review",
-            description: "Review architecture for new real-time pricing feature"
+            description: "Review architecture proposal for new real-time pricing feature"
           },
           {
             time: "2:30 PM",
             activity: "Cross-team Collaboration",
-            description: "Sync with payments team on integration for fare splitting"
+            description: "Sync with payments team on international expansion integration"
           },
           {
             time: "3:30 PM",
-            activity: "Incident Response",
-            description: "Debug and fix production issue affecting ETAs"
+            activity: "Code Review",
+            description: "Review pull requests and provide feedback to teammates"
           },
           {
             time: "4:30 PM",
@@ -22019,374 +22072,500 @@ export const rolePageContent = {
           },
           {
             time: "5:30 PM",
-            activity: "Code Review",
-            description: "Review pull requests from teammates and provide feedback"
+            activity: "On-call Handoff",
+            description: "Review alerts and hand off on-call responsibilities to next engineer"
           }
-        ]
+        ],
+        closing: "Uber engineers thrive in a fast-paced environment where you ship features that immediately impact millions of riders and drivers globally."
       },
 
       similarRoles: [
-        { companyName: "Lyft", companySlug: "lyft", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+        "Lyft Software Engineer",
+        "DoorDash Software Engineer",
+        "Airbnb Software Engineer",
+        "Instacart Software Engineer"
       ]
     },
 
     'product-manager': {
-      roleDescription: "Product Managers at Uber drive strategy and execution for products serving millions of riders, drivers, eaters, and merchants globally. From core marketplace features to new product lines, you'll define vision, prioritize ruthlessly, and ship fast. Uber PMs balance user needs, business metrics, and operational constraints in a dynamic two-sided marketplace.",
+      roleDescription: "Product Managers at Uber drive strategy and execution for products serving over 170 million monthly active users across Rides, Eats, Freight, and emerging business lines. From core marketplace features to new product launches, you'll define vision, prioritize ruthlessly, and ship fast in a complex two-sided marketplace. Uber PMs balance user needs for riders, drivers, couriers, and merchants while optimizing business metrics and navigating operational constraints across 70+ countries. This role requires strong analytical skills, customer obsession, and the ability to thrive in ambiguity.",
 
       responsibilities: [
-        "Define product strategy and roadmap for rider, driver, or merchant experiences",
-        "Analyze marketplace dynamics and identify opportunities for growth",
-        "Prioritize features balancing user experience and business metrics",
-        "Collaborate with engineering, design, operations, and data science teams",
-        "Ship experiments, analyze data, and iterate quickly based on results"
+        "Define product strategy and roadmap for rider, driver, courier, or merchant experiences",
+        "Analyze marketplace dynamics and identify opportunities for growth and efficiency",
+        "Prioritize features balancing user experience, business metrics, and operational constraints",
+        "Collaborate closely with engineering, design, data science, and operations teams",
+        "Ship experiments rapidly, analyze data, and iterate based on results",
+        "Drive cross-functional alignment on product decisions and trade-offs",
+        "Define success metrics and KPIs for product launches",
+        "Conduct user research and synthesize insights into product requirements",
+        "Present product strategy to leadership and stakeholders"
       ],
 
       growthOpportunities: [
-        "Own products impacting millions of users across global markets",
+        "Own products impacting 170M+ users across global markets",
         "Deep exposure to marketplace economics and two-sided platform dynamics",
-        "Fast career progression in high-growth environment",
+        "Fast career progression in high-growth, high-impact environment",
         "Opportunity to launch new products and enter new markets",
-        "Work across diverse product areas from mobility to delivery to freight"
+        "Work across diverse product areas from Rides to Eats to Freight to Autonomous",
+        "Path to senior PM, Group PM, Director, and VP of Product roles",
+        "Build expertise in pricing, matching, logistics, and marketplace optimization",
+        "Global mobility across Uber's product hubs"
       ],
 
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your PM experience, interest in Uber, and role fit. Overview of team and product area.",
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your PM experience, interest in Uber, and role fit. Overview of team and product area opportunities.",
           duration: "30 minutes"
         },
         {
-          step: 2,
+          stage: 2,
           title: "Hiring Manager Interview",
-          description: "Deep dive into your PM experience, product thinking, and analytical skills. May include case discussion.",
-          duration: "45-60 minutes"
+          description: "60-minute deep dive into your PM experience, product thinking, and analytical skills. May include initial case discussion.",
+          duration: "60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering product design, analytics, execution, technical depth, and behavioral. Focus on customer obsession and bias for action.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering product design case, analytics/metrics case, execution/prioritization, technical depth, and behavioral. Focus on customer obsession and bias for action.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
+          stage: 4,
           title: "Team Matching",
-          description: "Conversations with product teams to find the best fit for your skills and interests.",
-          duration: "Varies"
+          description: "Conversations with product teams across Rides, Eats, Platform, or other areas to find best fit.",
+          duration: "1-2 weeks"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and significant equity.",
+          duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "How would you improve Uber's rider app to increase retention?",
-        "Design a new feature to reduce driver cancellations",
-        "How would you increase Uber Eats order frequency?",
-        "Should Uber launch a new product category? How would you decide?",
-        "How would you measure success for surge pricing?",
-        "Design the onboarding experience for new drivers",
-        "How would you reduce rider wait times in low-density areas?",
-        "Analyze why driver supply dropped in a specific market",
-        "Design a loyalty program for frequent riders",
-        "How would you optimize the restaurant discovery experience in Uber Eats?"
+        "How would you improve the Uber rider app to increase trip frequency?",
+        "Design a new feature to reduce driver cancellations in the marketplace",
+        "How would you increase Uber Eats order frequency and basket size?",
+        "Should Uber launch a new product category? How would you evaluate and decide?",
+        "How would you measure success for surge pricing? What metrics matter?",
+        "Design the onboarding experience for new drivers to maximize activation",
+        "How would you prioritize between improving rider experience vs. driver earnings?",
+        "Design a feature to improve safety for late-night rides",
+        "How would you approach expanding Uber Eats to a new city?",
+        "What metrics would you track for Uber's subscription product (Uber One)?",
+        "Design a loyalty program for frequent Uber riders",
+        "How would you reduce delivery times for Uber Eats without hurting courier earnings?",
+        "Design the product strategy for Uber entering the grocery delivery market",
+        "How would you improve the restaurant partner experience on Uber Eats?",
+        "What would you do if rider NPS dropped significantly in a key market?"
       ],
 
       behavioralQuestions: [
-        "Tell me about a product you shipped that didn't perform as expected",
-        "Describe a time when you had to make a decision with incomplete data",
-        "How have you balanced competing stakeholder needs?",
-        "Tell me about a time when you moved fast and had to iterate",
-        "Describe a situation where you used data to change a strategy",
-        "How do you prioritize when everything seems urgent?",
-        "Tell me about a time when you advocated strongly for the customer",
-        "Describe how you've collaborated with operations or support teams"
+        "Tell me about a product you shipped that had significant business impact",
+        "Describe a time when you had to make a difficult prioritization decision",
+        "How have you handled a situation where engineering and design disagreed?",
+        "Tell me about a product that failed and what you learned from it",
+        "Describe your approach to working with data science on experimentation",
+        "How have you balanced user needs with business metrics?",
+        "Tell me about a time you had to ship fast with incomplete information",
+        "Describe how you've handled competing stakeholder priorities",
+        "How have you incorporated user research into product decisions?",
+        "Tell me about a time you championed a bold, contrarian product bet",
+        "Describe your experience working with operations teams",
+        "How have you driven alignment on a controversial product decision?",
+        "Tell me about a time you had to kill a feature or product you launched",
+        "Describe how you stay customer-obsessed in your product work"
       ],
 
       whatTheyLookFor: [
-        "Customer obsession - deep empathy for riders, drivers, and merchants",
-        "Strong analytical skills and comfort with marketplace metrics",
-        "Bias for action - ability to ship quickly and iterate",
+        "Strong analytical skills and data-driven decision making",
+        "Customer obsession—deep empathy for riders, drivers, and merchants",
+        "Bias for action—ability to ship fast and iterate",
+        "Experience with two-sided marketplaces or platform products",
+        "Ability to thrive in ambiguity and fast-changing environments",
+        "Strong collaboration skills across engineering, design, and operations",
+        "Strategic thinking combined with execution excellence",
         "Technical depth to collaborate effectively with engineers",
-        "Data-driven decision making with strong quantitative skills",
-        "Experience with two-sided marketplaces or platforms",
-        "Excellent communication and stakeholder management",
-        "Passion for Uber's mission and products"
+        "Experience with experimentation and A/B testing",
+        "Passion for Uber's mission and mobility/delivery space"
       ],
 
       interviewTips: [
-        "Use Uber and Uber Eats extensively - understand the full experience",
-        "Prepare to discuss marketplace dynamics and network effects",
-        "Bring data and metrics to support your product decisions",
-        "Show examples of moving fast, testing, and learning",
-        "Understand operational constraints and business models",
-        "Research Uber's product strategy and recent launches",
-        "Emphasize cross-functional collaboration with ops and support",
-        "Ask about the team's key metrics, challenges, and roadmap"
+        "Use Uber and Uber Eats extensively—understand the product as a power user",
+        "Prepare for marketplace-specific cases (balancing supply/demand, pricing)",
+        "Practice product cases with clear frameworks and data-driven reasoning",
+        "Understand two-sided marketplace dynamics and network effects",
+        "Research Uber's recent product launches and strategic priorities",
+        "Be ready to discuss metrics deeply—know your success metrics cold",
+        "Show examples of shipping fast and learning from failures",
+        "Prepare for execution questions about prioritization and trade-offs",
+        "Understand Uber's different business lines (Rides, Eats, Freight)",
+        "Be ready to discuss how you work with data science and experimentation",
+        "Show customer obsession with specific examples",
+        "Prepare thoughtful questions about the team and product area",
+        "Understand Uber's competitive landscape (Lyft, DoorDash, etc.)",
+        "Be ready to discuss global considerations and localization"
+      ],
+
+      salary: {
+        min: 150000,
+        max: 300000,
+        avg: 210000
+      },
+
+      compensation: [
+        "Base salary: $150K-$300K depending on level and location",
+        "Annual bonus: 15-25% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Learning and development budget"
       ],
 
       dayInLife: {
-        overview: "Uber PMs move fast, analyzing data, collaborating cross-functionally, and shipping experiments. Your day includes data analysis, design reviews, engineering syncs, operations discussions, and strategic planning.",
+        intro: "A typical day as an Uber Product Manager involves balancing strategic thinking with tactical execution, collaborating across teams, and making data-driven decisions that impact millions of users.",
         schedule: [
           {
             time: "9:00 AM",
             activity: "Metrics Review",
-            description: "Analyze daily marketplace metrics: trips, supply, demand, and conversion"
+            description: "Review overnight metrics, experiment results, and key marketplace indicators"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Quick sync with engineering and design on sprint progress"
           },
           {
             time: "10:00 AM",
-            activity: "Experiment Review",
-            description: "Review A/B test results for new pricing algorithm"
+            activity: "User Research",
+            description: "Watch recorded driver interviews about earnings transparency"
           },
           {
             time: "11:00 AM",
-            activity: "Engineering Sync",
-            description: "Sprint planning with engineering team for new features"
+            activity: "Product Review",
+            description: "Review designs for new rider safety feature with UX team"
           },
           {
             time: "12:00 PM",
-            activity: "Operations Meeting",
-            description: "Discuss driver supply challenges with operations team"
+            activity: "Lunch & Learn",
+            description: "Cross-functional lunch discussing Uber Eats expansion strategy"
           },
           {
             time: "1:00 PM",
-            activity: "Design Review",
-            description: "Review mockups for new rider app feature"
+            activity: "Data Analysis",
+            description: "Deep dive into conversion funnel for new user activation"
           },
           {
             time: "2:30 PM",
-            activity: "Data Analysis",
-            description: "Deep dive into conversion funnel for new users"
+            activity: "Experiment Planning",
+            description: "Work with data science to design A/B test for new feature"
           },
           {
             time: "3:30 PM",
-            activity: "Strategy Meeting",
-            description: "Quarterly planning with leadership on product roadmap"
+            activity: "Stakeholder Alignment",
+            description: "Sync with operations on driver supply concerns in key market"
           },
           {
-            time: "5:00 PM",
-            activity: "User Research",
-            description: "Watch recorded rider interviews about payment experience"
+            time: "4:30 PM",
+            activity: "Strategy Meeting",
+            description: "Quarterly planning with leadership on product roadmap priorities"
           }
-        ]
+        ],
+        closing: "Uber PMs operate at the intersection of strategy and execution, making high-impact decisions in a fast-paced environment where data and customer obsession drive everything."
       },
 
       similarRoles: [
-        { companyName: "Lyft", companySlug: "lyft", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+        "Lyft Product Manager",
+        "DoorDash Product Manager",
+        "Airbnb Product Manager",
+        "Instacart Product Manager"
       ]
     },
 
     'engineering-manager': {
-      roleDescription: "Engineering Managers at Uber lead high-performing teams building technology for the world's largest mobility and delivery platform. You'll balance technical leadership with people management, drive execution at speed, and foster a culture of innovation and customer obsession. EMs at Uber typically manage teams of 6-10 engineers working on critical marketplace systems.",
+      roleDescription: "Engineering Managers at Uber lead high-performing teams building technology for one of the world's largest mobility and delivery platforms. You'll balance technical leadership with people management, drive execution at startup speed, and foster a culture of innovation, customer obsession, and bold thinking. Uber EMs typically manage teams of 6-12 engineers working on critical marketplace systems, real-time infrastructure, or consumer-facing products serving 170M+ users. This role requires both technical depth and strong leadership skills to build and scale teams in a fast-paced environment.",
 
       responsibilities: [
-        "Lead and mentor a team of 6-10 software engineers on marketplace or platform systems",
+        "Lead and mentor a team of 6-12 software engineers on marketplace or platform systems",
         "Set technical direction and make architectural decisions for your team's domain",
-        "Drive rapid execution while maintaining quality and reliability",
-        "Hire top talent and develop career growth plans",
-        "Collaborate with product, design, and operations to ship impactful features"
+        "Drive rapid execution while maintaining quality, reliability, and scalability",
+        "Recruit top engineering talent and develop career growth plans for team members",
+        "Collaborate with product, design, data science, and operations to ship impactful features",
+        "Foster a culture of innovation, customer obsession, and continuous improvement",
+        "Manage team performance, conduct reviews, and handle difficult conversations",
+        "Participate in on-call rotations and ensure operational excellence",
+        "Drive technical roadmap and capacity planning for your team"
       ],
 
       growthOpportunities: [
-        "Lead teams building technology serving millions globally",
+        "Lead teams building technology serving 170M+ users globally",
         "Fast-paced environment with high impact and rapid learning",
-        "Clear path to senior leadership (Senior EM, Director, VP)",
+        "Clear path to senior leadership (Senior EM, Director, VP of Engineering)",
         "Opportunity to build and scale teams in new product areas",
-        "Strong compensation with significant equity"
+        "Strong compensation with significant equity participation",
+        "Exposure to complex distributed systems and marketplace technology",
+        "Global mobility across Uber's engineering hubs",
+        "Influence engineering culture and practices at scale"
       ],
 
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your management experience, technical background, and interest in Uber.",
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your management experience, technical background, and interest in Uber.",
           duration: "30 minutes"
         },
         {
-          step: 2,
+          stage: 2,
           title: "Hiring Manager Interview",
-          description: "Deep dive into leadership philosophy, team management approach, and technical credibility.",
+          description: "60-minute deep dive into leadership philosophy, team management approach, and technical credibility.",
           duration: "60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering technical leadership, people management, system design, and behavioral. Focus on execution and team building.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering technical leadership, people management scenarios, system design, execution, and behavioral. Focus on driving results and building teams.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with teams to find the best fit for your experience and interests.",
-          duration: "Varies"
+          stage: 4,
+          title: "Executive Interview",
+          description: "Conversation with Director or VP about leadership approach and strategic thinking.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and significant equity.",
+          duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "Design the architecture for Uber's matching system at scale",
-        "How would you improve reliability for Uber's payment processing?",
-        "Your team is shipping features slowly - how do you diagnose and fix?",
-        "Design the infrastructure for real-time driver location updates",
+        "Design the architecture for Uber's matching system at global scale",
+        "How would you improve reliability for Uber's payment processing system?",
+        "Your team is shipping features slowly—how do you diagnose and address?",
+        "Design the infrastructure for real-time driver location updates at scale",
         "How do you balance technical debt with new feature development?",
-        "Walk through how you'd scale a service experiencing 10x growth",
-        "Your team has a critical production incident - how do you respond?",
+        "Walk through how you'd scale a service experiencing 10x traffic growth",
+        "Your team has a critical production incident—how do you respond?",
         "Design the testing strategy for marketplace algorithm changes",
-        "How would you migrate a legacy system to microservices?",
-        "Design the monitoring and alerting for Uber's core services"
+        "How would you approach migrating a legacy monolith to microservices?",
+        "Design the monitoring and alerting for Uber's core services",
+        "How would you structure a team to build a new product from scratch?",
+        "Describe your approach to cross-team technical dependencies",
+        "How do you ensure quality while maintaining fast shipping velocity?",
+        "Design an on-call rotation and incident response process"
       ],
 
       behavioralQuestions: [
         "Tell me about a time when you had to ship a critical feature under tight deadline",
-        "Describe a situation where you had to manage a low performer",
-        "How have you built and scaled an engineering team?",
+        "Describe a situation where you had to manage a low performer—what happened?",
+        "How have you built and scaled an engineering team from scratch?",
         "Tell me about a time when you had to make a difficult technical trade-off",
-        "Describe a conflict with product or business stakeholders",
+        "Describe a conflict between your team and product/business stakeholders",
         "How do you maintain quality while moving fast?",
         "Tell me about a time when you had to deliver difficult feedback",
-        "Describe how you've fostered innovation in your team"
+        "Describe how you've fostered innovation and bold thinking in your team",
+        "How have you handled a situation where you disagreed with leadership?",
+        "Tell me about your approach to developing senior engineers into leaders",
+        "Describe a time you had to make a decision with incomplete information",
+        "How have you built trust with cross-functional partners?",
+        "Tell me about a significant technical failure and how you handled it as a manager",
+        "Describe your approach to team rituals and culture building"
       ],
 
       whatTheyLookFor: [
-        "Strong technical credibility with distributed systems experience",
-        "People management experience leading teams of 5+ engineers",
-        "Bias for action - ability to ship quickly without sacrificing quality",
-        "Track record of building high-performing, diverse teams",
-        "Customer obsession and data-driven decision making",
-        "Excellent communication and cross-functional collaboration",
-        "Experience with real-time systems, marketplaces, or high-scale platforms",
-        "Passion for Uber's mission and fast-paced culture"
+        "Strong technical background with ability to guide architectural decisions",
+        "Proven track record of building and scaling high-performing engineering teams",
+        "Customer obsession—ensuring team delivers great user experiences",
+        "Bias for action—driving results in fast-paced, ambiguous environments",
+        "People leadership skills—hiring, developing, and retaining talent",
+        "Experience with distributed systems and high-scale infrastructure",
+        "Ability to balance technical excellence with business priorities",
+        "Strong communication skills across technical and non-technical audiences",
+        "Collaborative mindset with product, design, and operations partners",
+        "Passion for Uber's mission and mobility/delivery space"
       ],
 
       interviewTips: [
-        "Prepare examples of shipping critical features quickly",
-        "Demonstrate technical depth in distributed systems and real-time tech",
-        "Show how you've balanced speed with quality and reliability",
-        "Emphasize cross-functional collaboration with product and operations",
-        "Be ready to discuss hiring, performance management, and team culture",
-        "Understand Uber's marketplace dynamics and technical challenges",
-        "Prepare examples of handling incidents and production issues",
-        "Ask about team's mission, technical stack, and growth opportunities"
+        "Prepare specific examples of building and scaling engineering teams",
+        "Be ready to discuss technical architecture at a senior level",
+        "Show your approach to balancing people management with technical leadership",
+        "Prepare examples of handling performance issues and difficult conversations",
+        "Understand Uber's engineering culture and values",
+        "Be ready to discuss how you maintain velocity while ensuring quality",
+        "Prepare examples of cross-functional collaboration and conflict resolution",
+        "Show understanding of marketplace technology and real-time systems",
+        "Be ready to discuss your approach to hiring and developing talent",
+        "Prepare examples of driving technical roadmap and strategy",
+        "Understand Uber's business lines and technical challenges",
+        "Show how you foster innovation and encourage bold thinking",
+        "Be ready to discuss remote/hybrid team management",
+        "Prepare thoughtful questions about the team and engineering org"
+      ],
+
+      salary: {
+        min: 200000,
+        max: 350000,
+        avg: 260000
+      },
+
+      compensation: [
+        "Base salary: $200K-$350K depending on level and location",
+        "Annual bonus: 20-30% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Executive development programs"
       ],
 
       dayInLife: {
-        overview: "Uber Engineering Managers balance technical leadership, people development, and rapid execution. Your day includes 1-on-1s, technical reviews, cross-functional collaboration, incident response, and strategic planning.",
+        intro: "A typical day as an Uber Engineering Manager balances people leadership, technical guidance, and cross-functional collaboration—all focused on building and scaling teams that ship impactful products.",
         schedule: [
           {
             time: "9:00 AM",
-            activity: "Standup & Incident Review",
-            description: "Team sync and review overnight incidents or alerts"
+            activity: "1:1 with Engineer",
+            description: "Career development discussion with senior engineer exploring tech lead path"
           },
           {
-            time: "9:30 AM",
-            activity: "1-on-1 Meetings",
-            description: "Career development conversations with engineers"
+            time: "10:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync on sprint progress, blockers, and marketplace metrics"
           },
           {
-            time: "11:00 AM",
-            activity: "System Design Review",
-            description: "Review architecture for new matching algorithm"
+            time: "10:30 AM",
+            activity: "Technical Review",
+            description: "Review architecture proposal for new real-time pricing feature"
           },
           {
-            time: "12:00 PM",
-            activity: "Recruiting Lunch",
-            description: "Lunch interview with senior engineer candidate"
+            time: "11:30 AM",
+            activity: "Cross-functional Sync",
+            description: "Weekly sync with product manager and design lead on roadmap"
           },
           {
-            time: "1:00 PM",
-            activity: "Product Planning",
-            description: "Sprint planning with PM and design for next quarter"
+            time: "12:30 PM",
+            activity: "Lunch with Team",
+            description: "Team lunch discussing recent learnings and celebrating wins"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Recruiting",
+            description: "Interview senior engineer candidate for open position"
           },
           {
             time: "2:30 PM",
             activity: "Code Review",
-            description: "Review critical pull requests for marketplace changes"
+            description: "Review critical pull requests for marketplace algorithm changes"
           },
           {
             time: "3:30 PM",
-            activity: "Cross-team Sync",
-            description: "Align with payments and fraud teams on integration"
+            activity: "Operations Sync",
+            description: "Meet with city operations on driver supply challenges"
           },
           {
             time: "4:30 PM",
-            activity: "Technical Strategy",
-            description: "Plan technical roadmap and capacity for team"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Performance Reviews",
-            description: "Write reviews and prepare for calibration meetings"
+            activity: "Leadership Meeting",
+            description: "Engineering leadership sync on org priorities and headcount"
           }
-        ]
+        ],
+        closing: "Uber EMs enable their teams to move fast and ship products that impact millions, balancing technical leadership with people management in a high-growth environment."
       },
 
       similarRoles: [
-        { companyName: "Lyft", companySlug: "lyft", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+        "Lyft Engineering Manager",
+        "DoorDash Engineering Manager",
+        "Airbnb Engineering Manager",
+        "Instacart Engineering Manager"
       ]
     },
 
     'data-scientist': {
-      roleDescription: "Data Scientists at Uber leverage data and analytics to optimize the marketplace, improve user experience, and drive business decisions. You'll work on challenging problems in pricing, matching, forecasting, and experimentation at massive scale. Uber's data scientists combine statistical rigor with business acumen to move key metrics.",
+      roleDescription: "Data Scientists at Uber leverage data, analytics, and machine learning to optimize the marketplace, improve user experience, and drive business decisions across Rides, Eats, Freight, and emerging products. You'll work on challenging problems in pricing, matching, demand forecasting, fraud detection, and experimentation at massive scale—Uber processes billions of data points daily. With base salaries ranging from $140K-$235K and the opportunity to impact 170M+ monthly active users, this role combines statistical rigor with business acumen to move key metrics in one of the world's most complex two-sided marketplaces.",
 
       responsibilities: [
         "Analyze marketplace dynamics and identify opportunities for optimization",
-        "Design and analyze A/B experiments to measure feature impact",
-        "Build statistical models for pricing, forecasting, and fraud detection",
-        "Partner with product and engineering teams to drive data-informed decisions",
-        "Develop metrics and dashboards to track business and user health"
+        "Design and analyze A/B experiments to measure feature and strategy impact",
+        "Build statistical and ML models for pricing, forecasting, and fraud detection",
+        "Partner with product, engineering, and operations teams to drive data-informed decisions",
+        "Develop metrics, dashboards, and reporting to track business and user health",
+        "Conduct deep-dive analyses to understand user behavior and marketplace trends",
+        "Present findings and recommendations to leadership and stakeholders",
+        "Collaborate with ML engineers to productionize models",
+        "Mentor junior data scientists and contribute to team best practices"
       ],
 
       growthOpportunities: [
-        "Work with one of the world's largest and most complex datasets",
-        "Impact millions of users through data-driven product improvements",
-        "Exposure to diverse problems from pricing to matching to logistics",
-        "Strong collaboration with engineering and product teams",
-        "Career growth into senior IC or leadership roles"
+        "Work with one of the world's largest and most complex real-time datasets",
+        "Impact 170M+ users through data-driven product and strategy improvements",
+        "Exposure to diverse problems from pricing to matching to logistics to fraud",
+        "Strong collaboration with engineering, product, and operations teams",
+        "Career growth into senior IC, Staff Scientist, or management roles",
+        "Opportunity to publish research and present at industry conferences",
+        "Access to cutting-edge ML infrastructure and experimentation platform",
+        "Global mobility across Uber's data science hubs"
       ],
 
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your data science experience, interest in Uber, and role fit.",
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your data science experience, interest in Uber, and role fit.",
           duration: "30 minutes"
         },
         {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Statistics, SQL, and analytics case study. May include discussion of past projects.",
+          stage: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute interview covering statistics, SQL, and an analytics case study. May include discussion of past projects.",
           duration: "45-60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering statistics, experimentation, SQL/coding, product sense, and behavioral. Focus on business impact and collaboration.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering statistics/experimentation, SQL/coding, product analytics case, machine learning (for ML-focused roles), and behavioral. Focus on business impact and collaboration.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
+          stage: 4,
           title: "Team Matching",
-          description: "Conversations with data science teams across different product areas.",
-          duration: "Varies"
+          description: "Conversations with data science teams across Rides, Eats, Platform, Risk, or other areas.",
+          duration: "1-2 weeks"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base ($140K-$235K), bonus, and significant equity.",
+          duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "How would you measure the success of surge pricing?",
+        "How would you measure the success of surge pricing? What metrics matter?",
         "Design an experiment to test a new driver incentive program",
-        "Analyze why rider cancellations increased in a market",
-        "How would you detect fraudulent drivers or rides?",
-        "Design a forecasting model for demand prediction",
-        "How would you optimize driver positioning?",
-        "Analyze the impact of a new feature on rider retention",
-        "Design a model to predict driver churn",
-        "How would you measure marketplace efficiency?",
-        "Build a pricing model for Uber Eats delivery fees"
+        "Analyze why rider cancellations increased 15% in a market last month",
+        "How would you detect fraudulent drivers, riders, or payment fraud?",
+        "Design a forecasting model for demand prediction by time and location",
+        "How would you optimize driver positioning to minimize pickup ETAs?",
+        "Analyze the impact of a new feature on rider retention—walk through your approach",
+        "Design a model to predict which drivers are likely to churn",
+        "How would you measure marketplace efficiency and health?",
+        "Build a pricing model for Uber Eats delivery fees",
+        "How would you design an experiment with network effects in a marketplace?",
+        "Analyze the trade-off between driver earnings and rider wait times",
+        "Design a recommendation system for Uber Eats restaurant suggestions",
+        "How would you detect and measure cannibalization between Uber products?",
+        "Build a model to predict trip ETAs—what features would you use?",
+        "How would you analyze the ROI of a marketing campaign?"
       ],
 
       behavioralQuestions: [
@@ -22397,82 +22576,1709 @@ export const rolePageContent = {
         "Describe a situation where you had to work with messy or incomplete data",
         "How do you prioritize when you have multiple analysis requests?",
         "Tell me about a time when you disagreed with a product decision",
-        "Describe how you've collaborated with engineers on data infrastructure"
+        "Describe your approach to working with engineers on productionizing models",
+        "How have you handled stakeholders who wanted a specific result from your analysis?",
+        "Tell me about a time you had to simplify a complex problem to make progress",
+        "Describe your experience with experimentation and A/B testing at scale",
+        "How have you balanced rigor with speed in your analysis work?",
+        "Tell me about a project where you had to learn a new domain quickly",
+        "Describe how you stay current with data science methods and tools"
       ],
 
       whatTheyLookFor: [
-        "Strong statistical and analytical skills with business intuition",
-        "Experience with A/B testing and experimental design",
-        "Proficiency in SQL, Python/R, and data visualization",
-        "Ability to translate data insights into actionable recommendations",
-        "Experience with marketplaces, pricing, or forecasting preferred",
-        "Excellent communication skills for cross-functional collaboration",
-        "Customer obsession and focus on business impact",
-        "Passion for using data to improve user experience"
+        "Strong statistical foundations and experimental design skills",
+        "Proficiency in SQL and Python/R for data analysis",
+        "Experience with A/B testing and causal inference",
+        "Business acumen and ability to translate data into actionable insights",
+        "Customer obsession—focus on improving user experience through data",
+        "Strong communication skills for technical and non-technical audiences",
+        "Experience with large-scale data processing and analysis",
+        "Collaborative mindset with product, engineering, and operations teams",
+        "Curiosity and proactive approach to identifying opportunities",
+        "Passion for marketplaces, pricing, or logistics problems"
       ],
 
       interviewTips: [
-        "Use Uber products and think about the data behind the experience",
-        "Prepare to discuss A/B testing, causality, and experimental design",
-        "Bring examples of analyses that drove business decisions",
-        "Understand marketplace metrics and two-sided platform dynamics",
-        "Be ready for SQL coding and statistical problem-solving",
-        "Show strong communication skills and business intuition",
-        "Research Uber's data challenges and experimentation platform",
-        "Ask about the team's key metrics, tools, and analytical challenges"
+        "Brush up on statistics fundamentals—hypothesis testing, confidence intervals, experimental design",
+        "Practice SQL extensively—Uber interviews often include complex SQL problems",
+        "Prepare for marketplace-specific cases (pricing, supply/demand, network effects)",
+        "Understand A/B testing deeply—sample sizes, statistical power, novelty effects",
+        "Research Uber's data science blog for insights into their problems and approaches",
+        "Be ready to discuss trade-offs in experiment design",
+        "Prepare examples of analyses that drove business impact",
+        "Understand Uber's different business lines and their metrics",
+        "Be ready to whiteboard analyses and walk through your thought process",
+        "Show genuine curiosity about marketplace dynamics and optimization",
+        "Prepare for behavioral questions about stakeholder management",
+        "Understand causal inference challenges in marketplace settings",
+        "Be ready to discuss how you work with engineers on productionization",
+        "Prepare thoughtful questions about the team's focus areas and challenges"
+      ],
+
+      salary: {
+        min: 140000,
+        max: 235000,
+        avg: 180000
+      },
+
+      compensation: [
+        "Base salary: $140K-$235K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Learning and conference budget"
       ],
 
       dayInLife: {
-        overview: "Uber Data Scientists analyze data, design experiments, build models, and collaborate cross-functionally to drive business impact. Your day includes SQL analysis, experimentation, stakeholder meetings, and presenting insights.",
+        intro: "A typical day as an Uber Data Scientist involves analyzing complex marketplace data, designing experiments, and partnering with product and engineering teams to drive decisions that impact millions of users.",
         schedule: [
           {
             time: "9:00 AM",
             activity: "Metrics Review",
-            description: "Review daily marketplace KPIs and investigate anomalies"
+            description: "Review overnight marketplace metrics and experiment dashboards"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Quick sync with data science team on priorities and blockers"
           },
           {
             time: "10:00 AM",
-            activity: "Experiment Analysis",
-            description: "Analyze A/B test results for new pricing algorithm"
+            activity: "Deep Dive Analysis",
+            description: "Investigate driver supply drop in key market—build SQL queries and visualizations"
           },
           {
-            time: "11:30 AM",
+            time: "12:00 PM",
+            activity: "Lunch & Learn",
+            description: "Attend presentation on new ML model for demand forecasting"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Experiment Design",
+            description: "Work with PM to design A/B test for new rider feature"
+          },
+          {
+            time: "2:30 PM",
             activity: "Stakeholder Meeting",
-            description: "Present analysis on driver churn to operations leadership"
+            description: "Present analysis findings to operations leadership"
           },
           {
-            time: "12:30 PM",
-            activity: "Lunch & Data Discussion",
-            description: "Informal discussion with data science peers"
-          },
-          {
-            time: "1:30 PM",
-            activity: "SQL Analysis",
-            description: "Deep dive into rider conversion funnel by market"
-          },
-          {
-            time: "3:00 PM",
-            activity: "Product Collaboration",
-            description: "Work with PM to design experiment for new feature"
-          },
-          {
-            time: "4:00 PM",
+            time: "3:30 PM",
             activity: "Model Development",
-            description: "Build forecasting model for demand prediction"
+            description: "Iterate on churn prediction model, evaluate feature importance"
           },
           {
-            time: "5:30 PM",
-            activity: "Dashboard Building",
-            description: "Create executive dashboard for marketplace health"
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Document analysis methodology and update team wiki"
           }
-        ]
+        ],
+        closing: "Uber Data Scientists work at the intersection of complex data and business impact, using rigorous analysis to optimize one of the world's largest marketplaces."
       },
 
       similarRoles: [
-        { companyName: "Lyft", companySlug: "lyft", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+        "Lyft Data Scientist",
+        "DoorDash Data Scientist",
+        "Airbnb Data Scientist",
+        "Instacart Data Scientist"
+      ]
+    },
+
+    'machine-learning-engineer': {
+      roleDescription: "Machine Learning Engineers at Uber build the AI systems powering real-time marketplace optimization, fraud detection, demand forecasting, and personalization across Rides, Eats, and Freight. You'll develop and deploy ML models at massive scale—Uber processes billions of predictions daily for pricing, matching, ETAs, and recommendations. From designing recommendation systems to building fraud detection models, Uber MLEs work at the intersection of cutting-edge research and production systems. With base salaries ranging from $180K-$280K and the opportunity to impact 170M+ users, this is one of the most impactful ML roles in tech.",
+
+      responsibilities: [
+        "Design, build, and deploy ML models for pricing, matching, fraud detection, and recommendations",
+        "Develop real-time ML systems processing billions of predictions daily",
+        "Build ML infrastructure and pipelines for training, evaluation, and serving at scale",
+        "Collaborate with data scientists and product teams to productionize ML solutions",
+        "Optimize model performance for latency, accuracy, and cost efficiency",
+        "Implement reinforcement learning and online learning systems for marketplace optimization",
+        "Build NLP models for search, customer support, and content understanding",
+        "Develop computer vision systems for safety and document verification",
+        "Mentor junior engineers and contribute to ML best practices"
+      ],
+
+      growthOpportunities: [
+        "Work on ML systems impacting 170M+ monthly active users",
+        "Tackle challenging problems in real-time pricing, matching, and logistics",
+        "Access to world-class ML infrastructure and experimentation platform",
+        "Career path from IC through Staff, Principal, and Distinguished ML Engineer",
+        "Opportunity to publish research and present at top ML conferences",
+        "Strong compensation with significant equity participation",
+        "Collaborate with leading researchers and practitioners in the field",
+        "Global mobility across Uber's ML engineering hubs"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your ML background, interest in Uber, and role fit.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute interview with coding (35-40 min) and ML fundamentals questions. LeetCode medium level coding with ML theory.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including coding (LeetCode-style), ML coding/implementation, ML system design, and behavioral. Senior roles include additional ML design round.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 4,
+          title: "Team Matching",
+          description: "Conversations with ML teams across Pricing, Matching, Fraud, Recommendations, or Platform.",
+          duration: "1-2 weeks"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base ($180K-$280K), bonus, and significant equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design an ML system for real-time surge pricing prediction",
+        "Build a recommendation system for Uber Eats restaurant suggestions",
+        "Design a fraud detection system for identifying fake driver accounts",
+        "How would you build an ML model for ETA prediction?",
+        "Design an ML pipeline for driver-rider matching optimization",
+        "Build a model to predict which users are likely to churn",
+        "Design a reinforcement learning system for driver positioning",
+        "How would you handle class imbalance in fraud detection?",
+        "Design an ML system for demand forecasting by time and location",
+        "Build a model to detect payment fraud in real-time",
+        "How would you evaluate and improve a recommendation model?",
+        "Design a computer vision system for driver document verification",
+        "Build an NLP model for customer support ticket classification",
+        "How would you handle concept drift in production ML models?",
+        "Design an ML pipeline for A/B testing ML model changes",
+        "How would you optimize ML models for latency-sensitive applications?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about an ML model you built and deployed to production",
+        "Describe a time when your ML model didn't perform as expected in production",
+        "How have you collaborated with data scientists on model development?",
+        "Tell me about a challenging ML infrastructure problem you solved",
+        "Describe your approach to debugging ML models in production",
+        "How have you balanced model accuracy with latency requirements?",
+        "Tell me about a time you had to make trade-offs in ML system design",
+        "Describe your experience with A/B testing ML models",
+        "How have you communicated ML concepts to non-technical stakeholders?",
+        "Tell me about a time you improved an existing ML system significantly",
+        "Describe your approach to staying current with ML research",
+        "How have you handled disagreements about model design or evaluation?",
+        "Tell me about your experience with real-time ML systems",
+        "Describe a project where you had to work with limited training data"
+      ],
+
+      whatTheyLookFor: [
+        "Strong ML fundamentals—supervised/unsupervised learning, deep learning, optimization",
+        "Production ML experience with model training, serving, and monitoring",
+        "Strong coding skills in Python with ML frameworks (PyTorch, TensorFlow)",
+        "Experience with large-scale data processing (Spark, distributed systems)",
+        "Understanding of ML system design patterns and trade-offs",
+        "Experience with recommendation systems, ranking, or fraud detection",
+        "Strong problem-solving skills and ability to debug complex systems",
+        "Collaboration skills with data science and product teams",
+        "Passion for applying ML to real-world marketplace problems",
+        "Bias for action—ability to ship and iterate quickly"
+      ],
+
+      interviewTips: [
+        "Review ML fundamentals—gradient descent, regularization, evaluation metrics",
+        "Practice coding problems with focus on ML-relevant algorithms",
+        "Prepare for ML system design—recommendation, ranking, fraud detection systems",
+        "Understand real-time ML challenges (latency, feature stores, model serving)",
+        "Research Uber's ML blog for insights into their systems and approaches",
+        "Be ready to discuss trade-offs between model complexity and latency",
+        "Prepare examples of ML models you've deployed to production",
+        "Understand Uber's ML stack (Michelangelo, feature stores, experimentation)",
+        "Be ready to whiteboard ML system architectures",
+        "Practice explaining ML concepts to non-technical audiences",
+        "Understand marketplace ML problems (pricing, matching, fraud)",
+        "Be ready to discuss handling class imbalance and concept drift",
+        "Prepare for behavioral questions about collaboration and trade-offs",
+        "Ask thoughtful questions about the team's ML challenges and infrastructure"
+      ],
+
+      salary: {
+        min: 180000,
+        max: 320000,
+        avg: 240000
+      },
+
+      compensation: [
+        "Base salary: $180K-$320K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Conference and learning budget"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber Machine Learning Engineer involves building and deploying ML models that power real-time decisions for millions of users, collaborating across teams, and pushing the boundaries of applied ML.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Model Monitoring",
+            description: "Review overnight model performance metrics and alert dashboards"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Team Standup",
+            description: "Sync with ML team on sprint progress and model experiments"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Feature Development",
+            description: "Build new features for demand forecasting model"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Paper Reading Group",
+            description: "Discuss recent NeurIPS paper on reinforcement learning for marketplaces"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Model Training",
+            description: "Launch training job and tune hyperparameters for pricing model"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Design Review",
+            description: "Review ML system design for new fraud detection feature"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Data Science Sync",
+            description: "Collaborate with DS on experiment analysis and model requirements"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Code Review",
+            description: "Review PRs for ML pipeline improvements"
+          }
+        ],
+        closing: "Uber MLEs work at the cutting edge of applied ML, building systems that make real-time decisions impacting millions of rides and deliveries daily."
+      },
+
+      similarRoles: [
+        "Lyft Machine Learning Engineer",
+        "DoorDash Machine Learning Engineer",
+        "Airbnb Machine Learning Engineer",
+        "Meta Machine Learning Engineer"
+      ]
+    },
+
+    'operations-manager': {
+      roleDescription: "Operations Managers at Uber are the backbone of the company's marketplace success, ensuring riders get picked up quickly, drivers earn well, and the platform runs smoothly across cities and regions. You'll own key operational metrics like driver supply, rider wait times, marketplace efficiency, and partner satisfaction. This role requires a unique blend of analytical rigor, strategic thinking, and hands-on execution—you'll analyze data to identify opportunities, develop strategies to improve marketplace health, and work cross-functionally with product, engineering, and city teams to implement solutions. Operations is core to Uber's DNA, and this role offers direct impact on millions of users.",
+
+      responsibilities: [
+        "Own marketplace health metrics including driver supply, rider wait times, and conversion rates",
+        "Analyze operational data to identify opportunities for improvement and growth",
+        "Develop and execute strategies to improve driver acquisition, activation, and retention",
+        "Collaborate with product and engineering teams on operational tooling and features",
+        "Work with city teams to address local marketplace challenges and opportunities",
+        "Design and run operational experiments to test new strategies",
+        "Build dashboards and reporting to track operational performance",
+        "Partner with marketing on driver and rider incentive programs",
+        "Manage relationships with driver partners and address escalations"
+      ],
+
+      growthOpportunities: [
+        "Direct impact on marketplace health serving 170M+ monthly active users",
+        "Deep exposure to marketplace economics and two-sided platform dynamics",
+        "Path to senior operations, general management, or strategy roles",
+        "Opportunity to launch new markets or product lines",
+        "Cross-functional collaboration with product, engineering, and marketing",
+        "Fast-paced environment with high ownership and visibility",
+        "Global mobility across Uber's operations hubs",
+        "Strong analytical skill development working with complex data"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your operations background and interest in Uber.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on operations experience, analytical skills, and problem-solving approach.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case Interview",
+          description: "45-60 minute case study focused on marketplace operations scenario—driver supply, pricing strategy, or market launch.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "3-4 rounds covering analytical case, cross-functional collaboration, execution, and behavioral. Focus on data-driven thinking and operational excellence.",
+          duration: "3-4 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Driver wait times have increased 20% in a key market—how would you diagnose and address?",
+        "Design a strategy to improve driver retention in a competitive market",
+        "How would you approach launching Uber in a new city?",
+        "Driver cancellation rates are high during rush hour—what would you investigate?",
+        "Design an incentive program to increase driver supply during peak hours",
+        "How would you measure marketplace efficiency? What metrics matter?",
+        "A new competitor is offering higher driver earnings—how would you respond?",
+        "Design an operations playbook for a major event (concert, sports game)",
+        "How would you prioritize between improving rider experience vs. driver earnings?",
+        "Uber Eats delivery times are slower than competitors—how would you diagnose?",
+        "Design a strategy to improve driver quality and ratings",
+        "How would you approach reducing fraud in the marketplace?",
+        "Build a framework for deciding where to invest operations resources",
+        "How would you test the impact of a new driver incentive structure?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you improved an operational metric significantly",
+        "Describe your approach to diagnosing problems with limited data",
+        "How have you worked with product teams to address operational challenges?",
+        "Tell me about a time you had to make a decision with competing priorities",
+        "Describe a situation where you had to influence without direct authority",
+        "How have you handled a crisis or urgent operational issue?",
+        "Tell me about a time you launched something new—market, product, or program",
+        "Describe your experience working with data and analytics teams",
+        "How have you balanced short-term fixes with long-term solutions?",
+        "Tell me about a time you received pushback on an operational change",
+        "Describe your approach to stakeholder management across teams",
+        "How have you handled underperformance in a team or market?",
+        "Tell me about a project that required significant cross-functional coordination",
+        "Describe how you stay organized managing multiple priorities"
+      ],
+
+      whatTheyLookFor: [
+        "Strong analytical skills and data-driven problem solving",
+        "Experience with marketplace operations, logistics, or supply-side management",
+        "Ability to translate data insights into actionable strategies",
+        "Cross-functional collaboration skills with product, engineering, and marketing",
+        "Operational excellence and attention to detail",
+        "Ability to thrive in fast-paced, ambiguous environments",
+        "Strong communication and stakeholder management skills",
+        "Customer obsession—focus on rider and driver experience",
+        "Experience with SQL and data analysis tools",
+        "Passion for Uber's mission and mobility/delivery space"
+      ],
+
+      interviewTips: [
+        "Use Uber and Uber Eats frequently—understand the user experience deeply",
+        "Prepare for marketplace-specific cases (supply/demand, driver economics)",
+        "Practice SQL and be ready to discuss how you'd analyze operational data",
+        "Understand two-sided marketplace dynamics and trade-offs",
+        "Research Uber's operations challenges and recent news",
+        "Be ready to discuss metrics—know how you'd measure operational success",
+        "Prepare examples of improving operational metrics with data",
+        "Show your ability to balance analytical rigor with execution",
+        "Understand Uber's competitive landscape (Lyft, DoorDash)",
+        "Be ready to discuss working with city teams and local markets",
+        "Show examples of cross-functional collaboration",
+        "Prepare thoughtful questions about the team and operational challenges",
+        "Understand driver economics and partner management",
+        "Be ready to discuss how you prioritize and make trade-offs"
+      ],
+
+      salary: {
+        min: 100000,
+        max: 180000,
+        avg: 135000
+      },
+
+      compensation: [
+        "Base salary: $100K-$180K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Learning and development budget"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber Operations Manager involves analyzing marketplace data, developing strategies to improve performance, and collaborating across teams to ensure riders and drivers have a great experience.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Metrics Review",
+            description: "Review overnight marketplace metrics—driver supply, wait times, conversion"
+          },
+          {
+            time: "9:00 AM",
+            activity: "City Team Sync",
+            description: "Call with city team to discuss local challenges and weekend performance"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Data Analysis",
+            description: "Deep dive into driver retention data to identify churn drivers"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Product Collaboration",
+            description: "Meet with product team on new driver app feature requirements"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learn",
+            description: "Cross-functional session on Uber Eats operations learnings"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Strategy Development",
+            description: "Build business case for new driver incentive program"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Experiment Review",
+            description: "Analyze results from driver supply experiment in test market"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Present marketplace health report to regional leadership"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Planning",
+            description: "Plan next week's priorities and escalation follow-ups"
+          }
+        ],
+        closing: "Uber Operations Managers are at the heart of marketplace success, using data and strategy to ensure millions of rides and deliveries happen smoothly every day."
+      },
+
+      similarRoles: [
+        "Lyft Operations Manager",
+        "DoorDash Operations Manager",
+        "Instacart Operations Manager",
+        "Amazon Operations Manager"
+      ]
+    },
+
+    'marketing-manager': {
+      roleDescription: "Marketing Managers at Uber drive growth and brand awareness for one of the world's most recognized technology brands, reaching 170M+ monthly active users across Rides, Eats, and emerging products. You'll develop and execute marketing strategies spanning performance marketing, brand campaigns, CRM, partnerships, and local marketing. Uber's marketing team operates at the intersection of data and creativity—using sophisticated analytics to optimize campaigns while building emotional connections with riders, drivers, eaters, and merchants. Whether you're focused on rider acquisition, driver supply marketing, or Uber Eats growth, you'll have direct impact on business metrics.",
+
+      responsibilities: [
+        "Develop and execute marketing strategies to drive rider, driver, or merchant growth",
+        "Manage performance marketing campaigns across paid search, social, display, and mobile",
+        "Analyze campaign performance and optimize for ROI and customer acquisition cost",
+        "Collaborate with creative teams on brand campaigns and messaging",
+        "Build CRM and lifecycle marketing programs to drive engagement and retention",
+        "Partner with product and data science on personalization and targeting",
+        "Develop partnerships and co-marketing initiatives",
+        "Manage marketing budgets and forecasting",
+        "Work with city teams on local marketing activations"
+      ],
+
+      growthOpportunities: [
+        "Drive growth for a globally recognized brand with 170M+ users",
+        "Deep exposure to performance marketing, brand, and growth strategies",
+        "Path to senior marketing, head of marketing, or CMO roles",
+        "Cross-functional collaboration with product, data science, and operations",
+        "Access to world-class marketing tools and data infrastructure",
+        "Opportunity to work on both B2C and B2B marketing (drivers, merchants)",
+        "Global mobility across Uber's marketing hubs",
+        "Build expertise in two-sided marketplace marketing"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your marketing background and interest in Uber.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on marketing experience, analytical skills, and strategic thinking.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case/Presentation",
+          description: "Present a marketing case study or develop a marketing plan for a given scenario. Focus on data-driven strategy and creativity.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "3-4 rounds covering marketing strategy, analytics, cross-functional collaboration, and behavioral.",
+          duration: "3-4 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you develop a marketing strategy to acquire new riders in a competitive market?",
+        "Design a driver acquisition campaign to increase supply during peak hours",
+        "How would you measure the ROI of a brand awareness campaign?",
+        "Uber Eats is launching in a new city—develop the marketing launch plan",
+        "How would you optimize a performance marketing campaign with declining ROAS?",
+        "Design a CRM strategy to re-engage churned riders",
+        "How would you approach marketing to different rider segments?",
+        "Develop a partnership strategy to drive Uber Eats orders",
+        "How would you allocate a $10M marketing budget across channels?",
+        "Design a referral program to drive rider and driver growth",
+        "How would you measure the incrementality of marketing spend?",
+        "Develop a strategy to improve Uber's brand perception with drivers",
+        "How would you approach marketing for Uber's subscription product (Uber One)?",
+        "Design a local marketing campaign for a major event in a city"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a marketing campaign you developed that drove significant results",
+        "Describe your approach to balancing brand building with performance marketing",
+        "How have you used data to optimize marketing campaigns?",
+        "Tell me about a time you had to market a challenging product or message",
+        "Describe your experience managing marketing budgets and forecasting",
+        "How have you worked with creative teams on campaign development?",
+        "Tell me about a marketing experiment that didn't work—what did you learn?",
+        "Describe your approach to cross-functional collaboration",
+        "How have you handled competing priorities from different stakeholders?",
+        "Tell me about a time you had to pivot a marketing strategy quickly",
+        "Describe your experience with CRM and lifecycle marketing",
+        "How have you approached marketing to different customer segments?",
+        "Tell me about a partnership or co-marketing initiative you developed",
+        "Describe how you stay current with marketing trends and channels"
+      ],
+
+      whatTheyLookFor: [
+        "Strong marketing fundamentals with experience across channels",
+        "Data-driven approach with ability to analyze and optimize campaigns",
+        "Experience with performance marketing (paid search, social, display)",
+        "Strategic thinking combined with hands-on execution",
+        "Creativity and ability to develop compelling campaigns",
+        "Experience with consumer marketing at scale",
+        "Strong collaboration skills across product, data, and operations",
+        "Understanding of customer acquisition cost and lifetime value",
+        "Experience with marketing analytics and attribution",
+        "Passion for Uber's brand and mission"
+      ],
+
+      interviewTips: [
+        "Use Uber and Uber Eats—understand the user experience and brand",
+        "Prepare examples of marketing campaigns with measurable results",
+        "Be ready to discuss both brand and performance marketing strategies",
+        "Understand two-sided marketplace marketing challenges (riders vs. drivers)",
+        "Research Uber's recent marketing campaigns and brand positioning",
+        "Be ready to discuss marketing analytics and optimization",
+        "Prepare a case presentation with clear strategy and metrics",
+        "Understand Uber's competitive landscape and positioning",
+        "Be ready to discuss customer segmentation and targeting",
+        "Show experience with budget management and ROI analysis",
+        "Prepare examples of cross-functional collaboration",
+        "Understand mobile marketing and app-based customer acquisition",
+        "Be ready to discuss local marketing and city-level strategies",
+        "Ask thoughtful questions about the team and marketing priorities"
+      ],
+
+      salary: {
+        min: 110000,
+        max: 200000,
+        avg: 150000
+      },
+
+      compensation: [
+        "Base salary: $110K-$200K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Marketing conference and learning budget"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber Marketing Manager involves analyzing campaign performance, developing strategies to drive growth, and collaborating across teams to build one of the world's most recognized brands.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Campaign Review",
+            description: "Review performance dashboards for active marketing campaigns"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Quick sync with marketing team on priorities and blockers"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Data Analysis",
+            description: "Analyze rider acquisition funnel and identify optimization opportunities"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Creative Review",
+            description: "Review ad creative concepts with design team for new campaign"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Learn",
+            description: "Marketing team session on new attribution methodology"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Strategy Development",
+            description: "Develop marketing plan for Q4 rider acquisition push"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Cross-functional Sync",
+            description: "Meet with product team on new feature launch marketing"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Partner Meeting",
+            description: "Call with media agency on upcoming campaign execution"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Budget Planning",
+            description: "Update marketing budget and forecast for next quarter"
+          }
+        ],
+        closing: "Uber Marketing Managers blend data-driven optimization with creative strategy to drive growth for a brand that touches millions of lives daily."
+      },
+
+      similarRoles: [
+        "Lyft Marketing Manager",
+        "DoorDash Marketing Manager",
+        "Airbnb Marketing Manager",
+        "Spotify Marketing Manager"
+      ]
+    },
+
+    'ux-designer': {
+      roleDescription: "UX Designers at Uber shape the experiences of 170M+ monthly active users across Rides, Eats, and emerging products—designing interfaces that connect riders, drivers, couriers, merchants, and eaters in moments that matter. You'll tackle complex design challenges in real-time systems, mapping, payments, safety, and marketplace dynamics, creating intuitive experiences across mobile apps, web, and emerging platforms. Uber's design culture emphasizes user research, rapid prototyping, and close collaboration with product and engineering. From optimizing the pickup experience to designing Uber Eats restaurant discovery, you'll create products that move the world.",
+
+      responsibilities: [
+        "Design intuitive user experiences for rider, driver, courier, or merchant products",
+        "Conduct user research to understand needs, behaviors, and pain points",
+        "Create wireframes, prototypes, and high-fidelity designs",
+        "Collaborate closely with product managers and engineers throughout development",
+        "Design for complex real-time interactions (maps, ETAs, matching)",
+        "Contribute to Uber's design system and component library",
+        "Advocate for users and accessibility in product decisions",
+        "Test designs with users and iterate based on feedback",
+        "Present design work to stakeholders and leadership"
+      ],
+
+      growthOpportunities: [
+        "Design products impacting 170M+ users across 70+ countries",
+        "Tackle unique design challenges in real-time, location-based experiences",
+        "Strong design culture with emphasis on craft and user research",
+        "Path to senior designer, design lead, and design management roles",
+        "Cross-functional collaboration with product, engineering, and research",
+        "Opportunity to work on both consumer and driver/merchant experiences",
+        "Access to world-class design tools and research resources",
+        "Global mobility across Uber's design studios"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your design background and interest in Uber.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Portfolio Review",
+          description: "60-minute deep dive into your portfolio with hiring manager. Focus on process, rationale, and impact.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Design Exercise",
+          description: "Take-home design challenge related to Uber's products. 2-3 hours followed by presentation and critique.",
+          duration: "2-3 hours + presentation"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including design critique, cross-functional collaboration, whiteboard challenge, and behavioral.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Redesign the rider pickup experience to reduce confusion and wait time",
+        "Design an experience to help drivers find the best pickup spot at a busy location",
+        "How would you improve the Uber Eats restaurant discovery experience?",
+        "Design a safety feature for late-night rides",
+        "How would you design the driver earnings dashboard?",
+        "Design an onboarding experience for new Uber Eats couriers",
+        "How would you approach designing for accessibility in the Uber app?",
+        "Design a feature to help riders split fares with friends",
+        "How would you improve the delivery tracking experience for Uber Eats?",
+        "Design an experience for drivers to manage their schedule and preferences",
+        "How would you design the tip experience for riders and eaters?",
+        "Design a feature to help riders choose between ride options (UberX, Comfort, etc.)",
+        "How would you approach designing for different markets and cultures?",
+        "Design an experience to help restaurants manage orders during peak times"
+      ],
+
+      behavioralQuestions: [
+        "Walk me through a project from your portfolio in detail",
+        "Tell me about a design you're most proud of and why",
+        "Describe your process for conducting user research",
+        "How have you handled a situation where engineering constraints limited your design?",
+        "Tell me about a time you received critical feedback on your design",
+        "Describe your experience working with product managers and engineers",
+        "How have you designed for complex, real-time systems?",
+        "Tell me about a design that didn't perform well—what did you learn?",
+        "Describe your approach to presenting designs to stakeholders",
+        "How have you balanced user needs with business metrics?",
+        "Tell me about your experience with design systems",
+        "Describe a time you advocated for users against stakeholder pushback",
+        "How do you stay current with design trends and tools?",
+        "Tell me about your experience designing for mobile"
+      ],
+
+      whatTheyLookFor: [
+        "Strong portfolio demonstrating end-to-end design process and impact",
+        "Experience designing mobile apps and consumer products",
+        "User research skills and ability to translate insights into design",
+        "Proficiency with design tools (Figma, Sketch, prototyping tools)",
+        "Systems thinking for complex, interconnected experiences",
+        "Collaboration skills with product, engineering, and research teams",
+        "Understanding of accessibility and inclusive design principles",
+        "Ability to design for real-time, location-based experiences",
+        "Strong visual design skills and attention to detail",
+        "Passion for Uber's mission and improving urban mobility"
+      ],
+
+      interviewTips: [
+        "Use Uber and Uber Eats extensively—identify UX opportunities",
+        "Prepare portfolio presentations with clear problem, process, and outcome",
+        "Be ready to discuss your design process in detail",
+        "Practice whiteboard design exercises for mobile experiences",
+        "Research Uber's design team and design principles",
+        "Be ready to discuss designing for multiple user types (riders, drivers, eaters)",
+        "Show examples of user research influencing design decisions",
+        "Understand the unique challenges of real-time, map-based UX",
+        "Be ready to discuss accessibility and inclusive design",
+        "Prepare to critique your own designs and discuss what you'd do differently",
+        "Show your collaboration skills with engineering constraints",
+        "Be ready to discuss designing for global, diverse markets",
+        "Understand Uber's design system and component-based design",
+        "Ask thoughtful questions about the team and design culture"
+      ],
+
+      salary: {
+        min: 130000,
+        max: 230000,
+        avg: 170000
+      },
+
+      compensation: [
+        "Base salary: $130K-$230K depending on level and location",
+        "Annual bonus: 10-15% of base salary",
+        "RSUs: Equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Design tools and conference budget"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber UX Designer involves user research, design iteration, cross-functional collaboration, and creating experiences that help millions of people move through their cities.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Design Iteration",
+            description: "Refine designs for new driver earnings feature based on user feedback"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Design Critique",
+            description: "Present work-in-progress designs to team for feedback"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Engineering Sync",
+            description: "Work with engineers on implementation details and constraints"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Inspiration",
+            description: "Browse design inspiration and mobility design trends"
+          },
+          {
+            time: "1:30 PM",
+            activity: "User Research",
+            description: "Conduct remote usability test with driver participants"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Prototyping",
+            description: "Build interactive prototype for new pickup experience"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Product Review",
+            description: "Review final designs with PM before engineering handoff"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Design System",
+            description: "Contribute new component patterns to Uber's design system"
+          }
+        ],
+        closing: "Uber UX Designers create experiences that connect millions of people with transportation and delivery, solving complex design challenges in real-time, map-based interfaces."
+      },
+
+      similarRoles: [
+        "Lyft UX Designer",
+        "DoorDash UX Designer",
+        "Airbnb UX Designer",
+        "Google UX Designer"
+      ]
+    },
+
+    'general-manager': {
+      roleDescription: "General Managers (City Managers) at Uber own the P&L and overall success of a city or region, serving as mini-CEOs responsible for marketplace health, growth, and profitability. You'll balance rider experience, driver supply, operational efficiency, and financial performance while competing against Lyft and local players. This role requires a rare combination of analytical rigor, operational excellence, leadership, and entrepreneurial thinking. GMs work across every function—operations, marketing, sales, policy, and partnerships—to grow the business. With compensation including significant equity and performance bonuses, this is one of the highest-impact roles at Uber outside of HQ.",
+
+      responsibilities: [
+        "Own P&L responsibility for a city or region including revenue, costs, and profitability",
+        "Drive marketplace health across rider experience, driver supply, and operational efficiency",
+        "Develop and execute growth strategies to increase market share against competitors",
+        "Lead cross-functional teams across operations, marketing, sales, and partnerships",
+        "Build relationships with local stakeholders including regulators and community leaders",
+        "Manage driver supply economics including incentives, pricing, and partner relationships",
+        "Analyze market data to identify opportunities and make strategic decisions",
+        "Hire, develop, and lead local team members",
+        "Represent Uber externally with media, partners, and local government"
+      ],
+
+      growthOpportunities: [
+        "Own a business with direct P&L impact—true mini-CEO experience",
+        "Path to regional GM, head of market, or HQ leadership roles",
+        "Develop general management skills across all business functions",
+        "High visibility with senior leadership and executives",
+        "Opportunity to launch new products or expand to new markets",
+        "Build expertise in marketplace economics and two-sided platforms",
+        "Significant compensation including equity and performance bonuses",
+        "Global mobility across Uber's markets worldwide"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your leadership background and interest in the GM role.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute deep dive on leadership experience, analytical skills, and entrepreneurial mindset.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case Presentation",
+          description: "Present a city strategy case—how would you grow a market, improve profitability, or address a competitive threat?",
+          duration: "60-90 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering business strategy, operations, leadership, cross-functional collaboration, and behavioral.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 5,
+          title: "Executive Interview",
+          description: "Conversation with regional or HQ leadership about leadership philosophy and strategic thinking.",
+          duration: "45-60 minutes"
+        }
+      ],
+
+      technicalQuestions: [
+        "You're the GM of a city where market share has dropped 10%—how would you diagnose and respond?",
+        "Develop a strategy to grow rider trips by 50% in the next year",
+        "How would you improve profitability in a market with high driver incentives?",
+        "A competitor is offering drivers higher earnings—what's your response strategy?",
+        "Design a go-to-market strategy for launching Uber Eats in your city",
+        "How would you balance rider experience with driver earnings in pricing decisions?",
+        "Your city faces a regulatory challenge—how would you approach it?",
+        "Develop a strategy to reduce driver churn and improve retention",
+        "How would you allocate a limited marketing budget between rider acquisition and driver supply?",
+        "Design a plan to improve safety metrics in your market",
+        "How would you approach launching a new product line (e.g., Uber Reserve)?",
+        "Develop a partnership strategy to grow the B2B (Uber for Business) segment",
+        "How would you manage a major event (concert, sports game) in your city?",
+        "Your market has seasonal demand fluctuations—how would you plan for them?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you owned P&L responsibility for a business",
+        "Describe your approach to leading cross-functional teams without direct authority",
+        "How have you handled a competitive threat to your business?",
+        "Tell me about a time you had to make a difficult trade-off between growth and profitability",
+        "Describe a situation where you had to navigate regulatory or policy challenges",
+        "How have you built and led high-performing teams?",
+        "Tell me about a time you turned around an underperforming business or market",
+        "Describe your approach to building relationships with external stakeholders",
+        "How have you used data to make strategic business decisions?",
+        "Tell me about a time you had to make a decision with incomplete information",
+        "Describe your experience managing budgets and financial performance",
+        "How have you handled a crisis or urgent business situation?",
+        "Tell me about your entrepreneurial experience or mindset",
+        "Describe how you balance strategic thinking with operational execution"
+      ],
+
+      whatTheyLookFor: [
+        "P&L ownership experience or general management background",
+        "Strong analytical skills and data-driven decision making",
+        "Leadership ability to influence across functions without direct authority",
+        "Entrepreneurial mindset and bias for action",
+        "Experience with marketplace or platform businesses",
+        "Competitive drive and track record of outperforming",
+        "Strong communication skills for internal and external stakeholders",
+        "Ability to thrive in fast-paced, ambiguous environments",
+        "Experience with local operations, city-level business, or field roles",
+        "Passion for Uber's mission and mobility/delivery space"
+      ],
+
+      interviewTips: [
+        "Use Uber extensively in your city—understand the local competitive landscape",
+        "Prepare a detailed city strategy case with financials and metrics",
+        "Research Uber's market position in different cities and competitive dynamics",
+        "Be ready to discuss P&L management and financial decision making",
+        "Prepare examples of leading cross-functional teams and influencing without authority",
+        "Understand two-sided marketplace economics deeply",
+        "Be ready to discuss regulatory and policy challenges in the mobility space",
+        "Show your entrepreneurial mindset and track record of driving results",
+        "Prepare examples of competitive response and market share battles",
+        "Understand driver economics and partner management",
+        "Be ready to discuss how you build relationships with local stakeholders",
+        "Show strong analytical skills with data-driven strategy",
+        "Prepare thoughtful questions about the specific market and its challenges",
+        "Be ready to discuss both growth and profitability trade-offs"
+      ],
+
+      salary: {
+        min: 150000,
+        max: 280000,
+        avg: 200000
+      },
+
+      compensation: [
+        "Base salary: $150K-$280K depending on market size and experience",
+        "Annual bonus: 25-40% of base salary tied to market performance",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Performance bonuses tied to market KPIs",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Relocation support if needed"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber General Manager involves strategic planning, team leadership, stakeholder management, and operational execution—balancing big-picture thinking with hands-on problem solving.",
+        schedule: [
+          {
+            time: "7:30 AM",
+            activity: "Metrics Review",
+            description: "Review overnight marketplace metrics, competitive intel, and daily performance"
+          },
+          {
+            time: "8:30 AM",
+            activity: "Leadership Team Meeting",
+            description: "Weekly sync with city leadership team on priorities and execution"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Driver Partner Meeting",
+            description: "Meet with top driver partners to discuss feedback and earnings"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Strategy Session",
+            description: "Develop Q4 growth plan with operations and marketing leads"
+          },
+          {
+            time: "12:00 PM",
+            activity: "External Lunch",
+            description: "Lunch with local business partner to discuss corporate account"
+          },
+          {
+            time: "1:30 PM",
+            activity: "P&L Review",
+            description: "Deep dive on financial performance and cost optimization"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Competitive Response",
+            description: "Develop strategy to counter competitor's new driver incentive program"
+          },
+          {
+            time: "4:00 PM",
+            activity: "HQ Sync",
+            description: "Update call with regional leadership on market performance"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Team 1:1",
+            description: "Career development discussion with operations manager"
+          }
+        ],
+        closing: "Uber General Managers operate as entrepreneurs running their own business within Uber, making high-impact decisions that affect millions of rides in their markets."
+      },
+
+      similarRoles: [
+        "Lyft General Manager",
+        "DoorDash General Manager",
+        "Amazon Area Manager",
+        "Instacart Market Manager"
+      ]
+    },
+
+    'safety-operations-manager': {
+      roleDescription: "Safety Operations Managers at Uber lead the company's efforts to keep riders, drivers, and the community safe—one of the most critical and visible functions at the company. You'll develop and execute safety strategies, manage incident response, build safety policies and programs, and work cross-functionally with product, engineering, legal, and support teams. Uber's safety team handles everything from ride safety incidents to account security to law enforcement coordination. This role requires a unique combination of operational excellence, empathy, crisis management skills, and the ability to drive systemic improvements at scale across 70+ countries.",
+
+      responsibilities: [
+        "Develop and implement safety strategies to protect riders, drivers, and the community",
+        "Manage incident response processes for safety-related issues and escalations",
+        "Build and optimize safety policies, playbooks, and operating procedures",
+        "Partner with product and engineering on safety features and tools",
+        "Analyze safety data to identify trends, risks, and improvement opportunities",
+        "Coordinate with law enforcement and regulatory bodies on safety matters",
+        "Lead safety training programs for support teams and city operations",
+        "Drive cross-functional initiatives to improve safety outcomes",
+        "Manage relationships with external safety partners and stakeholders"
+      ],
+
+      growthOpportunities: [
+        "Lead high-impact, high-visibility function critical to Uber's mission",
+        "Path to senior safety leadership, head of safety, or policy roles",
+        "Develop expertise in platform safety, trust & safety, and crisis management",
+        "Cross-functional collaboration with product, engineering, legal, and policy",
+        "Opportunity to shape industry standards for ride-sharing safety",
+        "Build expertise in data-driven safety program management",
+        "Global exposure to safety challenges across diverse markets",
+        "Significant impact on millions of users' wellbeing"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your safety/operations background and interest in Uber.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on safety operations experience, crisis management, and problem-solving approach.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case Study",
+          description: "Present your approach to a safety scenario—incident response, policy development, or program design.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "3-4 rounds covering safety operations, cross-functional collaboration, data analysis, and behavioral.",
+          duration: "3-4 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design a safety incident response process for a ride-sharing platform",
+        "How would you reduce safety incidents in late-night rides?",
+        "Develop a framework for prioritizing safety investments",
+        "How would you measure the effectiveness of a new safety feature?",
+        "Design a policy for handling rider-driver disputes",
+        "How would you approach a market with higher-than-average safety incidents?",
+        "Develop a training program for safety support agents",
+        "How would you balance user privacy with safety data collection?",
+        "Design a proactive safety outreach program for drivers",
+        "How would you handle a high-profile safety incident in the media?",
+        "Develop a framework for collaborating with law enforcement",
+        "How would you assess and mitigate new safety risks?",
+        "Design a safety review process for new product features",
+        "How would you improve safety for vulnerable user populations?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you managed a crisis or urgent safety situation",
+        "Describe your approach to building safety culture in an organization",
+        "How have you balanced user experience with safety requirements?",
+        "Tell me about a safety program you developed and implemented",
+        "Describe a situation where you had to make a difficult safety trade-off",
+        "How have you worked with product teams to improve safety features?",
+        "Tell me about a time you had to coordinate with law enforcement",
+        "Describe your experience analyzing data to identify safety risks",
+        "How have you handled stakeholder pressure to compromise on safety?",
+        "Tell me about a time you improved an existing safety process",
+        "Describe your approach to empathy in safety operations",
+        "How have you communicated safety changes to users or the public?",
+        "Tell me about a challenging safety investigation you conducted",
+        "Describe how you stay current on safety trends and best practices"
+      ],
+
+      whatTheyLookFor: [
+        "Experience in safety operations, trust & safety, or risk management",
+        "Crisis management skills and ability to stay calm under pressure",
+        "Strong analytical skills and data-driven decision making",
+        "Empathy and user-centric approach to safety",
+        "Experience building policies, playbooks, and operating procedures",
+        "Cross-functional collaboration skills",
+        "Strong communication skills for sensitive situations",
+        "Experience with law enforcement or regulatory coordination",
+        "Ability to balance safety with user experience and business needs",
+        "Passion for Uber's mission and commitment to user safety"
+      ],
+
+      interviewTips: [
+        "Use Uber and be familiar with safety features (Share Trip, Emergency Button, etc.)",
+        "Prepare examples of crisis management and incident response",
+        "Research Uber's safety report and safety initiatives",
+        "Be ready to discuss balancing privacy, safety, and user experience",
+        "Prepare a case study on designing a safety program or process",
+        "Understand the unique safety challenges of marketplace platforms",
+        "Show your analytical approach to safety data and risk assessment",
+        "Be ready to discuss law enforcement and regulatory coordination",
+        "Prepare examples of cross-functional collaboration on safety",
+        "Show empathy and user-centric thinking in your approach",
+        "Understand Uber's competitive landscape on safety (vs. Lyft)",
+        "Be ready to discuss proactive vs. reactive safety approaches",
+        "Prepare thoughtful questions about the safety team and challenges",
+        "Show your ability to communicate about sensitive topics"
+      ],
+
+      salary: {
+        min: 100000,
+        max: 180000,
+        avg: 135000
+      },
+
+      compensation: [
+        "Base salary: $100K-$180K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Learning and development budget"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber Safety Operations Manager involves monitoring safety metrics, responding to incidents, developing safety programs, and collaborating across teams to keep users safe.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Safety Dashboard Review",
+            description: "Review overnight safety incidents, trends, and escalation queue"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync with safety team on priorities and active incidents"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Incident Review",
+            description: "Deep dive on recent safety incident to identify root causes"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Product Collaboration",
+            description: "Meet with product team on new safety feature requirements"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Working Lunch",
+            description: "Call with law enforcement partner on ongoing case"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Policy Development",
+            description: "Draft new policy for handling specific incident type"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Data Analysis",
+            description: "Analyze safety trends to identify emerging risks"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Training Review",
+            description: "Review and update safety training materials for support agents"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Cross-functional Sync",
+            description: "Weekly safety sync with city operations teams"
+          }
+        ],
+        closing: "Uber Safety Operations Managers work at the intersection of technology, policy, and human empathy to protect millions of users and build trust in the platform."
+      },
+
+      similarRoles: [
+        "Lyft Safety Manager",
+        "Airbnb Trust & Safety Manager",
+        "Meta Trust & Safety Manager",
+        "DoorDash Safety Operations Manager"
+      ]
+    },
+
+    'business-development-manager': {
+      roleDescription: "Business Development Managers at Uber build strategic partnerships that drive growth for Rides, Eats, and emerging business lines. You'll identify, negotiate, and manage partnerships with restaurants, merchants, enterprise clients, transportation partners, and strategic allies. Whether you're signing up top restaurants for Uber Eats, building corporate accounts for Uber for Business, or developing new partnership models, you'll combine strategic thinking with execution excellence. BD at Uber requires strong relationship skills, commercial acumen, and the ability to navigate complex deals in a fast-paced environment.",
+
+      responsibilities: [
+        "Identify, prioritize, and pursue strategic partnership opportunities",
+        "Negotiate and close partnership deals with restaurants, merchants, and enterprises",
+        "Manage relationships with key accounts to drive growth and retention",
+        "Develop go-to-market strategies for new partnership initiatives",
+        "Collaborate with product, operations, and marketing on partner success",
+        "Build business cases and present partnership opportunities to leadership",
+        "Analyze market trends and competitive landscape to identify opportunities",
+        "Drive revenue growth through existing and new partner channels",
+        "Develop partnership playbooks and best practices for scale"
+      ],
+
+      growthOpportunities: [
+        "Build high-impact partnerships for a global technology platform",
+        "Path to senior BD, head of partnerships, or general management roles",
+        "Develop expertise in marketplace partnerships and platform economics",
+        "Cross-functional collaboration with product, operations, and marketing",
+        "Opportunity to launch new partnership categories or markets",
+        "Build relationships with industry leaders and executives",
+        "Significant equity participation and performance bonuses",
+        "Global mobility across Uber's business development teams"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your BD background and interest in Uber.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on BD experience, deal-making skills, and strategic thinking.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case/Role Play",
+          description: "Partnership case study or negotiation role play. Focus on deal strategy and relationship building.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "3-4 rounds covering partnership strategy, negotiation, cross-functional collaboration, and behavioral.",
+          duration: "3-4 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus/commission, and equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you approach signing the top 50 restaurants in a new city for Uber Eats?",
+        "Develop a partnership strategy to grow Uber for Business in your market",
+        "How would you structure a deal with a major restaurant chain?",
+        "Develop a business case for a strategic partnership opportunity",
+        "How would you approach a partner who's exclusive with a competitor?",
+        "Design a partnership program to attract high-end restaurants",
+        "How would you measure partnership success beyond revenue?",
+        "Develop a strategy for B2B growth through corporate partnerships",
+        "How would you handle a key partner threatening to leave for a competitor?",
+        "Design an incentive structure for a new partner category",
+        "How would you prioritize partnership opportunities with limited resources?",
+        "Develop a retention strategy for high-value partners",
+        "How would you approach partnerships with delivery-only (ghost) kitchens?",
+        "Design a co-marketing program with a strategic partner"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a significant partnership you closed and its impact",
+        "Describe your approach to building relationships with key stakeholders",
+        "How have you handled a difficult negotiation that seemed stuck?",
+        "Tell me about a partnership that didn't work out—what did you learn?",
+        "Describe your experience managing a portfolio of partner accounts",
+        "How have you collaborated with product teams on partner needs?",
+        "Tell me about a time you had to walk away from a deal",
+        "Describe your approach to prioritizing partnership opportunities",
+        "How have you handled competing internal priorities for partner resources?",
+        "Tell me about a creative deal structure you developed",
+        "Describe your experience with enterprise or B2B partnerships",
+        "How have you balanced short-term revenue with long-term partnerships?",
+        "Tell me about a time you turned around an unhappy partner",
+        "Describe how you stay organized managing multiple deals simultaneously"
+      ],
+
+      whatTheyLookFor: [
+        "Track record of closing and managing strategic partnerships",
+        "Strong negotiation and deal-making skills",
+        "Relationship building ability with diverse stakeholders",
+        "Commercial acumen and business case development skills",
+        "Experience with marketplace or platform partnerships",
+        "Strategic thinking combined with execution focus",
+        "Strong communication and presentation skills",
+        "Ability to navigate complex organizations internally and externally",
+        "Data-driven approach to partnership prioritization",
+        "Passion for Uber's mission and partnership opportunities"
+      ],
+
+      interviewTips: [
+        "Use Uber Eats and understand the restaurant/merchant experience",
+        "Prepare examples of partnerships you've closed with specific outcomes",
+        "Be ready to discuss negotiation strategy and deal structures",
+        "Research Uber's partnership programs (Uber Eats, Uber for Business)",
+        "Practice a partnership case study with clear strategy and metrics",
+        "Understand Uber's competitive landscape with partners (vs. DoorDash)",
+        "Be ready to discuss relationship building and stakeholder management",
+        "Prepare examples of managing complex deals with multiple parties",
+        "Show your analytical approach to prioritizing opportunities",
+        "Be ready to discuss partner retention and account management",
+        "Understand the restaurant industry and delivery economics",
+        "Prepare thoughtful questions about the partnership team and priorities",
+        "Show your ability to balance revenue goals with partner success",
+        "Be ready to role play a partnership negotiation"
+      ],
+
+      salary: {
+        min: 110000,
+        max: 200000,
+        avg: 150000
+      },
+
+      compensation: [
+        "Base salary: $110K-$200K depending on level and location",
+        "Variable compensation: Commission or bonus tied to partnership performance",
+        "RSUs: Equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Travel budget for partner meetings"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber Business Development Manager involves prospecting partners, managing relationships, negotiating deals, and collaborating across teams to drive partnership growth.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Pipeline Review",
+            description: "Review partnership pipeline and prioritize outreach for the day"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Partner Call",
+            description: "Check-in call with key restaurant group account manager"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Prospecting",
+            description: "Research and outreach to target restaurant partners"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Internal Sync",
+            description: "Meet with operations on partner onboarding and success metrics"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Partner Lunch",
+            description: "Lunch meeting with corporate client to discuss Uber for Business"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Deal Negotiation",
+            description: "Negotiation call with regional restaurant chain on partnership terms"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Business Case Development",
+            description: "Build financial model for new partnership opportunity"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Team Meeting",
+            description: "BD team sync on pipeline, wins, and competitive intelligence"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Follow-up",
+            description: "Send proposals and follow-up on active deals"
+          }
+        ],
+        closing: "Uber BD Managers build the partnerships that power the platform, creating win-win relationships with restaurants, merchants, and enterprises."
+      },
+
+      similarRoles: [
+        "DoorDash Business Development Manager",
+        "Instacart Business Development Manager",
+        "Grubhub Business Development Manager",
+        "Amazon Business Development Manager"
+      ]
+    },
+
+    'strategic-finance-analyst': {
+      roleDescription: "Strategic Finance Analysts at Uber drive financial planning, analysis, and strategic decision-making for one of the world's largest mobility and delivery platforms. You'll partner with business leaders to build financial models, analyze marketplace economics, evaluate investments, and support strategic initiatives across Rides, Eats, and emerging businesses. Uber's Strategic Finance team combines rigorous analytical skills with business partnership—translating data into insights that shape company strategy. With exposure to complex marketplace dynamics and high-visibility projects, this role offers exceptional learning and career development for finance professionals.",
+
+      responsibilities: [
+        "Build financial models for forecasting, planning, and scenario analysis",
+        "Partner with business leaders on strategic planning and decision support",
+        "Analyze marketplace economics including pricing, incentives, and unit economics",
+        "Support monthly/quarterly financial planning and variance analysis",
+        "Evaluate investment opportunities and build business cases",
+        "Develop dashboards and reporting for leadership and stakeholders",
+        "Drive cross-functional projects with operations, product, and data science",
+        "Present financial insights and recommendations to senior leadership",
+        "Support strategic initiatives including M&A, new products, and market expansion"
+      ],
+
+      growthOpportunities: [
+        "Work on complex financial analysis for a global technology platform",
+        "Path to senior finance, FP&A leadership, or strategic roles",
+        "Deep exposure to marketplace economics and two-sided platform dynamics",
+        "High visibility with senior leadership and executives",
+        "Cross-functional collaboration with operations, product, and data science",
+        "Opportunity to work on high-impact strategic initiatives",
+        "Build expertise in technology finance and marketplace businesses",
+        "Strong compensation with equity participation"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your finance background and interest in Uber.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on finance experience, analytical skills, and business partnership.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case Study",
+          description: "Financial modeling or business case exercise. Build a model or analyze a strategic decision.",
+          duration: "60-90 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "3-4 rounds covering financial modeling, business analysis, stakeholder partnership, and behavioral.",
+          duration: "3-4 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Build a financial model for a new Uber product launch",
+        "How would you analyze the unit economics of an Uber ride?",
+        "Model the impact of a driver incentive program on profitability",
+        "How would you forecast demand for Uber Eats in a new market?",
+        "Build a business case for expanding to a new city",
+        "Analyze the trade-offs between growth and profitability",
+        "How would you evaluate an acquisition target in the delivery space?",
+        "Model the impact of pricing changes on rider demand and driver supply",
+        "Build a variance analysis for monthly financial performance",
+        "How would you analyze the ROI of a marketing campaign?",
+        "Model the economics of a subscription product (Uber One)",
+        "How would you approach capacity planning for finance headcount?",
+        "Build a scenario analysis for different economic conditions",
+        "How would you measure and improve driver profitability?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a financial model you built that drove a business decision",
+        "Describe your approach to partnering with business leaders",
+        "How have you communicated complex financial analysis to non-finance audiences?",
+        "Tell me about a time your analysis revealed something unexpected",
+        "Describe a situation where you had to work with incomplete data",
+        "How have you handled pressure to adjust financial projections?",
+        "Tell me about a cross-functional project you led or supported",
+        "Describe your approach to prioritizing multiple analysis requests",
+        "How have you improved a financial process or reporting?",
+        "Tell me about a time you had to push back on a business decision",
+        "Describe your experience with forecasting and planning cycles",
+        "How have you handled a situation where actuals missed forecast?",
+        "Tell me about a strategic initiative you supported with financial analysis",
+        "Describe how you stay current with industry and company trends"
+      ],
+
+      whatTheyLookFor: [
+        "Strong financial modeling and Excel/Google Sheets skills",
+        "Experience with FP&A, corporate finance, or strategic finance",
+        "Analytical rigor and attention to detail",
+        "Business partnership skills and ability to influence decisions",
+        "Experience with SQL or data analysis tools",
+        "Strong communication and presentation skills",
+        "Understanding of marketplace economics or platform businesses",
+        "Ability to thrive in fast-paced, ambiguous environments",
+        "Curiosity and proactive approach to problem solving",
+        "Passion for Uber's mission and technology industry"
+      ],
+
+      interviewTips: [
+        "Brush up on financial modeling and Excel/Sheets skills",
+        "Prepare examples of models you've built and their business impact",
+        "Understand Uber's business model and marketplace economics",
+        "Be ready to discuss unit economics for ride-sharing and delivery",
+        "Practice case studies with clear structure and logical analysis",
+        "Research Uber's financial performance and recent earnings",
+        "Be ready to discuss driver economics, pricing, and incentives",
+        "Prepare examples of business partnership and stakeholder influence",
+        "Understand two-sided marketplace dynamics",
+        "Be ready to discuss forecasting methodology and variance analysis",
+        "Show your SQL or data analysis skills",
+        "Prepare thoughtful questions about the finance team and priorities",
+        "Understand Uber's competitive landscape (Lyft, DoorDash)",
+        "Be ready to discuss how you handle ambiguity and incomplete data"
+      ],
+
+      salary: {
+        min: 100000,
+        max: 180000,
+        avg: 135000
+      },
+
+      compensation: [
+        "Base salary: $100K-$180K depending on level and location",
+        "Annual bonus: 15-25% of base salary",
+        "RSUs: Equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Learning and development budget"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber Strategic Finance Analyst involves building models, analyzing business performance, partnering with stakeholders, and supporting strategic decisions that shape the company.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Metrics Review",
+            description: "Review overnight marketplace metrics and financial dashboards"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Finance team sync on priorities and active projects"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Financial Modeling",
+            description: "Build model for new market expansion business case"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Business Partner Meeting",
+            description: "Meet with operations lead to discuss driver incentive analysis"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Learn",
+            description: "Finance team session on new reporting tools"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Variance Analysis",
+            description: "Analyze monthly performance vs. plan and identify drivers"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Leadership Presentation",
+            description: "Present financial analysis to regional leadership"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Cross-functional Project",
+            description: "Work with data science on pricing optimization analysis"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Planning",
+            description: "Prepare materials for quarterly planning review"
+          }
+        ],
+        closing: "Uber Strategic Finance Analysts combine analytical rigor with business partnership to drive decisions that shape the future of mobility and delivery."
+      },
+
+      similarRoles: [
+        "Lyft Strategic Finance Analyst",
+        "DoorDash Strategic Finance Analyst",
+        "Airbnb Financial Analyst",
+        "Google Finance Analyst"
       ]
     }
   },
