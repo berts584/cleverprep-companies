@@ -21280,6 +21280,610 @@ export const rolePageContent = {
         closing: "Netflix Product Designers enjoy the creative challenge of designing entertainment experiences that delight hundreds of millions of members globally."
       },
       similarRoles: ["Product Manager", "Software Engineer", "User Researcher", "Content Designer"]
+    },
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Netflix lead teams building the streaming platform that entertains 283 million members worldwide. You'll manage teams of 5-10 engineers while maintaining technical credibility and contributing to architectural decisions. Netflix's unique culture means engineering managers operate very differently than at traditional companies—there are no formal performance reviews, no stack ranking, and managers focus on context-setting rather than control. The keeper test guides talent decisions: would you fight to keep this person? Netflix EMs are expected to build high-performing teams that operate autonomously, provide candid feedback continuously, and make difficult talent decisions when necessary. You'll partner closely with product, design, and data science while ensuring your team has the context needed to make good decisions independently. The role requires both technical depth to guide architecture and leadership skills to develop world-class engineers in a culture of freedom and responsibility.",
+      responsibilities: [
+        "Lead and develop a team of 5-10 world-class software engineers",
+        "Drive technical roadmap and architecture decisions for your domain",
+        "Partner with product, design, and data science on feature strategy",
+        "Provide continuous, candid feedback and coaching to team members",
+        "Make talent decisions using the keeper test framework",
+        "Set context enabling team to make autonomous decisions",
+        "Recruit and hire top engineering talent in competitive market",
+        "Remove blockers and ensure team has resources to succeed",
+        "Foster inclusive team culture aligned with Netflix values",
+        "Balance technical debt with feature development velocity"
+      ],
+      growthOpportunities: [
+        "Lead teams building products used by 283 million members",
+        "Operate with significant autonomy in freedom and responsibility culture",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Develop leadership skills in unique high-trust environment",
+        "Progress to director or VP roles with broader organizational scope",
+        "Shape engineering culture at an industry-leading company",
+        "Build expertise in managing through context rather than control",
+        "Work with world-class engineers and cross-functional partners"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of management background and Netflix culture alignment"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into management philosophy and leadership style"
+        },
+        {
+          stage: "Onsite - Technical Assessment",
+          duration: "60 minutes",
+          description: "System design or coding to assess technical credibility"
+        },
+        {
+          stage: "Onsite - People Management",
+          duration: "60 minutes",
+          description: "Scenarios covering feedback, talent decisions, and team building"
+        },
+        {
+          stage: "Onsite - Execution",
+          duration: "60 minutes",
+          description: "Discussion of delivering complex projects and managing trade-offs"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Deep assessment of Netflix values alignment and leadership approach"
+        }
+      ],
+      technicalQuestions: [
+        "How would you approach a system design review for a major streaming feature?",
+        "Describe evaluating build vs buy decisions for your team's domain",
+        "How do you stay technically current while managing a team?",
+        "What's your approach to technical debt prioritization?",
+        "How would you handle an engineer wanting to rewrite a critical system?",
+        "Describe structuring a team for a new streaming product initiative",
+        "How do you ensure code quality and engineering best practices?",
+        "What metrics indicate a healthy engineering team?",
+        "How would you approach migrating a legacy service to modern architecture?",
+        "Describe your experience with incident management as a manager",
+        "How do you balance innovation time with delivery commitments?",
+        "What's your approach to architecture review and governance?",
+        "How have you scaled engineering processes as your team grew?",
+        "Describe handling a major production incident affecting members"
+      ],
+      behavioralQuestions: [
+        "Tell me about applying the keeper test to a difficult talent decision",
+        "Describe giving candid feedback that was hard to deliver",
+        "How have you handled a conflict between engineers on your team?",
+        "Tell me about pushing back on product requirements you disagreed with",
+        "Describe building an inclusive team culture",
+        "How have you handled disagreement with your own manager?",
+        "Tell me about a hiring decision that didn't work out",
+        "Describe making a difficult prioritization decision under pressure",
+        "How have you developed an engineer's career significantly?",
+        "Tell me about a project that failed and how you handled it",
+        "Describe building trust with a new team quickly",
+        "How have you managed through organizational change?",
+        "Tell me about letting someone go using the keeper test",
+        "Describe balancing hands-on involvement with delegation",
+        "How have you handled burnout or morale issues on your team?"
+      ],
+      whatTheyLookFor: [
+        "Proven track record building high-performing engineering teams",
+        "Technical credibility to guide architectural decisions",
+        "Strong communication and candid feedback skills",
+        "Experience with continuous feedback vs formal reviews",
+        "Ability to recruit and retain top engineering talent",
+        "Track record delivering complex projects through teams",
+        "Deep alignment with Netflix freedom and responsibility culture",
+        "Context-setting leadership style rather than controlling",
+        "Courage to make difficult talent decisions",
+        "Inclusive leadership valuing diverse perspectives"
+      ],
+      interviewTips: [
+        "Study Netflix culture memo deeply—management is very different here",
+        "Understand the keeper test and prepare examples of applying it",
+        "Prepare specific examples with quantifiable team outcomes",
+        "Be ready to demonstrate technical depth through design discussion",
+        "Have clear frameworks for management scenarios",
+        "Prepare examples of giving and receiving candid feedback",
+        "Show how you set context rather than controlling decisions",
+        "Demonstrate comfort with Netflix's no-formal-reviews approach",
+        "Have examples of difficult talent decisions and outcomes",
+        "Prepare thoughtful questions about the team and challenges",
+        "Show genuine passion for developing engineers' careers",
+        "Be ready to discuss Netflix-specific management scenarios",
+        "Demonstrate comfort with high autonomy and responsibility",
+        "Show how you build inclusive team cultures"
+      ],
+      salary: {
+        min: 250000,
+        max: 550000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $250,000 - $550,000 depending on level and scope",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy for engineering leadership",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Comprehensive health, dental, and vision benefits",
+        "Generous parental leave policy",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as an Engineering Manager at Netflix involves people leadership, technical guidance, and cross-functional partnership in a high-trust environment.",
+        schedule: [
+          "9:30 AM - 1:1 with senior engineer discussing career growth",
+          "10:00 AM - Review team's technical designs and provide feedback",
+          "10:30 AM - Team sync focused on context-setting for current priorities",
+          "11:00 AM - Cross-functional meeting with product and design",
+          "12:00 PM - Lunch with potential candidate (recruiting)",
+          "1:00 PM - Technical architecture review for new feature",
+          "2:00 PM - Manager peer sync discussing organizational challenges",
+          "3:00 PM - 1:1 focused on giving candid developmental feedback",
+          "4:00 PM - Interview debrief and hiring decision discussion",
+          "5:00 PM - Planning and strategic thinking time"
+        ],
+        closing: "Netflix Engineering Managers enjoy the unique challenge of building world-class teams in a culture that emphasizes context over control and trusts people to use good judgment."
+      },
+      similarRoles: ["Software Engineer", "Product Manager", "Technical Program Manager", "Director of Engineering"]
+    },
+    'content-strategist': {
+      roleDescription: "Content Strategists at Netflix shape the programming strategy that entertains 283 million members across 190+ countries. You'll work at the intersection of data, business, and creative, using analytics to inform which content Netflix should acquire, license, or produce. The role requires understanding both the art and science of entertainment—combining quantitative analysis of viewing patterns with qualitative understanding of what makes stories resonate. Netflix Content Strategists partner with content executives, data scientists, and finance teams to evaluate opportunities worth millions to billions of dollars. You'll develop frameworks for content valuation, analyze competitive dynamics across streaming platforms, and identify programming gaps and opportunities in different markets. The work directly impacts Netflix's $17+ billion annual content spend and shapes what hundreds of millions of members will watch. Netflix's data-driven approach to content combined with creative intuition makes this role uniquely influential in the entertainment industry.",
+      responsibilities: [
+        "Develop content strategy recommendations using data and market analysis",
+        "Build frameworks for evaluating content acquisition and licensing opportunities",
+        "Partner with content executives on programming decisions worth millions",
+        "Analyze viewing patterns to identify content gaps and opportunities",
+        "Evaluate competitive landscape across streaming platforms globally",
+        "Create presentations and analysis for senior leadership decisions",
+        "Collaborate with data science on content performance measurement",
+        "Support negotiations with studios and content partners",
+        "Develop market-specific content strategies for international expansion",
+        "Track industry trends and emerging content opportunities"
+      ],
+      growthOpportunities: [
+        "Directly influence Netflix's $17+ billion annual content investment",
+        "Work at the intersection of entertainment, data, and business strategy",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Significant autonomy aligned with Netflix culture",
+        "Shape programming strategy serving 283 million members globally",
+        "Access to rich data and analytics on content performance",
+        "Career paths into content leadership, strategy, or analytics",
+        "Work with world-class entertainment and business professionals"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of content/strategy background and Netflix culture fit"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into strategic thinking and entertainment industry knowledge"
+        },
+        {
+          stage: "Onsite - Case Study",
+          duration: "90 minutes",
+          description: "Content strategy case analyzing programming opportunity"
+        },
+        {
+          stage: "Onsite - Analytical",
+          duration: "60 minutes",
+          description: "Data analysis and quantitative reasoning assessment"
+        },
+        {
+          stage: "Onsite - Cross-functional",
+          duration: "45 minutes",
+          description: "Discussion with content and finance partners"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and communication style"
+        }
+      ],
+      technicalQuestions: [
+        "How would you evaluate whether Netflix should acquire a major film franchise?",
+        "Design a framework for measuring content ROI across different genres",
+        "How would you approach content strategy for Netflix entering a new market?",
+        "Analyze the competitive implications of a major studio launching its own streaming service",
+        "How would you identify programming gaps in Netflix's current content library?",
+        "Design metrics for comparing content performance across different regions",
+        "How would you evaluate the strategic value of live sports content?",
+        "Analyze the economics of original production vs licensing for a specific genre",
+        "How would you approach content strategy for Netflix's ad-supported tier?",
+        "Design a framework for talent deal evaluation",
+        "How would you measure the value of a hit series vs a diverse content portfolio?",
+        "Analyze the strategic implications of simultaneous theatrical/streaming release",
+        "How would you approach content localization strategy beyond dubbing?",
+        "Design a content investment prioritization framework"
+      ],
+      behavioralQuestions: [
+        "Tell me about a strategic recommendation that influenced a major decision",
+        "Describe communicating complex analysis to creative stakeholders",
+        "How have you handled disagreement with leadership on strategic direction?",
+        "Tell me about a content or media analysis that produced surprising insights",
+        "Describe working at the intersection of data and creative decision-making",
+        "How have you balanced quantitative analysis with qualitative judgment?",
+        "Tell me about building relationships with cross-functional partners",
+        "Describe a strategic analysis you're particularly proud of",
+        "How have you adapted your approach for different audiences?",
+        "Tell me about a recommendation that didn't work out and what you learned",
+        "Describe navigating ambiguity in a strategic project",
+        "How have you influenced decisions when the data was inconclusive?",
+        "Tell me about understanding a market or audience you weren't familiar with",
+        "Describe balancing short-term and long-term strategic considerations"
+      ],
+      whatTheyLookFor: [
+        "Strong strategic and analytical thinking skills",
+        "Deep interest in entertainment and media industry",
+        "Ability to combine quantitative analysis with creative judgment",
+        "Excellent communication and presentation skills",
+        "Experience with financial modeling and business case development",
+        "Understanding of content economics and entertainment industry dynamics",
+        "Track record of influencing strategic decisions",
+        "Ownership mentality aligned with Netflix culture",
+        "Ability to work effectively with diverse stakeholders",
+        "Intellectual curiosity about what makes content resonate"
+      ],
+      interviewTips: [
+        "Watch Netflix extensively and develop informed content opinions",
+        "Understand Netflix's content strategy and competitive positioning",
+        "Study the streaming industry landscape and competitive dynamics",
+        "Prepare to discuss content economics and industry trends",
+        "Practice case studies on content acquisition and strategy",
+        "Understand Netflix culture and prepare aligned examples",
+        "Be ready to combine data analysis with creative insight",
+        "Prepare examples of strategic analysis influencing decisions",
+        "Show genuine passion for entertainment and storytelling",
+        "Understand international content markets and localization",
+        "Be ready to discuss trade-offs in content investment",
+        "Prepare thoughtful questions about the content team",
+        "Demonstrate business acumen alongside creative judgment",
+        "Show ability to communicate complex analysis simply"
+      ],
+      salary: {
+        min: 150000,
+        max: 350000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $150,000 - $350,000 depending on level",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy based on impact",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Comprehensive health, dental, and vision benefits",
+        "Industry event and conference attendance",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Content Strategist at Netflix involves analytical work, cross-functional collaboration, and strategic thinking at the intersection of data and entertainment.",
+        schedule: [
+          "9:30 AM - Review overnight content performance metrics",
+          "10:00 AM - Deep analysis on competitive content landscape",
+          "11:30 AM - Sync with data science on content measurement methodology",
+          "12:30 PM - Lunch with content executive discussing upcoming decisions",
+          "1:30 PM - Prepare presentation on content opportunity for leadership",
+          "3:00 PM - Cross-functional meeting on international content strategy",
+          "4:00 PM - Financial modeling for potential acquisition",
+          "5:00 PM - Industry reading and competitive monitoring",
+          "5:30 PM - Watch new content releases for competitive awareness"
+        ],
+        closing: "Netflix Content Strategists enjoy the unique opportunity to shape entertainment strategy using data while working alongside creative leaders defining what the world watches."
+      },
+      similarRoles: ["Data Scientist", "Product Manager", "Business Development", "Content Finance"]
+    },
+    'senior-software-engineer-mobile': {
+      roleDescription: "Senior Software Engineers on Netflix's mobile teams build the iOS and Android applications used by hundreds of millions of members to discover and enjoy entertainment on the go. You'll work on challenging problems in mobile development—from optimizing video playback for diverse network conditions to building smooth, responsive interfaces for browsing thousands of titles. Netflix mobile apps are used in 190+ countries on countless device configurations, requiring engineering that scales globally while feeling native and performant locally. The role spans UI development, playback optimization, download functionality, and mobile-specific features like picture-in-picture and offline viewing. Netflix mobile engineers work with autonomy, owning features end-to-end from design through deployment. You'll partner with product, design, and platform teams while contributing to Netflix's shared mobile infrastructure. The freedom and responsibility culture means you'll make significant technical decisions while being accountable for their outcomes across millions of devices.",
+      responsibilities: [
+        "Build and maintain Netflix iOS or Android applications serving millions of members",
+        "Design and implement features for content discovery, playback, and user experience",
+        "Optimize app performance for diverse devices, networks, and global regions",
+        "Own features end-to-end from design through deployment and monitoring",
+        "Contribute to shared mobile infrastructure and architecture decisions",
+        "Partner with product and design on mobile-specific user experiences",
+        "Implement A/B experiments and analyze mobile-specific metrics",
+        "Ensure app quality through testing, monitoring, and incident response",
+        "Mentor other engineers and contribute to mobile engineering culture"
+      ],
+      growthOpportunities: [
+        "Build mobile apps used by hundreds of millions of members globally",
+        "Work on unique challenges of video streaming on mobile devices",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Significant autonomy in freedom and responsibility culture",
+        "Contribute to mobile architecture decisions impacting all Netflix apps",
+        "Access to cutting-edge mobile technologies and experimentation",
+        "Career growth through impact on critical mobile experiences",
+        "Work with world-class mobile engineers and cross-functional partners"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of mobile engineering background and Netflix culture fit"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Mobile-focused coding and architecture discussion"
+        },
+        {
+          stage: "Onsite - Mobile Coding",
+          duration: "60 minutes",
+          description: "Coding interview with iOS/Android specific problems"
+        },
+        {
+          stage: "Onsite - System Design",
+          duration: "60 minutes",
+          description: "Mobile architecture design for Netflix-scale problems"
+        },
+        {
+          stage: "Onsite - Platform Deep Dive",
+          duration: "60 minutes",
+          description: "Deep technical discussion on iOS or Android platform expertise"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment and collaboration style"
+        }
+      ],
+      technicalQuestions: [
+        "Design the architecture for Netflix's video player on mobile",
+        "How would you optimize app startup time across diverse Android devices?",
+        "Design the offline download feature for Netflix mobile",
+        "How would you implement smooth scrolling for the browse experience?",
+        "Design a caching strategy for images and metadata on mobile",
+        "How would you handle video playback quality adaptation on variable networks?",
+        "Design the mobile architecture for Netflix's new gaming features",
+        "How would you implement picture-in-picture functionality?",
+        "Design a testing strategy for mobile apps supporting thousands of devices",
+        "How would you optimize battery consumption during video playback?",
+        "Design the mobile notification and engagement strategy",
+        "How would you handle authentication and security on mobile?",
+        "Design a modular architecture supporting rapid feature development",
+        "How would you implement deep linking across the Netflix app?",
+        "Design performance monitoring for mobile applications at scale"
+      ],
+      behavioralQuestions: [
+        "Tell me about a mobile feature you shipped that had significant member impact",
+        "Describe debugging a complex issue across multiple device configurations",
+        "How have you handled mobile platform fragmentation challenges?",
+        "Tell me about improving mobile app performance significantly",
+        "Describe working with designers on mobile-specific interactions",
+        "How have you balanced native development with cross-platform approaches?",
+        "Tell me about a technical decision that improved developer productivity",
+        "Describe handling a production incident affecting mobile users",
+        "How have you approached mobile accessibility in your work?",
+        "Tell me about building shared infrastructure for mobile teams",
+        "Describe navigating platform-specific constraints in feature design",
+        "How have you mentored other mobile engineers?",
+        "Tell me about a mobile technology decision you advocated for",
+        "Describe adapting to major platform changes (iOS/Android updates)",
+        "How have you approached mobile testing and quality?"
+      ],
+      whatTheyLookFor: [
+        "Deep expertise in iOS (Swift) or Android (Kotlin) development",
+        "Experience building and shipping mobile apps at scale",
+        "Understanding of mobile video playback and streaming",
+        "Strong architecture and design skills for mobile applications",
+        "Performance optimization experience for diverse devices",
+        "Track record of mobile features with user impact",
+        "Ownership mentality aligned with Netflix culture",
+        "Experience with A/B testing and data-driven development",
+        "Collaboration skills for cross-functional partnerships",
+        "Passion for mobile user experience and entertainment"
+      ],
+      interviewTips: [
+        "Use the Netflix mobile app extensively and form specific opinions",
+        "Prepare deep expertise in either iOS or Android (know your platform deeply)",
+        "Study mobile video streaming challenges and approaches",
+        "Prepare examples of performance optimization work",
+        "Understand Netflix's mobile architecture through tech blog posts",
+        "Be ready for platform-specific technical deep dives",
+        "Practice mobile system design for streaming applications",
+        "Understand Netflix culture and prepare aligned examples",
+        "Prepare examples demonstrating ownership and autonomy",
+        "Be ready to discuss mobile testing and quality strategies",
+        "Show passion for mobile user experience",
+        "Understand global mobile challenges (devices, networks, regions)",
+        "Prepare questions about the mobile team and challenges",
+        "Be authentic about your mobile development experience"
+      ],
+      salary: {
+        min: 200000,
+        max: 500000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $200,000 - $500,000 depending on level",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy for mobile talent",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Mobile devices and equipment for testing",
+        "Comprehensive health, dental, and vision benefits",
+        "Home office setup budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Senior Mobile Engineer at Netflix involves building features, optimizing performance, and collaborating with cross-functional partners.",
+        schedule: [
+          "9:30 AM - Check crash reports and mobile app health metrics",
+          "10:00 AM - Deep work on new browse feature implementation",
+          "11:30 AM - Code review and architecture discussion with team",
+          "12:30 PM - Lunch with product manager discussing upcoming features",
+          "1:30 PM - A/B experiment analysis for recent UI changes",
+          "2:30 PM - Cross-platform sync on shared infrastructure",
+          "3:30 PM - Performance optimization work on video player",
+          "4:30 PM - Testing across multiple device configurations",
+          "5:30 PM - Personal time using Netflix mobile to observe experience"
+        ],
+        closing: "Netflix mobile engineers enjoy the challenge of building entertainment experiences that delight members on their most personal devices."
+      },
+      similarRoles: ["Software Engineer", "Machine Learning Engineer", "Product Designer", "Site Reliability Engineer"]
+    },
+    'solutions-architect': {
+      roleDescription: "Solutions Architects at Netflix work at the intersection of technology and partnerships, designing integrations and technical solutions for Netflix's business partners, device manufacturers, and content delivery network. You'll work with TV manufacturers, gaming consoles, set-top boxes, and ISPs to ensure Netflix delivers optimal experiences across thousands of device types in 190+ countries. The role combines deep technical expertise with partnership skills—you'll design architectures that work within partners' constraints while meeting Netflix's quality bar. Solutions Architects also work on Netflix's Open Connect CDN, the world's largest content delivery network, partnering with ISPs globally to optimize streaming delivery. You'll evaluate new platforms and technologies, create technical specifications, and guide partner implementations. The work directly impacts how hundreds of millions of members experience Netflix across their devices. Netflix's freedom and responsibility culture means you'll have significant autonomy to make technical decisions while ensuring partnerships succeed.",
+      responsibilities: [
+        "Design technical solutions for device manufacturers and platform partners",
+        "Partner with ISPs on Open Connect CDN deployment and optimization",
+        "Create technical specifications and architecture documentation",
+        "Evaluate new platforms and technologies for Netflix integration",
+        "Guide partner engineering teams through implementation",
+        "Troubleshoot and resolve complex integration issues",
+        "Ensure partner implementations meet Netflix quality standards",
+        "Collaborate with internal engineering on partner requirements",
+        "Present technical solutions to partner leadership teams",
+        "Stay current on device ecosystem and streaming technology trends"
+      ],
+      growthOpportunities: [
+        "Shape how Netflix appears on devices used by 283 million members",
+        "Work on world's largest CDN serving entertainment globally",
+        "Top-of-market compensation with flexible salary/stock allocation",
+        "Significant autonomy in freedom and responsibility culture",
+        "Build expertise in streaming technology and global partnerships",
+        "Career paths into engineering leadership or strategic partnerships",
+        "Work with major technology companies and device manufacturers",
+        "Travel opportunities for partner engagements globally"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of technical and partnership background"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into solutions architecture experience"
+        },
+        {
+          stage: "Onsite - Technical Design",
+          duration: "60 minutes",
+          description: "Design a solution for a partner integration scenario"
+        },
+        {
+          stage: "Onsite - Systems Knowledge",
+          duration: "60 minutes",
+          description: "Deep technical discussion on streaming and networking"
+        },
+        {
+          stage: "Onsite - Partner Scenario",
+          duration: "60 minutes",
+          description: "Role-play partner engagement demonstrating communication skills"
+        },
+        {
+          stage: "Onsite - Culture & Values",
+          duration: "45 minutes",
+          description: "Assessment of Netflix values alignment"
+        }
+      ],
+      technicalQuestions: [
+        "Design the integration architecture for Netflix on a new smart TV platform",
+        "How would you optimize video delivery for an ISP with network constraints?",
+        "Design a solution for Netflix on a gaming console with limited resources",
+        "How would you approach integrating Netflix with a set-top box platform?",
+        "Design the Open Connect cache deployment for a major ISP",
+        "How would you handle a partner device with unique playback limitations?",
+        "Design a testing framework for certifying new device integrations",
+        "How would you optimize Netflix startup time on constrained devices?",
+        "Design the architecture for Netflix on an automotive platform",
+        "How would you approach quality assurance for partner implementations?",
+        "Design a solution for Netflix delivery in a region with challenging network infrastructure",
+        "How would you handle DRM requirements across different device platforms?",
+        "Design the partner portal for device certification and testing",
+        "How would you approach Netflix integration with voice assistants?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex technical solution you designed for a partner",
+        "Describe navigating a difficult partner relationship",
+        "How have you handled technical constraints that limited your solution?",
+        "Tell me about explaining complex technology to non-technical partners",
+        "Describe a partnership integration that didn't go as planned",
+        "How have you balanced Netflix requirements with partner limitations?",
+        "Tell me about influencing a partner's technical decisions",
+        "Describe managing expectations when timelines were at risk",
+        "How have you handled disagreements with internal engineering teams?",
+        "Tell me about a creative solution to an unusual partner challenge",
+        "Describe building trust with a new partner organization",
+        "How have you stayed current with device and streaming technology?",
+        "Tell me about documentation or process you created to scale partnerships",
+        "Describe handling a production issue affecting partner devices",
+        "How have you prioritized across multiple partner engagements?"
+      ],
+      whatTheyLookFor: [
+        "Strong technical background in streaming, networking, or device platforms",
+        "Experience with technical partnerships and external relationships",
+        "Excellent communication skills for diverse technical audiences",
+        "Problem-solving ability for complex integration challenges",
+        "Understanding of video streaming and content delivery",
+        "Track record delivering technical solutions through partners",
+        "Ownership mentality aligned with Netflix culture",
+        "Ability to work autonomously on partner engagements",
+        "Experience with embedded systems or consumer electronics (helpful)",
+        "Global perspective for partnerships across regions"
+      ],
+      interviewTips: [
+        "Understand Netflix's device ecosystem and Open Connect CDN",
+        "Study streaming technology and video delivery challenges",
+        "Prepare examples of partner technical engagements",
+        "Practice explaining complex concepts to varied audiences",
+        "Research Netflix's partner certification and device requirements",
+        "Understand Netflix culture and prepare aligned examples",
+        "Be ready to role-play partner conversations",
+        "Prepare to discuss trade-offs in solution design",
+        "Show genuine interest in device technology and streaming",
+        "Understand global challenges in content delivery",
+        "Prepare questions about the partnerships team",
+        "Be ready to discuss managing external relationships",
+        "Show ability to influence without direct authority",
+        "Demonstrate patience and communication skills"
+      ],
+      salary: {
+        min: 180000,
+        max: 400000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $400,000 depending on level",
+        "No traditional bonus—compensation in salary and stock options",
+        "Annual choice between salary and options allocation",
+        "Stock options vest monthly over 4 years",
+        "Top-of-market pay philosophy based on impact",
+        "Annual compensation review with market adjustments",
+        "Unlimited PTO with trust-based approach",
+        "Travel budget for partner engagements",
+        "Comprehensive health, dental, and vision benefits",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Solutions Architect at Netflix involves technical design work, partner engagement, and collaboration with internal engineering teams.",
+        schedule: [
+          "9:00 AM - Review partner support tickets and integration issues",
+          "9:30 AM - Call with Asian TV manufacturer on new integration",
+          "11:00 AM - Technical specification writing for partner requirements",
+          "12:00 PM - Lunch with internal engineering discussing partner needs",
+          "1:00 PM - Architecture review for ISP Open Connect deployment",
+          "2:30 PM - Partner certification testing and issue resolution",
+          "3:30 PM - Cross-functional sync on upcoming partner launches",
+          "4:30 PM - Research on emerging device platforms and technologies",
+          "5:30 PM - Documentation and email follow-up with partners"
+        ],
+        closing: "Netflix Solutions Architects enjoy the unique challenge of ensuring excellent streaming experiences across thousands of devices and partnerships worldwide."
+      },
+      similarRoles: ["Software Engineer", "Site Reliability Engineer", "Technical Program Manager", "Partner Engineer"]
     }
   },
   'uber': {
