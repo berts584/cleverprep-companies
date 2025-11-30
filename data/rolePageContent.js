@@ -13934,458 +13934,621 @@ export const rolePageContent = {
   },
   'meta': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Meta build products used by billions across Facebook, Instagram, WhatsApp, and Reality Labs. You'll work on highly scalable systems, ship code that impacts users globally, and solve unique technical challenges at massive scale. Meta emphasizes impact, innovation, and moving fast with a strong engineering culture.",
+      roleDescription: "Software Engineers at Meta build products that connect over 3 billion people across Facebook, Instagram, WhatsApp, Messenger, and emerging platforms like Quest VR and Ray-Ban Meta smart glasses. You'll work on systems at unprecedented scale - Facebook serves over 3 billion monthly active users, Instagram 2+ billion, and WhatsApp handles 100 billion messages daily. Meta's engineering culture emphasizes impact, moving fast, and building products that matter. Unlike companies with lengthy approval processes, Meta empowers engineers to ship code to production rapidly, often within days of joining. The company's technical challenges are unique: building AI systems that understand content across 100+ languages, serving personalized feeds to billions, and creating the infrastructure for the metaverse. Engineers work in small, autonomous teams with significant ownership, collaborating with world-class researchers and product minds. Career progression follows clear levels (E3-E9), with both IC and management tracks. Meta's compensation is highly competitive, with substantial RSU grants that often exceed base salary for experienced engineers.",
       responsibilities: [
-        "Design, develop, test, and deploy scalable applications and systems",
-        "Build new features and improve existing products across Meta's family of apps",
-        "Collaborate with cross-functional teams (PM, Design, Data Science)",
-        "Participate in code reviews and maintain high code quality standards",
-        "Optimize performance and scalability of distributed systems"
+        "Design, develop, and deploy features for Meta's family of apps serving billions of users",
+        "Build highly scalable systems and infrastructure that handle millions of requests per second",
+        "Write clean, efficient code and participate in thorough code reviews (diffs)",
+        "Collaborate with product managers, designers, and data scientists to define and ship products",
+        "Work on full-stack development across web, mobile, and backend systems",
+        "Participate in on-call rotations for production systems you own",
+        "Contribute to technical architecture decisions and design documents",
+        "Mentor other engineers and contribute to team hiring through interviews",
+        "Ship code to production frequently - Meta's deploy system enables rapid iteration",
+        "Drive impact through measurable improvements to products and systems"
       ],
       growthOpportunities: [
-        "Impact billions of users across Facebook, Instagram, WhatsApp",
-        "Work on cutting-edge technologies (AR/VR, AI, distributed systems)",
-        "Hackathons and innovation time for new ideas",
-        "Career progression to Staff/Principal Engineer or management",
-        "Access to world-class mentorship and learning resources"
+        "Impact billions of users across Facebook, Instagram, WhatsApp, and Messenger",
+        "Clear engineering ladder: E3 → E4 → E5 → E6 (Staff) → E7 (Senior Staff) → E8/E9 (Principal/Distinguished)",
+        "Work on cutting-edge AI/ML, AR/VR (Reality Labs), and metaverse technologies",
+        "Strong internal mobility - engineers frequently move between teams and products",
+        "Both IC and management career tracks supported equally",
+        "Hackathons twice yearly where many major features have originated (like the Like button)",
+        "Access to Meta's AI research (FAIR) and infrastructure at massive scale",
+        "Bootcamp program for new engineers helps you find the right team fit",
+        "Open source contributions encouraged - Meta maintains PyTorch, React, and more"
       ],
       interviewProcess: [
         {
           step: 1,
-          title: "Technical Phone Screen",
-          description: "45-minute coding interview on data structures and algorithms. Focus on problem-solving approach and code quality.",
-          duration: "45 minutes"
-        },
-        {
-          step: 2,
-          title: "Virtual On-site (Ninja Interview)",
-          description: "Two 45-minute coding rounds focusing on algorithms, data structures, and problem-solving.",
-          duration: "90 minutes total"
-        },
-        {
-          step: 3,
-          title: "Full Virtual/On-site Loop",
-          description: "4 interviews: 2 coding rounds, 1 system design (for senior roles), 1 behavioral round assessing Meta's values.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Hiring Committee",
-          description: "All feedback is reviewed by hiring committee. Team matching happens after approval."
-        }
-      ],
-      technicalQuestions: [
-        "Implement a function to clone a graph with deep copy.",
-        "Design the News Feed ranking algorithm for Facebook.",
-        "Given a binary tree, serialize and deserialize it.",
-        "Implement a rate limiter that allows X requests per Y seconds.",
-        "Design Instagram's architecture. How would you scale to billions of users?",
-        "Find the minimum window substring containing all characters of another string.",
-        "How would you design WhatsApp's message delivery system?",
-        "Implement a data structure for autocomplete suggestions.",
-        "Design a system to detect and prevent spam on Facebook.",
-        "Given a stream of data, find the top K trending topics."
-      ],
-      behavioralQuestions: [
-        "Tell me about a time you challenged the status quo and proposed a better solution.",
-        "Describe your most technically complex project. What was your role?",
-        "Give an example of when you had to make a decision with incomplete information.",
-        "Tell me about a time you failed. How did you handle it?",
-        "Describe a situation where you had to collaborate with a difficult teammate.",
-        "What's the most innovative feature you've built? How did you come up with it?",
-        "Tell me about a time you had to learn a new technology quickly.",
-        "Give an example of when you went above and beyond to deliver results."
-      ],
-      whatTheyLookFor: [
-        "Strong coding and problem-solving skills",
-        "Ability to think about scale and performance",
-        "Clean, maintainable code with good design patterns",
-        "Meta values: Move Fast, Be Bold, Focus on Impact, Be Open, Build Social Value",
-        "Communication and collaboration skills",
-        "Passion for building products that connect people",
-        "Growth mindset and learning agility",
-        "Ability to navigate ambiguity and prioritize"
-      ],
-      interviewTips: [
-        "Practice LeetCode medium/hard problems - Meta emphasizes strong coding fundamentals",
-        "Study system design at scale - think about serving billions of users",
-        "Communicate your thought process clearly - explain before coding",
-        "Write clean, production-quality code during interviews",
-        "Understand Meta's products deeply - use Facebook, Instagram, WhatsApp actively",
-        "Research Meta's engineering blog and recent technical innovations",
-        "Be ready to discuss trade-offs in scalability, performance, and user experience",
-        "Show passion for building products that bring people together"
-      ],
-      salary: {
-        min: 125000,
-        max: 200000
-      },
-      compensation: [
-        "Significant RSU grants (often higher than base for experienced engineers)",
-        "Refresher grants to keep total comp competitive",
-        "Sign-on bonus ($50-100K+ for experienced candidates)",
-        "Semi-annual performance bonuses",
-        "Comprehensive health, dental, and vision benefits",
-        "Free meals, transportation, and on-campus amenities"
-      ],
-      dayInLife: {
-        overview: "Meta engineers work in fast-paced, impact-driven teams. You'll ship code frequently, participate in hack-a-thons, and collaborate closely with PMs and designers. The culture emphasizes moving fast and building products users love.",
-        schedule: [
-          {
-            time: "10:00 AM",
-            activity: "Team Standup",
-            description: "Quick sync on project status and blockers with team"
-          },
-          {
-            time: "10:30 AM",
-            activity: "Code Review",
-            description: "Review teammates' diffs (Meta's code review system) and get feedback on yours"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Feature Development",
-            description: "Deep work on new feature for Instagram Stories"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Free Lunch",
-            description: "Enjoy lunch at one of Meta's cafeterias with teammates"
-          },
-          {
-            time: "2:00 PM",
-            activity: "Design Review",
-            description: "Discuss technical design for upcoming infrastructure project"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Coding Session",
-            description: "Continue development and write unit/integration tests"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Weekly Sync",
-            description: "Update PM and designer on progress and discuss next sprint priorities"
-          },
-          {
-            time: "6:00 PM",
-            activity: "Hackathon Planning",
-            description: "Brainstorm ideas with team for upcoming company hackathon"
-          }
-        ]
-      },
-      similarRoles: [
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
-      ]
-    },
-    'product-manager': {
-      roleDescription: "Product Managers at Meta shape products that connect billions of people globally. You'll define product vision for Facebook, Instagram, WhatsApp, or Reality Labs, working with world-class designers and engineers. Meta PMs are strategic, data-driven, and deeply user-focused, with strong emphasis on impact and innovation.",
-      responsibilities: [
-        "Define product strategy and vision for your product area",
-        "Lead cross-functional teams to ship impactful features",
-        "Use data and user research to inform product decisions",
-        "Set and track success metrics for product initiatives",
-        "Communicate product strategy to leadership and stakeholders"
-      ],
-      growthOpportunities: [
-        "Shape products used by billions globally",
-        "Work on cutting-edge areas like AR/VR, AI, and social connectivity",
-        "Fast career growth to Senior PM, Group PM, or Director roles",
-        "Collaborate with top talent in product, design, and engineering",
-        "Exposure to diverse products across Meta's family of apps"
-      ],
-      interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "30-minute conversation about your background, interest in Meta, and basic product sense.",
+          title: "Recruiter Screen",
+          description: "30-minute call with a Meta recruiter to discuss your background, experience, and interest in Meta. The recruiter explains the interview process, team matching, and answers questions about the company. They'll assess basic qualifications and communication skills.",
           duration: "30 minutes"
         },
         {
           step: 2,
-          title: "Product Sense Interview",
-          description: "Design a product or improve an existing one. Focus on user needs and impact.",
+          title: "Technical Phone Screen",
+          description: "45-minute coding interview via CoderPad with a Meta engineer. You'll solve 1-2 algorithmic problems while explaining your thought process. The interviewer evaluates your coding ability, problem-solving approach, and communication. Problems are typically medium LeetCode difficulty focusing on arrays, strings, trees, or graphs.",
           duration: "45 minutes"
         },
         {
           step: 3,
-          title: "Execution Interview",
-          description: "Demonstrate ability to ship products. Discuss metrics, prioritization, and getting things done.",
-          duration: "45 minutes"
+          title: "Virtual On-site Loop (4-5 rounds)",
+          description: "Full interview day consisting of: (1-2) Two coding interviews (Ninja rounds) - algorithmic problems similar to phone screen but more challenging; (2) System design interview (for E4+ roles) - design a large-scale distributed system like News Feed or Instagram Stories; (3) Behavioral interview - assess alignment with Meta's values (Move Fast, Be Bold, Focus on Impact, Be Open, Build Social Value). Each round is 45 minutes with different interviewers.",
+          duration: "4-5 hours"
         },
         {
           step: 4,
-          title: "Product Strategy",
-          description: "Think big picture about product direction, market opportunities, and long-term vision.",
-          duration: "45 minutes"
-        },
-        {
-          step: 5,
-          title: "Behavioral/Leadership",
-          description: "Assess alignment with Meta's values through behavioral examples.",
-          duration: "45 minutes"
+          title: "Hiring Committee & Team Matching",
+          description: "A hiring committee reviews all interview feedback to make a hire/no-hire decision independent of specific teams. If approved, you enter team matching (Bootcamp approach) where you'll have conversations with multiple teams to find the best fit. Unlike Amazon or Google, you're hired to Meta, not a specific team, giving you flexibility to find the right match.",
+          duration: "1-3 weeks"
         }
       ],
       technicalQuestions: [
-        "How would you improve Facebook Groups?",
-        "Design a dating app for Meta (became Facebook Dating).",
-        "How would you measure the success of Instagram Reels?",
-        "Should Meta build a professional networking product? Why or why not?",
-        "If Facebook engagement dropped 10%, how would you diagnose and fix it?",
-        "Design a feature to help small businesses grow on Instagram.",
-        "How would you monetize WhatsApp while keeping the user experience free?",
-        "Design a privacy-focused messaging feature for young adults.",
-        "How would you increase time spent on Facebook News Feed?",
-        "What metrics would you use to measure Instagram Stories' success?"
+        "Design the News Feed ranking system for Facebook. How would you personalize content for billions of users?",
+        "Implement an LRU cache with O(1) get and put operations. Now extend it to be distributed.",
+        "Design Instagram's photo storage and delivery system serving billions of images daily.",
+        "Given a binary tree, find the lowest common ancestor of two nodes. What's the time complexity?",
+        "Design WhatsApp's real-time messaging system. How do you ensure message delivery?",
+        "Write a function to find all anagrams of a string within a larger text. Optimize for performance.",
+        "Design Facebook's friend suggestion algorithm. What signals would you use?",
+        "Implement a function to serialize and deserialize a binary search tree.",
+        "Design the notification system for Facebook. How would you handle billions of notifications daily?",
+        "Given a stream of user actions, detect suspicious activity patterns in real-time.",
+        "Design Facebook Marketplace's search and recommendation system.",
+        "Implement a rate limiter that works across distributed servers.",
+        "Design Instagram Stories' view tracking system. How do you handle the scale?",
+        "Write a function to determine if a graph is bipartite. Explain your approach.",
+        "Design Facebook Groups' content ranking algorithm. How do you balance relevance and recency?",
+        "Implement a thread-safe concurrent hash map. Discuss your synchronization strategy.",
+        "Design the system for Facebook Live video streaming at scale.",
+        "Given a list of user interactions, build a model to predict user engagement."
       ],
       behavioralQuestions: [
-        "Tell me about your most impactful product. How did it affect users?",
-        "Describe a time you had to make a product decision with incomplete data.",
-        "Give an example of when you disagreed with your engineering team.",
-        "Tell me about a product that failed. What did you learn?",
-        "Describe how you prioritize when you have competing stakeholder demands.",
-        "Give an example of when you moved fast and had to iterate based on feedback.",
-        "Tell me about a time you built something innovative or outside the box.",
-        "Describe a situation where you had to influence without authority."
+        "Tell me about a time you moved fast to ship a product or feature. What trade-offs did you make?",
+        "Describe your most impactful project. How did you measure and demonstrate impact?",
+        "Give an example of when you were bold and took a risk. What was the outcome?",
+        "Tell me about a time you had to be open to feedback that was difficult to hear.",
+        "Describe a situation where you focused on building social value, not just technical excellence.",
+        "Give an example of when you challenged the status quo or proposed a better solution.",
+        "Tell me about a time you failed. What did you learn and how did you apply those lessons?",
+        "Describe a time you collaborated effectively with a PM or designer to ship a product.",
+        "Give an example of when you had to make a decision with incomplete information.",
+        "Tell me about a time you went above and beyond to help a teammate or the team.",
+        "Describe a situation where you had to push back on a requirement or timeline.",
+        "Give an example of how you've driven impact beyond just your assigned work.",
+        "Tell me about a time you had to quickly learn a new technology or domain.",
+        "Describe how you balance code quality with shipping speed.",
+        "Give an example of when you had to work with ambiguous requirements."
       ],
       whatTheyLookFor: [
-        "Product sense and user empathy for global audience",
-        "Data-driven decision making with strong analytical skills",
-        "Bias for action and ability to move fast",
-        "Strategic thinking balanced with execution excellence",
-        "Strong communication and leadership skills",
-        "Alignment with Meta values (Move Fast, Be Bold, Focus on Impact)",
-        "Technical depth to collaborate effectively with engineers",
-        "Track record of shipping impactful products"
+        "Strong coding fundamentals: clean, efficient, bug-free code",
+        "Problem-solving ability: systematic approach to complex technical challenges",
+        "System design skills: designing scalable systems for billions of users (E4+ especially)",
+        "Move Fast: bias for action and shipping, not over-engineering",
+        "Focus on Impact: prioritizing work that creates meaningful outcomes",
+        "Be Bold: willingness to take risks and challenge assumptions",
+        "Be Open: receptiveness to feedback and transparent communication",
+        "Build Social Value: passion for connecting people and building community",
+        "Collaboration: working effectively with PMs, designers, and other engineers",
+        "Clear communication: explaining technical concepts and decisions"
       ],
       interviewTips: [
-        "Use Meta's products daily - understand Facebook, Instagram, WhatsApp deeply",
-        "Practice product design frameworks - start with user pain points",
-        "Be ready to discuss metrics in depth - DAU, engagement, retention, etc.",
-        "Show impact in your examples - how did your work affect millions of users?",
-        "Research Meta's strategy, recent product launches, and competitive landscape",
-        "Demonstrate data-driven thinking with specific metrics and experiments",
-        "Show you can move fast - Meta values speed and iteration",
-        "Prepare questions about Meta's product areas and future direction"
+        "Practice LeetCode medium-hard problems - Meta emphasizes strong coding fundamentals",
+        "For system design, start with requirements and scale, then design incrementally",
+        "Communicate constantly during coding - explain your approach before and while coding",
+        "Write clean, production-quality code - Meta values code readability",
+        "Understand Meta's products deeply - use Facebook, Instagram, WhatsApp actively",
+        "Research Meta's engineering blog and recent technical innovations (PyTorch, etc.)",
+        "For behavioral questions, focus on impact and moving fast with examples",
+        "Prepare questions about the teams you're interested in during team matching",
+        "Practice explaining trade-offs between different approaches",
+        "For system design, consider Meta-specific challenges: scale, personalization, real-time",
+        "Show passion for building products that connect people",
+        "Be ready to discuss how you'd improve existing Meta products",
+        "Understand the difference between E3/E4/E5/E6 expectations",
+        "Practice whiteboarding - Meta uses CoderPad for coding but design is often whiteboard"
       ],
       salary: {
-        min: 145000,
-        max: 220000
+        min: 140000,
+        max: 230000
       },
       compensation: [
-        "Large RSU grants (significant portion of total comp)",
-        "Annual refresher grants based on performance",
-        "Sign-on bonus ($50-100K+ for experienced PMs)",
-        "Semi-annual performance bonuses",
-        "Comprehensive benefits package",
-        "Free meals, gym, transportation, and campus perks"
+        "Competitive base salary with level-based progression",
+        "Substantial RSU grants - often larger than base for experienced engineers",
+        "RSUs vest over 4 years with quarterly vesting after first year",
+        "Sign-on bonus ($50-100K+ for experienced candidates)",
+        "Semi-annual performance bonuses based on individual and company performance",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision insurance",
+        "Free meals at campus cafeterias (breakfast, lunch, dinner)",
+        "Commuter benefits and transportation assistance",
+        "Generous parental leave (4 months for all new parents)",
+        "Annual wellness stipend and on-site fitness centers",
+        "Home office setup support and equipment"
       ],
       dayInLife: {
-        overview: "Meta PMs balance strategic vision with rapid execution. You'll analyze data, align stakeholders, work closely with design and engineering, and ship features that impact billions of users globally.",
+        overview: "Meta engineers work in fast-paced, impact-driven teams. The culture emphasizes shipping quickly, iterating based on data, and collaborating closely with PMs and designers. Many engineers arrive around 10 AM and work flexible hours, with free meals making long days comfortable.",
         schedule: [
-          {
-            time: "9:30 AM",
-            activity: "Product Metrics Review",
-            description: "Deep dive into dashboards tracking your product's key metrics"
-          },
-          {
-            time: "10:30 AM",
-            activity: "User Research Synthesis",
-            description: "Review latest user research findings with UX researcher"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Design Review",
-            description: "Provide feedback on design mocks for upcoming feature"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Team Lunch",
-            description: "Grab free lunch with cross-functional team members"
-          },
-          {
-            time: "1:30 PM",
-            activity: "Sprint Planning",
-            description: "Prioritize backlog and plan next two-week sprint with eng team"
-          },
-          {
-            time: "3:00 PM",
-            activity: "A/B Test Analysis",
-            description: "Analyze experiment results and decide whether to ship feature"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Leadership Review",
-            description: "Present product strategy and results to director/VP"
-          },
-          {
-            time: "6:00 PM",
-            activity: "Product Doc Writing",
-            description: "Write product spec for Q2 roadmap items"
-          }
+          { time: "10:00 AM", activity: "Arrive & catch up", description: "Check Workplace (Meta's internal tool), review overnight diffs, respond to comments" },
+          { time: "10:30 AM", activity: "Team standup", description: "Quick sync on project status, blockers, and daily priorities" },
+          { time: "11:00 AM", activity: "Coding session", description: "Deep work on feature development or bug fixes" },
+          { time: "12:30 PM", activity: "Lunch", description: "Free lunch at one of Meta's cafeterias - often with teammates or cross-functional partners" },
+          { time: "1:30 PM", activity: "Diff reviews", description: "Review teammates' code and address feedback on your own diffs" },
+          { time: "3:00 PM", activity: "Design discussion", description: "Collaborate with PM and designer on upcoming feature design" },
+          { time: "4:00 PM", activity: "More coding", description: "Continue development, write tests, prepare diff for review" },
+          { time: "5:30 PM", activity: "Tech talk (optional)", description: "Attend internal tech talk or ML reading group" },
+          { time: "6:30 PM", activity: "Wrap up", description: "Ship diffs, update tasks, plan tomorrow. Grab dinner if staying late." }
         ]
       },
       similarRoles: [
         { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
         { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" }
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
       ]
     },
-    'data-scientist': {
-      roleDescription: "Data Scientists at Meta use advanced analytics and machine learning to understand user behavior, improve products, and drive business decisions across Facebook, Instagram, WhatsApp, and Reality Labs. You'll work at unprecedented scale, analyzing billions of interactions daily to create impact for users and the business.",
+    'product-manager': {
+      roleDescription: "Product Managers at Meta define the vision and strategy for products that connect over 3 billion people worldwide. You'll shape the future of Facebook, Instagram, WhatsApp, Messenger, or emerging platforms like Quest VR and the metaverse. Meta PMs are highly technical, data-driven, and empowered to make bold decisions that impact billions of users. Unlike many companies where PMs write specs for engineers to implement, Meta PMs partner as equals with engineering and design, contributing to technical discussions and driving product direction through data and user insights. The role requires balancing user needs, business goals, and technical feasibility while moving fast in Meta's iterative culture. You'll run experiments at scale, analyze results, and ship products quickly. Meta's PM culture emphasizes impact over activity - what matters is the outcome, not the output. Career progression leads to Group PM, Director, VP of Product, and CPO paths, with many of Meta's senior leaders having PM backgrounds.",
       responsibilities: [
-        "Build machine learning models to improve products and user experience",
-        "Design and analyze large-scale experiments (A/B tests)",
-        "Extract insights from massive datasets to inform product strategy",
-        "Partner with product and engineering teams to deploy ML solutions",
-        "Develop metrics and dashboards to track product health"
+        "Define product vision, strategy, and roadmap for features serving millions to billions of users",
+        "Partner with engineering, design, data science, and research to ship impactful products",
+        "Drive product decisions through data analysis, user research, and experimentation",
+        "Design and analyze A/B tests at scale to validate hypotheses and measure impact",
+        "Create product specs, PRDs, and other documentation to align teams",
+        "Present product strategy and results to leadership and cross-functional stakeholders",
+        "Prioritize ruthlessly to focus on highest-impact work",
+        "Understand the competitive landscape and industry trends",
+        "Represent the user perspective in all product decisions",
+        "Collaborate with policy, legal, and comms on sensitive product areas"
       ],
       growthOpportunities: [
-        "Work with unique datasets at billions-of-users scale",
-        "Apply ML/AI to cutting-edge problems in social, AR/VR, and AI",
-        "Career growth to Staff/Principal Data Scientist or ML Engineer",
-        "Collaborate with top researchers and engineers",
-        "Opportunity to publish research and advance the field"
+        "Define products used by over 3 billion people worldwide",
+        "Career path from PM to Senior PM to Group PM to Director to VP of Product",
+        "Work on diverse products: social, messaging, commerce, AR/VR, AI",
+        "Strong internal mobility - PMs regularly move between product areas",
+        "Access to massive datasets and experimentation platform for decision making",
+        "Collaborate with world-class researchers, designers, and engineers",
+        "RPM (Rotational PM) program for new grads is top-tier talent pipeline",
+        "Shape emerging products like Quest VR, Ray-Ban Meta glasses, and metaverse",
+        "High impact culture where PM decisions directly affect billions of users"
       ],
       interviewProcess: [
         {
           step: 1,
-          title: "Technical Phone Screen",
-          description: "45-minute interview covering SQL, statistics, and discussion of past projects.",
-          duration: "45 minutes"
+          title: "Recruiter Screen",
+          description: "30-minute call to discuss your background, PM experience, and interest in Meta. The recruiter explains the interview process and assesses basic qualifications.",
+          duration: "30 minutes"
         },
         {
           step: 2,
-          title: "SQL/Coding Round",
-          description: "Solve data manipulation problems using SQL. May include Python/R coding.",
+          title: "Product Phone Screen",
+          description: "45-minute interview with a Meta PM covering product sense, analytical thinking, and a product case. You might be asked to improve an existing Meta product or design a new feature. The interviewer assesses your product intuition and structured thinking.",
           duration: "45 minutes"
         },
         {
           step: 3,
-          title: "Statistics/ML Round",
-          description: "Deep dive into statistical concepts, ML algorithms, and experimental design.",
-          duration: "45 minutes"
+          title: "Virtual On-site Loop (4-5 rounds)",
+          description: "Full interview day including: (1) Product Sense round - design a product or feature, demonstrating user empathy and creative thinking; (2) Execution round - how you'd prioritize, scope, and ship a product; (3) Analytical round - metrics definition, data analysis, and experimentation; (4) Leadership/Drive round - assess your impact, influence, and Meta values alignment; (5) Cross-functional collaboration round for senior roles.",
+          duration: "4-5 hours"
         },
         {
           step: 4,
-          title: "Product Analytics/Case",
-          description: "Analyze a product problem, design metrics, interpret data, and make recommendations.",
-          duration: "45 minutes"
-        },
-        {
-          step: 5,
-          title: "Behavioral Round",
-          description: "Assess alignment with Meta values and past collaboration examples.",
-          duration: "45 minutes"
+          title: "Hiring Committee & Team Matching",
+          description: "Hiring committee reviews feedback independent of teams. If approved, you'll match with teams based on mutual interest and fit. Meta PMs often join Bootcamp-style to explore before committing to a team.",
+          duration: "1-3 weeks"
         }
       ],
       technicalQuestions: [
-        "How would you build a recommendation system for Facebook News Feed?",
-        "Design an experiment to test a new feature on Instagram. What metrics would you use?",
-        "How would you detect fake accounts on Facebook at scale?",
-        "Explain how you would model user engagement across Facebook's family of apps.",
-        "If Instagram engagement dropped suddenly, how would you investigate?",
-        "Design a content ranking algorithm for WhatsApp Status.",
-        "How would you measure the impact of Instagram Reels on overall engagement?",
-        "Build a model to predict which users are likely to churn.",
-        "How would you optimize ad targeting while respecting user privacy?",
-        "Design an A/B test to evaluate a new Facebook Groups feature."
+        "How would you improve Facebook Groups? Walk through your prioritization framework.",
+        "Design a new feature for Instagram to increase creator engagement.",
+        "Facebook's DAU/MAU ratio in a market declined 5%. How would you investigate?",
+        "How would you measure the success of WhatsApp's Status feature?",
+        "Design a product to help small businesses succeed on Facebook/Instagram.",
+        "How would you prioritize these 5 features given limited engineering resources?",
+        "Design an experiment to test a significant change to News Feed ranking.",
+        "How would you approach launching Messenger in a new international market?",
+        "What metrics would you use to evaluate the health of Instagram Reels?",
+        "Design a privacy-preserving feature for Facebook that maintains user utility.",
+        "How would you improve the onboarding experience for new Facebook users?",
+        "Should Instagram add a feature that lets users see who viewed their profile? Why?",
+        "How would you reduce harmful content on Facebook while preserving free expression?",
+        "Design a commerce feature for WhatsApp in emerging markets.",
+        "How would you increase engagement in Facebook Marketplace?"
       ],
       behavioralQuestions: [
-        "Tell me about your most impactful data science project. How did it affect the business?",
-        "Describe a time when your analysis led to a counterintuitive insight.",
-        "Give an example of when you had to explain complex technical results to non-technical stakeholders.",
-        "Tell me about a time you disagreed with a product decision based on data.",
-        "Describe a situation where you had to work with messy or incomplete data.",
-        "Give an example of when you moved fast to deliver insights under tight deadlines.",
-        "Tell me about a time your model or analysis didn't work as expected.",
-        "Describe how you collaborate with product managers and engineers."
+        "Tell me about a product you shipped that you're most proud of. What was your impact?",
+        "Describe a time you made a bold decision that others disagreed with. What happened?",
+        "Give an example of when you moved fast to ship something. What trade-offs did you make?",
+        "Tell me about a product failure. What did you learn?",
+        "Describe a time you used data to change your mind about a product direction.",
+        "Give an example of when you had to influence without authority.",
+        "Tell me about a time you focused on impact over activity or process.",
+        "Describe a situation where you had to navigate ambiguity in product direction.",
+        "Give an example of when you advocated for users against business pressure.",
+        "Tell me about a time you collaborated effectively with engineers to solve a hard problem.",
+        "Describe how you've handled negative feedback on a product you owned.",
+        "Give an example of when you had to balance multiple stakeholder needs.",
+        "Tell me about a time you simplified something complex for users.",
+        "Describe how you stay current with industry trends and competitive landscape.",
+        "Give an example of when you built social value through your product work."
       ],
       whatTheyLookFor: [
-        "Strong statistical and ML fundamentals",
-        "SQL expertise and data manipulation skills",
-        "Experience with large-scale data analysis",
-        "Ability to design and analyze experiments",
-        "Product sense and business acumen",
-        "Clear communication of technical concepts",
-        "Impact-driven mindset aligned with Meta values",
-        "Collaboration skills across PM, Eng, and Research teams"
+        "Product sense: ability to identify user needs and design compelling solutions",
+        "Analytical rigor: data-driven decision making and experimentation skills",
+        "Execution: track record of shipping products that create impact",
+        "Move Fast: bias for action and iteration over perfection",
+        "Focus on Impact: prioritizing work that creates meaningful outcomes",
+        "Be Bold: willingness to make tough calls and take smart risks",
+        "Technical fluency: ability to engage in technical discussions with engineering",
+        "Communication: clear articulation of vision, strategy, and rationale",
+        "Collaboration: partnering effectively with engineering, design, and data science",
+        "User empathy: deep understanding of user needs and behavior"
       ],
       interviewTips: [
-        "Master SQL - be very comfortable with complex queries, joins, and window functions",
-        "Review statistics fundamentals: hypothesis testing, confidence intervals, p-values",
-        "Study A/B testing methodology and common pitfalls (Simpson's paradox, network effects)",
-        "Practice product analytics cases - think about metrics and user behavior",
-        "Understand Meta's products and how data drives product decisions",
-        "Be ready to discuss trade-offs in ML model selection and evaluation",
-        "Prepare examples of insights that drove business impact",
-        "Show passion for using data to improve products for billions of users"
+        "Practice product sense cases using Meta products - improve Instagram, Facebook, WhatsApp",
+        "Use structured frameworks: user personas, use cases, prioritization, metrics",
+        "Be prepared to define and analyze metrics for any product scenario",
+        "Understand A/B testing methodology and common pitfalls",
+        "Research Meta's products deeply - use them daily and form opinions",
+        "Prepare examples demonstrating impact, not just activity",
+        "Show you can move fast while maintaining quality",
+        "Understand Meta's values and prepare examples for each",
+        "Practice executive communication - clear, concise, data-driven",
+        "For behavioral questions, focus on impact and learnings",
+        "Research current Meta product challenges (privacy, content moderation, AR/VR)",
+        "Prepare questions about product areas you're genuinely interested in",
+        "Be ready to discuss trade-offs between user experience and business goals",
+        "Show passion for connecting people and building social value"
       ],
       salary: {
-        min: 135000,
-        max: 205000
+        min: 150000,
+        max: 250000
       },
       compensation: [
-        "Significant RSU grants as major component of total comp",
-        "Annual refresher grants to maintain comp competitiveness",
-        "Sign-on bonus ($30-80K for experienced candidates)",
+        "Competitive base salary at each level",
+        "Substantial RSU grants - major component of total compensation",
+        "RSUs vest quarterly after first year over 4 years",
+        "Sign-on bonus ($50-100K for experienced candidates)",
         "Semi-annual performance bonuses",
-        "Comprehensive health and wellness benefits",
-        "Free meals, gym, commuter benefits, and campus amenities"
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision insurance",
+        "Free meals on campus (breakfast, lunch, dinner)",
+        "Generous parental leave (4 months)",
+        "Annual wellness stipend",
+        "Home office setup and equipment support",
+        "Transportation and commuter benefits"
       ],
       dayInLife: {
-        overview: "Meta Data Scientists work at the intersection of data, product, and engineering. Your day includes analyzing experiments, building models, extracting insights, and collaborating with cross-functional teams to ship data-driven products.",
+        overview: "Meta PMs balance strategic thinking with day-to-day execution. Days include cross-functional collaboration, data analysis, and product planning. The culture emphasizes moving fast and making data-driven decisions.",
         schedule: [
-          {
-            time: "9:30 AM",
-            activity: "Experiment Review",
-            description: "Analyze A/B test results from Instagram Reels feature launch"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Dashboard Review",
-            description: "Check product health metrics and investigate any anomalies"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Data Deep Dive",
-            description: "SQL analysis to understand user engagement patterns"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Team Lunch",
-            description: "Grab lunch at campus cafe with fellow data scientists"
-          },
-          {
-            time: "2:00 PM",
-            activity: "ML Model Development",
-            description: "Build and train content ranking model in Python"
-          },
-          {
-            time: "3:30 PM",
-            activity: "PM Sync",
-            description: "Present analysis insights to inform product roadmap decisions"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Code Review",
-            description: "Review teammates' analysis code and models"
-          },
-          {
-            time: "6:00 PM",
-            activity: "Research Time",
-            description: "Explore new ML techniques or read recent research papers"
-          }
+          { time: "9:30 AM", activity: "Start of day", description: "Review metrics dashboards, check experiment results, catch up on Workplace" },
+          { time: "10:00 AM", activity: "Engineering sync", description: "Daily standup with engineering team on sprint progress and blockers" },
+          { time: "10:30 AM", activity: "Data analysis", description: "Deep dive into experiment results or investigate metric changes" },
+          { time: "12:00 PM", activity: "Design review", description: "Review mocks with designer and provide feedback on upcoming feature" },
+          { time: "1:00 PM", activity: "Lunch", description: "Free lunch on campus, often with cross-functional partners" },
+          { time: "2:00 PM", activity: "Strategy meeting", description: "Product strategy discussion with leadership or cross-functional alignment" },
+          { time: "3:30 PM", activity: "PRD writing", description: "Write or update product requirements document for upcoming feature" },
+          { time: "5:00 PM", activity: "1:1 meeting", description: "Weekly sync with manager on priorities, growth, and challenges" },
+          { time: "6:00 PM", activity: "Wrap up", description: "Final reviews, respond to questions, plan tomorrow's priorities" }
         ]
       },
       similarRoles: [
         { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" }
+      ]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Meta analyze data at unprecedented scale to drive product decisions that impact over 3 billion users. You'll work with some of the richest datasets in the world - billions of daily interactions across Facebook, Instagram, WhatsApp, and Messenger - applying statistical analysis, machine learning, and experimentation to understand user behavior and improve products. Meta's data science culture emphasizes business impact: you're expected to partner deeply with product and engineering teams, not just deliver analyses. The role spans product analytics (defining metrics, running experiments, deriving insights), core data science (building ML models for ranking, recommendations, and predictions), and research (advancing methodology and publishing). Data Scientists at Meta have significant autonomy and influence - your analysis can directly change product direction. The compensation is highly competitive with substantial equity, and career progression leads to Staff/Principal Data Scientist or management tracks.",
+      responsibilities: [
+        "Design and analyze large-scale experiments (A/B tests) to measure feature impact",
+        "Build dashboards and metrics frameworks to track product health at scale",
+        "Extract insights from massive datasets to inform product strategy and decisions",
+        "Develop machine learning models for ranking, recommendations, and predictions",
+        "Partner with PMs, engineers, and designers to define problems and ship solutions",
+        "Present findings and recommendations to leadership and cross-functional teams",
+        "Design metrics and success criteria for new product initiatives",
+        "Investigate metric changes and anomalies to understand root causes",
+        "Contribute to data infrastructure and tooling improvements",
+        "Mentor other data scientists and contribute to hiring"
+      ],
+      growthOpportunities: [
+        "Work with unique datasets at billions-of-users scale",
+        "Career ladder: DS → Senior DS → Staff DS → Principal DS (IC track)",
+        "Management track: DS Manager → Director → VP of Data Science",
+        "Publish research at top venues (KDD, NeurIPS, etc.)",
+        "Work on cutting-edge problems in social, AR/VR, and AI",
+        "Collaborate with Meta's AI research (FAIR) on advanced methods",
+        "High internal mobility - move between product areas and specializations",
+        "Direct impact on products used by billions",
+        "Access to massive experimentation platform and computational resources"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call to discuss your background, data science experience, and interest in Meta. The recruiter explains different DS roles (Product Analytics, Core DS, Research) and assesses basic qualifications.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute interview covering SQL, statistics, and past project discussion. You may write SQL queries to solve analytical problems. The interviewer assesses your technical skills and ability to derive insights.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site Loop (4-5 rounds)",
+          description: "Full interview day: (1) SQL/Technical round - complex data manipulation and analysis; (2) Statistics/ML round - statistical concepts, ML algorithms, experimentation methodology; (3) Product Analytics case - analyze a product problem, define metrics, make recommendations; (4) Quantitative Analysis round - open-ended analytical problem; (5) Behavioral round - Meta values and collaboration assessment.",
+          duration: "4-5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Team Matching",
+          description: "Hiring committee reviews all feedback. If approved, you'll match with teams based on interests and fit. DS roles span product teams, infrastructure, and research.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Write a SQL query to find the top 10 posts by engagement in the last week.",
+        "Design an experiment to test a major change to Instagram's feed ranking.",
+        "How would you detect if an A/B test has network effects? How would you handle this?",
+        "Build a model to predict which users are at risk of churning from Facebook.",
+        "Instagram engagement dropped 3% last week. Walk through how you'd investigate.",
+        "How would you measure the success of Facebook Groups as a product?",
+        "Design a content recommendation system for Facebook Watch.",
+        "Explain the difference between correlation and causation. Give a Meta product example.",
+        "How would you handle severe class imbalance in a fraud detection model?",
+        "Design metrics for evaluating the health of WhatsApp's business messaging.",
+        "Write SQL to calculate 7-day rolling average of DAU by country.",
+        "How would you determine the minimum sample size for an experiment?",
+        "Design an algorithm to detect coordinated inauthentic behavior at scale.",
+        "What metrics would you use to evaluate Facebook Marketplace's recommendation quality?",
+        "How would you build a model to optimize notification timing for engagement?",
+        "Explain Simpson's paradox with a Meta product example.",
+        "Design an experiment framework for testing changes to ad auction."
+      ],
+      behavioralQuestions: [
+        "Tell me about your most impactful data science project. How did you measure impact?",
+        "Describe a time your analysis changed a product decision.",
+        "Give an example of when you had to explain complex results to non-technical stakeholders.",
+        "Tell me about a time you disagreed with a PM or engineer based on data. What happened?",
+        "Describe a situation where you had to work with messy or incomplete data.",
+        "Give an example of when you moved fast to deliver insights under tight deadlines.",
+        "Tell me about a model or analysis that didn't work as expected. What did you learn?",
+        "Describe how you collaborate with product managers and engineers.",
+        "Give an example of when you proactively identified an opportunity through data exploration.",
+        "Tell me about a time you had to balance rigor with speed.",
+        "Describe a situation where you had to push back on a metric or methodology.",
+        "Give an example of when data revealed something counterintuitive.",
+        "Tell me about how you stay current with data science methods and tools.",
+        "Describe a time you helped build data science practices or infrastructure.",
+        "Give an example of demonstrating Meta values in your work."
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills: complex queries, window functions, optimization",
+        "Statistical rigor: experimentation, hypothesis testing, causal inference",
+        "ML knowledge: algorithms, model evaluation, practical application",
+        "Product sense: understanding how data insights drive product decisions",
+        "Communication: explaining technical concepts to diverse audiences",
+        "Move Fast: bias for action and iteration in analysis",
+        "Focus on Impact: prioritizing high-value analyses",
+        "Collaboration: partnering effectively with PM, Eng, and Design",
+        "Business acumen: connecting analysis to business outcomes",
+        "Intellectual curiosity: exploring data to find unexpected insights"
+      ],
+      interviewTips: [
+        "Master SQL - practice complex queries with window functions, CTEs, and aggregations",
+        "Review statistics: hypothesis testing, confidence intervals, power, sample size",
+        "Study A/B testing deeply: network effects, novelty effects, Simpson's paradox",
+        "Practice product analytics cases using Meta products",
+        "Understand Meta's products and how data drives decisions",
+        "Be ready to discuss trade-offs in ML model selection",
+        "Prepare examples of insights that drove business impact",
+        "Show you can move fast while maintaining analytical rigor",
+        "Research Meta's data science blog and published work",
+        "Practice clear communication of technical concepts",
+        "Prepare questions about teams and product areas you're interested in",
+        "Understand the difference between Product Analytics and Core DS roles",
+        "Be ready to write SQL in real-time during interviews",
+        "Demonstrate passion for using data to improve products for billions"
+      ],
+      salary: {
+        min: 145000,
+        max: 235000
+      },
+      compensation: [
+        "Competitive base salary with level-based progression",
+        "Substantial RSU grants - often exceeds base for experienced candidates",
+        "RSUs vest quarterly after first year",
+        "Sign-on bonus ($40-80K for experienced candidates)",
+        "Semi-annual performance bonuses",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision insurance",
+        "Free meals on campus (breakfast, lunch, dinner)",
+        "Generous parental leave (4 months)",
+        "Annual wellness stipend and gym access",
+        "Home office setup support",
+        "Transportation benefits"
+      ],
+      dayInLife: {
+        overview: "Meta Data Scientists partner deeply with product teams while maintaining analytical rigor. Days include SQL analysis, experiment reviews, cross-functional collaboration, and presenting insights to drive decisions.",
+        schedule: [
+          { time: "9:30 AM", activity: "Metrics review", description: "Check dashboards for overnight changes, investigate any anomalies" },
+          { time: "10:00 AM", activity: "Experiment analysis", description: "Analyze results from ongoing A/B tests, assess statistical significance" },
+          { time: "11:30 AM", activity: "PM sync", description: "Review insights with product manager, discuss implications for roadmap" },
+          { time: "12:30 PM", activity: "Lunch", description: "Free campus lunch, often with teammates or cross-functional partners" },
+          { time: "1:30 PM", activity: "Deep analysis", description: "SQL exploration to understand user behavior pattern or investigate metric change" },
+          { time: "3:30 PM", activity: "Model development", description: "Build or improve ML model for product feature" },
+          { time: "5:00 PM", activity: "DS team meeting", description: "Weekly DS sync to share learnings and discuss methodology" },
+          { time: "6:00 PM", activity: "Documentation", description: "Document analysis findings, update dashboards, plan next steps" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
         { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" }
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" }
+      ]
+    },
+    'machine-learning-engineer': {
+      roleDescription: "Machine Learning Engineers at Meta build and deploy the ML systems that power products used by over 3 billion people, from News Feed ranking and content recommendations to language understanding, computer vision, and ads optimization. You'll work at the intersection of ML research and production engineering, translating cutting-edge algorithms into systems that serve billions of inference requests per second. Meta's ML infrastructure is among the most sophisticated in the world - you'll work with custom hardware (Meta Training and Inference Accelerator), PyTorch (which Meta created), and massive distributed training systems. Unlike pure research roles, MLEs focus on production: building pipelines that train and serve models reliably at scale, optimizing for latency and throughput, and ensuring model quality in production. The role requires both deep ML knowledge and strong software engineering skills. Career growth leads to Staff and Principal MLE roles, with opportunities to transition between research and production.",
+      responsibilities: [
+        "Build and deploy ML models serving billions of predictions daily across Meta's products",
+        "Develop ML pipelines for training, evaluation, and serving at massive scale",
+        "Optimize models for production: inference latency, throughput, and resource efficiency",
+        "Collaborate with researchers to productionize new algorithms and architectures",
+        "Build tools and infrastructure to accelerate ML development across teams",
+        "Monitor model performance in production and debug quality issues",
+        "Design experiments to validate model improvements and measure impact",
+        "Contribute to Meta's open source ML projects (PyTorch, etc.)",
+        "Partner with product teams to understand requirements and deliver ML solutions",
+        "Stay current with ML research and evaluate new techniques for production"
+      ],
+      growthOpportunities: [
+        "Work on ML at unprecedented scale - billions of daily predictions",
+        "Career path: MLE → Senior MLE → Staff MLE → Principal MLE",
+        "Access to Meta's world-class ML infrastructure and custom hardware",
+        "Collaborate with FAIR (Meta AI) researchers on cutting-edge work",
+        "Contribute to open source (PyTorch, etc.) used by millions",
+        "Work on diverse ML applications: ranking, NLP, vision, recommendations, ads",
+        "Strong internal mobility between teams and product areas",
+        "Path to research (Research Scientist) or management (EM) tracks",
+        "Shape how ML is applied to products used by billions"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call to discuss your background, ML experience, and interest in Meta. The recruiter explains the MLE role and assesses basic qualifications.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute interview combining coding and ML discussion. You'll solve an algorithmic problem and discuss your ML experience. May include ML system design for senior roles.",
+          duration: "45-60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site Loop (5 rounds)",
+          description: "Full interview day: (1-2) Two coding rounds - algorithms and data structures; (2) ML Fundamentals round - deep dive into ML concepts, algorithms, and your experience; (3) ML System Design - design an end-to-end ML system for a Meta use case; (4) Behavioral round - Meta values and collaboration assessment.",
+          duration: "5 hours"
+        },
+        {
+          step: 4,
+          title: "Hiring Committee & Team Matching",
+          description: "Hiring committee reviews feedback. If approved, you'll match with teams working on areas like ranking, NLP, vision, recommendations, or ML infrastructure.",
+          duration: "1-3 weeks"
+        }
+      ],
+      technicalQuestions: [
+        "Design the ML system for Facebook News Feed ranking. How would you optimize for engagement?",
+        "Explain the transformer architecture. Why has it been so successful in NLP?",
+        "How would you design an ML pipeline to detect harmful content at scale?",
+        "Implement gradient descent from scratch. What optimizations would you add?",
+        "Design a recommendation system for Instagram Reels. How would you handle cold start?",
+        "Explain the difference between online and batch inference. When would you use each?",
+        "How would you reduce serving latency for a large neural network by 50%?",
+        "Design an ML system for Facebook's ad click prediction. What features would you use?",
+        "Explain model distillation. When would you use it in production?",
+        "How would you detect and handle model drift in production?",
+        "Design a real-time content embedding system for Instagram.",
+        "Explain different approaches to handling class imbalance. Which would you use for spam detection?",
+        "How would you design an efficient inference system for a large language model?",
+        "Implement a simple neural network forward pass. Explain backpropagation.",
+        "Design an ML system for Facebook's friend suggestion feature.",
+        "How would you A/B test a significant change to a ranking model?",
+        "Explain the trade-offs between model complexity and inference latency."
+      ],
+      behavioralQuestions: [
+        "Tell me about an ML model you shipped to production. What was the impact?",
+        "Describe a time you had to debug a model performing poorly in production.",
+        "Give an example of when you optimized an ML system for performance.",
+        "Tell me about a time you collaborated with researchers to productionize a model.",
+        "Describe a situation where you had to make trade-offs between accuracy and latency.",
+        "Give an example of when you moved fast to ship an ML improvement.",
+        "Tell me about an ML project that didn't work as expected. What did you learn?",
+        "Describe how you stay current with ML research and apply it to your work.",
+        "Give an example of when you had to explain ML concepts to non-ML engineers.",
+        "Tell me about a time you improved ML infrastructure or tooling for your team.",
+        "Describe how you approach evaluating whether ML is the right solution.",
+        "Give an example of when you had to balance experimentation with production reliability.",
+        "Tell me about a time you challenged a modeling approach and proposed an alternative.",
+        "Describe your experience with large-scale distributed training.",
+        "Give an example of demonstrating Meta values in your ML work."
+      ],
+      whatTheyLookFor: [
+        "Strong coding skills: clean, efficient implementation of ML algorithms",
+        "ML fundamentals: deep understanding of algorithms, optimization, and evaluation",
+        "System design: designing scalable ML systems for production",
+        "Production focus: experience deploying and operating ML systems at scale",
+        "Move Fast: bias for shipping and iteration",
+        "Focus on Impact: prioritizing high-value ML applications",
+        "Problem-solving: debugging complex ML systems",
+        "Collaboration: working with researchers, engineers, and product teams",
+        "Communication: explaining ML concepts and trade-offs clearly",
+        "Learning agility: keeping up with rapidly evolving ML field"
+      ],
+      interviewTips: [
+        "Practice LeetCode medium-hard for coding rounds - strong fundamentals expected",
+        "Review ML fundamentals: loss functions, optimization, regularization, evaluation",
+        "Study system design for ML: training pipelines, serving infrastructure, monitoring",
+        "Understand PyTorch deeply - Meta created it and uses it extensively",
+        "Prepare examples of shipping ML models to production with measurable impact",
+        "Be ready to discuss trade-offs: accuracy vs latency, complexity vs maintainability",
+        "Research Meta's ML blog posts and papers",
+        "Practice explaining ML concepts simply - you'll work with non-ML engineers",
+        "Understand Meta's products and how ML powers them",
+        "Be ready to design ML systems for Meta-specific use cases",
+        "Prepare questions about teams and ML focus areas you're interested in",
+        "Show passion for both ML innovation and production engineering",
+        "Practice whiteboarding ML system designs",
+        "Understand the difference between MLE and Research Scientist roles"
+      ],
+      salary: {
+        min: 155000,
+        max: 260000
+      },
+      compensation: [
+        "Premium base salary reflecting ML market demand",
+        "Substantial RSU grants - often largest component of total comp",
+        "RSUs vest quarterly after first year",
+        "Sign-on bonus ($50-100K for experienced candidates)",
+        "Semi-annual performance bonuses",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision insurance",
+        "Free meals on campus",
+        "Generous parental leave (4 months)",
+        "Annual wellness stipend",
+        "Conference attendance (NeurIPS, ICML, etc.)",
+        "Home office setup and equipment"
+      ],
+      dayInLife: {
+        overview: "Meta MLEs balance model development with production engineering. Days include training experiments, production monitoring, collaboration with researchers and product teams, and infrastructure improvements.",
+        schedule: [
+          { time: "10:00 AM", activity: "Check experiments", description: "Review overnight training runs, analyze results, adjust hyperparameters" },
+          { time: "10:30 AM", activity: "Team standup", description: "Quick sync on progress, blockers, and priorities" },
+          { time: "11:00 AM", activity: "Model development", description: "Feature engineering, model iteration, or pipeline improvements" },
+          { time: "12:30 PM", activity: "Lunch", description: "Free campus lunch, often discussing ML with teammates" },
+          { time: "1:30 PM", activity: "Research sync", description: "Meet with FAIR researchers on applying new technique to production" },
+          { time: "2:30 PM", activity: "Code review", description: "Review ML code from teammates, address feedback on your diffs" },
+          { time: "4:00 PM", activity: "Production monitoring", description: "Check model metrics, investigate any quality degradation" },
+          { time: "5:00 PM", activity: "Reading/learning", description: "Review recent papers, explore new techniques" },
+          { time: "6:00 PM", activity: "Wrap up", description: "Queue training jobs for overnight, document progress, plan tomorrow" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "OpenAI", companySlug: "openai", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
       ]
     }
   },
