@@ -15171,6 +15171,611 @@ export const rolePageContent = {
         { companyName: "Figma", companySlug: "figma", industry: "Technology" },
         { companyName: "Spotify", companySlug: "spotify", industry: "Technology" }
       ]
+    },
+    'data-engineer': {
+      roleDescription: "Data Engineers at Meta build and maintain the data infrastructure that powers products used by over 3 billion people daily. You'll design and implement data pipelines, warehouses, and analytics platforms that process petabytes of data in real-time. Meta's data engineering team works at unprecedented scale—handling data from Facebook, Instagram, WhatsApp, and Messenger across the world's largest social graph. You'll work with cutting-edge technologies including Presto (which Meta created), Spark, and proprietary distributed systems. The role emphasizes building self-service data platforms that enable thousands of analysts and data scientists to derive insights independently. Meta's data engineers are responsible for data quality, lineage, privacy compliance, and ensuring data democratization across the organization while maintaining world-class reliability and performance standards.",
+      responsibilities: [
+        "Design and build scalable data pipelines processing petabytes of daily data",
+        "Develop and maintain data warehouse architecture for analytics and ML use cases",
+        "Create self-service data platforms enabling analysts and data scientists",
+        "Implement data quality frameworks ensuring accuracy and completeness",
+        "Build real-time streaming systems for immediate data availability",
+        "Optimize query performance on Presto and Spark clusters",
+        "Design data models supporting complex business analytics requirements",
+        "Implement privacy-preserving data systems complying with global regulations",
+        "Develop data lineage and cataloging solutions for data discovery",
+        "Mentor junior engineers and establish data engineering best practices"
+      ],
+      growthOpportunities: [
+        "Architect data platforms serving Meta's entire product ecosystem",
+        "Lead data infrastructure initiatives across multiple product areas",
+        "Pioneer new approaches to privacy-preserving data analytics",
+        "Build expertise in real-time analytics at unprecedented scale",
+        "Transition to technical leadership roles managing data platform teams",
+        "Contribute to open-source projects like Presto and PyTorch",
+        "Shape data strategy for emerging products in AR/VR and AI",
+        "Develop specialization in ML infrastructure and feature platforms"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Initial conversation about background, experience with data systems, and interest in Meta's data challenges"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "45 minutes",
+          description: "SQL proficiency assessment and data modeling discussion with a data engineer"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "Python/coding interview focused on data manipulation and algorithm efficiency"
+        },
+        {
+          stage: "Onsite - SQL Deep Dive",
+          duration: "45 minutes",
+          description: "Complex SQL problems including window functions, query optimization, and schema design"
+        },
+        {
+          stage: "Onsite - System Design",
+          duration: "45 minutes",
+          description: "Design a data pipeline or warehouse architecture for a Meta-scale problem"
+        },
+        {
+          stage: "Onsite - Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of past projects, collaboration style, and alignment with Meta's values"
+        }
+      ],
+      technicalQuestions: [
+        "Design a real-time analytics pipeline for Instagram Stories views",
+        "How would you implement exactly-once processing in a distributed data pipeline?",
+        "Optimize this Presto query that's timing out on a 10TB table",
+        "Design a data model for tracking user engagement across Facebook products",
+        "How would you handle late-arriving data in a streaming pipeline?",
+        "Explain the trade-offs between Lambda and Kappa architectures",
+        "Design a system to detect data quality issues in real-time",
+        "How would you implement incremental processing for a daily batch job?",
+        "Design a privacy-compliant data warehouse with GDPR deletion requirements",
+        "How would you partition a fact table with 100B rows for optimal query performance?",
+        "Explain how you'd implement data lineage tracking across thousands of pipelines",
+        "Design a feature store for ML models serving billions of predictions daily",
+        "How would you handle schema evolution in a large-scale data lake?",
+        "Design a system for A/B test data collection and analysis",
+        "How would you implement cost attribution for shared data infrastructure?",
+        "Explain the trade-offs between row-based and columnar storage formats"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you improved data quality for a critical pipeline",
+        "Describe a situation where you had to balance data freshness with accuracy",
+        "How have you handled conflicting requirements from multiple stakeholders?",
+        "Tell me about a data project that had significant business impact",
+        "Describe a time you had to debug a complex data pipeline failure",
+        "How do you approach documentation and knowledge sharing for data systems?",
+        "Tell me about a time you simplified a complex data architecture",
+        "Describe how you've mentored others on data engineering best practices",
+        "How have you handled privacy or compliance requirements in data projects?",
+        "Tell me about a time you had to make a difficult trade-off in system design",
+        "Describe a situation where you proactively identified and fixed a data issue",
+        "How do you stay current with evolving data technologies?",
+        "Tell me about a cross-functional project where you drove alignment",
+        "Describe a time you had to optimize costs for data infrastructure",
+        "How have you handled data incidents or outages?"
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills including complex queries, optimization, and data modeling",
+        "Experience with large-scale data processing frameworks (Spark, Presto, Hive)",
+        "Python or Scala proficiency for data pipeline development",
+        "Understanding of distributed systems and data infrastructure",
+        "Track record of building reliable, maintainable data systems",
+        "Experience with both batch and streaming data processing",
+        "Data quality mindset and attention to correctness",
+        "Ability to communicate technical concepts to non-technical stakeholders",
+        "Self-direction and ownership mentality",
+        "Collaborative approach to solving cross-functional problems"
+      ],
+      interviewTips: [
+        "Practice complex SQL including window functions, CTEs, and query optimization",
+        "Be ready to discuss data modeling trade-offs for different use cases",
+        "Prepare examples of pipelines you've built and their business impact",
+        "Study distributed data processing concepts and failure handling",
+        "Understand Meta's data stack including Presto, Spark, and Hive",
+        "Practice system design for data-intensive applications",
+        "Be prepared to discuss data quality and testing strategies",
+        "Research Meta's data scale and unique infrastructure challenges",
+        "Have clear examples of cross-functional collaboration",
+        "Understand privacy implications of data engineering decisions",
+        "Practice explaining technical decisions to non-technical audiences",
+        "Be ready to discuss real-time vs batch processing trade-offs",
+        "Prepare questions about Meta's data culture and challenges",
+        "Show enthusiasm for working at unprecedented data scale"
+      ],
+      salary: {
+        min: 160000,
+        max: 280000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $160,000 - $280,000 depending on level (E4-E6)",
+        "Annual RSU grants vesting over 4 years",
+        "Annual bonus typically 10-20% of base",
+        "Sign-on bonus and equity refresh grants",
+        "401(k) with 50% match up to IRS limit",
+        "Comprehensive health, dental, and vision coverage",
+        "$3,000 annual wellness reimbursement",
+        "Free meals and snacks at all offices",
+        "Generous parental leave (up to 20 weeks)",
+        "Life insurance and disability coverage"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Data Engineer at Meta involves building and maintaining data infrastructure at massive scale while collaborating across product teams.",
+        schedule: [
+          "9:00 AM - Check pipeline health dashboards and address any overnight alerts",
+          "9:30 AM - Daily standup with data platform team discussing sprint progress",
+          "10:00 AM - Deep work on new Spark pipeline for user engagement metrics",
+          "12:00 PM - Lunch with teammates and informal tech discussions",
+          "1:00 PM - Office hours helping product analysts optimize their queries",
+          "2:00 PM - Design review for new data model supporting Reels analytics",
+          "3:30 PM - Code review for teammate's privacy-compliant data deletion job",
+          "4:30 PM - Cross-functional meeting with ML team on feature store requirements",
+          "5:30 PM - Documentation and wrap-up, planning tomorrow's priorities"
+        ],
+        closing: "The role offers the unique opportunity to work on data systems that directly impact billions of users while contributing to Meta's culture of technical excellence."
+      },
+      similarRoles: ["Software Engineer", "Machine Learning Engineer", "Data Scientist", "Production Engineer"]
+    },
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Meta lead teams building products that connect billions of people worldwide. You'll manage teams of 5-12 engineers, balancing people development with technical execution and strategic planning. Meta's engineering culture emphasizes manager-as-coach, where you're expected to grow engineers' careers while delivering high-impact projects. The role requires both technical credibility to guide architectural decisions and leadership skills to build high-performing teams. Meta's flat organizational structure means managers have significant autonomy and direct impact on product direction. You'll work closely with product managers, designers, and data scientists in cross-functional pods while representing your team's capabilities and capacity. The company's move fast culture requires managers who can navigate ambiguity, make quick decisions, and adapt to rapidly changing priorities while maintaining team health and morale.",
+      responsibilities: [
+        "Lead and develop a team of 5-12 software engineers",
+        "Drive technical roadmap and architecture decisions for your team's domain",
+        "Partner with product and design on feature prioritization and planning",
+        "Conduct regular 1:1s focused on career development and feedback",
+        "Manage performance including calibrations, reviews, and promotions",
+        "Recruit and hire top engineering talent through interviewing and selling",
+        "Remove blockers and ensure team has resources to succeed",
+        "Foster inclusive team culture aligned with Meta's values",
+        "Balance technical debt with feature development priorities",
+        "Coordinate with other teams and managers on cross-cutting initiatives"
+      ],
+      growthOpportunities: [
+        "Progress to Director managing multiple teams and managers",
+        "Expand scope to own larger product areas or infrastructure domains",
+        "Develop expertise in organizational design and team building",
+        "Transition to different product areas within Meta's ecosystem",
+        "Build executive presence and influence company-wide initiatives",
+        "Mentor other managers and shape engineering management practices",
+        "Lead major organizational changes or team formations",
+        "Develop strategic planning skills at increasing organizational levels"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of management background, team size, and interest in Meta's challenges"
+        },
+        {
+          stage: "Hiring Manager Screen",
+          duration: "45-60 minutes",
+          description: "Deep dive into management philosophy, past team performance, and leadership style"
+        },
+        {
+          stage: "Onsite - Technical Assessment",
+          duration: "45 minutes",
+          description: "Coding or system design interview to assess technical credibility"
+        },
+        {
+          stage: "Onsite - People Management",
+          duration: "45 minutes",
+          description: "Scenarios covering performance management, difficult conversations, and team building"
+        },
+        {
+          stage: "Onsite - Project/Execution",
+          duration: "45 minutes",
+          description: "Discussion of how you've delivered complex projects and managed trade-offs"
+        },
+        {
+          stage: "Onsite - Cross-functional Leadership",
+          duration: "45 minutes",
+          description: "Scenarios about working with product, design, and navigating organizational dynamics"
+        }
+      ],
+      technicalQuestions: [
+        "How would you approach a system design review for a major new feature?",
+        "Describe how you'd evaluate build vs buy decisions for your team",
+        "How do you stay technically current while managing a team?",
+        "What's your approach to technical debt prioritization?",
+        "How would you handle an engineer who wants to rewrite a critical system?",
+        "Describe how you'd structure a team for a new product initiative",
+        "How do you ensure code quality and engineering best practices?",
+        "What metrics do you track to measure engineering team health?",
+        "How would you approach migrating a legacy system with your team?",
+        "Describe your experience with incident management and on-call",
+        "How do you balance innovation time with delivery commitments?",
+        "What's your approach to architecture review and technical governance?",
+        "How have you scaled engineering processes as your team grew?",
+        "Describe how you'd handle a major production incident"
+      ],
+      behavioralQuestions: [
+        "Tell me about a time you turned around an underperforming team member",
+        "Describe a situation where you had to deliver difficult feedback",
+        "How have you handled a conflict between two engineers on your team?",
+        "Tell me about a time you had to push back on product requirements",
+        "Describe your approach to promoting diversity and inclusion on your team",
+        "How have you handled a situation where you disagreed with your manager?",
+        "Tell me about a hiring decision you regretted and what you learned",
+        "Describe a time you had to make a difficult prioritization decision",
+        "How have you developed an engineer from mid-level to senior?",
+        "Tell me about a project that failed and how you handled it with your team",
+        "Describe how you've built trust with a new team",
+        "How have you managed through organizational change or uncertainty?",
+        "Tell me about a time you had to let someone go",
+        "Describe how you balance being hands-on vs delegating",
+        "How have you handled burnout or morale issues on your team?"
+      ],
+      whatTheyLookFor: [
+        "Proven track record of building and leading high-performing teams",
+        "Technical credibility to guide architectural decisions",
+        "Strong communication and stakeholder management skills",
+        "Experience with performance management and career development",
+        "Ability to recruit and retain top engineering talent",
+        "Track record of delivering complex projects on time",
+        "Inclusive leadership style that values diverse perspectives",
+        "Strategic thinking balanced with execution focus",
+        "Resilience and adaptability in fast-paced environments",
+        "Alignment with Meta's move fast and build culture"
+      ],
+      interviewTips: [
+        "Prepare specific examples with quantifiable team outcomes",
+        "Be ready to demonstrate technical depth through system design",
+        "Have clear frameworks for common management scenarios",
+        "Research Meta's engineering culture and management philosophy",
+        "Prepare examples of developing engineers' careers",
+        "Be honest about management mistakes and what you learned",
+        "Show how you balance people development with delivery",
+        "Demonstrate cross-functional leadership experience",
+        "Have examples of navigating ambiguity and change",
+        "Prepare thoughtful questions about the team and challenges",
+        "Show genuine passion for growing and developing people",
+        "Be ready to discuss how you'd handle Meta-specific scenarios",
+        "Demonstrate data-driven approach to team management",
+        "Show how you build inclusive team cultures"
+      ],
+      salary: {
+        min: 220000,
+        max: 380000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $220,000 - $380,000 depending on level (M1-M2)",
+        "Significant RSU grants vesting over 4 years",
+        "Annual bonus typically 15-25% of base",
+        "Sign-on bonus common for external hires",
+        "Annual equity refresh based on performance",
+        "401(k) with 50% match up to IRS limit",
+        "Premium health, dental, and vision coverage",
+        "$3,000 annual wellness reimbursement",
+        "Generous parental leave (up to 20 weeks)",
+        "Executive benefits at senior levels"
+      ],
+      dayInLife: {
+        intro: "A typical day as an Engineering Manager at Meta involves balancing people leadership with technical guidance while partnering closely with cross-functional stakeholders.",
+        schedule: [
+          "9:00 AM - Review team's pull requests and provide technical feedback",
+          "9:30 AM - 1:1 with senior engineer discussing promotion readiness",
+          "10:00 AM - Team standup and sprint planning discussion",
+          "10:30 AM - Cross-functional sync with product manager and designer",
+          "11:30 AM - Interview candidate for open position on team",
+          "12:30 PM - Lunch with new team member for onboarding check-in",
+          "1:30 PM - Technical design review for upcoming feature",
+          "2:30 PM - Manager peer sync discussing organizational challenges",
+          "3:30 PM - Performance calibration meeting with skip-level manager",
+          "4:30 PM - 1:1 with engineer working through technical challenge",
+          "5:30 PM - Planning and email catch-up, preparing for tomorrow"
+        ],
+        closing: "The role provides the opportunity to directly impact product development while growing engineers' careers and building exceptional teams at Meta."
+      },
+      similarRoles: ["Software Engineer", "Technical Program Manager", "Product Manager", "Director of Engineering"]
+    },
+    'solutions-engineer': {
+      roleDescription: "Solutions Engineers at Meta serve as the technical bridge between Meta's business platforms and enterprise customers. You'll work with Meta's advertising, business messaging, and workplace products to help large organizations maximize their investment in Meta's platforms. The role combines deep technical expertise with consultative selling skills, requiring you to understand complex customer requirements and design solutions using Meta's APIs, SDKs, and partner integrations. Solutions Engineers support the sales process through technical discovery, proof-of-concept development, and implementation guidance. At Meta's scale, you'll work with Fortune 500 companies, major agencies, and strategic partners across industries. The role offers unique insight into how businesses leverage social platforms for marketing, customer engagement, and enterprise collaboration, while contributing to product feedback that shapes Meta's B2B roadmap.",
+      responsibilities: [
+        "Lead technical discovery and requirements gathering with enterprise customers",
+        "Design and present solutions using Meta's advertising and business APIs",
+        "Build proof-of-concept integrations demonstrating Meta platform capabilities",
+        "Support sales team with technical expertise throughout the deal cycle",
+        "Conduct technical workshops and training for customer engineering teams",
+        "Troubleshoot complex integration issues and escalate product bugs",
+        "Gather customer feedback to inform product roadmap priorities",
+        "Create technical documentation and implementation guides",
+        "Partner with product teams on beta programs and early access features",
+        "Maintain expertise across Meta's evolving business platform ecosystem"
+      ],
+      growthOpportunities: [
+        "Progress to senior solutions architect roles for strategic accounts",
+        "Transition to product management for Meta's business platforms",
+        "Move into technical account management with deeper customer relationships",
+        "Develop expertise in specific verticals like retail, gaming, or finance",
+        "Lead solutions engineering teams as a manager or regional lead",
+        "Transition to partner engineering working with platform partners",
+        "Move into developer relations or developer advocacy roles",
+        "Contribute to Meta's B2B strategy at a leadership level"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Initial discussion of background, technical sales experience, and interest in Meta's business platforms"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "45 minutes",
+          description: "Deep dive into solutions engineering experience and customer-facing skills"
+        },
+        {
+          stage: "Technical Assessment",
+          duration: "60 minutes",
+          description: "Coding or API integration exercise demonstrating technical proficiency"
+        },
+        {
+          stage: "Customer Scenario Presentation",
+          duration: "60 minutes",
+          description: "Present a solution design for a mock customer scenario to panel"
+        },
+        {
+          stage: "Cross-functional Interview",
+          duration: "45 minutes",
+          description: "Discussion with sales and product partners about collaboration approach"
+        }
+      ],
+      technicalQuestions: [
+        "How would you design an integration with Meta's Marketing API for a large retailer?",
+        "Explain how you'd troubleshoot a customer's conversion tracking issues",
+        "Design a solution for syncing offline sales data with Meta's ad platform",
+        "How would you approach migrating a customer from a legacy integration?",
+        "Explain the OAuth flow for Meta's Business API authentication",
+        "How would you design a WhatsApp Business API integration for customer support?",
+        "Describe how you'd handle rate limiting in a high-volume API integration",
+        "How would you implement a real-time bidding integration with Meta's ad platform?",
+        "Explain how you'd architect a solution for cross-platform attribution",
+        "Design a system for automated ad creative generation using Meta's APIs",
+        "How would you troubleshoot discrepancies between customer data and Meta reporting?",
+        "Explain Meta's Conversions API and when you'd recommend it over pixel tracking",
+        "Design a solution for a marketplace seller managing thousands of product catalogs",
+        "How would you approach a privacy-compliant integration post-iOS 14.5?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex technical solution you designed for a customer",
+        "Describe a time you had to explain a technical limitation to a frustrated customer",
+        "How have you handled a situation where a customer's requirements couldn't be met?",
+        "Tell me about a time you influenced a product team based on customer feedback",
+        "Describe a challenging proof-of-concept you built and the outcome",
+        "How have you managed competing priorities across multiple customer engagements?",
+        "Tell me about a time you had to quickly learn a new technology for a customer",
+        "Describe a situation where you had to push back on a sales team's commitment",
+        "How have you built relationships with technical stakeholders at customers?",
+        "Tell me about a time you turned around a difficult customer relationship",
+        "Describe how you've handled ambiguity in customer requirements",
+        "How have you contributed to improving your team's processes or documentation?",
+        "Tell me about a time you collaborated with product engineering on a customer issue",
+        "Describe a time you had to deliver bad news to a customer"
+      ],
+      whatTheyLookFor: [
+        "Strong programming skills (Python, JavaScript, or similar languages)",
+        "Experience with REST APIs and modern integration patterns",
+        "Customer-facing presence and communication skills",
+        "Ability to translate business requirements into technical solutions",
+        "Experience with advertising technology or MarTech platforms",
+        "Problem-solving skills for complex technical challenges",
+        "Project management abilities for multi-stakeholder engagements",
+        "Self-motivation and ability to work independently",
+        "Curiosity about Meta's products and business platforms",
+        "Balance of technical depth and business acumen"
+      ],
+      interviewTips: [
+        "Study Meta's Business Platform products (Marketing API, Conversions API, WhatsApp Business)",
+        "Prepare to demonstrate coding skills with API integration scenarios",
+        "Practice presenting technical solutions to non-technical audiences",
+        "Have examples ready of customer-facing technical sales experience",
+        "Understand Meta's advertising ecosystem and measurement solutions",
+        "Be ready to whiteboard solution architectures",
+        "Prepare questions about the team's customer portfolio and challenges",
+        "Research privacy changes affecting digital advertising",
+        "Show enthusiasm for helping customers succeed with technology",
+        "Be ready to discuss how you stay current with platform changes",
+        "Prepare examples of cross-functional collaboration",
+        "Demonstrate understanding of enterprise sales cycles",
+        "Have examples of handling difficult customer situations",
+        "Show how you balance customer advocacy with business needs"
+      ],
+      salary: {
+        min: 150000,
+        max: 260000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $150,000 - $260,000 depending on level",
+        "RSU grants vesting over 4 years",
+        "Annual bonus based on performance and team goals",
+        "Sign-on bonus for experienced hires",
+        "401(k) with 50% match up to IRS limit",
+        "Comprehensive health, dental, and vision coverage",
+        "$3,000 annual wellness reimbursement",
+        "Travel benefits for customer engagements",
+        "Home office setup stipend",
+        "Professional development and certification support"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Solutions Engineer at Meta involves balancing customer engagements with technical work and internal collaboration across product and sales teams.",
+        schedule: [
+          "8:30 AM - Review customer support tickets and escalations from overnight",
+          "9:00 AM - Technical discovery call with agency evaluating Meta's Conversions API",
+          "10:30 AM - Build proof-of-concept for retailer's product catalog integration",
+          "12:00 PM - Lunch and learn session on new WhatsApp Business API features",
+          "1:00 PM - Internal sync with product team on beta customer feedback",
+          "2:00 PM - Technical workshop with customer's engineering team on implementation",
+          "3:30 PM - Update documentation for common integration patterns",
+          "4:30 PM - Strategy call with sales team on upcoming enterprise opportunity",
+          "5:30 PM - Respond to customer questions and plan tomorrow's activities"
+        ],
+        closing: "The role provides a unique blend of technical work and customer engagement, with the satisfaction of helping businesses succeed on Meta's platforms."
+      },
+      similarRoles: ["Software Engineer", "Technical Program Manager", "Product Manager", "Partner Engineer"]
+    },
+    'security-engineer': {
+      roleDescription: "Security Engineers at Meta protect the digital lives of over 3 billion people across Facebook, Instagram, WhatsApp, and Messenger. You'll work on some of the most challenging security problems in the industry—from protecting user accounts and data to securing infrastructure at unprecedented scale. Meta's security team operates across multiple domains including product security, infrastructure security, detection and response, and offensive security. The role requires both deep technical expertise and an adversarial mindset to anticipate and defend against sophisticated threats. You'll collaborate with product teams to build security into features from the ground up, develop detection systems for abuse and attacks, and respond to security incidents affecting billions of users. Meta's security culture emphasizes proactive defense, automation at scale, and a hacker mentality where security engineers are empowered to find and fix vulnerabilities across the entire stack.",
+      responsibilities: [
+        "Conduct security reviews of new features and architectural designs",
+        "Identify and remediate vulnerabilities through code review and penetration testing",
+        "Build automated security tooling and detection systems at scale",
+        "Respond to security incidents and conduct forensic investigations",
+        "Develop security training and guidance for engineering teams",
+        "Evaluate and improve security of third-party integrations and dependencies",
+        "Design and implement security controls for data protection and privacy",
+        "Collaborate with abuse and integrity teams on threat detection",
+        "Contribute to bug bounty program triage and vulnerability assessment",
+        "Stay current on emerging threats and attack techniques"
+      ],
+      growthOpportunities: [
+        "Specialize in domains like offensive security, cryptography, or detection engineering",
+        "Lead security initiatives for major product areas",
+        "Progress to principal engineer shaping company-wide security strategy",
+        "Transition to security management leading teams of engineers",
+        "Contribute to industry security standards and open-source projects",
+        "Develop expertise in emerging areas like AI security or quantum cryptography",
+        "Build Meta's external security reputation through research and talks",
+        "Move into privacy engineering combining security and data protection"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of security background, areas of expertise, and interest in Meta's security challenges"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Security-focused technical interview covering a specific domain area"
+        },
+        {
+          stage: "Onsite - Security Deep Dive",
+          duration: "45 minutes",
+          description: "Deep technical interview in your area of security expertise"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "Programming interview with security-relevant problem solving"
+        },
+        {
+          stage: "Onsite - Security Design",
+          duration: "45 minutes",
+          description: "Design secure systems or threat model a product feature"
+        },
+        {
+          stage: "Onsite - Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of past security work, collaboration, and alignment with Meta's values"
+        }
+      ],
+      technicalQuestions: [
+        "How would you approach a security review of a new Instagram feature?",
+        "Design a system to detect compromised user accounts at scale",
+        "Walk through how you'd investigate a potential data breach",
+        "How would you implement end-to-end encryption for a messaging feature?",
+        "Design a secure authentication system for 3 billion users",
+        "How would you detect and prevent credential stuffing attacks?",
+        "Explain how you'd secure a microservices architecture",
+        "Design a secrets management system for Meta's infrastructure",
+        "How would you approach securing a machine learning pipeline?",
+        "Walk through a vulnerability you've discovered and how you exploited it",
+        "How would you design a web application firewall for Meta's scale?",
+        "Explain how you'd implement certificate transparency monitoring",
+        "Design a system for detecting malicious third-party applications",
+        "How would you secure Meta's software supply chain?",
+        "Walk through how you'd respond to a zero-day in a critical dependency",
+        "Design a privacy-preserving logging system for security monitoring"
+      ],
+      behavioralQuestions: [
+        "Tell me about a significant vulnerability you discovered and remediated",
+        "Describe a time you had to convince a team to fix a security issue",
+        "How have you handled a situation where security conflicted with a product deadline?",
+        "Tell me about a security incident you responded to and lessons learned",
+        "Describe how you've improved security culture on a team or organization",
+        "How have you balanced security with user experience?",
+        "Tell me about a time you had to make a difficult risk-based decision",
+        "Describe a security project you led from conception to completion",
+        "How have you stayed current with evolving security threats?",
+        "Tell me about a time you collaborated with non-security engineers effectively",
+        "Describe a situation where you had to explain a complex security issue to leadership",
+        "How have you handled pushback on security recommendations?",
+        "Tell me about a time you had to triage multiple security issues",
+        "Describe how you've mentored others in security practices",
+        "How have you contributed to the broader security community?"
+      ],
+      whatTheyLookFor: [
+        "Deep expertise in at least one security domain with broad knowledge across others",
+        "Strong programming skills for building security tooling",
+        "Adversarial mindset and creative approach to finding vulnerabilities",
+        "Experience with security at scale in large, complex environments",
+        "Track record of discovering and responsibly disclosing vulnerabilities",
+        "Ability to communicate security risks to technical and non-technical audiences",
+        "Collaborative approach to working with product teams",
+        "Commitment to continuous learning in rapidly evolving field",
+        "Understanding of privacy and regulatory compliance considerations",
+        "Passion for protecting users and their data"
+      ],
+      interviewTips: [
+        "Be prepared to go deep in your area of security expertise",
+        "Have concrete examples of vulnerabilities you've found and fixed",
+        "Practice explaining security concepts to non-security engineers",
+        "Study Meta's products and think about their security challenges",
+        "Be ready to write code for security-relevant problems",
+        "Prepare threat models for common application architectures",
+        "Research Meta's bug bounty program and public security work",
+        "Have opinions on current security trends and threats",
+        "Be ready to discuss trade-offs between security and usability",
+        "Prepare examples of influencing security culture",
+        "Study common web and mobile security vulnerabilities",
+        "Be ready to discuss incident response experience",
+        "Show passion for protecting users at scale",
+        "Have thoughtful questions about Meta's security organization"
+      ],
+      salary: {
+        min: 170000,
+        max: 320000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $170,000 - $320,000 depending on level (E4-E7)",
+        "RSU grants vesting over 4 years",
+        "Annual bonus typically 10-20% of base",
+        "Sign-on bonus for experienced security professionals",
+        "Annual equity refresh based on performance",
+        "401(k) with 50% match up to IRS limit",
+        "Comprehensive health, dental, and vision coverage",
+        "$3,000 annual wellness reimbursement",
+        "Security conference attendance and training budget",
+        "Recognition through internal security awards program"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Security Engineer at Meta involves proactive security work, collaboration with product teams, and staying ahead of emerging threats.",
+        schedule: [
+          "9:00 AM - Review overnight security alerts and bug bounty submissions",
+          "9:30 AM - Security team standup discussing ongoing projects and incidents",
+          "10:00 AM - Security design review for new Messenger feature",
+          "11:30 AM - Deep dive into suspicious activity flagged by detection systems",
+          "12:30 PM - Lunch with security team and informal threat intelligence sharing",
+          "1:30 PM - Code review for security-critical authentication changes",
+          "2:30 PM - Build automated scanning tool for common vulnerability patterns",
+          "4:00 PM - Office hours helping product engineers with security questions",
+          "5:00 PM - Research time exploring new attack techniques and defenses",
+          "6:00 PM - Wrap up and document findings from the day"
+        ],
+        closing: "The role offers the opportunity to protect billions of users while working on cutting-edge security challenges with some of the best security engineers in the industry."
+      },
+      similarRoles: ["Software Engineer", "Production Engineer", "Data Engineer", "Privacy Engineer"]
     }
   },
   'apple': {
