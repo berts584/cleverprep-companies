@@ -24285,3446 +24285,1554 @@ export const rolePageContent = {
 
   'airbnb': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Airbnb build technology that creates a world where anyone can belong anywhere, serving millions of hosts and guests across 220+ countries. You'll work on challenging problems in trust and safety, search and discovery, payments, and global platform infrastructure. Airbnb is known for its rigorous technical standards, strong design culture, and core values.",
-
+      title: 'Software Engineer',
+      slug: 'software-engineer',
+      industry: 'Technology',
+      roleDescription: `Software Engineers at Airbnb build the platforms and systems that connect millions of travelers with unique accommodations and experiences worldwide. Working across teams like Pricing & Availability, Guest Growth, Host Success, and Core Platform, you'll tackle complex distributed systems challenges while maintaining the reliability that hosts and guests depend on. Airbnb's engineering culture emphasizes craftsmanship, shipping products that delight users, and maintaining systems that handle massive scale during peak travel seasons. Engineers work in a highly collaborative environment where product, design, and engineering partner closely to create experiences that feel magical. The company's "belong anywhere" mission drives technical decisions, whether you're optimizing search algorithms, building real-time messaging systems, or ensuring payment reliability across 220+ countries. Airbnb uses a modern tech stack including React, Java, Kotlin, and extensive internal tooling, with strong emphasis on testing, code review, and documentation. The interview process heavily weighs cultural fit through their core values assessment alongside technical skills.`,
       responsibilities: [
-        "Build scalable services for Airbnb's marketplace, booking, or platform infrastructure",
-        "Design and implement features for host, guest, or experience-related products",
-        "Work on trust and safety systems to ensure platform quality",
-        "Collaborate with design, product, and data science teams in cross-functional pods",
-        "Own features end-to-end from design through deployment and monitoring"
+        'Design and implement scalable backend services handling millions of bookings and searches daily',
+        'Build responsive web and mobile experiences using React and native technologies',
+        'Collaborate with product managers and designers to ship features that improve host and guest experiences',
+        'Write clean, well-tested code following Airbnb\'s engineering best practices and style guides',
+        'Participate in on-call rotations to ensure platform reliability during peak travel periods',
+        'Mentor junior engineers and contribute to team technical decisions and architecture reviews',
+        'Optimize system performance to handle seasonal traffic spikes and global growth',
+        'Contribute to internal tools and frameworks that improve developer productivity across the company'
       ],
-
       growthOpportunities: [
-        "Work on products serving millions of hosts and travelers globally",
-        "Strong design and product culture with emphasis on craft and quality",
-        "Tackle challenging problems in trust, search, and marketplace dynamics",
-        "Competitive compensation with significant equity",
-        "Opportunity to travel and experience Airbnb listings worldwide"
+        'Progress through IC levels from L4 to Staff (L6) and Principal (L7) engineering tracks',
+        'Transition into engineering management while maintaining technical involvement',
+        'Lead cross-functional initiatives spanning multiple teams and product areas',
+        'Become a domain expert in areas like payments, search, pricing algorithms, or trust & safety',
+        'Contribute to open source projects and represent Airbnb at industry conferences',
+        'Shape technical strategy and architecture for major product initiatives',
+        'Build expertise in emerging technologies like ML-powered personalization'
       ],
-
       interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your background, interest in Airbnb's mission, and role fit. Overview of Airbnb's culture and core values.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Coding interview focusing on algorithms, data structures, and problem-solving. Discussion of past technical work.",
-          duration: "45-60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (5-6 rounds)",
-          description: "Multiple interviews including coding (2 rounds), system design (1-2 rounds), past experience deep dive, and core values. Known for rigorous evaluation.",
-          duration: "5-6 hours"
-        },
-        {
-          step: 4,
-          title: "Cross-functional Review",
-          description: "Final discussion with cross-functional team members to assess collaboration fit and values alignment.",
-          duration: "30-45 minutes"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial call covering background, experience, and role fit with discussion of Airbnb\'s mission and culture' },
+        { stage: 'Technical Phone Screen', description: '60-minute coding interview via CoderPad focusing on algorithms, data structures, and problem-solving approach' },
+        { stage: 'Onsite - Coding Rounds', description: 'Two 45-minute coding interviews testing algorithms, system design thinking, and code quality' },
+        { stage: 'Onsite - System Design', description: '45-minute system design discussion for designing scalable systems relevant to Airbnb\'s domain' },
+        { stage: 'Onsite - Core Values', description: 'Behavioral interview assessing alignment with Airbnb\'s four core values: Champion the Mission, Be a Host, Embrace the Adventure, Be a Cereal Entrepreneur' },
+        { stage: 'Hiring Committee Review', description: 'Cross-functional committee reviews all feedback for final hiring decision with strong emphasis on values fit' }
       ],
-
       technicalQuestions: [
-        "Design Airbnb's search and ranking system for listings",
-        "Implement a calendar availability system for hosts",
-        "Design the booking and payment flow for reservations",
-        "How would you detect fraudulent listings or users?",
-        "Design the review and rating system for hosts and guests",
-        "Implement dynamic pricing recommendations for hosts",
-        "Design a recommendation engine for Airbnb experiences",
-        "How would you handle overbooking or double bookings?",
-        "Design the messaging system between hosts and guests",
-        "Implement smart pricing based on demand and seasonality"
+        'Design a search ranking system that balances relevance, availability, and host quality scores',
+        'How would you implement a real-time pricing system that adjusts based on demand and local events?',
+        'Design a messaging system that supports conversations between hosts and guests across time zones',
+        'How would you build a review system that detects fraudulent or biased reviews?',
+        'Implement an algorithm to match guests with listings based on preferences and past behavior',
+        'How would you design a calendar availability system that handles complex booking rules?',
+        'Design a notification system that reaches users across email, push, and SMS without overwhelming them',
+        'How would you implement search autocomplete with personalization based on user history?',
+        'Design a system to detect and prevent payment fraud across 220+ countries',
+        'How would you build a recommendation engine for Airbnb Experiences?',
+        'Implement a rate limiter that protects APIs while ensuring legitimate users aren\'t blocked',
+        'How would you design the data pipeline for real-time analytics on booking patterns?',
+        'Design a system for dynamic pricing that considers seasonality, events, and competitor rates',
+        'How would you implement instant book verification that maintains host control?',
+        'Design a photo ranking algorithm that showcases listings most effectively',
+        'How would you build a system to handle partial refunds for complex multi-night bookings?'
       ],
-
       behavioralQuestions: [
-        "Tell me about a time when you championed a mission-driven project",
-        "Describe a situation where you had to balance user needs with business goals",
-        "How have you demonstrated 'be a host' in your work?",
-        "Tell me about a time when you challenged the status quo",
-        "Describe a project where craft and quality were paramount",
-        "How do you handle disagreement with design or product decisions?",
-        "Tell me about a time when you embraced the adventure of uncertainty",
-        "Describe how you've built trust with teammates or stakeholders"
+        'Tell me about a time you championed a mission or cause you believed in despite obstacles',
+        'Describe a situation where you went above and beyond to help a teammate or customer (Be a Host)',
+        'Tell me about a time you embraced adventure and tried something completely new',
+        'Describe a creative solution you developed that others thought was unconventional (Be a Cereal Entrepreneur)',
+        'How have you built belonging in your previous teams or communities?',
+        'Tell me about a project where you had to balance technical excellence with shipping quickly',
+        'Describe a time you received critical feedback and how you responded',
+        'How do you approach working with team members from different cultural backgrounds?',
+        'Tell me about a time you simplified a complex problem for non-technical stakeholders',
+        'Describe a situation where you had to make a difficult trade-off decision',
+        'How have you contributed to building an inclusive engineering culture?',
+        'Tell me about a time you failed and what you learned from the experience',
+        'Describe how you\'ve mentored or helped grow other engineers',
+        'Tell me about a time you had to push back on a product requirement'
       ],
-
       whatTheyLookFor: [
-        "Strong coding skills with emphasis on clean, maintainable code",
-        "Experience with distributed systems and two-sided marketplaces",
-        "Alignment with Airbnb's core values (Champion the Mission, Be a Host, etc.)",
-        "Design sensibility and appreciation for craft",
-        "Customer empathy and understanding of travel experiences",
-        "Collaborative mindset across design, product, and engineering",
-        "Systems thinking for complex marketplace problems",
-        "Passion for Airbnb's mission of belonging"
+        'Strong alignment with Airbnb\'s mission of creating a world where anyone can belong anywhere',
+        'Technical excellence combined with product intuition and user empathy',
+        'Collaborative mindset with ability to partner effectively across functions',
+        'Creative problem-solving approach (the "Cereal Entrepreneur" mindset)',
+        'Experience building systems at scale with focus on reliability and performance',
+        'Strong communication skills and ability to explain complex concepts clearly',
+        'Growth mindset with genuine curiosity and desire to continuously learn',
+        'Demonstrated ability to ship impactful products that improve user experiences',
+        'Cultural sensitivity and appreciation for diverse perspectives',
+        'Balance of pragmatism and craftsmanship in engineering approach'
       ],
-
       interviewTips: [
-        "Use Airbnb extensively - book stays, understand the host and guest experience",
-        "Study Airbnb's core values deeply - they're central to the interview",
-        "Prepare examples demonstrating craft, quality, and attention to detail",
-        "Understand marketplace dynamics and trust and safety challenges",
-        "Show design sensibility and product thinking",
-        "Research Airbnb's engineering blog and technical challenges",
-        "Be ready for both technical depth and values assessment",
-        "Ask about the team's mission, impact, and connection to Airbnb's values"
+        'Deeply research Airbnb\'s four core values and prepare specific examples demonstrating each',
+        'Practice coding problems on CoderPad - Airbnb uses this platform exclusively',
+        'Prepare system design answers using Airbnb\'s domain (bookings, search, messaging, payments)',
+        'Show genuine passion for travel and creating belonging - this matters significantly',
+        'Be ready to discuss how you\'ve built inclusive environments or communities',
+        'Study Airbnb\'s tech blog for insights into their engineering challenges and solutions',
+        'Prepare thoughtful questions about team culture and how values are practiced daily',
+        'Practice explaining your thought process clearly - communication is heavily weighted',
+        'Review Airbnb\'s product thoroughly as both a guest and host perspective',
+        'Be authentic in values interviews - interviewers are trained to detect rehearsed answers',
+        'Prepare examples of creative or unconventional solutions you\'ve implemented',
+        'Show how you balance technical quality with practical shipping constraints',
+        'Discuss experiences working with global or distributed teams',
+        'Research recent Airbnb product launches and be ready to discuss them technically'
       ],
-
+      salary: { min: 160000, max: 260000 },
+      compensation: [
+        'Competitive base salary with significant equity grants (RSUs)',
+        'Annual refresher grants based on performance and level',
+        '$2,000 annual travel credit to use on Airbnb stays and Experiences',
+        'Comprehensive health, dental, and vision insurance',
+        'Generous parental leave policy (up to 22 weeks)',
+        'Flexible PTO with encouragement to actually take vacation',
+        '401(k) with company match',
+        'Learning and development budget for conferences and courses',
+        'Home office setup stipend for remote work',
+        'Monthly wellness and fitness reimbursement'
+      ],
       dayInLife: {
-        overview: "Airbnb engineers work in cross-functional pods with designers and PMs, emphasizing craft and collaboration. Your day includes coding, design reviews, cross-functional collaboration, and continuous learning.",
+        intro: 'A day as a Software Engineer at Airbnb balances focused coding time with collaborative design sessions and mission-driven discussions.',
         schedule: [
-          {
-            time: "9:30 AM",
-            activity: "Pod Standup",
-            description: "Cross-functional sync with engineers, designer, and PM on progress"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Feature Development",
-            description: "Code new search ranking improvements for listing discovery"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Design Review",
-            description: "Collaborate with designer on booking flow redesign"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Lunch & Learning",
-            description: "Team lunch followed by tech talk on trust and safety systems"
-          },
-          {
-            time: "2:30 PM",
-            activity: "System Design Discussion",
-            description: "Architecture review for new payment processing feature"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Code Review",
-            description: "Review pull requests with focus on code quality and craft"
-          },
-          {
-            time: "4:30 PM",
-            activity: "A/B Test Analysis",
-            description: "Analyze experiment results for pricing recommendation changes"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Cross-functional Sync",
-            description: "Meet with trust and safety team on fraud detection integration"
-          }
-        ]
+          '9:00 AM - Start day reviewing notifications and catching up on team Slack channels',
+          '9:30 AM - Morning standup with your squad covering sprint progress and blockers',
+          '10:00 AM - Deep coding block working on a new feature for the booking flow',
+          '12:00 PM - Lunch with team, often discussing travel stories and trip recommendations',
+          '1:00 PM - Design review meeting with product and design partners on upcoming initiative',
+          '2:30 PM - Code review for teammates\' pull requests, providing thoughtful feedback',
+          '3:30 PM - Pairing session with a teammate to debug a tricky distributed systems issue',
+          '4:30 PM - Writing technical documentation for the feature you\'re shipping',
+          '5:30 PM - Quick sync with your manager on career goals and upcoming opportunities',
+          '6:00 PM - Wrap up day, deploy to staging and monitor metrics'
+        ],
+        closing: 'Days at Airbnb combine technical challenge with meaningful work connecting people around the world, supported by a culture that genuinely cares about belonging.'
       },
-
-      similarRoles: [
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
-      ]
+      similarRoles: ['Backend Engineer at Airbnb', 'Frontend Engineer at Airbnb', 'Full Stack Engineer at Airbnb', 'Mobile Engineer at Airbnb', 'Platform Engineer at Airbnb']
     },
 
     'product-manager': {
-      roleDescription: "Product Managers at Airbnb define and execute product strategy for the world's leading travel community marketplace. You'll work on products serving millions of hosts and guests, from core booking experiences to new product categories. Airbnb PMs are known for strong product sense, design partnership, and mission-driven thinking.",
-
+      title: 'Product Manager',
+      slug: 'product-manager',
+      industry: 'Technology',
+      roleDescription: `Product Managers at Airbnb shape the future of travel by leading cross-functional teams to build products that serve millions of hosts and guests worldwide. Working at the intersection of user experience, business strategy, and technical feasibility, PMs at Airbnb own end-to-end product development from identifying opportunities through launch and iteration. Airbnb's PM culture emphasizes deep user empathy—many PMs regularly host or stay on the platform to truly understand both sides of the marketplace. Teams operate with significant autonomy, and PMs are expected to be both strategic thinkers and hands-on executors. The company's design-forward culture means PMs work extremely closely with designers and researchers, often co-creating solutions rather than simply writing requirements. Airbnb's global scale presents unique challenges: products must work across 220+ countries, multiple languages, and diverse cultural expectations around hospitality. The core values—Champion the Mission, Be a Host, Embrace the Adventure, and Be a Cereal Entrepreneur—permeate every product decision, with teams constantly asking how their work contributes to a world where anyone can belong anywhere.`,
       responsibilities: [
-        "Define product vision and strategy for host, guest, or platform experiences",
-        "Conduct user research and leverage data to identify opportunities",
-        "Prioritize features balancing user needs, business goals, and technical feasibility",
-        "Collaborate closely with engineering, design, data science, and operations in pods",
-        "Ship high-quality products with strong attention to craft and detail"
+        'Define product vision and strategy for your area in alignment with company mission and goals',
+        'Lead cross-functional teams of engineers, designers, data scientists, and researchers',
+        'Conduct user research and analysis to deeply understand host and guest needs across markets',
+        'Write detailed product specs and work with engineering to scope and prioritize features',
+        'Define success metrics and use data to measure impact and inform iteration decisions',
+        'Communicate product strategy and progress to leadership and stakeholders across the company',
+        'Balance marketplace health by considering both host and guest perspectives in every decision',
+        'Drive experimentation through A/B testing to validate hypotheses before full rollout',
+        'Partner with international teams to ensure products work globally with appropriate localization'
       ],
-
       growthOpportunities: [
-        "Own products impacting millions of hosts and travelers globally",
-        "Strong design culture with world-class design partners",
-        "Exposure to diverse product challenges from trust to payments to experiences",
-        "Mission-driven culture focused on belonging and community",
-        "Career growth into senior PM, GPM, or leadership roles"
+        'Progress from PM to Senior PM to Group PM leading multiple product areas',
+        'Transition to Director of Product Management overseeing entire product domains',
+        'Move into general management or business leadership roles',
+        'Become a domain expert in marketplace dynamics, trust & safety, or growth',
+        'Lead new product initiatives from zero to one, launching entirely new offerings',
+        'Build and lead high-performing product teams as a people manager',
+        'Shape company strategy through influence at the executive level'
       ],
-
       interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your PM experience, passion for travel and belonging, and role fit.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Hiring Manager Interview",
-          description: "Deep dive into product experience, product thinking, and alignment with Airbnb values.",
-          duration: "45-60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (5-6 rounds)",
-          description: "Interviews covering product design, analytics, technical depth, execution, values, and past experience. Known for comprehensive evaluation.",
-          duration: "5-6 hours"
-        },
-        {
-          step: 4,
-          title: "Cross-functional Review",
-          description: "Final assessment with cross-functional leaders on collaboration and cultural fit.",
-          duration: "30-45 minutes"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial conversation about background, interest in Airbnb, and alignment with company mission' },
+        { stage: 'Hiring Manager Call', description: '45-minute deep dive into PM experience, approach to product development, and team fit' },
+        { stage: 'Product Sense Interview', description: 'Case study evaluating how you approach product problems, user empathy, and prioritization' },
+        { stage: 'Execution Interview', description: 'Assessment of how you work with engineering, handle trade-offs, and drive projects to completion' },
+        { stage: 'Analytical Interview', description: 'Data analysis and metrics discussion testing how you use data to inform decisions' },
+        { stage: 'Core Values Interview', description: 'Behavioral assessment of alignment with Airbnb\'s four core values through past experiences' },
+        { stage: 'Leadership Interview', description: 'Final round with senior product leader discussing strategy, leadership, and career goals' }
       ],
-
       technicalQuestions: [
-        "How would you improve the Airbnb search experience?",
-        "Design a new product category for Airbnb",
-        "How would you increase host retention and satisfaction?",
-        "Should Airbnb expand into a new vertical? How would you evaluate?",
-        "How would you measure success for the booking flow?",
-        "Design the host onboarding experience",
-        "How would you reduce guest cancellations?",
-        "Improve the review system for hosts and guests",
-        "Design a feature to help guests discover unique experiences",
-        "How would you optimize pricing for hosts?"
+        'How would you improve the Airbnb search experience to increase booking conversion?',
+        'Design a feature to help new hosts get their first booking faster',
+        'How would you measure the success of a new trust and safety feature?',
+        'Prioritize these three features: instant book improvements, messaging redesign, or review system updates',
+        'How would you approach launching Airbnb in a new country with different cultural norms?',
+        'Design a solution to reduce cancellation rates without hurting host flexibility',
+        'How would you balance host earnings optimization with guest value perception?',
+        'What metrics would you track to measure marketplace health?',
+        'How would you design an experiment to test a new pricing algorithm?',
+        'Design a feature to help guests discover Airbnb Experiences relevant to their trip',
+        'How would you handle a situation where a feature helps guests but hurts host conversion?',
+        'What would your roadmap look like for improving the host onboarding experience?',
+        'How would you approach personalizing the home feed for different traveler types?',
+        'Design a loyalty program that works for both frequent travelers and occasional users',
+        'How would you measure and improve the quality of listings on the platform?',
+        'What framework would you use to decide between building vs. buying a capability?'
       ],
-
       behavioralQuestions: [
-        "Tell me about a product you championed that aligned with a mission",
-        "Describe a time when you had to make a difficult prioritization decision",
-        "How have you collaborated with designers to create exceptional experiences?",
-        "Tell me about a time when you used data to challenge assumptions",
-        "Describe a situation where you advocated for quality over speed",
-        "How do you balance stakeholder needs with user needs?",
-        "Tell me about a time when you embraced the adventure of launching something new",
-        "Describe how you've built trust with your team"
+        'Tell me about a product you shipped that you\'re most proud of and why',
+        'Describe a time you had to make a difficult prioritization decision with incomplete information',
+        'How have you championed the user when the business wanted to go a different direction?',
+        'Tell me about a time you embraced adventure and tried something completely new in your product approach',
+        'Describe a creative solution you developed that others initially doubted (Be a Cereal Entrepreneur)',
+        'How have you built trust and collaboration with engineering teams?',
+        'Tell me about a product launch that didn\'t go as planned and what you learned',
+        'Describe how you\'ve incorporated diverse perspectives into product decisions',
+        'How do you stay connected to users and maintain empathy at scale?',
+        'Tell me about a time you had to influence without authority',
+        'Describe a situation where you had to balance short-term wins with long-term strategy',
+        'How have you gone above and beyond to help a teammate or stakeholder succeed?',
+        'Tell me about a time you received feedback that changed your product approach',
+        'How do you approach building products for users different from yourself?'
       ],
-
       whatTheyLookFor: [
-        "Strong product sense with design sensibility",
-        "Customer empathy and understanding of travel experiences",
-        "Alignment with Airbnb's mission and core values",
-        "Analytical skills with comfort in data and metrics",
-        "Technical depth to partner effectively with engineering",
-        "Excellent communication and stakeholder management",
-        "Experience with marketplaces or consumer products",
-        "Passion for craft, quality, and belonging"
+        'Deep user empathy and genuine curiosity about host and guest experiences',
+        'Strong product sense with ability to identify high-impact opportunities',
+        'Data fluency combined with qualitative research skills',
+        'Excellent communication and ability to inspire cross-functional teams',
+        'Strategic thinking balanced with hands-on execution capability',
+        'Comfort with ambiguity and ability to make decisions with incomplete information',
+        'Creative problem-solving aligned with Airbnb\'s entrepreneurial culture',
+        'Global mindset with appreciation for cultural differences',
+        'Passion for travel and genuine connection to Airbnb\'s mission',
+        'Track record of shipping impactful products that users love'
       ],
-
       interviewTips: [
-        "Use Airbnb extensively as both guest and (ideally) host",
-        "Study Airbnb's core values - they're deeply embedded in culture",
-        "Prepare examples showing design partnership and craft orientation",
-        "Understand marketplace dynamics and two-sided platform challenges",
-        "Bring data to support product decisions and hypotheses",
-        "Research Airbnb's product strategy and recent launches",
-        "Show empathy for both hosts and guests in your answers",
-        "Ask about team's mission, values, and product vision"
+        'Use Airbnb extensively as both guest and host before interviewing—this experience is invaluable',
+        'Prepare specific examples demonstrating each of the four core values',
+        'Practice product cases using Airbnb\'s actual product challenges and opportunities',
+        'Show you understand marketplace dynamics and two-sided platform challenges',
+        'Be ready to discuss how you\'d approach products for global, diverse user bases',
+        'Demonstrate both strategic thinking and willingness to get into execution details',
+        'Prepare thoughtful questions about team culture and how product decisions are made',
+        'Research recent Airbnb product launches and be ready to discuss what you\'d improve',
+        'Show genuine passion for the mission—interviewers can tell when it\'s authentic',
+        'Practice structuring your answers clearly, especially for case questions',
+        'Be ready to discuss metrics and how you\'d measure success for different features',
+        'Prepare examples of creative solutions that seemed unconventional initially',
+        'Show how you balance quantitative data with qualitative user insights',
+        'Be authentic in values discussions—Airbnb takes culture fit very seriously'
       ],
-
+      salary: { min: 170000, max: 280000 },
+      compensation: [
+        'Competitive base salary with substantial equity package (RSUs)',
+        'Annual performance bonuses tied to individual and company goals',
+        '$2,000 annual travel credit for Airbnb stays and Experiences',
+        'Comprehensive health benefits including mental health support',
+        'Generous parental leave (up to 22 weeks)',
+        'Flexible PTO policy with encouragement to travel and recharge',
+        '401(k) with company match',
+        'Professional development budget for conferences and learning',
+        'Sabbatical program for long-tenured employees',
+        'Employee stock purchase program (ESPP)'
+      ],
       dayInLife: {
-        overview: "Airbnb PMs work in cross-functional pods emphasizing design partnership, user research, and craft. Your day includes user research, data analysis, design collaboration, engineering syncs, and strategic planning.",
+        intro: 'A day as a Product Manager at Airbnb blends strategic thinking with hands-on collaboration, all connected to the mission of belonging.',
         schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Metrics Review",
-            description: "Analyze booking funnel metrics and user engagement data"
-          },
-          {
-            time: "10:00 AM",
-            activity: "User Research",
-            description: "Watch recorded interviews with hosts about their pain points"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Design Partnership",
-            description: "Collaborate with designer on new guest discovery experience"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Lunch with Host",
-            description: "Lunch meeting with local Airbnb host to gather insights"
-          },
-          {
-            time: "1:30 PM",
-            activity: "Engineering Sync",
-            description: "Sprint planning with engineering pod on upcoming features"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Data Deep Dive",
-            description: "Analyze A/B test results for pricing recommendation feature"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Strategy Meeting",
-            description: "Quarterly planning with leadership on product roadmap"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Cross-functional Review",
-            description: "Present product proposal to cross-functional stakeholders"
-          }
-        ]
+          '8:30 AM - Review overnight metrics and user feedback from global markets',
+          '9:00 AM - Morning coffee chat with design partner discussing upcoming feature concepts',
+          '9:30 AM - Team standup reviewing sprint progress and addressing blockers',
+          '10:00 AM - User research session observing hosts onboard new listings',
+          '11:30 AM - One-on-one with engineering lead planning next quarter\'s technical investments',
+          '12:00 PM - Lunch with cross-functional partners from marketing and policy teams',
+          '1:00 PM - Product review presenting roadmap to leadership and gathering feedback',
+          '2:30 PM - Deep work time writing product spec for new feature initiative',
+          '4:00 PM - A/B test analysis review with data science partner',
+          '5:00 PM - Sync with international PM counterpart on localization requirements',
+          '5:30 PM - Wrap up with quick check on experiment results and next-day prep'
+        ],
+        closing: 'Product management at Airbnb means constant connection to users, close partnership with world-class designers and engineers, and the satisfaction of building products that help people belong anywhere.'
       },
-
-      similarRoles: [
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
-      ]
+      similarRoles: ['Senior Product Manager at Airbnb', 'Group Product Manager at Airbnb', 'Product Lead at Airbnb', 'Growth PM at Airbnb', 'Platform PM at Airbnb']
     },
 
     'engineering-manager': {
-      roleDescription: "Engineering Managers at Airbnb lead teams building technology for the world's leading travel community. You'll balance technical leadership with people development, drive product execution, and uphold Airbnb's high standards for craft and collaboration. EMs at Airbnb typically manage teams of 6-8 engineers in cross-functional pods.",
-
+      title: 'Engineering Manager',
+      slug: 'engineering-manager',
+      industry: 'Technology',
+      roleDescription: `Engineering Managers at Airbnb lead teams building the technology that powers global travel and hospitality. Unlike companies where EMs are purely people managers, Airbnb expects EMs to maintain technical credibility, contribute to architectural decisions, and deeply understand the systems their teams own. You'll lead teams of 5-10 engineers working on critical areas like search and discovery, payments, trust and safety, or host tools, balancing technical excellence with people development. Airbnb's culture heavily emphasizes the "Be a Host" value in management—creating environments where engineers feel welcomed, supported, and able to do their best work. EMs partner closely with Product Managers and Design leads as part of "triads" that collectively own product outcomes. The company's global scale means managing complexity across time zones, diverse user needs, and systems that must maintain reliability during peak travel seasons. Career growth paths support both continued people management and return to individual contributor roles, reflecting Airbnb's belief that great leaders should have options.`,
       responsibilities: [
-        "Lead and mentor a team of 6-8 engineers in a cross-functional pod",
-        "Set technical direction and ensure high code quality standards",
-        "Drive product execution in partnership with PM and design",
-        "Hire exceptional talent and develop career growth plans",
-        "Foster Airbnb's values of craft, belonging, and mission"
+        'Lead, mentor, and grow a team of 5-10 software engineers across experience levels',
+        'Partner with Product and Design as part of a triad to drive product strategy and execution',
+        'Conduct regular one-on-ones, performance reviews, and career development conversations',
+        'Contribute to technical architecture and code review to maintain hands-on understanding',
+        'Build inclusive team culture aligned with Airbnb\'s core values, especially "Be a Host"',
+        'Drive hiring for your team including interview calibration and process improvement',
+        'Manage project execution ensuring on-time delivery while maintaining engineering quality',
+        'Collaborate with other EMs to drive engineering-wide initiatives and best practices',
+        'Handle on-call escalations and ensure team maintains production reliability standards'
       ],
-
       growthOpportunities: [
-        "Lead teams building products serving millions globally",
-        "Strong emphasis on craft, design partnership, and product quality",
-        "Clear path to senior leadership roles (Senior EM, Director)",
-        "Mission-driven culture with focus on belonging",
-        "Competitive compensation with significant equity"
+        'Progress to Senior Engineering Manager leading multiple teams or larger scope',
+        'Advance to Director of Engineering overseeing entire product areas',
+        'Move into VP of Engineering role with executive responsibilities',
+        'Transition back to Staff or Principal Engineer roles (path is supported)',
+        'Lead new organization formation as Airbnb expands into new areas',
+        'Drive engineering-wide transformation initiatives',
+        'Build expertise in specific domains becoming the company authority'
       ],
-
       interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of management experience, technical background, and alignment with Airbnb's mission.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Hiring Manager Interview",
-          description: "Deep dive into leadership philosophy, technical credibility, and people management approach.",
-          duration: "60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (5-6 rounds)",
-          description: "Interviews covering technical leadership, people management, system design, values, and past experience. Comprehensive evaluation.",
-          duration: "5-6 hours"
-        },
-        {
-          step: 4,
-          title: "Cross-functional Review",
-          description: "Assessment of collaboration skills with product and design partners.",
-          duration: "30-45 minutes"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial discussion of management experience, leadership style, and interest in Airbnb' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into management philosophy, team building experience, and technical background' },
+        { stage: 'Technical Assessment', description: 'System design or architecture discussion demonstrating technical depth and decision-making' },
+        { stage: 'People Management Interview', description: 'Scenarios covering difficult conversations, team dynamics, and performance management' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of partnership skills with Product and Design counterparts' },
+        { stage: 'Core Values Interview', description: 'Behavioral assessment focused on demonstrating Airbnb\'s four core values through leadership examples' },
+        { stage: 'Executive Interview', description: 'Final round with senior engineering leader discussing strategy and organizational fit' }
       ],
-
       technicalQuestions: [
-        "Design the architecture for Airbnb's search and ranking system",
-        "How would you improve reliability for the booking flow?",
-        "Your team is struggling with code quality - how do you address it?",
-        "Design the infrastructure for Airbnb's trust and safety systems",
-        "How do you balance technical debt with product feature velocity?",
-        "Walk through scaling a service from 1M to 100M users",
-        "Your team has a production incident affecting bookings - how do you respond?",
-        "Design the testing strategy for marketplace algorithm changes",
-        "How would you architect Airbnb's messaging system?",
-        "Design monitoring and observability for core booking services"
+        'Describe your approach to balancing technical debt reduction with feature development',
+        'How do you make build vs. buy decisions for your team\'s systems?',
+        'Walk me through a complex system your team owns and key architectural decisions',
+        'How do you ensure your team maintains on-call reliability standards?',
+        'Describe your approach to driving technical standards across multiple teams',
+        'How do you stay technically credible while spending significant time on management?',
+        'How would you approach migrating a critical system with zero downtime?',
+        'Describe your process for conducting architecture reviews',
+        'How do you balance team velocity with code quality and testing standards?',
+        'What\'s your approach to capacity planning for systems with seasonal traffic?',
+        'How do you evaluate and adopt new technologies on your team?',
+        'Describe a technical decision you made that didn\'t work out and what you learned',
+        'How do you approach system reliability and SLO setting for your team?',
+        'What\'s your philosophy on code review and engineering best practices?',
+        'How do you handle disagreements between engineers on technical approaches?',
+        'Describe your approach to incident management and post-mortems'
       ],
-
       behavioralQuestions: [
-        "Tell me about a time when you championed craft and quality on your team",
-        "Describe a situation where you had to manage a performance issue",
-        "How have you built and scaled an engineering team?",
-        "Tell me about a time when you partnered closely with design and product",
-        "Describe a conflict with cross-functional stakeholders and resolution",
-        "How do you foster a culture of belonging on your team?",
-        "Tell me about a time when you had to make a difficult prioritization call",
-        "Describe how you've mentored engineers to grow their careers"
+        'Tell me about a time you helped an underperforming engineer turn around their performance',
+        'Describe how you\'ve built an inclusive team culture where everyone feels they belong',
+        'How have you championed a mission or initiative that required significant organizational change?',
+        'Tell me about a time you embraced adventure and tried a completely new management approach',
+        'Describe a creative solution to a team or organizational challenge (Be a Cereal Entrepreneur)',
+        'How do you handle giving critical feedback to a high performer?',
+        'Tell me about a time you had to manage through organizational uncertainty or change',
+        'How have you gone above and beyond to support a team member\'s growth (Be a Host)?',
+        'Describe a situation where you had to balance team needs with business demands',
+        'How do you approach building psychological safety on your team?',
+        'Tell me about the most difficult termination decision you\'ve made',
+        'How do you develop senior engineers into leadership roles?',
+        'Describe how you\'ve partnered with Product to influence roadmap priorities',
+        'Tell me about a time you had to make an unpopular decision'
       ],
-
       whatTheyLookFor: [
-        "Strong technical credibility with high standards for code quality",
-        "People management experience leading teams of 5+ engineers",
-        "Design sensibility and ability to partner with designers",
-        "Track record of shipping high-quality products",
-        "Alignment with Airbnb's core values and mission",
-        "Excellent communication and collaboration skills",
-        "Experience with consumer products or marketplaces",
-        "Passion for craft, belonging, and team development"
+        'Strong people leadership with genuine care for team member growth and wellbeing',
+        'Technical credibility to earn respect and make sound architectural decisions',
+        'Embodiment of "Be a Host" creating welcoming, inclusive team environments',
+        'Strategic thinking about team building, technical direction, and organizational design',
+        'Excellent partnership skills with Product and Design counterparts',
+        'Track record of building high-performing, engaged engineering teams',
+        'Clear communication style effective with engineers, executives, and cross-functional partners',
+        'Growth mindset applying to both self-development and team development',
+        'Alignment with Airbnb\'s mission and ability to connect team work to company purpose',
+        'Comfort with ambiguity and ability to lead through uncertainty'
       ],
-
       interviewTips: [
-        "Prepare examples of championing craft and code quality",
-        "Demonstrate design partnership and product collaboration",
-        "Show alignment with Airbnb's core values in your examples",
-        "Be ready to discuss technical architecture and system design",
-        "Emphasize team development and creating belonging",
-        "Understand Airbnb's marketplace dynamics and technical challenges",
-        "Prepare examples of hiring, performance management, and culture building",
-        "Ask about the team's mission, product area, and growth opportunities"
+        'Prepare specific examples of how you\'ve embodied each of Airbnb\'s four core values as a leader',
+        'Be ready to discuss your management philosophy and how it\'s evolved over time',
+        'Prepare to demonstrate technical depth—Airbnb EMs need credibility with engineers',
+        'Have concrete examples of building inclusive teams and supporting diverse engineers',
+        'Practice discussing difficult management situations with nuance and learning orientation',
+        'Understand Airbnb\'s triad model and be ready to discuss cross-functional partnership',
+        'Research Airbnb\'s engineering culture through tech blog posts and employee interviews',
+        'Be authentic about your leadership style—Airbnb values genuine leaders',
+        'Prepare questions about engineering culture, growth opportunities, and team challenges',
+        'Show how you connect team work to larger mission and purpose',
+        'Be ready to discuss how you maintain technical skills while managing',
+        'Prepare examples of creative approaches to team or organizational challenges',
+        'Practice articulating how you\'ve grown engineers from junior to senior levels',
+        'Show vulnerability—discuss mistakes you\'ve made and how you\'ve learned from them'
       ],
-
+      salary: { min: 200000, max: 320000 },
+      compensation: [
+        'Competitive base salary with significant equity grants (RSUs)',
+        'Annual refresher grants based on performance and scope growth',
+        'Performance bonuses tied to team and company goals',
+        '$2,000 annual travel credit for Airbnb stays and Experiences',
+        'Comprehensive health, dental, and vision coverage',
+        'Generous parental leave (up to 22 weeks)',
+        'Flexible PTO with expectation that managers model healthy time off',
+        '401(k) with company match',
+        'Leadership development programs and executive coaching',
+        'Home office setup and ongoing remote work support'
+      ],
       dayInLife: {
-        overview: "Airbnb Engineering Managers balance technical leadership, people development, and cross-functional collaboration in pod structure. Your day includes 1-on-1s, design reviews, technical planning, and fostering team culture.",
+        intro: 'A day as an Engineering Manager at Airbnb balances people leadership, technical engagement, and strategic partnership.',
         schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Pod Standup",
-            description: "Cross-functional sync with engineers, designer, and PM"
-          },
-          {
-            time: "9:30 AM",
-            activity: "1-on-1 Meetings",
-            description: "Career development and coaching conversations with engineers"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Design Review",
-            description: "Collaborate with design and engineering on new feature UX"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Recruiting Lunch",
-            description: "Lunch interview with engineering candidate"
-          },
-          {
-            time: "1:00 PM",
-            activity: "System Design Review",
-            description: "Review architecture for trust and safety feature"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Code Review",
-            description: "Review critical pull requests ensuring quality standards"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Product Planning",
-            description: "Quarterly planning with PM and design on roadmap"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Team Culture",
-            description: "Facilitate team retrospective on sprint and process improvements"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Technical Strategy",
-            description: "Plan technical roadmap and capacity for team"
-          }
-        ]
+          '8:30 AM - Review team dashboards and overnight on-call activity before meetings',
+          '9:00 AM - One-on-one with engineer discussing career goals and current project challenges',
+          '9:30 AM - Team standup facilitating discussion of sprint progress and dependencies',
+          '10:00 AM - Triad meeting with PM and Design lead planning next quarter initiatives',
+          '11:00 AM - Architecture review providing input on major technical decision',
+          '12:00 PM - Lunch with new team member as part of onboarding buddy program',
+          '1:00 PM - Engineering leadership meeting discussing hiring and organizational topics',
+          '2:00 PM - Code review and technical deep-dive to stay connected to team\'s work',
+          '3:00 PM - Interview debrief calibrating on recent engineering candidates',
+          '4:00 PM - One-on-one with struggling engineer providing support and coaching',
+          '5:00 PM - Prepare for tomorrow\'s performance review conversation',
+          '5:30 PM - Quick team wins celebration before wrapping up'
+        ],
+        closing: 'Engineering management at Airbnb means building teams that do their best work, staying technically engaged, and creating environments where everyone can belong.'
       },
-
-      similarRoles: [
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Stripe", companySlug: "stripe", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
-      ]
+      similarRoles: ['Senior Engineering Manager at Airbnb', 'Director of Engineering at Airbnb', 'Technical Program Manager at Airbnb', 'Staff Engineer at Airbnb']
     },
 
     'data-scientist': {
-      roleDescription: "Data Scientists at Airbnb leverage data and experimentation to optimize the marketplace, improve user experience, and drive strategic decisions. You'll work on problems in search ranking, pricing, trust and safety, and growth at massive scale. Airbnb's data scientists are known for rigorous analytical work and strong business partnership.",
-
+      title: 'Data Scientist',
+      slug: 'data-scientist',
+      industry: 'Technology',
+      roleDescription: `Data Scientists at Airbnb drive decision-making across the company through rigorous experimentation, advanced analytics, and machine learning. Working on one of the world's largest marketplace datasets, you'll tackle challenges spanning pricing optimization, search ranking, fraud detection, demand forecasting, and user personalization. Airbnb pioneered many industry-standard experimentation practices and maintains a strong culture of data-driven decision making. Data Scientists work embedded within product teams, partnering closely with Product Managers and Engineers to identify opportunities, design experiments, and build data products that improve host and guest experiences. The company's two-sided marketplace creates unique analytical challenges—every change affects both hosts and guests, often in complex ways. Airbnb's data infrastructure is world-class, with extensive internal tools for experimentation, feature engineering, and ML model deployment. The team publishes regularly on their approaches, contributing to the broader data science community. You'll join a team of exceptional scientists who bring diverse backgrounds in statistics, economics, physics, and computer science.`,
       responsibilities: [
-        "Analyze marketplace dynamics to identify growth opportunities",
-        "Design and analyze A/B experiments to measure product impact",
-        "Build models for search ranking, pricing, fraud detection, and forecasting",
-        "Partner with product, engineering, and business teams on data-driven decisions",
-        "Develop metrics frameworks and dashboards for product and business health"
-      ],
-
-      growthOpportunities: [
-        "Work with rich datasets from millions of hosts and guests globally",
-        "Impact key business metrics through data-driven product improvements",
-        "Strong collaboration with product and engineering teams",
-        "Exposure to diverse analytical challenges across the marketplace",
-        "Career growth into senior IC or data science leadership"
-      ],
-
-      interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of data science experience, interest in Airbnb's mission, and role fit.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Statistics, SQL, and case study. Discussion of past analytical work.",
-          duration: "45-60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (5-6 rounds)",
-          description: "Interviews covering statistics, experimentation, SQL/coding, product analytics, case study, and values. Rigorous technical assessment.",
-          duration: "5-6 hours"
-        },
-        {
-          step: 4,
-          title: "Cross-functional Review",
-          description: "Assessment of collaboration with product and engineering partners.",
-          duration: "30 minutes"
-        }
-      ],
-
-      technicalQuestions: [
-        "How would you measure the success of Airbnb search ranking changes?",
-        "Design an experiment to test a new host pricing tool",
-        "Analyze why booking conversion dropped in a market",
-        "How would you detect fraudulent listings or accounts?",
-        "Build a model to predict guest cancellation risk",
-        "How would you optimize the review request timing?",
-        "Analyze the impact of a new trust and safety policy",
-        "Design a forecasting model for seasonal demand",
-        "How would you measure marketplace health?",
-        "Build a propensity model for guest-to-host conversion"
-      ],
-
-      behavioralQuestions: [
-        "Tell me about an analysis that drove a major product decision",
-        "Describe a time when your findings were controversial or unexpected",
-        "How have you communicated complex analyses to non-technical stakeholders?",
-        "Tell me about an experiment that yielded surprising results",
-        "Describe working with incomplete or messy data",
-        "How do you prioritize when you have multiple analysis requests?",
-        "Tell me about a time when you partnered closely with a PM or engineer",
-        "Describe how you've influenced product strategy with data"
-      ],
-
-      whatTheyLookFor: [
-        "Strong statistical and analytical foundation with rigor",
-        "Experience with A/B testing and causal inference",
-        "Proficiency in SQL, Python/R, and statistical modeling",
-        "Ability to translate analysis into actionable insights",
-        "Business acumen and product sense",
-        "Excellent communication and stakeholder partnership",
-        "Experience with marketplaces or consumer products preferred",
-        "Passion for using data to improve user experiences"
-      ],
-
-      interviewTips: [
-        "Use Airbnb and think about data behind search, pricing, and trust",
-        "Prepare to discuss experimental design and causal inference rigorously",
-        "Bring examples of analyses that drove business or product decisions",
-        "Understand marketplace metrics and two-sided platform dynamics",
-        "Be ready for SQL coding and statistical problem-solving",
-        "Show strong business partnership and communication skills",
-        "Research Airbnb's data challenges and experimentation culture",
-        "Ask about team's key metrics, analytical tools, and business impact"
-      ],
-
-      dayInLife: {
-        overview: "Airbnb Data Scientists partner closely with product and engineering, conducting rigorous analysis and experimentation. Your day includes SQL analysis, experimentation, stakeholder collaboration, and presenting insights.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Metrics Review",
-            description: "Review marketplace KPIs and investigate booking funnel changes"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Experiment Analysis",
-            description: "Analyze A/B test for new search ranking algorithm"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Product Collaboration",
-            description: "Work with PM to design experiment for pricing feature"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Lunch & Learning",
-            description: "Data science team lunch with paper discussion"
-          },
-          {
-            time: "1:30 PM",
-            activity: "SQL Deep Dive",
-            description: "Analyze host retention patterns by market and listing type"
-          },
-          {
-            time: "3:00 PM",
-            activity: "Model Development",
-            description: "Build cancellation prediction model for risk scoring"
-          },
-          {
-            time: "4:00 PM",
-            activity: "Stakeholder Presentation",
-            description: "Present analysis on trust and safety metrics to leadership"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Dashboard Building",
-            description: "Create executive dashboard for marketplace health tracking"
-          }
-        ]
-      },
-
-      similarRoles: [
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" }
-      ]
-    }
-  },
-
-  'stripe': {
-    'software-engineer': {
-      roleDescription: "Software Engineers at Stripe build the financial infrastructure that powers millions of businesses worldwide. You'll work on challenging problems in payments, fraud detection, APIs, and global financial systems. Stripe is known for its rigorous technical standards, developer-first culture, and commitment to building high-quality, reliable infrastructure.",
-
-      responsibilities: [
-        "Build and maintain Stripe's payment processing infrastructure and APIs",
-        "Design systems for fraud detection, compliance, and financial operations",
-        "Develop features for developer tools, dashboards, and integration platforms",
-        "Ensure reliability and security for global payment transactions",
-        "Collaborate with product, design, and business teams to solve user problems"
-      ],
-
-      growthOpportunities: [
-        "Work on technology powering millions of businesses globally",
-        "Tackle challenging problems in payments, fraud, and financial infrastructure",
-        "Strong engineering culture with emphasis on quality and craft",
-        "Competitive compensation with significant equity",
-        "Opportunity to work across diverse financial products and markets"
-      ],
-
-      interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your background, interest in Stripe's mission, and role fit. Overview of Stripe's culture and products.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Coding interview covering algorithms, data structures, and problem-solving. May include API design discussion.",
-          duration: "45-60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Multiple interviews including coding (2 rounds), system design, integration/debugging, and behavioral. Known for rigorous technical evaluation.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with potential teams to find the best fit for your interests and skills.",
-          duration: "Varies"
-        }
-      ],
-
-      technicalQuestions: [
-        "Design Stripe's payment processing API",
-        "Implement a fraud detection system for transactions",
-        "Design the idempotency mechanism for API requests",
-        "How would you handle global currency conversions?",
-        "Design Stripe's webhook delivery system",
-        "Implement rate limiting for API endpoints",
-        "Design the reconciliation system for payments",
-        "How would you ensure PCI compliance in payment systems?",
-        "Design Stripe's dispute and chargeback management system",
-        "Implement retry logic for failed payment attempts"
-      ],
-
-      behavioralQuestions: [
-        "Tell me about a time when you prioritized reliability over speed",
-        "Describe a situation where you had to debug a complex production issue",
-        "How have you balanced user needs with technical constraints?",
-        "Tell me about a time when you designed an API or system for developers",
-        "Describe a project where attention to detail was critical",
-        "How do you approach building systems that handle money?",
-        "Tell me about a time when you had to make a technical trade-off",
-        "Describe how you've collaborated with non-technical stakeholders"
-      ],
-
-      whatTheyLookFor: [
-        "Strong coding skills with emphasis on reliability and correctness",
-        "Experience with distributed systems, APIs, or financial systems",
-        "User-first mindset with focus on developer experience",
-        "Attention to detail and commitment to quality",
-        "Systems thinking for complex financial infrastructure",
-        "Strong debugging and problem-solving skills",
-        "Collaborative approach across engineering and product teams",
-        "Passion for building tools that empower businesses"
-      ],
-
-      interviewTips: [
-        "Understand Stripe's products and APIs - try integrating Stripe",
-        "Prepare for rigorous technical evaluation with focus on correctness",
-        "Show examples of building reliable, high-quality systems",
-        "Understand payment systems, APIs, and financial infrastructure concepts",
-        "Emphasize user-first thinking and developer experience",
-        "Research Stripe's engineering blog and technical challenges",
-        "Be ready to discuss edge cases, error handling, and reliability",
-        "Ask about the team's mission, technical stack, and product area"
-      ],
-
-      dayInLife: {
-        overview: "Stripe engineers work on mission-critical payment infrastructure with emphasis on quality and reliability. Your day includes coding, design reviews, incident response, and cross-functional collaboration.",
-        schedule: [
-          {
-            time: "9:30 AM",
-            activity: "Team Standup",
-            description: "Daily sync with team on progress, blockers, and priorities"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Feature Development",
-            description: "Build new API endpoint for payment methods with comprehensive tests"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Design Review",
-            description: "Review technical design for fraud detection feature"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Lunch & Discussion",
-            description: "Team lunch discussing payment industry trends"
-          },
-          {
-            time: "2:00 PM",
-            activity: "Debugging Session",
-            description: "Investigate and fix issue in webhook delivery system"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Code Review",
-            description: "Review pull requests with focus on edge cases and reliability"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Cross-functional Sync",
-            description: "Meet with product and compliance on new payment method"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Monitoring & Alerts",
-            description: "Review system health and transaction success rates"
-          }
-        ]
-      },
-
-      similarRoles: [
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" }
-      ]
-    },
-
-    'product-manager': {
-      roleDescription: "Product Managers at Stripe define and execute product strategy for financial infrastructure used by millions of businesses globally. From payment APIs to financial products, you'll work on complex problems balancing user needs, business goals, and regulatory requirements. Stripe PMs are known for technical depth, strategic thinking, and user-first mindset.",
-
-      responsibilities: [
-        "Define product vision and strategy for Stripe's payment and financial products",
-        "Gather user feedback and identify opportunities to improve developer experience",
-        "Prioritize features balancing user needs, business goals, and compliance",
-        "Collaborate with engineering, design, legal, and business teams",
-        "Ship high-quality products with focus on reliability and ease of use"
-      ],
-
-      growthOpportunities: [
-        "Own products powering millions of businesses and trillions in transactions",
-        "Deep exposure to payment systems, financial infrastructure, and fintech",
-        "Work with highly technical teams on complex product challenges",
-        "Strong compensation with significant equity",
-        "Career growth into senior PM, GPM, or leadership roles"
-      ],
-
-      interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your PM experience, interest in Stripe's mission, and role fit.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Hiring Manager Interview",
-          description: "Deep dive into product experience, technical depth, and strategic thinking.",
-          duration: "45-60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering product design, technical depth, analytics, execution, and behavioral. Focus on user empathy and strategic thinking.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with product teams to find the best fit.",
-          duration: "Varies"
-        }
-      ],
-
-      technicalQuestions: [
-        "How would you improve Stripe's onboarding for new developers?",
-        "Design a new payment method for Stripe",
-        "Should Stripe enter a new market? How would you evaluate?",
-        "How would you measure success for Stripe's API?",
-        "Design a feature to reduce payment failures",
-        "How would you improve the Stripe Dashboard?",
-        "Should Stripe build a new financial product? Walk through your analysis",
-        "Design the developer experience for a new compliance feature",
-        "How would you reduce time to first transaction for new users?",
-        "Analyze declining conversion in a specific payment flow"
-      ],
-
-      behavioralQuestions: [
-        "Tell me about a highly technical product you shipped",
-        "Describe a time when you had to balance user needs with compliance requirements",
-        "How have you worked with engineering on API design?",
-        "Tell me about a time when you used data to inform a product decision",
-        "Describe a situation where you had to influence without authority",
-        "How do you prioritize when you have competing user and business needs?",
-        "Tell me about a time when you championed the user",
-        "Describe how you've worked across legal, compliance, and engineering teams"
-      ],
-
-      whatTheyLookFor: [
-        "Strong technical depth - ability to discuss APIs, systems, and architecture",
-        "User-first mindset with focus on developer experience",
-        "Analytical skills and data-driven decision making",
-        "Understanding of payment systems and financial infrastructure",
-        "Strategic thinking with execution excellence",
-        "Excellent communication across technical and non-technical stakeholders",
-        "Experience with developer products or B2B platforms",
-        "Passion for building tools that empower businesses"
-      ],
-
-      interviewTips: [
-        "Integrate Stripe into a project - understand the developer experience",
-        "Study Stripe's products, APIs, and documentation thoroughly",
-        "Prepare to discuss technical concepts and trade-offs",
-        "Bring data and metrics to support product decisions",
-        "Understand payment industry dynamics and regulations",
-        "Research Stripe's product strategy and recent launches",
-        "Show empathy for developers as your users",
-        "Ask about the team's product area, challenges, and roadmap"
-      ],
-
-      dayInLife: {
-        overview: "Stripe PMs balance technical depth, user research, data analysis, and strategic planning. Your day includes developer interviews, design reviews, engineering collaboration, and cross-functional coordination.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Metrics Review",
-            description: "Analyze API usage, transaction success rates, and developer metrics"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Developer Interviews",
-            description: "User research calls with Stripe developers about pain points"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Engineering Sync",
-            description: "Technical design review for new API feature"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Lunch & Learning",
-            description: "Informal discussion about payment industry trends"
-          },
-          {
-            time: "1:30 PM",
-            activity: "Product Design",
-            description: "Work with designer on dashboard improvement"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Data Analysis",
-            description: "Analyze conversion funnel for new payment method"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Compliance Meeting",
-            description: "Align with legal and compliance on regulatory requirements"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Strategy Session",
-            description: "Roadmap planning with leadership on product direction"
-          }
-        ]
-      },
-
-      similarRoles: [
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" }
-      ]
-    },
-
-    'engineering-manager': {
-      roleDescription: "Engineering Managers at Stripe lead teams building the financial infrastructure that powers the internet economy. You'll balance technical leadership with people management, drive product execution, and uphold Stripe's high standards for quality and reliability. EMs at Stripe typically manage teams of 6-10 engineers working on payment systems, APIs, or financial products.",
-
-      responsibilities: [
-        "Lead and mentor a team of 6-10 engineers on payment or platform systems",
-        "Set technical direction and ensure high quality and reliability standards",
-        "Drive product execution in partnership with PM and design",
-        "Hire exceptional engineering talent and develop career growth plans",
-        "Foster Stripe's culture of user-focus, quality, and technical excellence"
-      ],
-
-      growthOpportunities: [
-        "Lead teams building infrastructure for millions of businesses",
-        "Strong engineering culture with emphasis on quality and craft",
-        "Clear path to senior leadership roles (Senior EM, Director, VP)",
-        "Work on diverse financial products and global payment systems",
-        "Competitive compensation with significant equity"
-      ],
-
-      interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of management experience, technical background, and interest in Stripe.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Hiring Manager Interview",
-          description: "Deep dive into leadership philosophy, technical credibility, and management approach.",
-          duration: "60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering technical leadership, people management, system design, and behavioral. Focus on quality and team building.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with teams to find the best fit.",
-          duration: "Varies"
-        }
-      ],
-
-      technicalQuestions: [
-        "Design the architecture for Stripe's payment processing system",
-        "How would you improve reliability for API requests?",
-        "Your team is behind on a critical payments feature - how do you recover?",
-        "Design the infrastructure for global payment routing",
-        "How do you balance technical debt with feature development?",
-        "Walk through scaling a payment system from 100K to 10M transactions/day",
-        "Your team has a production incident affecting payments - how do you respond?",
-        "Design the testing strategy for financial transaction systems",
-        "How would you architect Stripe's fraud detection pipeline?",
-        "Design monitoring and alerting for payment success rates"
-      ],
-
-      behavioralQuestions: [
-        "Tell me about a time when you had to maintain high quality under pressure",
-        "Describe a situation where you had to manage a performance issue",
-        "How have you built and scaled an engineering team?",
-        "Tell me about a time when you had to make a difficult technical trade-off",
-        "Describe a conflict between team members and how you resolved it",
-        "How do you foster a culture of quality and reliability?",
-        "Tell me about a time when you had to deliver difficult feedback",
-        "Describe how you've mentored engineers to grow their technical skills"
-      ],
-
-      whatTheyLookFor: [
-        "Strong technical credibility with payment systems or financial infrastructure",
-        "People management experience leading teams of 5+ engineers",
-        "Commitment to quality, reliability, and correctness",
-        "Track record of shipping mission-critical systems",
-        "User-first mindset with focus on developer experience",
-        "Excellent communication and collaboration skills",
-        "Experience with distributed systems, APIs, or B2B products",
-        "Passion for building tools that empower businesses"
-      ],
-
-      interviewTips: [
-        "Prepare examples of building reliable, high-quality systems",
-        "Demonstrate technical depth in payments, APIs, or distributed systems",
-        "Show commitment to quality and attention to detail",
-        "Emphasize user-first thinking and developer experience",
-        "Be ready to discuss hiring, performance management, and team culture",
-        "Understand Stripe's products and technical challenges",
-        "Prepare examples of handling incidents and maintaining reliability",
-        "Ask about the team's mission, technical stack, and growth opportunities"
-      ],
-
-      dayInLife: {
-        overview: "Stripe Engineering Managers balance technical leadership, people development, and quality focus. Your day includes 1-on-1s, technical reviews, incident response, cross-functional collaboration, and strategic planning.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "System Health Review",
-            description: "Review payment success rates, API latency, and overnight incidents"
-          },
-          {
-            time: "9:30 AM",
-            activity: "1-on-1 Meetings",
-            description: "Career development and coaching conversations with engineers"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Technical Design Review",
-            description: "Review architecture for new payment method integration"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Recruiting Lunch",
-            description: "Lunch interview with senior engineer candidate"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Code Review",
-            description: "Review critical pull requests for payment processing logic"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Product Planning",
-            description: "Sprint planning with PM on API feature roadmap"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Incident Postmortem",
-            description: "Review and document learnings from payment outage"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Cross-functional Sync",
-            description: "Align with compliance and legal on new regulatory requirements"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Technical Strategy",
-            description: "Plan technical roadmap and infrastructure investments"
-          }
-        ]
-      },
-
-      similarRoles: [
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" }
-      ]
-    }
-  },
-
-  'salesforce': {
-    'software-engineer': {
-      roleDescription: "Software Engineers at Salesforce build the world's #1 CRM platform and enterprise cloud applications serving over 150,000 companies worldwide. You'll work on multi-tenant architecture at massive scale, developing products across Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, and the core Salesforce Platform. The company's Ohana (family) culture emphasizes trust, customer success, innovation, and equality—values that permeate everything from product decisions to community engagement. Salesforce pioneered cloud computing and SaaS, and continues to lead with innovations like Einstein AI, Agentforce autonomous agents, and Data Cloud. Engineers work in collaborative teams with significant autonomy, contributing to products that help businesses of all sizes connect with their customers in entirely new ways. The 1-1-1 philanthropic model means 1% of equity, 1% of employee time, and 1% of product go to community initiatives, making Salesforce a leader in stakeholder capitalism.",
-      responsibilities: [
-        "Design and build scalable multi-tenant architecture for enterprise SaaS products",
-        "Develop features for Salesforce's cloud products (Sales, Service, Marketing, Commerce)",
-        "Ensure security, reliability, and performance for enterprise customers",
-        "Build APIs and integrations enabling the Salesforce ecosystem",
-        "Collaborate with product, UX, and customer success teams on features",
-        "Participate in code reviews ensuring quality and security standards",
-        "Contribute to platform infrastructure serving billions of transactions daily",
-        "Work on AI/ML features through Einstein and Agentforce platforms",
-        "Engage with customers through feedback sessions and Dreamforce"
+        'Design and analyze A/B tests to measure product impact and guide decision-making',
+        'Build machine learning models for ranking, personalization, pricing, and fraud detection',
+        'Partner with Product Managers to define metrics and success criteria for product initiatives',
+        'Develop deep understanding of user behavior through exploratory analysis and research',
+        'Create dashboards and automated reports to monitor key business metrics',
+        'Contribute to Airbnb\'s data infrastructure and experiment platform improvements',
+        'Present findings to leadership and influence strategic product decisions',
+        'Mentor junior data scientists and contribute to team best practices',
+        'Collaborate with ML Engineers to productionize models at scale'
       ],
       growthOpportunities: [
-        "Work on technology serving 150,000+ companies and millions of users",
-        "Contribute to industry-leading AI innovations (Einstein, Agentforce, Data Cloud)",
-        "Strong Ohana culture emphasizing community and work-life balance",
-        "Clear technical career ladder from MTS to Principal Architect",
-        "Competitive compensation with strong equity and benefits",
-        "1-1-1 model providing paid volunteer time and giving opportunities",
-        "Access to Trailhead learning platform and certification support",
-        "Work across diverse product areas from CRM to AI to infrastructure"
+        'Progress through IC levels to Staff and Principal Data Scientist',
+        'Transition into Data Science management leading teams of scientists',
+        'Specialize in machine learning engineering or applied research',
+        'Move into Product Management leveraging analytical foundation',
+        'Become a domain expert in marketplace economics, pricing, or personalization',
+        'Lead cross-functional initiatives shaping company data strategy',
+        'Contribute to open source and publish research advancing the field'
       ],
       interviewProcess: [
-        {
-          stage: "Recruiter Screen",
-          duration: "30 minutes",
-          description: "Discussion of background, interest in Salesforce, and alignment with Ohana values"
-        },
-        {
-          stage: "Technical Phone Screen",
-          duration: "60 minutes",
-          description: "Coding interview covering algorithms, data structures, and problem-solving"
-        },
-        {
-          stage: "Onsite - Coding Round 1",
-          duration: "45 minutes",
-          description: "Algorithm and data structure problems with emphasis on code quality"
-        },
-        {
-          stage: "Onsite - Coding Round 2",
-          duration: "45 minutes",
-          description: "Second coding round, often OOP design or practical problem"
-        },
-        {
-          stage: "Onsite - System Design",
-          duration: "45 minutes",
-          description: "Design a multi-tenant system or enterprise SaaS architecture"
-        },
-        {
-          stage: "Onsite - Values & Culture",
-          duration: "45 minutes",
-          description: "Behavioral interview focused on Salesforce values and Ohana culture fit"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial conversation covering background, experience, and interest in Airbnb\'s data challenges' },
+        { stage: 'Technical Phone Screen', description: '45-minute screen covering statistics, experimentation design, and analytical problem-solving' },
+        { stage: 'Take-Home Assignment', description: 'Data analysis project using sample dataset, typically 4-6 hours of work' },
+        { stage: 'Onsite - Case Study', description: 'Product analytics case testing metrics definition, analysis approach, and business thinking' },
+        { stage: 'Onsite - Technical Deep Dive', description: 'Assessment of statistics, ML, and coding skills through applied problems' },
+        { stage: 'Onsite - Core Values', description: 'Behavioral interview assessing alignment with Airbnb\'s four core values' },
+        { stage: 'Onsite - Presentation', description: 'Present take-home results to team, demonstrating communication and analytical rigor' }
       ],
       technicalQuestions: [
-        "Design Salesforce's multi-tenant architecture for 150K+ customers",
-        "How would you implement data isolation in a shared database model?",
-        "Design the workflow automation engine for Sales Cloud",
-        "How would you build a permission system for enterprise organizations?",
-        "Design the API gateway handling billions of daily requests",
-        "How would you implement custom objects allowing users to extend Salesforce?",
-        "Design the reporting and analytics system for enterprise dashboards",
-        "How would you handle schema migrations across 150K customer orgs?",
-        "Design the real-time sync between Salesforce and external systems",
-        "How would you implement Einstein AI recommendations at scale?",
-        "Design the AppExchange marketplace architecture",
-        "How would you build governor limits to ensure fair resource usage?",
-        "Design the mobile offline sync for Salesforce Mobile",
-        "How would you implement record-level security in a multi-tenant system?",
-        "Design the platform event system for real-time integrations"
+        'How would you design an experiment to test a new search ranking algorithm?',
+        'Explain how you\'d detect and handle network effects in an A/B test on our platform',
+        'How would you build a pricing recommendation model for hosts?',
+        'Describe your approach to measuring the long-term impact of a product change',
+        'How would you design a fraud detection system for fake reviews?',
+        'Explain how you\'d handle multiple comparisons in an experiment with many variants',
+        'How would you build a demand forecasting model accounting for seasonality and events?',
+        'Describe techniques for dealing with selection bias in marketplace experiments',
+        'How would you measure and improve the quality of Airbnb listings?',
+        'Explain your approach to causal inference when A/B testing isn\'t possible',
+        'How would you build a recommendation system for personalized search results?',
+        'Describe how you\'d analyze cannibalization effects between listings',
+        'How would you design metrics to capture marketplace health?',
+        'Explain techniques for handling imbalanced classes in fraud detection',
+        'How would you approach attribution modeling for marketing effectiveness?',
+        'Describe your process for feature engineering in a large-scale ML system'
       ],
       behavioralQuestions: [
-        "Tell me about a time you demonstrated trust and integrity in your work",
-        "Describe a situation where you championed customer success",
-        "How have you contributed to equality and inclusion on your team?",
-        "Tell me about building something that had significant business impact",
-        "Describe a time you collaborated across teams to solve a problem",
-        "How have you balanced innovation with reliability requirements?",
-        "Tell me about giving back to your community or mentoring others",
-        "Describe a situation where you had to make a difficult technical trade-off",
-        "How have you worked with enterprise customers to understand their needs?",
-        "Tell me about a time you improved a process or system significantly",
-        "Describe how you've contributed to team culture and collaboration",
-        "How have you handled disagreement with a colleague or manager?",
-        "Tell me about learning a new technology to solve a problem",
-        "Describe a project where you had to balance multiple stakeholder needs",
-        "How have you demonstrated innovation in your work?"
+        'Tell me about an analysis that significantly changed a product decision',
+        'Describe a time when your data contradicted stakeholder expectations',
+        'How have you championed data-driven decision making in a skeptical environment?',
+        'Tell me about a time you embraced adventure and tried a novel analytical approach',
+        'Describe a creative solution to a data problem that others hadn\'t considered (Be a Cereal Entrepreneur)',
+        'How have you helped non-technical stakeholders understand complex analysis?',
+        'Tell me about an analysis you later realized was flawed and how you handled it',
+        'How have you gone above and beyond to support a teammate or stakeholder (Be a Host)?',
+        'Describe a situation where you had to balance rigor with speed',
+        'How do you approach understanding users who are different from yourself?',
+        'Tell me about a time you had to influence a decision without direct authority',
+        'Describe how you\'ve mentored or developed other data scientists',
+        'How have you contributed to building an inclusive team culture?',
+        'Tell me about navigating ambiguity in a project with unclear requirements'
       ],
       whatTheyLookFor: [
-        "Strong coding skills with Java, Python, or JavaScript experience",
-        "Understanding of multi-tenant architecture and SaaS principles",
-        "Alignment with Salesforce values: Trust, Customer Success, Innovation, Equality",
-        "Experience with cloud platforms and distributed systems",
-        "Customer-first mindset focused on business impact",
-        "Collaborative approach working across teams and functions",
-        "Commitment to diversity, equality, and inclusion",
-        "Passion for building products that transform how businesses operate",
-        "Strong communication skills for cross-functional work",
-        "Track record of delivering reliable, scalable software"
+        'Strong statistical foundation with expertise in experimental design and causal inference',
+        'Machine learning skills applicable to ranking, recommendation, and classification problems',
+        'Excellent communication ability to explain complex findings to diverse audiences',
+        'Product intuition and business acumen connecting analysis to user and company impact',
+        'Coding proficiency in Python or R with SQL expertise',
+        'Intellectual curiosity and passion for using data to understand human behavior',
+        'Collaborative mindset working effectively with Product, Engineering, and Design',
+        'Alignment with Airbnb\'s mission and values, especially user empathy',
+        'Rigor balanced with pragmatism—knowing when perfect is the enemy of good',
+        'Growth mindset with desire to continuously learn and improve'
       ],
       interviewTips: [
-        "Use Salesforce products and understand the platform ecosystem",
-        "Study Ohana culture and Salesforce's core values deeply",
-        "Prepare examples demonstrating trust, customer success, and equality",
-        "Understand multi-tenant architecture and enterprise SaaS patterns",
-        "Research Salesforce's technology blog and engineering innovations",
-        "Be ready to discuss scalability for enterprise customers",
-        "Show genuine interest in helping businesses succeed",
-        "Prepare questions about team culture and social impact initiatives",
-        "Understand Einstein AI and how Salesforce approaches ML",
-        "Be authentic about your values and community involvement",
-        "Practice system design for B2B SaaS applications",
-        "Know Salesforce's competitive position and recent acquisitions",
-        "Prepare to discuss how you've handled enterprise requirements",
-        "Show enthusiasm for the 1-1-1 philanthropy model"
+        'Deeply review Airbnb\'s Medium publications on experimentation and data science',
+        'Practice product sense cases using Airbnb\'s actual product as context',
+        'Prepare to discuss your approach to common DS challenges: selection bias, network effects, multiple testing',
+        'Be ready to write SQL and Python code to solve analytical problems',
+        'Understand Airbnb\'s two-sided marketplace dynamics and how they affect analysis',
+        'Prepare specific examples demonstrating each of the four core values',
+        'Practice explaining statistical concepts to non-technical audiences',
+        'Review your past work for examples of analysis driving business impact',
+        'Be ready to discuss machine learning fundamentals and when to apply different techniques',
+        'Prepare thoughtful questions about team culture, data infrastructure, and challenges',
+        'Show genuine curiosity about Airbnb\'s unique data challenges',
+        'Practice the take-home presentation with focus on clear communication',
+        'Be ready to discuss limitations and assumptions in your analyses',
+        'Show how you balance statistical rigor with practical business needs'
       ],
-      salary: {
-        min: 140000,
-        max: 280000,
-        currency: "USD"
-      },
+      salary: { min: 165000, max: 280000 },
       compensation: [
-        "Base salary range: $140,000 - $280,000 depending on level (MTS to Principal)",
-        "Annual bonus typically 10-15% of base salary",
-        "RSU grants vesting over 4 years",
-        "Employee Stock Purchase Plan (ESPP) at 15% discount",
-        "401(k) with company match",
-        "Comprehensive health, dental, and vision coverage",
-        "Wellness reimbursement program",
-        "7 days paid volunteer time off (VTO) annually",
-        "Education reimbursement and certification support",
-        "Generous parental leave policy"
+        'Competitive base salary with substantial equity grants (RSUs)',
+        'Annual performance bonuses and equity refreshers',
+        '$2,000 annual travel credit for Airbnb stays and Experiences',
+        'Comprehensive health, dental, and vision insurance',
+        'Generous parental leave (up to 22 weeks)',
+        'Flexible PTO policy encouraging actual time off',
+        '401(k) with company match',
+        'Conference attendance and professional development budget',
+        'Access to internal data science training and learning resources',
+        'Home office setup stipend'
       ],
       dayInLife: {
-        intro: "A typical day as a Software Engineer at Salesforce involves collaborative development, customer focus, and meaningful community engagement within the Ohana culture.",
+        intro: 'A day as a Data Scientist at Airbnb balances deep analytical work with collaborative partnership and strategic thinking.',
         schedule: [
-          "9:00 AM - Team standup discussing sprint progress and customer priorities",
-          "9:30 AM - Feature development for Sales Cloud automation workflow",
-          "11:00 AM - Architecture review for multi-tenant optimization",
-          "12:00 PM - Lunch with team, often discussing Dreamforce or community events",
-          "1:00 PM - Customer feedback session reviewing enterprise requirements",
-          "2:30 PM - Code review with focus on security and scalability",
-          "3:30 PM - Cross-functional sync with product and UX on upcoming features",
-          "4:30 PM - Innovation time exploring Einstein AI integration possibilities",
-          "5:30 PM - Volunteer planning for upcoming 1-1-1 community event"
+          '9:00 AM - Review experiment results from overnight data pipeline runs',
+          '9:30 AM - Team standup discussing ongoing analyses and upcoming experiments',
+          '10:00 AM - Deep work on pricing model feature engineering',
+          '11:30 AM - Meeting with PM to discuss metrics framework for new initiative',
+          '12:00 PM - Lunch with data science colleagues sharing interesting findings',
+          '1:00 PM - Experiment review meeting presenting A/B test results to stakeholders',
+          '2:00 PM - Code review for teammate\'s model implementation',
+          '2:30 PM - SQL analysis exploring user behavior patterns for new hypothesis',
+          '4:00 PM - Office hours helping product team interpret dashboards',
+          '4:30 PM - One-on-one with manager discussing career growth',
+          '5:00 PM - Document findings and prepare presentation for tomorrow',
+          '5:30 PM - Wrap up and review next day\'s priorities'
         ],
-        closing: "Salesforce engineers enjoy working on technology that transforms businesses while being part of a culture that genuinely values giving back and community impact."
+        closing: 'Data Science at Airbnb means working on impactful problems with world-class colleagues, using data to improve how people connect and belong around the world.'
       },
-      similarRoles: ["Data Scientist", "Technical Architect", "DevOps Engineer", "AI/ML Engineer"]
+      similarRoles: ['Senior Data Scientist at Airbnb', 'Staff Data Scientist at Airbnb', 'ML Engineer at Airbnb', 'Analytics Engineer at Airbnb', 'Research Scientist at Airbnb']
     },
-    'product-manager': {
-      roleDescription: "Product Managers at Salesforce define and execute product strategy for the world's #1 CRM platform, shaping how over 150,000 companies connect with their customers. You'll own products across Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, Einstein AI, Data Cloud, or Agentforce—each serving diverse customers from SMBs to Fortune 500 enterprises. Salesforce PMs are known for deep customer obsession, working directly with customers at events like Dreamforce and through ongoing feedback programs. The role requires balancing innovation with enterprise reliability, managing complex stakeholder ecosystems, and driving adoption across a vast partner network. PMs work within the Ohana culture, where trust, customer success, innovation, and equality guide every product decision. With Salesforce's leadership in AI through Einstein and Agentforce, PMs are at the forefront of defining how autonomous agents transform business processes.",
+
+    'machine-learning-engineer': {
+      title: 'Machine Learning Engineer',
+      slug: 'machine-learning-engineer',
+      industry: 'Technology',
+      roleDescription: `Machine Learning Engineers at Airbnb build the intelligent systems that power search ranking, pricing recommendations, personalization, fraud detection, and demand forecasting across the world's largest hospitality marketplace. Unlike pure research roles, MLEs at Airbnb focus on building production ML systems that serve millions of users daily, requiring strong engineering skills alongside ML expertise. You'll work with some of the richest behavioral data in travel—booking patterns, search intent, host-guest interactions, and seasonal trends across 220+ countries. Airbnb has pioneered many ML infrastructure innovations, including sophisticated experimentation platforms and feature stores that enable rapid model iteration. Teams work on challenges unique to two-sided marketplaces: optimizing for both host success and guest satisfaction simultaneously. The company's ML culture emphasizes pragmatism—using the right technique for the problem rather than chasing novel approaches. You'll partner closely with Data Scientists for experimentation, Product Managers for strategy, and platform teams to scale your models. Airbnb's core values, especially "Be a Cereal Entrepreneur," encourage creative approaches to seemingly intractable problems.`,
       responsibilities: [
-        "Define product vision and strategy for Salesforce cloud products",
-        "Gather customer insights through research, Dreamforce, and ongoing feedback",
-        "Prioritize features balancing customer needs, business goals, and technical feasibility",
-        "Partner with engineering, UX, and customer success to deliver products",
-        "Drive product adoption through enablement, documentation, and partner ecosystem",
-        "Define success metrics and measure product impact on customer success",
-        "Present roadmap and vision to customers, analysts, and at Dreamforce",
-        "Collaborate with AppExchange partners on ecosystem strategy",
-        "Guide AI/ML product features for Einstein and Agentforce"
+        'Design, build, and deploy machine learning models for search ranking, pricing, and personalization',
+        'Build robust ML pipelines handling feature engineering, training, and serving at scale',
+        'Partner with Data Scientists to translate experimental models into production systems',
+        'Develop and maintain ML infrastructure including feature stores, model serving, and monitoring',
+        'Conduct A/B tests to measure model impact on key business metrics',
+        'Optimize model performance for latency, cost, and accuracy trade-offs',
+        'Collaborate with Product teams to identify ML opportunities that improve user experiences',
+        'Mentor engineers on ML best practices and contribute to team technical standards',
+        'Stay current with ML research and evaluate applicability to Airbnb problems'
       ],
       growthOpportunities: [
-        "Own products serving 150,000+ companies across all industries",
-        "Shape the future of AI in business through Einstein and Agentforce",
-        "Direct customer engagement at Dreamforce and throughout the year",
-        "Clear career path to Senior PM, Director, VP, and SVP roles",
-        "Work across diverse product areas from CRM to AI to platform",
-        "Strong Ohana culture with emphasis on work-life balance",
-        "Influence the Salesforce ecosystem of 10M+ developers and admins",
-        "Competitive compensation with equity participation"
+        'Progress through IC levels to Staff and Principal ML Engineer',
+        'Specialize in areas like NLP, computer vision, recommendations, or forecasting',
+        'Transition into ML Platform engineering building core infrastructure',
+        'Move into Research Scientist roles for more exploratory work',
+        'Lead ML architecture decisions across multiple product areas',
+        'Build and lead ML teams as an Engineering Manager',
+        'Contribute to open source and advance Airbnb\'s ML reputation'
       ],
       interviewProcess: [
-        {
-          stage: "Recruiter Screen",
-          duration: "30 minutes",
-          description: "Discussion of PM background and alignment with Salesforce values"
-        },
-        {
-          stage: "Hiring Manager Interview",
-          duration: "60 minutes",
-          description: "Deep dive into product experience, strategic thinking, and customer focus"
-        },
-        {
-          stage: "Onsite - Product Sense",
-          duration: "45 minutes",
-          description: "Product design exercise for an enterprise SaaS problem"
-        },
-        {
-          stage: "Onsite - Analytical",
-          duration: "45 minutes",
-          description: "Data analysis and metrics definition for product decisions"
-        },
-        {
-          stage: "Onsite - Execution",
-          duration: "45 minutes",
-          description: "Discussion of shipping products and managing stakeholders"
-        },
-        {
-          stage: "Onsite - Values & Culture",
-          duration: "45 minutes",
-          description: "Behavioral interview on Salesforce values and customer success"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial call covering ML experience, background, and interest in Airbnb\'s challenges' },
+        { stage: 'Technical Phone Screen', description: '60-minute interview covering ML fundamentals, coding, and system design' },
+        { stage: 'Onsite - ML Depth', description: 'Deep dive into ML algorithms, model selection, and feature engineering approach' },
+        { stage: 'Onsite - Coding', description: 'Algorithmic coding interview testing implementation skills and code quality' },
+        { stage: 'Onsite - ML System Design', description: 'Design end-to-end ML system for Airbnb-relevant problem' },
+        { stage: 'Onsite - Core Values', description: 'Behavioral assessment of alignment with Airbnb\'s four core values' },
+        { stage: 'Team Matching', description: 'Discussions with potential teams to find right fit' }
       ],
       technicalQuestions: [
-        "How would you improve Sales Cloud for mid-market companies?",
-        "Design a new feature for AI-powered customer service automation",
-        "How would you measure success for Einstein AI recommendations?",
-        "Design the product strategy for Salesforce entering a new vertical",
-        "How would you improve adoption of Salesforce Platform features?",
-        "Design a feature reducing time-to-value for new customers",
-        "How would you approach building an Agentforce autonomous agent?",
-        "Design the mobile experience for field sales representatives",
-        "How would you improve the AppExchange partner experience?",
-        "Design features helping SMBs get started with Salesforce faster",
-        "How would you balance enterprise vs SMB customer needs?",
-        "Design the integration experience between Salesforce clouds",
-        "How would you measure and improve customer health scores?",
-        "Design a product addressing data quality challenges",
-        "How would you approach pricing for a new Salesforce feature?"
+        'Design a search ranking system that balances listing relevance with host success',
+        'How would you build a dynamic pricing recommendation engine for hosts?',
+        'Explain your approach to handling cold-start problems for new listings',
+        'Design a real-time fraud detection system for fake bookings',
+        'How would you build a personalized home feed for returning users?',
+        'Describe techniques for handling class imbalance in cancellation prediction',
+        'How would you design an ML system for demand forecasting across cities?',
+        'Explain your approach to feature engineering for a recommendation system',
+        'How would you detect and handle concept drift in production models?',
+        'Design an ML pipeline for image quality scoring of listing photos',
+        'How would you approach multi-objective optimization in marketplace ranking?',
+        'Explain techniques for interpretable ML in pricing recommendations',
+        'How would you build an NLP system for review sentiment analysis?',
+        'Describe your approach to online learning for real-time personalization',
+        'How would you design a similar listings recommendation system?',
+        'Explain your strategy for A/B testing ML model changes'
       ],
       behavioralQuestions: [
-        "Tell me about a product that drove significant customer success",
-        "Describe balancing conflicting stakeholder needs",
-        "How have you championed equality in product decisions?",
-        "Tell me about using customer feedback to change product direction",
-        "Describe influencing engineering without direct authority",
-        "How do you prioritize between enterprise and SMB customers?",
-        "Tell me about demonstrating trust and integrity as a PM",
-        "Describe collaborating with customer success on product adoption",
-        "How have you worked with partners to extend your product?",
-        "Tell me about a product launch that didn't meet expectations",
-        "Describe presenting product vision to customers or analysts",
-        "How have you handled technical debt vs feature trade-offs?",
-        "Tell me about building consensus across a complex organization",
-        "Describe a time you advocated for a customer need internally",
-        "How have you contributed to Ohana culture on your team?"
+        'Tell me about an ML model you deployed that had significant business impact',
+        'Describe a time you chose a simpler approach over a more complex model',
+        'How have you championed the mission in your ML work?',
+        'Tell me about a time you embraced adventure with a novel ML technique',
+        'Describe a creative solution to an ML problem that others hadn\'t considered (Be a Cereal Entrepreneur)',
+        'How have you helped non-technical stakeholders understand ML capabilities and limitations?',
+        'Tell me about an ML project that failed and what you learned',
+        'How have you gone above and beyond to help a teammate succeed (Be a Host)?',
+        'Describe how you balance model complexity with maintainability',
+        'How do you approach building ML systems for users different from yourself?',
+        'Tell me about a time you had to influence a product decision with ML insights',
+        'Describe how you\'ve mentored others in ML best practices',
+        'How have you contributed to an inclusive team culture?',
+        'Tell me about debugging a challenging ML issue in production'
       ],
       whatTheyLookFor: [
-        "Strong customer obsession with enterprise software experience",
-        "Strategic thinking balanced with execution excellence",
-        "Deep understanding of CRM, SaaS, and enterprise business processes",
-        "Analytical skills and data-driven decision making",
-        "Alignment with Salesforce values and Ohana culture",
-        "Experience managing complex stakeholder ecosystems",
-        "Track record shipping products that drive customer success",
-        "Technical depth to partner effectively with engineering",
-        "Excellent communication and presentation skills",
-        "Passion for transforming how businesses connect with customers"
+        'Strong ML fundamentals with experience deploying models in production',
+        'Excellent software engineering skills for building robust ML systems',
+        'Experience with ranking, recommendations, or marketplace ML problems',
+        'Pragmatic approach choosing the right technique for the problem',
+        'Strong communication skills explaining ML to diverse audiences',
+        'Collaborative mindset working with Data Science, Product, and Engineering',
+        'Curiosity and passion for solving complex ML challenges',
+        'Alignment with Airbnb\'s mission and core values',
+        'Experience with ML infrastructure and scalable system design',
+        'Growth mindset and desire to continuously learn'
       ],
       interviewTips: [
-        "Use Salesforce products extensively—become a power user",
-        "Study Ohana culture and Salesforce's four core values",
-        "Prepare customer success stories with measurable impact",
-        "Understand the Salesforce ecosystem including AppExchange",
-        "Research recent Dreamforce announcements and product direction",
-        "Be ready to discuss enterprise vs SMB market dynamics",
-        "Prepare examples of stakeholder management in complex orgs",
-        "Show genuine passion for customer success and business transformation",
-        "Understand Einstein AI, Data Cloud, and Agentforce capabilities",
-        "Be ready to discuss the competitive landscape (Microsoft, Oracle, etc.)",
-        "Prepare thoughtful questions about the team and product area",
-        "Show how you balance innovation with enterprise reliability",
-        "Understand Salesforce's partner and ISV ecosystem",
-        "Be authentic about your values and community involvement"
+        'Review Airbnb\'s tech blog for ML posts on ranking, personalization, and infrastructure',
+        'Practice ML system design focusing on end-to-end production systems',
+        'Be ready to discuss trade-offs between model complexity and operational concerns',
+        'Prepare examples demonstrating each of Airbnb\'s four core values',
+        'Understand two-sided marketplace dynamics and their ML implications',
+        'Practice coding ML implementations in Python with clean, tested code',
+        'Be ready to explain feature engineering strategies for different problem types',
+        'Prepare questions about ML infrastructure and team challenges',
+        'Show genuine interest in Airbnb\'s unique ML problems',
+        'Be ready to discuss when simpler approaches beat complex models',
+        'Review recommendation system fundamentals and ranking algorithms',
+        'Prepare to discuss model monitoring and handling production issues',
+        'Show how you balance innovation with pragmatic shipping',
+        'Be authentic in values discussions—Airbnb values genuine fit'
       ],
-      salary: {
-        min: 150000,
-        max: 320000,
-        currency: "USD"
-      },
+      salary: { min: 180000, max: 300000 },
       compensation: [
-        "Base salary range: $150,000 - $320,000 depending on level",
-        "Annual bonus typically 15-25% of base salary",
-        "RSU grants vesting over 4 years",
-        "Employee Stock Purchase Plan (ESPP)",
-        "401(k) with company match",
-        "Comprehensive health benefits",
-        "Wellness reimbursement program",
-        "7 days paid volunteer time off annually",
-        "Attendance at Dreamforce and customer events",
-        "Education and certification reimbursement"
+        'Highly competitive base salary with significant equity (RSUs)',
+        'Annual refresher grants based on performance',
+        '$2,000 annual travel credit for Airbnb stays and Experiences',
+        'Comprehensive health, dental, and vision coverage',
+        'Generous parental leave (up to 22 weeks)',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Conference attendance and ML learning budget',
+        'Access to GPU resources for experimentation',
+        'Home office and equipment stipend'
       ],
       dayInLife: {
-        intro: "A typical day as a Product Manager at Salesforce involves customer engagement, strategic thinking, and cross-functional collaboration within the Ohana culture.",
+        intro: 'A day as an ML Engineer at Airbnb combines deep technical work with collaborative product partnership.',
         schedule: [
-          "9:00 AM - Review product metrics and customer health dashboards",
-          "9:30 AM - Customer call discussing their business challenges and needs",
-          "10:30 AM - Engineering sync on sprint priorities and technical decisions",
-          "11:30 AM - UX review for upcoming feature designs",
-          "12:30 PM - Lunch with customer success team discussing adoption trends",
-          "1:30 PM - Roadmap planning session with product leadership",
-          "3:00 PM - Partner meeting with AppExchange ISV on integration",
-          "4:00 PM - Prepare customer presentation for upcoming event",
-          "5:00 PM - Analyst briefing on new AI capabilities"
+          '9:00 AM - Review model performance dashboards and overnight experiment results',
+          '9:30 AM - Team standup discussing ML projects and blockers',
+          '10:00 AM - Deep work on feature engineering for new ranking model',
+          '12:00 PM - Lunch with ML colleagues discussing recent papers',
+          '1:00 PM - Meeting with PM to discuss ML approach for new product initiative',
+          '2:00 PM - Code review for teammate\'s model training pipeline',
+          '3:00 PM - Experiment analysis meeting reviewing A/B test results with Data Science',
+          '4:00 PM - Debug model serving latency issue with platform team',
+          '5:00 PM - Write design doc for upcoming ML system improvement',
+          '5:30 PM - Wrap up with experiment monitoring check'
         ],
-        closing: "Salesforce PMs enjoy direct customer engagement and the opportunity to shape products that genuinely transform how businesses operate and connect with their customers."
+        closing: 'ML Engineering at Airbnb means building systems that directly improve travel experiences for millions while working with world-class colleagues on unique marketplace challenges.'
       },
-      similarRoles: ["Software Engineer", "UX Designer", "Customer Success Manager", "Solution Engineer"]
+      similarRoles: ['Senior ML Engineer at Airbnb', 'Staff ML Engineer at Airbnb', 'Research Scientist at Airbnb', 'ML Platform Engineer at Airbnb', 'Data Scientist at Airbnb']
     },
-    'engineering-manager': {
-      roleDescription: "Engineering Managers at Salesforce lead teams building enterprise cloud products that transform how over 150,000 companies connect with their customers. You'll manage teams of 6-12 engineers working on Sales Cloud, Service Cloud, Platform, Einstein AI, or core infrastructure, balancing technical leadership with people development. Salesforce EMs are expected to maintain technical credibility while fostering the Ohana culture—building inclusive teams where everyone belongs. The company's commitment to equality means EMs actively champion diversity in hiring and development. You'll partner closely with product and design while ensuring your team delivers reliable, scalable enterprise software. Salesforce's clear leveling system provides growth paths for both managers and individual contributors, and the 1-1-1 philanthropic model means you'll also lead your team's community engagement and volunteer initiatives.",
-      responsibilities: [
-        "Lead and develop a team of 6-12 software engineers",
-        "Set technical direction ensuring enterprise-grade quality and reliability",
-        "Drive product execution partnering with PM and UX",
-        "Hire diverse talent and develop inclusive team culture",
-        "Foster Ohana culture and commitment to equality",
-        "Manage performance through continuous feedback and coaching",
-        "Balance technical debt with feature development velocity",
-        "Ensure team engagement with customer success and feedback",
-        "Lead team's 1-1-1 volunteer and community initiatives",
-        "Represent engineering in cross-functional planning and strategy"
-      ],
-      growthOpportunities: [
-        "Lead teams building products serving 150,000+ companies",
-        "Strong emphasis on leadership development and Ohana values",
-        "Clear path to Senior EM, Director, VP, and SVP roles",
-        "Work across diverse product areas from CRM to AI to infrastructure",
-        "Competitive compensation with meaningful equity participation",
-        "1-1-1 model providing leadership opportunities in community",
-        "Access to executive coaching and leadership programs",
-        "Influence engineering culture at a market-leading company"
-      ],
-      interviewProcess: [
-        {
-          stage: "Recruiter Screen",
-          duration: "30 minutes",
-          description: "Discussion of management experience and alignment with Ohana values"
-        },
-        {
-          stage: "Hiring Manager Interview",
-          duration: "60 minutes",
-          description: "Deep dive into leadership philosophy and people management approach"
-        },
-        {
-          stage: "Onsite - Technical Leadership",
-          duration: "45 minutes",
-          description: "System design demonstrating technical credibility"
-        },
-        {
-          stage: "Onsite - People Management",
-          duration: "45 minutes",
-          description: "Scenarios covering hiring, development, and performance management"
-        },
-        {
-          stage: "Onsite - Execution",
-          duration: "45 minutes",
-          description: "Discussion of delivering projects and managing cross-functional work"
-        },
-        {
-          stage: "Onsite - Values & Culture",
-          duration: "45 minutes",
-          description: "Deep assessment of Salesforce values alignment and inclusive leadership"
-        }
-      ],
-      technicalQuestions: [
-        "Design the architecture for Salesforce's multi-tenant platform",
-        "How would you improve reliability for enterprise customers?",
-        "Your team is behind on a critical feature—how do you recover?",
-        "Design the scaling strategy for Einstein AI inference at scale",
-        "How do you balance technical debt with new feature development?",
-        "Walk through scaling a team from 6 to 12 engineers",
-        "Your team has a P1 incident affecting customers—how do you respond?",
-        "Design the testing strategy for enterprise SaaS reliability",
-        "How would you approach a major platform migration with your team?",
-        "Design the monitoring and alerting strategy for your services",
-        "How do you ensure security in a multi-tenant environment?",
-        "Walk through building a new team for a greenfield product",
-        "How would you improve developer productivity for your team?",
-        "Design the CI/CD pipeline for enterprise deployments"
-      ],
-      behavioralQuestions: [
-        "Tell me about building a diverse and inclusive team",
-        "Describe managing a performance issue with empathy",
-        "How have you embodied Ohana culture as a leader?",
-        "Tell me about championing customer success with your team",
-        "Describe resolving a conflict between team members",
-        "How do you foster trust and psychological safety?",
-        "Tell me about delivering difficult feedback effectively",
-        "Describe mentoring engineers from underrepresented backgrounds",
-        "How have you handled a team member leaving for a competitor?",
-        "Tell me about a hiring mistake and what you learned",
-        "Describe leading your team through organizational change",
-        "How do you balance being hands-on with delegation?",
-        "Tell me about developing an engineer's career significantly",
-        "Describe leading a 1-1-1 volunteer initiative with your team",
-        "How have you handled burnout on your team?"
-      ],
-      whatTheyLookFor: [
-        "Strong technical credibility with enterprise software experience",
-        "People management experience leading teams of 5+ engineers",
-        "Commitment to diversity, equality, and inclusive leadership",
-        "Track record shipping reliable enterprise products",
-        "Alignment with Salesforce values and Ohana culture",
-        "Customer-first mindset focused on business success",
-        "Experience with multi-tenant architecture or cloud platforms",
-        "Excellence in hiring, developing, and retaining talent",
-        "Strong communication and stakeholder management skills",
-        "Passion for building high-performing, inclusive teams"
-      ],
-      interviewTips: [
-        "Prepare examples of building diverse, inclusive teams",
-        "Demonstrate technical depth in enterprise software",
-        "Show deep alignment with Ohana culture and values",
-        "Emphasize customer success and business impact",
-        "Prepare specific examples of people development",
-        "Be ready to discuss performance management approaches",
-        "Understand Salesforce's products and engineering challenges",
-        "Show how you've championed equality in hiring and promotion",
-        "Prepare examples of leading through change and ambiguity",
-        "Be authentic about your leadership style and values",
-        "Ask about team culture and 1-1-1 initiatives",
-        "Show passion for developing engineers' careers",
-        "Understand Salesforce's leveling and growth framework",
-        "Prepare questions about the team's challenges and roadmap"
-      ],
-      salary: {
-        min: 200000,
-        max: 380000,
-        currency: "USD"
-      },
-      compensation: [
-        "Base salary range: $200,000 - $380,000 depending on level and scope",
-        "Annual bonus typically 15-25% of base salary",
-        "RSU grants vesting over 4 years",
-        "Employee Stock Purchase Plan (ESPP)",
-        "401(k) with company match",
-        "Executive health benefits at senior levels",
-        "Wellness reimbursement program",
-        "7 days paid volunteer time off annually",
-        "Leadership development and executive coaching",
-        "Attendance at internal leadership summits"
-      ],
-      dayInLife: {
-        intro: "A typical day as an Engineering Manager at Salesforce involves people leadership, technical guidance, and fostering Ohana culture across your team.",
-        schedule: [
-          "9:00 AM - Review team metrics and customer escalation queue",
-          "9:30 AM - 1:1 with senior engineer on career development",
-          "10:00 AM - Team standup and sprint health check",
-          "10:30 AM - Architecture review for multi-tenant optimization",
-          "11:30 AM - Interview candidate for open position",
-          "12:30 PM - Lunch with product manager discussing roadmap",
-          "1:30 PM - Cross-functional sync with UX and customer success",
-          "2:30 PM - 1:1 with engineer working through performance goals",
-          "3:30 PM - Manager peer group discussing people challenges",
-          "4:30 PM - Planning team's quarterly volunteer initiative"
-        ],
-        closing: "Salesforce Engineering Managers enjoy building high-performing teams while making a genuine impact on both customer success and community through the Ohana culture."
-      },
-      similarRoles: ["Software Engineer", "Technical Architect", "Director of Engineering", "Product Manager"]
-    },
-    'data-scientist': {
-      roleDescription: "Data Scientists at Salesforce leverage data to drive product decisions, optimize customer experiences, and build the AI/ML capabilities that power Einstein and Agentforce. You'll work with massive datasets from over 150,000 companies, developing insights that shape product strategy and building models that serve billions of predictions daily. The Product Data Science team partners directly with engineering and product to make Salesforce smarter and more valuable for customers. Strategic Data Scientists work on business-critical analyses informing executive decisions about market strategy, pricing, and growth. Whether you're building recommendation systems for Einstein, developing autonomous agent capabilities for Agentforce, or analyzing product usage to improve customer success, you'll have access to rich data at unprecedented enterprise scale. Salesforce's commitment to responsible AI means data scientists also work on fairness, explainability, and ethical AI practices.",
-      responsibilities: [
-        "Build predictive models and advanced algorithms for Salesforce products",
-        "Partner with product and engineering on data-driven decision making",
-        "Design and analyze A/B experiments measuring product impact",
-        "Develop machine learning models for Einstein and Agentforce features",
-        "Create dashboards and analytics enabling self-service insights",
-        "Conduct strategic analyses informing business and product decisions",
-        "Define success metrics and measurement frameworks for products",
-        "Work on responsible AI including fairness and explainability",
-        "Communicate findings to executives and cross-functional partners"
-      ],
-      growthOpportunities: [
-        "Work with data from 150,000+ companies across all industries",
-        "Build ML models powering Einstein AI and Agentforce autonomous agents",
-        "Direct impact on product strategy and business decisions",
-        "Clear career path from IC to Staff, Principal, and Director",
-        "Work on cutting-edge AI including large language models",
-        "Strong Ohana culture with work-life balance emphasis",
-        "Competitive compensation with meaningful equity",
-        "Access to Salesforce's massive data and compute infrastructure"
-      ],
-      interviewProcess: [
-        {
-          stage: "Recruiter Screen",
-          duration: "30 minutes",
-          description: "Discussion of data science background and Salesforce values alignment"
-        },
-        {
-          stage: "Technical Phone Screen",
-          duration: "60 minutes",
-          description: "Statistics, ML fundamentals, and analytical problem-solving"
-        },
-        {
-          stage: "Onsite - ML/Statistics",
-          duration: "45 minutes",
-          description: "Deep dive into machine learning algorithms and statistical methods"
-        },
-        {
-          stage: "Onsite - Coding",
-          duration: "45 minutes",
-          description: "SQL and Python coding for data manipulation and analysis"
-        },
-        {
-          stage: "Onsite - Case Study",
-          duration: "60 minutes",
-          description: "Work through a product or business analytics problem"
-        },
-        {
-          stage: "Onsite - Values & Culture",
-          duration: "45 minutes",
-          description: "Behavioral interview on Salesforce values and collaboration"
-        }
-      ],
-      technicalQuestions: [
-        "Design a recommendation system for Einstein Sales Cloud insights",
-        "How would you build a lead scoring model for enterprise customers?",
-        "Design an experiment measuring impact of a new AI feature",
-        "How would you predict customer churn for Salesforce subscribers?",
-        "Build a model for optimal next-best-action in Service Cloud",
-        "How would you measure the ROI of Einstein AI features?",
-        "Design the analytics for Agentforce autonomous agent performance",
-        "How would you handle class imbalance in enterprise datasets?",
-        "Build a model for forecasting enterprise deal outcomes",
-        "How would you ensure fairness in AI recommendations?",
-        "Design a system for real-time personalization at scale",
-        "How would you measure product adoption and engagement?",
-        "Build a model for identifying expansion opportunities",
-        "How would you approach causal inference for product decisions?",
-        "Design the metrics framework for a new Salesforce product"
-      ],
-      behavioralQuestions: [
-        "Tell me about an analysis that significantly influenced a decision",
-        "Describe communicating complex findings to non-technical stakeholders",
-        "How have you balanced model complexity with business needs?",
-        "Tell me about debugging an ML model in production",
-        "Describe a project where you had to be scrappy with limited data",
-        "How have you handled disagreement about methodology?",
-        "Tell me about building relationships with product partners",
-        "Describe ensuring responsible AI in your work",
-        "How have you prioritized across multiple analytical requests?",
-        "Tell me about a model that didn't work as expected",
-        "Describe mentoring others on data science best practices",
-        "How have you stayed current with ML research?",
-        "Tell me about working with engineering to deploy a model",
-        "Describe balancing exploration with delivering results",
-        "How have you contributed to team culture and Ohana values?"
-      ],
-      whatTheyLookFor: [
-        "Strong ML and statistics fundamentals with practical experience",
-        "SQL and Python proficiency for data analysis",
-        "Experience building models for production deployment",
-        "Track record translating data into business insights",
-        "Excellent communication skills for diverse audiences",
-        "Alignment with Salesforce values and Ohana culture",
-        "Experience with A/B testing and experimentation",
-        "Understanding of enterprise software and SaaS metrics",
-        "Passion for customer success and business impact",
-        "Collaborative approach to working with product and engineering"
-      ],
-      interviewTips: [
-        "Prepare to discuss ML algorithms in depth—both theory and practice",
-        "Practice SQL and Python coding for data problems",
-        "Have examples of analyses that drove business decisions",
-        "Understand Salesforce products and how AI enhances them",
-        "Be ready to discuss experimentation and causal inference",
-        "Study Einstein AI and Agentforce capabilities",
-        "Prepare case study approaches for product analytics",
-        "Show genuine interest in enterprise software challenges",
-        "Understand responsible AI and fairness considerations",
-        "Be ready to explain complex concepts simply",
-        "Prepare examples of cross-functional collaboration",
-        "Show alignment with Ohana culture and values",
-        "Understand the Salesforce data ecosystem",
-        "Prepare thoughtful questions about the team's work"
-      ],
-      salary: {
-        min: 150000,
-        max: 320000,
-        currency: "USD"
-      },
-      compensation: [
-        "Base salary range: $150,000 - $320,000 depending on level",
-        "Annual bonus typically 10-20% of base salary",
-        "RSU grants vesting over 4 years",
-        "Employee Stock Purchase Plan (ESPP)",
-        "401(k) with company match",
-        "Comprehensive health benefits",
-        "Wellness reimbursement program",
-        "7 days paid volunteer time off annually",
-        "Conference attendance and learning budget",
-        "Access to cloud compute resources for research"
-      ],
-      dayInLife: {
-        intro: "A typical day as a Data Scientist at Salesforce involves analytical work, model development, and close collaboration with product and engineering partners.",
-        schedule: [
-          "9:00 AM - Review model performance dashboards and alerts",
-          "9:30 AM - Deep analysis on product adoption patterns",
-          "11:00 AM - Sync with product manager on upcoming experiment",
-          "12:00 PM - Lunch with data science team discussing ML approaches",
-          "1:00 PM - Model development for Einstein lead scoring",
-          "2:30 PM - Present analysis findings to product leadership",
-          "3:30 PM - Code review for teammate's production model",
-          "4:30 PM - Cross-functional planning for new AI feature",
-          "5:30 PM - Learning time—reviewing latest ML research papers"
-        ],
-        closing: "Salesforce Data Scientists enjoy the unique opportunity to work with rich enterprise data while building AI that genuinely helps businesses succeed."
-      },
-      similarRoles: ["Software Engineer", "AI/ML Engineer", "Product Manager", "Technical Architect"]
-    },
-    'technical-architect': {
-      roleDescription: "Technical Architects at Salesforce design and lead the delivery of complex enterprise solutions for Salesforce's most strategic customers. You'll architect solutions spanning multiple Salesforce clouds (Sales, Service, Marketing, Commerce, Experience), integrations with external systems, and customizations using Apex, Lightning Web Components, and Flow. The role sits at the intersection of technology and business, requiring deep technical expertise combined with consultative skills to translate customer requirements into scalable, performant architectures. Salesforce Technical Architects work across the customer lifecycle—from pre-sales solution design to implementation oversight and ongoing optimization. With Salesforce's continued investment in AI through Einstein and Agentforce, architects are increasingly designing solutions that incorporate intelligent automation and autonomous agents. The Certified Technical Architect (CTA) credential is one of the most prestigious in the Salesforce ecosystem, with demand for architects growing 1,292% over recent years.",
-      responsibilities: [
-        "Design scalable, secure Salesforce solutions for enterprise customers",
-        "Lead technical design sessions translating business requirements into architecture",
-        "Guide implementation teams on best practices and governance",
-        "Design integrations between Salesforce and external systems",
-        "Evaluate technical risks and develop mitigation strategies",
-        "Create architecture documentation and technical specifications",
-        "Partner with pre-sales on solution design for complex opportunities",
-        "Mentor developers and consultants on Salesforce architecture patterns",
-        "Stay current on Salesforce releases and incorporate new capabilities"
-      ],
-      growthOpportunities: [
-        "Work on complex solutions for Fortune 500 and strategic customers",
-        "Clear path to Certified Technical Architect (CTA) credential",
-        "Demand for architects growing 1,292% annually in ecosystem",
-        "Transition to customer-facing leadership or product roles",
-        "Work across all Salesforce clouds and emerging AI capabilities",
-        "High visibility role with direct customer and executive engagement",
-        "Competitive compensation among highest in Salesforce ecosystem",
-        "Global travel opportunities for customer engagements"
-      ],
-      interviewProcess: [
-        {
-          stage: "Recruiter Screen",
-          duration: "30 minutes",
-          description: "Discussion of architecture background and Salesforce experience"
-        },
-        {
-          stage: "Hiring Manager Interview",
-          duration: "60 minutes",
-          description: "Deep dive into technical architecture experience and customer engagement"
-        },
-        {
-          stage: "Technical Architecture Review",
-          duration: "90 minutes",
-          description: "Present and defend a solution architecture you've designed"
-        },
-        {
-          stage: "Scenario-Based Design",
-          duration: "60 minutes",
-          description: "Design a multi-cloud Salesforce solution for a given scenario"
-        },
-        {
-          stage: "Stakeholder Management",
-          duration: "45 minutes",
-          description: "Role-play customer engagement demonstrating communication skills"
-        },
-        {
-          stage: "Values & Culture",
-          duration: "45 minutes",
-          description: "Behavioral interview on Salesforce values and customer success"
-        }
-      ],
-      technicalQuestions: [
-        "Design a multi-cloud Salesforce solution for a global retailer",
-        "How would you architect a high-volume Service Cloud implementation?",
-        "Design the integration architecture between Salesforce and SAP",
-        "How would you approach data migration for 50M+ records?",
-        "Design a solution handling 10K+ API calls per minute",
-        "How would you architect a B2B Commerce implementation?",
-        "Design the identity and access management strategy for SSO",
-        "How would you handle governor limits in a high-volume org?",
-        "Design a marketing automation solution across multiple business units",
-        "How would you architect an Einstein AI-enhanced service solution?",
-        "Design the release management strategy for a multi-team project",
-        "How would you approach performance optimization for a slow org?",
-        "Design a solution for complex CPQ (Configure-Price-Quote) requirements",
-        "How would you architect a customer 360 view across channels?",
-        "Design the disaster recovery strategy for a mission-critical implementation"
-      ],
-      behavioralQuestions: [
-        "Tell me about a complex architecture you designed and delivered",
-        "Describe navigating conflicting requirements from stakeholders",
-        "How have you handled a technical decision that was challenged?",
-        "Tell me about coaching a customer on Salesforce best practices",
-        "Describe a solution that didn't go as planned and what you learned",
-        "How have you influenced a customer to change their approach?",
-        "Tell me about balancing innovation with enterprise stability",
-        "Describe working with offshore or distributed implementation teams",
-        "How have you handled scope creep in architecture engagements?",
-        "Tell me about explaining complex technical concepts to executives",
-        "Describe mentoring junior architects or developers",
-        "How have you stayed current with Salesforce's rapid release cycle?",
-        "Tell me about a creative solution to an unusual customer problem",
-        "Describe managing expectations when a solution had limitations",
-        "How have you contributed to customer success beyond the project?"
-      ],
-      whatTheyLookFor: [
-        "Deep Salesforce platform knowledge across multiple clouds",
-        "Experience designing enterprise-scale solutions",
-        "Strong understanding of integration patterns and middleware",
-        "Excellent communication skills for executive audiences",
-        "Track record of successful implementation delivery",
-        "Salesforce certifications (Platform Developer, Application Architect)",
-        "Customer-facing presence and consultative skills",
-        "Understanding of enterprise architecture principles",
-        "Alignment with Salesforce values and Ohana culture",
-        "Ability to mentor and lead technical teams"
-      ],
-      interviewTips: [
-        "Prepare to present and defend an architecture you've designed",
-        "Study multi-cloud solution patterns across Salesforce products",
-        "Be ready for scenario-based design exercises",
-        "Understand integration patterns (ETL, ESB, API-led)",
-        "Know Salesforce governor limits and optimization strategies",
-        "Prepare examples of customer stakeholder management",
-        "Study the CTA board review format even if not certified",
-        "Show balance of technical depth and business understanding",
-        "Understand Einstein AI and how it fits into solutions",
-        "Be ready to discuss trade-offs in architecture decisions",
-        "Know Salesforce's security model and compliance capabilities",
-        "Prepare questions about the customer portfolio and challenges",
-        "Show passion for customer success and Ohana values",
-        "Demonstrate continuous learning with Salesforce releases"
-      ],
-      salary: {
-        min: 180000,
-        max: 350000,
-        currency: "USD"
-      },
-      compensation: [
-        "Base salary range: $180,000 - $350,000 depending on level",
-        "Annual bonus typically 15-20% of base salary",
-        "RSU grants vesting over 4 years",
-        "Employee Stock Purchase Plan (ESPP)",
-        "401(k) with company match",
-        "Comprehensive health benefits",
-        "Certification bonus for CTA achievement",
-        "Travel expenses for customer engagements",
-        "7 days paid volunteer time off annually",
-        "Conference attendance (Dreamforce, TrailheadDX)"
-      ],
-      dayInLife: {
-        intro: "A typical day as a Technical Architect at Salesforce involves customer engagement, solution design, and technical leadership across complex projects.",
-        schedule: [
-          "8:30 AM - Review customer requirements documentation",
-          "9:00 AM - Solution design session with customer technical team",
-          "11:00 AM - Internal sync with delivery team on implementation approach",
-          "12:00 PM - Lunch with solution engineering discussing pre-sales opportunity",
-          "1:00 PM - Architecture review for multi-cloud integration design",
-          "2:30 PM - Customer executive presentation on proposed architecture",
-          "3:30 PM - Mentor junior consultant on integration patterns",
-          "4:30 PM - Document architecture decisions and rationale",
-          "5:30 PM - Review new Salesforce release features for customer impact"
-        ],
-        closing: "Salesforce Technical Architects enjoy the intellectual challenge of designing complex solutions while building lasting relationships with customers."
-      },
-      similarRoles: ["Solution Engineer", "Software Engineer", "Success Architect", "Engineering Manager"]
-    },
-    'solution-engineer': {
-      roleDescription: "Solution Engineers at Salesforce are the technical backbone of the sales organization, demonstrating how Salesforce products solve real business problems for prospective customers. You'll partner with Account Executives on strategic opportunities, delivering compelling product demonstrations, building proof-of-concept solutions, and designing architectures that address customer requirements. The role combines deep Salesforce technical knowledge with sales acumen—you're equally comfortable coding a custom demo as presenting to a C-suite audience. Solution Engineers work across the full Salesforce portfolio including Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, Einstein AI, and Agentforce. With Salesforce's focus on AI, SEs increasingly demonstrate how autonomous agents and intelligent automation transform business processes. The role offers a unique blend of technical work and customer engagement, with significant earning potential through the commission component.",
-      responsibilities: [
-        "Deliver product demonstrations tailored to customer business needs",
-        "Build proof-of-concept solutions for strategic opportunities",
-        "Design solution architectures addressing customer requirements",
-        "Partner with Account Executives throughout the sales cycle",
-        "Respond to RFPs and technical questions from prospects",
-        "Present Salesforce's vision and roadmap to customer executives",
-        "Conduct discovery sessions understanding customer pain points",
-        "Stay current on Salesforce products, competitors, and industry trends",
-        "Contribute to demo assets and best practices for the SE team"
-      ],
-      growthOpportunities: [
-        "High earning potential through base + commission structure",
-        "Work with Fortune 500 companies and strategic accounts",
-        "Clear path to Principal SE, SE Manager, or Solution Architect",
-        "Develop expertise across all Salesforce clouds and AI",
-        "Build lasting relationships with customers and executives",
-        "Travel opportunities for customer engagements and events",
-        "Strong Ohana culture with work-life balance focus",
-        "Transition paths to product, customer success, or leadership"
-      ],
-      interviewProcess: [
-        {
-          stage: "Recruiter Screen",
-          duration: "30 minutes",
-          description: "Discussion of SE background and Salesforce experience"
-        },
-        {
-          stage: "Hiring Manager Interview",
-          duration: "45 minutes",
-          description: "Deep dive into sales engineering experience and customer engagement"
-        },
-        {
-          stage: "Demo Presentation",
-          duration: "60 minutes",
-          description: "Deliver a product demonstration to a mock customer scenario"
-        },
-        {
-          stage: "Technical Assessment",
-          duration: "45 minutes",
-          description: "Salesforce platform knowledge and solution design questions"
-        },
-        {
-          stage: "Cross-functional Interview",
-          duration: "45 minutes",
-          description: "Discussion with sales leadership on collaboration approach"
-        },
-        {
-          stage: "Values & Culture",
-          duration: "45 minutes",
-          description: "Behavioral interview on Salesforce values and customer success"
-        }
-      ],
-      technicalQuestions: [
-        "How would you demonstrate Sales Cloud value to a sales leader?",
-        "Design a solution for a customer with complex approval requirements",
-        "How would you position Salesforce against Microsoft Dynamics?",
-        "Demonstrate how Einstein AI improves sales productivity",
-        "Design a Service Cloud solution for an omnichannel contact center",
-        "How would you handle objections about Salesforce's pricing?",
-        "Demonstrate the value of Agentforce autonomous agents",
-        "Design a solution for a customer with Salesforce and SAP integration needs",
-        "How would you approach a technical evaluation against a competitor?",
-        "Demonstrate Marketing Cloud personalization capabilities",
-        "Design a B2B Commerce solution for a manufacturer",
-        "How would you position Data Cloud for customer 360 use cases?",
-        "Demonstrate Flow automation for a business process",
-        "Design a solution for a customer in a regulated industry",
-        "How would you scope a proof-of-concept for a complex opportunity?"
-      ],
-      behavioralQuestions: [
-        "Tell me about a deal you helped win with a compelling demo",
-        "Describe handling technical objections from a skeptical customer",
-        "How have you partnered effectively with Account Executives?",
-        "Tell me about a proof-of-concept that exceeded expectations",
-        "Describe a situation where you had to deliver difficult news to a customer",
-        "How have you positioned Salesforce against competitors?",
-        "Tell me about tailoring a demo for different audience levels",
-        "Describe building relationships with customer technical teams",
-        "How have you handled a demo that didn't go as planned?",
-        "Tell me about staying current with Salesforce's rapid release cycle",
-        "Describe contributing to the broader SE team's success",
-        "How have you balanced multiple opportunities simultaneously?",
-        "Tell me about a creative solution you developed for a customer",
-        "Describe transitioning a customer from sales to implementation",
-        "How have you embodied Salesforce values in customer engagements?"
-      ],
-      whatTheyLookFor: [
-        "Strong Salesforce platform knowledge (Admin, Developer certifications)",
-        "Excellent presentation and demonstration skills",
-        "Ability to translate business needs into technical solutions",
-        "Sales acumen and understanding of enterprise sales cycles",
-        "Customer-facing presence with executive communication skills",
-        "Problem-solving ability for diverse customer scenarios",
-        "Collaborative approach working with sales and delivery teams",
-        "Alignment with Salesforce values and Ohana culture",
-        "Technical curiosity and continuous learning mindset",
-        "Resilience and positive attitude in competitive situations"
-      ],
-      interviewTips: [
-        "Prepare a polished demo that tells a compelling story",
-        "Practice handling common objections and competitor comparisons",
-        "Know Salesforce products across all clouds deeply",
-        "Be ready to design solutions live for customer scenarios",
-        "Understand enterprise sales cycles and SE's role in them",
-        "Show balance of technical expertise and business acumen",
-        "Prepare examples of customer success from your demos",
-        "Research Salesforce's competitive positioning",
-        "Understand Einstein AI, Data Cloud, and Agentforce",
-        "Be ready to discuss how you stay current with releases",
-        "Show genuine passion for helping customers succeed",
-        "Prepare questions about the territory and account focus",
-        "Demonstrate collaborative approach with sales partners",
-        "Show alignment with Ohana culture and values"
-      ],
-      salary: {
-        min: 140000,
-        max: 280000,
-        currency: "USD"
-      },
-      compensation: [
-        "Base salary range: $140,000 - $200,000 depending on level",
-        "On-target earnings (OTE) with commission: $200,000 - $350,000+",
-        "Commission tied to team and individual deal performance",
-        "RSU grants vesting over 4 years",
-        "Employee Stock Purchase Plan (ESPP)",
-        "401(k) with company match",
-        "Comprehensive health benefits",
-        "Travel and entertainment budget for customers",
-        "7 days paid volunteer time off annually",
-        "Presidents Club trips for top performers"
-      ],
-      dayInLife: {
-        intro: "A typical day as a Solution Engineer at Salesforce involves customer demonstrations, solution design, and close partnership with the sales team.",
-        schedule: [
-          "8:30 AM - Prepare demo environment for morning customer presentation",
-          "9:30 AM - Customer demo presenting Service Cloud capabilities",
-          "11:00 AM - Debrief with Account Executive on demo feedback",
-          "12:00 PM - Lunch with SE team sharing demo best practices",
-          "1:00 PM - Discovery call understanding new prospect's requirements",
-          "2:30 PM - Build proof-of-concept solution for strategic opportunity",
-          "4:00 PM - Review RFP response with sales team",
-          "5:00 PM - Research customer's industry for upcoming presentation",
-          "5:30 PM - Update demo org with latest release features"
-        ],
-        closing: "Salesforce Solution Engineers enjoy the variety of customer engagements and the satisfaction of helping win deals that transform how businesses operate."
-      },
-      similarRoles: ["Technical Architect", "Customer Success Manager", "Product Manager", "Software Engineer"]
-    },
-    'customer-success-manager': {
-      roleDescription: "Customer Success Managers at Salesforce ensure customers achieve their business outcomes and maximize value from their Salesforce investment. You'll own a portfolio of enterprise accounts, building relationships from C-suite to end users, driving adoption, and identifying expansion opportunities. CSMs are trusted advisors who understand both the Salesforce platform and their customers' business challenges, connecting the two to deliver measurable results. The role sits at the intersection of relationship management, technical knowledge, and business consulting. With Salesforce's subscription model, customer success directly impacts revenue retention and growth—making CSMs critical to the company's success. You'll leverage Success Plans, adoption metrics, and business reviews to proactively identify risks and opportunities. Salesforce's Ohana culture extends to customers, and CSMs embody this by genuinely caring about their customers' success beyond just renewal metrics.",
-      responsibilities: [
-        "Own relationships with a portfolio of enterprise customer accounts",
-        "Develop Success Plans aligning Salesforce capabilities to business outcomes",
-        "Drive product adoption and usage across customer organizations",
-        "Conduct Executive Business Reviews demonstrating value and ROI",
-        "Identify and mitigate churn risks through proactive engagement",
-        "Partner with sales on expansion and cross-sell opportunities",
-        "Advocate for customers internally across product and support",
-        "Build relationships from executive sponsors to end users",
-        "Connect customers with resources (training, community, partners)"
-      ],
-      growthOpportunities: [
-        "Own strategic enterprise accounts with significant business impact",
-        "Clear path to Senior CSM, CSM Manager, and leadership roles",
-        "Develop expertise across industries and Salesforce products",
-        "Strong earning potential with expansion bonuses",
-        "Build lasting relationships with customer executives",
-        "Transition paths to sales, product, or consulting roles",
-        "Global travel opportunities for customer engagements",
-        "1-1-1 model providing community engagement opportunities"
-      ],
-      interviewProcess: [
-        {
-          stage: "Recruiter Screen",
-          duration: "30 minutes",
-          description: "Discussion of customer success background and Salesforce experience"
-        },
-        {
-          stage: "Hiring Manager Interview",
-          duration: "45 minutes",
-          description: "Deep dive into account management and customer relationship experience"
-        },
-        {
-          stage: "Customer Scenario Role-Play",
-          duration: "60 minutes",
-          description: "Conduct a mock business review or handle a customer escalation"
-        },
-        {
-          stage: "Cross-functional Interview",
-          duration: "45 minutes",
-          description: "Discussion with sales and support partners on collaboration"
-        },
-        {
-          stage: "Values & Culture",
-          duration: "45 minutes",
-          description: "Behavioral interview on Salesforce values and customer obsession"
-        }
-      ],
-      technicalQuestions: [
-        "How would you measure and demonstrate ROI for a customer?",
-        "Design an adoption strategy for a new Sales Cloud implementation",
-        "How would you approach a customer with declining usage metrics?",
-        "Create a Success Plan for a customer expanding to Service Cloud",
-        "How would you handle a customer considering switching to a competitor?",
-        "Design an Executive Business Review for a strategic account",
-        "How would you identify expansion opportunities in your portfolio?",
-        "Approach for a customer struggling with user adoption",
-        "How would you prioritize across accounts with competing needs?",
-        "Design an enablement program for a customer's admin team",
-        "How would you leverage Einstein AI to demonstrate value?",
-        "Approach for escalating a critical customer issue internally",
-        "How would you build relationships across a customer organization?",
-        "Design a health score framework for your account portfolio",
-        "How would you prepare a customer for renewal conversations?"
-      ],
-      behavioralQuestions: [
-        "Tell me about turning around a customer relationship at risk",
-        "Describe demonstrating value that led to an expansion deal",
-        "How have you handled a customer escalation to executives?",
-        "Tell me about building a relationship with a difficult stakeholder",
-        "Describe advocating for a customer need internally",
-        "How have you balanced multiple demanding accounts?",
-        "Tell me about a customer success story you're proud of",
-        "Describe handling a situation where you couldn't meet expectations",
-        "How have you partnered with sales on expansion opportunities?",
-        "Tell me about coaching a customer on Salesforce best practices",
-        "Describe building executive relationships with C-suite sponsors",
-        "How have you used data to drive customer conversations?",
-        "Tell me about a creative solution for a customer challenge",
-        "Describe transitioning a customer through organizational change",
-        "How have you embodied Ohana values with your customers?"
-      ],
-      whatTheyLookFor: [
-        "Strong relationship-building and communication skills",
-        "Experience managing enterprise customer portfolios",
-        "Understanding of Salesforce platform and products",
-        "Business acumen to connect technology to outcomes",
-        "Track record of driving adoption and retention",
-        "Executive presence for C-suite engagement",
-        "Problem-solving ability for diverse customer challenges",
-        "Collaborative approach with sales and support partners",
-        "Alignment with Salesforce values and Ohana culture",
-        "Data-driven approach to customer health and success"
-      ],
-      interviewTips: [
-        "Prepare specific customer success stories with metrics",
-        "Practice conducting an Executive Business Review",
-        "Understand Salesforce's customer success methodology",
-        "Be ready to discuss portfolio management strategies",
-        "Know how to calculate and communicate customer ROI",
-        "Prepare for role-play scenarios with difficult customers",
-        "Show balance of relationship skills and business acumen",
-        "Understand Salesforce products at a functional level",
-        "Research the customer segment you'd be supporting",
-        "Be ready to discuss adoption and change management",
-        "Show genuine passion for customer success beyond metrics",
-        "Prepare questions about the portfolio and team structure",
-        "Demonstrate data-driven approach to account management",
-        "Show alignment with Ohana culture and values"
-      ],
-      salary: {
-        min: 120000,
-        max: 200000,
-        currency: "USD"
-      },
-      compensation: [
-        "Base salary range: $120,000 - $160,000 depending on level",
-        "Variable compensation for retention and expansion: $40,000 - $80,000",
-        "Total on-target earnings: $160,000 - $240,000",
-        "RSU grants vesting over 4 years",
-        "Employee Stock Purchase Plan (ESPP)",
-        "401(k) with company match",
-        "Comprehensive health benefits",
-        "Travel budget for customer visits",
-        "7 days paid volunteer time off annually",
-        "Customer success achievement awards"
-      ],
-      dayInLife: {
-        intro: "A typical day as a Customer Success Manager at Salesforce involves customer engagement, strategic planning, and cross-functional collaboration.",
-        schedule: [
-          "8:30 AM - Review customer health scores and adoption metrics",
-          "9:00 AM - Preparation for Executive Business Review",
-          "10:00 AM - Executive Business Review with strategic customer",
-          "11:30 AM - Internal sync with Account Executive on expansion",
-          "12:30 PM - Lunch with fellow CSMs sharing best practices",
-          "1:30 PM - Customer call addressing adoption challenges",
-          "3:00 PM - Update Success Plans for portfolio accounts",
-          "4:00 PM - Partner with support on customer escalation",
-          "5:00 PM - Prepare for tomorrow's customer engagements"
-        ],
-        closing: "Salesforce Customer Success Managers enjoy building meaningful relationships while directly impacting how customers transform their businesses."
-      },
-      similarRoles: ["Solution Engineer", "Technical Architect", "Success Architect", "Product Manager"]
-    },
+
     'ux-designer': {
-      roleDescription: "UX Designers at Salesforce craft the experiences that over 150,000 companies use to run their businesses. You'll design interfaces for enterprise products including Sales Cloud, Service Cloud, Marketing Cloud, and Platform—each used by millions of users daily for critical business processes. Salesforce UX challenges are unique: designing for diverse user personas from sales reps to service agents to administrators, creating consistency across a massive product suite, and balancing power with simplicity. The Salesforce Lightning Design System provides the foundation, but designers innovate within and extend it. With Salesforce's investment in AI through Einstein and Agentforce, designers increasingly shape how autonomous agents and intelligent automation integrate into workflows. The UX team works within the Ohana culture, emphasizing accessibility, inclusion, and designing for diverse global users. User research is integral—designers engage directly with customers through research programs and events like Dreamforce.",
+      title: 'UX Designer',
+      slug: 'ux-designer',
+      industry: 'Technology',
+      roleDescription: `UX Designers at Airbnb craft experiences that help travelers find unique places to stay and hosts share their homes with the world. Working in one of the most design-forward technology companies, you'll join a team that has shaped how millions think about travel and hospitality. Airbnb's design culture is legendary—co-founder Brian Chesky's design background has permeated the company, making design a core strategic function rather than a service. Designers work embedded in product triads with Product Managers and Engineering leads, having equal voice in product direction. The company's design system ensures consistency while allowing creativity for novel experiences. You'll design for an incredibly diverse user base spanning 220+ countries, multiple languages, and vastly different cultural expectations around hospitality and travel. Airbnb Experiences, Luxe properties, and long-term stays each require distinct design thinking. The "Be a Host" value means designing with empathy for both hosts sharing their homes and guests seeking belonging. User research is deeply integrated, with designers regularly participating in interviews and usability testing to stay connected to real user needs.`,
       responsibilities: [
-        "Design user experiences for enterprise Salesforce products",
-        "Conduct user research to understand customer needs and pain points",
-        "Create wireframes, prototypes, and high-fidelity designs",
-        "Contribute to and extend the Lightning Design System",
-        "Partner with product and engineering throughout development",
-        "Design for accessibility and inclusive experiences",
-        "Test designs with users and iterate based on feedback",
-        "Present design work to stakeholders and leadership",
-        "Collaborate with designers across the organization on patterns"
+        'Design intuitive user experiences for web and mobile across guest and host journeys',
+        'Conduct user research including interviews, usability testing, and journey mapping',
+        'Create wireframes, prototypes, and high-fidelity designs using Figma',
+        'Partner closely with PM and Engineering as part of product triads',
+        'Contribute to and evolve Airbnb\'s design system ensuring consistency',
+        'Present design work to leadership and incorporate feedback effectively',
+        'Design for global accessibility across languages, cultures, and abilities',
+        'Collaborate with researchers to develop deep user empathy',
+        'Mentor junior designers and contribute to design team culture'
       ],
       growthOpportunities: [
-        "Design products used by millions of enterprise users daily",
-        "Shape the Lightning Design System influencing all Salesforce products",
-        "Work on AI-powered experiences with Einstein and Agentforce",
-        "Clear career path from Designer to Senior, Principal, and Director",
-        "Direct customer engagement through research and Dreamforce",
-        "Strong Ohana culture emphasizing work-life balance",
-        "Competitive compensation with meaningful equity",
-        "Influence enterprise UX across the industry"
+        'Progress through IC levels to Senior, Staff, and Principal Designer',
+        'Specialize in areas like motion design, design systems, or interaction design',
+        'Transition into Design Management leading design teams',
+        'Move into Product Management leveraging design foundation',
+        'Lead design for major new product initiatives from zero to one',
+        'Shape company design direction and strategy',
+        'Become a thought leader representing Airbnb at industry conferences'
       ],
       interviewProcess: [
-        {
-          stage: "Recruiter Screen",
-          duration: "30 minutes",
-          description: "Discussion of design background and Salesforce interest"
-        },
-        {
-          stage: "Portfolio Review",
-          duration: "60 minutes",
-          description: "Deep dive into portfolio work with hiring manager"
-        },
-        {
-          stage: "Design Exercise",
-          duration: "90-120 minutes",
-          description: "Design challenge for a Salesforce-relevant problem (often take-home)"
-        },
-        {
-          stage: "Design Presentation",
-          duration: "60 minutes",
-          description: "Present design exercise solution to design panel"
-        },
-        {
-          stage: "Cross-functional Interview",
-          duration: "45 minutes",
-          description: "Discussion with product and engineering partners"
-        },
-        {
-          stage: "Values & Culture",
-          duration: "45 minutes",
-          description: "Behavioral interview on Salesforce values and collaboration"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial conversation about design background, portfolio, and interest in Airbnb' },
+        { stage: 'Hiring Manager Call', description: 'Deep discussion of design philosophy, process, and team fit' },
+        { stage: 'Portfolio Review', description: 'Detailed walkthrough of past work focusing on process, decisions, and outcomes' },
+        { stage: 'Design Exercise', description: 'Take-home or whiteboard exercise solving Airbnb-relevant design problem' },
+        { stage: 'Onsite - Craft Review', description: 'Assessment of design skills, attention to detail, and design system thinking' },
+        { stage: 'Onsite - Cross-functional', description: 'Interviews with PM and Engineering assessing collaboration approach' },
+        { stage: 'Onsite - Core Values', description: 'Behavioral assessment of alignment with Airbnb\'s four core values' }
       ],
       technicalQuestions: [
-        "How would you improve the Sales Cloud opportunity detail page?",
-        "Design an AI assistant experience integrated into Salesforce",
-        "How would you approach designing for first-time Salesforce admins?",
-        "Design a mobile experience for field service technicians",
-        "How would you improve data visualization in Salesforce reports?",
-        "Design an onboarding experience for new Salesforce users",
-        "How would you approach accessibility for enterprise software?",
-        "Design an experience for managing AI agents in Agentforce",
-        "How would you design for consistency across Salesforce clouds?",
-        "Design a workflow builder for business users",
-        "How would you approach localization for global enterprise users?",
-        "Design an experience helping users recover from errors",
-        "How would you balance power-user needs with simplicity?",
-        "Design a dashboard customization experience",
-        "How would you improve discoverability of Salesforce features?"
+        'Walk me through your design process from problem definition to launch',
+        'How would you redesign the Airbnb search experience for first-time users?',
+        'Design a feature to help hosts improve their listing quality',
+        'How do you approach designing for users across different cultures?',
+        'Show us how you\'ve used data to inform design decisions',
+        'How would you design an onboarding flow for new hosts?',
+        'Describe your approach to mobile-first design for travel contexts',
+        'How do you handle feedback that challenges your design direction?',
+        'Design an experience for booking group trips with multiple decision-makers',
+        'How do you balance consistency with innovation in a design system?',
+        'Show us how you collaborate with engineers during implementation',
+        'How would you design for accessibility in a visually-rich product?',
+        'Design a feature to help guests discover Airbnb Experiences',
+        'How do you prioritize when you have multiple design projects?',
+        'Show us how you prototype and test ideas quickly',
+        'How would you design for trust between strangers in a marketplace?'
       ],
       behavioralQuestions: [
-        "Walk me through a design project from research to launch",
-        "Tell me about designing for diverse user personas",
-        "Describe handling conflicting feedback from stakeholders",
-        "How have you advocated for user needs against business pressure?",
-        "Tell me about designing for accessibility",
-        "Describe collaborating with engineers on a complex feature",
-        "How have you influenced product direction through design?",
-        "Tell me about a design that didn't test well and what you learned",
-        "Describe contributing to a design system",
-        "How have you balanced speed with design quality?",
-        "Tell me about designing for enterprise vs consumer users",
-        "Describe presenting design to skeptical stakeholders",
-        "How have you incorporated user research into your process?",
-        "Tell me about mentoring other designers",
-        "How have you contributed to team culture and Ohana values?"
+        'Tell me about a design you\'re most proud of and why',
+        'Describe a time you had to advocate for the user against business pressure',
+        'How have you championed a design mission that required changing minds?',
+        'Tell me about a time you embraced adventure with an unconventional design approach',
+        'Describe a creative solution that others initially doubted (Be a Cereal Entrepreneur)',
+        'How have you created welcoming experiences for users (Be a Host)?',
+        'Tell me about design feedback that significantly changed your approach',
+        'How do you build trust and collaboration with engineering partners?',
+        'Describe a design that didn\'t work as expected and what you learned',
+        'How have you designed for users very different from yourself?',
+        'Tell me about navigating ambiguity in a design project',
+        'How have you mentored or helped grow other designers?',
+        'Describe building inclusive design culture on your team',
+        'Tell me about balancing design quality with shipping speed'
       ],
       whatTheyLookFor: [
-        "Strong portfolio demonstrating end-to-end product design",
-        "Experience designing enterprise or B2B applications",
-        "Proficiency with design tools (Figma, Sketch, prototyping)",
-        "Understanding of design systems and component-based design",
-        "User research skills and empathy for diverse users",
-        "Excellent visual and interaction design abilities",
-        "Strong communication and presentation skills",
-        "Collaborative approach with product and engineering",
-        "Commitment to accessibility and inclusive design",
-        "Alignment with Salesforce values and Ohana culture"
+        'Strong portfolio demonstrating end-to-end product design skills',
+        'Deep user empathy with ability to design for diverse global audiences',
+        'Excellent collaboration skills working with PM, Engineering, and Research',
+        'Clear communication presenting design rationale to various stakeholders',
+        'Strategic thinking connecting design work to business outcomes',
+        'Craft excellence with attention to visual and interaction details',
+        'Growth mindset with openness to feedback and iteration',
+        'Alignment with Airbnb\'s mission and especially "Be a Host" value',
+        'Design system thinking balancing consistency with creativity',
+        'Passion for travel and creating experiences of belonging'
       ],
       interviewTips: [
-        "Prepare a portfolio with detailed enterprise UX case studies",
-        "Use Salesforce products and form specific design opinions",
-        "Study the Lightning Design System thoroughly",
-        "Practice presenting design work to diverse audiences",
-        "Be ready for a take-home or live design exercise",
-        "Understand enterprise UX challenges (complexity, personas, scale)",
-        "Show user research integrated throughout your process",
-        "Demonstrate accessibility knowledge and practices",
-        "Prepare examples of cross-functional collaboration",
-        "Understand how AI might change enterprise UX",
-        "Show genuine passion for solving complex problems",
-        "Prepare questions about the design team and culture",
-        "Be ready to discuss trade-offs in design decisions",
-        "Show alignment with Ohana values and inclusive design"
+        'Prepare a portfolio that tells stories of process, not just final designs',
+        'Use Airbnb extensively as both guest and host to understand the product deeply',
+        'Practice presenting designs with clear rationale and business context',
+        'Prepare specific examples demonstrating each of Airbnb\'s four core values',
+        'Be ready to discuss designing for diverse global audiences',
+        'Show how you collaborate with PM and Engineering in your work',
+        'Prepare for design exercises with structured problem-solving approach',
+        'Research Airbnb\'s design culture through Medium posts and conference talks',
+        'Be ready to discuss failures and what you learned from them',
+        'Show genuine passion for hospitality and creating belonging',
+        'Prepare thoughtful questions about design culture and team structure',
+        'Be authentic—Airbnb values genuine alignment over polished answers',
+        'Practice articulating design decisions with multiple options and trade-offs',
+        'Show how you use research and data alongside design intuition'
       ],
-      salary: {
-        min: 130000,
-        max: 260000,
-        currency: "USD"
-      },
+      salary: { min: 140000, max: 240000 },
       compensation: [
-        "Base salary range: $130,000 - $260,000 depending on level",
-        "Annual bonus typically 10-15% of base salary",
-        "RSU grants vesting over 4 years",
-        "Employee Stock Purchase Plan (ESPP)",
-        "401(k) with company match",
-        "Comprehensive health benefits",
-        "Design tools and equipment budget",
-        "Conference attendance (design events, Dreamforce)",
-        "7 days paid volunteer time off annually",
-        "Education reimbursement for design courses"
+        'Competitive base salary with equity grants (RSUs)',
+        'Annual performance bonuses and refresher grants',
+        '$2,000 annual travel credit for Airbnb stays and Experiences',
+        'Comprehensive health, dental, and vision insurance',
+        'Generous parental leave (up to 22 weeks)',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Design conference and learning budget',
+        'Latest hardware and software tools',
+        'Home office setup stipend'
       ],
       dayInLife: {
-        intro: "A typical day as a UX Designer at Salesforce involves creative design work, user research, and cross-functional collaboration within the Ohana culture.",
+        intro: 'A day as a UX Designer at Airbnb blends creative exploration with collaborative refinement and user connection.',
         schedule: [
-          "9:00 AM - Review user research findings from recent study",
-          "9:30 AM - Design exploration for new AI feature",
-          "11:00 AM - Design critique session with UX team",
-          "12:00 PM - Lunch with product manager discussing roadmap",
-          "1:00 PM - Cross-functional sync with engineering on feasibility",
-          "2:30 PM - Prototype development for user testing",
-          "3:30 PM - User testing session with customer",
-          "4:30 PM - Document design decisions and rationale",
-          "5:30 PM - Contribute updates to Lightning Design System"
+          '9:00 AM - Review user research findings from recent study',
+          '9:30 AM - Triad standup with PM and Engineering lead on sprint progress',
+          '10:00 AM - Deep design work on new feature concepts in Figma',
+          '12:00 PM - Lunch with design teammates sharing inspiration and feedback',
+          '1:00 PM - User testing session observing guests book their first stay',
+          '2:30 PM - Design critique with broader design team',
+          '3:30 PM - Sync with engineer on implementation details and edge cases',
+          '4:30 PM - Prototype new interaction for tomorrow\'s user test',
+          '5:00 PM - Document design decisions and update specifications',
+          '5:30 PM - Wrap up reviewing tomorrow\'s schedule'
         ],
-        closing: "Salesforce UX Designers enjoy solving complex enterprise problems while directly impacting how millions of users work every day."
+        closing: 'Design at Airbnb means crafting experiences that help people belong anywhere in the world, supported by a culture that truly values design as a core function.'
       },
-      similarRoles: ["Product Manager", "Software Engineer", "UX Researcher", "Design System Engineer"]
+      similarRoles: ['Senior UX Designer at Airbnb', 'Product Designer at Airbnb', 'Design Lead at Airbnb', 'Interaction Designer at Airbnb', 'Visual Designer at Airbnb']
     },
-    'security-engineer': {
-      roleDescription: "Security Engineers at Salesforce protect the data and operations of over 150,000 companies who trust the platform with their most critical business information. Trust is Salesforce's #1 value, and the security team provides the fundamental building blocks that preserve and enhance that trust. You'll work on security challenges at massive enterprise scale—securing multi-tenant infrastructure, protecting customer data across compliance regimes, and building security into products from design through deployment. The role spans application security, infrastructure security, security operations, and compliance engineering. Salesforce Security Engineers partner with product teams to embed security into features, develop automated detection and response capabilities, and ensure compliance with global regulations from GDPR to SOC 2 to FedRAMP. With Salesforce's expansion into AI through Einstein and Agentforce, security engineers are tackling new challenges around AI safety, model security, and autonomous agent governance.",
+
+    'trust-and-safety-manager': {
+      title: 'Trust & Safety Manager',
+      slug: 'trust-and-safety-manager',
+      industry: 'Technology',
+      roleDescription: `Trust & Safety Managers at Airbnb protect the community of hosts and guests that makes global travel possible. In a platform where strangers open their homes to other strangers, trust is the fundamental product—and your role is to ensure it's maintained through policy development, risk mitigation, and incident response. You'll lead teams that handle everything from fraud prevention and identity verification to community standards enforcement and crisis response. Airbnb's T&S organization is among the most sophisticated in tech, developing approaches that balance safety with the openness that makes the platform magical. The role requires navigating complex trade-offs: protecting users without creating friction, enforcing standards while respecting cultural differences, and maintaining community trust while handling sensitive incidents. You'll work across policy, product, operations, and legal teams, driving initiatives that have real-world safety implications. The "Be a Host" value is paramount—creating environments where people feel safe and welcomed is core to Airbnb's mission. This role has significant impact on lives around the world, making it both challenging and deeply meaningful.`,
       responsibilities: [
-        "Conduct security reviews of product features and architecture designs",
-        "Build and maintain security tools and automation at scale",
-        "Respond to security incidents and conduct thorough investigations",
-        "Ensure compliance with security frameworks (SOC 2, ISO, FedRAMP)",
-        "Partner with product teams to build security into features",
-        "Develop detection and response capabilities for threats",
-        "Perform penetration testing and vulnerability assessments",
-        "Design security controls for multi-tenant data protection",
-        "Contribute to security awareness and training programs",
-        "Evaluate security of AI/ML features and autonomous agents"
+        'Lead teams developing and enforcing community standards and safety policies',
+        'Design trust and safety systems for fraud prevention, identity verification, and risk detection',
+        'Manage incident response for safety-critical situations affecting hosts and guests',
+        'Partner with Product and Engineering to build safety features into the platform',
+        'Develop escalation protocols and train support teams on sensitive cases',
+        'Analyze safety data to identify emerging risks and prevention opportunities',
+        'Collaborate with legal and policy teams on regulatory compliance globally',
+        'Build relationships with law enforcement and safety organizations worldwide',
+        'Lead crisis response efforts for high-profile incidents'
       ],
       growthOpportunities: [
-        "Protect data for 150,000+ companies across all industries",
-        "Work on cutting-edge challenges in AI security and governance",
-        "Clear career path from Engineer to Senior, Staff, and Principal",
-        "Influence security practices across the enterprise software industry",
-        "Access to advanced security tools and research opportunities",
-        "Strong Ohana culture with work-life balance emphasis",
-        "Competitive compensation with meaningful equity",
-        "Contribute to Trust as Salesforce's #1 value"
+        'Progress to Senior and Director levels within Trust & Safety',
+        'Specialize in areas like fraud, physical safety, content moderation, or compliance',
+        'Move into Head of Trust & Safety with executive responsibilities',
+        'Transition to Policy or Legal roles leveraging T&S expertise',
+        'Lead new T&S initiatives as Airbnb expands into new markets',
+        'Shape industry standards for platform safety',
+        'Build and grow high-performing T&S teams'
       ],
       interviewProcess: [
-        {
-          stage: "Recruiter Screen",
-          duration: "30 minutes",
-          description: "Discussion of security background and Salesforce interest"
-        },
-        {
-          stage: "Technical Phone Screen",
-          duration: "60 minutes",
-          description: "Security technical interview in your domain area"
-        },
-        {
-          stage: "Onsite - Security Deep Dive",
-          duration: "45 minutes",
-          description: "Deep technical interview in your security expertise"
-        },
-        {
-          stage: "Onsite - Coding",
-          duration: "45 minutes",
-          description: "Programming interview for security tooling"
-        },
-        {
-          stage: "Onsite - Security Design",
-          duration: "45 minutes",
-          description: "Design secure systems or threat model a feature"
-        },
-        {
-          stage: "Onsite - Values & Culture",
-          duration: "45 minutes",
-          description: "Behavioral interview on Salesforce values and Trust"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial discussion of T&S experience, background, and interest in Airbnb' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into T&S philosophy, leadership style, and complex case handling' },
+        { stage: 'Case Study', description: 'Scenario-based exercise on handling complex safety situations' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of collaboration with Legal, Policy, Product, and Operations' },
+        { stage: 'Leadership Interview', description: 'Evaluation of team leadership, stakeholder management, and strategic thinking' },
+        { stage: 'Core Values Interview', description: 'Behavioral assessment of alignment with Airbnb\'s four core values' },
+        { stage: 'Executive Interview', description: 'Final round with senior T&S leader discussing strategy and fit' }
       ],
       technicalQuestions: [
-        "Design the security architecture for Salesforce's multi-tenant platform",
-        "How would you implement data isolation between customer orgs?",
-        "Design a detection system for credential stuffing attacks at scale",
-        "How would you approach security for Einstein AI features?",
-        "Design the access control model for enterprise organizations",
-        "How would you secure API endpoints handling billions of requests?",
-        "Design the encryption strategy for customer data at rest and in transit",
-        "How would you approach security for Agentforce autonomous agents?",
-        "Design the incident response process for a data breach scenario",
-        "How would you implement secure secrets management at scale?",
-        "Design a vulnerability management program for thousands of services",
-        "How would you ensure FedRAMP compliance for government customers?",
-        "Design security logging and monitoring for the Salesforce platform",
-        "How would you approach third-party integration security review?",
-        "Design the security model for Lightning Web Components"
+        'How would you design a system to verify user identity while minimizing friction?',
+        'Walk me through handling a high-profile safety incident on the platform',
+        'How would you balance community openness with safety requirements?',
+        'Design a policy for handling hosts who repeatedly receive safety complaints',
+        'How would you approach fraud detection for fake listings?',
+        'Describe your framework for escalation decisions in ambiguous situations',
+        'How would you measure the effectiveness of a new safety feature?',
+        'Design a response protocol for crisis situations affecting multiple users',
+        'How would you approach cultural differences in safety expectations globally?',
+        'Walk me through investigating a potential scam pattern on the platform',
+        'How would you balance automated systems with human review for sensitive decisions?',
+        'Design training for support agents handling emotionally difficult cases',
+        'How would you prioritize which safety risks to address with limited resources?',
+        'Describe your approach to partnering with law enforcement',
+        'How would you communicate a major policy change to the community?',
+        'Design a feedback mechanism to improve safety based on user reports'
       ],
       behavioralQuestions: [
-        "Tell me about a significant security vulnerability you discovered",
-        "Describe influencing a team to prioritize a security fix",
-        "How have you balanced security with product velocity?",
-        "Tell me about a security incident you responded to",
-        "Describe improving security culture in an organization",
-        "How have you approached security for new technologies?",
-        "Tell me about a difficult security risk decision",
-        "Describe explaining security concepts to non-technical stakeholders",
-        "How have you handled pushback on security requirements?",
-        "Tell me about building security into the development process",
-        "Describe staying current with evolving threats",
-        "How have you mentored others on security practices?",
-        "Tell me about a creative solution to a security challenge",
-        "Describe handling conflicting compliance requirements",
-        "How have you contributed to Trust as Salesforce's #1 value?"
+        'Tell me about a complex safety situation you managed and its resolution',
+        'Describe a time you had to make a difficult policy decision under pressure',
+        'How have you championed user safety when it conflicted with business goals?',
+        'Tell me about a time you embraced adventure in your approach to a safety challenge',
+        'Describe a creative solution to a trust problem that others hadn\'t considered (Be a Cereal Entrepreneur)',
+        'How have you created safe, welcoming environments for users (Be a Host)?',
+        'Tell me about handling feedback that changed your safety approach',
+        'How have you built trust with cross-functional partners?',
+        'Describe a safety initiative that didn\'t work and what you learned',
+        'How have you approached safety for users different from yourself?',
+        'Tell me about leading through a crisis situation',
+        'How have you developed team members in T&S roles?',
+        'Describe building a culture of empathy and care in your team',
+        'Tell me about balancing transparency with confidentiality'
       ],
       whatTheyLookFor: [
-        "Deep expertise in at least one security domain",
-        "Strong programming skills for security tooling (Python, Go, Java)",
-        "Experience with cloud security at scale",
-        "Understanding of enterprise compliance requirements",
-        "Track record discovering and remediating vulnerabilities",
-        "Ability to communicate security risks to diverse audiences",
-        "Collaborative approach working with product teams",
-        "Knowledge of multi-tenant security architecture",
-        "Alignment with Salesforce values especially Trust",
-        "Commitment to continuous learning in security"
+        'Strong T&S experience in platform, marketplace, or consumer technology',
+        'Excellent judgment navigating complex, ambiguous situations',
+        'Crisis management skills remaining calm under pressure',
+        'Deep empathy for users while maintaining necessary objectivity',
+        'Strategic thinking about systems and policies, not just individual cases',
+        'Leadership ability to build and motivate high-performing teams',
+        'Strong communication skills for sensitive topics and diverse stakeholders',
+        'Collaboration skills working with Legal, Policy, Product, and Operations',
+        'Alignment with Airbnb\'s mission and "Be a Host" value especially',
+        'Resilience for emotionally challenging work while maintaining wellbeing'
       ],
       interviewTips: [
-        "Study Salesforce's Trust site and security architecture",
-        "Understand multi-tenant security challenges",
-        "Prepare examples of vulnerabilities you've found and fixed",
-        "Know enterprise compliance frameworks (SOC 2, FedRAMP)",
-        "Be ready to discuss AI/ML security considerations",
-        "Understand Salesforce's security model and permissions",
-        "Prepare threat models for enterprise SaaS scenarios",
-        "Show passion for protecting customer data",
-        "Be ready to discuss security vs usability trade-offs",
-        "Demonstrate systematic security assessment approach",
-        "Know Salesforce's approach to secure development",
-        "Prepare questions about the security team and challenges",
-        "Show alignment with Trust as the #1 value",
-        "Be honest about security incidents and lessons learned"
+        'Research Airbnb\'s public T&S policies and recent safety initiatives',
+        'Prepare examples of handling complex, ambiguous safety situations',
+        'Practice articulating decision frameworks for sensitive cases',
+        'Prepare specific examples demonstrating each of Airbnb\'s four core values',
+        'Be ready to discuss balancing safety with user experience',
+        'Show understanding of global cultural differences in safety expectations',
+        'Prepare questions about T&S team culture and support structures',
+        'Be authentic about the challenges of T&S work',
+        'Show empathy for all parties in difficult situations',
+        'Prepare to discuss how you maintain resilience in demanding roles',
+        'Research platform safety industry best practices',
+        'Be ready to discuss working with law enforcement and regulators',
+        'Show strategic thinking beyond individual cases',
+        'Prepare examples of building safety culture in teams'
       ],
-      salary: {
-        min: 160000,
-        max: 320000,
-        currency: "USD"
-      },
+      salary: { min: 150000, max: 250000 },
       compensation: [
-        "Base salary range: $160,000 - $320,000 depending on level",
-        "Annual bonus typically 10-15% of base salary",
-        "RSU grants vesting over 4 years",
-        "Employee Stock Purchase Plan (ESPP)",
-        "401(k) with company match",
-        "Comprehensive health benefits",
-        "Security conference attendance budget",
-        "Certification support and bonuses",
-        "7 days paid volunteer time off annually",
-        "Home office security equipment budget"
+        'Competitive base salary with equity grants (RSUs)',
+        'Annual performance bonuses',
+        '$2,000 annual travel credit for Airbnb stays and Experiences',
+        'Comprehensive health, dental, and vision coverage including mental health',
+        'Generous parental leave (up to 22 weeks)',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Professional development and conference budget',
+        'Wellness and resilience support resources',
+        'Home office stipend'
       ],
       dayInLife: {
-        intro: "A typical day as a Security Engineer at Salesforce involves protecting customer data, building security tools, and partnering with product teams on Trust.",
+        intro: 'A day as a Trust & Safety Manager at Airbnb balances strategic planning with responsive support for urgent situations.',
         schedule: [
-          "9:00 AM - Review security alerts and overnight vulnerability reports",
-          "9:30 AM - Security design review for new Einstein feature",
-          "11:00 AM - Build automated scanning tool for vulnerability detection",
-          "12:00 PM - Lunch with security team discussing emerging threats",
-          "1:00 PM - Code review for security-critical authentication change",
-          "2:30 PM - Compliance documentation for SOC 2 audit",
-          "3:30 PM - Partner with product team on secure development",
-          "4:30 PM - Research new attack techniques and defenses",
-          "5:30 PM - Update security guidance documentation"
+          '8:30 AM - Review overnight incident reports and escalations from global teams',
+          '9:00 AM - Morning sync with T&S leadership on priorities and emerging risks',
+          '9:30 AM - One-on-one with team member discussing career development',
+          '10:00 AM - Policy review meeting developing new community standards',
+          '11:00 AM - Partner with Product on safety feature requirements',
+          '12:00 PM - Lunch with cross-functional partners from Legal and Policy',
+          '1:00 PM - Case review calibration with team on escalated situations',
+          '2:30 PM - Data analysis reviewing fraud patterns with analytics team',
+          '3:30 PM - Stakeholder update on major initiative progress',
+          '4:30 PM - Strategic planning for upcoming quarter priorities',
+          '5:30 PM - Wrap up with incident monitoring check before end of day'
         ],
-        closing: "Salesforce Security Engineers enjoy the mission-critical work of protecting customer trust while tackling cutting-edge security challenges."
+        closing: 'Trust & Safety at Airbnb is demanding but deeply meaningful work—protecting the community that makes belonging anywhere possible for millions of people.'
       },
-      similarRoles: ["Software Engineer", "DevOps Engineer", "Technical Architect", "Data Scientist"]
+      similarRoles: ['Senior Trust & Safety Manager at Airbnb', 'Trust & Safety Director at Airbnb', 'Fraud Operations Manager at Airbnb', 'Policy Manager at Airbnb', 'Community Standards Lead at Airbnb']
     },
-    'devops-engineer': {
-      roleDescription: "DevOps Engineers at Salesforce build and maintain the infrastructure that powers the world's #1 CRM platform, serving over 150,000 companies with billions of transactions daily. You'll work on CI/CD pipelines, infrastructure automation, and platform reliability for one of the largest SaaS platforms in the world. Salesforce pioneered multi-tenant cloud architecture, and DevOps engineers ensure this infrastructure scales, performs, and remains secure across multiple data centers globally. The role combines software engineering with operational expertise—you'll write code for automation and tooling while ensuring production systems meet enterprise reliability requirements. With Salesforce's growing investment in AI through Einstein and Agentforce, DevOps engineers are building the infrastructure for ML model deployment and autonomous agent execution at scale. The highest-paying role in recent Salesforce ecosystem surveys, DevOps Engineering offers significant compensation potential alongside meaningful technical challenges.",
+
+    'data-analyst': {
+      title: 'Data Analyst',
+      slug: 'data-analyst',
+      industry: 'Technology',
+      roleDescription: `Data Analysts at Airbnb transform the company's rich marketplace data into actionable insights that drive product decisions and business strategy. Working with one of the most interesting datasets in travel—billions of searches, millions of bookings, and complex host-guest interactions across 220+ countries—you'll answer questions that directly impact how people experience travel. Airbnb's data culture is mature and deeply integrated; analysts are embedded within product teams and have direct access to decision-makers. The role balances exploratory analysis discovering new patterns with operational analytics measuring what matters. You'll work closely with Data Scientists on experimentation design, with Product Managers on metrics definition, and with stakeholders across the company who depend on your insights. Airbnb's analytical infrastructure is world-class, with extensive tooling for SQL, visualization, and self-service analytics. The company values clear communication as much as technical skill—your ability to translate data into compelling narratives for non-technical audiences is essential. Every analysis you do connects to helping people belong anywhere in the world.`,
       responsibilities: [
-        "Design and maintain CI/CD pipelines for enterprise deployments",
-        "Build infrastructure automation using Infrastructure as Code",
-        "Ensure platform reliability meeting enterprise SLA requirements",
-        "Develop monitoring, alerting, and observability solutions",
-        "Automate operational tasks reducing toil and human error",
-        "Partner with engineering teams on deployment and release processes",
-        "Manage production operations and incident response",
-        "Optimize infrastructure costs while maintaining performance",
-        "Support compliance requirements through automated controls",
-        "Build infrastructure for AI/ML model deployment at scale"
+        'Conduct exploratory analysis to identify opportunities and understand user behavior patterns',
+        'Build dashboards and automated reports to monitor key metrics across product areas',
+        'Partner with Product Managers to define success metrics and measure feature impact',
+        'Support A/B test analysis providing clear recommendations to stakeholders',
+        'Develop deep domain expertise in assigned product areas',
+        'Create data narratives and presentations for leadership and cross-functional teams',
+        'Improve data quality and documentation within your domain',
+        'Collaborate with Data Scientists and Analytics Engineers on complex analyses',
+        'Mentor junior analysts and contribute to analytics team practices'
       ],
       growthOpportunities: [
-        "Work on infrastructure serving 150,000+ companies globally",
-        "Highest-paying role in Salesforce ecosystem ($192K+ average)",
-        "Clear path from Engineer to Senior, Staff, and Principal",
-        "Build expertise in enterprise-scale cloud infrastructure",
-        "Work on cutting-edge ML infrastructure for Einstein and Agentforce",
-        "Strong Ohana culture with work-life balance focus",
-        "Competitive compensation with meaningful equity",
-        "Shape DevOps practices across the organization"
+        'Progress through IC levels to Senior and Staff Data Analyst',
+        'Transition to Data Science for more advanced statistical work',
+        'Move into Product Management leveraging analytical foundation',
+        'Become an Analytics Engineer focusing on data infrastructure',
+        'Lead analytics for major product areas with strategic influence',
+        'Move into management leading analytics teams',
+        'Specialize in areas like marketplace economics, growth, or experimentation'
       ],
       interviewProcess: [
-        {
-          stage: "Recruiter Screen",
-          duration: "30 minutes",
-          description: "Discussion of DevOps background and Salesforce interest"
-        },
-        {
-          stage: "Technical Phone Screen",
-          duration: "60 minutes",
-          description: "Technical interview on infrastructure and automation"
-        },
-        {
-          stage: "Onsite - Coding",
-          duration: "45 minutes",
-          description: "Programming interview for automation and tooling"
-        },
-        {
-          stage: "Onsite - System Design",
-          duration: "45 minutes",
-          description: "Design infrastructure for a Salesforce-scale problem"
-        },
-        {
-          stage: "Onsite - Operations",
-          duration: "45 minutes",
-          description: "Discussion of incident response and operational practices"
-        },
-        {
-          stage: "Onsite - Values & Culture",
-          duration: "45 minutes",
-          description: "Behavioral interview on Salesforce values and collaboration"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial discussion of analytics background and interest in Airbnb' },
+        { stage: 'Hiring Manager Call', description: 'Deep dive into analytical experience, problem-solving approach, and team fit' },
+        { stage: 'SQL Assessment', description: 'Technical evaluation of SQL skills and data manipulation abilities' },
+        { stage: 'Case Study', description: 'Product analytics case testing metrics thinking and business acumen' },
+        { stage: 'Presentation Round', description: 'Present past analysis demonstrating communication and storytelling skills' },
+        { stage: 'Core Values Interview', description: 'Behavioral assessment of alignment with Airbnb\'s four core values' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of partnership skills with Product, Engineering, and other stakeholders' }
       ],
       technicalQuestions: [
-        "Design the CI/CD pipeline for Salesforce's multi-tenant platform",
-        "How would you implement blue-green deployments at enterprise scale?",
-        "Design the monitoring and alerting strategy for 150K+ customer orgs",
-        "How would you approach infrastructure for AI model serving?",
-        "Design the disaster recovery strategy for a multi-region deployment",
-        "How would you implement Infrastructure as Code for Salesforce scale?",
-        "Design the deployment strategy for zero-downtime releases",
-        "How would you handle capacity planning for unpredictable growth?",
-        "Design the secrets management approach for enterprise infrastructure",
-        "How would you implement automated compliance controls?",
-        "Design the logging and observability stack for billions of transactions",
-        "How would you approach database migration at scale?",
-        "Design the containerization strategy for microservices",
-        "How would you optimize cloud costs while maintaining performance?",
-        "Design the incident response automation for production issues"
+        'How would you measure the success of a new search feature?',
+        'Design a dashboard to monitor marketplace health for a city',
+        'Write SQL to analyze booking conversion by user segment',
+        'How would you investigate a sudden drop in booking rates?',
+        'Describe your approach to defining metrics for a new product initiative',
+        'How would you segment users based on behavior for targeting?',
+        'Design an analysis to understand why hosts become inactive',
+        'How would you measure the impact of a pricing change on bookings?',
+        'Explain how you would analyze cancellation patterns',
+        'How would you approach attribution for marketing effectiveness?',
+        'Design metrics to understand guest satisfaction beyond reviews',
+        'How would you analyze seasonal patterns in booking behavior?',
+        'Describe your process for validating data quality issues',
+        'How would you prioritize multiple analysis requests?',
+        'Explain how you communicate uncertainty in your findings',
+        'How would you design a self-service analytics solution for stakeholders?'
       ],
       behavioralQuestions: [
-        "Tell me about a CI/CD improvement that had significant impact",
-        "Describe handling a major production incident",
-        "How have you balanced automation with operational stability?",
-        "Tell me about reducing toil through automation",
-        "Describe implementing Infrastructure as Code at scale",
-        "How have you partnered with development teams on DevOps?",
-        "Tell me about optimizing infrastructure costs significantly",
-        "Describe a deployment that didn't go as planned",
-        "How have you improved monitoring and observability?",
-        "Tell me about building a culture of operational excellence",
-        "Describe handling on-call and incident response",
-        "How have you approached security in DevOps practices?",
-        "Tell me about a creative solution to an infrastructure challenge",
-        "Describe mentoring others on DevOps best practices",
-        "How have you contributed to Salesforce values in your work?"
+        'Tell me about an analysis that significantly changed a business decision',
+        'Describe a time when your data contradicted stakeholder expectations',
+        'How have you championed data-driven decision making?',
+        'Tell me about a time you embraced adventure with a new analytical approach',
+        'Describe a creative analytical solution that others hadn\'t considered (Be a Cereal Entrepreneur)',
+        'How have you gone above and beyond to support a stakeholder (Be a Host)?',
+        'Tell me about an analysis you later realized had flaws',
+        'How have you helped non-technical people understand complex findings?',
+        'Describe balancing rigorous analysis with delivering quickly',
+        'How do you approach analyzing users different from yourself?',
+        'Tell me about navigating ambiguity when problem was unclear',
+        'How have you mentored other analysts?',
+        'Describe building collaborative relationships with stakeholders',
+        'Tell me about handling conflicting priorities from different teams'
       ],
       whatTheyLookFor: [
-        "Strong programming skills (Python, Go, or similar)",
-        "Experience with CI/CD tools and practices",
-        "Knowledge of Infrastructure as Code (Terraform, Ansible)",
-        "Cloud platform expertise (AWS, GCP, or Azure)",
-        "Understanding of containerization and orchestration",
-        "Experience with monitoring and observability tools",
-        "Track record improving reliability and deployment velocity",
-        "Collaborative approach working with development teams",
-        "On-call experience and incident management skills",
-        "Alignment with Salesforce values and Ohana culture"
+        'Strong SQL skills with ability to work with complex datasets',
+        'Excellent data visualization and communication abilities',
+        'Product intuition connecting data to user experiences and business outcomes',
+        'Curiosity and initiative to explore data beyond assigned tasks',
+        'Clear, structured thinking breaking down ambiguous problems',
+        'Collaboration skills working with diverse stakeholders',
+        'Attention to data quality and analytical rigor',
+        'Alignment with Airbnb\'s mission and core values',
+        'Balance of speed and thoroughness in analysis',
+        'Growth mindset with desire to learn and improve'
       ],
       interviewTips: [
-        "Prepare examples of CI/CD pipelines you've built",
-        "Know Infrastructure as Code patterns deeply",
-        "Be ready to discuss incident response and postmortems",
-        "Understand Salesforce's scale and multi-tenant challenges",
-        "Study cloud platform services and trade-offs",
-        "Prepare for live infrastructure design exercises",
-        "Show balance of automation skills and operational judgment",
-        "Know monitoring and observability best practices",
-        "Be ready to discuss security in DevOps (DevSecOps)",
-        "Understand compliance automation approaches",
-        "Prepare questions about the infrastructure team",
-        "Show genuine passion for operational excellence",
-        "Demonstrate collaborative approach with developers",
-        "Show alignment with Ohana culture and values"
+        'Practice SQL extensively—Airbnb emphasizes strong query skills',
+        'Prepare to present past analyses with clear storytelling structure',
+        'Review Airbnb\'s product and think about metrics you would track',
+        'Prepare specific examples demonstrating each of Airbnb\'s four core values',
+        'Practice product sense cases framed around Airbnb scenarios',
+        'Be ready to discuss handling conflicting stakeholder requests',
+        'Show how you communicate technical findings to non-technical audiences',
+        'Prepare questions about analytics culture and team structure',
+        'Review marketplace and two-sided platform concepts',
+        'Practice explaining your analytical process step by step',
+        'Show genuine curiosity about Airbnb\'s data and challenges',
+        'Be ready to discuss examples of proactive analysis',
+        'Prepare to talk about data quality and validation approaches',
+        'Be authentic in values discussions—Airbnb takes culture seriously'
       ],
-      salary: {
-        min: 160000,
-        max: 320000,
-        currency: "USD"
-      },
+      salary: { min: 120000, max: 200000 },
       compensation: [
-        "Base salary range: $160,000 - $320,000 depending on level",
-        "Average salary $192,000 (highest in Salesforce ecosystem)",
-        "Annual bonus typically 10-15% of base salary",
-        "RSU grants vesting over 4 years",
-        "Employee Stock Purchase Plan (ESPP)",
-        "401(k) with company match",
-        "Comprehensive health benefits",
-        "On-call compensation included",
-        "7 days paid volunteer time off annually",
-        "Home office and equipment budget"
+        'Competitive base salary with equity grants (RSUs)',
+        'Annual performance bonuses and equity refreshers',
+        '$2,000 annual travel credit for Airbnb stays and Experiences',
+        'Comprehensive health, dental, and vision insurance',
+        'Generous parental leave (up to 22 weeks)',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Professional development budget',
+        'Learning and conference attendance support',
+        'Home office setup stipend'
       ],
       dayInLife: {
-        intro: "A typical day as a DevOps Engineer at Salesforce involves building automation, ensuring reliability, and partnering with engineering teams on infrastructure.",
+        intro: 'A day as a Data Analyst at Airbnb blends deep data exploration with collaborative partnership and clear communication.',
         schedule: [
-          "9:00 AM - Review overnight deployment status and alerts",
-          "9:30 AM - Improve CI/CD pipeline for faster build times",
-          "11:00 AM - Architecture review for new microservice deployment",
-          "12:00 PM - Lunch with infrastructure team",
-          "1:00 PM - Build Terraform modules for standardized infrastructure",
-          "2:30 PM - Partner with security on compliance automation",
-          "3:30 PM - Incident postmortem review and improvement items",
-          "4:30 PM - Monitoring dashboard improvements",
-          "5:30 PM - On-call handoff and documentation"
+          '9:00 AM - Review dashboards and check overnight data pipeline health',
+          '9:30 AM - Team standup sharing analysis progress and priorities',
+          '10:00 AM - Deep SQL work exploring booking pattern anomalies',
+          '11:30 AM - Sync with PM on metrics definition for new feature',
+          '12:00 PM - Lunch with analytics colleagues discussing interesting findings',
+          '1:00 PM - Stakeholder meeting presenting quarterly marketplace trends',
+          '2:00 PM - Build new dashboard for team self-service needs',
+          '3:30 PM - Data quality investigation with Analytics Engineering',
+          '4:30 PM - Office hours helping stakeholders with ad-hoc questions',
+          '5:00 PM - Document analysis and prepare materials for tomorrow',
+          '5:30 PM - Wrap up with quick metric monitoring check'
         ],
-        closing: "Salesforce DevOps Engineers enjoy building the infrastructure that powers one of the world's largest enterprise platforms while driving operational excellence."
+        closing: 'Data Analysis at Airbnb connects you directly to decisions that affect how millions of people experience travel, supported by excellent data infrastructure and a strong culture of analytics.'
       },
-      similarRoles: ["Software Engineer", "Security Engineer", "Site Reliability Engineer", "Technical Architect"]
+      similarRoles: ['Senior Data Analyst at Airbnb', 'Staff Data Analyst at Airbnb', 'Product Analyst at Airbnb', 'Business Analyst at Airbnb', 'Analytics Engineer at Airbnb']
     },
-    'success-architect': {
-      roleDescription: "Success Architects at Salesforce are technical leaders within Customer Success, providing expert guidance to the most strategic customers on solution design, performance optimization, and technical best practices. You'll work with Signature Success customers—enterprise accounts with significant Salesforce investments—ensuring they maximize value and achieve business outcomes. The role combines deep Salesforce technical expertise with consultative skills, helping customers navigate complex challenges from integration architecture to performance tuning to AI adoption. Success Architects partner with Customer Success Managers, Support, and Product teams to deliver proactive technical engagement rather than reactive support. With Salesforce's expansion through acquisitions like MuleSoft and Tableau, and investments in Einstein and Agentforce, Success Architects guide customers through adopting these technologies effectively. The role offers significant customer impact while leveraging technical expertise in a customer-facing capacity.",
+
+    'host-experience-manager': {
+      title: 'Host Experience Manager',
+      slug: 'host-experience-manager',
+      industry: 'Technology',
+      roleDescription: `Host Experience Managers at Airbnb ensure the millions of hosts who share their homes have the tools, support, and community they need to succeed. This unique role sits at the intersection of operations, product, and community building, directly embodying the "Be a Host" value that defines Airbnb's culture. You'll lead programs that support hosts throughout their journey—from first listing creation through becoming superhost status. The role requires understanding diverse host motivations: some host for supplemental income, others to meet travelers, and still others to share their local culture. You'll analyze host success metrics, develop education and training programs, manage community initiatives, and partner with Product to advocate for host needs in feature development. Airbnb's two-sided marketplace means every decision affects both hosts and guests, and your role is ensuring host perspectives are represented. The work is deeply meaningful—helping people around the world successfully share their homes and creating the supply that makes Airbnb's mission possible.`,
       responsibilities: [
-        "Provide expert technical guidance to Signature Success customers",
-        "Design solutions ensuring scalability, security, and performance",
-        "Conduct architecture reviews and optimization recommendations",
-        "Partner with CSMs on technical aspects of customer success",
-        "Guide customers on Salesforce best practices and governance",
-        "Assess system health and identify improvement opportunities",
-        "Support customers through major implementations and upgrades",
-        "Collaborate with Product on customer feedback and issues",
-        "Develop technical enablement for customer teams",
-        "Guide AI adoption including Einstein and Agentforce"
+        'Develop and manage programs that improve host success and satisfaction',
+        'Analyze host metrics to identify opportunities for education and support',
+        'Create training content and resources for hosts at different experience levels',
+        'Build and nurture host community programs including meetups and online forums',
+        'Partner with Product teams to advocate for host needs in feature development',
+        'Manage host communication strategies for product launches and policy changes',
+        'Work with support teams to improve host issue resolution',
+        'Develop superhost program initiatives and recognition',
+        'Lead research to understand host motivations and pain points across markets'
       ],
       growthOpportunities: [
-        "Work with Salesforce's most strategic enterprise customers",
-        "Combine technical expertise with customer relationship skills",
-        "Clear path to Senior Success Architect and leadership roles",
-        "Develop expertise across Salesforce clouds and acquisitions",
-        "High visibility role with executive customer engagement",
-        "Transition paths to Technical Architect or Product roles",
-        "Competitive compensation with success-based bonuses",
-        "Global travel opportunities for customer engagements"
+        'Progress to Senior and Director levels in Host Experience',
+        'Move into Product Management for host-focused products',
+        'Transition to General Management overseeing broader marketplace operations',
+        'Lead regional Host Experience programs across markets',
+        'Build and lead high-performing Host Experience teams',
+        'Shape company strategy for host relations and community',
+        'Move into executive roles in Operations or Community'
       ],
       interviewProcess: [
-        {
-          stage: "Recruiter Screen",
-          duration: "30 minutes",
-          description: "Discussion of technical background and customer success experience"
-        },
-        {
-          stage: "Hiring Manager Interview",
-          duration: "60 minutes",
-          description: "Deep dive into Salesforce expertise and customer engagement"
-        },
-        {
-          stage: "Technical Assessment",
-          duration: "60 minutes",
-          description: "Salesforce architecture and troubleshooting scenarios"
-        },
-        {
-          stage: "Customer Scenario",
-          duration: "60 minutes",
-          description: "Role-play customer engagement demonstrating technical consulting"
-        },
-        {
-          stage: "Cross-functional Interview",
-          duration: "45 minutes",
-          description: "Discussion with CSM and Support partners"
-        },
-        {
-          stage: "Values & Culture",
-          duration: "45 minutes",
-          description: "Behavioral interview on Salesforce values and customer success"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial discussion of background, experience, and interest in host-facing work' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into host experience philosophy and program management skills' },
+        { stage: 'Case Study', description: 'Scenario-based exercise developing a host support initiative' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of partnership skills with Product, Marketing, and Support' },
+        { stage: 'Stakeholder Interview', description: 'Discussion with partner teams on collaboration approach' },
+        { stage: 'Core Values Interview', description: 'Behavioral assessment focused on Airbnb\'s four core values, especially "Be a Host"' },
+        { stage: 'Leadership Interview', description: 'Final round discussing strategy and organizational fit' }
       ],
       technicalQuestions: [
-        "How would you assess the health of a large Salesforce implementation?",
-        "Design an optimization plan for a slow-performing org",
-        "How would you guide a customer on Einstein AI adoption?",
-        "Diagnose and resolve a complex integration issue",
-        "How would you approach a governor limit problem?",
-        "Design a release management strategy for an enterprise customer",
-        "How would you help a customer improve data quality?",
-        "Guide a customer on multi-cloud architecture best practices",
-        "How would you assess security posture for a Salesforce org?",
-        "Design an adoption strategy for MuleSoft integration",
-        "How would you help a customer prepare for a major release?",
-        "Diagnose performance issues in a high-volume Service Cloud org",
-        "How would you guide Agentforce adoption for a customer?",
-        "Design a governance framework for a multi-business unit org",
-        "How would you approach technical debt reduction for a customer?"
+        'How would you design an onboarding program for new hosts?',
+        'Describe your approach to measuring host success and satisfaction',
+        'How would you prioritize which host segments to focus on?',
+        'Design a program to reduce host churn in their first year',
+        'How would you approach communicating a major policy change to hosts?',
+        'Describe your strategy for building host community engagement',
+        'How would you balance host needs with guest experience?',
+        'Design a superhost recognition program that motivates quality',
+        'How would you approach understanding host needs across different cultures?',
+        'Describe your framework for developing host education content',
+        'How would you measure the ROI of a host support program?',
+        'Design a feedback system to capture host input for product development',
+        'How would you handle a host community crisis or major complaint?',
+        'Describe your approach to scaling host programs globally',
+        'How would you partner with Product on a host-facing feature?',
+        'Design a program to help hosts improve their listing quality'
       ],
       behavioralQuestions: [
-        "Tell me about a complex technical issue you resolved for a customer",
-        "Describe guiding a customer through a difficult architecture decision",
-        "How have you built trust with technical stakeholders?",
-        "Tell me about proactively identifying a customer risk",
-        "Describe handling a customer escalation effectively",
-        "How have you influenced a customer to adopt best practices?",
-        "Tell me about translating technical findings for executives",
-        "Describe partnering with product on a customer issue",
-        "How have you balanced multiple customer priorities?",
-        "Tell me about a customer success story you're proud of",
-        "Describe coaching a customer's technical team",
-        "How have you stayed current with Salesforce's rapid evolution?",
-        "Tell me about a creative solution for a customer challenge",
-        "Describe managing expectations when solutions had limitations",
-        "How have you embodied Salesforce values with customers?"
+        'Tell me about a program you created that significantly improved customer experience',
+        'Describe a time you advocated for customer needs against business pressure',
+        'How have you championed a mission that required changing organizational behavior?',
+        'Tell me about a time you embraced adventure with an unconventional program approach',
+        'Describe a creative solution to a customer experience challenge (Be a Cereal Entrepreneur)',
+        'How have you embodied "Be a Host" in your previous work?',
+        'Tell me about handling negative feedback from a community you serve',
+        'How have you built trust with a diverse community of stakeholders?',
+        'Describe a program that didn\'t succeed and what you learned',
+        'How have you approached serving users very different from yourself?',
+        'Tell me about leading through a crisis affecting your community',
+        'How have you developed team members in customer-facing roles?',
+        'Describe building inclusive community programs',
+        'Tell me about balancing multiple stakeholder needs'
       ],
       whatTheyLookFor: [
-        "Deep Salesforce platform expertise with certifications",
-        "Experience in customer-facing technical roles",
-        "Strong troubleshooting and problem-solving skills",
-        "Excellent communication for executive audiences",
-        "Understanding of enterprise architecture principles",
-        "Track record driving customer outcomes through technical guidance",
-        "Consultative approach to customer engagement",
-        "Knowledge of integration patterns and best practices",
-        "Alignment with Salesforce values and customer success focus",
-        "Ability to build relationships across technical and business teams"
+        'Deep customer empathy and genuine passion for host success',
+        'Program management skills developing and scaling initiatives',
+        'Data fluency measuring program impact and identifying opportunities',
+        'Strong communication for diverse host audiences globally',
+        'Community building experience nurturing engaged user groups',
+        'Cross-functional collaboration with Product, Marketing, and Support',
+        'Strategic thinking connecting programs to business outcomes',
+        'Alignment with Airbnb\'s mission and especially "Be a Host" value',
+        'Cultural sensitivity for working with hosts worldwide',
+        'Growth mindset with adaptability to changing needs'
       ],
       interviewTips: [
-        "Prepare examples of technical customer engagements",
-        "Know Salesforce architecture and optimization deeply",
-        "Be ready for troubleshooting scenarios",
-        "Practice explaining technical concepts to executives",
-        "Understand the Signature Success program",
-        "Study MuleSoft, Tableau, and recent acquisitions",
-        "Prepare examples of building customer relationships",
-        "Know Einstein AI and Agentforce capabilities",
-        "Show balance of technical depth and consulting skills",
-        "Be ready to discuss customer success metrics",
-        "Understand Salesforce's customer success methodology",
-        "Prepare questions about the customer portfolio",
-        "Show genuine passion for customer outcomes",
-        "Demonstrate alignment with Ohana values"
+        'Use Airbnb as a host if possible—this experience is invaluable',
+        'Research Airbnb\'s host programs including superhost criteria',
+        'Prepare examples of programs you\'ve built with measurable impact',
+        'Have specific examples demonstrating each of Airbnb\'s four core values',
+        'Be ready to discuss serving diverse customer segments',
+        'Show understanding of two-sided marketplace dynamics',
+        'Prepare questions about host team culture and current challenges',
+        'Be authentic about your passion for customer experience',
+        'Show data fluency in measuring program success',
+        'Research host community forums to understand real host concerns',
+        'Prepare to discuss handling difficult community situations',
+        'Show strategic thinking beyond individual programs',
+        'Be ready to discuss cross-functional partnership experiences',
+        'Demonstrate genuine curiosity about host motivations'
       ],
-      salary: {
-        min: 150000,
-        max: 280000,
-        currency: "USD"
-      },
+      salary: { min: 130000, max: 210000 },
       compensation: [
-        "Base salary range: $150,000 - $220,000 depending on level",
-        "Variable compensation for customer outcomes: $30,000 - $60,000",
-        "Total on-target earnings: $180,000 - $280,000",
-        "RSU grants vesting over 4 years",
-        "Employee Stock Purchase Plan (ESPP)",
-        "401(k) with company match",
-        "Comprehensive health benefits",
-        "Travel budget for customer engagements",
-        "7 days paid volunteer time off annually",
-        "Conference attendance (Dreamforce, etc.)"
+        'Competitive base salary with equity grants (RSUs)',
+        'Annual performance bonuses',
+        '$2,000 annual travel credit for Airbnb stays and Experiences',
+        'Comprehensive health, dental, and vision insurance',
+        'Generous parental leave (up to 22 weeks)',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Professional development budget',
+        'Host community event budget',
+        'Home office setup stipend'
       ],
       dayInLife: {
-        intro: "A typical day as a Success Architect at Salesforce involves proactive customer engagement, technical consulting, and cross-functional collaboration.",
+        intro: 'A day as a Host Experience Manager at Airbnb balances strategic program development with direct connection to the host community.',
         schedule: [
-          "8:30 AM - Review customer health metrics and alert queues",
-          "9:00 AM - Architecture review session with strategic customer",
-          "10:30 AM - Internal sync with CSM on customer expansion plans",
-          "11:30 AM - Prepare optimization recommendations for account",
-          "12:30 PM - Lunch with Success Architect team sharing best practices",
-          "1:30 PM - Customer call addressing integration challenges",
-          "3:00 PM - Partner with Support on escalated technical issue",
-          "4:00 PM - Document technical findings and recommendations",
-          "5:00 PM - Review new Salesforce release for customer impact"
+          '9:00 AM - Review host feedback and community forum discussions',
+          '9:30 AM - Team standup on current initiatives and host issues',
+          '10:00 AM - Partner meeting with Product on upcoming host-facing feature',
+          '11:00 AM - Analyze host success metrics and identify improvement areas',
+          '12:00 PM - Virtual host meetup with superhosts sharing best practices',
+          '1:00 PM - Lunch brainstorming new host education content ideas',
+          '2:00 PM - Work on host communication for upcoming policy change',
+          '3:30 PM - Cross-functional sync with Support on host issue trends',
+          '4:30 PM - Review host survey results with research team',
+          '5:00 PM - Prep materials for tomorrow\'s host advisory board meeting',
+          '5:30 PM - Wrap up with community monitoring check'
         ],
-        closing: "Salesforce Success Architects enjoy combining technical expertise with customer relationships to drive meaningful business outcomes for strategic accounts."
+        closing: 'Host Experience at Airbnb means directly enabling the people who make the platform possible, building the supply that helps travelers belong anywhere in the world.'
       },
-      similarRoles: ["Technical Architect", "Customer Success Manager", "Solution Engineer", "Software Engineer"]
+      similarRoles: ['Senior Host Experience Manager at Airbnb', 'Host Success Lead at Airbnb', 'Community Manager at Airbnb', 'Host Operations Manager at Airbnb', 'Host Programs Lead at Airbnb']
     },
-    'ai-ml-engineer': {
-      roleDescription: "AI/ML Engineers at Salesforce build the intelligent systems that power Einstein AI, Data Cloud, and Agentforce—bringing artificial intelligence to over 150,000 companies worldwide. You'll work on machine learning models for predictions, recommendations, natural language processing, and autonomous agents that transform how businesses operate. Salesforce pioneered enterprise AI with Einstein, and continues to lead with innovations like Agentforce for autonomous business agents and Data Cloud for unified customer intelligence. The role combines cutting-edge ML research with production engineering—you'll develop models that serve billions of predictions daily while meeting enterprise reliability and security requirements. AI/ML Engineers work across the ML lifecycle from research and experimentation through production deployment and monitoring. With Salesforce's commitment to responsible AI, you'll also work on fairness, explainability, and ethical AI practices. The team is at the forefront of bringing large language models and generative AI to enterprise applications.",
+
+    'marketing-manager': {
+      title: 'Marketing Manager',
+      slug: 'marketing-manager',
+      industry: 'Technology',
+      roleDescription: `Marketing Managers at Airbnb drive brand awareness, user acquisition, and engagement for one of the most recognized brands in travel and hospitality. Working on campaigns that inspire people to belong anywhere, you'll combine creative storytelling with data-driven performance optimization. Airbnb's marketing is distinctive—focusing less on traditional promotion and more on showcasing the authentic experiences hosts and guests create together. The company's brand values emphasize belonging, community, and the magic of travel, and marketing campaigns must embody these while driving measurable business results. You'll work across channels including digital, social, content, partnerships, and traditional media, managing campaigns from strategy through execution and optimization. Airbnb's two-sided marketplace means marketing must speak to both hosts and guests, often with different messages and channels. The global nature of the platform requires cultural sensitivity and localization expertise. Teams are collaborative and creative, with significant autonomy to experiment and innovate within brand guidelines.`,
       responsibilities: [
-        "Develop machine learning models for Einstein and Agentforce products",
-        "Build ML infrastructure for training and serving at enterprise scale",
-        "Design autonomous agent capabilities for business automation",
-        "Implement natural language processing for conversational AI",
-        "Ensure ML models meet enterprise reliability and performance requirements",
-        "Work on responsible AI including fairness and explainability",
-        "Partner with product teams on AI feature development",
-        "Optimize models for latency, accuracy, and cost trade-offs",
-        "Contribute to ML platform enabling other teams to leverage AI",
-        "Stay current with ML research and apply innovations to products"
+        'Develop and execute marketing campaigns that drive user acquisition and engagement',
+        'Manage multi-channel marketing programs across digital, social, content, and partnerships',
+        'Analyze campaign performance and optimize for ROI and key business metrics',
+        'Collaborate with Creative teams on campaign concepts and content development',
+        'Partner with Product Marketing on launches and feature adoption',
+        'Develop marketing strategies for specific user segments, regions, or use cases',
+        'Manage agency relationships and external partners',
+        'Coordinate with international teams on localized marketing execution',
+        'Build brand awareness while maintaining Airbnb\'s distinctive voice'
       ],
       growthOpportunities: [
-        "Build AI serving billions of predictions for 150K+ companies",
-        "Work on cutting-edge LLMs and generative AI for enterprise",
-        "Shape the future of autonomous business agents",
-        "Clear career path from Engineer to Senior, Staff, and Principal",
-        "Publish research and contribute to ML community",
-        "Strong Ohana culture with work-life balance focus",
-        "Competitive compensation among highest in the industry",
-        "Access to massive compute resources and enterprise data"
+        'Progress to Senior Marketing Manager and Director roles',
+        'Specialize in areas like brand, performance, content, or partnerships',
+        'Move into Head of Marketing for regions or verticals',
+        'Transition to Product Marketing or Brand Strategy',
+        'Lead new marketing initiatives for emerging products like Experiences',
+        'Build and lead high-performing marketing teams',
+        'Shape company marketing strategy at executive level'
       ],
       interviewProcess: [
-        {
-          stage: "Recruiter Screen",
-          duration: "30 minutes",
-          description: "Discussion of ML background and Salesforce AI interest"
-        },
-        {
-          stage: "Technical Phone Screen",
-          duration: "60 minutes",
-          description: "ML fundamentals and problem-solving interview"
-        },
-        {
-          stage: "Onsite - ML Depth",
-          duration: "45 minutes",
-          description: "Deep dive into ML algorithms and model design"
-        },
-        {
-          stage: "Onsite - Coding",
-          duration: "45 minutes",
-          description: "Programming interview for ML implementation"
-        },
-        {
-          stage: "Onsite - ML System Design",
-          duration: "45 minutes",
-          description: "Design an ML system for a Salesforce-scale problem"
-        },
-        {
-          stage: "Onsite - Values & Culture",
-          duration: "45 minutes",
-          description: "Behavioral interview on Salesforce values and collaboration"
-        }
+        { stage: 'Recruiter Screen', description: 'Initial discussion of marketing experience and interest in Airbnb' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into marketing philosophy, campaign experience, and team fit' },
+        { stage: 'Case Study', description: 'Marketing strategy exercise for Airbnb-relevant challenge' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of collaboration with Creative, Product, and Analytics' },
+        { stage: 'Presentation Round', description: 'Present past campaign demonstrating strategy, execution, and results' },
+        { stage: 'Core Values Interview', description: 'Behavioral assessment of alignment with Airbnb\'s four core values' },
+        { stage: 'Leadership Interview', description: 'Final round with senior marketing leader on strategy and fit' }
       ],
       technicalQuestions: [
-        "Design the recommendation system for Einstein Next Best Action",
-        "How would you build a lead scoring model for enterprise customers?",
-        "Design the ML architecture for Agentforce autonomous agents",
-        "How would you approach NLP for Einstein Bots conversation understanding?",
-        "Design a system for real-time predictions at enterprise scale",
-        "How would you ensure fairness in AI recommendations?",
-        "Design the ML pipeline for Data Cloud customer predictions",
-        "How would you handle class imbalance in enterprise ML datasets?",
-        "Design an LLM-powered feature for Sales Cloud",
-        "How would you approach model monitoring and drift detection?",
-        "Design the training infrastructure for large-scale ML models",
-        "How would you implement explainability for enterprise AI?",
-        "Design an experiment framework for ML model comparison",
-        "How would you optimize model serving latency for real-time use cases?",
-        "Design the ML system for Einstein Search personalization"
+        'Design a marketing campaign to acquire hosts in a new market',
+        'How would you measure marketing attribution across channels?',
+        'Describe your approach to balancing brand marketing with performance',
+        'How would you market Airbnb to travelers who haven\'t used the platform?',
+        'Design a campaign to increase repeat booking rates',
+        'How would you approach marketing differently in various cultural contexts?',
+        'Describe your framework for allocating marketing budget across channels',
+        'How would you market Airbnb Experiences to existing guests?',
+        'Design a content strategy that builds brand while driving engagement',
+        'How would you approach influencer partnerships for Airbnb?',
+        'Describe your process for campaign optimization during flight',
+        'How would you market to hosts who have become inactive?',
+        'Design a marketing approach for seasonal travel demand',
+        'How would you balance global brand consistency with local relevance?',
+        'Describe your approach to A/B testing in marketing campaigns',
+        'How would you measure the impact of brand marketing on business outcomes?'
       ],
       behavioralQuestions: [
-        "Tell me about an ML model you deployed to production",
-        "Describe balancing model accuracy with production constraints",
-        "How have you communicated ML concepts to non-technical partners?",
-        "Tell me about debugging a model that underperformed in production",
-        "Describe your approach to responsible AI development",
-        "How have you stayed current with ML research?",
-        "Tell me about building ML infrastructure for a team",
-        "Describe collaborating with product on AI feature requirements",
-        "How have you handled ambiguity in ML projects?",
-        "Tell me about a creative approach to an ML problem",
-        "Describe mentoring others on ML best practices",
-        "How have you approached ML experimentation and iteration?",
-        "Tell me about translating business needs into ML solutions",
-        "Describe optimizing a model for production constraints",
-        "How have you contributed to Salesforce values in your work?"
+        'Tell me about a marketing campaign you led that exceeded targets',
+        'Describe a time you had to pivot a campaign strategy based on results',
+        'How have you championed a creative direction that others initially resisted?',
+        'Tell me about a time you embraced adventure with an unconventional marketing approach',
+        'Describe a creative marketing solution that surprised people (Be a Cereal Entrepreneur)',
+        'How have you created marketing that makes people feel welcomed (Be a Host)?',
+        'Tell me about handling a campaign that underperformed',
+        'How have you built trust with cross-functional creative partners?',
+        'Describe balancing brand integrity with performance pressure',
+        'How have you marketed to audiences very different from yourself?',
+        'Tell me about leading through a marketing crisis or PR challenge',
+        'How have you developed team members in marketing roles?',
+        'Describe building inclusive marketing that resonates broadly',
+        'Tell me about managing multiple stakeholder expectations'
       ],
       whatTheyLookFor: [
-        "Strong ML fundamentals—algorithms, model design, evaluation",
-        "Production ML experience—deploying and operating models at scale",
-        "Programming skills (Python, TensorFlow/PyTorch)",
-        "Experience with LLMs and generative AI (increasingly important)",
-        "Understanding of ML infrastructure and MLOps",
-        "Track record building ML features with business impact",
-        "Commitment to responsible AI practices",
-        "Strong communication skills for cross-functional work",
-        "Collaborative approach working with product and engineering",
-        "Alignment with Salesforce values and Ohana culture"
+        'Strong marketing track record with measurable campaign success',
+        'Balance of creative thinking and data-driven optimization',
+        'Brand sensibility aligned with Airbnb\'s values and voice',
+        'Multi-channel expertise across digital, social, and traditional',
+        'Strategic thinking connecting marketing to business outcomes',
+        'Cultural sensitivity for global marketing',
+        'Collaboration skills with Creative, Product, and Analytics partners',
+        'Alignment with Airbnb\'s mission and core values',
+        'Agility adapting to changing market conditions',
+        'Passion for travel and hospitality'
       ],
       interviewTips: [
-        "Prepare to discuss ML algorithms in depth",
-        "Know production ML challenges and solutions",
-        "Be ready for ML system design at enterprise scale",
-        "Understand Einstein AI and Agentforce capabilities",
-        "Study LLMs and their enterprise applications",
-        "Prepare examples of production ML projects",
-        "Know responsible AI practices and fairness approaches",
-        "Be ready to code ML algorithms and data processing",
-        "Understand Salesforce products and how AI enhances them",
-        "Show balance of research innovation and practical engineering",
-        "Prepare questions about the ML team and challenges",
-        "Demonstrate genuine passion for enterprise AI",
-        "Show collaborative approach to ML development",
-        "Understand Salesforce's Ohana culture"
+        'Study Airbnb\'s recent marketing campaigns and brand voice',
+        'Prepare campaign examples with clear metrics and results',
+        'Be ready to discuss both brand building and performance marketing',
+        'Have specific examples demonstrating each of Airbnb\'s four core values',
+        'Research Airbnb\'s target audiences and how they differ',
+        'Show cultural awareness for global marketing challenges',
+        'Prepare questions about marketing culture and team dynamics',
+        'Be ready to present creative ideas with strategic rationale',
+        'Understand Airbnb\'s competitive landscape and positioning',
+        'Show genuine passion for travel and the Airbnb experience',
+        'Prepare to discuss marketing measurement and attribution',
+        'Be authentic in values discussions',
+        'Show how you balance creativity with data',
+        'Research Airbnb\'s brand campaigns like "Made Possible by Hosts"'
       ],
-      salary: {
-        min: 180000,
-        max: 400000,
-        currency: "USD"
-      },
+      salary: { min: 130000, max: 220000 },
       compensation: [
-        "Base salary range: $180,000 - $400,000 depending on level",
-        "Annual bonus typically 10-20% of base salary",
-        "RSU grants vesting over 4 years (significant at senior levels)",
-        "Employee Stock Purchase Plan (ESPP)",
-        "401(k) with company match",
-        "Comprehensive health benefits",
-        "Conference attendance budget",
-        "Cloud compute credits for research",
-        "7 days paid volunteer time off annually",
-        "Learning and development budget"
+        'Competitive base salary with equity grants (RSUs)',
+        'Annual performance bonuses',
+        '$2,000 annual travel credit for Airbnb stays and Experiences',
+        'Comprehensive health, dental, and vision insurance',
+        'Generous parental leave (up to 22 weeks)',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Marketing conference and professional development budget',
+        'Creative tools and software access',
+        'Home office setup stipend'
       ],
       dayInLife: {
-        intro: "A typical day as an AI/ML Engineer at Salesforce involves model development, production engineering, and cross-functional collaboration on AI features.",
+        intro: 'A day as a Marketing Manager at Airbnb balances strategic planning with creative collaboration and performance optimization.',
         schedule: [
-          "9:00 AM - Review model performance metrics and alerts",
-          "9:30 AM - Deep work on new recommendation model development",
-          "11:00 AM - Cross-functional sync with product on AI feature",
-          "12:00 PM - Lunch with ML team discussing research papers",
-          "1:00 PM - Model experimentation and evaluation",
-          "2:30 PM - Code review for teammate's production model",
-          "3:30 PM - Partner with platform team on ML infrastructure",
-          "4:30 PM - Document model decisions and architecture",
-          "5:30 PM - Learning time—latest ML research and techniques"
+          '9:00 AM - Review overnight campaign performance dashboards',
+          '9:30 AM - Team standup on active campaigns and priorities',
+          '10:00 AM - Creative review meeting on new campaign concepts',
+          '11:00 AM - Partner with Analytics on campaign optimization recommendations',
+          '12:00 PM - Lunch with colleagues from Brand and Product Marketing',
+          '1:00 PM - Agency call reviewing upcoming content production',
+          '2:30 PM - Strategy session on Q4 campaign planning',
+          '3:30 PM - Cross-functional sync on product launch marketing',
+          '4:30 PM - Budget review and reallocation based on performance',
+          '5:00 PM - Social listening and trend monitoring',
+          '5:30 PM - Wrap up with campaign status updates'
         ],
-        closing: "Salesforce AI/ML Engineers enjoy building cutting-edge AI that transforms how millions of enterprise users work while pushing the boundaries of responsible AI."
+        closing: 'Marketing at Airbnb means telling stories that inspire people to travel and belong, combining creative excellence with measurable business impact.'
       },
-      similarRoles: ["Software Engineer", "Data Scientist", "Technical Architect", "DevOps Engineer"]
+      similarRoles: ['Senior Marketing Manager at Airbnb', 'Brand Marketing Manager at Airbnb', 'Growth Marketing Manager at Airbnb', 'Content Marketing Manager at Airbnb', 'Product Marketing Manager at Airbnb']
+    },
+
+    'finance-analyst': {
+      title: 'Finance Analyst',
+      slug: 'finance-analyst',
+      industry: 'Technology',
+      roleDescription: `Finance Analysts at Airbnb provide the financial insights and analysis that enable strategic decision-making across this global travel marketplace. Working with financial data spanning 220+ countries and complex marketplace dynamics, you'll help leaders understand business performance, evaluate investments, and plan for growth. Airbnb's finance function is sophisticated and strategic—analysts are true business partners who influence decisions rather than simply reporting numbers. The role requires understanding the unique economics of a two-sided marketplace where revenue depends on both host supply and guest demand. You'll work on challenges ranging from pricing strategy analysis and investment evaluation to budget planning and investor relations support. The company's rapid evolution from startup to public company means finance plays an increasingly central role in governance and accountability. Teams use modern tools and processes, and there's significant opportunity to improve how financial analysis is conducted. Airbnb's culture emphasizes ownership and impact, and Finance is no exception.`,
+      responsibilities: [
+        'Build financial models and analyses to support strategic decisions',
+        'Partner with business teams to develop budgets and forecasts',
+        'Analyze marketplace economics including take rates, pricing, and unit economics',
+        'Support monthly and quarterly business reviews with insightful analysis',
+        'Evaluate investment opportunities and ROI for major initiatives',
+        'Develop dashboards and reports for financial performance monitoring',
+        'Collaborate with Accounting on close processes and variance analysis',
+        'Support investor relations with financial data and presentations',
+        'Identify opportunities for financial process improvement'
+      ],
+      growthOpportunities: [
+        'Progress to Senior Finance Analyst and Manager levels',
+        'Move into FP&A leadership overseeing major business units',
+        'Transition to Strategic Finance or Corporate Development',
+        'Become a Finance Business Partner embedded with product teams',
+        'Lead investor relations or treasury functions',
+        'Move into operations roles leveraging financial expertise',
+        'Build finance teams as a people manager'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial discussion of finance background and interest in Airbnb' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into analytical skills, business acumen, and team fit' },
+        { stage: 'Technical Assessment', description: 'Financial modeling exercise testing analytical and Excel skills' },
+        { stage: 'Case Study', description: 'Business analysis case testing strategic thinking and financial judgment' },
+        { stage: 'Cross-functional Interview', description: 'Assessment of business partnership skills with operations teams' },
+        { stage: 'Core Values Interview', description: 'Behavioral assessment of alignment with Airbnb\'s four core values' },
+        { stage: 'Leadership Interview', description: 'Final round with finance leader on strategy and fit' }
+      ],
+      technicalQuestions: [
+        'Walk me through building a financial model for a new market expansion',
+        'How would you analyze the unit economics of an Airbnb booking?',
+        'Describe your approach to forecasting revenue in a seasonal business',
+        'How would you evaluate the ROI of a major marketing investment?',
+        'Build a sensitivity analysis for key business drivers',
+        'How would you approach pricing analysis for marketplace take rates?',
+        'Describe your process for annual budget development',
+        'How would you analyze the financial impact of a new product feature?',
+        'Walk me through a variance analysis framework',
+        'How would you model the economics of Airbnb Experiences?',
+        'Describe your approach to cash flow forecasting',
+        'How would you analyze host lifetime value?',
+        'Build a framework for evaluating acquisition targets',
+        'How would you approach scenario planning for economic uncertainty?',
+        'Describe your process for creating investor presentations',
+        'How would you measure return on R&D investment?'
+      ],
+      behavioralQuestions: [
+        'Tell me about a financial analysis that significantly influenced a business decision',
+        'Describe a time you had to deliver unwelcome financial news to stakeholders',
+        'How have you championed financial discipline in a growth-oriented environment?',
+        'Tell me about a time you embraced adventure with an unconventional analytical approach',
+        'Describe a creative financial solution others hadn\'t considered (Be a Cereal Entrepreneur)',
+        'How have you gone above and beyond to support a business partner (Be a Host)?',
+        'Tell me about an analysis where you later discovered errors',
+        'How have you explained complex financial concepts to non-finance audiences?',
+        'Describe balancing analytical rigor with delivering quickly',
+        'How have you approached analyzing unfamiliar businesses or markets?',
+        'Tell me about navigating ambiguity in a financial planning situation',
+        'How have you developed others in finance skills?',
+        'Describe building collaborative relationships with business teams',
+        'Tell me about handling conflicting priorities from stakeholders'
+      ],
+      whatTheyLookFor: [
+        'Strong financial modeling and analytical skills',
+        'Business acumen connecting finance to strategic decisions',
+        'Excel expertise with ability to build complex models',
+        'Clear communication explaining financial concepts',
+        'Strategic thinking beyond the numbers',
+        'Collaborative mindset as a business partner',
+        'Intellectual curiosity exploring business dynamics',
+        'Alignment with Airbnb\'s mission and values',
+        'Attention to detail with big-picture perspective',
+        'Growth mindset adapting to evolving business needs'
+      ],
+      interviewTips: [
+        'Prepare for technical modeling exercises in Excel or Google Sheets',
+        'Understand Airbnb\'s business model and key financial metrics',
+        'Review Airbnb\'s investor relations materials and earnings calls',
+        'Have specific examples demonstrating each of Airbnb\'s four core values',
+        'Practice explaining complex analyses simply',
+        'Be ready to discuss marketplace economics',
+        'Prepare questions about finance team culture and priorities',
+        'Show business partnership orientation beyond number crunching',
+        'Research travel industry financial dynamics',
+        'Be ready to discuss how you prioritize and manage time',
+        'Show intellectual curiosity about Airbnb\'s business challenges',
+        'Prepare to walk through a complex model you\'ve built',
+        'Be authentic in values discussions',
+        'Demonstrate attention to detail in your work'
+      ],
+      salary: { min: 100000, max: 170000 },
+      compensation: [
+        'Competitive base salary with equity grants (RSUs)',
+        'Annual performance bonuses',
+        '$2,000 annual travel credit for Airbnb stays and Experiences',
+        'Comprehensive health, dental, and vision insurance',
+        'Generous parental leave (up to 22 weeks)',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Professional development and CFA support',
+        'Finance certification sponsorship',
+        'Home office setup stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as a Finance Analyst at Airbnb balances deep analytical work with collaborative business partnership.',
+        schedule: [
+          '8:30 AM - Review overnight booking and revenue trends',
+          '9:00 AM - Team standup on financial close and analysis priorities',
+          '9:30 AM - Deep work on financial model for new initiative evaluation',
+          '11:00 AM - Business partner meeting with marketing on budget review',
+          '12:00 PM - Lunch with finance colleagues discussing career paths',
+          '1:00 PM - Monthly business review prep with operations team',
+          '2:30 PM - Variance analysis deep dive on regional performance',
+          '3:30 PM - Cross-functional planning meeting for next quarter',
+          '4:30 PM - Dashboard updates and reporting refinements',
+          '5:00 PM - Prep materials for tomorrow\'s leadership presentation',
+          '5:30 PM - Wrap up with quick metric monitoring'
+        ],
+        closing: 'Finance at Airbnb means being a strategic partner who helps leaders make decisions that enable millions of people to belong anywhere.'
+      },
+      similarRoles: ['Senior Finance Analyst at Airbnb', 'FP&A Analyst at Airbnb', 'Strategic Finance Analyst at Airbnb', 'Business Finance Manager at Airbnb', 'Finance Business Partner at Airbnb']
+    },
+
+    'policy-manager': {
+      title: 'Policy Manager',
+      slug: 'policy-manager',
+      industry: 'Technology',
+      roleDescription: `Policy Managers at Airbnb shape the rules and standards that enable millions of hosts and guests to connect safely and fairly. This role sits at the intersection of trust, legal, product, and public affairs, developing policies that protect users while preserving the openness that makes Airbnb magical. You'll work on challenges like community standards, content moderation, host requirements, and guest protections—decisions with real-world impact on people's lives and livelihoods. Airbnb operates in a complex regulatory environment with different rules in 220+ countries, and policy must balance global consistency with local compliance. The role requires navigating tensions between safety and accessibility, host rights and guest expectations, company interests and community trust. Policy Managers partner closely with Legal on regulatory requirements, with Product on enforcement mechanisms, and with Trust & Safety on implementation. The work is intellectually challenging, requiring rigorous analysis and clear writing to articulate complex trade-offs. Policy decisions at Airbnb directly enable or constrain how hosts share their homes and guests experience travel.`,
+      responsibilities: [
+        'Develop and refine community policies for hosts, guests, and listings',
+        'Partner with Legal to ensure policy compliance with global regulations',
+        'Work with Product teams to translate policy into enforceable rules',
+        'Analyze policy effectiveness and iterate based on data and feedback',
+        'Collaborate with Trust & Safety on policy implementation and escalations',
+        'Research industry best practices and emerging regulatory trends',
+        'Draft clear policy documentation for internal and external audiences',
+        'Lead stakeholder alignment on complex policy decisions',
+        'Support public affairs on government and regulatory engagement'
+      ],
+      growthOpportunities: [
+        'Progress to Senior Policy Manager and Director roles',
+        'Specialize in areas like content, safety, accessibility, or regulatory',
+        'Move into Head of Policy for regions or policy domains',
+        'Transition to Legal, Public Affairs, or Trust & Safety leadership',
+        'Lead policy for new products and markets',
+        'Shape industry standards through external engagement',
+        'Build and lead policy teams'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial discussion of policy background and interest in Airbnb' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into policy philosophy, analytical skills, and team fit' },
+        { stage: 'Policy Case Study', description: 'Scenario-based exercise analyzing and recommending policy approach' },
+        { stage: 'Writing Exercise', description: 'Assessment of ability to draft clear policy documentation' },
+        { stage: 'Cross-functional Interview', description: 'Discussion with Legal, Product, and Trust & Safety partners' },
+        { stage: 'Core Values Interview', description: 'Behavioral assessment of alignment with Airbnb\'s four core values' },
+        { stage: 'Leadership Interview', description: 'Final round with policy leader on strategy and fit' }
+      ],
+      technicalQuestions: [
+        'How would you develop a policy for handling discriminatory host behavior?',
+        'Describe your framework for balancing host autonomy with guest safety',
+        'How would you approach policy harmonization across different regulatory regimes?',
+        'Design a policy for handling fraudulent listings',
+        'How would you measure whether a policy is achieving its goals?',
+        'Describe your approach to gathering input on a controversial policy change',
+        'How would you balance policy consistency with cultural differences?',
+        'Design a guest protection policy that doesn\'t overly burden hosts',
+        'How would you approach accessibility requirements in host policies?',
+        'Describe your process for drafting policy documentation',
+        'How would you handle a policy that\'s technically compliant but creates bad outcomes?',
+        'Design an appeals process for policy enforcement decisions',
+        'How would you approach a policy that helps one side of the marketplace but hurts another?',
+        'Describe your framework for policy prioritization',
+        'How would you communicate a major policy change to the community?',
+        'Design a policy for emerging technologies like smart locks or cameras'
+      ],
+      behavioralQuestions: [
+        'Tell me about a policy you developed that balanced competing interests',
+        'Describe a time you had to change a policy based on unintended consequences',
+        'How have you championed a policy position that faced internal resistance?',
+        'Tell me about a time you embraced adventure with an unconventional policy approach',
+        'Describe a creative policy solution that others hadn\'t considered (Be a Cereal Entrepreneur)',
+        'How have you developed policies that make people feel welcomed (Be a Host)?',
+        'Tell me about handling pushback on a policy decision',
+        'How have you built trust with cross-functional partners?',
+        'Describe a policy that didn\'t work as intended and what you learned',
+        'How have you approached policy for users very different from yourself?',
+        'Tell me about leading through a policy crisis',
+        'How have you developed team members in policy roles?',
+        'Describe building inclusive policy that works for diverse communities',
+        'Tell me about navigating regulatory ambiguity'
+      ],
+      whatTheyLookFor: [
+        'Strong analytical skills for navigating complex trade-offs',
+        'Excellent writing ability for clear policy documentation',
+        'Judgment and nuance for sensitive decisions',
+        'Cross-functional collaboration with Legal, Product, and T&S',
+        'Research skills for understanding regulatory landscape',
+        'Stakeholder management for building alignment',
+        'Empathy for affected communities and users',
+        'Alignment with Airbnb\'s mission and core values',
+        'Strategic thinking connecting policy to business and user outcomes',
+        'Resilience for handling controversial decisions'
+      ],
+      interviewTips: [
+        'Study Airbnb\'s published community standards and policies',
+        'Prepare examples of policies you\'ve developed with measurable outcomes',
+        'Practice writing clear, concise policy documentation',
+        'Have specific examples demonstrating each of Airbnb\'s four core values',
+        'Be ready to discuss balancing competing stakeholder interests',
+        'Research platform governance and content moderation trends',
+        'Prepare questions about policy team culture and current challenges',
+        'Show understanding of regulatory complexity across jurisdictions',
+        'Be ready to discuss unintended consequences of past policies',
+        'Demonstrate empathy for both hosts and guests',
+        'Prepare to walk through your policy development process',
+        'Be authentic about navigating difficult policy trade-offs',
+        'Show strategic thinking about policy\'s role in business',
+        'Research recent Airbnb policy changes and their rationale'
+      ],
+      salary: { min: 140000, max: 230000 },
+      compensation: [
+        'Competitive base salary with equity grants (RSUs)',
+        'Annual performance bonuses',
+        '$2,000 annual travel credit for Airbnb stays and Experiences',
+        'Comprehensive health, dental, and vision insurance',
+        'Generous parental leave (up to 22 weeks)',
+        'Flexible PTO policy',
+        '401(k) with company match',
+        'Professional development and conference budget',
+        'Industry networking support',
+        'Home office setup stipend'
+      ],
+      dayInLife: {
+        intro: 'A day as a Policy Manager at Airbnb balances deep analytical work with cross-functional collaboration on complex decisions.',
+        schedule: [
+          '9:00 AM - Review overnight policy escalations and urgent issues',
+          '9:30 AM - Team standup on active policy initiatives',
+          '10:00 AM - Draft policy documentation for upcoming community standards update',
+          '11:30 AM - Legal sync on regulatory requirements for new market',
+          '12:00 PM - Lunch with colleagues from Trust & Safety and Product',
+          '1:00 PM - Cross-functional review of proposed policy change',
+          '2:30 PM - Research industry best practices for emerging issue',
+          '3:30 PM - Stakeholder input session on controversial policy question',
+          '4:30 PM - One-on-one with manager on career development',
+          '5:00 PM - Write summary of policy recommendation for leadership',
+          '5:30 PM - Wrap up with policy monitoring check'
+        ],
+        closing: 'Policy at Airbnb means shaping the rules that enable safe, fair, and magical experiences for hosts and guests around the world.'
+      },
+      similarRoles: ['Senior Policy Manager at Airbnb', 'Policy Lead at Airbnb', 'Trust Policy Manager at Airbnb', 'Content Policy Manager at Airbnb', 'Public Policy Manager at Airbnb']
     }
-  },
-  'doordash': {
-    'software-engineer': {
-      roleDescription: "Software Engineers at DoorDash build technology for the leading food delivery platform, connecting consumers, merchants, and Dashers across three-sided marketplace. You'll work on challenging problems in logistics optimization, real-time matching, mobile applications, and global operations. DoorDash values customer obsession, bias for action, and operational excellence.",
 
-      responsibilities: [
-        "Build scalable services for DoorDash's delivery platform and marketplace",
-        "Design and implement features for consumer, merchant, or Dasher experiences",
-        "Work on logistics optimization and real-time delivery routing systems",
-        "Collaborate with product, operations, and data science teams",
-        "Own services end-to-end including deployment, monitoring, and incident response"
-      ],
 
-      growthOpportunities: [
-        "Work on technology serving millions of consumers, merchants, and Dashers",
-        "Tackle challenging problems in logistics, optimization, and marketplace dynamics",
-        "Fast-paced environment with significant ownership and impact",
-        "Strong compensation with competitive equity",
-        "Opportunity to work across diverse product areas from delivery to grocery to logistics"
-      ],
 
-      interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your background, interest in DoorDash's mission, and role fit. Overview of culture and values.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Coding interview focusing on algorithms, data structures, and problem-solving. May include discussion of past work.",
-          duration: "45-60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Multiple interviews including coding (2 rounds), system design, and behavioral. Focus on execution and customer obsession.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with teams to find the best fit for your interests and skills.",
-          duration: "Varies"
-        }
-      ],
-
-      technicalQuestions: [
-        "Design DoorDash's delivery routing and dispatching system",
-        "Implement an algorithm to optimize delivery times and costs",
-        "Design the real-time ETA calculation system",
-        "How would you detect and prevent fraudulent orders?",
-        "Design DoorDash's restaurant ranking and discovery system",
-        "Implement batching logic for multiple order pickups",
-        "Design the system for managing Dasher availability and scheduling",
-        "How would you optimize delivery zones for maximum efficiency?",
-        "Design DoorDash's payment and settlement system",
-        "Implement surge pricing for high-demand periods"
-      ],
-
-      behavioralQuestions: [
-        "Tell me about a time when you moved fast to solve a customer problem",
-        "Describe a situation where you had to make decisions with incomplete information",
-        "How have you demonstrated bias for action in your work?",
-        "Tell me about a time when you obsessed over operational excellence",
-        "Describe a project where you had to balance speed with quality",
-        "How do you prioritize when facing multiple urgent issues?",
-        "Tell me about a time when you improved a process or system significantly",
-        "Describe how you've collaborated with operations or support teams"
-      ],
-
-      whatTheyLookFor: [
-        "Strong coding skills and computer science fundamentals",
-        "Experience with distributed systems, real-time systems, or logistics",
-        "Customer obsession - focus on consumer, merchant, and Dasher experiences",
-        "Bias for action and ability to execute quickly",
-        "Systems thinking for complex three-sided marketplace",
-        "Collaborative mindset across product, ops, and data teams",
-        "Operational excellence and attention to detail",
-        "Passion for local commerce and logistics innovation"
-      ],
-
-      interviewTips: [
-        "Use DoorDash frequently - understand the full experience as consumer and merchant",
-        "Prepare for questions about logistics, optimization, and real-time systems",
-        "Show examples of moving fast, iterating, and solving operational problems",
-        "Understand three-sided marketplace dynamics and constraints",
-        "Emphasize customer obsession and data-driven decision making",
-        "Research DoorDash's engineering blog and technical challenges",
-        "Be ready to discuss trade-offs between speed, cost, and quality",
-        "Ask about team's mission, impact on local commerce, and growth"
-      ],
-
-      dayInLife: {
-        overview: "DoorDash engineers work in fast-paced teams building products for millions of users with focus on execution and customer impact. Your day includes coding, operational discussions, cross-team collaboration, and data analysis.",
-        schedule: [
-          {
-            time: "9:30 AM",
-            activity: "Standup & Ops Review",
-            description: "Team sync and review overnight delivery metrics and incidents"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Feature Development",
-            description: "Build new routing optimization algorithm for deliveries"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Lunch with Dasher",
-            description: "Working lunch with local Dasher to understand their experience"
-          },
-          {
-            time: "1:00 PM",
-            activity: "System Design Review",
-            description: "Review architecture for new merchant onboarding feature"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Operations Sync",
-            description: "Meet with ops team on delivery performance and merchant issues"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Incident Response",
-            description: "Debug and fix issue affecting delivery assignments"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Data Analysis",
-            description: "Analyze A/B test results for new matching algorithm"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Code Review",
-            description: "Review pull requests from teammates with focus on reliability"
-          }
-        ]
-      },
-
-      similarRoles: [
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
-      ]
-    },
-
-    'product-manager': {
-      roleDescription: "Product Managers at DoorDash drive strategy and execution for products serving millions of consumers, hundreds of thousands of merchants, and Dashers globally. From core delivery experiences to new verticals like grocery and convenience, you'll work on complex problems in a dynamic three-sided marketplace. DoorDash PMs are known for operational excellence, customer obsession, and bias for action.",
-
-      responsibilities: [
-        "Define product strategy and roadmap for consumer, merchant, or Dasher experiences",
-        "Analyze marketplace dynamics and operational metrics to identify opportunities",
-        "Prioritize features balancing user needs, business goals, and operational constraints",
-        "Collaborate with engineering, design, operations, and data science teams",
-        "Ship experiments quickly, analyze data, and iterate based on results"
-      ],
-
-      growthOpportunities: [
-        "Own products impacting millions of users across three-sided marketplace",
-        "Fast career progression in high-growth environment",
-        "Exposure to diverse challenges from logistics to commerce to new verticals",
-        "Strong collaboration with operations and on-the-ground teams",
-        "Competitive compensation with significant equity"
-      ],
-
-      interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your PM experience, interest in local commerce, and role fit.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Hiring Manager Interview",
-          description: "Deep dive into product experience, analytical thinking, and operational focus.",
-          duration: "45-60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering product design, analytics, execution, technical depth, and behavioral. Focus on customer obsession and bias for action.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with product teams across different focus areas.",
-          duration: "Varies"
-        }
-      ],
-
-      technicalQuestions: [
-        "How would you improve DoorDash's consumer app to increase order frequency?",
-        "Design a feature to reduce delivery times",
-        "How would you increase merchant retention and satisfaction?",
-        "Should DoorDash enter a new vertical? How would you evaluate?",
-        "How would you measure success for DashPass subscription?",
-        "Design the Dasher onboarding and retention experience",
-        "How would you optimize the delivery matching algorithm?",
-        "Analyze why delivery completion rates dropped in a market",
-        "Design a feature to improve merchant operations efficiency",
-        "How would you balance consumer prices with Dasher earnings?"
-      ],
-
-      behavioralQuestions: [
-        "Tell me about a product you shipped under tight deadlines",
-        "Describe a time when you used data to drive a major decision",
-        "How have you balanced competing stakeholder needs across a marketplace?",
-        "Tell me about a time when you had to move fast with incomplete information",
-        "Describe a situation where you championed operational excellence",
-        "How do you prioritize when everything seems urgent?",
-        "Tell me about a time when you advocated strongly for the user",
-        "Describe how you've worked closely with operations teams"
-      ],
-
-      whatTheyLookFor: [
-        "Customer obsession across all marketplace participants",
-        "Strong analytical skills and operational metrics focus",
-        "Bias for action - ability to ship quickly and iterate",
-        "Understanding of marketplace dynamics and logistics",
-        "Data-driven decision making with strong quantitative skills",
-        "Technical depth to collaborate effectively with engineering",
-        "Excellent communication and stakeholder management",
-        "Passion for local commerce and logistics innovation"
-      ],
-
-      interviewTips: [
-        "Use DoorDash extensively - order frequently, understand merchant and Dasher sides",
-        "Prepare to discuss marketplace metrics and unit economics",
-        "Bring data and operational metrics to support decisions",
-        "Show examples of moving fast, testing, and iterating",
-        "Understand logistics challenges and three-sided marketplace trade-offs",
-        "Research DoorDash's product strategy and new verticals",
-        "Emphasize collaboration with operations and on-the-ground teams",
-        "Ask about team's focus area, key metrics, and operational challenges"
-      ],
-
-      dayInLife: {
-        overview: "DoorDash PMs move fast, balancing data analysis, operational coordination, and rapid experimentation. Your day includes metrics review, operations syncs, merchant visits, and cross-functional collaboration.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Metrics Review",
-            description: "Analyze delivery performance, marketplace efficiency, and user metrics"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Operations Sync",
-            description: "Review market performance and discuss operational challenges"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Engineering Sprint Planning",
-            description: "Prioritize features with engineering team for next sprint"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Merchant Visit",
-            description: "Lunch at local restaurant to understand merchant pain points"
-          },
-          {
-            time: "1:30 PM",
-            activity: "Design Review",
-            description: "Review mockups for new Dasher earnings feature"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Data Deep Dive",
-            description: "Analyze A/B test results for delivery batching algorithm"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Strategy Meeting",
-            description: "Discuss new vertical expansion with leadership"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Dasher Feedback Session",
-            description: "Review survey results and feedback from Dashers"
-          }
-        ]
-      },
-
-      similarRoles: [
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
-      ]
-    },
-
-    'engineering-manager': {
-      roleDescription: "Engineering Managers at DoorDash lead teams building technology for the leading local commerce platform. You'll balance technical leadership with people management, drive rapid execution, and maintain operational excellence. EMs at DoorDash typically manage teams of 6-10 engineers working on delivery systems, marketplace features, or platform infrastructure.",
-
-      responsibilities: [
-        "Lead and mentor a team of 6-10 engineers on delivery or marketplace systems",
-        "Set technical direction and drive rapid execution",
-        "Partner with product, operations, and data teams to ship impactful features",
-        "Hire top talent and develop career growth plans",
-        "Foster DoorDash's culture of customer obsession and bias for action"
-      ],
-
-      growthOpportunities: [
-        "Lead teams building technology for millions of users globally",
-        "Fast-paced environment with high impact and rapid growth",
-        "Clear path to senior leadership roles",
-        "Work on diverse challenges from logistics to commerce to new verticals",
-        "Competitive compensation with significant equity"
-      ],
-
-      interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of management experience, technical background, and interest in DoorDash.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Hiring Manager Interview",
-          description: "Deep dive into leadership philosophy, execution mindset, and technical credibility.",
-          duration: "60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering technical leadership, people management, system design, and behavioral. Focus on execution and team building.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with teams to find the best fit.",
-          duration: "Varies"
-        }
-      ],
-
-      technicalQuestions: [
-        "Design the architecture for DoorDash's delivery routing system",
-        "How would you improve reliability for order assignment?",
-        "Your team is behind on a critical merchant feature - how do you recover?",
-        "Design the infrastructure for real-time Dasher location tracking",
-        "How do you balance technical debt with rapid feature development?",
-        "Walk through scaling the system for 10x growth",
-        "Your team has a production incident affecting deliveries - how do you respond?",
-        "Design the testing strategy for logistics optimization algorithms",
-        "How would you architect DoorDash's payment processing system?",
-        "Design monitoring for marketplace health and delivery performance"
-      ],
-
-      behavioralQuestions: [
-        "Tell me about a time when you had to ship a critical feature quickly",
-        "Describe a situation where you managed a performance issue",
-        "How have you built and scaled an engineering team in a fast-growing company?",
-        "Tell me about a time when you had to make difficult trade-offs",
-        "Describe a conflict with product or operations stakeholders",
-        "How do you maintain quality while moving fast?",
-        "Tell me about a time when you had to deliver difficult feedback",
-        "Describe how you've fostered a customer-obsessed team culture"
-      ],
-
-      whatTheyLookFor: [
-        "Strong technical credibility with distributed systems or logistics experience",
-        "People management experience leading teams of 5+ engineers",
-        "Bias for action and ability to execute rapidly",
-        "Track record of shipping in fast-paced environments",
-        "Customer obsession and operational excellence mindset",
-        "Excellent communication and collaboration skills",
-        "Experience with marketplaces, real-time systems, or high-scale platforms",
-        "Passion for local commerce and logistics innovation"
-      ],
-
-      interviewTips: [
-        "Prepare examples of rapid execution and shipping under pressure",
-        "Demonstrate technical depth in distributed systems and logistics",
-        "Show how you've balanced speed with quality and reliability",
-        "Emphasize collaboration with product and operations teams",
-        "Be ready to discuss hiring, performance management, and team culture",
-        "Understand DoorDash's marketplace and technical challenges",
-        "Prepare examples of handling incidents and maintaining system health",
-        "Ask about team's mission, operational metrics, and growth opportunities"
-      ],
-
-      dayInLife: {
-        overview: "DoorDash Engineering Managers balance technical leadership, rapid execution, and operational excellence. Your day includes 1-on-1s, technical reviews, operations collaboration, incident response, and strategic planning.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Operations & Metrics Review",
-            description: "Review delivery metrics, system health, and overnight incidents"
-          },
-          {
-            time: "9:30 AM",
-            activity: "1-on-1 Meetings",
-            description: "Career development conversations with engineers"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Technical Design Review",
-            description: "Review architecture for new batching algorithm"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Operations Lunch",
-            description: "Working lunch with ops team discussing market challenges"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Code Review",
-            description: "Review critical pull requests for delivery routing changes"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Product Planning",
-            description: "Sprint planning with PM on merchant feature roadmap"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Incident Response",
-            description: "Lead postmortem for delivery assignment outage"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Cross-functional Sync",
-            description: "Align with data science on optimization improvements"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Technical Strategy",
-            description: "Plan platform evolution and infrastructure roadmap"
-          }
-        ]
-      },
-
-      similarRoles: [
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
-      ]
-    },
-
-    'data-scientist': {
-      roleDescription: "Data Scientists at DoorDash leverage data and analytics to optimize the three-sided marketplace, improve delivery efficiency, and drive business decisions. You'll work on challenging problems in logistics optimization, demand forecasting, pricing, and experimentation at massive scale. DoorDash data scientists combine analytical rigor with operational focus to move key metrics.",
-
-      responsibilities: [
-        "Analyze marketplace dynamics and identify opportunities for optimization",
-        "Design and analyze experiments to measure product and operational impact",
-        "Build models for demand forecasting, routing optimization, and pricing",
-        "Partner with product, engineering, and operations teams on data-driven decisions",
-        "Develop metrics and dashboards to track marketplace and delivery health"
-      ],
-
-      growthOpportunities: [
-        "Work with rich datasets from millions of deliveries and marketplace interactions",
-        "Impact key business metrics through data-driven optimization",
-        "Strong collaboration with product, engineering, and operations teams",
-        "Exposure to diverse problems from logistics to commerce to economics",
-        "Career growth into senior IC or data science leadership"
-      ],
-
-      interviewProcess: [
-        {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of data science experience, interest in local commerce, and role fit.",
-          duration: "30 minutes"
-        },
-        {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Statistics, SQL, and analytics case study. May include optimization or causal inference.",
-          duration: "45-60 minutes"
-        },
-        {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering statistics, experimentation, SQL/coding, product sense, case study, and behavioral. Focus on business impact.",
-          duration: "4-5 hours"
-        },
-        {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with data science teams across different product areas.",
-          duration: "Varies"
-        }
-      ],
-
-      technicalQuestions: [
-        "How would you optimize DoorDash's delivery routing to minimize costs?",
-        "Design an experiment to test a new merchant commission structure",
-        "Analyze why delivery times increased in a specific market",
-        "How would you detect fraudulent orders or accounts?",
-        "Build a demand forecasting model for restaurant orders",
-        "How would you optimize Dasher positioning and availability?",
-        "Analyze the impact of DashPass on order frequency",
-        "Design a model to predict delivery completion time",
-        "How would you measure marketplace efficiency?",
-        "Build a pricing model for delivery fees based on distance and demand"
-      ],
-
-      behavioralQuestions: [
-        "Tell me about an analysis that drove a major operational improvement",
-        "Describe a time when your findings contradicted stakeholder expectations",
-        "How have you communicated complex analyses to operations teams?",
-        "Tell me about an experiment that produced unexpected results",
-        "Describe working with incomplete or real-time operational data",
-        "How do you prioritize when you have multiple urgent analysis requests?",
-        "Tell me about a time when you partnered with product and engineering",
-        "Describe how you've influenced business strategy with data"
-      ],
-
-      whatTheyLookFor: [
-        "Strong statistical and analytical skills with operational focus",
-        "Experience with A/B testing, causal inference, and experimentation",
-        "Proficiency in SQL, Python/R, and optimization techniques",
-        "Ability to translate analysis into actionable operational improvements",
-        "Understanding of marketplace dynamics and logistics",
-        "Excellent communication skills for diverse stakeholders",
-        "Bias for action and focus on business impact",
-        "Passion for using data to improve local commerce"
-      ],
-
-      interviewTips: [
-        "Use DoorDash and think about the data behind delivery and marketplace",
-        "Prepare to discuss experimentation, optimization, and causal inference",
-        "Bring examples of analyses that drove operational or business decisions",
-        "Understand three-sided marketplace metrics and unit economics",
-        "Be ready for SQL coding and statistical problem-solving",
-        "Show strong operational focus and business partnership",
-        "Research DoorDash's data challenges and marketplace dynamics",
-        "Ask about team's focus area, key metrics, and analytical challenges"
-      ],
-
-      dayInLife: {
-        overview: "DoorDash Data Scientists analyze marketplace data, design experiments, optimize operations, and collaborate cross-functionally to drive business impact. Your day includes SQL analysis, experimentation, operations syncs, and presenting insights.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Metrics Review",
-            description: "Review marketplace KPIs: orders, delivery times, and efficiency metrics"
-          },
-          {
-            time: "10:00 AM",
-            activity: "Experiment Analysis",
-            description: "Analyze A/B test for new delivery batching algorithm"
-          },
-          {
-            time: "11:30 AM",
-            activity: "Operations Meeting",
-            description: "Present analysis on market performance to ops leadership"
-          },
-          {
-            time: "12:30 PM",
-            activity: "Lunch & Learning",
-            description: "Data science team lunch with case study discussion"
-          },
-          {
-            time: "1:30 PM",
-            activity: "SQL Deep Dive",
-            description: "Analyze merchant retention patterns by category and market"
-          },
-          {
-            time: "3:00 PM",
-            activity: "Model Development",
-            description: "Build demand forecasting model for delivery capacity planning"
-          },
-          {
-            time: "4:00 PM",
-            activity: "Product Collaboration",
-            description: "Work with PM to design experiment for pricing feature"
-          },
-          {
-            time: "5:00 PM",
-            activity: "Dashboard Building",
-            description: "Create executive dashboard for marketplace health metrics"
-          }
-        ]
-      },
-
-      similarRoles: [
-        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Instacart", companySlug: "instacart", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
-      ]
-    }
   },
 
-  // Priority 3A: Lyft
   'lyft': {
     'software-engineer': {
       roleDescription: "Software Engineers at Lyft build technology that improves people's lives through the world's best transportation. You'll work on critical systems powering millions of rides, from real-time dispatch and pricing to safety features and driver/rider experiences. Engineers operate in a collaborative culture emphasizing impact, inclusivity, and continuous learning.",
