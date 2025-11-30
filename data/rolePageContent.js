@@ -24717,6 +24717,614 @@ export const rolePageContent = {
         closing: "Salesforce UX Designers enjoy solving complex enterprise problems while directly impacting how millions of users work every day."
       },
       similarRoles: ["Product Manager", "Software Engineer", "UX Researcher", "Design System Engineer"]
+    },
+    'security-engineer': {
+      roleDescription: "Security Engineers at Salesforce protect the data and operations of over 150,000 companies who trust the platform with their most critical business information. Trust is Salesforce's #1 value, and the security team provides the fundamental building blocks that preserve and enhance that trust. You'll work on security challenges at massive enterprise scale—securing multi-tenant infrastructure, protecting customer data across compliance regimes, and building security into products from design through deployment. The role spans application security, infrastructure security, security operations, and compliance engineering. Salesforce Security Engineers partner with product teams to embed security into features, develop automated detection and response capabilities, and ensure compliance with global regulations from GDPR to SOC 2 to FedRAMP. With Salesforce's expansion into AI through Einstein and Agentforce, security engineers are tackling new challenges around AI safety, model security, and autonomous agent governance.",
+      responsibilities: [
+        "Conduct security reviews of product features and architecture designs",
+        "Build and maintain security tools and automation at scale",
+        "Respond to security incidents and conduct thorough investigations",
+        "Ensure compliance with security frameworks (SOC 2, ISO, FedRAMP)",
+        "Partner with product teams to build security into features",
+        "Develop detection and response capabilities for threats",
+        "Perform penetration testing and vulnerability assessments",
+        "Design security controls for multi-tenant data protection",
+        "Contribute to security awareness and training programs",
+        "Evaluate security of AI/ML features and autonomous agents"
+      ],
+      growthOpportunities: [
+        "Protect data for 150,000+ companies across all industries",
+        "Work on cutting-edge challenges in AI security and governance",
+        "Clear career path from Engineer to Senior, Staff, and Principal",
+        "Influence security practices across the enterprise software industry",
+        "Access to advanced security tools and research opportunities",
+        "Strong Ohana culture with work-life balance emphasis",
+        "Competitive compensation with meaningful equity",
+        "Contribute to Trust as Salesforce's #1 value"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of security background and Salesforce interest"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Security technical interview in your domain area"
+        },
+        {
+          stage: "Onsite - Security Deep Dive",
+          duration: "45 minutes",
+          description: "Deep technical interview in your security expertise"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "Programming interview for security tooling"
+        },
+        {
+          stage: "Onsite - Security Design",
+          duration: "45 minutes",
+          description: "Design secure systems or threat model a feature"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and Trust"
+        }
+      ],
+      technicalQuestions: [
+        "Design the security architecture for Salesforce's multi-tenant platform",
+        "How would you implement data isolation between customer orgs?",
+        "Design a detection system for credential stuffing attacks at scale",
+        "How would you approach security for Einstein AI features?",
+        "Design the access control model for enterprise organizations",
+        "How would you secure API endpoints handling billions of requests?",
+        "Design the encryption strategy for customer data at rest and in transit",
+        "How would you approach security for Agentforce autonomous agents?",
+        "Design the incident response process for a data breach scenario",
+        "How would you implement secure secrets management at scale?",
+        "Design a vulnerability management program for thousands of services",
+        "How would you ensure FedRAMP compliance for government customers?",
+        "Design security logging and monitoring for the Salesforce platform",
+        "How would you approach third-party integration security review?",
+        "Design the security model for Lightning Web Components"
+      ],
+      behavioralQuestions: [
+        "Tell me about a significant security vulnerability you discovered",
+        "Describe influencing a team to prioritize a security fix",
+        "How have you balanced security with product velocity?",
+        "Tell me about a security incident you responded to",
+        "Describe improving security culture in an organization",
+        "How have you approached security for new technologies?",
+        "Tell me about a difficult security risk decision",
+        "Describe explaining security concepts to non-technical stakeholders",
+        "How have you handled pushback on security requirements?",
+        "Tell me about building security into the development process",
+        "Describe staying current with evolving threats",
+        "How have you mentored others on security practices?",
+        "Tell me about a creative solution to a security challenge",
+        "Describe handling conflicting compliance requirements",
+        "How have you contributed to Trust as Salesforce's #1 value?"
+      ],
+      whatTheyLookFor: [
+        "Deep expertise in at least one security domain",
+        "Strong programming skills for security tooling (Python, Go, Java)",
+        "Experience with cloud security at scale",
+        "Understanding of enterprise compliance requirements",
+        "Track record discovering and remediating vulnerabilities",
+        "Ability to communicate security risks to diverse audiences",
+        "Collaborative approach working with product teams",
+        "Knowledge of multi-tenant security architecture",
+        "Alignment with Salesforce values especially Trust",
+        "Commitment to continuous learning in security"
+      ],
+      interviewTips: [
+        "Study Salesforce's Trust site and security architecture",
+        "Understand multi-tenant security challenges",
+        "Prepare examples of vulnerabilities you've found and fixed",
+        "Know enterprise compliance frameworks (SOC 2, FedRAMP)",
+        "Be ready to discuss AI/ML security considerations",
+        "Understand Salesforce's security model and permissions",
+        "Prepare threat models for enterprise SaaS scenarios",
+        "Show passion for protecting customer data",
+        "Be ready to discuss security vs usability trade-offs",
+        "Demonstrate systematic security assessment approach",
+        "Know Salesforce's approach to secure development",
+        "Prepare questions about the security team and challenges",
+        "Show alignment with Trust as the #1 value",
+        "Be honest about security incidents and lessons learned"
+      ],
+      salary: {
+        min: 160000,
+        max: 320000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $160,000 - $320,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Security conference attendance budget",
+        "Certification support and bonuses",
+        "7 days paid volunteer time off annually",
+        "Home office security equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Security Engineer at Salesforce involves protecting customer data, building security tools, and partnering with product teams on Trust.",
+        schedule: [
+          "9:00 AM - Review security alerts and overnight vulnerability reports",
+          "9:30 AM - Security design review for new Einstein feature",
+          "11:00 AM - Build automated scanning tool for vulnerability detection",
+          "12:00 PM - Lunch with security team discussing emerging threats",
+          "1:00 PM - Code review for security-critical authentication change",
+          "2:30 PM - Compliance documentation for SOC 2 audit",
+          "3:30 PM - Partner with product team on secure development",
+          "4:30 PM - Research new attack techniques and defenses",
+          "5:30 PM - Update security guidance documentation"
+        ],
+        closing: "Salesforce Security Engineers enjoy the mission-critical work of protecting customer trust while tackling cutting-edge security challenges."
+      },
+      similarRoles: ["Software Engineer", "DevOps Engineer", "Technical Architect", "Data Scientist"]
+    },
+    'devops-engineer': {
+      roleDescription: "DevOps Engineers at Salesforce build and maintain the infrastructure that powers the world's #1 CRM platform, serving over 150,000 companies with billions of transactions daily. You'll work on CI/CD pipelines, infrastructure automation, and platform reliability for one of the largest SaaS platforms in the world. Salesforce pioneered multi-tenant cloud architecture, and DevOps engineers ensure this infrastructure scales, performs, and remains secure across multiple data centers globally. The role combines software engineering with operational expertise—you'll write code for automation and tooling while ensuring production systems meet enterprise reliability requirements. With Salesforce's growing investment in AI through Einstein and Agentforce, DevOps engineers are building the infrastructure for ML model deployment and autonomous agent execution at scale. The highest-paying role in recent Salesforce ecosystem surveys, DevOps Engineering offers significant compensation potential alongside meaningful technical challenges.",
+      responsibilities: [
+        "Design and maintain CI/CD pipelines for enterprise deployments",
+        "Build infrastructure automation using Infrastructure as Code",
+        "Ensure platform reliability meeting enterprise SLA requirements",
+        "Develop monitoring, alerting, and observability solutions",
+        "Automate operational tasks reducing toil and human error",
+        "Partner with engineering teams on deployment and release processes",
+        "Manage production operations and incident response",
+        "Optimize infrastructure costs while maintaining performance",
+        "Support compliance requirements through automated controls",
+        "Build infrastructure for AI/ML model deployment at scale"
+      ],
+      growthOpportunities: [
+        "Work on infrastructure serving 150,000+ companies globally",
+        "Highest-paying role in Salesforce ecosystem ($192K+ average)",
+        "Clear path from Engineer to Senior, Staff, and Principal",
+        "Build expertise in enterprise-scale cloud infrastructure",
+        "Work on cutting-edge ML infrastructure for Einstein and Agentforce",
+        "Strong Ohana culture with work-life balance focus",
+        "Competitive compensation with meaningful equity",
+        "Shape DevOps practices across the organization"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of DevOps background and Salesforce interest"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Technical interview on infrastructure and automation"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "Programming interview for automation and tooling"
+        },
+        {
+          stage: "Onsite - System Design",
+          duration: "45 minutes",
+          description: "Design infrastructure for a Salesforce-scale problem"
+        },
+        {
+          stage: "Onsite - Operations",
+          duration: "45 minutes",
+          description: "Discussion of incident response and operational practices"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and collaboration"
+        }
+      ],
+      technicalQuestions: [
+        "Design the CI/CD pipeline for Salesforce's multi-tenant platform",
+        "How would you implement blue-green deployments at enterprise scale?",
+        "Design the monitoring and alerting strategy for 150K+ customer orgs",
+        "How would you approach infrastructure for AI model serving?",
+        "Design the disaster recovery strategy for a multi-region deployment",
+        "How would you implement Infrastructure as Code for Salesforce scale?",
+        "Design the deployment strategy for zero-downtime releases",
+        "How would you handle capacity planning for unpredictable growth?",
+        "Design the secrets management approach for enterprise infrastructure",
+        "How would you implement automated compliance controls?",
+        "Design the logging and observability stack for billions of transactions",
+        "How would you approach database migration at scale?",
+        "Design the containerization strategy for microservices",
+        "How would you optimize cloud costs while maintaining performance?",
+        "Design the incident response automation for production issues"
+      ],
+      behavioralQuestions: [
+        "Tell me about a CI/CD improvement that had significant impact",
+        "Describe handling a major production incident",
+        "How have you balanced automation with operational stability?",
+        "Tell me about reducing toil through automation",
+        "Describe implementing Infrastructure as Code at scale",
+        "How have you partnered with development teams on DevOps?",
+        "Tell me about optimizing infrastructure costs significantly",
+        "Describe a deployment that didn't go as planned",
+        "How have you improved monitoring and observability?",
+        "Tell me about building a culture of operational excellence",
+        "Describe handling on-call and incident response",
+        "How have you approached security in DevOps practices?",
+        "Tell me about a creative solution to an infrastructure challenge",
+        "Describe mentoring others on DevOps best practices",
+        "How have you contributed to Salesforce values in your work?"
+      ],
+      whatTheyLookFor: [
+        "Strong programming skills (Python, Go, or similar)",
+        "Experience with CI/CD tools and practices",
+        "Knowledge of Infrastructure as Code (Terraform, Ansible)",
+        "Cloud platform expertise (AWS, GCP, or Azure)",
+        "Understanding of containerization and orchestration",
+        "Experience with monitoring and observability tools",
+        "Track record improving reliability and deployment velocity",
+        "Collaborative approach working with development teams",
+        "On-call experience and incident management skills",
+        "Alignment with Salesforce values and Ohana culture"
+      ],
+      interviewTips: [
+        "Prepare examples of CI/CD pipelines you've built",
+        "Know Infrastructure as Code patterns deeply",
+        "Be ready to discuss incident response and postmortems",
+        "Understand Salesforce's scale and multi-tenant challenges",
+        "Study cloud platform services and trade-offs",
+        "Prepare for live infrastructure design exercises",
+        "Show balance of automation skills and operational judgment",
+        "Know monitoring and observability best practices",
+        "Be ready to discuss security in DevOps (DevSecOps)",
+        "Understand compliance automation approaches",
+        "Prepare questions about the infrastructure team",
+        "Show genuine passion for operational excellence",
+        "Demonstrate collaborative approach with developers",
+        "Show alignment with Ohana culture and values"
+      ],
+      salary: {
+        min: 160000,
+        max: 320000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $160,000 - $320,000 depending on level",
+        "Average salary $192,000 (highest in Salesforce ecosystem)",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "On-call compensation included",
+        "7 days paid volunteer time off annually",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a DevOps Engineer at Salesforce involves building automation, ensuring reliability, and partnering with engineering teams on infrastructure.",
+        schedule: [
+          "9:00 AM - Review overnight deployment status and alerts",
+          "9:30 AM - Improve CI/CD pipeline for faster build times",
+          "11:00 AM - Architecture review for new microservice deployment",
+          "12:00 PM - Lunch with infrastructure team",
+          "1:00 PM - Build Terraform modules for standardized infrastructure",
+          "2:30 PM - Partner with security on compliance automation",
+          "3:30 PM - Incident postmortem review and improvement items",
+          "4:30 PM - Monitoring dashboard improvements",
+          "5:30 PM - On-call handoff and documentation"
+        ],
+        closing: "Salesforce DevOps Engineers enjoy building the infrastructure that powers one of the world's largest enterprise platforms while driving operational excellence."
+      },
+      similarRoles: ["Software Engineer", "Security Engineer", "Site Reliability Engineer", "Technical Architect"]
+    },
+    'success-architect': {
+      roleDescription: "Success Architects at Salesforce are technical leaders within Customer Success, providing expert guidance to the most strategic customers on solution design, performance optimization, and technical best practices. You'll work with Signature Success customers—enterprise accounts with significant Salesforce investments—ensuring they maximize value and achieve business outcomes. The role combines deep Salesforce technical expertise with consultative skills, helping customers navigate complex challenges from integration architecture to performance tuning to AI adoption. Success Architects partner with Customer Success Managers, Support, and Product teams to deliver proactive technical engagement rather than reactive support. With Salesforce's expansion through acquisitions like MuleSoft and Tableau, and investments in Einstein and Agentforce, Success Architects guide customers through adopting these technologies effectively. The role offers significant customer impact while leveraging technical expertise in a customer-facing capacity.",
+      responsibilities: [
+        "Provide expert technical guidance to Signature Success customers",
+        "Design solutions ensuring scalability, security, and performance",
+        "Conduct architecture reviews and optimization recommendations",
+        "Partner with CSMs on technical aspects of customer success",
+        "Guide customers on Salesforce best practices and governance",
+        "Assess system health and identify improvement opportunities",
+        "Support customers through major implementations and upgrades",
+        "Collaborate with Product on customer feedback and issues",
+        "Develop technical enablement for customer teams",
+        "Guide AI adoption including Einstein and Agentforce"
+      ],
+      growthOpportunities: [
+        "Work with Salesforce's most strategic enterprise customers",
+        "Combine technical expertise with customer relationship skills",
+        "Clear path to Senior Success Architect and leadership roles",
+        "Develop expertise across Salesforce clouds and acquisitions",
+        "High visibility role with executive customer engagement",
+        "Transition paths to Technical Architect or Product roles",
+        "Competitive compensation with success-based bonuses",
+        "Global travel opportunities for customer engagements"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of technical background and customer success experience"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into Salesforce expertise and customer engagement"
+        },
+        {
+          stage: "Technical Assessment",
+          duration: "60 minutes",
+          description: "Salesforce architecture and troubleshooting scenarios"
+        },
+        {
+          stage: "Customer Scenario",
+          duration: "60 minutes",
+          description: "Role-play customer engagement demonstrating technical consulting"
+        },
+        {
+          stage: "Cross-functional Interview",
+          duration: "45 minutes",
+          description: "Discussion with CSM and Support partners"
+        },
+        {
+          stage: "Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and customer success"
+        }
+      ],
+      technicalQuestions: [
+        "How would you assess the health of a large Salesforce implementation?",
+        "Design an optimization plan for a slow-performing org",
+        "How would you guide a customer on Einstein AI adoption?",
+        "Diagnose and resolve a complex integration issue",
+        "How would you approach a governor limit problem?",
+        "Design a release management strategy for an enterprise customer",
+        "How would you help a customer improve data quality?",
+        "Guide a customer on multi-cloud architecture best practices",
+        "How would you assess security posture for a Salesforce org?",
+        "Design an adoption strategy for MuleSoft integration",
+        "How would you help a customer prepare for a major release?",
+        "Diagnose performance issues in a high-volume Service Cloud org",
+        "How would you guide Agentforce adoption for a customer?",
+        "Design a governance framework for a multi-business unit org",
+        "How would you approach technical debt reduction for a customer?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex technical issue you resolved for a customer",
+        "Describe guiding a customer through a difficult architecture decision",
+        "How have you built trust with technical stakeholders?",
+        "Tell me about proactively identifying a customer risk",
+        "Describe handling a customer escalation effectively",
+        "How have you influenced a customer to adopt best practices?",
+        "Tell me about translating technical findings for executives",
+        "Describe partnering with product on a customer issue",
+        "How have you balanced multiple customer priorities?",
+        "Tell me about a customer success story you're proud of",
+        "Describe coaching a customer's technical team",
+        "How have you stayed current with Salesforce's rapid evolution?",
+        "Tell me about a creative solution for a customer challenge",
+        "Describe managing expectations when solutions had limitations",
+        "How have you embodied Salesforce values with customers?"
+      ],
+      whatTheyLookFor: [
+        "Deep Salesforce platform expertise with certifications",
+        "Experience in customer-facing technical roles",
+        "Strong troubleshooting and problem-solving skills",
+        "Excellent communication for executive audiences",
+        "Understanding of enterprise architecture principles",
+        "Track record driving customer outcomes through technical guidance",
+        "Consultative approach to customer engagement",
+        "Knowledge of integration patterns and best practices",
+        "Alignment with Salesforce values and customer success focus",
+        "Ability to build relationships across technical and business teams"
+      ],
+      interviewTips: [
+        "Prepare examples of technical customer engagements",
+        "Know Salesforce architecture and optimization deeply",
+        "Be ready for troubleshooting scenarios",
+        "Practice explaining technical concepts to executives",
+        "Understand the Signature Success program",
+        "Study MuleSoft, Tableau, and recent acquisitions",
+        "Prepare examples of building customer relationships",
+        "Know Einstein AI and Agentforce capabilities",
+        "Show balance of technical depth and consulting skills",
+        "Be ready to discuss customer success metrics",
+        "Understand Salesforce's customer success methodology",
+        "Prepare questions about the customer portfolio",
+        "Show genuine passion for customer outcomes",
+        "Demonstrate alignment with Ohana values"
+      ],
+      salary: {
+        min: 150000,
+        max: 280000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $150,000 - $220,000 depending on level",
+        "Variable compensation for customer outcomes: $30,000 - $60,000",
+        "Total on-target earnings: $180,000 - $280,000",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Travel budget for customer engagements",
+        "7 days paid volunteer time off annually",
+        "Conference attendance (Dreamforce, etc.)"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Success Architect at Salesforce involves proactive customer engagement, technical consulting, and cross-functional collaboration.",
+        schedule: [
+          "8:30 AM - Review customer health metrics and alert queues",
+          "9:00 AM - Architecture review session with strategic customer",
+          "10:30 AM - Internal sync with CSM on customer expansion plans",
+          "11:30 AM - Prepare optimization recommendations for account",
+          "12:30 PM - Lunch with Success Architect team sharing best practices",
+          "1:30 PM - Customer call addressing integration challenges",
+          "3:00 PM - Partner with Support on escalated technical issue",
+          "4:00 PM - Document technical findings and recommendations",
+          "5:00 PM - Review new Salesforce release for customer impact"
+        ],
+        closing: "Salesforce Success Architects enjoy combining technical expertise with customer relationships to drive meaningful business outcomes for strategic accounts."
+      },
+      similarRoles: ["Technical Architect", "Customer Success Manager", "Solution Engineer", "Software Engineer"]
+    },
+    'ai-ml-engineer': {
+      roleDescription: "AI/ML Engineers at Salesforce build the intelligent systems that power Einstein AI, Data Cloud, and Agentforce—bringing artificial intelligence to over 150,000 companies worldwide. You'll work on machine learning models for predictions, recommendations, natural language processing, and autonomous agents that transform how businesses operate. Salesforce pioneered enterprise AI with Einstein, and continues to lead with innovations like Agentforce for autonomous business agents and Data Cloud for unified customer intelligence. The role combines cutting-edge ML research with production engineering—you'll develop models that serve billions of predictions daily while meeting enterprise reliability and security requirements. AI/ML Engineers work across the ML lifecycle from research and experimentation through production deployment and monitoring. With Salesforce's commitment to responsible AI, you'll also work on fairness, explainability, and ethical AI practices. The team is at the forefront of bringing large language models and generative AI to enterprise applications.",
+      responsibilities: [
+        "Develop machine learning models for Einstein and Agentforce products",
+        "Build ML infrastructure for training and serving at enterprise scale",
+        "Design autonomous agent capabilities for business automation",
+        "Implement natural language processing for conversational AI",
+        "Ensure ML models meet enterprise reliability and performance requirements",
+        "Work on responsible AI including fairness and explainability",
+        "Partner with product teams on AI feature development",
+        "Optimize models for latency, accuracy, and cost trade-offs",
+        "Contribute to ML platform enabling other teams to leverage AI",
+        "Stay current with ML research and apply innovations to products"
+      ],
+      growthOpportunities: [
+        "Build AI serving billions of predictions for 150K+ companies",
+        "Work on cutting-edge LLMs and generative AI for enterprise",
+        "Shape the future of autonomous business agents",
+        "Clear career path from Engineer to Senior, Staff, and Principal",
+        "Publish research and contribute to ML community",
+        "Strong Ohana culture with work-life balance focus",
+        "Competitive compensation among highest in the industry",
+        "Access to massive compute resources and enterprise data"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of ML background and Salesforce AI interest"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "ML fundamentals and problem-solving interview"
+        },
+        {
+          stage: "Onsite - ML Depth",
+          duration: "45 minutes",
+          description: "Deep dive into ML algorithms and model design"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "Programming interview for ML implementation"
+        },
+        {
+          stage: "Onsite - ML System Design",
+          duration: "45 minutes",
+          description: "Design an ML system for a Salesforce-scale problem"
+        },
+        {
+          stage: "Onsite - Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and collaboration"
+        }
+      ],
+      technicalQuestions: [
+        "Design the recommendation system for Einstein Next Best Action",
+        "How would you build a lead scoring model for enterprise customers?",
+        "Design the ML architecture for Agentforce autonomous agents",
+        "How would you approach NLP for Einstein Bots conversation understanding?",
+        "Design a system for real-time predictions at enterprise scale",
+        "How would you ensure fairness in AI recommendations?",
+        "Design the ML pipeline for Data Cloud customer predictions",
+        "How would you handle class imbalance in enterprise ML datasets?",
+        "Design an LLM-powered feature for Sales Cloud",
+        "How would you approach model monitoring and drift detection?",
+        "Design the training infrastructure for large-scale ML models",
+        "How would you implement explainability for enterprise AI?",
+        "Design an experiment framework for ML model comparison",
+        "How would you optimize model serving latency for real-time use cases?",
+        "Design the ML system for Einstein Search personalization"
+      ],
+      behavioralQuestions: [
+        "Tell me about an ML model you deployed to production",
+        "Describe balancing model accuracy with production constraints",
+        "How have you communicated ML concepts to non-technical partners?",
+        "Tell me about debugging a model that underperformed in production",
+        "Describe your approach to responsible AI development",
+        "How have you stayed current with ML research?",
+        "Tell me about building ML infrastructure for a team",
+        "Describe collaborating with product on AI feature requirements",
+        "How have you handled ambiguity in ML projects?",
+        "Tell me about a creative approach to an ML problem",
+        "Describe mentoring others on ML best practices",
+        "How have you approached ML experimentation and iteration?",
+        "Tell me about translating business needs into ML solutions",
+        "Describe optimizing a model for production constraints",
+        "How have you contributed to Salesforce values in your work?"
+      ],
+      whatTheyLookFor: [
+        "Strong ML fundamentals—algorithms, model design, evaluation",
+        "Production ML experience—deploying and operating models at scale",
+        "Programming skills (Python, TensorFlow/PyTorch)",
+        "Experience with LLMs and generative AI (increasingly important)",
+        "Understanding of ML infrastructure and MLOps",
+        "Track record building ML features with business impact",
+        "Commitment to responsible AI practices",
+        "Strong communication skills for cross-functional work",
+        "Collaborative approach working with product and engineering",
+        "Alignment with Salesforce values and Ohana culture"
+      ],
+      interviewTips: [
+        "Prepare to discuss ML algorithms in depth",
+        "Know production ML challenges and solutions",
+        "Be ready for ML system design at enterprise scale",
+        "Understand Einstein AI and Agentforce capabilities",
+        "Study LLMs and their enterprise applications",
+        "Prepare examples of production ML projects",
+        "Know responsible AI practices and fairness approaches",
+        "Be ready to code ML algorithms and data processing",
+        "Understand Salesforce products and how AI enhances them",
+        "Show balance of research innovation and practical engineering",
+        "Prepare questions about the ML team and challenges",
+        "Demonstrate genuine passion for enterprise AI",
+        "Show collaborative approach to ML development",
+        "Understand Salesforce's Ohana culture"
+      ],
+      salary: {
+        min: 180000,
+        max: 400000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $400,000 depending on level",
+        "Annual bonus typically 10-20% of base salary",
+        "RSU grants vesting over 4 years (significant at senior levels)",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Conference attendance budget",
+        "Cloud compute credits for research",
+        "7 days paid volunteer time off annually",
+        "Learning and development budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as an AI/ML Engineer at Salesforce involves model development, production engineering, and cross-functional collaboration on AI features.",
+        schedule: [
+          "9:00 AM - Review model performance metrics and alerts",
+          "9:30 AM - Deep work on new recommendation model development",
+          "11:00 AM - Cross-functional sync with product on AI feature",
+          "12:00 PM - Lunch with ML team discussing research papers",
+          "1:00 PM - Model experimentation and evaluation",
+          "2:30 PM - Code review for teammate's production model",
+          "3:30 PM - Partner with platform team on ML infrastructure",
+          "4:30 PM - Document model decisions and architecture",
+          "5:30 PM - Learning time—latest ML research and techniques"
+        ],
+        closing: "Salesforce AI/ML Engineers enjoy building cutting-edge AI that transforms how millions of enterprise users work while pushing the boundaries of responsible AI."
+      },
+      similarRoles: ["Software Engineer", "Data Scientist", "Technical Architect", "DevOps Engineer"]
     }
   },
   'doordash': {
