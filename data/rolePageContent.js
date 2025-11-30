@@ -21888,129 +21888,182 @@ export const rolePageContent = {
   },
   'uber': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Uber build the technology that powers one of the world's largest mobility and delivery platforms, serving millions of riders, drivers, and eaters globally. You'll work on challenging problems in marketplace matching, real-time systems, mapping, payments, and logistics at massive scale. Uber values bold innovation, customer obsession, and moving fast.",
+      roleDescription: "Software Engineers at Uber build the technology powering one of the world's largest mobility and delivery platforms, serving over 170 million monthly active users across 70+ countries. You'll tackle challenging problems in real-time marketplace matching, dynamic pricing, geo-spatial systems, payments, fraud detection, and logistics at massive scale—processing millions of transactions per second. Uber engineers work in a fast-paced environment where bold innovation, customer obsession, and moving fast are core to the culture. With base salaries ranging from $167K-$185K+ and significant equity, this is one of the most impactful engineering roles in tech.",
 
       responsibilities: [
-        "Build scalable services for Uber's marketplace, matching, or delivery platforms",
-        "Design and implement features for rider, driver, or eater-facing applications",
-        "Work on real-time systems handling millions of requests per minute",
-        "Collaborate with cross-functional teams to ship products quickly",
-        "Own services end-to-end including architecture, deployment, and monitoring"
+        "Build scalable microservices for Uber's marketplace, matching, or delivery platforms",
+        "Design and implement features for rider, driver, courier, or merchant-facing applications",
+        "Work on real-time systems handling millions of requests per minute globally",
+        "Develop algorithms for dynamic pricing, ETA prediction, and route optimization",
+        "Own services end-to-end including architecture, deployment, monitoring, and on-call",
+        "Collaborate with cross-functional teams (Product, Design, Data Science, Operations) to ship quickly",
+        "Contribute to Uber's open-source projects and engineering blog",
+        "Participate in incident response and ensure platform reliability",
+        "Drive technical decisions and mentor junior engineers"
       ],
 
       growthOpportunities: [
-        "Work on technology serving millions of users across 70+ countries",
+        "Work on technology serving 170M+ users across 70+ countries",
         "Tackle challenging problems in real-time matching, geo-spatial systems, and logistics",
-        "Fast-paced environment with significant impact and ownership",
-        "Exposure to diverse product areas from ridesharing to food delivery to freight",
-        "Strong compensation with equity and growth potential"
+        "Fast-paced environment with significant impact and ownership from day one",
+        "Exposure to diverse product areas from Rides to Eats to Freight to Autonomous",
+        "Strong compensation with equity and rapid career growth potential",
+        "Clear career ladder from IC through Staff, Principal, and Distinguished Engineer",
+        "Opportunity to work on cutting-edge ML/AI applications in mobility",
+        "Global mobility across Uber's engineering hubs"
       ],
 
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your background, interest in Uber, and role fit. Overview of Uber's mission and culture.",
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your background, interest in Uber, and role fit. Overview of Uber's mission, culture, and team opportunities.",
           duration: "30 minutes"
         },
         {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Coding interview focusing on data structures, algorithms, and problem-solving. May include discussion of past projects.",
+          stage: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute coding interview focusing on data structures, algorithms, and problem-solving. LeetCode medium-to-hard level questions.",
           duration: "45-60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Multiple interviews covering coding (2 rounds), system design (1-2 rounds), and behavioral/values. Focus on customer obsession and execution.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including two coding interviews, 1-2 system design rounds (senior+), and behavioral/values interview. Focus on customer obsession, bias for action, and technical depth.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
+          stage: 4,
           title: "Team Matching",
-          description: "Conversations with potential teams to find the best fit for your interests and skills.",
-          duration: "Varies"
+          description: "Conversations with potential teams (Rides, Eats, Freight, Platform) to find the best fit for your interests and skills.",
+          duration: "1-2 weeks"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base salary, annual bonus, and significant RSU grants. Uber's compensation is competitive with top tech companies.",
+          duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "Design Uber's ride matching and dispatch system",
-        "Implement surge pricing algorithm for dynamic demand",
-        "Design the ETA calculation system for pickup and dropoff",
-        "How would you detect fraudulent rides or drivers?",
-        "Design Uber Eats restaurant ranking and delivery routing",
-        "Implement geofencing for service area boundaries",
-        "Design a real-time location tracking system for drivers",
-        "How would you optimize driver positioning for demand?",
-        "Design the payment processing system for rides",
-        "Implement fare splitting feature for multiple riders"
+        "Design Uber's ride matching and dispatch system handling millions of concurrent requests",
+        "Implement a surge pricing algorithm that balances supply and demand in real-time",
+        "Design the ETA calculation system for pickup and dropoff predictions",
+        "How would you detect fraudulent rides, drivers, or payment fraud?",
+        "Design Uber Eats restaurant ranking and delivery routing optimization",
+        "Implement geofencing for service area boundaries and surge zones",
+        "Design a real-time location tracking system for drivers and couriers",
+        "How would you optimize driver positioning to minimize pickup times?",
+        "Design the payment processing system handling multiple currencies and payment methods",
+        "Implement fare splitting for multiple riders in a shared trip",
+        "Design Uber's notification system for real-time updates to riders and drivers",
+        "How would you build a recommendation engine for restaurant suggestions?",
+        "Design the rating and feedback system for drivers, riders, and restaurants",
+        "Implement dynamic batching for Uber Eats delivery optimization",
+        "Design Uber's data pipeline for real-time analytics and ML model training",
+        "How would you handle a cascade failure in Uber's microservices architecture?"
       ],
 
       behavioralQuestions: [
-        "Tell me about a time when you moved fast and broke things - what did you learn?",
+        "Tell me about a time when you moved fast and broke things—what did you learn?",
         "Describe a situation where you obsessed over customer experience",
         "How have you handled ambiguity in a fast-moving project?",
-        "Tell me about a time when you disagreed with a product decision",
+        "Tell me about a time when you disagreed with a product or technical decision",
         "Describe a project where you had to make trade-offs between speed and quality",
         "How do you prioritize when you have multiple urgent requests?",
         "Tell me about a time when you championed bold innovation",
-        "Describe how you've collaborated across multiple teams"
+        "Describe how you've collaborated across multiple teams to ship a feature",
+        "Tell me about a production incident you handled and lessons learned",
+        "How have you mentored junior engineers or contributed to team growth?",
+        "Describe a time you had to quickly learn a new technology or domain",
+        "Tell me about a time you pushed back on requirements and why",
+        "How have you balanced technical debt with feature development?",
+        "Describe a project that failed and what you learned from it"
       ],
 
       whatTheyLookFor: [
         "Strong coding skills and computer science fundamentals",
         "Experience with distributed systems, real-time systems, or geo-spatial data",
-        "Customer obsession - deep focus on rider and driver experience",
-        "Bias for action - ability to move fast and iterate",
-        "Systems thinking - understanding complex marketplace dynamics",
-        "Collaborative mindset across product, design, and operations",
+        "Customer obsession—deep focus on rider, driver, and eater experience",
+        "Bias for action—ability to move fast, ship, and iterate",
+        "Systems thinking—understanding complex marketplace dynamics",
+        "Collaborative mindset across product, design, and operations teams",
         "Entrepreneurial spirit and ownership mentality",
-        "Passion for Uber's mission to move the world"
+        "Passion for Uber's mission to ignite opportunity by setting the world in motion",
+        "Experience with high-scale systems processing millions of requests",
+        "Strong communication and ability to work in cross-functional teams"
       ],
 
       interviewTips: [
-        "Use Uber and Uber Eats frequently - understand the product deeply",
+        "Use Uber and Uber Eats frequently—understand the product deeply as a user",
         "Prepare for questions about real-time systems and geo-spatial algorithms",
         "Show examples of moving fast, iterating, and learning from failures",
         "Understand two-sided marketplace dynamics and matching algorithms",
         "Emphasize customer obsession and data-driven decision making",
-        "Research Uber's engineering blog and technical challenges",
+        "Research Uber's engineering blog for technical challenges and solutions",
         "Be ready to discuss trade-offs between speed, quality, and scale",
-        "Ask about team's mission, technical stack, and key challenges"
+        "Practice system design for ride-sharing and delivery scenarios",
+        "Understand Uber's tech stack (Go, Java, Python, Kafka, Cassandra)",
+        "Prepare examples of handling production incidents or reliability challenges",
+        "Show genuine interest in mobility, logistics, and marketplace problems",
+        "Be ready to discuss how you'd approach surge pricing or ETA prediction",
+        "Understand Uber's various business lines (Rides, Eats, Freight, Autonomous)",
+        "Ask thoughtful questions about team's mission and technical challenges"
+      ],
+
+      salary: {
+        min: 167000,
+        max: 280000,
+        avg: 210000
+      },
+
+      compensation: [
+        "Base salary: $167K-$280K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Cell phone reimbursement",
+        "Learning and development budget",
+        "Wellness programs and gym reimbursement"
       ],
 
       dayInLife: {
-        overview: "Uber engineers work in fast-paced, cross-functional teams shipping features that impact millions of users. Your day includes coding, design discussions, cross-team collaboration, and data analysis. Uber emphasizes moving fast and customer obsession.",
+        intro: "A typical day as an Uber Software Engineer involves building features that impact millions of users, collaborating across teams, and moving fast in a dynamic environment where real-time systems and customer obsession drive everything.",
         schedule: [
           {
             time: "9:30 AM",
             activity: "Standup & Metrics Review",
-            description: "Team sync on progress and review key marketplace metrics"
+            description: "Team sync on progress and review key marketplace metrics and SLAs"
           },
           {
             time: "10:00 AM",
             activity: "Feature Development",
-            description: "Code new matching algorithm improvements for driver dispatch"
+            description: "Code improvements to matching algorithm for faster driver dispatch"
           },
           {
             time: "12:00 PM",
-            activity: "Lunch & Product Discussion",
-            description: "Working lunch with PM discussing upcoming features"
+            activity: "Lunch & Tech Talk",
+            description: "Grab lunch and attend engineering talk on ML for fraud detection"
           },
           {
             time: "1:00 PM",
             activity: "System Design Review",
-            description: "Review architecture for new real-time pricing feature"
+            description: "Review architecture proposal for new real-time pricing feature"
           },
           {
             time: "2:30 PM",
             activity: "Cross-team Collaboration",
-            description: "Sync with payments team on integration for fare splitting"
+            description: "Sync with payments team on international expansion integration"
           },
           {
             time: "3:30 PM",
-            activity: "Incident Response",
-            description: "Debug and fix production issue affecting ETAs"
+            activity: "Code Review",
+            description: "Review pull requests and provide feedback to teammates"
           },
           {
             time: "4:30 PM",
@@ -22019,374 +22072,500 @@ export const rolePageContent = {
           },
           {
             time: "5:30 PM",
-            activity: "Code Review",
-            description: "Review pull requests from teammates and provide feedback"
+            activity: "On-call Handoff",
+            description: "Review alerts and hand off on-call responsibilities to next engineer"
           }
-        ]
+        ],
+        closing: "Uber engineers thrive in a fast-paced environment where you ship features that immediately impact millions of riders and drivers globally."
       },
 
       similarRoles: [
-        { companyName: "Lyft", companySlug: "lyft", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+        "Lyft Software Engineer",
+        "DoorDash Software Engineer",
+        "Airbnb Software Engineer",
+        "Instacart Software Engineer"
       ]
     },
 
     'product-manager': {
-      roleDescription: "Product Managers at Uber drive strategy and execution for products serving millions of riders, drivers, eaters, and merchants globally. From core marketplace features to new product lines, you'll define vision, prioritize ruthlessly, and ship fast. Uber PMs balance user needs, business metrics, and operational constraints in a dynamic two-sided marketplace.",
+      roleDescription: "Product Managers at Uber drive strategy and execution for products serving over 170 million monthly active users across Rides, Eats, Freight, and emerging business lines. From core marketplace features to new product launches, you'll define vision, prioritize ruthlessly, and ship fast in a complex two-sided marketplace. Uber PMs balance user needs for riders, drivers, couriers, and merchants while optimizing business metrics and navigating operational constraints across 70+ countries. This role requires strong analytical skills, customer obsession, and the ability to thrive in ambiguity.",
 
       responsibilities: [
-        "Define product strategy and roadmap for rider, driver, or merchant experiences",
-        "Analyze marketplace dynamics and identify opportunities for growth",
-        "Prioritize features balancing user experience and business metrics",
-        "Collaborate with engineering, design, operations, and data science teams",
-        "Ship experiments, analyze data, and iterate quickly based on results"
+        "Define product strategy and roadmap for rider, driver, courier, or merchant experiences",
+        "Analyze marketplace dynamics and identify opportunities for growth and efficiency",
+        "Prioritize features balancing user experience, business metrics, and operational constraints",
+        "Collaborate closely with engineering, design, data science, and operations teams",
+        "Ship experiments rapidly, analyze data, and iterate based on results",
+        "Drive cross-functional alignment on product decisions and trade-offs",
+        "Define success metrics and KPIs for product launches",
+        "Conduct user research and synthesize insights into product requirements",
+        "Present product strategy to leadership and stakeholders"
       ],
 
       growthOpportunities: [
-        "Own products impacting millions of users across global markets",
+        "Own products impacting 170M+ users across global markets",
         "Deep exposure to marketplace economics and two-sided platform dynamics",
-        "Fast career progression in high-growth environment",
+        "Fast career progression in high-growth, high-impact environment",
         "Opportunity to launch new products and enter new markets",
-        "Work across diverse product areas from mobility to delivery to freight"
+        "Work across diverse product areas from Rides to Eats to Freight to Autonomous",
+        "Path to senior PM, Group PM, Director, and VP of Product roles",
+        "Build expertise in pricing, matching, logistics, and marketplace optimization",
+        "Global mobility across Uber's product hubs"
       ],
 
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your PM experience, interest in Uber, and role fit. Overview of team and product area.",
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your PM experience, interest in Uber, and role fit. Overview of team and product area opportunities.",
           duration: "30 minutes"
         },
         {
-          step: 2,
+          stage: 2,
           title: "Hiring Manager Interview",
-          description: "Deep dive into your PM experience, product thinking, and analytical skills. May include case discussion.",
-          duration: "45-60 minutes"
+          description: "60-minute deep dive into your PM experience, product thinking, and analytical skills. May include initial case discussion.",
+          duration: "60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering product design, analytics, execution, technical depth, and behavioral. Focus on customer obsession and bias for action.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering product design case, analytics/metrics case, execution/prioritization, technical depth, and behavioral. Focus on customer obsession and bias for action.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
+          stage: 4,
           title: "Team Matching",
-          description: "Conversations with product teams to find the best fit for your skills and interests.",
-          duration: "Varies"
+          description: "Conversations with product teams across Rides, Eats, Platform, or other areas to find best fit.",
+          duration: "1-2 weeks"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and significant equity.",
+          duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "How would you improve Uber's rider app to increase retention?",
-        "Design a new feature to reduce driver cancellations",
-        "How would you increase Uber Eats order frequency?",
-        "Should Uber launch a new product category? How would you decide?",
-        "How would you measure success for surge pricing?",
-        "Design the onboarding experience for new drivers",
-        "How would you reduce rider wait times in low-density areas?",
-        "Analyze why driver supply dropped in a specific market",
-        "Design a loyalty program for frequent riders",
-        "How would you optimize the restaurant discovery experience in Uber Eats?"
+        "How would you improve the Uber rider app to increase trip frequency?",
+        "Design a new feature to reduce driver cancellations in the marketplace",
+        "How would you increase Uber Eats order frequency and basket size?",
+        "Should Uber launch a new product category? How would you evaluate and decide?",
+        "How would you measure success for surge pricing? What metrics matter?",
+        "Design the onboarding experience for new drivers to maximize activation",
+        "How would you prioritize between improving rider experience vs. driver earnings?",
+        "Design a feature to improve safety for late-night rides",
+        "How would you approach expanding Uber Eats to a new city?",
+        "What metrics would you track for Uber's subscription product (Uber One)?",
+        "Design a loyalty program for frequent Uber riders",
+        "How would you reduce delivery times for Uber Eats without hurting courier earnings?",
+        "Design the product strategy for Uber entering the grocery delivery market",
+        "How would you improve the restaurant partner experience on Uber Eats?",
+        "What would you do if rider NPS dropped significantly in a key market?"
       ],
 
       behavioralQuestions: [
-        "Tell me about a product you shipped that didn't perform as expected",
-        "Describe a time when you had to make a decision with incomplete data",
-        "How have you balanced competing stakeholder needs?",
-        "Tell me about a time when you moved fast and had to iterate",
-        "Describe a situation where you used data to change a strategy",
-        "How do you prioritize when everything seems urgent?",
-        "Tell me about a time when you advocated strongly for the customer",
-        "Describe how you've collaborated with operations or support teams"
+        "Tell me about a product you shipped that had significant business impact",
+        "Describe a time when you had to make a difficult prioritization decision",
+        "How have you handled a situation where engineering and design disagreed?",
+        "Tell me about a product that failed and what you learned from it",
+        "Describe your approach to working with data science on experimentation",
+        "How have you balanced user needs with business metrics?",
+        "Tell me about a time you had to ship fast with incomplete information",
+        "Describe how you've handled competing stakeholder priorities",
+        "How have you incorporated user research into product decisions?",
+        "Tell me about a time you championed a bold, contrarian product bet",
+        "Describe your experience working with operations teams",
+        "How have you driven alignment on a controversial product decision?",
+        "Tell me about a time you had to kill a feature or product you launched",
+        "Describe how you stay customer-obsessed in your product work"
       ],
 
       whatTheyLookFor: [
-        "Customer obsession - deep empathy for riders, drivers, and merchants",
-        "Strong analytical skills and comfort with marketplace metrics",
-        "Bias for action - ability to ship quickly and iterate",
+        "Strong analytical skills and data-driven decision making",
+        "Customer obsession—deep empathy for riders, drivers, and merchants",
+        "Bias for action—ability to ship fast and iterate",
+        "Experience with two-sided marketplaces or platform products",
+        "Ability to thrive in ambiguity and fast-changing environments",
+        "Strong collaboration skills across engineering, design, and operations",
+        "Strategic thinking combined with execution excellence",
         "Technical depth to collaborate effectively with engineers",
-        "Data-driven decision making with strong quantitative skills",
-        "Experience with two-sided marketplaces or platforms",
-        "Excellent communication and stakeholder management",
-        "Passion for Uber's mission and products"
+        "Experience with experimentation and A/B testing",
+        "Passion for Uber's mission and mobility/delivery space"
       ],
 
       interviewTips: [
-        "Use Uber and Uber Eats extensively - understand the full experience",
-        "Prepare to discuss marketplace dynamics and network effects",
-        "Bring data and metrics to support your product decisions",
-        "Show examples of moving fast, testing, and learning",
-        "Understand operational constraints and business models",
-        "Research Uber's product strategy and recent launches",
-        "Emphasize cross-functional collaboration with ops and support",
-        "Ask about the team's key metrics, challenges, and roadmap"
+        "Use Uber and Uber Eats extensively—understand the product as a power user",
+        "Prepare for marketplace-specific cases (balancing supply/demand, pricing)",
+        "Practice product cases with clear frameworks and data-driven reasoning",
+        "Understand two-sided marketplace dynamics and network effects",
+        "Research Uber's recent product launches and strategic priorities",
+        "Be ready to discuss metrics deeply—know your success metrics cold",
+        "Show examples of shipping fast and learning from failures",
+        "Prepare for execution questions about prioritization and trade-offs",
+        "Understand Uber's different business lines (Rides, Eats, Freight)",
+        "Be ready to discuss how you work with data science and experimentation",
+        "Show customer obsession with specific examples",
+        "Prepare thoughtful questions about the team and product area",
+        "Understand Uber's competitive landscape (Lyft, DoorDash, etc.)",
+        "Be ready to discuss global considerations and localization"
+      ],
+
+      salary: {
+        min: 150000,
+        max: 300000,
+        avg: 210000
+      },
+
+      compensation: [
+        "Base salary: $150K-$300K depending on level and location",
+        "Annual bonus: 15-25% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Learning and development budget"
       ],
 
       dayInLife: {
-        overview: "Uber PMs move fast, analyzing data, collaborating cross-functionally, and shipping experiments. Your day includes data analysis, design reviews, engineering syncs, operations discussions, and strategic planning.",
+        intro: "A typical day as an Uber Product Manager involves balancing strategic thinking with tactical execution, collaborating across teams, and making data-driven decisions that impact millions of users.",
         schedule: [
           {
             time: "9:00 AM",
             activity: "Metrics Review",
-            description: "Analyze daily marketplace metrics: trips, supply, demand, and conversion"
+            description: "Review overnight metrics, experiment results, and key marketplace indicators"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Quick sync with engineering and design on sprint progress"
           },
           {
             time: "10:00 AM",
-            activity: "Experiment Review",
-            description: "Review A/B test results for new pricing algorithm"
+            activity: "User Research",
+            description: "Watch recorded driver interviews about earnings transparency"
           },
           {
             time: "11:00 AM",
-            activity: "Engineering Sync",
-            description: "Sprint planning with engineering team for new features"
+            activity: "Product Review",
+            description: "Review designs for new rider safety feature with UX team"
           },
           {
             time: "12:00 PM",
-            activity: "Operations Meeting",
-            description: "Discuss driver supply challenges with operations team"
+            activity: "Lunch & Learn",
+            description: "Cross-functional lunch discussing Uber Eats expansion strategy"
           },
           {
             time: "1:00 PM",
-            activity: "Design Review",
-            description: "Review mockups for new rider app feature"
+            activity: "Data Analysis",
+            description: "Deep dive into conversion funnel for new user activation"
           },
           {
             time: "2:30 PM",
-            activity: "Data Analysis",
-            description: "Deep dive into conversion funnel for new users"
+            activity: "Experiment Planning",
+            description: "Work with data science to design A/B test for new feature"
           },
           {
             time: "3:30 PM",
-            activity: "Strategy Meeting",
-            description: "Quarterly planning with leadership on product roadmap"
+            activity: "Stakeholder Alignment",
+            description: "Sync with operations on driver supply concerns in key market"
           },
           {
-            time: "5:00 PM",
-            activity: "User Research",
-            description: "Watch recorded rider interviews about payment experience"
+            time: "4:30 PM",
+            activity: "Strategy Meeting",
+            description: "Quarterly planning with leadership on product roadmap priorities"
           }
-        ]
+        ],
+        closing: "Uber PMs operate at the intersection of strategy and execution, making high-impact decisions in a fast-paced environment where data and customer obsession drive everything."
       },
 
       similarRoles: [
-        { companyName: "Lyft", companySlug: "lyft", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+        "Lyft Product Manager",
+        "DoorDash Product Manager",
+        "Airbnb Product Manager",
+        "Instacart Product Manager"
       ]
     },
 
     'engineering-manager': {
-      roleDescription: "Engineering Managers at Uber lead high-performing teams building technology for the world's largest mobility and delivery platform. You'll balance technical leadership with people management, drive execution at speed, and foster a culture of innovation and customer obsession. EMs at Uber typically manage teams of 6-10 engineers working on critical marketplace systems.",
+      roleDescription: "Engineering Managers at Uber lead high-performing teams building technology for one of the world's largest mobility and delivery platforms. You'll balance technical leadership with people management, drive execution at startup speed, and foster a culture of innovation, customer obsession, and bold thinking. Uber EMs typically manage teams of 6-12 engineers working on critical marketplace systems, real-time infrastructure, or consumer-facing products serving 170M+ users. This role requires both technical depth and strong leadership skills to build and scale teams in a fast-paced environment.",
 
       responsibilities: [
-        "Lead and mentor a team of 6-10 software engineers on marketplace or platform systems",
+        "Lead and mentor a team of 6-12 software engineers on marketplace or platform systems",
         "Set technical direction and make architectural decisions for your team's domain",
-        "Drive rapid execution while maintaining quality and reliability",
-        "Hire top talent and develop career growth plans",
-        "Collaborate with product, design, and operations to ship impactful features"
+        "Drive rapid execution while maintaining quality, reliability, and scalability",
+        "Recruit top engineering talent and develop career growth plans for team members",
+        "Collaborate with product, design, data science, and operations to ship impactful features",
+        "Foster a culture of innovation, customer obsession, and continuous improvement",
+        "Manage team performance, conduct reviews, and handle difficult conversations",
+        "Participate in on-call rotations and ensure operational excellence",
+        "Drive technical roadmap and capacity planning for your team"
       ],
 
       growthOpportunities: [
-        "Lead teams building technology serving millions globally",
+        "Lead teams building technology serving 170M+ users globally",
         "Fast-paced environment with high impact and rapid learning",
-        "Clear path to senior leadership (Senior EM, Director, VP)",
+        "Clear path to senior leadership (Senior EM, Director, VP of Engineering)",
         "Opportunity to build and scale teams in new product areas",
-        "Strong compensation with significant equity"
+        "Strong compensation with significant equity participation",
+        "Exposure to complex distributed systems and marketplace technology",
+        "Global mobility across Uber's engineering hubs",
+        "Influence engineering culture and practices at scale"
       ],
 
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your management experience, technical background, and interest in Uber.",
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your management experience, technical background, and interest in Uber.",
           duration: "30 minutes"
         },
         {
-          step: 2,
+          stage: 2,
           title: "Hiring Manager Interview",
-          description: "Deep dive into leadership philosophy, team management approach, and technical credibility.",
+          description: "60-minute deep dive into leadership philosophy, team management approach, and technical credibility.",
           duration: "60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering technical leadership, people management, system design, and behavioral. Focus on execution and team building.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering technical leadership, people management scenarios, system design, execution, and behavioral. Focus on driving results and building teams.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
-          title: "Team Matching",
-          description: "Conversations with teams to find the best fit for your experience and interests.",
-          duration: "Varies"
+          stage: 4,
+          title: "Executive Interview",
+          description: "Conversation with Director or VP about leadership approach and strategic thinking.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and significant equity.",
+          duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "Design the architecture for Uber's matching system at scale",
-        "How would you improve reliability for Uber's payment processing?",
-        "Your team is shipping features slowly - how do you diagnose and fix?",
-        "Design the infrastructure for real-time driver location updates",
+        "Design the architecture for Uber's matching system at global scale",
+        "How would you improve reliability for Uber's payment processing system?",
+        "Your team is shipping features slowly—how do you diagnose and address?",
+        "Design the infrastructure for real-time driver location updates at scale",
         "How do you balance technical debt with new feature development?",
-        "Walk through how you'd scale a service experiencing 10x growth",
-        "Your team has a critical production incident - how do you respond?",
+        "Walk through how you'd scale a service experiencing 10x traffic growth",
+        "Your team has a critical production incident—how do you respond?",
         "Design the testing strategy for marketplace algorithm changes",
-        "How would you migrate a legacy system to microservices?",
-        "Design the monitoring and alerting for Uber's core services"
+        "How would you approach migrating a legacy monolith to microservices?",
+        "Design the monitoring and alerting for Uber's core services",
+        "How would you structure a team to build a new product from scratch?",
+        "Describe your approach to cross-team technical dependencies",
+        "How do you ensure quality while maintaining fast shipping velocity?",
+        "Design an on-call rotation and incident response process"
       ],
 
       behavioralQuestions: [
         "Tell me about a time when you had to ship a critical feature under tight deadline",
-        "Describe a situation where you had to manage a low performer",
-        "How have you built and scaled an engineering team?",
+        "Describe a situation where you had to manage a low performer—what happened?",
+        "How have you built and scaled an engineering team from scratch?",
         "Tell me about a time when you had to make a difficult technical trade-off",
-        "Describe a conflict with product or business stakeholders",
+        "Describe a conflict between your team and product/business stakeholders",
         "How do you maintain quality while moving fast?",
         "Tell me about a time when you had to deliver difficult feedback",
-        "Describe how you've fostered innovation in your team"
+        "Describe how you've fostered innovation and bold thinking in your team",
+        "How have you handled a situation where you disagreed with leadership?",
+        "Tell me about your approach to developing senior engineers into leaders",
+        "Describe a time you had to make a decision with incomplete information",
+        "How have you built trust with cross-functional partners?",
+        "Tell me about a significant technical failure and how you handled it as a manager",
+        "Describe your approach to team rituals and culture building"
       ],
 
       whatTheyLookFor: [
-        "Strong technical credibility with distributed systems experience",
-        "People management experience leading teams of 5+ engineers",
-        "Bias for action - ability to ship quickly without sacrificing quality",
-        "Track record of building high-performing, diverse teams",
-        "Customer obsession and data-driven decision making",
-        "Excellent communication and cross-functional collaboration",
-        "Experience with real-time systems, marketplaces, or high-scale platforms",
-        "Passion for Uber's mission and fast-paced culture"
+        "Strong technical background with ability to guide architectural decisions",
+        "Proven track record of building and scaling high-performing engineering teams",
+        "Customer obsession—ensuring team delivers great user experiences",
+        "Bias for action—driving results in fast-paced, ambiguous environments",
+        "People leadership skills—hiring, developing, and retaining talent",
+        "Experience with distributed systems and high-scale infrastructure",
+        "Ability to balance technical excellence with business priorities",
+        "Strong communication skills across technical and non-technical audiences",
+        "Collaborative mindset with product, design, and operations partners",
+        "Passion for Uber's mission and mobility/delivery space"
       ],
 
       interviewTips: [
-        "Prepare examples of shipping critical features quickly",
-        "Demonstrate technical depth in distributed systems and real-time tech",
-        "Show how you've balanced speed with quality and reliability",
-        "Emphasize cross-functional collaboration with product and operations",
-        "Be ready to discuss hiring, performance management, and team culture",
-        "Understand Uber's marketplace dynamics and technical challenges",
-        "Prepare examples of handling incidents and production issues",
-        "Ask about team's mission, technical stack, and growth opportunities"
+        "Prepare specific examples of building and scaling engineering teams",
+        "Be ready to discuss technical architecture at a senior level",
+        "Show your approach to balancing people management with technical leadership",
+        "Prepare examples of handling performance issues and difficult conversations",
+        "Understand Uber's engineering culture and values",
+        "Be ready to discuss how you maintain velocity while ensuring quality",
+        "Prepare examples of cross-functional collaboration and conflict resolution",
+        "Show understanding of marketplace technology and real-time systems",
+        "Be ready to discuss your approach to hiring and developing talent",
+        "Prepare examples of driving technical roadmap and strategy",
+        "Understand Uber's business lines and technical challenges",
+        "Show how you foster innovation and encourage bold thinking",
+        "Be ready to discuss remote/hybrid team management",
+        "Prepare thoughtful questions about the team and engineering org"
+      ],
+
+      salary: {
+        min: 200000,
+        max: 350000,
+        avg: 260000
+      },
+
+      compensation: [
+        "Base salary: $200K-$350K depending on level and location",
+        "Annual bonus: 20-30% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Executive development programs"
       ],
 
       dayInLife: {
-        overview: "Uber Engineering Managers balance technical leadership, people development, and rapid execution. Your day includes 1-on-1s, technical reviews, cross-functional collaboration, incident response, and strategic planning.",
+        intro: "A typical day as an Uber Engineering Manager balances people leadership, technical guidance, and cross-functional collaboration—all focused on building and scaling teams that ship impactful products.",
         schedule: [
           {
             time: "9:00 AM",
-            activity: "Standup & Incident Review",
-            description: "Team sync and review overnight incidents or alerts"
+            activity: "1:1 with Engineer",
+            description: "Career development discussion with senior engineer exploring tech lead path"
           },
           {
-            time: "9:30 AM",
-            activity: "1-on-1 Meetings",
-            description: "Career development conversations with engineers"
+            time: "10:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync on sprint progress, blockers, and marketplace metrics"
           },
           {
-            time: "11:00 AM",
-            activity: "System Design Review",
-            description: "Review architecture for new matching algorithm"
+            time: "10:30 AM",
+            activity: "Technical Review",
+            description: "Review architecture proposal for new real-time pricing feature"
           },
           {
-            time: "12:00 PM",
-            activity: "Recruiting Lunch",
-            description: "Lunch interview with senior engineer candidate"
+            time: "11:30 AM",
+            activity: "Cross-functional Sync",
+            description: "Weekly sync with product manager and design lead on roadmap"
           },
           {
-            time: "1:00 PM",
-            activity: "Product Planning",
-            description: "Sprint planning with PM and design for next quarter"
+            time: "12:30 PM",
+            activity: "Lunch with Team",
+            description: "Team lunch discussing recent learnings and celebrating wins"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Recruiting",
+            description: "Interview senior engineer candidate for open position"
           },
           {
             time: "2:30 PM",
             activity: "Code Review",
-            description: "Review critical pull requests for marketplace changes"
+            description: "Review critical pull requests for marketplace algorithm changes"
           },
           {
             time: "3:30 PM",
-            activity: "Cross-team Sync",
-            description: "Align with payments and fraud teams on integration"
+            activity: "Operations Sync",
+            description: "Meet with city operations on driver supply challenges"
           },
           {
             time: "4:30 PM",
-            activity: "Technical Strategy",
-            description: "Plan technical roadmap and capacity for team"
-          },
-          {
-            time: "5:30 PM",
-            activity: "Performance Reviews",
-            description: "Write reviews and prepare for calibration meetings"
+            activity: "Leadership Meeting",
+            description: "Engineering leadership sync on org priorities and headcount"
           }
-        ]
+        ],
+        closing: "Uber EMs enable their teams to move fast and ship products that impact millions, balancing technical leadership with people management in a high-growth environment."
       },
 
       similarRoles: [
-        { companyName: "Lyft", companySlug: "lyft", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+        "Lyft Engineering Manager",
+        "DoorDash Engineering Manager",
+        "Airbnb Engineering Manager",
+        "Instacart Engineering Manager"
       ]
     },
 
     'data-scientist': {
-      roleDescription: "Data Scientists at Uber leverage data and analytics to optimize the marketplace, improve user experience, and drive business decisions. You'll work on challenging problems in pricing, matching, forecasting, and experimentation at massive scale. Uber's data scientists combine statistical rigor with business acumen to move key metrics.",
+      roleDescription: "Data Scientists at Uber leverage data, analytics, and machine learning to optimize the marketplace, improve user experience, and drive business decisions across Rides, Eats, Freight, and emerging products. You'll work on challenging problems in pricing, matching, demand forecasting, fraud detection, and experimentation at massive scale—Uber processes billions of data points daily. With base salaries ranging from $140K-$235K and the opportunity to impact 170M+ monthly active users, this role combines statistical rigor with business acumen to move key metrics in one of the world's most complex two-sided marketplaces.",
 
       responsibilities: [
         "Analyze marketplace dynamics and identify opportunities for optimization",
-        "Design and analyze A/B experiments to measure feature impact",
-        "Build statistical models for pricing, forecasting, and fraud detection",
-        "Partner with product and engineering teams to drive data-informed decisions",
-        "Develop metrics and dashboards to track business and user health"
+        "Design and analyze A/B experiments to measure feature and strategy impact",
+        "Build statistical and ML models for pricing, forecasting, and fraud detection",
+        "Partner with product, engineering, and operations teams to drive data-informed decisions",
+        "Develop metrics, dashboards, and reporting to track business and user health",
+        "Conduct deep-dive analyses to understand user behavior and marketplace trends",
+        "Present findings and recommendations to leadership and stakeholders",
+        "Collaborate with ML engineers to productionize models",
+        "Mentor junior data scientists and contribute to team best practices"
       ],
 
       growthOpportunities: [
-        "Work with one of the world's largest and most complex datasets",
-        "Impact millions of users through data-driven product improvements",
-        "Exposure to diverse problems from pricing to matching to logistics",
-        "Strong collaboration with engineering and product teams",
-        "Career growth into senior IC or leadership roles"
+        "Work with one of the world's largest and most complex real-time datasets",
+        "Impact 170M+ users through data-driven product and strategy improvements",
+        "Exposure to diverse problems from pricing to matching to logistics to fraud",
+        "Strong collaboration with engineering, product, and operations teams",
+        "Career growth into senior IC, Staff Scientist, or management roles",
+        "Opportunity to publish research and present at industry conferences",
+        "Access to cutting-edge ML infrastructure and experimentation platform",
+        "Global mobility across Uber's data science hubs"
       ],
 
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Phone Screen",
-          description: "Discussion of your data science experience, interest in Uber, and role fit.",
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your data science experience, interest in Uber, and role fit.",
           duration: "30 minutes"
         },
         {
-          step: 2,
-          title: "Technical Phone Interview",
-          description: "Statistics, SQL, and analytics case study. May include discussion of past projects.",
+          stage: 2,
+          title: "Technical Phone Screen",
+          description: "45-60 minute interview covering statistics, SQL, and an analytics case study. May include discussion of past projects.",
           duration: "45-60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Interviews covering statistics, experimentation, SQL/coding, product sense, and behavioral. Focus on business impact and collaboration.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering statistics/experimentation, SQL/coding, product analytics case, machine learning (for ML-focused roles), and behavioral. Focus on business impact and collaboration.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
+          stage: 4,
           title: "Team Matching",
-          description: "Conversations with data science teams across different product areas.",
-          duration: "Varies"
+          description: "Conversations with data science teams across Rides, Eats, Platform, Risk, or other areas.",
+          duration: "1-2 weeks"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base ($140K-$235K), bonus, and significant equity.",
+          duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "How would you measure the success of surge pricing?",
+        "How would you measure the success of surge pricing? What metrics matter?",
         "Design an experiment to test a new driver incentive program",
-        "Analyze why rider cancellations increased in a market",
-        "How would you detect fraudulent drivers or rides?",
-        "Design a forecasting model for demand prediction",
-        "How would you optimize driver positioning?",
-        "Analyze the impact of a new feature on rider retention",
-        "Design a model to predict driver churn",
-        "How would you measure marketplace efficiency?",
-        "Build a pricing model for Uber Eats delivery fees"
+        "Analyze why rider cancellations increased 15% in a market last month",
+        "How would you detect fraudulent drivers, riders, or payment fraud?",
+        "Design a forecasting model for demand prediction by time and location",
+        "How would you optimize driver positioning to minimize pickup ETAs?",
+        "Analyze the impact of a new feature on rider retention—walk through your approach",
+        "Design a model to predict which drivers are likely to churn",
+        "How would you measure marketplace efficiency and health?",
+        "Build a pricing model for Uber Eats delivery fees",
+        "How would you design an experiment with network effects in a marketplace?",
+        "Analyze the trade-off between driver earnings and rider wait times",
+        "Design a recommendation system for Uber Eats restaurant suggestions",
+        "How would you detect and measure cannibalization between Uber products?",
+        "Build a model to predict trip ETAs—what features would you use?",
+        "How would you analyze the ROI of a marketing campaign?"
       ],
 
       behavioralQuestions: [
@@ -22397,82 +22576,1709 @@ export const rolePageContent = {
         "Describe a situation where you had to work with messy or incomplete data",
         "How do you prioritize when you have multiple analysis requests?",
         "Tell me about a time when you disagreed with a product decision",
-        "Describe how you've collaborated with engineers on data infrastructure"
+        "Describe your approach to working with engineers on productionizing models",
+        "How have you handled stakeholders who wanted a specific result from your analysis?",
+        "Tell me about a time you had to simplify a complex problem to make progress",
+        "Describe your experience with experimentation and A/B testing at scale",
+        "How have you balanced rigor with speed in your analysis work?",
+        "Tell me about a project where you had to learn a new domain quickly",
+        "Describe how you stay current with data science methods and tools"
       ],
 
       whatTheyLookFor: [
-        "Strong statistical and analytical skills with business intuition",
-        "Experience with A/B testing and experimental design",
-        "Proficiency in SQL, Python/R, and data visualization",
-        "Ability to translate data insights into actionable recommendations",
-        "Experience with marketplaces, pricing, or forecasting preferred",
-        "Excellent communication skills for cross-functional collaboration",
-        "Customer obsession and focus on business impact",
-        "Passion for using data to improve user experience"
+        "Strong statistical foundations and experimental design skills",
+        "Proficiency in SQL and Python/R for data analysis",
+        "Experience with A/B testing and causal inference",
+        "Business acumen and ability to translate data into actionable insights",
+        "Customer obsession—focus on improving user experience through data",
+        "Strong communication skills for technical and non-technical audiences",
+        "Experience with large-scale data processing and analysis",
+        "Collaborative mindset with product, engineering, and operations teams",
+        "Curiosity and proactive approach to identifying opportunities",
+        "Passion for marketplaces, pricing, or logistics problems"
       ],
 
       interviewTips: [
-        "Use Uber products and think about the data behind the experience",
-        "Prepare to discuss A/B testing, causality, and experimental design",
-        "Bring examples of analyses that drove business decisions",
-        "Understand marketplace metrics and two-sided platform dynamics",
-        "Be ready for SQL coding and statistical problem-solving",
-        "Show strong communication skills and business intuition",
-        "Research Uber's data challenges and experimentation platform",
-        "Ask about the team's key metrics, tools, and analytical challenges"
+        "Brush up on statistics fundamentals—hypothesis testing, confidence intervals, experimental design",
+        "Practice SQL extensively—Uber interviews often include complex SQL problems",
+        "Prepare for marketplace-specific cases (pricing, supply/demand, network effects)",
+        "Understand A/B testing deeply—sample sizes, statistical power, novelty effects",
+        "Research Uber's data science blog for insights into their problems and approaches",
+        "Be ready to discuss trade-offs in experiment design",
+        "Prepare examples of analyses that drove business impact",
+        "Understand Uber's different business lines and their metrics",
+        "Be ready to whiteboard analyses and walk through your thought process",
+        "Show genuine curiosity about marketplace dynamics and optimization",
+        "Prepare for behavioral questions about stakeholder management",
+        "Understand causal inference challenges in marketplace settings",
+        "Be ready to discuss how you work with engineers on productionization",
+        "Prepare thoughtful questions about the team's focus areas and challenges"
+      ],
+
+      salary: {
+        min: 140000,
+        max: 235000,
+        avg: 180000
+      },
+
+      compensation: [
+        "Base salary: $140K-$235K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Learning and conference budget"
       ],
 
       dayInLife: {
-        overview: "Uber Data Scientists analyze data, design experiments, build models, and collaborate cross-functionally to drive business impact. Your day includes SQL analysis, experimentation, stakeholder meetings, and presenting insights.",
+        intro: "A typical day as an Uber Data Scientist involves analyzing complex marketplace data, designing experiments, and partnering with product and engineering teams to drive decisions that impact millions of users.",
         schedule: [
           {
             time: "9:00 AM",
             activity: "Metrics Review",
-            description: "Review daily marketplace KPIs and investigate anomalies"
+            description: "Review overnight marketplace metrics and experiment dashboards"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Quick sync with data science team on priorities and blockers"
           },
           {
             time: "10:00 AM",
-            activity: "Experiment Analysis",
-            description: "Analyze A/B test results for new pricing algorithm"
+            activity: "Deep Dive Analysis",
+            description: "Investigate driver supply drop in key market—build SQL queries and visualizations"
           },
           {
-            time: "11:30 AM",
+            time: "12:00 PM",
+            activity: "Lunch & Learn",
+            description: "Attend presentation on new ML model for demand forecasting"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Experiment Design",
+            description: "Work with PM to design A/B test for new rider feature"
+          },
+          {
+            time: "2:30 PM",
             activity: "Stakeholder Meeting",
-            description: "Present analysis on driver churn to operations leadership"
+            description: "Present analysis findings to operations leadership"
           },
           {
-            time: "12:30 PM",
-            activity: "Lunch & Data Discussion",
-            description: "Informal discussion with data science peers"
-          },
-          {
-            time: "1:30 PM",
-            activity: "SQL Analysis",
-            description: "Deep dive into rider conversion funnel by market"
-          },
-          {
-            time: "3:00 PM",
-            activity: "Product Collaboration",
-            description: "Work with PM to design experiment for new feature"
-          },
-          {
-            time: "4:00 PM",
+            time: "3:30 PM",
             activity: "Model Development",
-            description: "Build forecasting model for demand prediction"
+            description: "Iterate on churn prediction model, evaluate feature importance"
           },
           {
-            time: "5:30 PM",
-            activity: "Dashboard Building",
-            description: "Create executive dashboard for marketplace health"
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Document analysis methodology and update team wiki"
           }
-        ]
+        ],
+        closing: "Uber Data Scientists work at the intersection of complex data and business impact, using rigorous analysis to optimize one of the world's largest marketplaces."
       },
 
       similarRoles: [
-        { companyName: "Lyft", companySlug: "lyft", industry: "Technology" },
-        { companyName: "DoorDash", companySlug: "doordash", industry: "Technology" },
-        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "E-commerce" }
+        "Lyft Data Scientist",
+        "DoorDash Data Scientist",
+        "Airbnb Data Scientist",
+        "Instacart Data Scientist"
+      ]
+    },
+
+    'machine-learning-engineer': {
+      roleDescription: "Machine Learning Engineers at Uber build the AI systems powering real-time marketplace optimization, fraud detection, demand forecasting, and personalization across Rides, Eats, and Freight. You'll develop and deploy ML models at massive scale—Uber processes billions of predictions daily for pricing, matching, ETAs, and recommendations. From designing recommendation systems to building fraud detection models, Uber MLEs work at the intersection of cutting-edge research and production systems. With base salaries ranging from $180K-$280K and the opportunity to impact 170M+ users, this is one of the most impactful ML roles in tech.",
+
+      responsibilities: [
+        "Design, build, and deploy ML models for pricing, matching, fraud detection, and recommendations",
+        "Develop real-time ML systems processing billions of predictions daily",
+        "Build ML infrastructure and pipelines for training, evaluation, and serving at scale",
+        "Collaborate with data scientists and product teams to productionize ML solutions",
+        "Optimize model performance for latency, accuracy, and cost efficiency",
+        "Implement reinforcement learning and online learning systems for marketplace optimization",
+        "Build NLP models for search, customer support, and content understanding",
+        "Develop computer vision systems for safety and document verification",
+        "Mentor junior engineers and contribute to ML best practices"
+      ],
+
+      growthOpportunities: [
+        "Work on ML systems impacting 170M+ monthly active users",
+        "Tackle challenging problems in real-time pricing, matching, and logistics",
+        "Access to world-class ML infrastructure and experimentation platform",
+        "Career path from IC through Staff, Principal, and Distinguished ML Engineer",
+        "Opportunity to publish research and present at top ML conferences",
+        "Strong compensation with significant equity participation",
+        "Collaborate with leading researchers and practitioners in the field",
+        "Global mobility across Uber's ML engineering hubs"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your ML background, interest in Uber, and role fit.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute interview with coding (35-40 min) and ML fundamentals questions. LeetCode medium level coding with ML theory.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including coding (LeetCode-style), ML coding/implementation, ML system design, and behavioral. Senior roles include additional ML design round.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 4,
+          title: "Team Matching",
+          description: "Conversations with ML teams across Pricing, Matching, Fraud, Recommendations, or Platform.",
+          duration: "1-2 weeks"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base ($180K-$280K), bonus, and significant equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design an ML system for real-time surge pricing prediction",
+        "Build a recommendation system for Uber Eats restaurant suggestions",
+        "Design a fraud detection system for identifying fake driver accounts",
+        "How would you build an ML model for ETA prediction?",
+        "Design an ML pipeline for driver-rider matching optimization",
+        "Build a model to predict which users are likely to churn",
+        "Design a reinforcement learning system for driver positioning",
+        "How would you handle class imbalance in fraud detection?",
+        "Design an ML system for demand forecasting by time and location",
+        "Build a model to detect payment fraud in real-time",
+        "How would you evaluate and improve a recommendation model?",
+        "Design a computer vision system for driver document verification",
+        "Build an NLP model for customer support ticket classification",
+        "How would you handle concept drift in production ML models?",
+        "Design an ML pipeline for A/B testing ML model changes",
+        "How would you optimize ML models for latency-sensitive applications?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about an ML model you built and deployed to production",
+        "Describe a time when your ML model didn't perform as expected in production",
+        "How have you collaborated with data scientists on model development?",
+        "Tell me about a challenging ML infrastructure problem you solved",
+        "Describe your approach to debugging ML models in production",
+        "How have you balanced model accuracy with latency requirements?",
+        "Tell me about a time you had to make trade-offs in ML system design",
+        "Describe your experience with A/B testing ML models",
+        "How have you communicated ML concepts to non-technical stakeholders?",
+        "Tell me about a time you improved an existing ML system significantly",
+        "Describe your approach to staying current with ML research",
+        "How have you handled disagreements about model design or evaluation?",
+        "Tell me about your experience with real-time ML systems",
+        "Describe a project where you had to work with limited training data"
+      ],
+
+      whatTheyLookFor: [
+        "Strong ML fundamentals—supervised/unsupervised learning, deep learning, optimization",
+        "Production ML experience with model training, serving, and monitoring",
+        "Strong coding skills in Python with ML frameworks (PyTorch, TensorFlow)",
+        "Experience with large-scale data processing (Spark, distributed systems)",
+        "Understanding of ML system design patterns and trade-offs",
+        "Experience with recommendation systems, ranking, or fraud detection",
+        "Strong problem-solving skills and ability to debug complex systems",
+        "Collaboration skills with data science and product teams",
+        "Passion for applying ML to real-world marketplace problems",
+        "Bias for action—ability to ship and iterate quickly"
+      ],
+
+      interviewTips: [
+        "Review ML fundamentals—gradient descent, regularization, evaluation metrics",
+        "Practice coding problems with focus on ML-relevant algorithms",
+        "Prepare for ML system design—recommendation, ranking, fraud detection systems",
+        "Understand real-time ML challenges (latency, feature stores, model serving)",
+        "Research Uber's ML blog for insights into their systems and approaches",
+        "Be ready to discuss trade-offs between model complexity and latency",
+        "Prepare examples of ML models you've deployed to production",
+        "Understand Uber's ML stack (Michelangelo, feature stores, experimentation)",
+        "Be ready to whiteboard ML system architectures",
+        "Practice explaining ML concepts to non-technical audiences",
+        "Understand marketplace ML problems (pricing, matching, fraud)",
+        "Be ready to discuss handling class imbalance and concept drift",
+        "Prepare for behavioral questions about collaboration and trade-offs",
+        "Ask thoughtful questions about the team's ML challenges and infrastructure"
+      ],
+
+      salary: {
+        min: 180000,
+        max: 320000,
+        avg: 240000
+      },
+
+      compensation: [
+        "Base salary: $180K-$320K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Conference and learning budget"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber Machine Learning Engineer involves building and deploying ML models that power real-time decisions for millions of users, collaborating across teams, and pushing the boundaries of applied ML.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Model Monitoring",
+            description: "Review overnight model performance metrics and alert dashboards"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Team Standup",
+            description: "Sync with ML team on sprint progress and model experiments"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Feature Development",
+            description: "Build new features for demand forecasting model"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Paper Reading Group",
+            description: "Discuss recent NeurIPS paper on reinforcement learning for marketplaces"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Model Training",
+            description: "Launch training job and tune hyperparameters for pricing model"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Design Review",
+            description: "Review ML system design for new fraud detection feature"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Data Science Sync",
+            description: "Collaborate with DS on experiment analysis and model requirements"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Code Review",
+            description: "Review PRs for ML pipeline improvements"
+          }
+        ],
+        closing: "Uber MLEs work at the cutting edge of applied ML, building systems that make real-time decisions impacting millions of rides and deliveries daily."
+      },
+
+      similarRoles: [
+        "Lyft Machine Learning Engineer",
+        "DoorDash Machine Learning Engineer",
+        "Airbnb Machine Learning Engineer",
+        "Meta Machine Learning Engineer"
+      ]
+    },
+
+    'operations-manager': {
+      roleDescription: "Operations Managers at Uber are the backbone of the company's marketplace success, ensuring riders get picked up quickly, drivers earn well, and the platform runs smoothly across cities and regions. You'll own key operational metrics like driver supply, rider wait times, marketplace efficiency, and partner satisfaction. This role requires a unique blend of analytical rigor, strategic thinking, and hands-on execution—you'll analyze data to identify opportunities, develop strategies to improve marketplace health, and work cross-functionally with product, engineering, and city teams to implement solutions. Operations is core to Uber's DNA, and this role offers direct impact on millions of users.",
+
+      responsibilities: [
+        "Own marketplace health metrics including driver supply, rider wait times, and conversion rates",
+        "Analyze operational data to identify opportunities for improvement and growth",
+        "Develop and execute strategies to improve driver acquisition, activation, and retention",
+        "Collaborate with product and engineering teams on operational tooling and features",
+        "Work with city teams to address local marketplace challenges and opportunities",
+        "Design and run operational experiments to test new strategies",
+        "Build dashboards and reporting to track operational performance",
+        "Partner with marketing on driver and rider incentive programs",
+        "Manage relationships with driver partners and address escalations"
+      ],
+
+      growthOpportunities: [
+        "Direct impact on marketplace health serving 170M+ monthly active users",
+        "Deep exposure to marketplace economics and two-sided platform dynamics",
+        "Path to senior operations, general management, or strategy roles",
+        "Opportunity to launch new markets or product lines",
+        "Cross-functional collaboration with product, engineering, and marketing",
+        "Fast-paced environment with high ownership and visibility",
+        "Global mobility across Uber's operations hubs",
+        "Strong analytical skill development working with complex data"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your operations background and interest in Uber.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on operations experience, analytical skills, and problem-solving approach.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case Interview",
+          description: "45-60 minute case study focused on marketplace operations scenario—driver supply, pricing strategy, or market launch.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "3-4 rounds covering analytical case, cross-functional collaboration, execution, and behavioral. Focus on data-driven thinking and operational excellence.",
+          duration: "3-4 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Driver wait times have increased 20% in a key market—how would you diagnose and address?",
+        "Design a strategy to improve driver retention in a competitive market",
+        "How would you approach launching Uber in a new city?",
+        "Driver cancellation rates are high during rush hour—what would you investigate?",
+        "Design an incentive program to increase driver supply during peak hours",
+        "How would you measure marketplace efficiency? What metrics matter?",
+        "A new competitor is offering higher driver earnings—how would you respond?",
+        "Design an operations playbook for a major event (concert, sports game)",
+        "How would you prioritize between improving rider experience vs. driver earnings?",
+        "Uber Eats delivery times are slower than competitors—how would you diagnose?",
+        "Design a strategy to improve driver quality and ratings",
+        "How would you approach reducing fraud in the marketplace?",
+        "Build a framework for deciding where to invest operations resources",
+        "How would you test the impact of a new driver incentive structure?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you improved an operational metric significantly",
+        "Describe your approach to diagnosing problems with limited data",
+        "How have you worked with product teams to address operational challenges?",
+        "Tell me about a time you had to make a decision with competing priorities",
+        "Describe a situation where you had to influence without direct authority",
+        "How have you handled a crisis or urgent operational issue?",
+        "Tell me about a time you launched something new—market, product, or program",
+        "Describe your experience working with data and analytics teams",
+        "How have you balanced short-term fixes with long-term solutions?",
+        "Tell me about a time you received pushback on an operational change",
+        "Describe your approach to stakeholder management across teams",
+        "How have you handled underperformance in a team or market?",
+        "Tell me about a project that required significant cross-functional coordination",
+        "Describe how you stay organized managing multiple priorities"
+      ],
+
+      whatTheyLookFor: [
+        "Strong analytical skills and data-driven problem solving",
+        "Experience with marketplace operations, logistics, or supply-side management",
+        "Ability to translate data insights into actionable strategies",
+        "Cross-functional collaboration skills with product, engineering, and marketing",
+        "Operational excellence and attention to detail",
+        "Ability to thrive in fast-paced, ambiguous environments",
+        "Strong communication and stakeholder management skills",
+        "Customer obsession—focus on rider and driver experience",
+        "Experience with SQL and data analysis tools",
+        "Passion for Uber's mission and mobility/delivery space"
+      ],
+
+      interviewTips: [
+        "Use Uber and Uber Eats frequently—understand the user experience deeply",
+        "Prepare for marketplace-specific cases (supply/demand, driver economics)",
+        "Practice SQL and be ready to discuss how you'd analyze operational data",
+        "Understand two-sided marketplace dynamics and trade-offs",
+        "Research Uber's operations challenges and recent news",
+        "Be ready to discuss metrics—know how you'd measure operational success",
+        "Prepare examples of improving operational metrics with data",
+        "Show your ability to balance analytical rigor with execution",
+        "Understand Uber's competitive landscape (Lyft, DoorDash)",
+        "Be ready to discuss working with city teams and local markets",
+        "Show examples of cross-functional collaboration",
+        "Prepare thoughtful questions about the team and operational challenges",
+        "Understand driver economics and partner management",
+        "Be ready to discuss how you prioritize and make trade-offs"
+      ],
+
+      salary: {
+        min: 100000,
+        max: 180000,
+        avg: 135000
+      },
+
+      compensation: [
+        "Base salary: $100K-$180K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Learning and development budget"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber Operations Manager involves analyzing marketplace data, developing strategies to improve performance, and collaborating across teams to ensure riders and drivers have a great experience.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Metrics Review",
+            description: "Review overnight marketplace metrics—driver supply, wait times, conversion"
+          },
+          {
+            time: "9:00 AM",
+            activity: "City Team Sync",
+            description: "Call with city team to discuss local challenges and weekend performance"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Data Analysis",
+            description: "Deep dive into driver retention data to identify churn drivers"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Product Collaboration",
+            description: "Meet with product team on new driver app feature requirements"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learn",
+            description: "Cross-functional session on Uber Eats operations learnings"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Strategy Development",
+            description: "Build business case for new driver incentive program"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Experiment Review",
+            description: "Analyze results from driver supply experiment in test market"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Stakeholder Meeting",
+            description: "Present marketplace health report to regional leadership"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Planning",
+            description: "Plan next week's priorities and escalation follow-ups"
+          }
+        ],
+        closing: "Uber Operations Managers are at the heart of marketplace success, using data and strategy to ensure millions of rides and deliveries happen smoothly every day."
+      },
+
+      similarRoles: [
+        "Lyft Operations Manager",
+        "DoorDash Operations Manager",
+        "Instacart Operations Manager",
+        "Amazon Operations Manager"
+      ]
+    },
+
+    'marketing-manager': {
+      roleDescription: "Marketing Managers at Uber drive growth and brand awareness for one of the world's most recognized technology brands, reaching 170M+ monthly active users across Rides, Eats, and emerging products. You'll develop and execute marketing strategies spanning performance marketing, brand campaigns, CRM, partnerships, and local marketing. Uber's marketing team operates at the intersection of data and creativity—using sophisticated analytics to optimize campaigns while building emotional connections with riders, drivers, eaters, and merchants. Whether you're focused on rider acquisition, driver supply marketing, or Uber Eats growth, you'll have direct impact on business metrics.",
+
+      responsibilities: [
+        "Develop and execute marketing strategies to drive rider, driver, or merchant growth",
+        "Manage performance marketing campaigns across paid search, social, display, and mobile",
+        "Analyze campaign performance and optimize for ROI and customer acquisition cost",
+        "Collaborate with creative teams on brand campaigns and messaging",
+        "Build CRM and lifecycle marketing programs to drive engagement and retention",
+        "Partner with product and data science on personalization and targeting",
+        "Develop partnerships and co-marketing initiatives",
+        "Manage marketing budgets and forecasting",
+        "Work with city teams on local marketing activations"
+      ],
+
+      growthOpportunities: [
+        "Drive growth for a globally recognized brand with 170M+ users",
+        "Deep exposure to performance marketing, brand, and growth strategies",
+        "Path to senior marketing, head of marketing, or CMO roles",
+        "Cross-functional collaboration with product, data science, and operations",
+        "Access to world-class marketing tools and data infrastructure",
+        "Opportunity to work on both B2C and B2B marketing (drivers, merchants)",
+        "Global mobility across Uber's marketing hubs",
+        "Build expertise in two-sided marketplace marketing"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your marketing background and interest in Uber.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on marketing experience, analytical skills, and strategic thinking.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case/Presentation",
+          description: "Present a marketing case study or develop a marketing plan for a given scenario. Focus on data-driven strategy and creativity.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "3-4 rounds covering marketing strategy, analytics, cross-functional collaboration, and behavioral.",
+          duration: "3-4 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you develop a marketing strategy to acquire new riders in a competitive market?",
+        "Design a driver acquisition campaign to increase supply during peak hours",
+        "How would you measure the ROI of a brand awareness campaign?",
+        "Uber Eats is launching in a new city—develop the marketing launch plan",
+        "How would you optimize a performance marketing campaign with declining ROAS?",
+        "Design a CRM strategy to re-engage churned riders",
+        "How would you approach marketing to different rider segments?",
+        "Develop a partnership strategy to drive Uber Eats orders",
+        "How would you allocate a $10M marketing budget across channels?",
+        "Design a referral program to drive rider and driver growth",
+        "How would you measure the incrementality of marketing spend?",
+        "Develop a strategy to improve Uber's brand perception with drivers",
+        "How would you approach marketing for Uber's subscription product (Uber One)?",
+        "Design a local marketing campaign for a major event in a city"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a marketing campaign you developed that drove significant results",
+        "Describe your approach to balancing brand building with performance marketing",
+        "How have you used data to optimize marketing campaigns?",
+        "Tell me about a time you had to market a challenging product or message",
+        "Describe your experience managing marketing budgets and forecasting",
+        "How have you worked with creative teams on campaign development?",
+        "Tell me about a marketing experiment that didn't work—what did you learn?",
+        "Describe your approach to cross-functional collaboration",
+        "How have you handled competing priorities from different stakeholders?",
+        "Tell me about a time you had to pivot a marketing strategy quickly",
+        "Describe your experience with CRM and lifecycle marketing",
+        "How have you approached marketing to different customer segments?",
+        "Tell me about a partnership or co-marketing initiative you developed",
+        "Describe how you stay current with marketing trends and channels"
+      ],
+
+      whatTheyLookFor: [
+        "Strong marketing fundamentals with experience across channels",
+        "Data-driven approach with ability to analyze and optimize campaigns",
+        "Experience with performance marketing (paid search, social, display)",
+        "Strategic thinking combined with hands-on execution",
+        "Creativity and ability to develop compelling campaigns",
+        "Experience with consumer marketing at scale",
+        "Strong collaboration skills across product, data, and operations",
+        "Understanding of customer acquisition cost and lifetime value",
+        "Experience with marketing analytics and attribution",
+        "Passion for Uber's brand and mission"
+      ],
+
+      interviewTips: [
+        "Use Uber and Uber Eats—understand the user experience and brand",
+        "Prepare examples of marketing campaigns with measurable results",
+        "Be ready to discuss both brand and performance marketing strategies",
+        "Understand two-sided marketplace marketing challenges (riders vs. drivers)",
+        "Research Uber's recent marketing campaigns and brand positioning",
+        "Be ready to discuss marketing analytics and optimization",
+        "Prepare a case presentation with clear strategy and metrics",
+        "Understand Uber's competitive landscape and positioning",
+        "Be ready to discuss customer segmentation and targeting",
+        "Show experience with budget management and ROI analysis",
+        "Prepare examples of cross-functional collaboration",
+        "Understand mobile marketing and app-based customer acquisition",
+        "Be ready to discuss local marketing and city-level strategies",
+        "Ask thoughtful questions about the team and marketing priorities"
+      ],
+
+      salary: {
+        min: 110000,
+        max: 200000,
+        avg: 150000
+      },
+
+      compensation: [
+        "Base salary: $110K-$200K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Marketing conference and learning budget"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber Marketing Manager involves analyzing campaign performance, developing strategies to drive growth, and collaborating across teams to build one of the world's most recognized brands.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Campaign Review",
+            description: "Review performance dashboards for active marketing campaigns"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Quick sync with marketing team on priorities and blockers"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Data Analysis",
+            description: "Analyze rider acquisition funnel and identify optimization opportunities"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Creative Review",
+            description: "Review ad creative concepts with design team for new campaign"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Learn",
+            description: "Marketing team session on new attribution methodology"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Strategy Development",
+            description: "Develop marketing plan for Q4 rider acquisition push"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Cross-functional Sync",
+            description: "Meet with product team on new feature launch marketing"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Partner Meeting",
+            description: "Call with media agency on upcoming campaign execution"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Budget Planning",
+            description: "Update marketing budget and forecast for next quarter"
+          }
+        ],
+        closing: "Uber Marketing Managers blend data-driven optimization with creative strategy to drive growth for a brand that touches millions of lives daily."
+      },
+
+      similarRoles: [
+        "Lyft Marketing Manager",
+        "DoorDash Marketing Manager",
+        "Airbnb Marketing Manager",
+        "Spotify Marketing Manager"
+      ]
+    },
+
+    'ux-designer': {
+      roleDescription: "UX Designers at Uber shape the experiences of 170M+ monthly active users across Rides, Eats, and emerging products—designing interfaces that connect riders, drivers, couriers, merchants, and eaters in moments that matter. You'll tackle complex design challenges in real-time systems, mapping, payments, safety, and marketplace dynamics, creating intuitive experiences across mobile apps, web, and emerging platforms. Uber's design culture emphasizes user research, rapid prototyping, and close collaboration with product and engineering. From optimizing the pickup experience to designing Uber Eats restaurant discovery, you'll create products that move the world.",
+
+      responsibilities: [
+        "Design intuitive user experiences for rider, driver, courier, or merchant products",
+        "Conduct user research to understand needs, behaviors, and pain points",
+        "Create wireframes, prototypes, and high-fidelity designs",
+        "Collaborate closely with product managers and engineers throughout development",
+        "Design for complex real-time interactions (maps, ETAs, matching)",
+        "Contribute to Uber's design system and component library",
+        "Advocate for users and accessibility in product decisions",
+        "Test designs with users and iterate based on feedback",
+        "Present design work to stakeholders and leadership"
+      ],
+
+      growthOpportunities: [
+        "Design products impacting 170M+ users across 70+ countries",
+        "Tackle unique design challenges in real-time, location-based experiences",
+        "Strong design culture with emphasis on craft and user research",
+        "Path to senior designer, design lead, and design management roles",
+        "Cross-functional collaboration with product, engineering, and research",
+        "Opportunity to work on both consumer and driver/merchant experiences",
+        "Access to world-class design tools and research resources",
+        "Global mobility across Uber's design studios"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your design background and interest in Uber.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Portfolio Review",
+          description: "60-minute deep dive into your portfolio with hiring manager. Focus on process, rationale, and impact.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Design Exercise",
+          description: "Take-home design challenge related to Uber's products. 2-3 hours followed by presentation and critique.",
+          duration: "2-3 hours + presentation"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including design critique, cross-functional collaboration, whiteboard challenge, and behavioral.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Redesign the rider pickup experience to reduce confusion and wait time",
+        "Design an experience to help drivers find the best pickup spot at a busy location",
+        "How would you improve the Uber Eats restaurant discovery experience?",
+        "Design a safety feature for late-night rides",
+        "How would you design the driver earnings dashboard?",
+        "Design an onboarding experience for new Uber Eats couriers",
+        "How would you approach designing for accessibility in the Uber app?",
+        "Design a feature to help riders split fares with friends",
+        "How would you improve the delivery tracking experience for Uber Eats?",
+        "Design an experience for drivers to manage their schedule and preferences",
+        "How would you design the tip experience for riders and eaters?",
+        "Design a feature to help riders choose between ride options (UberX, Comfort, etc.)",
+        "How would you approach designing for different markets and cultures?",
+        "Design an experience to help restaurants manage orders during peak times"
+      ],
+
+      behavioralQuestions: [
+        "Walk me through a project from your portfolio in detail",
+        "Tell me about a design you're most proud of and why",
+        "Describe your process for conducting user research",
+        "How have you handled a situation where engineering constraints limited your design?",
+        "Tell me about a time you received critical feedback on your design",
+        "Describe your experience working with product managers and engineers",
+        "How have you designed for complex, real-time systems?",
+        "Tell me about a design that didn't perform well—what did you learn?",
+        "Describe your approach to presenting designs to stakeholders",
+        "How have you balanced user needs with business metrics?",
+        "Tell me about your experience with design systems",
+        "Describe a time you advocated for users against stakeholder pushback",
+        "How do you stay current with design trends and tools?",
+        "Tell me about your experience designing for mobile"
+      ],
+
+      whatTheyLookFor: [
+        "Strong portfolio demonstrating end-to-end design process and impact",
+        "Experience designing mobile apps and consumer products",
+        "User research skills and ability to translate insights into design",
+        "Proficiency with design tools (Figma, Sketch, prototyping tools)",
+        "Systems thinking for complex, interconnected experiences",
+        "Collaboration skills with product, engineering, and research teams",
+        "Understanding of accessibility and inclusive design principles",
+        "Ability to design for real-time, location-based experiences",
+        "Strong visual design skills and attention to detail",
+        "Passion for Uber's mission and improving urban mobility"
+      ],
+
+      interviewTips: [
+        "Use Uber and Uber Eats extensively—identify UX opportunities",
+        "Prepare portfolio presentations with clear problem, process, and outcome",
+        "Be ready to discuss your design process in detail",
+        "Practice whiteboard design exercises for mobile experiences",
+        "Research Uber's design team and design principles",
+        "Be ready to discuss designing for multiple user types (riders, drivers, eaters)",
+        "Show examples of user research influencing design decisions",
+        "Understand the unique challenges of real-time, map-based UX",
+        "Be ready to discuss accessibility and inclusive design",
+        "Prepare to critique your own designs and discuss what you'd do differently",
+        "Show your collaboration skills with engineering constraints",
+        "Be ready to discuss designing for global, diverse markets",
+        "Understand Uber's design system and component-based design",
+        "Ask thoughtful questions about the team and design culture"
+      ],
+
+      salary: {
+        min: 130000,
+        max: 230000,
+        avg: 170000
+      },
+
+      compensation: [
+        "Base salary: $130K-$230K depending on level and location",
+        "Annual bonus: 10-15% of base salary",
+        "RSUs: Equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Design tools and conference budget"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber UX Designer involves user research, design iteration, cross-functional collaboration, and creating experiences that help millions of people move through their cities.",
+        schedule: [
+          {
+            time: "9:30 AM",
+            activity: "Design Iteration",
+            description: "Refine designs for new driver earnings feature based on user feedback"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Design Critique",
+            description: "Present work-in-progress designs to team for feedback"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Engineering Sync",
+            description: "Work with engineers on implementation details and constraints"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Inspiration",
+            description: "Browse design inspiration and mobility design trends"
+          },
+          {
+            time: "1:30 PM",
+            activity: "User Research",
+            description: "Conduct remote usability test with driver participants"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Prototyping",
+            description: "Build interactive prototype for new pickup experience"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Product Review",
+            description: "Review final designs with PM before engineering handoff"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Design System",
+            description: "Contribute new component patterns to Uber's design system"
+          }
+        ],
+        closing: "Uber UX Designers create experiences that connect millions of people with transportation and delivery, solving complex design challenges in real-time, map-based interfaces."
+      },
+
+      similarRoles: [
+        "Lyft UX Designer",
+        "DoorDash UX Designer",
+        "Airbnb UX Designer",
+        "Google UX Designer"
+      ]
+    },
+
+    'general-manager': {
+      roleDescription: "General Managers (City Managers) at Uber own the P&L and overall success of a city or region, serving as mini-CEOs responsible for marketplace health, growth, and profitability. You'll balance rider experience, driver supply, operational efficiency, and financial performance while competing against Lyft and local players. This role requires a rare combination of analytical rigor, operational excellence, leadership, and entrepreneurial thinking. GMs work across every function—operations, marketing, sales, policy, and partnerships—to grow the business. With compensation including significant equity and performance bonuses, this is one of the highest-impact roles at Uber outside of HQ.",
+
+      responsibilities: [
+        "Own P&L responsibility for a city or region including revenue, costs, and profitability",
+        "Drive marketplace health across rider experience, driver supply, and operational efficiency",
+        "Develop and execute growth strategies to increase market share against competitors",
+        "Lead cross-functional teams across operations, marketing, sales, and partnerships",
+        "Build relationships with local stakeholders including regulators and community leaders",
+        "Manage driver supply economics including incentives, pricing, and partner relationships",
+        "Analyze market data to identify opportunities and make strategic decisions",
+        "Hire, develop, and lead local team members",
+        "Represent Uber externally with media, partners, and local government"
+      ],
+
+      growthOpportunities: [
+        "Own a business with direct P&L impact—true mini-CEO experience",
+        "Path to regional GM, head of market, or HQ leadership roles",
+        "Develop general management skills across all business functions",
+        "High visibility with senior leadership and executives",
+        "Opportunity to launch new products or expand to new markets",
+        "Build expertise in marketplace economics and two-sided platforms",
+        "Significant compensation including equity and performance bonuses",
+        "Global mobility across Uber's markets worldwide"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your leadership background and interest in the GM role.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute deep dive on leadership experience, analytical skills, and entrepreneurial mindset.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case Presentation",
+          description: "Present a city strategy case—how would you grow a market, improve profitability, or address a competitive threat?",
+          duration: "60-90 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering business strategy, operations, leadership, cross-functional collaboration, and behavioral.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 5,
+          title: "Executive Interview",
+          description: "Conversation with regional or HQ leadership about leadership philosophy and strategic thinking.",
+          duration: "45-60 minutes"
+        }
+      ],
+
+      technicalQuestions: [
+        "You're the GM of a city where market share has dropped 10%—how would you diagnose and respond?",
+        "Develop a strategy to grow rider trips by 50% in the next year",
+        "How would you improve profitability in a market with high driver incentives?",
+        "A competitor is offering drivers higher earnings—what's your response strategy?",
+        "Design a go-to-market strategy for launching Uber Eats in your city",
+        "How would you balance rider experience with driver earnings in pricing decisions?",
+        "Your city faces a regulatory challenge—how would you approach it?",
+        "Develop a strategy to reduce driver churn and improve retention",
+        "How would you allocate a limited marketing budget between rider acquisition and driver supply?",
+        "Design a plan to improve safety metrics in your market",
+        "How would you approach launching a new product line (e.g., Uber Reserve)?",
+        "Develop a partnership strategy to grow the B2B (Uber for Business) segment",
+        "How would you manage a major event (concert, sports game) in your city?",
+        "Your market has seasonal demand fluctuations—how would you plan for them?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you owned P&L responsibility for a business",
+        "Describe your approach to leading cross-functional teams without direct authority",
+        "How have you handled a competitive threat to your business?",
+        "Tell me about a time you had to make a difficult trade-off between growth and profitability",
+        "Describe a situation where you had to navigate regulatory or policy challenges",
+        "How have you built and led high-performing teams?",
+        "Tell me about a time you turned around an underperforming business or market",
+        "Describe your approach to building relationships with external stakeholders",
+        "How have you used data to make strategic business decisions?",
+        "Tell me about a time you had to make a decision with incomplete information",
+        "Describe your experience managing budgets and financial performance",
+        "How have you handled a crisis or urgent business situation?",
+        "Tell me about your entrepreneurial experience or mindset",
+        "Describe how you balance strategic thinking with operational execution"
+      ],
+
+      whatTheyLookFor: [
+        "P&L ownership experience or general management background",
+        "Strong analytical skills and data-driven decision making",
+        "Leadership ability to influence across functions without direct authority",
+        "Entrepreneurial mindset and bias for action",
+        "Experience with marketplace or platform businesses",
+        "Competitive drive and track record of outperforming",
+        "Strong communication skills for internal and external stakeholders",
+        "Ability to thrive in fast-paced, ambiguous environments",
+        "Experience with local operations, city-level business, or field roles",
+        "Passion for Uber's mission and mobility/delivery space"
+      ],
+
+      interviewTips: [
+        "Use Uber extensively in your city—understand the local competitive landscape",
+        "Prepare a detailed city strategy case with financials and metrics",
+        "Research Uber's market position in different cities and competitive dynamics",
+        "Be ready to discuss P&L management and financial decision making",
+        "Prepare examples of leading cross-functional teams and influencing without authority",
+        "Understand two-sided marketplace economics deeply",
+        "Be ready to discuss regulatory and policy challenges in the mobility space",
+        "Show your entrepreneurial mindset and track record of driving results",
+        "Prepare examples of competitive response and market share battles",
+        "Understand driver economics and partner management",
+        "Be ready to discuss how you build relationships with local stakeholders",
+        "Show strong analytical skills with data-driven strategy",
+        "Prepare thoughtful questions about the specific market and its challenges",
+        "Be ready to discuss both growth and profitability trade-offs"
+      ],
+
+      salary: {
+        min: 150000,
+        max: 280000,
+        avg: 200000
+      },
+
+      compensation: [
+        "Base salary: $150K-$280K depending on market size and experience",
+        "Annual bonus: 25-40% of base salary tied to market performance",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Performance bonuses tied to market KPIs",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Relocation support if needed"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber General Manager involves strategic planning, team leadership, stakeholder management, and operational execution—balancing big-picture thinking with hands-on problem solving.",
+        schedule: [
+          {
+            time: "7:30 AM",
+            activity: "Metrics Review",
+            description: "Review overnight marketplace metrics, competitive intel, and daily performance"
+          },
+          {
+            time: "8:30 AM",
+            activity: "Leadership Team Meeting",
+            description: "Weekly sync with city leadership team on priorities and execution"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Driver Partner Meeting",
+            description: "Meet with top driver partners to discuss feedback and earnings"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Strategy Session",
+            description: "Develop Q4 growth plan with operations and marketing leads"
+          },
+          {
+            time: "12:00 PM",
+            activity: "External Lunch",
+            description: "Lunch with local business partner to discuss corporate account"
+          },
+          {
+            time: "1:30 PM",
+            activity: "P&L Review",
+            description: "Deep dive on financial performance and cost optimization"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Competitive Response",
+            description: "Develop strategy to counter competitor's new driver incentive program"
+          },
+          {
+            time: "4:00 PM",
+            activity: "HQ Sync",
+            description: "Update call with regional leadership on market performance"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Team 1:1",
+            description: "Career development discussion with operations manager"
+          }
+        ],
+        closing: "Uber General Managers operate as entrepreneurs running their own business within Uber, making high-impact decisions that affect millions of rides in their markets."
+      },
+
+      similarRoles: [
+        "Lyft General Manager",
+        "DoorDash General Manager",
+        "Amazon Area Manager",
+        "Instacart Market Manager"
+      ]
+    },
+
+    'safety-operations-manager': {
+      roleDescription: "Safety Operations Managers at Uber lead the company's efforts to keep riders, drivers, and the community safe—one of the most critical and visible functions at the company. You'll develop and execute safety strategies, manage incident response, build safety policies and programs, and work cross-functionally with product, engineering, legal, and support teams. Uber's safety team handles everything from ride safety incidents to account security to law enforcement coordination. This role requires a unique combination of operational excellence, empathy, crisis management skills, and the ability to drive systemic improvements at scale across 70+ countries.",
+
+      responsibilities: [
+        "Develop and implement safety strategies to protect riders, drivers, and the community",
+        "Manage incident response processes for safety-related issues and escalations",
+        "Build and optimize safety policies, playbooks, and operating procedures",
+        "Partner with product and engineering on safety features and tools",
+        "Analyze safety data to identify trends, risks, and improvement opportunities",
+        "Coordinate with law enforcement and regulatory bodies on safety matters",
+        "Lead safety training programs for support teams and city operations",
+        "Drive cross-functional initiatives to improve safety outcomes",
+        "Manage relationships with external safety partners and stakeholders"
+      ],
+
+      growthOpportunities: [
+        "Lead high-impact, high-visibility function critical to Uber's mission",
+        "Path to senior safety leadership, head of safety, or policy roles",
+        "Develop expertise in platform safety, trust & safety, and crisis management",
+        "Cross-functional collaboration with product, engineering, legal, and policy",
+        "Opportunity to shape industry standards for ride-sharing safety",
+        "Build expertise in data-driven safety program management",
+        "Global exposure to safety challenges across diverse markets",
+        "Significant impact on millions of users' wellbeing"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your safety/operations background and interest in Uber.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on safety operations experience, crisis management, and problem-solving approach.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case Study",
+          description: "Present your approach to a safety scenario—incident response, policy development, or program design.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "3-4 rounds covering safety operations, cross-functional collaboration, data analysis, and behavioral.",
+          duration: "3-4 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design a safety incident response process for a ride-sharing platform",
+        "How would you reduce safety incidents in late-night rides?",
+        "Develop a framework for prioritizing safety investments",
+        "How would you measure the effectiveness of a new safety feature?",
+        "Design a policy for handling rider-driver disputes",
+        "How would you approach a market with higher-than-average safety incidents?",
+        "Develop a training program for safety support agents",
+        "How would you balance user privacy with safety data collection?",
+        "Design a proactive safety outreach program for drivers",
+        "How would you handle a high-profile safety incident in the media?",
+        "Develop a framework for collaborating with law enforcement",
+        "How would you assess and mitigate new safety risks?",
+        "Design a safety review process for new product features",
+        "How would you improve safety for vulnerable user populations?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you managed a crisis or urgent safety situation",
+        "Describe your approach to building safety culture in an organization",
+        "How have you balanced user experience with safety requirements?",
+        "Tell me about a safety program you developed and implemented",
+        "Describe a situation where you had to make a difficult safety trade-off",
+        "How have you worked with product teams to improve safety features?",
+        "Tell me about a time you had to coordinate with law enforcement",
+        "Describe your experience analyzing data to identify safety risks",
+        "How have you handled stakeholder pressure to compromise on safety?",
+        "Tell me about a time you improved an existing safety process",
+        "Describe your approach to empathy in safety operations",
+        "How have you communicated safety changes to users or the public?",
+        "Tell me about a challenging safety investigation you conducted",
+        "Describe how you stay current on safety trends and best practices"
+      ],
+
+      whatTheyLookFor: [
+        "Experience in safety operations, trust & safety, or risk management",
+        "Crisis management skills and ability to stay calm under pressure",
+        "Strong analytical skills and data-driven decision making",
+        "Empathy and user-centric approach to safety",
+        "Experience building policies, playbooks, and operating procedures",
+        "Cross-functional collaboration skills",
+        "Strong communication skills for sensitive situations",
+        "Experience with law enforcement or regulatory coordination",
+        "Ability to balance safety with user experience and business needs",
+        "Passion for Uber's mission and commitment to user safety"
+      ],
+
+      interviewTips: [
+        "Use Uber and be familiar with safety features (Share Trip, Emergency Button, etc.)",
+        "Prepare examples of crisis management and incident response",
+        "Research Uber's safety report and safety initiatives",
+        "Be ready to discuss balancing privacy, safety, and user experience",
+        "Prepare a case study on designing a safety program or process",
+        "Understand the unique safety challenges of marketplace platforms",
+        "Show your analytical approach to safety data and risk assessment",
+        "Be ready to discuss law enforcement and regulatory coordination",
+        "Prepare examples of cross-functional collaboration on safety",
+        "Show empathy and user-centric thinking in your approach",
+        "Understand Uber's competitive landscape on safety (vs. Lyft)",
+        "Be ready to discuss proactive vs. reactive safety approaches",
+        "Prepare thoughtful questions about the safety team and challenges",
+        "Show your ability to communicate about sensitive topics"
+      ],
+
+      salary: {
+        min: 100000,
+        max: 180000,
+        avg: 135000
+      },
+
+      compensation: [
+        "Base salary: $100K-$180K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Learning and development budget"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber Safety Operations Manager involves monitoring safety metrics, responding to incidents, developing safety programs, and collaborating across teams to keep users safe.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Safety Dashboard Review",
+            description: "Review overnight safety incidents, trends, and escalation queue"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync with safety team on priorities and active incidents"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Incident Review",
+            description: "Deep dive on recent safety incident to identify root causes"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Product Collaboration",
+            description: "Meet with product team on new safety feature requirements"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Working Lunch",
+            description: "Call with law enforcement partner on ongoing case"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Policy Development",
+            description: "Draft new policy for handling specific incident type"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Data Analysis",
+            description: "Analyze safety trends to identify emerging risks"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Training Review",
+            description: "Review and update safety training materials for support agents"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Cross-functional Sync",
+            description: "Weekly safety sync with city operations teams"
+          }
+        ],
+        closing: "Uber Safety Operations Managers work at the intersection of technology, policy, and human empathy to protect millions of users and build trust in the platform."
+      },
+
+      similarRoles: [
+        "Lyft Safety Manager",
+        "Airbnb Trust & Safety Manager",
+        "Meta Trust & Safety Manager",
+        "DoorDash Safety Operations Manager"
+      ]
+    },
+
+    'business-development-manager': {
+      roleDescription: "Business Development Managers at Uber build strategic partnerships that drive growth for Rides, Eats, and emerging business lines. You'll identify, negotiate, and manage partnerships with restaurants, merchants, enterprise clients, transportation partners, and strategic allies. Whether you're signing up top restaurants for Uber Eats, building corporate accounts for Uber for Business, or developing new partnership models, you'll combine strategic thinking with execution excellence. BD at Uber requires strong relationship skills, commercial acumen, and the ability to navigate complex deals in a fast-paced environment.",
+
+      responsibilities: [
+        "Identify, prioritize, and pursue strategic partnership opportunities",
+        "Negotiate and close partnership deals with restaurants, merchants, and enterprises",
+        "Manage relationships with key accounts to drive growth and retention",
+        "Develop go-to-market strategies for new partnership initiatives",
+        "Collaborate with product, operations, and marketing on partner success",
+        "Build business cases and present partnership opportunities to leadership",
+        "Analyze market trends and competitive landscape to identify opportunities",
+        "Drive revenue growth through existing and new partner channels",
+        "Develop partnership playbooks and best practices for scale"
+      ],
+
+      growthOpportunities: [
+        "Build high-impact partnerships for a global technology platform",
+        "Path to senior BD, head of partnerships, or general management roles",
+        "Develop expertise in marketplace partnerships and platform economics",
+        "Cross-functional collaboration with product, operations, and marketing",
+        "Opportunity to launch new partnership categories or markets",
+        "Build relationships with industry leaders and executives",
+        "Significant equity participation and performance bonuses",
+        "Global mobility across Uber's business development teams"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your BD background and interest in Uber.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on BD experience, deal-making skills, and strategic thinking.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case/Role Play",
+          description: "Partnership case study or negotiation role play. Focus on deal strategy and relationship building.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "3-4 rounds covering partnership strategy, negotiation, cross-functional collaboration, and behavioral.",
+          duration: "3-4 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus/commission, and equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you approach signing the top 50 restaurants in a new city for Uber Eats?",
+        "Develop a partnership strategy to grow Uber for Business in your market",
+        "How would you structure a deal with a major restaurant chain?",
+        "Develop a business case for a strategic partnership opportunity",
+        "How would you approach a partner who's exclusive with a competitor?",
+        "Design a partnership program to attract high-end restaurants",
+        "How would you measure partnership success beyond revenue?",
+        "Develop a strategy for B2B growth through corporate partnerships",
+        "How would you handle a key partner threatening to leave for a competitor?",
+        "Design an incentive structure for a new partner category",
+        "How would you prioritize partnership opportunities with limited resources?",
+        "Develop a retention strategy for high-value partners",
+        "How would you approach partnerships with delivery-only (ghost) kitchens?",
+        "Design a co-marketing program with a strategic partner"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a significant partnership you closed and its impact",
+        "Describe your approach to building relationships with key stakeholders",
+        "How have you handled a difficult negotiation that seemed stuck?",
+        "Tell me about a partnership that didn't work out—what did you learn?",
+        "Describe your experience managing a portfolio of partner accounts",
+        "How have you collaborated with product teams on partner needs?",
+        "Tell me about a time you had to walk away from a deal",
+        "Describe your approach to prioritizing partnership opportunities",
+        "How have you handled competing internal priorities for partner resources?",
+        "Tell me about a creative deal structure you developed",
+        "Describe your experience with enterprise or B2B partnerships",
+        "How have you balanced short-term revenue with long-term partnerships?",
+        "Tell me about a time you turned around an unhappy partner",
+        "Describe how you stay organized managing multiple deals simultaneously"
+      ],
+
+      whatTheyLookFor: [
+        "Track record of closing and managing strategic partnerships",
+        "Strong negotiation and deal-making skills",
+        "Relationship building ability with diverse stakeholders",
+        "Commercial acumen and business case development skills",
+        "Experience with marketplace or platform partnerships",
+        "Strategic thinking combined with execution focus",
+        "Strong communication and presentation skills",
+        "Ability to navigate complex organizations internally and externally",
+        "Data-driven approach to partnership prioritization",
+        "Passion for Uber's mission and partnership opportunities"
+      ],
+
+      interviewTips: [
+        "Use Uber Eats and understand the restaurant/merchant experience",
+        "Prepare examples of partnerships you've closed with specific outcomes",
+        "Be ready to discuss negotiation strategy and deal structures",
+        "Research Uber's partnership programs (Uber Eats, Uber for Business)",
+        "Practice a partnership case study with clear strategy and metrics",
+        "Understand Uber's competitive landscape with partners (vs. DoorDash)",
+        "Be ready to discuss relationship building and stakeholder management",
+        "Prepare examples of managing complex deals with multiple parties",
+        "Show your analytical approach to prioritizing opportunities",
+        "Be ready to discuss partner retention and account management",
+        "Understand the restaurant industry and delivery economics",
+        "Prepare thoughtful questions about the partnership team and priorities",
+        "Show your ability to balance revenue goals with partner success",
+        "Be ready to role play a partnership negotiation"
+      ],
+
+      salary: {
+        min: 110000,
+        max: 200000,
+        avg: 150000
+      },
+
+      compensation: [
+        "Base salary: $110K-$200K depending on level and location",
+        "Variable compensation: Commission or bonus tied to partnership performance",
+        "RSUs: Equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Travel budget for partner meetings"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber Business Development Manager involves prospecting partners, managing relationships, negotiating deals, and collaborating across teams to drive partnership growth.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Pipeline Review",
+            description: "Review partnership pipeline and prioritize outreach for the day"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Partner Call",
+            description: "Check-in call with key restaurant group account manager"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Prospecting",
+            description: "Research and outreach to target restaurant partners"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Internal Sync",
+            description: "Meet with operations on partner onboarding and success metrics"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Partner Lunch",
+            description: "Lunch meeting with corporate client to discuss Uber for Business"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Deal Negotiation",
+            description: "Negotiation call with regional restaurant chain on partnership terms"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Business Case Development",
+            description: "Build financial model for new partnership opportunity"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Team Meeting",
+            description: "BD team sync on pipeline, wins, and competitive intelligence"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Follow-up",
+            description: "Send proposals and follow-up on active deals"
+          }
+        ],
+        closing: "Uber BD Managers build the partnerships that power the platform, creating win-win relationships with restaurants, merchants, and enterprises."
+      },
+
+      similarRoles: [
+        "DoorDash Business Development Manager",
+        "Instacart Business Development Manager",
+        "Grubhub Business Development Manager",
+        "Amazon Business Development Manager"
+      ]
+    },
+
+    'strategic-finance-analyst': {
+      roleDescription: "Strategic Finance Analysts at Uber drive financial planning, analysis, and strategic decision-making for one of the world's largest mobility and delivery platforms. You'll partner with business leaders to build financial models, analyze marketplace economics, evaluate investments, and support strategic initiatives across Rides, Eats, and emerging businesses. Uber's Strategic Finance team combines rigorous analytical skills with business partnership—translating data into insights that shape company strategy. With exposure to complex marketplace dynamics and high-visibility projects, this role offers exceptional learning and career development for finance professionals.",
+
+      responsibilities: [
+        "Build financial models for forecasting, planning, and scenario analysis",
+        "Partner with business leaders on strategic planning and decision support",
+        "Analyze marketplace economics including pricing, incentives, and unit economics",
+        "Support monthly/quarterly financial planning and variance analysis",
+        "Evaluate investment opportunities and build business cases",
+        "Develop dashboards and reporting for leadership and stakeholders",
+        "Drive cross-functional projects with operations, product, and data science",
+        "Present financial insights and recommendations to senior leadership",
+        "Support strategic initiatives including M&A, new products, and market expansion"
+      ],
+
+      growthOpportunities: [
+        "Work on complex financial analysis for a global technology platform",
+        "Path to senior finance, FP&A leadership, or strategic roles",
+        "Deep exposure to marketplace economics and two-sided platform dynamics",
+        "High visibility with senior leadership and executives",
+        "Cross-functional collaboration with operations, product, and data science",
+        "Opportunity to work on high-impact strategic initiatives",
+        "Build expertise in technology finance and marketplace businesses",
+        "Strong compensation with equity participation"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about your finance background and interest in Uber.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on finance experience, analytical skills, and business partnership.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case Study",
+          description: "Financial modeling or business case exercise. Build a model or analyze a strategic decision.",
+          duration: "60-90 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "3-4 rounds covering financial modeling, business analysis, stakeholder partnership, and behavioral.",
+          duration: "3-4 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, and equity.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Build a financial model for a new Uber product launch",
+        "How would you analyze the unit economics of an Uber ride?",
+        "Model the impact of a driver incentive program on profitability",
+        "How would you forecast demand for Uber Eats in a new market?",
+        "Build a business case for expanding to a new city",
+        "Analyze the trade-offs between growth and profitability",
+        "How would you evaluate an acquisition target in the delivery space?",
+        "Model the impact of pricing changes on rider demand and driver supply",
+        "Build a variance analysis for monthly financial performance",
+        "How would you analyze the ROI of a marketing campaign?",
+        "Model the economics of a subscription product (Uber One)",
+        "How would you approach capacity planning for finance headcount?",
+        "Build a scenario analysis for different economic conditions",
+        "How would you measure and improve driver profitability?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a financial model you built that drove a business decision",
+        "Describe your approach to partnering with business leaders",
+        "How have you communicated complex financial analysis to non-finance audiences?",
+        "Tell me about a time your analysis revealed something unexpected",
+        "Describe a situation where you had to work with incomplete data",
+        "How have you handled pressure to adjust financial projections?",
+        "Tell me about a cross-functional project you led or supported",
+        "Describe your approach to prioritizing multiple analysis requests",
+        "How have you improved a financial process or reporting?",
+        "Tell me about a time you had to push back on a business decision",
+        "Describe your experience with forecasting and planning cycles",
+        "How have you handled a situation where actuals missed forecast?",
+        "Tell me about a strategic initiative you supported with financial analysis",
+        "Describe how you stay current with industry and company trends"
+      ],
+
+      whatTheyLookFor: [
+        "Strong financial modeling and Excel/Google Sheets skills",
+        "Experience with FP&A, corporate finance, or strategic finance",
+        "Analytical rigor and attention to detail",
+        "Business partnership skills and ability to influence decisions",
+        "Experience with SQL or data analysis tools",
+        "Strong communication and presentation skills",
+        "Understanding of marketplace economics or platform businesses",
+        "Ability to thrive in fast-paced, ambiguous environments",
+        "Curiosity and proactive approach to problem solving",
+        "Passion for Uber's mission and technology industry"
+      ],
+
+      interviewTips: [
+        "Brush up on financial modeling and Excel/Sheets skills",
+        "Prepare examples of models you've built and their business impact",
+        "Understand Uber's business model and marketplace economics",
+        "Be ready to discuss unit economics for ride-sharing and delivery",
+        "Practice case studies with clear structure and logical analysis",
+        "Research Uber's financial performance and recent earnings",
+        "Be ready to discuss driver economics, pricing, and incentives",
+        "Prepare examples of business partnership and stakeholder influence",
+        "Understand two-sided marketplace dynamics",
+        "Be ready to discuss forecasting methodology and variance analysis",
+        "Show your SQL or data analysis skills",
+        "Prepare thoughtful questions about the finance team and priorities",
+        "Understand Uber's competitive landscape (Lyft, DoorDash)",
+        "Be ready to discuss how you handle ambiguity and incomplete data"
+      ],
+
+      salary: {
+        min: 100000,
+        max: 180000,
+        avg: 135000
+      },
+
+      compensation: [
+        "Base salary: $100K-$180K depending on level and location",
+        "Annual bonus: 15-25% of base salary",
+        "RSUs: Equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Uber credits for rides and Uber Eats",
+        "Flexible PTO policy",
+        "Learning and development budget"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Uber Strategic Finance Analyst involves building models, analyzing business performance, partnering with stakeholders, and supporting strategic decisions that shape the company.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Metrics Review",
+            description: "Review overnight marketplace metrics and financial dashboards"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Team Standup",
+            description: "Finance team sync on priorities and active projects"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Financial Modeling",
+            description: "Build model for new market expansion business case"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Business Partner Meeting",
+            description: "Meet with operations lead to discuss driver incentive analysis"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Learn",
+            description: "Finance team session on new reporting tools"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Variance Analysis",
+            description: "Analyze monthly performance vs. plan and identify drivers"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Leadership Presentation",
+            description: "Present financial analysis to regional leadership"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Cross-functional Project",
+            description: "Work with data science on pricing optimization analysis"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Planning",
+            description: "Prepare materials for quarterly planning review"
+          }
+        ],
+        closing: "Uber Strategic Finance Analysts combine analytical rigor with business partnership to drive decisions that shape the future of mobility and delivery."
+      },
+
+      similarRoles: [
+        "Lyft Strategic Finance Analyst",
+        "DoorDash Strategic Finance Analyst",
+        "Airbnb Financial Analyst",
+        "Google Finance Analyst"
       ]
     }
   },
@@ -27133,1071 +28939,5178 @@ export const rolePageContent = {
         { companyName: "Apple", companySlug: "apple", industry: "Technology" },
         { companyName: "Google", companySlug: "google", industry: "Technology" }
       ]
+    },
+
+    'account-executive': {
+      roleDescription: "Account Executives at Salesforce drive the company's growth by selling the world's leading CRM and AI platform to businesses of all sizes. You'll own the full sales cycle—from prospecting and discovery through negotiation and close—for Salesforce's suite of cloud products including Sales Cloud, Service Cloud, Marketing Cloud, and the revolutionary Agentforce AI platform. Salesforce AEs are trusted advisors who help customers transform their businesses through technology, backed by world-class sales training and a culture that celebrates success. With 8,000+ AE positions and compensation ranging from $60K-$200K+ OTE, this is one of the most sought-after enterprise sales roles in tech.",
+
+      responsibilities: [
+        "Own full sales cycle from prospecting through close for assigned territory or accounts",
+        "Develop and execute territory/account plans to achieve and exceed quota",
+        "Conduct discovery to understand customer business challenges and requirements",
+        "Demonstrate Salesforce solutions and articulate business value to stakeholders",
+        "Build relationships with C-level executives and key decision makers",
+        "Collaborate with Sales Engineers, Customer Success, and partners on deals",
+        "Accurately forecast pipeline and manage opportunities in Salesforce CRM",
+        "Stay current on Salesforce products, competitive landscape, and industry trends",
+        "Leverage Agentforce and AI tools to enhance sales productivity"
+      ],
+
+      growthOpportunities: [
+        "Clear promotion path from SMB AE to Mid-Market to Enterprise to Strategic accounts",
+        "Uncapped commission potential with accelerators for exceeding quota",
+        "Opportunity to specialize in industry verticals (Financial Services, Healthcare, Manufacturing)",
+        "Path to sales leadership, solutions engineering, or customer success roles",
+        "Access to Salesforce's renowned sales training and enablement programs",
+        "Internal mobility across Salesforce's cloud products and acquired companies",
+        "President's Club recognition for top performers",
+        "Build expertise in AI-powered sales with Agentforce"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about sales background, quota attainment history, and interest in Salesforce. Overview of territory, compensation, and team structure.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on sales methodology, deal experience, and approach to territory management. Expect detailed questions about past performance.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Role Play / Mock Pitch",
+          description: "Prepare and deliver a mock sales pitch or discovery call. Evaluated on questioning, objection handling, and ability to articulate value.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Panel Interview",
+          description: "Meet with cross-functional partners (SE, CSM, leadership) to assess collaboration skills, culture fit, and sales acumen.",
+          duration: "2-3 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base salary, uncapped commission, equity, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Walk me through your most complex deal from start to finish",
+        "How do you approach building pipeline in a new territory?",
+        "Describe your discovery process—what questions do you ask and why?",
+        "How would you position Salesforce against Microsoft Dynamics or HubSpot?",
+        "Tell me about a deal you lost and what you learned from it",
+        "How do you identify and engage multiple stakeholders in an enterprise deal?",
+        "Describe your approach to negotiation and closing",
+        "How do you leverage partners and internal resources to advance deals?",
+        "What's your methodology for accurate forecasting?",
+        "How would you explain the value of AI and Agentforce to a skeptical prospect?",
+        "Describe how you prioritize accounts in your territory",
+        "How do you handle a prospect who says they're happy with their current solution?",
+        "Walk me through how you'd conduct a business value assessment",
+        "How do you maintain urgency and momentum in long sales cycles?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you significantly exceeded your quota—what drove your success?",
+        "Describe a deal that was at risk and how you turned it around",
+        "How have you handled a situation where a customer was unhappy post-sale?",
+        "Tell me about a time you had to sell a product or feature you weren't confident in",
+        "Describe your approach to time management with competing priorities",
+        "How have you collaborated with solutions engineers on complex deals?",
+        "Tell me about a time you had to push back on a customer's unreasonable request",
+        "Describe how you've adapted your sales approach to different buyer personas",
+        "How have you handled rejection and maintained motivation?",
+        "Tell me about a creative approach you took to get into a difficult account",
+        "Describe your experience with multi-threaded selling",
+        "How have you leveraged customer references and case studies?",
+        "Tell me about a time you identified an upsell or cross-sell opportunity",
+        "Describe how you stay organized and manage your pipeline effectively"
+      ],
+
+      whatTheyLookFor: [
+        "Consistent track record of meeting or exceeding sales quota",
+        "Strong discovery and consultative selling skills",
+        "Ability to articulate business value to C-level executives",
+        "Experience with complex, multi-stakeholder enterprise sales",
+        "Excellent communication and presentation abilities",
+        "Resilience, competitiveness, and drive to succeed",
+        "Coachability and commitment to continuous improvement",
+        "Collaboration skills with internal teams and partners",
+        "Understanding of CRM, SaaS, and cloud technology",
+        "Alignment with Salesforce's values and Ohana culture"
+      ],
+
+      interviewTips: [
+        "Know your numbers—quota attainment, deal sizes, win rates, pipeline metrics",
+        "Prepare specific examples using STAR method (Situation, Task, Action, Result)",
+        "Research Salesforce products, especially newer offerings like Agentforce and Data Cloud",
+        "Understand Salesforce's competitive positioning vs Microsoft, HubSpot, Oracle",
+        "Practice your mock pitch—focus on discovery and value articulation",
+        "Show genuine curiosity about the prospect's business during role plays",
+        "Demonstrate your sales methodology (MEDDIC, Challenger, etc.)",
+        "Prepare thoughtful questions about territory, ramp expectations, and success metrics",
+        "Show enthusiasm for Salesforce's mission and culture",
+        "Be ready to discuss how you've used Salesforce CRM in your current role",
+        "Highlight examples of cross-functional collaboration",
+        "Show coachability—ask for feedback during role plays",
+        "Research the specific team/segment you're interviewing for",
+        "Understand Salesforce's approach to AI in sales"
+      ],
+
+      salary: {
+        min: 60000,
+        max: 120000,
+        avg: 85000
+      },
+
+      compensation: [
+        "Base salary: $60K-$120K depending on segment (SMB, Mid-Market, Enterprise)",
+        "On-target earnings (OTE): $120K-$250K+ with uncapped commission",
+        "Commission: Typically 50/50 split (base/variable) with accelerators",
+        "RSUs: Equity grants with 4-year vesting",
+        "Sign-on bonus for experienced hires",
+        "President's Club trips for top performers",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "7 paid volunteer days annually",
+        "Monthly wellness reimbursement",
+        "Flexible time off policy"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as a Salesforce Account Executive involves a mix of prospecting, customer meetings, deal progression, and collaboration with internal teams—all focused on helping customers succeed with Salesforce.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Pipeline Review",
+            description: "Review CRM dashboard, prioritize activities, and prepare for the day's meetings"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Prospecting Block",
+            description: "Execute outbound prospecting—calls, emails, LinkedIn outreach to target accounts"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Discovery Call",
+            description: "Conduct discovery meeting with new prospect to understand business challenges"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Deal Strategy",
+            description: "Meet with Solutions Engineer to prepare for afternoon demo"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Team Lunch",
+            description: "Lunch with team, share wins and learnings from recent deals"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Product Demo",
+            description: "Deliver customized Salesforce demo to prospect with SE support"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Proposal Review",
+            description: "Finalize pricing proposal and business case for opportunity in negotiation"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Executive Meeting",
+            description: "Join call with prospect's CFO to discuss ROI and business value"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Forecast Update",
+            description: "Update pipeline, log activities, and prepare forecast for weekly commit call"
+          }
+        ],
+        closing: "Salesforce AEs thrive in a fast-paced, high-energy environment where success is celebrated and the mission of customer success drives everything."
+      },
+
+      similarRoles: [
+        "Oracle Account Executive",
+        "Microsoft Account Executive",
+        "ServiceNow Account Executive",
+        "SAP Account Executive"
+      ]
     }
   },
 
   // Priority 3B: Oracle
   'oracle': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Oracle build enterprise software and cloud infrastructure powering businesses worldwide. You'll work on database systems, cloud services, applications, and Java ecosystem products serving Fortune 500 companies. Engineers tackle complex enterprise challenges at massive scale in a company with decades of software engineering expertise.",
-
+      roleDescription: "Software Engineers at Oracle build enterprise software and cloud infrastructure that powers the world's most critical business operations. You'll work on foundational technologies including Oracle Database (the industry standard for 40+ years), Oracle Cloud Infrastructure (OCI), Java (used by 12+ million developers), MySQL, and enterprise applications for ERP, HCM, and supply chain. Oracle engineers tackle complex challenges at massive scale—from database internals handling petabytes of data to cloud services competing with AWS and Azure. The company offers unique depth in enterprise computing, with engineers often becoming world experts in database systems, distributed computing, or cloud infrastructure. Oracle's engineering culture emphasizes technical excellence, with clear career paths from individual contributor to principal engineer and architect roles. With over 150 cloud services and data centers globally, engineers work on systems serving Fortune 500 companies and government agencies worldwide.",
       responsibilities: [
         "Design and build enterprise-grade database and cloud infrastructure",
         "Develop features for Oracle Cloud Infrastructure (OCI) services",
-        "Work on Oracle Database, MySQL, or Java ecosystem products",
-        "Build SaaS applications for ERP, HCM, and business applications",
+        "Work on Oracle Database internals, query optimization, and storage engines",
+        "Build enterprise SaaS applications (Fusion, NetSuite, HCM, ERP)",
+        "Contribute to Java ecosystem and open-source projects like GraalVM",
         "Optimize performance for large-scale enterprise deployments",
+        "Ensure security, reliability, and compliance for regulated industries",
         "Collaborate with product managers and architects on technical design",
-        "Ensure security, reliability, and compliance for enterprise customers",
-        "Contribute to open-source projects like Java, MySQL, and VirtualBox"
+        "Support mission-critical customer deployments and escalations"
       ],
-
       growthOpportunities: [
-        "Career progression from IC engineer to principal engineer or architect",
-        "Exposure to enterprise-scale systems and database internals",
+        "Become a world expert in database systems or cloud infrastructure",
+        "Clear career path from IC to Principal Engineer and Architect",
         "Work on foundational technologies used by thousands of companies",
-        "Opportunities across cloud infrastructure, databases, and applications",
-        "Internal mobility between product groups and technologies",
-        "Access to deep technical expertise in distributed systems",
-        "Influence on Java language and ecosystem evolution",
-        "Global impact on enterprise computing and business operations"
+        "Contribute to open-source projects with global impact (Java, MySQL)",
+        "Internal mobility across cloud, database, applications, and hardware",
+        "Access to deep technical expertise in enterprise computing",
+        "Influence enterprise technology standards and best practices",
+        "Work on systems serving Fortune 500 and government customers"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Screen",
-          description: "30-minute conversation about background, experience, and interest in Oracle.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of background, experience, and interest in Oracle's technology"
         },
         {
-          step: 2,
-          title: "Technical Phone Screen",
-          description: "60-minute coding interview covering data structures, algorithms, and system design concepts.",
-          duration: "60 minutes"
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Coding interview covering data structures, algorithms, and systems concepts"
         },
         {
-          step: 3,
-          title: "Onsite/Virtual Onsite (3-5 rounds)",
-          description: "Coding interviews (2 rounds), system design, behavioral, and sometimes domain-specific technical discussion.",
-          duration: "4-5 hours"
+          stage: "Onsite - Coding Round 1",
+          duration: "45 minutes",
+          description: "Algorithm and data structure problems with emphasis on efficiency"
         },
         {
-          step: 4,
-          title: "Hiring Manager & Offer",
-          description: "Final discussion with hiring manager. Competitive offer with benefits and stock options.",
-          duration: "1 week"
+          stage: "Onsite - Coding Round 2",
+          duration: "45 minutes",
+          description: "Systems-focused coding or database/cloud-relevant problems"
+        },
+        {
+          stage: "Onsite - System Design",
+          duration: "45 minutes",
+          description: "Design a distributed system or database component"
+        },
+        {
+          stage: "Onsite - Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of experience, collaboration, and alignment with Oracle"
         }
       ],
-
       technicalQuestions: [
         "Design a distributed database system with ACID guarantees",
-        "Implement a B-tree index for database queries",
-        "Design Oracle Cloud's object storage system",
-        "How would you optimize SQL query performance?",
+        "Implement a B-tree index for efficient database queries",
+        "Design Oracle Cloud's object storage system architecture",
+        "How would you optimize SQL query performance for complex joins?",
         "Design a multi-tenant SaaS application architecture",
-        "Implement database replication across data centers",
-        "Design a caching layer for database queries",
-        "How would you handle database schema migrations at scale?",
-        "Design an identity and access management system",
-        "Implement a distributed transaction coordinator"
+        "Implement database replication across geographically distributed data centers",
+        "Design a caching layer for high-throughput database queries",
+        "How would you handle database schema migrations at enterprise scale?",
+        "Design an identity and access management system for cloud services",
+        "Implement a distributed transaction coordinator with 2PC",
+        "Design the query optimizer for a relational database",
+        "How would you implement automatic failover for database clusters?",
+        "Design Oracle's Autonomous Database self-tuning capabilities",
+        "Implement a storage engine for OLTP workloads",
+        "Design a cloud resource scheduler for compute instances"
       ],
-
       behavioralQuestions: [
         "Tell me about a time you worked on enterprise-scale systems",
-        "Describe your experience with databases or cloud infrastructure",
+        "Describe your experience with databases or distributed systems",
         "How have you handled complex technical requirements from customers?",
-        "Tell me about a time you improved system performance or reliability",
+        "Tell me about a time you significantly improved system performance",
         "Describe your experience with backwards compatibility challenges",
         "How do you approach designing for enterprise security requirements?",
-        "Tell me about a time you collaborated across multiple teams",
-        "Describe a project where you had to maintain legacy systems"
+        "Tell me about collaborating across multiple teams on a large project",
+        "Describe a project where you had to maintain legacy systems",
+        "How have you handled technical debt in long-lived systems?",
+        "Tell me about debugging a complex production issue",
+        "Describe contributing to a system used by millions of users",
+        "How have you balanced new features with stability requirements?",
+        "Tell me about a time you influenced technical direction",
+        "Describe working with enterprise customers on critical issues",
+        "How have you mentored junior engineers on complex systems?"
       ],
-
       whatTheyLookFor: [
-        "Strong fundamentals in computer science and systems",
+        "Strong fundamentals in computer science and systems programming",
         "Experience with databases, distributed systems, or cloud infrastructure",
-        "Understanding of enterprise software requirements",
-        "Attention to reliability, security, and performance",
-        "Ability to work with complex codebases and legacy systems",
-        "Customer focus and understanding of business needs",
+        "Understanding of enterprise software requirements and constraints",
+        "Attention to reliability, security, and performance at scale",
+        "Ability to work with complex codebases and long-lived systems",
+        "Customer focus and understanding of business-critical needs",
         "Strong problem-solving and debugging skills",
-        "Collaboration skills across product and engineering teams"
+        "Collaboration skills across product and engineering teams",
+        "Interest in foundational technologies and deep technical expertise",
+        "Track record delivering robust, maintainable software"
       ],
-
       interviewTips: [
         "Understand enterprise software challenges (scale, security, compliance)",
-        "Be prepared to discuss database concepts and distributed systems",
-        "Show experience with performance optimization if applicable",
-        "Research Oracle's cloud offerings and product portfolio",
+        "Be prepared to discuss database concepts and SQL optimization",
+        "Study distributed systems patterns relevant to cloud infrastructure",
+        "Research Oracle's cloud offerings (OCI) and competitive positioning",
         "Demonstrate understanding of multi-tenancy and SaaS architecture",
         "Prepare examples of working on complex, large-scale systems",
         "Be ready to discuss backwards compatibility and migration challenges",
-        "Express interest in foundational infrastructure and enterprise impact"
+        "Show interest in foundational infrastructure and enterprise impact",
+        "Know Oracle's product portfolio (Database, Cloud, Applications)",
+        "Understand trade-offs in database design (ACID, performance, scale)",
+        "Prepare questions about the team's technology and challenges",
+        "Show genuine interest in enterprise computing and databases",
+        "Be ready to code efficiently in Java, C++, or Python",
+        "Demonstrate systematic debugging and problem-solving approach"
       ],
-
-      dayInLife: {
-        overview: "Oracle engineers work on enterprise-grade systems with focus on reliability, performance, and customer needs. Days involve coding, design reviews, collaboration with product teams, and solving complex technical challenges.",
-        schedule: [
-          {
-            time: "9:00 AM",
-            activity: "Team Standup",
-            description: "Daily sync with team on sprint progress and blockers"
-          },
-          {
-            time: "9:30 AM",
-            activity: "Feature Development",
-            description: "Implement new cloud storage optimization feature"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Design Review",
-            description: "Review architecture proposal for multi-region database replication"
-          },
-          {
-            time: "12:00 PM",
-            activity: "Lunch Break",
-            description: "Team lunch discussion about database performance patterns"
-          },
-          {
-            time: "1:00 PM",
-            activity: "Customer Escalation",
-            description: "Debug performance issue for enterprise customer deployment"
-          },
-          {
-            time: "2:30 PM",
-            activity: "Code Review",
-            description: "Review pull requests and provide feedback to team members"
-          },
-          {
-            time: "3:30 PM",
-            activity: "Product Planning",
-            description: "Meet with PM to discuss requirements for next quarter features"
-          },
-          {
-            time: "4:30 PM",
-            activity: "Technical Research",
-            description: "Research new database indexing techniques for performance improvement"
-          }
-        ]
+      salary: {
+        min: 130000,
+        max: 280000,
+        currency: "USD"
       },
-
-      similarRoles: [
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
-        { companyName: "IBM", companySlug: "ibm", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" }
-      ]
+      compensation: [
+        "Base salary range: $130,000 - $280,000 depending on level (IC2-IC5)",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP) at 5% discount",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Flexible work arrangements (remote, hybrid, office)",
+        "Education reimbursement and certification support",
+        "Patent bonus program for innovations",
+        "Generous PTO and sabbatical programs"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Software Engineer at Oracle involves deep technical work on enterprise-grade systems with focus on reliability, performance, and customer impact.",
+        schedule: [
+          "9:00 AM - Team standup discussing sprint progress and blockers",
+          "9:30 AM - Deep work on database query optimizer improvements",
+          "11:00 AM - Design review for multi-region replication feature",
+          "12:00 PM - Lunch with team discussing database performance patterns",
+          "1:00 PM - Customer escalation—debug performance issue for Fortune 500",
+          "2:30 PM - Code review for storage engine changes",
+          "3:30 PM - Architecture discussion on cloud service scalability",
+          "4:30 PM - Technical research on new indexing techniques",
+          "5:30 PM - Documentation and planning for next sprint"
+        ],
+        closing: "Oracle engineers enjoy working on foundational technologies that power the world's most critical business systems while building deep expertise in enterprise computing."
+      },
+      similarRoles: ["Cloud Solutions Architect", "Database Administrator", "DevOps Engineer", "Data Scientist"]
     },
-
     'product-manager': {
-      roleDescription: "Product Managers at Oracle drive strategy and execution for enterprise software products serving the world's largest organizations. You'll work on cloud infrastructure, database systems, business applications, or SaaS products, balancing customer needs with technical complexity. PMs combine deep product expertise with understanding of enterprise buyer needs.",
-
+      roleDescription: "Product Managers at Oracle drive strategy and execution for enterprise software products serving the world's largest organizations. You'll own products across Oracle Cloud Infrastructure (OCI), Oracle Database, Fusion Applications (ERP, HCM, SCM), NetSuite, or developer platforms like Java and GraalVM. Oracle PMs work at the intersection of deep technology and complex enterprise needs—balancing innovation with the reliability and backwards compatibility that Fortune 500 customers require. The role demands both technical depth to engage with engineering and business acumen to understand enterprise buyer needs and competitive dynamics. With Oracle's multi-cloud strategy and AI investments, PMs are shaping how enterprises adopt cloud, autonomous databases, and generative AI. You'll engage directly with CIOs, CTOs, and enterprise architects who make technology decisions affecting thousands of users.",
       responsibilities: [
         "Define product strategy and roadmap for cloud or application products",
-        "Gather requirements from enterprise customers and partners",
-        "Collaborate with engineering on feature prioritization and design",
-        "Analyze market trends and competitive landscape",
-        "Drive go-to-market strategy with sales and marketing teams",
-        "Present product vision to customers and at industry events",
-        "Monitor product metrics and customer adoption",
-        "Balance innovation with backwards compatibility requirements"
+        "Gather requirements from enterprise customers, partners, and field teams",
+        "Collaborate with engineering on feature prioritization and technical design",
+        "Analyze market trends, competitive landscape, and customer feedback",
+        "Drive go-to-market strategy with sales, marketing, and consulting",
+        "Present product vision to customers at events like CloudWorld",
+        "Monitor product metrics, adoption, and customer success outcomes",
+        "Balance innovation with backwards compatibility and migration paths",
+        "Partner with support and services on customer escalations"
       ],
-
       growthOpportunities: [
-        "Rapid advancement based on product success and leadership",
-        "Exposure to enterprise software and complex B2B sales cycles",
-        "Opportunities to own products serving Fortune 500 companies",
-        "Cross-functional leadership across engineering, sales, and marketing",
+        "Own products serving Fortune 500 companies and government agencies",
+        "Clear career path to Senior PM, Director, VP, and SVP roles",
+        "Work on foundational technologies with global enterprise impact",
+        "Engage directly with CIOs and enterprise technology leaders",
+        "Shape Oracle's cloud and AI strategy against AWS, Azure, Google",
         "Internal mobility across cloud, database, and application products",
-        "Access to customer executives and strategic accounts",
-        "Influence on enterprise technology trends and standards",
-        "Global impact on business operations and digital transformation"
+        "Present at CloudWorld and major industry conferences",
+        "Build expertise in enterprise software and B2B markets"
       ],
-
       interviewProcess: [
         {
-          step: 1,
-          title: "Recruiter Screen",
-          description: "30-minute conversation about PM experience and interest in enterprise software.",
-          duration: "30 minutes"
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of PM experience and interest in enterprise software"
         },
         {
-          step: 2,
-          title: "Product Case Interview",
-          description: "60-minute product strategy or design case focused on enterprise software challenges.",
-          duration: "60 minutes"
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into product experience, strategic thinking, and enterprise focus"
         },
         {
-          step: 3,
-          title: "Onsite/Virtual (4-5 rounds)",
-          description: "Product strategy, technical collaboration, customer focus, business acumen, and leadership interviews.",
-          duration: "4-5 hours"
+          stage: "Onsite - Product Strategy",
+          duration: "45 minutes",
+          description: "Product strategy case focused on enterprise cloud or application"
         },
         {
-          step: 4,
-          title: "Hiring Manager & Offer",
-          description: "Final discussion on product fit and team alignment. Competitive offer with stock options.",
-          duration: "1 week"
+          stage: "Onsite - Technical Depth",
+          duration: "45 minutes",
+          description: "Discussion of technical understanding and engineering collaboration"
+        },
+        {
+          stage: "Onsite - Customer Focus",
+          duration: "45 minutes",
+          description: "Enterprise customer scenarios and stakeholder management"
+        },
+        {
+          stage: "Onsite - Leadership",
+          duration: "45 minutes",
+          description: "Behavioral interview on leadership and cross-functional collaboration"
         }
       ],
-
       technicalQuestions: [
         "How would you prioritize features for Oracle Cloud Infrastructure?",
         "Design a product strategy for database migration to the cloud",
-        "How would you approach launching a new SaaS product for enterprises?",
-        "What metrics would you track for a cloud database service?",
-        "How would you compete against AWS in the cloud infrastructure market?",
-        "Design a pricing strategy for an enterprise SaaS application",
-        "How would you handle a major customer requesting a custom feature?",
-        "What would you do if product adoption is slow among enterprise customers?",
-        "Design a go-to-market strategy for a new developer tool",
-        "How would you balance innovation with supporting legacy products?"
+        "How would you position Oracle against AWS in enterprise markets?",
+        "What metrics would you track for Oracle Autonomous Database?",
+        "Design a go-to-market strategy for a new AI cloud service",
+        "How would you handle a major customer requesting custom features?",
+        "Design a pricing strategy for enterprise SaaS applications",
+        "What would you do if cloud adoption is slow among existing customers?",
+        "How would you balance innovation with supporting legacy deployments?",
+        "Design a product strategy for Oracle's multi-cloud approach",
+        "How would you approach developer experience for OCI?",
+        "Design features to accelerate enterprise cloud migration",
+        "How would you integrate generative AI into Oracle applications?",
+        "Design a competitive response to a major AWS announcement",
+        "How would you improve Oracle Database for modern workloads?"
+      ],
+      behavioralQuestions: [
+        "Tell me about an enterprise product you launched and its impact",
+        "Describe working with sales teams to win major accounts",
+        "How have you balanced competing enterprise customer requirements?",
+        "Tell me about influencing technical decisions with engineering",
+        "Describe your experience with enterprise buyer personas (CIOs, CTOs)",
+        "How do you prioritize features for different customer segments?",
+        "Tell me about a product decision requiring long-term thinking",
+        "Describe managing a complex product migration or upgrade",
+        "How have you handled a product that faced strong competition?",
+        "Tell me about presenting to executive customers",
+        "Describe balancing innovation with backwards compatibility",
+        "How have you worked with consulting on customer implementations?",
+        "Tell me about using data to drive product decisions",
+        "Describe a product pivot based on market feedback",
+        "How have you built consensus across a large organization?"
+      ],
+      whatTheyLookFor: [
+        "Deep understanding of enterprise software and B2B markets",
+        "Technical depth to engage with engineering on complex systems",
+        "Customer empathy for IT buyers, developers, and business users",
+        "Strategic thinking about competitive positioning (AWS, Azure, Google)",
+        "Strong communication skills for diverse audiences",
+        "Business acumen and understanding of enterprise economics",
+        "Ability to balance innovation with stability requirements",
+        "Experience with long sales cycles and complex enterprise deployments",
+        "Track record shipping products for enterprise customers",
+        "Leadership skills for cross-functional influence"
+      ],
+      interviewTips: [
+        "Understand Oracle's product portfolio and cloud strategy deeply",
+        "Research competitive landscape (AWS, Azure, Google Cloud, Salesforce)",
+        "Prepare examples of working with large enterprise customers",
+        "Show understanding of database and cloud technologies",
+        "Be ready to discuss enterprise buying cycles and stakeholders",
+        "Demonstrate strategic thinking about Oracle's market position",
+        "Prepare ideas for Oracle's cloud and AI product strategy",
+        "Show customer empathy for enterprise IT challenges",
+        "Understand backwards compatibility and migration challenges",
+        "Be ready to discuss B2B SaaS metrics and business models",
+        "Prepare questions about the product area and team",
+        "Show genuine interest in enterprise technology",
+        "Demonstrate analytical skills with data and metrics",
+        "Be ready to present your product thinking clearly"
+      ],
+      salary: {
+        min: 140000,
+        max: 300000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $140,000 - $300,000 depending on level",
+        "Annual bonus typically 15-25% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Flexible work arrangements",
+        "Travel budget for customer and conference engagement",
+        "Education reimbursement",
+        "CloudWorld and industry conference attendance"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Product Manager at Oracle involves strategic planning, customer engagement, and cross-functional collaboration on enterprise products.",
+        schedule: [
+          "8:30 AM - Review product metrics and customer support trends",
+          "9:00 AM - Customer call with Fortune 500 CTO on cloud migration",
+          "10:30 AM - Engineering sync on quarterly roadmap priorities",
+          "11:30 AM - Competitive analysis on recent AWS announcement",
+          "12:30 PM - Lunch with sales team discussing enterprise opportunities",
+          "1:30 PM - Product requirements review with architects",
+          "3:00 PM - Go-to-market planning with marketing team",
+          "4:00 PM - Prepare presentation for upcoming CloudWorld session",
+          "5:00 PM - Analyst briefing on new product capabilities"
+        ],
+        closing: "Oracle PMs enjoy shaping enterprise technology strategy while engaging directly with the world's largest organizations on their most critical technology decisions."
+      },
+      similarRoles: ["Software Engineer", "Cloud Solutions Architect", "Sales Engineer", "Consultant"]
+    },
+    'cloud-solutions-architect': {
+      roleDescription: "Cloud Solutions Architects at Oracle design and deliver complex cloud solutions for enterprise customers migrating to Oracle Cloud Infrastructure (OCI). You'll work with Fortune 500 companies, government agencies, and global enterprises, translating business requirements into scalable, secure cloud architectures. The role combines deep technical expertise in cloud infrastructure with consultative skills to guide customers through digital transformation. Oracle's differentiation in cloud includes Autonomous Database, high-performance computing, and the only cloud offering sovereign regions and dedicated cloud options. Solutions Architects engage across the customer lifecycle—from pre-sales solution design through implementation oversight and ongoing optimization. With enterprises increasingly adopting multi-cloud strategies, architects help customers integrate OCI with existing investments while leveraging Oracle's unique capabilities in database and enterprise applications.",
+      responsibilities: [
+        "Design scalable, secure cloud architectures for enterprise customers",
+        "Lead technical discovery and requirements gathering sessions",
+        "Create architecture documentation and implementation roadmaps",
+        "Guide customers on OCI best practices and Well-Architected Framework",
+        "Partner with sales on technical strategy for strategic opportunities",
+        "Present solutions to customer technical teams and executives",
+        "Support implementations and resolve complex technical challenges",
+        "Develop reference architectures and reusable solution patterns",
+        "Stay current on OCI services and competitive cloud offerings"
+      ],
+      growthOpportunities: [
+        "Work with Fortune 500 and government customers on critical projects",
+        "Develop expertise across 150+ OCI services",
+        "Clear path to Principal Architect and technical leadership",
+        "High visibility with customers and Oracle leadership",
+        "Competitive compensation with performance incentives",
+        "Global travel opportunities for customer engagements",
+        "Influence OCI product direction through customer feedback",
+        "Build reputation as enterprise cloud expert"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of cloud architecture background and customer experience"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into architecture experience and solution design approach"
+        },
+        {
+          stage: "Technical Architecture Review",
+          duration: "90 minutes",
+          description: "Present and defend a cloud architecture you've designed"
+        },
+        {
+          stage: "Scenario-Based Design",
+          duration: "60 minutes",
+          description: "Design an OCI solution for an enterprise customer scenario"
+        },
+        {
+          stage: "Customer Engagement",
+          duration: "45 minutes",
+          description: "Role-play customer engagement demonstrating communication skills"
+        }
+      ],
+      technicalQuestions: [
+        "Design a cloud architecture for a Fortune 500 company migrating from on-premises",
+        "How would you architect a multi-region disaster recovery solution on OCI?",
+        "Design the migration strategy for an Oracle Database to Autonomous Database",
+        "How would you architect a high-performance computing solution on OCI?",
+        "Design a hybrid cloud architecture connecting OCI with on-premises",
+        "How would you approach security and compliance for a regulated industry?",
+        "Design a solution for running VMware workloads on OCI",
+        "How would you architect a data lakehouse on OCI?",
+        "Design a Kubernetes deployment strategy using OKE",
+        "How would you optimize costs for a large OCI deployment?",
+        "Design a multi-cloud architecture integrating OCI with AWS or Azure",
+        "How would you architect an AI/ML platform on OCI?",
+        "Design the networking architecture for a global enterprise on OCI",
+        "How would you approach database migration at petabyte scale?",
+        "Design a solution for Oracle Fusion Applications on OCI"
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex cloud architecture you designed and delivered",
+        "Describe navigating conflicting requirements from customer stakeholders",
+        "How have you handled technical objections from a skeptical customer?",
+        "Tell me about guiding a customer through a difficult migration",
+        "Describe building relationships with customer technical teams",
+        "How have you positioned Oracle against AWS or Azure?",
+        "Tell me about a solution that didn't go as planned",
+        "Describe explaining complex technical concepts to executives",
+        "How have you stayed current with rapidly evolving cloud services?",
+        "Tell me about influencing a customer to adopt best practices",
+        "Describe working with sales on a strategic opportunity",
+        "How have you handled scope changes during an engagement?",
+        "Tell me about mentoring other architects",
+        "Describe a creative solution to an unusual customer requirement",
+        "How have you contributed to reusable solution patterns?"
+      ],
+      whatTheyLookFor: [
+        "Deep expertise in cloud architecture (OCI, AWS, Azure, or GCP)",
+        "Experience designing enterprise-scale solutions",
+        "Understanding of database, networking, and security architecture",
+        "Strong communication skills for executive and technical audiences",
+        "Customer-facing presence and consultative skills",
+        "Track record of successful customer engagements",
+        "Knowledge of enterprise application migration patterns",
+        "Understanding of compliance and regulatory requirements",
+        "Ability to balance customer needs with best practices",
+        "Oracle certifications or willingness to obtain them"
+      ],
+      interviewTips: [
+        "Prepare to present an architecture you've designed",
+        "Study OCI services and differentiation vs AWS/Azure/GCP",
+        "Know Oracle Database and Autonomous Database capabilities",
+        "Be ready for scenario-based design exercises",
+        "Understand enterprise migration challenges and patterns",
+        "Prepare examples of customer stakeholder management",
+        "Know the OCI Well-Architected Framework",
+        "Show balance of technical depth and business understanding",
+        "Understand Oracle's enterprise application portfolio",
+        "Be ready to discuss security and compliance approaches",
+        "Prepare questions about the customer portfolio",
+        "Show genuine passion for helping customers succeed",
+        "Demonstrate continuous learning with cloud technologies",
+        "Be ready to discuss competitive positioning"
+      ],
+      salary: {
+        min: 150000,
+        max: 280000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $150,000 - $280,000 depending on level",
+        "Annual bonus typically 15-20% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Travel budget for customer engagements",
+        "Certification bonuses for OCI credentials",
+        "CloudWorld and conference attendance",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Cloud Solutions Architect at Oracle involves customer engagement, solution design, and technical leadership across complex cloud projects.",
+        schedule: [
+          "8:30 AM - Review customer requirements for today's design session",
+          "9:00 AM - Architecture workshop with financial services customer",
+          "11:00 AM - Internal sync with sales on strategic opportunity",
+          "12:00 PM - Lunch with consulting team discussing implementation",
+          "1:00 PM - Design review for multi-region DR architecture",
+          "2:30 PM - Customer presentation on Autonomous Database migration",
+          "4:00 PM - Update reference architecture documentation",
+          "5:00 PM - Research new OCI services for customer use cases",
+          "5:30 PM - Prepare for tomorrow's customer engagement"
+        ],
+        closing: "Oracle Cloud Solutions Architects enjoy the intellectual challenge of designing enterprise cloud solutions while building lasting relationships with strategic customers."
+      },
+      similarRoles: ["Software Engineer", "Sales Engineer", "Consultant", "Database Administrator"]
+    },
+    'database-administrator': {
+      roleDescription: "Database Administrators at Oracle manage the world's most critical database systems, supporting enterprise customers running Oracle Database, MySQL, and cloud database services. You'll work on database installations, performance tuning, backup and recovery, high availability, and migrations to Oracle Cloud. Oracle DBAs are recognized as industry experts—many customers specifically seek Oracle-employed DBAs for their depth of knowledge in database internals and best practices. The role spans on-premises databases, cloud migrations to Autonomous Database, and hybrid deployments. With Oracle's invention of the relational database and continued innovation with Autonomous Database, DBAs have access to the most advanced database technology in the industry. You'll work with Fortune 500 companies, government agencies, and enterprises running mission-critical workloads where database availability directly impacts business operations.",
+      responsibilities: [
+        "Install, configure, and maintain Oracle Database environments",
+        "Perform database performance tuning and query optimization",
+        "Design and implement backup, recovery, and disaster recovery strategies",
+        "Configure high availability solutions (RAC, Data Guard, GoldenGate)",
+        "Plan and execute database migrations to Oracle Cloud and Autonomous DB",
+        "Monitor database health and proactively address issues",
+        "Implement security controls and compliance requirements",
+        "Support enterprise customers with database-related issues",
+        "Develop automation for database operations and maintenance"
+      ],
+      growthOpportunities: [
+        "Become a recognized expert in Oracle Database technology",
+        "Clear path to Senior DBA, Principal, and Architect roles",
+        "Work with Fortune 500 and government customers",
+        "Learn Autonomous Database and cloud-native technologies",
+        "Access to Oracle's internal training and certification",
+        "Internal mobility to cloud engineering or consulting",
+        "Present at Oracle OpenWorld/CloudWorld and user groups",
+        "Shape Oracle's database product direction through feedback"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of DBA background and Oracle Database experience"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Oracle Database technical questions covering administration and performance"
+        },
+        {
+          stage: "Onsite - Technical Deep Dive",
+          duration: "60 minutes",
+          description: "Advanced Oracle Database concepts and troubleshooting scenarios"
+        },
+        {
+          stage: "Onsite - Practical Scenario",
+          duration: "60 minutes",
+          description: "Walk through database administration scenarios and problem-solving"
+        },
+        {
+          stage: "Onsite - Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of experience, customer focus, and collaboration"
+        }
+      ],
+      technicalQuestions: [
+        "Walk through your approach to Oracle Database performance tuning",
+        "How would you design a high availability architecture using RAC and Data Guard?",
+        "Explain the Oracle Database architecture (SGA, PGA, background processes)",
+        "How would you troubleshoot a slow-running SQL query?",
+        "Design a backup and recovery strategy for a mission-critical database",
+        "How would you migrate a large database to Autonomous Database?",
+        "Explain AWR and how you use it for performance analysis",
+        "How would you implement Oracle GoldenGate for replication?",
+        "Design the database architecture for a multi-tenant SaaS application",
+        "How would you approach patching and upgrades with minimal downtime?",
+        "Explain Oracle's Automatic Storage Management (ASM)",
+        "How would you troubleshoot an ORA-600 or ORA-7445 error?",
+        "Design a database security strategy including encryption and auditing",
+        "How would you optimize database memory configuration?",
+        "Explain the differences between Autonomous Database options"
+      ],
+      behavioralQuestions: [
+        "Tell me about a critical database issue you resolved under pressure",
+        "Describe managing a complex database migration",
+        "How have you handled a production outage affecting customers?",
+        "Tell me about improving database performance significantly",
+        "Describe working with application teams on database optimization",
+        "How have you implemented disaster recovery for critical databases?",
+        "Tell me about automating database administration tasks",
+        "Describe training or mentoring others on Oracle Database",
+        "How have you stayed current with Oracle Database features?",
+        "Tell me about a database security challenge you addressed",
+        "Describe managing multiple database environments simultaneously",
+        "How have you handled difficult conversations with customers?",
+        "Tell me about planning a major database upgrade",
+        "Describe a time you had to balance competing priorities",
+        "How have you contributed to database best practices?"
+      ],
+      whatTheyLookFor: [
+        "Deep expertise in Oracle Database administration",
+        "Experience with performance tuning and SQL optimization",
+        "Knowledge of high availability technologies (RAC, Data Guard)",
+        "Understanding of backup, recovery, and disaster recovery",
+        "Experience with database migrations and upgrades",
+        "Strong troubleshooting and problem-solving skills",
+        "Customer focus and communication abilities",
+        "Familiarity with Oracle Cloud and Autonomous Database",
+        "Scripting skills (SQL, PL/SQL, shell scripting)",
+        "Oracle certifications (OCP, OCM) preferred"
+      ],
+      interviewTips: [
+        "Review Oracle Database architecture and internals deeply",
+        "Be prepared to discuss performance tuning methodologies",
+        "Know AWR, ASH, and other diagnostic tools thoroughly",
+        "Understand RAC, Data Guard, and GoldenGate architectures",
+        "Prepare examples of critical issues you've resolved",
+        "Study Autonomous Database capabilities and migration paths",
+        "Be ready for hands-on troubleshooting scenarios",
+        "Know the differences between Oracle Database editions",
+        "Understand Oracle's cloud database offerings",
+        "Prepare questions about the team and customer environment",
+        "Show passion for database technology and continuous learning",
+        "Demonstrate customer-focused problem-solving approach",
+        "Be ready to discuss automation and scripting experience",
+        "Understand compliance and security requirements"
+      ],
+      salary: {
+        min: 110000,
+        max: 200000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $110,000 - $200,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "On-call compensation for production support",
+        "Certification bonuses for Oracle credentials",
+        "Training and conference attendance",
+        "Flexible work arrangements"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Database Administrator at Oracle involves maintaining critical database systems, performance optimization, and customer support.",
+        schedule: [
+          "8:00 AM - Review overnight alerts and database health dashboards",
+          "8:30 AM - Performance analysis for customer-reported slow queries",
+          "10:00 AM - Plan database upgrade for enterprise customer",
+          "11:00 AM - Customer call on Autonomous Database migration strategy",
+          "12:00 PM - Lunch with DBA team discussing best practices",
+          "1:00 PM - Implement Data Guard configuration for DR setup",
+          "3:00 PM - Troubleshoot replication issue with GoldenGate",
+          "4:00 PM - Documentation and knowledge base updates",
+          "5:00 PM - Review and approve backup job configurations"
+        ],
+        closing: "Oracle DBAs enjoy working with the industry's leading database technology while supporting mission-critical systems for the world's largest organizations."
+      },
+      similarRoles: ["Software Engineer", "Cloud Solutions Architect", "Data Scientist", "Technical Support Engineer"]
+    },
+    'data-scientist': {
+      roleDescription: "Data Scientists at Oracle build AI and machine learning solutions that power Autonomous Database, cloud services, and enterprise applications. You'll work on predictive analytics, natural language processing, computer vision, and the generative AI capabilities being integrated across Oracle's product portfolio. Oracle's data science teams tackle unique challenges at the intersection of databases and ML—optimizing query performance through machine learning, building autonomous operations for cloud infrastructure, and developing AI features for healthcare, finance, and enterprise applications. With access to massive enterprise datasets and Oracle's database expertise, data scientists can develop and deploy models at scale that directly impact how businesses operate. The role spans research and applied science, with opportunities to work on cutting-edge problems in LLMs and generative AI while delivering production solutions for enterprise customers.",
+      responsibilities: [
+        "Develop machine learning models for Oracle products and cloud services",
+        "Build AI capabilities for Autonomous Database self-tuning features",
+        "Design predictive analytics for enterprise applications (HCM, ERP, CX)",
+        "Work on natural language processing for conversational AI",
+        "Develop generative AI solutions for healthcare and enterprise use cases",
+        "Partner with product teams to integrate AI into Oracle offerings",
+        "Deploy models at scale serving enterprise customers globally",
+        "Conduct research advancing Oracle's AI/ML capabilities",
+        "Ensure responsible AI practices in model development"
+      ],
+      growthOpportunities: [
+        "Work at the intersection of databases and machine learning",
+        "Build AI features used by Fortune 500 companies",
+        "Clear path from Data Scientist to Principal and Distinguished",
+        "Publish research and present at top conferences",
+        "Work on cutting-edge LLMs and generative AI",
+        "Access to massive enterprise datasets and compute resources",
+        "Internal mobility across cloud, applications, and research",
+        "Shape Oracle's AI strategy and product direction"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of data science background and interest in Oracle AI"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "ML fundamentals, statistics, and problem-solving discussion"
+        },
+        {
+          stage: "Onsite - ML Deep Dive",
+          duration: "45 minutes",
+          description: "Deep technical discussion on ML algorithms and model design"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "Python coding for data manipulation and ML implementation"
+        },
+        {
+          stage: "Onsite - Case Study",
+          duration: "60 minutes",
+          description: "Work through an applied ML problem relevant to Oracle"
+        },
+        {
+          stage: "Onsite - Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of experience and collaboration approach"
+        }
+      ],
+      technicalQuestions: [
+        "Design an ML system for Oracle's Autonomous Database query optimization",
+        "How would you build a predictive model for enterprise software usage?",
+        "Design an anomaly detection system for cloud infrastructure",
+        "How would you approach NLP for Oracle's conversational AI assistant?",
+        "Design a recommendation system for Oracle Cloud services",
+        "How would you build a demand forecasting model for supply chain?",
+        "Design the ML pipeline for production model deployment at Oracle",
+        "How would you approach time series forecasting for database performance?",
+        "Design an LLM-based solution for enterprise document processing",
+        "How would you handle class imbalance in enterprise ML datasets?",
+        "Design a model for predicting customer churn in SaaS applications",
+        "How would you approach explainability for enterprise AI decisions?",
+        "Design a computer vision solution for healthcare applications",
+        "How would you optimize model serving latency for real-time use cases?",
+        "Design a framework for evaluating generative AI outputs"
+      ],
+      behavioralQuestions: [
+        "Tell me about an ML model you deployed to production",
+        "Describe translating business requirements into ML solutions",
+        "How have you communicated ML concepts to non-technical stakeholders?",
+        "Tell me about debugging a model that underperformed in production",
+        "Describe your approach to responsible AI development",
+        "How have you stayed current with ML research?",
+        "Tell me about building ML infrastructure for a team",
+        "Describe collaborating with product teams on AI features",
+        "How have you handled ambiguity in ML projects?",
+        "Tell me about a creative approach to an ML problem",
+        "Describe balancing model accuracy with production constraints",
+        "How have you approached ML experimentation and iteration?",
+        "Tell me about working with large enterprise datasets",
+        "Describe mentoring others on data science best practices",
+        "How have you contributed to ML best practices at your organization?"
+      ],
+      whatTheyLookFor: [
+        "Strong ML fundamentals—algorithms, statistics, model design",
+        "Production experience deploying models at scale",
+        "Python proficiency with ML frameworks (TensorFlow, PyTorch)",
+        "SQL expertise for working with Oracle databases",
+        "Experience with enterprise data and business applications",
+        "Track record building ML features with business impact",
+        "Strong communication skills for cross-functional work",
+        "Interest in LLMs and generative AI applications",
+        "Understanding of responsible AI practices",
+        "Collaborative approach with product and engineering"
+      ],
+      interviewTips: [
+        "Prepare to discuss ML algorithms in depth",
+        "Know production ML challenges and deployment patterns",
+        "Be ready for SQL questions given Oracle's database focus",
+        "Study how ML applies to database optimization",
+        "Understand Oracle's AI products (OCI AI services, Autonomous DB)",
+        "Prepare examples of production ML projects",
+        "Know responsible AI practices and fairness approaches",
+        "Be ready to code ML algorithms and data processing",
+        "Show interest in enterprise AI applications",
+        "Understand how Oracle differentiates in AI (database + AI)",
+        "Prepare questions about the team and AI initiatives",
+        "Demonstrate both research interest and practical focus",
+        "Show ability to work with business stakeholders",
+        "Be ready to discuss LLMs and generative AI trends"
+      ],
+      salary: {
+        min: 140000,
+        max: 280000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $140,000 - $280,000 depending on level",
+        "Annual bonus typically 10-20% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Conference attendance budget",
+        "Cloud compute resources for research",
+        "Education reimbursement",
+        "Flexible work arrangements"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Data Scientist at Oracle involves model development, research, and collaboration with product teams on AI features.",
+        schedule: [
+          "9:00 AM - Review model training results from overnight jobs",
+          "9:30 AM - Deep work on recommendation model improvements",
+          "11:00 AM - Cross-functional sync with product on AI feature",
+          "12:00 PM - Lunch with data science team discussing papers",
+          "1:00 PM - Model experimentation and evaluation",
+          "2:30 PM - Code review for teammate's production pipeline",
+          "3:30 PM - Partner with engineering on model deployment",
+          "4:30 PM - Document model decisions and architecture",
+          "5:30 PM - Research time—latest ML papers and techniques"
+        ],
+        closing: "Oracle Data Scientists enjoy building AI that powers enterprise applications while pushing the boundaries of what's possible at the intersection of databases and machine learning."
+      },
+      similarRoles: ["Software Engineer", "Cloud Solutions Architect", "Product Manager", "AI/ML Engineer"]
+    },
+    'consultant': {
+      roleDescription: "Consultants at Oracle serve as the bridge between Oracle technology and customer success, implementing and optimizing Oracle solutions for enterprises worldwide. You'll work on complex projects deploying Oracle Cloud applications (Fusion ERP, HCM, SCM), database migrations, and cloud infrastructure implementations. Oracle Consulting combines deep product expertise with business process knowledge to help customers transform their operations. The role offers variety—from greenfield implementations to upgrade projects to performance optimization engagements. Consultants develop expertise in specific Oracle products while building business acumen across industries from manufacturing to financial services to healthcare. With Oracle's breadth of offerings across cloud, applications, and database, consultants can specialize or work across the portfolio. The global consulting practice provides opportunities for travel, customer engagement, and career advancement to senior consultant, solution architect, or practice leadership roles.",
+      responsibilities: [
+        "Implement Oracle Cloud applications (Fusion, NetSuite, industry solutions)",
+        "Configure and customize Oracle products to meet business requirements",
+        "Lead requirements gathering and solution design sessions",
+        "Develop data migration strategies and execute migrations",
+        "Design integrations between Oracle and third-party systems",
+        "Conduct user training and change management activities",
+        "Troubleshoot and resolve implementation issues",
+        "Document solutions and create knowledge transfer materials",
+        "Support go-live activities and post-implementation optimization"
+      ],
+      growthOpportunities: [
+        "Develop deep expertise in Oracle's enterprise applications",
+        "Clear path to Senior Consultant, Principal, and Practice Lead",
+        "Work with Fortune 500 and global enterprise customers",
+        "Build business process knowledge across industries",
+        "Travel opportunities for customer engagements globally",
+        "Transition paths to product management or solution architecture",
+        "Oracle certifications and continuous learning",
+        "Lead complex, high-visibility transformation projects"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of consulting background and Oracle experience"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into implementation experience and customer engagement"
+        },
+        {
+          stage: "Technical Assessment",
+          duration: "60 minutes",
+          description: "Oracle product knowledge and implementation scenario"
+        },
+        {
+          stage: "Case Study",
+          duration: "60 minutes",
+          description: "Walk through an implementation scenario demonstrating approach"
+        },
+        {
+          stage: "Behavioral Interview",
+          duration: "45 minutes",
+          description: "Discussion of customer situations and collaboration"
+        }
+      ],
+      technicalQuestions: [
+        "Walk through your approach to an Oracle Fusion ERP implementation",
+        "How would you design a data migration strategy for a large enterprise?",
+        "Describe your experience with Oracle Cloud HCM configuration",
+        "How would you approach requirements gathering for a transformation project?",
+        "Design an integration architecture between Oracle and legacy systems",
+        "How would you handle scope changes during an implementation?",
+        "Describe your experience with Oracle reporting and analytics",
+        "How would you approach testing strategy for a cloud implementation?",
+        "Design a change management approach for ERP go-live",
+        "How would you troubleshoot performance issues in Oracle applications?",
+        "Describe your experience with Oracle workflow configuration",
+        "How would you approach a multi-country rollout?",
+        "Design a security model for Oracle Cloud applications",
+        "How would you handle a difficult customer situation during implementation?",
+        "Describe your experience with Oracle upgrade projects"
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex implementation you led successfully",
+        "Describe managing a project that faced significant challenges",
+        "How have you handled a difficult customer relationship?",
+        "Tell me about translating business requirements into Oracle configuration",
+        "Describe working with offshore or distributed teams",
+        "How have you managed competing priorities across projects?",
+        "Tell me about a time you had to learn a new Oracle module quickly",
+        "Describe building relationships with customer stakeholders",
+        "How have you handled scope creep during an engagement?",
+        "Tell me about mentoring junior consultants",
+        "Describe presenting to customer executives",
+        "How have you stayed current with Oracle product updates?",
+        "Tell me about a creative solution to a customer challenge",
+        "Describe managing customer expectations during delays",
+        "How have you contributed to practice development?"
+      ],
+      whatTheyLookFor: [
+        "Experience with Oracle applications or cloud products",
+        "Strong consulting and customer-facing skills",
+        "Understanding of business processes (finance, HR, supply chain)",
+        "Project management abilities for complex implementations",
+        "Problem-solving skills for configuration challenges",
+        "Excellent communication for diverse stakeholders",
+        "Oracle certifications preferred",
+        "Willingness to travel for customer engagements",
+        "Team collaboration across distributed environments",
+        "Track record of successful implementations"
+      ],
+      interviewTips: [
+        "Prepare detailed examples of Oracle implementations",
+        "Know Oracle Cloud applications architecture",
+        "Be ready to discuss implementation methodology",
+        "Show understanding of enterprise business processes",
+        "Prepare for scenario-based problem solving",
+        "Demonstrate customer management skills",
+        "Know Oracle's competitive positioning vs Workday, SAP",
+        "Show willingness to travel and work on-site",
+        "Prepare questions about the practice and projects",
+        "Demonstrate continuous learning with Oracle products",
+        "Show passion for helping customers succeed",
+        "Be ready to discuss change management approaches",
+        "Understand Oracle's industry solutions",
+        "Show ability to work independently with customers"
+      ],
+      salary: {
+        min: 100000,
+        max: 180000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $100,000 - $180,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Travel per diem and expense reimbursement",
+        "Certification bonuses and training budget",
+        "Flexible work arrangements between engagements",
+        "Career development and internal mobility"
+      ],
+      dayInLife: {
+        intro: "A typical day as an Oracle Consultant involves customer engagement, configuration work, and collaboration with project teams.",
+        schedule: [
+          "8:00 AM - Travel to customer site or set up remote workspace",
+          "9:00 AM - Daily standup with implementation team",
+          "9:30 AM - Requirements workshop with customer finance team",
+          "11:00 AM - Configuration work on Oracle Cloud Financials",
+          "12:00 PM - Working lunch with customer project manager",
+          "1:00 PM - Integration testing with technical team",
+          "3:00 PM - Issue resolution and troubleshooting session",
+          "4:30 PM - Document configuration decisions and rationale",
+          "5:30 PM - Prepare materials for tomorrow's steering committee"
+        ],
+        closing: "Oracle Consultants enjoy the variety of customer engagements and the satisfaction of helping enterprises transform their operations with Oracle technology."
+      },
+      similarRoles: ["Cloud Solutions Architect", "Technical Support Engineer", "Product Manager", "Sales Engineer"]
+    },
+    'technical-support-engineer': {
+      roleDescription: "Technical Support Engineers at Oracle provide expert assistance to enterprise customers running mission-critical Oracle systems. You'll troubleshoot complex issues across Oracle Database, Cloud Infrastructure, and enterprise applications, working on problems that directly impact business operations. Oracle Support is renowned for its depth of expertise—engineers have access to source code, product engineering teams, and the most advanced diagnostic tools in the industry. The role combines technical problem-solving with customer service, often working under pressure when customers face critical outages. Support Engineers develop deep product expertise, frequently becoming subject matter experts consulted by customers and internal teams alike. With Oracle's breadth of products, engineers can specialize in database internals, cloud infrastructure, specific applications, or work across the portfolio. The 24/7 nature of enterprise support means flexible scheduling options, and top performers often transition to product engineering, consulting, or solution architecture roles.",
+      responsibilities: [
+        "Diagnose and resolve complex technical issues for enterprise customers",
+        "Analyze logs, traces, and diagnostic data to identify root causes",
+        "Collaborate with product engineering on product defects and fixes",
+        "Develop and maintain technical documentation and knowledge base",
+        "Provide guidance on Oracle best practices and product usage",
+        "Manage critical customer escalations and outage situations",
+        "Participate in on-call rotation for 24/7 customer support",
+        "Create patches and workarounds for customer-specific issues",
+        "Contribute to product improvement through customer feedback"
+      ],
+      growthOpportunities: [
+        "Develop world-class expertise in Oracle technologies",
+        "Access to source code and product engineering teams",
+        "Clear path to Senior, Principal, and Distinguished Engineer",
+        "Transition opportunities to engineering, consulting, or architecture",
+        "Global customer exposure and diverse technical challenges",
+        "Oracle certifications and continuous learning",
+        "On-call premiums and flexible scheduling",
+        "Recognition as subject matter expert"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of technical support background and Oracle experience"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Technical troubleshooting questions and problem-solving approach"
+        },
+        {
+          stage: "Onsite - Technical Deep Dive",
+          duration: "60 minutes",
+          description: "Advanced technical questions in your area of expertise"
+        },
+        {
+          stage: "Onsite - Troubleshooting Scenario",
+          duration: "60 minutes",
+          description: "Walk through diagnosing a complex technical issue"
+        },
+        {
+          stage: "Onsite - Customer Scenario",
+          duration: "45 minutes",
+          description: "Role-play handling a difficult customer situation"
+        }
+      ],
+      technicalQuestions: [
+        "Walk through your approach to diagnosing a database performance issue",
+        "How would you troubleshoot an ORA-600 internal error?",
+        "Describe your methodology for analyzing Oracle trace files",
+        "How would you approach a customer reporting intermittent hangs?",
+        "Walk through troubleshooting a replication lag issue with Data Guard",
+        "How would you diagnose memory-related issues in Oracle Database?",
+        "Describe your experience with Oracle AWR and performance analysis",
+        "How would you approach a customer experiencing data corruption?",
+        "Walk through troubleshooting network connectivity to OCI",
+        "How would you diagnose application performance issues?",
+        "Describe your experience with Oracle RAC troubleshooting",
+        "How would you approach a customer's security vulnerability concern?",
+        "Walk through your process for reproducing a customer issue",
+        "How would you handle a situation where you can't reproduce the problem?",
+        "Describe escalating an issue to product engineering"
+      ],
+      behavioralQuestions: [
+        "Tell me about a critical customer issue you resolved under pressure",
+        "Describe handling a frustrated customer during an outage",
+        "How have you managed multiple high-priority cases simultaneously?",
+        "Tell me about collaborating with engineering on a product defect",
+        "Describe a time you went above and beyond for a customer",
+        "How have you handled a situation where you didn't know the answer?",
+        "Tell me about mentoring other support engineers",
+        "Describe working with international customers and time zones",
+        "How have you contributed to knowledge base or documentation?",
+        "Tell me about a complex issue that took weeks to resolve",
+        "Describe balancing thoroughness with customer urgency",
+        "How have you stayed current with Oracle product changes?",
+        "Tell me about improving a support process or tool",
+        "Describe handling a customer who disagreed with your analysis",
+        "How have you managed on-call responsibilities?"
+      ],
+      whatTheyLookFor: [
+        "Strong troubleshooting and analytical skills",
+        "Experience with Oracle Database, Cloud, or Applications",
+        "Understanding of operating systems (Linux, Unix, Windows)",
+        "Customer service orientation and communication skills",
+        "Ability to work under pressure during critical situations",
+        "Systematic approach to problem diagnosis",
+        "SQL and scripting skills for analysis",
+        "Willingness to participate in on-call rotation",
+        "Collaborative approach with customers and internal teams",
+        "Continuous learning mindset for evolving technologies"
+      ],
+      interviewTips: [
+        "Prepare detailed examples of complex issues you've resolved",
+        "Know Oracle diagnostic tools (AWR, ASH, trace files)",
+        "Be ready for hands-on troubleshooting scenarios",
+        "Show your systematic approach to problem-solving",
+        "Demonstrate customer empathy and communication skills",
+        "Understand Oracle's support organization and processes",
+        "Prepare for questions about handling difficult situations",
+        "Show willingness for on-call and flexible scheduling",
+        "Know the Oracle product you're interviewing for deeply",
+        "Prepare questions about the support team and cases",
+        "Show passion for solving complex technical problems",
+        "Demonstrate ability to explain technical concepts clearly",
+        "Be ready to discuss continuous learning approach",
+        "Show interest in Oracle's product portfolio"
+      ],
+      salary: {
+        min: 90000,
+        max: 160000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $90,000 - $160,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "On-call premium pay for rotation participation",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Shift differentials for non-standard hours",
+        "Certification bonuses and training",
+        "Flexible scheduling options"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Technical Support Engineer at Oracle involves diagnosing complex issues, collaborating with customers, and contributing to knowledge sharing.",
+        schedule: [
+          "8:00 AM - Review queue and prioritize incoming cases",
+          "8:30 AM - Customer call on critical database performance issue",
+          "10:00 AM - Deep analysis of trace files and diagnostic data",
+          "11:30 AM - Collaborate with product engineering on potential bug",
+          "12:30 PM - Lunch and catch up on internal communications",
+          "1:30 PM - Work on multiple lower-priority cases",
+          "3:00 PM - Document resolution for knowledge base article",
+          "4:00 PM - Team meeting sharing recent learnings",
+          "5:00 PM - Hand off critical cases to global team"
+        ],
+        closing: "Oracle Technical Support Engineers enjoy solving challenging problems while developing world-class expertise in enterprise technology."
+      },
+      similarRoles: ["Database Administrator", "Cloud Solutions Architect", "Consultant", "Software Engineer"]
+    },
+    'security-engineer': {
+      roleDescription: "Security Engineers at Oracle protect the infrastructure, applications, and data that enterprises trust for their most critical operations. You'll work on securing Oracle Cloud Infrastructure, Oracle Database, and enterprise applications used by Fortune 500 companies, government agencies, and healthcare organizations. Oracle's security challenges are unique—protecting multi-tenant cloud infrastructure, ensuring database security for regulated industries, and maintaining compliance across global data centers. Security Engineers work across domains including cloud security, application security, identity management, and compliance engineering. With Oracle's Autonomous Database featuring self-securing capabilities and OCI's security-first architecture, you'll be at the forefront of automated security innovation. The role offers depth in enterprise security, working on systems where security breaches could impact millions of users and billions of dollars in business operations.",
+      responsibilities: [
+        "Design and implement security controls for Oracle Cloud Infrastructure",
+        "Conduct security assessments and penetration testing",
+        "Develop security automation and detection capabilities",
+        "Ensure compliance with security frameworks (FedRAMP, SOC 2, HIPAA)",
+        "Partner with product teams to build security into Oracle products",
+        "Respond to security incidents and conduct investigations",
+        "Review architecture designs for security vulnerabilities",
+        "Develop security policies and standards",
+        "Contribute to Oracle's security certifications and audits"
+      ],
+      growthOpportunities: [
+        "Protect infrastructure serving Fortune 500 and government customers",
+        "Work on security at unprecedented enterprise scale",
+        "Clear path to Senior, Principal, and Chief Security roles",
+        "Develop expertise across cloud, database, and application security",
+        "Influence Oracle's security product direction",
+        "Access to advanced security tools and research",
+        "Present at security conferences and publish research",
+        "Internal mobility across security domains"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of security background and interest in Oracle"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Security technical questions in your domain area"
+        },
+        {
+          stage: "Onsite - Security Deep Dive",
+          duration: "60 minutes",
+          description: "Advanced security concepts and architecture"
+        },
+        {
+          stage: "Onsite - Practical Scenario",
+          duration: "60 minutes",
+          description: "Security assessment or incident response scenario"
+        },
+        {
+          stage: "Onsite - Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of experience and collaboration approach"
+        }
+      ],
+      technicalQuestions: [
+        "Design the security architecture for Oracle Cloud Infrastructure",
+        "How would you approach database security for regulated industries?",
+        "Design a detection system for cloud infrastructure threats",
+        "How would you implement identity and access management at scale?",
+        "Design the security model for multi-tenant cloud services",
+        "How would you approach penetration testing for cloud infrastructure?",
+        "Design encryption strategy for data at rest and in transit",
+        "How would you secure Oracle's Autonomous Database capabilities?",
+        "Design incident response procedures for a major breach scenario",
+        "How would you implement secure secrets management for OCI?",
+        "Design a vulnerability management program for cloud services",
+        "How would you ensure FedRAMP compliance for government cloud?",
+        "Design security logging and monitoring for enterprise cloud",
+        "How would you approach third-party integration security review?",
+        "Design the security architecture for containerized workloads"
+      ],
+      behavioralQuestions: [
+        "Tell me about a significant security vulnerability you discovered",
+        "Describe influencing a team to prioritize a security fix",
+        "How have you balanced security with product velocity?",
+        "Tell me about a security incident you responded to",
+        "Describe improving security culture in an organization",
+        "How have you approached security for new technologies?",
+        "Tell me about a difficult security risk decision",
+        "Describe explaining security concepts to executives",
+        "How have you handled pushback on security requirements?",
+        "Tell me about building security into the development process",
+        "Describe staying current with evolving threats",
+        "How have you mentored others on security practices?",
+        "Tell me about a creative solution to a security challenge",
+        "Describe handling conflicting compliance requirements",
+        "How have you contributed to security certifications or audits?"
+      ],
+      whatTheyLookFor: [
+        "Deep expertise in cloud or application security",
+        "Experience with enterprise security at scale",
+        "Understanding of compliance frameworks (FedRAMP, SOC 2, HIPAA)",
+        "Strong programming skills for security tooling",
+        "Track record discovering and remediating vulnerabilities",
+        "Knowledge of cryptography and identity management",
+        "Communication skills for diverse audiences",
+        "Experience with security automation and detection",
+        "Understanding of database and application security",
+        "Security certifications preferred (CISSP, OSCP)"
+      ],
+      interviewTips: [
+        "Study Oracle Cloud's security architecture",
+        "Understand enterprise compliance requirements",
+        "Prepare examples of security work with measurable impact",
+        "Know cloud security patterns and best practices",
+        "Be ready for hands-on security assessment scenarios",
+        "Understand Oracle Database security features",
+        "Prepare for questions on incident response",
+        "Show passion for protecting enterprise systems",
+        "Know the threat landscape for cloud and databases",
+        "Demonstrate systematic security assessment approach",
+        "Prepare questions about the security team",
+        "Show continuous learning with security trends",
+        "Be ready to discuss security automation",
+        "Understand Oracle's security product offerings"
+      ],
+      salary: {
+        min: 140000,
+        max: 260000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $140,000 - $260,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Security conference attendance budget",
+        "Certification bonuses and support",
+        "Flexible work arrangements",
+        "Home office security equipment"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Security Engineer at Oracle involves protecting enterprise infrastructure, building security capabilities, and collaborating with product teams.",
+        schedule: [
+          "9:00 AM - Review security alerts and overnight scanning results",
+          "9:30 AM - Security architecture review for new OCI service",
+          "11:00 AM - Build automated security testing pipeline",
+          "12:00 PM - Lunch with security team discussing threat landscape",
+          "1:00 PM - Penetration testing for cloud service component",
+          "3:00 PM - Compliance documentation for FedRAMP audit",
+          "4:00 PM - Partner with product team on security requirements",
+          "5:00 PM - Research emerging threats and attack techniques"
+        ],
+        closing: "Oracle Security Engineers enjoy protecting mission-critical enterprise systems while building security capabilities at global cloud scale."
+      },
+      similarRoles: ["Software Engineer", "Cloud Solutions Architect", "DevOps Engineer", "Database Administrator"]
+    },
+    'devops-engineer': {
+      roleDescription: "DevOps Engineers at Oracle build and maintain the infrastructure automation that powers Oracle Cloud Infrastructure (OCI) and internal development platforms. You'll work on CI/CD pipelines, infrastructure as code, and site reliability for one of the fastest-growing cloud platforms in the enterprise market. Oracle's DevOps challenges are unique—supporting the deployment of over 150 cloud services across global regions while maintaining the reliability that enterprise customers demand. The role combines software engineering with operational expertise, building automation that enables thousands of engineers to deploy services reliably. With Oracle's investment in Autonomous Database and self-managing cloud services, DevOps engineers are at the forefront of building intelligent, automated infrastructure. You'll work with cutting-edge tools including Kubernetes, Terraform, and Oracle's own OCI services, often contributing to the very infrastructure products that OCI customers use.",
+      responsibilities: [
+        "Design and maintain CI/CD pipelines for OCI service deployments",
+        "Build infrastructure automation using Terraform and OCI services",
+        "Ensure platform reliability meeting enterprise SLA requirements",
+        "Develop monitoring, alerting, and observability solutions",
+        "Automate operational tasks and reduce manual toil",
+        "Partner with engineering teams on deployment best practices",
+        "Manage production operations and incident response",
+        "Optimize infrastructure costs while maintaining performance",
+        "Contribute to internal DevOps platforms and tooling"
+      ],
+      growthOpportunities: [
+        "Build infrastructure for one of the fastest-growing enterprise clouds",
+        "Work on automation at massive scale across global regions",
+        "Clear path to Senior, Principal, and Staff Engineer roles",
+        "Contribute to OCI DevOps products used by customers",
+        "Develop expertise in enterprise-scale cloud operations",
+        "Internal mobility across OCI services and products",
+        "Influence DevOps practices across the organization",
+        "Work with cutting-edge cloud-native technologies"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of DevOps background and interest in OCI"
+        },
+        {
+          stage: "Technical Phone Screen",
+          duration: "60 minutes",
+          description: "Technical interview on infrastructure and automation"
+        },
+        {
+          stage: "Onsite - Coding",
+          duration: "45 minutes",
+          description: "Programming interview for automation and tooling"
+        },
+        {
+          stage: "Onsite - System Design",
+          duration: "45 minutes",
+          description: "Design infrastructure for a cloud-scale problem"
+        },
+        {
+          stage: "Onsite - Operations",
+          duration: "45 minutes",
+          description: "Discussion of incident response and operational practices"
+        },
+        {
+          stage: "Onsite - Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of experience and collaboration approach"
+        }
+      ],
+      technicalQuestions: [
+        "Design the CI/CD pipeline for OCI service deployments",
+        "How would you implement infrastructure as code for multi-region deployments?",
+        "Design the monitoring strategy for 150+ cloud services",
+        "How would you approach zero-downtime deployments at enterprise scale?",
+        "Design the disaster recovery automation for OCI regions",
+        "How would you implement automated compliance controls?",
+        "Design a deployment strategy supporting canary and blue-green releases",
+        "How would you handle capacity planning for unpredictable growth?",
+        "Design the secrets management approach for cloud infrastructure",
+        "How would you optimize CI/CD pipeline performance?",
+        "Design the logging and observability stack for cloud services",
+        "How would you approach database deployment automation?",
+        "Design the containerization strategy for OCI microservices",
+        "How would you implement GitOps for infrastructure management?",
+        "Design the incident response automation for production issues"
+      ],
+      behavioralQuestions: [
+        "Tell me about a CI/CD improvement that had significant impact",
+        "Describe handling a major production incident",
+        "How have you balanced automation with operational stability?",
+        "Tell me about reducing toil through automation",
+        "Describe implementing infrastructure as code at scale",
+        "How have you partnered with development teams on DevOps?",
+        "Tell me about optimizing infrastructure costs significantly",
+        "Describe a deployment that didn't go as planned",
+        "How have you improved monitoring and observability?",
+        "Tell me about building a culture of operational excellence",
+        "Describe handling on-call and incident response",
+        "How have you approached security in DevOps practices?",
+        "Tell me about a creative solution to an infrastructure challenge",
+        "Describe mentoring others on DevOps best practices",
+        "How have you stayed current with DevOps technologies?"
+      ],
+      whatTheyLookFor: [
+        "Strong programming skills (Python, Go, or similar)",
+        "Experience with CI/CD tools and practices",
+        "Knowledge of infrastructure as code (Terraform, Ansible)",
+        "Cloud platform expertise (OCI, AWS, Azure, or GCP)",
+        "Understanding of containerization and Kubernetes",
+        "Experience with monitoring and observability tools",
+        "Track record improving reliability and deployment velocity",
+        "Collaborative approach with development teams",
+        "On-call experience and incident management skills",
+        "Interest in enterprise cloud and infrastructure"
+      ],
+      interviewTips: [
+        "Prepare examples of CI/CD pipelines you've built",
+        "Know infrastructure as code patterns deeply",
+        "Be ready to discuss incident response and postmortems",
+        "Study OCI services and DevOps offerings",
+        "Understand enterprise deployment requirements",
+        "Prepare for live infrastructure design exercises",
+        "Show balance of automation skills and operational judgment",
+        "Know monitoring and observability best practices",
+        "Be ready to discuss security in DevOps (DevSecOps)",
+        "Understand compliance automation for enterprises",
+        "Prepare questions about the DevOps team and practices",
+        "Show genuine passion for infrastructure automation",
+        "Demonstrate collaborative approach with developers",
+        "Know Oracle's cloud competitive positioning"
+      ],
+      salary: {
+        min: 130000,
+        max: 250000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $130,000 - $250,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "On-call compensation included",
+        "Certification bonuses for cloud credentials",
+        "Flexible work arrangements",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as a DevOps Engineer at Oracle involves building automation, ensuring reliability, and supporting engineering teams on cloud infrastructure.",
+        schedule: [
+          "9:00 AM - Review overnight deployment status and alerts",
+          "9:30 AM - Improve CI/CD pipeline for faster build times",
+          "11:00 AM - Architecture review for new service deployment",
+          "12:00 PM - Lunch with infrastructure team",
+          "1:00 PM - Build Terraform modules for OCI resources",
+          "2:30 PM - Partner with security on compliance automation",
+          "3:30 PM - Incident postmortem review and action items",
+          "4:30 PM - Monitoring dashboard improvements",
+          "5:30 PM - Documentation and knowledge sharing"
+        ],
+        closing: "Oracle DevOps Engineers enjoy building the automation that powers one of the world's leading enterprise cloud platforms."
+      },
+      similarRoles: ["Software Engineer", "Cloud Solutions Architect", "Security Engineer", "Database Administrator"]
+    },
+    'ux-designer': {
+      roleDescription: "UX Designers at Oracle create experiences for enterprise software used by millions of users to run critical business operations. You'll design interfaces for Oracle Cloud applications (Fusion ERP, HCM, CX), Oracle Cloud Infrastructure console, and developer tools. Oracle UX challenges are unique—designing for complex business processes, diverse user personas from finance managers to HR administrators to developers, and maintaining consistency across a massive product portfolio. The Redwood design system provides the foundation for Oracle's modern user experience, and designers contribute to its evolution while applying it to specific product contexts. With Oracle's investment in AI and automation, designers increasingly shape how intelligent features integrate into enterprise workflows. You'll work closely with product management and engineering while engaging with enterprise customers who provide direct feedback on designs. The role offers the opportunity to impact how the world's largest organizations operate through thoughtful, user-centered design.",
+      responsibilities: [
+        "Design user experiences for Oracle Cloud applications and services",
+        "Conduct user research to understand enterprise user needs",
+        "Create wireframes, prototypes, and high-fidelity designs",
+        "Apply and contribute to the Redwood design system",
+        "Partner with product and engineering throughout development",
+        "Design for accessibility and global enterprise users",
+        "Test designs with users and iterate based on feedback",
+        "Present design work to stakeholders and leadership",
+        "Design AI-powered features integrating into enterprise workflows"
+      ],
+      growthOpportunities: [
+        "Design products used by millions of enterprise users globally",
+        "Shape the Redwood design system across Oracle products",
+        "Work on AI integration into enterprise experiences",
+        "Clear career path from Designer to Senior, Principal, and Director",
+        "Direct engagement with enterprise customers",
+        "Internal mobility across cloud, applications, and developer tools",
+        "Present at design conferences and Oracle events",
+        "Influence enterprise UX across the industry"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of design background and interest in enterprise UX"
+        },
+        {
+          stage: "Portfolio Review",
+          duration: "60 minutes",
+          description: "Deep dive into portfolio work with hiring manager"
+        },
+        {
+          stage: "Design Exercise",
+          duration: "90-120 minutes",
+          description: "Design challenge for an enterprise UX problem"
+        },
+        {
+          stage: "Design Presentation",
+          duration: "60 minutes",
+          description: "Present design exercise to design panel"
+        },
+        {
+          stage: "Cross-functional Interview",
+          duration: "45 minutes",
+          description: "Discussion with product and engineering partners"
+        },
+        {
+          stage: "Behavioral Interview",
+          duration: "45 minutes",
+          description: "Discussion of experience and collaboration approach"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve the Oracle Cloud ERP user experience?",
+        "Design an AI assistant for enterprise application users",
+        "How would you approach designing for complex approval workflows?",
+        "Design a dashboard for financial reporting and analytics",
+        "How would you improve the Oracle Cloud Infrastructure console?",
+        "Design an onboarding experience for enterprise software",
+        "How would you approach accessibility for enterprise applications?",
+        "Design a mobile experience for HR self-service",
+        "How would you handle designing for multiple user personas?",
+        "Design the experience for configuring business rules",
+        "How would you approach localization for global enterprise users?",
+        "Design an experience for managing cloud resources",
+        "How would you balance power-user needs with simplicity?",
+        "Design a data visualization for supply chain management",
+        "How would you measure success for an enterprise UX redesign?"
+      ],
+      behavioralQuestions: [
+        "Walk me through a design project from research to launch",
+        "Tell me about designing for complex enterprise workflows",
+        "Describe handling conflicting feedback from stakeholders",
+        "How have you advocated for user needs in enterprise software?",
+        "Tell me about designing for accessibility",
+        "Describe collaborating with engineers on complex features",
+        "How have you influenced product direction through design?",
+        "Tell me about a design that didn't test well and what you learned",
+        "Describe contributing to a design system",
+        "How have you balanced user needs with business requirements?",
+        "Tell me about designing for enterprise users you couldn't directly access",
+        "Describe presenting design to skeptical stakeholders",
+        "How have you incorporated research into your process?",
+        "Tell me about mentoring other designers",
+        "How have you stayed current with enterprise UX trends?"
+      ],
+      whatTheyLookFor: [
+        "Strong portfolio demonstrating enterprise or B2B design",
+        "Experience designing complex workflow applications",
+        "Proficiency with design tools (Figma, Sketch)",
+        "Understanding of design systems and component-based design",
+        "User research skills and empathy for enterprise users",
+        "Strong visual and interaction design abilities",
+        "Communication skills for diverse stakeholders",
+        "Collaborative approach with product and engineering",
+        "Commitment to accessibility and inclusive design",
+        "Interest in enterprise software and business processes"
+      ],
+      interviewTips: [
+        "Prepare portfolio with enterprise or B2B UX case studies",
+        "Study Oracle Cloud applications and the Redwood design system",
+        "Practice designing for complex business workflows",
+        "Show user research integrated into your process",
+        "Be ready for take-home or live design exercises",
+        "Understand enterprise UX challenges (complexity, personas)",
+        "Demonstrate accessibility knowledge and practices",
+        "Prepare examples of cross-functional collaboration",
+        "Show how you handle ambiguity in requirements",
+        "Understand how AI is changing enterprise UX",
+        "Prepare questions about the design team and products",
+        "Show genuine passion for enterprise software",
+        "Be ready to discuss trade-offs in design decisions",
+        "Demonstrate continuous learning with design trends"
+      ],
+      salary: {
+        min: 120000,
+        max: 220000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $120,000 - $220,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Design tools and equipment budget",
+        "Conference attendance budget",
+        "Flexible work arrangements",
+        "Education reimbursement"
+      ],
+      dayInLife: {
+        intro: "A typical day as a UX Designer at Oracle involves creative design work, user research, and cross-functional collaboration on enterprise products.",
+        schedule: [
+          "9:00 AM - Review user research findings from recent study",
+          "9:30 AM - Design exploration for workflow improvement",
+          "11:00 AM - Design critique session with UX team",
+          "12:00 PM - Lunch with product manager discussing roadmap",
+          "1:00 PM - Cross-functional sync with engineering on feasibility",
+          "2:30 PM - Prototype development for user testing",
+          "3:30 PM - User testing session with enterprise customer",
+          "4:30 PM - Document design decisions and specifications",
+          "5:30 PM - Contribute updates to Redwood design system"
+        ],
+        closing: "Oracle UX Designers enjoy solving complex enterprise problems while directly impacting how millions of users work every day."
+      },
+      similarRoles: ["Product Manager", "Software Engineer", "UX Researcher", "Product Designer"]
+    },
+    'sales-engineer': {
+      roleDescription: "Sales Engineers at Oracle are the technical experts who demonstrate how Oracle technology solves complex business problems for enterprise customers. You'll partner with Account Executives on strategic opportunities, delivering product demonstrations, building proof-of-concepts, and designing solutions across Oracle's portfolio—from Oracle Cloud Infrastructure to Autonomous Database to Fusion Applications. The role combines deep technical knowledge with sales acumen, requiring you to engage effectively with both IT teams and C-suite executives. Oracle Sales Engineers work on some of the largest technology deals in the industry, often involving multi-year, multi-million dollar commitments. With Oracle's competitive position against AWS, Microsoft, and Salesforce, SEs must articulate Oracle's unique value in cloud, database, and applications. The role offers significant earning potential through the commission structure and the satisfaction of closing transformational deals that reshape how enterprises operate.",
+      responsibilities: [
+        "Deliver product demonstrations tailored to customer requirements",
+        "Build proof-of-concept solutions for strategic opportunities",
+        "Design solution architectures addressing customer business needs",
+        "Partner with Account Executives throughout the sales cycle",
+        "Respond to RFPs and technical evaluations",
+        "Present Oracle's vision and roadmap to customer executives",
+        "Conduct discovery sessions understanding customer pain points",
+        "Competitive positioning against AWS, Microsoft, and others",
+        "Support customer references and case study development"
+      ],
+      growthOpportunities: [
+        "High earning potential through base + commission structure",
+        "Work on transformational deals with Fortune 500 companies",
+        "Clear path to Principal SE, SE Manager, or Solution Architect",
+        "Develop expertise across Oracle's entire technology portfolio",
+        "Build relationships with C-suite executives",
+        "Travel opportunities for customer engagements globally",
+        "Transition paths to product, consulting, or leadership",
+        "Present at CloudWorld and major industry events"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of sales engineering background and Oracle interest"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into SE experience and customer engagement approach"
+        },
+        {
+          stage: "Demo Presentation",
+          duration: "60 minutes",
+          description: "Deliver a product demonstration for a mock scenario"
+        },
+        {
+          stage: "Technical Assessment",
+          duration: "45 minutes",
+          description: "Oracle product knowledge and solution design questions"
+        },
+        {
+          stage: "Sales Collaboration",
+          duration: "45 minutes",
+          description: "Discussion with sales leadership on partnership approach"
+        }
+      ],
+      technicalQuestions: [
+        "How would you position Oracle Cloud against AWS for an enterprise customer?",
+        "Design a solution for a customer migrating from on-premises Oracle to OCI",
+        "How would you demonstrate Autonomous Database value to a DBA team?",
+        "Design a proof-of-concept for Oracle Fusion ERP implementation",
+        "How would you handle technical objections about Oracle's cloud maturity?",
+        "Demonstrate the value of Oracle's multi-cloud strategy",
+        "Design a solution for a customer with complex compliance requirements",
+        "How would you position Oracle against Salesforce for CRM?",
+        "Design a cloud migration strategy for a large Oracle Database customer",
+        "How would you approach a competitive evaluation against Microsoft?",
+        "Demonstrate Oracle's AI capabilities for an enterprise customer",
+        "Design a solution integrating OCI with existing AWS investments",
+        "How would you handle pricing objections in an enterprise deal?",
+        "Design a high-availability architecture for mission-critical workloads",
+        "How would you scope a proof-of-concept to set up success?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a deal you helped win with a compelling demo",
+        "Describe handling technical objections from a skeptical customer",
+        "How have you partnered effectively with Account Executives?",
+        "Tell me about a proof-of-concept that led to a major deal",
+        "Describe building relationships with customer technical teams",
+        "How have you positioned Oracle against strong competition?",
+        "Tell me about a demo that didn't go as planned",
+        "Describe navigating a complex enterprise sales cycle",
+        "How have you stayed current with Oracle's rapid product evolution?",
+        "Tell me about influencing deal strategy with the sales team",
+        "Describe presenting to C-suite executives",
+        "How have you balanced multiple opportunities simultaneously?",
+        "Tell me about a creative solution for a customer challenge",
+        "Describe transitioning a customer from evaluation to purchase",
+        "How have you contributed to the broader SE team's success?"
+      ],
+      whatTheyLookFor: [
+        "Strong knowledge of Oracle products (Database, Cloud, Applications)",
+        "Excellent presentation and demonstration skills",
+        "Ability to translate business needs into technical solutions",
+        "Sales acumen and understanding of enterprise sales cycles",
+        "Customer-facing presence with executive communication skills",
+        "Competitive knowledge (AWS, Microsoft, Salesforce)",
+        "Problem-solving for diverse customer scenarios",
+        "Collaborative approach with sales teams",
+        "Technical curiosity and continuous learning",
+        "Resilience in competitive situations"
+      ],
+      interviewTips: [
+        "Prepare a polished demo showcasing Oracle technology",
+        "Know Oracle's competitive positioning deeply",
+        "Practice handling common objections",
+        "Understand enterprise sales cycles and stakeholders",
+        "Show balance of technical depth and sales acumen",
+        "Prepare examples of deals you've helped win",
+        "Know OCI, Autonomous Database, and Fusion Applications",
+        "Be ready to design solutions for customer scenarios",
+        "Understand how Oracle differentiates from AWS and Microsoft",
+        "Show genuine passion for Oracle technology",
+        "Prepare questions about the territory and accounts",
+        "Demonstrate collaborative approach with sales",
+        "Know Oracle's recent announcements and roadmap",
+        "Be ready to discuss commission and deal expectations"
+      ],
+      salary: {
+        min: 130000,
+        max: 200000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $130,000 - $180,000 depending on level",
+        "On-target earnings (OTE) with commission: $200,000 - $350,000+",
+        "Commission tied to team and individual deal performance",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Travel and entertainment budget",
+        "CloudWorld and conference attendance",
+        "Presidents Club for top performers"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Sales Engineer at Oracle involves customer demonstrations, solution design, and close partnership with the sales team.",
+        schedule: [
+          "8:00 AM - Prepare demo environment for morning customer meeting",
+          "9:00 AM - Customer demo presenting Oracle Cloud Infrastructure",
+          "11:00 AM - Debrief with Account Executive on opportunity",
+          "12:00 PM - Lunch with SE team sharing competitive insights",
+          "1:00 PM - Discovery call for new enterprise opportunity",
+          "2:30 PM - Build proof-of-concept for Autonomous Database",
+          "4:00 PM - Review RFP response with sales team",
+          "5:00 PM - Research customer's industry for presentation",
+          "5:30 PM - Update demo with latest OCI features"
+        ],
+        closing: "Oracle Sales Engineers enjoy the variety of customer engagements and the satisfaction of winning deals that transform how enterprises operate."
+      },
+      similarRoles: ["Cloud Solutions Architect", "Consultant", "Product Manager", "Software Engineer"]
+    },
+    'engineering-manager': {
+      roleDescription: "Engineering Managers at Oracle lead teams building the enterprise software and cloud infrastructure that powers the world's largest organizations. You'll manage teams of 6-12 engineers working on Oracle Database, Oracle Cloud Infrastructure, Fusion Applications, or developer platforms, balancing technical leadership with people development. Oracle EMs are expected to maintain technical credibility—understanding database internals, cloud architecture, or application development deeply enough to guide architectural decisions. The role requires building high-performing teams that deliver enterprise-grade software meeting the reliability, security, and performance expectations of Fortune 500 customers. With Oracle's global engineering presence, managers often work with distributed teams across time zones. The company's decades of enterprise software experience means EMs can learn from deep institutional knowledge while driving innovation in cloud and AI.",
+      responsibilities: [
+        "Lead and develop a team of 6-12 software engineers",
+        "Set technical direction ensuring enterprise-grade quality",
+        "Drive product execution partnering with product management",
+        "Hire diverse talent and develop inclusive team culture",
+        "Manage performance through continuous feedback and coaching",
+        "Balance technical debt with feature development velocity",
+        "Ensure team engagement with customer success and feedback",
+        "Coordinate with global engineering teams across time zones",
+        "Represent engineering in cross-functional planning"
+      ],
+      growthOpportunities: [
+        "Lead teams building technology for Fortune 500 companies",
+        "Clear path to Senior EM, Director, VP, and SVP roles",
+        "Work on foundational technologies with global impact",
+        "Develop leadership skills in enterprise software context",
+        "Internal mobility across cloud, database, and applications",
+        "Access to executive leadership and strategic planning",
+        "Build expertise managing distributed global teams",
+        "Shape Oracle's engineering culture and practices"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of management experience and interest in Oracle"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into leadership philosophy and people management"
+        },
+        {
+          stage: "Technical Leadership",
+          duration: "45 minutes",
+          description: "System design demonstrating technical credibility"
+        },
+        {
+          stage: "People Management",
+          duration: "45 minutes",
+          description: "Scenarios covering hiring, development, and performance"
+        },
+        {
+          stage: "Execution",
+          duration: "45 minutes",
+          description: "Discussion of delivering projects and cross-functional work"
+        },
+        {
+          stage: "Behavioral",
+          duration: "45 minutes",
+          description: "Discussion of leadership style and collaboration approach"
+        }
+      ],
+      technicalQuestions: [
+        "Design the architecture for Oracle Database's query optimizer",
+        "How would you improve reliability for OCI compute services?",
+        "Your team is behind on a critical enterprise feature—how do you recover?",
+        "Design the scaling strategy for Oracle's autonomous database",
+        "How do you balance technical debt with new feature development?",
+        "Walk through scaling a team from 6 to 12 engineers",
+        "Your team has a P1 incident affecting customers—how do you respond?",
+        "Design the testing strategy for enterprise database software",
+        "How would you approach a major database version upgrade?",
+        "Design monitoring strategy for cloud service reliability",
+        "How do you ensure security in enterprise software development?",
+        "Walk through building a new team for a greenfield product",
+        "How would you improve developer productivity for your team?",
+        "Design the release process for enterprise software"
+      ],
+      behavioralQuestions: [
+        "Tell me about building a high-performing engineering team",
+        "Describe managing a performance issue with an engineer",
+        "How have you built inclusive team culture?",
+        "Tell me about driving technical excellence in your team",
+        "Describe resolving a conflict between team members",
+        "How do you foster innovation while maintaining reliability?",
+        "Tell me about delivering difficult feedback effectively",
+        "Describe mentoring engineers to senior levels",
+        "How have you managed remote or distributed teams?",
+        "Tell me about a hiring mistake and what you learned",
+        "Describe leading your team through organizational change",
+        "How do you balance being hands-on with delegation?",
+        "Tell me about developing an engineer's career significantly",
+        "Describe managing stakeholder expectations across functions",
+        "How have you handled burnout on your team?"
+      ],
+      whatTheyLookFor: [
+        "Strong technical credibility in enterprise software",
+        "People management experience leading teams of 5+ engineers",
+        "Track record shipping reliable enterprise products",
+        "Customer-focused mindset for business-critical systems",
+        "Excellent communication and stakeholder management",
+        "Experience with databases, cloud, or enterprise applications",
+        "Excellence in hiring, developing, and retaining talent",
+        "Ability to work with distributed global teams",
+        "Strategic thinking about technology and team direction",
+        "Passion for building high-performing teams"
+      ],
+      interviewTips: [
+        "Prepare examples of building high-performing teams",
+        "Demonstrate technical depth in enterprise software",
+        "Show customer focus and enterprise mindset",
+        "Prepare specific examples of people development",
+        "Be ready to discuss performance management approaches",
+        "Understand Oracle's products and engineering challenges",
+        "Prepare examples of leading through change",
+        "Show how you balance technical and people leadership",
+        "Be ready for system design to show technical credibility",
+        "Prepare questions about the team and organization",
+        "Show genuine passion for developing engineers",
+        "Understand Oracle's engineering culture and values",
+        "Be ready to discuss distributed team management",
+        "Demonstrate strategic thinking about technology"
+      ],
+      salary: {
+        min: 180000,
+        max: 320000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $320,000 depending on level and scope",
+        "Annual bonus typically 15-25% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Executive health benefits at senior levels",
+        "Flexible work arrangements",
+        "Leadership development programs",
+        "Conference and training budget",
+        "Home office and equipment budget"
+      ],
+      dayInLife: {
+        intro: "A typical day as an Engineering Manager at Oracle involves people leadership, technical guidance, and cross-functional collaboration on enterprise software.",
+        schedule: [
+          "9:00 AM - Review team metrics and customer escalation queue",
+          "9:30 AM - 1:1 with senior engineer on career development",
+          "10:00 AM - Team standup and sprint health check",
+          "10:30 AM - Architecture review for database optimization",
+          "11:30 AM - Interview candidate for open position",
+          "12:30 PM - Lunch with product manager discussing roadmap",
+          "1:30 PM - Cross-functional sync with QA and operations",
+          "2:30 PM - 1:1 with engineer on performance goals",
+          "3:30 PM - Manager peer group on organizational initiatives",
+          "4:30 PM - Planning and strategic thinking time"
+        ],
+        closing: "Oracle Engineering Managers enjoy building teams that create foundational technology while developing engineers who become industry experts."
+      },
+      similarRoles: ["Software Engineer", "Cloud Solutions Architect", "Product Manager", "Director of Engineering"]
+    },
+
+    'account-executive': {
+      roleDescription: "Account Executives at Oracle drive revenue growth by selling the world's most comprehensive cloud infrastructure and enterprise software portfolio to businesses globally. You'll own relationships with enterprise customers, selling Oracle Cloud Infrastructure (OCI), Oracle Fusion Applications (ERP, HCM, SCM, CX), Autonomous Database, and industry-specific solutions. Oracle AEs are strategic partners who help customers modernize their technology infrastructure and business processes, competing head-to-head with AWS, Microsoft, and Salesforce. With compensation ranging from $100K-$300K+ OTE and access to Oracle's vast product portfolio, this role offers significant earning potential and career growth.",
+
+      responsibilities: [
+        "Own full sales cycle for Oracle Cloud and Applications within assigned territory or accounts",
+        "Develop strategic account plans to penetrate and grow enterprise relationships",
+        "Conduct discovery to understand customer's technology landscape and business objectives",
+        "Position Oracle solutions against AWS, Microsoft Azure, Salesforce, and SAP",
+        "Build relationships with C-suite executives, IT leaders, and line-of-business buyers",
+        "Collaborate with Solution Engineers, Consultants, and Partners on complex deals",
+        "Manage accurate pipeline and forecasting in Oracle's CRM systems",
+        "Drive cloud migration and modernization conversations with existing Oracle customers",
+        "Leverage Oracle's partner ecosystem to extend reach and accelerate deals"
+      ],
+
+      growthOpportunities: [
+        "Progression from Commercial to Enterprise to Strategic/Named accounts",
+        "Uncapped commission with significant accelerators for overachievement",
+        "Specialization opportunities in OCI, Applications, Industries, or Database",
+        "Path to sales leadership, solutions consulting, or business development roles",
+        "Access to Oracle's extensive sales training and certification programs",
+        "Global mobility opportunities across Oracle's worldwide operations",
+        "Build expertise across the full enterprise technology stack",
+        "Oracle Club recognition and incentive trips for top performers"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about sales background, enterprise experience, and interest in Oracle. Overview of territory, product focus, and compensation structure.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute deep dive on sales methodology, quota attainment, and experience with complex enterprise deals. Expect detailed questions about competitive wins.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Role Play / Presentation",
+          description: "Deliver a mock pitch or executive presentation. Focus on articulating business value and handling objections against competitors.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Panel Interview",
+          description: "Meet with sales leadership, solution engineers, and cross-functional partners to assess enterprise selling capabilities and culture fit.",
+          duration: "2-3 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, uncapped commission, equity, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Walk me through a complex enterprise deal you closed—what was your strategy?",
+        "How do you approach competitive displacement of AWS or Microsoft Azure?",
+        "Describe your discovery process for understanding a customer's technology landscape",
+        "How would you position Oracle Cloud Infrastructure against hyperscalers?",
+        "Tell me about a deal you won against Salesforce or SAP—what made the difference?",
+        "How do you navigate long enterprise sales cycles with multiple stakeholders?",
+        "Describe your approach to selling to both IT and line-of-business buyers",
+        "How do you leverage partners and system integrators in your deals?",
+        "What's your methodology for building pipeline in a mature territory?",
+        "How would you approach an existing Oracle customer for cloud migration?",
+        "Describe how you handle procurement and legal negotiations",
+        "How do you stay current on Oracle's product portfolio and competitive landscape?",
+        "Walk me through how you'd build an executive business case",
+        "How do you maintain deal momentum across 6-12+ month sales cycles?"
       ],
 
       behavioralQuestions: [
-        "Tell me about an enterprise product you launched and its impact",
-        "Describe how you've worked with sales teams to win major accounts",
-        "How have you balanced competing customer requirements?",
-        "Tell me about a time you influenced technical decisions",
-        "Describe your experience with enterprise buyer personas (CIOs, CTOs)",
-        "How do you prioritize features for different customer segments?",
-        "Tell me about a product decision that required long-term thinking",
-        "Describe a time you managed a complex product migration"
+        "Tell me about your most significant quota achievement and what drove it",
+        "Describe a competitive deal you lost and what you learned from it",
+        "How have you turned around a deal that was going to a competitor?",
+        "Tell me about a time you had to navigate complex internal politics at a customer",
+        "Describe your approach to building executive relationships",
+        "How have you collaborated with partners to accelerate or close deals?",
+        "Tell me about a time you had to sell a new product with limited customer references",
+        "Describe how you've managed a large territory with many accounts",
+        "How have you handled a situation where a customer was unhappy post-implementation?",
+        "Tell me about a creative approach you took to break into a competitive account",
+        "Describe your experience with multi-product or platform deals",
+        "How have you leveraged customer success stories in your selling?",
+        "Tell me about a time you had to push back on a customer's unrealistic expectations",
+        "Describe how you stay motivated during challenging quarters"
       ],
 
       whatTheyLookFor: [
-        "Understanding of enterprise software and B2B markets",
-        "Technical depth to collaborate with engineering teams",
-        "Customer empathy for IT buyers and business users",
-        "Strategic thinking about competitive positioning",
-        "Strong communication skills for diverse audiences",
-        "Business acumen and understanding of enterprise economics",
-        "Ability to balance innovation with stability",
-        "Experience with long sales cycles and complex deployments"
+        "Proven track record of exceeding quota in enterprise software/cloud sales",
+        "Experience selling against major competitors (AWS, Microsoft, Salesforce, SAP)",
+        "Strong executive presence and C-suite relationship building skills",
+        "Understanding of enterprise technology—cloud, ERP, database, infrastructure",
+        "Strategic account planning and territory management capabilities",
+        "Resilience and persistence in complex, long-cycle enterprise deals",
+        "Collaboration skills with technical teams and channel partners",
+        "Strong business acumen and ability to build ROI-based value propositions",
+        "Hunter mentality with proven prospecting and pipeline generation skills",
+        "Competitive drive and commitment to winning"
       ],
 
       interviewTips: [
-        "Understand Oracle's product portfolio and cloud strategy",
-        "Be prepared to discuss enterprise software challenges",
-        "Show examples of working with large enterprise customers",
-        "Research competitive landscape (AWS, Azure, Google Cloud)",
-        "Demonstrate understanding of database and cloud technologies",
-        "Prepare ideas for Oracle's product strategy",
-        "Be ready to discuss B2B sales cycles and enterprise buying",
-        "Express interest in foundational enterprise technology"
+        "Know your numbers inside and out—quota, attainment, deal sizes, win rates",
+        "Prepare detailed stories about competitive wins, especially against AWS/Azure/Salesforce",
+        "Research Oracle's product portfolio—OCI, Fusion Applications, Autonomous Database",
+        "Understand Oracle's competitive positioning and recent wins",
+        "Practice your executive pitch—focus on business outcomes and ROI",
+        "Be ready to discuss your approach to multi-stakeholder enterprise deals",
+        "Show understanding of cloud migration and digital transformation trends",
+        "Prepare thoughtful questions about territory, quota, and team structure",
+        "Demonstrate familiarity with Oracle's industry solutions if applying to a vertical",
+        "Be ready to discuss how you'd approach existing Oracle customers vs net-new",
+        "Show your competitive intelligence and market awareness",
+        "Highlight experience with partners and channel-led deals",
+        "Understand Oracle's strengths (database, integration, security)",
+        "Be prepared to discuss your sales methodology and process"
+      ],
+
+      salary: {
+        min: 100000,
+        max: 150000,
+        avg: 120000
+      },
+
+      compensation: [
+        "Base salary: $100K-$150K depending on segment and experience",
+        "On-target earnings (OTE): $200K-$350K+ with uncapped commission",
+        "Commission: Accelerators for exceeding quota (2-3x above 100%)",
+        "RSUs: Equity grants for senior roles",
+        "Sign-on bonus for experienced enterprise sellers",
+        "Oracle Club trips and recognition for top performers",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Employee Stock Purchase Plan (ESPP)",
+        "Paid time off and company holidays",
+        "Car allowance for field roles"
       ],
 
       dayInLife: {
-        overview: "Oracle PMs balance strategic planning, customer engagement, engineering collaboration, and go-to-market execution. Days involve stakeholder management, product decisions, and driving enterprise adoption.",
+        intro: "A typical day as an Oracle Account Executive involves strategic account planning, customer engagement, competitive positioning, and collaboration with technical teams to win complex enterprise deals.",
         schedule: [
           {
+            time: "8:00 AM",
+            activity: "Pipeline Review",
+            description: "Review opportunities, update forecast, and prioritize daily activities"
+          },
+          {
             time: "9:00 AM",
-            activity: "Customer Call",
-            description: "Discuss product roadmap with CIO of Fortune 500 customer"
+            activity: "Account Planning",
+            description: "Develop strategy for strategic account, map stakeholders and competitive landscape"
           },
           {
             time: "10:00 AM",
-            activity: "Product Planning",
-            description: "Review feature prioritization with engineering leadership"
-          },
-          {
-            time: "11:00 AM",
-            activity: "Competitive Analysis",
-            description: "Analyze AWS feature announcements and competitive positioning"
+            activity: "Executive Briefing",
+            description: "Host customer CIO at Oracle office for executive briefing on OCI roadmap"
           },
           {
             time: "12:00 PM",
-            activity: "Lunch with Sales",
-            description: "Discuss customer feedback and win/loss analysis with sales team"
+            activity: "Partner Lunch",
+            description: "Meet with system integrator partner to discuss joint pipeline and deals"
           },
           {
-            time: "1:00 PM",
-            activity: "Product Review",
-            description: "Present quarterly product strategy to VP and executive team"
+            time: "1:30 PM",
+            activity: "Deal Strategy Session",
+            description: "Internal meeting with solution engineer and overlay specialists on key opportunity"
           },
           {
             time: "2:30 PM",
-            activity: "Engineering Sync",
-            description: "Collaborate on technical design for multi-tenant feature"
+            activity: "Customer Workshop",
+            description: "Lead cloud migration workshop with prospect's IT team"
           },
           {
-            time: "3:30 PM",
-            activity: "Customer Advisory Board",
-            description: "Virtual meeting with strategic customer advisory board"
+            time: "4:00 PM",
+            activity: "Proposal Development",
+            description: "Work with deal desk on pricing and proposal for enterprise deal"
           },
           {
-            time: "4:30 PM",
-            activity: "Metrics Review",
-            description: "Analyze product adoption and usage metrics for cloud services"
+            time: "5:00 PM",
+            activity: "Prospecting",
+            description: "Execute outreach to target accounts for pipeline development"
           }
-        ]
+        ],
+        closing: "Oracle AEs operate as strategic advisors to enterprise customers, leveraging Oracle's comprehensive technology portfolio to drive transformational business outcomes."
       },
 
       similarRoles: [
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
-        { companyName: "IBM", companySlug: "ibm", industry: "Technology" },
-        { companyName: "SAP", companySlug: "sap", industry: "Technology" }
+        "Salesforce Account Executive",
+        "SAP Account Executive",
+        "Microsoft Account Executive",
+        "AWS Account Executive"
       ]
     },
 
-    'engineering-manager': {
-      roleDescription: "Engineering Managers at Oracle lead teams building enterprise software and cloud infrastructure used by the world's largest organizations. You'll manage engineers working on databases, cloud services, or business applications, balancing technical excellence with customer needs. EMs foster strong engineering culture while delivering reliable enterprise-grade products.",
+    'customer-success-manager': {
+      roleDescription: "Customer Success Managers at Oracle ensure enterprise customers achieve maximum value from their Oracle Cloud investments, driving adoption, retention, and expansion across Oracle's comprehensive product portfolio. You'll serve as a trusted advisor to Fortune 500 companies and global enterprises, guiding them through cloud migrations, ERP transformations, and digital modernization initiatives. Oracle CSMs combine deep product expertise with strategic consulting skills to help customers realize ROI from Oracle Cloud Infrastructure (OCI), Fusion Applications, and Autonomous Database—with over 1,000+ CSM positions and compensation ranging from $100K-$200K+.",
 
       responsibilities: [
-        "Lead team of engineers on database, cloud, or application products",
-        "Drive technical strategy and architecture decisions",
-        "Partner with product managers on roadmap and execution",
-        "Recruit, develop, and retain engineering talent",
-        "Conduct performance reviews and career development planning",
-        "Ensure product quality, security, and enterprise reliability",
-        "Manage customer escalations and technical support",
-        "Contribute to engineering processes and best practices"
+        "Own customer relationships and drive adoption of Oracle Cloud solutions post-sale",
+        "Develop and execute success plans aligned with customer business objectives",
+        "Monitor customer health metrics and proactively address risks to retention",
+        "Drive product adoption, usage optimization, and expansion opportunities",
+        "Coordinate with Support, Services, and Product teams to resolve customer issues",
+        "Conduct Executive Business Reviews (EBRs) to demonstrate value and ROI",
+        "Guide customers through cloud migrations, implementations, and go-lives",
+        "Identify upsell and cross-sell opportunities for account growth",
+        "Serve as voice of the customer to influence product roadmap"
       ],
 
       growthOpportunities: [
-        "Scale management skills in enterprise software environment",
-        "Exposure to complex systems used by Fortune 500 companies",
-        "Opportunities to grow into senior engineering leadership",
-        "Cross-functional influence with product, sales, and support teams",
-        "Shape engineering culture and technical standards",
-        "Mentor engineers working on foundational technologies",
-        "Internal mobility across Oracle's product portfolio",
-        "Impact on enterprise computing and digital transformation"
+        "Advance from CSM through Senior, Principal, to Director of Customer Success",
+        "Deep expertise across Oracle's comprehensive cloud and application portfolio",
+        "Path to customer success leadership, solutions consulting, or sales roles",
+        "Opportunity to specialize in OCI, Applications, Industries, or Database",
+        "Access to Oracle's extensive training and certification programs",
+        "Global mobility across Oracle's worldwide customer success organization",
+        "Build strategic relationships with enterprise executives",
+        "Influence product development through customer feedback"
       ],
 
       interviewProcess: [
         {
-          step: 1,
+          stage: 1,
           title: "Recruiter Screen",
-          description: "30-minute conversation about management experience and interest in Oracle.",
+          description: "30-minute conversation about customer success background, Oracle product experience, and interest in the role. Overview of team structure and customer portfolio.",
           duration: "30 minutes"
         },
         {
-          step: 2,
-          title: "Technical Discussion",
-          description: "60-minute discussion on system design, technical leadership, and enterprise software challenges.",
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on customer success methodology, retention experience, and approach to driving adoption and value realization.",
           duration: "60 minutes"
         },
         {
-          step: 3,
-          title: "Onsite/Virtual (4-5 rounds)",
-          description: "People management, technical leadership, collaboration, system design, and leadership values.",
-          duration: "4-5 hours"
+          stage: 3,
+          title: "Case Study / Presentation",
+          description: "Present a customer success scenario—develop a success plan, identify risks, and propose strategies for driving adoption and expansion.",
+          duration: "45-60 minutes"
         },
         {
-          step: 4,
-          title: "Hiring Manager & Offer",
-          description: "Discussion with senior leadership. Competitive offer with equity and benefits.",
+          stage: 4,
+          title: "Panel Interview",
+          description: "Meet with cross-functional partners (Sales, Services, Support, Product) to assess collaboration skills and customer-centric mindset.",
+          duration: "2-3 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base salary, bonus, equity, and comprehensive benefits.",
           duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "How would you architect a globally distributed database system?",
-        "Describe your approach to managing technical debt in legacy systems",
-        "How do you balance feature development with enterprise reliability?",
-        "What's your strategy for database performance optimization?",
-        "How would you approach migrating customers to a new platform?",
-        "Describe your framework for making build-vs-buy decisions",
-        "How do you ensure security and compliance for enterprise customers?",
-        "What's your approach to managing customer escalations?"
+        "How do you develop a success plan for a customer implementing Oracle Fusion ERP?",
+        "Describe your approach to driving adoption when users are resistant to change",
+        "How would you handle a customer at risk of churning due to implementation challenges?",
+        "Walk me through conducting an Executive Business Review with a C-level audience",
+        "How do you measure and demonstrate ROI for Oracle Cloud investments?",
+        "Describe your approach to identifying expansion opportunities within an account",
+        "How would you coordinate with Services and Support on a troubled implementation?",
+        "What metrics do you track to monitor customer health?",
+        "How do you balance reactive support with proactive success activities?",
+        "Describe your approach to guiding a customer through a cloud migration",
+        "How would you handle competing priorities across multiple enterprise customers?",
+        "What's your methodology for building executive relationships?",
+        "How do you stay current on Oracle's product portfolio and roadmap?",
+        "Describe how you'd approach a customer considering competitive alternatives"
       ],
 
       behavioralQuestions: [
-        "Tell me about a time you led a team on enterprise-scale systems",
-        "Describe how you've handled complex customer requirements",
-        "How have you developed engineers on your team?",
-        "Tell me about managing trade-offs between innovation and stability",
-        "Describe your experience with distributed or global teams",
-        "How do you build partnerships with product and sales teams?",
-        "Tell me about a difficult technical decision you made",
-        "Describe how you've improved engineering productivity"
+        "Tell me about a time you turned around an at-risk customer relationship",
+        "Describe a significant expansion or upsell you drove within a customer account",
+        "How have you handled a situation where a customer's expectations exceeded product capabilities?",
+        "Tell me about a time you had to deliver difficult news to a customer executive",
+        "Describe your approach to managing a large portfolio of enterprise customers",
+        "How have you collaborated with sales on renewal and expansion opportunities?",
+        "Tell me about a time you advocated for a customer with product or engineering teams",
+        "Describe how you've built executive relationships at customer organizations",
+        "How have you handled a customer escalation that required cross-functional coordination?",
+        "Tell me about a creative approach you took to drive product adoption",
+        "Describe your experience with enterprise software implementations or migrations",
+        "How have you measured and improved customer satisfaction in your role?",
+        "Tell me about a time you identified a risk before it became a major issue",
+        "Describe how you stay organized managing multiple customer relationships"
       ],
 
       whatTheyLookFor: [
-        "Strong people leadership and team development skills",
-        "Technical depth in systems, databases, or cloud infrastructure",
-        "Understanding of enterprise customer needs",
+        "Proven track record in customer success, account management, or consulting",
+        "Experience with enterprise software, cloud platforms, or ERP systems",
+        "Strong executive communication and presentation skills",
+        "Ability to build trusted advisor relationships with C-level stakeholders",
+        "Analytical mindset with experience using data to drive decisions",
         "Cross-functional collaboration skills",
-        "Experience with large-scale production systems",
-        "Balance of innovation and operational excellence",
-        "Customer focus and business acumen",
-        "Commitment to engineering quality and best practices"
+        "Understanding of customer success metrics (NPS, CSAT, adoption, retention)",
+        "Experience managing complex enterprise customer relationships",
+        "Technical aptitude to understand Oracle's product portfolio",
+        "Results-oriented with focus on customer outcomes"
       ],
 
       interviewTips: [
-        "Understand enterprise software development challenges",
-        "Prepare examples of managing complex technical projects",
-        "Show experience with customer-facing engineering work",
-        "Demonstrate understanding of databases or cloud infrastructure",
-        "Discuss your approach to managing legacy systems",
-        "Research Oracle's engineering culture and products",
-        "Be ready to discuss enterprise reliability and security",
-        "Express interest in foundational infrastructure impact"
+        "Research Oracle's product portfolio—OCI, Fusion Applications, Autonomous Database",
+        "Prepare specific examples of customer retention and expansion success",
+        "Be ready to discuss your customer success methodology and metrics",
+        "Understand Oracle's competitive landscape (AWS, Microsoft, Salesforce, SAP)",
+        "Practice presenting an Executive Business Review or success plan",
+        "Show understanding of enterprise software implementation challenges",
+        "Prepare examples of cross-functional collaboration",
+        "Be ready to discuss how you handle at-risk customers",
+        "Demonstrate familiarity with customer health scoring and monitoring",
+        "Show genuine passion for customer success and outcomes",
+        "Prepare thoughtful questions about customer portfolio and team structure",
+        "Understand cloud migration and digital transformation trends",
+        "Be ready to discuss your approach to building executive relationships",
+        "Show how you balance reactive and proactive customer engagement"
+      ],
+
+      salary: {
+        min: 100000,
+        max: 180000,
+        avg: 135000
+      },
+
+      compensation: [
+        "Base salary: $100K-$180K depending on level and experience",
+        "Annual bonus: 15-25% of base salary tied to retention and expansion metrics",
+        "RSUs: Equity grants for senior roles",
+        "401(k) with company match",
+        "Comprehensive health, dental, and vision coverage",
+        "Employee Stock Purchase Plan (ESPP)",
+        "Paid time off and company holidays",
+        "Learning and certification budget",
+        "Home office allowance for remote roles"
       ],
 
       dayInLife: {
-        overview: "Oracle EMs balance people management, technical guidance, customer engagement, and strategic planning. Days include 1:1s, design reviews, customer escalations, and cross-functional collaboration.",
+        intro: "A typical day as an Oracle Customer Success Manager involves a mix of strategic planning, customer engagement, cross-functional coordination, and proactive outreach to ensure customers achieve their business objectives.",
         schedule: [
           {
+            time: "8:00 AM",
+            activity: "Health Dashboard Review",
+            description: "Review customer health scores, usage metrics, and support ticket status"
+          },
+          {
             time: "9:00 AM",
-            activity: "1:1 Meetings",
-            description: "Career development discussions with two team members"
+            activity: "Internal Sync",
+            description: "Meet with support team on escalated issue for strategic customer"
           },
           {
             time: "10:00 AM",
-            activity: "Architecture Review",
-            description: "Review technical design for cloud database feature with architects"
+            activity: "Customer Check-in",
+            description: "Quarterly business review call with customer's IT leadership team"
           },
           {
-            time: "11:00 AM",
-            activity: "Customer Escalation",
-            description: "Meet with team to resolve critical customer issue"
+            time: "11:30 AM",
+            activity: "Success Planning",
+            description: "Develop success plan for customer beginning Fusion ERP implementation"
           },
           {
-            time: "12:00 PM",
-            activity: "Product Planning",
-            description: "Collaborate with PM on Q2 roadmap and engineering capacity"
+            time: "12:30 PM",
+            activity: "Team Lunch",
+            description: "CSM team meeting to share best practices and learnings"
           },
           {
-            time: "1:00 PM",
-            activity: "Recruiting",
-            description: "Interview senior engineer candidate for database team"
+            time: "1:30 PM",
+            activity: "Executive Meeting",
+            description: "Meet with customer CFO to discuss ROI and expansion opportunities"
           },
           {
-            time: "2:30 PM",
-            activity: "Team Sync",
-            description: "Weekly team meeting on sprint progress and technical challenges"
+            time: "3:00 PM",
+            activity: "Cross-Functional Sync",
+            description: "Coordinate with Sales on upcoming renewal and expansion strategy"
           },
           {
-            time: "3:30 PM",
-            activity: "Engineering Leadership",
-            description: "Attend engineering leadership meeting on org strategy"
+            time: "4:00 PM",
+            activity: "Adoption Review",
+            description: "Analyze usage data and prepare adoption recommendations for customer"
           },
           {
-            time: "4:30 PM",
-            activity: "Performance Planning",
-            description: "Prepare performance reviews and promotion cases"
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update customer records, log activities, prepare for tomorrow"
           }
-        ]
+        ],
+        closing: "Oracle CSMs serve as strategic partners to enterprise customers, ensuring they realize maximum value from Oracle's comprehensive cloud and application portfolio."
       },
 
       similarRoles: [
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Amazon", companySlug: "amazon", industry: "Technology" }
+        "Salesforce Customer Success Manager",
+        "SAP Customer Success Manager",
+        "Microsoft Customer Success Manager",
+        "AWS Customer Success Manager"
       ]
     }
   },
-
-  // Priority 3B: Adobe
   'adobe': {
     'software-engineer': {
-      roleDescription: "Software Engineers at Adobe build creative and marketing software empowering millions of creators, designers, and marketers worldwide. You'll work on products like Photoshop, Illustrator, Premiere Pro, or Adobe Experience Cloud, combining creativity with cutting-edge technology. Engineers at Adobe solve unique challenges in graphics, video, AI/ML, and creative workflows.",
+      roleDescription: "Software Engineers at Adobe build the creative and marketing software that empowers over 30 million Creative Cloud subscribers and hundreds of thousands of enterprises worldwide. You'll work on iconic products like Photoshop, Illustrator, Premiere Pro, After Effects, and Adobe Experience Cloud, combining cutting-edge technology with deep understanding of creative workflows. Adobe engineers tackle unique challenges in graphics rendering, video processing, AI/ML, cloud infrastructure, and real-time collaboration—building tools that define industry standards for digital creativity and marketing technology.",
 
       responsibilities: [
-        "Design and build features for Creative Cloud applications",
-        "Develop marketing and analytics platforms for Adobe Experience Cloud",
-        "Work on graphics rendering, video processing, or AI-powered tools",
-        "Build cross-platform applications (desktop, web, mobile)",
-        "Optimize performance for creative workflows and large files",
-        "Collaborate with designers and product managers on user experiences",
-        "Integrate AI and machine learning into creative tools (Adobe Sensei)",
-        "Contribute to open-source projects and web standards"
+        "Design and develop features for Creative Cloud applications (Photoshop, Illustrator, Premiere Pro, After Effects, InDesign)",
+        "Build scalable cloud services for Document Cloud and Experience Cloud platforms",
+        "Implement AI-powered creative features using Adobe Sensei and Firefly technologies",
+        "Develop real-time collaboration features for cross-functional creative teams",
+        "Optimize graphics rendering, video processing, and performance for professional workflows",
+        "Create cross-platform applications spanning desktop, web, and mobile experiences",
+        "Build APIs and extensibility frameworks for third-party developer ecosystem",
+        "Contribute to open-source projects and web standards initiatives",
+        "Collaborate closely with designers, researchers, and product managers on user experiences"
       ],
 
       growthOpportunities: [
-        "Career progression from IC to principal engineer or technical lead",
-        "Exposure to graphics, video, AI, and creative technology",
-        "Work on products used by millions of creative professionals",
-        "Opportunities across Creative Cloud, Document Cloud, and Experience Cloud",
-        "Internal mobility between product teams and technology stacks",
-        "Collaborate with world-class designers and UX teams",
-        "Influence on creative industry standards and workflows",
-        "Global impact on digital creativity and marketing technology"
+        "Career progression from IC through Staff, Principal, to Distinguished Engineer levels",
+        "Deep exposure to graphics, video, AI/ML, and creative technology domains",
+        "Work on products used by millions of creative professionals globally",
+        "Opportunities across Creative Cloud, Document Cloud, Experience Cloud, and Adobe Research",
+        "Internal mobility between product teams, technology stacks, and global offices",
+        "Collaborate with world-class designers, researchers, and UX teams",
+        "Influence creative industry standards and professional workflows",
+        "Contribute to Adobe's generative AI initiatives (Firefly, Sensei)"
       ],
 
       interviewProcess: [
         {
-          step: 1,
+          stage: 1,
           title: "Recruiter Screen",
-          description: "30-minute conversation about background, skills, and interest in Adobe.",
-          duration: "30 minutes"
+          description: "30-45 minute conversation about your background, technical interests, and passion for creative technology. Discussion of Adobe's product portfolio and team opportunities.",
+          duration: "30-45 minutes"
         },
         {
-          step: 2,
+          stage: 2,
           title: "Technical Phone Screen",
-          description: "60-minute coding interview on data structures, algorithms, and problem-solving.",
+          description: "60-minute coding interview covering data structures, algorithms, and problem-solving. Questions often relate to graphics, string manipulation, or creative domain challenges.",
           duration: "60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Coding (2 rounds), system design, behavioral/culture fit, and sometimes domain-specific technical discussion.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including two coding interviews (LeetCode medium level), system design (creative tools or cloud architecture), behavioral/culture fit, and domain-specific technical discussion for senior roles.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Team review of interview feedback. Competitive offer with equity and benefits.",
+          stage: 4,
+          title: "Hiring Committee Review",
+          description: "Cross-functional panel reviews interview feedback, technical depth, and creative passion. Team matching discussions for best fit.",
+          duration: "3-5 days"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer including base salary, annual bonus, RSUs with 4-year vesting, and comprehensive benefits. Adobe's compensation is competitive with top tech companies.",
           duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "Design the architecture for a collaborative editing tool like Adobe XD",
-        "Implement an image filter or effect for Photoshop",
-        "Design Adobe's cloud document sync system",
-        "How would you optimize video rendering performance?",
-        "Design a real-time collaboration feature for creative tools",
-        "Implement an undo/redo system for complex creative operations",
-        "Design Adobe's font delivery and rendering system",
-        "How would you build AI-powered content-aware fill?",
-        "Design the analytics platform for Adobe Experience Cloud",
-        "Implement a plugin architecture for Creative Cloud apps"
+        "Design the architecture for a real-time collaborative editing system like Adobe XD or Figma",
+        "Implement an image filter or effect algorithm for Photoshop (blur, sharpen, color adjustment)",
+        "Design Adobe's cloud document sync system handling large creative files across devices",
+        "How would you optimize video rendering performance for 4K/8K content in Premiere Pro?",
+        "Design a real-time collaboration feature allowing multiple designers to work simultaneously",
+        "Implement an undo/redo system for complex creative operations with branching history",
+        "Design Adobe Fonts' font delivery, rendering, and licensing system at scale",
+        "How would you build AI-powered content-aware fill using computer vision?",
+        "Design the analytics and personalization platform for Adobe Experience Cloud",
+        "Implement a plugin architecture for Creative Cloud apps supporting third-party extensions",
+        "Design a system to handle layer management and compositing in a graphics application",
+        "How would you implement real-time preview for video effects during editing?",
+        "Design Adobe Stock's asset management, search, and licensing infrastructure",
+        "Implement a vector graphics rendering engine with smooth zoom and pan",
+        "How would you design Adobe Acrobat's PDF processing and conversion pipeline?",
+        "Design a system for AI-generated content with proper attribution and licensing"
       ],
 
       behavioralQuestions: [
         "Tell me about a time you built creative or design-focused software",
         "Describe your experience with graphics, video, or multimedia technology",
         "How have you collaborated with designers on product development?",
-        "Tell me about a time you optimized application performance",
-        "Describe your approach to building user-friendly interfaces",
-        "How do you stay current with creative technology trends?",
-        "Tell me about a project where user experience was critical",
-        "Describe a time you implemented AI or ML in a product"
+        "Tell me about a time you significantly optimized application performance",
+        "Describe your approach to building user-friendly interfaces for complex workflows",
+        "How do you stay current with creative technology trends and industry standards?",
+        "Tell me about a project where user experience was critical to success",
+        "Describe a time you implemented AI or ML in a product feature",
+        "How have you balanced innovation with maintaining stability for professional users?",
+        "Tell me about a technically challenging problem you solved creatively",
+        "Describe your experience working on cross-platform applications",
+        "How have you handled technical debt while shipping new features?",
+        "Tell me about a time you advocated for a technical decision against opposition",
+        "Describe how you've mentored junior engineers or contributed to team growth"
       ],
 
       whatTheyLookFor: [
-        "Strong computer science fundamentals and coding skills",
-        "Interest in creative technology, graphics, or multimedia",
-        "Collaboration skills with design and product teams",
+        "Strong computer science fundamentals and coding skills (Java, C++, JavaScript/TypeScript)",
+        "Genuine interest in creative technology, graphics, or multimedia",
+        "Collaboration skills with design, product, and research teams",
         "User-centric thinking and attention to UX details",
-        "Performance optimization mindset",
-        "Passion for creativity and empowering creators",
+        "Performance optimization mindset for professional creative workflows",
+        "Passion for creativity and empowering creators worldwide",
         "Problem-solving with ambiguous creative requirements",
-        "Experience with cross-platform development a plus"
+        "Experience with cross-platform development (desktop, web, mobile)",
+        "Understanding of AI/ML applications in creative tools",
+        "Ability to balance innovation with reliability for professional users"
       ],
 
       interviewTips: [
-        "Understand Adobe's product portfolio (Creative Cloud, Experience Cloud)",
-        "Show passion for creative tools and design technology",
-        "Be prepared to discuss graphics, rendering, or video processing if applicable",
+        "Understand Adobe's product portfolio—Creative Cloud, Document Cloud, Experience Cloud",
+        "Show genuine passion for creative tools and design technology",
+        "Be prepared to discuss graphics rendering, video processing, or computer vision if relevant",
         "Demonstrate user-centric thinking in technical solutions",
-        "Research Adobe's AI initiatives (Adobe Sensei)",
+        "Research Adobe Firefly and Sensei AI initiatives thoroughly",
         "Prepare examples of performance optimization work",
         "Be ready to discuss cross-platform development challenges",
-        "Express interest in empowering creativity through technology"
+        "Express interest in empowering creativity through technology",
+        "Practice LeetCode medium problems with focus on string/array manipulation",
+        "Prepare system design for collaborative, real-time creative applications",
+        "Research Adobe's engineering blog and open-source contributions",
+        "Understand the competitive landscape (Figma, Canva, DaVinci Resolve)",
+        "Show awareness of creative professional workflows and pain points",
+        "Be ready to discuss how AI is transforming creative tools"
+      ],
+
+      salary: {
+        min: 140000,
+        max: 280000,
+        avg: 195000
+      },
+
+      compensation: [
+        "Base salary: $140K-$280K depending on level and location",
+        "Annual bonus: 10-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Generous PTO and company holidays",
+        "Learning and development budget",
+        "Free Creative Cloud subscription for employees and family"
       ],
 
       dayInLife: {
-        overview: "Adobe engineers work in collaborative teams building products for creative professionals. Days involve coding, design collaboration, performance optimization, and solving unique creative technology challenges.",
+        intro: "A typical day as an Adobe Software Engineer blends technical problem-solving with creative product development, collaborating closely with designers and product managers to build tools that empower millions of creators.",
         schedule: [
           {
-            time: "9:30 AM",
-            activity: "Team Standup",
-            description: "Daily sync on feature development for Photoshop release"
+            time: "9:00 AM",
+            activity: "Morning Focus",
+            description: "Deep work on implementing new AI-powered selection tool for Photoshop, optimizing performance"
           },
           {
-            time: "10:00 AM",
-            activity: "Feature Development",
-            description: "Implement AI-powered image selection tool using machine learning"
+            time: "10:30 AM",
+            activity: "Design Review",
+            description: "Collaborate with UX designer on new layer management interface, discuss technical constraints"
           },
           {
             time: "11:30 AM",
-            activity: "Design Review",
-            description: "Collaborate with designers on new creative workflow UX"
+            activity: "Code Review",
+            description: "Review teammate's PR for cloud sync feature, provide feedback on architecture"
           },
           {
             time: "12:30 PM",
-            activity: "Lunch & Demo",
-            description: "Watch team demo of new generative AI features"
+            activity: "Lunch & Learn",
+            description: "Attend tech talk on Adobe Firefly's generative AI architecture"
           },
           {
             time: "1:30 PM",
-            activity: "Performance Optimization",
-            description: "Profile and optimize rendering performance for large documents"
+            activity: "Sprint Planning",
+            description: "Team standup and sprint planning for next release cycle"
           },
           {
-            time: "3:00 PM",
-            activity: "Code Review",
-            description: "Review pull requests and provide feedback on graphics code"
+            time: "2:30 PM",
+            activity: "Feature Development",
+            description: "Implement real-time collaboration backend for multi-user editing"
           },
           {
             time: "4:00 PM",
-            activity: "User Testing",
-            description: "Observe creative professionals testing new brush engine"
+            activity: "User Research",
+            description: "Watch recording of professional photographer testing new feature, note feedback"
           },
           {
             time: "5:00 PM",
-            activity: "Innovation Time",
-            description: "Experiment with new creative technology and ML models"
+            activity: "Documentation",
+            description: "Update API documentation and write technical design doc for next quarter's project"
           }
-        ]
+        ],
+        closing: "Days at Adobe balance individual coding with collaborative design sessions, always focused on building tools that creative professionals love to use."
       },
 
       similarRoles: [
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" }
+        "Apple Software Engineer",
+        "Google Software Engineer",
+        "Microsoft Software Engineer",
+        "Figma Software Engineer"
       ]
     },
 
     'product-manager': {
-      roleDescription: "Product Managers at Adobe shape creative and marketing software used by millions worldwide. You'll work on Creative Cloud applications, Document Cloud, or Adobe Experience Cloud, balancing creative professional needs with technical innovation. PMs combine user empathy, creative industry knowledge, and technical product expertise.",
+      roleDescription: "Product Managers at Adobe define the future of creative and marketing technology, shaping products that empower over 30 million subscribers and transform how the world creates, communicates, and does business. You'll own product strategy for iconic tools like Photoshop, Illustrator, Premiere Pro, or Adobe Experience Cloud, working at the intersection of creativity, technology, and business. Adobe PMs deeply understand creative professionals—photographers, designers, filmmakers, marketers—and translate their needs into innovative features that set industry standards.",
 
       responsibilities: [
-        "Define product vision and roadmap for creative or marketing tools",
-        "Collaborate with designers and engineers on feature development",
-        "Conduct user research with creative professionals and marketers",
-        "Analyze product metrics and user engagement data",
-        "Drive AI and machine learning integration into products",
-        "Balance innovation with workflow continuity for professionals",
-        "Present product strategy to executives and at industry events",
-        "Monitor competitive landscape and creative industry trends"
+        "Define product vision and strategy for Creative Cloud or Experience Cloud products",
+        "Develop and prioritize product roadmaps based on user research, market analysis, and business goals",
+        "Partner with engineering, design, and research to deliver innovative features",
+        "Conduct user research with creative professionals, marketers, and enterprise customers",
+        "Analyze product metrics, engagement data, and subscription/retention trends",
+        "Define success metrics and KPIs for product launches and feature releases",
+        "Collaborate with marketing on go-to-market strategy and positioning",
+        "Manage stakeholder relationships across engineering, design, sales, and executives",
+        "Drive AI/generative AI product strategy with Adobe Firefly and Sensei teams"
       ],
 
       growthOpportunities: [
-        "Rapid career advancement based on product impact",
-        "Exposure to creative industry and digital marketing technology",
-        "Opportunities to own products serving creative professionals globally",
-        "Cross-functional leadership with design, engineering, and marketing",
-        "Internal mobility across Creative Cloud, Document Cloud, and Experience Cloud",
-        "Influence on creative workflows and industry standards",
-        "Access to creative community and customer events",
-        "Global impact on digital creativity and content creation"
+        "Career progression from PM through Senior PM, Group PM, to Director and VP levels",
+        "Influence products used by millions of creative professionals worldwide",
+        "Deep exposure to creative technology, AI/ML, and marketing technology domains",
+        "Opportunities across Creative Cloud, Document Cloud, Experience Cloud, and emerging products",
+        "Work with world-class designers, researchers, and engineers on iconic products",
+        "Shape the future of generative AI in creative tools (Firefly)",
+        "Internal mobility between product lines and global offices",
+        "Strong PM community and mentorship culture at Adobe"
       ],
 
       interviewProcess: [
         {
-          step: 1,
+          stage: 1,
           title: "Recruiter Screen",
-          description: "30-minute conversation about PM experience and passion for creative products.",
+          description: "30-minute conversation about PM experience, passion for creative products, and career goals. Overview of Adobe's product portfolio and team structure.",
           duration: "30 minutes"
         },
         {
-          step: 2,
+          stage: 2,
           title: "Product Case Interview",
-          description: "60-minute product design or strategy case focused on creative tools or marketing technology.",
+          description: "60-minute product design or strategy case focused on creative tools or marketing technology. Expect questions about improving Adobe products or designing new features.",
           duration: "60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Product design, technical collaboration, customer empathy, analytics, and leadership interviews.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering product design case, technical collaboration assessment, customer empathy, analytics/metrics, and leadership/behavioral interviews.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Cross-functional review of product thinking and creative passion. Competitive offer with equity.",
+          stage: 4,
+          title: "Hiring Committee Review",
+          description: "Cross-functional review of product thinking, creative passion, and leadership potential. Team matching for best fit.",
+          duration: "3-5 days"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, RSUs, and comprehensive benefits. Adobe PM compensation is competitive with top tech companies.",
           duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "How would you improve Photoshop for new users?",
-        "Design a new AI feature for creative professionals",
-        "How would you measure success for Adobe XD?",
-        "What metrics would you track for Creative Cloud subscriptions?",
-        "How would you compete against free creative tools (Figma, Canva)?",
+        "How would you improve Photoshop for new users while maintaining power for professionals?",
+        "Design a new AI feature for Adobe Firefly that would delight creative professionals",
+        "How would you measure success for Adobe XD in a competitive market with Figma?",
+        "What metrics would you track for Creative Cloud subscription health and growth?",
+        "How would you compete against free creative tools like Canva while protecting the pro market?",
         "Design a feature to improve collaboration for remote creative teams",
-        "How would you prioritize features for video creators vs photographers?",
-        "What would you do if engagement declined for a Creative Cloud app?",
-        "Design a strategy for Adobe's generative AI tools",
-        "How would you approach launching a new creative application?"
+        "How would you prioritize features for video creators vs photographers vs designers?",
+        "What would you do if engagement declined for a major Creative Cloud application?",
+        "Design Adobe's generative AI product strategy for the next 3 years",
+        "How would you approach launching a new creative application in a crowded market?",
+        "Design a pricing strategy for Adobe's AI features (Firefly credits, Sensei capabilities)",
+        "How would you improve Adobe Acrobat for enterprise document workflows?",
+        "What's your strategy for Adobe Experience Cloud competing with Salesforce?",
+        "Design an onboarding experience for creative professionals new to Adobe products",
+        "How would you leverage AI to reduce friction in complex creative workflows?"
       ],
 
       behavioralQuestions: [
-        "Tell me about a creative or design product you've managed",
-        "Describe how you've worked with designers and engineers",
-        "How have you gathered insights from creative professionals?",
-        "Tell me about a product decision based on user research",
-        "Describe your experience with SaaS or subscription products",
-        "How do you balance innovation with maintaining pro workflows?",
-        "Tell me about a time you championed a controversial feature",
-        "Describe a product that didn't meet expectations and lessons learned"
+        "Tell me about a creative or design product you've managed and its impact",
+        "Describe how you've worked effectively with designers and engineers",
+        "How have you gathered deep insights from creative professionals or power users?",
+        "Tell me about a product decision you made based primarily on user research",
+        "Describe your experience with SaaS, subscription products, or freemium models",
+        "How do you balance innovation with maintaining professional workflows users depend on?",
+        "Tell me about a time you championed a controversial product feature",
+        "Describe a product that didn't meet expectations and what you learned",
+        "How have you navigated competing stakeholder priorities?",
+        "Tell me about a time you had to make a decision with incomplete data",
+        "Describe how you've built and maintained relationships with enterprise customers",
+        "How have you incorporated AI/ML into product strategy?",
+        "Tell me about a time you killed a feature or project you had invested in",
+        "Describe your approach to competitive analysis and market positioning"
       ],
 
       whatTheyLookFor: [
-        "Passion for creativity and creative technology",
-        "User empathy for designers, photographers, and marketers",
-        "Technical understanding to collaborate with engineers",
-        "Analytical skills and data-driven decision making",
-        "Understanding of creative industry trends and workflows",
-        "Strong communication and storytelling abilities",
-        "Balance of innovation and respect for professional tools",
-        "Experience with design tools or creative software a plus"
+        "Genuine passion for creativity and creative technology",
+        "Deep empathy for designers, photographers, videographers, and marketers",
+        "Technical understanding to collaborate effectively with engineers",
+        "Strong analytical skills and data-driven decision making",
+        "Understanding of creative industry trends, workflows, and pain points",
+        "Excellent communication and storytelling abilities",
+        "Balance of innovation and respect for professional tools users depend on",
+        "Experience with design tools, creative software, or marketing technology",
+        "Strategic thinking about AI/ML and its impact on creative work",
+        "Ability to navigate complex stakeholder environments"
       ],
 
       interviewTips: [
-        "Use Adobe products and understand creative workflows",
-        "Show genuine passion for empowering creativity",
-        "Be prepared to discuss AI in creative tools",
-        "Research Adobe's product strategy and competitive landscape",
-        "Demonstrate understanding of creative professional needs",
-        "Prepare ideas for Adobe's product evolution",
-        "Be ready to discuss subscription business models",
-        "Express interest in the intersection of creativity and technology"
+        "Use Adobe products extensively and understand creative workflows deeply",
+        "Show genuine passion for empowering creativity and creative professionals",
+        "Be prepared to discuss AI's role in creative tools—opportunities and concerns",
+        "Research Adobe's competitive landscape (Figma, Canva, DaVinci Resolve, Affinity)",
+        "Demonstrate understanding of creative professional needs and pain points",
+        "Prepare specific ideas for Adobe's product evolution with clear rationale",
+        "Be ready to discuss subscription business models and retention strategies",
+        "Express interest in the intersection of creativity and technology",
+        "Know Adobe's product portfolio across Creative, Document, and Experience Clouds",
+        "Prepare to discuss how you'd balance prosumer and enterprise needs",
+        "Understand Adobe's generative AI strategy (Firefly) and its implications",
+        "Be ready with metrics frameworks for creative product success",
+        "Show awareness of creative industry trends (remote work, video content, social media)",
+        "Practice product cases that involve complex trade-offs"
+      ],
+
+      salary: {
+        min: 150000,
+        max: 320000,
+        avg: 220000
+      },
+
+      compensation: [
+        "Base salary: $150K-$320K depending on level and location",
+        "Annual bonus: 15-25% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Generous PTO and company holidays",
+        "Learning and development budget",
+        "Free Creative Cloud subscription"
       ],
 
       dayInLife: {
-        overview: "Adobe PMs balance strategic planning, user research with creative professionals, engineering collaboration, and product innovation. Days involve customer engagement, data analysis, and creative technology exploration.",
+        intro: "A typical day as an Adobe Product Manager balances strategic planning, user research with creative professionals, engineering collaboration, and product innovation to shape tools that millions of creators depend on.",
         schedule: [
           {
             time: "9:00 AM",
-            activity: "User Research",
-            description: "Watch recordings of photographer interviews on workflow pain points"
+            activity: "User Research Review",
+            description: "Watch recordings of professional photographer interviews about workflow pain points"
           },
           {
             time: "10:00 AM",
-            activity: "Product Planning",
-            description: "Review roadmap priorities with engineering and design leads"
+            activity: "Roadmap Planning",
+            description: "Review quarterly roadmap priorities with engineering and design leads"
           },
           {
             time: "11:00 AM",
             activity: "Feature Review",
-            description: "Evaluate beta version of new AI-powered content creation tool"
+            description: "Evaluate beta version of new AI-powered content creation tool with the team"
           },
           {
             time: "12:00 PM",
             activity: "Lunch with Designer",
-            description: "Discuss emerging creative trends and user experience patterns"
+            description: "Discuss emerging creative trends and UX patterns over lunch"
           },
           {
             time: "1:00 PM",
-            activity: "Data Analysis",
-            description: "Analyze Creative Cloud engagement metrics and subscription trends"
+            activity: "Metrics Deep Dive",
+            description: "Analyze Creative Cloud engagement metrics and subscription trends with analytics"
           },
           {
-            time: "2:00 PM",
+            time: "2:30 PM",
             activity: "Customer Advisory Board",
-            description: "Virtual meeting with professional designers and creative directors"
+            description: "Virtual meeting with professional designers and creative directors for feedback"
           },
           {
             time: "3:30 PM",
             activity: "Competitive Analysis",
-            description: "Research new features from Figma and other creative tools"
+            description: "Research new Figma features and assess competitive implications"
           },
           {
             time: "4:30 PM",
-            activity: "Strategy Presentation",
-            description: "Present generative AI product strategy to VP and leadership"
+            activity: "Leadership Presentation",
+            description: "Present generative AI product strategy to VP and executive leadership"
           }
-        ]
+        ],
+        closing: "Adobe PMs spend significant time with creative professionals, translating their needs into product features that push the boundaries of what's possible in digital creativity."
       },
 
       similarRoles: [
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Figma", companySlug: "figma", industry: "Technology" }
+        "Apple Product Manager",
+        "Google Product Manager",
+        "Microsoft Product Manager",
+        "Figma Product Manager"
       ]
     },
 
     'engineering-manager': {
-      roleDescription: "Engineering Managers at Adobe lead teams building creative and marketing software that empowers millions of professionals worldwide. You'll manage engineers working on Creative Cloud, Document Cloud, or Experience Cloud products, fostering innovation while maintaining the reliability creative professionals depend on. EMs balance technical leadership with creative product vision.",
+      roleDescription: "Engineering Managers at Adobe lead teams building the creative and marketing software that empowers millions of professionals worldwide. You'll manage engineers working on iconic products like Photoshop, Premiere Pro, Illustrator, or Adobe Experience Cloud, fostering innovation while maintaining the reliability that creative professionals depend on for their livelihoods. Adobe EMs balance technical leadership with creative product vision, building high-performing teams in an environment that values craft, quality, and user empathy.",
 
       responsibilities: [
-        "Lead team of engineers on creative or marketing cloud products",
-        "Drive technical strategy and architecture for product features",
-        "Partner with product and design on roadmap execution",
-        "Recruit, develop, and retain top engineering talent",
-        "Conduct 1:1s, performance reviews, and career coaching",
-        "Foster collaborative culture between engineering and design",
-        "Ensure product quality and performance for creative professionals",
-        "Balance innovation with stability for production workflows"
+        "Lead teams of 6-12 engineers building Creative Cloud, Document Cloud, or Experience Cloud products",
+        "Drive technical strategy and architecture decisions for product features and platform capabilities",
+        "Partner closely with product management and design on roadmap planning and execution",
+        "Recruit, develop, and retain top engineering talent in competitive markets",
+        "Conduct regular 1:1s, performance reviews, and career development coaching",
+        "Foster collaborative culture between engineering, design, and research teams",
+        "Ensure product quality, performance, and reliability for professional creative workflows",
+        "Balance innovation and experimentation with stability for production users",
+        "Manage cross-team dependencies and coordinate with other engineering leaders"
       ],
 
       growthOpportunities: [
-        "Scale management skills in creative technology environment",
-        "Exposure to graphics, AI, and creative software engineering",
-        "Opportunities to grow into senior engineering leadership",
-        "Cross-functional influence with design, product, and research",
-        "Shape engineering culture emphasizing craft and quality",
-        "Mentor engineers working on industry-leading creative tools",
-        "Internal mobility across Adobe's product portfolio",
-        "Impact on global creative industry and digital content creation"
+        "Scale leadership skills managing larger teams and multiple product areas",
+        "Deep exposure to graphics, video, AI/ML, and creative software engineering",
+        "Opportunities to grow into Senior EM, Director, and VP of Engineering roles",
+        "Cross-functional influence with design, product, research, and executive teams",
+        "Shape Adobe's engineering culture emphasizing craft, quality, and user empathy",
+        "Mentor engineers working on industry-defining creative tools",
+        "Internal mobility across Adobe's product portfolio and global offices",
+        "Lead teams working on cutting-edge AI/generative AI initiatives"
       ],
 
       interviewProcess: [
         {
-          step: 1,
+          stage: 1,
           title: "Recruiter Screen",
-          description: "30-minute conversation about management experience and interest in creative technology.",
+          description: "30-minute conversation about management philosophy, technical background, and interest in creative technology. Overview of Adobe's engineering culture and team structures.",
           duration: "30 minutes"
         },
         {
-          step: 2,
-          title: "Technical Discussion",
-          description: "60-minute discussion on system design, technical leadership, and creative software challenges.",
+          stage: 2,
+          title: "Hiring Manager Screen",
+          description: "60-minute deep dive on management experience, technical leadership, and team building approach. Discussion of specific challenges and opportunities in the role.",
           duration: "60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "People management, technical leadership, collaboration with design/product, system design, and values fit.",
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering technical depth, system design, people management scenarios, cross-functional collaboration, and leadership/culture fit interviews.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Leadership review and team fit assessment. Competitive offer with equity and benefits.",
+          stage: 4,
+          title: "Executive Interview",
+          description: "Conversation with Director or VP about leadership philosophy, strategic thinking, and alignment with Adobe's engineering values.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer including base, bonus, RSUs, and comprehensive benefits. Adobe EM compensation reflects the strategic importance of technical leadership.",
           duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "How would you architect a real-time collaboration system for creative tools?",
-        "Describe your approach to optimizing graphics rendering performance",
-        "How do you balance technical debt with feature velocity?",
-        "What's your strategy for integrating AI into creative applications?",
-        "How would you approach cross-platform development (desktop, web, mobile)?",
-        "Describe your framework for performance optimization decisions",
-        "How do you ensure product quality for professional creative workflows?",
-        "What's your approach to managing plugin ecosystems?"
+        "How would you approach building a team to work on real-time collaboration for creative tools?",
+        "Describe your strategy for managing technical debt while shipping features on schedule",
+        "How would you scale an engineering team from 6 to 20 engineers while maintaining velocity?",
+        "Design the architecture for a new AI-powered creative feature—how would you organize the team?",
+        "How do you balance feature development with platform investments and infrastructure work?",
+        "Describe your approach to performance optimization for creative professional workflows",
+        "How would you handle a situation where your team's work is blocked by another team?",
+        "What's your framework for making build vs. buy decisions for creative technology?",
+        "How do you ensure quality in a codebase that serves millions of professional users?",
+        "Describe how you'd approach migrating a legacy desktop application to cloud architecture",
+        "How would you structure a team working on both desktop and web versions of a product?",
+        "What's your approach to managing engineers with deep domain expertise (graphics, video)?",
+        "How do you balance innovation and experimentation with reliability for production users?",
+        "Describe your strategy for cross-team coordination on platform-wide initiatives"
       ],
 
       behavioralQuestions: [
-        "Tell me about managing engineers on creative or design-focused products",
-        "Describe how you've built strong engineering-design partnerships",
-        "How have you developed engineers' technical and career growth?",
-        "Tell me about balancing innovation with reliability for pro users",
-        "Describe your experience managing cross-platform teams",
-        "How do you build culture that values craft and quality?",
-        "Tell me about a difficult technical decision involving user experience",
-        "Describe how you've improved engineering team productivity"
+        "Tell me about a time you turned around an underperforming engineering team",
+        "Describe how you've built and maintained a strong engineering culture",
+        "How have you handled a situation where you had to let an engineer go?",
+        "Tell me about your approach to developing senior engineers into tech leads",
+        "Describe a time you had to make a difficult trade-off between speed and quality",
+        "How have you managed conflict between engineers with different technical opinions?",
+        "Tell me about a time you championed a significant technical investment",
+        "Describe how you've balanced individual contributor ambitions with management responsibilities",
+        "How have you handled situations where product and engineering disagreed on approach?",
+        "Tell me about your experience managing remote or distributed engineering teams",
+        "Describe a time you had to deliver difficult feedback to a high performer",
+        "How have you fostered innovation and experimentation within your teams?",
+        "Tell me about a major technical failure and how you handled it as a manager",
+        "Describe your approach to succession planning and building leadership bench strength"
       ],
 
       whatTheyLookFor: [
-        "Strong people leadership and team development skills",
-        "Technical depth in creative software, graphics, or multimedia",
-        "Collaboration skills with design and product teams",
-        "User-centric mindset and respect for creative professionals",
-        "Balance of innovation and operational excellence",
-        "Passion for creativity and empowering creators",
-        "Experience with cross-platform or performance-critical software",
-        "Commitment to engineering quality and craft"
+        "Strong technical background with ability to guide architectural decisions",
+        "Proven track record of building and scaling high-performing engineering teams",
+        "Interest in creative technology and empathy for creative professional users",
+        "Collaboration skills with design, product, and research partners",
+        "Balance of technical depth and people leadership capabilities",
+        "Experience with performance-critical or user-facing software",
+        "Ability to attract and retain top engineering talent",
+        "Strategic thinking about technology investments and team structure",
+        "Culture of quality, craft, and continuous improvement",
+        "Effective communication with executives and cross-functional stakeholders"
       ],
 
       interviewTips: [
-        "Understand Adobe's product portfolio and creative focus",
-        "Prepare examples of managing creative or design-focused products",
-        "Show experience collaborating closely with designers",
-        "Demonstrate understanding of graphics or multimedia technology",
-        "Discuss your approach to performance optimization",
+        "Understand Adobe's product portfolio and the engineering challenges in creative software",
+        "Show genuine interest in creative technology and empowering creators",
+        "Prepare specific examples of building and scaling engineering teams",
+        "Be ready to discuss technical architecture at a senior level",
         "Research Adobe's engineering culture and values",
-        "Be ready to discuss cross-platform development challenges",
-        "Express passion for empowering creativity through technology"
+        "Prepare examples of managing through ambiguity and competing priorities",
+        "Be ready to discuss how you balance innovation with reliability",
+        "Show understanding of the unique challenges in creative software (performance, UX, domain expertise)",
+        "Prepare to discuss your approach to growing senior engineers and tech leads",
+        "Be ready to discuss cross-functional collaboration with design and product",
+        "Show awareness of AI/ML trends and their impact on creative tools",
+        "Prepare examples of managing technical debt and platform investments",
+        "Understand Adobe's competitive landscape and market position",
+        "Be ready to discuss remote/hybrid team management approaches"
+      ],
+
+      salary: {
+        min: 180000,
+        max: 350000,
+        avg: 260000
+      },
+
+      compensation: [
+        "Base salary: $180K-$350K depending on level and location",
+        "Annual bonus: 20-30% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus common for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Generous PTO and company holidays",
+        "Executive development programs",
+        "Free Creative Cloud subscription"
       ],
 
       dayInLife: {
-        overview: "Adobe EMs balance people management, technical leadership, design collaboration, and product strategy. Days include 1:1s, design reviews, technical discussions, and fostering engineering-design partnership.",
+        intro: "A typical day as an Adobe Engineering Manager balances people leadership, technical guidance, cross-functional collaboration, and strategic planning—all focused on building products that creative professionals love.",
         schedule: [
           {
             time: "9:00 AM",
-            activity: "1:1 Meetings",
-            description: "Career development conversations with two engineers"
+            activity: "1:1 with Engineer",
+            description: "Career development discussion with senior engineer exploring tech lead path"
           },
           {
             time: "10:00 AM",
-            activity: "Design Collaboration",
-            description: "Joint review of new creative workflow with design team"
+            activity: "Technical Review",
+            description: "Review architecture proposal for new AI-powered creative feature with tech leads"
           },
           {
             time: "11:00 AM",
-            activity: "Technical Review",
-            description: "Review architecture for AI-powered content generation feature"
+            activity: "Cross-Functional Sync",
+            description: "Weekly sync with product manager and design lead on roadmap priorities"
           },
           {
             time: "12:00 PM",
-            activity: "Product Planning",
-            description: "Collaborate with PM on Creative Cloud roadmap priorities"
+            activity: "Lunch with Team",
+            description: "Casual lunch with engineers, discussing recent tech conference learnings"
           },
           {
             time: "1:00 PM",
             activity: "User Session",
-            description: "Observe professional designer using new features in beta"
+            description: "Observe professional designer using new features in beta to gather feedback"
           },
           {
             time: "2:00 PM",
-            activity: "Team Sync",
-            description: "Weekly team meeting on sprint progress and technical blockers"
+            activity: "Team Meeting",
+            description: "Weekly team meeting reviewing sprint progress, celebrating wins, addressing blockers"
           },
           {
             time: "3:00 PM",
             activity: "Recruiting",
-            description: "Interview graphics engineer candidate"
+            description: "Interview graphics engineer candidate for open position"
           },
           {
             time: "4:00 PM",
-            activity: "Engineering Leadership",
-            description: "Cross-team meeting on performance optimization strategies"
+            activity: "Leadership Sync",
+            description: "Engineering leadership meeting on cross-team platform initiatives"
           }
-        ]
+        ],
+        closing: "Adobe EMs spend their time enabling their teams to do their best work, balancing hands-on technical guidance with strategic leadership to build products that define the creative industry."
       },
 
       similarRoles: [
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Figma", companySlug: "figma", industry: "Technology" }
+        "Apple Engineering Manager",
+        "Google Engineering Manager",
+        "Microsoft Engineering Manager",
+        "Figma Engineering Manager"
       ]
     },
 
     'data-scientist': {
-      roleDescription: "Data Scientists at Adobe use data, analytics, and machine learning to enhance creative and marketing products. You'll work on personalization, content intelligence, marketing analytics, or AI-powered creative tools, collaborating with product, engineering, and research teams. Adobe data scientists combine technical rigor with understanding of creative and marketing domains.",
+      roleDescription: "Data Scientists at Adobe combine advanced analytics, machine learning, and deep product intuition to enhance creative and marketing products used by millions worldwide. You'll work on personalization, content intelligence, marketing analytics, recommendation systems, or AI-powered creative tools, collaborating with product, engineering, and Adobe Research teams. From improving content-aware fill in Photoshop to optimizing Adobe Experience Cloud's personalization engine, Adobe data scientists solve complex problems at the intersection of creativity, technology, and data—with compensation ranging from $145K to $275K+ for senior roles.",
 
       responsibilities: [
-        "Build machine learning models for creative and marketing applications",
-        "Develop content intelligence and image/video understanding systems",
-        "Design and analyze experiments to measure product impact",
-        "Create analytics frameworks for Creative Cloud and Experience Cloud",
-        "Work on Adobe Sensei AI platform and generative models",
-        "Partner with product managers on feature development",
-        "Analyze user behavior and creative workflow patterns",
-        "Contribute to data infrastructure and ML platforms"
+        "Build machine learning models for creative applications (computer vision, generative AI, content understanding)",
+        "Develop content intelligence and image/video understanding systems for Creative Cloud",
+        "Design and analyze A/B experiments to measure product feature impact",
+        "Create analytics frameworks for Creative Cloud engagement and Experience Cloud campaigns",
+        "Contribute to Adobe Sensei AI platform and Adobe Firefly generative models",
+        "Partner with product managers on feature development and optimization",
+        "Analyze user behavior patterns and creative workflow data",
+        "Build and maintain data infrastructure, ML pipelines, and model serving systems",
+        "Collaborate with Adobe Research on cutting-edge ML techniques"
       ],
 
       growthOpportunities: [
-        "Advance from IC to senior data scientist or ML engineer roles",
-        "Exposure to creative AI, computer vision, and marketing analytics",
-        "Work on products impacting millions of creative professionals",
-        "Opportunities across Creative Cloud, Experience Cloud, and research",
-        "Internal mobility between product teams and technology areas",
-        "Collaborate with Adobe Research on cutting-edge ML",
-        "Publish research and present at industry conferences",
-        "Impact on future of creative technology and AI-assisted creativity"
+        "Advance from IC through Senior, Staff, and Principal Data Scientist levels",
+        "Deep exposure to creative AI, computer vision, NLP, and marketing analytics",
+        "Work on products impacting millions of creative professionals and enterprises",
+        "Opportunities across Creative Cloud, Experience Cloud, Document Cloud, and Adobe Research",
+        "Internal mobility between product teams and research domains",
+        "Collaborate with Adobe Research on cutting-edge ML research",
+        "Publish papers and present at top ML and creative technology conferences",
+        "Shape the future of AI-assisted creativity and marketing technology"
       ],
 
       interviewProcess: [
         {
-          step: 1,
+          stage: 1,
           title: "Recruiter Screen",
-          description: "30-minute conversation about data science background and interest in Adobe.",
+          description: "30-minute conversation about data science background, ML expertise, and interest in creative technology. Overview of Adobe's data science opportunities.",
           duration: "30 minutes"
         },
         {
-          step: 2,
+          stage: 2,
           title: "Technical Screen",
-          description: "60-minute interview on statistics, ML, and analytical problem-solving.",
+          description: "60-minute interview covering statistics, ML fundamentals, and analytical problem-solving. May include coding component for algorithm implementation.",
           duration: "60 minutes"
         },
         {
-          step: 3,
-          title: "Virtual Onsite (4-5 rounds)",
-          description: "Analytics case, machine learning, coding/SQL, product sense, and behavioral interviews.",
+          stage: 3,
+          title: "Take-Home Project (Optional)",
+          description: "Some teams include a take-home ML project—design an image classifier, solve a content recommendation problem, or analyze a creative dataset.",
+          duration: "3-5 hours"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including analytics case study, ML system design, coding/SQL, product sense, and behavioral interviews. Senior roles include presentation of past work.",
           duration: "4-5 hours"
         },
         {
-          step: 4,
-          title: "Hiring Committee & Offer",
-          description: "Review of technical skills and cultural fit. Competitive offer with equity.",
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base ($145K-$275K+), bonus, RSUs, and comprehensive benefits.",
           duration: "1 week"
         }
       ],
 
       technicalQuestions: [
-        "How would you build a content-aware fill system for Photoshop?",
-        "Design a recommendation system for Creative Cloud assets",
-        "Build a model to classify and tag images automatically",
-        "How would you measure success of an AI-powered creative feature?",
-        "Design an experiment to test a new generative AI tool",
-        "Build a model to predict Creative Cloud subscription churn",
-        "How would you personalize content recommendations for designers?",
-        "Design analytics for Adobe Experience Cloud marketing campaigns",
-        "Build a system to detect and remove inappropriate content",
-        "How would you improve image search with computer vision?"
+        "How would you build a content-aware fill system for Photoshop using computer vision?",
+        "Design a recommendation system for Creative Cloud assets and templates",
+        "Build a model to classify and tag images automatically for Adobe Stock",
+        "How would you measure the success of an AI-powered creative feature?",
+        "Design an A/B experiment to test a new generative AI tool in Firefly",
+        "Build a model to predict Creative Cloud subscription churn and identify at-risk users",
+        "How would you personalize content recommendations for designers vs photographers?",
+        "Design analytics for Adobe Experience Cloud marketing campaign attribution",
+        "Build a system to detect and remove inappropriate content from user-generated images",
+        "How would you improve image search with computer vision and semantic understanding?",
+        "Design a model to automatically enhance photo quality (exposure, color, sharpness)",
+        "How would you evaluate the quality of generative AI outputs?",
+        "Build a system to predict which creative assets will perform best in marketing campaigns",
+        "Design an ML pipeline for real-time personalization in Experience Cloud",
+        "How would you balance model accuracy with latency for interactive creative features?",
+        "Build a model to suggest font pairings and design elements based on user style"
       ],
 
       behavioralQuestions: [
         "Tell me about a computer vision or creative ML project you built",
-        "Describe how you've worked with product teams on AI features",
-        "How have you balanced model accuracy with user experience?",
-        "Tell me about an experiment that produced surprising results",
+        "Describe how you've worked with product teams to translate ML into product features",
+        "How have you balanced model accuracy with user experience and latency requirements?",
+        "Tell me about an A/B experiment that produced surprising results",
         "Describe your experience with generative models or creative AI",
-        "How do you approach explaining ML models to non-technical stakeholders?",
-        "Tell me about a time your analysis influenced product direction",
-        "Describe a project where you balanced speed with rigor"
+        "How do you approach explaining complex ML models to non-technical stakeholders?",
+        "Tell me about a time you had to make trade-offs between model complexity and maintainability",
+        "Describe how you've handled model failures or unexpected behavior in production",
+        "How have you stayed current with rapidly evolving ML research and techniques?",
+        "Tell me about a time you identified a new ML opportunity that wasn't on the roadmap",
+        "Describe your experience building ML infrastructure or platform capabilities",
+        "How have you collaborated with researchers on translating research into products?",
+        "Tell me about a project where you had to work with limited or noisy data",
+        "Describe your approach to model monitoring and iteration in production"
       ],
 
       whatTheyLookFor: [
-        "Strong foundation in machine learning and computer vision",
-        "Experience with image/video processing or creative applications",
-        "Proficiency in Python, ML frameworks, and data analysis",
-        "Product sense for creative tools and workflows",
-        "Ability to translate ML into user-facing features",
-        "Strong communication skills for technical and creative audiences",
-        "Passion for creativity and AI-assisted creative work",
-        "Understanding of responsible AI and ethics"
+        "Strong foundations in statistics, machine learning, and experimental design",
+        "Programming proficiency in Python with ML frameworks (PyTorch, TensorFlow, scikit-learn)",
+        "Experience with computer vision, NLP, or generative AI models",
+        "Ability to translate business problems into ML solutions",
+        "Interest in creative technology and understanding of creative professional workflows",
+        "Strong communication skills for explaining technical concepts to diverse audiences",
+        "Experience with large-scale data processing and ML pipelines",
+        "Track record of shipping ML models to production",
+        "Collaboration skills with product, engineering, and research teams",
+        "Curiosity about the intersection of AI and creativity"
       ],
 
       interviewTips: [
-        "Understand Adobe's AI initiatives (Adobe Sensei, Firefly)",
-        "Be prepared to discuss computer vision and generative models",
-        "Show passion for creative applications of AI",
-        "Research Adobe's products and creative workflows",
-        "Demonstrate understanding of responsible AI practices",
-        "Prepare examples of ML models you've deployed",
-        "Be ready to discuss ML model interpretability and UX",
-        "Express interest in empowering creativity through AI"
+        "Brush up on ML fundamentals—supervised/unsupervised learning, evaluation metrics, experimental design",
+        "Be ready to discuss computer vision and generative AI given Adobe's focus areas",
+        "Prepare examples of ML projects you've shipped to production",
+        "Understand Adobe's AI initiatives—Sensei platform and Firefly generative AI",
+        "Be ready to discuss trade-offs between model performance, latency, and user experience",
+        "Prepare to walk through your approach to a creative ML problem end-to-end",
+        "Know common ML system design patterns (feature stores, model serving, monitoring)",
+        "Research Adobe's creative product portfolio and identify ML opportunities",
+        "Be ready to discuss how you'd measure success for creative AI features",
+        "Prepare questions about Adobe's data science culture and research collaboration",
+        "Practice explaining complex ML concepts in accessible terms",
+        "Be ready to discuss ethical considerations in generative AI",
+        "Understand the competitive landscape in creative AI (Midjourney, DALL-E, Stable Diffusion)",
+        "Prepare to discuss your experience with A/B testing and experimentation platforms"
+      ],
+
+      salary: {
+        min: 145000,
+        max: 275000,
+        avg: 195000
+      },
+
+      compensation: [
+        "Base salary: $145K-$275K+ depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Conference and learning budget",
+        "Free Creative Cloud subscription"
       ],
 
       dayInLife: {
-        overview: "Adobe data scientists balance ML model development, product collaboration, experimentation, and creative technology research. Work involves Python, computer vision, generative models, and creative product thinking.",
+        intro: "A typical day as an Adobe Data Scientist blends ML research, product collaboration, and experimentation—all focused on using AI to enhance creative and marketing products for millions of users.",
         schedule: [
           {
-            time: "9:30 AM",
-            activity: "Model Development",
-            description: "Improve generative AI model for creative content generation"
+            time: "9:00 AM",
+            activity: "Model Review",
+            description: "Review training metrics for image tagging model, analyze error cases"
           },
           {
-            time: "10:30 AM",
-            activity: "Team Sync",
-            description: "Data science team standup on ongoing ML projects"
+            time: "10:00 AM",
+            activity: "Product Sync",
+            description: "Meet with Photoshop PM to discuss ML feature requirements and success metrics"
           },
           {
             time: "11:00 AM",
-            activity: "Research Review",
-            description: "Review latest papers on diffusion models and creative AI"
+            activity: "Research Reading",
+            description: "Review recent papers on diffusion models and generative AI techniques"
           },
           {
             time: "12:00 PM",
-            activity: "Product Collaboration",
-            description: "Discuss AI feature requirements with Photoshop PM"
+            activity: "Lunch & Learn",
+            description: "Attend Adobe Research presentation on new computer vision techniques"
           },
           {
             time: "1:00 PM",
             activity: "User Testing",
-            description: "Observe designers using AI-powered selection tool prototype"
+            description: "Observe designers using AI-powered selection tool prototype, gather feedback"
           },
           {
-            time: "2:00 PM",
+            time: "2:30 PM",
             activity: "Experiment Analysis",
-            description: "Analyze A/B test results for content intelligence feature"
+            description: "Analyze A/B test results for content intelligence feature, prepare readout"
           },
           {
-            time: "3:00 PM",
-            activity: "Model Training",
-            description: "Train and evaluate computer vision model on creative assets"
+            time: "3:30 PM",
+            activity: "Model Development",
+            description: "Train and evaluate new computer vision model on creative asset dataset"
           },
           {
-            time: "4:30 PM",
-            activity: "Research Presentation",
-            description: "Present generative AI findings to Adobe Research team"
+            time: "5:00 PM",
+            activity: "Team Presentation",
+            description: "Present generative AI findings to Firefly team and discuss next steps"
           }
-        ]
+        ],
+        closing: "Adobe Data Scientists work at the cutting edge of creative AI, collaborating closely with product teams and researchers to build ML features that genuinely delight creative professionals."
       },
 
       similarRoles: [
-        { companyName: "Google", companySlug: "google", industry: "Technology" },
-        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
-        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
-        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" }
+        "Google Data Scientist",
+        "Meta Data Scientist",
+        "Apple Data Scientist",
+        "Microsoft Data Scientist"
+      ]
+    },
+
+    'machine-learning-engineer': {
+      roleDescription: "Machine Learning Engineers at Adobe build the AI systems powering the next generation of creative and marketing technology, including Adobe Firefly (generative AI), Adobe Sensei (intelligence platform), and AI features across Creative Cloud and Experience Cloud. You'll develop and deploy production ML systems for computer vision, natural language processing, generative models, and recommendation systems—creating AI capabilities that millions of creative professionals use daily. Adobe MLEs work at the intersection of cutting-edge research and production engineering, with compensation ranging from $160K to $320K+ for senior roles.",
+
+      responsibilities: [
+        "Design and build production ML systems for Adobe Firefly generative AI platform",
+        "Develop computer vision models for image understanding, object detection, and content analysis",
+        "Build and optimize deep learning models for Creative Cloud applications",
+        "Create ML infrastructure and pipelines for training, evaluation, and serving at scale",
+        "Implement generative AI models (diffusion, transformers) for creative applications",
+        "Collaborate with Adobe Research to productionize cutting-edge research",
+        "Optimize model performance for latency, throughput, and cost efficiency",
+        "Build recommendation and personalization systems for Experience Cloud",
+        "Develop NLP models for content understanding and creative assistance"
+      ],
+
+      growthOpportunities: [
+        "Advance from MLE through Senior, Staff, and Principal levels",
+        "Work on cutting-edge generative AI with Adobe Firefly team",
+        "Deep exposure to computer vision, NLP, and creative AI applications",
+        "Collaborate with world-class researchers at Adobe Research",
+        "Shape the future of AI-assisted creativity for millions of users",
+        "Opportunities to publish research and present at top conferences",
+        "Internal mobility across Creative Cloud, Experience Cloud, and Research",
+        "Lead ML platform and infrastructure initiatives at scale"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-45 minute conversation about ML background, systems experience, and interest in creative AI. Overview of Adobe's ML teams and Firefly/Sensei initiatives.",
+          duration: "30-45 minutes"
+        },
+        {
+          stage: 2,
+          title: "Technical Screen",
+          description: "60-minute interview covering ML fundamentals, coding (Python), and system design basics. May include algorithm implementation or ML problem discussion.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "ML Take-Home (Some Teams)",
+          description: "Technical take-home project—design an image classifier, implement a model optimization, or solve a creative ML problem. Presented to panel.",
+          duration: "4-6 hours + presentation"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including ML system design, coding (LeetCode medium), ML fundamentals deep dive, product sense, and behavioral interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base ($160K-$320K+), bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design an ML system for Adobe Firefly to generate images from text prompts",
+        "How would you build a content-aware fill system using deep learning?",
+        "Design the ML pipeline for real-time style transfer in creative applications",
+        "How would you optimize a large language model for interactive creative assistance?",
+        "Build a system to automatically tag and categorize images for Adobe Stock",
+        "Design an ML system to remove backgrounds from images with high accuracy",
+        "How would you implement semantic search for creative assets?",
+        "Build a recommendation system for suggesting fonts and design elements",
+        "Design a model serving infrastructure for low-latency creative AI features",
+        "How would you fine-tune a diffusion model for specific creative styles?",
+        "Build a system to evaluate and filter inappropriate generative AI outputs",
+        "Design an ML pipeline for personalization at scale in Experience Cloud",
+        "How would you reduce inference latency for computer vision models in Photoshop?",
+        "Build a multi-modal model that understands both images and text for creative search",
+        "Design a system for continual learning as users provide feedback on AI features",
+        "How would you handle model versioning and A/B testing for ML features?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about an ML system you built and deployed to production",
+        "Describe your experience with generative AI or diffusion models",
+        "How have you balanced model accuracy with inference latency requirements?",
+        "Tell me about a time you optimized an ML pipeline for scale or cost",
+        "Describe your collaboration with researchers on productionizing research",
+        "How have you handled model failures or unexpected behavior in production?",
+        "Tell me about your experience with ML infrastructure and platforms",
+        "Describe a challenging ML problem you solved creatively",
+        "How do you stay current with rapidly evolving ML research?",
+        "Tell me about a time you had to make trade-offs in ML system design",
+        "Describe your experience with computer vision or NLP applications",
+        "How have you worked with product teams to define ML feature requirements?",
+        "Tell me about a project where you had to work with limited training data",
+        "Describe your approach to model monitoring and iteration in production"
+      ],
+
+      whatTheyLookFor: [
+        "Strong ML fundamentals—deep learning, computer vision, NLP, generative models",
+        "Production ML engineering experience with model training and serving at scale",
+        "Programming proficiency in Python with PyTorch, TensorFlow, or JAX",
+        "Experience with ML infrastructure (MLOps, feature stores, model serving)",
+        "Understanding of generative AI techniques (diffusion, transformers, GANs)",
+        "Ability to translate research papers into production systems",
+        "Interest in creative technology and understanding of user needs",
+        "Strong systems thinking and software engineering fundamentals",
+        "Track record of shipping ML systems to production",
+        "Collaboration skills with research, product, and engineering teams"
+      ],
+
+      interviewTips: [
+        "Deep dive on generative AI—understand diffusion models, transformers, RLHF",
+        "Review computer vision fundamentals given Adobe's creative focus",
+        "Prepare examples of ML systems you've built and deployed to production",
+        "Understand Adobe Firefly and Sensei—their capabilities and architecture",
+        "Be ready to discuss trade-offs in ML system design (accuracy vs latency vs cost)",
+        "Practice ML system design questions end-to-end",
+        "Know common ML infrastructure patterns (feature stores, model serving, monitoring)",
+        "Research Adobe's creative product portfolio and identify ML opportunities",
+        "Be ready to discuss ethical considerations in generative AI",
+        "Prepare to walk through your approach to a creative ML problem",
+        "Understand the competitive landscape (Midjourney, DALL-E, Stable Diffusion)",
+        "Be ready to discuss model optimization techniques (quantization, distillation)",
+        "Prepare questions about Adobe's ML culture and research collaboration",
+        "Practice coding problems in Python with focus on algorithm implementation"
+      ],
+
+      salary: {
+        min: 160000,
+        max: 320000,
+        avg: 225000
+      },
+
+      compensation: [
+        "Base salary: $160K-$320K+ depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Conference attendance and learning budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Machine Learning Engineer blends ML development, production engineering, and research collaboration—building AI systems that power creative tools for millions of users.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Model Training Review",
+            description: "Check overnight training runs for generative model, analyze metrics and samples"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Team Standup",
+            description: "Daily sync with Firefly ML team on sprint progress and blockers"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Research Collaboration",
+            description: "Meet with Adobe Research scientist to discuss new diffusion model techniques"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Paper Discussion",
+            description: "ML reading group discussing recent generative AI paper"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Model Development",
+            description: "Implement model optimization to reduce inference latency for production"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Code Review",
+            description: "Review teammate's PR for new ML pipeline component"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Product Sync",
+            description: "Meet with Photoshop PM to discuss AI feature requirements and success metrics"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Write technical documentation for new model serving architecture"
+          }
+        ],
+        closing: "Adobe MLEs work at the cutting edge of creative AI, shipping production ML systems that power features used by millions of creative professionals worldwide."
+      },
+
+      similarRoles: [
+        "Google Machine Learning Engineer",
+        "Meta Machine Learning Engineer",
+        "Apple Machine Learning Engineer",
+        "OpenAI Research Engineer"
+      ]
+    },
+
+    'ux-designer': {
+      roleDescription: "UX Designers at Adobe shape the experiences of the world's most influential creative and marketing tools, designing for products used by over 30 million Creative Cloud subscribers and hundreds of thousands of enterprises. You'll work on iconic products like Photoshop, Illustrator, Premiere Pro, Adobe XD, or Experience Cloud, creating intuitive interfaces for complex professional workflows. Adobe UX designers have unique influence—designing tools that other designers use daily, contributing to the Redwood Design System, and shaping how millions of people create and communicate visually.",
+
+      responsibilities: [
+        "Design user experiences for Creative Cloud applications (Photoshop, Illustrator, Premiere Pro, After Effects)",
+        "Create intuitive interfaces for complex professional creative workflows",
+        "Contribute to and evolve Adobe's Redwood Design System",
+        "Conduct user research with creative professionals, photographers, filmmakers, and marketers",
+        "Design for cross-platform consistency (desktop, web, mobile, iPad)",
+        "Create wireframes, prototypes, and high-fidelity designs using Adobe XD and other tools",
+        "Collaborate with engineering on implementation and interaction details",
+        "Design AI-powered features that enhance rather than replace human creativity",
+        "Balance innovation with respect for workflows professionals depend on"
+      ],
+
+      growthOpportunities: [
+        "Advance from UX Designer through Senior, Principal, to Design Director levels",
+        "Design tools used by millions of creative professionals worldwide",
+        "Influence Adobe's design language through Redwood Design System",
+        "Work on cutting-edge AI/generative AI creative features",
+        "Opportunities across Creative Cloud, Document Cloud, Experience Cloud, and Adobe XD",
+        "Collaborate with world-class designers, researchers, and product managers",
+        "Shape the future of creative software and design tools",
+        "Internal mobility between product teams and global design studios"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about design background, portfolio highlights, and interest in creative tools. Overview of Adobe's design culture and team structure.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Portfolio Review",
+          description: "60-minute deep dive into your portfolio with hiring manager or senior designer. Focus on process, rationale, and impact of your design work.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Design Exercise",
+          description: "Take-home design challenge related to creative tools or enterprise workflows. 3-4 hour exercise followed by presentation and critique.",
+          duration: "3-4 hours + 60-minute presentation"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including design critique, cross-functional collaboration (with PM/eng), design systems discussion, and behavioral/culture fit interviews.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you redesign the Photoshop toolbar for new users while maintaining power for professionals?",
+        "Design an AI-powered feature that helps users discover creative possibilities in their work",
+        "How would you approach designing the settings and preferences experience for a complex creative app?",
+        "Design a collaboration experience for creative teams working on the same project",
+        "How would you make Adobe's mobile apps feel native while maintaining cross-platform consistency?",
+        "Design an onboarding experience for creative professionals new to Adobe products",
+        "How would you approach accessibility in complex creative applications?",
+        "Design a feature to help users organize and find assets across Creative Cloud",
+        "How would you design error states and feedback for long-running creative operations?",
+        "Design an experience for users to customize and personalize their creative workspace",
+        "How would you approach designing AI suggestions that don't interrupt creative flow?",
+        "Design a system for users to learn keyboard shortcuts and power features",
+        "How would you design the experience of exporting work to multiple formats and platforms?",
+        "Design a feature to help users share and get feedback on creative work in progress",
+        "How would you balance feature density with simplicity in professional creative tools?"
+      ],
+
+      behavioralQuestions: [
+        "Walk me through a project where you designed for creative professionals or power users",
+        "Tell me about a time you had to balance innovation with maintaining familiar workflows",
+        "Describe your process for conducting user research with specialized professionals",
+        "How have you collaborated with engineers on complex interaction implementation?",
+        "Tell me about a design you fought for that was initially controversial",
+        "Describe your experience working within and contributing to design systems",
+        "How have you designed for accessibility in complex applications?",
+        "Tell me about a time you had to simplify a complex workflow or feature",
+        "Describe your approach to getting feedback and iterating on designs",
+        "How have you handled situations where user research contradicted stakeholder assumptions?",
+        "Tell me about a project where you had to design for multiple platforms",
+        "Describe your experience designing AI-powered features or interactions",
+        "How have you balanced user needs with business and technical constraints?",
+        "Tell me about a design failure and what you learned from it"
+      ],
+
+      whatTheyLookFor: [
+        "Strong portfolio demonstrating complex interaction design and visual craft",
+        "Experience designing for professional or power users with complex workflows",
+        "Deep understanding of creative tools and creative professional needs",
+        "Systems thinking and ability to design scalable, consistent experiences",
+        "Proficiency with design tools (Adobe XD, Figma, Sketch, Photoshop, Illustrator)",
+        "User research skills and ability to translate insights into design decisions",
+        "Collaboration skills with engineering, product, and research partners",
+        "Passion for creativity and empowering creative professionals",
+        "Understanding of accessibility and inclusive design principles",
+        "Ability to present and defend design decisions clearly"
+      ],
+
+      interviewTips: [
+        "Use Adobe products extensively and identify UX opportunities",
+        "Prepare portfolio case studies with clear problem, process, and outcome",
+        "Show genuine passion for creative tools and empowering creativity",
+        "Be ready to discuss design systems and component-based design",
+        "Research Adobe's Redwood Design System and design culture",
+        "Prepare to discuss how AI is changing creative tool design",
+        "Be ready to critique your own work and discuss what you'd do differently",
+        "Understand the unique challenges of designing for professional users",
+        "Prepare to discuss cross-platform design consistency",
+        "Show awareness of accessibility considerations in creative tools",
+        "Be ready to discuss how you handle complex enterprise requirements",
+        "Prepare questions about Adobe's design culture and team structure",
+        "Practice articulating your design rationale clearly",
+        "Be ready to sketch or whiteboard during interviews"
+      ],
+
+      salary: {
+        min: 120000,
+        max: 240000,
+        avg: 165000
+      },
+
+      compensation: [
+        "Base salary: $120K-$240K depending on level and location",
+        "Annual bonus: 10-15% of base salary",
+        "RSUs: Equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Conference attendance and learning budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe UX Designer blends user research, design exploration, collaboration with engineers and product managers, and contributing to products that millions of creative professionals depend on.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Design Iteration",
+            description: "Refine designs for new layer management feature based on user feedback"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Design Critique",
+            description: "Present work-in-progress designs to team for feedback and discussion"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Engineering Sync",
+            description: "Work with engineers on interaction details and implementation constraints"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Inspiration",
+            description: "Browse design inspiration and creative industry trends"
+          },
+          {
+            time: "1:00 PM",
+            activity: "User Research",
+            description: "Conduct remote interview with professional photographer about workflow"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Prototyping",
+            description: "Build interactive prototype for AI feature in Adobe XD"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Design System Work",
+            description: "Contribute new component patterns to Redwood Design System"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Cross-Team Review",
+            description: "Review designs from other product teams for consistency and feedback"
+          }
+        ],
+        closing: "Adobe UX Designers have the unique opportunity to design tools that other designers use, shaping the creative workflows of millions while contributing to products that define the industry."
+      },
+
+      similarRoles: [
+        "Apple UX Designer",
+        "Google UX Designer",
+        "Figma Product Designer",
+        "Microsoft UX Designer"
+      ]
+    },
+
+    'research-scientist': {
+      roleDescription: "Research Scientists at Adobe Research push the boundaries of computer vision, machine learning, graphics, and creative AI, conducting world-class research that shapes the future of creative and marketing technology. You'll work on fundamental research in generative AI, computational photography, video understanding, natural language processing, and human-computer interaction—with the unique opportunity to see your research productionized into tools used by millions. Adobe Research scientists publish at top venues (CVPR, SIGGRAPH, NeurIPS, CHI), collaborate with academic partners, and have significant autonomy to pursue high-impact research directions.",
+
+      responsibilities: [
+        "Conduct original research in computer vision, machine learning, graphics, or HCI",
+        "Publish papers at top academic venues (CVPR, SIGGRAPH, NeurIPS, ICCV, CHI, ICLR)",
+        "Develop novel algorithms and techniques for creative AI applications",
+        "Collaborate with product teams to transfer research into production features",
+        "Mentor research interns and collaborate with university faculty",
+        "Contribute to Adobe's generative AI initiatives (Firefly, Sensei)",
+        "Build prototypes demonstrating research concepts for creative applications",
+        "Present research at conferences and represent Adobe in the research community",
+        "Define research direction and identify high-impact research opportunities"
+      ],
+
+      growthOpportunities: [
+        "Advance from Research Scientist through Senior, Principal, to Distinguished levels",
+        "Publish at top venues with Adobe Research's strong publication record",
+        "See your research productionized into tools used by millions of creators",
+        "Collaborate with world-class researchers across computer vision, ML, graphics, and HCI",
+        "Significant autonomy to define and pursue research directions",
+        "Work with cutting-edge computational resources and datasets",
+        "Collaborate with academic partners and mentor research interns",
+        "Shape the future of creative AI and generative technology"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about research background, publications, and interest in creative technology. Overview of Adobe Research culture and focus areas.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Technical Screen",
+          description: "60-minute technical discussion with researcher about your research area, methodology, and results. Deep dive on publications and technical contributions.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Research Talk",
+          description: "45-60 minute research presentation to Adobe Research team followed by Q&A. Present your best research work with technical depth.",
+          duration: "60-90 minutes"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-6 rounds with researchers across different areas. Includes technical discussions, research vision, coding/systems assessment, and culture fit.",
+          duration: "5-6 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, RSUs, and comprehensive benefits. Adobe Research compensation is competitive with top research labs.",
+          duration: "1-2 weeks"
+        }
+      ],
+
+      technicalQuestions: [
+        "Describe your most impactful research contribution and its significance",
+        "How would you approach developing a new generative model for creative content?",
+        "Design a research project to improve image editing with AI",
+        "What are the key challenges in making generative AI useful for creative professionals?",
+        "How would you evaluate the quality of AI-generated creative content?",
+        "Describe your approach to identifying high-impact research problems",
+        "How do you balance novelty with practical applicability in research?",
+        "Design an experiment to test a new hypothesis in your research area",
+        "What research directions do you think are most promising for creative AI?",
+        "How would you approach the challenge of controllable generation for creative tools?",
+        "Describe your experience transferring research into production systems",
+        "What role should AI play in creative workflows without replacing human creativity?",
+        "How do you stay current with the rapidly evolving ML/AI research landscape?",
+        "Design a research project that could have significant product impact at Adobe",
+        "What ethical considerations are important in generative AI research?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a research project that didn't work out and what you learned",
+        "Describe your collaboration with product teams to productionize research",
+        "How have you mentored students or junior researchers?",
+        "Tell me about a time you had to pivot your research direction",
+        "Describe your experience publishing at top venues—what made your work successful?",
+        "How do you prioritize research directions when many seem promising?",
+        "Tell me about research collaboration across institutions or teams",
+        "Describe how you've communicated research findings to non-technical stakeholders",
+        "How have you handled disagreements about research direction?",
+        "Tell me about your most creative research insight and how you arrived at it",
+        "Describe your experience with large-scale experiments or data",
+        "How do you balance exploring new ideas vs. completing ongoing projects?",
+        "Tell me about a research idea you championed against skepticism",
+        "Describe your vision for where your research area is heading"
+      ],
+
+      whatTheyLookFor: [
+        "Strong publication record at top venues (CVPR, SIGGRAPH, NeurIPS, ICCV, CHI)",
+        "Deep expertise in relevant research area (CV, ML, graphics, HCI, NLP)",
+        "Ability to identify and pursue high-impact research problems",
+        "Technical depth combined with systems building ability",
+        "Interest in creative applications and technology transfer to products",
+        "Collaboration skills for interdisciplinary research",
+        "Strong communication and presentation abilities",
+        "PhD in Computer Science, Electrical Engineering, or related field",
+        "Track record of research impact beyond publication metrics",
+        "Curiosity about the intersection of AI and human creativity"
+      ],
+
+      interviewTips: [
+        "Prepare a compelling research talk showcasing your best work with technical depth",
+        "Be ready to discuss future research directions and their potential impact",
+        "Understand Adobe Research's focus areas and recent publications",
+        "Show genuine interest in creative applications and technology transfer",
+        "Be ready to discuss how your research could impact Adobe products",
+        "Prepare to discuss the broader significance of your research contributions",
+        "Show awareness of the creative AI landscape and Adobe's position",
+        "Be ready to discuss collaboration with product teams and researchers",
+        "Prepare examples of successful technology transfer or product impact",
+        "Show understanding of the unique challenges in creative AI",
+        "Be ready to discuss ethical considerations in generative AI",
+        "Prepare questions about research culture and autonomy at Adobe Research",
+        "Demonstrate systems building ability beyond theoretical contributions",
+        "Show passion for creative technology and empowering human creativity"
+      ],
+
+      salary: {
+        min: 180000,
+        max: 400000,
+        avg: 275000
+      },
+
+      compensation: [
+        "Base salary: $180K-$400K depending on level and research impact",
+        "Annual bonus: 15-25% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior researchers",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Conference travel budget",
+        "Research equipment and compute budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Research Scientist blends deep research work, collaboration with product teams, mentoring, and engaging with the broader research community—all focused on advancing creative AI.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Research Time",
+            description: "Deep work on new diffusion model architecture for controllable generation"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Intern Sync",
+            description: "Meet with PhD intern to review progress on research project and paper draft"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lab Lunch",
+            description: "Weekly research lunch with Adobe Research colleagues discussing recent papers"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Product Collaboration",
+            description: "Meet with Firefly team to discuss research transfer and feature requirements"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Paper Writing",
+            description: "Write and revise CVPR submission with collaborators"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Research Seminar",
+            description: "Attend external researcher talk and Q&A on latest generative AI techniques"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Experimentation",
+            description: "Run experiments on new model architecture, analyze results"
+          }
+        ],
+        closing: "Adobe Research Scientists enjoy significant autonomy to pursue impactful research while having the unique opportunity to see their work deployed in products used by millions of creative professionals."
+      },
+
+      similarRoles: [
+        "Google Research Scientist",
+        "Meta Research Scientist",
+        "Microsoft Research Scientist",
+        "Apple Research Scientist"
+      ]
+    },
+
+    'solutions-architect': {
+      roleDescription: "Solutions Architects at Adobe design and implement enterprise solutions using Adobe Experience Cloud, the industry-leading digital experience platform for marketing, analytics, content management, and customer journey orchestration. You'll work with Fortune 500 companies and global brands to architect complex integrations, ensure successful implementations, and drive adoption of Adobe's marketing technology stack. Adobe SAs combine deep technical expertise with business acumen, translating customer needs into scalable solutions that transform how enterprises engage with their customers.",
+
+      responsibilities: [
+        "Design enterprise architecture solutions using Adobe Experience Cloud products",
+        "Lead technical discovery and requirements gathering with enterprise customers",
+        "Architect integrations between Adobe products and customer systems (CRM, ERP, data platforms)",
+        "Create solution designs, technical specifications, and implementation roadmaps",
+        "Conduct technical workshops and proof-of-concept demonstrations",
+        "Collaborate with sales, customer success, and consulting teams on deals",
+        "Stay current on Adobe product roadmap and communicate to customers",
+        "Troubleshoot complex technical issues during implementation and post-launch",
+        "Contribute to best practices, reference architectures, and reusable assets"
+      ],
+
+      growthOpportunities: [
+        "Advance from SA through Senior SA, Principal SA, to Chief Architect",
+        "Deep expertise in enterprise marketing technology and digital experience",
+        "Work with Fortune 500 companies on transformative digital initiatives",
+        "Influence Adobe product roadmap through customer feedback",
+        "Opportunities to specialize in specific products or industries",
+        "Path to customer-facing leadership or product management roles",
+        "Global travel and exposure to diverse enterprise environments",
+        "Build reputation as trusted advisor to enterprise executives"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about technical background, enterprise experience, and interest in Adobe Experience Cloud. Overview of SA role and team structure.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Technical Screen",
+          description: "60-minute technical interview covering architecture principles, web technologies, and integration patterns. May include discussion of past enterprise implementations.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Solution Design Exercise",
+          description: "Prepare and present a solution design for a hypothetical enterprise customer scenario. Focus on architecture, integration, and business alignment.",
+          duration: "90 minutes (prep + presentation)"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering technical depth, customer engagement scenarios, cross-functional collaboration, and behavioral/culture fit.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design an architecture for a global retail brand's personalization strategy using Adobe Experience Cloud",
+        "How would you integrate Adobe Experience Platform with a customer's existing data warehouse and CRM?",
+        "Design a solution for real-time customer journey orchestration across web, mobile, and email",
+        "How would you approach migrating a customer from a legacy marketing stack to Adobe?",
+        "Design an architecture for content management and delivery at global scale using Adobe Experience Manager",
+        "How would you handle identity resolution and customer profile unification across channels?",
+        "Design a solution for marketing analytics that combines Adobe Analytics with third-party data",
+        "How would you architect a headless content delivery solution using Adobe products?",
+        "Design a customer data platform implementation using Adobe Experience Platform",
+        "How would you approach data governance and privacy compliance in an enterprise implementation?",
+        "Design a solution for A/B testing and optimization at scale using Adobe Target",
+        "How would you integrate Adobe products with a customer's existing e-commerce platform?",
+        "Design an architecture for audience activation and media buying using Adobe products",
+        "How would you approach performance optimization for high-traffic enterprise implementations?",
+        "Design a solution for cross-channel campaign orchestration using Adobe Campaign"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a complex enterprise implementation you architected and its impact",
+        "Describe a time you had to navigate competing stakeholder priorities on a project",
+        "How have you handled a customer who wanted to implement something you knew wouldn't work?",
+        "Tell me about a time you turned around a troubled implementation or customer relationship",
+        "Describe your approach to explaining complex technical concepts to business executives",
+        "How have you stayed current with rapidly evolving marketing technology?",
+        "Tell me about a creative solution you designed for a challenging customer requirement",
+        "Describe your experience working with sales teams on technical deals",
+        "How have you handled situations where customer expectations exceeded product capabilities?",
+        "Tell me about a time you identified an opportunity to expand a customer relationship",
+        "Describe your experience with global enterprise implementations and regional requirements",
+        "How have you balanced customer customization requests with best practices?",
+        "Tell me about a time you had to push back on a customer's technical approach",
+        "Describe how you've contributed to reusable assets or best practices for other SAs"
+      ],
+
+      whatTheyLookFor: [
+        "Strong enterprise architecture skills and systems integration experience",
+        "Deep understanding of web technologies (JavaScript, APIs, CDNs, cloud infrastructure)",
+        "Experience with marketing technology, digital experience platforms, or related domains",
+        "Excellent communication and presentation skills for technical and business audiences",
+        "Customer-facing experience with enterprise sales and implementation",
+        "Ability to translate business requirements into technical solutions",
+        "Problem-solving skills for complex integration challenges",
+        "Project management and stakeholder alignment abilities",
+        "Understanding of data architecture, privacy, and compliance requirements",
+        "Consultative approach and trusted advisor mindset"
+      ],
+
+      interviewTips: [
+        "Understand Adobe Experience Cloud products—AEM, AEP, Analytics, Target, Campaign",
+        "Prepare examples of enterprise implementations you've architected",
+        "Be ready to discuss integration patterns and data architecture",
+        "Practice presenting technical solutions to mixed technical/business audiences",
+        "Research Adobe's competitive positioning vs Salesforce, Oracle, SAP",
+        "Be ready to discuss digital transformation trends in marketing technology",
+        "Prepare to discuss data privacy and compliance considerations",
+        "Show understanding of enterprise sales cycles and stakeholder management",
+        "Be ready to whiteboard solution architectures during interviews",
+        "Understand common enterprise integration challenges and solutions",
+        "Prepare questions about Adobe's partner ecosystem and implementation methodology",
+        "Show genuine interest in helping enterprises transform customer experiences",
+        "Be ready to discuss your approach to customer discovery and requirements",
+        "Demonstrate consultative selling and trusted advisor capabilities"
+      ],
+
+      salary: {
+        min: 150000,
+        max: 280000,
+        avg: 200000
+      },
+
+      compensation: [
+        "Base salary: $150K-$280K depending on level and location",
+        "Annual bonus: 15-25% of base salary (may include deal-based incentives)",
+        "RSUs: Equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Travel and expense budget",
+        "Learning and certification budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Solutions Architect blends customer engagement, solution design, technical enablement, and collaboration with sales and delivery teams to drive successful enterprise implementations.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Customer Call (EMEA)",
+            description: "Technical discovery call with European financial services customer"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Solution Design",
+            description: "Finalize architecture document for retail customer's personalization initiative"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Internal Sync",
+            description: "Meet with sales team to prepare for upcoming enterprise proposal"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch Learning",
+            description: "Adobe product team presentation on new Experience Platform features"
+          },
+          {
+            time: "1:00 PM",
+            activity: "POC Development",
+            description: "Build proof-of-concept demo for customer's integration requirements"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Customer Workshop",
+            description: "Lead technical workshop with customer's IT team on AEM architecture"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Deal Support",
+            description: "Review RFP response and contribute technical sections"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Documentation",
+            description: "Update reference architecture based on recent implementation learnings"
+          }
+        ],
+        closing: "Adobe Solutions Architects serve as trusted technical advisors to enterprise customers, designing solutions that transform how global brands engage with their customers through digital experiences."
+      },
+
+      similarRoles: [
+        "Salesforce Solutions Architect",
+        "AWS Solutions Architect",
+        "Microsoft Solutions Architect",
+        "Google Cloud Customer Engineer"
+      ]
+    },
+
+    'technical-program-manager': {
+      roleDescription: "Technical Program Managers at Adobe drive the delivery of complex, cross-functional programs that shape Creative Cloud, Document Cloud, and Experience Cloud products used by over 30 million subscribers worldwide. You'll orchestrate engineering teams, navigate dependencies across Adobe's product portfolio, and ensure successful delivery of major initiatives—from AI-powered creative features to enterprise platform capabilities. Adobe TPMs combine technical depth with program management expertise, operating at the intersection of engineering, product, and business to deliver transformative creative technology.",
+
+      responsibilities: [
+        "Lead cross-functional programs spanning multiple engineering teams and products",
+        "Define program roadmaps, milestones, and success metrics for complex initiatives",
+        "Manage dependencies across Creative Cloud, Document Cloud, and Experience Cloud",
+        "Drive alignment between engineering, product, design, and business stakeholders",
+        "Identify and mitigate technical and organizational risks proactively",
+        "Coordinate cross-team architecture decisions and technical standards",
+        "Run effective program reviews and executive communications",
+        "Establish processes and tools for program tracking and transparency",
+        "Drive post-launch retrospectives and continuous improvement"
+      ],
+
+      growthOpportunities: [
+        "Advance from TPM through Senior, Principal, to Director of Program Management",
+        "Lead Adobe's most strategic technical initiatives",
+        "Deep exposure to creative technology, AI/ML, and enterprise software",
+        "Cross-functional influence with engineering, product, and executive leadership",
+        "Opportunities across Creative Cloud, Document Cloud, Experience Cloud, and platform",
+        "Build expertise in complex systems integration and platform development",
+        "Path to engineering leadership or product management roles",
+        "Shape Adobe's technical program management practices and culture"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about TPM background, technical depth, and interest in creative technology. Overview of Adobe's TPM organization and program types.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Screen",
+          description: "60-minute discussion on program management approach, technical understanding, and experience with complex cross-functional programs.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering program management scenarios, technical depth, stakeholder management, execution/risk assessment, and behavioral/culture fit.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 4,
+          title: "Executive Interview",
+          description: "Conversation with Director or VP about leadership approach, strategic thinking, and alignment with Adobe's technical culture.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer including base, bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you lead a program to integrate generative AI across multiple Creative Cloud products?",
+        "Describe your approach to managing a platform migration affecting multiple product teams",
+        "How would you handle a program where key dependencies are at risk of slipping?",
+        "Design a program plan for launching a new collaborative feature across desktop and mobile",
+        "How would you structure a program to modernize Adobe's cloud infrastructure?",
+        "Describe your approach to aligning engineering and product on competing priorities",
+        "How would you manage a program with significant external partner dependencies?",
+        "Design a program for improving performance across Creative Cloud applications",
+        "How would you approach a program requiring coordination across multiple time zones?",
+        "Describe your strategy for communicating program status to executives",
+        "How would you handle scope creep on a program with fixed delivery dates?",
+        "Design a program plan for Adobe's annual MAX conference product launches",
+        "How would you manage technical debt reduction alongside feature delivery?",
+        "Describe your approach to program retrospectives and continuous improvement"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a complex cross-functional program you led and its outcome",
+        "Describe a time you had to navigate competing stakeholder priorities",
+        "How have you handled a program that was at risk of missing its commitments?",
+        "Tell me about a time you had to make a difficult trade-off decision",
+        "Describe your approach to building relationships with engineering teams",
+        "How have you influenced engineering decisions without direct authority?",
+        "Tell me about a time you had to communicate bad news to executives",
+        "Describe how you've driven process improvements for program management",
+        "How have you handled conflict between teams you're coordinating?",
+        "Tell me about a program where requirements changed significantly mid-stream",
+        "Describe your experience managing programs with significant technical uncertainty",
+        "How have you ensured technical quality while meeting delivery timelines?",
+        "Tell me about a time you anticipated and prevented a program risk",
+        "Describe your approach to managing remote or distributed teams"
+      ],
+
+      whatTheyLookFor: [
+        "Strong technical background with ability to understand complex systems",
+        "Proven track record leading cross-functional programs at scale",
+        "Excellent communication skills for technical and executive audiences",
+        "Ability to influence without direct authority",
+        "Experience with software development lifecycle and agile methodologies",
+        "Risk identification and mitigation skills",
+        "Stakeholder management and relationship building abilities",
+        "Problem-solving mindset with bias for action",
+        "Interest in creative technology and Adobe's product portfolio",
+        "Organizational skills and attention to detail"
+      ],
+
+      interviewTips: [
+        "Understand Adobe's product portfolio—Creative Cloud, Document Cloud, Experience Cloud",
+        "Prepare specific examples of complex programs you've led with measurable outcomes",
+        "Be ready to discuss technical architecture at a high level",
+        "Show your approach to stakeholder management and influence",
+        "Prepare examples of risk identification and mitigation",
+        "Be ready to discuss how you balance quality with delivery timelines",
+        "Show understanding of cross-team coordination challenges",
+        "Prepare to discuss your program management philosophy and tools",
+        "Research Adobe's recent product launches and major initiatives",
+        "Be ready to discuss how you handle ambiguity and changing requirements",
+        "Show awareness of creative technology trends and AI impact",
+        "Prepare questions about Adobe's TPM culture and career growth",
+        "Be ready to walk through your approach to executive communication",
+        "Demonstrate genuine interest in creative software and Adobe's mission"
+      ],
+
+      salary: {
+        min: 150000,
+        max: 290000,
+        avg: 205000
+      },
+
+      compensation: [
+        "Base salary: $150K-$290K depending on level and location",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Learning and development budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Technical Program Manager involves coordinating complex cross-functional programs, managing stakeholders, identifying risks, and driving execution across teams building creative technology.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Program Review Prep",
+            description: "Review status updates from teams and prepare executive summary"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Engineering Sync",
+            description: "Meet with engineering leads on AI feature integration progress and blockers"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Executive Review",
+            description: "Present program status to VP of Engineering, highlight risks and decisions needed"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Dependency Management",
+            description: "Coordinate with platform team on shared infrastructure timeline"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch with PM",
+            description: "Discuss upcoming roadmap changes and program implications"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Risk Review",
+            description: "Review program risks with leads, update mitigation plans"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Cross-Team Alignment",
+            description: "Facilitate alignment meeting between mobile and desktop teams"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Process Improvement",
+            description: "Work on program templates and tracking improvements"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Planning",
+            description: "Update program plan and prepare for tomorrow's reviews"
+          }
+        ],
+        closing: "Adobe TPMs drive the delivery of creative technology that empowers millions, navigating complexity across engineering teams to ensure successful delivery of transformative products."
+      },
+
+      similarRoles: [
+        "Google Technical Program Manager",
+        "Apple Technical Program Manager",
+        "Meta Technical Program Manager",
+        "Microsoft Program Manager"
+      ]
+    },
+
+    'security-engineer': {
+      roleDescription: "Security Engineers at Adobe protect the creative and marketing platforms trusted by over 30 million subscribers and hundreds of thousands of enterprises worldwide. You'll secure Creative Cloud applications, Document Cloud services, Experience Cloud infrastructure, and the AI systems powering Adobe Firefly and Sensei. Adobe security engineers work across application security, infrastructure security, incident response, and security engineering—ensuring that creative professionals and enterprises can trust Adobe with their most valuable work and sensitive customer data.",
+
+      responsibilities: [
+        "Design and implement security controls for Creative Cloud, Document Cloud, and Experience Cloud",
+        "Conduct security reviews and threat modeling for new features and architecture",
+        "Perform penetration testing and vulnerability assessments on Adobe products",
+        "Build security automation and tooling for continuous security validation",
+        "Lead incident response and forensic investigations",
+        "Develop secure coding guidelines and train engineering teams",
+        "Implement identity, access management, and data protection controls",
+        "Ensure compliance with SOC 2, ISO 27001, GDPR, and industry regulations",
+        "Collaborate with product teams to balance security with user experience"
+      ],
+
+      growthOpportunities: [
+        "Advance from Security Engineer through Senior, Staff, to Principal levels",
+        "Deep expertise in application security for creative and enterprise software",
+        "Work on cutting-edge AI security challenges with Firefly and Sensei",
+        "Opportunities across product security, cloud security, and security engineering",
+        "Path to security leadership, CISO organization, or security architecture roles",
+        "Shape Adobe's security culture and practices",
+        "Collaborate with industry partners and contribute to security standards",
+        "Build expertise in securing enterprise-scale SaaS platforms"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about security background, areas of expertise, and interest in Adobe. Overview of security organization and team structure.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Technical Screen",
+          description: "60-minute technical interview covering security fundamentals, threat modeling, and practical security scenarios.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including security design, application security assessment, coding/scripting, incident response scenario, and behavioral/culture fit.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 4,
+          title: "Security Leadership Interview",
+          description: "Conversation with security leadership about security philosophy and approach to complex challenges.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you approach threat modeling for Adobe Firefly's generative AI system?",
+        "Design a security architecture for protecting creative assets in Adobe's cloud",
+        "How would you secure the integration between Creative Cloud and third-party plugins?",
+        "Describe your approach to securing a system processing sensitive customer data",
+        "How would you detect and respond to a potential breach in cloud infrastructure?",
+        "Design an authentication and authorization system for enterprise creative workflows",
+        "How would you approach securing AI/ML models from adversarial attacks?",
+        "Describe your methodology for conducting a security review of a new feature",
+        "How would you implement secure file sharing for creative collaboration?",
+        "Design a secrets management system for Adobe's microservices architecture",
+        "How would you approach securing sensitive content in Document Cloud?",
+        "Describe your approach to vulnerability management at enterprise scale",
+        "How would you secure real-time collaboration features in creative applications?",
+        "Design a security monitoring and detection system for SaaS applications"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a significant security vulnerability you discovered and how you handled it",
+        "Describe your experience building security into development workflows",
+        "How have you balanced security requirements with product delivery timelines?",
+        "Tell me about a security incident you responded to and lessons learned",
+        "Describe your approach to training engineers on secure coding practices",
+        "How have you handled pushback when recommending security controls?",
+        "Tell me about a time you had to make a risk-based security decision",
+        "Describe your experience with compliance and regulatory requirements",
+        "How have you stayed current with evolving security threats and techniques?",
+        "Tell me about a creative solution you developed for a security challenge",
+        "Describe your experience with cloud security and infrastructure protection",
+        "How have you collaborated with non-security teams to improve security posture?",
+        "Tell me about a time you had to communicate security risks to executives",
+        "Describe your approach to automating security processes"
+      ],
+
+      whatTheyLookFor: [
+        "Strong foundation in application security, infrastructure security, or security engineering",
+        "Experience with threat modeling and security architecture design",
+        "Programming skills for security tooling and automation (Python, Go, JavaScript)",
+        "Knowledge of web application security (OWASP Top 10, secure coding)",
+        "Understanding of cloud security (AWS, Azure, GCP)",
+        "Experience with penetration testing and vulnerability assessment",
+        "Incident response and forensic investigation skills",
+        "Knowledge of identity, authentication, and access control",
+        "Understanding of compliance frameworks (SOC 2, ISO 27001, GDPR)",
+        "Collaboration skills for working with engineering and product teams"
+      ],
+
+      interviewTips: [
+        "Review Adobe's security practices and published security content",
+        "Be ready to discuss application security for SaaS platforms",
+        "Prepare examples of security design and threat modeling work",
+        "Understand the unique security challenges for creative software (IP protection, content security)",
+        "Be ready to discuss AI security given Adobe's Firefly and Sensei focus",
+        "Prepare to walk through your approach to security reviews",
+        "Show understanding of balancing security with user experience",
+        "Be ready to discuss incident response methodology",
+        "Prepare examples of security automation and tooling you've built",
+        "Show awareness of creative industry security concerns",
+        "Be ready to discuss cloud security architecture",
+        "Prepare questions about Adobe's security culture and team structure",
+        "Demonstrate your approach to continuous learning in security",
+        "Show genuine interest in protecting creative professionals and enterprises"
+      ],
+
+      salary: {
+        min: 145000,
+        max: 290000,
+        avg: 200000
+      },
+
+      compensation: [
+        "Base salary: $145K-$290K depending on level and specialization",
+        "Annual bonus: 15-20% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Security conference and training budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Security Engineer blends proactive security work, collaboration with engineering teams, and protecting the platforms that millions of creative professionals trust with their work.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Security Review",
+            description: "Conduct security review of new AI feature for Creative Cloud application"
+          },
+          {
+            time: "10:30 AM",
+            activity: "Vulnerability Triage",
+            description: "Review and prioritize security findings from automated scanning"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Engineering Consultation",
+            description: "Meet with engineering team to discuss secure design for new integration"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learning",
+            description: "Attend security team presentation on emerging threat landscape"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Penetration Testing",
+            description: "Continue security assessment of Document Cloud API endpoints"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Tooling Development",
+            description: "Build automation for security testing in CI/CD pipeline"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Threat Modeling",
+            description: "Lead threat modeling session for upcoming collaboration feature"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Documentation",
+            description: "Update security guidelines and document findings"
+          }
+        ],
+        closing: "Adobe Security Engineers protect the creative tools and enterprise platforms trusted by millions, balancing rigorous security with the seamless user experiences creative professionals expect."
+      },
+
+      similarRoles: [
+        "Google Security Engineer",
+        "Apple Security Engineer",
+        "Microsoft Security Engineer",
+        "Meta Security Engineer"
+      ]
+    },
+
+    'sales-engineer': {
+      roleDescription: "Sales Engineers at Adobe serve as the technical bridge between Adobe's enterprise solutions and Fortune 500 customers, demonstrating how Adobe Experience Cloud, Creative Cloud for Enterprise, and Document Cloud can transform digital experiences and creative workflows. You'll conduct compelling product demonstrations, build custom proofs-of-concept, and provide technical expertise throughout complex enterprise sales cycles. Adobe SEs combine deep product knowledge with consultative selling skills to help global brands understand how Adobe technology can drive business outcomes.",
+
+      responsibilities: [
+        "Conduct technical product demonstrations for Adobe Experience Cloud and enterprise solutions",
+        "Build proofs-of-concept and custom demos tailored to customer requirements",
+        "Provide technical expertise during enterprise sales cycles and RFP responses",
+        "Partner with sales teams on deal strategy and technical qualification",
+        "Conduct technical discovery to understand customer environments and requirements",
+        "Present at customer events, conferences, and executive briefings",
+        "Collaborate with product teams on customer feedback and roadmap input",
+        "Stay current on Adobe products, competitive landscape, and industry trends",
+        "Train customers on Adobe solutions and best practices"
+      ],
+
+      growthOpportunities: [
+        "Advance from SE through Senior, Principal, to Distinguished SE levels",
+        "Path to SE leadership, solutions architecture, or product management roles",
+        "Deep expertise in enterprise marketing technology and digital experience",
+        "Work with Fortune 500 companies on transformative digital initiatives",
+        "Influence Adobe product roadmap through customer feedback",
+        "Develop thought leadership and industry expertise",
+        "Global travel and exposure to diverse enterprise environments",
+        "Build network of relationships with enterprise executives"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about SE background, technical depth, and interest in Adobe. Overview of SE role structure and territory/product focus.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Screen",
+          description: "60-minute discussion on presales experience, technical background, and approach to customer engagement.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Demo Presentation",
+          description: "Prepare and deliver a mock product demonstration for a hypothetical customer scenario. Evaluated on technical depth, presentation skills, and business alignment.",
+          duration: "60-90 minutes (prep + presentation)"
+        },
+        {
+          stage: 4,
+          title: "Virtual Onsite",
+          description: "4-5 rounds covering technical depth, customer scenarios, sales collaboration, product knowledge, and behavioral/culture fit.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, commission/bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How would you demonstrate Adobe Experience Platform's value to a retail CMO?",
+        "Walk through how you'd build a POC for a customer's personalization use case",
+        "How would you position Adobe against Salesforce in a competitive deal?",
+        "Describe your approach to technical discovery with an enterprise prospect",
+        "How would you handle a customer objection about Adobe's pricing model?",
+        "Design a demo strategy for a customer evaluating Adobe Experience Cloud vs competitors",
+        "How would you explain Adobe's AI capabilities (Sensei, Firefly) to a non-technical buyer?",
+        "Describe your approach to responding to technical sections of an RFP",
+        "How would you handle a situation where Adobe's product doesn't meet a specific requirement?",
+        "Walk through how you'd support a proof-of-concept evaluation",
+        "How would you demonstrate ROI for an Adobe implementation?",
+        "Describe your approach to presenting to technical vs business audiences",
+        "How would you handle a customer who had a poor experience with a previous Adobe implementation?",
+        "Design a demo flow for Adobe Experience Manager for a media company"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a complex deal you supported and your role in closing it",
+        "Describe a time you turned around a customer who was leaning toward a competitor",
+        "How have you handled a situation where a product limitation impacted a deal?",
+        "Tell me about a challenging demo you delivered and what made it successful",
+        "Describe your approach to building relationships with technical and business buyers",
+        "How have you stayed current with rapidly evolving product capabilities?",
+        "Tell me about a creative solution you developed for a customer's unique requirements",
+        "Describe your experience collaborating with sales teams on deal strategy",
+        "How have you handled disagreements with sales about technical qualification?",
+        "Tell me about a time you provided feedback that influenced product development",
+        "Describe your experience presenting to C-level executives",
+        "How have you balanced supporting multiple deals with competing priorities?",
+        "Tell me about a deal you lost and what you learned from it",
+        "Describe your approach to continuous learning on new products and features"
+      ],
+
+      whatTheyLookFor: [
+        "Strong presales or technical sales experience with enterprise software",
+        "Deep understanding of marketing technology, digital experience, or related domains",
+        "Excellent presentation and demonstration skills",
+        "Technical depth to engage with IT and developer audiences",
+        "Business acumen to connect technology to outcomes",
+        "Customer-facing communication skills",
+        "Ability to build and customize demos and proofs-of-concept",
+        "Understanding of enterprise sales cycles and stakeholder management",
+        "Competitive awareness and positioning skills",
+        "Consultative approach and trusted advisor mindset"
+      ],
+
+      interviewTips: [
+        "Understand Adobe Experience Cloud products—AEM, AEP, Analytics, Target, Campaign",
+        "Prepare a compelling demo presentation for the interview",
+        "Be ready to discuss competitive positioning vs Salesforce, Oracle, SAP",
+        "Practice translating technical capabilities into business value",
+        "Research Adobe's customer success stories and use cases",
+        "Be ready to discuss your presales methodology and approach",
+        "Prepare examples of deals you've supported with measurable outcomes",
+        "Show understanding of enterprise sales cycles and buying processes",
+        "Be ready to handle objections and technical deep dives",
+        "Demonstrate your ability to connect with different stakeholder types",
+        "Prepare questions about territory, quota, and team structure",
+        "Show genuine enthusiasm for Adobe's technology and mission",
+        "Be ready to discuss how you stay current with product and industry trends",
+        "Practice whiteboarding technical architectures"
+      ],
+
+      salary: {
+        min: 130000,
+        max: 250000,
+        avg: 175000
+      },
+
+      compensation: [
+        "Base salary: $130K-$250K depending on level and location",
+        "Commission/bonus: 30-50% of base for on-target earnings",
+        "RSUs: Equity grants with 4-year vesting",
+        "Accelerators for exceeding quota",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Travel and expense budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Sales Engineer involves customer demonstrations, POC development, sales collaboration, and serving as the technical expert for enterprise deals.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Demo Prep",
+            description: "Finalize custom demo environment for afternoon customer presentation"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Deal Strategy",
+            description: "Meet with sales team to plan approach for enterprise account"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Discovery Call",
+            description: "Technical discovery with prospect's IT team on integration requirements"
+          },
+          {
+            time: "11:30 AM",
+            activity: "POC Development",
+            description: "Build proof-of-concept demo for customer's personalization use case"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch Learning",
+            description: "Product team webinar on new Experience Platform features"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Customer Demo",
+            description: "Present Adobe Experience Cloud to financial services prospect"
+          },
+          {
+            time: "3:30 PM",
+            activity: "RFP Response",
+            description: "Complete technical sections of enterprise RFP response"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Follow-Up",
+            description: "Send follow-up materials and schedule next steps with customer"
+          }
+        ],
+        closing: "Adobe Sales Engineers serve as trusted technical advisors to enterprise customers, demonstrating how Adobe technology can transform digital experiences and drive business outcomes."
+      },
+
+      similarRoles: [
+        "Salesforce Sales Engineer",
+        "AWS Solutions Architect",
+        "Microsoft Solutions Specialist",
+        "Google Cloud Customer Engineer"
+      ]
+    },
+
+    'devops-engineer': {
+      roleDescription: "DevOps Engineers at Adobe build and maintain the infrastructure, CI/CD pipelines, and automation that power Creative Cloud, Document Cloud, and Experience Cloud—platforms serving over 30 million subscribers and processing petabytes of creative content. You'll work on cloud infrastructure (primarily AWS), container orchestration, deployment automation, observability, and reliability engineering to ensure Adobe's creative and marketing tools are always available and performant. Adobe DevOps engineers operate at massive scale, supporting real-time collaboration, content delivery, and AI inference workloads.",
+
+      responsibilities: [
+        "Design and maintain cloud infrastructure for Adobe's SaaS platforms (AWS, Azure)",
+        "Build and optimize CI/CD pipelines for reliable, fast software delivery",
+        "Implement container orchestration and microservices infrastructure (Kubernetes, Docker)",
+        "Develop Infrastructure as Code using Terraform, CloudFormation, or Pulumi",
+        "Build observability solutions—monitoring, logging, alerting, and tracing",
+        "Automate operational processes and reduce manual toil",
+        "Ensure high availability and disaster recovery for critical services",
+        "Optimize cloud costs and resource utilization at scale",
+        "Support production systems and participate in on-call rotations"
+      ],
+
+      growthOpportunities: [
+        "Advance from DevOps Engineer through Senior, Staff, to Principal levels",
+        "Deep expertise in cloud-native infrastructure at massive scale",
+        "Work on cutting-edge AI/ML infrastructure for Firefly and Sensei",
+        "Opportunities across Creative Cloud, Experience Cloud, and platform teams",
+        "Path to infrastructure architecture or engineering leadership roles",
+        "Shape Adobe's DevOps practices and culture",
+        "Build expertise in real-time systems, content delivery, and collaboration infrastructure",
+        "Contribute to open-source projects and industry best practices"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about DevOps background, cloud experience, and interest in Adobe. Overview of infrastructure teams and technology stack.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Technical Screen",
+          description: "60-minute technical interview covering cloud infrastructure, CI/CD, containers, and automation scripting.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Virtual Onsite",
+          description: "4-5 rounds including infrastructure design, automation/coding, troubleshooting scenario, observability, and behavioral/culture fit.",
+          duration: "4-5 hours"
+        },
+        {
+          stage: 4,
+          title: "Team Match Discussion",
+          description: "Conversation with potential teams about specific projects and technical challenges.",
+          duration: "30-45 minutes"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base, bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Design a CI/CD pipeline for a Creative Cloud application with desktop and cloud components",
+        "How would you architect high-availability infrastructure for real-time collaboration?",
+        "Design a container orchestration strategy for Adobe's microservices architecture",
+        "How would you implement blue-green or canary deployments at scale?",
+        "Design an observability stack for a SaaS platform serving millions of users",
+        "How would you optimize cloud costs for a large-scale creative content platform?",
+        "Describe your approach to Infrastructure as Code and its benefits",
+        "How would you design disaster recovery for Adobe's cloud services?",
+        "Design a secrets management solution for microservices",
+        "How would you scale infrastructure to handle peak loads during product launches?",
+        "Describe your approach to container security and image management",
+        "How would you implement zero-downtime deployments for a database-backed service?",
+        "Design a logging and tracing infrastructure for distributed systems",
+        "How would you approach cloud migration for a legacy service?",
+        "Describe your strategy for managing multiple environments (dev, staging, prod)"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a complex infrastructure project you led and its impact",
+        "Describe a production incident you responded to and how you resolved it",
+        "How have you balanced reliability with speed of delivery?",
+        "Tell me about a time you significantly improved deployment frequency or reliability",
+        "Describe your experience with cost optimization at scale",
+        "How have you worked with development teams to improve their deployment experience?",
+        "Tell me about automation you built that had significant impact",
+        "Describe your approach to on-call and incident management",
+        "How have you handled situations with technical debt in infrastructure?",
+        "Tell me about a time you had to troubleshoot a complex distributed system issue",
+        "Describe your experience migrating systems to containers or cloud",
+        "How have you ensured security in your infrastructure designs?",
+        "Tell me about a time you had to make trade-offs between competing priorities",
+        "Describe your approach to documentation and knowledge sharing"
+      ],
+
+      whatTheyLookFor: [
+        "Strong experience with cloud platforms (AWS, Azure, or GCP)",
+        "Expertise with container technologies (Kubernetes, Docker)",
+        "CI/CD pipeline design and implementation experience",
+        "Infrastructure as Code skills (Terraform, CloudFormation, Pulumi)",
+        "Programming/scripting proficiency (Python, Go, Bash)",
+        "Experience with observability tools (Prometheus, Grafana, ELK, Datadog)",
+        "Understanding of distributed systems and microservices architecture",
+        "Security-minded approach to infrastructure design",
+        "Problem-solving skills for complex troubleshooting",
+        "Collaboration skills with development and operations teams"
+      ],
+
+      interviewTips: [
+        "Be ready to discuss cloud infrastructure design at scale",
+        "Prepare examples of CI/CD pipelines you've built or improved",
+        "Understand containerization and Kubernetes deeply",
+        "Be ready to whiteboard infrastructure architectures",
+        "Review Adobe's technology stack and infrastructure approach",
+        "Prepare examples of automation with measurable impact",
+        "Be ready to discuss incident response and troubleshooting methodology",
+        "Show understanding of security in infrastructure design",
+        "Prepare to discuss cost optimization strategies",
+        "Be ready to discuss Infrastructure as Code best practices",
+        "Show awareness of DevOps culture and SRE principles",
+        "Prepare questions about on-call, incident management, and team structure",
+        "Be ready to discuss how you stay current with infrastructure technologies",
+        "Demonstrate genuine interest in enabling developer productivity"
+      ],
+
+      salary: {
+        min: 140000,
+        max: 270000,
+        avg: 190000
+      },
+
+      compensation: [
+        "Base salary: $140K-$270K depending on level and location",
+        "Annual bonus: 10-15% of base salary",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for senior roles",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Conference attendance and learning budget",
+        "Free Creative Cloud subscription"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe DevOps Engineer involves infrastructure development, automation work, collaboration with engineering teams, and ensuring the reliability and performance of Adobe's cloud platforms.",
+        schedule: [
+          {
+            time: "9:00 AM",
+            activity: "Monitoring Review",
+            description: "Review overnight alerts and system health dashboards"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Team Standup",
+            description: "Daily sync with infrastructure team on sprint progress"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Pipeline Development",
+            description: "Improve CI/CD pipeline for faster Creative Cloud deployments"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Engineering Support",
+            description: "Help development team troubleshoot deployment issue"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Lunch & Learn",
+            description: "Team presentation on new Kubernetes features and best practices"
+          },
+          {
+            time: "1:30 PM",
+            activity: "Infrastructure as Code",
+            description: "Develop Terraform modules for new microservice infrastructure"
+          },
+          {
+            time: "3:00 PM",
+            activity: "Architecture Review",
+            description: "Review infrastructure design for new Experience Cloud feature"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Automation",
+            description: "Build automated scaling policies for AI inference workloads"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update runbooks and operational documentation"
+          }
+        ],
+        closing: "Adobe DevOps Engineers enable creative professionals and enterprises by building and maintaining the reliable, scalable infrastructure that powers Adobe's cloud platforms."
+      },
+
+      similarRoles: [
+        "Google DevOps Engineer",
+        "Amazon DevOps Engineer",
+        "Microsoft DevOps Engineer",
+        "Netflix Platform Engineer"
+      ]
+    },
+
+    'account-executive': {
+      roleDescription: "Account Executives at Adobe drive enterprise growth by selling the world's leading digital experience and creative solutions to Fortune 500 companies and global brands. You'll own relationships with enterprise customers, selling Adobe Experience Cloud (marketing technology, analytics, personalization), Creative Cloud for Enterprise, and Document Cloud solutions. Adobe AEs help CMOs, CIOs, and digital leaders transform customer experiences and creative workflows, with total target compensation ranging from $155K-$357K. This role combines strategic enterprise selling with the opportunity to represent iconic products that shape how the world creates and engages digitally.",
+
+      responsibilities: [
+        "Own full sales cycle for Adobe Experience Cloud and Enterprise solutions",
+        "Develop and execute strategic account plans for Fortune 500 and enterprise customers",
+        "Conduct discovery to understand customer's digital experience and creative challenges",
+        "Build relationships with CMOs, CIOs, CDOs, and key decision makers",
+        "Position Adobe solutions against Salesforce, Oracle, and other competitors",
+        "Collaborate with Solutions Architects, Customer Success, and Partners on deals",
+        "Drive land-and-expand strategy within existing Adobe customers",
+        "Accurately forecast pipeline and manage opportunities in Salesforce",
+        "Stay current on Adobe products, digital experience trends, and competitive landscape"
+      ],
+
+      growthOpportunities: [
+        "Progression from Commercial to Enterprise to Strategic/Named accounts",
+        "Significant earning potential with TTC ranging from $155K-$357K+",
+        "Specialization in Experience Cloud, Creative Cloud Enterprise, or Document Cloud",
+        "Path to sales leadership, solutions architecture, or customer success roles",
+        "Access to Adobe's sales enablement and training programs",
+        "Global mobility across Adobe's worldwide operations",
+        "Build expertise in digital experience, marketing technology, and creative workflows",
+        "President's Club recognition for top performers"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about enterprise sales background and interest in Adobe. Overview of territory, product focus, and compensation structure.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute deep dive on sales methodology, quota attainment, and experience selling to marketing and IT executives.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Role Play / Executive Pitch",
+          description: "Deliver a mock executive pitch or discovery session. Focus on articulating digital transformation value and business outcomes.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Panel Interview",
+          description: "Meet with sales leadership, solutions architects, and customer success to assess enterprise selling capabilities and culture fit.",
+          duration: "2-3 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive TTC offer with base, commission, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "Walk me through a complex enterprise deal you closed in the digital experience or marketing technology space",
+        "How do you approach selling to CMOs versus CIOs—what's different?",
+        "Describe your discovery process for understanding a customer's digital experience maturity",
+        "How would you position Adobe Experience Cloud against Salesforce Marketing Cloud?",
+        "Tell me about a competitive win and what differentiated your approach",
+        "How do you navigate long sales cycles with multiple stakeholders across marketing and IT?",
+        "Describe your approach to land-and-expand within existing customers",
+        "How do you leverage customer success and professional services in your deals?",
+        "What's your methodology for building executive-level relationships?",
+        "How would you approach a customer evaluating Adobe vs Oracle for their experience platform?",
+        "Describe how you build business cases and ROI models for enterprise deals",
+        "How do you stay current on digital experience trends and Adobe's product roadmap?",
+        "Walk me through how you'd structure a multi-product Adobe deal",
+        "How do you handle procurement and legal negotiations in enterprise deals?"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about your most significant enterprise deal and what drove your success",
+        "Describe a deal you lost to a competitor and what you learned",
+        "How have you built relationships with C-level marketing executives?",
+        "Tell me about a time you had to navigate complex organizational dynamics at a customer",
+        "Describe your approach to managing a large territory with multiple enterprise accounts",
+        "How have you collaborated with solutions architects and customer success on deals?",
+        "Tell me about a time you had to sell a vision before a product was fully mature",
+        "Describe how you've adapted your approach for different industries",
+        "How have you handled a situation where a customer had a poor implementation experience?",
+        "Tell me about a creative approach you took to break into a strategic account",
+        "Describe your experience with executive presentations and board-level discussions",
+        "How have you leveraged customer references and case studies?",
+        "Tell me about a time you identified a significant expansion opportunity",
+        "Describe how you balance hunting new logos vs. growing existing accounts"
+      ],
+
+      whatTheyLookFor: [
+        "Proven track record of exceeding quota in enterprise software/SaaS sales",
+        "Experience selling to CMOs, marketing executives, and/or IT leadership",
+        "Understanding of digital experience, marketing technology, or creative workflows",
+        "Strong executive presence and relationship building skills",
+        "Strategic account planning and complex deal management capabilities",
+        "Experience with consultative, value-based selling methodologies",
+        "Collaboration skills with technical teams and partners",
+        "Competitive drive and passion for winning enterprise deals",
+        "Ability to articulate business value and ROI",
+        "Alignment with Adobe's mission of changing the world through digital experiences"
+      ],
+
+      interviewTips: [
+        "Know your numbers—quota attainment, deal sizes, average sales cycle, win rates",
+        "Prepare detailed stories about enterprise wins, especially in marketing tech or digital experience",
+        "Research Adobe's product portfolio—Experience Cloud, Creative Cloud Enterprise, Document Cloud",
+        "Understand Adobe's competitive positioning vs Salesforce, Oracle, and SAP",
+        "Practice your executive pitch focused on digital transformation and business outcomes",
+        "Be ready to discuss experience selling to marketing and/or IT executives",
+        "Show understanding of customer experience, personalization, and content management trends",
+        "Prepare thoughtful questions about territory, quota, and team structure",
+        "Demonstrate familiarity with Adobe's customer success stories and use cases",
+        "Be ready to discuss how you'd approach different industries (retail, financial services, etc.)",
+        "Show your approach to multi-threading and stakeholder management",
+        "Highlight experience with complex, multi-product enterprise deals",
+        "Understand Adobe's strengths in creative and experience technology",
+        "Be prepared to discuss your sales methodology and process"
+      ],
+
+      salary: {
+        min: 110000,
+        max: 180000,
+        avg: 140000
+      },
+
+      compensation: [
+        "Base salary: $110K-$180K depending on segment and experience",
+        "Total target compensation (TTC): $155K-$357K+ (base + commission)",
+        "Commission: Sales incentive plans with accelerators for overachievement",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "Sign-on bonus for experienced enterprise sellers",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Free Creative Cloud subscription",
+        "Generous PTO and company holidays"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Account Executive involves strategic account engagement, executive relationship building, and positioning Adobe's digital experience solutions to transform how enterprises engage their customers.",
+        schedule: [
+          {
+            time: "8:00 AM",
+            activity: "Pipeline Review",
+            description: "Review opportunities, update forecast, and prepare for customer meetings"
+          },
+          {
+            time: "9:00 AM",
+            activity: "Account Strategy",
+            description: "Develop strategy for strategic account expansion, coordinate with customer success"
+          },
+          {
+            time: "10:00 AM",
+            activity: "Executive Meeting",
+            description: "Meet with prospect CMO to discuss digital experience transformation vision"
+          },
+          {
+            time: "11:30 AM",
+            activity: "Internal Sync",
+            description: "Strategy session with solutions architect on upcoming technical workshop"
+          },
+          {
+            time: "12:30 PM",
+            activity: "Customer Lunch",
+            description: "Lunch with existing customer stakeholder to discuss expansion opportunities"
+          },
+          {
+            time: "2:00 PM",
+            activity: "Product Demo",
+            description: "Lead Experience Cloud demo for prospect's marketing and IT team"
+          },
+          {
+            time: "3:30 PM",
+            activity: "Proposal Development",
+            description: "Work with deal desk on enterprise pricing and proposal"
+          },
+          {
+            time: "4:30 PM",
+            activity: "Partner Call",
+            description: "Coordinate with SI partner on joint customer opportunity"
+          },
+          {
+            time: "5:30 PM",
+            activity: "Admin & Planning",
+            description: "Update CRM, respond to emails, prepare for tomorrow's meetings"
+          }
+        ],
+        closing: "Adobe AEs serve as strategic partners to enterprise customers, helping them transform digital experiences and creative capabilities through Adobe's industry-leading technology."
+      },
+
+      similarRoles: [
+        "Salesforce Account Executive",
+        "Oracle Account Executive",
+        "SAP Account Executive",
+        "Microsoft Account Executive"
+      ]
+    },
+
+    'customer-success-manager': {
+      roleDescription: "Customer Success Managers at Adobe ensure enterprise customers achieve transformational outcomes from Adobe Experience Cloud, Creative Cloud for Enterprise, and Document Cloud investments. You'll serve as a trusted advisor to Fortune 500 companies and global brands, driving adoption, retention, and expansion of Adobe's digital experience and creative solutions. Adobe CSMs help CMOs, CDOs, and digital leaders maximize ROI from their Adobe investments—with compensation ranging from $135K-$234K and the opportunity to represent iconic products that shape how the world creates and engages digitally.",
+
+      responsibilities: [
+        "Own customer relationships and drive adoption of Adobe Experience Cloud solutions",
+        "Develop and execute success plans aligned with customer's digital experience goals",
+        "Monitor customer health metrics and proactively address risks to retention and renewal",
+        "Drive product adoption, usage optimization, and identification of expansion opportunities",
+        "Conduct Executive Business Reviews to demonstrate value and strategic alignment",
+        "Coordinate with Support, Professional Services, and Product teams on customer needs",
+        "Guide customers through implementations, integrations, and go-lives",
+        "Partner with Sales on renewals and expansion opportunities",
+        "Serve as voice of the customer to influence Adobe's product roadmap"
+      ],
+
+      growthOpportunities: [
+        "Advance from CSM through Senior, Principal, to Director of Customer Success",
+        "Deep expertise in digital experience, marketing technology, and creative workflows",
+        "Path to customer success leadership, solutions consulting, or sales roles",
+        "Specialization in Experience Cloud, Creative Cloud Enterprise, or Document Cloud",
+        "Access to Adobe's training and certification programs",
+        "Global mobility across Adobe's worldwide customer success organization",
+        "Build strategic relationships with CMOs and digital leaders at global brands",
+        "Influence Adobe's product development through customer feedback"
+      ],
+
+      interviewProcess: [
+        {
+          stage: 1,
+          title: "Recruiter Screen",
+          description: "30-minute conversation about customer success background, digital experience expertise, and interest in Adobe. Overview of team structure and customer portfolio.",
+          duration: "30 minutes"
+        },
+        {
+          stage: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute discussion on customer success methodology, experience with marketing technology, and approach to driving adoption and value realization.",
+          duration: "60 minutes"
+        },
+        {
+          stage: 3,
+          title: "Case Study / Presentation",
+          description: "Present a customer success scenario—develop a success plan for a customer implementing Adobe Experience Cloud, identify risks, and propose adoption strategies.",
+          duration: "45-60 minutes"
+        },
+        {
+          stage: 4,
+          title: "Panel Interview",
+          description: "Meet with cross-functional partners (Sales, Solutions, Support, Product) to assess collaboration skills and customer-centric mindset.",
+          duration: "2-3 hours"
+        },
+        {
+          stage: 5,
+          title: "Offer & Negotiation",
+          description: "Competitive offer with base salary, bonus, RSUs, and comprehensive benefits.",
+          duration: "1 week"
+        }
+      ],
+
+      technicalQuestions: [
+        "How do you develop a success plan for a customer implementing Adobe Experience Platform?",
+        "Describe your approach to driving adoption of marketing technology solutions",
+        "How would you handle a customer at risk due to implementation delays or challenges?",
+        "Walk me through conducting an Executive Business Review with a CMO",
+        "How do you measure and demonstrate ROI for digital experience investments?",
+        "Describe your approach to identifying expansion opportunities within an account",
+        "How would you coordinate with Professional Services on a complex implementation?",
+        "What metrics do you track to monitor customer health for marketing technology?",
+        "How do you balance reactive support with proactive success activities?",
+        "Describe how you'd guide a customer through digital experience transformation",
+        "How would you handle a customer considering Salesforce Marketing Cloud instead?",
+        "What's your methodology for building relationships with marketing executives?",
+        "How do you stay current on Adobe's products and digital experience trends?",
+        "Describe your approach to driving user adoption across different stakeholder groups"
+      ],
+
+      behavioralQuestions: [
+        "Tell me about a time you turned around an at-risk enterprise customer",
+        "Describe a significant expansion or upsell you drove within a customer account",
+        "How have you handled a situation where customer expectations exceeded product capabilities?",
+        "Tell me about a time you had to deliver difficult news to a customer CMO or CDO",
+        "Describe your approach to managing a portfolio of enterprise customers",
+        "How have you collaborated with sales on strategic renewals?",
+        "Tell me about a time you advocated for a customer with product teams",
+        "Describe how you've built executive relationships at customer organizations",
+        "How have you handled an escalation requiring cross-functional coordination?",
+        "Tell me about a creative approach you took to drive product adoption",
+        "Describe your experience with digital experience or marketing technology implementations",
+        "How have you measured and improved customer satisfaction?",
+        "Tell me about a time you identified a risk before it became a major issue",
+        "Describe how you stay organized managing multiple enterprise relationships"
+      ],
+
+      whatTheyLookFor: [
+        "Proven track record in customer success, account management, or consulting",
+        "Experience with marketing technology, digital experience, or creative software",
+        "Strong executive communication and presentation skills",
+        "Ability to build trusted advisor relationships with CMOs and digital leaders",
+        "Analytical mindset with experience using data to drive decisions",
+        "Cross-functional collaboration skills",
+        "Understanding of customer success metrics (NPS, CSAT, adoption, retention)",
+        "Experience managing complex enterprise customer relationships",
+        "Passion for digital experiences and creative technology",
+        "Results-oriented with focus on customer outcomes"
+      ],
+
+      interviewTips: [
+        "Research Adobe's product portfolio—Experience Cloud, Creative Cloud Enterprise, Document Cloud",
+        "Prepare specific examples of customer retention and expansion success",
+        "Be ready to discuss your customer success methodology and metrics",
+        "Understand Adobe's competitive landscape (Salesforce, Oracle, SAP)",
+        "Practice presenting an Executive Business Review or success plan",
+        "Show understanding of digital experience and marketing technology challenges",
+        "Prepare examples of cross-functional collaboration",
+        "Be ready to discuss how you handle at-risk customers",
+        "Demonstrate familiarity with customer health scoring and monitoring",
+        "Show genuine passion for Adobe's mission of changing the world through digital experiences",
+        "Prepare thoughtful questions about customer portfolio and team structure",
+        "Understand digital transformation trends in enterprise marketing",
+        "Be ready to discuss your approach to building executive relationships",
+        "Show how you balance reactive and proactive customer engagement"
+      ],
+
+      salary: {
+        min: 100000,
+        max: 180000,
+        avg: 135000
+      },
+
+      compensation: [
+        "Base salary: $100K-$180K depending on level and experience",
+        "Annual bonus: 15-20% of base salary tied to retention and expansion metrics",
+        "RSUs: Significant equity grants with 4-year vesting",
+        "401(k) with company match",
+        "Employee Stock Purchase Plan (ESPP) at 15% discount",
+        "Comprehensive health, dental, and vision coverage",
+        "5-week paid sabbatical every 5 years",
+        "Free Creative Cloud subscription",
+        "Learning and certification budget",
+        "Generous PTO and company holidays"
+      ],
+
+      dayInLife: {
+        intro: "A typical day as an Adobe Customer Success Manager involves strategic customer engagement, adoption planning, cross-functional coordination, and ensuring enterprise customers achieve their digital experience objectives.",
+        schedule: [
+          {
+            time: "8:30 AM",
+            activity: "Health Dashboard Review",
+            description: "Review customer health scores, usage metrics, and support ticket status"
+          },
+          {
+            time: "9:30 AM",
+            activity: "Customer Check-in",
+            description: "Quarterly business review with customer's digital marketing team"
+          },
+          {
+            time: "11:00 AM",
+            activity: "Internal Sync",
+            description: "Meet with solutions architect on customer's upcoming integration project"
+          },
+          {
+            time: "12:00 PM",
+            activity: "Lunch & Learn",
+            description: "Adobe product team presentation on new Experience Platform features"
+          },
+          {
+            time: "1:00 PM",
+            activity: "Success Planning",
+            description: "Develop adoption roadmap for customer launching personalization initiative"
+          },
+          {
+            time: "2:30 PM",
+            activity: "Executive Meeting",
+            description: "Meet with customer CMO to discuss digital transformation roadmap"
+          },
+          {
+            time: "4:00 PM",
+            activity: "Cross-Functional Sync",
+            description: "Coordinate with Sales on strategic renewal and expansion strategy"
+          },
+          {
+            time: "5:00 PM",
+            activity: "Documentation",
+            description: "Update customer records, prepare reports, plan tomorrow's activities"
+          }
+        ],
+        closing: "Adobe CSMs serve as strategic partners to enterprise customers, ensuring they realize transformational value from Adobe's digital experience and creative solutions."
+      },
+
+      similarRoles: [
+        "Salesforce Customer Success Manager",
+        "Oracle Customer Success Manager",
+        "Microsoft Customer Success Manager",
+        "SAP Customer Success Manager"
       ]
     }
   },
