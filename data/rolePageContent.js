@@ -30574,6 +30574,4781 @@ export const rolePageContent = {
     }
   },
 
+  // Priority 3: Cisco (Networking)
+  'cisco': {
+    'software-engineer': {
+      title: 'Software Engineer',
+      slug: 'software-engineer',
+      industry: 'Technology',
+      roleDescription: `Software Engineers at Cisco build the software that powers the world\'s networking infrastructure—from enterprise routers and switches to cloud security platforms and collaboration tools like Webex. Working at a company that connects over 85% of internet traffic, you\'ll develop software for networking devices, security products, cloud management platforms like Meraki, and communication solutions used by millions. Cisco\'s engineering culture spans embedded systems programming in C/C++ to modern cloud-native development in Python, Go, and Java. The interview process focuses on data structures, algorithms, and computer networking fundamentals—understanding how networks operate is essential for many roles. Engineers work in a "Conscious Culture" that emphasizes inclusion, collaboration, and work-life balance. With Cisco\'s expansion into security (following the Splunk acquisition), cloud networking, and AI-powered solutions, software engineers have opportunities to work on diverse technical challenges across the networking industry.`,
+      responsibilities: [
+        'Develop software for networking devices, security products, or cloud platforms',
+        'Build features for Webex, Meraki, or enterprise networking products',
+        'Write efficient code in C/C++, Python, Go, or Java',
+        'Implement networking protocols and distributed systems',
+        'Collaborate with hardware teams on embedded software',
+        'Participate in code reviews and maintain high quality standards',
+        'Debug complex networking and distributed systems issues',
+        'Contribute to CI/CD pipelines and automation',
+        'Work with cross-functional teams across global locations'
+      ],
+      growthOpportunities: [
+        'Progress through Software Engineer levels to Distinguished Engineer',
+        'Specialize in networking, security, collaboration, or cloud',
+        'Transition into technical leadership or architecture roles',
+        'Move into product management or technical marketing',
+        'Lead development for new products or platforms',
+        'Build expertise in emerging areas like AI networking',
+        'Contribute to open-source projects and industry standards',
+        'Access Cisco\'s extensive learning and certification programs'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: '45-minute phone conversation about background and interests' },
+        { stage: 'Online Assessment', description: 'Coding assessment with DSA problems and networking MCQs' },
+        { stage: 'Technical Phone Screen', description: '60-minute interview covering coding and CS fundamentals' },
+        { stage: 'Onsite Technical Rounds', description: '4-5 one-hour interviews on coding, system design, and networking' },
+        { stage: 'Behavioral Interview', description: 'Discussion of teamwork, values alignment, and past experiences' }
+      ],
+      technicalQuestions: [
+        'Implement a function to find the shortest path in a graph.',
+        'Explain how TCP ensures reliable data delivery.',
+        'Design a distributed caching system for network devices.',
+        'How does ARP work and what problems can arise?',
+        'Implement a trie data structure for IP routing.',
+        'Explain the differences between TCP and UDP.',
+        'Design a load balancer for high-traffic applications.',
+        'How do you debug a network connectivity issue?',
+        'Implement a thread-safe producer-consumer queue.',
+        'Explain how OSPF routing protocol works.',
+        'Design a system for real-time video conferencing.',
+        'How do firewalls and packet filtering work?',
+        'Implement a rate limiter for API endpoints.',
+        'Explain the OSI model and how protocols map to layers.',
+        'Design a network monitoring and alerting system.',
+        'How do you optimize network packet processing?'
+      ],
+      behavioralQuestions: [
+        'Tell me about a challenging technical problem you solved.',
+        'Describe a time you worked effectively with a remote team.',
+        'How have you handled disagreements with colleagues?',
+        'Tell me about a project where you had to learn new technology quickly.',
+        'Describe your experience with code reviews.',
+        'How do you prioritize when facing multiple deadlines?',
+        'Tell me about a time you improved a process or system.',
+        'Describe how you stay current with technology trends.',
+        'How have you mentored or helped junior engineers?',
+        'Tell me about a project that didn\'t go as planned.',
+        'Describe your experience working in diverse teams.',
+        'How do you handle ambiguous requirements?',
+        'Tell me about a time you went above and beyond.',
+        'Describe your approach to debugging complex issues.'
+      ],
+      whatTheyLookFor: [
+        'Strong foundation in data structures and algorithms',
+        'Understanding of computer networking concepts',
+        'Proficiency in C/C++, Python, Java, or Go',
+        'Experience with distributed systems or embedded software',
+        'Problem-solving skills for complex technical challenges',
+        'Collaboration skills for global team environments',
+        'Understanding of software development lifecycle',
+        'Knowledge of networking protocols valued',
+        'Clear communication across technical levels',
+        'Alignment with Cisco\'s Conscious Culture values'
+      ],
+      interviewTips: [
+        'Review computer networking fundamentals—Cisco emphasizes this',
+        'Practice DSA problems, especially graph algorithms',
+        'Understand TCP/IP, routing, and network protocols',
+        'Be prepared for questions on your resume and projects',
+        'Research Cisco\'s product portfolio: Webex, Meraki, security',
+        'Show understanding of distributed systems concepts',
+        'Prepare examples of collaboration and teamwork',
+        'Review system design for networking scenarios',
+        'Show enthusiasm for Cisco\'s mission and products',
+        'Be ready to discuss experience with embedded or network software',
+        'Prepare for MCQs on networking and OS concepts',
+        'Use STAR method for behavioral questions',
+        'Research Cisco\'s Conscious Culture and values',
+        'Highlight any networking certifications (CCNA, etc.)'
+      ],
+      salary: {
+        min: 100000,
+        max: 200000,
+        average: 150000
+      },
+      compensation: [
+        'Competitive base salary ($100K-$200K based on level)',
+        'Annual performance bonus (target varies by level)',
+        'Restricted Stock Units (RSUs)',
+        '401(k) with company match',
+        'Employee Stock Purchase Plan',
+        'Comprehensive health, dental, and vision insurance',
+        'Generous PTO and flexible work arrangements',
+        'Tuition reimbursement',
+        'Wellness programs and gym subsidies',
+        'Remote work options for many roles'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a Software Engineer at Cisco combines development work, collaboration, and continuous learning.',
+        schedule: [
+          '9:00 AM - Review overnight build results and team updates',
+          '9:30 AM - Team standup with colleagues across time zones',
+          '10:00 AM - Deep work on feature development',
+          '12:00 PM - Lunch break',
+          '1:00 PM - Code review session with team',
+          '2:00 PM - Cross-functional meeting with QA or product',
+          '3:00 PM - Continue development or debugging',
+          '4:30 PM - Technical discussion or design review',
+          '5:30 PM - Document progress and plan tomorrow'
+        ],
+        closing: 'Software Engineering at Cisco means building the technology that connects the world, with work-life balance and opportunities across networking, security, and collaboration.'
+      },
+      similarRoles: ['Senior Software Engineer at Cisco', 'Principal Engineer at Cisco', 'Network Software Engineer at Cisco', 'Cloud Software Engineer at Cisco', 'Embedded Software Engineer at Cisco']
+    },
+
+    'product-manager': {
+      title: 'Product Manager',
+      slug: 'product-manager',
+      industry: 'Technology',
+      roleDescription: `Product Managers at Cisco shape the strategy and execution of products that power the world\'s networking infrastructure—from enterprise routers and switches to Webex collaboration, Meraki cloud networking, and security solutions. Working at the intersection of technology and business, you\'ll define product vision, prioritize features, and drive go-to-market strategies for products used by organizations worldwide. Cisco\'s PM role spans hardware and software products: you\'ll work with engineering teams on networking devices, cloud platforms, and software applications. The company\'s B2B focus means PMs work closely with enterprise customers, channel partners, and field teams to understand complex networking requirements. With Cisco\'s expansion into security, collaboration, and AI-powered networking, product managers have opportunities to shape products across diverse technology domains.`,
+      responsibilities: [
+        'Define product strategy and roadmaps for networking or software products',
+        'Gather and prioritize requirements from customers and market analysis',
+        'Work with engineering teams to translate requirements into specifications',
+        'Drive product launches and go-to-market strategies',
+        'Collaborate with sales and marketing on positioning and enablement',
+        'Analyze competitive landscape and market trends',
+        'Present product strategies to executives and customers',
+        'Manage product lifecycle from concept through end-of-life',
+        'Build business cases for new product investments'
+      ],
+      growthOpportunities: [
+        'Progress from Product Manager to Senior PM, Director, and VP',
+        'Lead product lines for networking, security, or collaboration',
+        'Move into general management or business unit leadership',
+        'Transition into technical marketing or solutions architecture',
+        'Build expertise in specific markets: enterprise, SMB, service provider',
+        'Lead product management for acquisitions',
+        'Move into corporate strategy or business development',
+        'Build external presence as industry thought leader'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: '30-minute conversation about background and interests' },
+        { stage: 'Hiring Manager Interview', description: '45-minute discussion of PM experience and approach' },
+        { stage: 'Product Case Study', description: '60-minute interview presenting solution to product challenge' },
+        { stage: 'Cross-functional Interviews', description: 'Conversations with engineering, marketing, and sales' },
+        { stage: 'Executive Interview', description: 'Final round with senior product leadership' }
+      ],
+      technicalQuestions: [
+        'How would you prioritize features for an enterprise networking product?',
+        'Explain your approach to building a product roadmap.',
+        'How do you measure success for B2B networking products?',
+        'Describe your experience with hardware product development.',
+        'How would you differentiate Cisco products against competitors?',
+        'Explain your approach to gathering enterprise customer feedback.',
+        'How do you balance innovation with customer support for existing products?',
+        'Describe your experience with pricing for enterprise products.',
+        'How would you approach the cloud networking market opportunity?',
+        'Explain your process for making build vs. buy decisions.',
+        'How do you work with channel partners in product planning?',
+        'Describe your experience with product launches.',
+        'How would you approach subscription vs. perpetual licensing?',
+        'Explain your approach to competitive analysis.',
+        'How do you work with engineering on technical trade-offs?',
+        'Describe your experience with enterprise sales cycles.'
+      ],
+      behavioralQuestions: [
+        'Tell me about a product you launched and its market impact.',
+        'Describe a time you had to make a difficult prioritization decision.',
+        'How have you handled disagreement with engineering teams?',
+        'Tell me about a time you pivoted product strategy based on data.',
+        'Describe your experience working with enterprise customers.',
+        'How have you navigated organizational complexity?',
+        'Tell me about a product decision you\'d make differently.',
+        'Describe how you stay current with technology trends.',
+        'How have you built relationships across functions?',
+        'Tell me about a time you influenced without direct authority.',
+        'Describe your experience with data-driven decision making.',
+        'How have you balanced customer requests with product vision?',
+        'Tell me about a competitive win you drove.',
+        'Describe how you handle pressure and tight timelines.'
+      ],
+      whatTheyLookFor: [
+        'Experience with B2B or enterprise product management',
+        'Technical depth to work with networking engineering teams',
+        'Understanding of networking industry and competitive landscape',
+        'Strong analytical and strategic thinking skills',
+        'Customer empathy and market understanding',
+        'Experience with channel partners and enterprise sales',
+        'Excellent communication across technical and business audiences',
+        'Data-driven decision making',
+        'Cross-functional collaboration skills',
+        'MBA or technical degree often preferred'
+      ],
+      interviewTips: [
+        'Understand Cisco\'s product portfolio and competitive position',
+        'Be prepared to discuss B2B and enterprise product challenges',
+        'Show technical depth—Cisco PMs need to understand networking',
+        'Prepare a case study on networking or enterprise product strategy',
+        'Research Cisco\'s security acquisition strategy (Splunk, etc.)',
+        'Demonstrate understanding of channel partner dynamics',
+        'Show experience with enterprise customer relationships',
+        'Be ready to discuss subscription business model evolution',
+        'Prepare examples of data-driven product decisions',
+        'Show knowledge of networking trends: cloud, security, AI',
+        'Demonstrate ability to simplify complex technical concepts',
+        'Prepare questions about Cisco\'s product culture',
+        'Show enthusiasm for networking and connectivity',
+        'Highlight any networking or enterprise experience'
+      ],
+      salary: {
+        min: 130000,
+        max: 220000,
+        average: 175000
+      },
+      compensation: [
+        'Competitive base salary ($130K-$220K based on level)',
+        'Annual performance bonus (15-25% of base)',
+        'Restricted Stock Units (RSUs)',
+        '401(k) with company match',
+        'Employee Stock Purchase Plan',
+        'Comprehensive health benefits',
+        'Generous PTO and flexible work',
+        'Professional development support',
+        'Tuition reimbursement',
+        'Remote work flexibility'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a Product Manager at Cisco balances strategy, customer engagement, and cross-functional collaboration.',
+        schedule: [
+          '8:30 AM - Review market reports and competitive updates',
+          '9:00 AM - Engineering sync on product requirements',
+          '10:00 AM - Customer call discussing product needs',
+          '11:00 AM - Product strategy meeting with leadership',
+          '12:00 PM - Lunch with marketing team',
+          '1:00 PM - Competitive analysis and positioning work',
+          '2:30 PM - Cross-functional review for upcoming launch',
+          '4:00 PM - Work on business case for new initiative',
+          '5:30 PM - Respond to stakeholder requests and plan tomorrow'
+        ],
+        closing: 'Product Management at Cisco means shaping products that connect the world, with direct impact on how organizations communicate and operate.'
+      },
+      similarRoles: ['Senior Product Manager at Cisco', 'Director of Product Management at Cisco', 'Technical Product Manager at Cisco', 'Product Line Manager at Cisco', 'Cloud Product Manager at Cisco']
+    },
+
+    'engineering-manager': {
+      title: 'Engineering Manager',
+      slug: 'engineering-manager',
+      industry: 'Technology',
+      roleDescription: `Engineering Managers at Cisco lead teams building the software and systems that power global networking infrastructure—from enterprise switches and routers to Webex collaboration tools and Meraki cloud platforms. With responsibility for both technical excellence and people development, EMs at Cisco navigate diverse technical domains including embedded systems, cloud services, security platforms, and communication applications. Cisco\'s management culture emphasizes its "Conscious Culture" values: inclusion, collaboration, and respect. The company consistently ranks among the best places to work, with 96% of employees rating it positively. Engineering Managers work across global teams, coordinating with colleagues in the U.S., India, and other locations. With Cisco\'s continued expansion into security and cloud networking, EMs have opportunities to build and lead teams in high-growth areas.`,
+      responsibilities: [
+        'Lead and develop engineering teams of 5-15 engineers',
+        'Drive technical strategy and architecture decisions',
+        'Manage hiring, performance reviews, and career development',
+        'Collaborate with product management on roadmap and priorities',
+        'Ensure quality and timely delivery of software releases',
+        'Foster Cisco\'s Conscious Culture values within the team',
+        'Build cross-site relationships for global team coordination',
+        'Balance technical debt management with feature development',
+        'Drive continuous improvement in engineering practices'
+      ],
+      growthOpportunities: [
+        'Progress from Engineering Manager to Senior EM, Director, and VP',
+        'Lead larger organizations or multiple product areas',
+        'Move into Distinguished Engineer technical track',
+        'Take on cross-site or global team leadership',
+        'Lead engineering for acquisitions or new initiatives',
+        'Transition into product management or architecture',
+        'Build expertise across Cisco\'s product portfolio',
+        'Take on executive leadership roles'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: '30-minute conversation about leadership experience' },
+        { stage: 'Hiring Manager Interview', description: '60-minute discussion of management philosophy and experience' },
+        { stage: 'Technical Interview', description: '60-minute assessment of technical depth and decision-making' },
+        { stage: 'Leadership Panel', description: 'Interviews with peer managers and senior leadership' },
+        { stage: 'Behavioral Interview', description: 'Deep dive on people management and cultural fit' }
+      ],
+      technicalQuestions: [
+        'How do you approach technical decision-making with your team?',
+        'Describe your experience with networking or distributed systems.',
+        'How do you balance technical debt with feature development?',
+        'Explain your approach to code quality and engineering standards.',
+        'How do you handle production issues and on-call responsibilities?',
+        'Describe your experience with global team coordination.',
+        'How do you stay technically current while managing?',
+        'Explain your approach to system architecture decisions.',
+        'How do you evaluate build vs. buy decisions?',
+        'Describe your experience with CI/CD and DevOps practices.',
+        'How do you approach security in software development?',
+        'Explain your experience with agile methodologies.',
+        'How do you handle technical disagreements on your team?',
+        'Describe your approach to release management.',
+        'How do you balance innovation with stability?',
+        'Explain your experience with cloud-native development.'
+      ],
+      behavioralQuestions: [
+        'Tell me about a time you had to deliver difficult feedback.',
+        'Describe how you\'ve built a high-performing team.',
+        'How have you handled underperforming team members?',
+        'Tell me about a project that didn\'t meet expectations.',
+        'Describe your experience managing through organizational change.',
+        'How do you balance hands-on work with management?',
+        'Tell me about a time you made a difficult resource decision.',
+        'Describe how you\'ve built cross-functional relationships.',
+        'How have you managed teams across multiple locations?',
+        'Tell me about a time you advocated for your team.',
+        'Describe your approach to promoting diversity and inclusion.',
+        'How have you fostered innovation on your teams?',
+        'Tell me about a time you had to rapidly scale a team.',
+        'Describe how you handle conflict between team members.'
+      ],
+      whatTheyLookFor: [
+        'Strong technical background in software or networking',
+        'Proven track record of developing and leading teams',
+        'Experience with global team coordination',
+        'Alignment with Cisco\'s Conscious Culture values',
+        'Excellent communication across all levels',
+        'Balance of technical depth and management breadth',
+        'Experience with agile development practices',
+        'Understanding of networking industry',
+        'Ability to drive results through influence',
+        'Commitment to diversity and inclusion'
+      ],
+      interviewTips: [
+        'Demonstrate both technical depth and people leadership',
+        'Prepare examples of developing team members',
+        'Show experience with global or remote teams',
+        'Research Cisco\'s Conscious Culture and values',
+        'Be ready to discuss technical architecture decisions',
+        'Show understanding of Cisco\'s organization',
+        'Demonstrate experience with performance management',
+        'Prepare examples of building inclusive teams',
+        'Show how you balance innovation with delivery',
+        'Research Cisco\'s Great Place to Work recognition',
+        'Be ready to discuss metrics for team success',
+        'Prepare questions about Cisco\'s engineering culture',
+        'Show experience with hiring diverse teams',
+        'Demonstrate continuous learning mindset'
+      ],
+      salary: {
+        min: 160000,
+        max: 280000,
+        average: 210000
+      },
+      compensation: [
+        'Competitive base salary ($160K-$280K based on level)',
+        'Annual performance bonus (20-35% of base)',
+        'Restricted Stock Units (RSUs)',
+        '401(k) with company match',
+        'Employee Stock Purchase Plan',
+        'Comprehensive health benefits',
+        'Generous PTO and flexible work',
+        'Executive development programs',
+        'Tuition reimbursement',
+        'Remote work flexibility'
+      ],
+      dayInLife: {
+        intro: 'A typical day as an Engineering Manager at Cisco balances people leadership, technical guidance, and cross-functional collaboration.',
+        schedule: [
+          '8:30 AM - Review team status and overnight issues',
+          '9:00 AM - Team standup with engineers',
+          '9:30 AM - 1:1 with team member on career development',
+          '10:30 AM - Architecture review for new feature',
+          '11:30 AM - Cross-site sync with partner team in India',
+          '12:00 PM - Lunch',
+          '1:00 PM - Product and engineering leadership meeting',
+          '2:00 PM - Technical deep-dive or code review',
+          '3:30 PM - Interview candidate for open position',
+          '4:30 PM - Address team issues and blockers',
+          '5:30 PM - Wrap up and plan tomorrow'
+        ],
+        closing: 'Engineering Management at Cisco means leading teams that build critical networking infrastructure, with strong emphasis on culture and work-life balance.'
+      },
+      similarRoles: ['Senior Engineering Manager at Cisco', 'Director of Engineering at Cisco', 'Software Development Manager at Cisco', 'Cloud Engineering Manager at Cisco', 'Security Engineering Manager at Cisco']
+    },
+
+    'data-scientist': {
+      title: 'Data Scientist',
+      slug: 'data-scientist',
+      industry: 'Technology',
+      roleDescription: `Data Scientists at Cisco apply machine learning and analytics to optimize networking products, improve customer experiences, and drive business insights across the world\'s largest networking company. Working with data from billions of network devices, you\'ll build models for network anomaly detection, predictive maintenance, customer analytics, and AI-powered networking features. Cisco\'s data science teams work across the company—from enhancing Meraki\'s cloud management with ML to building intelligent features in Webex to analyzing customer behavior for product improvement. The role combines traditional data science with domain expertise in networking: understanding how network telemetry translates to predictive models, or how customer usage patterns inform product decisions. With Cisco\'s expansion into AI-powered networking and security analytics (including the Splunk acquisition), data scientists have opportunities to work on cutting-edge applications.`,
+      responsibilities: [
+        'Develop machine learning models for network analytics and optimization',
+        'Build predictive models for customer behavior and product usage',
+        'Create anomaly detection systems for network security',
+        'Analyze large-scale network telemetry data',
+        'Collaborate with product teams on AI-powered features',
+        'Develop dashboards and visualizations for business insights',
+        'Work with engineering to productionize ML models',
+        'Present findings and recommendations to stakeholders',
+        'Research and implement state-of-the-art ML techniques'
+      ],
+      growthOpportunities: [
+        'Progress from Data Scientist to Senior, Principal, and Distinguished',
+        'Specialize in network ML, customer analytics, or security',
+        'Transition into AI/ML engineering or research',
+        'Lead data science for specific product areas',
+        'Build expertise in network analytics and telemetry',
+        'Move into product management for AI products',
+        'Contribute to Cisco\'s AI strategy',
+        'Publish research and present at conferences'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: '30-minute conversation about background and interests' },
+        { stage: 'Technical Assessment', description: 'Take-home or online assessment on ML and statistics' },
+        { stage: 'Technical Phone Screen', description: '60-minute interview on ML fundamentals and coding' },
+        { stage: 'Onsite Presentation', description: 'Present a past data science project' },
+        { stage: 'Technical Deep Dive', description: 'Interview on ML algorithms and implementation' },
+        { stage: 'Behavioral Interview', description: 'Discussion of teamwork and communication' }
+      ],
+      technicalQuestions: [
+        'How would you design an anomaly detection system for network traffic?',
+        'Explain your approach to time series forecasting.',
+        'How do you handle class imbalance in security classification?',
+        'Describe techniques for analyzing network telemetry at scale.',
+        'How do you evaluate and compare ML models?',
+        'Explain the bias-variance tradeoff.',
+        'How would you build a customer churn prediction model?',
+        'Describe your experience with deep learning architectures.',
+        'How do you handle missing data in network datasets?',
+        'Explain techniques for feature engineering with log data.',
+        'How do you ensure ML models perform well in production?',
+        'Describe your approach to A/B testing ML models.',
+        'How would you approach NLP for network log analysis?',
+        'Explain techniques for dimensionality reduction.',
+        'How do you make ML models interpretable for stakeholders?',
+        'Describe your experience with distributed computing for ML.'
+      ],
+      behavioralQuestions: [
+        'Tell me about a data science project that had significant impact.',
+        'Describe a time you communicated findings to non-technical stakeholders.',
+        'How have you handled situations where data quality was poor?',
+        'Tell me about a time your model didn\'t perform as expected.',
+        'Describe your experience working with product teams.',
+        'How have you prioritized between multiple data science projects?',
+        'Tell me about a time you had to learn a new domain quickly.',
+        'Describe how you\'ve worked with engineering on productionization.',
+        'How have you handled disagreement about modeling approaches?',
+        'Tell me about a project where you were creative with limited data.',
+        'Describe your experience with real-time analytics.',
+        'How have you balanced accuracy with interpretability?',
+        'Tell me about a time you identified an opportunity through data.',
+        'Describe how you stay current with ML research.'
+      ],
+      whatTheyLookFor: [
+        'Strong foundation in statistics and machine learning',
+        'Proficiency in Python and data science libraries',
+        'Experience with production ML systems',
+        'Ability to communicate to diverse audiences',
+        'Network or security analytics experience valued',
+        'Strong problem-solving and analytical skills',
+        'Experience with time series and streaming data',
+        'Familiarity with big data technologies',
+        'Understanding of ML ethics and fairness',
+        'Collaborative mindset for cross-functional work'
+      ],
+      interviewTips: [
+        'Prepare to discuss the full ML lifecycle',
+        'Review statistics fundamentals thoroughly',
+        'Be ready to present a past data science project',
+        'Research Cisco\'s AI and ML initiatives',
+        'Show interest in network analytics and telemetry',
+        'Demonstrate experience with production ML systems',
+        'Prepare examples of business impact',
+        'Be ready to code—Python and SQL expected',
+        'Show understanding of scale challenges',
+        'Research Cisco\'s Splunk acquisition',
+        'Demonstrate collaborative mindset',
+        'Prepare questions about Cisco\'s data science team',
+        'Show experience with time series data',
+        'Highlight any networking or security domain experience'
+      ],
+      salary: {
+        min: 120000,
+        max: 200000,
+        average: 160000
+      },
+      compensation: [
+        'Competitive base salary ($120K-$200K based on level)',
+        'Annual performance bonus (15-25% of base)',
+        'Restricted Stock Units (RSUs)',
+        '401(k) with company match',
+        'Employee Stock Purchase Plan',
+        'Comprehensive health benefits',
+        'Conference and training budget',
+        'Generous PTO and flexibility',
+        'Tuition reimbursement',
+        'Remote work options'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a Data Scientist at Cisco balances model development, collaboration, and delivering business insights.',
+        schedule: [
+          '9:00 AM - Review model performance and experiment results',
+          '9:30 AM - Team standup with data science colleagues',
+          '10:00 AM - Deep work on model development',
+          '12:00 PM - Lunch',
+          '1:00 PM - Present findings to product team',
+          '2:30 PM - Collaborate with engineering on model deployment',
+          '4:00 PM - Research new techniques and review papers',
+          '5:00 PM - Document findings and plan experiments',
+          '5:30 PM - Wrap up and respond to stakeholder questions'
+        ],
+        closing: 'Data Science at Cisco means applying ML to optimize the world\'s networking infrastructure, with opportunities to work on AI-powered features used by millions.'
+      },
+      similarRoles: ['Senior Data Scientist at Cisco', 'Principal Data Scientist at Cisco', 'ML Engineer at Cisco', 'AI Research Scientist at Cisco', 'Analytics Lead at Cisco']
+    },
+
+    'network-engineer': {
+      title: 'Network Engineer',
+      slug: 'network-engineer',
+      industry: 'Technology',
+      roleDescription: `Network Engineers at Cisco design, implement, and optimize the networking solutions that connect organizations worldwide. Working at the company that invented the router and defines networking standards, you\'ll work on enterprise networks, data center infrastructure, cloud connectivity, and service provider solutions. The role spans design, deployment, and troubleshooting of Cisco networking products—from campus switches and routers to SD-WAN solutions and cloud-managed Meraki networks. Cisco Network Engineers often work directly with enterprise customers and partners, architecting solutions that meet complex requirements for performance, security, and reliability. The company\'s certification program (CCNA, CCNP, CCIE) provides clear career progression, and deep networking expertise is highly valued. With networking evolving toward software-defined, cloud-managed, and intent-based approaches, network engineers have opportunities to work on cutting-edge infrastructure technologies.`,
+      responsibilities: [
+        'Design and implement enterprise networking solutions',
+        'Configure and optimize Cisco routers, switches, and firewalls',
+        'Deploy SD-WAN and cloud networking solutions',
+        'Troubleshoot complex network issues and outages',
+        'Work with customers on network architecture and design',
+        'Implement network security and access control',
+        'Create network documentation and diagrams',
+        'Support network migrations and upgrades',
+        'Collaborate with security and systems teams'
+      ],
+      growthOpportunities: [
+        'Progress through CCNA, CCNP, and CCIE certifications',
+        'Advance from Network Engineer to Senior and Principal levels',
+        'Specialize in data center, security, collaboration, or service provider',
+        'Move into solutions architecture or technical consulting',
+        'Transition into network software development',
+        'Lead network design for major customer engagements',
+        'Build expertise in emerging areas: SD-WAN, intent-based networking',
+        'Move into technical leadership or management'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: '30-minute conversation about background and certifications' },
+        { stage: 'Technical Phone Screen', description: '60-minute interview on networking fundamentals' },
+        { stage: 'Onsite Technical Rounds', description: 'Multiple interviews on routing, switching, and troubleshooting' },
+        { stage: 'Lab Exercise', description: 'Hands-on networking scenario or design exercise' },
+        { stage: 'Behavioral Interview', description: 'Discussion of customer experience and teamwork' }
+      ],
+      technicalQuestions: [
+        'Explain how OSPF establishes neighbor adjacencies.',
+        'How do you troubleshoot a network connectivity issue systematically?',
+        'Describe the differences between Layer 2 and Layer 3 switching.',
+        'How does BGP path selection work?',
+        'Explain VLAN trunking and native VLANs.',
+        'How do you design a redundant network architecture?',
+        'Describe your experience with SD-WAN technologies.',
+        'How does QoS work and when would you implement it?',
+        'Explain spanning tree protocol and its variants.',
+        'How do you secure a network against common threats?',
+        'Describe your experience with network automation.',
+        'How do you approach capacity planning for networks?',
+        'Explain IPv6 addressing and transition mechanisms.',
+        'How do you troubleshoot high latency issues?',
+        'Describe your experience with wireless networking.',
+        'How do you approach network documentation?'
+      ],
+      behavioralQuestions: [
+        'Tell me about a complex network issue you resolved.',
+        'Describe a time you designed a network under tight constraints.',
+        'How have you worked with customers on technical requirements?',
+        'Tell me about a network outage you handled under pressure.',
+        'Describe your experience with network migrations.',
+        'How do you prioritize when multiple issues arise?',
+        'Tell me about a time you improved network performance.',
+        'Describe your approach to network documentation.',
+        'How have you stayed current with networking technologies?',
+        'Tell me about a time you had to learn a new technology quickly.',
+        'Describe your experience working with cross-functional teams.',
+        'How have you handled disagreement on network design?',
+        'Tell me about a time you mentored others in networking.',
+        'Describe your experience with vendor management.'
+      ],
+      whatTheyLookFor: [
+        'Strong foundation in networking protocols and concepts',
+        'Cisco certifications (CCNA minimum, CCNP/CCIE preferred)',
+        'Experience with Cisco routing and switching platforms',
+        'Troubleshooting skills for complex network issues',
+        'Customer-facing communication skills',
+        'Experience with network security and firewalls',
+        'Understanding of cloud and SD-WAN technologies',
+        'Network design and architecture experience',
+        'Documentation and process discipline',
+        'Ability to work under pressure during outages'
+      ],
+      interviewTips: [
+        'Review routing protocols thoroughly: OSPF, BGP, EIGRP',
+        'Be prepared to troubleshoot scenarios on whiteboard',
+        'Know spanning tree, VLANs, and switching concepts',
+        'Prepare to discuss your certification journey',
+        'Research Cisco\'s current networking portfolio',
+        'Be ready to explain concepts to different audience levels',
+        'Prepare examples of customer interactions',
+        'Show experience with network automation tools',
+        'Understand SD-WAN and cloud networking trends',
+        'Be ready for hands-on lab exercises',
+        'Highlight any CCIE or advanced certifications',
+        'Show understanding of network security',
+        'Prepare questions about the team and technologies',
+        'Demonstrate continuous learning mindset'
+      ],
+      salary: {
+        min: 90000,
+        max: 170000,
+        average: 130000
+      },
+      compensation: [
+        'Competitive base salary ($90K-$170K based on level and certs)',
+        'Annual performance bonus',
+        'Restricted Stock Units (RSUs)',
+        '401(k) with company match',
+        'Certification bonuses and reimbursement',
+        'Comprehensive health benefits',
+        'Generous PTO and flexibility',
+        'Training and lab access',
+        'Tuition reimbursement',
+        'Remote work options'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a Network Engineer at Cisco balances design, implementation, and troubleshooting work.',
+        schedule: [
+          '8:30 AM - Review network alerts and overnight tickets',
+          '9:00 AM - Team standup on project status',
+          '9:30 AM - Work on network design for customer project',
+          '11:00 AM - Customer call to discuss requirements',
+          '12:00 PM - Lunch',
+          '1:00 PM - Lab work on new configuration or testing',
+          '2:30 PM - Troubleshoot escalated network issue',
+          '4:00 PM - Document network changes and designs',
+          '5:00 PM - Research new features or technologies',
+          '5:30 PM - Wrap up and prepare for tomorrow'
+        ],
+        closing: 'Network Engineering at Cisco means working on the infrastructure that connects the world, with clear career progression through certifications.'
+      },
+      similarRoles: ['Senior Network Engineer at Cisco', 'Network Architect at Cisco', 'SD-WAN Engineer at Cisco', 'Data Center Network Engineer at Cisco', 'Wireless Network Engineer at Cisco']
+    },
+
+    'security-engineer': {
+      title: 'Security Engineer',
+      slug: 'security-engineer',
+      industry: 'Technology',
+      roleDescription: `Security Engineers at Cisco protect organizations worldwide by building and implementing security solutions across the networking industry. Working at a company that secures over 85% of internet traffic, you\'ll develop and deploy security products from firewalls and intrusion prevention to cloud security, endpoint protection, and zero-trust solutions. Cisco\'s security portfolio spans Secure Firewall, Umbrella DNS security, Duo authentication, and following the Splunk acquisition, leading SIEM and observability capabilities. Security Engineers work across product development, customer implementations, and internal security operations. The role combines deep security expertise with networking knowledge—understanding how to secure traffic at every layer. With cybersecurity threats constantly evolving and Cisco\'s strategic focus on security, security engineers have high-impact opportunities.`,
+      responsibilities: [
+        'Design and implement security solutions for enterprise customers',
+        'Develop security features for Cisco products',
+        'Conduct security assessments and penetration testing',
+        'Configure and optimize firewalls, IPS, and security appliances',
+        'Implement zero-trust and identity-based access solutions',
+        'Respond to security incidents and develop mitigation strategies',
+        'Create security policies and documentation',
+        'Collaborate with networking teams on secure architectures',
+        'Stay current with threat landscape and vulnerabilities'
+      ],
+      growthOpportunities: [
+        'Progress from Security Engineer to Senior, Principal, and Distinguished',
+        'Earn security certifications: CISSP, CCIE Security, OSCP',
+        'Specialize in network security, cloud security, or threat intelligence',
+        'Lead security architecture for major engagements',
+        'Move into security product management or strategy',
+        'Transition into security research or threat hunting',
+        'Build expertise across Cisco\'s security portfolio',
+        'Move into security leadership or CISO advisory'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: '30-minute conversation about security background' },
+        { stage: 'Technical Phone Screen', description: '60-minute interview on security fundamentals' },
+        { stage: 'Onsite Technical Rounds', description: 'Multiple interviews on security concepts and scenarios' },
+        { stage: 'Security Scenario', description: 'Walk through incident response or security design' },
+        { stage: 'Behavioral Interview', description: 'Discussion of teamwork and communication' }
+      ],
+      technicalQuestions: [
+        'How do you design a zero-trust network architecture?',
+        'Explain your approach to threat modeling.',
+        'How do firewalls and IPS systems work together?',
+        'Describe your experience with DNS security.',
+        'How would you secure a hybrid cloud environment?',
+        'Explain the MITRE ATT&CK framework.',
+        'How do you detect and respond to a network breach?',
+        'Describe your experience with multi-factor authentication.',
+        'How do you secure IoT devices on an enterprise network?',
+        'Explain techniques for detecting lateral movement.',
+        'How do you prioritize vulnerabilities for remediation?',
+        'Describe your experience with SIEM platforms.',
+        'How do you secure encrypted traffic inspection?',
+        'Explain your approach to security automation.',
+        'How do you handle compliance requirements?',
+        'Describe your experience with penetration testing.'
+      ],
+      behavioralQuestions: [
+        'Tell me about a security incident you handled.',
+        'Describe how you\'ve communicated security risks to leadership.',
+        'How have you balanced security with business needs?',
+        'Tell me about a time you found a critical vulnerability.',
+        'Describe your experience with compliance audits.',
+        'How have you stayed current with evolving threats?',
+        'Tell me about a time you improved security processes.',
+        'Describe a challenging security implementation.',
+        'How have you handled disagreement on security priorities?',
+        'Tell me about a time you trained others on security.',
+        'Describe your experience with incident response.',
+        'How have you handled high-pressure security situations?',
+        'Tell me about a security project you\'re proud of.',
+        'Describe how you build security culture in organizations.'
+      ],
+      whatTheyLookFor: [
+        'Strong foundation in security concepts and frameworks',
+        'Experience with network security and firewalls',
+        'Security certifications valued (CISSP, CCIE Security, etc.)',
+        'Understanding of threat landscape and attack techniques',
+        'Incident response and forensics experience',
+        'Cloud security knowledge',
+        'Programming/scripting for automation',
+        'Customer-facing communication skills',
+        'Understanding of compliance requirements',
+        'Balance of technical depth and business understanding'
+      ],
+      interviewTips: [
+        'Research Cisco\'s security portfolio thoroughly',
+        'Be ready to walk through security scenarios',
+        'Understand zero-trust and modern security architectures',
+        'Prepare examples of incident response experience',
+        'Show knowledge of current threat landscape',
+        'Highlight relevant certifications',
+        'Prepare to discuss network security specifically',
+        'Show experience with automation and scripting',
+        'Research the Splunk acquisition and integration',
+        'Be ready to discuss compliance frameworks',
+        'Show continuous learning about evolving threats',
+        'Demonstrate understanding of cloud security',
+        'Prepare questions about Cisco\'s security strategy',
+        'Show balance of technical and advisory skills'
+      ],
+      salary: {
+        min: 110000,
+        max: 200000,
+        average: 155000
+      },
+      compensation: [
+        'Competitive base salary ($110K-$200K based on level)',
+        'Annual performance bonus',
+        'Restricted Stock Units (RSUs)',
+        '401(k) with company match',
+        'Certification bonuses and reimbursement',
+        'Comprehensive health benefits',
+        'Conference attendance support',
+        'Generous PTO and flexibility',
+        'Training and lab access',
+        'Remote work options'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a Security Engineer at Cisco balances design, implementation, and threat response.',
+        schedule: [
+          '8:30 AM - Review security alerts and threat intelligence',
+          '9:00 AM - Team standup on security projects',
+          '9:30 AM - Work on security architecture for customer',
+          '11:00 AM - Customer call on security implementation',
+          '12:00 PM - Lunch',
+          '1:00 PM - Investigate security incident or alert',
+          '2:30 PM - Develop security automation scripts',
+          '4:00 PM - Cross-functional meeting with networking team',
+          '5:00 PM - Research new threats and vulnerabilities',
+          '5:30 PM - Document findings and wrap up'
+        ],
+        closing: 'Security Engineering at Cisco means protecting organizations worldwide with industry-leading security solutions.'
+      },
+      similarRoles: ['Senior Security Engineer at Cisco', 'Security Architect at Cisco', 'Threat Intelligence Analyst at Cisco', 'Penetration Tester at Cisco', 'Cloud Security Engineer at Cisco']
+    },
+
+    'solutions-architect': {
+      title: 'Solutions Architect',
+      slug: 'solutions-architect',
+      industry: 'Technology',
+      roleDescription: `Solutions Architects at Cisco design comprehensive technology solutions that address complex enterprise challenges—integrating networking, security, collaboration, and cloud technologies. Working at the intersection of technical depth and customer advisory, you\'ll translate business requirements into architectures spanning Cisco\'s portfolio: from campus and data center networking to Webex collaboration, Meraki cloud management, and security solutions. Cisco Solutions Architects are technical leaders who guide customers through digital transformation, helping them modernize networks, enable hybrid work, and secure their operations. The role requires both broad technology understanding and the ability to dive deep into specific domains. You\'ll work closely with sales teams on complex opportunities, create solution designs, and present to technical and business audiences.`,
+      responsibilities: [
+        'Design end-to-end technology solutions for enterprise customers',
+        'Translate business requirements into technical architectures',
+        'Lead solution design for complex, multi-technology opportunities',
+        'Present technical solutions to customer executives and IT teams',
+        'Create solution documentation and implementation guides',
+        'Collaborate with sales teams on strategic opportunities',
+        'Stay current on Cisco portfolio and competitive landscape',
+        'Guide customers on technology roadmaps and modernization',
+        'Ensure solutions meet performance, security, and scalability requirements'
+      ],
+      growthOpportunities: [
+        'Progress from Solutions Architect to Senior and Principal levels',
+        'Specialize in enterprise, data center, security, or collaboration',
+        'Move into technical leadership or chief architect roles',
+        'Lead architecture practices for regions or verticals',
+        'Transition into product management or strategy',
+        'Build deep expertise across Cisco portfolio',
+        'Present at industry conferences and events',
+        'Move into customer-facing leadership roles'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: '30-minute conversation about architecture experience' },
+        { stage: 'Technical Phone Screen', description: '60-minute interview on architecture approach' },
+        { stage: 'Architecture Design Interview', description: '60-minute interview designing a solution for customer scenario' },
+        { stage: 'Technical Deep Dive', description: 'Deep dive into specific technology areas' },
+        { stage: 'Customer Scenario', description: 'Interview on presenting and defending technical recommendations' },
+        { stage: 'Leadership Interview', description: 'Final round with architecture leadership' }
+      ],
+      technicalQuestions: [
+        'How would you design a secure hybrid cloud architecture?',
+        'Explain your approach to enterprise network modernization.',
+        'How do you evaluate build vs. buy decisions for customers?',
+        'Describe your experience with data center architecture.',
+        'How would you integrate collaboration tools with network infrastructure?',
+        'Explain your approach to ensuring security in solution design.',
+        'How do you address scalability requirements?',
+        'Describe your experience with SD-WAN architecture.',
+        'How would you design a solution for a multi-site enterprise?',
+        'Explain your approach to high availability and resilience.',
+        'How do you handle non-functional requirements?',
+        'Describe your experience with cloud-managed networking.',
+        'How would you approach zero-trust network design?',
+        'Explain your approach to solution documentation.',
+        'How do you ensure solutions are cost-effective?',
+        'Describe your experience with intent-based networking.'
+      ],
+      behavioralQuestions: [
+        'Tell me about a complex architecture you designed.',
+        'Describe a time you had to defend a technical recommendation.',
+        'How have you communicated technical concepts to executives?',
+        'Tell me about a time your approach changed based on customer feedback.',
+        'Describe your experience working with sales teams.',
+        'How have you handled disagreement on architecture decisions?',
+        'Tell me about a time you learned new technology for a customer.',
+        'Describe how you stay current with technology trends.',
+        'How have you balanced ideal architecture with customer constraints?',
+        'Tell me about a challenging customer engagement.',
+        'Describe your experience with solution documentation.',
+        'How have you mentored others on architecture?',
+        'Tell me about a time you identified a technical risk.',
+        'Describe how you\'ve influenced customer technology direction.'
+      ],
+      whatTheyLookFor: [
+        'Broad technology knowledge across Cisco portfolio',
+        'Experience designing enterprise-scale solutions',
+        'Strong customer-facing communication skills',
+        'Understanding of business drivers and ROI',
+        'Architecture patterns and best practices',
+        'Cisco certifications valued (CCNP, CCIE, etc.)',
+        'Experience with competitive technologies',
+        'Ability to translate business to technical requirements',
+        'Collaboration skills with sales and engineering',
+        'Continuous learning orientation'
+      ],
+      interviewTips: [
+        'Research Cisco\'s full portfolio: networking, security, collaboration',
+        'Prepare to whiteboard an architecture for customer scenario',
+        'Show breadth across multiple technology domains',
+        'Demonstrate customer-facing experience',
+        'Be ready to discuss architecture trade-offs',
+        'Prepare examples of presenting to executives',
+        'Show understanding of competitive landscape',
+        'Highlight relevant certifications',
+        'Be ready to discuss both Cisco and non-Cisco technologies',
+        'Prepare examples of guiding customer decisions',
+        'Show how you stay current with trends',
+        'Demonstrate structured approach to design',
+        'Prepare questions about architecture community',
+        'Show balance of technical depth and business understanding'
+      ],
+      salary: {
+        min: 140000,
+        max: 230000,
+        average: 185000
+      },
+      compensation: [
+        'Competitive base salary ($140K-$230K based on level)',
+        'Annual performance bonus (15-25% of base)',
+        'Restricted Stock Units (RSUs)',
+        '401(k) with company match',
+        'Employee Stock Purchase Plan',
+        'Comprehensive health benefits',
+        'Conference and training budget',
+        'Certification support',
+        'Generous PTO and flexibility',
+        'Travel budget for customer meetings'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a Solutions Architect at Cisco balances customer engagement, design work, and technical leadership.',
+        schedule: [
+          '8:30 AM - Review opportunities and prepare for meetings',
+          '9:00 AM - Customer architecture workshop',
+          '11:00 AM - Design solution for complex opportunity',
+          '12:00 PM - Lunch with sales team',
+          '1:00 PM - Internal architecture review',
+          '2:30 PM - Create solution documentation',
+          '4:00 PM - Call with partner on joint solution',
+          '5:00 PM - Research new technologies',
+          '5:30 PM - Prepare for tomorrow\'s customer meeting'
+        ],
+        closing: 'Solutions Architecture at Cisco means designing technology solutions that transform how organizations connect and collaborate.'
+      },
+      similarRoles: ['Senior Solutions Architect at Cisco', 'Principal Architect at Cisco', 'Enterprise Architect at Cisco', 'Cloud Architect at Cisco', 'Security Solutions Architect at Cisco']
+    },
+
+    'technical-consulting-engineer': {
+      title: 'Technical Consulting Engineer',
+      slug: 'technical-consulting-engineer',
+      industry: 'Technology',
+      roleDescription: `Technical Consulting Engineers (TCEs) at Cisco are the frontline technical experts who support customers in designing, implementing, and troubleshooting Cisco solutions. Working at the intersection of deep technical expertise and customer service, you\'ll resolve complex technical issues, provide implementation guidance, and help customers get maximum value from Cisco products. TCEs are product experts—whether in routing and switching, security, collaboration, or data center—who combine hands-on technical skills with excellent communication. The role spans proactive design reviews, break-fix support, and strategic guidance. Cisco\'s Technical Assistance Center (TAC) is renowned in the industry, and TCEs are a key part of Cisco\'s commitment to customer success. With certifications driving career progression and exposure to diverse customer environments, TCEs develop deep technical expertise.`,
+      responsibilities: [
+        'Provide expert technical support for Cisco products',
+        'Troubleshoot complex networking and security issues',
+        'Guide customers on best practices and implementation',
+        'Conduct design reviews and proactive consultations',
+        'Document solutions and contribute to knowledge base',
+        'Collaborate with engineering on product issues',
+        'Mentor junior engineers and share expertise',
+        'Participate in on-call rotation for critical issues',
+        'Stay current on product features and updates'
+      ],
+      growthOpportunities: [
+        'Progress through TCE levels to Principal and Distinguished',
+        'Earn advanced certifications: CCIE, CCDE',
+        'Specialize in specific technology areas',
+        'Move into escalation engineering or customer advocacy',
+        'Transition into solutions architecture or field engineering',
+        'Lead technical communities and mentorship',
+        'Move into engineering or product development',
+        'Take on customer success leadership roles'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: '30-minute conversation about technical background' },
+        { stage: 'Technical Phone Screen', description: '60-minute interview on networking fundamentals' },
+        { stage: 'Onsite Technical Rounds', description: 'Multiple interviews on troubleshooting and product knowledge' },
+        { stage: 'Troubleshooting Scenario', description: 'Work through a complex technical issue' },
+        { stage: 'Customer Interaction', description: 'Role-play handling a customer situation' },
+        { stage: 'Behavioral Interview', description: 'Discussion of customer service and teamwork' }
+      ],
+      technicalQuestions: [
+        'How do you systematically troubleshoot a network outage?',
+        'Explain your approach to analyzing packet captures.',
+        'Describe a complex routing issue you resolved.',
+        'How do you prioritize when handling multiple cases?',
+        'Explain your experience with Cisco debugging commands.',
+        'How do you handle a situation where you don\'t know the answer?',
+        'Describe your approach to documenting solutions.',
+        'How do you explain technical issues to non-technical customers?',
+        'What\'s your experience with log analysis?',
+        'Explain your approach to reproducing intermittent issues.',
+        'How do you handle an escalated or frustrated customer?',
+        'Describe your experience with specific Cisco products.',
+        'How do you stay current with product updates?',
+        'Explain your approach to root cause analysis.',
+        'How do you balance thoroughness with time pressure?',
+        'Describe your experience with cross-team troubleshooting.'
+      ],
+      behavioralQuestions: [
+        'Tell me about a difficult technical issue you resolved.',
+        'Describe a time you turned a frustrated customer around.',
+        'How have you handled a situation where you were stuck?',
+        'Tell me about a time you went above and beyond for a customer.',
+        'Describe your experience with on-call support.',
+        'How do you handle multiple high-priority issues?',
+        'Tell me about a time you learned from a mistake.',
+        'Describe how you\'ve mentored others.',
+        'How have you contributed to team knowledge?',
+        'Tell me about a time you collaborated across teams.',
+        'Describe your approach to customer communication.',
+        'How have you handled disagreement on technical approach?',
+        'Tell me about a time you improved a support process.',
+        'Describe how you stay current with technology.'
+      ],
+      whatTheyLookFor: [
+        'Deep expertise in Cisco technologies',
+        'Strong troubleshooting and analytical skills',
+        'Excellent customer communication',
+        'Certifications: CCNA, CCNP, CCIE valued',
+        'Patience and empathy in customer interactions',
+        'Ability to work under pressure',
+        'Documentation and knowledge sharing skills',
+        'Teamwork and collaboration',
+        'Continuous learning mindset',
+        'Experience with support environments'
+      ],
+      interviewTips: [
+        'Be ready to troubleshoot live scenarios',
+        'Review Cisco CLI and debugging commands',
+        'Prepare examples of customer success stories',
+        'Show systematic troubleshooting methodology',
+        'Highlight relevant certifications',
+        'Demonstrate customer empathy in role-play',
+        'Research the specific product area',
+        'Show experience with documentation',
+        'Be ready to explain complex concepts simply',
+        'Prepare for questions on handling pressure',
+        'Show continuous learning and curiosity',
+        'Demonstrate teamwork and collaboration',
+        'Prepare questions about the team and growth',
+        'Show passion for helping customers'
+      ],
+      salary: {
+        min: 85000,
+        max: 160000,
+        average: 120000
+      },
+      compensation: [
+        'Competitive base salary ($85K-$160K based on level)',
+        'Annual performance bonus',
+        'Restricted Stock Units (RSUs)',
+        '401(k) with company match',
+        'Certification bonuses and support',
+        'Comprehensive health benefits',
+        'Generous PTO',
+        'Shift differential for off-hours support',
+        'Training and lab access',
+        'Career development programs'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a Technical Consulting Engineer at Cisco balances customer support, troubleshooting, and continuous learning.',
+        schedule: [
+          '9:00 AM - Review assigned cases and prioritize',
+          '9:30 AM - Work on complex troubleshooting case',
+          '11:00 AM - Customer call to discuss issue and solution',
+          '12:00 PM - Lunch',
+          '1:00 PM - Continue case work or research',
+          '2:30 PM - Team knowledge sharing session',
+          '3:30 PM - Document solution and close case',
+          '4:30 PM - Review new cases and prepare for tomorrow',
+          '5:30 PM - Training or certification study'
+        ],
+        closing: 'Technical Consulting Engineering at Cisco means being the expert customers rely on, with clear career progression and continuous learning.'
+      },
+      similarRoles: ['Senior TCE at Cisco', 'Principal TCE at Cisco', 'Customer Support Engineer at Cisco', 'Escalation Engineer at Cisco', 'Technical Leader at Cisco']
+    },
+
+    'ux-designer': {
+      title: 'UX Designer',
+      slug: 'ux-designer',
+      industry: 'Technology',
+      roleDescription: `UX Designers at Cisco create user experiences for products that millions of people use to connect and collaborate—from Webex video conferencing to Meraki network management dashboards to security operations interfaces. Working on products that range from consumer-facing collaboration tools to complex enterprise network management systems, you\'ll apply human-centered design to diverse challenges. Cisco\'s UX teams work across the portfolio: designing intuitive video calling experiences, creating dashboards for IT administrators, and simplifying complex security workflows. The role requires balancing simplicity for end users with power for technical administrators. UX Designers collaborate closely with product and engineering teams, advocating for users while understanding technical constraints. With Cisco\'s focus on experience-led transformation and hybrid work enablement, UX designers have opportunities to shape products used by millions worldwide.`,
+      responsibilities: [
+        'Design user experiences for collaboration, networking, and security products',
+        'Conduct user research to understand customer needs',
+        'Create wireframes, prototypes, and interaction designs',
+        'Collaborate with product managers and engineers',
+        'Develop and maintain design systems and guidelines',
+        'Test designs through usability studies and iteration',
+        'Present design rationale to stakeholders',
+        'Create documentation and specifications',
+        'Advocate for user-centered design across projects'
+      ],
+      growthOpportunities: [
+        'Progress from UX Designer to Senior and Principal levels',
+        'Lead design for specific product areas',
+        'Move into UX management or leadership',
+        'Specialize in research, interaction, or visual design',
+        'Build expertise in design systems',
+        'Lead design thinking initiatives',
+        'Transition into product management',
+        'Become a design advocate across Cisco'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: '30-minute conversation about background and interests' },
+        { stage: 'Portfolio Presentation', description: '60-minute presentation of design work' },
+        { stage: 'Design Exercise', description: 'Take-home or live design challenge' },
+        { stage: 'Technical Interview', description: 'Discussion of design process and collaboration' },
+        { stage: 'Cross-functional Interview', description: 'Conversations with product and engineering' }
+      ],
+      technicalQuestions: [
+        'Walk me through your design process.',
+        'How do you approach designing for both technical and non-technical users?',
+        'Describe your experience with design systems.',
+        'How do you balance simplicity with functionality?',
+        'Explain your approach to user research.',
+        'How do you design for enterprise vs. consumer products?',
+        'Describe your experience with accessibility.',
+        'How do you work with engineering on implementation?',
+        'Explain your approach to information architecture.',
+        'How do you measure design success?',
+        'Describe your experience with prototyping tools.',
+        'How do you handle stakeholder feedback?',
+        'Explain your approach to responsive design.',
+        'How do you design for real-time collaboration experiences?',
+        'Describe your experience with data visualization.',
+        'How do you stay current with design trends?'
+      ],
+      behavioralQuestions: [
+        'Tell me about a complex design challenge you solved.',
+        'Describe a time you advocated for users.',
+        'How have you handled disagreement on design direction?',
+        'Tell me about a design decision based on research.',
+        'Describe your experience facilitating design workshops.',
+        'How have you worked with engineers on constraints?',
+        'Tell me about a project where research changed your approach.',
+        'Describe how you prioritize design work.',
+        'How have you contributed to design culture?',
+        'Tell me about a design that didn\'t achieve its goals.',
+        'Describe your experience with global design.',
+        'How have you handled tight timelines?',
+        'Tell me about mentoring other designers.',
+        'Describe how you stay current with design practices.'
+      ],
+      whatTheyLookFor: [
+        'Strong portfolio demonstrating design process',
+        'Experience with enterprise or B2B design valued',
+        'User research and human-centered design skills',
+        'Ability to design for diverse user types',
+        'Collaboration skills with cross-functional teams',
+        'Understanding of accessibility requirements',
+        'Proficiency in design tools (Figma, etc.)',
+        'Clear communication of design rationale',
+        'Experience with design systems',
+        'Problem-solving for complex information design'
+      ],
+      interviewTips: [
+        'Prepare a portfolio focused on process and outcomes',
+        'Include collaboration or enterprise design if available',
+        'Be ready to walk through your design process in detail',
+        'Research Cisco\'s products: Webex, Meraki, security',
+        'Prepare to discuss designing for different user types',
+        'Show user research skills and evidence-based design',
+        'Practice the design exercise',
+        'Demonstrate collaboration with engineering teams',
+        'Show accessibility awareness',
+        'Prepare questions about design team culture',
+        'Show how you handle feedback and iteration',
+        'Highlight design system contributions',
+        'Demonstrate passion for user experience',
+        'Research Cisco\'s design philosophy'
+      ],
+      salary: {
+        min: 100000,
+        max: 180000,
+        average: 140000
+      },
+      compensation: [
+        'Competitive base salary ($100K-$180K based on level)',
+        'Annual performance bonus',
+        'Restricted Stock Units (RSUs)',
+        '401(k) with company match',
+        'Employee Stock Purchase Plan',
+        'Comprehensive health benefits',
+        'Conference and training budget',
+        'Design tools and software provided',
+        'Generous PTO and flexibility',
+        'Remote work options'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a UX Designer at Cisco balances design work, research, and collaboration.',
+        schedule: [
+          '9:00 AM - Review feedback and prepare for meetings',
+          '9:30 AM - Team standup with UX colleagues',
+          '10:00 AM - User interview for research project',
+          '11:00 AM - Work on wireframes and prototypes',
+          '12:00 PM - Lunch with product team',
+          '1:00 PM - Design review and critique session',
+          '2:30 PM - Collaboration with engineering',
+          '4:00 PM - Update design documentation',
+          '5:00 PM - Design system contribution',
+          '5:30 PM - Plan and wrap up'
+        ],
+        closing: 'UX Design at Cisco means creating experiences that help millions connect and collaborate, with opportunities across diverse product areas.'
+      },
+      similarRoles: ['Senior UX Designer at Cisco', 'Principal UX Designer at Cisco', 'UX Researcher at Cisco', 'Product Designer at Cisco', 'Interaction Designer at Cisco']
+    },
+
+    'technical-marketing-engineer': {
+      title: 'Technical Marketing Engineer',
+      slug: 'technical-marketing-engineer',
+      industry: 'Technology',
+      roleDescription: `Technical Marketing Engineers at Cisco bridge the gap between complex networking technology and the customers, partners, and sales teams who need to understand it. Working at the intersection of engineering and marketing, you\'ll create technical content, develop demos, conduct benchmarks, and enable the field to position Cisco products effectively. TMEs are product experts who translate Cisco\'s technical capabilities into compelling value propositions—whether creating Webex demos, developing Meraki proof-of-concepts, or benchmarking security products against competitors. The role combines deep technical knowledge with communication skills: you\'ll present at industry events, create training materials, and work directly with customers on technical validation. With Cisco competing across networking, security, and collaboration markets, TMEs play a crucial role in demonstrating technology leadership.`,
+      responsibilities: [
+        'Create technical content explaining Cisco product capabilities',
+        'Develop and deliver product demonstrations and proof-of-concepts',
+        'Conduct competitive benchmarks and analysis',
+        'Present at industry conferences and customer events',
+        'Enable sales and partner teams on technical positioning',
+        'Work with customers on technical validation',
+        'Collaborate with product teams on messaging',
+        'Create technical documentation and guides',
+        'Gather competitive intelligence and market feedback'
+      ],
+      growthOpportunities: [
+        'Progress from TME to Senior TME and Principal levels',
+        'Move into product management or strategic marketing',
+        'Specialize in specific product areas: security, collaboration, networking',
+        'Lead technical marketing for product lines',
+        'Transition into solutions architecture',
+        'Build industry thought leadership',
+        'Move into customer-facing technical sales',
+        'Take on global technical marketing roles'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: '30-minute conversation about background and interests' },
+        { stage: 'Hiring Manager Interview', description: '45-minute discussion of TME experience' },
+        { stage: 'Technical Interview', description: '60-minute interview on technical depth' },
+        { stage: 'Presentation Exercise', description: 'Present a technical topic to demonstrate communication' },
+        { stage: 'Cross-functional Interviews', description: 'Conversations with product and sales stakeholders' }
+      ],
+      technicalQuestions: [
+        'How would you demonstrate Cisco networking advantages to a customer?',
+        'Explain your approach to competitive positioning.',
+        'How do you translate technical features into business value?',
+        'Describe your experience with demo development.',
+        'How would you position Cisco security against competitors?',
+        'Explain your approach to creating technical content.',
+        'How do you ensure benchmark validity?',
+        'Describe your experience with technical presentations.',
+        'How do you handle competitive situations where you have weaknesses?',
+        'Explain your approach to enabling sales teams.',
+        'How do you stay current with competitive products?',
+        'Describe your experience with customer technical validation.',
+        'How do you balance technical accuracy with marketing messaging?',
+        'Explain your experience with different presentation formats.',
+        'How do you gather and act on field feedback?',
+        'Describe your experience with industry events.'
+      ],
+      behavioralQuestions: [
+        'Tell me about a successful technical presentation.',
+        'Describe a time you translated complex technology for business audiences.',
+        'How have you handled pushback on positioning?',
+        'Tell me about a demo that had significant impact.',
+        'Describe your experience working with sales teams.',
+        'How have you stayed credible while advocating for products?',
+        'Tell me about a time you learned technology quickly.',
+        'Describe your experience at industry events.',
+        'How have you handled situations where data didn\'t support your position?',
+        'Tell me about creating content that drove results.',
+        'Describe your experience training or enabling others.',
+        'How have you built relationships across functions?',
+        'Tell me about influencing product direction.',
+        'Describe how you prioritize TME responsibilities.'
+      ],
+      whatTheyLookFor: [
+        'Strong technical foundation in networking or related areas',
+        'Excellent presentation and communication skills',
+        'Experience with demo development and delivery',
+        'Ability to translate technology into business value',
+        'Credibility with technical and business audiences',
+        'Competitive analysis experience',
+        'Customer-facing technical skills',
+        'Content creation abilities',
+        'Understanding of Cisco or networking technology',
+        'Industry event and speaking experience valued'
+      ],
+      interviewTips: [
+        'Prepare a technical presentation on a topic you know well',
+        'Show ability to explain complex concepts simply',
+        'Research Cisco\'s competitive positioning',
+        'Demonstrate demo development skills',
+        'Be ready to discuss competitive landscape candidly',
+        'Show technical depth—TMEs must be credible',
+        'Prepare examples of customer-facing work',
+        'Research Cisco\'s product portfolio',
+        'Show enthusiasm for communicating technology',
+        'Be ready to discuss handling competitive disadvantages',
+        'Prepare examples of content creation',
+        'Show understanding of different audience needs',
+        'Research Cisco Live and industry events',
+        'Balance technical depth with communication skills'
+      ],
+      salary: {
+        min: 120000,
+        max: 200000,
+        average: 160000
+      },
+      compensation: [
+        'Competitive base salary ($120K-$200K based on level)',
+        'Annual performance bonus',
+        'Restricted Stock Units (RSUs)',
+        '401(k) with company match',
+        'Employee Stock Purchase Plan',
+        'Comprehensive health benefits',
+        'Conference and travel budget',
+        'Certification support',
+        'Generous PTO and flexibility',
+        'Remote work options'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a Technical Marketing Engineer at Cisco balances content creation, customer engagement, and competitive analysis.',
+        schedule: [
+          '8:30 AM - Review competitive news and industry updates',
+          '9:00 AM - Work on demo development',
+          '10:30 AM - Customer call for technical validation',
+          '11:30 AM - Prepare presentation for event',
+          '12:00 PM - Lunch with sales team',
+          '1:00 PM - Create technical blog post or white paper',
+          '3:00 PM - Internal sync with product marketing',
+          '4:00 PM - Competitive benchmark analysis',
+          '5:30 PM - Plan tomorrow and respond to field requests'
+        ],
+        closing: 'Technical Marketing Engineering at Cisco means making Cisco technology compelling and understandable, combining deep expertise with communication skills.'
+      },
+      similarRoles: ['Senior TME at Cisco', 'Principal TME at Cisco', 'Product Marketing Engineer at Cisco', 'Solutions Marketing Manager at Cisco', 'Field Marketing Engineer at Cisco']
+    },
+
+    'customer-success-manager': {
+      title: 'Customer Success Manager',
+      slug: 'customer-success-manager',
+      industry: 'Technology',
+      roleDescription: `Customer Success Managers at Cisco ensure enterprise customers achieve their desired outcomes with Cisco technology—driving adoption, retention, and growth across networking, security, and collaboration solutions. Working at the intersection of relationship management and technical expertise, you\'ll guide customers through implementation, optimize their use of Cisco products, and identify opportunities to expand the relationship. Cisco\'s Customer Experience (CX) organization is central to the company\'s subscription and recurring revenue strategy, making CSMs critical to business success. The role requires understanding both technical capabilities and business outcomes: helping a customer improve network performance, increase collaboration adoption, or strengthen security posture. CSMs work with enterprise accounts, building relationships with IT leaders and ensuring Cisco delivers long-term value.`,
+      responsibilities: [
+        'Own customer relationships and drive adoption of Cisco solutions',
+        'Develop success plans aligned with customer business objectives',
+        'Monitor customer health metrics and proactively address risks',
+        'Guide customers through implementation and optimization',
+        'Identify and develop expansion opportunities',
+        'Coordinate resources across Cisco to deliver customer value',
+        'Conduct business reviews and executive engagements',
+        'Drive renewals and prevent churn',
+        'Gather customer feedback for product improvement'
+      ],
+      growthOpportunities: [
+        'Progress from CSM to Senior CSM and Director levels',
+        'Lead customer success for strategic accounts',
+        'Move into customer success leadership or strategy',
+        'Transition into sales or solutions architecture',
+        'Specialize in specific product areas or verticals',
+        'Build expertise in customer success methodology',
+        'Move into product management or strategy',
+        'Take on global or regional leadership roles'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: '30-minute conversation about CS background' },
+        { stage: 'Hiring Manager Interview', description: '45-minute discussion of customer success approach' },
+        { stage: 'Customer Scenario', description: '60-minute interview handling customer situations' },
+        { stage: 'Technical Interview', description: 'Assessment of technical understanding' },
+        { stage: 'Cross-functional Interviews', description: 'Conversations with sales and technical stakeholders' },
+        { stage: 'Leadership Interview', description: 'Final round with CS leadership' }
+      ],
+      technicalQuestions: [
+        'How do you approach building a customer success plan?',
+        'Describe your experience with customer health metrics.',
+        'How do you drive adoption of new technology?',
+        'Explain your approach to identifying expansion opportunities.',
+        'How do you handle a customer considering competitor solutions?',
+        'Describe your experience with business reviews.',
+        'How do you balance multiple accounts with different needs?',
+        'Explain your approach to customer onboarding.',
+        'How do you measure customer success?',
+        'Describe your technical understanding of networking/security.',
+        'How do you coordinate internal resources for customers?',
+        'Explain your approach to renewal management.',
+        'How do you handle escalations?',
+        'Describe your experience with CRM and CS platforms.',
+        'How do you stay current with product updates?',
+        'Explain your approach to executive relationships.'
+      ],
+      behavioralQuestions: [
+        'Tell me about a customer you saved from churning.',
+        'Describe a time you identified and closed expansion.',
+        'How have you handled a dissatisfied customer?',
+        'Tell me about building an executive relationship.',
+        'Describe your experience with challenging renewals.',
+        'How have you prioritized across multiple accounts?',
+        'Tell me about a successful customer business review.',
+        'Describe how you\'ve coordinated cross-functional resources.',
+        'How have you handled competing customer and company priorities?',
+        'Tell me about improving a customer success process.',
+        'Describe your experience with customer advocacy.',
+        'How have you used data to drive customer decisions?',
+        'Tell me about a time you exceeded customer expectations.',
+        'Describe how you\'ve handled organizational change with customers.'
+      ],
+      whatTheyLookFor: [
+        'Customer success or account management experience',
+        'Technical aptitude for enterprise technology',
+        'Relationship building and communication skills',
+        'Data-driven approach to customer health',
+        'Experience with subscription or recurring revenue',
+        'Problem-solving and coordination abilities',
+        'Executive presence and business acumen',
+        'Understanding of networking or enterprise IT',
+        'Experience with customer success platforms',
+        'Results orientation and drive'
+      ],
+      interviewTips: [
+        'Prepare examples of saving at-risk customers',
+        'Show data-driven approach to customer health',
+        'Research Cisco\'s CX organization and strategy',
+        'Demonstrate technical understanding without being an engineer',
+        'Prepare for customer scenario role-plays',
+        'Show experience with executive relationships',
+        'Prepare examples of expansion success',
+        'Research Cisco\'s subscription and recurring revenue model',
+        'Show understanding of customer success metrics',
+        'Be ready to discuss renewal strategies',
+        'Demonstrate coordination and influence skills',
+        'Prepare questions about CS team structure',
+        'Show passion for customer outcomes',
+        'Highlight any networking or Cisco experience'
+      ],
+      salary: {
+        min: 100000,
+        max: 180000,
+        average: 140000
+      },
+      compensation: [
+        'Competitive base salary ($100K-$180K based on level)',
+        'Annual performance bonus tied to customer metrics',
+        'Restricted Stock Units (RSUs)',
+        '401(k) with company match',
+        'Employee Stock Purchase Plan',
+        'Comprehensive health benefits',
+        'Professional development support',
+        'Generous PTO and flexibility',
+        'Travel budget for customer visits',
+        'Remote work options'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a Customer Success Manager at Cisco balances customer engagement, internal coordination, and strategic planning.',
+        schedule: [
+          '8:30 AM - Review customer health dashboards and alerts',
+          '9:00 AM - Team standup on account priorities',
+          '9:30 AM - Customer call: quarterly business review prep',
+          '10:30 AM - Internal sync with technical resources',
+          '11:30 AM - Work on customer success plans',
+          '12:00 PM - Lunch',
+          '1:00 PM - Customer executive call',
+          '2:30 PM - Coordinate renewal with sales',
+          '4:00 PM - Address customer escalation',
+          '5:00 PM - Update CRM and plan tomorrow',
+          '5:30 PM - Respond to customer requests'
+        ],
+        closing: 'Customer Success Management at Cisco means ensuring customers achieve their goals with Cisco technology, driving adoption and long-term value.'
+      },
+      similarRoles: ['Senior Customer Success Manager at Cisco', 'Customer Success Director at Cisco', 'Technical Account Manager at Cisco', 'Customer Experience Manager at Cisco', 'Renewal Manager at Cisco']
+    },
+
+    'program-manager': {
+      title: 'Program Manager',
+      slug: 'program-manager',
+      industry: 'Technology',
+      roleDescription: `Program Managers at Cisco orchestrate complex, cross-functional initiatives that deliver networking, security, and collaboration products to market. Working at the intersection of engineering, product, and business, you\'ll coordinate programs spanning multiple teams, track milestones, manage risks, and drive alignment across Cisco\'s global organization. The role covers the full product lifecycle: from early planning through development, launch, and ongoing operations. Program Managers at Cisco navigate both hardware and software development, understanding the different cadences and dependencies. With Cisco\'s diverse portfolio—from physical networking devices to cloud services like Webex and Meraki—PMs work on varied technical challenges. The company\'s matrix organization requires strong influence and coordination skills to drive results across teams and geographies.`,
+      responsibilities: [
+        'Lead cross-functional programs for product development and launches',
+        'Develop and maintain program plans, schedules, and milestones',
+        'Manage program risks and drive mitigation strategies',
+        'Coordinate across engineering, product, and business teams',
+        'Track and report program status to executives',
+        'Drive decision-making and resolve cross-team issues',
+        'Manage program budgets and resource planning',
+        'Ensure quality and schedule commitments',
+        'Facilitate post-launch support and operations'
+      ],
+      growthOpportunities: [
+        'Progress from Program Manager to Senior PM, Director, and VP',
+        'Lead larger programs with greater strategic impact',
+        'Move into engineering management or business leadership',
+        'Specialize in specific domains: hardware, software, cloud',
+        'Take on cross-Cisco program leadership',
+        'Build expertise in product development processes',
+        'Transition into product management or strategy',
+        'Move into general management roles'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: '30-minute conversation about PM experience' },
+        { stage: 'Hiring Manager Interview', description: '45-minute discussion of program management approach' },
+        { stage: 'Scenario Interview', description: '60-minute interview handling program situations' },
+        { stage: 'Cross-functional Interviews', description: 'Conversations with engineering and business stakeholders' },
+        { stage: 'Leadership Interview', description: 'Final round with program leadership' }
+      ],
+      technicalQuestions: [
+        'How do you approach planning for a complex product program?',
+        'Describe your experience with program risk management.',
+        'How do you handle schedule pressure?',
+        'Explain your approach to cross-team coordination.',
+        'How do you manage dependencies in large programs?',
+        'Describe your experience with hardware vs. software programs.',
+        'How do you drive decisions when teams disagree?',
+        'Explain your approach to executive communication.',
+        'How do you handle scope changes?',
+        'Describe your experience with product launches.',
+        'How do you balance multiple competing priorities?',
+        'Explain your approach to resource management.',
+        'How do you track progress across distributed teams?',
+        'Describe your experience with agile and waterfall.',
+        'How do you handle programs that are behind schedule?',
+        'Explain your approach to lessons learned.'
+      ],
+      behavioralQuestions: [
+        'Tell me about a complex program you led successfully.',
+        'Describe a time you recovered a program in trouble.',
+        'How have you built relationships across functions?',
+        'Tell me about a difficult decision you drove.',
+        'Describe your experience with executive stakeholders.',
+        'How have you handled conflict between teams?',
+        'Tell me about managing through ambiguity.',
+        'Describe how you prioritize when everything is urgent.',
+        'How have you developed team members?',
+        'Tell me about a program failure and what you learned.',
+        'Describe your experience with organizational change.',
+        'How have you influenced without direct authority?',
+        'Tell me about navigating a complex situation.',
+        'Describe communicating bad news to stakeholders.'
+      ],
+      whatTheyLookFor: [
+        'Experience with complex, cross-functional programs',
+        'Understanding of hardware and software development',
+        'Strong stakeholder management and communication',
+        'Risk management and problem-solving skills',
+        'Cross-functional leadership and influence',
+        'Experience with global team coordination',
+        'Technical understanding to work with engineering',
+        'Business acumen for budget and resource decisions',
+        'PMP certification valued but not required',
+        'Networking or technology industry experience'
+      ],
+      interviewTips: [
+        'Prepare specific examples of programs with outcomes',
+        'Show understanding of product development cycles',
+        'Be ready to discuss risk management in detail',
+        'Demonstrate stakeholder management experience',
+        'Prepare for scenario questions about challenges',
+        'Show experience with global programs',
+        'Research Cisco\'s product development approach',
+        'Demonstrate ability to drive decisions',
+        'Prepare examples of executive communication',
+        'Show technical understanding without overstepping',
+        'Highlight experience with launches',
+        'Be ready to discuss lessons from failures',
+        'Show adaptability for changing requirements',
+        'Prepare questions about PM organization'
+      ],
+      salary: {
+        min: 120000,
+        max: 200000,
+        average: 160000
+      },
+      compensation: [
+        'Competitive base salary ($120K-$200K based on level)',
+        'Annual performance bonus (15-25% of base)',
+        'Restricted Stock Units (RSUs)',
+        '401(k) with company match',
+        'Employee Stock Purchase Plan',
+        'Comprehensive health benefits',
+        'Professional development support',
+        'Generous PTO and flexibility',
+        'Leadership development programs',
+        'Remote work options'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a Program Manager at Cisco balances coordination, problem-solving, and driving programs forward.',
+        schedule: [
+          '8:30 AM - Review program status and overnight updates',
+          '9:00 AM - Program team standup',
+          '9:30 AM - Cross-functional sync on critical path',
+          '10:30 AM - Risk review and mitigation planning',
+          '11:30 AM - Engineering leadership meeting',
+          '12:00 PM - Lunch',
+          '1:00 PM - Prepare executive status update',
+          '2:00 PM - Stakeholder meeting on program decisions',
+          '3:30 PM - 1:1s with team leads',
+          '4:30 PM - Address program issues and blockers',
+          '5:30 PM - Update plans and prepare for tomorrow'
+        ],
+        closing: 'Program Management at Cisco means driving the programs that deliver networking technology to the world, coordinating across global teams to make products happen.'
+      },
+      similarRoles: ['Senior Program Manager at Cisco', 'Director of Program Management at Cisco', 'Technical Program Manager at Cisco', 'Product Program Manager at Cisco', 'Engineering Program Manager at Cisco']
+    }
+  },
+
+  // Priority 3: Workday (Enterprise Cloud Applications)
+  'workday': {
+    'software-engineer': {
+      roleDescription: `Software Engineers at Workday build the enterprise cloud applications that power HR, finance, and planning for over 10,000 organizations worldwide. You'll work on Workday's flagship Human Capital Management (HCM) system, Financial Management platform, or Adaptive Planning tools that help companies manage their most valuable resources—their people and capital. Workday's architecture handles billions of transactions for Fortune 500 companies while maintaining the reliability and security that enterprise customers demand. Engineers here work with modern cloud technologies, contribute to Workday's proprietary object-oriented programming language, and help develop Workday Illuminate—the company's AI and machine learning engine. The engineering culture emphasizes quality, collaboration, and sustainable pace, reflecting Workday's recognition as one of Fortune's 100 Best Companies to Work For. With a people-first philosophy embodied in their VIBE (Value Inclusion, Belonging, and Equity) culture, you'll build software that genuinely improves how millions of employees interact with their workplace systems.`,
+      responsibilities: [
+        'Design and develop features for Workday HCM, Financial Management, or Adaptive Planning products',
+        'Write clean, efficient code using Workday\'s proprietary technology stack and modern languages',
+        'Collaborate with product managers and UX designers to translate requirements into technical solutions',
+        'Participate in code reviews and maintain high standards for code quality and test coverage',
+        'Contribute to the continuous improvement of Workday\'s cloud infrastructure and deployment pipelines',
+        'Debug and resolve complex issues across distributed systems serving enterprise customers',
+        'Mentor junior engineers and contribute to team knowledge sharing',
+        'Work with Workday Illuminate to integrate AI and ML capabilities into products',
+        'Ensure compliance with enterprise security and data privacy requirements'
+      ],
+      growthOpportunities: [
+        'Progress from Software Engineer to Senior Engineer, Principal Engineer, or Distinguished Engineer',
+        'Transition into technical leadership as an Engineering Manager or Architect',
+        'Specialize in AI/ML through Workday Illuminate initiatives',
+        'Move into product management or technical program management',
+        'Lead cross-functional initiatives spanning multiple product areas',
+        'Contribute to Workday\'s open-source projects and developer community',
+        'Rotate across HCM, Financials, and Planning product lines',
+        'Pursue international opportunities across Workday\'s global offices'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial call to discuss your background, interest in Workday, and role expectations' },
+        { stage: 'Technical Phone Screen', description: 'Coding interview focused on data structures, algorithms, and problem-solving' },
+        { stage: 'Virtual Onsite', description: '4-5 interviews including coding, system design, and behavioral assessments' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your experience, career goals, and team fit' },
+        { stage: 'Team Match', description: 'Optional conversations with potential teams to find the best fit' }
+      ],
+      technicalQuestions: [
+        'Design a multi-tenant SaaS system that handles payroll processing for thousands of companies',
+        'How would you implement a workflow engine for HR approval processes?',
+        'Explain how you would build a real-time analytics dashboard for financial reporting',
+        'Design a system for handling complex organizational hierarchies with millions of employees',
+        'How would you implement role-based access control for sensitive HR data?',
+        'Describe your approach to building APIs that serve both web and mobile clients',
+        'How would you design a system for handling time-zone-aware scheduling across global organizations?',
+        'Explain how you would implement audit logging for compliance requirements',
+        'Design a notification system that handles preferences across multiple channels',
+        'How would you optimize database queries for reports spanning years of transaction data?',
+        'Describe your approach to handling currency conversion in a global financial system',
+        'How would you implement data migration tools for enterprise customers?',
+        'Design a system for managing employee benefits enrollment with complex eligibility rules',
+        'How would you build a search feature across structured HR and financial data?',
+        'Explain your approach to handling eventual consistency in distributed systems',
+        'How would you implement a recommendation engine for internal job postings?'
+      ],
+      behavioralQuestions: [
+        'Tell me about a time you had to balance technical debt with feature delivery',
+        'Describe a situation where you had to push back on a product requirement',
+        'How have you contributed to building an inclusive team environment?',
+        'Tell me about a complex bug you debugged in a production system',
+        'Describe how you\'ve mentored a junior engineer through a challenging project',
+        'How do you stay current with evolving technology trends?',
+        'Tell me about a time you had to learn a new technology quickly to deliver a project',
+        'Describe a situation where you had to communicate technical concepts to non-technical stakeholders',
+        'How have you handled disagreements with teammates about technical approaches?',
+        'Tell me about a project where you had to work across multiple teams',
+        'Describe how you\'ve contributed to improving engineering processes',
+        'How do you approach work-life balance while meeting project deadlines?',
+        'Tell me about a time you identified and addressed a potential security vulnerability',
+        'Describe how you\'ve handled feedback that was difficult to hear'
+      ],
+      whatTheyLookFor: [
+        'Strong computer science fundamentals and coding proficiency',
+        'Experience with enterprise software development and cloud technologies',
+        'Collaborative mindset aligned with Workday\'s people-first culture',
+        'Ability to balance quality with pragmatic delivery',
+        'Interest in HR, finance, or enterprise technology domains',
+        'Growth mindset and commitment to continuous learning',
+        'Clear communication skills for cross-functional collaboration',
+        'Understanding of software security and data privacy principles',
+        'Passion for building products that improve workplace experiences',
+        'Alignment with Workday\'s VIBE values and ethical business practices'
+      ],
+      interviewTips: [
+        'Research Workday\'s products—understand HCM, Financials, and Planning at a high level',
+        'Prepare examples that demonstrate both technical skills and collaborative approach',
+        'Understand multi-tenant SaaS architecture challenges and solutions',
+        'Be ready to discuss how you\'ve contributed to inclusive team environments',
+        'Practice system design questions focused on enterprise-scale problems',
+        'Show genuine interest in HR tech or financial systems domain',
+        'Prepare questions about Workday\'s engineering culture and team dynamics',
+        'Highlight experiences with quality-focused development practices',
+        'Demonstrate understanding of compliance and security in enterprise software',
+        'Be authentic—Workday values cultural fit alongside technical ability',
+        'Review Workday\'s core values and be prepared to discuss how you embody them',
+        'Prepare examples of balancing technical excellence with business impact',
+        'Research Workday Illuminate and AI initiatives if interested in ML',
+        'Practice explaining complex technical concepts in accessible terms'
+      ],
+      salary: {
+        min: 140000,
+        max: 250000,
+        average: 180000
+      },
+      compensation: [
+        'Competitive base salary with annual merit increases',
+        'Restricted Stock Units (RSUs) with annual refresh grants',
+        'Annual performance bonus based on company and individual performance',
+        'Employee Stock Purchase Plan (ESPP) at 15% discount',
+        '401(k) with company match',
+        'Comprehensive health, dental, and vision insurance',
+        'Flexible time off policy',
+        'Parental leave for all parents',
+        'Wellness reimbursement program',
+        'Learning and development stipend'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a Workday Software Engineer balances focused coding time with collaborative design sessions.',
+        schedule: [
+          '8:30 AM - Start day with coffee, review overnight alerts and team Slack channels',
+          '9:00 AM - Daily standup with your squad to sync on progress and blockers',
+          '9:30 AM - Deep work session: coding on current sprint features',
+          '11:30 AM - Code review session with teammates',
+          '12:00 PM - Lunch break, often with teammates in Workday\'s café',
+          '1:00 PM - Technical design discussion for upcoming features',
+          '2:30 PM - Pair programming session to tackle complex integration',
+          '4:00 PM - Address pull request feedback and merge approved changes',
+          '5:00 PM - Document decisions and update tickets for next day',
+          '5:30 PM - Wrap up, occasional team social event or head home'
+        ],
+        closing: 'Workday emphasizes sustainable pace, and engineers rarely work beyond standard hours except during critical releases.'
+      },
+      similarRoles: [
+        'Backend Engineer',
+        'Full Stack Engineer',
+        'Platform Engineer',
+        'Cloud Engineer',
+        'Application Developer'
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: `Product Managers at Workday shape the future of enterprise cloud applications used by thousands of organizations worldwide. You'll own the product strategy and roadmap for Workday's Human Capital Management, Financial Management, or Planning solutions—products that directly impact how millions of employees experience their workplace. Workday PMs work closely with engineering, design, and customer success teams to deliver features that solve real business problems for HR leaders, CFOs, and workforce planners. The role requires deep understanding of enterprise customer needs, competitive landscape, and emerging trends in HR tech and finance. Workday's collaborative culture, embodied in their VIBE (Value Inclusion, Belonging, and Equity) values, creates an environment where PMs can drive meaningful product decisions. With recognition as one of Fortune's Best Companies to Work For and the World's Most Ethical Companies, you'll build products for a company that genuinely prioritizes both customer success and employee wellbeing.`,
+      responsibilities: [
+        'Define product vision and strategy for Workday HCM, Financials, or Planning features',
+        'Gather requirements from enterprise customers, internal stakeholders, and market research',
+        'Prioritize product backlog based on customer value, business impact, and technical feasibility',
+        'Write detailed product requirements documents and user stories for engineering teams',
+        'Collaborate with UX designers to create intuitive experiences for complex enterprise workflows',
+        'Partner with engineering to balance innovation with reliability for enterprise customers',
+        'Present product roadmaps to leadership, customers, and at Workday Rising conferences',
+        'Analyze product metrics and customer feedback to inform iteration decisions',
+        'Work with go-to-market teams on product launches and customer enablement'
+      ],
+      growthOpportunities: [
+        'Progress from Product Manager to Senior PM, Principal PM, or Group Product Manager',
+        'Transition to Director or VP of Product Management',
+        'Move into general management or business unit leadership',
+        'Specialize in emerging areas like AI/ML through Workday Illuminate',
+        'Lead cross-product initiatives spanning HCM, Financials, and Planning',
+        'Transition to customer-facing roles in solutions or customer success',
+        'Build expertise in specific verticals like healthcare, financial services, or retail',
+        'Take international product leadership roles across global markets'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your product management background and interest in Workday' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your PM experience, product thinking, and leadership style' },
+        { stage: 'Product Case Study', description: 'Present a product strategy case, demonstrating prioritization and customer focus' },
+        { stage: 'Cross-Functional Interviews', description: 'Meet with engineering, design, and business partners to assess collaboration skills' },
+        { stage: 'Executive Interview', description: 'Final conversation with product leadership about vision and cultural fit' }
+      ],
+      technicalQuestions: [
+        'How would you prioritize features for a new employee onboarding module?',
+        'Design a product strategy for adding AI capabilities to performance management',
+        'How would you approach building a mobile-first experience for HR tasks?',
+        'Describe how you would measure success for a payroll compliance feature',
+        'How would you balance enterprise customization needs with product simplicity?',
+        'Design a roadmap for integrating acquired company features into Workday platform',
+        'How would you approach pricing strategy for a new Planning add-on module?',
+        'Describe your framework for evaluating build vs. buy vs. partner decisions',
+        'How would you design a self-service analytics feature for HR leaders?',
+        'What metrics would you track for employee engagement features?',
+        'How would you approach localization for a global workforce management product?',
+        'Design a product strategy for competing with point solutions in benefits administration',
+        'How would you handle feature requests that conflict with platform architecture?',
+        'Describe your approach to managing technical debt in product planning',
+        'How would you validate demand for a new vertical-specific solution?'
+      ],
+      behavioralQuestions: [
+        'Tell me about a product decision you made that faced significant pushback',
+        'Describe how you\'ve built relationships with engineering teams',
+        'How have you incorporated customer feedback that contradicted your initial hypothesis?',
+        'Tell me about a time you had to make a difficult prioritization tradeoff',
+        'Describe how you\'ve handled a product launch that didn\'t go as planned',
+        'How do you stay connected to customer needs in enterprise software?',
+        'Tell me about a time you influenced without authority across teams',
+        'Describe how you\'ve contributed to building inclusive product teams',
+        'How have you balanced short-term customer requests with long-term vision?',
+        'Tell me about a product you\'re proud of and why',
+        'Describe how you\'ve handled competing priorities from different stakeholders',
+        'How do you approach building products for users with varying technical sophistication?',
+        'Tell me about a time you had to pivot product strategy based on market changes',
+        'Describe how you\'ve mentored other product managers'
+      ],
+      whatTheyLookFor: [
+        'Strong product sense with enterprise software experience',
+        'Customer empathy and ability to translate needs into product requirements',
+        'Data-driven decision making balanced with strategic intuition',
+        'Excellent communication skills for diverse stakeholder audiences',
+        'Collaborative leadership style aligned with Workday culture',
+        'Understanding of HR, finance, or enterprise technology domains',
+        'Ability to manage complexity while maintaining product simplicity',
+        'Growth mindset and commitment to continuous learning',
+        'Alignment with Workday\'s VIBE values and ethical practices',
+        'Track record of shipping successful products at scale'
+      ],
+      interviewTips: [
+        'Deep dive into Workday\'s products—try demos and read customer case studies',
+        'Understand the HR tech and finance software competitive landscape',
+        'Prepare frameworks for prioritization that balance customer value and business impact',
+        'Practice product case studies focused on enterprise B2B scenarios',
+        'Research Workday Rising to understand how they engage with customers',
+        'Prepare examples demonstrating cross-functional leadership',
+        'Be ready to discuss how you\'ve handled enterprise customer complexity',
+        'Show genuine interest in improving workplace experiences',
+        'Highlight experience with products serving non-technical end users',
+        'Prepare questions about Workday\'s product culture and decision-making',
+        'Demonstrate understanding of compliance and security in enterprise products',
+        'Research Workday Illuminate and be ready to discuss AI in enterprise software',
+        'Be authentic about your PM philosophy—Workday values cultural alignment',
+        'Prepare to discuss how you\'ve built inclusive products and teams'
+      ],
+      salary: {
+        min: 150000,
+        max: 280000,
+        average: 200000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs) with ongoing refresh grants',
+        'Annual performance bonus tied to company and individual goals',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with generous company match',
+        'Premium health, dental, and vision coverage',
+        'Flexible time off policy',
+        'Extended parental leave',
+        'Wellness and fitness reimbursement',
+        'Professional development budget'
+      ],
+      dayInLife: {
+        intro: 'A Product Manager at Workday balances strategic thinking with hands-on collaboration across engineering, design, and customers.',
+        schedule: [
+          '8:00 AM - Review customer feedback from support tickets and NPS surveys',
+          '9:00 AM - Sprint planning meeting with engineering squad',
+          '10:00 AM - Customer call to gather requirements for upcoming feature',
+          '11:00 AM - Product requirements review with UX design team',
+          '12:00 PM - Lunch meeting with engineering manager to discuss technical constraints',
+          '1:00 PM - Competitive analysis and market research',
+          '2:30 PM - Roadmap planning session with product leadership',
+          '3:30 PM - Demo review for upcoming release features',
+          '4:30 PM - Cross-functional sync with customer success team',
+          '5:30 PM - Wrap up with backlog grooming and documentation'
+        ],
+        closing: 'Workday PMs maintain sustainable schedules while staying deeply connected to customer needs through regular engagement.'
+      },
+      similarRoles: [
+        'Senior Product Manager',
+        'Principal Product Manager',
+        'Technical Product Manager',
+        'Product Owner',
+        'Group Product Manager'
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: `Engineering Managers at Workday lead teams building enterprise cloud applications that transform how organizations manage their people and finances. You'll guide engineers developing Workday's Human Capital Management, Financial Management, or Adaptive Planning products—software trusted by over 10,000 customers including more than 50% of Fortune 500 companies. The role balances technical leadership with people management, requiring you to set technical direction while growing engineer careers and building high-performing teams. Workday's people-first culture, reflected in their VIBE (Value Inclusion, Belonging, and Equity) values, creates an environment where managers are expected to genuinely invest in their team's wellbeing and development. As one of Fortune's Best Companies to Work For, Workday offers engineering managers the support to build sustainable, inclusive teams while delivering enterprise-grade software that makes a real difference in how people experience work.`,
+      responsibilities: [
+        'Lead and develop a team of 6-10 software engineers working on Workday products',
+        'Set technical direction and architectural standards for your team\'s domain',
+        'Partner with product management to translate roadmaps into technical execution plans',
+        'Conduct regular 1:1s focused on career growth, feedback, and team member wellbeing',
+        'Drive hiring efforts including interviewing, calibration, and offer decisions',
+        'Foster an inclusive team environment aligned with Workday\'s VIBE values',
+        'Manage delivery timelines while maintaining quality and sustainable pace',
+        'Collaborate with other engineering managers to share best practices and resources',
+        'Remove blockers and advocate for your team\'s needs across the organization'
+      ],
+      growthOpportunities: [
+        'Progress from Engineering Manager to Senior Manager or Director of Engineering',
+        'Expand scope to lead multiple teams or entire product areas',
+        'Transition to VP of Engineering or technical executive leadership',
+        'Move into Principal or Distinguished Engineer technical track',
+        'Lead cross-functional initiatives spanning engineering, product, and design',
+        'Drive organizational transformation and engineering excellence programs',
+        'Mentor other engineering managers and develop leadership bench',
+        'Take international leadership roles across Workday\'s global offices'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial discussion of your management experience and interest in Workday' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into your leadership philosophy and management approach' },
+        { stage: 'Technical Assessment', description: 'Discussion of technical background, system design, and architectural decision-making' },
+        { stage: 'Leadership Panel', description: 'Interviews with peers, skip-levels, and cross-functional partners' },
+        { stage: 'Executive Interview', description: 'Final conversation with engineering leadership about vision and cultural alignment' }
+      ],
+      technicalQuestions: [
+        'How do you balance technical debt reduction with feature delivery?',
+        'Describe your approach to setting technical standards for your team',
+        'How do you evaluate build vs. buy decisions for enterprise software?',
+        'What\'s your approach to ensuring code quality and reducing production incidents?',
+        'How do you keep your technical skills current while managing people?',
+        'Describe how you\'ve improved engineering processes and team velocity',
+        'How do you approach capacity planning and resource allocation?',
+        'What metrics do you track to measure engineering team health and productivity?',
+        'How do you handle technical disagreements within your team?',
+        'Describe your approach to system design reviews and architecture governance',
+        'How do you ensure your team delivers secure, compliant enterprise software?',
+        'What\'s your strategy for managing technical dependencies across teams?',
+        'How do you approach production support and on-call responsibilities?',
+        'Describe how you\'ve managed platform migrations or major technical transitions'
+      ],
+      behavioralQuestions: [
+        'Tell me about a time you had to deliver difficult feedback to an engineer',
+        'Describe how you\'ve built an inclusive team environment',
+        'How have you handled a high performer who was negatively impacting team dynamics?',
+        'Tell me about a project that failed and how you led the team through it',
+        'Describe your approach to developing engineers at different career stages',
+        'How have you managed through organizational change or uncertainty?',
+        'Tell me about a time you had to advocate for your team with leadership',
+        'Describe how you\'ve handled competing priorities from different stakeholders',
+        'How do you approach work-life balance for yourself and your team?',
+        'Tell me about a time you made an unpopular decision and how you communicated it',
+        'Describe how you\'ve built trust with a new team',
+        'How have you handled performance issues while maintaining team morale?',
+        'Tell me about your most successful hire and what made them successful',
+        'Describe how you\'ve collaborated with product management on roadmap planning'
+      ],
+      whatTheyLookFor: [
+        'Strong engineering background with enterprise software experience',
+        'Proven track record of building and developing high-performing teams',
+        'People-first leadership approach aligned with Workday\'s VIBE values',
+        'Ability to balance technical excellence with pragmatic delivery',
+        'Excellent communication skills across technical and business audiences',
+        'Experience managing through growth, change, and ambiguity',
+        'Commitment to building inclusive, psychologically safe teams',
+        'Strategic thinking combined with operational execution',
+        'Growth mindset and continuous improvement orientation',
+        'Genuine care for team member development and wellbeing'
+      ],
+      interviewTips: [
+        'Prepare specific examples of growing engineers through career milestones',
+        'Understand Workday\'s VIBE values and be ready to discuss inclusive leadership',
+        'Be ready to discuss both technical depth and management philosophy',
+        'Research Workday\'s engineering blog and understand their technology approach',
+        'Prepare examples of balancing team needs with business requirements',
+        'Be authentic about your management style—Workday values genuine leaders',
+        'Have concrete examples of building psychological safety on teams',
+        'Be ready to discuss how you\'ve handled difficult personnel situations',
+        'Prepare questions about Workday\'s engineering culture and management support',
+        'Understand enterprise software challenges around security and compliance',
+        'Show genuine interest in HR tech or financial systems domain',
+        'Highlight experience with sustainable pace and preventing burnout',
+        'Be prepared to discuss technical decisions at an architectural level',
+        'Demonstrate how you stay connected to engineering while managing'
+      ],
+      salary: {
+        min: 180000,
+        max: 320000,
+        average: 240000
+      },
+      compensation: [
+        'Competitive base salary reflecting management responsibility',
+        'Significant RSU grants with annual refresh',
+        'Annual bonus based on company and team performance',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with generous company match',
+        'Executive health benefits package',
+        'Flexible time off policy',
+        'Extended parental leave',
+        'Leadership development programs',
+        'Executive coaching available'
+      ],
+      dayInLife: {
+        intro: 'An Engineering Manager at Workday balances people leadership with technical guidance, focused on enabling team success.',
+        schedule: [
+          '8:30 AM - Review team dashboards, check on overnight deployments and alerts',
+          '9:00 AM - Daily standup with engineering squad',
+          '9:30 AM - 1:1 with senior engineer discussing career growth',
+          '10:00 AM - Technical design review for upcoming sprint work',
+          '11:00 AM - Sync with product manager on roadmap and priorities',
+          '12:00 PM - Team lunch and informal bonding',
+          '1:00 PM - Interview candidate for open engineering role',
+          '2:00 PM - Engineering managers sync to discuss cross-team dependencies',
+          '3:00 PM - 1:1 with newer team member on project progress',
+          '4:00 PM - Sprint planning preparation and backlog review',
+          '5:00 PM - Skip-level meeting with engineering director',
+          '5:30 PM - Wrap up administrative tasks and head home'
+        ],
+        closing: 'Workday EMs model sustainable work practices, and the company supports managers in maintaining boundaries and preventing burnout.'
+      },
+      similarRoles: [
+        'Senior Engineering Manager',
+        'Software Development Manager',
+        'Technical Lead Manager',
+        'Director of Engineering',
+        'Engineering Lead'
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: `Data Scientists at Workday unlock insights from one of the richest enterprise datasets in the world—workforce and financial data from over 10,000 organizations. You'll develop machine learning models and analytics that power Workday Illuminate, the company's AI engine, helping customers make better decisions about talent, compensation, workforce planning, and financial operations. The role combines advanced analytics with product thinking, as your models directly impact features used by millions of users. Workday's data science team works across diverse problem domains including anomaly detection for fraud prevention, natural language processing for skills matching, predictive analytics for attrition, and recommendation systems for learning content. With Workday's commitment to ethical AI and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll build models that are not only effective but fair and transparent. As one of Fortune's Best Companies to Work For, Workday offers data scientists the unique opportunity to apply cutting-edge techniques to problems that genuinely improve people's work lives.`,
+      responsibilities: [
+        'Develop machine learning models for Workday Illuminate and product features',
+        'Analyze large-scale workforce and financial datasets to uncover actionable insights',
+        'Design and implement features for predictive analytics, NLP, and recommendation systems',
+        'Collaborate with product and engineering teams to deploy models to production',
+        'Ensure model fairness, transparency, and compliance with ethical AI principles',
+        'Build and maintain data pipelines for model training and inference',
+        'Present findings and recommendations to technical and business stakeholders',
+        'Stay current with ML research and evaluate new techniques for enterprise applications',
+        'Mentor junior data scientists and contribute to team best practices'
+      ],
+      growthOpportunities: [
+        'Progress from Data Scientist to Senior, Staff, or Principal Data Scientist',
+        'Specialize in ML engineering, NLP, or computer vision domains',
+        'Transition into data science management or technical leadership',
+        'Lead Workday Illuminate initiatives and AI product strategy',
+        'Move into product management for AI/ML-powered features',
+        'Become a subject matter expert in workforce analytics or financial modeling',
+        'Contribute to Workday\'s research publications and external thought leadership',
+        'Transition to applied research roles focused on emerging AI capabilities'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your data science background and interest in Workday' },
+        { stage: 'Technical Screen', description: 'Coding and statistics assessment focused on practical data science skills' },
+        { stage: 'Virtual Onsite', description: '4-5 interviews covering ML depth, coding, case studies, and behavioral' },
+        { stage: 'Presentation', description: 'Present a past project or solve a case study demonstrating end-to-end DS skills' },
+        { stage: 'Hiring Manager', description: 'Discussion of role expectations, career goals, and team fit' }
+      ],
+      technicalQuestions: [
+        'How would you build a model to predict employee attrition?',
+        'Design a recommendation system for internal job postings',
+        'How would you detect anomalies in expense report data?',
+        'Explain your approach to building a skills taxonomy from job descriptions',
+        'How would you measure and mitigate bias in a hiring recommendation model?',
+        'Design a system for predicting workforce demand across departments',
+        'How would you approach building a compensation benchmarking model?',
+        'Explain how you would implement a classification model for support tickets',
+        'How would you design A/B tests for ML model improvements in enterprise software?',
+        'Describe your approach to feature engineering for time-series workforce data',
+        'How would you build a model to identify high-potential employees?',
+        'Explain your approach to NLP for extracting skills from resumes',
+        'How would you handle class imbalance in fraud detection models?',
+        'Design a system for personalized learning content recommendations',
+        'How would you evaluate model performance for business stakeholders?',
+        'Explain your approach to model interpretability for HR decision-making'
+      ],
+      behavioralQuestions: [
+        'Tell me about a model you built that had significant business impact',
+        'Describe a time when you had to explain complex results to non-technical stakeholders',
+        'How have you handled a situation where your analysis contradicted business assumptions?',
+        'Tell me about a project that failed and what you learned from it',
+        'Describe how you\'ve approached ethical considerations in ML projects',
+        'How do you stay current with rapidly evolving ML techniques?',
+        'Tell me about a time you had to work with messy or incomplete data',
+        'Describe how you\'ve collaborated with engineering teams to deploy models',
+        'How have you contributed to building inclusive team environments?',
+        'Tell me about a time you had to make tradeoffs between model accuracy and fairness',
+        'Describe how you\'ve mentored other data scientists',
+        'How do you approach prioritization when you have multiple competing projects?',
+        'Tell me about a creative solution you developed for a challenging problem',
+        'Describe how you\'ve built trust with business stakeholders in your models'
+      ],
+      whatTheyLookFor: [
+        'Strong foundation in statistics, machine learning, and data analysis',
+        'Programming proficiency in Python and SQL',
+        'Experience deploying ML models to production systems',
+        'Understanding of model fairness, bias, and ethical AI principles',
+        'Ability to translate business problems into data science solutions',
+        'Clear communication skills for technical and non-technical audiences',
+        'Collaborative approach aligned with Workday\'s VIBE values',
+        'Interest in HR, workforce analytics, or financial systems domains',
+        'Growth mindset and commitment to continuous learning',
+        'Product thinking combined with technical depth'
+      ],
+      interviewTips: [
+        'Review ML fundamentals including regression, classification, and clustering',
+        'Prepare to discuss model fairness and bias mitigation techniques',
+        'Understand Workday Illuminate and how AI fits into enterprise HR/finance',
+        'Practice explaining technical concepts to non-technical audiences',
+        'Prepare a past project presentation that shows end-to-end DS skills',
+        'Research workforce analytics and people analytics industry trends',
+        'Be ready to discuss tradeoffs between model complexity and interpretability',
+        'Practice coding in Python including pandas, sklearn, and basic algorithms',
+        'Understand A/B testing and experimentation in enterprise contexts',
+        'Prepare questions about Workday\'s data science team and AI initiatives',
+        'Be authentic about your experience level—Workday values growth mindset',
+        'Highlight any experience with HR, finance, or enterprise software data',
+        'Be ready to discuss ethical considerations in AI for HR decisions',
+        'Show genuine interest in improving workplace experiences through analytics'
+      ],
+      salary: {
+        min: 150000,
+        max: 280000,
+        average: 195000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs) with annual refresh',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health, dental, and vision coverage',
+        'Flexible time off policy',
+        'Parental leave',
+        'Conference attendance and learning budget',
+        'Wellness reimbursement program'
+      ],
+      dayInLife: {
+        intro: 'A Data Scientist at Workday balances exploratory analysis with model development, always focused on delivering business impact.',
+        schedule: [
+          '9:00 AM - Check model performance dashboards and overnight training jobs',
+          '9:30 AM - Team standup to sync on project progress and blockers',
+          '10:00 AM - Deep work: feature engineering for attrition prediction model',
+          '11:30 AM - Code review session for teammate\'s model implementation',
+          '12:00 PM - Lunch, often with cross-functional partners from product team',
+          '1:00 PM - Meeting with product manager to discuss model requirements',
+          '2:00 PM - Exploratory data analysis for new workforce planning project',
+          '3:30 PM - Collaborate with ML engineer on model deployment pipeline',
+          '4:30 PM - Document findings and prepare stakeholder presentation',
+          '5:30 PM - Wrap up, review tomorrow\'s priorities'
+        ],
+        closing: 'Workday data scientists enjoy sustainable hours and protected focus time for deep analytical work.'
+      },
+      similarRoles: [
+        'Machine Learning Engineer',
+        'Applied Scientist',
+        'People Analytics Specialist',
+        'Quantitative Analyst',
+        'AI Engineer'
+      ]
+    },
+
+    'solutions-architect': {
+      roleDescription: `Solutions Architects at Workday design and guide the technical implementation of Workday's enterprise cloud applications for customers worldwide. You'll partner with sales teams to demonstrate how Workday HCM, Financial Management, and Adaptive Planning solutions address complex business requirements for organizations ranging from mid-market companies to Fortune 500 enterprises. The role combines deep product expertise with consultative selling, requiring you to understand customer pain points, design elegant solutions, and build confidence in Workday's platform. Solutions Architects serve as trusted technical advisors throughout the sales cycle, translating business needs into technical architectures and ensuring customers understand how Workday's unified platform delivers value. With Workday's commitment to customer success and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll work in a collaborative environment that genuinely prioritizes long-term customer relationships over short-term wins. As part of one of Fortune's Best Companies to Work For, you'll help organizations transform how they manage their most important resources.`,
+      responsibilities: [
+        'Partner with sales teams to provide technical expertise throughout the enterprise sales cycle',
+        'Design solution architectures that address complex customer requirements for HCM, Financials, or Planning',
+        'Lead technical discovery sessions to understand customer business processes and pain points',
+        'Deliver compelling product demonstrations and proof-of-concept solutions',
+        'Create technical proposals and architecture documentation for customer stakeholders',
+        'Address technical objections and competitive challenges with authoritative expertise',
+        'Collaborate with product and engineering teams to influence roadmap based on customer feedback',
+        'Support customer reference calls and participate in Workday Rising presentations',
+        'Mentor junior solutions architects and contribute to best practices'
+      ],
+      growthOpportunities: [
+        'Progress from Solutions Architect to Senior or Principal Solutions Architect',
+        'Transition to Director of Solutions Architecture leading regional or industry teams',
+        'Move into product management leveraging deep customer knowledge',
+        'Transition to customer-facing consulting or professional services leadership',
+        'Specialize in strategic verticals like healthcare, financial services, or public sector',
+        'Move into enterprise sales leadership or general management',
+        'Become a thought leader through speaking at industry events and publishing',
+        'Transition to partner ecosystem leadership roles'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your background in pre-sales or solutions architecture' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your consultative selling approach and technical expertise' },
+        { stage: 'Technical Presentation', description: 'Deliver a mock product demonstration or solution architecture presentation' },
+        { stage: 'Cross-Functional Interviews', description: 'Meet with sales, product, and services partners to assess collaboration skills' },
+        { stage: 'Executive Interview', description: 'Final conversation with leadership about strategic thinking and cultural fit' }
+      ],
+      technicalQuestions: [
+        'How would you architect a Workday implementation for a global organization with 50,000 employees?',
+        'Describe your approach to integrating Workday with existing ERP and HR systems',
+        'How would you address concerns about data migration from legacy HRIS systems?',
+        'Design a solution for a customer requiring complex organizational hierarchies',
+        'How would you approach security and compliance requirements for a financial services customer?',
+        'Describe your methodology for scoping enterprise software implementations',
+        'How would you differentiate Workday from competitors in a technical evaluation?',
+        'Explain your approach to demonstrating ROI for Workday investments',
+        'How would you handle a customer requirement that Workday doesn\'t currently support?',
+        'Describe your approach to multi-tenant SaaS architecture discussions',
+        'How would you design a reporting and analytics strategy for a Workday customer?',
+        'Explain your approach to change management in enterprise transformations',
+        'How would you address concerns about cloud security for sensitive HR data?',
+        'Describe your methodology for building business cases for HR technology investments'
+      ],
+      behavioralQuestions: [
+        'Tell me about a complex deal you helped win through technical expertise',
+        'Describe a time when you had to manage a difficult customer relationship',
+        'How have you handled a situation where the product couldn\'t meet a customer requirement?',
+        'Tell me about a presentation that didn\'t go well and what you learned',
+        'Describe how you\'ve collaborated with sales to develop account strategies',
+        'How do you stay current with enterprise technology trends?',
+        'Tell me about a time you influenced product direction based on customer feedback',
+        'Describe how you\'ve built trust with technical and executive stakeholders',
+        'How have you contributed to building inclusive customer relationships?',
+        'Tell me about a time you had to disagree with a sales approach',
+        'Describe how you\'ve mentored other solutions architects',
+        'How do you balance customer advocacy with realistic expectation setting?',
+        'Tell me about a creative solution you designed for an unusual requirement',
+        'Describe how you\'ve handled competitive pressure in technical evaluations'
+      ],
+      whatTheyLookFor: [
+        'Deep enterprise software expertise, ideally in HR, finance, or ERP systems',
+        'Strong presentation and demonstration skills',
+        'Consultative approach to understanding customer needs',
+        'Ability to translate technical concepts for business audiences',
+        'Collaborative partnership with sales and services teams',
+        'Understanding of enterprise integration and architecture patterns',
+        'Customer-first mindset aligned with Workday values',
+        'Strategic thinking combined with hands-on technical capability',
+        'Growth mindset and adaptability to evolving product capabilities',
+        'Alignment with Workday\'s VIBE values and ethical business practices'
+      ],
+      interviewTips: [
+        'Prepare a polished product demonstration—practice until it\'s seamless',
+        'Understand Workday\'s competitive positioning against SAP, Oracle, and point solutions',
+        'Research common enterprise HR and finance challenges that Workday addresses',
+        'Prepare examples of influencing deals through technical expertise',
+        'Be ready to discuss integration patterns and data migration strategies',
+        'Understand multi-tenant SaaS architecture advantages',
+        'Prepare questions about Workday\'s sales culture and deal support',
+        'Research Workday Rising to understand customer engagement approach',
+        'Be authentic about your pre-sales experience and philosophy',
+        'Highlight experience with complex enterprise sales cycles',
+        'Show genuine interest in helping organizations transform',
+        'Be ready to discuss how you handle rejection or lost deals',
+        'Prepare to discuss compliance requirements for different industries',
+        'Demonstrate understanding of Workday\'s unified platform advantage'
+      ],
+      salary: {
+        min: 150000,
+        max: 280000,
+        average: 200000
+      },
+      compensation: [
+        'Competitive base salary',
+        'Variable compensation tied to team quota attainment',
+        'Restricted Stock Units (RSUs)',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Home office setup allowance',
+        'Professional development budget'
+      ],
+      dayInLife: {
+        intro: 'A Solutions Architect at Workday balances customer-facing activities with internal collaboration and continuous learning.',
+        schedule: [
+          '8:00 AM - Review customer meeting prep materials and product updates',
+          '9:00 AM - Internal sync with sales team on strategic account strategy',
+          '10:00 AM - Customer discovery call for new enterprise opportunity',
+          '11:30 AM - Build demo environment with customer-specific scenarios',
+          '12:00 PM - Lunch while catching up on industry news',
+          '1:00 PM - Executive presentation and product demonstration for prospect',
+          '3:00 PM - Debrief with sales team and document follow-up items',
+          '3:30 PM - Technical proposal development for pending RFP',
+          '5:00 PM - Product team call to discuss customer feature requests',
+          '5:30 PM - Wrap up and prepare for tomorrow\'s customer meetings'
+        ],
+        closing: 'Solutions Architects travel 30-50% depending on territory, with flexibility for remote customer engagements.'
+      },
+      similarRoles: [
+        'Pre-Sales Engineer',
+        'Technical Account Manager',
+        'Sales Engineer',
+        'Enterprise Architect',
+        'Customer Solutions Consultant'
+      ]
+    },
+
+    'implementation-consultant': {
+      roleDescription: `Implementation Consultants at Workday guide customers through the journey of deploying and adopting Workday's enterprise cloud applications. You'll work directly with HR leaders, finance teams, and IT organizations to configure, test, and launch Workday HCM, Financial Management, or Adaptive Planning solutions. The role combines deep product expertise with project management and change management skills, requiring you to understand complex business processes and translate them into optimal Workday configurations. Implementation Consultants serve as trusted advisors who not only deploy software but help organizations transform how they manage their people and finances. With Workday's methodology emphasizing customer success and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll work in collaborative project teams focused on delivering outcomes that genuinely improve how customers work. As part of one of Fortune's Best Companies to Work For, you'll help organizations realize the full value of their Workday investment.`,
+      responsibilities: [
+        'Lead workstreams for Workday HCM, Financials, or Planning implementations',
+        'Gather and document customer business requirements through discovery sessions',
+        'Configure Workday tenant based on customer requirements and best practices',
+        'Design and execute testing strategies including UAT support',
+        'Develop training materials and support customer change management efforts',
+        'Manage customer relationships and project timelines for your workstreams',
+        'Collaborate with project managers and other consultants on integrated delivery',
+        'Document configurations and create customer-specific runbooks',
+        'Support go-live activities and post-deployment hypercare'
+      ],
+      growthOpportunities: [
+        'Progress from Consultant to Senior Consultant or Lead Consultant',
+        'Transition to Engagement Manager or Project Manager roles',
+        'Specialize in complex functional areas like benefits, compensation, or financial close',
+        'Move into solutions architecture or pre-sales consulting',
+        'Become a subject matter expert and internal trainer',
+        'Transition to customer success management',
+        'Move to product management leveraging implementation experience',
+        'Build expertise in specific industries for vertical specialization'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your consulting or implementation background' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your consulting approach and customer engagement experience' },
+        { stage: 'Technical Assessment', description: 'Case study or scenario-based assessment of problem-solving skills' },
+        { stage: 'Panel Interview', description: 'Meet with consultants and engagement managers to assess collaboration' },
+        { stage: 'Final Interview', description: 'Conversation with services leadership about career goals and fit' }
+      ],
+      technicalQuestions: [
+        'How would you approach gathering requirements for a payroll implementation?',
+        'Describe your methodology for data migration in enterprise software deployments',
+        'How would you handle a configuration conflict between business requirements and best practices?',
+        'Explain your approach to testing complex HR workflows',
+        'How would you design a training program for end users with varying technical skills?',
+        'Describe your methodology for managing scope changes during implementation',
+        'How would you approach integrating Workday with downstream systems?',
+        'Explain your strategy for supporting parallel payroll runs during go-live',
+        'How would you handle a customer who wants to replicate legacy processes exactly?',
+        'Describe your approach to post-go-live optimization and adoption',
+        'How would you configure complex organizational structures in Workday?',
+        'Explain your methodology for security role design and testing',
+        'How would you approach a multi-country implementation with different requirements?',
+        'Describe your strategy for managing customer expectations during delays'
+      ],
+      behavioralQuestions: [
+        'Tell me about a challenging implementation you successfully delivered',
+        'Describe a time when you had to push back on a customer requirement',
+        'How have you handled a project that was behind schedule?',
+        'Tell me about a time you had to manage a difficult customer relationship',
+        'Describe how you\'ve collaborated with diverse project teams',
+        'How do you stay current with evolving product capabilities?',
+        'Tell me about a time you identified a risk that others missed',
+        'Describe how you\'ve contributed to building inclusive project environments',
+        'How have you handled conflicting priorities from different stakeholders?',
+        'Tell me about a time you had to learn new functionality quickly',
+        'Describe how you\'ve mentored junior consultants',
+        'How do you balance quality with project timeline pressures?',
+        'Tell me about a creative solution you developed for a customer challenge',
+        'Describe how you\'ve built trust with skeptical customer stakeholders'
+      ],
+      whatTheyLookFor: [
+        'Experience implementing enterprise software, especially HCM or ERP',
+        'Strong analytical skills for understanding complex business processes',
+        'Excellent communication skills with technical and business audiences',
+        'Consulting mindset focused on customer outcomes',
+        'Project management capabilities and organizational skills',
+        'Ability to work effectively in team-based delivery models',
+        'Adaptability to travel and customer site work',
+        'Growth mindset and commitment to continuous learning',
+        'Alignment with Workday\'s VIBE values and customer-first approach',
+        'Understanding of HR, finance, or enterprise technology domains'
+      ],
+      interviewTips: [
+        'Prepare specific examples of implementations you\'ve led or contributed to',
+        'Understand Workday\'s implementation methodology and deployment approach',
+        'Be ready to discuss how you gather and document requirements',
+        'Research common HR and finance business processes',
+        'Prepare for scenario-based questions about implementation challenges',
+        'Highlight experience with customer stakeholder management',
+        'Be ready to discuss data migration strategies and challenges',
+        'Show genuine interest in helping organizations transform',
+        'Prepare questions about Workday\'s consulting culture and career paths',
+        'Understand the consultant lifestyle including travel expectations',
+        'Be authentic about your experience level—Workday provides training',
+        'Highlight change management and user adoption experience',
+        'Be ready to discuss how you handle project scope challenges',
+        'Demonstrate understanding of enterprise security and compliance requirements'
+      ],
+      salary: {
+        min: 100000,
+        max: 180000,
+        average: 135000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs)',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Travel rewards and per diem allowances',
+        'Professional certification support'
+      ],
+      dayInLife: {
+        intro: 'An Implementation Consultant at Workday works closely with customers, balancing configuration work with stakeholder engagement.',
+        schedule: [
+          '8:00 AM - Travel to customer site or log into remote session',
+          '8:30 AM - Daily standup with project team to sync on progress',
+          '9:00 AM - Requirements gathering session with customer HR leadership',
+          '11:00 AM - Configure payroll earning and deduction types in tenant',
+          '12:00 PM - Working lunch with customer project team',
+          '1:00 PM - Review and resolve data migration issues',
+          '3:00 PM - User acceptance testing support and issue triage',
+          '4:00 PM - Document configuration decisions and update project documentation',
+          '5:00 PM - Sync with Workday project manager on timeline and risks',
+          '5:30 PM - Prepare materials for tomorrow\'s training session'
+        ],
+        closing: 'Implementation Consultants typically travel 50-75% during active projects, with periods of less travel between engagements.'
+      },
+      similarRoles: [
+        'HCM Consultant',
+        'Functional Consultant',
+        'Business Analyst',
+        'Configuration Specialist',
+        'Deployment Consultant'
+      ]
+    },
+
+    'customer-success-manager': {
+      roleDescription: `Customer Success Managers at Workday ensure customers achieve maximum value from their Workday investment throughout the entire customer lifecycle. You'll serve as the strategic partner for enterprise customers, understanding their business objectives and helping them leverage Workday HCM, Financial Management, and Planning solutions to achieve measurable outcomes. The role goes beyond support to proactive guidance, helping customers adopt new features, optimize configurations, and expand their Workday usage. CSMs build deep relationships with customer executives, serving as advocates within Workday while driving adoption and renewal success. With Workday's legendary focus on customer satisfaction and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll work in an environment that genuinely prioritizes customer success over short-term metrics. As part of one of Fortune's Best Companies to Work For, you'll help organizations continuously improve how they manage their most important resources—their people and their capital.`,
+      responsibilities: [
+        'Own the post-implementation relationship for a portfolio of enterprise customers',
+        'Develop and execute success plans aligned with customer business objectives',
+        'Drive product adoption by helping customers leverage new features and best practices',
+        'Monitor customer health indicators and proactively address risks',
+        'Coordinate cross-functional Workday resources to resolve customer issues',
+        'Lead quarterly business reviews with customer executives',
+        'Advocate for customer needs with product, engineering, and services teams',
+        'Support contract renewals and identify expansion opportunities',
+        'Build relationships across customer organizations to ensure broad success'
+      ],
+      growthOpportunities: [
+        'Progress from CSM to Senior CSM or Principal CSM for strategic accounts',
+        'Transition to Customer Success Director leading regional or vertical teams',
+        'Move into solutions consulting or professional services',
+        'Transition to product management leveraging customer insights',
+        'Move into sales leadership as an Account Executive',
+        'Specialize in specific industries or product areas',
+        'Become a thought leader in customer success methodologies',
+        'Transition to partner success or ecosystem management'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your customer success or account management background' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your approach to customer relationships and success metrics' },
+        { stage: 'Case Study', description: 'Present a customer success scenario demonstrating strategic thinking' },
+        { stage: 'Cross-Functional Interviews', description: 'Meet with sales, services, and support partners to assess collaboration' },
+        { stage: 'Executive Interview', description: 'Final conversation about customer philosophy and cultural alignment' }
+      ],
+      technicalQuestions: [
+        'How would you develop a success plan for a customer struggling with user adoption?',
+        'Describe your approach to monitoring and measuring customer health',
+        'How would you handle a customer who is at risk of churning?',
+        'Explain your methodology for conducting effective quarterly business reviews',
+        'How would you prioritize features to recommend for a customer\'s roadmap?',
+        'Describe your approach to coordinating multiple stakeholders on customer issues',
+        'How would you measure the ROI customers are achieving from Workday?',
+        'Explain your strategy for driving adoption of new product capabilities',
+        'How would you handle a customer escalation involving multiple departments?',
+        'Describe your approach to identifying expansion opportunities within accounts',
+        'How would you build executive relationships at customer organizations?',
+        'Explain your methodology for balancing proactive and reactive customer work',
+        'How would you approach a customer who wants to add a competitive solution?',
+        'Describe your strategy for managing a large portfolio of customers'
+      ],
+      behavioralQuestions: [
+        'Tell me about a time you turned around a struggling customer relationship',
+        'Describe how you\'ve driven adoption for a product customers were resistant to',
+        'How have you handled a customer situation that required executive escalation?',
+        'Tell me about a time you identified and addressed a risk before it became critical',
+        'Describe how you\'ve collaborated across functions to solve customer problems',
+        'How do you stay current with product changes and industry trends?',
+        'Tell me about a time you had to deliver difficult news to a customer',
+        'Describe how you\'ve contributed to building inclusive customer relationships',
+        'How have you balanced customer advocacy with business requirements?',
+        'Tell me about a creative solution you developed to improve customer outcomes',
+        'Describe how you\'ve mentored other customer success managers',
+        'How do you manage time across a portfolio of customers with different needs?',
+        'Tell me about a time you influenced product direction based on customer feedback',
+        'Describe how you\'ve built trust with skeptical customer stakeholders'
+      ],
+      whatTheyLookFor: [
+        'Experience in customer success, account management, or consulting',
+        'Strong relationship-building skills with executive and technical audiences',
+        'Strategic thinking combined with execution capability',
+        'Data-driven approach to measuring and improving customer health',
+        'Excellent communication and presentation skills',
+        'Empathy and genuine commitment to customer outcomes',
+        'Understanding of enterprise software and SaaS business models',
+        'Collaborative approach to cross-functional problem solving',
+        'Growth mindset and adaptability to evolving customer needs',
+        'Alignment with Workday\'s VIBE values and customer-first culture'
+      ],
+      interviewTips: [
+        'Prepare specific examples of customer relationships you\'ve transformed',
+        'Understand customer success metrics like NPS, adoption rates, and renewal rates',
+        'Research Workday\'s customer success philosophy and approach',
+        'Be ready to present a structured approach to success planning',
+        'Prepare examples of cross-functional collaboration on customer issues',
+        'Highlight experience with executive-level relationships',
+        'Show genuine passion for customer outcomes over transactional metrics',
+        'Prepare questions about Workday\'s customer success team and culture',
+        'Be ready to discuss how you balance proactive and reactive work',
+        'Understand enterprise SaaS renewal and expansion dynamics',
+        'Be authentic about your customer philosophy—Workday values alignment',
+        'Highlight experience with HR, finance, or enterprise technology customers',
+        'Be ready to discuss how you handle difficult customer conversations',
+        'Demonstrate understanding of change management and adoption challenges'
+      ],
+      salary: {
+        min: 110000,
+        max: 180000,
+        average: 140000
+      },
+      compensation: [
+        'Competitive base salary',
+        'Variable compensation tied to customer retention and expansion',
+        'Restricted Stock Units (RSUs)',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Professional development budget',
+        'Customer site travel allowances'
+      ],
+      dayInLife: {
+        intro: 'A Customer Success Manager at Workday balances strategic planning with proactive customer engagement.',
+        schedule: [
+          '8:00 AM - Review customer health dashboards and overnight support tickets',
+          '9:00 AM - Team sync to discuss at-risk accounts and share best practices',
+          '10:00 AM - Quarterly business review preparation for strategic customer',
+          '11:00 AM - Call with customer HR leader to discuss adoption challenges',
+          '12:00 PM - Lunch while catching up on product release notes',
+          '1:00 PM - Internal escalation meeting for customer technical issue',
+          '2:00 PM - Success plan review and update for portfolio accounts',
+          '3:00 PM - Customer executive check-in call',
+          '4:00 PM - Collaborate with services team on customer optimization project',
+          '5:00 PM - Document customer interactions and update success metrics',
+          '5:30 PM - Prepare for tomorrow\'s customer meetings'
+        ],
+        closing: 'CSMs typically travel 25-40% for customer meetings and Workday events, with flexibility for remote engagement.'
+      },
+      similarRoles: [
+        'Strategic Account Manager',
+        'Customer Relationship Manager',
+        'Client Success Director',
+        'Enterprise Customer Manager',
+        'Customer Experience Manager'
+      ]
+    },
+
+    'technical-writer': {
+      roleDescription: `Technical Writers at Workday create the documentation, help content, and educational materials that enable millions of users to effectively leverage Workday's enterprise cloud applications. You'll develop content for Workday HCM, Financial Management, and Planning products—from in-app guidance and help articles to comprehensive implementation guides and API documentation. The role combines deep product knowledge with exceptional writing skills, requiring you to translate complex enterprise workflows into clear, accessible content for diverse audiences including HR administrators, finance professionals, and IT teams. Technical Writers at Workday work closely with product managers, UX designers, and engineers to ensure documentation evolves with the product. With Workday's commitment to user experience and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll contribute to an inclusive documentation strategy that serves users of all skill levels. As part of one of Fortune's Best Companies to Work For, you'll help customers realize the full value of their Workday investment through exceptional documentation.`,
+      responsibilities: [
+        'Create and maintain product documentation for Workday HCM, Financials, or Planning',
+        'Develop in-app guidance, tooltips, and contextual help content',
+        'Write implementation guides, configuration documentation, and best practices',
+        'Create API documentation for developers and integration specialists',
+        'Collaborate with product and UX teams to ensure content aligns with user needs',
+        'Develop multimedia content including videos, tutorials, and interactive guides',
+        'Maintain documentation standards and style guidelines',
+        'Gather feedback from customers and support teams to improve content',
+        'Support localization efforts for global documentation needs'
+      ],
+      growthOpportunities: [
+        'Progress from Technical Writer to Senior or Lead Technical Writer',
+        'Transition to Content Strategy or Documentation Manager roles',
+        'Move into UX writing or product design',
+        'Specialize in developer documentation or API content',
+        'Transition to product management leveraging deep product knowledge',
+        'Lead documentation transformation initiatives',
+        'Become a subject matter expert in specific functional areas',
+        'Move into customer education or training development'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your technical writing background and portfolio' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your writing approach and collaboration style' },
+        { stage: 'Writing Exercise', description: 'Complete a writing sample demonstrating technical documentation skills' },
+        { stage: 'Team Interviews', description: 'Meet with writers, product managers, and developers to assess fit' },
+        { stage: 'Final Interview', description: 'Conversation with content leadership about career goals and philosophy' }
+      ],
+      technicalQuestions: [
+        'How would you approach documenting a complex HR workflow for non-technical users?',
+        'Describe your methodology for gathering requirements from subject matter experts',
+        'How would you structure documentation for a new product feature?',
+        'Explain your approach to maintaining consistency across a large documentation set',
+        'How would you write API documentation for developers with varying experience levels?',
+        'Describe your strategy for creating effective in-app guidance',
+        'How would you measure the effectiveness of documentation?',
+        'Explain your approach to documentation versioning and release management',
+        'How would you handle conflicting feedback from stakeholders?',
+        'Describe your methodology for simplifying complex technical concepts',
+        'How would you approach documentation for accessibility requirements?',
+        'Explain your strategy for creating reusable content components',
+        'How would you document a feature with multiple configuration options?',
+        'Describe your approach to supporting localization and translation'
+      ],
+      behavioralQuestions: [
+        'Tell me about a documentation project you\'re particularly proud of',
+        'Describe a time when you had to quickly learn a complex product area',
+        'How have you handled feedback that significantly changed your approach?',
+        'Tell me about a time you advocated for documentation improvements',
+        'Describe how you\'ve collaborated with engineers who are resistant to documentation',
+        'How do you stay current with technical writing trends and tools?',
+        'Tell me about a time you had to meet a tight deadline without sacrificing quality',
+        'Describe how you\'ve contributed to building inclusive documentation',
+        'How have you handled conflicting priorities from different stakeholders?',
+        'Tell me about a creative solution you developed for a documentation challenge',
+        'Describe how you\'ve mentored other writers',
+        'How do you balance completeness with usability in documentation?',
+        'Tell me about a time you identified a documentation gap that others missed',
+        'Describe how you\'ve incorporated user feedback into documentation improvements'
+      ],
+      whatTheyLookFor: [
+        'Excellent writing skills with ability to explain complex concepts clearly',
+        'Experience with enterprise software or SaaS documentation',
+        'Strong collaboration skills with technical and non-technical stakeholders',
+        'Proficiency with documentation tools and content management systems',
+        'Understanding of information architecture and content strategy',
+        'Attention to detail and commitment to quality',
+        'Ability to learn complex products quickly',
+        'User empathy and focus on audience needs',
+        'Growth mindset and adaptability to evolving tools and methods',
+        'Alignment with Workday\'s VIBE values and inclusive content practices'
+      ],
+      interviewTips: [
+        'Prepare a portfolio showcasing diverse technical writing samples',
+        'Be ready to discuss your writing process from research to publication',
+        'Understand Workday\'s products at a high level before interviewing',
+        'Practice explaining complex concepts in simple terms',
+        'Prepare examples of collaborating with engineers and product managers',
+        'Research documentation tools and be ready to discuss preferences',
+        'Highlight experience with enterprise or B2B documentation',
+        'Show genuine interest in helping users succeed',
+        'Prepare questions about Workday\'s documentation team and processes',
+        'Be ready to discuss accessibility and inclusive writing practices',
+        'Bring examples of how you\'ve measured documentation effectiveness',
+        'Highlight experience with structured authoring or content reuse',
+        'Be authentic about your writing philosophy and approach',
+        'Demonstrate understanding of user-centered content design'
+      ],
+      salary: {
+        min: 90000,
+        max: 160000,
+        average: 120000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs)',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Professional development and conference budget',
+        'Home office setup allowance'
+      ],
+      dayInLife: {
+        intro: 'A Technical Writer at Workday balances content creation with collaboration and research.',
+        schedule: [
+          '8:30 AM - Review content feedback and prioritize writing tasks',
+          '9:00 AM - Team standup to sync on documentation projects',
+          '9:30 AM - Deep writing session: drafting help content for new feature',
+          '11:00 AM - Meeting with product manager to clarify feature behavior',
+          '12:00 PM - Lunch, often with teammates',
+          '1:00 PM - Review and incorporate feedback on draft documentation',
+          '2:00 PM - Shadow user research session to understand pain points',
+          '3:00 PM - Collaborate with UX writer on in-app guidance content',
+          '4:00 PM - Edit and finalize content for upcoming release',
+          '5:00 PM - Update documentation backlog and plan tomorrow\'s priorities',
+          '5:30 PM - Wrap up and head home'
+        ],
+        closing: 'Technical Writers at Workday work primarily from office or remote, with occasional travel for team events and user research.'
+      },
+      similarRoles: [
+        'Documentation Specialist',
+        'Content Developer',
+        'UX Writer',
+        'Information Developer',
+        'Knowledge Base Author'
+      ]
+    },
+
+    'ux-designer': {
+      roleDescription: `UX Designers at Workday shape the experiences that millions of employees use every day to manage their work lives—from checking pay stubs and enrolling in benefits to submitting expense reports and reviewing performance goals. You'll design for Workday's Human Capital Management, Financial Management, or Adaptive Planning products, creating interfaces that make complex enterprise workflows feel intuitive and even delightful. The role requires balancing enterprise requirements like accessibility, configurability, and compliance with consumer-grade usability. UX Designers at Workday work closely with product managers, engineers, and researchers to understand user needs and deliver solutions that genuinely improve how people interact with workplace systems. With Workday's commitment to user experience and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll contribute to products designed for diverse global users. As part of one of Fortune's Best Companies to Work For, you'll help transform enterprise software from something people have to use into something they want to use.`,
+      responsibilities: [
+        'Design user interfaces for Workday HCM, Financials, or Planning products',
+        'Create wireframes, prototypes, and high-fidelity designs for new features',
+        'Collaborate with product managers to translate requirements into design solutions',
+        'Partner with UX researchers to understand user needs and validate designs',
+        'Work with engineers to ensure design intent is maintained through implementation',
+        'Contribute to and evolve Workday\'s design system and component library',
+        'Design for accessibility, ensuring WCAG compliance across all interfaces',
+        'Participate in design critiques and contribute to team standards',
+        'Advocate for user needs throughout the product development process'
+      ],
+      growthOpportunities: [
+        'Progress from UX Designer to Senior or Staff UX Designer',
+        'Transition to UX Design Manager leading product area teams',
+        'Move into UX research or content design specializations',
+        'Become a design system or interaction design specialist',
+        'Transition to product management leveraging user expertise',
+        'Lead cross-product design initiatives and strategy',
+        'Move into Director of UX roles for larger organizations',
+        'Build thought leadership through speaking and publishing'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your design background and portfolio' },
+        { stage: 'Portfolio Review', description: 'Present your portfolio and discuss your design process' },
+        { stage: 'Design Exercise', description: 'Complete a design challenge demonstrating problem-solving approach' },
+        { stage: 'Team Interviews', description: 'Meet with designers, product managers, and engineers' },
+        { stage: 'Final Interview', description: 'Conversation with design leadership about vision and cultural fit' }
+      ],
+      technicalQuestions: [
+        'How would you design an employee self-service portal for HR tasks?',
+        'Describe your approach to designing complex data entry forms',
+        'How would you balance customization needs with design consistency?',
+        'Explain your methodology for designing accessible interfaces',
+        'How would you approach mobile design for enterprise applications?',
+        'Describe your strategy for designing configurable components',
+        'How would you handle designing for multiple user personas with different needs?',
+        'Explain your approach to information architecture for complex workflows',
+        'How would you design a dashboard for HR analytics?',
+        'Describe your methodology for testing designs with enterprise users',
+        'How would you approach designing for global audiences with different conventions?',
+        'Explain your strategy for documenting design decisions for engineers',
+        'How would you design error states and empty states for enterprise apps?',
+        'Describe your approach to designing for power users vs. occasional users'
+      ],
+      behavioralQuestions: [
+        'Tell me about a design you\'re particularly proud of and why',
+        'Describe a time when user research changed your design direction',
+        'How have you handled design feedback you disagreed with?',
+        'Tell me about a project where you had to work within significant constraints',
+        'Describe how you\'ve collaborated with engineers on complex implementations',
+        'How do you stay current with design trends and tools?',
+        'Tell me about a time you advocated for users against business pressure',
+        'Describe how you\'ve contributed to building inclusive design practices',
+        'How have you handled conflicting stakeholder feedback?',
+        'Tell me about a design that didn\'t work and what you learned',
+        'Describe how you\'ve mentored other designers',
+        'How do you balance perfectionism with shipping on time?',
+        'Tell me about a creative solution you developed for a difficult problem',
+        'Describe how you\'ve built relationships with product and engineering partners'
+      ],
+      whatTheyLookFor: [
+        'Strong portfolio demonstrating end-to-end design process',
+        'Experience with enterprise or complex B2B application design',
+        'Proficiency with design tools like Figma, Sketch, or similar',
+        'Understanding of accessibility standards and inclusive design',
+        'Strong collaboration skills with cross-functional teams',
+        'Ability to articulate design decisions and rationale',
+        'User empathy and commitment to research-informed design',
+        'Systematic thinking about design systems and component reuse',
+        'Growth mindset and openness to feedback',
+        'Alignment with Workday\'s VIBE values and user-centered approach'
+      ],
+      interviewTips: [
+        'Prepare a polished portfolio that tells the story of your design process',
+        'Include enterprise or complex application examples if available',
+        'Be ready to discuss how you\'ve handled constraints and tradeoffs',
+        'Understand Workday\'s products and user base before interviewing',
+        'Practice articulating your design decisions clearly',
+        'Prepare examples of collaboration with engineers and PMs',
+        'Be ready to discuss accessibility and inclusive design practices',
+        'Research Workday\'s design system and visual language',
+        'Show genuine interest in improving enterprise user experiences',
+        'Prepare questions about Workday\'s design culture and team structure',
+        'Be authentic about your design philosophy—Workday values diversity of thought',
+        'Highlight experience designing for diverse user populations',
+        'Be ready to discuss how you balance user needs with business requirements',
+        'Demonstrate comfort with ambiguity and iterative design processes'
+      ],
+      salary: {
+        min: 120000,
+        max: 220000,
+        average: 160000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs) with refresh grants',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Design conference and education budget',
+        'Home office and equipment allowance'
+      ],
+      dayInLife: {
+        intro: 'A UX Designer at Workday balances creative design work with collaboration and user research.',
+        schedule: [
+          '9:00 AM - Review feedback on designs shared yesterday',
+          '9:30 AM - Design team standup to sync on projects and blockers',
+          '10:00 AM - Deep design work: iterating on onboarding flow wireframes',
+          '11:30 AM - Design critique session with UX team',
+          '12:00 PM - Lunch, often with teammates from product and engineering',
+          '1:00 PM - User research session: observing user testing of new feature',
+          '2:00 PM - Debrief with UX researcher on findings and insights',
+          '3:00 PM - Design review with engineering team on implementation questions',
+          '4:00 PM - Update component documentation in design system',
+          '5:00 PM - Prototype interactions for stakeholder presentation',
+          '5:30 PM - Wrap up and head home'
+        ],
+        closing: 'UX Designers at Workday enjoy creative autonomy with collaborative support, working primarily from office or remote locations.'
+      },
+      similarRoles: [
+        'Product Designer',
+        'Interaction Designer',
+        'UI Designer',
+        'Experience Designer',
+        'Visual Designer'
+      ]
+    },
+
+    'security-engineer': {
+      roleDescription: `Security Engineers at Workday protect the sensitive HR and financial data of over 10,000 organizations worldwide. You'll work on securing Workday's enterprise cloud platform, ensuring that payroll data, personal information, and financial records remain protected against evolving threats. The role spans application security, infrastructure security, and security operations, requiring deep expertise in securing cloud-native architectures at enterprise scale. Security Engineers partner with development teams to build security into products from the start, respond to security incidents, and continuously improve Workday's security posture. With enterprise customers including over 50% of Fortune 500 companies, the stakes are high—and so is the impact. Workday's commitment to security and their VIBE (Value Inclusion, Belonging, and Equity) values create an environment where security professionals can make a real difference. As part of one of Fortune's Best Companies to Work For, you'll help protect the data that organizations depend on to manage their most valuable resources.`,
+      responsibilities: [
+        'Design and implement security controls for Workday\'s cloud infrastructure',
+        'Conduct security assessments and code reviews for application security',
+        'Respond to security incidents and lead forensic investigations',
+        'Develop security automation and monitoring capabilities',
+        'Partner with engineering teams to integrate security into development processes',
+        'Evaluate and implement security tools and technologies',
+        'Support compliance audits for SOC 2, ISO 27001, and other frameworks',
+        'Create security documentation and training materials',
+        'Stay current with emerging threats and security research'
+      ],
+      growthOpportunities: [
+        'Progress from Security Engineer to Senior or Staff Security Engineer',
+        'Transition to Security Architecture or Principal Security roles',
+        'Move into Security Engineering Manager or Director positions',
+        'Specialize in application security, cloud security, or incident response',
+        'Become a subject matter expert for compliance frameworks',
+        'Transition to CISO or security executive leadership',
+        'Lead enterprise-wide security transformation initiatives',
+        'Build thought leadership through research and speaking'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your security background and interests' },
+        { stage: 'Technical Screen', description: 'Assessment of security fundamentals and problem-solving approach' },
+        { stage: 'Virtual Onsite', description: '4-5 interviews covering security depth, coding, design, and behavioral' },
+        { stage: 'Security Case Study', description: 'Present analysis of a security scenario or past incident' },
+        { stage: 'Hiring Manager', description: 'Discussion of role expectations and career goals' }
+      ],
+      technicalQuestions: [
+        'How would you secure a multi-tenant SaaS application handling sensitive HR data?',
+        'Describe your approach to implementing zero-trust architecture',
+        'How would you design a security monitoring system for cloud infrastructure?',
+        'Explain your methodology for conducting threat modeling',
+        'How would you approach securing an API that handles payroll data?',
+        'Describe your strategy for implementing least-privilege access controls',
+        'How would you detect and respond to a data exfiltration attempt?',
+        'Explain your approach to securing container orchestration platforms',
+        'How would you implement secrets management across a large engineering organization?',
+        'Describe your methodology for security code review',
+        'How would you approach securing machine learning pipelines?',
+        'Explain your strategy for managing security in a CI/CD pipeline',
+        'How would you design a security awareness program for developers?',
+        'Describe your approach to vulnerability management at scale',
+        'How would you handle a potential insider threat investigation?',
+        'Explain your methodology for penetration testing web applications'
+      ],
+      behavioralQuestions: [
+        'Tell me about a security incident you responded to and how you handled it',
+        'Describe a time when you had to convince developers to fix a security issue',
+        'How have you balanced security requirements with development velocity?',
+        'Tell me about a security control you implemented that had significant impact',
+        'Describe how you\'ve built security culture within an engineering organization',
+        'How do you stay current with evolving threats and security research?',
+        'Tell me about a time you had to make a difficult risk-based decision',
+        'Describe how you\'ve contributed to building inclusive security teams',
+        'How have you handled disagreements about security priorities?',
+        'Tell me about a creative solution you developed for a security challenge',
+        'Describe how you\'ve mentored other security professionals',
+        'How do you approach explaining security risks to non-technical stakeholders?',
+        'Tell me about a time you identified a vulnerability others missed',
+        'Describe how you\'ve collaborated across teams on security initiatives'
+      ],
+      whatTheyLookFor: [
+        'Strong security fundamentals across application and infrastructure domains',
+        'Experience securing cloud-native and SaaS architectures',
+        'Programming ability for security automation and tool development',
+        'Understanding of enterprise compliance requirements',
+        'Collaborative approach to working with development teams',
+        'Clear communication skills for technical and non-technical audiences',
+        'Ability to balance security with business and development needs',
+        'Growth mindset and commitment to continuous learning',
+        'Alignment with Workday\'s VIBE values and ethical security practices',
+        'Experience with incident response and forensics'
+      ],
+      interviewTips: [
+        'Review cloud security fundamentals, especially AWS or GCP',
+        'Prepare examples of security controls you\'ve implemented',
+        'Be ready to discuss threat modeling and risk assessment approaches',
+        'Understand compliance frameworks relevant to HR and financial data',
+        'Practice explaining security concepts to non-security audiences',
+        'Prepare a case study of an incident or security project you led',
+        'Research Workday\'s security certifications and published security practices',
+        'Be ready to code—security engineering requires programming skills',
+        'Highlight experience with security in CI/CD and DevSecOps',
+        'Prepare questions about Workday\'s security team and culture',
+        'Be authentic about your security philosophy and approach',
+        'Show genuine interest in protecting sensitive employee data',
+        'Be ready to discuss how you stay current with security research',
+        'Demonstrate balanced thinking about security and usability tradeoffs'
+      ],
+      salary: {
+        min: 150000,
+        max: 280000,
+        average: 200000
+      },
+      compensation: [
+        'Competitive base salary reflecting security expertise',
+        'Restricted Stock Units (RSUs) with annual refresh',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Security conference and training budget',
+        'Home office and security tool allowances'
+      ],
+      dayInLife: {
+        intro: 'A Security Engineer at Workday balances proactive security work with incident response and collaboration.',
+        schedule: [
+          '8:30 AM - Review overnight security alerts and threat intelligence',
+          '9:00 AM - Security team standup to sync on projects and incidents',
+          '9:30 AM - Code review session for new authentication feature',
+          '11:00 AM - Threat modeling workshop with product team',
+          '12:00 PM - Lunch, often with security teammates',
+          '1:00 PM - Develop automation for security monitoring improvements',
+          '3:00 PM - Incident response: investigate potential phishing attempt',
+          '4:00 PM - Update security documentation and runbooks',
+          '5:00 PM - Sync with compliance team on upcoming audit',
+          '5:30 PM - Wrap up, check alerts before heading home'
+        ],
+        closing: 'Security Engineers participate in on-call rotation but Workday emphasizes sustainable schedules and incident prevention.'
+      },
+      similarRoles: [
+        'Application Security Engineer',
+        'Cloud Security Engineer',
+        'Security Operations Engineer',
+        'Infrastructure Security Engineer',
+        'Product Security Engineer'
+      ]
+    },
+
+    'sales-engineer': {
+      roleDescription: `Sales Engineers at Workday serve as the technical bridge between Workday's enterprise cloud solutions and the customers who depend on them. You'll partner with account executives to demonstrate how Workday HCM, Financial Management, and Adaptive Planning address complex business requirements for organizations ranging from mid-market companies to global enterprises. The role combines deep product expertise with consultative selling, requiring you to understand customer pain points in HR and finance and articulate how Workday's unified platform delivers value. Sales Engineers lead product demonstrations, answer technical questions, and build confidence in Workday's technology throughout the sales process. With Workday's customer-first approach and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll work in a collaborative sales environment that prioritizes long-term customer success over aggressive tactics. As part of one of Fortune's Best Companies to Work For, you'll help organizations make informed decisions about transforming their enterprise systems.`,
+      responsibilities: [
+        'Partner with account executives to provide technical expertise in sales engagements',
+        'Deliver compelling product demonstrations tailored to customer requirements',
+        'Lead technical discovery sessions to understand customer business processes',
+        'Answer technical questions and address objections during the sales process',
+        'Create custom demo environments and proof-of-concept solutions',
+        'Develop technical proposals and respond to RFP questions',
+        'Collaborate with solutions architects on complex deal architectures',
+        'Support customer reference calls and Workday Rising presentations',
+        'Provide market feedback to product teams based on customer interactions'
+      ],
+      growthOpportunities: [
+        'Progress from Sales Engineer to Senior or Principal Sales Engineer',
+        'Transition to Solutions Architect for strategic deals',
+        'Move into Sales Engineering Manager or Director roles',
+        'Transition to product management leveraging customer insights',
+        'Move into enterprise sales as an Account Executive',
+        'Specialize in specific industries or product areas',
+        'Become a demo and presentation skills coach',
+        'Transition to partner-facing technical roles'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your pre-sales or technical sales background' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your sales engineering approach and customer engagement style' },
+        { stage: 'Demo Presentation', description: 'Deliver a product demonstration showing presentation and technical skills' },
+        { stage: 'Sales Team Interview', description: 'Meet with account executives and sales leaders to assess collaboration fit' },
+        { stage: 'Final Interview', description: 'Conversation with regional leadership about territory and career goals' }
+      ],
+      technicalQuestions: [
+        'How would you demonstrate Workday HCM to a global enterprise with complex requirements?',
+        'Describe your approach to handling a competitive bake-off situation',
+        'How would you address concerns about SaaS vs. on-premise deployment?',
+        'Explain your methodology for discovery in enterprise sales cycles',
+        'How would you demonstrate ROI for a Workday investment?',
+        'Describe your approach to handling technical objections about integrations',
+        'How would you tailor a demo for HR vs. finance vs. IT stakeholders?',
+        'Explain your strategy for managing proof-of-concept requests',
+        'How would you differentiate Workday from Oracle or SAP in a demo?',
+        'Describe your approach to RFP responses for enterprise deals',
+        'How would you handle a question about functionality you\'re unsure of?',
+        'Explain your methodology for building customer-specific demo environments',
+        'How would you present Workday\'s security and compliance capabilities?',
+        'Describe your approach to multi-stakeholder presentations'
+      ],
+      behavioralQuestions: [
+        'Tell me about a complex deal you helped win through technical expertise',
+        'Describe a demo that went wrong and how you recovered',
+        'How have you built trust with customers who were skeptical of SaaS?',
+        'Tell me about a time you had to deliver bad news about product capabilities',
+        'Describe how you\'ve collaborated with sales teams on account strategies',
+        'How do you stay current with product changes and competitive landscape?',
+        'Tell me about a creative solution you presented to address a customer gap',
+        'Describe how you\'ve contributed to building inclusive customer relationships',
+        'How have you handled pressure from sales to overpromise on capabilities?',
+        'Tell me about a lost deal and what you learned from it',
+        'Describe how you\'ve mentored other sales engineers',
+        'How do you balance multiple deal support requests?',
+        'Tell me about a time you influenced product direction through customer feedback',
+        'Describe how you\'ve handled a difficult customer stakeholder'
+      ],
+      whatTheyLookFor: [
+        'Strong presentation and demo skills with executive presence',
+        'Technical depth in enterprise software, especially HCM or ERP',
+        'Consultative approach to understanding customer needs',
+        'Ability to translate technical concepts for business audiences',
+        'Collaborative partnership with sales teams',
+        'Resilience and professionalism under pressure',
+        'Understanding of enterprise sales cycles and stakeholders',
+        'Growth mindset and product learning agility',
+        'Alignment with Workday\'s VIBE values and ethical sales practices',
+        'Customer empathy and genuine interest in solving problems'
+      ],
+      interviewTips: [
+        'Prepare a polished demo presentation—practice until it\'s flawless',
+        'Research Workday\'s products and competitive positioning',
+        'Be ready to discuss enterprise sales cycles and stakeholder management',
+        'Prepare examples of deals you\'ve influenced through technical expertise',
+        'Understand common HR and finance pain points that Workday addresses',
+        'Practice handling objections gracefully and confidently',
+        'Prepare questions about Workday\'s sales culture and team dynamics',
+        'Be authentic about your sales engineering philosophy',
+        'Highlight experience with enterprise customers and complex requirements',
+        'Show genuine interest in customer success beyond closing deals',
+        'Be ready to discuss how you handle competitive situations',
+        'Research Workday Rising to understand customer engagement approach',
+        'Prepare to discuss how you stay current with product capabilities',
+        'Demonstrate comfort with travel and customer-facing work'
+      ],
+      salary: {
+        min: 130000,
+        max: 220000,
+        average: 170000
+      },
+      compensation: [
+        'Competitive base salary',
+        'Variable compensation tied to team quota attainment',
+        'Restricted Stock Units (RSUs)',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Travel expense coverage and per diem',
+        'Demo equipment and home office allowance'
+      ],
+      dayInLife: {
+        intro: 'A Sales Engineer at Workday balances customer-facing activities with demo preparation and internal collaboration.',
+        schedule: [
+          '8:00 AM - Review product updates and prep for customer demo',
+          '9:00 AM - Team sync with account executives on deal strategies',
+          '10:00 AM - Customer discovery call for new enterprise opportunity',
+          '11:30 AM - Build custom demo scenarios based on discovery findings',
+          '12:00 PM - Lunch, sometimes with sales teammates',
+          '1:00 PM - Executive product presentation for prospect CIO and CHRO',
+          '3:00 PM - Debrief with AE and document follow-up items',
+          '3:30 PM - RFP response drafting for pending deal',
+          '4:30 PM - Prep demo environment for tomorrow\'s presentation',
+          '5:30 PM - Wrap up and review tomorrow\'s schedule'
+        ],
+        closing: 'Sales Engineers travel 40-60% depending on territory, with flexibility for remote customer engagements.'
+      },
+      similarRoles: [
+        'Pre-Sales Engineer',
+        'Solutions Consultant',
+        'Technical Sales Specialist',
+        'Demo Engineer',
+        'Customer Solutions Engineer'
+      ]
+    },
+
+    'support-engineer': {
+      roleDescription: `Support Engineers at Workday ensure that customers can successfully leverage their Workday investment to manage HR, finance, and planning operations. You'll troubleshoot and resolve technical issues for organizations that depend on Workday for critical business processes—from processing payroll for thousands of employees to closing financial books on time. The role combines deep product expertise with problem-solving skills, requiring you to diagnose issues across Workday's integrated platform and provide clear guidance to customers of varying technical sophistication. Support Engineers collaborate with engineering teams to escalate and resolve complex issues, contributing to product improvements based on customer feedback. With Workday's legendary focus on customer satisfaction and their VIBE (Value Inclusion, Belonging, and Equity) values, you'll work in an environment that genuinely prioritizes customer success. As part of one of Fortune's Best Companies to Work For, you'll help ensure that organizations can rely on Workday for their most important operations.`,
+      responsibilities: [
+        'Diagnose and resolve technical issues for Workday HCM, Financials, or Planning',
+        'Provide expert guidance to customers on product functionality and best practices',
+        'Collaborate with engineering teams to escalate and resolve complex issues',
+        'Create and maintain knowledge base articles and documentation',
+        'Monitor customer tenants and proactively identify potential issues',
+        'Support customers during critical events like payroll runs and financial close',
+        'Contribute to continuous improvement of support processes and tools',
+        'Mentor junior support engineers and share expertise with the team',
+        'Participate in root cause analysis for systemic issues'
+      ],
+      growthOpportunities: [
+        'Progress from Support Engineer to Senior or Principal Support Engineer',
+        'Transition to Support Engineering Manager or Team Lead roles',
+        'Move into product engineering or site reliability engineering',
+        'Specialize in complex functional areas as a subject matter expert',
+        'Transition to customer success management',
+        'Move into implementation consulting or professional services',
+        'Become a technical trainer or enablement specialist',
+        'Transition to product management leveraging customer insights'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your support or technical background' },
+        { stage: 'Technical Assessment', description: 'Problem-solving and troubleshooting assessment' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your support philosophy and customer service approach' },
+        { stage: 'Team Interviews', description: 'Meet with support engineers and partners to assess collaboration fit' },
+        { stage: 'Final Interview', description: 'Conversation about role expectations and career goals' }
+      ],
+      technicalQuestions: [
+        'How would you troubleshoot a payroll calculation that appears incorrect?',
+        'Describe your methodology for diagnosing integration failures',
+        'How would you approach a customer reporting slow performance?',
+        'Explain your process for escalating issues to engineering teams',
+        'How would you handle a critical issue during a customer\'s payroll run?',
+        'Describe your approach to documenting complex troubleshooting steps',
+        'How would you prioritize multiple urgent customer issues?',
+        'Explain your methodology for root cause analysis',
+        'How would you explain a technical issue to a non-technical HR administrator?',
+        'Describe your approach to testing and validating issue resolutions',
+        'How would you handle a customer frustrated by a recurring issue?',
+        'Explain your strategy for staying current with product changes',
+        'How would you approach an issue that spans multiple product areas?',
+        'Describe your methodology for creating knowledge base articles'
+      ],
+      behavioralQuestions: [
+        'Tell me about a complex technical issue you resolved and how you approached it',
+        'Describe a time when you turned around a frustrated customer relationship',
+        'How have you handled a situation where you couldn\'t immediately solve the issue?',
+        'Tell me about a time you identified a systemic issue that affected multiple customers',
+        'Describe how you\'ve collaborated with engineering on escalated issues',
+        'How do you stay calm and effective during high-pressure situations?',
+        'Tell me about a time you went above and beyond for a customer',
+        'Describe how you\'ve contributed to building inclusive support environments',
+        'How have you balanced helping customers with completing other responsibilities?',
+        'Tell me about a creative solution you developed for a challenging issue',
+        'Describe how you\'ve mentored other support engineers',
+        'How do you approach learning new product functionality?',
+        'Tell me about a time you received difficult feedback and how you responded',
+        'Describe how you\'ve contributed to improving support processes'
+      ],
+      whatTheyLookFor: [
+        'Strong troubleshooting and analytical skills',
+        'Customer service orientation with patience and empathy',
+        'Technical aptitude for learning enterprise software',
+        'Clear written and verbal communication skills',
+        'Ability to work effectively under pressure',
+        'Collaborative approach to working with teams and customers',
+        'Attention to detail in documentation and issue tracking',
+        'Growth mindset and commitment to continuous learning',
+        'Alignment with Workday\'s VIBE values and customer-first culture',
+        'Understanding of enterprise business processes in HR or finance'
+      ],
+      interviewTips: [
+        'Prepare examples of complex issues you\'ve troubleshot and resolved',
+        'Be ready to discuss your approach to difficult customer situations',
+        'Understand enterprise HR and finance concepts at a basic level',
+        'Practice explaining technical concepts to non-technical audiences',
+        'Prepare for scenario-based troubleshooting questions',
+        'Highlight experience with ticket systems and case management',
+        'Show genuine passion for helping customers succeed',
+        'Prepare questions about Workday\'s support culture and processes',
+        'Be ready to discuss how you handle stress and prioritization',
+        'Understand the importance of documentation in support roles',
+        'Be authentic about your experience level—Workday provides training',
+        'Highlight any experience with SaaS or enterprise software support',
+        'Be ready to discuss how you stay current with product changes',
+        'Demonstrate understanding of critical business processes like payroll'
+      ],
+      salary: {
+        min: 80000,
+        max: 150000,
+        average: 110000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs)',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Professional certification support',
+        'Shift differentials for coverage requirements'
+      ],
+      dayInLife: {
+        intro: 'A Support Engineer at Workday focuses on resolving customer issues while contributing to team knowledge and process improvement.',
+        schedule: [
+          '8:00 AM - Review overnight tickets and critical alerts',
+          '8:30 AM - Handoff meeting with previous shift on open issues',
+          '9:00 AM - Work on high-priority customer case: payroll calculation issue',
+          '10:30 AM - Team sync to discuss trends and share learnings',
+          '11:00 AM - Customer call to gather additional information on integration issue',
+          '12:00 PM - Lunch break',
+          '1:00 PM - Collaborate with engineering on escalated case',
+          '2:00 PM - Work on moderate priority cases from queue',
+          '3:30 PM - Document resolution and update knowledge base',
+          '4:00 PM - Proactive monitoring of assigned customer tenants',
+          '5:00 PM - Handoff notes for next shift and wrap up'
+        ],
+        closing: 'Support Engineers may participate in on-call rotation but Workday emphasizes work-life balance with sustainable scheduling.'
+      },
+      similarRoles: [
+        'Technical Support Specialist',
+        'Product Support Engineer',
+        'Application Support Analyst',
+        'Customer Support Engineer',
+        'Technical Customer Service Representative'
+      ]
+    }
+  },
+
+  // Priority 3: ServiceNow (Enterprise Workflow Automation)
+  'servicenow': {
+    'software-engineer': {
+      roleDescription: `Software Engineers at ServiceNow build the workflow automation platform that powers digital transformation for over 85% of Fortune 500 companies. You'll develop features for IT Service Management (ITSM), HR Service Delivery, Customer Workflows, or the Now Platform itself—software that helps organizations streamline operations and deliver exceptional experiences. ServiceNow's architecture handles millions of workflows daily, from IT incident management to employee onboarding to customer service automation. Engineers work with modern cloud technologies, contribute to AI-powered features, and help build the digital backbone that connects enterprise systems. The engineering culture emphasizes innovation and collaboration, reflected in ServiceNow's recognition as one of Fortune's 100 Best Companies to Work For. With core values including "Innovate Boldly" and "Execute as One," you'll join over 25,000 employees building software that makes the world of work, work better for people.`,
+      responsibilities: [
+        'Design and develop features for ServiceNow ITSM, HRSD, CSM, or Platform products',
+        'Write clean, scalable code using Java, JavaScript, and modern frameworks',
+        'Collaborate with product managers and UX designers to deliver exceptional user experiences',
+        'Participate in code reviews and maintain high standards for quality and security',
+        'Contribute to the Now Platform architecture and workflow automation capabilities',
+        'Debug and resolve complex issues across distributed cloud systems',
+        'Mentor junior engineers and contribute to team knowledge sharing',
+        'Work with AI and machine learning teams to integrate intelligent automation',
+        'Ensure platform reliability and performance at enterprise scale'
+      ],
+      growthOpportunities: [
+        'Progress from IC1 through IC6 levels with significant compensation increases',
+        'Transition into technical leadership as Staff Engineer or Principal Engineer',
+        'Move into engineering management roles',
+        'Specialize in AI/ML, platform architecture, or specific product domains',
+        'Lead cross-functional initiatives spanning multiple product areas',
+        'Contribute to ServiceNow\'s innovation labs and emerging technology projects',
+        'Rotate across ITSM, HRSD, CSM, and Platform teams',
+        'Pursue international opportunities across ServiceNow\'s global offices'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial call to discuss your background and interest in ServiceNow' },
+        { stage: 'Technical Phone Screen', description: 'Coding assessment focused on data structures, algorithms, and problem-solving' },
+        { stage: 'Onsite Interviews', description: '3 rounds in one day: DSA, system design, and behavioral assessments' },
+        { stage: 'Manager Round', description: 'Discussion of your experience, career goals, and team fit' },
+        { stage: 'Offer', description: 'Typically within a month of initial interview' }
+      ],
+      technicalQuestions: [
+        'Design a workflow automation system that handles millions of requests daily',
+        'How would you implement an incident management system with SLA tracking?',
+        'Explain how you would build a real-time notification system for workflow updates',
+        'Design a multi-tenant SaaS architecture that ensures data isolation',
+        'How would you implement role-based access control for enterprise applications?',
+        'Describe your approach to building APIs that serve both web and mobile clients',
+        'How would you design a system for handling complex approval workflows?',
+        'Explain how you would implement audit logging for compliance requirements',
+        'Design a service catalog system with configurable request forms',
+        'How would you optimize database queries for reports spanning large datasets?',
+        'Describe your approach to handling eventual consistency in distributed systems',
+        'How would you implement a recommendation engine for knowledge articles?',
+        'Design a change management system with risk assessment capabilities',
+        'How would you build a search feature across structured and unstructured data?',
+        'Explain your approach to designing for high availability and disaster recovery',
+        'How would you implement a virtual agent with natural language understanding?'
+      ],
+      behavioralQuestions: [
+        'Tell me about a time you had to balance technical debt with feature delivery',
+        'Describe a situation where you had to push back on a product requirement',
+        'How have you contributed to building a collaborative team environment?',
+        'Tell me about a complex bug you debugged in a production system',
+        'Describe how you\'ve mentored a junior engineer through a challenging project',
+        'How do you stay current with evolving technology trends?',
+        'Tell me about a time you had to learn a new technology quickly',
+        'Describe a situation where you communicated technical concepts to non-technical stakeholders',
+        'How have you handled disagreements with teammates about technical approaches?',
+        'Tell me about a project where you had to work across multiple teams',
+        'Describe how you\'ve contributed to improving engineering processes',
+        'How do you approach work-life balance while meeting project deadlines?',
+        'Tell me about a time you identified and addressed a potential security issue',
+        'Describe how you\'ve handled feedback that was difficult to hear'
+      ],
+      whatTheyLookFor: [
+        'Strong computer science fundamentals and coding proficiency',
+        'Experience with enterprise software development and cloud technologies',
+        'Collaborative mindset aligned with ServiceNow\'s "Execute as One" value',
+        'Ability to balance innovation with pragmatic delivery',
+        'Understanding of workflow automation and enterprise processes',
+        'Growth mindset and commitment to continuous learning',
+        'Clear communication skills for cross-functional collaboration',
+        'Understanding of software security and data privacy principles',
+        'Passion for building products that improve how people work',
+        'Problem-solving approach—interviewers give hints and encourage questions'
+      ],
+      interviewTips: [
+        'Practice data structures and algorithms—expect LeetCode easy to hard questions',
+        'Be ready to discuss design patterns like Builder and Factory patterns',
+        'Understand HashMap internals and common data structure implementations',
+        'Prepare system design questions focused on enterprise-scale problems',
+        'Research ServiceNow products—understand ITSM, HRSD, and the Now Platform',
+        'Be ready to discuss a project in depth if given the option in design rounds',
+        'Show genuine interest in workflow automation and digital transformation',
+        'Prepare questions about ServiceNow\'s engineering culture and team dynamics',
+        'Interviewers look for problem-solving approach—ask questions when stuck',
+        'Be authentic—ServiceNow values cultural fit alongside technical ability',
+        'Review object-oriented programming concepts thoroughly',
+        'Practice explaining complex technical concepts in accessible terms',
+        'Understand multi-tenant SaaS architecture challenges',
+        'Many candidates report the interview process as encouraging and positive'
+      ],
+      salary: {
+        min: 154000,
+        max: 400000,
+        average: 200000
+      },
+      compensation: [
+        'Competitive base salary with levels from IC1 to IC6',
+        'Restricted Stock Units (RSUs) with annual refresh grants',
+        'Annual performance bonus based on company and individual performance',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health, dental, and vision insurance',
+        'Flexible time off policy',
+        'Parental leave for all parents',
+        'Wellness reimbursement program',
+        'Learning and development stipend'
+      ],
+      dayInLife: {
+        intro: 'A typical day as a ServiceNow Software Engineer balances focused coding time with collaborative design sessions.',
+        schedule: [
+          '8:30 AM - Start day with coffee, review overnight alerts and team Slack channels',
+          '9:00 AM - Daily standup with your squad to sync on progress and blockers',
+          '9:30 AM - Deep work session: coding on current sprint features',
+          '11:30 AM - Code review session with teammates',
+          '12:00 PM - Lunch break, often with teammates in ServiceNow\'s café',
+          '1:00 PM - Technical design discussion for upcoming features',
+          '2:30 PM - Pair programming session to tackle complex integration',
+          '4:00 PM - Address pull request feedback and merge approved changes',
+          '5:00 PM - Document decisions and update tickets for next day',
+          '5:30 PM - Wrap up, occasional team social event or head home'
+        ],
+        closing: 'ServiceNow emphasizes sustainable pace, and engineers enjoy work-life balance while building enterprise-grade software.'
+      },
+      similarRoles: [
+        'Backend Engineer',
+        'Full Stack Engineer',
+        'Platform Engineer',
+        'Cloud Engineer',
+        'Application Developer'
+      ]
+    },
+
+    'product-manager': {
+      roleDescription: `Product Managers at ServiceNow shape the future of workflow automation for enterprises worldwide. You'll own the product strategy and roadmap for IT Service Management, HR Service Delivery, Customer Service Management, or Platform capabilities—products that help over 85% of Fortune 500 companies transform their digital operations. ServiceNow PMs work closely with engineering, design, and customer success teams to deliver features that solve real business problems. The role requires deep understanding of enterprise customer needs, competitive landscape, and emerging trends in automation and AI. With recognition as one of Fortune's Best Companies to Work For and core values like "Put Customers First" and "Innovate Boldly," ServiceNow creates an environment where PMs can drive meaningful product decisions that make the world of work, work better for people.`,
+      responsibilities: [
+        'Define product vision and strategy for ServiceNow ITSM, HRSD, CSM, or Platform features',
+        'Gather requirements from enterprise customers, internal stakeholders, and market research',
+        'Prioritize product backlog based on customer value, business impact, and technical feasibility',
+        'Write detailed product requirements documents and user stories for engineering teams',
+        'Collaborate with UX designers to create intuitive experiences for complex workflows',
+        'Partner with engineering to balance innovation with platform reliability',
+        'Present product roadmaps to leadership, customers, and at Knowledge conferences',
+        'Analyze product metrics and customer feedback to inform iteration decisions',
+        'Work with go-to-market teams on product launches and customer enablement'
+      ],
+      growthOpportunities: [
+        'Progress from Product Manager to Senior PM, Principal PM, or Group Product Manager',
+        'Transition to Director or VP of Product Management',
+        'Move into general management or business unit leadership',
+        'Specialize in emerging areas like AI agents and intelligent automation',
+        'Lead cross-product initiatives spanning ITSM, HRSD, and CSM',
+        'Transition to customer-facing roles in solutions or customer success',
+        'Build expertise in specific verticals like financial services or healthcare',
+        'Take international product leadership roles across global markets'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your product management background and interest in ServiceNow' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your PM experience, product thinking, and leadership style' },
+        { stage: 'Product Case Study', description: 'Present a product strategy case demonstrating prioritization and customer focus' },
+        { stage: 'Cross-Functional Interviews', description: 'Meet with engineering, design, and business partners to assess collaboration' },
+        { stage: 'Executive Interview', description: 'Final conversation with product leadership about vision and cultural fit' }
+      ],
+      technicalQuestions: [
+        'How would you prioritize features for a new AI-powered virtual agent?',
+        'Design a product strategy for expanding ITSM capabilities to mid-market customers',
+        'How would you approach building a mobile-first experience for service requests?',
+        'Describe how you would measure success for a workflow automation feature',
+        'How would you balance platform extensibility with out-of-box functionality?',
+        'Design a roadmap for integrating acquired company features into the Now Platform',
+        'How would you approach pricing strategy for a new automation module?',
+        'Describe your framework for evaluating build vs. buy vs. partner decisions',
+        'How would you design self-service analytics for IT operations?',
+        'What metrics would you track for customer satisfaction improvements?',
+        'How would you approach localization for global enterprise customers?',
+        'Design a product strategy for competing with point solutions in HR service delivery',
+        'How would you handle feature requests that conflict with platform architecture?',
+        'Describe your approach to managing technical debt in product planning'
+      ],
+      behavioralQuestions: [
+        'Tell me about a product decision you made that faced significant pushback',
+        'Describe how you\'ve built relationships with engineering teams',
+        'How have you incorporated customer feedback that contradicted your hypothesis?',
+        'Tell me about a time you had to make a difficult prioritization tradeoff',
+        'Describe how you\'ve handled a product launch that didn\'t go as planned',
+        'How do you stay connected to customer needs in enterprise software?',
+        'Tell me about a time you influenced without authority across teams',
+        'Describe how you\'ve contributed to building inclusive product teams',
+        'How have you balanced short-term requests with long-term vision?',
+        'Tell me about a product you\'re proud of and why',
+        'Describe how you\'ve handled competing priorities from stakeholders',
+        'How do you approach building products for users with varying sophistication?',
+        'Tell me about a time you pivoted strategy based on market changes',
+        'Describe how you\'ve mentored other product managers'
+      ],
+      whatTheyLookFor: [
+        'Strong product sense with enterprise software experience',
+        'Customer empathy and ability to translate needs into requirements',
+        'Data-driven decision making balanced with strategic intuition',
+        'Excellent communication skills for diverse stakeholder audiences',
+        'Collaborative leadership style aligned with ServiceNow culture',
+        'Understanding of IT operations, HR, or customer service domains',
+        'Ability to manage complexity while maintaining product simplicity',
+        'Growth mindset and commitment to continuous learning',
+        'Alignment with ServiceNow\'s values and customer-first approach',
+        'Track record of shipping successful products at scale'
+      ],
+      interviewTips: [
+        'Deep dive into ServiceNow products—try demos and read customer case studies',
+        'Understand the ITSM and workflow automation competitive landscape',
+        'Prepare frameworks for prioritization balancing customer value and business impact',
+        'Practice product case studies focused on enterprise B2B scenarios',
+        'Research Knowledge conference to understand customer engagement approach',
+        'Prepare examples demonstrating cross-functional leadership',
+        'Be ready to discuss how you\'ve handled enterprise customer complexity',
+        'Show genuine interest in improving how organizations work',
+        'Highlight experience with products serving IT and business users',
+        'Prepare questions about ServiceNow\'s product culture and decision-making',
+        'Demonstrate understanding of workflow automation and AI trends',
+        'Research ServiceNow AI Agents and intelligent automation initiatives',
+        'Be authentic about your PM philosophy—ServiceNow values cultural alignment',
+        'Prepare to discuss how you\'ve built inclusive products and teams'
+      ],
+      salary: {
+        min: 160000,
+        max: 300000,
+        average: 210000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs) with ongoing refresh grants',
+        'Annual performance bonus tied to company and individual goals',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with generous company match',
+        'Premium health, dental, and vision coverage',
+        'Flexible time off policy',
+        'Extended parental leave',
+        'Wellness and fitness reimbursement',
+        'Professional development budget'
+      ],
+      dayInLife: {
+        intro: 'A Product Manager at ServiceNow balances strategic thinking with hands-on collaboration across engineering, design, and customers.',
+        schedule: [
+          '8:00 AM - Review customer feedback from support tickets and NPS surveys',
+          '9:00 AM - Sprint planning meeting with engineering squad',
+          '10:00 AM - Customer call to gather requirements for upcoming feature',
+          '11:00 AM - Product requirements review with UX design team',
+          '12:00 PM - Lunch meeting with engineering manager to discuss priorities',
+          '1:00 PM - Competitive analysis and market research',
+          '2:30 PM - Roadmap planning session with product leadership',
+          '3:30 PM - Demo review for upcoming release features',
+          '4:30 PM - Cross-functional sync with customer success team',
+          '5:30 PM - Wrap up with backlog grooming and documentation'
+        ],
+        closing: 'ServiceNow PMs maintain sustainable schedules while staying connected to customer needs through regular engagement.'
+      },
+      similarRoles: [
+        'Senior Product Manager',
+        'Principal Product Manager',
+        'Technical Product Manager',
+        'Product Owner',
+        'Group Product Manager'
+      ]
+    },
+
+    'engineering-manager': {
+      roleDescription: `Engineering Managers at ServiceNow lead teams building the workflow automation platform that powers digital transformation for the world's largest enterprises. You'll guide engineers developing IT Service Management, HR Service Delivery, Customer Service Management, or Platform capabilities—software used by over 85% of Fortune 500 companies. The role balances technical leadership with people management, requiring you to set technical direction while growing engineer careers and building high-performing teams. ServiceNow's collaborative culture, reflected in their "Execute as One" value and recognition as one of Fortune's Best Companies to Work For, creates an environment where managers are expected to invest in their team's growth and wellbeing. With over 25,000 employees working together to make the world of work better, you'll build teams that deliver enterprise-grade software while maintaining sustainable practices.`,
+      responsibilities: [
+        'Lead and develop a team of 6-12 software engineers working on ServiceNow products',
+        'Set technical direction and architectural standards for your team\'s domain',
+        'Partner with product management to translate roadmaps into execution plans',
+        'Conduct regular 1:1s focused on career growth, feedback, and wellbeing',
+        'Drive hiring efforts including interviewing, calibration, and offer decisions',
+        'Foster an inclusive team environment aligned with ServiceNow\'s "Create Belonging" value',
+        'Manage delivery timelines while maintaining quality and sustainable pace',
+        'Collaborate with other engineering managers to share best practices',
+        'Remove blockers and advocate for your team\'s needs across the organization'
+      ],
+      growthOpportunities: [
+        'Progress from Engineering Manager to Senior Manager or Director of Engineering',
+        'Expand scope to lead multiple teams or entire product areas',
+        'Transition to VP of Engineering or technical executive leadership',
+        'Move into Principal or Distinguished Engineer technical track',
+        'Lead cross-functional initiatives spanning engineering, product, and design',
+        'Drive organizational transformation and engineering excellence programs',
+        'Mentor other engineering managers and develop leadership bench',
+        'Take international leadership roles across ServiceNow\'s global offices'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial discussion of your management experience and interest in ServiceNow' },
+        { stage: 'Hiring Manager Interview', description: 'Deep dive into your leadership philosophy and management approach' },
+        { stage: 'Technical Assessment', description: 'Discussion of technical background, system design, and architectural decisions' },
+        { stage: 'Leadership Panel', description: 'Interviews with peers, skip-levels, and cross-functional partners' },
+        { stage: 'Executive Interview', description: 'Final conversation with engineering leadership about vision and alignment' }
+      ],
+      technicalQuestions: [
+        'How do you balance technical debt reduction with feature delivery?',
+        'Describe your approach to setting technical standards for your team',
+        'How do you evaluate build vs. buy decisions for enterprise software?',
+        'What\'s your approach to ensuring code quality and reducing production incidents?',
+        'How do you keep your technical skills current while managing people?',
+        'Describe how you\'ve improved engineering processes and team velocity',
+        'How do you approach capacity planning and resource allocation?',
+        'What metrics do you track to measure engineering team health?',
+        'How do you handle technical disagreements within your team?',
+        'Describe your approach to system design reviews and architecture governance',
+        'How do you ensure your team delivers secure, compliant enterprise software?',
+        'What\'s your strategy for managing dependencies across teams?',
+        'How do you approach production support and on-call responsibilities?',
+        'Describe how you\'ve managed platform migrations or major technical transitions'
+      ],
+      behavioralQuestions: [
+        'Tell me about a time you had to deliver difficult feedback to an engineer',
+        'Describe how you\'ve built an inclusive team environment',
+        'How have you handled a high performer negatively impacting team dynamics?',
+        'Tell me about a project that failed and how you led the team through it',
+        'Describe your approach to developing engineers at different career stages',
+        'How have you managed through organizational change or uncertainty?',
+        'Tell me about a time you advocated for your team with leadership',
+        'Describe how you\'ve handled competing priorities from stakeholders',
+        'How do you approach work-life balance for yourself and your team?',
+        'Tell me about a time you made an unpopular decision and communicated it',
+        'Describe how you\'ve built trust with a new team',
+        'How have you handled performance issues while maintaining team morale?',
+        'Tell me about your most successful hire and what made them successful',
+        'Describe how you\'ve collaborated with product management on roadmaps'
+      ],
+      whatTheyLookFor: [
+        'Strong engineering background with enterprise software experience',
+        'Proven track record of building and developing high-performing teams',
+        'People-first leadership approach aligned with ServiceNow values',
+        'Ability to balance technical excellence with pragmatic delivery',
+        'Excellent communication skills across technical and business audiences',
+        'Experience managing through growth, change, and ambiguity',
+        'Commitment to building inclusive, psychologically safe teams',
+        'Strategic thinking combined with operational execution',
+        'Growth mindset and continuous improvement orientation',
+        'Genuine care for team member development and wellbeing'
+      ],
+      interviewTips: [
+        'Prepare specific examples of growing engineers through career milestones',
+        'Understand ServiceNow\'s values and be ready to discuss inclusive leadership',
+        'Be ready to discuss both technical depth and management philosophy',
+        'Research ServiceNow\'s engineering blog and technology approach',
+        'Prepare examples of balancing team needs with business requirements',
+        'Be authentic about your management style—ServiceNow values genuine leaders',
+        'Have concrete examples of building psychological safety on teams',
+        'Be ready to discuss how you\'ve handled difficult personnel situations',
+        'Prepare questions about ServiceNow\'s engineering culture and support',
+        'Understand enterprise software challenges around security and compliance',
+        'Show genuine interest in workflow automation and digital transformation',
+        'Highlight experience with sustainable pace and preventing burnout',
+        'Be prepared to discuss technical decisions at an architectural level',
+        'Demonstrate how you stay connected to engineering while managing'
+      ],
+      salary: {
+        min: 200000,
+        max: 350000,
+        average: 260000
+      },
+      compensation: [
+        'Competitive base salary reflecting management responsibility',
+        'Significant RSU grants with annual refresh',
+        'Annual bonus based on company and team performance',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with generous company match',
+        'Executive health benefits package',
+        'Flexible time off policy',
+        'Extended parental leave',
+        'Leadership development programs',
+        'Executive coaching available'
+      ],
+      dayInLife: {
+        intro: 'An Engineering Manager at ServiceNow balances people leadership with technical guidance, focused on enabling team success.',
+        schedule: [
+          '8:30 AM - Review team dashboards, check on overnight deployments and alerts',
+          '9:00 AM - Daily standup with engineering squad',
+          '9:30 AM - 1:1 with senior engineer discussing career growth',
+          '10:00 AM - Technical design review for upcoming sprint work',
+          '11:00 AM - Sync with product manager on roadmap and priorities',
+          '12:00 PM - Team lunch and informal bonding',
+          '1:00 PM - Interview candidate for open engineering role',
+          '2:00 PM - Engineering managers sync to discuss cross-team dependencies',
+          '3:00 PM - 1:1 with newer team member on project progress',
+          '4:00 PM - Sprint planning preparation and backlog review',
+          '5:00 PM - Skip-level meeting with engineering director',
+          '5:30 PM - Wrap up administrative tasks and head home'
+        ],
+        closing: 'ServiceNow EMs model sustainable work practices, and the company supports managers in maintaining boundaries and team wellbeing.'
+      },
+      similarRoles: [
+        'Senior Engineering Manager',
+        'Software Development Manager',
+        'Technical Lead Manager',
+        'Director of Engineering',
+        'Engineering Lead'
+      ]
+    },
+
+    'data-scientist': {
+      roleDescription: `Data Scientists at ServiceNow unlock insights from one of the richest enterprise workflow datasets in the world—operational data from over 85% of Fortune 500 companies. You'll develop machine learning models and analytics that power ServiceNow's AI capabilities, including intelligent virtual agents, predictive incident management, and automated workflow optimization. The role combines advanced analytics with product thinking, as your models directly impact features used by millions of users managing IT operations, HR requests, and customer service workflows. ServiceNow's data science team works across diverse problem domains including natural language processing for service requests, anomaly detection for IT operations, and recommendation systems for knowledge management. With ServiceNow's commitment to bold innovation and recognition as one of Fortune's Best Companies to Work For, you'll build AI that genuinely improves how the world of work works.`,
+      responsibilities: [
+        'Develop machine learning models for ServiceNow AI agents and automation features',
+        'Analyze large-scale workflow and operational data to uncover actionable insights',
+        'Design and implement features for predictive analytics, NLP, and recommendation systems',
+        'Collaborate with product and engineering teams to deploy models to production',
+        'Ensure model reliability, fairness, and compliance with enterprise requirements',
+        'Build and maintain data pipelines for model training and inference',
+        'Present findings and recommendations to technical and business stakeholders',
+        'Stay current with ML research and evaluate new techniques for enterprise applications',
+        'Mentor junior data scientists and contribute to team best practices'
+      ],
+      growthOpportunities: [
+        'Progress from Data Scientist to Senior, Staff, or Principal Data Scientist',
+        'Specialize in ML engineering, NLP, or AIOps domains',
+        'Transition into data science management or technical leadership',
+        'Lead ServiceNow AI Agents initiatives and intelligent automation strategy',
+        'Move into product management for AI/ML-powered features',
+        'Become a subject matter expert in IT operations analytics or workflow optimization',
+        'Contribute to research publications and external thought leadership',
+        'Transition to applied research roles focused on emerging AI capabilities'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your data science background and interest in ServiceNow' },
+        { stage: 'Technical Screen', description: 'Coding and statistics assessment focused on practical data science skills' },
+        { stage: 'Virtual Onsite', description: '4-5 interviews covering ML depth, coding, case studies, and behavioral' },
+        { stage: 'Presentation', description: 'Present a past project or case study demonstrating end-to-end DS skills' },
+        { stage: 'Hiring Manager', description: 'Discussion of role expectations, career goals, and team fit' }
+      ],
+      technicalQuestions: [
+        'How would you build a model to predict IT incident resolution time?',
+        'Design a recommendation system for knowledge base articles',
+        'How would you detect anomalies in IT infrastructure monitoring data?',
+        'Explain your approach to building an intent classification model for virtual agents',
+        'How would you measure and mitigate bias in automated ticket routing?',
+        'Design a system for predicting service request volume across departments',
+        'How would you approach building a predictive model for SLA breaches?',
+        'Explain how you would implement a classification model for support tickets',
+        'How would you design A/B tests for ML model improvements in enterprise software?',
+        'Describe your approach to feature engineering for time-series operational data',
+        'How would you build a model to identify recurring problems from incident patterns?',
+        'Explain your approach to NLP for extracting information from service requests',
+        'How would you handle class imbalance in incident priority prediction?',
+        'Design a system for personalized workspace recommendations',
+        'How would you evaluate model performance for business stakeholders?',
+        'Explain your approach to model interpretability for IT operations decisions'
+      ],
+      behavioralQuestions: [
+        'Tell me about a model you built that had significant business impact',
+        'Describe a time when you explained complex results to non-technical stakeholders',
+        'How have you handled a situation where analysis contradicted assumptions?',
+        'Tell me about a project that failed and what you learned',
+        'Describe how you\'ve approached ethical considerations in ML projects',
+        'How do you stay current with rapidly evolving ML techniques?',
+        'Tell me about a time you worked with messy or incomplete data',
+        'Describe how you\'ve collaborated with engineering to deploy models',
+        'How have you contributed to building inclusive team environments?',
+        'Tell me about a time you made tradeoffs between accuracy and fairness',
+        'Describe how you\'ve mentored other data scientists',
+        'How do you approach prioritization with multiple competing projects?',
+        'Tell me about a creative solution you developed for a challenging problem',
+        'Describe how you\'ve built trust with business stakeholders in your models'
+      ],
+      whatTheyLookFor: [
+        'Strong foundation in statistics, machine learning, and data analysis',
+        'Programming proficiency in Python and SQL',
+        'Experience deploying ML models to production systems',
+        'Understanding of model reliability and enterprise requirements',
+        'Ability to translate business problems into data science solutions',
+        'Clear communication skills for technical and non-technical audiences',
+        'Collaborative approach aligned with ServiceNow values',
+        'Interest in IT operations, workflow automation, or enterprise domains',
+        'Growth mindset and commitment to continuous learning',
+        'Product thinking combined with technical depth'
+      ],
+      interviewTips: [
+        'Review ML fundamentals including regression, classification, and clustering',
+        'Prepare to discuss model deployment and production considerations',
+        'Understand ServiceNow AI Agents and intelligent automation capabilities',
+        'Practice explaining technical concepts to non-technical audiences',
+        'Prepare a past project presentation showing end-to-end DS skills',
+        'Research IT operations analytics and AIOps industry trends',
+        'Be ready to discuss tradeoffs between complexity and interpretability',
+        'Practice coding in Python including pandas, sklearn, and basic algorithms',
+        'Understand A/B testing and experimentation in enterprise contexts',
+        'Prepare questions about ServiceNow\'s data science team and AI initiatives',
+        'Be authentic about your experience level—ServiceNow values growth mindset',
+        'Highlight any experience with IT operations or enterprise software data',
+        'Be ready to discuss ethical considerations in enterprise AI',
+        'Show genuine interest in improving how organizations work through analytics'
+      ],
+      salary: {
+        min: 160000,
+        max: 300000,
+        average: 210000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs) with annual refresh',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health, dental, and vision coverage',
+        'Flexible time off policy',
+        'Parental leave',
+        'Conference attendance and learning budget',
+        'Wellness reimbursement program'
+      ],
+      dayInLife: {
+        intro: 'A Data Scientist at ServiceNow balances exploratory analysis with model development, always focused on delivering business impact.',
+        schedule: [
+          '9:00 AM - Check model performance dashboards and overnight training jobs',
+          '9:30 AM - Team standup to sync on project progress and blockers',
+          '10:00 AM - Deep work: feature engineering for incident prediction model',
+          '11:30 AM - Code review session for teammate\'s model implementation',
+          '12:00 PM - Lunch, often with cross-functional partners from product team',
+          '1:00 PM - Meeting with product manager to discuss model requirements',
+          '2:00 PM - Exploratory data analysis for new virtual agent project',
+          '3:30 PM - Collaborate with ML engineer on model deployment pipeline',
+          '4:30 PM - Document findings and prepare stakeholder presentation',
+          '5:30 PM - Wrap up, review tomorrow\'s priorities'
+        ],
+        closing: 'ServiceNow data scientists enjoy sustainable hours and protected focus time for deep analytical work.'
+      },
+      similarRoles: [
+        'Machine Learning Engineer',
+        'Applied Scientist',
+        'AI Engineer',
+        'Quantitative Analyst',
+        'Research Scientist'
+      ]
+    },
+
+    'solutions-consultant': {
+      roleDescription: `Solutions Consultants at ServiceNow design and guide the technical implementation of workflow automation for enterprises worldwide. You'll partner with sales teams to demonstrate how ServiceNow's ITSM, HR Service Delivery, Customer Service Management, and Platform capabilities address complex business requirements for organizations ranging from mid-market companies to Fortune 500 enterprises. The role combines deep product expertise with consultative selling, requiring you to understand customer pain points, design elegant solutions, and build confidence in the Now Platform. Solutions Consultants serve as trusted technical advisors throughout the sales cycle, translating business needs into technical architectures and ensuring customers understand how ServiceNow's unified platform delivers value. With ServiceNow's customer-first approach and core values like "Put Customers First" and "Act with Integrity," you'll work in a collaborative environment that genuinely prioritizes long-term customer relationships. As part of one of Fortune's Best Companies to Work For, you'll help organizations transform their digital operations.`,
+      responsibilities: [
+        'Partner with sales teams to provide technical expertise throughout enterprise sales cycles',
+        'Design solution architectures that address complex customer requirements across ITSM, HRSD, and CSM',
+        'Lead technical discovery sessions to understand customer business processes and pain points',
+        'Deliver compelling product demonstrations and proof-of-concept solutions',
+        'Create technical proposals and architecture documentation for customer stakeholders',
+        'Address technical objections and competitive challenges with authoritative expertise',
+        'Collaborate with product and engineering teams to influence roadmap based on feedback',
+        'Support customer reference calls and participate in Knowledge conference presentations',
+        'Mentor junior solutions consultants and contribute to best practices'
+      ],
+      growthOpportunities: [
+        'Progress from Solutions Consultant to Senior or Principal Solutions Consultant',
+        'Transition to Director of Solutions Consulting leading regional or industry teams',
+        'Move into product management leveraging deep customer knowledge',
+        'Transition to customer-facing consulting or professional services leadership',
+        'Specialize in strategic verticals like financial services, healthcare, or government',
+        'Move into enterprise sales leadership or general management',
+        'Become a thought leader through speaking at industry events',
+        'Transition to partner ecosystem leadership roles'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your background in pre-sales or solutions architecture' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your consultative selling approach and technical expertise' },
+        { stage: 'Technical Presentation', description: 'Deliver a mock product demonstration or solution architecture presentation' },
+        { stage: 'Cross-Functional Interviews', description: 'Meet with sales, product, and services partners to assess collaboration' },
+        { stage: 'Executive Interview', description: 'Final conversation with leadership about strategic thinking and cultural fit' }
+      ],
+      technicalQuestions: [
+        'How would you architect a ServiceNow implementation for a global enterprise with 50,000 employees?',
+        'Describe your approach to integrating ServiceNow with existing ITSM and HR systems',
+        'How would you address concerns about migrating from legacy ticketing systems?',
+        'Design a solution for a customer requiring complex approval workflows',
+        'How would you approach security and compliance requirements for a financial services customer?',
+        'Describe your methodology for scoping enterprise platform implementations',
+        'How would you differentiate ServiceNow from BMC or Jira Service Management?',
+        'Explain your approach to demonstrating ROI for ServiceNow investments',
+        'How would you handle a customer requirement that requires custom development?',
+        'Describe your approach to multi-tenant architecture discussions',
+        'How would you design a reporting and analytics strategy for a ServiceNow customer?',
+        'Explain your approach to change management in digital transformation',
+        'How would you address concerns about cloud security for sensitive IT data?',
+        'Describe your methodology for building business cases for workflow automation'
+      ],
+      behavioralQuestions: [
+        'Tell me about a complex deal you helped win through technical expertise',
+        'Describe a time when you had to manage a difficult customer relationship',
+        'How have you handled a situation where the product couldn\'t meet a requirement?',
+        'Tell me about a presentation that didn\'t go well and what you learned',
+        'Describe how you\'ve collaborated with sales to develop account strategies',
+        'How do you stay current with enterprise technology trends?',
+        'Tell me about a time you influenced product direction based on customer feedback',
+        'Describe how you\'ve built trust with technical and executive stakeholders',
+        'How have you contributed to building inclusive customer relationships?',
+        'Tell me about a time you had to disagree with a sales approach',
+        'Describe how you\'ve mentored other solutions consultants',
+        'How do you balance customer advocacy with realistic expectation setting?',
+        'Tell me about a creative solution you designed for an unusual requirement',
+        'Describe how you\'ve handled competitive pressure in technical evaluations'
+      ],
+      whatTheyLookFor: [
+        'Deep enterprise software expertise, ideally in ITSM, HR, or workflow automation',
+        'Strong presentation and demonstration skills',
+        'Consultative approach to understanding customer needs',
+        'Ability to translate technical concepts for business audiences',
+        'Collaborative partnership with sales and services teams',
+        'Understanding of enterprise integration and architecture patterns',
+        'Customer-first mindset aligned with ServiceNow values',
+        'Strategic thinking combined with hands-on technical capability',
+        'Growth mindset and adaptability to evolving product capabilities',
+        'Alignment with ServiceNow\'s values and ethical business practices'
+      ],
+      interviewTips: [
+        'Prepare a polished product demonstration—practice until it\'s seamless',
+        'Understand ServiceNow\'s competitive positioning against BMC, Jira, and others',
+        'Research common enterprise IT and workflow challenges that ServiceNow addresses',
+        'Prepare examples of influencing deals through technical expertise',
+        'Be ready to discuss integration patterns and data migration strategies',
+        'Understand the Now Platform architecture and extensibility',
+        'Prepare questions about ServiceNow\'s sales culture and deal support',
+        'Research Knowledge conference to understand customer engagement approach',
+        'Be authentic about your pre-sales experience and philosophy',
+        'Highlight experience with complex enterprise sales cycles',
+        'Show genuine interest in helping organizations transform',
+        'Be ready to discuss how you handle rejection or lost deals',
+        'Prepare to discuss compliance requirements for different industries',
+        'Demonstrate understanding of workflow automation and AI trends'
+      ],
+      salary: {
+        min: 150000,
+        max: 280000,
+        average: 200000
+      },
+      compensation: [
+        'Competitive base salary',
+        'Variable compensation tied to team quota attainment',
+        'Restricted Stock Units (RSUs)',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Home office setup allowance',
+        'Professional development budget'
+      ],
+      dayInLife: {
+        intro: 'A Solutions Consultant at ServiceNow balances customer-facing activities with internal collaboration and continuous learning.',
+        schedule: [
+          '8:00 AM - Review customer meeting prep materials and product updates',
+          '9:00 AM - Internal sync with sales team on strategic account strategy',
+          '10:00 AM - Customer discovery call for new enterprise opportunity',
+          '11:30 AM - Build demo environment with customer-specific scenarios',
+          '12:00 PM - Lunch while catching up on industry news',
+          '1:00 PM - Executive presentation and product demonstration for prospect',
+          '3:00 PM - Debrief with sales team and document follow-up items',
+          '3:30 PM - Technical proposal development for pending RFP',
+          '5:00 PM - Product team call to discuss customer feature requests',
+          '5:30 PM - Wrap up and prepare for tomorrow\'s customer meetings'
+        ],
+        closing: 'Solutions Consultants travel 30-50% depending on territory, with flexibility for remote customer engagements.'
+      },
+      similarRoles: [
+        'Pre-Sales Engineer',
+        'Solutions Architect',
+        'Sales Engineer',
+        'Enterprise Architect',
+        'Technical Account Manager'
+      ]
+    },
+
+    'technical-consultant': {
+      roleDescription: `Technical Consultants at ServiceNow guide customers through the implementation and optimization of the Now Platform. You'll work directly with IT leaders, HR teams, and business stakeholders to configure, customize, and deploy ServiceNow ITSM, HR Service Delivery, Customer Service Management, and other workflow solutions. The role combines deep product expertise with project delivery skills, requiring you to understand complex business processes and translate them into optimal ServiceNow configurations. Technical Consultants serve as trusted advisors who not only deploy software but help organizations transform how they manage IT operations, employee services, and customer experiences. With ServiceNow's methodology emphasizing customer success and core values like "Put Customers First" and "Execute as One," you'll work in collaborative project teams focused on delivering outcomes. As part of one of Fortune's Best Companies to Work For, you'll help organizations realize the full value of their ServiceNow investment.`,
+      responsibilities: [
+        'Lead workstreams for ServiceNow ITSM, HRSD, CSM, or Platform implementations',
+        'Gather and document customer business requirements through discovery sessions',
+        'Configure ServiceNow applications based on requirements and best practices',
+        'Design and execute testing strategies including UAT support',
+        'Develop training materials and support customer change management efforts',
+        'Manage customer relationships and project timelines for your workstreams',
+        'Collaborate with project managers and other consultants on integrated delivery',
+        'Document configurations and create customer-specific runbooks',
+        'Support go-live activities and post-deployment hypercare'
+      ],
+      growthOpportunities: [
+        'Progress from Technical Consultant to Senior or Lead Technical Consultant',
+        'Transition to Engagement Manager or Project Manager roles',
+        'Specialize in complex areas like ITOM, Security Operations, or App Engine',
+        'Move into solutions consulting or pre-sales roles',
+        'Become a subject matter expert and internal trainer',
+        'Transition to customer success management',
+        'Move to product management leveraging implementation experience',
+        'Build expertise in specific industries for vertical specialization'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your consulting or implementation background' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your consulting approach and customer engagement experience' },
+        { stage: 'Technical Assessment', description: 'Case study or scenario-based assessment of ServiceNow knowledge' },
+        { stage: 'Panel Interview', description: 'Meet with consultants and engagement managers to assess collaboration' },
+        { stage: 'Final Interview', description: 'Conversation with services leadership about career goals and fit' }
+      ],
+      technicalQuestions: [
+        'How would you approach gathering requirements for an ITSM implementation?',
+        'Describe your methodology for data migration in ServiceNow deployments',
+        'How would you handle a configuration conflict between requirements and best practices?',
+        'Explain your approach to testing complex workflows in ServiceNow',
+        'How would you design a training program for ServiceNow administrators?',
+        'Describe your methodology for managing scope changes during implementation',
+        'How would you approach integrating ServiceNow with legacy systems?',
+        'Explain your strategy for parallel operations during system transitions',
+        'How would you handle a customer who wants to replicate legacy processes exactly?',
+        'Describe your approach to post-go-live optimization and adoption',
+        'How would you configure complex assignment rules and SLA definitions?',
+        'Explain your methodology for security and access control design',
+        'How would you approach a multi-instance implementation for global companies?',
+        'Describe your strategy for managing customer expectations during delays'
+      ],
+      behavioralQuestions: [
+        'Tell me about a challenging implementation you successfully delivered',
+        'Describe a time when you had to push back on a customer requirement',
+        'How have you handled a project that was behind schedule?',
+        'Tell me about a time you had to manage a difficult customer relationship',
+        'Describe how you\'ve collaborated with diverse project teams',
+        'How do you stay current with evolving ServiceNow capabilities?',
+        'Tell me about a time you identified a risk that others missed',
+        'Describe how you\'ve contributed to building inclusive project environments',
+        'How have you handled conflicting priorities from different stakeholders?',
+        'Tell me about a time you had to learn new functionality quickly',
+        'Describe how you\'ve mentored junior consultants',
+        'How do you balance quality with project timeline pressures?',
+        'Tell me about a creative solution you developed for a customer challenge',
+        'Describe how you\'ve built trust with skeptical customer stakeholders'
+      ],
+      whatTheyLookFor: [
+        'Experience implementing ServiceNow or similar enterprise platforms',
+        'Strong analytical skills for understanding complex business processes',
+        'Excellent communication skills with technical and business audiences',
+        'Consulting mindset focused on customer outcomes',
+        'Project management capabilities and organizational skills',
+        'Ability to work effectively in team-based delivery models',
+        'Adaptability to travel and customer site work',
+        'Growth mindset and commitment to continuous learning',
+        'Alignment with ServiceNow\'s values and customer-first approach',
+        'ServiceNow certifications preferred but not required'
+      ],
+      interviewTips: [
+        'Prepare specific examples of implementations you\'ve led or contributed to',
+        'Understand ServiceNow\'s implementation methodology and deployment approach',
+        'Be ready to discuss how you gather and document requirements',
+        'Research ITIL and IT service management concepts',
+        'Prepare for scenario-based questions about implementation challenges',
+        'Highlight experience with customer stakeholder management',
+        'Be ready to discuss data migration strategies and challenges',
+        'Show genuine interest in helping organizations transform',
+        'Prepare questions about ServiceNow\'s consulting culture and career paths',
+        'Understand the consultant lifestyle including travel expectations',
+        'ServiceNow provides training—be authentic about your experience level',
+        'Highlight change management and user adoption experience',
+        'Be ready to discuss how you handle project scope challenges',
+        'Consider getting ServiceNow Certified System Administrator if possible'
+      ],
+      salary: {
+        min: 100000,
+        max: 180000,
+        average: 135000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs)',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Travel rewards and per diem allowances',
+        'Professional certification support and bonuses'
+      ],
+      dayInLife: {
+        intro: 'A Technical Consultant at ServiceNow works closely with customers, balancing configuration work with stakeholder engagement.',
+        schedule: [
+          '8:00 AM - Travel to customer site or log into remote session',
+          '8:30 AM - Daily standup with project team to sync on progress',
+          '9:00 AM - Requirements gathering session with customer IT leadership',
+          '11:00 AM - Configure incident management workflows in development instance',
+          '12:00 PM - Working lunch with customer project team',
+          '1:00 PM - Review and resolve integration issues with middleware',
+          '3:00 PM - User acceptance testing support and issue triage',
+          '4:00 PM - Document configuration decisions and update project documentation',
+          '5:00 PM - Sync with ServiceNow project manager on timeline and risks',
+          '5:30 PM - Prepare materials for tomorrow\'s training session'
+        ],
+        closing: 'Technical Consultants typically travel 50-75% during active projects, with periods of less travel between engagements.'
+      },
+      similarRoles: [
+        'Implementation Consultant',
+        'ServiceNow Developer',
+        'Platform Consultant',
+        'Configuration Specialist',
+        'Functional Consultant'
+      ]
+    },
+
+    'customer-success-manager': {
+      roleDescription: `Customer Success Managers at ServiceNow ensure customers achieve maximum value from their Now Platform investment throughout the entire customer lifecycle. You'll serve as the strategic partner for enterprise customers, understanding their business objectives and helping them leverage ITSM, HR Service Delivery, Customer Service Management, and other ServiceNow solutions to achieve measurable outcomes. The role goes beyond support to proactive guidance, helping customers adopt new features, optimize configurations, and expand their ServiceNow usage across the organization. CSMs build deep relationships with customer executives, serving as advocates within ServiceNow while driving adoption and renewal success. With ServiceNow's legendary focus on customer satisfaction and core values like "Put Customers First" and "Create Belonging," you'll work in an environment that genuinely prioritizes customer success. As part of one of Fortune's Best Companies to Work For, you'll help organizations continuously improve their digital operations.`,
+      responsibilities: [
+        'Own the post-implementation relationship for a portfolio of enterprise customers',
+        'Develop and execute success plans aligned with customer business objectives',
+        'Drive product adoption by helping customers leverage new features and best practices',
+        'Monitor customer health indicators and proactively address risks',
+        'Coordinate cross-functional ServiceNow resources to resolve customer issues',
+        'Lead quarterly business reviews with customer executives',
+        'Advocate for customer needs with product, engineering, and services teams',
+        'Support contract renewals and identify expansion opportunities',
+        'Build relationships across customer organizations to ensure broad success'
+      ],
+      growthOpportunities: [
+        'Progress from CSM to Senior CSM or Principal CSM for strategic accounts',
+        'Transition to Customer Success Director leading regional or vertical teams',
+        'Move into solutions consulting or professional services',
+        'Transition to product management leveraging customer insights',
+        'Move into sales leadership as an Account Executive',
+        'Specialize in specific industries or product areas',
+        'Become a thought leader in customer success methodologies',
+        'Transition to partner success or ecosystem management'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your customer success or account management background' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your approach to customer relationships and success metrics' },
+        { stage: 'Case Study', description: 'Present a customer success scenario demonstrating strategic thinking' },
+        { stage: 'Cross-Functional Interviews', description: 'Meet with sales, services, and support partners to assess collaboration' },
+        { stage: 'Executive Interview', description: 'Final conversation about customer philosophy and cultural alignment' }
+      ],
+      technicalQuestions: [
+        'How would you develop a success plan for a customer struggling with user adoption?',
+        'Describe your approach to monitoring and measuring customer health',
+        'How would you handle a customer who is at risk of churning?',
+        'Explain your methodology for conducting effective quarterly business reviews',
+        'How would you prioritize features to recommend for a customer\'s roadmap?',
+        'Describe your approach to coordinating multiple stakeholders on customer issues',
+        'How would you measure the ROI customers are achieving from ServiceNow?',
+        'Explain your strategy for driving adoption of new platform capabilities',
+        'How would you handle a customer escalation involving multiple departments?',
+        'Describe your approach to identifying expansion opportunities within accounts',
+        'How would you build executive relationships at customer organizations?',
+        'Explain your methodology for balancing proactive and reactive customer work',
+        'How would you approach a customer considering competitive alternatives?',
+        'Describe your strategy for managing a large portfolio of customers'
+      ],
+      behavioralQuestions: [
+        'Tell me about a time you turned around a struggling customer relationship',
+        'Describe how you\'ve driven adoption for a product customers were resistant to',
+        'How have you handled a customer situation that required executive escalation?',
+        'Tell me about a time you identified and addressed a risk before it became critical',
+        'Describe how you\'ve collaborated across functions to solve customer problems',
+        'How do you stay current with product changes and industry trends?',
+        'Tell me about a time you had to deliver difficult news to a customer',
+        'Describe how you\'ve contributed to building inclusive customer relationships',
+        'How have you balanced customer advocacy with business requirements?',
+        'Tell me about a creative solution you developed to improve customer outcomes',
+        'Describe how you\'ve mentored other customer success managers',
+        'How do you manage time across a portfolio of customers with different needs?',
+        'Tell me about a time you influenced product direction based on customer feedback',
+        'Describe how you\'ve built trust with skeptical customer stakeholders'
+      ],
+      whatTheyLookFor: [
+        'Experience in customer success, account management, or consulting',
+        'Strong relationship-building skills with executive and technical audiences',
+        'Strategic thinking combined with execution capability',
+        'Data-driven approach to measuring and improving customer health',
+        'Excellent communication and presentation skills',
+        'Empathy and genuine commitment to customer outcomes',
+        'Understanding of enterprise software and SaaS business models',
+        'Collaborative approach to cross-functional problem solving',
+        'Growth mindset and adaptability to evolving customer needs',
+        'Alignment with ServiceNow\'s values and customer-first culture'
+      ],
+      interviewTips: [
+        'Prepare specific examples of customer relationships you\'ve transformed',
+        'Understand customer success metrics like NPS, adoption rates, and renewal rates',
+        'Research ServiceNow\'s customer success philosophy and approach',
+        'Be ready to present a structured approach to success planning',
+        'Prepare examples of cross-functional collaboration on customer issues',
+        'Highlight experience with executive-level relationships',
+        'Show genuine passion for customer outcomes over transactional metrics',
+        'Prepare questions about ServiceNow\'s customer success team and culture',
+        'Be ready to discuss how you balance proactive and reactive work',
+        'Understand enterprise SaaS renewal and expansion dynamics',
+        'Be authentic about your customer philosophy—ServiceNow values alignment',
+        'Highlight experience with IT, HR, or enterprise technology customers',
+        'Be ready to discuss how you handle difficult customer conversations',
+        'Demonstrate understanding of change management and adoption challenges'
+      ],
+      salary: {
+        min: 110000,
+        max: 180000,
+        average: 140000
+      },
+      compensation: [
+        'Competitive base salary',
+        'Variable compensation tied to customer retention and expansion',
+        'Restricted Stock Units (RSUs)',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Professional development budget',
+        'Customer site travel allowances'
+      ],
+      dayInLife: {
+        intro: 'A Customer Success Manager at ServiceNow balances strategic planning with proactive customer engagement.',
+        schedule: [
+          '8:00 AM - Review customer health dashboards and overnight support tickets',
+          '9:00 AM - Team sync to discuss at-risk accounts and share best practices',
+          '10:00 AM - Quarterly business review preparation for strategic customer',
+          '11:00 AM - Call with customer IT director to discuss adoption challenges',
+          '12:00 PM - Lunch while catching up on product release notes',
+          '1:00 PM - Internal escalation meeting for customer technical issue',
+          '2:00 PM - Success plan review and update for portfolio accounts',
+          '3:00 PM - Customer executive check-in call',
+          '4:00 PM - Collaborate with services team on customer optimization project',
+          '5:00 PM - Document customer interactions and update success metrics',
+          '5:30 PM - Prepare for tomorrow\'s customer meetings'
+        ],
+        closing: 'CSMs typically travel 25-40% for customer meetings and ServiceNow events, with flexibility for remote engagement.'
+      },
+      similarRoles: [
+        'Strategic Account Manager',
+        'Customer Relationship Manager',
+        'Client Success Director',
+        'Enterprise Customer Manager',
+        'Customer Experience Manager'
+      ]
+    },
+
+    'technical-writer': {
+      roleDescription: `Technical Writers at ServiceNow create the documentation, help content, and educational materials that enable millions of users to effectively leverage the Now Platform. You'll develop content for ITSM, HR Service Delivery, Customer Service Management, and Platform capabilities—from in-app guidance and help articles to comprehensive implementation guides and API documentation. The role combines deep product knowledge with exceptional writing skills, requiring you to translate complex workflow automation concepts into clear, accessible content for diverse audiences including IT administrators, developers, and business users. Technical Writers at ServiceNow work closely with product managers, UX designers, and engineers to ensure documentation evolves with the product. With ServiceNow's commitment to customer experience and values like "Put Customers First," you'll contribute to documentation that helps organizations transform their digital operations. As part of one of Fortune's Best Companies to Work For, you'll help customers realize the full value of their ServiceNow investment.`,
+      responsibilities: [
+        'Create and maintain product documentation for ServiceNow ITSM, HRSD, CSM, and Platform',
+        'Develop in-app guidance, tooltips, and contextual help content',
+        'Write implementation guides, configuration documentation, and best practices',
+        'Create API documentation for developers and integration specialists',
+        'Collaborate with product and UX teams to ensure content aligns with user needs',
+        'Develop multimedia content including videos, tutorials, and interactive guides',
+        'Maintain documentation standards and style guidelines',
+        'Gather feedback from customers and support teams to improve content',
+        'Support localization efforts for global documentation needs'
+      ],
+      growthOpportunities: [
+        'Progress from Technical Writer to Senior or Lead Technical Writer',
+        'Transition to Content Strategy or Documentation Manager roles',
+        'Move into UX writing or product design',
+        'Specialize in developer documentation or API content',
+        'Transition to product management leveraging deep product knowledge',
+        'Lead documentation transformation initiatives',
+        'Become a subject matter expert in specific product areas',
+        'Move into customer education or training development'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your technical writing background and portfolio' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your writing approach and collaboration style' },
+        { stage: 'Writing Exercise', description: 'Complete a writing sample demonstrating technical documentation skills' },
+        { stage: 'Team Interviews', description: 'Meet with writers, product managers, and developers to assess fit' },
+        { stage: 'Final Interview', description: 'Conversation with content leadership about career goals and philosophy' }
+      ],
+      technicalQuestions: [
+        'How would you approach documenting a complex workflow automation for non-technical users?',
+        'Describe your methodology for gathering requirements from subject matter experts',
+        'How would you structure documentation for a new platform feature?',
+        'Explain your approach to maintaining consistency across a large documentation set',
+        'How would you write API documentation for developers with varying experience levels?',
+        'Describe your strategy for creating effective in-app guidance',
+        'How would you measure the effectiveness of documentation?',
+        'Explain your approach to documentation versioning and release management',
+        'How would you handle conflicting feedback from stakeholders?',
+        'Describe your methodology for simplifying complex technical concepts',
+        'How would you approach documentation for accessibility requirements?',
+        'Explain your strategy for creating reusable content components',
+        'How would you document a feature with multiple configuration options?',
+        'Describe your approach to supporting localization and translation'
+      ],
+      behavioralQuestions: [
+        'Tell me about a documentation project you\'re particularly proud of',
+        'Describe a time when you had to quickly learn a complex product area',
+        'How have you handled feedback that significantly changed your approach?',
+        'Tell me about a time you advocated for documentation improvements',
+        'Describe how you\'ve collaborated with engineers resistant to documentation',
+        'How do you stay current with technical writing trends and tools?',
+        'Tell me about a time you met a tight deadline without sacrificing quality',
+        'Describe how you\'ve contributed to building inclusive documentation',
+        'How have you handled conflicting priorities from different stakeholders?',
+        'Tell me about a creative solution you developed for a documentation challenge',
+        'Describe how you\'ve mentored other writers',
+        'How do you balance completeness with usability in documentation?',
+        'Tell me about a time you identified a documentation gap others missed',
+        'Describe how you\'ve incorporated user feedback into documentation improvements'
+      ],
+      whatTheyLookFor: [
+        'Excellent writing skills with ability to explain complex concepts clearly',
+        'Experience with enterprise software or SaaS documentation',
+        'Strong collaboration skills with technical and non-technical stakeholders',
+        'Proficiency with documentation tools and content management systems',
+        'Understanding of information architecture and content strategy',
+        'Attention to detail and commitment to quality',
+        'Ability to learn complex products quickly',
+        'User empathy and focus on audience needs',
+        'Growth mindset and adaptability to evolving tools and methods',
+        'Alignment with ServiceNow\'s values and customer-first practices'
+      ],
+      interviewTips: [
+        'Prepare a portfolio showcasing diverse technical writing samples',
+        'Be ready to discuss your writing process from research to publication',
+        'Understand ServiceNow products at a high level before interviewing',
+        'Practice explaining complex concepts in simple terms',
+        'Prepare examples of collaborating with engineers and product managers',
+        'Research documentation tools and be ready to discuss preferences',
+        'Highlight experience with enterprise or B2B documentation',
+        'Show genuine interest in helping users succeed',
+        'Prepare questions about ServiceNow\'s documentation team and processes',
+        'Be ready to discuss accessibility and inclusive writing practices',
+        'Bring examples of how you\'ve measured documentation effectiveness',
+        'Highlight experience with structured authoring or content reuse',
+        'Be authentic about your writing philosophy and approach',
+        'Demonstrate understanding of user-centered content design'
+      ],
+      salary: {
+        min: 90000,
+        max: 160000,
+        average: 120000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs)',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Professional development and conference budget',
+        'Home office setup allowance'
+      ],
+      dayInLife: {
+        intro: 'A Technical Writer at ServiceNow balances content creation with collaboration and research.',
+        schedule: [
+          '8:30 AM - Review content feedback and prioritize writing tasks',
+          '9:00 AM - Team standup to sync on documentation projects',
+          '9:30 AM - Deep writing session: drafting help content for new feature',
+          '11:00 AM - Meeting with product manager to clarify feature behavior',
+          '12:00 PM - Lunch, often with teammates',
+          '1:00 PM - Review and incorporate feedback on draft documentation',
+          '2:00 PM - Shadow user research session to understand pain points',
+          '3:00 PM - Collaborate with UX writer on in-app guidance content',
+          '4:00 PM - Edit and finalize content for upcoming release',
+          '5:00 PM - Update documentation backlog and plan tomorrow\'s priorities',
+          '5:30 PM - Wrap up and head home'
+        ],
+        closing: 'Technical Writers at ServiceNow work primarily from office or remote, with occasional travel for team events and user research.'
+      },
+      similarRoles: [
+        'Documentation Specialist',
+        'Content Developer',
+        'UX Writer',
+        'Information Developer',
+        'Knowledge Base Author'
+      ]
+    },
+
+    'ux-designer': {
+      roleDescription: `UX Designers at ServiceNow shape the experiences that millions of IT professionals, HR teams, and business users rely on every day to manage workflows and deliver services. You'll design for ITSM, HR Service Delivery, Customer Service Management, or the Now Platform itself—creating interfaces that make complex enterprise workflows feel intuitive and efficient. The role requires balancing enterprise requirements like configurability, accessibility, and scalability with consumer-grade usability. UX Designers at ServiceNow work closely with product managers, engineers, and researchers to understand user needs and deliver solutions that genuinely improve how people work. With ServiceNow's commitment to bold innovation and recognition as one of Fortune's Best Companies to Work For, you'll contribute to products that help organizations transform their digital operations. The design team values creativity and collaboration, aligned with ServiceNow's mission to make the world of work, work better for people.`,
+      responsibilities: [
+        'Design user interfaces for ServiceNow ITSM, HRSD, CSM, or Platform products',
+        'Create wireframes, prototypes, and high-fidelity designs for new features',
+        'Collaborate with product managers to translate requirements into design solutions',
+        'Partner with UX researchers to understand user needs and validate designs',
+        'Work with engineers to ensure design intent is maintained through implementation',
+        'Contribute to and evolve ServiceNow\'s design system and component library',
+        'Design for accessibility, ensuring WCAG compliance across all interfaces',
+        'Participate in design critiques and contribute to team standards',
+        'Advocate for user needs throughout the product development process'
+      ],
+      growthOpportunities: [
+        'Progress from UX Designer to Senior or Staff UX Designer',
+        'Transition to UX Design Manager leading product area teams',
+        'Move into UX research or content design specializations',
+        'Become a design system or interaction design specialist',
+        'Transition to product management leveraging user expertise',
+        'Lead cross-product design initiatives and strategy',
+        'Move into Director of UX roles for larger organizations',
+        'Build thought leadership through speaking and publishing'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your design background and portfolio' },
+        { stage: 'Portfolio Review', description: 'Present your portfolio and discuss your design process' },
+        { stage: 'Design Exercise', description: 'Complete a design challenge demonstrating problem-solving approach' },
+        { stage: 'Team Interviews', description: 'Meet with designers, product managers, and engineers' },
+        { stage: 'Final Interview', description: 'Conversation with design leadership about vision and cultural fit' }
+      ],
+      technicalQuestions: [
+        'How would you design a service catalog interface for IT requests?',
+        'Describe your approach to designing complex data entry forms',
+        'How would you balance customization needs with design consistency?',
+        'Explain your methodology for designing accessible interfaces',
+        'How would you approach mobile design for enterprise applications?',
+        'Describe your strategy for designing configurable dashboard components',
+        'How would you handle designing for multiple user personas?',
+        'Explain your approach to information architecture for workflow management',
+        'How would you design an analytics dashboard for IT operations?',
+        'Describe your methodology for testing designs with enterprise users',
+        'How would you approach designing for global audiences?',
+        'Explain your strategy for documenting design decisions for engineers',
+        'How would you design error states and empty states for service portals?',
+        'Describe your approach to designing for power users vs. occasional users'
+      ],
+      behavioralQuestions: [
+        'Tell me about a design you\'re particularly proud of and why',
+        'Describe a time when user research changed your design direction',
+        'How have you handled design feedback you disagreed with?',
+        'Tell me about a project where you had to work within significant constraints',
+        'Describe how you\'ve collaborated with engineers on complex implementations',
+        'How do you stay current with design trends and tools?',
+        'Tell me about a time you advocated for users against business pressure',
+        'Describe how you\'ve contributed to building inclusive design practices',
+        'How have you handled conflicting stakeholder feedback?',
+        'Tell me about a design that didn\'t work and what you learned',
+        'Describe how you\'ve mentored other designers',
+        'How do you balance perfectionism with shipping on time?',
+        'Tell me about a creative solution you developed for a difficult problem',
+        'Describe how you\'ve built relationships with product and engineering partners'
+      ],
+      whatTheyLookFor: [
+        'Strong portfolio demonstrating end-to-end design process',
+        'Experience with enterprise or complex B2B application design',
+        'Proficiency with design tools like Figma, Sketch, or similar',
+        'Understanding of accessibility standards and inclusive design',
+        'Strong collaboration skills with cross-functional teams',
+        'Ability to articulate design decisions and rationale',
+        'User empathy and commitment to research-informed design',
+        'Systematic thinking about design systems and component reuse',
+        'Growth mindset and openness to feedback',
+        'Alignment with ServiceNow\'s values and user-centered approach'
+      ],
+      interviewTips: [
+        'Prepare a polished portfolio that tells the story of your design process',
+        'Include enterprise or complex application examples if available',
+        'Be ready to discuss how you\'ve handled constraints and tradeoffs',
+        'Understand ServiceNow products and user base before interviewing',
+        'Practice articulating your design decisions clearly',
+        'Prepare examples of collaboration with engineers and PMs',
+        'Be ready to discuss accessibility and inclusive design practices',
+        'Research ServiceNow\'s design system and visual language',
+        'Show genuine interest in improving enterprise user experiences',
+        'Prepare questions about ServiceNow\'s design culture and team structure',
+        'Be authentic about your design philosophy—ServiceNow values innovation',
+        'Highlight experience designing for diverse user populations',
+        'Be ready to discuss how you balance user needs with business requirements',
+        'Demonstrate comfort with ambiguity and iterative design processes'
+      ],
+      salary: {
+        min: 120000,
+        max: 220000,
+        average: 160000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs) with refresh grants',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Design conference and education budget',
+        'Home office and equipment allowance'
+      ],
+      dayInLife: {
+        intro: 'A UX Designer at ServiceNow balances creative design work with collaboration and user research.',
+        schedule: [
+          '9:00 AM - Review feedback on designs shared yesterday',
+          '9:30 AM - Design team standup to sync on projects and blockers',
+          '10:00 AM - Deep design work: iterating on service portal wireframes',
+          '11:30 AM - Design critique session with UX team',
+          '12:00 PM - Lunch, often with teammates from product and engineering',
+          '1:00 PM - User research session: observing user testing of new feature',
+          '2:00 PM - Debrief with UX researcher on findings and insights',
+          '3:00 PM - Design review with engineering team on implementation questions',
+          '4:00 PM - Update component documentation in design system',
+          '5:00 PM - Prototype interactions for stakeholder presentation',
+          '5:30 PM - Wrap up and head home'
+        ],
+        closing: 'UX Designers at ServiceNow enjoy creative autonomy with collaborative support, working primarily from office or remote locations.'
+      },
+      similarRoles: [
+        'Product Designer',
+        'Interaction Designer',
+        'UI Designer',
+        'Experience Designer',
+        'Visual Designer'
+      ]
+    },
+
+    'security-engineer': {
+      roleDescription: `Security Engineers at ServiceNow protect the sensitive operational data of over 85% of Fortune 500 companies. You'll work on securing the Now Platform, ensuring that IT service data, HR information, and workflow configurations remain protected against evolving threats. The role spans application security, infrastructure security, and security operations, requiring deep expertise in securing cloud-native SaaS architectures at enterprise scale. Security Engineers partner with development teams to build security into products from the start, respond to security incidents, and continuously improve ServiceNow's security posture. With enterprise customers trusting ServiceNow for their most critical workflows, the stakes are high—and so is the impact. ServiceNow's commitment to acting with integrity and recognition as one of Fortune's Best Companies to Work For creates an environment where security professionals can make a real difference.`,
+      responsibilities: [
+        'Design and implement security controls for ServiceNow\'s cloud infrastructure',
+        'Conduct security assessments and code reviews for application security',
+        'Respond to security incidents and lead forensic investigations',
+        'Develop security automation and monitoring capabilities',
+        'Partner with engineering teams to integrate security into development processes',
+        'Evaluate and implement security tools and technologies',
+        'Support compliance audits for SOC 2, ISO 27001, and FedRAMP',
+        'Create security documentation and training materials',
+        'Stay current with emerging threats and security research'
+      ],
+      growthOpportunities: [
+        'Progress from Security Engineer to Senior or Staff Security Engineer',
+        'Transition to Security Architecture or Principal Security roles',
+        'Move into Security Engineering Manager or Director positions',
+        'Specialize in application security, cloud security, or incident response',
+        'Become a subject matter expert for compliance frameworks',
+        'Transition to CISO or security executive leadership',
+        'Lead enterprise-wide security transformation initiatives',
+        'Build thought leadership through research and speaking'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your security background and interests' },
+        { stage: 'Technical Screen', description: 'Assessment of security fundamentals and problem-solving approach' },
+        { stage: 'Virtual Onsite', description: '4-5 interviews covering security depth, coding, design, and behavioral' },
+        { stage: 'Security Case Study', description: 'Present analysis of a security scenario or past incident' },
+        { stage: 'Hiring Manager', description: 'Discussion of role expectations and career goals' }
+      ],
+      technicalQuestions: [
+        'How would you secure a multi-tenant SaaS platform handling IT operations data?',
+        'Describe your approach to implementing zero-trust architecture',
+        'How would you design a security monitoring system for cloud infrastructure?',
+        'Explain your methodology for conducting threat modeling',
+        'How would you approach securing APIs that handle workflow data?',
+        'Describe your strategy for implementing least-privilege access controls',
+        'How would you detect and respond to a data exfiltration attempt?',
+        'Explain your approach to securing container orchestration platforms',
+        'How would you implement secrets management across a large engineering org?',
+        'Describe your methodology for security code review',
+        'How would you approach securing machine learning pipelines?',
+        'Explain your strategy for managing security in a CI/CD pipeline',
+        'How would you design a security awareness program for developers?',
+        'Describe your approach to vulnerability management at scale',
+        'How would you handle a potential insider threat investigation?',
+        'Explain your methodology for penetration testing web applications'
+      ],
+      behavioralQuestions: [
+        'Tell me about a security incident you responded to and how you handled it',
+        'Describe a time when you convinced developers to fix a security issue',
+        'How have you balanced security requirements with development velocity?',
+        'Tell me about a security control you implemented with significant impact',
+        'Describe how you\'ve built security culture within an engineering org',
+        'How do you stay current with evolving threats and security research?',
+        'Tell me about a time you made a difficult risk-based decision',
+        'Describe how you\'ve contributed to building inclusive security teams',
+        'How have you handled disagreements about security priorities?',
+        'Tell me about a creative solution for a security challenge',
+        'Describe how you\'ve mentored other security professionals',
+        'How do you explain security risks to non-technical stakeholders?',
+        'Tell me about a time you identified a vulnerability others missed',
+        'Describe how you\'ve collaborated across teams on security initiatives'
+      ],
+      whatTheyLookFor: [
+        'Strong security fundamentals across application and infrastructure domains',
+        'Experience securing cloud-native and SaaS architectures',
+        'Programming ability for security automation and tool development',
+        'Understanding of enterprise compliance requirements',
+        'Collaborative approach to working with development teams',
+        'Clear communication skills for technical and non-technical audiences',
+        'Ability to balance security with business and development needs',
+        'Growth mindset and commitment to continuous learning',
+        'Alignment with ServiceNow\'s values and ethical security practices',
+        'Experience with incident response and forensics'
+      ],
+      interviewTips: [
+        'Review cloud security fundamentals, especially AWS or Azure',
+        'Prepare examples of security controls you\'ve implemented',
+        'Be ready to discuss threat modeling and risk assessment approaches',
+        'Understand compliance frameworks like SOC 2, ISO 27001, and FedRAMP',
+        'Practice explaining security concepts to non-security audiences',
+        'Prepare a case study of an incident or security project you led',
+        'Research ServiceNow\'s security certifications and published practices',
+        'Be ready to code—security engineering requires programming skills',
+        'Highlight experience with security in CI/CD and DevSecOps',
+        'Prepare questions about ServiceNow\'s security team and culture',
+        'Be authentic about your security philosophy and approach',
+        'Show genuine interest in protecting enterprise operational data',
+        'Be ready to discuss how you stay current with security research',
+        'Demonstrate balanced thinking about security and usability tradeoffs'
+      ],
+      salary: {
+        min: 150000,
+        max: 280000,
+        average: 200000
+      },
+      compensation: [
+        'Competitive base salary reflecting security expertise',
+        'Restricted Stock Units (RSUs) with annual refresh',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Security conference and training budget',
+        'Home office and security tool allowances'
+      ],
+      dayInLife: {
+        intro: 'A Security Engineer at ServiceNow balances proactive security work with incident response and collaboration.',
+        schedule: [
+          '8:30 AM - Review overnight security alerts and threat intelligence',
+          '9:00 AM - Security team standup to sync on projects and incidents',
+          '9:30 AM - Code review session for new authentication feature',
+          '11:00 AM - Threat modeling workshop with product team',
+          '12:00 PM - Lunch, often with security teammates',
+          '1:00 PM - Develop automation for security monitoring improvements',
+          '3:00 PM - Incident response: investigate suspicious activity',
+          '4:00 PM - Update security documentation and runbooks',
+          '5:00 PM - Sync with compliance team on upcoming audit',
+          '5:30 PM - Wrap up, check alerts before heading home'
+        ],
+        closing: 'Security Engineers participate in on-call rotation but ServiceNow emphasizes sustainable schedules and incident prevention.'
+      },
+      similarRoles: [
+        'Application Security Engineer',
+        'Cloud Security Engineer',
+        'Security Operations Engineer',
+        'Infrastructure Security Engineer',
+        'Product Security Engineer'
+      ]
+    },
+
+    'sales-engineer': {
+      roleDescription: `Sales Engineers at ServiceNow serve as the technical bridge between the Now Platform and the enterprises that depend on it for digital transformation. You'll partner with account executives to demonstrate how ITSM, HR Service Delivery, Customer Service Management, and other ServiceNow solutions address complex business requirements for organizations worldwide. The role combines deep product expertise with consultative selling, requiring you to understand customer pain points in IT operations and enterprise workflows and articulate how ServiceNow's unified platform delivers value. Sales Engineers lead product demonstrations, answer technical questions, and build confidence in ServiceNow's technology throughout the sales process. With ServiceNow's customer-first approach and values like "Put Customers First" and "Innovate Boldly," you'll work in a collaborative sales environment that prioritizes long-term customer success. As part of one of Fortune's Best Companies to Work For, you'll help organizations make informed decisions about their digital transformation.`,
+      responsibilities: [
+        'Partner with account executives to provide technical expertise in sales engagements',
+        'Deliver compelling product demonstrations tailored to customer requirements',
+        'Lead technical discovery sessions to understand customer business processes',
+        'Answer technical questions and address objections during the sales process',
+        'Create custom demo environments and proof-of-concept solutions',
+        'Develop technical proposals and respond to RFP questions',
+        'Collaborate with solutions consultants on complex deal architectures',
+        'Support customer reference calls and Knowledge conference presentations',
+        'Provide market feedback to product teams based on customer interactions'
+      ],
+      growthOpportunities: [
+        'Progress from Sales Engineer to Senior or Principal Sales Engineer',
+        'Transition to Solutions Consultant for strategic deals',
+        'Move into Sales Engineering Manager or Director roles',
+        'Transition to product management leveraging customer insights',
+        'Move into enterprise sales as an Account Executive',
+        'Specialize in specific industries or product areas',
+        'Become a demo and presentation skills coach',
+        'Transition to partner-facing technical roles'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your pre-sales or technical sales background' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your sales engineering approach and customer engagement style' },
+        { stage: 'Demo Presentation', description: 'Deliver a product demonstration showing presentation and technical skills' },
+        { stage: 'Sales Team Interview', description: 'Meet with account executives and sales leaders to assess collaboration' },
+        { stage: 'Final Interview', description: 'Conversation with regional leadership about territory and career goals' }
+      ],
+      technicalQuestions: [
+        'How would you demonstrate ServiceNow ITSM to a global enterprise?',
+        'Describe your approach to handling a competitive bake-off situation',
+        'How would you address concerns about migrating from legacy ITSM tools?',
+        'Explain your methodology for discovery in enterprise sales cycles',
+        'How would you demonstrate ROI for a ServiceNow investment?',
+        'Describe your approach to handling technical objections about integrations',
+        'How would you tailor a demo for IT vs. HR vs. customer service stakeholders?',
+        'Explain your strategy for managing proof-of-concept requests',
+        'How would you differentiate ServiceNow from BMC or Jira Service Management?',
+        'Describe your approach to RFP responses for enterprise deals',
+        'How would you handle a question about functionality you\'re unsure of?',
+        'Explain your methodology for building customer-specific demo environments',
+        'How would you present ServiceNow\'s security and compliance capabilities?',
+        'Describe your approach to multi-stakeholder presentations'
+      ],
+      behavioralQuestions: [
+        'Tell me about a complex deal you helped win through technical expertise',
+        'Describe a demo that went wrong and how you recovered',
+        'How have you built trust with customers skeptical of SaaS?',
+        'Tell me about a time you delivered bad news about product capabilities',
+        'Describe how you\'ve collaborated with sales on account strategies',
+        'How do you stay current with product changes and competitive landscape?',
+        'Tell me about a creative solution you presented for a customer gap',
+        'Describe how you\'ve contributed to building inclusive customer relationships',
+        'How have you handled pressure from sales to overpromise?',
+        'Tell me about a lost deal and what you learned',
+        'Describe how you\'ve mentored other sales engineers',
+        'How do you balance multiple deal support requests?',
+        'Tell me about a time you influenced product through customer feedback',
+        'Describe how you\'ve handled a difficult customer stakeholder'
+      ],
+      whatTheyLookFor: [
+        'Strong presentation and demo skills with executive presence',
+        'Technical depth in enterprise software, especially ITSM or workflow tools',
+        'Consultative approach to understanding customer needs',
+        'Ability to translate technical concepts for business audiences',
+        'Collaborative partnership with sales teams',
+        'Resilience and professionalism under pressure',
+        'Understanding of enterprise sales cycles and stakeholders',
+        'Growth mindset and product learning agility',
+        'Alignment with ServiceNow\'s values and ethical sales practices',
+        'Customer empathy and genuine interest in solving problems'
+      ],
+      interviewTips: [
+        'Prepare a polished demo presentation—practice until it\'s flawless',
+        'Research ServiceNow\'s products and competitive positioning',
+        'Be ready to discuss enterprise sales cycles and stakeholder management',
+        'Prepare examples of deals you\'ve influenced through technical expertise',
+        'Understand common IT and workflow pain points ServiceNow addresses',
+        'Practice handling objections gracefully and confidently',
+        'Prepare questions about ServiceNow\'s sales culture and team dynamics',
+        'Be authentic about your sales engineering philosophy',
+        'Highlight experience with enterprise customers and complex requirements',
+        'Show genuine interest in customer success beyond closing deals',
+        'Be ready to discuss how you handle competitive situations',
+        'Research Knowledge conference to understand customer engagement',
+        'Prepare to discuss how you stay current with product capabilities',
+        'Demonstrate comfort with travel and customer-facing work'
+      ],
+      salary: {
+        min: 130000,
+        max: 220000,
+        average: 170000
+      },
+      compensation: [
+        'Competitive base salary',
+        'Variable compensation tied to team quota attainment',
+        'Restricted Stock Units (RSUs)',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Travel expense coverage and per diem',
+        'Demo equipment and home office allowance'
+      ],
+      dayInLife: {
+        intro: 'A Sales Engineer at ServiceNow balances customer-facing activities with demo preparation and internal collaboration.',
+        schedule: [
+          '8:00 AM - Review product updates and prep for customer demo',
+          '9:00 AM - Team sync with account executives on deal strategies',
+          '10:00 AM - Customer discovery call for new enterprise opportunity',
+          '11:30 AM - Build custom demo scenarios based on discovery findings',
+          '12:00 PM - Lunch, sometimes with sales teammates',
+          '1:00 PM - Executive product presentation for prospect CIO',
+          '3:00 PM - Debrief with AE and document follow-up items',
+          '3:30 PM - RFP response drafting for pending deal',
+          '4:30 PM - Prep demo environment for tomorrow\'s presentation',
+          '5:30 PM - Wrap up and review tomorrow\'s schedule'
+        ],
+        closing: 'Sales Engineers travel 40-60% depending on territory, with flexibility for remote customer engagements.'
+      },
+      similarRoles: [
+        'Pre-Sales Engineer',
+        'Solutions Consultant',
+        'Technical Sales Specialist',
+        'Demo Engineer',
+        'Customer Solutions Engineer'
+      ]
+    },
+
+    'support-engineer': {
+      roleDescription: `Support Engineers at ServiceNow ensure customers can successfully leverage the Now Platform to manage their critical business workflows. You'll troubleshoot and resolve technical issues for organizations that depend on ServiceNow for IT operations, HR service delivery, and customer service—workflows that keep enterprises running smoothly. The role combines deep product expertise with problem-solving skills, requiring you to diagnose issues across ServiceNow's integrated platform and provide clear guidance to customers of varying technical sophistication. Support Engineers collaborate with engineering teams to escalate and resolve complex issues, contributing to product improvements based on customer feedback. With ServiceNow's legendary focus on customer satisfaction and core values like "Put Customers First," you'll work in an environment that genuinely prioritizes customer success. As part of one of Fortune's Best Companies to Work For, you'll help ensure organizations can rely on ServiceNow for their most important operations.`,
+      responsibilities: [
+        'Diagnose and resolve technical issues for ServiceNow ITSM, HRSD, CSM, and Platform',
+        'Provide expert guidance to customers on product functionality and best practices',
+        'Collaborate with engineering teams to escalate and resolve complex issues',
+        'Create and maintain knowledge base articles and documentation',
+        'Monitor customer instances and proactively identify potential issues',
+        'Support customers during critical events like major releases and upgrades',
+        'Contribute to continuous improvement of support processes and tools',
+        'Mentor junior support engineers and share expertise with the team',
+        'Participate in root cause analysis for systemic issues'
+      ],
+      growthOpportunities: [
+        'Progress from Support Engineer to Senior or Principal Support Engineer',
+        'Transition to Support Engineering Manager or Team Lead roles',
+        'Move into product engineering or site reliability engineering',
+        'Specialize in complex areas as a subject matter expert',
+        'Transition to customer success management',
+        'Move into implementation consulting or professional services',
+        'Become a technical trainer or enablement specialist',
+        'Transition to product management leveraging customer insights'
+      ],
+      interviewProcess: [
+        { stage: 'Recruiter Screen', description: 'Initial conversation about your support or technical background' },
+        { stage: 'Technical Assessment', description: 'Problem-solving and troubleshooting assessment' },
+        { stage: 'Hiring Manager Interview', description: 'Discussion of your support philosophy and customer service approach' },
+        { stage: 'Team Interviews', description: 'Meet with support engineers and partners to assess collaboration' },
+        { stage: 'Final Interview', description: 'Conversation about role expectations and career goals' }
+      ],
+      technicalQuestions: [
+        'How would you troubleshoot a workflow that stopped executing?',
+        'Describe your methodology for diagnosing integration failures',
+        'How would you approach a customer reporting slow performance?',
+        'Explain your process for escalating issues to engineering teams',
+        'How would you handle a critical issue during a customer\'s upgrade?',
+        'Describe your approach to documenting complex troubleshooting steps',
+        'How would you prioritize multiple urgent customer issues?',
+        'Explain your methodology for root cause analysis',
+        'How would you explain a technical issue to a non-technical IT manager?',
+        'Describe your approach to testing and validating issue resolutions',
+        'How would you handle a customer frustrated by a recurring issue?',
+        'Explain your strategy for staying current with platform updates',
+        'How would you approach an issue that spans multiple product areas?',
+        'Describe your methodology for creating knowledge base articles'
+      ],
+      behavioralQuestions: [
+        'Tell me about a complex technical issue you resolved and how you approached it',
+        'Describe a time when you turned around a frustrated customer relationship',
+        'How have you handled a situation where you couldn\'t immediately solve the issue?',
+        'Tell me about a time you identified a systemic issue affecting multiple customers',
+        'Describe how you\'ve collaborated with engineering on escalated issues',
+        'How do you stay calm and effective during high-pressure situations?',
+        'Tell me about a time you went above and beyond for a customer',
+        'Describe how you\'ve contributed to building inclusive support environments',
+        'How have you balanced helping customers with other responsibilities?',
+        'Tell me about a creative solution for a challenging issue',
+        'Describe how you\'ve mentored other support engineers',
+        'How do you approach learning new product functionality?',
+        'Tell me about a time you received difficult feedback and how you responded',
+        'Describe how you\'ve contributed to improving support processes'
+      ],
+      whatTheyLookFor: [
+        'Strong troubleshooting and analytical skills',
+        'Customer service orientation with patience and empathy',
+        'Technical aptitude for learning enterprise platforms',
+        'Clear written and verbal communication skills',
+        'Ability to work effectively under pressure',
+        'Collaborative approach to working with teams and customers',
+        'Attention to detail in documentation and issue tracking',
+        'Growth mindset and commitment to continuous learning',
+        'Alignment with ServiceNow\'s values and customer-first culture',
+        'Understanding of IT operations or enterprise workflows'
+      ],
+      interviewTips: [
+        'Prepare examples of complex issues you\'ve troubleshot and resolved',
+        'Be ready to discuss your approach to difficult customer situations',
+        'Understand IT service management concepts at a basic level',
+        'Practice explaining technical concepts to non-technical audiences',
+        'Prepare for scenario-based troubleshooting questions',
+        'Highlight experience with ticket systems and case management',
+        'Show genuine passion for helping customers succeed',
+        'Prepare questions about ServiceNow\'s support culture and processes',
+        'Be ready to discuss how you handle stress and prioritization',
+        'Understand the importance of documentation in support roles',
+        'ServiceNow provides training—be authentic about your experience level',
+        'Highlight any experience with SaaS or enterprise software support',
+        'Be ready to discuss how you stay current with platform updates',
+        'Consider ServiceNow certifications to strengthen your application'
+      ],
+      salary: {
+        min: 80000,
+        max: 150000,
+        average: 110000
+      },
+      compensation: [
+        'Competitive base salary with annual increases',
+        'Restricted Stock Units (RSUs)',
+        'Annual performance bonus',
+        'Employee Stock Purchase Plan (ESPP)',
+        '401(k) with company match',
+        'Comprehensive health benefits',
+        'Flexible time off policy',
+        'Parental leave',
+        'Professional certification support and bonuses',
+        'Shift differentials for coverage requirements'
+      ],
+      dayInLife: {
+        intro: 'A Support Engineer at ServiceNow focuses on resolving customer issues while contributing to team knowledge and process improvement.',
+        schedule: [
+          '8:00 AM - Review overnight tickets and critical alerts',
+          '8:30 AM - Handoff meeting with previous shift on open issues',
+          '9:00 AM - Work on high-priority customer case: workflow not executing',
+          '10:30 AM - Team sync to discuss trends and share learnings',
+          '11:00 AM - Customer call to gather additional information on issue',
+          '12:00 PM - Lunch break',
+          '1:00 PM - Collaborate with engineering on escalated case',
+          '2:00 PM - Work on moderate priority cases from queue',
+          '3:30 PM - Document resolution and update knowledge base',
+          '4:00 PM - Proactive monitoring of assigned customer instances',
+          '5:00 PM - Handoff notes for next shift and wrap up'
+        ],
+        closing: 'Support Engineers may participate in on-call rotation but ServiceNow emphasizes work-life balance with sustainable scheduling.'
+      },
+      similarRoles: [
+        'Technical Support Specialist',
+        'Product Support Engineer',
+        'Application Support Analyst',
+        'Customer Support Engineer',
+        'Platform Support Engineer'
+      ]
+    }
+  },
+
   'lyft': {
     'software-engineer': {
       title: 'Software Engineer',
