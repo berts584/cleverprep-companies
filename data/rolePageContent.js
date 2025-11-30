@@ -13311,6 +13311,625 @@ export const rolePageContent = {
         { companyName: "Salesforce", companySlug: "salesforce", industry: "Technology" },
         { companyName: "IBM", companySlug: "ibm", industry: "Technology" }
       ]
+    },
+    'data-engineer': {
+      roleDescription: "Data Engineers at Amazon build the data infrastructure that powers one of the world's most data-driven companies, enabling decisions that impact hundreds of millions of customers and billions of dollars in revenue. You'll design and operate data pipelines at massive scale, processing petabytes of data from retail transactions, AWS usage metrics, advertising events, and logistics operations. Amazon's data engineering culture emphasizes reliability, scalability, and operational excellence - your pipelines must work flawlessly because they feed the models and dashboards that run Amazon's business. Data Engineers work across Amazon's diverse businesses: retail recommendation systems, AWS billing and usage analytics, fulfillment center optimization, and advertising attribution. The role combines software engineering skills with data platform expertise, using technologies like AWS EMR, Redshift, Glue, and internal distributed systems. Career growth follows a clear path from Data Engineer to Senior to Principal, with opportunities to transition to data science, software engineering, or technical leadership roles.",
+      responsibilities: [
+        "Design and build scalable data pipelines processing petabytes of data daily",
+        "Develop and maintain data warehouse architectures supporting analytics and ML workloads",
+        "Optimize data processing for performance, cost, and reliability at Amazon scale",
+        "Create data models and schemas that enable efficient querying and analysis",
+        "Build and maintain ETL/ELT processes integrating data from diverse sources across Amazon",
+        "Implement data quality monitoring, validation, and alerting systems",
+        "Collaborate with data scientists and analysts to understand and enable their data needs",
+        "Partner with software engineers to instrument applications for analytics and telemetry",
+        "Maintain data catalog and documentation ensuring discoverability and governance",
+        "Ensure data compliance with privacy requirements and internal data policies"
+      ],
+      growthOpportunities: [
+        "Work with some of the largest datasets in the world across diverse domains",
+        "Career path from Data Engineer to Senior to Principal to Distinguished Engineer",
+        "Opportunity to work with cutting-edge AWS data services (often before GA)",
+        "Internal mobility across Amazon's businesses: retail, AWS, advertising, logistics",
+        "Path to data science, software engineering, or technical leadership roles",
+        "Build expertise in distributed systems and big data at unmatched scale",
+        "Contribute to open source data tools and AWS service development",
+        "Work alongside world-class engineers solving unique data challenges",
+        "Impact billions of dollars of business through reliable data infrastructure"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your background, data engineering experience, and interest in Amazon. The recruiter explains different data teams across Amazon's businesses and assesses fit based on your technical experience.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute technical interview covering SQL, data modeling, and pipeline design. Expect to write SQL queries and discuss your approach to building reliable data systems at scale.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site Loop (5 rounds)",
+          description: "Full interview day including: (1) SQL and data modeling round - complex queries, schema design, optimization; (2) Data pipeline design - architect an end-to-end data pipeline for a real scenario; (3) Coding round - Python or Java data processing, testing clean and efficient code; (4) System design - design a large-scale data platform addressing reliability and scale; (5) Bar Raiser round - thorough LP assessment.",
+          duration: "5 hours"
+        },
+        {
+          step: 4,
+          title: "Debrief & Decision",
+          description: "Interviewers submit independent feedback. Bar Raiser ensures fair evaluation. Decisions typically within 5 business days.",
+          duration: "5 business days typical"
+        }
+      ],
+      technicalQuestions: [
+        "Design a data pipeline to process 100TB of event data daily with 1-hour latency requirements.",
+        "Write a SQL query to find customers who placed orders in consecutive months.",
+        "How would you design a data warehouse schema for Amazon's retail analytics?",
+        "Explain the differences between batch and stream processing. When would you use each?",
+        "Design a data quality framework for mission-critical pipelines feeding ML models.",
+        "How would you handle late-arriving data in an event-driven architecture?",
+        "Explain partitioning and bucketing in Spark/Hive. How do you choose partition keys?",
+        "Design a slowly changing dimension (SCD) implementation for product catalog data.",
+        "How would you debug a Spark job that's running slower than expected?",
+        "Design a data platform for real-time analytics on clickstream data from Amazon.com.",
+        "Explain the CAP theorem and how it applies to distributed data systems.",
+        "How would you implement data lineage tracking at scale?",
+        "Design a data masking solution for PII that maintains analytical utility.",
+        "How would you migrate a 500TB on-premises data warehouse to AWS?",
+        "Explain Delta Lake / Iceberg vs traditional Parquet. When would you use each?",
+        "Design a pipeline supporting both real-time dashboards and historical analysis.",
+        "How would you implement incremental processing for a very large fact table?"
+      ],
+      behavioralQuestions: [
+        "Tell me about the most complex data pipeline you've built. What challenges did you face? (Dive Deep)",
+        "Describe a time you had to optimize a poorly performing data system. (Invent and Simplify)",
+        "Give an example of when you had to balance data quality with delivery timelines. (Deliver Results)",
+        "Tell me about a data pipeline failure. How did you handle it? (Ownership)",
+        "Describe a time you collaborated with data scientists to solve their data needs. (Customer Obsession)",
+        "Give an example of taking ownership of data quality issues. (Ownership)",
+        "Tell me about a time you had to learn a new data technology quickly. (Learn and Be Curious)",
+        "Describe how you've documented and made data discoverable for others. (Earn Trust)",
+        "Give an example of when you raised the bar on data reliability. (Insist on the Highest Standards)",
+        "Tell me about a time you simplified a complex data architecture. (Invent and Simplify)",
+        "Describe how you stay current with data engineering trends and technologies. (Learn and Be Curious)",
+        "Give an example of a frugal approach to data infrastructure. (Frugality)",
+        "Tell me about a time you had to push back on unrealistic data requirements. (Have Backbone)",
+        "Describe a situation where you had to make a quick decision on data architecture. (Bias for Action)",
+        "Give an example of thinking big about a data engineering opportunity. (Think Big)"
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills: complex queries, optimization, and data modeling expertise",
+        "Programming proficiency: Python, Java, or Scala for data processing and automation",
+        "Distributed systems knowledge: Spark, Hadoop, or similar big data technologies",
+        "AWS data services: Redshift, EMR, Glue, S3, Kinesis, and related services",
+        "Leadership Principles alignment: demonstrated through specific examples",
+        "Data pipeline expertise: ETL/ELT design, orchestration, and monitoring",
+        "Reliability mindset: building systems that are robust, monitored, and maintainable",
+        "Ownership mentality: taking responsibility for data quality and reliability",
+        "Customer obsession: understanding how data enables downstream consumers",
+        "Problem-solving: debugging complex data issues at scale"
+      ],
+      interviewTips: [
+        "Practice complex SQL queries including window functions, CTEs, and optimization",
+        "Be ready to whiteboard data pipeline architectures end-to-end",
+        "Review Spark internals: partitioning, shuffling, optimization techniques",
+        "Know AWS data services: Redshift, EMR, Glue, S3, Kinesis, Athena",
+        "Prepare STAR stories for each Leadership Principle with data engineering examples",
+        "Be ready to discuss data quality, validation, and monitoring strategies",
+        "Practice data modeling scenarios: star schema, normalization trade-offs",
+        "Understand stream processing concepts: exactly-once, at-least-once, windowing",
+        "Show business awareness - discuss how your data work enables analytics",
+        "Demonstrate ownership - talk about full pipeline lifecycle, not just building",
+        "Prepare questions about the team's data stack and current challenges",
+        "Quantify impact: 'reduced processing time by 60%' not 'improved pipeline'",
+        "Be ready for the Bar Raiser - LP questions are critical at Amazon",
+        "Research the specific business area and its data challenges"
+      ],
+      salary: {
+        min: 130000,
+        max: 215000
+      },
+      compensation: [
+        "Competitive base salary with level-based progression",
+        "Sign-on bonus ($20-50K over 2 years)",
+        "RSUs with 5/15/40/40 vesting schedule",
+        "Annual stock refreshers based on performance",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Relocation assistance for eligible moves",
+        "AWS credits for personal learning projects",
+        "Certification and professional development budget",
+        "Amazon Prime membership and employee discounts"
+      ],
+      dayInLife: {
+        overview: "Amazon Data Engineers balance building new pipelines with operating and optimizing existing infrastructure. Days include coding, troubleshooting, and collaboration with data consumers.",
+        schedule: [
+          { time: "9:00 AM", activity: "Pipeline monitoring", description: "Check overnight job runs, validate data quality, triage any failures" },
+          { time: "9:30 AM", activity: "Team standup", description: "Quick sync with team on progress, blockers, and priorities" },
+          { time: "10:00 AM", activity: "Pipeline development", description: "Build or enhance data pipelines - coding, testing, and debugging" },
+          { time: "12:00 PM", activity: "Lunch", description: "Break, often combined with learning sessions or team discussions" },
+          { time: "1:00 PM", activity: "Stakeholder meeting", description: "Sync with data scientists or analysts on requirements and priorities" },
+          { time: "2:00 PM", activity: "Design work", description: "Data modeling, architecture design, or technical documentation" },
+          { time: "3:30 PM", activity: "Code review", description: "Review pull requests and address feedback on your own code" },
+          { time: "4:30 PM", activity: "Optimization", description: "Performance tuning, cost optimization, or technical debt reduction" },
+          { time: "5:30 PM", activity: "Documentation", description: "Update data catalog, pipeline docs, or runbooks" },
+          { time: "6:00 PM", activity: "End of day", description: "Check pipeline status, plan tomorrow's priorities" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" },
+        { companyName: "Databricks", companySlug: "databricks", industry: "Technology" }
+      ]
+    },
+    'software-development-manager': {
+      roleDescription: "Software Development Managers at Amazon lead engineering teams that build and operate services at unprecedented scale, from retail systems serving hundreds of millions of customers to AWS infrastructure supporting the world's largest cloud platform. Amazon's SDM role combines technical leadership with people management - you're expected to maintain technical depth while developing and growing your team. You'll typically manage 6-12 engineers, owning both the delivery of your team's roadmap and the career development of each team member. Amazon's Leadership Principles, particularly Ownership, Hire and Develop the Best, and Deliver Results, define the role. SDMs operate with significant autonomy within Amazon's two-pizza team culture, making architectural decisions and driving operational excellence. Career progression leads to Senior SDM, Director, and VP roles, with many of Amazon's senior leaders having grown through the SDM path. The compensation structure emphasizes equity, with total compensation growing significantly in years 3-4.",
+      responsibilities: [
+        "Lead a team of 6-12 software engineers, focusing on their growth and career development",
+        "Drive technical excellence through architecture guidance, code reviews, and best practices",
+        "Own your team's roadmap delivery, balancing feature work with operational excellence",
+        "Hire exceptional talent through recruiting, interviewing, and making hiring decisions",
+        "Set clear goals and expectations, providing regular feedback and performance management",
+        "Collaborate with product, science, and partner teams to define and deliver initiatives",
+        "Manage operational health of your services including on-call rotations and incident response",
+        "Foster a culture aligned with Amazon's Leadership Principles",
+        "Remove blockers and create an environment where engineers do their best work",
+        "Represent your team's work and progress to senior leadership"
+      ],
+      growthOpportunities: [
+        "Lead teams building services used by hundreds of millions of customers",
+        "Clear career path: SDM → Senior SDM → Director → VP",
+        "Many Amazon senior leaders grew through the SDM path",
+        "Internal mobility across Amazon's diverse businesses and organizations",
+        "Develop both technical depth and business leadership skills",
+        "Opportunity to grow team scope and impact over time",
+        "Access to world-class leadership development resources",
+        "Build expertise in operating systems at unprecedented scale",
+        "Shape Amazon's engineering culture and practices"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your management experience, technical background, and interest in Amazon. The recruiter explains different SDM organizations and assesses fit based on your leadership and technical experience.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Hiring Manager Interview",
+          description: "60-minute conversation with the hiring manager covering your management philosophy, technical background, and Leadership Principles alignment. The manager shares team context and assesses mutual fit.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site Loop (6-7 rounds)",
+          description: "Full interview day including: (1) Technical depth - coding or system design validating technical credibility; (2) Team leadership - scenarios about developing people and building culture; (3) Delivery and execution - how you drive results through your team; (4) Operational excellence - managing production systems and incidents; (5) Hiring and talent - your approach to building and growing teams; (6) Bar Raiser - thorough LP assessment from trained interviewer.",
+          duration: "6-7 hours"
+        },
+        {
+          step: 4,
+          title: "Reference Checks",
+          description: "Amazon typically conducts thorough reference checks for SDM roles, speaking with former reports, peers, and managers to validate leadership effectiveness.",
+          duration: "1 week"
+        },
+        {
+          step: 5,
+          title: "Debrief & Decision",
+          description: "Interviewers submit independent feedback. Bar Raiser facilitates fair evaluation. Decisions typically within 5 business days after references complete.",
+          duration: "5 business days typical"
+        }
+      ],
+      technicalQuestions: [
+        "Walk me through a complex technical decision you guided your team through. (Dive Deep)",
+        "How do you maintain technical depth while managing a team? (Learn and Be Curious)",
+        "Design a high-level architecture for a service your team might own. (Invent and Simplify)",
+        "How do you balance technical debt with feature development? (Deliver Results)",
+        "Describe your approach to code review and engineering best practices. (Insist on the Highest Standards)",
+        "Walk me through a production incident your team handled. What was your role? (Ownership)",
+        "How do you ensure your team builds reliable, scalable systems? (Insist on the Highest Standards)",
+        "Describe a technical trade-off you helped your team navigate. (Dive Deep)",
+        "How do you evaluate technical decisions and architecture proposals? (Dive Deep)",
+        "Walk me through your approach to operational excellence. (Ownership)",
+        "How do you handle situations where senior engineers disagree on technical direction? (Earn Trust)",
+        "Describe your approach to technical hiring. How do you assess engineering talent? (Hire and Develop the Best)",
+        "How do you help engineers grow their technical skills? (Hire and Develop the Best)",
+        "Walk me through a system design problem relevant to Amazon's scale.",
+        "How do you balance being hands-on technically with management responsibilities?"
+      ],
+      behavioralQuestions: [
+        "Tell me about your leadership philosophy. What kind of manager are you? (Hire and Develop the Best)",
+        "Describe a time you developed an engineer who was struggling. (Hire and Develop the Best)",
+        "Give an example of how you built a high-performing team culture. (Hire and Develop the Best)",
+        "Tell me about a difficult performance conversation. How did you handle it? (Have Backbone)",
+        "Describe a time you had to make a tough call about someone on your team. (Have Backbone)",
+        "Give an example of taking ownership of a problem outside your direct responsibility. (Ownership)",
+        "Tell me about a time you delivered results despite significant obstacles. (Deliver Results)",
+        "Describe how you've handled conflict between team members. (Earn Trust)",
+        "Give an example of raising the bar on engineering quality for your team. (Insist on the Highest Standards)",
+        "Tell me about a time you disagreed with your manager. How did you handle it? (Have Backbone)",
+        "Describe a situation where you learned from a failure as a manager. (Learn and Be Curious)",
+        "Give an example of when you simplified something complex for your team. (Invent and Simplify)",
+        "Tell me about a time you mentored someone who became a strong leader. (Hire and Develop the Best)",
+        "Describe how you've driven operational excellence on your team. (Ownership)",
+        "Give an example of thinking big about your team's impact. (Think Big)"
+      ],
+      whatTheyLookFor: [
+        "Technical credibility: enough depth to guide technical decisions and earn engineers' respect",
+        "People leadership: genuine care for developing talent and building high-performing teams",
+        "Delivery track record: proven ability to drive results through empowered teams",
+        "Leadership Principles alignment: demonstrated through specific examples in every interview",
+        "Operational excellence: focus on reliability, quality, and customer experience",
+        "Ownership mentality: taking responsibility for team and service outcomes",
+        "Hiring ability: track record of identifying and attracting top talent",
+        "Communication: clear articulation of vision, expectations, and feedback",
+        "Adaptability: navigating ambiguity and change with composure",
+        "Bias for action: making decisions and moving forward with incomplete information"
+      ],
+      interviewTips: [
+        "Prepare STAR stories for each Leadership Principle with management examples",
+        "Be ready for technical depth questions - SDMs need credibility with engineers",
+        "Prepare specific examples of developing individual team members",
+        "Show ownership of outcomes, not just process - discuss results and impact",
+        "Practice scenarios about difficult people situations (performance, conflict)",
+        "Demonstrate hiring philosophy - how you assess and attract talent",
+        "Research the team and come with informed questions about their challenges",
+        "Show vulnerability - discuss failures and what you learned as a leader",
+        "Practice the STAR method but be conversational",
+        "Demonstrate bias for action - show you make decisions and move forward",
+        "Prepare questions about the team's current priorities and biggest challenges",
+        "Show genuine interest in people development, not just technical outcomes",
+        "Be ready to discuss how you balance technical involvement with management",
+        "Understand Amazon's two-pizza team culture and how SDMs operate within it"
+      ],
+      salary: {
+        min: 175000,
+        max: 280000
+      },
+      compensation: [
+        "Competitive base salary reflecting management scope and level",
+        "Sign-on bonus ($40-80K over 2 years)",
+        "Significant RSUs with 5/15/40/40 vesting - major part of comp years 3-4",
+        "Annual stock refreshers based on performance and impact",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Relocation assistance for eligible moves",
+        "Leadership development programs and executive coaching",
+        "Conference attendance and professional development",
+        "Amazon Prime membership and employee discounts"
+      ],
+      dayInLife: {
+        overview: "Amazon SDMs balance people leadership with technical guidance and organizational responsibilities. Days include 1:1s, team meetings, cross-team coordination, and focused time for strategy and development.",
+        schedule: [
+          { time: "9:00 AM", activity: "Email and planning", description: "Review overnight updates, prepare for the day's meetings and priorities" },
+          { time: "9:30 AM", activity: "Team standup", description: "Lead or participate in daily sync on progress, blockers, and priorities" },
+          { time: "10:00 AM", activity: "1:1 meetings", description: "Individual meetings with direct reports focused on development and support" },
+          { time: "12:00 PM", activity: "Lunch", description: "Break, often combined with informal conversations or skip-level meetings" },
+          { time: "1:00 PM", activity: "Technical review", description: "Design review, architecture discussion, or operational review with team" },
+          { time: "2:30 PM", activity: "Cross-team meeting", description: "Coordinate with product, partner teams, or leadership on initiatives" },
+          { time: "3:30 PM", activity: "Hiring", description: "Interview candidates or debrief on recent interviews" },
+          { time: "4:30 PM", activity: "Strategic work", description: "Roadmap planning, performance calibration, or organizational improvements" },
+          { time: "5:30 PM", activity: "Focus time", description: "Catch up on documents, prepare for upcoming reviews, address urgent items" },
+          { time: "6:00 PM", activity: "End of day", description: "Wrap up, address any urgent items, and disconnect" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
+      ]
+    },
+    'applied-scientist': {
+      roleDescription: "Applied Scientists at Amazon bridge the gap between cutting-edge machine learning research and production systems that impact hundreds of millions of customers. You'll work on some of the most challenging ML problems in the industry: personalization at scale, demand forecasting across millions of products, fraud detection processing billions of transactions, and natural language understanding for Alexa. Unlike pure research roles, Applied Scientists are expected to ship - your models run in production and you own their performance. Amazon's science culture emphasizes practical impact over academic publication, though many scientists do publish at top venues. You'll collaborate closely with SDEs to productionize models and with business stakeholders to define problems worth solving. The role requires deep ML expertise combined with software engineering skills. Career progression follows the scientist ladder from Applied Scientist to Senior to Principal to Distinguished Scientist, with significant compensation growth at each level.",
+      responsibilities: [
+        "Develop machine learning models addressing complex business problems at Amazon scale",
+        "Design and implement algorithms for personalization, forecasting, NLP, computer vision, and optimization",
+        "Collaborate with engineering teams to deploy models in production systems serving millions",
+        "Analyze large datasets to derive insights and develop new ML approaches",
+        "Own model performance end-to-end from research through production monitoring",
+        "Conduct experiments to validate model improvements and drive product decisions",
+        "Publish research at top ML conferences (NeurIPS, ICML, KDD, etc.)",
+        "Mentor other scientists and contribute to Amazon's ML community",
+        "Partner with business stakeholders to identify high-impact ML opportunities",
+        "Stay current with ML research and evaluate new techniques for Amazon applications"
+      ],
+      growthOpportunities: [
+        "Work on ML problems at unprecedented scale with direct customer impact",
+        "Career path: Applied Scientist → Senior → Principal → Distinguished Scientist",
+        "Publish at top ML conferences with Amazon Science support",
+        "Work alongside world-class scientists solving unique challenges",
+        "Path to research leadership or transition to product/engineering roles",
+        "Access to massive compute resources for training and experimentation",
+        "Internal mobility across Amazon's diverse ML applications",
+        "Collaborate with Amazon Research and AWS AI teams",
+        "Shape how ML is applied at one of the world's most data-rich companies"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your background, research experience, and interest in applied science at Amazon. The recruiter explains different science teams and assesses fit based on your ML expertise and interests.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute interview covering ML fundamentals, your research experience, and a coding or ML design problem. Expect questions on your specialty area and how you've applied ML to real problems.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site Loop (5-6 rounds)",
+          description: "Full interview day including: (1) ML deep dive - thorough assessment of your specialty area; (2) ML system design - design an end-to-end ML system for an Amazon use case; (3) Coding round - implement algorithms or ML components; (4) Research presentation - present your research to a scientific audience; (5) Bar Raiser round - LP assessment; (6) Optional additional technical round.",
+          duration: "5-6 hours"
+        },
+        {
+          step: 4,
+          title: "Debrief & Decision",
+          description: "Interviewers submit independent feedback. Bar Raiser ensures fair evaluation. Decisions typically within 5 business days.",
+          duration: "5 business days typical"
+        }
+      ],
+      technicalQuestions: [
+        "Explain the transformer architecture in detail. Why has it been so successful?",
+        "Design an ML system for Amazon product recommendations. How would you handle cold start?",
+        "Explain the bias-variance tradeoff. How does it apply to modern deep learning?",
+        "How would you approach fine-tuning a large language model for a specific domain?",
+        "Design a demand forecasting system for millions of products. What model would you use?",
+        "Explain different approaches to handling imbalanced datasets. What are the trade-offs?",
+        "Design a real-time fraud detection system. How would you balance precision and recall?",
+        "Walk me through how you'd debug a model performing poorly in production.",
+        "Explain attention mechanisms and their variants. When would you use each?",
+        "Design an ML pipeline for search ranking at Amazon scale.",
+        "How would you approach model evaluation for a generative AI system?",
+        "Explain techniques for reducing model size and latency (distillation, quantization).",
+        "Design an experimentation framework for testing ML model changes.",
+        "How would you implement responsible AI checks in an ML pipeline?",
+        "Explain reinforcement learning and its applications to recommendation systems.",
+        "Design a multi-objective optimization system for delivery routing.",
+        "How would you approach transfer learning for a new domain with limited labeled data?"
+      ],
+      behavioralQuestions: [
+        "Tell me about an ML model you built that had significant business impact. (Deliver Results)",
+        "Describe a time you had to debug a difficult ML problem. (Dive Deep)",
+        "Give an example of when you had to balance model accuracy with other constraints. (Invent and Simplify)",
+        "Tell me about a time you collaborated with engineers to productionize a model. (Earn Trust)",
+        "Describe an ML approach that didn't work as expected. What did you learn? (Learn and Be Curious)",
+        "Give an example of when you simplified a complex modeling problem. (Invent and Simplify)",
+        "Tell me about a time you had to explain ML concepts to non-technical stakeholders. (Earn Trust)",
+        "Describe how you've approached responsible AI in your work. (Insist on the Highest Standards)",
+        "Give an example of taking ownership of model performance in production. (Ownership)",
+        "Tell me about a time you had to learn a new ML technique quickly. (Learn and Be Curious)",
+        "Describe a situation where you pushed back on using ML when it wasn't appropriate. (Have Backbone)",
+        "Give an example of mentoring other scientists or engineers. (Hire and Develop the Best)",
+        "Tell me about a time you had to work with ambiguous requirements. (Bias for Action)",
+        "Describe how you stay current with ML research advances. (Learn and Be Curious)",
+        "Give an example of thinking big about an ML opportunity. (Think Big)"
+      ],
+      whatTheyLookFor: [
+        "Deep ML expertise: strong theoretical foundation and practical experience",
+        "Applied focus: track record of building models that ship and create impact",
+        "Coding proficiency: strong Python/PyTorch/TensorFlow skills for implementation",
+        "System thinking: ability to design end-to-end ML systems",
+        "Leadership Principles alignment: demonstrated through specific examples",
+        "Research awareness: familiarity with recent advances in ML",
+        "Ownership mentality: taking responsibility for model performance in production",
+        "Collaboration: working effectively with engineers and business stakeholders",
+        "Communication: explaining ML concepts to diverse audiences",
+        "Customer obsession: focusing on customer impact in modeling decisions"
+      ],
+      interviewTips: [
+        "Prepare a polished research presentation you can deliver confidently",
+        "Review ML fundamentals deeply - expect rigorous questions on theory",
+        "Practice ML system design - design complete pipelines from data to deployment",
+        "Be ready to discuss papers in depth, especially in your specialty area",
+        "Prepare STAR stories for each Leadership Principle with ML examples",
+        "Practice coding ML algorithms from scratch (not just using libraries)",
+        "Show production focus - discuss models you've shipped and their impact",
+        "Understand responsible AI: fairness, bias, transparency, safety",
+        "Research the specific team's work and come with informed perspectives",
+        "Demonstrate ownership - talk about full model lifecycle, not just training",
+        "Quantify impact: 'increased CTR by 8%' not 'improved recommendations'",
+        "Be ready for the Bar Raiser - LP questions are just as important as technical",
+        "Prepare questions about the team's current ML challenges",
+        "Show you can bridge research and production - both are valued"
+      ],
+      salary: {
+        min: 150000,
+        max: 280000
+      },
+      compensation: [
+        "Premium base salary reflecting ML market demand",
+        "Sign-on bonus ($30-70K over 2 years)",
+        "Significant RSUs with 5/15/40/40 vesting schedule",
+        "Annual stock refreshers based on performance and impact",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Conference attendance (NeurIPS, ICML, etc.) and publication support",
+        "Relocation assistance for eligible moves",
+        "Access to compute resources for personal research/learning",
+        "Amazon Prime membership and employee discounts"
+      ],
+      dayInLife: {
+        overview: "Applied Scientists balance research exploration with production engineering and business partnership. Days include model development, collaboration with engineers, and stakeholder engagement.",
+        schedule: [
+          { time: "9:00 AM", activity: "Model monitoring", description: "Check production model metrics, review any alerts or anomalies" },
+          { time: "9:30 AM", activity: "Team standup", description: "Quick sync with science and engineering team on progress" },
+          { time: "10:00 AM", activity: "Research work", description: "Deep focus on model development, experimentation, or analysis" },
+          { time: "12:00 PM", activity: "Lunch", description: "Often combined with paper reading group or science discussions" },
+          { time: "1:00 PM", activity: "Engineering sync", description: "Collaborate with SDEs on model deployment or production issues" },
+          { time: "2:30 PM", activity: "Experiment review", description: "Analyze experiment results and plan next iterations" },
+          { time: "4:00 PM", activity: "Stakeholder meeting", description: "Sync with product or business on requirements and impact" },
+          { time: "5:00 PM", activity: "Research reading", description: "Review papers, explore new techniques, work on publications" },
+          { time: "6:00 PM", activity: "End of day", description: "Queue overnight training jobs, wrap up, and disconnect" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Apple", companySlug: "apple", industry: "Technology" },
+        { companyName: "Netflix", companySlug: "netflix", industry: "Technology" }
+      ]
+    },
+    'business-intelligence-engineer': {
+      roleDescription: "Business Intelligence Engineers at Amazon build the analytical infrastructure that enables data-driven decision making across one of the world's most metrics-obsessed companies. You'll design and develop data warehouses, dashboards, and reporting systems that power Amazon's legendary Weekly Business Reviews (WBRs) and operational decision making. Unlike pure analysts, BIEs are engineers who write production code - you'll build scalable ETL pipelines, optimize query performance, and create self-service analytics platforms. The role sits at the intersection of data engineering and business intelligence, requiring both technical depth and business acumen. BIEs work across Amazon's diverse businesses: retail operations, AWS growth metrics, advertising effectiveness, logistics optimization, and financial planning. Career progression leads to Senior BIE, Principal BIE, or transitions to data engineering, data science, or product management roles. The work directly impacts how Amazon's leadership makes decisions that affect millions of customers.",
+      responsibilities: [
+        "Design and build data warehouses and data marts supporting business analytics",
+        "Develop ETL pipelines that reliably process and transform large datasets",
+        "Create dashboards and visualizations that drive business decisions",
+        "Write complex SQL to analyze data and generate insights",
+        "Build self-service analytics platforms enabling business teams to access data",
+        "Optimize query performance and data infrastructure for cost and speed",
+        "Partner with business stakeholders to understand requirements and define metrics",
+        "Maintain data quality, validation, and monitoring systems",
+        "Document data models, transformations, and business logic",
+        "Collaborate with data engineers and data scientists on shared infrastructure"
+      ],
+      growthOpportunities: [
+        "Build analytical infrastructure powering decisions at Amazon scale",
+        "Career path: BIE → Senior BIE → Principal BIE → BI Manager",
+        "Path to data engineering, data science, or product management roles",
+        "Deep expertise in Amazon's operational excellence and metrics culture",
+        "Internal mobility across Amazon's diverse businesses",
+        "Direct exposure to senior leadership through WBR support",
+        "Build both technical and business skills",
+        "Access to AWS services and cutting-edge data technologies",
+        "Shape how Amazon makes data-driven decisions"
+      ],
+      interviewProcess: [
+        {
+          step: 1,
+          title: "Recruiter Screen",
+          description: "30-minute call discussing your background, BI experience, and interest in Amazon. The recruiter explains different BIE organizations and assesses fit based on your SQL, ETL, and business intelligence experience.",
+          duration: "30 minutes"
+        },
+        {
+          step: 2,
+          title: "Technical Phone Screen",
+          description: "60-minute interview covering SQL skills (you'll write queries), data modeling, and ETL concepts. The interviewer assesses your ability to solve business problems with data.",
+          duration: "60 minutes"
+        },
+        {
+          step: 3,
+          title: "Virtual On-site Loop (5 rounds)",
+          description: "Full interview day including: (1) SQL deep dive - complex queries, optimization, and data manipulation; (2) Data modeling round - design schemas for business analytics; (3) ETL/pipeline design - architect data pipelines for a real scenario; (4) Business case - analyze a business problem and present recommendations; (5) Bar Raiser round - thorough LP assessment.",
+          duration: "5 hours"
+        },
+        {
+          step: 4,
+          title: "Debrief & Decision",
+          description: "Interviewers submit independent feedback. Bar Raiser ensures fair evaluation. Decisions typically within 5 business days.",
+          duration: "5 business days typical"
+        }
+      ],
+      technicalQuestions: [
+        "Write a SQL query to calculate month-over-month revenue growth by product category.",
+        "Design a data model for analyzing customer purchase behavior over time.",
+        "How would you build an ETL pipeline to refresh a daily dashboard with 100M rows?",
+        "Write a query to find the top 10 sellers by revenue with at least 100 orders.",
+        "Design a star schema for Amazon's retail sales analytics.",
+        "How would you handle slowly changing dimensions in your data warehouse?",
+        "Write a SQL query using window functions to calculate running totals.",
+        "Design a dashboard to monitor fulfillment center performance. What metrics would you include?",
+        "How would you optimize a query that's taking too long to run?",
+        "Write a query to identify customers who churned (no orders in 6 months).",
+        "Design an ETL process to reconcile data between two systems with discrepancies.",
+        "How would you implement data quality checks in an automated pipeline?",
+        "Write a query to calculate cohort retention rates.",
+        "Design a self-service analytics platform for business users. What components would you include?",
+        "How would you approach migrating a legacy reporting system to a modern data warehouse?",
+        "Write a query to find products with declining sales trend over the last 3 months.",
+        "Design a metrics framework for measuring Prime membership value."
+      ],
+      behavioralQuestions: [
+        "Tell me about a dashboard or report you built that drove business decisions. (Deliver Results)",
+        "Describe a complex ETL pipeline you designed. What challenges did you face? (Dive Deep)",
+        "Give an example of when you simplified a complicated reporting process. (Invent and Simplify)",
+        "Tell me about a time you identified a data quality issue. How did you handle it? (Ownership)",
+        "Describe how you've prioritized requests from multiple business stakeholders. (Customer Obsession)",
+        "Give an example of taking ownership of data infrastructure beyond your role. (Ownership)",
+        "Tell me about a time you learned a new technology to solve a problem. (Learn and Be Curious)",
+        "Describe how you've documented and made data accessible for self-service. (Earn Trust)",
+        "Give an example of raising the bar on data quality for your team. (Insist on the Highest Standards)",
+        "Tell me about a time you pushed back on a reporting request. Why? (Have Backbone)",
+        "Describe a time you had to meet a tight deadline with limited resources. (Frugality)",
+        "Give an example of when your analysis changed a business decision. (Deliver Results)",
+        "Tell me about a failed project. What did you learn? (Learn and Be Curious)",
+        "Describe how you communicate technical concepts to non-technical stakeholders. (Earn Trust)",
+        "Give an example of thinking big about a BI opportunity. (Think Big)"
+      ],
+      whatTheyLookFor: [
+        "Strong SQL skills: complex queries, optimization, and data manipulation",
+        "Data modeling expertise: dimensional modeling, schema design, normalization",
+        "ETL/pipeline skills: building reliable, scalable data transformation processes",
+        "Leadership Principles alignment: demonstrated through specific examples",
+        "Business acumen: understanding how data drives business decisions",
+        "Communication: translating between technical and business stakeholders",
+        "Programming skills: Python or similar for automation and analysis",
+        "Visualization: creating effective dashboards that drive action",
+        "Ownership mentality: taking responsibility for data quality and reliability",
+        "Problem-solving: debugging data issues and optimizing performance"
+      ],
+      interviewTips: [
+        "Practice SQL extensively - expect to write complex queries on screen share",
+        "Review dimensional modeling concepts: star schema, snowflake, SCDs",
+        "Prepare STAR stories for each Leadership Principle with BI examples",
+        "Practice ETL pipeline design - architecture, error handling, monitoring",
+        "Be ready to discuss how you've made data accessible for business users",
+        "Show business awareness - connect your work to business impact",
+        "Prepare examples of optimizing queries or data infrastructure",
+        "Demonstrate ownership - discuss how you've ensured data quality",
+        "Research the specific team and their business domain",
+        "Practice explaining technical concepts to non-technical audiences",
+        "Quantify your impact: 'reduced report generation time by 70%'",
+        "Be ready for the Bar Raiser - LP questions are critical",
+        "Prepare questions about the team's data stack and current challenges",
+        "Know AWS data services: Redshift, Athena, QuickSight, Glue"
+      ],
+      salary: {
+        min: 100000,
+        max: 180000
+      },
+      compensation: [
+        "Competitive base salary with level-based progression",
+        "Sign-on bonus ($15-40K over 2 years)",
+        "RSUs with 5/15/40/40 vesting schedule",
+        "Annual stock refreshers based on performance",
+        "Comprehensive health, dental, and vision insurance",
+        "401(k) with company match",
+        "Relocation assistance for eligible moves",
+        "Professional development and training budget",
+        "AWS certification support",
+        "Amazon Prime membership and employee discounts"
+      ],
+      dayInLife: {
+        overview: "Business Intelligence Engineers balance pipeline development with dashboard creation and stakeholder partnership. Days include SQL work, ETL development, and meetings with business teams.",
+        schedule: [
+          { time: "9:00 AM", activity: "Data validation", description: "Check overnight ETL runs, validate data quality, triage any failures" },
+          { time: "9:30 AM", activity: "Team standup", description: "Quick sync on progress, blockers, and priorities" },
+          { time: "10:00 AM", activity: "SQL development", description: "Write queries, build new reports, or optimize existing ones" },
+          { time: "11:00 AM", activity: "Stakeholder meeting", description: "Meet with business team to understand requirements or review deliverables" },
+          { time: "12:00 PM", activity: "Lunch", description: "Break, often combined with learning or team discussions" },
+          { time: "1:00 PM", activity: "Pipeline development", description: "Build or improve ETL pipelines - coding, testing, monitoring" },
+          { time: "3:00 PM", activity: "WBR prep", description: "Prepare data and reports for Weekly Business Review" },
+          { time: "4:00 PM", activity: "Dashboard work", description: "Create or improve visualizations and self-service tools" },
+          { time: "5:00 PM", activity: "Documentation", description: "Document data models, logic, and update data catalog" },
+          { time: "5:30 PM", activity: "End of day", description: "Wrap up, plan tomorrow's priorities" }
+        ]
+      },
+      similarRoles: [
+        { companyName: "Google", companySlug: "google", industry: "Technology" },
+        { companyName: "Meta", companySlug: "meta", industry: "Technology" },
+        { companyName: "Microsoft", companySlug: "microsoft", industry: "Technology" },
+        { companyName: "Uber", companySlug: "uber", industry: "Technology" },
+        { companyName: "Airbnb", companySlug: "airbnb", industry: "Technology" }
+      ]
     }
   },
   'meta': {
