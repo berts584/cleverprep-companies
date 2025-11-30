@@ -24118,6 +24118,605 @@ export const rolePageContent = {
         closing: "Salesforce Data Scientists enjoy the unique opportunity to work with rich enterprise data while building AI that genuinely helps businesses succeed."
       },
       similarRoles: ["Software Engineer", "AI/ML Engineer", "Product Manager", "Technical Architect"]
+    },
+    'technical-architect': {
+      roleDescription: "Technical Architects at Salesforce design and lead the delivery of complex enterprise solutions for Salesforce's most strategic customers. You'll architect solutions spanning multiple Salesforce clouds (Sales, Service, Marketing, Commerce, Experience), integrations with external systems, and customizations using Apex, Lightning Web Components, and Flow. The role sits at the intersection of technology and business, requiring deep technical expertise combined with consultative skills to translate customer requirements into scalable, performant architectures. Salesforce Technical Architects work across the customer lifecycle—from pre-sales solution design to implementation oversight and ongoing optimization. With Salesforce's continued investment in AI through Einstein and Agentforce, architects are increasingly designing solutions that incorporate intelligent automation and autonomous agents. The Certified Technical Architect (CTA) credential is one of the most prestigious in the Salesforce ecosystem, with demand for architects growing 1,292% over recent years.",
+      responsibilities: [
+        "Design scalable, secure Salesforce solutions for enterprise customers",
+        "Lead technical design sessions translating business requirements into architecture",
+        "Guide implementation teams on best practices and governance",
+        "Design integrations between Salesforce and external systems",
+        "Evaluate technical risks and develop mitigation strategies",
+        "Create architecture documentation and technical specifications",
+        "Partner with pre-sales on solution design for complex opportunities",
+        "Mentor developers and consultants on Salesforce architecture patterns",
+        "Stay current on Salesforce releases and incorporate new capabilities"
+      ],
+      growthOpportunities: [
+        "Work on complex solutions for Fortune 500 and strategic customers",
+        "Clear path to Certified Technical Architect (CTA) credential",
+        "Demand for architects growing 1,292% annually in ecosystem",
+        "Transition to customer-facing leadership or product roles",
+        "Work across all Salesforce clouds and emerging AI capabilities",
+        "High visibility role with direct customer and executive engagement",
+        "Competitive compensation among highest in Salesforce ecosystem",
+        "Global travel opportunities for customer engagements"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of architecture background and Salesforce experience"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "60 minutes",
+          description: "Deep dive into technical architecture experience and customer engagement"
+        },
+        {
+          stage: "Technical Architecture Review",
+          duration: "90 minutes",
+          description: "Present and defend a solution architecture you've designed"
+        },
+        {
+          stage: "Scenario-Based Design",
+          duration: "60 minutes",
+          description: "Design a multi-cloud Salesforce solution for a given scenario"
+        },
+        {
+          stage: "Stakeholder Management",
+          duration: "45 minutes",
+          description: "Role-play customer engagement demonstrating communication skills"
+        },
+        {
+          stage: "Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and customer success"
+        }
+      ],
+      technicalQuestions: [
+        "Design a multi-cloud Salesforce solution for a global retailer",
+        "How would you architect a high-volume Service Cloud implementation?",
+        "Design the integration architecture between Salesforce and SAP",
+        "How would you approach data migration for 50M+ records?",
+        "Design a solution handling 10K+ API calls per minute",
+        "How would you architect a B2B Commerce implementation?",
+        "Design the identity and access management strategy for SSO",
+        "How would you handle governor limits in a high-volume org?",
+        "Design a marketing automation solution across multiple business units",
+        "How would you architect an Einstein AI-enhanced service solution?",
+        "Design the release management strategy for a multi-team project",
+        "How would you approach performance optimization for a slow org?",
+        "Design a solution for complex CPQ (Configure-Price-Quote) requirements",
+        "How would you architect a customer 360 view across channels?",
+        "Design the disaster recovery strategy for a mission-critical implementation"
+      ],
+      behavioralQuestions: [
+        "Tell me about a complex architecture you designed and delivered",
+        "Describe navigating conflicting requirements from stakeholders",
+        "How have you handled a technical decision that was challenged?",
+        "Tell me about coaching a customer on Salesforce best practices",
+        "Describe a solution that didn't go as planned and what you learned",
+        "How have you influenced a customer to change their approach?",
+        "Tell me about balancing innovation with enterprise stability",
+        "Describe working with offshore or distributed implementation teams",
+        "How have you handled scope creep in architecture engagements?",
+        "Tell me about explaining complex technical concepts to executives",
+        "Describe mentoring junior architects or developers",
+        "How have you stayed current with Salesforce's rapid release cycle?",
+        "Tell me about a creative solution to an unusual customer problem",
+        "Describe managing expectations when a solution had limitations",
+        "How have you contributed to customer success beyond the project?"
+      ],
+      whatTheyLookFor: [
+        "Deep Salesforce platform knowledge across multiple clouds",
+        "Experience designing enterprise-scale solutions",
+        "Strong understanding of integration patterns and middleware",
+        "Excellent communication skills for executive audiences",
+        "Track record of successful implementation delivery",
+        "Salesforce certifications (Platform Developer, Application Architect)",
+        "Customer-facing presence and consultative skills",
+        "Understanding of enterprise architecture principles",
+        "Alignment with Salesforce values and Ohana culture",
+        "Ability to mentor and lead technical teams"
+      ],
+      interviewTips: [
+        "Prepare to present and defend an architecture you've designed",
+        "Study multi-cloud solution patterns across Salesforce products",
+        "Be ready for scenario-based design exercises",
+        "Understand integration patterns (ETL, ESB, API-led)",
+        "Know Salesforce governor limits and optimization strategies",
+        "Prepare examples of customer stakeholder management",
+        "Study the CTA board review format even if not certified",
+        "Show balance of technical depth and business understanding",
+        "Understand Einstein AI and how it fits into solutions",
+        "Be ready to discuss trade-offs in architecture decisions",
+        "Know Salesforce's security model and compliance capabilities",
+        "Prepare questions about the customer portfolio and challenges",
+        "Show passion for customer success and Ohana values",
+        "Demonstrate continuous learning with Salesforce releases"
+      ],
+      salary: {
+        min: 180000,
+        max: 350000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $180,000 - $350,000 depending on level",
+        "Annual bonus typically 15-20% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Certification bonus for CTA achievement",
+        "Travel expenses for customer engagements",
+        "7 days paid volunteer time off annually",
+        "Conference attendance (Dreamforce, TrailheadDX)"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Technical Architect at Salesforce involves customer engagement, solution design, and technical leadership across complex projects.",
+        schedule: [
+          "8:30 AM - Review customer requirements documentation",
+          "9:00 AM - Solution design session with customer technical team",
+          "11:00 AM - Internal sync with delivery team on implementation approach",
+          "12:00 PM - Lunch with solution engineering discussing pre-sales opportunity",
+          "1:00 PM - Architecture review for multi-cloud integration design",
+          "2:30 PM - Customer executive presentation on proposed architecture",
+          "3:30 PM - Mentor junior consultant on integration patterns",
+          "4:30 PM - Document architecture decisions and rationale",
+          "5:30 PM - Review new Salesforce release features for customer impact"
+        ],
+        closing: "Salesforce Technical Architects enjoy the intellectual challenge of designing complex solutions while building lasting relationships with customers."
+      },
+      similarRoles: ["Solution Engineer", "Software Engineer", "Success Architect", "Engineering Manager"]
+    },
+    'solution-engineer': {
+      roleDescription: "Solution Engineers at Salesforce are the technical backbone of the sales organization, demonstrating how Salesforce products solve real business problems for prospective customers. You'll partner with Account Executives on strategic opportunities, delivering compelling product demonstrations, building proof-of-concept solutions, and designing architectures that address customer requirements. The role combines deep Salesforce technical knowledge with sales acumen—you're equally comfortable coding a custom demo as presenting to a C-suite audience. Solution Engineers work across the full Salesforce portfolio including Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, Einstein AI, and Agentforce. With Salesforce's focus on AI, SEs increasingly demonstrate how autonomous agents and intelligent automation transform business processes. The role offers a unique blend of technical work and customer engagement, with significant earning potential through the commission component.",
+      responsibilities: [
+        "Deliver product demonstrations tailored to customer business needs",
+        "Build proof-of-concept solutions for strategic opportunities",
+        "Design solution architectures addressing customer requirements",
+        "Partner with Account Executives throughout the sales cycle",
+        "Respond to RFPs and technical questions from prospects",
+        "Present Salesforce's vision and roadmap to customer executives",
+        "Conduct discovery sessions understanding customer pain points",
+        "Stay current on Salesforce products, competitors, and industry trends",
+        "Contribute to demo assets and best practices for the SE team"
+      ],
+      growthOpportunities: [
+        "High earning potential through base + commission structure",
+        "Work with Fortune 500 companies and strategic accounts",
+        "Clear path to Principal SE, SE Manager, or Solution Architect",
+        "Develop expertise across all Salesforce clouds and AI",
+        "Build lasting relationships with customers and executives",
+        "Travel opportunities for customer engagements and events",
+        "Strong Ohana culture with work-life balance focus",
+        "Transition paths to product, customer success, or leadership"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of SE background and Salesforce experience"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "45 minutes",
+          description: "Deep dive into sales engineering experience and customer engagement"
+        },
+        {
+          stage: "Demo Presentation",
+          duration: "60 minutes",
+          description: "Deliver a product demonstration to a mock customer scenario"
+        },
+        {
+          stage: "Technical Assessment",
+          duration: "45 minutes",
+          description: "Salesforce platform knowledge and solution design questions"
+        },
+        {
+          stage: "Cross-functional Interview",
+          duration: "45 minutes",
+          description: "Discussion with sales leadership on collaboration approach"
+        },
+        {
+          stage: "Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and customer success"
+        }
+      ],
+      technicalQuestions: [
+        "How would you demonstrate Sales Cloud value to a sales leader?",
+        "Design a solution for a customer with complex approval requirements",
+        "How would you position Salesforce against Microsoft Dynamics?",
+        "Demonstrate how Einstein AI improves sales productivity",
+        "Design a Service Cloud solution for an omnichannel contact center",
+        "How would you handle objections about Salesforce's pricing?",
+        "Demonstrate the value of Agentforce autonomous agents",
+        "Design a solution for a customer with Salesforce and SAP integration needs",
+        "How would you approach a technical evaluation against a competitor?",
+        "Demonstrate Marketing Cloud personalization capabilities",
+        "Design a B2B Commerce solution for a manufacturer",
+        "How would you position Data Cloud for customer 360 use cases?",
+        "Demonstrate Flow automation for a business process",
+        "Design a solution for a customer in a regulated industry",
+        "How would you scope a proof-of-concept for a complex opportunity?"
+      ],
+      behavioralQuestions: [
+        "Tell me about a deal you helped win with a compelling demo",
+        "Describe handling technical objections from a skeptical customer",
+        "How have you partnered effectively with Account Executives?",
+        "Tell me about a proof-of-concept that exceeded expectations",
+        "Describe a situation where you had to deliver difficult news to a customer",
+        "How have you positioned Salesforce against competitors?",
+        "Tell me about tailoring a demo for different audience levels",
+        "Describe building relationships with customer technical teams",
+        "How have you handled a demo that didn't go as planned?",
+        "Tell me about staying current with Salesforce's rapid release cycle",
+        "Describe contributing to the broader SE team's success",
+        "How have you balanced multiple opportunities simultaneously?",
+        "Tell me about a creative solution you developed for a customer",
+        "Describe transitioning a customer from sales to implementation",
+        "How have you embodied Salesforce values in customer engagements?"
+      ],
+      whatTheyLookFor: [
+        "Strong Salesforce platform knowledge (Admin, Developer certifications)",
+        "Excellent presentation and demonstration skills",
+        "Ability to translate business needs into technical solutions",
+        "Sales acumen and understanding of enterprise sales cycles",
+        "Customer-facing presence with executive communication skills",
+        "Problem-solving ability for diverse customer scenarios",
+        "Collaborative approach working with sales and delivery teams",
+        "Alignment with Salesforce values and Ohana culture",
+        "Technical curiosity and continuous learning mindset",
+        "Resilience and positive attitude in competitive situations"
+      ],
+      interviewTips: [
+        "Prepare a polished demo that tells a compelling story",
+        "Practice handling common objections and competitor comparisons",
+        "Know Salesforce products across all clouds deeply",
+        "Be ready to design solutions live for customer scenarios",
+        "Understand enterprise sales cycles and SE's role in them",
+        "Show balance of technical expertise and business acumen",
+        "Prepare examples of customer success from your demos",
+        "Research Salesforce's competitive positioning",
+        "Understand Einstein AI, Data Cloud, and Agentforce",
+        "Be ready to discuss how you stay current with releases",
+        "Show genuine passion for helping customers succeed",
+        "Prepare questions about the territory and account focus",
+        "Demonstrate collaborative approach with sales partners",
+        "Show alignment with Ohana culture and values"
+      ],
+      salary: {
+        min: 140000,
+        max: 280000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $140,000 - $200,000 depending on level",
+        "On-target earnings (OTE) with commission: $200,000 - $350,000+",
+        "Commission tied to team and individual deal performance",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Travel and entertainment budget for customers",
+        "7 days paid volunteer time off annually",
+        "Presidents Club trips for top performers"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Solution Engineer at Salesforce involves customer demonstrations, solution design, and close partnership with the sales team.",
+        schedule: [
+          "8:30 AM - Prepare demo environment for morning customer presentation",
+          "9:30 AM - Customer demo presenting Service Cloud capabilities",
+          "11:00 AM - Debrief with Account Executive on demo feedback",
+          "12:00 PM - Lunch with SE team sharing demo best practices",
+          "1:00 PM - Discovery call understanding new prospect's requirements",
+          "2:30 PM - Build proof-of-concept solution for strategic opportunity",
+          "4:00 PM - Review RFP response with sales team",
+          "5:00 PM - Research customer's industry for upcoming presentation",
+          "5:30 PM - Update demo org with latest release features"
+        ],
+        closing: "Salesforce Solution Engineers enjoy the variety of customer engagements and the satisfaction of helping win deals that transform how businesses operate."
+      },
+      similarRoles: ["Technical Architect", "Customer Success Manager", "Product Manager", "Software Engineer"]
+    },
+    'customer-success-manager': {
+      roleDescription: "Customer Success Managers at Salesforce ensure customers achieve their business outcomes and maximize value from their Salesforce investment. You'll own a portfolio of enterprise accounts, building relationships from C-suite to end users, driving adoption, and identifying expansion opportunities. CSMs are trusted advisors who understand both the Salesforce platform and their customers' business challenges, connecting the two to deliver measurable results. The role sits at the intersection of relationship management, technical knowledge, and business consulting. With Salesforce's subscription model, customer success directly impacts revenue retention and growth—making CSMs critical to the company's success. You'll leverage Success Plans, adoption metrics, and business reviews to proactively identify risks and opportunities. Salesforce's Ohana culture extends to customers, and CSMs embody this by genuinely caring about their customers' success beyond just renewal metrics.",
+      responsibilities: [
+        "Own relationships with a portfolio of enterprise customer accounts",
+        "Develop Success Plans aligning Salesforce capabilities to business outcomes",
+        "Drive product adoption and usage across customer organizations",
+        "Conduct Executive Business Reviews demonstrating value and ROI",
+        "Identify and mitigate churn risks through proactive engagement",
+        "Partner with sales on expansion and cross-sell opportunities",
+        "Advocate for customers internally across product and support",
+        "Build relationships from executive sponsors to end users",
+        "Connect customers with resources (training, community, partners)"
+      ],
+      growthOpportunities: [
+        "Own strategic enterprise accounts with significant business impact",
+        "Clear path to Senior CSM, CSM Manager, and leadership roles",
+        "Develop expertise across industries and Salesforce products",
+        "Strong earning potential with expansion bonuses",
+        "Build lasting relationships with customer executives",
+        "Transition paths to sales, product, or consulting roles",
+        "Global travel opportunities for customer engagements",
+        "1-1-1 model providing community engagement opportunities"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of customer success background and Salesforce experience"
+        },
+        {
+          stage: "Hiring Manager Interview",
+          duration: "45 minutes",
+          description: "Deep dive into account management and customer relationship experience"
+        },
+        {
+          stage: "Customer Scenario Role-Play",
+          duration: "60 minutes",
+          description: "Conduct a mock business review or handle a customer escalation"
+        },
+        {
+          stage: "Cross-functional Interview",
+          duration: "45 minutes",
+          description: "Discussion with sales and support partners on collaboration"
+        },
+        {
+          stage: "Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and customer obsession"
+        }
+      ],
+      technicalQuestions: [
+        "How would you measure and demonstrate ROI for a customer?",
+        "Design an adoption strategy for a new Sales Cloud implementation",
+        "How would you approach a customer with declining usage metrics?",
+        "Create a Success Plan for a customer expanding to Service Cloud",
+        "How would you handle a customer considering switching to a competitor?",
+        "Design an Executive Business Review for a strategic account",
+        "How would you identify expansion opportunities in your portfolio?",
+        "Approach for a customer struggling with user adoption",
+        "How would you prioritize across accounts with competing needs?",
+        "Design an enablement program for a customer's admin team",
+        "How would you leverage Einstein AI to demonstrate value?",
+        "Approach for escalating a critical customer issue internally",
+        "How would you build relationships across a customer organization?",
+        "Design a health score framework for your account portfolio",
+        "How would you prepare a customer for renewal conversations?"
+      ],
+      behavioralQuestions: [
+        "Tell me about turning around a customer relationship at risk",
+        "Describe demonstrating value that led to an expansion deal",
+        "How have you handled a customer escalation to executives?",
+        "Tell me about building a relationship with a difficult stakeholder",
+        "Describe advocating for a customer need internally",
+        "How have you balanced multiple demanding accounts?",
+        "Tell me about a customer success story you're proud of",
+        "Describe handling a situation where you couldn't meet expectations",
+        "How have you partnered with sales on expansion opportunities?",
+        "Tell me about coaching a customer on Salesforce best practices",
+        "Describe building executive relationships with C-suite sponsors",
+        "How have you used data to drive customer conversations?",
+        "Tell me about a creative solution for a customer challenge",
+        "Describe transitioning a customer through organizational change",
+        "How have you embodied Ohana values with your customers?"
+      ],
+      whatTheyLookFor: [
+        "Strong relationship-building and communication skills",
+        "Experience managing enterprise customer portfolios",
+        "Understanding of Salesforce platform and products",
+        "Business acumen to connect technology to outcomes",
+        "Track record of driving adoption and retention",
+        "Executive presence for C-suite engagement",
+        "Problem-solving ability for diverse customer challenges",
+        "Collaborative approach with sales and support partners",
+        "Alignment with Salesforce values and Ohana culture",
+        "Data-driven approach to customer health and success"
+      ],
+      interviewTips: [
+        "Prepare specific customer success stories with metrics",
+        "Practice conducting an Executive Business Review",
+        "Understand Salesforce's customer success methodology",
+        "Be ready to discuss portfolio management strategies",
+        "Know how to calculate and communicate customer ROI",
+        "Prepare for role-play scenarios with difficult customers",
+        "Show balance of relationship skills and business acumen",
+        "Understand Salesforce products at a functional level",
+        "Research the customer segment you'd be supporting",
+        "Be ready to discuss adoption and change management",
+        "Show genuine passion for customer success beyond metrics",
+        "Prepare questions about the portfolio and team structure",
+        "Demonstrate data-driven approach to account management",
+        "Show alignment with Ohana culture and values"
+      ],
+      salary: {
+        min: 120000,
+        max: 200000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $120,000 - $160,000 depending on level",
+        "Variable compensation for retention and expansion: $40,000 - $80,000",
+        "Total on-target earnings: $160,000 - $240,000",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Travel budget for customer visits",
+        "7 days paid volunteer time off annually",
+        "Customer success achievement awards"
+      ],
+      dayInLife: {
+        intro: "A typical day as a Customer Success Manager at Salesforce involves customer engagement, strategic planning, and cross-functional collaboration.",
+        schedule: [
+          "8:30 AM - Review customer health scores and adoption metrics",
+          "9:00 AM - Preparation for Executive Business Review",
+          "10:00 AM - Executive Business Review with strategic customer",
+          "11:30 AM - Internal sync with Account Executive on expansion",
+          "12:30 PM - Lunch with fellow CSMs sharing best practices",
+          "1:30 PM - Customer call addressing adoption challenges",
+          "3:00 PM - Update Success Plans for portfolio accounts",
+          "4:00 PM - Partner with support on customer escalation",
+          "5:00 PM - Prepare for tomorrow's customer engagements"
+        ],
+        closing: "Salesforce Customer Success Managers enjoy building meaningful relationships while directly impacting how customers transform their businesses."
+      },
+      similarRoles: ["Solution Engineer", "Technical Architect", "Success Architect", "Product Manager"]
+    },
+    'ux-designer': {
+      roleDescription: "UX Designers at Salesforce craft the experiences that over 150,000 companies use to run their businesses. You'll design interfaces for enterprise products including Sales Cloud, Service Cloud, Marketing Cloud, and Platform—each used by millions of users daily for critical business processes. Salesforce UX challenges are unique: designing for diverse user personas from sales reps to service agents to administrators, creating consistency across a massive product suite, and balancing power with simplicity. The Salesforce Lightning Design System provides the foundation, but designers innovate within and extend it. With Salesforce's investment in AI through Einstein and Agentforce, designers increasingly shape how autonomous agents and intelligent automation integrate into workflows. The UX team works within the Ohana culture, emphasizing accessibility, inclusion, and designing for diverse global users. User research is integral—designers engage directly with customers through research programs and events like Dreamforce.",
+      responsibilities: [
+        "Design user experiences for enterprise Salesforce products",
+        "Conduct user research to understand customer needs and pain points",
+        "Create wireframes, prototypes, and high-fidelity designs",
+        "Contribute to and extend the Lightning Design System",
+        "Partner with product and engineering throughout development",
+        "Design for accessibility and inclusive experiences",
+        "Test designs with users and iterate based on feedback",
+        "Present design work to stakeholders and leadership",
+        "Collaborate with designers across the organization on patterns"
+      ],
+      growthOpportunities: [
+        "Design products used by millions of enterprise users daily",
+        "Shape the Lightning Design System influencing all Salesforce products",
+        "Work on AI-powered experiences with Einstein and Agentforce",
+        "Clear career path from Designer to Senior, Principal, and Director",
+        "Direct customer engagement through research and Dreamforce",
+        "Strong Ohana culture emphasizing work-life balance",
+        "Competitive compensation with meaningful equity",
+        "Influence enterprise UX across the industry"
+      ],
+      interviewProcess: [
+        {
+          stage: "Recruiter Screen",
+          duration: "30 minutes",
+          description: "Discussion of design background and Salesforce interest"
+        },
+        {
+          stage: "Portfolio Review",
+          duration: "60 minutes",
+          description: "Deep dive into portfolio work with hiring manager"
+        },
+        {
+          stage: "Design Exercise",
+          duration: "90-120 minutes",
+          description: "Design challenge for a Salesforce-relevant problem (often take-home)"
+        },
+        {
+          stage: "Design Presentation",
+          duration: "60 minutes",
+          description: "Present design exercise solution to design panel"
+        },
+        {
+          stage: "Cross-functional Interview",
+          duration: "45 minutes",
+          description: "Discussion with product and engineering partners"
+        },
+        {
+          stage: "Values & Culture",
+          duration: "45 minutes",
+          description: "Behavioral interview on Salesforce values and collaboration"
+        }
+      ],
+      technicalQuestions: [
+        "How would you improve the Sales Cloud opportunity detail page?",
+        "Design an AI assistant experience integrated into Salesforce",
+        "How would you approach designing for first-time Salesforce admins?",
+        "Design a mobile experience for field service technicians",
+        "How would you improve data visualization in Salesforce reports?",
+        "Design an onboarding experience for new Salesforce users",
+        "How would you approach accessibility for enterprise software?",
+        "Design an experience for managing AI agents in Agentforce",
+        "How would you design for consistency across Salesforce clouds?",
+        "Design a workflow builder for business users",
+        "How would you approach localization for global enterprise users?",
+        "Design an experience helping users recover from errors",
+        "How would you balance power-user needs with simplicity?",
+        "Design a dashboard customization experience",
+        "How would you improve discoverability of Salesforce features?"
+      ],
+      behavioralQuestions: [
+        "Walk me through a design project from research to launch",
+        "Tell me about designing for diverse user personas",
+        "Describe handling conflicting feedback from stakeholders",
+        "How have you advocated for user needs against business pressure?",
+        "Tell me about designing for accessibility",
+        "Describe collaborating with engineers on a complex feature",
+        "How have you influenced product direction through design?",
+        "Tell me about a design that didn't test well and what you learned",
+        "Describe contributing to a design system",
+        "How have you balanced speed with design quality?",
+        "Tell me about designing for enterprise vs consumer users",
+        "Describe presenting design to skeptical stakeholders",
+        "How have you incorporated user research into your process?",
+        "Tell me about mentoring other designers",
+        "How have you contributed to team culture and Ohana values?"
+      ],
+      whatTheyLookFor: [
+        "Strong portfolio demonstrating end-to-end product design",
+        "Experience designing enterprise or B2B applications",
+        "Proficiency with design tools (Figma, Sketch, prototyping)",
+        "Understanding of design systems and component-based design",
+        "User research skills and empathy for diverse users",
+        "Excellent visual and interaction design abilities",
+        "Strong communication and presentation skills",
+        "Collaborative approach with product and engineering",
+        "Commitment to accessibility and inclusive design",
+        "Alignment with Salesforce values and Ohana culture"
+      ],
+      interviewTips: [
+        "Prepare a portfolio with detailed enterprise UX case studies",
+        "Use Salesforce products and form specific design opinions",
+        "Study the Lightning Design System thoroughly",
+        "Practice presenting design work to diverse audiences",
+        "Be ready for a take-home or live design exercise",
+        "Understand enterprise UX challenges (complexity, personas, scale)",
+        "Show user research integrated throughout your process",
+        "Demonstrate accessibility knowledge and practices",
+        "Prepare examples of cross-functional collaboration",
+        "Understand how AI might change enterprise UX",
+        "Show genuine passion for solving complex problems",
+        "Prepare questions about the design team and culture",
+        "Be ready to discuss trade-offs in design decisions",
+        "Show alignment with Ohana values and inclusive design"
+      ],
+      salary: {
+        min: 130000,
+        max: 260000,
+        currency: "USD"
+      },
+      compensation: [
+        "Base salary range: $130,000 - $260,000 depending on level",
+        "Annual bonus typically 10-15% of base salary",
+        "RSU grants vesting over 4 years",
+        "Employee Stock Purchase Plan (ESPP)",
+        "401(k) with company match",
+        "Comprehensive health benefits",
+        "Design tools and equipment budget",
+        "Conference attendance (design events, Dreamforce)",
+        "7 days paid volunteer time off annually",
+        "Education reimbursement for design courses"
+      ],
+      dayInLife: {
+        intro: "A typical day as a UX Designer at Salesforce involves creative design work, user research, and cross-functional collaboration within the Ohana culture.",
+        schedule: [
+          "9:00 AM - Review user research findings from recent study",
+          "9:30 AM - Design exploration for new AI feature",
+          "11:00 AM - Design critique session with UX team",
+          "12:00 PM - Lunch with product manager discussing roadmap",
+          "1:00 PM - Cross-functional sync with engineering on feasibility",
+          "2:30 PM - Prototype development for user testing",
+          "3:30 PM - User testing session with customer",
+          "4:30 PM - Document design decisions and rationale",
+          "5:30 PM - Contribute updates to Lightning Design System"
+        ],
+        closing: "Salesforce UX Designers enjoy solving complex enterprise problems while directly impacting how millions of users work every day."
+      },
+      similarRoles: ["Product Manager", "Software Engineer", "UX Researcher", "Design System Engineer"]
     }
   },
   'doordash': {
